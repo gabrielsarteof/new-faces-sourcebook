@@ -57,6 +57,15 @@ reorganizar pastas não quebra a rastreabilidade.
 [`INDEX.md`](INDEX.md) lista todos os 99 documentos com id, versão, camada e
 caminho, mais o backlog de material previsto e ainda não escrito.
 
+A seção de backlog é gerada, não escrita à mão. Um documento que linka para outro
+ainda inexistente não está quebrado — está declarando o que falta. Depois de
+escrever um documento novo ou mudar um link:
+
+```bash
+node tools/check-links.mjs           # verifica; sai 1 se o INDEX estiver defasado
+node tools/check-links.mjs --write   # regrava a seção de backlog
+```
+
 ## Uso como submódulo
 
 Repositório: `new-faces-sourcebook`. Ponto de montagem no consumidor: `sourcebook/`.

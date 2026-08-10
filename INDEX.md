@@ -254,70 +254,72 @@ quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
 **64 alvos distintos, em 70 referências.**
 
-- `basic/earth.md`
-- `basic/fire.md`
-- `basic/lightning.md`
-- `basic/water.md`
-- `basic/wind.md`
-- `beast-communication.md`
-- `beast-partnership.md`
-- `black-flash.md`
-- `bug-techniques.md`
-- `bukijutsu.md`
-- `byakugan.md`
-- `caloric-control.md`
-- `chakra-control.md`
-- `chakra-fundamentals.md`
-- `chakra-nature-selection.md`
-- `chakra-natures-overview.md`
-- `collaboration-jutsu.md`
-- `cursed-energy-control.md`
-- `cursed-energy-fundamentals.md`
-- `destruction-bugs.md`
-- `dojutsu-evolution.md`
-- `domain-expansion.md`
-- `earth.md`
-- `expansions-overview.md`
-- `fire.md`
-- `futton.md`
-- `genjutsu.md`
-- `hyoton.md`
-- `inata-technique.md`
-- `infinity.md`
-- `initial-skills.md`
-- `jinton.md`
-- `jiton.md`
-- `lightning.md`
-- `mind-arts.md`
-- `mind-body-techniques.md`
-- `mokuton.md`
-- `nature-transformation.md`
-- `ninjutsu.md`
-- `rank-advancement.md`
-- `rinne-sharingan.md`
-- `rinnegan.md`
-- `sage-mode.md`
-- `selecting-clan.md`
-- `selecting-lineage.md`
-- `senjutsu.md`
-- `shadow-arts.md`
-- `shadow-techniques.md`
-- `sharingan-copy.md`
-- `sharingan.md`
-- `shinobi-ranks.md`
-- `sorcerer-grades.md`
-- `summoning-contracts.md`
-- `taijutsu.md`
-- `tailed-beast-mode.md`
-- `tailed-beasts.md`
-- `technique-extensions.md`
-- `ten-shadows.md`
-- `tenseigan.md`
-- `villages.md`
-- `water.md`
-- `wind.md`
-- `xp-training.md`
-- `yoton.md`
+Gerado por `tools/check-links.mjs`. Não editar à mão.
+
+- `basic/earth.md` — citado em worlds/naruto/natures/overview.md
+- `basic/fire.md` — citado em worlds/naruto/natures/overview.md
+- `basic/lightning.md` — citado em worlds/naruto/natures/overview.md
+- `basic/water.md` — citado em worlds/naruto/natures/overview.md
+- `basic/wind.md` — citado em worlds/naruto/natures/overview.md
+- `beast-communication.md` — citado em worlds/naruto/lineages/hiden.md
+- `beast-partnership.md` — citado em worlds/naruto/clans/inuzuka.md
+- `black-flash.md` — citado em worlds/jujutsu/combat/overview.md
+- `bug-techniques.md` — citado em worlds/naruto/lineages/hiden.md
+- `bukijutsu.md` — citado em worlds/naruto/combat/overview.md
+- `byakugan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `caloric-control.md` — citado em worlds/naruto/clans/akimichi.md
+- `chakra-control.md` — citado em worlds/naruto/heart/overview.md
+- `chakra-fundamentals.md` — citado em worlds/naruto/heart/overview.md
+- `chakra-nature-selection.md` — citado em worlds/naruto/character-creation/overview.md
+- `chakra-natures-overview.md` — citado em worlds/naruto/heart/overview.md
+- `collaboration-jutsu.md` — citado em worlds/naruto/combat/overview.md
+- `cursed-energy-control.md` — citado em worlds/jujutsu/heart/overview.md
+- `cursed-energy-fundamentals.md` — citado em worlds/jujutsu/heart/overview.md
+- `destruction-bugs.md` — citado em worlds/naruto/clans/aburame.md
+- `dojutsu-evolution.md` — citado em worlds/naruto/progression/overview.md
+- `domain-expansion.md` — citado em worlds/jujutsu/powers/overview.md
+- `earth.md` — citado em worlds/naruto/natures/basic.md
+- `expansions-overview.md` — citado em worlds/naruto/powers/overview.md
+- `fire.md` — citado em worlds/naruto/natures/basic.md
+- `futton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `genjutsu.md` — citado em worlds/naruto/combat/overview.md
+- `hyoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `inata-technique.md` — citado em worlds/naruto/character-creation/overview.md
+- `infinity.md` — citado em worlds/jujutsu/clans/gojo-six-eyes.md
+- `initial-skills.md` — citado em worlds/naruto/character-creation/overview.md
+- `jinton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `jiton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `lightning.md` — citado em worlds/naruto/natures/basic.md
+- `mind-arts.md` — citado em worlds/naruto/clans/yamanaka.md
+- `mind-body-techniques.md` — citado em worlds/naruto/lineages/hiden.md
+- `mokuton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `nature-transformation.md` — citado em worlds/naruto/heart/overview.md
+- `ninjutsu.md` — citado em worlds/naruto/combat/overview.md
+- `rank-advancement.md` — citado em worlds/naruto/progression/overview.md
+- `rinne-sharingan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `rinnegan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `sage-mode.md` — citado em worlds/naruto/powers/overview.md
+- `selecting-clan.md` — citado em worlds/naruto/character-creation/overview.md
+- `selecting-lineage.md` — citado em worlds/naruto/character-creation/overview.md
+- `senjutsu.md` — citado em worlds/naruto/combat/overview.md
+- `shadow-arts.md` — citado em worlds/naruto/clans/nara.md
+- `shadow-techniques.md` — citado em worlds/naruto/lineages/hiden.md
+- `sharingan-copy.md` — citado em worlds/naruto/clans/hatake.md
+- `sharingan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `shinobi-ranks.md` — citado em worlds/naruto/heart/overview.md
+- `sorcerer-grades.md` — citado em worlds/jujutsu/heart/overview.md
+- `summoning-contracts.md` — citado em worlds/naruto/heart/overview.md
+- `taijutsu.md` — citado em worlds/naruto/combat/overview.md
+- `tailed-beast-mode.md` — citado em worlds/naruto/powers/overview.md
+- `tailed-beasts.md` — citado em worlds/naruto/heart/overview.md
+- `technique-extensions.md` — citado em worlds/naruto/progression/overview.md
+- `ten-shadows.md` — citado em worlds/jujutsu/clans/zenin.md
+- `tenseigan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `villages.md` — citado em worlds/naruto/heart/overview.md
+- `water.md` — citado em worlds/naruto/natures/basic.md
+- `wind.md` — citado em worlds/naruto/natures/basic.md
+- `xp-training.md` — citado em worlds/naruto/progression/overview.md
+- `yoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
 
 ---
 
