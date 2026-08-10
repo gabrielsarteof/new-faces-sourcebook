@@ -17,12 +17,12 @@ Kekkei Genkai ("limite do mundo do sangue") são naturezas de chakra que combina
 
 | Nome | Combinação | Clã/Usuário | Arquivo |
 |---|---|---|---|
-| [Mokuton](mokuton.md) | Terra + Água | Senju / Hashirama | — |
-| [Hyōton](hyoton.md) | Vento + Água | Clã Yuki | — |
-| [Yōton](yoton.md) | Terra + Fogo | Han / Rōshi | — |
-| [Futton](futton.md) | Fogo + Água | Han (4ª cauda) | — |
-| [Jinton](jinton.md) | Terra + Vento + Fogo | Ōnoki | — |
-| [Jiton](jiton.md) | Terra + Relâmpago | 3° Kazekage | — |
+| [Mokuton](../natures/mokuton.md) | Terra + Água | Senju / Hashirama | — |
+| [Hyōton](../natures/hyoton.md) | Vento + Água | Clã Yuki | — |
+| [Yōton](../natures/yoton.md) | Terra + Fogo | Han / Rōshi | — |
+| [Futton](../natures/futton.md) | Fogo + Água | Han (4ª cauda) | — |
+| [Jinton](../natures/jinton.md) | Terra + Vento + Fogo | Ōnoki | — |
+| [Jiton](../natures/jiton.md) | Terra + Relâmpago | 3° Kazekage | — |
 
 ## Kekkei Tōta
 Jinton é o único **Kekkei Tōta** canônico — combina 3 naturezas em vez de 2. Extremamente raro.

@@ -252,74 +252,69 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**64 alvos distintos, em 70 referências.**
+**59 alvos distintos, em 70 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
-- `basic/earth.md` — citado em worlds/naruto/natures/overview.md
-- `basic/fire.md` — citado em worlds/naruto/natures/overview.md
-- `basic/lightning.md` — citado em worlds/naruto/natures/overview.md
-- `basic/water.md` — citado em worlds/naruto/natures/overview.md
-- `basic/wind.md` — citado em worlds/naruto/natures/overview.md
-- `beast-communication.md` — citado em worlds/naruto/lineages/hiden.md
-- `beast-partnership.md` — citado em worlds/naruto/clans/inuzuka.md
-- `black-flash.md` — citado em worlds/jujutsu/combat/overview.md
-- `bug-techniques.md` — citado em worlds/naruto/lineages/hiden.md
-- `bukijutsu.md` — citado em worlds/naruto/combat/overview.md
-- `byakugan.md` — citado em worlds/naruto/lineages/dojutsu.md
-- `caloric-control.md` — citado em worlds/naruto/clans/akimichi.md
-- `chakra-control.md` — citado em worlds/naruto/heart/overview.md
-- `chakra-fundamentals.md` — citado em worlds/naruto/heart/overview.md
-- `chakra-nature-selection.md` — citado em worlds/naruto/character-creation/overview.md
-- `chakra-natures-overview.md` — citado em worlds/naruto/heart/overview.md
-- `collaboration-jutsu.md` — citado em worlds/naruto/combat/overview.md
-- `cursed-energy-control.md` — citado em worlds/jujutsu/heart/overview.md
-- `cursed-energy-fundamentals.md` — citado em worlds/jujutsu/heart/overview.md
-- `destruction-bugs.md` — citado em worlds/naruto/clans/aburame.md
-- `dojutsu-evolution.md` — citado em worlds/naruto/progression/overview.md
-- `domain-expansion.md` — citado em worlds/jujutsu/powers/overview.md
-- `earth.md` — citado em worlds/naruto/natures/basic.md
-- `expansions-overview.md` — citado em worlds/naruto/powers/overview.md
-- `fire.md` — citado em worlds/naruto/natures/basic.md
-- `futton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
-- `genjutsu.md` — citado em worlds/naruto/combat/overview.md
-- `hyoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
-- `inata-technique.md` — citado em worlds/naruto/character-creation/overview.md
-- `infinity.md` — citado em worlds/jujutsu/clans/gojo-six-eyes.md
-- `initial-skills.md` — citado em worlds/naruto/character-creation/overview.md
-- `jinton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
-- `jiton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
-- `lightning.md` — citado em worlds/naruto/natures/basic.md
-- `mind-arts.md` — citado em worlds/naruto/clans/yamanaka.md
-- `mind-body-techniques.md` — citado em worlds/naruto/lineages/hiden.md
-- `mokuton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
-- `nature-transformation.md` — citado em worlds/naruto/heart/overview.md
-- `ninjutsu.md` — citado em worlds/naruto/combat/overview.md
-- `rank-advancement.md` — citado em worlds/naruto/progression/overview.md
-- `rinne-sharingan.md` — citado em worlds/naruto/lineages/dojutsu.md
-- `rinnegan.md` — citado em worlds/naruto/lineages/dojutsu.md
-- `sage-mode.md` — citado em worlds/naruto/powers/overview.md
-- `selecting-clan.md` — citado em worlds/naruto/character-creation/overview.md
-- `selecting-lineage.md` — citado em worlds/naruto/character-creation/overview.md
-- `senjutsu.md` — citado em worlds/naruto/combat/overview.md
-- `shadow-arts.md` — citado em worlds/naruto/clans/nara.md
-- `shadow-techniques.md` — citado em worlds/naruto/lineages/hiden.md
-- `sharingan-copy.md` — citado em worlds/naruto/clans/hatake.md
-- `sharingan.md` — citado em worlds/naruto/lineages/dojutsu.md
-- `shinobi-ranks.md` — citado em worlds/naruto/heart/overview.md
-- `sorcerer-grades.md` — citado em worlds/jujutsu/heart/overview.md
-- `summoning-contracts.md` — citado em worlds/naruto/heart/overview.md
-- `taijutsu.md` — citado em worlds/naruto/combat/overview.md
-- `tailed-beast-mode.md` — citado em worlds/naruto/powers/overview.md
-- `tailed-beasts.md` — citado em worlds/naruto/heart/overview.md
-- `technique-extensions.md` — citado em worlds/naruto/progression/overview.md
-- `ten-shadows.md` — citado em worlds/jujutsu/clans/zenin.md
-- `tenseigan.md` — citado em worlds/naruto/lineages/dojutsu.md
-- `villages.md` — citado em worlds/naruto/heart/overview.md
-- `water.md` — citado em worlds/naruto/natures/basic.md
-- `wind.md` — citado em worlds/naruto/natures/basic.md
-- `xp-training.md` — citado em worlds/naruto/progression/overview.md
-- `yoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `worlds/jujutsu/clans/infinity.md` — citado em worlds/jujutsu/clans/gojo-six-eyes.md
+- `worlds/jujutsu/clans/ten-shadows.md` — citado em worlds/jujutsu/clans/zenin.md
+- `worlds/jujutsu/combat/black-flash.md` — citado em worlds/jujutsu/combat/overview.md
+- `worlds/jujutsu/heart/cursed-energy-control.md` — citado em worlds/jujutsu/heart/overview.md
+- `worlds/jujutsu/heart/cursed-energy-fundamentals.md` — citado em worlds/jujutsu/heart/overview.md
+- `worlds/jujutsu/heart/sorcerer-grades.md` — citado em worlds/jujutsu/heart/overview.md
+- `worlds/jujutsu/powers/domain-expansion.md` — citado em worlds/jujutsu/powers/overview.md
+- `worlds/naruto/character-creation/chakra-nature-selection.md` — citado em worlds/naruto/character-creation/overview.md
+- `worlds/naruto/character-creation/inata-technique.md` — citado em worlds/naruto/character-creation/overview.md
+- `worlds/naruto/character-creation/initial-skills.md` — citado em worlds/naruto/character-creation/overview.md
+- `worlds/naruto/character-creation/selecting-clan.md` — citado em worlds/naruto/character-creation/overview.md
+- `worlds/naruto/character-creation/selecting-lineage.md` — citado em worlds/naruto/character-creation/overview.md
+- `worlds/naruto/clans/beast-partnership.md` — citado em worlds/naruto/clans/inuzuka.md
+- `worlds/naruto/clans/caloric-control.md` — citado em worlds/naruto/clans/akimichi.md
+- `worlds/naruto/clans/destruction-bugs.md` — citado em worlds/naruto/clans/aburame.md
+- `worlds/naruto/clans/mind-arts.md` — citado em worlds/naruto/clans/yamanaka.md
+- `worlds/naruto/clans/shadow-arts.md` — citado em worlds/naruto/clans/nara.md
+- `worlds/naruto/clans/sharingan-copy.md` — citado em worlds/naruto/clans/hatake.md
+- `worlds/naruto/combat/bukijutsu.md` — citado em worlds/naruto/combat/overview.md
+- `worlds/naruto/combat/collaboration-jutsu.md` — citado em worlds/naruto/combat/overview.md
+- `worlds/naruto/combat/genjutsu.md` — citado em worlds/naruto/combat/overview.md
+- `worlds/naruto/combat/ninjutsu.md` — citado em worlds/naruto/combat/overview.md
+- `worlds/naruto/combat/senjutsu.md` — citado em worlds/naruto/combat/overview.md
+- `worlds/naruto/combat/taijutsu.md` — citado em worlds/naruto/combat/overview.md
+- `worlds/naruto/heart/chakra-control.md` — citado em worlds/naruto/heart/overview.md
+- `worlds/naruto/heart/chakra-fundamentals.md` — citado em worlds/naruto/heart/overview.md
+- `worlds/naruto/heart/chakra-natures-overview.md` — citado em worlds/naruto/heart/overview.md
+- `worlds/naruto/heart/nature-transformation.md` — citado em worlds/naruto/heart/overview.md
+- `worlds/naruto/heart/shinobi-ranks.md` — citado em worlds/naruto/heart/overview.md
+- `worlds/naruto/heart/summoning-contracts.md` — citado em worlds/naruto/heart/overview.md
+- `worlds/naruto/heart/tailed-beasts.md` — citado em worlds/naruto/heart/overview.md
+- `worlds/naruto/heart/villages.md` — citado em worlds/naruto/heart/overview.md
+- `worlds/naruto/lineages/beast-communication.md` — citado em worlds/naruto/lineages/hiden.md
+- `worlds/naruto/lineages/bug-techniques.md` — citado em worlds/naruto/lineages/hiden.md
+- `worlds/naruto/lineages/byakugan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `worlds/naruto/lineages/mind-body-techniques.md` — citado em worlds/naruto/lineages/hiden.md
+- `worlds/naruto/lineages/rinne-sharingan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `worlds/naruto/lineages/rinnegan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `worlds/naruto/lineages/shadow-techniques.md` — citado em worlds/naruto/lineages/hiden.md
+- `worlds/naruto/lineages/sharingan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `worlds/naruto/lineages/tenseigan.md` — citado em worlds/naruto/lineages/dojutsu.md
+- `worlds/naruto/natures/earth.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
+- `worlds/naruto/natures/fire.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
+- `worlds/naruto/natures/futton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `worlds/naruto/natures/hyoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `worlds/naruto/natures/jinton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `worlds/naruto/natures/jiton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `worlds/naruto/natures/lightning.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
+- `worlds/naruto/natures/mokuton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `worlds/naruto/natures/water.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
+- `worlds/naruto/natures/wind.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
+- `worlds/naruto/natures/yoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
+- `worlds/naruto/powers/expansions-overview.md` — citado em worlds/naruto/powers/overview.md
+- `worlds/naruto/powers/sage-mode.md` — citado em worlds/naruto/powers/overview.md
+- `worlds/naruto/powers/tailed-beast-mode.md` — citado em worlds/naruto/powers/overview.md
+- `worlds/naruto/progression/dojutsu-evolution.md` — citado em worlds/naruto/progression/overview.md
+- `worlds/naruto/progression/rank-advancement.md` — citado em worlds/naruto/progression/overview.md
+- `worlds/naruto/progression/technique-extensions.md` — citado em worlds/naruto/progression/overview.md
+- `worlds/naruto/progression/xp-training.md` — citado em worlds/naruto/progression/overview.md
 
 ---
 

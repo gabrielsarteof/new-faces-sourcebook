@@ -1,0 +1,28 @@
+{
+  "tituloIgualId": [],
+  "sourceFileIndex": [],
+  "typeDivergente": [],
+  "outlierTamanho": [
+    {
+      "doc": "core/design-principles.md",
+      "type": "methodology",
+      "grupo": "core",
+      "linhas": 43,
+      "medianaDoGrupo": 185,
+      "percentualDaMediana": "23%"
+    },
+    {
+      "doc": "worlds/naruto/clans/hyuga-byakugan.md",
+      "type": "lineage",
+      "grupo": "sub-entidades de worlds/naruto/clans",
+      "linhas": 16,
+      "medianaDoGrupo": 140,
+      "percentualDaMediana": "11%",
+      "pares": [
+        "uchiha-mangekyo-sharingan.md: 140",
+        "uchiha-sharingan.md: 169"
+      ]
+    }
+  ],
+  "backlogDuplicado": []
+}

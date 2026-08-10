@@ -17,11 +17,11 @@ Todo chakra possui uma natureza de transformação. A maioria dos shinobi tem **
 
 | Natureza | Nome JP | Arquivo | Pontos Fortes |
 |---|---|---|---|
-| [Fogo](basic/fire.md) | Katon | — | Poder ofensivo, pressão, área |
-| [Vento](basic/wind.md) | Fūton | — | Corte, alcance, amplificação |
-| [Relâmpago](basic/lightning.md) | Raiton | — | Velocidade, perfuração, precisão |
-| [Terra](basic/earth.md) | Doton | — | Defesa, contenção, terreno |
-| [Água](basic/water.md) | Suiton | — | Fluxo, adaptação, controle de campo |
+| [Fogo](fire.md) | Katon | — | Poder ofensivo, pressão, área |
+| [Vento](wind.md) | Fūton | — | Corte, alcance, amplificação |
+| [Relâmpago](lightning.md) | Raiton | — | Velocidade, perfuração, precisão |
+| [Terra](earth.md) | Doton | — | Defesa, contenção, terreno |
+| [Água](water.md) | Suiton | — | Fluxo, adaptação, controle de campo |
 
 ## Ciclo de Relações
 ```

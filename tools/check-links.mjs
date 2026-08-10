@@ -60,8 +60,12 @@ for (const arquivo of arquivos) {
   for (const m of texto.matchAll(/\]\((?!https?:|#)([^)]+\.md)(?:#[^)]*)?\)/g)) {
     const alvo = path.posix.normalize(path.posix.join(dir, m[1]));
     if (existentes.has(alvo)) { resolvidos++; continue; }
-    if (!previstos.has(m[1])) previstos.set(m[1], []);
-    previstos.get(m[1]).push(rel);
+    // Agrupa pelo caminho RESOLVIDO, não pelo texto do link. Dois documentos em
+    // pastas diferentes citam o mesmo alvo por caminhos relativos distintos, e
+    // agrupar pelo literal contaria um documento faltante como dois — pior, faria
+    // convergir duas citações no mesmo arquivo parecer que um alvo novo surgiu.
+    if (!previstos.has(alvo)) previstos.set(alvo, []);
+    previstos.get(alvo).push(rel);
   }
 }
 
