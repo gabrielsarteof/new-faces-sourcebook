@@ -283,7 +283,7 @@ Proposta: todos os valores numéricos de efeito, as réguas, os custos e as capa
 
 PENDÊNCIAS
 
-Conversão de pool externo no Índice de Volume, aguardando Bestas Soberanas e jinchūriki. Régua de dificuldade do narrador, camada externa. Perícia de Sensoriamento, com os caminhos de percepção do registro antigo reservados como semente e a Supressão declarada como teste oposto. Transcendências de Emissão e Ancoragem, aguardando âncora canônica. Manual de Variações e Elevações Categóricas, consolidando a decisão do Suiton, o precedente do Ninjutsu Médico e a régua da Inovação de Forma, recebendo desta perícia a coluna de requisitos de caminho. Passada de nomeação deity-first das transcendências, hoje em nome descritivo.
+Conversão de pool externo no Índice de Volume, aguardando Bijuu e jinchūriki. Régua de dificuldade do narrador, camada externa. Perícia de Sensoriamento, com os caminhos de percepção do registro antigo reservados como semente e a Supressão declarada como teste oposto. Transcendências de Emissão e Ancoragem, aguardando âncora canônica. Manual de Variações e Elevações Categóricas, consolidando a decisão do Suiton, o precedente do Ninjutsu Médico e a régua da Inovação de Forma, recebendo desta perícia a coluna de requisitos de caminho. Passada de nomeação deity-first das transcendências, hoje em nome descritivo.
 
 FILA DE ERRATA
 

@@ -191,9 +191,9 @@ Forçar chakra além do esgotamento causa dano direto ao corpo proporcional ao e
 
 ## Pools Externos
 
-**Bestas Soberanas:** a chakra da Besta selada funciona como segundo reservatório
-interno. O pool da Besta não some quando a RC do hospedeiro se esgota. Regras
-detalhadas nas regras de Bestas Soberanas.
+**Bijuu:** a chakra da Bijuu selada funciona como segundo reservatório
+interno. O pool da Bijuu não some quando a RC do hospedeiro se esgota. Regras
+detalhadas no documento de Bijuu.
 
 **Reencarnação:** o transmigrado carrega sua RC mais uma camada do chakra do ancestral.
 Condição única: no máximo dois personagens no mundo a possuem simultaneamente. Não é
