@@ -252,7 +252,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**59 alvos distintos, em 70 referências.**
+**54 alvos distintos, em 60 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -297,16 +297,11 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/naruto/lineages/shadow-techniques.md` — citado em worlds/naruto/lineages/hiden.md
 - `worlds/naruto/lineages/sharingan.md` — citado em worlds/naruto/lineages/dojutsu.md
 - `worlds/naruto/lineages/tenseigan.md` — citado em worlds/naruto/lineages/dojutsu.md
-- `worlds/naruto/natures/earth.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
-- `worlds/naruto/natures/fire.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
 - `worlds/naruto/natures/futton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
 - `worlds/naruto/natures/hyoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
 - `worlds/naruto/natures/jinton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
 - `worlds/naruto/natures/jiton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
-- `worlds/naruto/natures/lightning.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
 - `worlds/naruto/natures/mokuton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
-- `worlds/naruto/natures/water.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
-- `worlds/naruto/natures/wind.md` — citado em worlds/naruto/natures/basic.md, worlds/naruto/natures/overview.md
 - `worlds/naruto/natures/yoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
 - `worlds/naruto/powers/expansions-overview.md` — citado em worlds/naruto/powers/overview.md
 - `worlds/naruto/powers/sage-mode.md` — citado em worlds/naruto/powers/overview.md
