@@ -1,0 +1,75 @@
+# New Faces Sourcebook
+
+Fonte da verdade do sistema de RPG: os manuais que definem as regras, os cenários que
+as implementam e o material de campanha. Consumido pelo **New Faces Character Creator**
+como submódulo Git — montado lá em `sourcebook/` — onde vira dado estruturado em
+`src/shared/data/`.
+
+Este repositório é independente e evolui no próprio ritmo. Um ajuste de prosa aqui não
+dispara a esteira da aplicação, e a versão do manual não fica presa à versão do código.
+
+## Arquitetura
+
+```
+core/                  camada fundamental — agnóstica de cenário
+worlds/<mundo>/        implementação de um cenário concreto
+  systems/             subsistemas próprios do mundo
+  skills/              perícias: progressão, portões de rank
+  compendiums/         catálogos de técnicas por rank
+  techniques/          documentos de técnica individual
+  clans/               clãs e linhagens
+  campaign/            worldbuilding e material de mesa
+  extensions/          substituições declaradas de regra do núcleo
+```
+
+Em vocabulário DDD, `core/` é o *shared kernel* e cada pasta sob `worlds/` é um
+*bounded context*. A dependência é unidirecional: **cenário conhece núcleo, núcleo
+nunca conhece cenário.** Um documento de núcleo que cite um cenário nominalmente é
+um vazamento.
+
+Profundidade máxima de 3 níveis de pasta, por decisão deliberada: o seletor de
+arquivos por pasta fica utilizável, e nomes compostos (`uchiha-sharingan.md`)
+substituem subpastas de um documento só.
+
+## Front matter
+
+Todo documento carrega:
+
+```yaml
+---
+id: naruto.skill.katon        # chave estável, não muda quando o arquivo se move
+title: "Katon (火遁)"
+version: 3
+layer: scenario               # core | scenario
+scenario: naruto              # ausente quando layer = core
+type: skill
+status: final                 # rascunho | em-revisao | final | pending-patch
+source-file: KATON_Pericia_v3.md
+---
+```
+
+O `id` é o que amarra manual e dado. Em `src/shared/data/`, cada arquivo aponta de
+volta por `fonte`, de modo que comparar manual e JSON é uma consulta por id — e
+reorganizar pastas não quebra a rastreabilidade.
+
+## Índice
+
+[`INDEX.md`](INDEX.md) lista todos os 99 documentos com id, versão, camada e
+caminho, mais o backlog de material previsto e ainda não escrito.
+
+## Uso como submódulo
+
+Repositório: `new-faces-sourcebook`. Ponto de montagem no consumidor: `sourcebook/`.
+
+```bash
+# no New Faces, uma única vez
+git submodule add git@github.com:gabrielsarteof/new-faces-sourcebook.git sourcebook
+
+# quem clona o New Faces precisa dos submódulos, senão a pasta vem vazia
+git clone --recurse-submodules <url-do-new-faces>
+git submodule update --init --recursive   # se já clonou sem eles
+
+# atualizar o ponteiro depois de mexer nos manuais
+git submodule update --remote sourcebook
+git add sourcebook && git commit -m "chore: update sourcebook pointer"
+```

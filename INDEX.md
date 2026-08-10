@@ -1,0 +1,334 @@
+# Índice do Sourcebook
+
+Todo documento do sistema, com seu `id` estável, versão, camada e caminho.
+O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se move.
+
+**Precedência em caso de conflito:** documento de cenário vence documento de núcleo.
+`core/` é fechado para modificação por causa de um mundo específico; substituições
+vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
+
+**Total:** 99 documentos · 12 de núcleo · 87 de cenário
+
+---
+
+## Núcleo — regras agnósticas de cenário
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Vantagens Comuns](core/advantages.md) | `core.advantages` | 1 | catalog | final |
+| [Fator de Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 1 | system | final |
+| [Princípios de Design](core/design-principles.md) | `core.design-principles` | 1 | methodology | final |
+| [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
+| [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1 | reference-table | final |
+| [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7 | methodology | final |
+| [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.1 | core-layer | final |
+| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 1 | system | final |
+| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3 | core-layer | final |
+| [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.1 | template | final |
+| [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
+| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 1 | system | final |
+
+## Jujutsu Kaisen
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Jujutsu Kaisen — Setting Overview](worlds/jujutsu/overview.md) | `jujutsu.overview` | 1 | doc | final |
+
+## worlds/jujutsu/character-creation
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Criação de Personagem — Jujutsu Kaisen](worlds/jujutsu/character-creation/overview.md) | `jujutsu.character-creation.overview` | 1 | system | final |
+
+## worlds/jujutsu/clans
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Clã Geto](worlds/jujutsu/clans/geto.md) | `jujutsu.clan.geto` | 1 | clan | final |
+| [Seis Olhos — Dojutsu do Clã Gojo](worlds/jujutsu/clans/gojo-six-eyes.md) | `jujutsu.clan.gojo-six-eyes` | 1 | clan | final |
+| [Clã Gojo](worlds/jujutsu/clans/gojo.md) | `jujutsu.clan.gojo` | 1 | clan | final |
+| [Clã Kamo](worlds/jujutsu/clans/kamo.md) | `jujutsu.clan.kamo` | 1 | clan | final |
+| [Clãs — Jujutsu Kaisen](worlds/jujutsu/clans/overview.md) | `jujutsu.clans.overview` | 1 | clan | final |
+| [Clã Zenin](worlds/jujutsu/clans/zenin.md) | `jujutsu.clan.zenin` | 1 | clan | final |
+
+## worlds/jujutsu/combat
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Combate — Jujutsu Kaisen](worlds/jujutsu/combat/overview.md) | `jujutsu.combat.overview` | 1 | system | final |
+
+## worlds/jujutsu/heart
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Coração — Jujutsu Kaisen](worlds/jujutsu/heart/overview.md) | `jujutsu.heart.overview` | 1 | lore | final |
+
+## worlds/jujutsu/lineages
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Técnicas Inatas — por Linhagem](worlds/jujutsu/lineages/innate-techniques.md) | `jujutsu.lineage.innate-techniques` | 1 | lineage | final |
+| [Linhagens — Jujutsu Kaisen](worlds/jujutsu/lineages/overview.md) | `jujutsu.lineages.overview` | 1 | lineage | final |
+
+## worlds/jujutsu/powers
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Poderes — Jujutsu Kaisen](worlds/jujutsu/powers/overview.md) | `jujutsu.powers.overview` | 1 | system | final |
+
+## worlds/jujutsu/progression
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Progressão — Jujutsu Kaisen](worlds/jujutsu/progression/overview.md) | `jujutsu.progression.overview` | 1 | system | final |
+
+## worlds/jujutsu/techniques
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Técnicas Malditas](worlds/jujutsu/techniques/cursed-techniques.md) | `jujutsu.technique.cursed-techniques` | 1 | technique | final |
+| [Extensões de Técnica](worlds/jujutsu/techniques/extensions.md) | `jujutsu.technique.extensions` | 1 | technique | final |
+| [Técnicas — Jujutsu Kaisen](worlds/jujutsu/techniques/overview.md) | `jujutsu.techniques.overview` | 1 | technique | final |
+
+## Naruto · Geral
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Naruto — Setting Overview](worlds/naruto/overview.md) | `naruto.overview` | 1 | doc | final |
+
+## worlds/naruto/advantages-disadvantages
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1 | catalog | final |
+
+## Naruto · Campanha
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Dossiê — Saki Uchiha](worlds/naruto/campaign/saki-dossier.md) | `naruto.campaign.saki-dossier` | 1 | campaign | final |
+| [Contexto — Arsenal do Susanoo da Saki](worlds/naruto/campaign/saki-susanoo-arsenal.md) | `naruto.campaign.saki-susanoo-arsenal` | 1 | campaign | final |
+| [Universo e Campanha — A Campanha da Saki](worlds/naruto/campaign/universe.md) | `naruto.campaign.universe` | 1 | campaign | final |
+
+## worlds/naruto/character-creation
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Criação de Personagem — Naruto](worlds/naruto/character-creation/overview.md) | `naruto.character-creation.overview` | 1 | system | final |
+
+## Naruto · Clãs e linhagens
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Clã Aburame](worlds/naruto/clans/aburame.md) | `naruto.clan.aburame` | 1 | clan | final |
+| [Clã Akimichi](worlds/naruto/clans/akimichi.md) | `naruto.clan.akimichi` | 1 | clan | final |
+| [Clã Hatake](worlds/naruto/clans/hatake.md) | `naruto.clan.hatake` | 1 | clan | final |
+| [Byakugan — Dojutsu do Clã Hyuga](worlds/naruto/clans/hyuga-byakugan.md) | `naruto.clan.hyuga-byakugan` | 1 | clan | final |
+| [Clã Hyūga — O Olho que Tudo Vê](worlds/naruto/clans/hyuga.md) | `naruto.clan.hyuga` | 1 | clan | final |
+| [Clã Inuzuka](worlds/naruto/clans/inuzuka.md) | `naruto.clan.inuzuka` | 1 | clan | final |
+| [Clã Nara](worlds/naruto/clans/nara.md) | `naruto.clan.nara` | 1 | clan | final |
+| [Clãs — Naruto](worlds/naruto/clans/overview.md) | `naruto.clans.overview` | 1 | clan | final |
+| [Clã Sarutobi](worlds/naruto/clans/sarutobi.md) | `naruto.clan.sarutobi` | 1 | clan | final |
+| [naruto.clan.senju](worlds/naruto/clans/senju.md) | `naruto.clan.senju` | 1 | clan | final |
+| [Mangekyō Sharingan](worlds/naruto/clans/uchiha-mangekyo-sharingan.md) | `naruto.lineage.mangekyo-sharingan` | 1 | lineage | final |
+| [Sharingan](worlds/naruto/clans/uchiha-sharingan.md) | `naruto.lineage.sharingan` | 2 | lineage | final |
+| [Uchiha — O Olho que Reflete Sentimentos](worlds/naruto/clans/uchiha.md) | `naruto.clan.uchiha` | 1 | clan | final |
+| [Uzumaki — A Estirpe da Longevidade](worlds/naruto/clans/uzumaki.md) | `naruto.clan.uzumaki` | 1 | clan | final |
+| [Clã Yamanaka](worlds/naruto/clans/yamanaka.md) | `naruto.clan.yamanaka` | 1 | clan | final |
+
+## worlds/naruto/combat
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Combate — Naruto](worlds/naruto/combat/overview.md) | `naruto.combat.overview` | 1 | system | final |
+
+## Naruto · Compêndios de técnicas
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.1 | compendium | final |
+| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 3 | compendium | final |
+| [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.1 | compendium | final |
+| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5 | compendium | final |
+| [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.1 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3 | compendium | final |
+| [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1 | compendium | final |
+| [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.1 | compendium | final |
+| [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2 | compendium | final |
+
+## worlds/naruto/extensions
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Extensões do Core — Naruto](worlds/naruto/extensions/overview.md) | `naruto.extensions.overview` | 1 | extension | final |
+
+## worlds/naruto/heart
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Coração — Fundamentos do Universo Ninja](worlds/naruto/heart/overview.md) | `naruto.heart.overview` | 1 | lore | final |
+
+## worlds/naruto/lineages
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Dojutsu — Olhos Especiais](worlds/naruto/lineages/dojutsu.md) | `naruto.lineage.dojutsu` | 1 | lineage | final |
+| [Hiden — Técnicas Secretas de Clã](worlds/naruto/lineages/hiden.md) | `naruto.lineage.hiden` | 1 | lineage | final |
+| [Kekkei Genkai — Naturezas Herdadas](worlds/naruto/lineages/kekkei-genkai.md) | `naruto.lineage.kekkei-genkai` | 1 | lineage | final |
+| [Linhagens — Naruto](worlds/naruto/lineages/overview.md) | `naruto.lineages.overview` | 1 | lineage | final |
+
+## worlds/naruto/natures
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Naturezas Avançadas (Kekkei Genkai de Natureza)](worlds/naruto/natures/advanced.md) | `naruto.system.advanced` | 1 | system | final |
+| [Naturezas Básicas](worlds/naruto/natures/basic.md) | `naruto.system.basic` | 1 | system | final |
+| [Naturezas de Chakra — Naruto](worlds/naruto/natures/overview.md) | `naruto.natures.overview` | 1 | system | final |
+
+## worlds/naruto/powers
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.powers.overview` | 1 | system | final |
+
+## worlds/naruto/progression
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Progressão — Naruto](worlds/naruto/progression/overview.md) | `naruto.progression.overview` | 1 | system | final |
+
+## Naruto · Reencarnações
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Asura Ōtsutsuki — O Herdeiro do Corpo do Sábio](worlds/naruto/reincarnations/asura.md) | `naruto.reincarnation.asura` | 1 | reincarnation | final |
+| [Indra Ōtsutsuki](worlds/naruto/reincarnations/indra.md) | `naruto.reincarnation.indra` | 1 | reincarnation | final |
+| [Reencarnações — Naruto](worlds/naruto/reincarnations/overview.md) | `naruto.reincarnations.overview` | 1 | reincarnation | final |
+
+## Naruto · Perícias
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 2 | skill | final |
+| [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2 | skill | final |
+| [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1 | skill | final |
+| [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.1 | skill | final |
+| [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.1 | skill | final |
+| [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 3 | skill | final |
+| [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 1 | skill | final |
+| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 2 | skill | final |
+| [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2 | skill | final |
+| [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.1 | skill | final |
+| [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4 | skill | final |
+| [Liberação de Yin](worlds/naruto/skills/yin-release.md) | `naruto.skill.yin-release` | 4.1 | skill | final |
+
+## Naruto · Sistemas
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 2 | system | final |
+| [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3 | system | final |
+| [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.2 | methodology | final |
+| [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 5 | system | final |
+| [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1 | pending-patch | pending-patch |
+| [Adendo ao Manual de Criação de Jutsus — Seção 4.1.3](worlds/naruto/systems/jutsu-authoring-addendum.md) | `naruto.system.jutsu-authoring-addendum` | 2 | pending-patch | pending-patch |
+| [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.1 | methodology | final |
+| [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 1 | system | final |
+
+## Naruto · Técnicas
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Chidori Nagashi — Fluxo dos Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 1 | technique | final |
+| [Chidori — Canto dos Mil Pássaros (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 3 | technique | final |
+| [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 1 | technique | final |
+| [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1 | technique | final |
+
+---
+
+## Documentos previstos e ainda não escritos
+
+Referências que os documentos existentes fazem a material planejado. Não são links
+quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
+
+**64 alvos distintos, em 70 referências.**
+
+- `basic/earth.md`
+- `basic/fire.md`
+- `basic/lightning.md`
+- `basic/water.md`
+- `basic/wind.md`
+- `beast-communication.md`
+- `beast-partnership.md`
+- `black-flash.md`
+- `bug-techniques.md`
+- `bukijutsu.md`
+- `byakugan.md`
+- `caloric-control.md`
+- `chakra-control.md`
+- `chakra-fundamentals.md`
+- `chakra-nature-selection.md`
+- `chakra-natures-overview.md`
+- `collaboration-jutsu.md`
+- `cursed-energy-control.md`
+- `cursed-energy-fundamentals.md`
+- `destruction-bugs.md`
+- `dojutsu-evolution.md`
+- `domain-expansion.md`
+- `earth.md`
+- `expansions-overview.md`
+- `fire.md`
+- `futton.md`
+- `genjutsu.md`
+- `hyoton.md`
+- `inata-technique.md`
+- `infinity.md`
+- `initial-skills.md`
+- `jinton.md`
+- `jiton.md`
+- `lightning.md`
+- `mind-arts.md`
+- `mind-body-techniques.md`
+- `mokuton.md`
+- `nature-transformation.md`
+- `ninjutsu.md`
+- `rank-advancement.md`
+- `rinne-sharingan.md`
+- `rinnegan.md`
+- `sage-mode.md`
+- `selecting-clan.md`
+- `selecting-lineage.md`
+- `senjutsu.md`
+- `shadow-arts.md`
+- `shadow-techniques.md`
+- `sharingan-copy.md`
+- `sharingan.md`
+- `shinobi-ranks.md`
+- `sorcerer-grades.md`
+- `summoning-contracts.md`
+- `taijutsu.md`
+- `tailed-beast-mode.md`
+- `tailed-beasts.md`
+- `technique-extensions.md`
+- `ten-shadows.md`
+- `tenseigan.md`
+- `villages.md`
+- `water.md`
+- `wind.md`
+- `xp-training.md`
+- `yoton.md`
+
+---
+
+## Pendências herdadas da migração
+
+- **5 técnicas** existiam apenas nas versões v1 dos compêndios de Inton e Ninjutsu
+  Médico, descartadas em favor do formato catálogo-puro da v2: `Fome Sem Fundo`,
+  `Presença Que Não Se Esconde`, `Sanguessuga Espiritual`, `Voz Presa`,
+  `Transferência de Chakra`. Nenhuma aparece em qualquer outro documento do corpus.
+- **3 técnicas** do Inton v1 migraram para o domínio correto e seguem vivas:
+  `Escuta do Vazio` e `Sopro Contido` (Sensoriamento), `Segunda Face` (Liberação de Yin).
+- **2 documentos** carregam `status: pending-patch` — são edições destinadas a outros
+  documentos e nunca aplicadas: `naruto.system.jutsu-authoring-addendum` e
+  `naruto.system.errata-d2`.
