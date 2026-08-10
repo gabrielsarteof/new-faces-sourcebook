@@ -6,7 +6,7 @@ layer: scenario
 scenario: jujutsu
 type: system
 status: final
-source-file: _index.md
+source-file: content/worlds/jujutsu/progression/_index.md
 ---
 
 # Progressão — Jujutsu Kaisen

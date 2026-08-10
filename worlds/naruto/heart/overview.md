@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: lore
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/heart/_index.md
 ---
 
 # Coração — Fundamentos do Universo Ninja

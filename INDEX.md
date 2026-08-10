@@ -9,6 +9,8 @@ vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem
 
 **Total:** 99 documentos · 12 de núcleo · 87 de cenário
 
+Gerado por `tools/check-links.mjs`. Não editar à mão.
+
 ---
 
 ## Núcleo — regras agnósticas de cenário
@@ -123,13 +125,13 @@ vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem
 | [Clã Aburame](worlds/naruto/clans/aburame.md) | `naruto.clan.aburame` | 1 | clan | final |
 | [Clã Akimichi](worlds/naruto/clans/akimichi.md) | `naruto.clan.akimichi` | 1 | clan | final |
 | [Clã Hatake](worlds/naruto/clans/hatake.md) | `naruto.clan.hatake` | 1 | clan | final |
-| [Byakugan — Dojutsu do Clã Hyuga](worlds/naruto/clans/hyuga-byakugan.md) | `naruto.clan.hyuga-byakugan` | 1 | clan | final |
+| [Byakugan — Dojutsu do Clã Hyuga](worlds/naruto/clans/hyuga-byakugan.md) | `naruto.lineage.byakugan` | 1 | lineage | final |
 | [Clã Hyūga — O Olho que Tudo Vê](worlds/naruto/clans/hyuga.md) | `naruto.clan.hyuga` | 1 | clan | final |
 | [Clã Inuzuka](worlds/naruto/clans/inuzuka.md) | `naruto.clan.inuzuka` | 1 | clan | final |
 | [Clã Nara](worlds/naruto/clans/nara.md) | `naruto.clan.nara` | 1 | clan | final |
 | [Clãs — Naruto](worlds/naruto/clans/overview.md) | `naruto.clans.overview` | 1 | clan | final |
 | [Clã Sarutobi](worlds/naruto/clans/sarutobi.md) | `naruto.clan.sarutobi` | 1 | clan | final |
-| [naruto.clan.senju](worlds/naruto/clans/senju.md) | `naruto.clan.senju` | 1 | clan | final |
+| [Senju — O Clã de Mil Habilidades](worlds/naruto/clans/senju.md) | `naruto.clan.senju` | 1 | clan | final |
 | [Mangekyō Sharingan](worlds/naruto/clans/uchiha-mangekyo-sharingan.md) | `naruto.lineage.mangekyo-sharingan` | 1 | lineage | final |
 | [Sharingan](worlds/naruto/clans/uchiha-sharingan.md) | `naruto.lineage.sharingan` | 2 | lineage | final |
 | [Uchiha — O Olho que Reflete Sentimentos](worlds/naruto/clans/uchiha.md) | `naruto.clan.uchiha` | 1 | clan | final |
@@ -244,8 +246,6 @@ vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem
 | [Chidori — Canto dos Mil Pássaros (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 3 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 1 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1 | technique | final |
-
----
 
 ## Documentos previstos e ainda não escritos
 

@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: lineage
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/lineages/hiden/_index.md
 ---
 
 # Hiden — Técnicas Secretas de Clã

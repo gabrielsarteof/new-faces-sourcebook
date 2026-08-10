@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: reincarnation
 status: final
-source-file: Indra.md
+source-file: content/worlds/naruto/reincarnations/Indra.md
 ---
 
 # Indra Ōtsutsuki — Os Olhos do Sábio

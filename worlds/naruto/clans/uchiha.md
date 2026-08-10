@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: clan
 status: final
-source-file: Uchiha.md
+source-file: content/worlds/naruto/clans/uchiha/Uchiha.md
 ---
 
 # Uchiha — O Olho que Reflete Sentimentos

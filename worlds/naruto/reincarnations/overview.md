@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: reincarnation
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/reincarnations/_index.md
 ---
 
 # Reencarnações — Naruto

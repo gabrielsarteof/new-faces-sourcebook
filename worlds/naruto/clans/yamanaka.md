@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: clan
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/clans/yamanaka/_index.md
 ---
 
 # Clã Yamanaka

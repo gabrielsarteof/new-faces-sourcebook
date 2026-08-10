@@ -1,12 +1,12 @@
 ---
 id: naruto.clan.senju
-title: "naruto.clan.senju"
+title: "Senju — O Clã de Mil Habilidades"
 version: 1
 layer: scenario
 scenario: naruto
 type: clan
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/clans/senju/_index.md
 ---
 
 Senju — O Clã de Mil Habilidades

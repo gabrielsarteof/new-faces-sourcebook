@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: lineage
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/lineages/kekkei-genkai/_index.md
 ---
 
 # Kekkei Genkai — Naturezas Herdadas

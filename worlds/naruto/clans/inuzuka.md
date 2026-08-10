@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: clan
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/clans/inuzuka/_index.md
 ---
 
 # Clã Inuzuka

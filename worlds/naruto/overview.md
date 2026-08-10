@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: doc
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/_index.md
 ---
 
 # Naruto — Setting Overview

@@ -6,7 +6,7 @@ layer: scenario
 scenario: jujutsu
 type: system
 status: final
-source-file: _index.md
+source-file: content/worlds/jujutsu/combat/_index.md
 ---
 
 # Combate — Jujutsu Kaisen

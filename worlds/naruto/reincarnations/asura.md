@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: reincarnation
 status: final
-source-file: Asura.md
+source-file: content/worlds/naruto/reincarnations/Asura.md
 ---
 
 # Asura Ōtsutsuki — O Herdeiro do Corpo do Sábio

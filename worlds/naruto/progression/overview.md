@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: system
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/progression/_index.md
 ---
 
 # Progressão — Naruto

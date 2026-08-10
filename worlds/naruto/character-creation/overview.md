@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: system
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/character-creation/_index.md
 ---
 
 # Criação de Personagem — Naruto

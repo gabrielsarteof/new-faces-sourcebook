@@ -6,7 +6,7 @@ layer: scenario
 scenario: jujutsu
 type: technique
 status: final
-source-file: _index.md
+source-file: content/worlds/jujutsu/techniques/extensions/_index.md
 ---
 
 # Extensões de Técnica

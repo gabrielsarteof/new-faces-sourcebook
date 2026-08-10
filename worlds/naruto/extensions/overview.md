@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: extension
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/extensions/_index.md
 ---
 
 # Extensões do Core — Naruto

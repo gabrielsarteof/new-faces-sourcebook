@@ -6,7 +6,7 @@ layer: scenario
 scenario: jujutsu
 type: lore
 status: final
-source-file: _index.md
+source-file: content/worlds/jujutsu/heart/_index.md
 ---
 
 # Coração — Jujutsu Kaisen

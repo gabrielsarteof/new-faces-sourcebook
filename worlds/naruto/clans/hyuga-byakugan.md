@@ -1,12 +1,12 @@
 ---
-id: naruto.clan.hyuga-byakugan
+id: naruto.lineage.byakugan
 title: "Byakugan — Dojutsu do Clã Hyuga"
 version: 1
 layer: scenario
 scenario: naruto
-type: clan
+type: lineage
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/clans/hyuga/byakugan/_index.md
 ---
 
 # Byakugan — Dojutsu do Clã Hyuga

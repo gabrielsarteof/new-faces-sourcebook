@@ -6,7 +6,7 @@ layer: scenario
 scenario: jujutsu
 type: doc
 status: final
-source-file: _index.md
+source-file: content/worlds/jujutsu/_index.md
 ---
 
 # Jujutsu Kaisen — Setting Overview

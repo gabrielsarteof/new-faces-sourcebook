@@ -6,7 +6,7 @@ layer: scenario
 scenario: naruto
 type: catalog
 status: final
-source-file: _index.md
+source-file: content/worlds/naruto/advantages-disadvantages/_index.md
 ---
 
 # Vantagens Especiais do Mundo Shinobi

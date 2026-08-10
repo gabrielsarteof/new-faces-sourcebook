@@ -6,7 +6,7 @@ layer: scenario
 scenario: jujutsu
 type: lineage
 status: final
-source-file: _index.md
+source-file: content/worlds/jujutsu/lineages/innate-techniques/_index.md
 ---
 
 # Técnicas Inatas — por Linhagem

@@ -19,8 +19,22 @@ import { fileURLToPath } from 'node:url';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const INDEX = path.join(RAIZ, 'INDEX.md');
+const MARCA_TABELAS = '**Total:**';
 const MARCA_INICIO = '## Documentos previstos e ainda não escritos';
 const MARCA_FIM = '## Pendências herdadas da migração';
+
+const GRUPO_ROTULO = {
+  'core': 'Núcleo — regras agnósticas de cenário',
+  'worlds/naruto/systems': 'Naruto · Sistemas',
+  'worlds/naruto/skills': 'Naruto · Perícias',
+  'worlds/naruto/compendiums': 'Naruto · Compêndios de técnicas',
+  'worlds/naruto/techniques': 'Naruto · Técnicas',
+  'worlds/naruto/clans': 'Naruto · Clãs e linhagens',
+  'worlds/naruto/reincarnations': 'Naruto · Reencarnações',
+  'worlds/naruto/campaign': 'Naruto · Campanha',
+  'worlds/naruto': 'Naruto · Geral',
+  'worlds/jujutsu': 'Jujutsu Kaisen',
+};
 
 function documentos(dir, acc = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -63,14 +77,58 @@ const secao =
   ordenados.map(([alvo, quem]) => `- \`${alvo}\` — citado em ${quem.join(', ')}`).join('\n') +
   `\n\n---\n\n`;
 
+// ── tabela de documentos ──────────────────────────────────────────────────────
+// Também gerada. Na primeira migração ela foi escrita uma vez pelo script e
+// ficou sem dono: qualquer correção de front matter — um title, um id, um type —
+// dessincronizava o índice sem nada acusar.
+const fichas = [];
+for (const arquivo of arquivos) {
+  const rel = path.relative(RAIZ, arquivo).split(path.sep).join('/');
+  if (rel === 'INDEX.md' || rel === 'README.md') continue;
+  const bloco = fs.readFileSync(arquivo, 'utf8').match(/^---\n([\s\S]*?)\n---\n/);
+  if (!bloco) continue;
+  const fm = Object.fromEntries(
+    bloco[1].split('\n').map(l => [l.slice(0, l.indexOf(':')).trim(), l.slice(l.indexOf(':') + 1).trim()]),
+  );
+  fichas.push({ rel, ...fm, title: (fm.title ?? '').replace(/^"|"$/g, '') });
+}
+fichas.sort((a, b) => a.rel.localeCompare(b.rel));
+
+const grupoDe = rel => {
+  const dir = path.posix.dirname(rel);
+  if (GRUPO_ROTULO[dir]) return dir;
+  const p = dir.split('/');
+  return p.length > 2 ? p.slice(0, 3).join('/') : dir;
+};
+const grupos = new Map();
+for (const f of fichas) {
+  const g = grupoDe(f.rel);
+  if (!grupos.has(g)) grupos.set(g, []);
+  grupos.get(g).push(f);
+}
+const ordem = [...grupos.keys()].sort((a, b) => (a === 'core' ? -1 : b === 'core' ? 1 : a.localeCompare(b)));
+
+let tabelas =
+  `**Total:** ${fichas.length} documentos · ${fichas.filter(f => f.layer === 'core').length} de núcleo · ` +
+  `${fichas.filter(f => f.layer === 'scenario').length} de cenário\n\n` +
+  `Gerado por \`tools/check-links.mjs\`. Não editar à mão.\n\n---\n\n`;
+for (const g of ordem) {
+  tabelas += `## ${GRUPO_ROTULO[g] ?? g}\n\n| Documento | id | v | tipo | status |\n|---|---|---|---|---|\n`;
+  for (const f of grupos.get(g)) {
+    tabelas += `| [${f.title}](${f.rel}) | \`${f.id}\` | ${f.version} | ${f.type} | ${f.status} |\n`;
+  }
+  tabelas += '\n';
+}
+
 const index = fs.readFileSync(INDEX, 'utf8');
+const t = index.indexOf(MARCA_TABELAS);
 const i = index.indexOf(MARCA_INICIO);
 const j = index.indexOf(MARCA_FIM);
-if (i === -1 || j === -1) {
+if (t === -1 || i === -1 || j === -1) {
   console.error('INDEX.md não tem as marcas de seção esperadas.');
   process.exit(2);
 }
-const atualizado = index.slice(0, i) + secao + index.slice(j);
+const atualizado = index.slice(0, t) + tabelas + secao + index.slice(j);
 
 console.log(`documentos      : ${arquivos.length}`);
 console.log(`links resolvidos: ${resolvidos}`);

@@ -6,7 +6,7 @@ layer: scenario
 scenario: jujutsu
 type: clan
 status: final
-source-file: _index.md
+source-file: content/worlds/jujutsu/clans/zenin/_index.md
 ---
 
 # Clã Zenin
