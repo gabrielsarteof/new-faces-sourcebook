@@ -497,7 +497,7 @@ O limite é o receptáculo. A técnica existe apenas onde a estátua estiver, e 
 **Senpō: Myōjinmon — 仙法・明神門**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Hashirama Senju) · Registrada
-**Requisitos:** Fūinjutsu LV6 · Absoluta · Caminho Cárcere · Senjutsu LV1, com o modo de pé durante toda a execução
+**Requisitos:** Fūinjutsu LV6 · Absoluta · Caminho Cárcere · Senjutsu LV1
 **XP:** 45.500
 
 O praticante em Modo Eremita faz descer do alto portais vermelhos de dimensão colossal, que caem sobre o alvo e o prendem entre a trave e o solo. A fórmula é o próprio portal, e o peso dela é suficiente para conter entidades que nenhuma corrente, nenhuma prisão e nenhum receptáculo deste catálogo seguraria.
