@@ -1,12 +1,12 @@
 ---
 id: naruto.skill.passagem
 title: "Passagem"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: skill
 status: final
-source-file: Pericia_Passagem_v1.md
+source-file: Pericia_Passagem_v1-1.md
 ---
 
 PERÍCIA DE PASSAGEM
@@ -153,9 +153,7 @@ Usar a passagem como forma de entrega de um golpe, sem permanência.
 INCLINAÇÃO TRANSLADO
 ═══════════════════════════════════════════════════════════════════
 
-Toda travessia desta inclinação consome uma âncora e sofre a latência da via que a inscreveu.
-
-A âncora de fórmula é legível por terceiros, expõe o valor de oposição de quem a escreveu, admite adulteração e dissipação por ofício alheio, permanece depois da queda de quem a inscreveu e não cobra latência nem manutenção. A âncora de impregnação é invisível ao ofício do selamento, não expõe valor, não admite adulteração nem dissipação, cai junto com quem a impregnou e não cobra manutenção enquanto ele viver. A latência dela é de ação menor nos dois primeiros degraus de alcance, ação completa no terceiro e no quarto, e preparação de um turno ou mais no quinto e no sexto.
+Toda travessia desta inclinação consome uma âncora e sofre a latência da via que a inscreveu. O praticante não conhece a via: ele lê as oito propriedades que a âncora expõe no Manual de Ancoragem e resolve pelo valor que encontrar. A única linha que altera o comportamento dele é a latência, que a âncora de fórmula não cobra e a de impregnação cobra em ação padrão no alcance curto e em ação completa no alcance longo.
 
 SALTO (grau 2, complexidade 3) — 34
 Ir ao ponto ancorado, e encadear. A especialização deste caminho governa a régua de Precisão de Chegada.
@@ -206,4 +204,4 @@ O que não fica preso constrói Yachimata sobre Cravo transcendido e Salto aprof
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2. Custos leem o Manual de Economia de XP. O Contrato de Âncora, a estrutura de vazios e os degraus de Mobilidade leem o Manual de Criação de Poderes v3.2 ou superior. Contratos, tiers e fichas de invocado leem o Documento de Invocação. As técnicas nomeadas vivem nos compêndios.
+Estrutura e valores de camada leem o Núcleo de Perícias v2. Custos leem o Manual de Economia de XP. A estrutura de vazios e os degraus de Mobilidade leem o Manual de Criação de Poderes v3.3 ou superior. As propriedades da âncora e a régua de latência leem o Manual de Ancoragem. Contratos, tiers e fichas de invocado leem o Documento de Invocação. As técnicas nomeadas vivem nos compêndios.

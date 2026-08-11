@@ -1,16 +1,16 @@
 ---
 id: core.power-creation
 title: "Manual de Criação de Poderes"
-version: 3.2
+version: 3.3
 layer: core
 type: core-layer
 status: final
-source-file: Manual_de_Criacao_de_Poderes_v3-2.md
+source-file: Manual_de_Criacao_de_Poderes_v3-3.md
 ---
 
 # Manual de Criação de Poderes
 
-**v3.2. Camada de núcleo, compartilhada entre cenários. Substitui integralmente a v2.**
+**v3.3. Camada de núcleo, compartilhada entre cenários. Substitui integralmente a v2.**
 
 Este manual é a paleta universal de construção de efeito. Qualquer poder, de qualquer escala, em qualquer cenário do sistema, se monta plugando as peças definidas aqui. Ele responde a quatro perguntas em ordem: o que o efeito faz, quanto ele move, como ele se comporta e quanto ele custa.
 
@@ -251,37 +251,32 @@ Move o praticante ou terceiros pelo espaço, com ou sem travessia de intervalo.
 
 Ancoragem em ficha. Mobilidade que dependa de precisão de destino lê o teste da perícia responsável e declara o que a margem produz, tipicamente erro de posição em falha rasa e falha de travessia em falha larga. Mobilidade que dependa de âncora prévia declara o requisito da âncora pelo contrato abaixo.
 
-#### O Contrato de Âncora [NÚCLEO]
+#### O Contrato de Âncora [NÚCLEO na forma, EXTENSÃO nas vias]
 
-A âncora é peça e não efeito. É um ponto fixado em lugar, objeto ou corpo, que efeitos posteriores tomam como referência de destino, de origem ou de sustentação. Ela nasce definida uma vez aqui e é consumida por todo domínio que precise dela, porque mais de um domínio a inscreve e mais de um a usa, e uma peça definida em cada consumidor obriga a reabrir todos eles a cada mudança.
+A âncora é peça e não efeito. É um ponto fixado em lugar, objeto ou corpo, que efeitos posteriores tomam como referência de destino, de origem ou de sustentação. Mais de um domínio a inscreve e mais de um a consome, e por isso ela é definida uma vez e lida por todos, em vez de nascer de novo dentro de cada consumidor.
+
+**Definição.** Âncora é um ponto fixado no mundo que uma técnica posterior localiza sem depender da presença de quem o fixou. Dela decorrem três coisas que valem em todo cenário. A âncora é lugar e não efeito, não produz nada sozinha e não tem magnitude. A âncora é anterior ao uso, e toda técnica que a consome paga em dois tempos, com a fixação antes e o uso depois. A âncora tem dono declarado, e o consumo por terceiro exige autorização explícita do domínio que a inscreveu.
 
 **Direitos declarados.** Inscrever uma âncora é privilégio do domínio que publique verbo de inscrição. Consumir uma âncora é direito de qualquer efeito que a declare como requisito, sem exigir a perícia que a inscreveu. Atacar uma âncora é possível apenas pelas propriedades que ela expõe.
 
-**As duas vias de inscrição e as propriedades que elas expõem.**
+**Os oito slots de propriedade.** Toda âncora, venha de onde vier, declara estas oito linhas. O consumidor lê a tabela e resolve pelo valor que encontrar, sem conhecer a via.
 
-| Propriedade exposta | Via de fórmula | Via de impregnação |
-|---|---|---|
-| Legível por terceiro | sim | não |
-| Valor de oposição exposto | sim | ausente |
-| Admite adulteração por ofício de terceiro | sim | não |
-| Admite dissipação genérica | sim | não |
-| Persiste após a queda de quem inscreveu | sim | não declarado, ponto de extensão |
-| Custo de manutenção | nenhum | não declarado, ponto de extensão |
-| Latência no uso | nenhuma | presente, pela régua abaixo |
+| Slot | O que ele decide |
+|---|---|
+| Via | qual domínio inscreveu, e por consequência todas as linhas abaixo |
+| Legibilidade | se um terceiro identifica a âncora ao examiná-la |
+| Paridade | se a âncora expõe estrutura numérica atacável |
+| Permanência | se a âncora sobrevive ao tempo e à queda do inscritor |
+| Manutenção | o que a âncora cobra para continuar existindo |
+| Latência | o que o consumo dela custa em ação |
+| Contagem | quantas o inscritor sustenta ao mesmo tempo |
+| Leitores | quem além do inscritor a localiza |
 
-A tabela é o desenho inteiro e nenhuma via domina a outra. A fórmula ganha em permanência e em ausência de latência, e paga com a própria exposição, porque tudo que a torna durável também a torna atacável por quem domine o ofício da inscrição. A impregnação é invisível e inatacável por esse ofício, e paga em latência de uso e em ausência de permanência.
+Slot em branco significa que a via não publica.
 
-**Régua de latência por via [NÚCLEO na forma, EXTENSÃO nos valores].** Elevação categórica pelo degrau de alcance que a Mobilidade comprou.
+**As vias são do cenário.** Quais vias de inscrição existem, o que cada uma preenche em cada slot e por quais operações ela é atacada pertencem ao mundo e não a esta camada. Uma via nasce da estrutura do cenário que a produz, e nomeá-la aqui seria escrever física de um mundo específico na camada agnóstica. O cenário registra as vias no documento que cumpre este ponto de extensão, e via nova entra por errata daquele documento e nunca por declaração rio abaixo.
 
-| Degrau de alcance | Via de fórmula | Via de impregnação |
-|---|---|---|
-| 1 e 2 | nenhuma | ação menor |
-| 3 e 4 | nenhuma | ação completa |
-| 5 e 6 | nenhuma | preparação de um turno ou mais |
-
-A latência é o freio da categoria. Travessia sem freio declarado não publica, e o cenário escolhe entre a latência acima, a relação entre massa e distância, ou ambas.
-
-**Via nova.** Um domínio pode registrar uma terceira via desde que preencha toda linha da tabela de propriedades. Linha em branco significa que a via não publica.
+**A latência é o freio, e ela pertence ao registro de vias.** Travessia ou consumo de âncora sem freio declarado não publica. A régua de latência por via vive no registro do cenário, e o efeito que consome âncora lê o valor que encontrar lá.
 
 **Consumo por outros contextos.** Efeito de fronteira que se fixe a âncoras lê a integridade delas como integridade própria, e derrubar o efeito passa a ser derrubar as âncoras. Isso dá a esse tipo de efeito um vetor de ataque legível em vez de um valor de resistência opaco, e o registro declara quantas âncoras precisam cair e se a queda precisa ser simultânea.
 
@@ -625,7 +620,7 @@ A lista fechada do que cada cenário preenche. Pedido de comportamento que não 
 | Réguas de Percepção | os donos das três réguas obrigatórias |
 | Sistema de status | condições, graus e a moeda que o Refluxo paga |
 | Correspondência de escala | como as escalas deste manual mapeiam na nomenclatura de poder do mundo |
-| Âncora | as duas linhas não declaradas da via de impregnação, e os nomes locais das operações contra âncora |
+| Âncora | as vias de inscrição que existem no mundo, o preenchimento dos oito slots em cada uma, a régua de latência por via e as operações que atacam cada âncora |
 | Estrutura de vazios | se o cenário a adota, e a tabela de distância entre vazios |
 
 ---
@@ -655,6 +650,8 @@ A tabela de multiplicador por tipo elemental é removida sem herdeiro, e o catá
 O documento de construto do cenário calibrador permanece válido sem reemissão, ganhando apenas linha de conformidade declarando que consome a categoria Construto da seção 3.4, cujo motor foi abstraído do que aquele documento validou.
 
 ### 10.3 Registro de alterações
+
+**v3.3.** O Contrato de Âncora foi corrigido. A v3.2 nomeou duas vias de inscrição dentro do núcleo, e as duas eram ofícios de um cenário específico com o nome trocado, o que repetia na camada agnóstica o erro que a v3.1 corrigira ao remover a tabela de tipos. O contrato mantém a definição, os oito slots de propriedade, os direitos e o consumo por outros contextos, e passa a declarar as vias como ponto de extensão, com a régua de latência migrando junto para o registro do cenário.
 
 **v3.2.** Nasceu o Contrato de Âncora dentro da categoria Mobilidade, como peça única consumida por todo domínio que inscreva ou use ponto fixado, com as duas vias de inscrição, a tabela de propriedades expostas como interface pública e a régua de latência por via. Nasceu a estrutura de vazios como estrutura opcional de cenário, que resolve por desenho a disputa entre travessia e fronteira. Nasceu a categoria Interceptação no Contexto C, corrigindo a v3, que havia tratado o verbo de tomar efeito alheio em trânsito como se fosse apenas estratégia de cálculo. Reflexão, Reemissão e Absorção passaram a computar magnitude exclusivamente dentro dessa categoria. As categorias passaram de quatorze para quinze e os pontos de extensão de dez para doze.
 
@@ -694,4 +691,4 @@ Valide contra as Tabelas de Referência nos cinco perfis e mostre a conta.
 
 ---
 
-*Manual de Criação de Poderes v3.2. Camada de núcleo, fechada para modificação e aberta para extensão. Categoria define o quê, família define o quanto, dimensão define o como, composição combina, e cada número sai de uma régua com dono declarado.*
+*Manual de Criação de Poderes v3.3. Camada de núcleo, fechada para modificação e aberta para extensão. Categoria define o quê, família define o quanto, dimensão define o como, composição combina, e cada número sai de uma régua com dono declarado.*
