@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 2
+version: 3
 layer: scenario
 scenario: naruto
 type: system
@@ -208,7 +208,7 @@ Meiton é exceção. Sua composição elemental permanece desconhecida e sua ide
 | Yōton (Lava) | Fogo+Terra | nenhum | Fogo | C | Decisivo | 8% |
 | Jiton (Magnetismo) | Vento+Terra | nenhum | Terra | C | Decisivo | 8% |
 | Ranton (Tempestade) | Raio+Água | nenhum | Raio | C | Tático-Decisivo | 8% |
-| Estilo Plasma | Fogo+Raio | nenhum | Fogo | C | Tático-Decisivo | 8% |
+| Estilo Plasma | Fogo+Raio | nenhum | Raio | C | Tático-Decisivo | 8% |
 | Deiton (Lama) | Terra+Água | nenhum | Terra | C | Tático | 8% |
 
 A coluna de Poder não altera a chance de manifestação. Ela define o preço de retentativa da Centelha e, no caso do Kyōka, o bônus de multiplicador de dano.
@@ -223,11 +223,22 @@ A coluna de Poder não altera a chance de manifestação. Ela define o preço de
 | Água+Raio | Ranton, Ácido | Ácido |
 | Terra+Vento | Jiton, Saton | Saton |
 
+**Estilo Plasma, busca de condutor.** `[proposta]` O plasma ioniza o ar no percurso e a descarga se resolve no condutor mais favorável dentro do alcance declarado, em vez de obedecer à trajetória apontada.
+
+- Alvo declarado livremente quando a entrega é por contato direto, ou quando existe um único condutor viável na área declarada.
+- Busca automática quando mais de um condutor disputa a descarga dentro do alcance. A técnica se resolve no condutor mais favorável, que pode não ser o alvo pretendido, e aliado em posição mais condutora entra na conta.
+- Condutor abrange metal, água, terreno alagado, umidade corporal e pele exposta, e não apenas metal. É aqui que a propriedade se separa do Jiton, que atrai metal por magnetismo e não alcança os demais.
+
+A propriedade governa apenas em qual condutor a descarga se resolve. Tudo que diz respeito a atravessar isolante e a propagar-se por água já pertence à perícia de Raiton, que o Estilo Plasma herda como tipo dominante e não reescreve — a dissipação contra isolante no LV1 e a travessia de isolante fino a partir do rank C continuam valendo sem exceção para o Plasma.
+
+A limitação de escolha de alvo não é compensada com redução de dano. O sistema não tem rolagem de acerto e toda vantagem ofensiva já é ignora-esquiva por regra central, de modo que acerto garantido não é privilégio do Plasma. A troca real é escolha de alvo por posicionamento, e ela se paga sozinha em cena com múltiplos combatentes.
+
 ### Catálogo de Kyōka
 
 | Kyōka | Elemento base | Gate | Tier | Poder | % base | Mult. de dano |
 |---|---|---|---|---|---|---|
-| Enton | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 1,95 |
+| Enton | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 |
+| Incandescência `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 |
 | Tufão | Vento | nenhum | A | Estratégico | 2% | 1,65 |
 | Sobrecarga | Raio | `[PENDENTE]` | A | Decisivo | 2% | 1,95 |
 | Sísmico | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 |
@@ -239,6 +250,22 @@ O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento ba
 Mult_Kyōka = Mult_base_do_elemento + Bônus_de_poder
 Bônus_de_poder: Estratégico +0,35 · Decisivo +0,20
 ```
+
+O Enton é a única exceção declarada a essa régua. A fórmula o colocaria em 1,95, e ele está registrado em 2,10. `[canon]` O Amaterasu é a ninjutsu de Katon de nível mais alto da série, fogo que arde por sete dias e sete noites e não se apaga por meios comuns, e nenhuma manifestação de Raiton ocupa posição equivalente na obra. O empate com o Sobrecarga que a fórmula produzia não refletia essa assimetria, ainda mais com o Enton cobrando portão de linhagem de Indra somado ao Sharingan enquanto o Sobrecarga não cobra portão algum.
+
+A exceção é nominal e não abre precedente. Toda Kyōka nova deriva da fórmula, e qualquer outro desvio exige registro explícito como este — a Incandescência, acrescentada no mesmo lote, cai da régua sem ajuste: Katon 1,60 mais 0,20 de Decisivo.
+
+### Incandescência
+
+`[proposta]` A Incandescência é a combustão completa, a chama que consome o próprio combustível sem deixar resíduo e por isso queima mais quente que a chama comum. Ela é maestria técnica pura do elemento, sem componente sobrenatural, e é por aí que se separa do Enton sem esforço adicional de design: o Enton é dom de linhagem e chama que não se apaga, a Incandescência é o teto do fogo que qualquer shinobi alcança por ofício.
+
+Ela existe porque o Fogo era o único elemento sem Kyōka acessível sem portão. Vento, Raio, Terra e Água tinham caminho de intensificação aberto a qualquer praticante que passasse na Centelha, e o Fogo tinha apenas o Enton, travado em linhagem. A lacuna era de cobertura do sistema e não de fidelidade ao cânone, porque nada na obra estabelece que a intensidade máxima do fogo comum dependa de herança.
+
+**Combustão sem resíduo.** Técnica de Incandescência não produz fumaça, cinza ou fuligem. O campo permanece limpo depois da passagem da chama, e o praticante não ganha nem perde cobertura visual pelo próprio ataque. A propriedade tem custo real, porque remove do praticante o recurso de ocultação por fumaça que o Katon comum oferece.
+
+**Consumo integral.** Cobertura, barreira ou obstáculo de material combustível dentro da área declarada é consumido por inteiro, em vez de sofrer dano parcial. A propriedade converte terreno em não terreno, e existe para dar à Kyōka presença tática que o dano bruto sozinho não daria.
+
+**Grau de Queimadura elevado.** O grau mínimo de Queimadura declarável sobe um degrau em relação ao que a margem produziria em Katon comum, com teto absoluto mantido em Crítico. A escada da condição pertence ao Sistema de Efeitos de Status e não é reescrita aqui: os quatro graus penalizam INT e SAB em 15%, 30%, 50% e 70%, e o Crítico gera Ferimento Grave Moderado permanente. Um degrau a mais nesta natureza é, portanto, um degrau a mais de penalidade cognitiva sobre o alvo, e no topo da escada é sequela.
 
 ### Onmyōton
 
