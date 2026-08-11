@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.4. Camada de relação entre domínios.**
+**v2.5. Camada de relação entre domínios.**
 
 ---
 
@@ -33,7 +33,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 
 | Perícia | Versão | Regente | Categoria de custo |
 |---|---|---|---|
-| Controle de Chakra | v3 | SAB | Chakra ×1,4 |
+| Controle de Chakra | v3.2 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.1 | PRE | Chakra ×1,4 |
 | Katon | v3 | INT | Ninjutsu ×1,5 |
 | Raiton | v2 | INT | Ninjutsu ×1,5 |
@@ -44,7 +44,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Liberação de Yang | v4.1 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
-| Fūinjutsu | v1.2 | INT | Erudição ×1,7 |
+| Fūinjutsu | v1.3 | INT | Erudição ×1,7 |
 | Espaço-Tempo | v1 | INT | Erudição ×1,7 |
 
 ### Por que três categorias e não uma
@@ -223,10 +223,10 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Katon v3, Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
 | Liberação de Yin v4, Liberação de Yang v4.1 | conforme |
 | Ninjutsu Médico v3 | conforme |
-| Controle de Chakra v2 | conforme |
+| Controle de Chakra v3.2 | conforme |
 | Sensoriamento v2.1 | conforme |
 | Genjutsu v1.2 | conforme, com uma ressalva de vocabulário |
-| Fūinjutsu v1.2 | conforme, com a mesma ressalva |
+| Fūinjutsu v1.3 | conforme, com a mesma ressalva |
 | Espaço-Tempo v1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha ou criando o dono dela.
@@ -253,6 +253,8 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.5.** O Manual de Criação de Poderes subiu para v3.2, com o Contrato de Âncora nascendo dentro da categoria Mobilidade e a categoria Interceptação nascendo no Contexto C. Controle de Chakra, v3.2, passou a declarar a via de impregnação do contrato, território que já era seu na prática e nunca tinha sido escrito: a marca sem fórmula, invisível ao selamento, que cai com quem a fez. Fūinjutsu, v1.3, declarou a Marca de Destino como a via de fórmula do mesmo contrato, e atualizou a citação de Trovão Guia para nomear a categoria Interceptação ao lado da família Reemissão que já citava. As quatro linhas correspondentes do Registro de Regentes e do Registro de Conformidade são corrigidas na mesma passada; a de Controle de Chakra vinha de v2 e v3, uma defasagem anterior a esta série de atualizações.
 
 **v2.4.** Quatro perícias citaram, pela primeira vez, categoria ou família da camada de núcleo que cada uma já sustentava sozinha desde antes de o Manual de Criação de Poderes v3.1 existir: Genjutsu e o Motor de Resistência, Liberação de Yang e a família Refluxo, Sensoriamento e a categoria Percepção, e Fūinjutsu e a família Reemissão em Trovão Guia. Nenhum valor mudou em nenhuma das quatro. Este registro atualiza as versões correspondentes no Registro de Regentes e no Registro de Conformidade: Genjutsu para v1.2, Fūinjutsu para v1.2, Liberação de Yang para v4.1, Sensoriamento para v2.1.
 

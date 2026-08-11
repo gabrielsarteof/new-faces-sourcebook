@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.chakra-control
 title: "Controle de Chakra"
-version: 3.1
+version: 3.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Controle_de_Chakra_v2_2.md
 ---
 
-CONTROLE DE CHAKRA (チャクラコントロール) — v3.1
+CONTROLE DE CHAKRA (チャクラコントロール) — v3.2
 
 Atributo: SAB
 Categoria: Chakra (×1,4)
@@ -28,13 +28,19 @@ FRONTEIRA DO DOMÍNIO
 
 LISTA DE RESPOSTA
 
-Que forma o chakra assume e por quanto tempo se sustenta. Em que medida ele se apresenta, acima ou abaixo do que a técnica pede. Em que proporção as duas energias se misturam. Quanto se desperdiça no caminho entre a intenção e o efeito. Por onde ele sai do corpo, por que ponto encosta no mundo e através de que matéria corre. Como ele atravessa até outro corpo, seja como doação, como informação ou como obra conjunta. O que impede que ele vaze, seja lido ou seja tomado. O que mantém a moldagem íntegra com o corpo comprometido. Quanto tempo a obra existe depois de pronta e se ela sobrevive à ausência de quem a fez. Quanto se guarda para depois. Com que interface o rito se realiza, em quantos selos, em quanto tempo e em quantas obras ao mesmo tempo.
+Que forma o chakra assume e por quanto tempo se sustenta. Em que medida ele se apresenta, acima ou abaixo do que a técnica pede. Em que proporção as duas energias se misturam. Quanto se desperdiça no caminho entre a intenção e o efeito. Por onde ele sai do corpo, por que ponto encosta no mundo e através de que matéria corre. Como ele atravessa até outro corpo, seja como doação, como informação ou como obra conjunta. O que impede que ele vaze, seja lido ou seja tomado. O que mantém a moldagem íntegra com o corpo comprometido. Quanto tempo a obra existe depois de pronta e se ela sobrevive à ausência de quem a fez. Quanto se guarda para depois. Com que interface o rito se realiza, em quantos selos, em quanto tempo e em quantas obras ao mesmo tempo. O que fixa chakra próprio num objeto sem fórmula legível, e o que esse ponto entrega a quem o consome depois.
 
 LISTA DE RECUSA
 
 Absorver, drenar ou roubar chakra alheio pertence aos portadores nomeados, o Rinnegan, a linhagem Uzumaki, as armas vivas e os selos de dreno do Fūinjutsu. Erguer barreira pertence ao Fūinjutsu. Colher energia natural pertence ao Senjutsu. Manejar chakra de bijū pertence ao documento de jinchūriki. Intervir no circuito de outro corpo pertence ao Jūken e ao Desarranjo do Ninjutsu Médico. Elevar alcance e escopo da técnica pertence à perícia de elemento, que recebe daqui apenas a coluna de requisitos de caminho. Trocar a natureza da técnica pertence ao Sistema Elemental, dono também da penalidade de conversão fora de afinidade. Criar variante e acelerar aprendizado pertencem ao Manual de Desenvolvimento de Técnicas e às vantagens de clã, e improvisar variação não registrada em combate pertence ao Manual de Variações e Elevações Categóricas, que lê daqui o teste e declara lá a dificuldade. Perceber chakra alheio pertence à perícia de Sensoriamento, ficando aqui apenas o lado oposto, esconder-se dele. Projetar presença falsa pertence à inclinação Vulto da Liberação de Yin. Amplificar o corpo por saturação vital sustentada pertence à Liberação de Yang, decisão de sistema declarada, com o baseline sobre-humano e a concentração pontual vivendo aqui. Comandar marionete pertence à perícia de marionetista. As Oito Portas são sistema próprio. Resistir às penalidades de Exaustão pertence ao Sistema de Efeitos de Status, ficando aqui a integridade da moldagem sob exaustão. O crescimento da reserva pertence a Reserva de Chakra. As técnicas nomeadas vivem nos compêndios.
 
 Escalada, caminhada sobre a água, supressão e doação permanecem aqui pelo precedente dos marcos de perícia, competências com artigo próprio no cenário que não são jutsu adquirível.
+
+IMPREGNAÇÃO DE ÂNCORA
+
+O praticante impregna chakra próprio em objeto que lhe pertença, produzindo âncora sem fórmula. Ela é invisível ao ofício do selamento, não expõe valor de oposição, não admite adulteração nem dissipação por terceiros, cai junto com quem a impregnou e não cobra manutenção enquanto ele viver. A âncora é peça e não efeito, e o uso dela pertence a quem a consome.
+
+Esta é a via de impregnação do Contrato de Âncora, Manual de Criação de Poderes, seção 3.3, sem redefinir o contrato. A via de fórmula, legível, opositável, sujeita a adulteração e a dissipação por terceiro, pertence ao ofício de selamento e vive no Fūinjutsu.
 
 ═══════════════════════════════════════════════════════════════════
 

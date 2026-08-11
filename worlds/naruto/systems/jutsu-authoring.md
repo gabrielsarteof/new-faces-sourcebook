@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,11 +9,11 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_4.md
 ---
 
-# Manual de Criação de Jutsus · v2.4
+# Manual de Criação de Jutsus · v2.5
 
-**Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.1.**
+**Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.2.**
 
-Este documento é o manual tradutor do cenário Naruto. Ele consome o Manual de Criação de Poderes v3.1, preenche os pontos de extensão daquele manual com os valores deste mundo e publica a interface que os documentos de técnica, perícia e clã efetivamente usam. Nenhum documento do cenário lê o Manual de Criação de Poderes diretamente. O preenchimento completo dos pontos de extensão está na Seção 10.
+Este documento é o manual tradutor do cenário Naruto. Ele consome o Manual de Criação de Poderes v3.2, preenche os pontos de extensão daquele manual com os valores deste mundo e publica a interface que os documentos de técnica, perícia e clã efetivamente usam. Nenhum documento do cenário lê o Manual de Criação de Poderes diretamente. O preenchimento completo dos pontos de extensão está na Seção 10.
 
 Jutsu é técnica: pode ser ensinada, copiada, aprimorada e, em muitos casos, proibida. A diferença entre um jutsu e um poder de clã é de origem. O Sharingan é um poder; o Amaterasu é um jutsu que o Sharingan permite executar. Um jutsu pode ser absurdamente poderoso e ao mesmo tempo tecnicamente ensinável a quem tem chakra e controle suficientes. Um poder de clã é concedido pelo sangue e permanece fora do alcance de qualquer estudo.
 
@@ -426,7 +426,7 @@ Jutsus proibidos ficam fora dos compêndios abertos. Para adquirir:
 
 ## 5. Efeitos: Interface com o Manual de Criação de Poderes
 
-O Manual de Criação de Poderes define os efeitos em quatorze categorias, quatro contextos e as famílias de cálculo. Um jutsu pluga nessa estrutura exatamente como um poder. As categorias, as famílias, as dimensões e a composição permanecem em uso na forma publicada lá, e esta seção registra as instâncias do cenário Naruto nos pontos de extensão correspondentes.
+O Manual de Criação de Poderes define os efeitos em quinze categorias, quatro contextos e as famílias de cálculo. Um jutsu pluga nessa estrutura exatamente como um poder. As categorias, as famílias, as dimensões e a composição permanecem em uso na forma publicada lá, e esta seção registra as instâncias do cenário Naruto nos pontos de extensão correspondentes.
 
 ### 5.1 O recurso do cenário
 
@@ -697,7 +697,7 @@ Técnicas que requerem dojutsu ativo têm o custo do dojutsu declarado separadam
 1. **Rank:** qual tier de ninja usa esta técnica? O custo de RC esperado bate com a faixa?
 2. **Tipo:** Ninjutsu / Taijutsu / Genjutsu / Fuuinjutsu / Hiden? As regras de resistência mudam conforme o tipo.
 3. **Natureza elemental:** se aplicável, qual? Qual perícia elemental é requisito?
-4. **Categoria de efeito principal:** o que o jutsu faz? As quatorze categorias do Manual de Criação de Poderes, com a régua e o motor da categoria correta.
+4. **Categoria de efeito principal:** o que o jutsu faz? As quinze categorias do Manual de Criação de Poderes, com a régua e o motor da categoria correta.
 5. **Se efeito de Dano:** declarar coef_entrega e coef_técnica (tabelas da Seção 5.3). Validar o dano resultante contra a Régua de Magnitude, no par Equilibrado da faixa do usuário.
 6. **Se efeito não-Dano:** família de magnitude e de custo pelo catálogo do manual de núcleo, com o piso de escala conferido; se resistido, aplicar a compressão de limiar (Seção 5.6).
 7. **Dimensões e módulos:** selos, alcance, duração, condição de quebra (genjutsu), Perfil de Evasão, módulos por slot, extras, flaws, riders.
@@ -743,7 +743,7 @@ RC real depende do multiplicador de clã, atributos RES/FOR/PV e dado de potenci
 
 ## 10. Registro de Instâncias dos Pontos de Extensão
 
-O Manual de Criação de Poderes publica dez pontos de extensão. Esta seção declara o preenchimento do cenário Naruto em cada um, e é a tabela que qualquer documento deste mundo consulta para saber onde a regra concreta mora.
+O Manual de Criação de Poderes publica doze pontos de extensão. Esta seção declara o preenchimento do cenário Naruto em cada um, e é a tabela que qualquer documento deste mundo consulta para saber onde a regra concreta mora.
 
 | Ponto de extensão | Instância do cenário Naruto | Onde vive |
 |---|---|---|
@@ -757,12 +757,18 @@ O Manual de Criação de Poderes publica dez pontos de extensão. Esta seção d
 | Réguas de Percepção | cobertura por custo de tempo, atenuação por meio e resolução por objeto de leitura | Perícia de Sensoriamento |
 | Sistema de status | condições, graus e a escada de severidade que o Refluxo paga | Sistema de Efeitos de Status |
 | Correspondência de escala | ranks E a Kinjutsu contra as escalas de Utilidade a Transcendente | Seção 1.1 deste manual |
+| Âncora | via de fórmula é o jutsu-shiki inscrito, via de impregnação é o símbolo em ferramenta própria; as operações contra âncora de fórmula são as do ofício de selamento | Perícia de Fūinjutsu e Perícia de Espaço-Tempo |
+| Estrutura de vazios | adotada. Cada técnica de travessia abre vazio próprio, e a fronteira erguida em um vazio não se estende sobre outro | Perícia de Espaço-Tempo e Perícia de Barreira |
 
-Os dez pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental, que publica a tabela de multiplicadores por natureza na seção de Tipos Elementais daquele documento, de modo que o slot está apontado e cheio e jutsu elemental novo fecha validação.
+Os doze pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental, que publica a tabela de multiplicadores por natureza na seção de Tipos Elementais daquele documento, de modo que o slot está apontado e cheio e jutsu elemental novo fecha validação.
 
 ---
 
 ## 11. Registro de Alterações
+
+**v2.5.** Alinhamento ao Manual de Criação de Poderes v3.2. Chegou um documento se declarando v2.3 e citando o manual de núcleo em v3.2, mas ele descendia apenas da linha de realinhamento ao núcleo que esta versão já havia absorvido na v2.4 — não conhecia a Seção 2.8, Kyūinjutsu, nem a Seção 4.1.3, Estimativa de XP sem RC, ambas de uma segunda linha reunida naquela versão. É a mesma colisão de numeração que gerou a v2.4, uma geração adiante: duas linhas de trabalho, um número de versão, cada uma cega para o que a outra carregava. Nada daquele documento substituiu texto algum aqui; apenas o que ele acrescentava de fato ao alinhamento com o núcleo entrou.
+
+Do que entrou: as categorias do manual de núcleo passaram de quatorze para quinze, com a categoria Interceptação separando o verbo de tomar efeito alheio em trânsito das famílias de cálculo que o computam. O registro de instâncias, Seção 10, ganhou as duas linhas dos pontos de extensão novos daquela versão do núcleo, Âncora e Estrutura de vazios, preenchidas pela Perícia de Fūinjutsu, pela Perícia de Espaço-Tempo e pela Perícia de Barreira. A compressão de limiar e a fórmula de dois termos, já reapresentadas como instância na v2.4, não mudam, porque a v3.2 do núcleo não tocou nelas.
 
 **v2.4.** Alinhamento ao Manual de Criação de Poderes v3.1, e reunião de duas linhas de trabalho que corriam em paralelo sob o mesmo número de versão.
 
@@ -793,12 +799,12 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v2.4, manual tradutor do cenário Naruto para o Manual de Criação
-de Poderes v3.1. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
+*Manual de Criação de Jutsus v2.5, manual tradutor do cenário Naruto para o Manual de Criação
+de Poderes v3.2. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
 absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
 RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a
 parcela de conversão em RC vezes coef_entrega vezes mult_Tipo e a parcela de maestria em LV_CC ao
 quadrado vezes 2,5 vezes coef_técnica. O custo de XP interpola a posição na faixa do rank, ou lê a
-matriz de estimativa quando a ficha ainda não existe. Os efeitos plugam nas quatorze categorias do
-manual de núcleo, e as dez instâncias deste mundo estão declaradas na Seção 10. A identidade da
+matriz de estimativa quando a ficha ainda não existe. Os efeitos plugam nas quinze categorias do
+manual de núcleo, e as doze instâncias deste mundo estão declaradas na Seção 10. A identidade da
 técnica vem da forma, do Perfil de Evasão e dos Módulos de Comportamento em cinco slots com dono.*

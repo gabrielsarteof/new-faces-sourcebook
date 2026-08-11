@@ -1,16 +1,16 @@
 ---
 id: core.power-creation
 title: "Manual de Criação de Poderes"
-version: 3.1
+version: 3.2
 layer: core
 type: core-layer
 status: final
-source-file: Manual_de_Criacao_de_Poderes_v3-1.md
+source-file: Manual_de_Criacao_de_Poderes_v3-2.md
 ---
 
 # Manual de Criação de Poderes
 
-**v3.1. Camada de núcleo, compartilhada entre cenários. Substitui integralmente a v2.**
+**v3.2. Camada de núcleo, compartilhada entre cenários. Substitui integralmente a v2.**
 
 Este manual é a paleta universal de construção de efeito. Qualquer poder, de qualquer escala, em qualquer cenário do sistema, se monta plugando as peças definidas aqui. Ele responde a quatro perguntas em ordem: o que o efeito faz, quanto ele move, como ele se comporta e quanto ele custa.
 
@@ -162,7 +162,7 @@ A régua de magnitude precisa saber contra o que mede. Cada contexto declara o p
 
 ## 3. Categorias de Efeito, o que o poder faz
 
-Quatorze categorias em quatro contextos, agrupadas pela unidade de medida. Cada categoria expõe a mesma interface: régua, motor de resolução, ancoragem em ficha e progressão por escala.
+Quinze categorias em quatro contextos, agrupadas pela unidade de medida. Cada categoria expõe a mesma interface: régua, motor de resolução, ancoragem em ficha e progressão por escala.
 
 **Lei das categorias [NÚCLEO].** Toda categoria entrega motor de resolução ou declara o dono externo do motor. Não existe terceira opção. Categoria sem motor é convite a invasão, e foi assim que motores universais nasceram rio abaixo em versões anteriores.
 
@@ -249,7 +249,49 @@ Move o praticante ou terceiros pelo espaço, com ou sem travessia de intervalo.
 | 5 | região, com âncora prévia | massa de porte de estrutura | fronteira selada |
 | 6 | outro plano ou dimensão | massa de escala de evento | fronteira dimensional |
 
-Ancoragem em ficha. Mobilidade que dependa de precisão de destino lê o teste da perícia responsável e declara o que a margem produz, tipicamente erro de posição em falha rasa e falha de travessia em falha larga. Mobilidade que dependa de âncora prévia declara o requisito da âncora, e a âncora em si pertence ao domínio que a inscreve.
+Ancoragem em ficha. Mobilidade que dependa de precisão de destino lê o teste da perícia responsável e declara o que a margem produz, tipicamente erro de posição em falha rasa e falha de travessia em falha larga. Mobilidade que dependa de âncora prévia declara o requisito da âncora pelo contrato abaixo.
+
+#### O Contrato de Âncora [NÚCLEO]
+
+A âncora é peça e não efeito. É um ponto fixado em lugar, objeto ou corpo, que efeitos posteriores tomam como referência de destino, de origem ou de sustentação. Ela nasce definida uma vez aqui e é consumida por todo domínio que precise dela, porque mais de um domínio a inscreve e mais de um a usa, e uma peça definida em cada consumidor obriga a reabrir todos eles a cada mudança.
+
+**Direitos declarados.** Inscrever uma âncora é privilégio do domínio que publique verbo de inscrição. Consumir uma âncora é direito de qualquer efeito que a declare como requisito, sem exigir a perícia que a inscreveu. Atacar uma âncora é possível apenas pelas propriedades que ela expõe.
+
+**As duas vias de inscrição e as propriedades que elas expõem.**
+
+| Propriedade exposta | Via de fórmula | Via de impregnação |
+|---|---|---|
+| Legível por terceiro | sim | não |
+| Valor de oposição exposto | sim | ausente |
+| Admite adulteração por ofício de terceiro | sim | não |
+| Admite dissipação genérica | sim | não |
+| Persiste após a queda de quem inscreveu | sim | não declarado, ponto de extensão |
+| Custo de manutenção | nenhum | não declarado, ponto de extensão |
+| Latência no uso | nenhuma | presente, pela régua abaixo |
+
+A tabela é o desenho inteiro e nenhuma via domina a outra. A fórmula ganha em permanência e em ausência de latência, e paga com a própria exposição, porque tudo que a torna durável também a torna atacável por quem domine o ofício da inscrição. A impregnação é invisível e inatacável por esse ofício, e paga em latência de uso e em ausência de permanência.
+
+**Régua de latência por via [NÚCLEO na forma, EXTENSÃO nos valores].** Elevação categórica pelo degrau de alcance que a Mobilidade comprou.
+
+| Degrau de alcance | Via de fórmula | Via de impregnação |
+|---|---|---|
+| 1 e 2 | nenhuma | ação menor |
+| 3 e 4 | nenhuma | ação completa |
+| 5 e 6 | nenhuma | preparação de um turno ou mais |
+
+A latência é o freio da categoria. Travessia sem freio declarado não publica, e o cenário escolhe entre a latência acima, a relação entre massa e distância, ou ambas.
+
+**Via nova.** Um domínio pode registrar uma terceira via desde que preencha toda linha da tabela de propriedades. Linha em branco significa que a via não publica.
+
+**Consumo por outros contextos.** Efeito de fronteira que se fixe a âncoras lê a integridade delas como integridade própria, e derrubar o efeito passa a ser derrubar as âncoras. Isso dá a esse tipo de efeito um vetor de ataque legível em vez de um valor de resistência opaco, e o registro declara quantas âncoras precisam cair e se a queda precisa ser simultânea.
+
+#### Estrutura de vazios [EXTENSÃO]
+
+Estrutura opcional que o cenário adota ou dispensa por inteiro. Adotada, ela declara que todo efeito de travessia abre um vazio próprio e exclusivo, e produz três consequências fixas.
+
+O efeito de travessia declara o vazio que abre. Alcançar o vazio de outro efeito custa em proporção direta à distância declarada entre os dois, e a tabela de distâncias pertence ao cenário. Efeito de fronteira erguido em um vazio não se estende sobre outro, e é por isso que a travessia contorna fronteira por padrão. Estender uma fronteira sobre vazio alheio é revogação de condição e pertence ao topo de escala do domínio de fronteira, jamais ao baseline dele.
+
+A estrutura resolve por desenho a disputa entre travessia e fronteira. Nenhum dos dois domínios vence por padrão, e a disputa decide por qual deles alcança o vazio do outro.
 
 #### Percepção
 
@@ -281,6 +323,27 @@ Sela, dissipa, anula, corta a fonte, impede a formação.
 Ancoragem em ficha. O teste oposto do confronto lê a perícia do domínio de negação contra a perícia do domínio do efeito alvo, ou contra o teste registrado na ficha do efeito quando ele tiver sido inscrito no passado.
 
 Duração e alvo do que se nega, técnica em curso, técnica inata, fonte de recurso ou fronteira, são eixos que consomem degraus pelo orçamento acima.
+
+#### Interceptação
+
+Toma um efeito alheio em trânsito e decide o destino dele. Piso de escala Forte.
+
+A categoria existe separada de Negação e de Mobilidade porque o verbo é outro. Negação impede que o efeito exista ou continue. Mobilidade move o praticante ou terceiros. Interceptação move o efeito alheio, que continua existindo e continua produzindo o que produzia, em outro lugar e contra outro alvo.
+
+| Degrau | Teto de captura | Frequência | Destino |
+|---|---|---|---|
+| 1 | efeito de escala inferior à própria | uma vez por cena | o próprio remetente |
+| 2 | efeito de escala igual | uma vez por combate | âncora previamente inscrita |
+| 3 | um degrau acima | uma vez por turno | qualquer âncora da rede do praticante |
+| 4 | dois degraus acima | uma vez por turno sem gastar a reação | ponto livre na linha de visão |
+| 5 | qualquer efeito dirigido | duas vezes por turno | alvo à escolha, sem âncora |
+| 6 | efeito de área e de campo | sem limite além do teto de gasto por turno | vazio declarado |
+
+**Resolução instantânea [NÚCLEO].** A interceptação resolve no mesmo instante em que o efeito chegaria. Efeito que fique retido para uso posterior pertence a armazenamento ou a construto, e nunca a esta categoria. Os dois nunca coexistem no mesmo registro, e é essa a linha que separa interceptar e redirecionar de capturar e liberar depois.
+
+**Destinos e famílias.** O destino escolhido determina a família de magnitude que computa o que sobrevive. Devolver ao remetente consome a família Reflexão e entrega fração do recebido. Reencaminhar a ponto ou alvo distinto consome a família Reemissão e preserva magnitude e riders integralmente, com o destino resolvendo a própria defesa. Converter em recurso próprio consome a família Absorção e não produz destino externo.
+
+**Ancoragem em ficha.** O registro declara o teto nominal de captura como número absoluto derivado do teste da perícia responsável ou do pool do praticante, e declara se o destino exige âncora, caso em que o contrato de âncora governa.
 
 #### Espacial e Realidade
 
@@ -368,10 +431,12 @@ Estratégias universais de cálculo. Qualquer categoria pluga qualquer família,
 | Atrasado | aplica agora e resolve em X turnos | Forte | efeito que precise resolver na hora |
 | Execute | abaixo de um limiar de pool, multiplicador alto ou efeito total | Supremo | abertura de combate |
 | Reflexão | fração do recebido devolvida ao remetente | Moderado | efeito sem remetente localizável |
-| Reemissão | intercepta o que vinha e reencaminha a terceiro ponto | Forte | ver contrato abaixo |
-| Absorção e redirecionamento | converte o recebido em recurso ou em saída própria | Forte | efeito sem tipo declarado |
+| Reemissão | o recebido segue íntegro a partir de outro ponto | Forte | ver contrato abaixo |
+| Absorção | converte o recebido em recurso ou em saída própria | Forte | efeito sem tipo declarado |
 
-**Contrato da Reemissão.** Família nova da v3. O efeito recebido é interceptado antes de resolver e reencaminhado a outro ponto à escolha do usuário, com magnitude e riders preservados, e o destino resolve a defesa dele normalmente. O registro declara três campos: o teto nominal de recurso interceptável, expresso como número absoluto derivado do teste ou do pool do usuário; a frequência, tipicamente uma vez por turno; e o requisito de âncora no destino quando houver. Reflexão devolve ao remetente e Reemissão escolhe terceiro, e as duas nunca coexistem no mesmo registro.
+As três famílias acima computam magnitude apenas dentro da categoria Interceptação, que é a dona do verbo. Nenhuma delas se pluga sozinha em outra categoria.
+
+**Contrato da Reemissão.** O efeito recebido é reencaminhado a partir de outro ponto, com magnitude e riders preservados, e o destino resolve a defesa dele normalmente. O registro declara o teto nominal de recurso interceptável como número absoluto, a frequência e o requisito de âncora no destino quando houver, todos lidos dos degraus da categoria Interceptação. Reflexão devolve ao remetente e Reemissão escolhe outro ponto, e as duas nunca coexistem no mesmo registro.
 
 O valor fixo é transversal. Além de família pura, soma-se como componente base de qualquer outra, como piso de dano, mínimo de cura ou bônus fixo de buff.
 
@@ -560,6 +625,8 @@ A lista fechada do que cada cenário preenche. Pedido de comportamento que não 
 | Réguas de Percepção | os donos das três réguas obrigatórias |
 | Sistema de status | condições, graus e a moeda que o Refluxo paga |
 | Correspondência de escala | como as escalas deste manual mapeiam na nomenclatura de poder do mundo |
+| Âncora | as duas linhas não declaradas da via de impregnação, e os nomes locais das operações contra âncora |
+| Estrutura de vazios | se o cenário a adota, e a tabela de distância entre vazios |
 
 ---
 
@@ -588,6 +655,8 @@ A tabela de multiplicador por tipo elemental é removida sem herdeiro, e o catá
 O documento de construto do cenário calibrador permanece válido sem reemissão, ganhando apenas linha de conformidade declarando que consome a categoria Construto da seção 3.4, cujo motor foi abstraído do que aquele documento validou.
 
 ### 10.3 Registro de alterações
+
+**v3.2.** Nasceu o Contrato de Âncora dentro da categoria Mobilidade, como peça única consumida por todo domínio que inscreva ou use ponto fixado, com as duas vias de inscrição, a tabela de propriedades expostas como interface pública e a régua de latência por via. Nasceu a estrutura de vazios como estrutura opcional de cenário, que resolve por desenho a disputa entre travessia e fronteira. Nasceu a categoria Interceptação no Contexto C, corrigindo a v3, que havia tratado o verbo de tomar efeito alheio em trânsito como se fosse apenas estratégia de cálculo. Reflexão, Reemissão e Absorção passaram a computar magnitude exclusivamente dentro dessa categoria. As categorias passaram de quatorze para quinze e os pontos de extensão de dez para doze.
 
 **v3.1.** Correção da seção 4.3. A v3 publicou a magnitude energética como produto único de quatro fatores, e o motor validado do cenário calibrador soma duas parcelas independentes, uma de conversão do recurso investido e outra de maestria construída. O produto único apaga a diferenciação entre construções de reserva alta e construções de maestria alta, que é intencional e está validada contra as âncoras canônicas daquele cenário. A forma passa a ser de dois termos, o coeficiente de obra passa a multiplicar o termo de maestria e não o de conversão, e o coeficiente de tipo ganha slot próprio na parcela de conversão. Alinhado também o nome do quarto degrau do eixo de evitabilidade ao termo já em uso rio abaixo.
 
@@ -625,4 +694,4 @@ Valide contra as Tabelas de Referência nos cinco perfis e mostre a conta.
 
 ---
 
-*Manual de Criação de Poderes v3.1. Camada de núcleo, fechada para modificação e aberta para extensão. Categoria define o quê, família define o quanto, dimensão define o como, composição combina, e cada número sai de uma régua com dono declarado.*
+*Manual de Criação de Poderes v3.2. Camada de núcleo, fechada para modificação e aberta para extensão. Categoria define o quê, família define o quanto, dimensão define o como, composição combina, e cada número sai de uma régua com dono declarado.*

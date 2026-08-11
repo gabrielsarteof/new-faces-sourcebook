@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.fuinjutsu
 title: "Fūinjutsu"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Fuinjutsu_v1.md
 ---
 
-FŪINJUTSU (封印術) — v1.2
+FŪINJUTSU (封印術) — v1.3
 
 Atributo: INT
 Categoria: Erudição (×1,7)
@@ -180,6 +180,8 @@ Deixar no mundo uma marca permanente que outra técnica leia depois.
 
 O deslocamento pela marca é obra nomeada de compêndio, com portão duplo entre esta perícia e a perícia de Espaço-Tempo. Aqui vive a marca, não o salto.
 
+A Marca de Destino é a via de fórmula do Contrato de Âncora, Manual de Criação de Poderes, seção 3.3: legível por quem tenha o ofício, exposta a valor de oposição, sujeita a adulteração e a dissipação por terceiro, e sobrevivendo à queda de quem a inscreveu. Espaço-Tempo e Barreira a consomem sem redefini-la.
+
 NOTA: o grau mede amplitude e determina o valor da especialização; a complexidade mede profundidade e governa os verbos, sem entrar em teste.
 
 NÍVEL 5: MAESTRIA
@@ -222,7 +224,7 @@ Revoga: o que é lançado chega onde foi lançado.
 └─ Marca de Destino LV6: aplica-se sem contato dentro do campo de visão
 └─ Rede Compartilhada LV6: sem teto de leitores, e o portador sente quando qualquer marca sua é tocada, onde quer que esteja
 
-Consome a família Reemissão do Manual de Criação de Poderes v3.1, seção 4.1, para a magnitude interceptada e o teto nominal. O gatilho por reação, a marca de destino como alvo escolhido e a frequência de uma vez por turno permanecem desta perícia.
+Consome a categoria Interceptação e, dentro dela, a família Reemissão, Manual de Criação de Poderes v3.2, seções 3.3 e 4.1, para a resolução instantânea e para a magnitude reencaminhada. O teto nominal e a frequência são a instância desta perícia dos dois campos que a categoria exige; o gatilho por reação e a marca de destino como alvo escolhido permanecem desta perícia.
 
 SILÊNCIO (remoção de condição · Absolvição)
 Revoga: a contenção depende da vontade do portador.
@@ -294,6 +296,8 @@ Compêndio de Fūinjutsu, publicado em v1 com quarenta e duas entradas e com os 
 Perícia de Espaço-Tempo, publicada em v1. A marca segue vivendo aqui, no caminho Âncora; o salto e o portão de rank da Linhagem do Hiraishin vivem lá.
 
 Manual de Criação de Poderes v3.1, dono da família de magnitude Reemissão que Trovão Guia consome, seção 4.1. Não existe categoria de efeito com esse nome no manual; a interceptação e o reencaminhamento são mecânica de família, não de categoria, e a citação em Trovão Guia foi escrita conforme o manual publica.
+
+Manual de Criação de Poderes v3.2, dono do Contrato de Âncora, seção 3.3, que a Marca de Destino cumpre como via de fórmula desde antes de o contrato existir. A categoria de efeito Interceptação também nasceu naquela versão, e a citação em Trovão Guia, acima, foi atualizada para nomeá-la ao lado da família Reemissão.
 
 FILA DE ERRATA
 
