@@ -1,7 +1,7 @@
 ---
 id: naruto.advantages-disadvantages.overview
 title: "Vantagens Especiais do Mundo Shinobi"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: catalog
@@ -56,7 +56,9 @@ A energia natural mata quem a convida sem ter corpo para recebê-la. A esmagador
 
 **Efeitos:** Habilita o personagem a iniciar treinamento de Senjutsu quando houver acesso narrativo a um local e mestre apropriados / +5 em todos os testes contra petrificação e desequilíbrio da mistura durante o aprendizado
 
-**Nota:** Vantagem de chave, não de poder: ela abre a porta e o Senjutsu inteiro vive nas suas próprias regras, em documento próprio. Sem esta vantagem, o treinamento é inviável para personagens de jogador. O preço reflete o valor do conteúdo destravado, não dos bônus listados.
+**Nota:** Vantagem de chave, não de poder: ela abre a porta e o Senjutsu inteiro vive nas suas próprias regras, publicadas na perícia de Senjutsu. Sem esta vantagem, o treinamento é inviável para personagens de jogador. O preço reflete o valor do conteúdo destravado, não dos bônus listados.
+
+A perícia declara outras duas camadas de acesso que esta vantagem não substitui: a terra viva com mestre disposto, que é evento de campanha sem preço em XP, e os requisitos de ficha, que exigem 800 de Reserva de Chakra, Controle de Chakra pelo portão declarado lá e contrato ativo com a espécie que ensina.
 
 ---
 

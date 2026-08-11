@@ -1,7 +1,7 @@
 ---
 id: naruto.powers.overview
 title: "Poderes — Naruto"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: system
@@ -17,7 +17,7 @@ Habilidades e modos que transcendem o shinobi padrão.
 
 | Arquivo | Conteúdo |
 |---|---|
-| [sage-mode.md](sage-mode.md) | Modo Sábio: pré-requisitos, treinamento, formas (sapo, cobra, lesma) |
+| [../skills/senjutsu.md](../skills/senjutsu.md) | Modo Sábio: entrar no modo é o LV1 da perícia de Senjutsu, que publica requisitos de acesso, réguas, caminhos e a modalidade por espécie |
 | [tailed-beast-mode.md](tailed-beast-mode.md) | Modo Besta de Cauda / Modo Bijuu |
 | [expansions-overview.md](expansions-overview.md) | Como expansões funcionam no sistema; referência ao Seis Olhos |
 

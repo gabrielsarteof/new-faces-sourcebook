@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chakra-reserve
 title: "Reserva de Chakra"
-version: 3
+version: 3.1
 layer: scenario
 scenario: naruto
 type: system
@@ -199,6 +199,11 @@ detalhadas no documento de Bijuu.
 Condição única: no máximo dois personagens no mundo a possuem simultaneamente. Não é
 hereditária nem comprável. Regras detalhadas no documento de Reencarnação.
 
+**Reserva de Energia Natural:** o praticante de Senjutsu colhe do mundo um recurso que
+corre por fora desta reserva, com teto próprio lido do teste daquela perícia. A REN
+nasce vazia em toda cena, não se recupera com descanso e não entra em nenhum cálculo
+desta página. Regras detalhadas na perícia de Senjutsu.
+
 ---
 
 ## Sinergias
@@ -207,8 +212,9 @@ hereditária nem comprável. Regras detalhadas no documento de Reencarnação.
   vantagem dupla: PV maior e multiplicador de linhagem alto.
 - **XP de Ficha elevado:** aumenta a RC com retorno decrescente ao longo da campanha.
 - **Oito Portas:** elevam o LS sem alterar a RC total.
-- **Modo Sábio:** desacelera o consumo ao adicionar energia natural ao mix. Detalhes
-  nas regras de Senjutsu.
+- **Modo Sábio:** desacelera o consumo ao adicionar energia natural ao mix, pagando em
+  REN o que sairia daqui. A perícia de Senjutsu publica o teto, a taxa de colheita e o
+  dreno de sustentação, e exige 800 de RC como requisito de ficha para o acesso.
 
 ---
 

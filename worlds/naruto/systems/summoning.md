@@ -1,7 +1,7 @@
 ---
 id: naruto.system.summoning
 title: "Documento de Invocação"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: system
@@ -11,7 +11,7 @@ source-file: Documento_de_Invocacao_v2-1.md
 
 # Documento de Invocação
 
-**v2.1. Regras de contrato, invocação e invocados para o RPG de Naruto.**
+**v2.2. Regras de contrato, invocação e invocados para o RPG de Naruto.**
 
 A invocação transporta um aliado através do espaço; ela nunca o cria. Todo invocado é um ser independente, com chakra, técnicas, sociedade e vontade próprios, vivendo em território próprio até ser chamado. O invocador paga o transporte. O invocado decide o resto. Este documento rege a técnica-base, a aquisição e estrutura dos contratos, a taxonomia de custos, a ficha do invocado, a invocação reversa e os casos especiais com precedente canônico.
 
@@ -284,7 +284,9 @@ Objetos invocados ficam fora da taxonomia de invocados. Tier, mini-ficha e port�
 
 ### 7.5 Senjutsu
 
-As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, ficam registradas como porta narrativa de acesso ao futuro documento de Senjutsu. O acesso é benefício de relacionamento com a terra, jamais cláusula automática do contrato. Nenhuma mecânica de senjutsu é antecipada aqui.
+As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, ficam registradas como porta narrativa de acesso à perícia de Senjutsu. O acesso é benefício de relacionamento com a terra, jamais cláusula automática do contrato. Nenhuma mecânica de senjutsu é antecipada aqui.
+
+O contrato entra do outro lado como requisito de ficha daquela perícia, e a espécie contratada é quem declara a assinatura física do modo e o ramo do compêndio que o praticante alcança. A aquisição do contrato segue a Seção 2 e continua sendo concessão narrativa, de modo que nenhum nível de perícia compra vínculo.
 
 ---
 
@@ -305,9 +307,11 @@ As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, 
 
 ### 9.1 Consumidores
 
-A perícia de Passagem lerá este documento na inclinação de convocação, consumindo o Teste de Aceitação e a regra dura da Seção 6.2. As fichas individuais de chefes de espécie leem o template da Seção 5.3. O Compêndio de Ninjutsu lê a Seção 7.2 para as invocações-golpe.
+A perícia de Passagem lerá este documento na inclinação de convocação, consumindo o Teste de Aceitação e a regra dura da Seção 6.2. As fichas individuais de chefes de espécie leem o template da Seção 5.3. O Compêndio de Ninjutsu lê a Seção 7.2 para as invocações-golpe. A perícia de Senjutsu lê a Seção 2 e a Seção 7.5, consumindo o contrato como requisito de ficha e a espécie contratada como declarante da modalidade.
 
 ### 9.2 Registro de alterações
+
+**v2.2.** Publicada a perícia de Senjutsu, a Seção 7.5 deixa de citar um documento futuro e passa a nomear a perícia, com o contrato registrado do outro lado como requisito de ficha dela e a espécie contratada declarando a assinatura do modo e o ramo do compêndio. A aquisição do contrato permanece concessão narrativa, sem que nível de perícia algum compre vínculo, e nenhuma mecânica de senjutsu entra aqui.
 
 **v2.1.** Publicada a perícia de Passagem, antes rotulada Espaço-Tempo, o portão fixou em LV3 pelo rank C do jutsu-base, o preço próprio em XP do jutsu-base saiu com a cláusula transitória cumprida, e os Limiares de Aceitação saíram do estado provisório conferidos contra a faixa de teste da perícia.
 
