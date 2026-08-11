@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.6. Camada de relação entre domínios.**
+**v2.7. Camada de relação entre domínios.**
 
 ---
 
@@ -34,18 +34,19 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Perícia | Versão | Regente | Categoria de custo |
 |---|---|---|---|
 | Controle de Chakra | v3.2 | SAB | Chakra ×1,4 |
-| Sensoriamento | v2.1 | PRE | Chakra ×1,4 |
+| Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
+| Senjutsu | v1 | RES | Chakra ×1,4 |
 | Katon | v3 | INT | Ninjutsu ×1,5 |
 | Raiton | v2 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.1 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.1 | INT | Ninjutsu ×1,5 |
 | Doton | v2 | INT | Ninjutsu ×1,5 |
 | Liberação de Yin | v4.1 | INT | Ninjutsu ×1,5 |
-| Liberação de Yang | v4.1 | RES | Ninjutsu ×1,5 |
+| Liberação de Yang | v4.2 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
-| Passagem | v1 | INT | Erudição ×1,7 |
+| Passagem | v1.1 | INT | Erudição ×1,7 |
 
 ### Por que três categorias e não uma
 
@@ -77,8 +78,8 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 | Atributo | Perícias que rege |
 |---|---|
 | INT | 10 |
+| RES | 2 |
 | SAB | 1 |
-| RES | 1 |
 | PRE | 1 |
 | FOR, VEL, DES, DEF, CAR, VON | 0 |
 
@@ -90,7 +91,9 @@ O Núcleo de Perícias, seção 1, exige regentes distintos entre domínios vizi
 
 **Os cinco elementos e a Liberação de Yin são o mesmo ato com matéria diferente.** Separá-los por atributo produziria distinção arbitrária entre competências que a obra trata como uma só disciplina, e o portão duplo contra Controle de Chakra já mantém a independência entre a magnitude e a precisão.
 
-**Emenda declarada.** A exigência de regentes distintos vale entre eixos de domínio e não dentro de um eixo. Dentro do eixo, a independência se mantém pelo portão duplo e pelas exigências de nível cruzado. A emenda pertence ao Núcleo e está na fila de errata.
+**Emenda aplicada.** A exigência de regentes distintos vale entre eixos de domínio e não dentro de um eixo. Dentro do eixo, a independência se mantém pelo portão duplo e pelas exigências de nível cruzado. A emenda entrou no Núcleo de Perícias v2.2, seção 1, e deixou a fila de errata.
+
+**O segundo RES, e por que ele é conforme.** Senjutsu e Liberação de Yang regem pelo mesmo atributo em eixos distintos, um no eixo do chakra bruto e outro no da conversão elemental. Pela leitura por eixo, o par é conforme sem instrumento adicional. O que sustenta a independência de acesso do Senjutsu é o portão duplo com o Controle de Chakra, em nível não inferior ao próprio menos um, somado a três camadas de acesso que perícia nenhuma compra: a vantagem em XP Sorte, o evento de campanha e os requisitos de ficha.
 
 **Dívida registrada, sem mitigação.** Ninjutsu Médico é ofício distinto do eixo elemental, roda em INT, não possui exigência cruzada de nível e é comprado junto de Controle de Chakra com frequência muito alta. É o único ponto do corpus onde a regra dói sem instrumento que a compense. A revisão fica agendada para quando o eixo físico entrar e trouxer DES, VEL e FOR para a tabela, porque hoje não existe alternativa viável e mudar regente sem alternativa é troca de um problema por outro.
 
@@ -109,6 +112,8 @@ Agrupamentos de compra conjunta com frequência alta. É a tabela que torna o co
 **Eixo de ofício.** Fūinjutsu, Controle de Chakra, Barreira e Passagem. Regentes INT, SAB, devido e INT.
 
 **Eixo de engano.** Genjutsu, Controle de Chakra e Liberação de Yin. Regentes INT, SAB e INT.
+
+**Eixo do sábio.** Senjutsu, Controle de Chakra e Sensoriamento. Regentes RES, SAB e PRE. O terceiro entra porque o Modo Sábio eleva o alcance daquela perícia e o praticante que paga o modo costuma pagar a leitura junto, e os três regentes já nascem distintos.
 
 ---
 
@@ -162,8 +167,26 @@ A resistência à entrada mora em dois lugares ao mesmo tempo, aqui e na Conten�
 | Esconder-se do sensor | Contenção, em Controle de Chakra |
 | Percepção de emoção negativa | bijū e jinchūriki |
 | Qualificação sensorial por dōjutsu | documentos de olho |
-| Sentir chakra pela energia natural | senjutsu |
+| Sentir chakra pela energia natural | Senjutsu, honrada |
 | Sinal falso de chakra e chakra irrastreável | documentos de clã e de arma |
+
+### Cedido pelo Senjutsu v1
+
+| Território | Dono |
+|---|---|
+| Toda leitura de posição, identidade, intenção e qualificação | Sensoriamento |
+| Amplificação do corpo por saturação da própria vitalidade | Liberação de Yang |
+| Volume de chakra próprio | Reserva de Chakra |
+| Graduação do corpo que endurece | Sistema de Efeitos de Status, condição Petrificação |
+| Contrato com a espécie | Documento de Invocação e Passagem |
+| Aptidão de nascença | vantagem Compatibilidade com Energia Natural |
+| Absorção passiva involuntária | documento do clã Jūgo, devida |
+| Modo Sábio nato | documento do clã Senju, devida |
+| Senjutsu dos Seis Caminhos | documentos de reencarnação |
+| Terras sagradas e mestres | Universo e Campanha |
+| Obras nomeadas sob o prefixo Senpō | Compêndio de Senjutsu, devida |
+
+A contrapartida da primeira linha corre no sentido inverso: o Sensoriamento recebe do Modo Sábio uma elevação categórica de alcance e conserva toda a leitura, de modo que a única coisa que atravessa a fronteira é a distância.
 
 ### Cedido por outros
 
@@ -188,6 +211,7 @@ Pares em que duas perícias governam a mesma capacidade por eixos independentes,
 | Sensoriamento | Controle de Chakra | publicado |
 | Genjutsu | Controle de Chakra, em nível não inferior ao próprio | publicado |
 | Fūinjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
+| Senjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
 | Fūinjutsu | Barreira, no Fūin Kekkai | devido |
 | Fūinjutsu | Passagem, no deslocamento por marca | publicado |
 
@@ -218,30 +242,31 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 ## 7. Registro de Conformidade
 
-| Perícia | Núcleo v2 e Manual v7 |
+| Perícia | Núcleo v2.2 e Manual v7.1 |
 |---|---|
 | Katon v3, Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
-| Liberação de Yin v4, Liberação de Yang v4.1 | conforme |
+| Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.2 | conforme |
-| Sensoriamento v2.1 | conforme |
+| Sensoriamento v2.2 | conforme |
 | Genjutsu v1.2 | conforme, com uma ressalva de vocabulário |
-| Fūinjutsu v1.3 | conforme, com a mesma ressalva |
-| Passagem v1 | conforme |
+| Fūinjutsu v1.4 | conforme, com a mesma ressalva |
+| Passagem v1.1 | conforme |
+| Senjutsu v1 | conforme |
 
-**Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha ou criando o dono dela.
+**Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
 
 ---
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Oito, das quais duas aplicadas. Seis seguem abertas, cinco de uma linha cada.
+Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
 
 | Errata | Documento |
 |---|---|
 | ~~Integrar o Adendo da seção 4.1.3 ao corpo principal~~ — **aplicada na v2.3** | Manual de Criação de Jutsus v2 |
 | ~~Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações~~ — **aplicada na v7.1** | Manual de Criação de Perícias v7, seção 7 |
-| Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um | Núcleo de Perícias v2, seção 1 |
+| ~~Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um~~ — **aplicada na v2.2** | Núcleo de Perícias v2, seção 1 |
 | Corrigir o apontamento de Eco de Presença, que exige o caminho Sinal | Genjutsu v1.1 |
 | Registrar o multiplicador de 65 do LV5 e a soma revogada pelo Apagamento no LV6 | Genjutsu v1.1 |
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
@@ -253,6 +278,10 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.7.** A perícia de Senjutsu v1 nasce, e o sistema passa de treze para quatorze perícias. Ela entra no Registro de Regentes com regente RES e categoria Chakra ×1,4, e é o segundo domínio a reger por RES, o que tornou concreta a errata do Núcleo e a fez fechar: a exigência de regentes distintos passou a se ler por eixo na v2.2 daquele documento, e o par com a Liberação de Yang é conforme porque os dois vivem em eixos diferentes. O Registro de Vizinhança ganha o eixo do sábio. No Registro de Fronteira, a cedência de sentir chakra pela energia natural passa de devida a honrada, e nasce o bloco das onze cedências que a perícia nova declarou, três delas devidas a documentos que ainda não existem. O Registro de Portão Duplo ganha o par com o Controle de Chakra em nível não inferior ao próprio menos um. A Fila de Nascimento não muda, porque o Senjutsu nunca esteve nela: nenhum documento publicado o declarara por nome, e ele nasceu por decisão de campanha e não por dívida do corpus. A ressalva de vocabulário passa a alcançar quatro documentos. Restam cinco erratas abertas.
+
+Na mesma passada, quatro linhas de versão são corrigidas contra os arquivos. Passagem estava registrada em v1 nos dois registros e está em v1.1 desde o Manual de Ancoragem. Fūinjutsu aparecia em v1.4 no Registro de Regentes e em v1.3 no de Conformidade. Sensoriamento e Liberação de Yang subiram nesta passada por causa das fronteiras que receberam.
 
 **v2.6.** A perícia publicada na v2.3 como Espaço-Tempo é renomeada para Passagem. O rótulo antigo nomeava a categoria de jutsu do cânone e não o ofício, na mesma armadilha que mantém Taijutsu fora da lista de perícias; o nome novo cobre as duas inclinações sem privilegiar nenhuma e fecha o par com Barreira, a coluna que veda. Toda referência à perícia neste documento passa a dizer Passagem, incluindo dentro do texto histórico da v2.3; a categoria canônica Ninjutsu de Espaço-Tempo, citada por outros documentos, não muda, porque nomeia a obra e não o ofício adquirível. Nenhum valor, portão ou régua é alterado por esta passada.
 
