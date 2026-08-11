@@ -251,7 +251,7 @@ Registrado como fora do domínio por ausência de fundamento: a leitura de prese
 
 DEPENDÊNCIAS E PENDÊNCIAS
 
-Perícia de Sensoriamento, hoje sem documento, dona da leitura de vida que a perícia recusa. Perícia Ninjutsu Médico, que consome esta como substrato a partir do rank C e cuja rederivação está na fila. Compêndio de Yōton, inexistente, que recebe todas as técnicas nomeadas desta natureza. Sistema de Efeitos de Status, que responde pelos graus de Exaustão do refluxo e pelas condições que a inclinação Pulso suspende. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas. Divergência entre o Manual de Criação de Perícias v7 seção 7 e o Núcleo de Perícias v2 seção 3.3 sobre teto de inclinações, com o Núcleo vencendo por precedência e a errata do Manual pendente.
+Perícia de Sensoriamento, hoje sem documento, dona da leitura de vida que a perícia recusa. Perícia Ninjutsu Médico, que consome esta como substrato a partir do rank C e cuja rederivação está na fila. Compêndio de Yōton, inexistente, que recebe todas as técnicas nomeadas desta natureza. Sistema de Efeitos de Status, que responde pelos graus de Exaustão do refluxo e pelas condições que a inclinação Pulso suspende. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas. Divergência entre o Manual de Criação de Perícias v7 seção 7 e o Núcleo de Perícias v2 seção 3.3 sobre teto de inclinações: resolvida na v7.1, que revogou o teto e passou a derivar a contagem da auditoria do domínio, conforme o Núcleo já mandava.
 
 REGISTRO DE ALTERAÇÕES
 

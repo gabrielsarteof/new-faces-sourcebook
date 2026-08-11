@@ -1,7 +1,7 @@
 ---
 id: core.skill-authoring
 title: "Manual de Criação de Perícias"
-version: 7
+version: 7.1
 layer: core
 type: methodology
 status: final
@@ -10,7 +10,7 @@ source-file: Manual_de_Criacao_de_Pericias_v7.md
 
 # Manual de Criação de Perícias
 
-**v7 — Substitui integralmente o v6**
+**v7.1 — Substitui integralmente o v6**
 
 Este manual é o procedimento de construção de perícias. Ele diz como se preenche cada
 camada da estrutura definida no *Núcleo de Perícias*, que é quem define quais camadas
@@ -200,8 +200,14 @@ vazia de números, o baseline foi indevidamente empurrado para cima.
 As inclinações particionam a superfície de teste do domínio. Toda pergunta da lista de
 resposta pertence a exatamente uma inclinação, sem sobra e sem sobreposição.
 
-O padrão é de duas. O teto é três, admitido quando o domínio tem três modos de operação
-genuinamente distintos, com a justificativa registrada por escrito.
+A quantidade de inclinações sai da auditoria do domínio, sem número padrão e sem teto. O
+critério é o modo de operação: duas perguntas pertencem a inclinações distintas quando o
+praticante as resolve por operações diferentes, e não quando apenas tratam de assuntos
+diferentes.
+
+Partição inflada se reconhece por dois sinais. A inclinação cuja condição está ligada nas
+mesmas cenas que a de outra é a mesma inclinação com nome dobrado. A inclinação que não
+comporta ao menos dois caminhos de verbos distintos é caminho promovido, e desce.
 
 Procedimento: escrever a lista de perguntas, agrupar por modo de operação, nomear cada
 grupo, conferir que todo item caiu em um grupo e em um só.
@@ -209,6 +215,9 @@ grupo, conferir que todo item caiu em um grupo e em um só.
 **Assimetria é permitida.** Nada exige que as inclinações tenham o mesmo número de
 caminhos. A densidade de cada região do domínio é o que decide, e forçar simetria produz
 caminho de enchimento na região mais pobre.
+
+Transcendência é camada à parte da partição. A contagem de transcendências não é indexada
+pelo número de inclinações, e o pré-requisito de caminho atravessa inclinações livremente.
 
 ---
 
@@ -467,7 +476,7 @@ adicional daquela inclinação, e alimenta apenas a Inclinação Total dela.
 3. Camada: superclasse, subclasse ou instância, pelas três perguntas?
 4. Regente: qual atributo, e ele difere dos domínios vizinhos?
 5. Portão duplo: o domínio separa magnitude de precisão?
-6. Inclinações: duas ou três, com justificativa escrita se três?
+6. Inclinações: a partição sobrevive aos dois sinais de inflação?
 7. Caminhos: quantos por inclinação, com o mínimo de dois cumprido?
 
 ### 15.3 Criação
