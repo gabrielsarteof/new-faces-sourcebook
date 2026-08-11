@@ -129,7 +129,7 @@ O praticante empurra a própria fadiga para trás, adiando por uma cena inteira 
 **Honekoshi no Ichigeki — 骨越しの一撃**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yang LV3 · Refinada · Taijutsu LV2
+**Requisitos:** Liberação de Yang LV3 · Refinada · perícia de combate corporal declarada na ficha
 **XP:** 1.775
 
 A saturação se comprime num único golpe e se libera no instante do impacto, amplificando a pancada além do que o músculo comum permitiria. A exigência de moldagem refinada em rank C é o par declarado deste compêndio contra a indexação de precisão por porte: concentrar vitalidade num instante exige mais refinamento do que sustentá-la ao longo de uma cena.

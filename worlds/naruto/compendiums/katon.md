@@ -527,7 +527,7 @@ Conversão do campo de batalha inteiro em zona ardente. O solo pega, o ar carreg
 **天照**
 **[CANON — Acima de Rank S]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Mangekyō Sharingan desperto, com o olho correspondente ativado
+**Requisitos:** Mangekyō Sharingan · olho correspondente ativado
 **XP:** pertence ao documento do Mangekyō Sharingan
 
 As chamas negras do Amaterasu são declaradas nos databooks como a técnica de Katon de nível mais alto já registrada. O Amaterasu não é expelido pelos pulmões, e as chamas nascem diretamente no ponto em que o olho do Mangekyō pousa o olhar. Ardem por sete dias e sete noites sem se extinguir por meios convencionais, queimam a temperaturas superiores às do sol e não respondem a Suiton. A técnica pertence exclusivamente a portadores do Mangekyō Sharingan com o olho correspondente ativado, fora do arsenal de Katon acessível por treinamento.

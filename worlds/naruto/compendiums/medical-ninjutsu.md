@@ -171,7 +171,7 @@ O limite é a cobrança. A pílula adianta o que o corpo não tem, e ao fim da c
 
 ### Palma Mística
 **Shōsen Jutsu — 掌仙術**
-**[CANON — Rank C e A]**
+**[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Refinada · Liberação de Yang
 **XP:** 3.155

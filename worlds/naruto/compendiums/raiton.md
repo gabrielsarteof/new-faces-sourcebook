@@ -392,6 +392,17 @@ O usuário agarra o oponente em pleno movimento e o conduz ao solo com a força 
 
 O usuário integra corrente elétrica ao próprio kenjutsu, revestindo a lâmina e prolongando o corte em arcos de raio que percorrem o campo além do alcance físico da arma. Cada golpe carrega a perfuração do elemento somada à trajetória do fio, e a sequência de arcos cobre ângulos que o movimento da espada isoladamente não alcança. A forma é a origem registrada da canalização elemental em arma e permanece atrelada ao seu criador.
 
+### Pantera Negra
+**Kuropansa — 黒豹**
+**[ATRIBUÍDO — Rank A]**
+**Acesso:** Transmissão Direta
+**Requisitos:** Raiton LV5 · Moldagem Refinada · Relâmpago Negro
+**XP:** 12.800
+
+O usuário molda relâmpago negro na forma de uma pantera que avança de forma autônoma pelo campo, mordendo e perfurando o alvo antes de se dissipar. A coloração não é efeito estético, porque o relâmpago negro é uma alteração fundamental da natureza elétrica, transmitida diretamente de portador para portador e impossível de reproduzir por treinamento, observação ou cópia ocular. Sem a transmissão, a técnica não existe para o personagem em nenhuma circunstância.
+
+---
+
 ---
 
 ## Rank S
@@ -437,17 +448,6 @@ O usuário concentra a corrente da armadura elétrica nas pontas dos dedos esten
 ## Acima de Rank S
 
 Entradas sem teto de rank ficam fora da interpolação de preço, e o custo é definido pelo Narrador com o piso de 50.000 pontos, na mesma regra que a seção 4.1 aplica a Kinjutsu.
-
----
-
-### Pantera Negra
-**Kuropansa — 黒豹**
-**[ATRIBUÍDO — Rank A]**
-**Acesso:** Transmissão Direta
-**Requisitos:** Raiton LV5 · Moldagem Refinada · Relâmpago Negro
-**XP:** 12.800
-
-O usuário molda relâmpago negro na forma de uma pantera que avança de forma autônoma pelo campo, mordendo e perfurando o alvo antes de se dissipar. A coloração não é efeito estético, porque o relâmpago negro é uma alteração fundamental da natureza elétrica, transmitida diretamente de portador para portador e impossível de reproduzir por treinamento, observação ou cópia ocular. Sem a transmissão, a técnica não existe para o personagem em nenhuma circunstância.
 
 ---
 

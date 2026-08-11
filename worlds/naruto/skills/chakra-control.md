@@ -1,15 +1,15 @@
 ---
 id: naruto.skill.chakra-control
 title: "Controle de Chakra"
-version: 3
+version: 3.1
 layer: scenario
 scenario: naruto
 type: skill
 status: final
-source-file: Pericia_Controle_de_Chakra_v2.md
+source-file: Pericia_Controle_de_Chakra_v2_2.md
 ---
 
-CONTROLE DE CHAKRA (チャクラコントロール) — v3
+CONTROLE DE CHAKRA (チャクラコントロール) — v3.1
 
 Atributo: SAB
 Categoria: Ninja (×1,5)
@@ -321,9 +321,15 @@ janela     = custo pago lido contra o Limite de Saída
 
 O neutro em 185 é o LV6 transcendido com três caminhos em Moldagem. A carga entra um para um no custo pago, porque chakra despejado por força escapa à eficiência da moldagem, e rende no lado nominal conforme a Sobrecarga do executor.
 
+O chakra desperdiçado sai do corpo como esforço e não como efeito, e cobra do vigor do executor no mesmo ato:
+
+PS gasto por execução = desperdício em RC ÷ 10
+
+O praticante de moldagem plena não paga nada nesta linha, porque não desperdiça. A graduação da fadiga resultante pertence à Exaustão Física do Sistema de Efeitos de Status, que lê o PS restante e reduz FOR, VEL e DES por faixa, sem teste novo e sem contador de mesa. O custo de PS que uma técnica declare na ficha dela soma a este valor e não o substitui. Uma técnica executada por quem molda mal cansa por dois motivos ao mesmo tempo, o esforço próprio dela e o desperdício de quem a executou.
+
 LV1 teste 14, paga 3,22×  ·  LV3 aprofundado teste 60, paga 2,63×  ·  LV4 com Refino teste 116, paga 1,90×  ·  LV5 com Refino aprofundado teste 142, paga 1,56×  ·  LV6 pleno teste 185, paga 1,00×
 
-Âncoras: Kakashi paga 250 pelo Chidori e alcança quatro usos com 942 de RC; Sasuke genin paga 656 e alcança dois com 1.325. Ambos entregam 443 de dano, porque desperdício vira cansaço e janela, nunca potência.
+Âncoras: Kakashi paga 250 pelo Chidori e alcança três usos por combate com 942 de RC, com o limite canônico de quatro sendo diário e resolvido pela recuperação entre encontros; Sasuke genin paga 656 e alcança dois com 1.325. Ambos entregam 443 de dano, porque desperdício vira cansaço e janela, nunca potência.
 
 RÉGUA DE MODULAÇÃO
 
