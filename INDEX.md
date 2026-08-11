@@ -25,7 +25,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1 | reference-table | final |
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.1 | core-layer | final |
-| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2 | system | final |
+| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.1 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.3 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |

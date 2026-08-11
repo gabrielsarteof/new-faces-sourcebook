@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2
+version: 2.1
 layer: core
 type: system
 status: final
@@ -36,7 +36,7 @@ A partir daqui, os efeitos nativos; ao final, os opcionais.
 
 ### Identidade dos Graus
 
-Todo efeito de status neste sistema possui exatamente quatro graus. Essa regra não tem exceção entre os efeitos nativos. Os graus não são apenas números diferentes, cada um representa um estado funcional distinto com identidade própria.
+Todo efeito de status neste sistema possui exatamente quatro graus. Essa regra não tem exceção entre os efeitos nativos. Cada grau representa um estado funcional distinto, com identidade própria além do número que o nomeia.
 
 Grau Leve significa que o personagem funciona mas sente. A condição está presente, tem custo real, mas não remove capacidades.
 
@@ -117,7 +117,7 @@ Regra de valor base para efeitos derivados da fonte: atributo relevante do causa
 
 ### Sangramento
 
-Um ferimento aberto drena sangue continuamente. O que sofre primeiro não é a força bruta mas a resistência e a capacidade de sustentar esforço. Só em perdas mais severas o funcionamento muscular começa a ser comprometido diretamente pela queda de oxigenação.
+Um ferimento aberto drena sangue continuamente. O que sofre primeiro é a resistência e a capacidade de sustentar esforço. A força bruta só cede em perdas mais severas, quando a queda de oxigenação alcança diretamente o funcionamento muscular.
 
 Fonte: golpe físico cortante ou perfurante.
 Atributos testados: RES + FOR
@@ -201,7 +201,7 @@ Grau Crítico: redução de 70% em VEL. O personagem mal consegue se deslocar. M
 
 ### Imobilização
 
-O personagem está fisicamente preso por restrição externa. O problema não é neurológico. O corpo quer se mover mas algo externo impede. A mente funciona, técnicas sem componente físico funcionam, o corpo não vai a lugar nenhum. Quebrar a restrição pela força é o caminho central de saída.
+O personagem está fisicamente preso por restrição externa. A causa é mecânica e externa ao corpo: a mente funciona, técnicas sem componente físico funcionam, e o corpo permanece onde está. Quebrar a restrição pela força é o caminho central de saída.
 
 Fonte: restrição física externa, correntes, raízes, técnicas de ancoragem.
 Atributos testados: FOR + RES
@@ -255,7 +255,7 @@ Notas: remoção pela regra universal com modificador Moderado obrigatório em t
 
 ### Atordoamento
 
-O impacto foi forte o suficiente para o cérebro precisar de um momento para se reorganizar. Não é dano neurológico permanente. É o instante em que o sistema reinicia involuntariamente. Breve mas decisivo.
+O impacto foi forte o suficiente para o cérebro precisar de um momento para se reorganizar: o instante em que o sistema reinicia involuntariamente, breve e decisivo. O efeito se resolve por conta própria, sem sequela neurológica.
 
 Fonte: impacto severo na cabeça, explosão próxima, sobrecarga de energia.
 Atributos testados: RES + VONTADE
@@ -294,7 +294,7 @@ Grau Crítico: incapaz de levantar sozinho pela força do efeito. Redução de 7
 
 ### Fratura
 
-O osso está comprometido estruturalmente. Não é dor passageira. É dano que persiste e que o uso contínuo pode agravar. Não desaparece com o tempo sem tratamento. O grau descreve a natureza real da lesão óssea.
+O osso está comprometido estruturalmente. O dano persiste, o uso contínuo o agrava, e a saída exige tratamento: o tempo sozinho não resolve. O grau descreve a natureza real da lesão óssea.
 
 Fonte: golpe físico contundente, esmagamento, impacto de alta energia.
 Atributos testados: RES + FOR
@@ -316,7 +316,7 @@ Notas: Leve e Moderado removem com tratamento simples mais descanso longo. Grave
 
 ### Exaustão Física
 
-O corpo chegou ao limite do esforço sustentável. Não é ferimento nem dano. É acúmulo do que foi exigido sem recuperação adequada. Os atributos afetados são especificamente os que o PS alimenta: força explosiva, velocidade e coordenação motora fina.
+O corpo chegou ao limite do esforço sustentável. A Exaustão corre fora dos motores de Ferimento e de Dano: ela é acúmulo do que foi exigido sem recuperação adequada. Os atributos afetados são especificamente os que o PS alimenta: força explosiva, velocidade e coordenação motora fina.
 
 Fonte: automática, derivada de PS perdido. Sem teste de aplicação. Cada nível substitui o anterior.
 
@@ -463,7 +463,7 @@ Notas: remoção pela regra universal com modificador Grave obrigatório. Aliado
 
 ### Intimidação Gravada
 
-O medo ficou registrado no sistema nervoso como resposta condicionada. Não é mais reação consciente ao perigo. É automática. O personagem pode estar completamente calmo e, ao deparar com o gatilho, a resposta retorna imediata antes de qualquer processamento racional.
+O medo ficou registrado no sistema nervoso como resposta condicionada, e passou de reação consciente ao perigo a resposta automática. O personagem pode estar completamente calmo e, ao deparar com o gatilho, a resposta retorna imediata antes de qualquer processamento racional.
 
 Aplicação: narrativa, após evento de terror severo em combate.
 Atributos testados: VONTADE + SAB em teste oposto com causador rolando CAR + FOR.
@@ -481,7 +481,7 @@ Notas: remoção apenas por resolução narrativa. Nenhum descanso remove.
 
 ### Trauma Psicológico
 
-Mais profundo que a Intimidação Gravada. Não é resposta condicionada a um gatilho específico. É alteração no funcionamento base da psique. Tem efeito passivo permanente além dos gatilhos, presente mesmo nos momentos tranquilos.
+Mais profundo que a Intimidação Gravada: onde aquela condiciona a resposta a um gatilho específico, esta altera o funcionamento base da psique. Tem efeito passivo permanente além dos gatilhos, presente mesmo nos momentos tranquilos.
 
 Aplicação: narrativa, após violência extrema, perda devastadora ou horror prolongado.
 Atributos testados: VONTADE + SAB em teste oposto com a intensidade do evento como referência.
@@ -540,7 +540,7 @@ Notas: aliado pode gastar ação completa tentando acordar o personagem nos grau
 
 ### Inconsciência
 
-O personagem entrou em colapso por dano extremo ou sobrecarga do sistema. Não é induzido como o Sono. É consequência direta. Sem teste de aplicação. Acontece quando o corpo não suporta mais.
+O personagem entrou em colapso por dano extremo ou sobrecarga do sistema. Onde o Sono é induzido, este chega como consequência direta, sem teste de aplicação. Acontece quando o corpo não suporta mais.
 
 Fonte: automática. PV cai a 0 ou abaixo de limiar crítico declarado pela fonte.
 
@@ -606,7 +606,7 @@ Efeitos que existem além do combate e afetam a campanha como um todo. Não desa
 
 ### Exaustão de Chakra
 
-A reserva chegou perto do fim, e o que resta não basta para moldar com a precisão de antes. O efeito não é ferimento nem cansaço muscular, e sim a degradação da própria capacidade de dar forma ao chakra conforme a fonte se esgota. Os sintomas aparecem antes da falha completa, em tontura, vertigem e escurecimento do campo de visão, e o shinobi que insiste depois do último grau morre.
+A reserva chegou perto do fim, e o que resta não basta para moldar com a precisão de antes. O efeito corre fora dos motores de ferimento e de cansaço muscular: ele é a degradação da própria capacidade de dar forma ao chakra conforme a fonte se esgota. Os sintomas aparecem antes da falha completa, em tontura, vertigem e escurecimento do campo de visão, e o shinobi que insiste depois do último grau morre.
 
 Fonte: automática, derivada da RC restante. Sem teste de aplicação. Cada grau substitui o anterior.
 Atributos afetados: nenhum atributo diretamente. A penalidade incide sobre os testes que governam chakra, deixando o comprometimento físico para a Exaustão Física e a degradação geral para a Fadiga.
@@ -662,7 +662,7 @@ Notas: remoção por tratamento narrativo adequado. Grau Crítico exige cuidado 
 
 ### Ferimento Grave
 
-O corpo foi danificado além do que o descanso consegue resolver. Não é dor. É comprometimento estrutural real que persiste e exige intervenção ativa para ser resolvido.
+O corpo foi danificado além do que o descanso consegue resolver. O comprometimento é estrutural e real, persiste por conta própria e exige intervenção ativa para ser resolvido.
 
 Fonte: automático. Personagem cai abaixo de 25% do PV máximo e sobrevive, ou como sequela de efeito Crítico.
 Atributo afetado: o mais relevante para a natureza do ferimento, declarado pelo Mestre na ocorrência.
@@ -680,7 +680,7 @@ Notas: o grau do Ferimento Grave é determinado pela gravidade do evento que o c
 
 ## FAMÍLIA VII · EFEITOS DERIVADOS
 
-Efeitos que surgem do agravamento de outros efeitos não tratados. Não são aplicados por fonte externa. São a consequência natural de deixar um efeito progredir sem intervenção.
+Efeitos que surgem do agravamento de outros efeitos não tratados. A fonte deles é interna: chegam pela consequência natural de deixar um efeito progredir sem intervenção.
 
 
 ### Exsanguinação
@@ -730,7 +730,7 @@ Ativados pelo Mestre conforme o tom e os elementos do cenário. Seguem exatament
 
 ### Tóxico
 
-O Tóxico é uma variante do Veneno, mais agressiva e de progressão mais rápida. A diferença não é apenas numérica, é qualitativa. Onde o Veneno corrói progressivamente, o Tóxico ataca o sistema de forma mais imediata e violenta. Recomendado para campanhas onde criaturas venenosas de alto nível ou alquimia avançada são elementos centrais.
+O Tóxico é uma variante do Veneno, mais agressiva e de progressão mais rápida, e a diferença entre os dois é qualitativa além de numérica. Onde o Veneno corrói progressivamente, o Tóxico ataca o sistema de forma mais imediata e violenta. Recomendado para campanhas onde criaturas venenosas de alto nível ou alquimia avançada são elementos centrais.
 
 Fonte: substância tóxica de alta potência, técnica ou criatura de nível avançado.
 Atributos testados: RES + FOR
@@ -752,7 +752,7 @@ Notas: Tóxico nunca remove pela regra universal. Todos os graus exigem antídot
 
 ### Necrose
 
-O tecido começa a morrer. Diferente do Sangramento e da Queimadura, a Necrose não é urgente no curto prazo, é lenta e profunda. O perigo real da Necrose é que ela danifica permanentemente o PV máximo se não for tratada a tempo. Recomendado para campanhas com magia de morte, criaturas necromânticas ou horror.
+O tecido começa a morrer. Diferente do Sangramento e da Queimadura, a Necrose age no longo prazo: ela é lenta e profunda. O perigo real da Necrose é que ela danifica permanentemente o PV máximo se não for tratada a tempo. Recomendado para campanhas com magia de morte, criaturas necromânticas ou horror.
 
 Fonte: magia de morte, veneno necrótico, mordida de criatura necromântica.
 Atributos testados: RES + FOR para necrose física. VONTADE + RES para necrose mágica.
@@ -818,7 +818,7 @@ Notas: fogo ou calor remove o efeito em qualquer grau. Grau Leve e Moderado remo
 
 ### Petrificação
 
-O corpo está sendo transformado em substância inerte. Diferente da Imobilização, a Petrificação não é reversível pela força. É um processo de transformação que avança progressivamente e exige intervenção específica para ser revertido. Nos graus mais severos, o personagem deixa de ser um alvo de habilidades normais, não pode ser curado, não pode ser afetado por maioria dos efeitos, mas também não pode agir. Recomendado para campanhas com criaturas de transformação ou magia de transmutação.
+O corpo está sendo transformado em substância inerte. Diferente da Imobilização, cuja saída é a força, a Petrificação exige intervenção específica: é um processo de transformação que avança progressivamente e só se reverte por essa via. Nos graus mais severos, o personagem deixa de ser um alvo de habilidades normais, não pode ser curado, não pode ser afetado por maioria dos efeitos, mas também não pode agir. Recomendado para campanhas com criaturas de transformação ou magia de transmutação.
 
 Fonte: olhar de criatura específica, técnica de transmutação, armadilha mágica.
 Atributos testados: RES + VONTADE
@@ -838,7 +838,7 @@ Notas: Leve e Moderado removem pela regra universal. Grave exige técnica de rev
 
 ### Peso Sobrenatural
 
-Uma força externa pressiona o personagem para baixo, aumentando artificialmente o peso que ele carrega ou a gravidade que sente. Não é dano neurológico nem lesão física, é uma questão de força bruta contra uma pressão constante. Recomendado para campanhas com magia de gravidade ou criaturas com esse tipo de capacidade.
+Uma força externa pressiona o personagem para baixo, aumentando artificialmente o peso que ele carrega ou a gravidade que sente. O efeito corre fora de dano neurológico e de lesão física: ele é força bruta contra uma pressão constante. Recomendado para campanhas com magia de gravidade ou criaturas com esse tipo de capacidade.
 
 Fonte: técnica de manipulação gravitacional ou de peso.
 Atributos testados: FOR + RES
@@ -940,7 +940,7 @@ Notas: remoção pela regra universal. Substâncias alucinógenas têm duração
 
 ### Fascínio e Encantamento
 
-O personagem está fascinado por algo ou alguém. Não é controle total. O personagem conserva autonomia em todas as ações exceto em hostilidades contra a fonte do fascínio. Não consegue atacá-la, não consegue prejudicá-la intencionalmente, não consegue resistir ao impulso de interagir com ela de forma não hostil. Recomendado para campanhas com magia mental, criaturas de encantamento ou dinâmicas políticas complexas.
+O personagem está fascinado por algo ou alguém, e conserva autonomia em todas as ações exceto em hostilidades contra a fonte do fascínio. Não consegue atacá-la, não consegue prejudicá-la intencionalmente, não consegue resistir ao impulso de interagir com ela de forma não hostil. Recomendado para campanhas com magia mental, criaturas de encantamento ou dinâmicas políticas complexas.
 
 Fonte: técnica de encantamento, aura de criatura específica, substância.
 Atributos testados: VONTADE + SAB
@@ -959,7 +959,7 @@ Notas: dano recebido da própria fonte permite novo teste de resistência imedia
 
 ### Domínio e Charme Total
 
-Controle completo. Diferente do Fascínio, o Domínio não é uma incapacidade de hostilidade, é substituição total da vontade. O personagem age como extensão da fonte. Sua identidade ainda existe internamente, mas não tem acesso a nenhuma decisão de ação. Recomendado para campanhas com magia mental de alto nível, entidades de possessão ou antagonistas que usem controle como ferramenta.
+Controle completo. Onde o Fascínio apenas impede a hostilidade, o Domínio substitui a vontade por inteiro. O personagem age como extensão da fonte. Sua identidade ainda existe internamente, mas não tem acesso a nenhuma decisão de ação. Recomendado para campanhas com magia mental de alto nível, entidades de possessão ou antagonistas que usem controle como ferramenta.
 
 Fonte: técnica de controle mental de alto nível, ritual específico.
 Atributos testados: VONTADE + SAB
@@ -978,7 +978,7 @@ Notas: aliados podem tentar quebrar o controle por meios narrativos, confronto d
 
 ### Frenesi e Berserk
 
-O personagem entra em estado de fúria incontrolável. Força e agressividade aumentam mas a capacidade de distinguir aliados de inimigos diminui. Não é necessariamente negativo em todos os contextos, uma criatura ou personagem construído para isso pode ser devastador. O perigo está nos efeitos colaterais sobre aliados. Recomendado para campanhas com guerreiros de fúria, criaturas selvagens ou maldições de raiva.
+O personagem entra em estado de fúria incontrolável. Força e agressividade aumentam mas a capacidade de distinguir aliados de inimigos diminui. Em alguns contextos o estado favorece quem o carrega, e uma criatura ou personagem construído para isso pode ser devastador. O perigo está nos efeitos colaterais sobre aliados. Recomendado para campanhas com guerreiros de fúria, criaturas selvagens ou maldições de raiva.
 
 Fonte: maldição de raiva, técnica específica, substância estimulante extrema, trauma emocional severo em combate.
 Atributos testados: VONTADE + SAB
@@ -997,7 +997,7 @@ Notas: dano recebido de aliado permite novo teste de resistência. Remoção pel
 
 ### Amnésia
 
-O personagem perdeu acesso a memórias específicas ou ao conhecimento acumulado. Não é cognitivo no sentido de que INT ou SAB estão comprometidos em si, é que o conteúdo que essas capacidades processam está inacessível. O personagem ainda pensa com clareza, mas pode não saber quem são seus aliados, o que sabe sobre o inimigo, ou como executar técnicas que dependam de memória procedimental. Recomendado para campanhas onde memória e identidade têm peso narrativo.
+O personagem perdeu acesso a memórias específicas ou ao conhecimento acumulado. INT e SAB permanecem intactos: o que ficou inacessível é o conteúdo que essas capacidades processam. O personagem ainda pensa com clareza, mas pode não saber quem são seus aliados, o que sabe sobre o inimigo, ou como executar técnicas que dependam de memória procedimental. Recomendado para campanhas onde memória e identidade têm peso narrativo.
 
 Fonte: técnica de apagamento de memória, trauma extremo, entidade específica, magia de alteração mental.
 Atributos testados: VONTADE + INT
@@ -1016,7 +1016,7 @@ Notas: a Amnésia é primariamente um efeito narrativo. As penalidades mecânica
 
 ### Desespero e Abatimento
 
-O personagem está em estado de derrota psicológica. Não é medo, não há uma ameaça específica causando hesitação. É a crença internalizada de que as ações não importam, de que o resultado já está decidido, de que resistir é inútil. Reduz a efetividade em tudo porque a motivação para executar bem simplesmente não está presente. Recomendado para campanhas de horror psicológico ou narrativas de desgaste.
+O personagem está em estado de derrota psicológica. Onde o Medo responde a uma ameaça específica, este estado é a crença internalizada de que as ações não importam, de que o resultado já está decidido, de que resistir é inútil. Reduz a efetividade em tudo porque a motivação para executar bem simplesmente não está presente. Recomendado para campanhas de horror psicológico ou narrativas de desgaste.
 
 Fonte: derrota severa, perda de aliado próximo, confronto com situação sem saída aparente, técnica específica.
 Atributos testados: VONTADE + SAB
@@ -1049,7 +1049,7 @@ Grau Grave: euforia dominante. Redução de 35% em SAB e 20% em PRE e INT. O per
 
 Grau Crítico: estado alterado severo. Redução de 50% em SAB, PRE e INT. O personagem age como se fosse invencível. Ações defensivas ou de retirada são impossíveis sem superar teste de VONTADE + SAB vs 55. Aliados podem ser ignorados como ameaças.
 
-Notas: remoção pela regra universal para origem por substância após duração da substância acabar. Origem mágica exige remoção ativa. O efeito não é intrinsecamente negativo para o personagem afetado, mas as consequências são.
+Notas: remoção pela regra universal para origem por substância após duração da substância acabar. Origem mágica exige remoção ativa. O efeito em si é neutro para o personagem afetado, e o peso está nas consequências.
 
 
 ### Paranoia
@@ -1076,7 +1076,7 @@ Notas: aliados que demonstrem intenção positiva de forma inequívoca permitem 
 
 ### Possessão Parcial
 
-Uma entidade externa habita parcialmente o personagem. Não é controle total, é uma voz, uma presença, uma influência que compete com a vontade do personagem. O personagem ainda existe e ainda decide, mas há algo dentro tentando interferir. Recomendado para campanhas com espíritos, demônios, entidades sobrenaturais ou maldições de habitação.
+Uma entidade externa habita parcialmente o personagem: uma voz, uma presença, uma influência que compete com a vontade dele. O personagem ainda existe e ainda decide, mas há algo dentro tentando interferir. Recomendado para campanhas com espíritos, demônios, entidades sobrenaturais ou maldições de habitação.
 
 Fonte: entidade espiritual ou sobrenatural tentando habitar o personagem.
 Atributos testados: VONTADE + RES
@@ -1128,7 +1128,7 @@ Notas: diferente da Possessão, o Controle Mental termina imediatamente se o con
 
 ### Provocação Forçada
 
-O personagem está compelido a concentrar toda a atenção em um alvo específico. Não é medo nem fascínio, é uma compulsão de engajamento. O personagem não consegue ignorar o alvo nem redirecionar atenção para outros. Recomendado para campanhas com sistemas de controle de ameaça ou criaturas com esse tipo de capacidade.
+O personagem está compelido a concentrar toda a atenção em um alvo específico. A compulsão é de engajamento, e corre fora dos motores de Medo e de Fascínio. O personagem não consegue ignorar o alvo nem redirecionar atenção para outros. Recomendado para campanhas com sistemas de controle de ameaça ou criaturas com esse tipo de capacidade.
 
 Fonte: técnica de provocação forçada, aura específica de criatura.
 Atributos testados: VONTADE + SAB
@@ -1224,7 +1224,7 @@ Notas: duração de 3 turnos. Remoção pela regra universal.
 
 ### Drenagem de Canal
 
-A RC máxima disponível do personagem está sendo comprimido temporariamente. A redução não é gasto de reserva, é redução do teto. Técnicas que exijam mais RC que o novo teto ficam inacessíveis durante a duração.
+A RC máxima disponível do personagem está sendo comprimida temporariamente. O que a redução move é o teto, e a reserva já gasta permanece como está. Técnicas que exijam mais RC que o novo teto ficam inacessíveis durante a duração.
 
 Fonte: técnica de compressão energética.
 Atributos testados: VONTADE + RES
@@ -1369,7 +1369,7 @@ Notas: fogo ou calor remove o efeito imediatamente em qualquer grau. Sem fonte d
 
 ### Fome e Desidratação
 
-O personagem está privado de nutrição ou hidratação básica. Não é efeito de combate, é consequência de sobrevivência negligenciada. Opera em horas ou dias, não em turnos. Recomendado para campanhas de sobrevivência ou exploração onde gestão de recursos é mecânica central.
+O personagem está privado de nutrição ou hidratação básica. O efeito é consequência de sobrevivência negligenciada e opera em horas ou dias, fora da escala de turno do combate. Recomendado para campanhas de sobrevivência ou exploração onde gestão de recursos é mecânica central.
 
 Fonte: privação de alimento ou água ao longo do tempo.
 Sem teste de aplicação. Progressão automática conforme tempo de privação.
