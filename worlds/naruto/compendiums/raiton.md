@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.1
+version: 3.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -321,7 +321,7 @@ O usuário fragmenta a corrente reunida em dezenas de agulhas de eletricidade di
 **Shiden — 紫電**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Lança
+**Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Lança · Kyōka Shiden
 **XP:** 11.000
 
 O usuário concentra chakra de raio de coloração violeta e o dispara de uma única mão em descarga contínua, sem a necessidade de investida corporal. A técnica alcança poder comparável ao das grandes perfurações do elemento operando inteiramente à distância, o que a torna acessível a quem não dispõe da percepção ampliada exigida para a investida linear. A corrente também pode ser conduzida por uma lâmina segurada pelo executante, convertendo a arma em extensão do disparo.
@@ -396,7 +396,7 @@ O usuário integra corrente elétrica ao próprio kenjutsu, revestindo a lâmina
 **Kuropansa — 黒豹**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta
-**Requisitos:** Raiton LV5 · Moldagem Refinada · Relâmpago Negro
+**Requisitos:** Raiton LV5 · Moldagem Refinada · Kyōka Kuroi Kaminari
 **XP:** 12.800
 
 O usuário molda relâmpago negro na forma de uma pantera que avança de forma autônoma pelo campo, mordendo e perfurando o alvo antes de se dissipar. A coloração não é efeito estético, porque o relâmpago negro é uma alteração fundamental da natureza elétrica, transmitida diretamente de portador para portador e impossível de reproduzir por treinamento, observação ou cópia ocular. Sem a transmissão, a técnica não existe para o personagem em nenhuma circunstância.
