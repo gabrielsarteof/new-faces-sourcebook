@@ -559,12 +559,14 @@ O limite é a marca no alvo. O corte alcança onde a fórmula estiver, e um adve
 **Hiraishin: Sōgo Shunkan Kaiten — 飛雷神・相互瞬間回転**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Deus do Trovão Voador em ambos os praticantes · marca recíproca inscrita · Espaço-Tempo LV5
-**XP:** 15.200, com o desconto de jutsu de equipe aplicando 9.600 por praticante quando os dois a aprendem
+**Requisitos:** Deus do Trovão Voador · marca recíproca inscrita · Espaço-Tempo LV5
+**XP:** 15.200
 
 Dois praticantes marcam um ao outro e passam a trocar de posição a qualquer momento da batalha, sem aviso e sem que nenhum dos dois precise declarar intenção ao outro. O que estava no alcance de um passa instantaneamente ao alcance do outro, e o ataque dirigido a um encontra o companheiro dele já no lugar.
 
-A entrada é a única do catálogo que dois jogadores compram juntos para que ela exista. O efeito dela em mesa é a supressão completa do conceito de posicionamento contra a dupla: nenhum flanqueamento se sustenta, nenhum isolamento funciona e nenhuma escolha de alvo permanece válida por um turno inteiro. A troca é bidirecional e qualquer um dos dois a inicia.
+A entrada é a única do catálogo que dois jogadores compram juntos para que ela exista, e o requisito de Deus do Trovão Voador vale para os dois praticantes, não para um só. O efeito dela em mesa é a supressão completa do conceito de posicionamento contra a dupla: nenhum flanqueamento se sustenta, nenhum isolamento funciona e nenhuma escolha de alvo permanece válida por um turno inteiro. A troca é bidirecional e qualquer um dos dois a inicia.
+
+O custo publicado é o total, com desconto de jutsu de equipe aplicando 9.600 por praticante quando os dois o aprendem, conforme a regra geral de jutsu de múltiplos participantes.
 
 O limite é a reciprocidade. As duas marcas precisam existir, e a morte de um dos praticantes devolve o outro ao repertório individual dele.
 
