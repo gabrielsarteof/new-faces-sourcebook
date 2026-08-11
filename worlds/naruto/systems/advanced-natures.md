@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 4
+version: 5
 layer: scenario
 scenario: naruto
 type: system
@@ -244,6 +244,14 @@ A entrada do Plasma resolve a pendência de padrão que o catálogo registrava �
 
 A propriedade governa apenas em qual condutor a descarga se resolve. Tudo que diz respeito a atravessar isolante e a propagar-se por água já pertence à perícia de Raiton, que o Estilo Plasma herda como tipo dominante e não reescreve — a dissipação contra isolante no LV1 e a travessia de isolante fino a partir do rank C continuam valendo sem exceção para o Plasma.
 
+**Fronteiras de condução.** Três mecânicas distintas operam sobre condutores, e nenhuma substitui outra. Ficam registradas juntas para que nenhuma passagem futura as confunda ou funda:
+
+| Mecânica | Eixo | O que faz | Limite de alcance |
+|---|---|---|---|
+| Regra de Condução do Raiton | passiva | a descarga percorre condutor já presente na cena e se dissipa contra isolante seco | o condutor existente |
+| Condução por Meio do Shiden | conversão ativa | o praticante escolhe aplicar a descarga sobre um meio condutor e converte entrega de alvo único em entrega de área | a extensão física do meio |
+| Canal ionizado do Estilo Plasma | isenção | a descarga dispensa meio externo e atravessa isolante seco interposto, invertendo a regra base | a declaração da técnica |
+
 A limitação de escolha de alvo não é compensada com redução de dano. O sistema não tem rolagem de acerto e toda vantagem ofensiva já é ignora-esquiva por regra central, de modo que acerto garantido não é privilégio do Plasma. A troca real é escolha de alvo por posicionamento, e ela se paga sozinha em cena com múltiplos combatentes.
 
 ### Catálogo de Kyōka
@@ -253,7 +261,8 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 | Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 |
 | Shiton (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 |
 | Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 |
-| Gōton (Sobrecarga) `[proposta]` | Raio | `[PENDENTE]` | A | Decisivo | 2% | 1,95 |
+| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | 2% | 1,95 |
+| Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 |
 | Shinton (Sísmico) `[proposta]` | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 |
 | Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 |
 
@@ -261,12 +270,64 @@ O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento ba
 
 ```
 Mult_Kyōka = Mult_base_do_elemento + Bônus_de_poder
-Bônus_de_poder: Estratégico +0,35 · Decisivo +0,20
+Bônus_de_poder: Estratégico +0,35 · Decisivo +0,20 · Tático-Decisivo +0,10
 ```
 
-O Enton é a única exceção declarada a essa régua. A fórmula o colocaria em 1,95, e ele está registrado em 2,10. `[canon]` O Amaterasu é a ninjutsu de Katon de nível mais alto da série, fogo que arde por sete dias e sete noites e não se apaga por meios comuns, e nenhuma manifestação de Raiton ocupa posição equivalente na obra. O empate com o Sobrecarga que a fórmula produzia não refletia essa assimetria, ainda mais com o Enton cobrando portão de linhagem de Indra somado ao Sharingan enquanto o Sobrecarga não cobra portão algum.
+O Enton é a única exceção declarada a essa régua. A fórmula o colocaria em 1,95, e ele está registrado em 2,10. `[canon]` O Amaterasu é a ninjutsu de Katon de nível mais alto da série, fogo que arde por sete dias e sete noites e não se apaga por meios comuns, e nenhuma manifestação de Raiton ocupa posição equivalente na obra. O Enton cobra portão de linhagem de Indra somado ao Sharingan, e a régua sozinha o empatava com o topo do Raio, que não cobra linhagem alguma.
+
+A faixa Estratégico do Raio fica deliberadamente vazia, e a lacuna é decisão e não esquecimento. Raio 1,75 somado ao incremento Estratégico daria 2,10 e reabriria exatamente o empate que a exceção acima existe para desfazer. Nenhuma passagem futura deve preenchê-la por simetria com os outros elementos.
+
+`[cânone fraco, wiki de fã]` O princípio geral da camada tem descrição registrada fora de databook: a intensificação é a transformação de natureza levada ao extremo, o chakra vibrado na maior velocidade e no maior volume que o praticante alcança, e a mesma fonte afirma que o refinamento não é exclusivo do raio e se aplica a qualquer uma das cinco naturezas básicas. A descrição fica registrada porque sustenta a existência da camada inteira, e fica etiquetada porque a fonte é wiki de fã e não databook.
 
 A exceção é nominal e não abre precedente. Toda Kyōka nova deriva da fórmula, e qualquer outro desvio exige registro explícito como este — a Incandescência, acrescentada no mesmo lote, cai da régua sem ajuste: Katon 1,60 mais 0,20 de Decisivo.
+
+### Múltiplos ocupantes na camada Kyōka
+
+A regra de portão único com sub-rolagem ponderada, vigente na camada de Kekkei Genkai, **não se aplica aqui**. Lá os ocupantes dividem uma mesma composição elemental, e um único par de elementos justifica uma única rolagem. Kyōka não é composição, é intensificação de um elemento único, e cada ocupante tem origem e portão próprios.
+
+**Cada Kyōka é testada de forma independente**, com portão e chance próprios. Não existe portão compartilhado nesta camada, e a convivência entre ocupantes de portões de naturezas diferentes deixa de ser problema por consequência.
+
+**Um shinobi manifesta no máximo uma Kyōka por elemento base.** Duas Kyōka do mesmo elemento seriam dois tetos do mesmo elemento no mesmo portador.
+
+**Ordem de teste.** Quando o personagem é elegível a mais de uma Kyōka do mesmo elemento, testa primeiro a de portão mais restrito; manifestada essa, as demais do mesmo elemento não são testadas. A ordem vigente é Enton antes de Shiton, e Kuroi Kaminari antes de Shiden.
+
+### Portão por doutrina
+
+O catálogo conhecia até aqui portão de linhagem e ausência de portão. O portão por doutrina é o terceiro tipo, e **não é resolvido por rolagem**.
+
+**Condição de acesso.** O personagem precisa ser formalmente aceito como o aprendiz da geração por um portador vivo, o que exige um portador ativo e vínculo com a estrutura de Kumogakure, ou aceitação direta do portador.
+
+**Exclusividade.** A vaga é única por geração. Existe no mundo um único receptor ativo por vez, e ela permanece ocupada até a morte ou a renúncia do receptor, ainda que ele nunca manifeste a Kyōka. `[canon]` A tradição do Terceiro Raikage foi oferecida a cada geração e apenas Darui dominou, o que a exclusividade da vaga reproduz.
+
+**Após o vínculo.** Aceito como aprendiz, o personagem rola a Centelha pelo procedimento padrão, e a retentativa cobra pela tabela vigente de poder Decisivo.
+
+**Custo.** O portão não cobra XP. O preço dele é político e se paga em mesa, na disputa por uma vaga que outro personagem pode estar ocupando.
+
+### Kuroi Kaminari
+
+`[canon]` quanto à existência e à transmissão. `[proposta]` quanto à classificação como Kyōka.
+
+`[canon]` O Raio Negro foi transmitido pelo Terceiro Raikage, que instituiu em Kumogakure a tradição de oferecer o aprendizado ao aluno mais promissor de cada geração, com direito à tatuagem de kanji de raio como marca de domínio. Darui é o único registrado como tendo dominado, após anos de treino desde a infância. Não é Kekkei Genkai: a Kekkei Genkai de Darui é o Ranton, capacidade separada, e as duas tatuagens dele marcam coisas distintas.
+
+**Forma sustentada.** `[proposta]` O Raio Negro mantém forma própria em construto que persiste ao longo de turnos e age, em vez de se resolver no instante da descarga. É o que o separa de qualquer Raiton comum, cuja entrega é sempre instantânea. Referência canônica de comportamento: a Pantera Negra, no Compêndio de Raiton, que exige esta Kyōka.
+
+**Amplificação doutrinária.** `[proposta]` As demais técnicas de Raiton do portador operam com multiplicador de dano 1,85, em vez do 1,75 do Raiton comum. O valor é metade do incremento Decisivo de 0,20 que a Kyōka aplica sobre a base, herdada pelo restante do arsenal. A progressão é linear e deriva do incremento não-linear da própria Kyōka, o que a mantém dentro da regra central. A amplificação não acumula com nenhuma outra Kyōka de Raio, conforme a seção de múltiplos ocupantes.
+
+**Marca de domínio.** `[proposta]` O portador reconhecido carrega a tatuagem de kanji de raio de Kumogakure. É efeito de reconhecimento social e político, sem valor mecânico de combate, no mesmo tratamento que este documento já dá ao peso político das naturezas de tier A.
+
+**Calibração.** A Amplificação Doutrinária coloca o Raiton comum do portador na mesma faixa numérica do Shiden, e a equivalência é intencional. O Shiden é uma Kyōka completa, com três propriedades próprias; a amplificação entrega apenas o número. O portador de Kuroi Kaminari opera o Raiton comum na faixa do Shiden e não dispõe de nenhuma das capacidades do Shiden.
+
+### Shiden
+
+`[canon]` quanto à existência e às propriedades. `[proposta]` quanto à classificação como Kyōka.
+
+`[canon]` Kakashi Hatake desenvolveu o Shiden como substituto do Raikiri, que deixou de poder usar com segurança após a perda do Sharingan. A entrega é à distância, disparada da mão contra o alvo, e não exige contato como a família do Chidori. A técnica dispensa o Sharingan e não impõe a visão de túnel que tornava o Raikiri perigoso para o próprio usuário. `[canon]` Qualquer shinobi suficientemente proficiente em Raiton pode aprendê-la, se ensinado, e é isso que sustenta o portão ausente.
+
+**Modulação de intensidade.** `[proposta]` O praticante declara a intensidade no momento da execução, e a técnica opera em toda a faixa entre o cirúrgico e o máximo, subindo por elevação categórica de alvo para área para campo. `[canon]` Kakashi calibra o disparo fino o bastante para arrancar um colete explosivo do alvo sem detonar a carga e sem ferir a pessoa, e no extremo oposto despeja todo o chakra disponível para forçar nuvens de chuva a precipitar.
+
+**Condução por meio.** `[proposta]` O praticante aplica a descarga sobre um meio condutor presente na cena e converte entrega de alvo único em entrega de área. O alcance da conversão é limitado pela extensão física do meio empregado. `[canon]` Kakashi apoia a mão sobre álcool derramado e eletrifica toda a região ao redor.
+
+**Execução sem exposição.** `[proposta]` O Shiden não abre a janela de contra-ataque que a família do Chidori abre. Está redigido como constatação e não como isenção: a penalidade vigente no Compêndio de Raiton está presa à investida linear — é a velocidade do avanço que impõe a visão de túnel, e o Sharingan a corrige — e o Shiden não tem investida. A ausência da janela decorre da forma da técnica, não de uma dispensa concedida a ela.
 
 ### Incandescência
 
