@@ -28,7 +28,7 @@ As três famílias compartilham a mesma lógica de aquisição em duas etapas. A
 
 - **Pré-requisito:** Tipo Elemental de cada natureza componente, no nível mínimo correspondente ao rank que a natureza avançada pretende destravar.
 - **Atributo regente:** INT, herdado do Tipo Elemental base.
-- **Categoria:** Ninja (×1,5).
+- **Categoria:** Ninjutsu (×1,5).
 - **Portão de Composição:** o shinobi precisa possuir, entre suas afinidades natas ou aprendidas, todos os componentes exigidos pela natureza avançada.
 - **Portão de Linhagem:** algumas naturezas exigem descendência específica, além da composição. Mokuton exige linhagem de Ashura, restrita a Senju e Uzumaki. Enton exige linhagem de Indra, restrita a Uchiha. As demais não têm portão de linhagem.
 
