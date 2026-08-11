@@ -219,7 +219,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.1 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 3 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.1 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.2 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 2 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.1 | skill | final |
@@ -245,7 +245,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 2 | technique | final |
 | [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 4 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2 | technique | final |
-| [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.1 | technique | final |
+| [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.2 | technique | final |
 
 ## Documentos previstos e ainda não escritos
 
@@ -321,6 +321,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
   `Transferência de Chakra`. Nenhuma aparece em qualquer outro documento do corpus.
 - **3 técnicas** do Inton v1 migraram para o domínio correto e seguem vivas:
   `Escuta do Vazio` e `Sopro Contido` (Sensoriamento), `Segunda Face` (Liberação de Yin).
-- **2 documentos** carregam `status: pending-patch` — são edições destinadas a outros
-  documentos e nunca aplicadas: `naruto.system.jutsu-authoring-addendum` e
-  `naruto.system.errata-d2`.
+- **1 documento** carrega `status: pending-patch` — é edição destinada a outro documento
+  e ainda não aplicada: `naruto.system.errata-d2`.
+- `naruto.system.jutsu-authoring-addendum` saiu desta lista. O conteúdo dele virou a
+  seção 4.1.3 do Manual de Criação de Jutsus na v2.3, e o arquivo foi removido do corpus.

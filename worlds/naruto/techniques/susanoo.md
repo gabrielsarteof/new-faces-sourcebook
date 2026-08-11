@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.susanoo
 title: "Susanoo (須佐能乎)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -32,7 +32,7 @@ A construção protege contra ataques físicos e de chakra que incidem sobre a s
 
 - **Mangekyō Sharingan em ambos os olhos** — o Susanoo não se manifesta a portadores de um único olho, seja por transplante avulso ou qualquer via de olho único
 - **Maestria do Mangekyō** — governa o estágio máximo acessível, conforme a tabela de Progressão por Maestria
-- **Mangekyō Eterno ou pool externo equivalente** — condição adicional obrigatória para o Susanoo Completo
+- **Mangekyō Eterno** — condição adicional obrigatória para o Susanoo Completo, ao lado da maestria Mestre, conforme o documento do Mangekyō Sharingan. Os dois eixos operam sobre coisas distintas e nenhum substitui o outro: a maestria governa o comando da construção, e o Eterno governa a condição ocular que sustenta o dōjutsu sob a carga do Completo. Reserva de chakra abundante, venha de clã, de linhagem ou de reencarnação, alimenta o segundo portão desta técnica e não abre o primeiro
 
 ---
 
@@ -108,16 +108,18 @@ O custo racionaliza o tempo de uso de cada estágio. As Costelas são quase grat
 
 ## Progressão por Maestria
 
-O estágio máximo acessível a um portador é governado pela sua maestria sobre o Mangekyō, conforme estabelecido no documento do Mangekyō Sharingan. A maestria isolada não destrava o Completo, que exige um segundo eixo de poder.
+O estágio máximo acessível a um portador é governado pela sua maestria sobre o Mangekyō, conforme estabelecido no documento do Mangekyō Sharingan. A maestria isolada destrava até a Armadura; o Completo exige, além dela, o Mangekyō Eterno.
 
 | Maestria do Mangekyō | Estágio máximo acessível |
 |---|---|
 | Cru | Esqueleto e partes isoladas |
 | Adepto | Humanoide completo |
 | Mestre | Armadura com armamento |
-| Mestre com Mangekyō Eterno ou pool externo equivalente | Completo |
+| Mestre com Mangekyō Eterno | Completo |
 
-O Completo tem dois portões, e o portador precisa passar pelos dois. O primeiro é o portão de acesso do documento do Mangekyō Sharingan, que exige os dois eixos ao mesmo tempo, a maestria Mestre e o segundo eixo de poder, sem que um substitua o outro. O segundo é a economia de chakra: a ativação de 3.000 RC e a manutenção de 650 RC por turno excedem a Reserva e o Limite de Saída de portador sem Limite de Saída ampliado, e quem não alcança esses parâmetros não ativa nem sustenta o Completo ainda que passe no primeiro portão.
+O Completo tem dois portões, e o portador precisa passar pelos dois. O primeiro é o portão de acesso do documento do Mangekyō Sharingan, que exige a maestria Mestre e o Mangekyō Eterno ao mesmo tempo, sem que um substitua o outro. O segundo é a economia de chakra: a ativação de 3.000 RC e a manutenção de 650 RC por turno excedem a Reserva e o Limite de Saída de boa parte dos portadores, e quem não alcança esses parâmetros não ativa nem sustenta o Completo ainda que passe no primeiro portão.
+
+Os dois portões medem coisas diferentes, e é por isso que reserva grande não compra o primeiro. A maestria governa o comando da construção e o Eterno governa a condição ocular sob a carga do Completo, enquanto a economia governa por quantos turnos ela se sustenta depois de aberta. Um portador de reserva colossal e olhos sem o Eterno passa no segundo portão e para no primeiro.
 
 A trava de recurso é a única trava que este documento acrescenta, conforme o motor de Construto da seção 3.4 do Manual de Criação de Poderes. O portão de acesso não é dele: pertence ao documento do dōjutsu, que é o dono da maestria e do que ela destrava.
 
