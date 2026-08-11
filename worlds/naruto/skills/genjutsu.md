@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.genjutsu
 title: "Genjutsu"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Genjutsu_v1_1.md
 ---
 
-GENJUTSU (幻術) — v1.1
+GENJUTSU (幻術) — v1.2
 
 Atributo: INT
 Categoria: Erudição (×1,7)
@@ -297,4 +297,4 @@ Compêndios de Raiton e de Inton: as entradas Raitongen: Raikōchū e Eco de Pre
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2. Procedimento segue o Manual de Criação de Perícias v7. Custos leem o Manual de Economia de XP. O motor de imposição consome a compressão de limiar do Manual de Criação de Jutsus v2, seção 5.6.
+Estrutura e valores de camada leem o Núcleo de Perícias v2. Procedimento segue o Manual de Criação de Perícias v7. Custos leem o Manual de Economia de XP. O motor de imposição consome o Motor de Resistência do Manual de Criação de Poderes v3.1, seção 3.2, a compressão de limiar, hoje regra de origem daquele manual, repatriada de onde este documento a citava antes. A cláusula de motor próprio permanece integral: esta perícia publica motor de imposição próprio, e a régua de núcleo não se soma a ele.

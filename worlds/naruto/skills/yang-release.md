@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yang-release
 title: "Liberação de Yang"
-version: 4
+version: 4.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Liberacao_de_Yang_v4.md
 ---
 
-LIBERAÇÃO DE YANG (陽遁) · v4
+LIBERAÇÃO DE YANG (陽遁) · v4.1
 
 Atributo: RES
 Categoria: Ninjutsu (×1,5)
@@ -94,7 +94,7 @@ RÉGUAS TRANSVERSAIS
 
 Sustentação não é reparo. Nenhum efeito desta perícia devolve pontos de vida, fecha ferida, refaz tecido ou remove grau de condição já instalado. A perícia mantém em operação e trava progressão, e o reparo pertence ao Ninjutsu Médico.
 
-Refluxo vital. Verter vitalidade em corpo que não seja o próprio cobra do praticante em graus de Exaustão de Chakra, além do custo em RC. Elevar o que um corpo íntegro aguenta não cobra nada. Manter operante corpo que deveria ter parado cobra 1 grau por cena. Travar o avanço do que corre dentro de um corpo cobra 1 grau por alvo. Reacender função que cessou cobra 3 graus pagos no ato. O refluxo se aplica uma vez por cena por serviço prestado e não admite redução percentual.
+Refluxo vital. Verter vitalidade em corpo que não seja o próprio cobra do praticante em graus de Exaustão de Chakra, além do custo em RC. Elevar o que um corpo íntegro aguenta não cobra nada. Manter operante corpo que deveria ter parado cobra 1 grau por cena. Travar o avanço do que corre dentro de um corpo cobra 1 grau por alvo. Reacender função que cessou cobra 3 graus pagos no ato. O refluxo se aplica uma vez por cena por serviço prestado e não admite redução percentual. É a instância desta perícia da família de custo Refluxo, Manual de Criação de Poderes v3.1, seção 4.2: o preço em graus de condição do sistema de status, cobrado além de qualquer custo em recurso, sem redução percentual porque o preço é do corpo e não da eficiência. A perícia inventou a régua antes de a família existir; hoje ela a cita em vez de sustentá-la sozinha.
 
 Operação da forma infundida. A vitalidade alcança matéria presente em cena que não possua vitalidade própria, incluindo objeto inerte, obra erguida por outra natureza e organismo vivo que esteja parado. A forma executa a instrução declarada no ato e não improvisa fora dela, resolvendo manobras pelo teste da perícia e conservando a resistência do próprio material. Destruída, ela para de operar e a vitalidade se dispersa sem refluxo.
 

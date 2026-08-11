@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.fuinjutsu
 title: "Fūinjutsu"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Fuinjutsu_v1.md
 ---
 
-FŪINJUTSU (封印術) — v1.1
+FŪINJUTSU (封印術) — v1.2
 
 Atributo: INT
 Categoria: Erudição (×1,7)
@@ -222,6 +222,8 @@ Revoga: o que é lançado chega onde foi lançado.
 └─ Marca de Destino LV6: aplica-se sem contato dentro do campo de visão
 └─ Rede Compartilhada LV6: sem teto de leitores, e o portador sente quando qualquer marca sua é tocada, onde quer que esteja
 
+Consome a família Reemissão do Manual de Criação de Poderes v3.1, seção 4.1, para a magnitude interceptada e o teto nominal. O gatilho por reação, a marca de destino como alvo escolhido e a frequência de uma vez por turno permanecem desta perícia.
+
 SILÊNCIO (remoção de condição · Absolvição)
 Revoga: a contenção depende da vontade do portador.
 └─ [passivo] Marca contida por este praticante deixa de exigir teste de VONTADE em qualquer pressão. Não há limiar a vencer nem cena em que a marca se abre, e a supressão persiste com o portador inconsciente, enlouquecido ou morto
@@ -277,10 +279,6 @@ PENDÊNCIAS
 
 Perícia de Barreira, regente SAB, dona do inventário recusado por esta auditoria: Barreira de Cinco Selos, Formação das Quatro Chamas Violetas, barreiras de detecção de perímetro, barreiras auto-reparáveis e a barreira do Santuário Naka. O Fūin Kekkai nasceu como a entrada Barreira de Selamento dos Quatro Cantos do compêndio, com portão duplo declarado e pendência de perícia registrada na própria linha de requisitos.
 
-Perícia de Espaço-Tempo, coluna de magnitude da categoria da Linhagem do Hiraishin. A marca vive aqui, no caminho Âncora, e o salto vive no compêndio com o portão de rank já publicado pela regra universal do Manual de Requisitos de Técnica. As quatro entradas da categoria permanecem inexecutáveis até que a perícia exista.
-
-Manual de Criação de Poderes, dono da categoria de efeito de reemissão consumida por Trovão Guia.
-
 Régua de dificuldade do Narrador, camada externa.
 
 Transcendências de Receptáculo e Apreensão, aguardando âncora canônica.
@@ -292,6 +290,10 @@ Documento de Ferramentas Selantes, nascido por cedência deste compêndio. As Ci
 RESOLVIDAS NESTA VERSÃO
 
 Compêndio de Fūinjutsu, publicado em v1 com quarenta e duas entradas e com os requisitos de caminho declarados por técnica.
+
+Perícia de Espaço-Tempo, publicada em v1. A marca segue vivendo aqui, no caminho Âncora; o salto e o portão de rank da Linhagem do Hiraishin vivem lá.
+
+Manual de Criação de Poderes v3.1, dono da família de magnitude Reemissão que Trovão Guia consome, seção 4.1. Não existe categoria de efeito com esse nome no manual; a interceptação e o reencaminhamento são mecânica de família, não de categoria, e a citação em Trovão Guia foi escrita conforme o manual publica.
 
 FILA DE ERRATA
 

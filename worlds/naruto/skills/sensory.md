@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.sensory
 title: "Sensoriamento"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Pericia_Sensoriamento_v2.md
 
 # Perícia de Sensoriamento
 
-**v2. Atributo regente: PRE. Categoria de custo: Chakra (×1,4).**
+**v2.1. Atributo regente: PRE. Categoria de custo: Chakra (×1,4).**
 
 ---
 
@@ -179,6 +179,8 @@ Assinaturas semelhantes se confundem. Dentro de massa acima de trinta presenças
 ### Obstrução
 
 Barreira selada, supressão ativa e frequência de chakra em variação constante interrompem a leitura acima do degrau 1. A régua é revogada apenas em transcendência.
+
+As três réguas seguintes, Varredura, Meio Atravessado e Objeto de Leitura, são a instância desta perícia do contrato obrigatório da categoria Percepção, Manual de Criação de Poderes v3.1, seção 3.3: cobertura por custo de tempo, atenuação por meio atravessado e resolução por objeto de leitura, nesta ordem. Esta perícia as construiu antes de a categoria existir, e o Registro de Instâncias do Manual de Criação de Jutsus já a cita como a dona registrada das três. Nenhum valor muda; a citação apenas nomeia o dono do contrato.
 
 ### Varredura
 
@@ -438,6 +440,8 @@ A régua de dificuldade do narrador continua pendente no Núcleo. Enquanto ela n
 ---
 
 ## 17. Registro de alterações
+
+**v2.1.** As réguas de Varredura, Meio Atravessado e Objeto de Leitura ganharam a citação da categoria Percepção do Manual de Criação de Poderes v3.1, cujo contrato obrigatório de três réguas essa perícia já cumpria desde a v2. Nenhum valor mudou.
 
 **v2.** Acrescentadas três réguas transversais. Varredura, que põe custo de tempo sobre a distância coberta. Meio Atravessado, que responde pelo eixo vertical e pelo desconto de resolução conforme o material entre o praticante e o alvo. Objeto de Leitura, que declara o que a escala devolve contra clone, invocação, marionete, corpo reanimado, barreira selada e portador de reserva fora da escala humana. Etiquetagem por camada atualizada com a linha canônica da nova régua. Nenhuma alteração em inclinações, caminhos, transcendências, valores de teste ou portão, e o Compêndio de Sensoriamento v1 permanece válido sem reemissão.
 
