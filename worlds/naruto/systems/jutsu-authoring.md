@@ -1,19 +1,19 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: methodology
 status: final
-source-file: Manual_de_Criacao_de_Jutsus_v2_3.md
+source-file: Manual_de_Criacao_de_Jutsus_v2_4.md
 ---
 
-# Manual de Criação de Jutsus · v2.3
+# Manual de Criação de Jutsus · v2.4
 
-**Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto.**
+**Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.1.**
 
-Esta versão alinha o manual à régua Índice de Desperdício, publicada em Controle de Chakra v2, incorpora ao corpo do documento a seção 4.1.3, antes distribuída em adendo separado, e corrige a leitura do aftermath no rank A.
+Este documento é o manual tradutor do cenário Naruto. Ele consome o Manual de Criação de Poderes v3.1, preenche os pontos de extensão daquele manual com os valores deste mundo e publica a interface que os documentos de técnica, perícia e clã efetivamente usam. Nenhum documento do cenário lê o Manual de Criação de Poderes diretamente. O preenchimento completo dos pontos de extensão está na Seção 10.
 
 Jutsu é técnica: pode ser ensinada, copiada, aprimorada e, em muitos casos, proibida. A diferença entre um jutsu e um poder de clã é de origem. O Sharingan é um poder; o Amaterasu é um jutsu que o Sharingan permite executar. Um jutsu pode ser absurdamente poderoso e ao mesmo tempo tecnicamente ensinável a quem tem chakra e controle suficientes. Um poder de clã é concedido pelo sangue e permanece fora do alcance de qualquer estudo.
 
@@ -80,7 +80,7 @@ As faixas de RC de cada rank correspondem às escalas do MCP. A correspondência
 
 Duas colunas da tabela de Escala do MCP recebem tratamento próprio em jutsus:
 
-- **Bônus de teste:** em jutsus, a coluna é substituída pela compressão de limiar (Seção 5.6). O investimento de chakra torna o efeito mais difícil de resistir pela fórmula do Núcleo, e essa é a única fonte desse benefício.
+- **Dificuldade de resistir:** a fonte é única e é a compressão de limiar (Seção 5.6), regra de origem do Manual de Criação de Poderes. O investimento de chakra torna o efeito mais difícil de resistir, e nenhuma outra camada concede o mesmo benefício — o bônus plano de teste por escala foi removido no manual de núcleo.
 - **Aftermath:** disponível a partir do rank A e declarado pela técnica, nunca automático. A Janela de Canalização, os selos interrompíveis e o portão de perícia elemental já cobram seu preço nas faixas B e C, e o aftermath entra onde o cânone mostra preço físico distinto do gasto de reserva, com o Rasenshuriken à frente. O limite diário do Chidori fica fora desta leitura: o cânone o atribui ao volume de chakra que a técnica exige, e a economia de reserva o reproduz sozinha, sem aftermath algum.
 
 ### 1.2 Aftermath por Rank
@@ -150,6 +150,44 @@ Técnicas secretas transmitidas exclusivamente dentro de linhagens específicas.
 ### 2.7 Ninpō
 
 Versão elevada de Ninjutsu. Mecanismo idêntico; o rótulo indica maior sofisticação, escala ou refinamento de uma linha de técnicas. Na prática mecânica, é marcação de rank alto para Ninjutsu de grande elaboração.
+
+### 2.8 Kyūinjutsu
+
+Dreno. Técnicas que retiram chakra de outro portador e o convertem em reserva própria, utilizável como se fosse gerada pelo próprio circuito. A etiqueta é declarada no registro ao lado do tipo, porque o mecanismo governa resolução, recurso e risco na mesma linha. O termo Kyūin nomeia o dreno em todo o sistema. Absorção conserva o sentido defensivo de redução de dano publicado no Sistema Elemental e nas perícias elementais, e as duas grandezas nunca se leem uma pela outra.
+
+Kyūinjutsu convive com o tipo em vez de substituí-lo. Um selo que drena permanece Fuuinjutsu e declara custo duplo; uma barreira de terra que drena permanece Ninjutsu elemental e paga o ciclo. A etiqueta acrescenta as regras desta seção ao registro que a técnica já teria.
+
+**Vetor.** Todo registro declara um dos três degraus, e o vetor governa o escopo por elevação categórica.
+
+| Vetor | Escopo | Perfil |
+|---|---|---|
+| Contato | alvo único | toque sustentado, mão, palma ou membro declarado |
+| Meio | área | o dreno corre por jutsu, barreira, arma ou recurso vivo interposto |
+| Campo | região e entidade | a fonte drena tudo que carrega chakra dentro do raio declarado |
+
+O degrau de Campo pertence a entidade, e permanece fechado a personagem jogador.
+
+**Resolução.** O dreno dispensa rolagem de acerto, como toda entrega do sistema. A tentativa opõe o teste do executor à Defesa do Circuito do alvo, publicada no caminho Contenção da inclinação Retenção de Controle de Chakra. O Corte de Fluxo, do mesmo caminho, nega a tentativa por reação e a nega pelo turno inteiro contra a mesma fonte.
+
+**Quantidade.** O registro declara a RC nominal do dreno como número fixo absoluto, e a execução a modula pela régua contínua do sistema.
+
+```
+RC drenada por turno = RC nominal × √(teste do executor ÷ 205)
+```
+
+O neutro fica em 205, na mesma âncora que o restante do corpus usa. Percentual da RC do alvo fica proibido em qualquer registro, porque escalaria contra jinchūriki, invocações e entidades, e converteria alvo de reserva grande em bateria.
+
+**Teto de recepção.** O drenador recebe sob a regra de Recepção de Chakra Externo já publicada. A recepção segura equivale ao Limite de Saída do próprio drenador por turno, e o excedente vira dano direto de PV na proporção de um para um. O executor declara antes da resolução um limite voluntário abaixo do próprio teto, o que reduz a colheita e preserva o circuito.
+
+**Sobrecarga deliberada.** O alvo consciente do dreno gasta ação padrão para empurrar RC além do que o drenador declarou receber, e a parcela empurrada atravessa o limite voluntário e alcança o teto real. O alvo paga a RC empurrada como gasto próprio e o drenador toma o excedente como dano.
+
+**Conversão e permanência.** A parcela recebida entra na Reserva de Chakra do drenador e se gasta como reserva própria. O que ultrapassa a RC máxima decai dez por cento por turno. Chakra de assinatura estranha, bijū, doador hostil ou senjutsu instável, cobra o dano de incompatibilidade da regra de recepção, salvo no praticante que possua Receptividade em LV5.
+
+**Cláusula do senjutsu.** Chakra sennin drenado por quem não sustenta Modo Sábio não converte em RC. A parcela inteira vira dano direto de PV e aplica Ferimento Grave no membro do contato, com o grau lido do Sistema de Efeitos de Status pela razão entre a parcela e o Limite de Saída do drenador. A calibragem fina da energia natural e a petrificação plena pertencem ao documento de Senjutsu. Esta é a única imunidade absoluta da classificação, e ela é canônica.
+
+**Efeito sobre o alvo.** O alvo perde a RC drenada e recebe um grau de Exaustão de Chakra a cada parcela equivalente ao próprio Limite de Saída retirada em um mesmo turno, com a graduação lida do Sistema de Efeitos de Status. O esgotamento físico acompanha o de chakra e não exige entrada separada no registro.
+
+**Cedências.** A captura de técnica com devolução na forma original pertence a Fuuinjutsu, e o dreno sustentado de entidade selada pertence à Válvula do mesmo documento. A doação consentida e a recusa do dreno pertencem a Controle de Chakra. A colheita de energia natural pertence a Senjutsu. O dreno por dōjutsu pertence ao Manual de Técnicas Oculares. O dreno por arma, por recurso vivo de clã e por entidade pertence ao documento de arma, ao documento de clã e ao documento de entidade, cada um consumindo esta seção sem redefini-la.
 
 ---
 
@@ -388,11 +426,11 @@ Jutsus proibidos ficam fora dos compêndios abertos. Para adquirir:
 
 ## 5. Efeitos: Interface com o Manual de Criação de Poderes
 
-O Manual de Criação de Poderes define os efeitos em 13 categorias, 3 contextos e as famílias de cálculo. Um jutsu pluga nessa estrutura exatamente como um poder. As seções 2, 3, 4 e 5 do MCP permanecem em uso com as adaptações desta seção e a cláusula de tradução da Seção 6.
+O Manual de Criação de Poderes define os efeitos em quatorze categorias, quatro contextos e as famílias de cálculo. Um jutsu pluga nessa estrutura exatamente como um poder. As categorias, as famílias, as dimensões e a composição permanecem em uso na forma publicada lá, e esta seção registra as instâncias do cenário Naruto nos pontos de extensão correspondentes.
 
-### 5.1 PM → RC
+### 5.1 O recurso do cenário
 
-Toda referência a PM no MCP é lida como RC. O recurso é sempre a Reserva de Chakra.
+Instância do ponto de extensão de curva de recurso. O recurso deste mundo é a Reserva de Chakra, e toda referência a PM se lê como RC. O Limite de Saída é de 20% da RC por turno, universal, e a curva de reserva por faixa está na Seção 9.
 
 ### 5.2 Régua de Magnitude e Par de Validação
 
@@ -505,7 +543,7 @@ Genjutsu usa as categorias de Estado (Controle/CC, Debuff, Transformação de pe
 
 ### 5.6 Compressão de Limiar
 
-Regra do Núcleo integrada a jutsus. Para todo efeito resolvido por **teste resistido** (genjutsu, CC, debuffs, transformações impostas), o limiar de resistência do alvo é comprimido pela RC nominal comprometida pelo usuário, e não pelo custo pago, porque o desperdício não chega ao alvo:
+Regra de origem do Manual de Criação de Poderes, consumida sem redefinição, com o denominador e os pools deste mundo declarados abaixo. Para todo efeito resolvido por **teste resistido** (genjutsu, CC, debuffs, transformações impostas), o limiar de resistência do alvo é comprimido pela RC nominal comprometida pelo usuário, e não pelo custo pago, porque o desperdício não chega ao alvo:
 
 ```
 limiar de resistência = (teste oposto padrão) × (1 − RC_gasta ÷ RC_máx do usuário)
@@ -521,15 +559,15 @@ A fórmula mede comprometimento relativo. O genin que despeja metade da reserva 
 
 ### 5.7 Restrição Anti-tanque em Ranks Baixos
 
-Famílias que usam % do pool máximo do alvo são intrinsecamente A-rank ou superior no contexto Naruto. Abaixo de A-rank, essas famílias ficam indisponíveis.
+Leitura do contrato de disponibilidade das famílias no Manual de Criação de Poderes. As famílias de percentual de pool do alvo têm piso de escala Supremo, que na correspondência da Seção 1.1 começa em A-rank. Abaixo de A-rank, essas famílias ficam indisponíveis.
 
 ---
 
 ## 6. Dimensões e Módulos
 
-### Cláusula de Tradução
+### Modelo de acerto do cenário
 
-O sistema de Dimensões do MCP (Seção 4) aplica-se a jutsus sob uma cláusula de tradução obrigatória: **toda opção expressa em precisão é lida como modificação da esquiva efetiva do alvo**. Vantagem ofensiva se expressa como ignora-esquiva; o eixo declarado no registro é quão evitável a técnica é por construção. Na dimensão Resolução, "ataque vs Evitar" é o caso padrão com esquiva plena do alvo; as demais opções (automático, teste resistido, área sem teste, efeito parcial em falha) importam diretamente. A dimensão Confiabilidade do MCP é integralmente substituída pelo Perfil de Evasão (Seção 6.5).
+Instância do ponto de extensão de modelo de acerto. Neste mundo não existe rolagem de acerto. Vantagem ofensiva se expressa como redução da esquiva efetiva do alvo, e o eixo declarado no registro de toda técnica ofensiva de alvo é quão evitável ela é por construção, na escada do Perfil de Evasão da Seção 6.5. As demais formas de resolução, automático, teste resistido, área sem teste e efeito parcial em falha, entram na forma publicada no manual de núcleo.
 
 ### 6.1 Selos de Mão
 
@@ -629,6 +667,8 @@ Requisitos anteriores a qualquer gasto: (a) contrato de sangue ativo com a espé
 
 O custo de RC é proporcional ao ser invocado, acima do rank do jutsu-base (D-rank para invocações menores). Gamabunta é S-rank em custo, independente de qual ninja invoca. O jutsu de Invocação é o mecanismo; o ser invocado é o determinante real de custo.
 
+Instância do motor de entidade do Manual de Criação de Poderes. As invocações nomeadas deste cenário operam no modo de ficha registrada: a criatura tem ficha própria construída contra a Tabela de Referência de Personagens, e a escala do jutsu se lê da faixa da criatura. O modo de fração fica reservado a invocações genéricas e a construtos, e nenhuma invocação lê os dois modos.
+
 ### 7.3 Fuuinjutsu: Custo Duplo
 
 Fuuinjutsu com efeitos permanentes ou de longa duração declara dois custos:
@@ -657,9 +697,9 @@ Técnicas que requerem dojutsu ativo têm o custo do dojutsu declarado separadam
 1. **Rank:** qual tier de ninja usa esta técnica? O custo de RC esperado bate com a faixa?
 2. **Tipo:** Ninjutsu / Taijutsu / Genjutsu / Fuuinjutsu / Hiden? As regras de resistência mudam conforme o tipo.
 3. **Natureza elemental:** se aplicável, qual? Qual perícia elemental é requisito?
-4. **Categoria de efeito principal:** o que o jutsu faz? (13 categorias do MCP, Seção 2)
+4. **Categoria de efeito principal:** o que o jutsu faz? As quatorze categorias do Manual de Criação de Poderes, com a régua e o motor da categoria correta.
 5. **Se efeito de Dano:** declarar coef_entrega e coef_técnica (tabelas da Seção 5.3). Validar o dano resultante contra a Régua de Magnitude, no par Equilibrado da faixa do usuário.
-6. **Se efeito não-Dano:** família de magnitude e custo conforme Seção 3 do MCP; se resistido, aplicar a compressão de limiar (Seção 5.6).
+6. **Se efeito não-Dano:** família de magnitude e de custo pelo catálogo do manual de núcleo, com o piso de escala conferido; se resistido, aplicar a compressão de limiar (Seção 5.6).
 7. **Dimensões e módulos:** selos, alcance, duração, condição de quebra (genjutsu), Perfil de Evasão, módulos por slot, extras, flaws, riders.
 8. **Custo de chakra:** calcular RC declarada; verificar Janela de Canalização sobre o custo efetivo para o tier de usuário pretendido.
 9. **Custo de XP:** interpolação dentro da faixa do rank (Seção 4.1.1), extras de comportamento, modificadores.
@@ -676,6 +716,10 @@ Definir cada efeito pela régua (Seção 5 deste manual + MCP Seção 2), aplica
 - **Sem camada duplicada:** um módulo por slot; o rider elemental fora das categorias de efeito separadas; a compressão de limiar aplicada só ao efeito resistido primário; a penalidade de área resolvida pelo coef_entrega como dono único; o mult_Tipo sem empilhar em multiplicador pessoal de caminho elemental sem aprovação.
 - **Tipo compatível com resistência:** genjutsu tem condição de quebra? Fuuinjutsu tem custo de preparação e acionamento separados?
 - **Requisitos declarados:** perícia elemental mínima, nível de Controle de Chakra, contrato ou dojutsu, Perfil de Evasão, condição estrutural se Inevitável.
+- **Contrato de efeito completo:** os oito campos do Manual de Criação de Poderes preenchidos, tipo, ação, custo, teste, números, interações, etiqueta e âncora de validação, com todos os valores resolvidos.
+- **Sem dificuldade arbitrada:** nenhum efeito resolve por número escolhido pelo Narrador no momento. A resolução corre por oposição, por limiar lido de um teste, ou por categoria.
+- **Faixa verificada:** toda régua que leia teste de perícia foi substituída nos níveis 1, 3, 4, 5 e 6 antes de publicar, e duas construções do mesmo nível diferem por mais de um ponto percentual.
+- **Ancoragem declarada:** o jutsu nomeia o que lê da ficha, atributo, perícia e camada, e nenhuma grandeza tem duas fontes.
 
 ---
 
@@ -697,7 +741,44 @@ RC real depende do multiplicador de clã, atributos RES/FOR/PV e dado de potenci
 
 ---
 
-## 10. Instruções para a IA
+## 10. Registro de Instâncias dos Pontos de Extensão
+
+O Manual de Criação de Poderes publica dez pontos de extensão. Esta seção declara o preenchimento do cenário Naruto em cada um, e é a tabela que qualquer documento deste mundo consulta para saber onde a regra concreta mora.
+
+| Ponto de extensão | Instância do cenário Naruto | Onde vive |
+|---|---|---|
+| Curva de recurso | Reserva de Chakra, com Limite de Saída de 20% por turno | Seções 3.1, 3.2 e 9 deste manual |
+| Tipagem de efeito | naturezas elementais, com mult_Tipo e rider padrão por natureza | Sistema Elemental, consumido pela Seção 5.4 |
+| Coeficientes da forma de dois termos | coef_entrega na conversão, Fator de Moldagem como termo de maestria, coef_técnica como coeficiente de obra | Seção 5.3 deste manual |
+| Camadas de defesa | absorção, resistência e esquiva efetiva | documentos de defesa do cenário, lidos pela Seção 6.5 |
+| Eixo de evitabilidade | Perfil de Evasão em cinco degraus | Seção 6.5 deste manual |
+| Modelo de acerto | sem rolagem de acerto, vantagem ofensiva como redução de esquiva | abertura da Seção 6 deste manual |
+| Modulação de aquisição | faixas de XP por rank com interpolação, mais os modificadores de afinidade, clã e acesso | Seção 4 deste manual |
+| Réguas de Percepção | cobertura por custo de tempo, atenuação por meio e resolução por objeto de leitura | Perícia de Sensoriamento |
+| Sistema de status | condições, graus e a escada de severidade que o Refluxo paga | Sistema de Efeitos de Status |
+| Correspondência de escala | ranks E a Kinjutsu contra as escalas de Utilidade a Transcendente | Seção 1.1 deste manual |
+
+Os dez pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental, que publica a tabela de multiplicadores por natureza na seção de Tipos Elementais daquele documento, de modo que o slot está apontado e cheio e jutsu elemental novo fecha validação.
+
+---
+
+## 11. Registro de Alterações
+
+**v2.4.** Alinhamento ao Manual de Criação de Poderes v3.1, e reunião de duas linhas de trabalho que corriam em paralelo sob o mesmo número de versão.
+
+Do alinhamento ao manual de núcleo: este documento passa a se declarar manual tradutor do cenário, e nenhum documento do mundo lê o manual de núcleo diretamente. As cinco correções que este manual carregava sobre o núcleo foram revogadas por terem virado regra de origem lá. A cláusula de tradução de precisão deu lugar à declaração do modelo de acerto como instância. O Perfil de Evasão deixou de ser substituição da dimensão de confiabilidade e passou a ser instância do eixo de evitabilidade. A restrição anti-tanque passou a ser leitura do contrato de disponibilidade de família. A compressão de limiar passou a consumir a regra de origem. As categorias passaram de treze para quatorze. A invocação foi declarada como instância do modo de ficha registrada do motor de entidade. Nasceu o registro de instâncias dos pontos de extensão. A validação ganhou o contrato de efeito de oito campos, a proibição de dificuldade arbitrada, a verificação de faixa e a ancoragem em ficha.
+
+Da outra linha: nasce a Seção 2.8, Kyūinjutsu, classificação do dreno de chakra, com vetor em três degraus, resolução por oposição, régua de quantidade ancorada em 205, teto lido da Recepção de Chakra Externo, sobrecarga deliberada, cláusula do senjutsu e registro de cedências.
+
+O que a v2.3 fixou permanece e não foi revertido: as três grandezas de chakra da Seção 3.1, a compressão de limiar lida sobre a RC nominal e não sobre o custo pago, a Seção 4.1.3 no corpo do documento, e a leitura do aftermath que tira o limite diário do Chidori da conta. Duas versões distintas do manual circulavam numeradas 2.2, e ambas foram escritas antes desses quatro pontos; nenhuma delas os continha.
+
+Duas correções entraram na reunião. A Seção 2.8 citava a Defesa do Circuito e o Corte de Fluxo como publicados na *inclinação* Contenção, escrita contra a partição de Controle de Chakra v2; na v3 Contenção é caminho da inclinação Retenção, e a citação foi corrigida. E a pendência que declarava o `mult_Tipo` apontado e vazio foi fechada, porque o Sistema Elemental publica a tabela desde antes desta versão.
+
+Nenhum valor publicado anteriormente foi alterado.
+
+---
+
+## 12. Instruções para a IA
 
 1. Leia a fantasia central do jutsu antes de qualquer número. Qual é o efeito que o ninja quer alcançar? Com que frequência e em que contexto?
 2. Determine o rank pelo perfil de usuário: quem usa esta técnica no cânone ou equivalente? Que tier é esse ninja? O custo de RC resultante bate com a faixa do rank?
@@ -712,9 +793,12 @@ RC real depende do multiplicador de clã, atributos RES/FOR/PV e dado de potenci
 
 ---
 
-*Manual de Criação de Jutsus, adaptação do Manual de Criação de Poderes para o RPG de Naruto.
-Rank é o envelope canônico com aftermath a partir de A; custo de chakra é absoluto em RC sob LS
-universal de 20% e custo efetivo por afinidade; dano = RC × coef_entrega × mult_Tipo +
-LV_CC² × 2,5 × coef_técnica; custo de XP interpola a posição na faixa do rank; efeitos plugam no
-Manual de Criação de Poderes sob a cláusula de tradução de precisão para evasão; identidade vem
-da forma, do Perfil de Evasão e dos Módulos de Comportamento em cinco slots com dono.*
+*Manual de Criação de Jutsus v2.4, manual tradutor do cenário Naruto para o Manual de Criação
+de Poderes v3.1. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
+absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
+RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a
+parcela de conversão em RC vezes coef_entrega vezes mult_Tipo e a parcela de maestria em LV_CC ao
+quadrado vezes 2,5 vezes coef_técnica. O custo de XP interpola a posição na faixa do rank, ou lê a
+matriz de estimativa quando a ficha ainda não existe. Os efeitos plugam nas quatorze categorias do
+manual de núcleo, e as dez instâncias deste mundo estão declaradas na Seção 10. A identidade da
+técnica vem da forma, do Perfil de Evasão e dos Módulos de Comportamento em cinco slots com dono.*
