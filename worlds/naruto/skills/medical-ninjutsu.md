@@ -12,7 +12,7 @@ source-file: Pericia_Ninjutsu_Medico_v3.md
 NINJUTSU MÉDICO (医療忍術) · v3
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Erudição (×1,7)
 Dependência: Controle de Chakra
 
 O Ninjutsu Médico é a arte de operar o corpo vivo com chakra. O praticante aprende a introduzir a própria energia no organismo alheio e a comandar ali processos que o corpo executaria sozinho em semanas, acelerando a divisão celular, fechando tecido, recompondo osso e neutralizando o que circula no sangue. A mesma precisão que fecha uma ferida abre outra por dentro sem deixar marca na pele, e é por isso que o domínio produz tanto o médico de campo quanto o assassino silencioso.

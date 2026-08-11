@@ -12,7 +12,7 @@ source-file: RAITON_Pericia_v2_final.md
 RAITON (雷遁) · v2
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Ninjutsu (×1,5)
 
 O Raiton é o domínio do chakra convertido em corrente elétrica. O praticante eleva a vibração da própria energia até que ela assuma as propriedades da eletricidade, e o que sai atravessa, dormenta e corre por onde encontrar caminho. A tese da perícia mora na relação entre superfície e penetração. Quanto menor o ponto de entrega, maior a concentração, e um contato reduzido a um dedo vence a defesa que a descarga difusa não vence. Produzir a corrente é o primeiro passo e o mais barato deles, e o ofício verdadeiro começa em decidir para onde ela vai, o que ela atravessa e o que ela toma emprestado para chegar lá.
 

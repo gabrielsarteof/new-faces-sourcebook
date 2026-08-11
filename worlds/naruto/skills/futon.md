@@ -12,7 +12,7 @@ source-file: FUTON_Pericia_v2_1.md
 FŪTON (風遁) · v2.1
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Ninjutsu (×1,5)
 
 O Fūton é o domínio do ar posto em movimento por chakra. O praticante afina a própria energia até ela virar borda, expele o ar assim tratado pela boca ou o gera com as mãos, e o que sai continua obedecendo a ele por tempo e distância que crescem com a maestria. A tese da perícia está no que acontece depois da expulsão. Produzir vento é o primeiro passo e o mais barato deles, e o ofício verdadeiro começa quando o ar já está correndo no mundo e ainda precisa vencer alguma coisa, tirar alguma coisa do lugar ou levar alguma coisa consigo. O elemento é o mais raro entre as cinco naturezas, e quem o domina corta qualquer coisa.
 

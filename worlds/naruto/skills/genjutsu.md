@@ -12,7 +12,7 @@ source-file: Pericia_Genjutsu_v1_1.md
 GENJUTSU (幻術) — v1.1
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Erudição (×1,7)
 Camada: superclasse
 
 O Genjutsu é a arte de despejar chakra no circuito alheio e governar o fluxo pelos nervos cranianos até que os cinco sentidos entreguem ao alvo um mundo que não existe. O praticante escolhe o que a vítima vê, ouve, sente na pele, prova e cheira, e a partir daí o corpo dela obedece a uma informação falsa com a mesma seriedade com que obedeceria à verdadeira. A obra entra por contato visual, por som ou por toque, e permanece enquanto o autor a sustenta ou enquanto a fórmula que ele deixou no lugar continuar de pé.

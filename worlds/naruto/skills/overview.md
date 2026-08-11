@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: skill
@@ -33,18 +33,43 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 
 | Perícia | Versão | Regente | Categoria de custo |
 |---|---|---|---|
-| Controle de Chakra | v2 | SAB | Ninja |
-| Katon | v3 | INT | Ninja |
-| Raiton | v2 | INT | Ninja |
-| Fūton | v2 | INT | Ninja |
-| Suiton | v2 | INT | Ninja |
-| Doton | v2 | INT | Ninja |
-| Liberação de Yin | v4 | INT | Ninja |
-| Liberação de Yang | v4 | RES | Ninja |
-| Ninjutsu Médico | v3 | INT | Ninja |
-| Genjutsu | v1.1 | INT | Ninja |
-| Fūinjutsu | v1 | INT | Ninja |
-| Sensoriamento | v2 | PRE | Ninja |
+| Controle de Chakra | v3 | SAB | Chakra ×1,4 |
+| Sensoriamento | v2 | PRE | Chakra ×1,4 |
+| Katon | v3 | INT | Ninjutsu ×1,5 |
+| Raiton | v2 | INT | Ninjutsu ×1,5 |
+| Fūton | v2.1 | INT | Ninjutsu ×1,5 |
+| Suiton | v2.1 | INT | Ninjutsu ×1,5 |
+| Doton | v2 | INT | Ninjutsu ×1,5 |
+| Liberação de Yin | v4.1 | INT | Ninjutsu ×1,5 |
+| Liberação de Yang | v4 | RES | Ninjutsu ×1,5 |
+| Genjutsu | v1.1 | INT | Erudição ×1,7 |
+| Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
+| Fūinjutsu | v1 | INT | Erudição ×1,7 |
+
+### Por que três categorias e não uma
+
+A categoria única Ninja cobrava o mesmo preço de doze domínios que não custam a
+mesma coisa para aprender, e a tabela acima é o que a separação revela: o eixo
+se divide por **o que o praticante faz com a energia**.
+
+**Chakra** opera a energia bruta — moldar, conduzir, reter, perceber, esconder.
+É o degrau mais barato porque está mais perto do que a formação shinobi já
+entrega, e porque sustenta os outros dois: o portão duplo faz de Controle de
+Chakra a coluna de precisão de todo o eixo, e Sensoriamento lê a mesma energia
+sem convertê-la.
+
+**Ninjutsu** muda o que a energia é. As cinco naturezas elementais e as duas
+liberações convertem chakra em outra coisa e governam o resultado, o que é
+competência sobre a operação e não no lugar dela — quem transforma precisa antes
+moldar.
+
+**Erudição** é arte codificada, com mestre e doutrina. Genjutsu, Ninjutsu Médico
+e Fūinjutsu têm literatura, escola, termo técnico e erro que só um mestre
+corrige, e o cânone registra a raridade de praticantes reais nos três apesar de
+a matéria-prima ser comum. O preço mais alto cobra o acesso, não a energia.
+
+A definição normativa e os custos resolvidos vivem no Manual de Economia de XP,
+seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 
 ### Carga por atributo
 
@@ -225,5 +250,7 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.** A categoria única Ninja se parte em três — Chakra ×1,4, Ninjutsu ×1,5 e Erudição ×1,7 — separadas por o que o praticante faz com a energia: opera, converte ou estuda. A definição normativa entrou no Manual de Economia de XP seção 6.1, e os doze documentos de perícia foram atualizados na linha de categoria. Nenhuma outra camada mudou: regentes, portões, inclinações e caminhos permanecem como estavam.
 
 **v1.** Documento inicial. Registro extraído dos doze documentos de perícia publicados, sem inferência. Doze regentes catalogados, cinco eixos de vizinhança, vinte e cinco cedências de fronteira em cinco credores, nove pares de portão duplo com dois devidos, sete perícias na fila de nascimento, uma ressalva de conformidade e oito erratas abertas.

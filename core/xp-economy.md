@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 1
+version: 2
 layer: core
 type: system
 status: final
@@ -139,14 +139,43 @@ LV2 1125   LV4 4125   LV6 10125
 Multiplicadores por categoria e custos resolvidos (arredondamento por floor em cada nível):
 
 ```txt
-Físico  ×1.0   750 / 1125 / 2250 / 4125 / 6750 / 10125
-Prático ×1.1   825 / 1237 / 2475 / 4537 / 7425 / 11137
-Mental  ×1.2   900 / 1350 / 2700 / 4950 / 8100 / 12150
-Social  ×1.3   975 / 1462 / 2925 / 5362 / 8775 / 13162
-Ninja   ×1.5   1125 / 1687 / 3375 / 6187 / 10125 / 15187
+Físico    ×1.0   750 / 1125 / 2250 / 4125 / 6750 / 10125
+Prático   ×1.1   825 / 1237 / 2475 / 4537 / 7425 / 11137
+Mental    ×1.2   900 / 1350 / 2700 / 4950 / 8100 / 12150
+Social    ×1.3   975 / 1462 / 2925 / 5362 / 8775 / 13162
+Chakra    ×1.4  1050 / 1575 / 3150 / 5775 / 9450 / 14175
+Ninjutsu  ×1.5  1125 / 1687 / 3375 / 6187 / 10125 / 15187
+Erudição  ×1.7  1275 / 1912 / 3825 / 7012 / 11475 / 17212
 ```
 
-A categoria Ninja é a categoria das perícias shinobi (as cinco Transformações de Natureza, entre outras) e segue a mesma regra de floor das demais.
+### 6.1 As três categorias do eixo do chakra
+
+Estas três substituem a categoria única **Ninja**, que cobrava o mesmo preço de
+doze domínios que não custam a mesma coisa para aprender. O critério de
+separação é **o que o praticante faz com a energia**, e ele decide todos os
+casos sem julgamento caso a caso.
+
+**Chakra ×1,4 — você opera a energia bruta.** O praticante manipula o chakra
+como ele é, sem convertê-lo em outra coisa: molda, conduz, retém, esconde,
+percebe. É o degrau mais barato do eixo porque é o mais próximo do que todo
+shinobi já faz por formação, e porque é pré-requisito estrutural de quase tudo
+que vem depois. Cobra acima de Social porque exige treino dedicado que a
+população geral não tem.
+
+**Ninjutsu ×1,5 — você muda o que a energia é.** O praticante converte chakra em
+outra natureza e a governa depois de convertida. Cobra acima de Chakra porque a
+conversão é competência adicional sobre a operação, e não substituta dela: quem
+transforma precisa antes moldar.
+
+**Erudição ×1,7 — arte codificada, com mestre e doutrina.** O praticante opera um
+corpo de conhecimento que não se descobre sozinho na prática. Tem literatura,
+tem escola, tem termo técnico e tem erro que só um mestre corrige. É o degrau
+mais caro porque o custo real de aprendizado não está na energia, está no
+acesso: o cânone registra a raridade de praticantes reais nesses três domínios
+apesar de a matéria-prima ser comum.
+
+O rateio segue a mesma regra de floor das demais categorias, aplicado nível a
+nível.
 
 Requisito de atributo por nível da perícia:
 
@@ -166,11 +195,13 @@ Bônus geral acumulado da perícia: lê o Núcleo de Perícias v2, onde a Base d
 Custo de caminho extra (50% do custo do nível na categoria, floor):
 
 ```txt
-Físico:  LV4 2062 / LV5 3375
-Prático: LV4 2268 / LV5 3712
-Mental:  LV4 2475 / LV5 4050
-Social:  LV4 2681 / LV5 4387
-Ninja:   LV4 3093 / LV5 5062
+Físico:    LV4 2062 / LV5 3375
+Prático:   LV4 2268 / LV5 3712
+Mental:    LV4 2475 / LV5 4050
+Social:    LV4 2681 / LV5 4387
+Chakra:    LV4 2887 / LV5 4725
+Ninjutsu:  LV4 3093 / LV5 5062
+Erudição:  LV4 3506 / LV5 5737
 ```
 
 Cada caminho extra adquirido também eleva o bônus geral da perícia pelo fator de largura declarado no Núcleo de Perícias v2, de 0,10 sobre a Base de Nível.

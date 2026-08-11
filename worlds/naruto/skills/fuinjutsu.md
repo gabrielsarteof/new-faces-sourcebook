@@ -12,7 +12,7 @@ source-file: Pericia_Fuinjutsu_v1.md
 FŪINJUTSU (封印術) — v1
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Erudição (×1,7)
 Camada: subclasse, erguida sobre o portão de Controle de Chakra
 
 O Fūinjutsu é a arte de codificar um efeito em escrita e deixar que a escrita o sustente. O praticante inscreve uma fórmula de selamento sobre superfície, objeto ou corpo, e o que essa fórmula guarda permanece guardado depois que ele vai embora. Objetos, energia livre, técnicas em curso e criaturas inteiras cabem dentro de um selo, e o mesmo ofício que os prende governa também o momento e a condição em que voltam ao mundo. O selo restringe movimento, fecha o acesso de um portador ao próprio chakra e impõe uma cláusula que pune sem a presença de quem a escreveu. A liberação corre pelo comando de Fūinjutsu: Kai, combinação de selos de mão que desfaz o que foi inscrito.

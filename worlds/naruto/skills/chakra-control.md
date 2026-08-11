@@ -12,7 +12,7 @@ source-file: Pericia_Controle_de_Chakra_v2_2.md
 CONTROLE DE CHAKRA (チャクラコントロール) — v3.1
 
 Atributo: SAB
-Categoria: Ninja (×1,5)
+Categoria: Chakra (×1,4)
 
 O Controle de Chakra é a maestria com que o shinobi manipula a própria energia depois de produzi-la. Ele responde pela forma que o chakra assume, pela medida em que se apresenta, pela rota que percorre dentro e fora do corpo, pelo tempo que a obra dura e pela economia com que cada técnica se realiza. O cânone declara a tese da perícia com todas as letras: a chave do chakra não é ter muito, é controlar e conservar. Quem molda com exatidão paga o que a técnica exige; quem molda mal desperdiça o excesso e cansa mais rápido, e quem molda de menos executa mal ou não executa. A calma e o foco facilitam moldar a quantidade correta, porque metade de todo chakra é energia espiritual.
 

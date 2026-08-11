@@ -12,7 +12,7 @@ source-file: DOTON_Pericia_v2.md
 DOTON (土遁) · v2
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Ninjutsu (×1,5)
 
 O Doton é o domínio da matéria terrosa posta sob comando por chakra. O praticante põe as palmas contra o chão e altera a forma do que já está ali, solo, rocha, argila, areia e alvenaria, e quando o terreno não oferece nada ele produz a matéria dentro do corpo e a expele pela boca. A tese da perícia está na frase do databook que define o elemento: a terra abrange todo material terroso, e o ofício consiste com frequência em converter um deles no outro. Solo firme vira lama que engole, lama vira pedra que trava, e essa conversão é a mesma competência que abre o subsolo à passagem do praticante e o fecha sobre os pés de quem está em cima.
 

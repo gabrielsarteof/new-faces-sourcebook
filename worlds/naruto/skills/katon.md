@@ -12,7 +12,7 @@ source-file: KATON_Pericia_v3.md
 KATON (火遁) · v3
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Ninjutsu (×1,5)
 
 O Katon é o domínio da chama produzida por chakra. O praticante amassa a energia dentro do corpo, converte a mistura em fogo e a expele, quase sempre pela boca, e o que sai obedece a ele por tempo e distância que crescem com a maestria. A tese da perícia está no que acontece depois da ignição. Produzir fogo é o primeiro passo e o mais barato deles, e o ofício verdadeiro começa quando a chama já existe no mundo e ainda precisa ir a algum lugar, ficar em algum lugar ou esperar por alguma coisa.
 

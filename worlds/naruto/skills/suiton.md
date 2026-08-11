@@ -12,7 +12,7 @@ source-file: SUITON_Pericia_v2_1.md
 SUITON (水遁) · v2.1
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Ninjutsu (×1,5)
 
 O Suiton é o domínio da água posta sob comando por chakra. O praticante ergue o volume que o campo já oferece, rio, lago, chuva em curso, poça ou cisterna, e o dirige com a própria vontade, e quando o campo não oferece nada ele produz a água dentro do corpo e a expele pela boca. A tese da perícia está nessa segunda metade. Comandar o que já existe é a primeira competência do elemento e a mais barata delas, e o ofício verdadeiro cresce na medida em que o praticante deixa de depender do que encontrou. Produzir a própria água é atestado de perícia reconhecido, e o volume irrestrito criado do nada é o feito que o cânone registra como prova da posição de Hokage.
 

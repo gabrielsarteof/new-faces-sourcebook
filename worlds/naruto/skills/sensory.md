@@ -11,7 +11,7 @@ source-file: Pericia_Sensoriamento_v2.md
 
 # Perícia de Sensoriamento
 
-**v2. Atributo regente: PRE.**
+**v2. Atributo regente: PRE. Categoria de custo: Chakra (×1,4).**
 
 ---
 

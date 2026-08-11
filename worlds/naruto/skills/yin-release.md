@@ -12,7 +12,7 @@ source-file: Pericia_Liberacao_de_Yin_v4-1.md
 LIBERAÇÃO DE YIN (陰遁) · v4
 
 Atributo: INT
-Categoria: Ninja (×1,5)
+Categoria: Ninjutsu (×1,5)
 
 A Liberação de Yin é o domínio da energia espiritual posta a trabalhar fora do corpo. O praticante separa do chakra composto a metade que governa a imaginação e a projeta no campo, onde ela veste forma sem que exista matéria por baixo. A tese da perícia está nessa ausência. Todo outro domínio de moldagem precisa de alguma coisa antes de começar, água a comandar, terra a revirar, ar a mover, e o Yin começa do nada e termina com uma coisa que empurra, que corta, que sustenta peso e que engana quem olha. Criar forma a partir do vazio é o fundamento que a natureza registra, e a escada inteira da perícia é a medida de quanto daquilo que foi criado sobrevive ao exame, ao golpe e à ausência de quem criou.
 

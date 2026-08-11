@@ -12,7 +12,7 @@ source-file: Pericia_Liberacao_de_Yang_v4.md
 LIBERAÇÃO DE YANG (陽遁) · v4
 
 Atributo: RES
-Categoria: Ninja (×1,5)
+Categoria: Ninjutsu (×1,5)
 
 A Liberação de Yang é o domínio da energia física posta a trabalhar sobre a vida. O praticante separa do chakra composto a metade que governa a vitalidade e a verte em corpos e em matéria, sustentando o que está cedendo e concedendo operação ao que nunca a teve. A tese da perícia está nessa segunda metade. Conceder vida a formas que não a possuem é o fundamento que a natureza registra, e a escada inteira da perícia é a medida de quanto de vitalidade o praticante consegue mover para fora de si sem que o próprio corpo pague por isso.
 
