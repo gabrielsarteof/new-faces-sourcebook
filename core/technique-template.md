@@ -1,14 +1,14 @@
 ---
 id: core.technique-template
 title: "Template — Documento de Técnica"
-version: 3.1
+version: 3.3
 layer: core
 type: template
 status: final
-source-file: Template_Documento_Tecnica_v3_1.md
+source-file: Template_Documento_Tecnica_v3_3.md
 ---
 
-# Template — Documento de Técnica (v3.1)
+# Template — Documento de Técnica (v3.3)
 
 Guia de como escrever o documento de qualquer técnica ou fenômeno do sistema.
 Cada seção tem uma instrução entre colchetes explicando o que vai ali.
@@ -56,6 +56,12 @@ Antes de produzir o documento final, verifique cada item:
 - [ ] Nenhum valor sem âncora canônica sem marcação [proposta]
 - [ ] Seções opcionais ausentes quando não aplicáveis (não deixar seção vazia)
 - [ ] coef_entrega e coef_técnica declarados com justificativa quando há dano
+- [ ] RC nominal e custo mínimo declarados como par
+- [ ] Selos de referência e assinatura selada declarados
+- [ ] Perfil de Evasão declarado em toda técnica ofensiva de alvo
+- [ ] Tabela de descarga indexada a LV_CC, nunca a nome de personagem
+- [ ] Rider declarando grau mínimo garantido e grau máximo possível, sem escala de margem própria
+- [ ] Custo de XP como valor único, sem colunas de afinidade
 - [ ] Genjutsu com classe de quebra, canal de entrega e requisito de caminho declarados
 - [ ] Prosa das seções descritivas lida como verbete funcional, não como cena
 
@@ -106,13 +112,16 @@ normalmente por treinamento e XP. Não deixe a seção vazia.]
 
 ## Custo de XP
 
-[Tabela obrigatória. Calcule com base na faixa de rank definida na Seção 4 do Manual de
-Criação de Jutsus, aplicando os modificadores de afinidade. Se a técnica é Hiden, substitua
-a tabela por uma linha explicando o custo conforme o documento de clã.]
+[Valor único, apurado pela interpolação da Seção 4.1.1 do Manual de Criação de Jutsus
+sobre a RC nominal da técnica. A ficha publica o preço do jutsu e nada além dele.
 
-| Afim natal [elemento] | Sem afinidade definida | Natureza não-afim |
-|---|---|---|
-| [XP] | [XP] | [XP] |
+Modificadores de afinidade não entram aqui. A relação entre o executor e a natureza é
+responsabilidade do Sistema Elemental, que publica a Escada de Afinidade e o multiplicador
+de dispersão, e a ficha de técnica não reproduz essa camada.
+
+Se a técnica é Hiden, substitua o valor por uma linha apontando o documento de clã.]
+
+**Custo de XP:** [valor]
 
 ---
 
@@ -126,7 +135,11 @@ Use parágrafos curtos. Aplique as Regras de Escrita. Não coloque dano aqui.]
 
 ## Mecânica de Ativação
 
-- **Custo de RC:** [valor fixo ou faixa variável, e regra de escala se houver]
+- **RC nominal:** [volume que a técnica põe em campo, fixo ou faixa variável. Governa rank, XP e dano]
+- **Custo mínimo:** [terça parte da RC nominal. O que sai da reserva de quem molda pleno]
+- **Selos de referência:** [contagem-teto. Os selos reais saem da régua Interface de Selos]
+- **Assinatura selada:** [admitida ou não. Quando admitida, exige Concisão ou teste de interface 169]
+- **Perfil de Evasão:** [OBRIGATÓRIO PARA TODA TÉCNICA OFENSIVA DE ALVO. Um entre Telegrafado, Padrão, Veloz, Teleguiado e Inevitável, lido da Seção 6.5 do Manual de Jutsus. A ficha não publica sem este campo]
 - **Custo de PS:** [valor por turno de carga ou uso, se houver. Remova se não aplicável]
 - **Janela de Canalização:** [turnos de selos calculados pela fórmula da Seção 3.2 do Manual, com referência a um ou dois perfis canônicos para âncora]
 - **Ação:** [o que o usuário faz fisicamente para executar: selos, movimento, contato]
@@ -146,18 +159,18 @@ Remova esta seção se a técnica não causa dano direto.]
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC × coef_entrega × mult_Tipo + bônus_CC × coef_técnica
-dano = RC × [valor] × [mult_Tipo] + bônus_CC × [valor]
-dano = RC × [produto] + bônus_CC × [coef_técnica]
+dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
+Fator de Moldagem = LV_CC² × 2,5 × coef_técnica
 ```
 
 O coeficiente de entrega [valor] reflete [forma de entrega: ponto concentrado / projétil /
 área / etc.]. O coeficiente técnico [valor] reflete [grau de dependência de moldagem].
-O `bônus_CC` corresponde ao bônus acumulado da perícia Controle de Chakra do usuário,
-sem a adição de INT.
+O `LV_CC` é o nível da perícia de Controle de Chakra, de um a seis, acrescido de um nível
+efetivo por caminho adicional e restrito a este cálculo. O desperdício do executor não
+entra em nenhum termo desta fórmula.
 
-[Se o custo for variável, explique aqui como o componente de RC escala com a carga e
-o componente de bônus_CC permanece fixo.]
+[Se o custo for variável, explique aqui como o componente de RC nominal escala com a carga
+e o Fator de Moldagem permanece fixo.]
 
 ---
 
@@ -167,18 +180,20 @@ o componente de bônus_CC permanece fixo.]
 por perfil de usuário é necessária para calibragem. Omita para técnicas de custo fixo
 com dano único. Informe o par de referência adequado ao rank.]
 
-Par de referência [rank]: PV [valor].
+Par de referência lido das Tabelas de Referência, na faixa adequada ao rank da técnica.
 
-| Usuário | bônus CC | [Modo base] | [+1 turno] | [+2 turnos] | [+3 turnos] |
-|---|---|---|---|---|---|
-| [Perfil canônico 1] | [CC] | [dano] | [dano] | [dano] | [dano] |
-| [Perfil canônico 2] | [CC] | [dano] | — | — | — |
+A tabela é publicada por nível de Controle de Chakra, porque o nível é a variável que o
+motor de dano lê. Perfis nomeados de personagem não entram aqui.
 
-| Usuário | % PV par [rank] | [+1 turno] | [+2 turnos] | [+3 turnos] |
-|---|---|---|---|---|
-| [Perfil 1] | [%] | [%] | [%] | [%] |
+| LV_CC | Fator de Moldagem | Dano | % PV do par |
+|---|---|---|---|
+| [nível de entrada] | [valor] | [dano] | [%] |
+| 6 | [valor] | [dano] | [%] |
+| 6 com 1 caminho | [valor] | [dano] | [%] |
+| 6 com 2 caminhos | [valor] | [dano] | [%] |
 
-[Adicione notas de rodapé quando o par de referência muda por tier de usuário.]
+[Quando houver carga, publique tabela separada indexada ao Limite de Saída do executor,
+porque a carga escala por reserva e não por maestria.]
 
 ---
 
@@ -197,13 +212,16 @@ as regras padrão de defesa sem modificação.]
 que aplique um status específico. Declare o rider pelo nome, informe a tabela de graus por
 margem do teste, e indique se o teste de resistência aplica. Remova se não há rider.]
 
-[Descrição de uma linha do rider e sua origem na técnica.]
+[Descrição de uma linha do rider e sua origem na técnica. A resolução pertence ao Sistema
+de Efeitos de Status: a vítima rola 1d100 contra o alvo calculado, e a margem de falha
+posiciona o grau. A técnica declara apenas os dois campos abaixo e o par de atributos
+testado quando ele diferir do padrão da entrada de status.]
 
-| Margem | Grau |
+| Campo | Valor |
 |---|---|
-| Sucesso Justo | [grau] |
-| Sucesso Pleno | [grau] |
-| Crítico | [grau] |
+| Grau mínimo garantido | [grau] |
+| Grau máximo possível | [grau] |
+| Alvo do teste | [fórmula da fonte, conforme o Sistema de Efeitos de Status] |
 
 ---
 
@@ -244,10 +262,10 @@ de alcance. Uma frase por linha; nunca parágrafo dentro da tabela.]
 táticas relevantes: número de usos por combate, janela de canalização, viabilidade de
 carga. Omita para técnicas de custo tão baixo que a variação é irrelevante.]
 
-| Usuário | RC | LS | Janela base | Usos [por combate / sem carga] |
-|---|---|---|---|---|
-| [Perfil canônico 1] | [RC] | [LS] | [X turnos] | [N] |
-| [Perfil canônico 2] | [RC] | [LS] | [X turnos] | [N] |
+| Perfil | Teste de Moldagem | Custo pago | RC | LS | Janela | Usos |
+|---|---|---|---|---|---|---|
+| [perfil 1] | [teste] | [pago] | [RC] | [LS] | [X turnos] | [N] |
+| [perfil 2] | [teste] | [pago] | [RC] | [LS] | [X turnos] | [N] |
 
 ---
 

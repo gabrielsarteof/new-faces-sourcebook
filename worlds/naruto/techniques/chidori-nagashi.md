@@ -1,58 +1,73 @@
 ---
 id: naruto.technique.chidori-nagashi
-title: "Chidori Nagashi — Fluxo dos Mil Pássaros (千鳥流し)"
-version: 1
+title: "Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)"
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
 status: final
-source-file: Chidori_Nagashi.md
+source-file: Chidori_Nagashi_v2.md
 ---
 
-# Chidori Nagashi — Fluxo dos Mil Pássaros (千鳥流し)
-Ninjutsu · Raiton · B-rank
+# Corrente de Mil Pássaros (千鳥流し)
+Chidori Nagashi · Ninjutsu · Raiton · Rank A
 
 ---
 
 ## Sobre a Técnica
 
-O Chidori Nagashi é uma técnica de Ninjutsu de natureza Raiton classificada como B-rank, desenvolvida por Sasuke Uchiha como derivação direta do Chidori. Em vez de comprimir o chakra de Raio em um ponto único para uma estocada direcional, o usuário libera o campo eletromagnético como irradiação difusa ao redor de todo o corpo, atingindo simultaneamente todos os alvos dentro do raio de alcance. A técnica ocupa uma posição distinta em relação ao Chidori original: o que perde em potência concentrada, recupera em cobertura e no efeito paralisante aplicado em múltiplos alvos ao mesmo tempo.
+O Chidori Nagashi é a liberação radial da mesma carga que o Chidori concentra na palma. O executante reúne o chakra de Raio e o distribui pela superfície inteira do corpo em vez de comprimi-lo em um ponto, e a descarga sai em todas as direções ao mesmo tempo, alcançando qualquer corpo dentro do raio imediato sem que o usuário precise escolher um alvo ou uma direção.
 
-A execução dispensa estocada e deslocamento. O usuário forma os selos de irradiação e libera o campo de Raiton pelo próprio corpo, com as descargas se propagando radialmente a partir do centro. A energia elétrica percorre qualquer condutor em contato direto com o usuário no momento da ativação, incluindo armas empunhadas e superfícies de água ou metal, estendendo o alcance efetivo da técnica além do raio corporal imediato quando esses condutores estão presentes.
+A corrente percorre todo condutor em contato com o executante no instante da liberação. Lâmina empunhada, superfície metálica pisada e poça de água em contato com o pé conduzem a descarga até quem os estiver tocando, e o alcance efetivo passa a ser o do condutor e não o do corpo. A propagação por meio externo pertence à perícia de Raiton, que a governa por nível e por caminho.
 
-O Chidori Nagashi é consideravelmente mais silencioso que o Chidori base. O ruído característico de mil pássaros, gerado pela compressão extrema do campo em um único ponto, não ocorre na difusão: o som produzido é um zumbido eletromagnético audível apenas na proximidade imediata do usuário. Essa característica reduz o aviso antecipado para os alvos próximos, diferenciando o perfil tático da técnica de sua técnica de origem.
+A dispersão troca perfuração por cobertura. A densidade que atravessa um corpo humano no Chidori não se forma aqui, e o que a técnica entrega em cada alvo é uma descarga capaz de derrubar e paralisar sem transpassar. O valor tático mora na simultaneidade: o cerco que inviabiliza a investida linear é exatamente a situação em que a irradiação rende mais.
+
+A técnica não produz o canto que dá nome à família. O som da compressão extrema em ponto único não ocorre na difusão, e o que se escuta é um zumbido eletromagnético audível apenas na proximidade imediata. A liberação também dispensa avanço, corrida e linha reta, e por isso não carrega o defeito estrutural da técnica de origem.
 
 ---
 
 ## Requisitos de Acesso
 
-- **Raiton LV4** — portão de rank B; acesso independente do Chidori base
-- **INT mínimo 15** — âncora energética da família Raiton
+- **Raiton LV5:** portão de rank A, que resolve em 71 pela soma da Base 45 com INT 26
+- **Caminho Arco:** inclinação Choque, dono da camada de corrente que cobre a pele
+- **Moldagem Refinada:** 71 pela soma da Base Total com SAB, degrau herdado do Chidori, que a entrada declara por leitura direta em vez de deixar implícita no pré-requisito
+- **Chidori adquirido:** a técnica deriva da reunião de carga que o Chidori estabelece
+
+---
+
+## Despertar / Aquisição
+
+A entrada permanece indisponível enquanto o Chidori não tiver autor. Concluída a autoria da técnica de origem, o Chidori Nagashi passa a acessível a quem cumprir os requisitos acima, na camada de Requisito Mecânico.
 
 ---
 
 ## Custo de XP
 
-| Afim natal Raiton | Sem afinidade definida | Natureza não-afim |
-|---|---|---|
-| 2.500 XP | 3.000 XP | 3.900 XP |
+**Custo de XP:** 11.000
 
 ---
 
 ## Efeitos Globais
 
-O campo eletromagnético irradiado pelo Chidori Nagashi é visível como luminosidade azulada ao redor do corpo do usuário e de qualquer condutor em contato. Ao contrário do Chidori base, a técnica não anuncia sua intenção com antecedência: o aviso para os alvos presentes é o próprio brilho no momento da ativação, não um som prévio que permita reação a distância.
+A liberação acende uma luminosidade azulada ao redor do corpo do executante e de toda superfície condutora em contato com ele, visível a distância considerável em ambiente escuro. O aviso que os alvos recebem é esse brilho no instante da ativação, e não um som prévio que permita reagir de longe.
 
-Todos os alvos dentro do raio de alcance enfrentam a descarga simultaneamente, sem que o usuário precise se deslocar ou escolher uma direção de entrega. Isso inclui alvos posicionados nas costas ou laterais do usuário, tornando a técnica eficaz como resposta a cercos que o Chidori base não consegue cobrir em um único uso.
+A descarga não distingue quem está no raio. Aliados em contato ou em proximidade imediata recebem a corrente pelas mesmas regras dos oponentes, e a técnica não admite exclusão seletiva.
+
+Objetos metálicos soltos dentro do raio saltam, água em contato ferve na superfície e mecanismos elétricos simples queimam. Os fenômenos são ambientais e não causam dano.
 
 ---
 
 ## Mecânica de Ativação
 
-- **Custo de RC:** 600 RC fixos por ativação. Sem custo variável ou carga adicional.
-- **Janela de Canalização:** determinada pelo custo de 600 RC em relação ao Limite de Saída do usuário, conforme a fórmula da Seção 3.2 do Manual de Jutsus. Sasuke jounin com LS de 442 RC executa em 1 turno de selos; Kakashi com LS de 188 RC leva 2 turnos.
-- **Ação:** janela de canalização seguida de irradiação imediata. Não requer deslocamento.
-- **Restrições:** alcance curto, limitado ao raio corporal do usuário. Condutores físicos em contato direto estendem o alcance até o comprimento do objeto. Alvo múltiplo irrestrito dentro do raio. Não causa dano a aliados que o usuário deliberadamente excluir [proposta: requer teste de Controle de Chakra para exclusão seletiva].
+- **RC nominal:** 900
+- **Custo mínimo:** 300
+- **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
+- **Selos de referência:** 1
+- **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
+- **Perfil de Evasão:** Inevitável, restrito ao raio corporal, com a proximidade do alvo como condição estrutural obrigatória
+- **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
+- **Ação:** janela de canalização, seguida de liberação imediata, sem deslocamento
+- **Restrições:** raio corporal, alvos múltiplos irrestritos dentro dele, condutor em contato estendendo o alcance até o comprimento do objeto
 
 ---
 
@@ -61,92 +76,109 @@ Todos os alvos dentro do raio de alcance enfrentam a descarga simultaneamente, s
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC × coef_entrega × mult_Tipo + bônus_CC × coef_técnica
-dano = 600 × 0,10 × 1,75 + bônus_CC × 1,0
-dano = 105 + bônus_CC
+dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
+dano = 900 × 0,12 × 1,75 + LV_CC² × 2,5 × 1,0
+dano = 189 + LV_CC² × 2,5
 ```
 
-O coeficiente de entrega 0,10 reflete a forma de irradiação difusa ao redor do corpo, categoria com menor eficiência de conversão chakra em dano por ser distribuída em área. O coeficiente técnico 1,0 reflete dependência média de moldagem: a técnica exige controle para irradiar de forma uniforme, mas não a compressão extrema que define o Chidori base. O `bônus_CC` corresponde ao bônus acumulado da perícia Controle de Chakra do usuário, sem a adição de INT.
+O coeficiente de entrega 0,12 corresponde à categoria de área irradiada do corpo. O coeficiente técnico 1,0 corresponde à dependência média, em que a moldagem intensifica o efeito sem ser o mecanismo que o produz.
+
+O dano é resolvido por alvo, com o valor integral aplicado a cada corpo alcançado.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência B-rank: PV 580.
+Par de referência Elite, PV 1.440.
 
-| Usuário | bônus CC | Dano por alvo | % PV par B-rank | % PV par A-rank |
-|---|---|---|---|---|
-| Kakashi jounin | 43 | 148 | 26% | 15% |
-| Sasuke genin | 28 | 133 | 23% | 14% |
-| Sasuke jounin | 50 | 155 | 27% | 16% |
-| Sasuke adulto | 65 | 170 | 29% | 17% |
-| Saki Especial | 85 | 190 | 33% | 20% |
+| LV_CC | Fator de Moldagem | Dano por alvo | % PV do par |
+|---|---|---|---|
+| 5, entrada | 62 | 252 | 18% |
+| 6 | 90 | 279 | 19% |
+| 6 com 1 caminho | 122 | 312 | 22% |
+| 6 com 2 caminhos | 160 | 349 | 24% |
 
-O dano por alvo posiciona a técnica na faixa Forte baixo a Forte contra o par B-rank adequado ao seu rank. A eficiência total escala com o número de alvos atingidos simultaneamente.
+O rendimento da técnica escala pelo número de corpos alcançados, e não pelo investimento de chakra. Os valores abaixo assumem LV_CC 6.
 
-| Alvos atingidos | Dano total (Sasuke jounin) | Equivalente a |
+| Alvos alcançados | Dano total | Comparação com o Chidori base |
 |---|---|---|
-| 1 | 155 | Forte baixo vs par B-rank |
-| 2 | 310 | Forte vs par B-rank |
-| 3 | 465 | 1,4× o Chidori base (336) |
-| 4 | 620 | 1,8× o Chidori base |
+| 1 | 279 | 63% |
+| 2 | 558 | 126% |
+| 3 | 837 | 189% |
+| 4 | 1.116 | 252% |
 
 ---
 
 ## Interação com Defesas
 
-O Chidori Nagashi não possui perfuração de Absorção. A entrega difusa dispersa a energia eletromagnética por área, impedindo a concentração necessária para penetrar a mitigação passiva do alvo. A técnica utiliza as regras padrão de defesa: a Absorção do alvo aplica-se integralmente ao dano recebido.
+A técnica não perfura Absorção. O efeito Fio Concentrado é lido da inclinação Relâmpago, e esta entrada pertence à inclinação Choque, de modo que a mitigação passiva do alvo se aplica integralmente ao dano recebido.
+
+O Perfil Inevitável anula a esquiva dentro do raio. Nenhum alvo alcançado testa Evitar, e apenas Absorção e Resistência mitigam. A defesa contra a técnica é posicional: permanecer fora do raio e fora de contato com qualquer condutor ligado ao executante.
 
 ---
 
-## Rider — Paralisia Parcial
+## Rider de Paralisia Parcial
 
-A descarga elétrica aplica Paralisia Parcial a cada alvo atingido dentro do raio, com resolução independente para cada um. O grau segue o rider natural do Raiton, determinado pela margem do teste de acerto de área:
+A corrente entra pela superfície de contato e se difunde pelo sistema nervoso de cada alvo alcançado, com resolução independente por corpo.
 
-| Margem | Grau de Paralisia Parcial |
+| Campo | Valor |
 |---|---|
-| Sucesso Justo | Leve |
-| Sucesso Pleno | Moderado |
-| Crítico | Grave |
+| Grau mínimo garantido | Leve |
+| Grau máximo possível | Grave |
+| Atributos testados | RES + FOR |
+| Alvo do teste | (RES + FOR) × (1 − dano ÷ PV máximo da vítima) |
+| Membro afetado | o tronco, por difusão sistêmica |
 
-O teste de acerto de área usa INT do usuário vs. RES mais FOR de cada alvo individualmente. A Paralisia Parcial aplicada em múltiplos alvos no mesmo turno é o principal valor tático da técnica, independente do dano causado.
+---
+
+## Elevação para Paralisia Total
+
+O alvo que permanecer em contato físico contínuo com o executante ou com um condutor ligado a ele até o início do turno seguinte recebe a corrente por um segundo ciclo completo. A aplicação sustentada testa contra Paralisia Total, que começa em Grau Grave por definição e impõe perda da ação de movimento.
+
+A elevação exige contato mantido e não se aplica a alvo que apenas esteja dentro do raio.
 
 ---
 
 ## Progressão por Maestria
 
-| Nível | Capacidade disponível |
+| Condição | Capacidade ou mudança |
 |---|---|
-| Raiton LV4, qualquer inclinação | Acesso ao Chidori Nagashi; irradiação corporal e por condutores em contato |
-| Raiton LV5, caminho Mil Pássaros | Perfuração de 25% da Absorção na variante corporal [proposta: sinergia com o caminho] |
-| Raiton LV6, Transcendência Kirin | Campo de irradiação ampliado; Paralisia Parcial garantida Moderada no mínimo |
+| Raiton LV5, caminho Arco, Chidori | acesso à técnica |
+| Raiton LV2 e LV3 | metal exposto e água presente conduzem a descarga além do raio corporal |
+| Caminho Rede | o Salto Condutor vence o vão entre trechos condutores separados |
+| Caminho Arco aprofundado | a Descarga de Contato passiva perde o limite por turno, somando ao campo irradiado |
+| Transcendência Trovão | a contagem de reações por rodada deixa de existir, e a técnica passa a caber em turno alheio |
+| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
+| Caminho Concisão, ou interface 169 | execução com zero selos |
 
 ---
 
 ## Referência de Usos por Perfil
 
-| Usuário | RC | LS | Janela base | Usos por combate |
-|---|---|---|---|---|
-| Kakashi jounin | 942 | 188 | 2 turnos | 1 |
-| Sasuke genin | 1.325 | 265 | 2 turnos | 2 |
-| Sasuke jounin | 2.211 | 442 | 1 turno | 3 |
-| Sasuke adulto | 3.500 | 700 | 0 turnos | 5 |
-| Saki Especial | 5.000 | 1.000 | 0 turnos | 8 |
+| Teste de Moldagem | Custo pago | PS de desperdício | RC | LS | Janela | Usos por combate |
+|---|---|---|---|---|---|---|
+| 185 | 300 | 0 | 2.211 | 442 | 0 turnos | 7 |
+| 185 | 300 | 0 | 942 | 188 | 1 turno | 3 |
+| 142 | 468 | 17 | 2.211 | 442 | 1 turno | 4 |
+| 116 | 570 | 27 | 1.325 | 265 | 2 turnos | 2 |
 
 ---
 
 ## Sinergias
 
-- **Paralisia Parcial prévia:** alvos já paralisados por qualquer fonte não podem realizar o teste de Evitar, tornando o dano automático para todos os atingidos simultaneamente.
-- **Condutores físicos:** armas empunhadas, superfícies de água e estruturas metálicas em contato com o usuário estendem o raio efetivo da irradiação, atingindo alvos além do alcance corporal sem custo adicional.
-- **Raiton LV alto e bônus CC:** diferentemente do Chidori, cujo componente RC escala com a carga, o Chidori Nagashi tem custo fixo; a variação entre usuários vem inteiramente do bônus CC, tornando o Controle de Chakra o principal diferencial de potência.
-- **Cerco:** a técnica atinge todos os alvos no raio simultaneamente, sem escolha de direção; situações em que o usuário está cercado convertem a desvantagem posicional em vantagem tática.
+- **Cerco:** a técnica alcança todos os corpos no raio sem escolha de direção, e converte a desvantagem posicional do executante cercado em rendimento máximo
+- **Condutor empunhado:** lâmina, corrente e arame em contato estendem o alcance até o comprimento do objeto, sem custo adicional e sem nova execução
+- **Água em cena:** poça, chuva acumulada e corpo de água em contato propagam a descarga a qualquer alvo tocado por eles, pela regra de nível da perícia de Raiton
+- **Caminho Arco:** a Descarga de Contato responde a quem toca o executante entre uma liberação e outra, cobrindo a janela em que a técnica não está ativa
+- **Chidori base:** o mesmo caminho de aquisição sustenta as duas, e o executante alterna entre abate de alvo único e negação de espaço sem pagar duas linhas de progressão
+- **Paralisia prévia nos alvos:** a elevação para Paralisia Total encontra corpos já degradados, e o contato mantido deixa de ser escolha do alvo
 
 ---
 
 ## Notas para o Mestre
 
-- **Alvo múltiplo simultâneo:** o Narrador deve declarar quantos alvos estão dentro do raio antes do teste de acerto; não é possível ampliar o alcance retrospectivamente após o resultado. O raio corporal cobre aproximadamente o alcance de corpo a corpo imediato.
-- **Condutores:** quando o usuário empunha uma arma ou está em contato com uma superfície condutora, informe isso antes da ativação; a propagação é automaticamente estendida ao condutor, atingindo qualquer um em contato com ele.
-- **Narração:** a técnica produz um brilho azulado ao redor do corpo e das superfícies condutoras, acompanhado de zumbido eletromagnético audível apenas na proximidade. A narração não inclui o som característico do Chidori base; isso diferencia os dois na mesa.
-- **NPCs:** o Chidori Nagashi é especialmente eficaz em mãos de adversários que começam a cena já cercando os jogadores; o impacto simultâneo em múltiplos personagens jogadores exige que o Narrador resolva os testes individualmente e declare os graus de Paralisia Parcial separadamente para cada um.
+- **Declare o raio antes de resolver.** Quantos corpos estão dentro dele é informação que precede a rolagem, e não admite ampliação retroativa depois do resultado. Condutores em contato entram na mesma declaração
+- **Aliados são alvos.** A técnica não distingue, e o custo real dela aparece quando o grupo está agrupado. Um executante que ignora isso deve acertar os companheiros
+- **Resolva o rider por corpo.** Cada alvo rola separadamente e recebe o próprio grau. O valor da técnica na mesa está mais nesses graus espalhados que no dano
+- **Narração.** O brilho azul cobre o corpo e sobe pelas superfícies em contato, com zumbido audível de perto. O canto de mil pássaros não aparece aqui, e essa diferença deve ser sentida pela mesa
+- **NPCs.** Adversário cercado que libera a corrente inverte uma vantagem que os jogadores acharam que tinham, e é a resposta correta a um grupo que fecha distância em bloco

@@ -1,44 +1,46 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 5
+version: 6
 layer: scenario
 scenario: naruto
 type: system
 status: final
-source-file: Sistema_Elemental_v5.md
+source-file: Sistema_Elemental_v6.md
 ---
 
-# Transformação de Natureza (Seishitsu Henka) — Sistema Elemental
-Conversão do chakra nas cinco naturezas elementais, suas afinidades, aquisição e relações de superação em confronto.
+# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v6
+Conversão do chakra nas sete naturezas, suas afinidades, aquisição e relações de superação em confronto.
 
 ---
 
 ## Sobre a Transformação de Natureza
 
-A Transformação de Natureza é a conversão do chakra em uma das cinco naturezas elementais: Fogo, Vento, Raio, Terra e Água. O shinobi molda o próprio chakra para que ele assuma as propriedades do elemento. A transformação de natureza define as propriedades do chakra; a transformação de forma define o formato e o movimento. As duas são componentes independentes da criação de qualquer técnica elemental.
+A Transformação de Natureza é a conversão do chakra em uma das cinco naturezas elementais, Fogo, Vento, Raio, Terra e Água, ou em uma das duas naturezas do eixo do Onmyōton, Yin e Yang. O shinobi molda o próprio chakra para que ele assuma as propriedades da natureza. A transformação de natureza define as propriedades do chakra, e a transformação de forma define o formato e o movimento. As duas são componentes independentes da criação de qualquer técnica.
 
-Cada natureza tem um comportamento próprio no mundo. O Fogo projeta calor intenso, em geral expelido pela boca, e incendeia o que toca. O Vento afia o chakra até torná-lo cortante, alcança distâncias médias e longas, e amplifica o corte de qualquer arma que o conduza. O Raio converte o chakra em eletricidade, perfura e difunde pelo sistema nervoso do alvo, e aumenta a letalidade de armas metálicas. A Terra molda solo, pedra e lama, cria estruturas defensivas e altera o terreno sob os pés. A Água serve à ofensa, à defesa e ao suporte, e em alto domínio não depende de fonte de água próxima.
+Cada natureza tem um comportamento próprio no mundo. O Fogo projeta calor intenso, em geral expelido pela boca, e incendeia o que toca. O Vento afia o chakra até torná-lo cortante, alcança distâncias médias e longas, e amplifica o corte de qualquer arma que o conduza. O Raio converte o chakra em eletricidade, perfura e difunde pelo sistema nervoso do alvo, e aumenta a letalidade de armas metálicas. A Terra molda solo, pedra e lama, cria estruturas defensivas e altera o terreno sob os pés. A Água serve à ofensa, à defesa e ao suporte, e em alto domínio não depende de fonte de água próxima. Yin e Yang têm domínios próprios, governados pelo Eixo do Onmyōton.
 
-Todo shinobi nasce com afinidade natural por uma ou mais dessas naturezas. A afinidade é a que melhor serve ao chakra do indivíduo, tende a ser compartilhada com ao menos um dos pais, e é revelada pelo Papel de Indução de Chakra. O papel queima para o Fogo, parte ao meio para o Vento, amassa para o Raio, esfarela em terra para a Terra e umedece para a Água. Em quem possui mais de uma afinidade, o papel reage com intensidade plena à primária e com reações mais fracas às adicionais.
+Todo shinobi nasce com afinidade natural por uma ou mais naturezas. A afinidade é a que melhor serve ao chakra do indivíduo, tende a ser compartilhada com ao menos um dos pais, e é revelada pelo Papel de Indução de Chakra. O papel queima para o Fogo, parte ao meio para o Vento, amassa para o Raio, esfarela em terra para a Terra e umedece para a Água. Em quem possui mais de uma afinidade, o papel reage com intensidade plena à primária e com reações mais fracas às adicionais.
 
-A natureza de afinidade é a primeira que o shinobi aprende e aquela que concentra mais técnicas ao longo da vida. Outras naturezas se adquirem por treino. Jōnin comumente dominam duas naturezas. Dominar as cinco por meios normais é façanha de um punhado de lendas em toda a história: Hashirama Senju, Tobirama Senju, Hiruzen Sarutobi, Orochimaru, Mū e Kakashi Hatake.
+A natureza de afinidade é a primeira que o shinobi aprende e aquela que concentra mais técnicas ao longo da vida. Outras naturezas se adquirem por treino. Jōnin comumente dominam duas. Dominar as cinco elementais por meios normais é façanha de um punhado de lendas em toda a história, com Hashirama Senju, Tobirama Senju, Hiruzen Sarutobi, Orochimaru, Mū e Kakashi Hatake entre elas.
 
 ---
 
 ## Requisitos de Acesso
 
-- **Pré-requisito:** Controle de Chakra (o Tipo Elemental é uma perícia dependente, ancorada no Controle de Chakra).
+- **Pré-requisito:** Controle de Chakra, porque a perícia da natureza é dependente e se ancora nele.
 - **Atributo regente:** INT.
 - **Categoria:** Ninja (×1,5).
-- **Portão de Reserva:** o custo efetivo da técnica elemental cabe no Limite de Saída do shinobi, universal em 20% da RC por turno (ver Escada de Afinidade).
-- **Portão de Controle:** o Tipo Elemental do elemento usado atinge o nível mínimo do rank da técnica.
+- **Portão de Reserva:** o custo efetivo da técnica cabe no Limite de Saída do shinobi, universal em 20% da RC por turno.
+- **Portão de Controle:** a perícia da natureza empregada atinge o nível mínimo do rank da técnica.
 
 | Rank da técnica | E | D | C | B | A | S |
 |---|---|---|---|---|---|---|
-| Nível mínimo no Tipo Elemental | LV1 | LV2 | LV3 | LV4 | LV5 | LV6 |
+| Nível mínimo na perícia da natureza | LV1 | LV2 | LV3 | LV4 | LV5 | LV6 |
 
-Os dois portões são independentes e por elemento. Um shinobi alcança rank S em Fogo e rank C em Água simultaneamente, conforme o desenvolvimento de cada Tipo Elemental.
+Os dois portões são independentes e valem por natureza. Um shinobi alcança rank S em Fogo e rank C em Água simultaneamente, conforme o desenvolvimento de cada perícia.
+
+O portão de moldagem, que mede o refinamento que a técnica exige do Controle de Chakra, corre em paralelo a estes dois e pertence à Régua de Exigência de Moldagem daquela perícia.
 
 ---
 
@@ -46,168 +48,139 @@ Os dois portões são independentes e por elemento. Um shinobi alcança rank S e
 
 ### Afinidade natal (criação de personagem)
 
-A afinidade é determinada por rolagem na criação, em dois passos.
+A afinidade é determinada por rolagem na criação, em três passos.
 
-**Passo 1 — Quantidade de afinidades (cadeia sequencial condicional):**
+**Passo 1, quantidade de afinidades.**
 
-O primeiro elemento é sempre garantido. Cada afinidade adicional exige um novo teste de d100, separado e independente, rolado apenas se o teste anterior foi bem-sucedido. A primeira falha encerra a cadeia — o personagem fica com as afinidades já conquistadas até ali.
+O primeiro elemento é sempre garantido. Cada afinidade adicional exige um novo teste de d100, separado e independente, rolado apenas se o teste anterior foi bem-sucedido. A primeira falha encerra a cadeia, e o personagem fica com as afinidades já conquistadas até ali.
 
-A partir desta revisão, a chance de cada degrau não vem mais de uma tabela com percentuais soltos: ela usa uma **fórmula de escalada única**, em que cada degrau é 20% maior que o anterior, começando em 10% no 2º elemento. O resultado é arredondado para o inteiro mais próximo em cada degrau — porque é isso que o d100 rola de verdade, faixa fechada, sem casa decimal:
+A chance de cada degrau sai de uma fórmula de escalada única, em que cada degrau é 20% maior que o anterior, começando em 10% no segundo elemento. O resultado é arredondado para o inteiro mais próximo em cada degrau, porque é isso que o d100 rola de verdade, em faixa fechada e sem casa decimal:
 
 ```
 chance(degrau) = arredondar( 10% × 1,2^(degrau − 2) )
 ```
 
-| Passo | Cálculo (bruto) | Chance do teste | Faixa no d100 | Chance composta (população) | Frequência |
+| Passo | Cálculo bruto | Chance do teste | Faixa no d100 | Chance composta | Frequência |
 |---|---|---|---|---|---|
-| 1º elemento | — | 100% (sempre) | — | 100% | todo mundo |
-| 2º elemento | 10,0 | 10% | 01–10 | 10% | 1 em 10 |
-| 3º elemento | 12,0 | 12% | 01–12 | 1,2% | 1 em 83 |
-| 4º elemento | 14,4 | 14% | 01–14 | 0,168% | 1 em 595 |
-| 5º elemento | 17,3 | 17% | 01–17 | 0,0286% | 1 em 3.501 |
-| 6º elemento | 20,7 | 21% | 01–21 | 0,006% | 1 em 16.674 |
-| 7º elemento | 24,9 | 25% | 01–25 | 0,0015% | 1 em 66.693 |
+| 1º elemento | | 100% | | 100% | todo mundo |
+| 2º elemento | 10,0 | 10% | 01 a 10 | 10% | 1 em 10 |
+| 3º elemento | 12,0 | 12% | 01 a 12 | 1,2% | 1 em 83 |
+| 4º elemento | 14,4 | 14% | 01 a 14 | 0,168% | 1 em 595 |
+| 5º elemento | 17,3 | 17% | 01 a 17 | 0,0286% | 1 em 3.501 |
+| 6º elemento | 20,7 | 21% | 01 a 21 | 0,006% | 1 em 16.674 |
+| 7º elemento | 24,9 | 25% | 01 a 25 | 0,0015% | 1 em 66.693 |
 
-O "cálculo bruto" existe só para mostrar de onde vem o número — na mesa, o Mestre e o jogador usam a coluna "Faixa no d100" e pronto: rola-se 1d100, e o resultado entra na cadeia se cair dentro da faixa. A chance composta (população) usa os valores já arredondados de cada degrau, encadeados, porque é isso que efetivamente acontece dado após dado.
+O cálculo bruto existe para mostrar de onde vem o número. Na mesa, o Mestre e o jogador usam a coluna de faixa, rolam 1d100, e o resultado entra na cadeia se cair dentro dela. A chance composta encadeia os valores já arredondados de cada degrau.
 
-Não existe mais teto fixo em cinco naturezas. A cadeia continua enquanto o personagem for passando nos testes, um de cada vez, parando na primeira falha — permitindo, em tese, até sete afinidades natas: as cinco naturezas elementais mais Yin e Yang (ver Passo 1.5, abaixo). Chegar às sete é um resultado extremo, algo em torno de 1 em 66.700 numa população grande de shinobi — raro mesmo entre lendas, mas não matematicamente impossível.
+Não existe teto fixo em cinco naturezas. A cadeia continua enquanto o personagem for passando nos testes, um de cada vez, parando na primeira falha, o que permite até sete afinidades natas: as cinco elementais mais Yin e Yang. Chegar às sete é resultado extremo, algo em torno de 1 em 66.700 numa população grande de shinobi. Quatro afinidades ou mais exigem origem especial e aval do Mestre.
 
-A quantidade final de afinidades natas é o número de testes bem-sucedidos em sequência, incluindo o primeiro garantido. Quatro afinidades ou mais continuam exigindo origem especial e aval do Mestre, mas agora chegam até ali por sucessivos testes na cadeia, não por um único resultado de d100.
+A quantidade final de afinidades natas é o número de testes bem-sucedidos em sequência, incluindo o primeiro garantido.
 
-**Passo 1.5 — Natureza comum ou Yin/Yang:**
+**Passo 1.5, natureza comum ou eixo do Onmyōton.**
 
-Toda vez que a cadeia do Passo 1 é testada com sucesso, antes de determinar qual elemento a afinidade representa, rola-se **o que essa natureza é**: um dos cinco elementos comuns, ou uma afinidade crua de Onmyōton (Yin ou Yang). Essa rolagem usa **1d20**, não d100 — cada face vale exatamente 5%, e Yin/Yang ocupam os dois extremos do dado, como um símbolo visual da própria dualidade:
+Toda vez que a cadeia do Passo 1 é testada com sucesso, antes de determinar qual natureza a afinidade representa, rola-se o que essa natureza é: uma das cinco elementais, ou Yin, ou Yang. A rolagem usa 1d20, e Yin e Yang ocupam os extremos do dado.
 
-| Resultado (1d20) | Natureza |
-|---|---|
-| 1 | Yin |
-| 2–19 | Natureza Elemental |
-| 20 | Yang |
+| Resultado (1d20) | Sem viés | Viés a Yin | Viés a Yang |
+|---|---|---|---|
+| Yin | 1 | 1 a 3 | 1 |
+| Elemental | 2 a 19 | 4 a 19 | 2 a 17 |
+| Yang | 20 | 20 | 18 a 20 |
 
-```
-Yin       → 5%  (1 face)
-Yang      → 5%  (1 face)
-Elemental → 90% (18 faces)
-```
+O viés de clã eleva a chance da natureza favorecida para 15%, três faces, mordendo a faixa elemental. O lado oposto permanece em uma face. Os clãs que publicam viés são o Uchiha a Yin, o Uzumaki a Yang e o Senju a Yang.
 
-**Viés de clã:** quando o personagem pertence a um clã com afinidade de Onmyōton, a faixa do lado favorecido sobe para 20% (4 faces), mordendo a faixa Elemental — o outro lado (Yin ou Yang) permanece intocado em 1 face:
+Yin e Yang são a sexta e a sétima natureza do sistema, e se adquirem e desenvolvem pelo mesmo procedimento das cinco elementais. Não existe etapa de manifestação, centelha ou natureza nomeada no eixo do Onmyōton, e a perícia da natureza é a natureza desenvolvida. A Etapa de manifestação e a Centelha permanecem em vigor para as Kekkei Genkai e Kekkei Tōta, que pertencem a Naturezas Avançadas.
 
-*Clã com viés a Yang:*
+O restante da rolagem segue para a tabela de raridade dos cinco elementos.
 
-| Resultado (1d20) | Natureza |
-|---|---|
-| 1 | Yin (5%) |
-| 2–16 | Elemental (75%) |
-| 17–20 | Yang (20%) |
+**Passo 2, elemento de cada afinidade.**
 
-*Clã com viés a Yin:*
+A afinidade primária usa a tabela de raridade ajustada pelo clã e pela vila de origem. As afinidades adicionais rolam na tabela base, ignorando elementos já obtidos e rerrolando duplicatas.
 
-| Resultado (1d20) | Natureza |
-|---|---|
-| 1–4 | Yin (20%) |
-| 5–19 | Elemental (75%) |
-| 20 | Yang (5%) |
-
-O restante da rolagem (faixa "Natureza Elemental") segue para a tabela de raridade dos cinco elementos (Passo 2), exatamente como já funcionava.
-
-Se o resultado cair em Yin ou Yang, o personagem adquire a **afinidade crua** daquela natureza — não a manifestação nomeada ainda. A manifestação nomeada (como Liberação de Velocidade, para Yang) continua sendo testada separadamente como uma Etapa 2 própria, no sistema dela mesma (documento do Onmyōton), no mesmo padrão já usado para Kekkei Genkai e Kyōka.
-
-**Passo 2 — Elemento de cada afinidade (1d100 por afinidade):**
-
-A afinidade primária usa a tabela de raridade ajustada pelo clã e pela vila de origem. As afinidades adicionais rolam na tabela base, ignorando elementos já obtidos e re-rolando duplicatas.
-
-**Tabela de raridade base:**
+Tabela de raridade base:
 
 | d100 | Elemento |
 |---|---|
-| 01–26 | Fogo |
-| 27–50 | Água |
-| 51–72 | Terra |
-| 73–90 | Raio |
-| 91–100 | Vento |
+| 01 a 26 | Fogo |
+| 27 a 50 | Água |
+| 51 a 72 | Terra |
+| 73 a 90 | Raio |
+| 91 a 100 | Vento |
 
-**Viés de clã característico (exemplo: Uchiha → Fogo):**
+Viés de clã característico, no exemplo do Uchiha para Fogo:
 
-| d100 (membro do clã) | Primária |
+| d100 | Primária |
 |---|---|
-| 01–80 | Fogo |
-| 81–86 | Água |
-| 87–92 | Terra |
-| 93–98 | Raio |
-| 99–100 | Vento |
+| 01 a 80 | Fogo |
+| 81 a 86 | Água |
+| 87 a 92 | Terra |
+| 93 a 98 | Raio |
+| 99 a 100 | Vento |
 
-O viés é forte, nunca absoluto. Membros que rolam fora do elemento do clã recebem o elemento do clã pelo rito de passagem (ver A5), e a afinidade rolada torna-se a primária.
+O viés é forte e nunca absoluto. Membros que rolam fora do elemento do clã recebem o elemento do clã pelo rito de passagem, e a afinidade rolada torna-se a primária.
 
-**Viés regional (exemplo: nascido em Suna → Vento):**
+Viés regional, no exemplo de Suna para Vento:
 
-| d100 (nascido em Suna) | Primária |
+| d100 | Primária |
 |---|---|
-| 01–35 | Vento |
-| 36–52 | Fogo |
-| 53–69 | Água |
-| 70–86 | Terra |
-| 87–100 | Raio |
+| 01 a 35 | Vento |
+| 36 a 52 | Fogo |
+| 53 a 69 | Água |
+| 70 a 86 | Terra |
+| 87 a 100 | Raio |
 
 O viés regional é moderado e aplica apenas à primária. Quando clã e região coincidem, o clã prevalece.
 
 ### Escada de afinidade
 
-A posição de cada natureza na escada de afinidade do shinobi determina seus benefícios e penalidades.
+A posição de cada natureza na escada determina desempenho, e não preço. O preço vive inteiramente na tabela de dispersão.
 
-| Grau | Desconto de XP no Tipo Elemental | Bônus de teste | Custo efetivo em RC | Em falha de teste |
-|---|---|---|---|---|
-| Afinidade nata (primária ou adicional) | primária −20%; adicional −10% | primária +15; adicional +8 | custo declarado × 1,0 | entrega versão reduzida |
-| Não-afim aprendido | sem desconto | −15 | custo declarado × 1,3 | falha total |
+| Grau | Bônus de teste | Custo efetivo em RC | Em falha de teste |
+|---|---|---|---|
+| Afinidade nata primária | +15 | custo declarado × 1,0 | entrega versão reduzida |
+| Afinidade nata adicional | +8 | custo declarado × 1,0 | entrega versão reduzida |
+| Natureza aprendida | −15 | custo declarado × 1,3 | falha total |
 
-O Limite de Saída é universal: 20% da RC por turno, o mesmo cano para jutsus, dōjutsu e efeitos sustentados. A assimetria entre a afinidade e as demais naturezas mora no custo. O chakra convertido para uma natureza alheia à afinidade consome parte de si na própria conversão, e o executor paga 30% a mais de RC pela mesma técnica. Os custos declarados nos registros de técnica são sempre o valor de afinidade; a penalidade pertence ao executor. Como a Janela de Canalização do Manual de Criação de Jutsus é calculada sobre o custo efetivo, a natureza não-afim também dispara mais devagar: a mesma regra cobra na economia e no tempo.
+O Limite de Saída é universal em 20% da RC por turno, com o mesmo cano servindo jutsus, dōjutsu e efeitos sustentados. A assimetria entre a afinidade e as demais naturezas mora no custo. O chakra convertido para uma natureza alheia consome parte de si na própria conversão, e o executor paga trinta por cento a mais pela mesma técnica. Os custos declarados nos registros de técnica são sempre o valor de afinidade, e a penalidade pertence ao executor. A Janela de Canalização do Manual de Criação de Jutsus é calculada sobre o custo pago, de modo que a natureza aprendida também dispara mais devagar, e a mesma regra cobra na economia e no tempo.
 
-O bônus de teste entra na resolução da técnica (Ataque vs Evitar ou Teste Resistido). A coluna de falha refere-se ao modelo de Efeito Parcial em Falha: a natureza nata entrega um resultado reduzido mesmo quando o teste vai mal; a não-afim não entrega nada.
+O bônus de teste entra na resolução da técnica. A coluna de falha refere-se ao modelo de Efeito Parcial em Falha: a natureza nata entrega resultado reduzido mesmo quando o teste vai mal, e a aprendida não entrega nada.
 
-### Aquisição de naturezas fora da afinidade (em jogo)
+### Aquisição de naturezas fora da afinidade
 
-O shinobi adquire naturezas fora da afinidade por treino, em dois passos:
+O shinobi adquire naturezas fora da afinidade por treino, em dois passos.
 
-**Desbloqueio (chegar ao LV1):** exige instrução ativa (um Método) e tempo de campanha. É o exercício temático do elemento — para o Vento, cortar a folha e depois cortar a cachoeira; para o Raio, gerar descarga no próprio corpo; para o Fogo, projetar chama controlada. Sem o desbloqueio, a natureza não existe na ficha.
+**Desbloqueio até o LV1.** Exige instrução ativa e tempo de campanha. É o exercício temático da natureza: para o Vento, cortar a folha e depois a cachoeira; para o Raio, gerar descarga no próprio corpo; para o Fogo, projetar chama controlada. Sem o desbloqueio, a natureza não existe na ficha.
 
-**Desenvolvimento (LV1 → LV6):** sobe pelo módulo de treino, respeitando os limiares de tempo por nível e o multiplicador de Método do instrutor. A qualidade do mestre acelera o treino. As vilas concentram mestres do seu elemento, tornando o aprendizado local mais rápido sem alterar a afinidade natal.
+**Desenvolvimento do LV1 ao LV6.** Sobe pelo módulo de treino, respeitando os limiares de tempo por nível e o multiplicador de Método do instrutor. A qualidade do mestre acelera o treino. As vilas concentram mestres do próprio elemento, tornando o aprendizado local mais rápido sem alterar a afinidade natal.
 
 ### Sem teto de naturezas
 
-Não existe limite rígido de quantas naturezas um shinobi pode dominar — nem mesmo o antigo teto informal de cinco. Com Yin e Yang entrando na cadeia do Passo 1.5, o limite teórico de afinidades natas sobe para sete. O gate real continua sendo econômico e temporal.
-
-Cada natureza não-afim adicional aplica um **multiplicador de dispersão** sobre o custo base do Tipo Elemental:
-
-| Natureza não-afim | 1ª | 2ª | 3ª | 4ª |
-|---|---|---|---|---|
-| Multiplicador de dispersão | ×1,0 | ×1,3 | ×1,6 | ×2,0 |
-
-Dominar as cinco naturezas a LV6 custa aproximadamente 168.000 XP só em Tipo Elemental, sem contar atributos, outras perícias e técnicas. O caminho das cinco pertence a shinobi de nível lendário com décadas de dedicação.
+Não existe limite rígido de quantas naturezas um shinobi domina. Com Yin e Yang na cadeia, o limite teórico de afinidades natas é sete. O portão real é econômico e temporal.
 
 ---
 
 ## Fator Protagonismo
 
-O Nível de Protagonismo, definido pelo jogador na criação numa escala de 0 a 10, influencia todas as rolagens raras do sistema: cada degrau da cadeia de naturezas (Passo 1), o branch Yin/Yang (Passo 1.5), e qualquer Etapa 2 de manifestação — combinações elementais, Kyōka, ou Liberação especial de Onmyōton.
+O Nível de Protagonismo, definido pelo jogador na criação numa escala de 0 a 10, influencia as rolagens raras do sistema: cada degrau da cadeia de naturezas e o branch do eixo do Onmyōton. As Etapas de manifestação das Kekkei Genkai também o leem, pelo documento de Naturezas Avançadas.
 
-O efeito é **multiplicativo**, não somado. Cada ponto de Protagonismo aumenta a chance base em 20%:
+O efeito é multiplicativo. Cada ponto de Protagonismo aumenta a chance base em vinte por cento:
 
 ```
 chance_final = arredondar( chance_base × (1 + 0,2 × Protagonismo) )
 ```
 
-com teto em 100%. O arredondamento é obrigatório: a chance final também precisa virar uma faixa fechada de d100 (ex: 01–30, não "01 a 30,4"). Protagonismo 10, portanto, **triplica** qualquer uma dessas chances (1 + 0,2×10 = 3,0), sempre fechando em número inteiro.
-
-**Exemplos (usando as chances-base já arredondadas da tabela do Passo 1; linhas de Yin/Yang expressas também em faces de d20, já que o Passo 1.5 usa 1d20):**
+O teto é 100%. O arredondamento é obrigatório, porque a chance final também precisa virar faixa fechada de d100. Protagonismo 10 triplica qualquer uma dessas chances.
 
 | Rolagem | Chance base | Protagonismo 0 | Protagonismo 5 | Protagonismo 10 |
 |---|---|---|---|---|
-| 2ª afinidade (Passo 1, d100) | 10% | 10% | 20% | 30% |
-| 5ª afinidade (Passo 1, d100) | 17% | 17% | 34% | 51% |
-| 7ª afinidade (Passo 1, d100) | 25% | 25% | 50% | 75% |
-| Yin/Yang sem viés de clã (Passo 1.5, d20) | 5% (1 face) | 5% (1 face) | 10% (2 faces) | 15% (3 faces) |
-| Yin/Yang com viés de clã (Passo 1.5, d20) | 20% (4 faces) | 20% (4 faces) | 40% (8 faces) | 60% (12 faces) |
+| 2ª afinidade | 10% | 10% | 20% | 30% |
+| 5ª afinidade | 17% | 17% | 34% | 51% |
+| 7ª afinidade | 25% | 25% | 50% | 75% |
+| Branch sem viés de clã | 5% | 5% | 10% | 15% |
+| Branch com viés de clã | 15% | 15% | 30% | 45% |
 
-O modelo multiplicativo garante que uma chance já alta se aproxime do teto rapidamente, enquanto uma chance muito rara continue parecendo rara mesmo no Protagonismo máximo — só que com uma virada de ordem de grandeza real, não um empurrãozinho cosmético. Isso preserva a sensação de "excepcional mesmo entre excepcionais" para personagens de protagonismo alto que tiram resultados raros: mesmo triplicada, a chance de alcançar a 7ª afinidade (25% → 75%) continua sendo uma faixa que falha em 1 a cada 4 tentativas, não uma garantia.
+O modelo multiplicativo aproxima do teto uma chance já alta e mantém rara uma chance muito rara, com uma virada de ordem de grandeza real. Mesmo triplicada, a chance de alcançar a sétima afinidade falha em uma de cada quatro tentativas.
+
+O viés de clã em 15% impede que o Protagonismo alto leve o branch acima da metade e inverta a identidade elemental do clã.
 
 ---
 
@@ -215,17 +188,17 @@ O modelo multiplicativo garante que uma chance já alta se aproxime do teto rapi
 
 O Papel de Indução define o rito de descoberta de qualquer aspirante. A reação do papel revela a vocação elemental diante de mestres e da família. As Cinco Grandes Nações carregam o nome das naturezas, e a tradição local concentra o ensino no elemento da terra.
 
-O domínio de uma natureza se lê em combate antes das palavras: a consistência do chakra, o padrão das técnicas e a forma como o shinobi adapta o terreno revelam sua natureza a qualquer observador experiente.
+O domínio de uma natureza se lê em combate antes das palavras. A consistência do chakra, o padrão das técnicas e a forma como o shinobi adapta o terreno revelam sua natureza a qualquer observador experiente.
 
-O Ciclo de Superação é público e estratégico. Formações militares e duelos entre clãs levam em conta a vantagem elemental. Um guerreiro de Vento sabe que enfrenta desvantagem contra o Fogo do clã adversário.
+O Ciclo de Superação é público e estratégico. Formações militares e duelos entre clãs levam em conta a vantagem elemental, e um guerreiro de Vento sabe que enfrenta desvantagem contra o Fogo do clã adversário.
 
 ---
 
 ## Mecânica de Ativação
 
-- **Custo:** definido por técnica, em RC, no valor de afinidade. Executores fora da afinidade pagam o custo efetivo ×1,3 (ver Escada de Afinidade). O Limite de Saída universal de 20% da RC governa a canalização por turno.
+- **Custo:** definido por técnica, em RC, no valor de afinidade. Executores fora da afinidade pagam o custo efetivo ×1,3. O Limite de Saída universal de 20% da RC governa a canalização por turno.
 - **Ação:** definida por técnica.
-- **Restrições:** exige a natureza desbloqueada e o Tipo Elemental no nível mínimo do rank.
+- **Restrições:** exige a natureza desbloqueada e a perícia da natureza no nível mínimo do rank.
 - **Aftermath:** definido por técnica, conforme o rank no Manual de Criação de Jutsus.
 
 ---
@@ -234,47 +207,56 @@ O Ciclo de Superação é público e estratégico. Formações militares e duelo
 
 ### Tipo Elemental e dano
 
-Cada natureza corresponde a um Tipo Elemental. O Tipo define o multiplicador de dano, a camada de mitigação e os riders de status naturais.
+Cada natureza elemental corresponde a um Tipo Elemental, que define o multiplicador de dano, a camada de mitigação e o rider natural.
 
 | Natureza | Tipo | Mult. dano | Rider natural | Status |
 |---|---|---|---|---|
 | Raio | Elétrico | ×1,75 | Paralisia | Paralisia Parcial |
 | Fogo | Fogo | ×1,60 | Queimadura | Queimadura |
 | Terra | Terra | ×1,50 | Imobilização | Imobilização |
-| Vento | Vento/Corte | ×1,30 | Sangramento | Sangramento |
-| Água | Água/Pressão | ×1,00 | Lentidão | Lentidão |
+| Vento | Vento e Corte | ×1,30 | Sangramento | Sangramento |
+| Água | Água e Pressão | ×1,00 | Lentidão | Lentidão |
 
-O rider é uma propriedade passiva do Tipo. Cada técnica declara o grau mínimo e máximo do rider que pode aplicar. Técnicas que não declaram o rider não o aplicam. A Água em contato sustentado ou em ambiente frio pode declarar Congelamento em vez de Lentidão.
+O rider é propriedade passiva do Tipo. Cada técnica declara o grau mínimo garantido e o grau máximo possível do rider, e a resolução pertence ao Sistema de Efeitos de Status. Técnicas que não declaram o rider não o aplicam. A Água em contato sustentado ou em ambiente frio pode declarar Congelamento no lugar de Lentidão.
 
-### Custo do Tipo Elemental (XP por nível)
+O multiplicador entra no motor de dano do Manual de Criação de Jutsus como mult_Tipo, incidindo sobre a RC nominal da técnica.
 
-Categoria Ninja (×1,5 sobre a régua base):
+### Custo da perícia da natureza
+
+A régua abaixo é a da trilha Ninja do MANUAL_ECONOMIA_XP, com o multiplicador de categoria já aplicado.
 
 | LV | XP do nível | XP acumulado |
 |---|---|---|
-| LV1 — Alicerce | 750 | 750 |
-| LV2 — Inclinação | 1.125 | 1.875 |
-| LV3 — Competência | 2.250 | 4.125 |
-| LV4 — Especialização | 4.125 | 8.250 |
-| LV5 — Maestria | 6.750 | 15.000 |
-| LV6 — Transcendência | 10.125 | 25.125 |
+| LV1, Alicerce | 1.125 | 1.125 |
+| LV2, Inclinação | 1.687 | 2.812 |
+| LV3, Competência | 3.375 | 6.187 |
+| LV4, Especialização | 6.187 | 12.374 |
+| LV5, Maestria | 10.125 | 22.499 |
+| LV6, Transcendência | 15.187 | 37.686 |
 
-Após a aplicação do desconto de afinidade e do multiplicador de dispersão:
+A afinidade é o estado padrão de qualquer shinobi e não conquista que mereça desconto. A afinidade nata primária paga o preço de tabela, e cada posição mais distante aplica sobretaxa.
 
-| Grau | XP acumulado a LV6 |
+| Posição | Multiplicador | XP acumulado a LV6 |
+|---|---|---|
+| Afinidade nata primária | ×1,0 | 37.686 |
+| Afinidade nata adicional | ×1,125 | 42.396 |
+| 1ª natureza aprendida | ×1,25 | 47.107 |
+| 2ª natureza aprendida | ×1,6 | 60.297 |
+| 3ª natureza aprendida | ×2,0 | 75.372 |
+| 4ª natureza aprendida | ×2,5 | 94.215 |
+
+O custo de dominar as cinco naturezas depende de como foram obtidas.
+
+| Cenário | Custo total |
 |---|---|
-| Afinidade primária (−20%) | 20.100 |
-| Afinidade secundária (−10%) | 22.612 |
-| 1ª natureza não-afim (×1,0) | 25.125 |
-| 2ª natureza não-afim (×1,3) | 32.662 |
-| 3ª natureza não-afim (×1,6) | 40.200 |
-| 4ª natureza não-afim (×2,0) | 50.250 |
+| Cinco afinidades natas | 207.270 |
+| Uma nata e quatro aprendidas | 314.677 |
 
-### Ciclo de Superação — Força de Choque
+O caminho das cinco pertence a shinobi de nível lendário com décadas de dedicação.
 
-O ciclo opera exclusivamente em confrontos diretos entre técnicas elementais: choque frontal entre duas técnicas, ou técnica elemental contra defesa elemental ativa. Em acertos contra alvos desprotegidos e em confrontos entre naturezas neutras, o ciclo não atua.
+### Ciclo de Superação e Força de Choque
 
-**Cadeia de superação (em sentido horário):**
+O ciclo opera exclusivamente em confrontos diretos entre técnicas elementais, seja choque frontal entre duas técnicas, seja técnica elemental contra defesa elemental ativa. Em acertos contra alvos desprotegidos e em confrontos entre naturezas neutras, o ciclo não atua.
 
 | Natureza | Supera | Cede para | Neutra contra |
 |---|---|---|---|
@@ -284,63 +266,57 @@ O ciclo opera exclusivamente em confrontos diretos entre técnicas elementais: c
 | Terra | Água | Raio | Fogo, Vento |
 | Água | Fogo | Terra | Vento, Raio |
 
-**Fórmula da Força de Choque:**
-
 ```
-Força de Choque = PM investido × Mult_Ciclo
+Força de Choque = RC nominal investida × Mult_Ciclo
 
 Mult_Ciclo:
   Natureza superior no confronto: ×2,0
   Natureza neutra ou inferior:    ×1,0
 ```
 
-A natureza superior aplica ×2,0 porque seu chakra é duplamente efetivo em suprimir a inferior naquela interação. A natureza inferior usa o PM integral — a desvantagem está na efetividade da interação, não no chakra gasto.
+A natureza superior aplica o dobro porque seu chakra é duplamente efetivo em suprimir a inferior naquela interação. A natureza inferior usa a RC integral, e a desvantagem está na efetividade da interação e não no chakra gasto. O desperdício do executor não entra em nenhum dos lados, porque ele nunca chega ao ponto de choque.
 
-A natureza com maior Força de Choque prevalece. A inferior precisa de **mais que o dobro do PM** para superar o ciclo:
-
-```
-Override: PM_inferior > PM_superior × 2,0
-```
-
-Abaixo desse limiar, o ciclo decide. Acima, a potência bruta prevalece.
-
-### Sōsai (choque entre mesma natureza)
-
-Duas técnicas da mesma natureza comparam PM investido diretamente, sem Mult_Ciclo.
+A natureza com maior Força de Choque prevalece. A inferior precisa de mais que o dobro da RC nominal para superar o ciclo:
 
 ```
-Mesma natureza, PM_A > PM_B:
+Override: RC_inferior > RC_superior × 2,0
+```
+
+Abaixo desse limiar o ciclo decide, e acima dele a potência bruta prevalece.
+
+### Sōsai, choque entre a mesma natureza
+
+Duas técnicas da mesma natureza comparam RC nominal diretamente, sem Mult_Ciclo.
+
+```
+RC_A > RC_B:
 
 A prevalece.
-PM_excesso = PM_A − PM_B
-Breakthrough damage = PM_excesso × mult_Tipo × potência
+RC_excesso = RC_A − RC_B
+dano de rompimento = RC_excesso × mult_Tipo × potência
 ```
 
-PM igual → anulação completa, sem dano para nenhum dos lados.
+RC nominal igual produz anulação completa, sem dano para nenhum dos lados.
 
-### Absorção no choque favorável
+### Realimentação no choque favorável
 
 O usuário da técnica perdedora em qualquer choque recebe mais dano do que o excesso bruto indica, porque o próprio chakra alimenta a técnica vencedora.
 
 ```
-α = 0,25 (fração de absorção)
+α = 0,25
 
-Breakthrough damage = (PM_excesso + PM_perdedor × α) × mult_Tipo_vencedor × potência
+dano de rompimento = (RC_excesso + RC_perdedor × α) × mult_Tipo_vencedor × potência
 ```
 
-Para o choque de ciclo, o PM_excesso é convertido da diferença de Força de Choque:
+No choque de ciclo, o excesso é convertido da diferença de Força de Choque:
 
 ```
-PM_excesso_equiv = (Força_vencedor − Força_perdedor) / Mult_Ciclo_vencedor
+RC_excesso_equiv = (Força_vencedor − Força_perdedor) ÷ Mult_Ciclo_vencedor
 ```
 
-**Exemplo — Água (300 PM) vs Fogo (300 PM), PM iguais:**
-- Força Água: 600 · Força Fogo: 300 → Água vence
-- PM_excesso_equiv: (600 − 300) / 2,0 = 150 PM
-- Absorção: 300 × 0,25 = 75 PM
-- Breakthrough damage: (150 + 75) × 1,0 × potência = 225 × potência
+Uma Água de 300 de RC nominal contra um Fogo de 300 resolve assim: a Força da Água é 600 e a do Fogo é 300, e a Água vence. O excesso equivalente é 150, a realimentação é 75, e o dano de rompimento resulta em 225 multiplicado pela potência. O usuário de Fogo recebeu três quartos do que receberia de um acerto direto e ainda perdeu a própria técnica.
 
-O Fogo user tomou 75% do que tomaria num acerto direto de 300 PM de Água — e a própria técnica de Fogo foi neutralizada. Lançar a natureza errada num choque direto tem custo triplo: a técnica perde, o PM alimenta o adversário, e o dano recebido excede o excesso bruto.
+Lançar a natureza errada em choque direto tem custo triplo: a técnica perde, o chakra alimenta o adversário, e o dano recebido excede o excesso bruto. Esta realimentação é mecanismo de choque e não se confunde com a Absorção, que é camada de mitigação defensiva do alvo.
 
 ---
 
@@ -348,34 +324,35 @@ O Fogo user tomou 75% do que tomaria num acerto direto de 300 PM de Água — e 
 
 | Nível | Rank acessível | O que o shinobi alcança |
 |---|---|---|
-| LV1 — Alicerce | E | Primeiros sinais do elemento. Técnicas simples, instáveis em condições adversas. |
-| LV2 — Inclinação | D | Execução funcional. O elemento obedece em situações padrão. |
-| LV3 — Competência | C | Execução estável. Variações e técnicas de pressão disponíveis. |
-| LV4 — Especialização | B | Domínio tático. Técnicas de alto impacto e controle de terreno. |
-| LV5 — Maestria | A | O elemento é uma extensão do shinobi. Técnicas de magnitude larga. |
-| LV6 — Transcendência | S | Limite do possível. Técnicas que definem batalhas. |
+| LV1, Alicerce | E | Primeiros sinais da natureza, instáveis em condições adversas |
+| LV2, Inclinação | D | Execução funcional em situações padrão |
+| LV3, Competência | C | Execução estável, com variações e técnicas de pressão |
+| LV4, Especialização | B | Domínio tático, alto impacto e controle de terreno |
+| LV5, Maestria | A | Técnicas de magnitude larga |
+| LV6, Transcendência | S | Técnicas que definem batalhas |
 
-A natureza de afinidade percorre a régua com custo reduzido e confiabilidade maior em cada nível. A natureza aprendida percorre a mesma régua com custo cheio, e a penalidade de confiabilidade persiste em todos os níveis.
+A natureza de afinidade percorre a régua com o preço de tabela e confiabilidade maior em cada nível. A natureza aprendida percorre a mesma régua com sobretaxa de posição, e a penalidade de confiabilidade persiste em todos os níveis.
 
 ---
 
 ## Sinergias
 
-- **Controle de Chakra (ramo Refino/Economista):** reduz o custo de chakra de todas as técnicas, incluindo as elementais. Shinobi com alto refino sustentam técnicas de rank superior com a mesma reserva.
-- **Controle de Chakra (ramo Moldagem):** a transformação de forma combina com a transformação de natureza para criar técnicas completas. A forma define o alcance e o padrão de entrega; a natureza define o efeito.
-- **Reserva de Chakra (RC):** a RC determina o PM máximo disponível e, em conjunto com o Limite de Saída universal de 20%, a escala de técnicas que o shinobi acessa por turno. Reservas maiores permitem investir mais PM por uso e superar o ciclo elemental por potência bruta. O custo efetivo ×1,3 da natureza não-afim torna a afinidade o caminho mais econômico para sustentar o ciclo em confrontos prolongados.
-- **Riders e status:** a Vulnerabilidade aplicada por técnicas e o efeito de ciclo atuam em camadas sequenciais. Vulnerabilidade ao elemento aumenta o dano recebido do breakthrough; o ciclo determina quem vence o choque. Os dois compõem sem se duplicar.
-- **Módulo de treino:** o multiplicador de Método do instrutor e os limiares de tempo governam a velocidade de progressão em cada Tipo Elemental. Mestres de rank superior aceleram o desenvolvimento, e vilas com tradição elemental oferecem acesso mais fácil a esses mestres.
+- **Controle de Chakra, caminho Refino:** zera o desperdício e derruba o custo pago ao mínimo declarado, o que sustenta técnicas de rank superior com a mesma reserva
+- **Controle de Chakra, inclinação Moldagem:** a transformação de forma combina com a transformação de natureza para produzir a técnica completa, com a forma definindo alcance e padrão de entrega e a natureza definindo o efeito
+- **Reserva de Chakra:** a RC determina o teto absoluto e, com o Limite de Saída universal de 20%, a escala de técnicas acessíveis por turno. Reservas maiores permitem superar o ciclo por potência bruta, e o custo efetivo ×1,3 torna a afinidade o caminho econômico para sustentar confrontos prolongados
+- **Riders e status:** a Vulnerabilidade aplicada por técnicas e o efeito de ciclo atuam em camadas sequenciais, com a Vulnerabilidade aumentando o dano de rompimento e o ciclo decidindo quem vence o choque
+- **Módulo de treino:** o multiplicador de Método do instrutor e os limiares de tempo governam a velocidade de progressão em cada natureza
 
 ---
 
 ## Notas para o Mestre
 
-- **Raridade das afinidades:** uma afinidade é o comum — todo mundo sai da cadeia com pelo menos essa. Duas já marcam um shinobi promissor (1 em 10). Três ou mais pertencem ao território dos prodígios raros (1 em 83 em diante), e quatro afinidades ou mais — resultado de sucessivos testes na cadeia, não de um único d100 — exigem origem especial justificada narrativamente antes de serem aceitas. A cadeia agora chega, em tese, até sete afinidades (as cinco elementais mais Yin e Yang), mas sete é um resultado extremo — perto de 1 em 66.700 numa população grande — e deve ser tratado como tal.
-- **Fator Protagonismo multiplica, não maquia:** lembre-se de que Protagonismo alto não torna resultados raros comuns — ele reduz a distância até o teto sem eliminar a raridade relativa. Um jogador de Protagonismo 10 ainda precisa de sorte real para fechar a cadeia até Yin/Yang; o que muda é a ordem de grandeza da chance, não a garantia do resultado.
-- **Vento é naturalmente raro:** a tabela base dá 10% de chance à afinidade de Vento. Preserve essa raridade ao gerar PdMs — um shinobi de Vento já é notável.
-- **O Papel de Indução é um momento:** a primeira vez que o personagem toca o papel é um evento, não uma formalidade. O Mestre pode descrever a reação antes de revelar o elemento, criando antecipação.
-- **O caminho das cinco (ou das sete) é um arco:** personagens que buscam dominar todas as cinco naturezas elementais — ou, mais raro ainda, chegar a Yin e Yang na cadeia nata — precisam de décadas de campanha e de XP quase exclusivamente dedicado a isso. Trate esse objetivo como narrativa de longo prazo, não como uma lista de compras.
-- **Sementes de Kekkei Genkai:** quando um personagem reúne duas afinidades natas que formam um par canônico (Água + Vento → Gelo, Terra + Água → Madeira, Fogo + Terra → Lava), registre o par. Esse material alimenta o desbloqueio de naturezas avançadas em arcos futuros.
-- **Choques elementais custam:** o Mestre narra o choque desfavorável com peso — o chakra do perdedor literalmente alimentou o oponente, e o dano extra que o perdedor recebe é consequência disso. Usar a natureza errada em choque direto tem custo narrativo e mecânico.
-- **Exceções de linhagem:** o membro de clã que rola fora do elemento característico ainda aprende o rito de passagem. A exceção é material de história, não erro de ficha.
+- **Raridade das afinidades:** uma afinidade é o comum, e todo mundo sai da cadeia com pelo menos essa. Duas marcam um shinobi promissor, na proporção de 1 em 10. Três ou mais pertencem ao território dos prodígios, e quatro ou mais exigem origem justificada antes de serem aceitas. Sete é resultado extremo, perto de 1 em 66.700, e deve ser tratado como tal
+- **O Protagonismo multiplica sem maquiar:** Protagonismo alto reduz a distância até o teto sem eliminar a raridade relativa. O que muda é a ordem de grandeza da chance, nunca a garantia do resultado
+- **Vento é naturalmente raro:** a tabela base dá dez por cento à afinidade de Vento, e um shinobi de Vento já é notável. Preserve essa raridade ao gerar personagens do Mestre
+- **O Papel de Indução é um momento:** a primeira vez que o personagem toca o papel é evento, e o Mestre descreve a reação antes de revelar a natureza
+- **Yin e Yang não são prêmio de manifestação:** quem tira o branch adquire a natureza e desenvolve a perícia dela como faria com qualquer elemento. A herança de Yin no Uchiha e de Yang no Uzumaki e no Senju é traço de linhagem, e a afinidade presente na ficha sem uso desenvolvido é o estado esperado
+- **O caminho das cinco é um arco:** dominar todas as naturezas exige décadas de campanha e XP quase exclusivamente dedicado a isso. Trate o objetivo como narrativa de longo prazo
+- **Sementes de Kekkei Genkai:** quando um personagem reúne duas afinidades natas que formam par canônico, registre o par. Água com Vento aponta o Gelo, Terra com Água aponta a Madeira, e Fogo com Terra aponta a Lava, com o portão de linhagem permanecendo em vigor onde ele existir
+- **Choques elementais custam:** narre o choque desfavorável com peso, porque o chakra do perdedor literalmente alimentou o oponente, e o dano extra é consequência disso
+- **Exceções de linhagem:** o membro de clã que rola fora do elemento característico ainda aprende o rito de passagem. A exceção é material de história e não erro de ficha

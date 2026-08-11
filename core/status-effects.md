@@ -1,14 +1,14 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 1
+version: 2
 layer: core
 type: system
 status: final
-source-file: Sistema_de_Efeitos_de_Status-1.md
+source-file: Sistema_de_Efeitos_de_Status_v2.md
 ---
 
-# Sistema de Efeitos de Status — Manual Completo
+# Sistema de Efeitos de Status · Manual Completo
 
 Documento único e autossuficiente. Reúne os efeitos **nativos** (sempre ativos) e os
 **opcionais** (ativados pelo Mestre conforme o cenário), com os números já harmonizados
@@ -19,11 +19,11 @@ com o sistema de combate. Para usar, basta este arquivo.
 - **DoT (dano contínuo)** tem duas bases legítimas, conforme a origem: dano do golpe
   dividido pelo divisor do tipo (efeitos de golpe físico, como Sangramento e Queimadura)
   ou atributo do causador multiplicado por fator (efeitos de fonte, como Veneno e Tóxico).
-  Nenhum DoT usa porcentagem de PV máximo — o Congelamento, que antes usava, foi convertido
+  Nenhum DoT usa porcentagem de PV máximo, o Congelamento, que antes usava, foi convertido
   para a base de atributo do causador.
 - **Testes secundários com dificuldade fixa** (agir contra o efeito, resistir a uma
   compulsão, etc.) usam a fórmula simples do sistema: limiar igual a (atributo dividido
-  pela dificuldade) multiplicado por 50. Isso já escala sozinho — atributo maior resiste
+  pela dificuldade) multiplicado por 50. Isso já escala sozinho, atributo maior resiste
   mais fácil, sem precisar de número diferente por faixa.
 - **Reduções de atributo** seguem 15, 30, 50 e 70 por cento por grau, sobre o valor atual.
 
@@ -36,7 +36,7 @@ A partir daqui, os efeitos nativos; ao final, os opcionais.
 
 ### Identidade dos Graus
 
-Todo efeito de status neste sistema possui exatamente quatro graus. Essa regra não tem exceção entre os efeitos nativos. Os graus não são apenas números diferentes — cada um representa um estado funcional distinto com identidade própria.
+Todo efeito de status neste sistema possui exatamente quatro graus. Essa regra não tem exceção entre os efeitos nativos. Os graus não são apenas números diferentes, cada um representa um estado funcional distinto com identidade própria.
 
 Grau Leve significa que o personagem funciona mas sente. A condição está presente, tem custo real, mas não remove capacidades.
 
@@ -53,7 +53,7 @@ O alvo do teste de resistência é calculado conforme o tipo de fonte.
 
 Para golpes físicos: atributos da vítima multiplicados por (1 menos dano dividido pelo PV máximo da vítima).
 
-Para técnicas ativas com PM: atributos da vítima multiplicados por (1 menos PM gasto dividido pelo PM máximo do atacante).
+Para técnicas ativas com custo de chakra: atributos da vítima multiplicados por (1 menos a RC nominal da técnica dividida pela RC máxima do atacante). A grandeza lida é a RC nominal, e não o custo pago, porque o desperdício do executor não alcança o alvo.
 
 Para presença passiva ou aura: teste oposto. Causador rola o atributo relevante, vítima rola o seu. A margem de vitória do causador determina o grau.
 
@@ -103,10 +103,10 @@ Severidade Grave: alvo atual multiplicado por 0,7.
 
 Condições múltiplas aplicam em cadeia sobre o valor já reduzido.
 
-Referencias de severidade: mesmo efeito já ativo é Leve. Exaustão Física nível 1 é Leve para qualquer efeito físico. Exaustão Física nível 2 é Moderada. Exaustão Física nível 3 ou 4 é Grave. Lesão pré-existente na área é Moderada. Fratura no mesmo membro é Grave. Fadiga nível 1 é Leve para qualquer efeito. Fadiga nível 2 é Moderada. Fadiga nível 3 ou 4 é Grave. Trauma Psicológico ativado é Moderada para efeitos mentais e psicológicos.
+Referencias de severidade: mesmo efeito já ativo é Leve. Exaustão de Chakra Leve é Leve para qualquer efeito resistido por técnica, Moderada é Moderada, e Grave ou Crítica é Grave. Exaustão Física nível 1 é Leve para qualquer efeito físico. Exaustão Física nível 2 é Moderada. Exaustão Física nível 3 ou 4 é Grave. Lesão pré-existente na área é Moderada. Fratura no mesmo membro é Grave. Fadiga nível 1 é Leve para qualquer efeito. Fadiga nível 2 é Moderada. Fadiga nível 3 ou 4 é Grave. Trauma Psicológico ativado é Moderada para efeitos mentais e psicológicos.
 
 
-## FAMÍLIA I — DANO CONTÍNUO
+## FAMÍLIA I · DANO CONTÍNUO
 
 Efeitos que causam perda de recurso ao longo do tempo. O valor da perda por turno é fixo no momento da aplicação e não muda enquanto o efeito estiver ativo. O grau determina os efeitos secundários, a dificuldade de remoção e o ritmo de progressão.
 
@@ -160,7 +160,7 @@ Uma substância hostil circula pelo organismo e o degrada de dentro. A intensida
 Fonte: substância tóxica via contato, ingestão ou golpe veículo. O dano do golpe é irrelevante para o cálculo.
 Atributos testados: RES + FOR
 Alvo do teste para veneno de criatura: teste oposto. Criatura rola FOR ou RES, vítima rola RES + FOR.
-Alvo do teste para veneno mágico: (RES + FOR) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para veneno mágico: (RES + FOR) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Valor base do DoT por estágio: estágio 1 é RES do causador multiplicado por 0,5 em PV por turno. Estágio 2 é RES do causador multiplicado por 1,0. Estágio 3 é RES do causador multiplicado por 1,5. Para venenos mágicos, substitui RES por INT do causador.
 
@@ -175,7 +175,7 @@ Grau Crítico: começa no estágio 3. Avança a cada turno. Redução de 50% em 
 Notas: Leve e Moderado removem pela regra universal. Grave e Crítico exigem antídoto específico ou purificação ativa. Descanso não remove Grave ou Crítico.
 
 
-## FAMÍLIA II — CORPO e MOBILIDADE
+## FAMÍLIA II · CORPO e MOBILIDADE
 
 Efeitos que comprometem a capacidade física. A distinção central desta família é entre comprometimento de atributo, que é proporcional e escalável, e remoção de capacidade, que é absoluta e independente de qualquer valor de atributo.
 
@@ -187,7 +187,7 @@ O personagem não consegue se mover na velocidade normal. O impacto vai além do
 Fonte: físico ou mágico.
 Atributos testados: VEL + RES
 Alvo do teste físico: (VEL + RES) x (1 - dano / PV máximo da vítima)
-Alvo do teste para técnica: (VEL + RES) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para técnica: (VEL + RES) x (1 - RC nominal da técnica / RC máxima do atacante)
 Atributo afetado: VEL. Afeta Esquiva (VEL + DES) e Reação (VEL + SAB) automaticamente em cascata.
 
 Grau Leve: redução de 15% em VEL. O personagem nota a diferença mas ainda age razoavelmente. Duração de 3 turnos.
@@ -205,7 +205,7 @@ O personagem está fisicamente preso por restrição externa. O problema não é
 
 Fonte: restrição física externa, correntes, raízes, técnicas de ancoragem.
 Atributos testados: FOR + RES
-Alvo do teste: (FOR + RES) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (FOR + RES) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Grau Leve: movimento amplo bloqueado. Tudo mais funciona normalmente. Quebra por força com teste FOR + RES normal, custando ação completa.
 
@@ -225,7 +225,7 @@ Um membro específico perde função por razão neurológica ou mágica. A causa
 Fonte: choque elétrico, impacto severo em nervo, técnica de bloqueio neural.
 Atributos testados: RES + FOR
 Alvo do teste físico: (RES + FOR) x (1 - dano / PV máximo da vítima)
-Alvo do teste para técnica: (RES + FOR) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para técnica: (RES + FOR) x (1 - RC nominal da técnica / RC máxima do atacante)
 Atributos afetados: FOR e DES do membro específico declarado pela fonte.
 
 Grau Leve: redução de 15% em FOR e DES do membro. Tremor visível, imprecisão em tarefas finas. Duração de 2 turnos.
@@ -331,7 +331,7 @@ PS a 0%: Grau Crítico. Redução de 70% em FOR, VEL e DES. Qualquer ação fís
 Notas: descanso curto restaura ao máximo Grau Leve. Descanso longo zera completamente.
 
 
-## FAMÍLIA III — SENTIDOS
+## FAMÍLIA III · SENTIDOS
 
 Efeitos que comprometem a percepção. A perda de um sentido remodela como o personagem interage com o combate e o ambiente. Personagens com sentidos alternativos desenvolvidos podem compensar parcialmente porque já treinaram outras formas de percepção.
 
@@ -393,7 +393,7 @@ Grau Grave: toda vocalização bloqueada mais respiração prejudicada. Reduçã
 Grau Crítico: toda vocalização bloqueada mais asfixia iminente. PS perdido por turno conforme progressão de sufocamento. Sem duração automática. Tratamento urgente obrigatório.
 
 
-## FAMÍLIA IV — MENTAL e PSICOLÓGICO
+## FAMÍLIA IV · MENTAL e PSICOLÓGICO
 
 Efeitos que comprometem cognição, emoção ou controle voluntário. Esta família tem uma característica única: os efeitos mais severos podem persistir entre sessões como condições narrativas permanentes.
 
@@ -407,7 +407,7 @@ O personagem está com medo de algo específico. Ainda age, ainda luta, ainda de
 Fonte: presença aterrorizante passiva ou técnica ativa.
 Atributos testados: VONTADE + SAB
 Alvo do teste para presença passiva: teste oposto. Causador rola CAR ou FOR, vítima rola VONTADE + SAB.
-Alvo do teste para técnica: (VONTADE + SAB) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para técnica: (VONTADE + SAB) x (1 - RC nominal da técnica / RC máxima do atacante)
 Atributos afetados: FOR e PRE apenas em ações diretas contra a fonte.
 
 Grau Leve: redução de 15% em FOR e PRE contra a fonte. Hesitação sutil, ainda superável sem esforço adicional.
@@ -503,7 +503,7 @@ A percepção e o raciocínio estão distorcidos. O personagem não está com me
 
 Fonte: ilusão, técnica de distorção cognitiva, veneno mental.
 Atributos testados: VONTADE + INT
-Alvo do teste para técnica: (VONTADE + INT) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para técnica: (VONTADE + INT) x (1 - RC nominal da técnica / RC máxima do atacante)
 Alvo do teste para veneno mental: teste oposto.
 Atributos afetados: INT e SAB.
 
@@ -524,7 +524,7 @@ Uma pessoa sonolenta não perde metade de todos os atributos. Perde atenção, p
 
 Fonte: magia, poção, veneno sedativo, técnica.
 Atributos testados: RES + VONTADE
-Alvo do teste para técnica: (RES + VONTADE) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para técnica: (RES + VONTADE) x (1 - RC nominal da técnica / RC máxima do atacante)
 Alvo do teste para substância: teste oposto.
 
 Grau Leve, Sonolento: o personagem luta contra o sono mas está completamente acordado. O que sofre é atenção e percepção, não o corpo. Redução de 20% em PRE e 10% em INT e SAB. Sem penalidade em FOR, VEL ou DES. Qualquer estímulo relevante ou dano encerra o efeito imediatamente. Duração de 2 turnos se não estimulado.
@@ -555,7 +555,7 @@ Grau Crítico: morte iminente. Intervenção imediata obrigatória. Falha result
 Notas: sem tratamento em turnos definidos pelo Mestre, Leve avança para Moderado, Moderado para Grave, Grave para Crítico.
 
 
-## FAMÍLIA V — EXPOSIÇÃO e VULNERABILIDADE
+## FAMÍLIA V · EXPOSIÇÃO e VULNERABILIDADE
 
 Efeitos que não causam dano diretamente mas tornam o personagem mais fácil de acertar ou mais vulnerável ao dano recebido.
 
@@ -566,7 +566,7 @@ Algo identificou o personagem como alvo prioritário. Uma marca visual, energét
 
 Fonte: técnica de marcação de alvo.
 Atributos testados: DES + VEL
-Alvo do teste: (DES + VEL) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (DES + VEL) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Grau Leve: atacantes contra o marcado têm 10% de bônus no alvo do teste de acerto. Duração de 2 turnos.
 
@@ -599,10 +599,27 @@ Grau Crítico: redução de 70% em DEF mais todas as defesas ativas com modifica
 Notas: remoção por duração, reposicionamento custando ação menor, ou técnica de reforço.
 
 
-## FAMÍLIA VI — CONDIÇÕES ESTRUTURAIS PERSISTENTES
+## FAMÍLIA VI · CONDIÇÕES ESTRUTURAIS PERSISTENTES
 
 Efeitos que existem além do combate e afetam a campanha como um todo. Não desaparecem com o fim da cena.
 
+
+### Exaustão de Chakra
+
+A reserva chegou perto do fim, e o que resta não basta para moldar com a precisão de antes. O efeito não é ferimento nem cansaço muscular, e sim a degradação da própria capacidade de dar forma ao chakra conforme a fonte se esgota. Os sintomas aparecem antes da falha completa, em tontura, vertigem e escurecimento do campo de visão, e o shinobi que insiste depois do último grau morre.
+
+Fonte: automática, derivada da RC restante. Sem teste de aplicação. Cada grau substitui o anterior.
+Atributos afetados: nenhum atributo diretamente. A penalidade incide sobre os testes que governam chakra, deixando o comprometimento físico para a Exaustão Física e a degradação geral para a Fadiga.
+
+RC entre 50% e 74%: Grau Leve. Redução de 15% nos testes de Controle de Chakra e das perícias de natureza.
+
+RC entre 25% e 49%: Grau Moderado. Redução de 30% nesses testes, e o Índice de Desperdício do executor sobe 25 pontos percentuais, de modo que a mesma técnica passa a custar mais para quem já tem menos.
+
+RC entre 1% e 24%: Grau Grave. Redução de 50% nesses testes, Limite de Saída reduzido à metade, e toda técnica de rank A ou superior entrega versão reduzida no lugar do efeito pleno.
+
+RC a 0%: Grau Crítico, o colapso final. Inconsciência aplicada no ato. Cada ponto de chakra exigido do personagem a partir daqui consome PV na razão de um para um, sem mitigação, e a redução do PV a zero por esta via é morte.
+
+Notas: a remoção acompanha a recuperação de reserva. Descanso curto sobe um grau, e descanso longo zera. O caminho Firmeza do Controle de Chakra ignora o Grau Leve, sobe ao Moderado no LV5 e alcança todos os graus abaixo do colapso final na transcendência. Chakra guardado fora da reserva atual, como o depósito da Reserva Diferida, não conta para a apuração do grau, e é o que permite a um praticante operar em Grau Grave com poder disponível.
 
 ### Fadiga
 
@@ -661,7 +678,7 @@ Grau Crítico: redução de 70% no atributo afetado. A função foi perdida ou e
 Notas: o grau do Ferimento Grave é determinado pela gravidade do evento que o causou, declarado pelo Mestre. Não tem teste de resistência na aplicação. Remoção apenas por tratamento narrativo adequado. Descanso não remove. Novo Ferimento Grave na mesma região sem tratamento avança o grau atual em 1.
 
 
-## FAMÍLIA VII — EFEITOS DERIVADOS
+## FAMÍLIA VII · EFEITOS DERIVADOS
 
 Efeitos que surgem do agravamento de outros efeitos não tratados. Não são aplicados por fonte externa. São a consequência natural de deixar um efeito progredir sem intervenção.
 
@@ -708,17 +725,17 @@ Notas: nenhum dano, estímulo ou ação simples acorda quem está em coma. O cor
 
 Ativados pelo Mestre conforme o tom e os elementos do cenário. Seguem exatamente as mesmas regras fundamentais dos nativos.
 
-## FAMÍLIA I — DANO CONTÍNUO OPCIONAL
+## FAMÍLIA I · DANO CONTÍNUO OPCIONAL
 
 
 ### Tóxico
 
-O Tóxico é uma variante do Veneno, mais agressiva e de progressão mais rápida. A diferença não é apenas numérica — é qualitativa. Onde o Veneno corrói progressivamente, o Tóxico ataca o sistema de forma mais imediata e violenta. Recomendado para campanhas onde criaturas venenosas de alto nível ou alquimia avançada são elementos centrais.
+O Tóxico é uma variante do Veneno, mais agressiva e de progressão mais rápida. A diferença não é apenas numérica, é qualitativa. Onde o Veneno corrói progressivamente, o Tóxico ataca o sistema de forma mais imediata e violenta. Recomendado para campanhas onde criaturas venenosas de alto nível ou alquimia avançada são elementos centrais.
 
 Fonte: substância tóxica de alta potência, técnica ou criatura de nível avançado.
 Atributos testados: RES + FOR
 Alvo do teste para criatura: teste oposto. Criatura rola FOR ou RES, vítima rola RES + FOR.
-Alvo do teste para técnica: (RES + FOR) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para técnica: (RES + FOR) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Valor base do DoT por estágio: estágio 1 é RES do causador multiplicado por 1,0 em PV por turno. Estágio 2 é RES do causador multiplicado por 2,0. Estágio 3 é RES do causador multiplicado por 3,0. Para origem mágica, substitui RES por INT do causador. O Tóxico começa onde o Veneno termina em termos de intensidade.
 
@@ -730,12 +747,12 @@ Grau Grave: começa no estágio 2. Avança a cada turno. Redução de 50% em RES
 
 Grau Crítico: começa no estágio 3. Progressão imediata a cada turno. Redução de 70% em RES e 50% em FOR. Risco de Inconsciência se PV cair abaixo de 25% enquanto o efeito estiver ativo.
 
-Notas: Tóxico nunca remove pela regra universal. Todos os graus exigem antídoto específico ou purificação ativa. Descanso não atenua. Se tanto Veneno quanto Tóxico estiverem ativos simultaneamente, apenas o Tóxico opera — ele absorve o Veneno.
+Notas: Tóxico nunca remove pela regra universal. Todos os graus exigem antídoto específico ou purificação ativa. Descanso não atenua. Se tanto Veneno quanto Tóxico estiverem ativos simultaneamente, apenas o Tóxico opera, ele absorve o Veneno.
 
 
 ### Necrose
 
-O tecido começa a morrer. Diferente do Sangramento e da Queimadura, a Necrose não é urgente no curto prazo — é lenta e profunda. O perigo real da Necrose é que ela danifica permanentemente o PV máximo se não for tratada a tempo. Recomendado para campanhas com magia de morte, criaturas necromânticas ou horror.
+O tecido começa a morrer. Diferente do Sangramento e da Queimadura, a Necrose não é urgente no curto prazo, é lenta e profunda. O perigo real da Necrose é que ela danifica permanentemente o PV máximo se não for tratada a tempo. Recomendado para campanhas com magia de morte, criaturas necromânticas ou horror.
 
 Fonte: magia de morte, veneno necrótico, mordida de criatura necromântica.
 Atributos testados: RES + FOR para necrose física. VONTADE + RES para necrose mágica.
@@ -754,7 +771,7 @@ Grau Crítico: DoT base multiplicado por 2. Redução de 70% em RES e 30% em FOR
 Notas: Leve remove pela regra universal. Moderado exige tratamento específico. Grave e Crítico exigem purificação especializada ou técnica de cura de rank compatível. Descanso nunca remove Necrose.
 
 
-## FAMÍLIA II — CORPO e MOBILIDADE OPCIONAL
+## FAMÍLIA II · CORPO e MOBILIDADE OPCIONAL
 
 
 ### Luxação
@@ -776,7 +793,7 @@ Grau Grave: redução de 50%. Ação que exija a articulação exige teste de RE
 
 Grau Crítico: redução de 70%. A articulação está completamente instável. Qualquer uso provoca dor severa e pode agravar para Fratura Leve sem recolocação imediata.
 
-Notas: tratamento simples durante combate custa ação completa e exige teste de cura vs 30. Fora de combate, remove automaticamente com tratamento adequado. Não exige descanso longo — apenas recolocação.
+Notas: tratamento simples durante combate custa ação completa e exige teste de cura vs 30. Fora de combate, remove automaticamente com tratamento adequado. Não exige descanso longo, apenas recolocação.
 
 
 ### Congelamento
@@ -786,7 +803,7 @@ O frio extremo compromete o corpo progressivamente. Começa pela mobilidade e te
 Fonte: frio extremo, técnica de gelo, ambiente glacial prolongado.
 Atributos testados: RES + FOR
 Alvo do teste físico: (RES + FOR) x (1 - dano / PV máximo da vítima)
-Alvo do teste para técnica: (RES + FOR) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para técnica: (RES + FOR) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Grau Leve: redução de 15% em VEL e DES. O frio está presente mas o corpo ainda responde. PS drena 10% mais rápido por ação física.
 
@@ -801,18 +818,18 @@ Notas: fogo ou calor remove o efeito em qualquer grau. Grau Leve e Moderado remo
 
 ### Petrificação
 
-O corpo está sendo transformado em substância inerte. Diferente da Imobilização, a Petrificação não é reversível pela força. É um processo de transformação que avança progressivamente e exige intervenção específica para ser revertido. Nos graus mais severos, o personagem deixa de ser um alvo de habilidades normais — não pode ser curado, não pode ser afetado por maioria dos efeitos, mas também não pode agir. Recomendado para campanhas com criaturas de transformação ou magia de transmutação.
+O corpo está sendo transformado em substância inerte. Diferente da Imobilização, a Petrificação não é reversível pela força. É um processo de transformação que avança progressivamente e exige intervenção específica para ser revertido. Nos graus mais severos, o personagem deixa de ser um alvo de habilidades normais, não pode ser curado, não pode ser afetado por maioria dos efeitos, mas também não pode agir. Recomendado para campanhas com criaturas de transformação ou magia de transmutação.
 
 Fonte: olhar de criatura específica, técnica de transmutação, armadilha mágica.
 Atributos testados: RES + VONTADE
-Alvo do teste para técnica: (RES + VONTADE) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste para técnica: (RES + VONTADE) x (1 - RC nominal da técnica / RC máxima do atacante)
 Alvo do teste para fonte passiva: teste oposto.
 
 Grau Leve: rigidez parcial. Redução de 15% em VEL, DES e FOR. O personagem ainda age mas sente o corpo resistindo.
 
 Grau Moderado: rigidez severa. Redução de 30% em VEL, DES e FOR. Ações físicas custam PS adicional. O personagem começa a perder expressão facial e fluidez de movimento.
 
-Grau Grave: transformação quase completa. Redução de 50% em VEL, DES e FOR. Apenas 1 ação por turno disponível. O personagem está parcialmente pedra — cura comum não funciona mais.
+Grau Grave: transformação quase completa. Redução de 50% em VEL, DES e FOR. Apenas 1 ação por turno disponível. O personagem está parcialmente pedra, cura comum não funciona mais.
 
 Grau Crítico: transformação completa. O personagem está inerte. Não pode agir, não pode ser curado por meios convencionais, não pode receber a maioria dos efeitos de status. Ataques físicos causam dano mínimo mas podem fragmentar o personagem se severos o suficiente. Apenas reversão da transformação resolve.
 
@@ -821,11 +838,11 @@ Notas: Leve e Moderado removem pela regra universal. Grave exige técnica de rev
 
 ### Peso Sobrenatural
 
-Uma força externa pressiona o personagem para baixo, aumentando artificialmente o peso que ele carrega ou a gravidade que sente. Não é dano neurológico nem lesão física — é uma questão de força bruta contra uma pressão constante. Recomendado para campanhas com magia de gravidade ou criaturas com esse tipo de capacidade.
+Uma força externa pressiona o personagem para baixo, aumentando artificialmente o peso que ele carrega ou a gravidade que sente. Não é dano neurológico nem lesão física, é uma questão de força bruta contra uma pressão constante. Recomendado para campanhas com magia de gravidade ou criaturas com esse tipo de capacidade.
 
 Fonte: técnica de manipulação gravitacional ou de peso.
 Atributos testados: FOR + RES
-Alvo do teste: (FOR + RES) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (FOR + RES) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Grau Leve: redução de 15% em VEL e DES. O personagem sente a pressão mas ainda age com relativa normalidade.
 
@@ -838,7 +855,7 @@ Grau Crítico: redução de 70% em VEL e DES. Redução de 30% em FOR. Movimento
 Notas: remoção pela regra universal. Ou aguardar duração definida pela fonte.
 
 
-## FAMÍLIA III — SENTIDOS OPCIONAL
+## FAMÍLIA III · SENTIDOS OPCIONAL
 
 
 ### Cegueira Parcial
@@ -862,7 +879,7 @@ Notas: Cegueira Parcial e Cegueira completa não coexistem no mesmo personagem. 
 
 ### Dormência e Anestesia
 
-O personagem perdeu a sensação tátil em uma área do corpo. Pode parecer vantagem — sem dor — mas remove informação sensorial crítica que o combate depende. Sem sentir o contato de um golpe, o personagem não sabe o quanto foi atingido. Sem sentir o grip da arma, a precisão sofre. Recomendado para campanhas com alquimia, medicina avançada ou criaturas que aplicam anestesia.
+O personagem perdeu a sensação tátil em uma área do corpo. Pode parecer vantagem, sem dor, mas remove informação sensorial crítica que o combate depende. Sem sentir o contato de um golpe, o personagem não sabe o quanto foi atingido. Sem sentir o grip da arma, a precisão sofre. Recomendado para campanhas com alquimia, medicina avançada ou criaturas que aplicam anestesia.
 
 Fonte: substância anestésica, veneno paralisante de sensação, técnica específica.
 Atributos testados: RES + FOR
@@ -886,7 +903,7 @@ O equilíbrio está comprometido. O personagem não consegue confiar no próprio
 
 Fonte: impacto no ouvido interno, técnica de desorientação, movimento extremo, veneno de equilíbrio.
 Atributos testados: RES + VONTADE
-Alvo do teste: (RES + VONTADE) x (1 - dano / PV máximo da vítima) para físico. (RES + VONTADE) x (1 - PM gasto / PM máximo do atacante) para técnica.
+Alvo do teste: (RES + VONTADE) x (1 - dano / PV máximo da vítima) para físico. (RES + VONTADE) x (1 - RC nominal da técnica / RC máxima do atacante) para técnica.
 
 Grau Leve: redução de 15% em DES. Leve sensação de instabilidade. Ações em altura ou superfícies instáveis com penalidade adicional de 10%.
 
@@ -901,7 +918,7 @@ Notas: remoção pela regra universal. Descanso em posição estável reduz o gr
 
 ### Alucinação
 
-O personagem percebe coisas que não existem ou distorce o que existe. Diferente da Confusão, que compromete o processamento cognitivo, a Alucinação afeta especificamente a entrada de informação sensorial. O personagem pode estar raciocínando perfeitamente — sobre dados completamente falsos. Recomendado para campanhas com drogas, venenos mentais, magia ilusória avançada ou entidades que manipulam percepção.
+O personagem percebe coisas que não existem ou distorce o que existe. Diferente da Confusão, que compromete o processamento cognitivo, a Alucinação afeta especificamente a entrada de informação sensorial. O personagem pode estar raciocínando perfeitamente, sobre dados completamente falsos. Recomendado para campanhas com drogas, venenos mentais, magia ilusória avançada ou entidades que manipulam percepção.
 
 Fonte: substância alucinógena, técnica de ilusão avançada, entidade de manipulação sensorial.
 Atributos testados: VONTADE + SAB
@@ -918,7 +935,7 @@ Grau Crítico: a realidade está completamente distorcida. O personagem não con
 Notas: remoção pela regra universal. Substâncias alucinógenas têm duração própria declarada pela fonte. Grau Crítico de origem mágica exige remoção ativa.
 
 
-## FAMÍLIA IV — MENTAL e PSICOLÓGICO OPCIONAL
+## FAMÍLIA IV · MENTAL e PSICOLÓGICO OPCIONAL
 
 
 ### Fascínio e Encantamento
@@ -927,7 +944,7 @@ O personagem está fascinado por algo ou alguém. Não é controle total. O pers
 
 Fonte: técnica de encantamento, aura de criatura específica, substância.
 Atributos testados: VONTADE + SAB
-Alvo do teste: (VONTADE + SAB) x (1 - PM gasto / PM máximo do atacante) para técnica. Teste oposto para aura.
+Alvo do teste: (VONTADE + SAB) x (1 - RC nominal da técnica / RC máxima do atacante) para técnica. Teste oposto para aura.
 
 Grau Leve: o personagem sente atração intensa pela fonte. Ações hostis contra ela exigem teste de VONTADE + SAB vs 35. Redução de 15% em PRE e SAB ao avaliar a fonte criticamente.
 
@@ -942,11 +959,11 @@ Notas: dano recebido da própria fonte permite novo teste de resistência imedia
 
 ### Domínio e Charme Total
 
-Controle completo. Diferente do Fascínio, o Domínio não é uma incapacidade de hostilidade — é substituição total da vontade. O personagem age como extensão da fonte. Sua identidade ainda existe internamente, mas não tem acesso a nenhuma decisão de ação. Recomendado para campanhas com magia mental de alto nível, entidades de possessão ou antagonistas que usem controle como ferramenta.
+Controle completo. Diferente do Fascínio, o Domínio não é uma incapacidade de hostilidade, é substituição total da vontade. O personagem age como extensão da fonte. Sua identidade ainda existe internamente, mas não tem acesso a nenhuma decisão de ação. Recomendado para campanhas com magia mental de alto nível, entidades de possessão ou antagonistas que usem controle como ferramenta.
 
 Fonte: técnica de controle mental de alto nível, ritual específico.
 Atributos testados: VONTADE + SAB
-Alvo do teste: (VONTADE + SAB) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (VONTADE + SAB) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Grau Leve: o controlador pode sugerir uma ação por turno. O personagem pode recusar testando VONTADE + SAB vs 45.
 
@@ -956,12 +973,12 @@ Grau Grave: o controlador define todas as ações. O personagem só pode resisti
 
 Grau Crítico: controle absoluto. O personagem age completamente como instrumento do controlador. Resistência interna impossível exceto por condição específica declarada pela fonte.
 
-Notas: aliados podem tentar quebrar o controle por meios narrativos — confronto direto, estímulo emocional intenso — permitindo novo teste de resistência. Remoção exige técnica de quebra de controle ou destruição/incapacitação da fonte.
+Notas: aliados podem tentar quebrar o controle por meios narrativos, confronto direto, estímulo emocional intenso, permitindo novo teste de resistência. Remoção exige técnica de quebra de controle ou destruição/incapacitação da fonte.
 
 
 ### Frenesi e Berserk
 
-O personagem entra em estado de fúria incontrolável. Força e agressividade aumentam mas a capacidade de distinguir aliados de inimigos diminui. Não é necessariamente negativo em todos os contextos — uma criatura ou personagem construído para isso pode ser devastador. O perigo está nos efeitos colaterais sobre aliados. Recomendado para campanhas com guerreiros de fúria, criaturas selvagens ou maldições de raiva.
+O personagem entra em estado de fúria incontrolável. Força e agressividade aumentam mas a capacidade de distinguir aliados de inimigos diminui. Não é necessariamente negativo em todos os contextos, uma criatura ou personagem construído para isso pode ser devastador. O perigo está nos efeitos colaterais sobre aliados. Recomendado para campanhas com guerreiros de fúria, criaturas selvagens ou maldições de raiva.
 
 Fonte: maldição de raiva, técnica específica, substância estimulante extrema, trauma emocional severo em combate.
 Atributos testados: VONTADE + SAB
@@ -980,7 +997,7 @@ Notas: dano recebido de aliado permite novo teste de resistência. Remoção pel
 
 ### Amnésia
 
-O personagem perdeu acesso a memórias específicas ou ao conhecimento acumulado. Não é cognitivo no sentido de que INT ou SAB estão comprometidos em si — é que o conteúdo que essas capacidades processam está inacessível. O personagem ainda pensa com clareza, mas pode não saber quem são seus aliados, o que sabe sobre o inimigo, ou como executar técnicas que dependam de memória procedimental. Recomendado para campanhas onde memória e identidade têm peso narrativo.
+O personagem perdeu acesso a memórias específicas ou ao conhecimento acumulado. Não é cognitivo no sentido de que INT ou SAB estão comprometidos em si, é que o conteúdo que essas capacidades processam está inacessível. O personagem ainda pensa com clareza, mas pode não saber quem são seus aliados, o que sabe sobre o inimigo, ou como executar técnicas que dependam de memória procedimental. Recomendado para campanhas onde memória e identidade têm peso narrativo.
 
 Fonte: técnica de apagamento de memória, trauma extremo, entidade específica, magia de alteração mental.
 Atributos testados: VONTADE + INT
@@ -999,7 +1016,7 @@ Notas: a Amnésia é primariamente um efeito narrativo. As penalidades mecânica
 
 ### Desespero e Abatimento
 
-O personagem está em estado de derrota psicológica. Não é medo — não há uma ameaça específica causando hesitação. É a crença internalizada de que as ações não importam, de que o resultado já está decidido, de que resistir é inútil. Reduz a efetividade em tudo porque a motivação para executar bem simplesmente não está presente. Recomendado para campanhas de horror psicológico ou narrativas de desgaste.
+O personagem está em estado de derrota psicológica. Não é medo, não há uma ameaça específica causando hesitação. É a crença internalizada de que as ações não importam, de que o resultado já está decidido, de que resistir é inútil. Reduz a efetividade em tudo porque a motivação para executar bem simplesmente não está presente. Recomendado para campanhas de horror psicológico ou narrativas de desgaste.
 
 Fonte: derrota severa, perda de aliado próximo, confronto com situação sem saída aparente, técnica específica.
 Atributos testados: VONTADE + SAB
@@ -1032,7 +1049,7 @@ Grau Grave: euforia dominante. Redução de 35% em SAB e 20% em PRE e INT. O per
 
 Grau Crítico: estado alterado severo. Redução de 50% em SAB, PRE e INT. O personagem age como se fosse invencível. Ações defensivas ou de retirada são impossíveis sem superar teste de VONTADE + SAB vs 55. Aliados podem ser ignorados como ameaças.
 
-Notas: remoção pela regra universal para origem por substância após duração da substância acabar. Origem mágica exige remoção ativa. O efeito não é intrinsecamente negativo para o personagem afetado — mas as consequências são.
+Notas: remoção pela regra universal para origem por substância após duração da substância acabar. Origem mágica exige remoção ativa. O efeito não é intrinsecamente negativo para o personagem afetado, mas as consequências são.
 
 
 ### Paranoia
@@ -1054,12 +1071,12 @@ Grau Crítico: colapso da confiança. O personagem percebe todos ao redor como i
 Notas: aliados que demonstrem intenção positiva de forma inequívoca permitem novo teste de resistência. Remoção pela regra universal para graus menores. Grave e Crítico exigem resolução narrativa ou técnica específica.
 
 
-## FAMÍLIA V — CONTROLE e AUTONOMIA OPCIONAL
+## FAMÍLIA V · CONTROLE e AUTONOMIA OPCIONAL
 
 
 ### Possessão Parcial
 
-Uma entidade externa habita parcialmente o personagem. Não é controle total — é uma voz, uma presença, uma influência que compete com a vontade do personagem. O personagem ainda existe e ainda decide, mas há algo dentro tentando interferir. Recomendado para campanhas com espíritos, demônios, entidades sobrenaturais ou maldições de habitação.
+Uma entidade externa habita parcialmente o personagem. Não é controle total, é uma voz, uma presença, uma influência que compete com a vontade do personagem. O personagem ainda existe e ainda decide, mas há algo dentro tentando interferir. Recomendado para campanhas com espíritos, demônios, entidades sobrenaturais ou maldições de habitação.
 
 Fonte: entidade espiritual ou sobrenatural tentando habitar o personagem.
 Atributos testados: VONTADE + RES
@@ -1096,7 +1113,7 @@ Diferente da Possessão, o Controle Mental não envolve uma entidade habitando o
 
 Fonte: técnica de controle mental de alto nível.
 Atributos testados: VONTADE + INT
-Alvo do teste: (VONTADE + INT) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (VONTADE + INT) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Grau Leve: interferência cognitiva leve. O controlador pode sugerir uma ação por turno. O personagem pode recusar testando VONTADE + INT vs 40.
 
@@ -1111,7 +1128,7 @@ Notas: diferente da Possessão, o Controle Mental termina imediatamente se o con
 
 ### Provocação Forçada
 
-O personagem está compelido a concentrar toda a atenção em um alvo específico. Não é medo nem fascínio — é uma compulsão de engajamento. O personagem não consegue ignorar o alvo nem redirecionar atenção para outros. Recomendado para campanhas com sistemas de controle de ameaça ou criaturas com esse tipo de capacidade.
+O personagem está compelido a concentrar toda a atenção em um alvo específico. Não é medo nem fascínio, é uma compulsão de engajamento. O personagem não consegue ignorar o alvo nem redirecionar atenção para outros. Recomendado para campanhas com sistemas de controle de ameaça ou criaturas com esse tipo de capacidade.
 
 Fonte: técnica de provocação forçada, aura específica de criatura.
 Atributos testados: VONTADE + SAB
@@ -1128,7 +1145,7 @@ Grau Crítico: fixação total. O personagem não consegue agir contra nenhum ou
 Notas: se o alvo da provocação se tornar inalcançável ou inválido, o efeito termina automaticamente. Remoção pela regra universal.
 
 
-## FAMÍLIA VI — RECURSOS MÁGICOS e ENERGÉTICOS OPCIONAL
+## FAMÍLIA VI · RECURSOS MÁGICOS e ENERGÉTICOS OPCIONAL
 
 Esta família inteira é ativada apenas em campanhas que possuam sistema mágico ou sobrenatural como mecânica central. Em campanhas sem energia sobrenatural como recurso, esses efeitos não existem. O Mestre deve declarar quais efeitos desta família estão disponíveis conforme os elementos do cenário.
 
@@ -1139,11 +1156,11 @@ O personagem não consegue usar técnicas que dependam de componente vocal, conc
 
 Fonte: técnica de silêncio mágico, campo de supressão sonora sobrenatural.
 Atributos testados: VONTADE + INT
-Alvo do teste: (VONTADE + INT) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (VONTADE + INT) x (1 - RC nominal da técnica / RC máxima do atacante)
 
-Grau Leve: técnicas com componente vocal obrigatório custam 25% a mais de PM.
+Grau Leve: técnicas com componente vocal obrigatório custam 25% a mais de RC.
 
-Grau Moderado: técnicas com componente vocal obrigatório custam 50% a mais de PM. Vocalização mágica exige teste de VONTADE + INT vs 35.
+Grau Moderado: técnicas com componente vocal obrigatório custam 50% a mais de RC. Vocalização mágica exige teste de VONTADE + INT vs 35.
 
 Grau Grave: técnicas com componente vocal obrigatório são inacessíveis. Outros tipos de técnica funcionam normalmente.
 
@@ -1154,15 +1171,15 @@ Notas: remoção pela regra universal. Duração base de 3 turnos.
 
 ### Supressão de Energia
 
-O acesso à reserva de energia sobrenatural do personagem está sendo bloqueado ou comprimido. Diferente da Drenagem de Canal, que reduz o PM máximo, a Supressão bloqueia categorias inteiras de técnica independente do PM disponível.
+O acesso à reserva de energia sobrenatural do personagem está sendo bloqueado ou comprimido. Diferente da Drenagem de Canal, que reduz a RC máxima, a Supressão bloqueia categorias inteiras de técnica independente da RC disponível.
 
 Fonte: técnica de supressão de energia, campo de inibição mágica.
 Atributos testados: VONTADE + INT
-Alvo do teste: (VONTADE + INT) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (VONTADE + INT) x (1 - RC nominal da técnica / RC máxima do atacante)
 
-Grau Leve: técnicas ofensivas de emissão externa custam 25% a mais de PM.
+Grau Leve: técnicas ofensivas de emissão externa custam 25% a mais de RC.
 
-Grau Moderado: técnicas ofensivas e de emissão externa custam 50% a mais de PM.
+Grau Moderado: técnicas ofensivas e de emissão externa custam 50% a mais de RC.
 
 Grau Grave: técnicas ofensivas e de emissão externa inacessíveis. Técnicas de reforço pessoal e passivas funcionam normalmente.
 
@@ -1173,32 +1190,32 @@ Notas: remoção pela regra universal. Grau Crítico com modificador Moderado ob
 
 ### Selamento
 
-PM completamente inacessível. O personagem não pode usar nenhuma técnica sobrenatural. Diferente da Supressão, o Selamento não bloqueia categorias — bloqueia o acesso à fonte inteira. O personagem está essencialmente sem poder sobrenatural durante a duração. Grau mínimo Grave por definição. Selamento não tem versão leve ou moderada porque o conceito pressupõe bloqueio completo.
+Reserva completamente inacessível. O personagem não pode usar nenhuma técnica sobrenatural. Diferente da Supressão, o Selamento não bloqueia categorias, bloqueia o acesso à fonte inteira. O personagem está essencialmente sem poder sobrenatural durante a duração. Grau mínimo Grave por definição. Selamento não tem versão leve ou moderada porque o conceito pressupõe bloqueio completo.
 
 Fonte: técnica de selamento de alto nível.
 Atributos testados: VONTADE + INT
-Alvo do teste: (VONTADE + INT) x (1 - PM gasto / PM máximo do atacante). Range começa em Grave.
+Alvo do teste: (VONTADE + INT) x (1 - RC nominal da técnica / RC máxima do atacante). Range começa em Grave.
 
-Grau Grave: PM completamente inacessível. O personagem é um combatente puramente físico durante a duração. Duração definida pela técnica causadora.
+Grau Grave: Reserva completamente inacessível. O personagem é um combatente puramente físico durante a duração. Duração definida pela técnica causadora.
 
-Grau Crítico: PM inacessível mais redução de 50% em todos os atributos físicos. O ato de selar comprometeu o equilíbrio interno do personagem. Duração definida pela técnica.
+Grau Crítico: Reserva inacessível mais redução de 50% em todos os atributos físicos. O ato de selar comprometeu o equilíbrio interno do personagem. Duração definida pela técnica.
 
 Notas: sem teste de quebra antecipada. Duração é fixa pela fonte. Apenas destruição ou incapacitação da fonte pode encerrar antecipadamente.
 
 
 ### Dessincronização
 
-O controle sobre a energia sobrenatural está instável. O personagem ainda acessa o PM mas o custo de todas as técnicas aumenta porque a energia não flui com eficiência normal. Representa interferência na frequência ou no canal de energia do personagem.
+O controle sobre a energia sobrenatural está instável. O personagem ainda acessa a reserva mas o custo de todas as técnicas aumenta porque a energia não flui com eficiência normal. Representa interferência na frequência ou no canal de energia do personagem.
 
 Fonte: técnica de perturbação de frequência energética, campo de interferência.
 Atributos testados: VONTADE + INT
-Alvo do teste: (VONTADE + INT) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (VONTADE + INT) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Grau Leve: custo de todas as técnicas aumentado em 15%.
 
 Grau Moderado: custo aumentado em 30%.
 
-Grau Grave: custo aumentado em 50%. Técnicas de alto custo que superem 70% do PM máximo atual ficam inacessíveis.
+Grau Grave: custo aumentado em 50%. Técnicas de alto custo que superem 70% do RC máximo atual ficam inacessíveis.
 
 Grau Crítico: custo aumentado em 70%. Apenas técnicas de custo mínimo são viáveis.
 
@@ -1207,31 +1224,31 @@ Notas: duração de 3 turnos. Remoção pela regra universal.
 
 ### Drenagem de Canal
 
-O PM máximo disponível do personagem está sendo comprimido temporariamente. Não é gasto de PM — é redução do teto. Técnicas que exijam mais PM que o novo teto ficam inacessíveis durante a duração.
+A RC máxima disponível do personagem está sendo comprimido temporariamente. A redução não é gasto de reserva, é redução do teto. Técnicas que exijam mais RC que o novo teto ficam inacessíveis durante a duração.
 
 Fonte: técnica de compressão energética.
 Atributos testados: VONTADE + RES
-Alvo do teste: (VONTADE + RES) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (VONTADE + RES) x (1 - RC nominal da técnica / RC máxima do atacante)
 
-Grau Leve: PM máximo reduzido em 15%.
+Grau Leve: RC máximo reduzido em 15%.
 
-Grau Moderado: PM máximo reduzido em 30%.
+Grau Moderado: RC máximo reduzido em 30%.
 
-Grau Grave: PM máximo reduzido em 50%.
+Grau Grave: RC máximo reduzido em 50%.
 
-Grau Crítico: PM máximo reduzido em 70%. A maioria das técnicas avançadas fica inacessível.
+Grau Crítico: RC máximo reduzido em 70%. A maioria das técnicas avançadas fica inacessível.
 
 Notas: duração de 4 turnos fixos. Sem teste de remoção antecipada. Aguarda duração completa.
 
 
 ### Corrosão de Energia
 
-PM sendo drenado ativamente por turno por contaminação mágica. Diferente da Drenagem de Canal, que reduz o teto, a Corrosão remove PM atual progressivamente. É um DoT de recurso mágico.
+RC sendo drenado ativamente por turno por contaminação mágica. Diferente da Drenagem de Canal, que reduz o teto, a Corrosão remove RC atual progressivamente. É um DoT de recurso mágico.
 
 Fonte: técnica de corrosão de energia, substância de origem mágica.
 Atributos testados: VONTADE + INT
-Alvo do teste: (VONTADE + INT) x (1 - PM gasto / PM máximo do atacante)
-Valor base do DoT: INT do causador multiplicado por 0,3 em PM drenado por turno.
+Alvo do teste: (VONTADE + INT) x (1 - RC nominal da técnica / RC máxima do atacante)
+Valor base do DoT: INT do causador multiplicado por 0,3 em RC drenado por turno.
 
 Grau Leve: DoT base. Sem penalidade adicional.
 
@@ -1239,7 +1256,7 @@ Grau Moderado: DoT base mais custo de técnicas aumentado em 15%.
 
 Grau Grave: DoT base mais custo de técnicas aumentado em 30% mais redução de 15% em INT.
 
-Grau Crítico: DoT base mais custo de técnicas aumentado em 50% mais redução de 30% em INT. Se PM chegar a 0 enquanto o efeito estiver ativo, redução de 20% em todos os atributos por colapso energético.
+Grau Crítico: DoT base mais custo de técnicas aumentado em 50% mais redução de 30% em INT. Se RC chegar a 0 enquanto o efeito estiver ativo, redução de 20% em todos os atributos por colapso energético.
 
 Notas: remoção pela regra universal. Grau Crítico com modificador Moderado obrigatório.
 
@@ -1250,10 +1267,10 @@ Energia hostil foi cravada no personagem por uma fonte externa. A marca drena en
 
 Fonte: técnica de gravação de energia hostil.
 Atributos testados: VONTADE + RES
-Alvo do teste: (VONTADE + RES) x (1 - PM gasto / PM máximo do atacante)
-Valor base de drenagem passiva: INT do emissor multiplicado por fator do grau em PM por turno.
+Alvo do teste: (VONTADE + RES) x (1 - RC nominal da técnica / RC máxima do atacante)
+Valor base de drenagem passiva: INT do emissor multiplicado por fator do grau em RC por turno.
 
-Grau Leve: drenagem de INT do emissor multiplicado por 0,2 em PM por turno. Ativação remota causa dano de INT do emissor.
+Grau Leve: drenagem de INT do emissor multiplicado por 0,2 em RC por turno. Ativação remota causa dano de INT do emissor.
 
 Grau Moderado: drenagem de INT multiplicado por 0,3. Ativação causa dano de INT multiplicado por 1,5.
 
@@ -1270,7 +1287,7 @@ Um contador regressivo foi aplicado. Quando chegar a zero, o personagem morre in
 
 Fonte: técnica de maldição de morte, ritual específico.
 Atributos testados: VONTADE + RES
-Alvo do teste: (VONTADE + RES) x (1 - PM gasto / PM máximo do atacante)
+Alvo do teste: (VONTADE + RES) x (1 - RC nominal da técnica / RC máxima do atacante)
 
 Grau Leve: contador de 6 turnos. Sem efeito adicional além da contagem.
 
@@ -1283,7 +1300,7 @@ Grau Crítico: contador de 2 turnos. Redução de 50% em todos os atributos. Sem
 Notas: remoção exige técnica de quebra da maldição, item específico, ou condição declarada pela fonte. A tentativa de remoção custa ação completa e exige teste de cura ou purificação vs CD declarada pela fonte.
 
 
-## FAMÍLIA VII — VULNERABILIDADE e EXPOSIÇÃO OPCIONAL
+## FAMÍLIA VII · VULNERABILIDADE e EXPOSIÇÃO OPCIONAL
 
 
 ### Inflamável
@@ -1347,12 +1364,12 @@ Grau Crítico: redução de 70% em VEL e 30% em DES. PS drena 60% mais rápido. 
 Notas: fogo ou calor remove o efeito imediatamente em qualquer grau. Sem fonte de calor, remoção pela regra universal com modificador Leve obrigatório em todos os graus.
 
 
-## FAMÍLIA VIII — CONDIÇÕES ESTRUTURAIS OPCIONAIS
+## FAMÍLIA VIII · CONDIÇÕES ESTRUTURAIS OPCIONAIS
 
 
 ### Fome e Desidratação
 
-O personagem está privado de nutrição ou hidratação básica. Não é efeito de combate — é consequência de sobrevivência negligenciada. Opera em horas ou dias, não em turnos. Recomendado para campanhas de sobrevivência ou exploração onde gestão de recursos é mecânica central.
+O personagem está privado de nutrição ou hidratação básica. Não é efeito de combate, é consequência de sobrevivência negligenciada. Opera em horas ou dias, não em turnos. Recomendado para campanhas de sobrevivência ou exploração onde gestão de recursos é mecânica central.
 
 Fonte: privação de alimento ou água ao longo do tempo.
 Sem teste de aplicação. Progressão automática conforme tempo de privação.
@@ -1373,7 +1390,7 @@ Notas: consumo de alimento ou água adequados reverte o grau conforme a quantida
 
 ### Corrupção
 
-Uma influência sombria está degradando o personagem progressivamente. Diferente da Necrose que ataca o tecido, a Corrupção afeta o núcleo do personagem — seus valores, sua identidade, suas capacidades centrais. Opera entre sessões e é difícil de detectar nos estágios iniciais. Recomendado para campanhas com elementos sombrios progressivos, artefatos corrompidos ou entidades de influência gradual.
+Uma influência sombria está degradando o personagem progressivamente. Diferente da Necrose que ataca o tecido, a Corrupção afeta o núcleo do personagem, seus valores, sua identidade, suas capacidades centrais. Opera entre sessões e é difícil de detectar nos estágios iniciais. Recomendado para campanhas com elementos sombrios progressivos, artefatos corrompidos ou entidades de influência gradual.
 
 Fonte: exposição prolongada a artefato corrompido, entidade sombria, técnica de corrupção gradual.
 Aplicação narrativa. Progressão entre sessões conforme exposição contínua.
@@ -1389,7 +1406,7 @@ Grau Crítico: transformação avançada. Redução de 50% em todos os atributos
 Notas: remoção exige resolução narrativa profunda e frequentemente ritual, purificação especializada ou confronto direto com a fonte da corrupção. Descanso não atenua. Grau Crítico pode ser permanente.
 
 
-## FAMÍLIA IX — EFEITOS DERIVADOS OPCIONAIS
+## FAMÍLIA IX · EFEITOS DERIVADOS OPCIONAIS
 
 
 ### Necrose Avançada

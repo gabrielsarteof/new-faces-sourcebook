@@ -1,62 +1,76 @@
 ---
 id: naruto.technique.chidori
-title: "Chidori — Canto dos Mil Pássaros (千鳥)"
-version: 3
+title: "Chidori (千鳥)"
+version: 4
 layer: scenario
 scenario: naruto
 type: technique
 status: final
-source-file: Chidori_Final_v3.md
+source-file: Chidori_v4.md
 ---
 
-# Chidori — Canto dos Mil Pássaros (千鳥)
-Ninjutsu · Raiton · A-rank
+# Chidori (千鳥)
+Ninjutsu · Raiton · Rank A
 
 ---
 
 ## Sobre a Técnica
 
-O Chidori é uma técnica de Ninjutsu de natureza Raiton classificada como A-rank, desenvolvida originalmente por Kakashi Hatake e posteriormente transmitida ao seu discípulo Sasuke Uchiha. A técnica concentra uma grande quantidade de chakra de Raio na palma da mão do usuário, comprimindo o campo eletromagnético até o ponto em que as descargas espontâneas tornam-se visíveis ao redor do braço e produzem um ruído característico, semelhante ao canto simultâneo de mil pássaros, que dá nome à técnica.
+O Chidori é a concentração de chakra de Raio na palma da mão até uma densidade em que a corrente perfura tecido, osso e placa de metal pelo simples contato. A execução começa por uma ativação da carne, procedimento em que o executante força o próprio corpo a produzir chakra em volume muito acima do que a canalização ordinária pede, e a corrente reunida atinge intensidade suficiente para se tornar visível em azul e audível a distância. O som produzido pela descarga contínua lembra o canto simultâneo de muitos pássaros, e é dele que vem o nome.
 
-A execução exige que o usuário forme os selos de concentração enquanto acumula o chakra na mão dominante, avançando em seguida contra o alvo em velocidade máxima e entregando o campo comprimido por contato direto. A descarga elétrica penetra pelo caminho de menor resistência dentro do alvo antes de dissipar, o que confere à técnica uma capacidade de atravessamento de defesas superior à da maioria das técnicas de Raiton de mesmo rank. O ruído produzido durante a canalização é inevitável e revela a intenção do usuário antes mesmo do avanço.
+Reunida a carga, o executante avança em linha reta contra o alvo na velocidade máxima que o corpo alcança e transpassa com a mão aberta. A corrente entra pelo ponto de contato e segue pelo caminho de menor resistência dentro do corpo atingido, dissipando depois de percorrer o trajeto. A perfuração resultante é tipicamente fatal quando alcança o tronco, e a classificação da técnica como instrumento de assassinato vem dessa combinação entre velocidade de entrega e letalidade pontual.
 
-A técnica possui um risco estrutural associado à carga adicional de chakra que o usuário pode acumular além do mínimo necessário. Cada turno de acumulação intensifica o campo eletromagnético ao redor do braço e estreita progressivamente o campo de percepção periférica do praticante, que passa a concentrar a atenção de forma cada vez mais exclusiva no alvo à frente. Na carga máxima, essa concentração atinge o ponto em que ameaças laterais deixam de ser registradas com precisão, tornando o instante do avanço simultaneamente o de maior potencial destrutivo e de maior vulnerabilidade a flanqueamentos.
+O preço da técnica está na própria velocidade que a torna eficaz. O avanço em linha reta na velocidade máxima estreita o campo perceptivo do executante a ponto de suprimir a leitura periférica do campo, e um oponente que sobreviva ao instante inicial encontra o corpo do atacante exposto e comprometido com uma trajetória que já não admite correção. A percepção ampliada do Sharingan registra o campo inteiro independentemente da velocidade do portador e resolve o defeito por completo, e é por isso que a técnica circula associada ao dōjutsu apesar de não depender dele para existir.
+
+O ruído é o segundo preço e não tem correção conhecida. A compressão que produz a densidade produz o som pelo mesmo mecanismo, e qualquer shinobi presente na cena escuta a preparação antes de ver a investida.
 
 ---
 
 ## Requisitos de Acesso
 
-- **Raiton LV5**, com o caminho Mil Pássaros ativo na inclinação Canto dos Mil Pássaros
-- **VEL mínimo 15**, necessário para a velocidade de entrega da estocada
-- **INT mínimo 15**, âncora energética da família Raiton
+- **Raiton LV5:** portão de rank A, que resolve em 71 pela soma da Base 45 com INT 26
+- **Moldagem Refinada:** 71 pela soma da Base Total com SAB, degrau lido do coeficiente técnico 2,0
+- **Caminho Ponta:** inclinação Relâmpago, dono da concentração em ponto único que a técnica exige
 
-O Controle de Chakra é pré-requisito implícito do Raiton e não precisa ser redeclarado.
+---
+
+## Despertar / Aquisição
+
+A técnica está na camada Assinatura Pessoal em estado de Autoria Aberta. Comprimir corrente na palma até perfurar um corpo com a mão nua é invenção, e ninguém no mundo a completou. Nenhum personagem inicial adquire o Chidori na criação.
+
+A entrada se abre a quem cumprir os três requisitos acima e concluir o processo de criação de técnica. O primeiro personagem que chegar lá torna-se o criador, a entrada passa a Registrada no Compêndio de Raiton, e toda a linhagem de variações registrada abaixo dela passa a existir a partir daquele momento. O Chidori Nagashi, o Chidori Eisō, o Chidori Senbon e o Raikiri permanecem inacessíveis enquanto o Chidori não tiver autor.
+
+Portador de Sharingan copia a técnica pelas regras da Norma de Produção de Compêndios, e a cópia reproduz a moldagem sem conceder direito reconhecido sobre a autoria.
 
 ---
 
 ## Custo de XP
 
-| Afim natal Raiton | Sem afinidade definida | Natureza não-afim |
-|---|---|---|
-| 8.000 XP | 10.000 XP | 13.000 XP |
+**Custo de XP:** 8.750
 
 ---
 
 ## Efeitos Globais
 
-A ativação do Chidori é perceptível a toda a cena antes do impacto. O som produzido durante a canalização não pode ser suprimido, e qualquer shinobi presente tem oportunidade de identificar a técnica e reagir antes da chegada da estocada. Durante a execução, um campo elétrico fraco irradia ao redor do braço do usuário, provocando o arrepiamento de pelos, a vibração de objetos metálicos próximos e uma sensação de formigamento nos alvos dentro do alcance imediato. Esses fenômenos são ambientais e não causam dano por si mesmos.
+A preparação do Chidori é pública. O som da corrente comprimida alcança toda a cena e não admite supressão, e qualquer personagem presente identifica que uma técnica de grande densidade está sendo reunida. Quem já viu a técnica antes a reconhece pelo som isoladamente.
 
-O Debuff de Reação que acompanha a carga adicional incide sobre o próprio usuário. À medida que o chakra de Raio é comprimido além do mínimo, o campo eletromagnético gerado começa a interferir na percepção periférica do praticante, estreitando o foco de atenção a cada turno de acumulação. Esse fenômeno é a razão pela qual a técnica é considerada de alto risco em confrontos com múltiplos oponentes: o pico de potência é alcançado no exato instante em que a vulnerabilidade lateral é máxima.
+Um campo elétrico fraco irradia ao redor do braço durante a canalização, arrepiando pelos, fazendo vibrar objetos metálicos próximos e produzindo formigamento em quem estiver ao alcance imediato. Os fenômenos são ambientais e não causam dano.
+
+A ativação da carne que precede a reunião do chakra é visível a quem observa de perto, na tensão do corpo e na alteração do ritmo respiratório do executante.
 
 ---
 
 ## Mecânica de Ativação
 
-- **Custo de RC:** 750 RC fixos por ativação, acrescidos de RC variável por turno de carga opcional.
-- **Custo de PS:** 60 PS por turno de carga adicional, com limite de 3 turnos e 180 PS no total.
-- **Janela de Canalização:** determinada pelo custo de 750 RC em relação ao Limite de Saída do usuário, conforme a fórmula da Seção 3.2 do Manual de Jutsus. Sasuke jounin com LS de 442 RC executa em 1 turno de selos; Kakashi com LS de 188 RC leva 2 turnos.
-- **Ação:** janela de canalização seguida de estocada imediata, com opção de 1 a 3 turnos de carga adicional antes da entrega.
-- **Restrições:** corpo a corpo, alvo único. Exige linha de deslocamento livre até o alvo.
+- **RC nominal:** 750, acrescida de 1 Limite de Saída por turno de carga adicional, até 3 turnos
+- **Custo mínimo:** 250
+- **Custo de PS:** 30 por execução, referentes à ativação da carne, acrescidos de 60 por turno de carga adicional, e somados ao PS que o desperdício do executante já cobra pela régua do Controle de Chakra [proposta nos dois valores]
+- **Selos de referência:** 3
+- **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
+- **Perfil de Evasão:** Veloz, com a sobretaxa da escada já embutida na RC nominal publicada
+- **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
+- **Ação:** janela de canalização, seguida de investida imediata em linha reta, com opção de 1 a 3 turnos de carga antes da entrega
+- **Restrições:** corpo a corpo, alvo único, linha de deslocamento livre até o alvo
 
 ---
 
@@ -65,108 +79,129 @@ O Debuff de Reação que acompanha a carga adicional incide sobre o próprio usu
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC × coef_entrega × mult_Tipo + bônus_CC × coef_técnica
-dano = RC × 0,18 × 1,75 + bônus_CC × 2,0
-dano = RC × 0,315 + bônus_CC × 2,0
+dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
+dano = RC nominal × 0,20 × 1,75 + LV_CC² × 2,5 × 2,0
+dano = RC nominal × 0,35 + LV_CC² × 5
 ```
 
-O coeficiente de entrega 0,18 reflete a forma de entrega por ponto concentrado em contato direto. O coeficiente técnico 2,0 reflete a alta dependência de moldagem precisa que caracteriza a técnica. O `bônus_CC` corresponde ao bônus acumulado da perícia Controle de Chakra do usuário, sem a adição de INT, evitando dupla contagem com o componente de RC.
+O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único. O coeficiente técnico 2,0 corresponde à dependência alta, em que a moldagem é o mecanismo central da técnica.
 
-O componente de RC escala a cada turno de carga adicional, acrescentando até 1 LS por turno. O componente de bônus_CC é fixo para cada usuário, independente da quantidade de chakra investida, pois reflete o nível de maestria de moldagem e não o volume de chakra disponível.
+A carga adicional escala apenas o componente de RC nominal. O Fator de Moldagem permanece fixo para cada executante, porque ele mede maestria e não volume investido.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência A-rank: PV 972. Par de referência Kage: PV 1.386.
+Par de referência Elite, PV 1.440.
 
-| Usuário | bônus CC | Sem carga | +1 turno | +2 turnos | +3 turnos |
-|---|---|---|---|---|---|
-| Kakashi jounin | 43 | 322 | 381 | — | — |
-| Sasuke genin | 28 | 292 | 376 | 459 | — |
-| Sasuke jounin | 50 | 336 | 475 | 615 | 754 |
-| Sasuke adulto | 65 | 366 | 587 | 807 | 1.028 |
-| Saki Especial | 85 | 406 | 721 | 1.036 | 1.351 |
+| LV_CC | Fator de Moldagem | Dano | % PV do par |
+|---|---|---|---|
+| 5, entrada | 125 | 388 | 27% |
+| 6 | 180 | 443 | 31% |
+| 6 com 1 caminho | 245 | 508 | 35% |
+| 6 com 2 caminhos | 320 | 583 | 40% |
 
-| Usuário | % PV par A-rank | +1 turno | +2 turnos | +3 turnos |
+A carga escala por reserva e não por maestria, e por isso é publicada em tabela separada, indexada ao Limite de Saída do executante. Os valores abaixo assumem LV_CC 6.
+
+| LS do executante | Sem carga | +1 turno | +2 turnos | +3 turnos |
 |---|---|---|---|---|
-| Kakashi | 33% | 39% | — | — |
-| Sasuke genin | 30% | 39% | 47% | — |
-| Sasuke jounin | 35% | 49% | 63% | 78% |
-| Sasuke adulto¹ | 26% | 42% | 58% | 74% |
-| Saki¹ | 29% | 52% | 75% | 97% |
+| 442 | 443 | 597 | 752 | 907 |
+| 700 | 443 | 688 | 933 | 1.178 |
 
-¹ Percentuais calculados contra o par Kage com PV 1.386, par adequado ao tier desses usuários.
+O executante de LS 442 alcança 41%, 52% e 63% do par Elite nos três turnos de carga. O de LS 700 alcança 36%, 49% e 61% do par Especial de PV 1.920.
 
 ---
 
 ## Interação com Defesas
 
-O Chidori ignora 50% da Absorção do alvo. A capacidade de atravessamento decorre da concentração do campo elétrico em ponto único, que penetra pelo caminho de menor resistência antes de dissipar. A técnica não possui ignora-esquiva intrínseco; a dificuldade em esquivar da estocada é representada pelo atributo VEL do usuário no teste de acerto.
+A perfuração de Absorção do Chidori é lida do efeito Fio Concentrado do caminho Ponta, que a resolve em 30% no LV4, 36% no LV5 e 43% no LV6. A técnica não declara perfuração própria, porque a competência pertence ao caminho que a gateia. A transcendência Raio Seco revoga a leitura por completo, e contra técnicas de Relâmpago entregues por contato a Absorção do alvo não se aplica em grau algum.
+
+O Perfil de Evasão Veloz reduz em 25% a esquiva do alvo, e em 40% no primeiro uso do combate contra cada alvo. A vantagem do primeiro uso se perde depois que a investida é vista.
 
 ---
 
-## Rider — Paralisia Parcial
+## Rider de Paralisia Parcial
 
-A descarga elétrica aplica Paralisia Parcial ao alvo conforme a margem do teste de acerto, seguindo o rider natural do Raiton definido na Seção 5.4 do Manual de Jutsus:
+A corrente entra pelo ponto de contato e percorre o trajeto nervoso do alvo, e a resolução pertence ao Sistema de Efeitos de Status.
 
-| Margem | Grau de Paralisia Parcial |
+| Campo | Valor |
 |---|---|
-| Sucesso Justo | Leve |
-| Sucesso Pleno | Moderado |
-| Crítico | Grave |
+| Grau mínimo garantido | Moderado |
+| Grau máximo possível | Crítico |
+| Atributos testados | RES + FOR |
+| Alvo do teste | (RES + FOR) × (1 − dano ÷ PV máximo da vítima) |
+| Membro afetado | a região atingida pelo ponto de contato |
 
 ---
 
-## Debuff de Reação — Auto-aplicado
+## Visão de Túnel
 
-Cada turno de carga adicional aplica uma penalidade acumulativa de 10% sobre os testes de Reação do próprio usuário, incidindo sobre os testes de VEL mais SAB. O debuff é removido automaticamente ao final do turno em que a estocada é entregue e não persiste entre rodadas.
+O defeito estrutural da técnica incide sobre o executante e não sobre o alvo. Durante a investida, o campo perceptivo se estreita à trajetória à frente, e a exposição resultante é resolvida como janela de contra-ataque.
 
-| Turnos de carga adicional | Penalidade acumulada em Reação |
+Sem Sharingan ativo, um oponente da cena executa contra o usuário um ataque com ignora-esquiva durante o avanço. Cada turno de carga adicional habilita um oponente a mais nessa janela, porque a compressão prolongada estreita ainda mais a leitura periférica. Com o Sharingan ativo, a janela não existe em nenhum patamar de carga.
+
+| Turnos de carga | Oponentes habilitados na janela |
 |---|---|
-| 0 | — |
-| 1 | 10% |
-| 2 | 20% |
-| 3 | 30% |
+| 0 | 1 |
+| 1 | 2 |
+| 2 | 3 |
+| 3 | 4 |
+
+---
+
+## Ferimento por Carga Máxima
+
+A carga de 3 turnos leva a densidade acima do que o tecido da mão suporta no instante da entrega. A mão executora recebe Queimadura de Grau Leve, com a pele descascando e fumegando depois do impacto. O efeito não impede a continuidade do combate e remove pelas regras universais do Sistema de Efeitos de Status.
+
+O Chidori não possui aftermath. O limite diário que o cânone registra decorre do volume de chakra que a técnica exige, e a economia de reserva o reproduz sem regra adicional.
 
 ---
 
 ## Progressão por Maestria
 
-O Chidori nasce do caminho Mil Pássaros, pertencente à inclinação Canto dos Mil Pássaros do Raiton. A progressão na perícia não altera os coeficientes da técnica, mas expande as capacidades disponíveis ao praticante a partir dela.
-
-| Nível | Capacidade desbloqueada |
+| Condição | Capacidade ou mudança |
 |---|---|
-| Raiton LV5, caminho Mil Pássaros | Acesso ao Chidori; perfuração de 50% da Absorção |
-| Raiton LV5, caminho Dedo de Raijin | Modo Um Dedo: acréscimo de 300 RC ao custo, perfuração sobe para 75% |
-| Raiton LV6, Transcendência Kirin | Acesso ao Kirin, técnica distinta de rank S |
+| Raiton LV5, caminho Ponta | acesso à técnica, com perfuração de 36% da Absorção |
+| Raiton LV6, caminho Ponta | perfuração de 43% |
+| Transcendência Raio Seco | a Absorção do alvo deixa de se aplicar |
+| Caminho Lança adquirido | abre o Chidori Eisō |
+| Caminho Arco adquirido | abre o Chidori Nagashi |
+| Moldagem Absoluta, Raiton LV6 | abre o Raikiri |
+| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
+| Caminho Concisão, ou interface 169 | execução com zero selos |
+| Caminho Refino | custo pago no mínimo de 250, sem PS de desperdício |
 
 ---
 
 ## Referência de Usos por Perfil
 
-| Usuário | RC | LS | Janela base | Usos sem carga |
-|---|---|---|---|---|
-| Kakashi jounin | 942 | 188 | 2 turnos | 1 |
-| Sasuke genin | 1.325 | 265 | 2 turnos | 1 |
-| Sasuke jounin | 2.211 | 442 | 1 turno | 2 |
-| Sasuke adulto | 3.500 | 700 | 1 turno | 4 |
-| Saki Especial | 5.000 | 1.000 | 0 turnos | 6 |
+| Teste de Moldagem | Custo pago | PS por execução | RC | LS | Janela | Usos por combate |
+|---|---|---|---|---|---|---|
+| 185 | 250 | 30 | 942 | 188 | 1 turno | 3 |
+| 185 | 250 | 30 | 2.211 | 442 | 0 turnos | 8 |
+| 116 | 475 | 53 | 1.325 | 265 | 1 turno | 2 |
+| 60 | 656 | 71 | 1.325 | 265 | 2 turnos | 2 |
+
+A linha de 942 de reserva reproduz o limite canônico de quatro usos diários, com três disponíveis dentro de um combate único e o quarto resolvido pela recuperação entre encontros. A linha de teste 60 reproduz o limite de dois usos do executante em formação.
 
 ---
 
 ## Sinergias
 
-O Chidori beneficia-se de VEL elevado, pois o teste de acerto utiliza VEL mais DES, e velocidade alta reduz a janela efetiva de esquiva do alvo. Um oponente que já carregue Paralisia Parcial de qualquer fonte não pode realizar o teste de Evitar, tornando a estocada automaticamente bem-sucedida. O caminho Concisão do Controle de Chakra reduz a contagem de selos necessários para a canalização, comprimindo a janela de execução padrão. Reserva de Chakra elevada amplia tanto o número de usos disponíveis por combate quanto a carga máxima viável por ativação.
+- **Sharingan:** a percepção ampliada elimina a janela de contra-ataque em qualquer patamar de carga, e é a única correção conhecida do defeito estrutural
+- **Caminho Refino:** zera o desperdício, o que derruba o custo pago ao mínimo, elimina o PS de desperdício e retira a janela de canalização para quem tenha LS acima de 250
+- **Caminho Concisão:** entrega a execução sem selos, removendo a detecção por postura e o turno de preparação legível
+- **Caminho Firmeza:** eleva o limiar de ruptura da moldagem, que na canalização de dois turnos do executante em formação é a diferença entre entregar e perder toda a RC investida
+- **Caminho Impulso:** o Reflexo Acelerado concede ação de movimento adicional, que cobre a linha reta obrigatória da investida sem consumir a ação de ataque
+- **Paralisia prévia no alvo:** alvo já paralisado por qualquer fonte não realiza o teste de Evitar, e a investida entrega sem disputa
 
 ---
 
 ## Notas para o Mestre
 
-A ativação do Chidori é um aviso público antes de ser um ataque. O som que precede a estocada é audível por toda a cena, e qualquer shinobi presente tem oportunidade de reagir antes do impacto. A tensão dramaticamente relevante na mesa não é a dúvida sobre o acerto, mas a disputa entre a velocidade de execução do usuário e a capacidade dos oponentes de interromper a canalização. Dano igual ou superior a 15% do PV máximo do usuário recebido em um único golpe durante a janela de canalização cancela a carga e descarta toda a RC investida no turno.
-
-A execução sem carga é a forma profissional da técnica. Não consome PS, não aplica o Debuff de Reação e ainda entrega dano sólido de A-rank dentro da faixa Forte. A carga adicional existe para situações em que o alvo está imobilizado, atordoado ou em clara desvantagem posicional, e tratá-la como padrão é um erro tático que o próprio mecanismo de estreitamento perceptivo representa.
-
-A situação de Kakashi não exige regras especiais. Com RC de 942 e a manutenção do Sharingan consumindo chakra por turno como custo independente, a margem disponível para o Chidori em combate real é estreita. O sistema representa essa limitação pelos números do próprio personagem, sem intervenção adicional do Narrador.
-
-A narração deve variar com a intensidade da carga utilizada. Na execução sem carga, a estocada é limpa e quase silenciosa, com a luminosidade elétrica surgindo apenas no momento do impacto. Com a carga máxima, o braço emite um uivo crescente visível a distância considerável, e o ponto de impacto produz uma detonação sônica audível por todo o campo de batalha. São eventos mecanicamente distintos e narrativamente distintos, e a mesa deve sentir essa diferença.
+- **A preparação é um anúncio.** O som alcança a cena inteira e não pode ser abafado. A tensão da mesa não está em saber se acerta, está na corrida entre a velocidade do executante e a capacidade dos oponentes de interromper a canalização ou ocupar a janela de contra-ataque
+- **A janela é obrigatória sem Sharingan.** Declare quem a ocupa antes de resolver a investida, e trate a carga adicional como a decisão que multiplica esse risco. A execução sem carga é a forma profissional da técnica, e tratar a carga máxima como padrão é erro tático que o próprio mecanismo pune
+- **Narração por intensidade.** Sem carga, a investida é limpa e a luminosidade aparece no impacto. Na carga máxima, o braço emite um uivo crescente visível a distância, o impacto produz detonação audível em todo o campo e a mão sai queimada
+- **Frequência.** Três a oito usos por combate conforme a reserva do executante é o esperado. Executante que passa disso está com a ficha fora da faixa, e o problema é da ficha e não da técnica
+- **NPCs.** Adversário com Chidori e sem Sharingan entrega aos jogadores uma janela garantida por investida, e é o inimigo que recompensa formação e posicionamento em vez de dano bruto
+- **Autoria.** Enquanto a entrada estiver aberta, o Chidori é objetivo de campanha e não item de compra. O personagem que o completar assina a corrente que canta, e a linhagem inteira de variações nasce daquele momento

@@ -1,20 +1,20 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3
+version: 3.1
 layer: scenario
 scenario: naruto
 type: compendium
 status: final
-source-file: Compendio_Raiton_v3.md
+source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3
+# Compêndio de Raiton (雷遁) · v3.1
 **Liberação de Raio**
 
 Catálogo das técnicas nomeadas do elemento raio. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
 
-**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Raiton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Entorpecimento, a Regra de Condução e as regras de condição são do Sistema Elemental v5 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
+**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis, o portão de rank e a propagação da corrente por meio condutor são da Perícia de Raiton v2. Os degraus de moldagem, a interface de selos e a régua de desperdício são da Perícia de Controle de Chakra v2. O multiplicador do Tipo Elétrico e o rider de Paralisia Parcial são do Sistema Elemental, e a graduação dos status é do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus, e o par de RC nominal e custo mínimo pertence à ficha individual de cada técnica, que substitui a estimativa deste catálogo quando publicada.
 
 ---
 
@@ -29,7 +29,7 @@ Catálogo das técnicas nomeadas do elemento raio. Cada entrada informa o nome e
 **Requisitos:** Raiton LV1 · Moldagem Básica
 **XP:** 130
 
-O usuário acumula uma carga elétrica mínima na ponta dos dedos e a libera em uma faísca visível ao contato. A descarga carece de força para causar dano ou aplicar entorpecimento em alvo vivo. A função da técnica é servir de gatilho controlado para armadilhas condutoras, detonação de selos preparados e ativação a curta distância de técnicas que dependem de uma corrente inicial. Entre shinobi com afinidade para raio, o Seidenki no Jutsu é o primeiro exercício de canalização elemental trabalhado na Academia.
+O usuário acumula uma carga elétrica mínima na ponta dos dedos e a libera em uma faísca visível ao contato. A descarga carece de força para causar dano ou aplicar o rider em alvo vivo. A função da técnica é servir de gatilho controlado para armadilhas condutoras, detonação de selos preparados e ativação a curta distância de técnicas que dependem de uma corrente inicial. Entre shinobi com afinidade para raio, o Seidenki no Jutsu é o primeiro exercício de canalização elemental trabalhado na Academia.
 
 ---
 
@@ -88,7 +88,7 @@ O usuário concentra corrente elétrica na palma da mão e a descarrega por cont
 **Requisitos:** Raiton LV2 · Moldagem Plena · meio condutor em campo
 **XP:** 600
 
-O usuário libera corrente elétrica pelas palmas diretamente sobre um meio condutor, propagando a descarga por água, metal ou terreno encharcado até todos os alvos em contato com ele. A técnica depende inteiramente da existência do condutor no campo, e é essa dependência que a torna a demonstração didática da Regra de Condução. Sustentada, a corrente mantém a superfície eletrificada por alguns instantes, punindo quem permanece ou ingressa na zona enquanto o usuário alimenta a técnica.
+O usuário libera corrente elétrica pelas palmas diretamente sobre um meio condutor, propagando a descarga por água, metal ou terreno encharcado até todos os alvos em contato com ele. A técnica depende inteiramente da existência do condutor no campo, e é essa dependência que a torna a demonstração didática da propagação por meio condutor que a perícia governa por nível. Sustentada, a corrente mantém a superfície eletrificada por alguns instantes, punindo quem permanece ou ingressa na zona enquanto o usuário alimenta a técnica.
 
 ---
 
@@ -274,7 +274,7 @@ O usuário libera uma corrente que, ao alcançar o primeiro alvo, salta dele par
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Ponta
-**XP:** 9.200
+**XP:** 8.750
 
 O usuário reúne chakra de raio na palma da mão em concentração tão densa que a corrente produz um som semelhante ao canto de mil pássaros. Reunida a carga, o executante avança em linha reta e transpassa o alvo com a mão, causando perfuração tipicamente fatal. A velocidade do avanço impõe visão de túnel ao usuário, que perde a leitura periférica do campo durante a investida e fica exposto ao contra-ataque.
 
@@ -289,7 +289,7 @@ Sem Sharingan ativo, a execução concede ao oponente uma janela de contra-ataqu
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Arco · Chidori
-**XP:** 12.800
+**XP:** 11.000
 
 O usuário irradia a corrente do Chidori pela superfície do corpo inteiro em vez de concentrá-la na mão, criando um campo elétrico de curto alcance ao seu redor. O campo atinge simultaneamente todos os oponentes em contato ou em proximidade imediata, e a corrente percorre lâminas, armas e superfícies condutoras que toquem o usuário. A ausência de avanço linear dispensa a janela de contra-ataque da técnica original, e a aplicação sustentada sobre alvo em contato prolongado admite elevação para Paralisia Total.
 
@@ -400,7 +400,7 @@ O usuário integra corrente elétrica ao próprio kenjutsu, revestindo a lâmina
 
 ### Cortador de Raio
 **Raikiri — 雷切**
-**[CANON — Rank S]**
+**[CANON · Rank S]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Raiton LV6 · Moldagem Absoluta · Caminho Ponta · Chidori
 **XP:** 23.000
@@ -411,6 +411,18 @@ A janela de contra-ataque por visão de túnel permanece idêntica à do Chidori
 
 ---
 
+### Kirin
+**麒麟**
+**[CANON · Rank S]**
+**Acesso:** Assinatura Pessoal · Autoria Aberta
+**Requisitos:** Raiton LV6 · Moldagem Refinada · Caminho Tempestade · nuvens de tempestade sobre o campo
+**XP:** 23.600
+
+O usuário não gera a corrente, ele assume o controle de um relâmpago natural e o conduz ao alvo. A descarga desce do céu com velocidade que dispensa qualquer possibilidade de reação e libera energia incomparável à de qualquer técnica moldada por chakra, ao custo de uma fração mínima da reserva do executante, empregada apenas na condução. A exigência de moldagem é modesta justamente porque o poder pertence ao mundo, e o executante fornece apenas a direção.
+
+Conduzir um relâmpago natural em vez de gerar corrente é concepção que ninguém neste mundo formulou, e a entrada se abre a quem concluir o processo de criação de técnica em jogo. Na ausência de nuvens genuínas, o executante pode fabricá-las aquecendo a atmosfera com Katon sustentado de grande escala até que a diferença térmica gere a formação, processo que consome tempo, chakra e a totalidade da vantagem de surpresa.
+
+---
 ### Perfuração do Inferno
 **Jigokuzuki — 地獄突き**
 **[ATRIBUÍDO — Rank S]**
@@ -425,19 +437,6 @@ O usuário concentra a corrente da armadura elétrica nas pontas dos dedos esten
 ## Acima de Rank S
 
 Entradas sem teto de rank ficam fora da interpolação de preço, e o custo é definido pelo Narrador com o piso de 50.000 pontos, na mesma regra que a seção 4.1 aplica a Kinjutsu.
-
----
-
-### Kirin
-**麒麟**
-**[ATRIBUÍDO — Acima de Rank S]**
-**Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Raiton LV6 · Moldagem Plena · Caminho Tempestade · nuvens de tempestade sobre o campo
-**XP:** definido pelo Narrador, piso 50.000
-
-O usuário não gera a corrente, ele assume o controle de um relâmpago natural e o conduz ao alvo. A descarga desce do céu com velocidade que dispensa qualquer possibilidade de reação e libera energia incomparável à de qualquer técnica moldada por chakra, ao custo de uma fração mínima da reserva do executante, empregada apenas na condução. A exigência de moldagem é modesta justamente porque o poder pertence ao mundo, e o executante fornece apenas a direção.
-
-Conduzir um relâmpago natural em vez de gerar corrente é concepção que ninguém neste mundo formulou, e a entrada se abre a quem concluir o processo de criação de técnica em jogo. Na ausência de nuvens genuínas, o executante pode fabricá-las aquecendo a atmosfera com Katon sustentado de grande escala até que a diferença térmica gere a formação, processo que consome tempo, chakra e a totalidade da vantagem de surpresa.
 
 ---
 

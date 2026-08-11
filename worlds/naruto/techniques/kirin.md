@@ -1,172 +1,214 @@
 ---
 id: naruto.technique.kirin
 title: "Kirin (麒麟)"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
 status: final
-source-file: Kirin.md
+source-file: Kirin_v2.md
 ---
 
-# Kirin — (麒麟)
-Ninjutsu · Raiton · S-rank
-
-Fenômeno de raio natural convocado, inevitável pela velocidade do relâmpago.
+# Kirin (麒麟)
+Ninjutsu · Raiton · Rank S
 
 ---
 
 ## Sobre a Técnica
 
-O Kirin é uma técnica de Ninjutsu de natureza Raiton classificada como S-rank, criada por Sasuke Uchiha como trunfo destinado a superar um oponente que ele não conseguiria vencer por meios convencionais. A técnica não utiliza o chakra de Raio do usuário como fonte de energia. Ela convoca o raio natural diretamente das nuvens de tempestade, e o chakra do usuário serve apenas como guia de formação e direcionamento. O raio moldado assume brevemente a forma da criatura mitológica que dá nome à técnica antes de descer sobre o alvo.
+O Kirin é a condução de um relâmpago natural até o alvo. O executante não gera corrente, ele toma o controle da descarga que a atmosfera já produziu e a molda no instante da queda, dando a ela a forma da criatura mitológica que dá nome à técnica. A energia entregue pertence à tempestade, e o chakra do executante serve apenas de guia.
 
-A propriedade que separa o Kirin de toda outra técnica de Raiton é a origem do seu poder. A potência não depende da capacidade do usuário, e sim da intensidade da tempestade convocada. Uma vez que as nuvens existem, moldar e guiar o raio exige pouquíssimo chakra, o que permite executar a técnica mesmo em estado de exaustão. O raio desce à velocidade natural do relâmpago nuvem-solo, alcançando o alvo em uma fração de segundo que nenhuma percepção consegue acompanhar, o que torna a técnica impossível de esquivar.
+A execução depende de nuvens de tempestade ativas sobre o campo. Quando elas não existem, o executante as constrói aquecendo a atmosfera com fogo de grande escala, porque a diferença térmica gerada alimenta a corrente ascendente que forma a nuvem. Quanto maior o volume de calor lançado ao alto, mais densa a formação e maior a carga disponível para a descarga.
 
-A execução depende de nuvens de tempestade ativas sobre o alvo. Sem elas, a técnica não existe. As nuvens formam-se pelo calor lançado ao céu durante o combate: cada técnica de Katon disparada para o alto aquece o ar e alimenta a corrente ascendente que gera a tempestade. Quanto maior o volume de calor acumulado, mais densa a tempestade e mais poderoso o raio resultante. O usuário constrói as condições ao longo da luta, e o disparo final consome a tempestade por inteiro, dispersando as nuvens e exigindo que todo o processo recomece para um segundo uso.
+O relâmpago desce à velocidade natural da descarga entre nuvem e solo, e nenhuma percepção acompanha o percurso. A técnica atinge o ponto de queda sem conceder janela de reação, e a energia liberada excede a de qualquer corrente moldada por chakra. O disparo consome a tempestade por inteiro, dispersando as nuvens e exigindo que todo o processo recomece.
+
+A descarga não é chakra elétrico, é eletricidade atmosférica com chakra apenas na direção. Técnicas de absorção de chakra encontram pouco do que drenar, porque a corrente que chega ao alvo não pertence a ninguém.
 
 ---
 
 ## Requisitos de Acesso
 
-- **Raiton LV6** — portão de rank S; acesso pela Transcendência Kirin da inclinação Canto dos Mil Pássaros
-- **Katon LV5** — necessário para gerar o volume de calor que forma a tempestade pelo método principal
-- **INT mínimo 20** — âncora energética das duas naturezas de alto nível
+- **Raiton LV6:** portão de rank S, que resolve em 84 pela soma da Base 50 com INT 34
+- **Moldagem Refinada:** 71 pela soma da Base Total com SAB, degrau lido do coeficiente técnico 2,0
+- **Caminho Tempestade:** inclinação Corrente, dono da eletricidade atmosférica já presente no céu
+- **Nuvens de tempestade ativas:** condição de campo, natural ou construída
 
 ---
 
 ## Despertar / Aquisição
 
-O Kirin é adquirido como a Transcendência da inclinação Canto dos Mil Pássaros no Raiton LV6. O acesso exige domínio simultâneo de duas naturezas, pois a técnica depende do Katon para a formação da tempestade e do Raiton para a convocação e moldagem do raio. Um usuário que possua apenas o Raiton em alto nível pode acessar somente o método alternativo de manipulação direta, descrito na Mecânica de Ativação, que produz uma versão reduzida da técnica.
+A técnica está na camada Assinatura Pessoal em estado de Autoria Aberta. Conduzir um relâmpago natural em vez de gerar corrente é concepção que ninguém no mundo formulou, e nenhum personagem inicial adquire o Kirin na criação.
+
+A entrada se abre a quem cumprir os requisitos e concluir o processo de criação de técnica. O primeiro personagem que chegar lá torna-se o criador e a entrada passa a Registrada no Compêndio de Raiton.
 
 ---
 
 ## Custo de XP
 
-| Afim natal Raiton | Sem afinidade definida |
-|---|---|
-| 28.000 XP | 32.000 XP |
-
-O Katon LV5 é pré-requisito à parte, com custo próprio na progressão da perícia elemental. O valor acima cobre apenas a aquisição do Kirin.
+**Custo de XP:** 23.600
 
 ---
 
 ## Efeitos Globais
 
-A formação da tempestade é visível a todos no campo de batalha. O céu escurece progressivamente conforme o volume de calor aumenta, e as nuvens de tempestade se adensam sobre a área. Um oponente atento percebe a formação e compreende que uma técnica de grande escala está sendo preparada, ainda que não possa impedir diretamente a convocação do raio uma vez que as condições estejam completas.
+A formação da tempestade é pública e lenta. O céu escurece conforme o volume de calor sobe, as nuvens se adensam sobre a área, e qualquer observador competente entende que algo de grande escala está sendo preparado. O que ele não consegue é impedir a queda depois que as condições fecham.
 
-O disparo do Kirin ilumina todo o campo com o clarão do relâmpago e produz um estrondo que se propaga por quilômetros. As nuvens se dispersam imediatamente após o uso, e o céu limpa. A tempestade convocada não pode ser reutilizada; um segundo Kirin exige a reconstrução completa das condições de tempestade desde o início.
+O disparo ilumina o campo inteiro e produz um estrondo que se propaga por quilômetros. As nuvens se dispersam no ato e o céu limpa.
 
-O raio do Kirin é raio natural moldado, não chakra elétrico. Por essa razão, técnicas de absorção de chakra elemental não conseguem drená-lo, pois não há chakra do usuário na descarga para ser absorvido.
+O ponto de queda é destruído junto com o alvo. A descarga abre cratera, vitrifica solo e derruba estrutura de pedra dentro do raio de impacto, e esse dano ao terreno é efeito de cena e não valor de ficha.
 
 ---
 
 ## Mecânica de Ativação
 
-- **Custo de RC do disparo:** 100 RC fixos. Este é o único chakra que o usuário gasta na convocação, o que torna a técnica executável mesmo próximo da exaustão.
-- **Custo de preparação:** nenhum custo dedicado no método principal. A tempestade acumula pelo volume de chakra de Katon lançado ao céu durante o combate, e esse Katon serve simultaneamente ao seu propósito ofensivo normal.
-- **Janela de Canalização:** o disparo de 100 RC resolve em 0 turnos para RC média ou alta, e em 1 turno para RC muito baixa. A canalização representa o tempo de moldar o guia do raio, não de acumular poder; o raio em si é instantâneo.
-- **Ação:** o usuário forma o selo de convocação e direciona o raio ao alvo. A tempestade deve estar formada no momento do disparo.
-- **Restrições:** exige nuvens de tempestade ativas. Consumo único por tempestade. O disparo dispersa as nuvens.
+- **RC nominal:** variável de 600 a 1.800, extraída da tempestade e não da reserva do executante, com o nível de Intensidade determinando o valor
+- **Custo mínimo:** 100, referentes à condução, pagos da reserva do executante
+- **Selos de referência:** 1
+- **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
+- **Perfil de Evasão:** Inevitável, com a existência da tempestade como condição estrutural obrigatória
+- **Janela de Canalização:** lida sobre o custo pago, resolvendo em zero turnos para qualquer executante com reserva acima de 500
+- **Ação:** o executante forma o selo de condução e declara o ponto de queda
+- **Restrições:** consumo único por tempestade, com o disparo dispersando as nuvens
+
+O Kirin é a única entrada do sistema em que a RC nominal provém de fonte externa ao executante. A regra que a governa é a de pools externos da Reserva de Chakra, e o custo mínimo permanece sujeito ao Índice de Desperdício como em qualquer técnica.
 
 ---
 
 ## Intensidade da Tempestade
 
-A potência do Kirin é modulada pela Intensidade da Tempestade, um contador que acumula pelo volume total de chakra de Katon lançado ao céu durante o combate. O rank das técnicas de Katon não importa isoladamente; o que conta é o volume de chakra investido, pois o chakra de Katon corresponde ao volume de fogo e calor que alimenta a corrente ascendente.
+A carga disponível na formação determina a RC nominal da descarga. O contador acumula pela RC nominal das técnicas de Katon lançadas ao alto durante o combate, porque é o volume de calor que sobe ao céu que alimenta a corrente ascendente. O rank das técnicas de fogo não importa isoladamente.
 
 ```
-volume_acumulado = soma do RC de Katon lançado ao alto durante o combate
-Intensidade = nível correspondente ao volume acumulado
+volume acumulado = soma da RC nominal do Katon lançado ao alto durante o combate
 ```
 
-| Nível | Fator de dano | Volume de Katon necessário |
+| Nível | Volume de Katon | RC nominal disponível |
 |---|---|---|
-| 1 | ×1,00 | 400 |
-| 2 | ×1,80 | 1.000 |
-| 3 | ×2,80 | 1.900 |
-| 4 | ×3,90 | 3.000 |
-| 5 | ×4,75 | 4.200 |
+| 1 | 400 | 600 |
+| 2 | 1.000 | 900 |
+| 3 | 1.900 | 1.200 |
+| 4 | 3.000 | 1.500 |
+| 5 | 4.200 | 1.800 |
 
-O Amaterasu, quando presente, contribui para o volume com peso quádruplo em relação ao seu custo de chakra, pois o fogo negro gera calor muito acima do proporcional. Cada uso do Amaterasu conta como quatro vezes o seu custo no acúmulo de volume.
+O Amaterasu contribui com peso quádruplo em relação à própria RC nominal, porque o fogo negro gera calor muito acima do proporcional ao chakra investido nele.
 
 ---
 
 ## Família de Dano
 
-O dano do Kirin não segue a fórmula padrão do Manual de Jutsus, pois não deriva da RC investida. A energia vem do raio natural, e o dano é um valor de fenômeno modulado pela Intensidade da Tempestade:
+Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = dano_base × fator_Intensidade
-dano_base = 1.400
+dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
+dano = RC nominal × 0,35 × 1,75 + LV_CC² × 2,5 × 2,0
+dano = RC nominal × 0,6125 + LV_CC² × 5
 ```
 
-O `dano_base` representa a energia do raio natural em uma tempestade mínima. O `fator_Intensidade` é determinado pelo nível de tempestade construído durante o combate. O bônus de Controle de Chakra do usuário não entra no cálculo de dano, pois o usuário apenas guia o raio; a potência pertence à tempestade.
+O coeficiente de entrega 0,35 corresponde à categoria de fonte atmosférica real, a mais alta da tabela, e a condição estrutural de tempestade é a contrapartida embutida nessa forma. O coeficiente técnico 2,0 corresponde à dependência alta: a energia pertence ao céu, e o que decide se ela chega inteira ao ponto declarado é a precisão com que o executante a molda no percurso.
 
-| Nível de Tempestade | Dano | vs Armadura de Susanoo¹ | vs Susanoo Perfeito¹ |
-|---|---|---|---|
-| 1 | 1.400 | 25% | 13% |
-| 2 | 2.520 | 45% | 23% |
-| 3 | 3.920 | 71% | 35% |
-| 4 | 5.460 | 98% | 49% |
-| 5 | 6.650 | 120% | 60% |
+---
 
-¹ [proposta] Valores de referência do Susanoo derivados como múltiplo do PV do usuário tier Kage: Armadura ×4,0 (PV 5.544), Perfeito ×8,0 (PV 11.088). A serem confirmados pelo documento de Susanoo.
+## Tabela de Descarga
+
+Par de referência Especial, PV 1.920.
+
+| Nível | RC nominal | Dano em LV_CC 6 | Dano com 2 caminhos | % PV do par |
+|---|---|---|---|---|
+| 1 | 600 | 548 | 688 | 36% |
+| 2 | 900 | 731 | 871 | 45% |
+| 3 | 1.200 | 915 | 1.055 | 55% |
+| 4 | 1.500 | 1.099 | 1.239 | 65% |
+| 5 | 1.800 | 1.283 | 1.423 | 74% |
+
+A coluna percentual lê a linha de dois caminhos, que é a configuração do executante que fechou a técnica.
 
 ---
 
 ## Interação com Defesas
 
-O Kirin é inevitável. O raio desce à velocidade natural do relâmpago, e nenhum teste de Evitar se aplica. O alvo não pode esquivar por meios convencionais de velocidade ou percepção.
+O Perfil Inevitável anula a esquiva. Nenhum teste de Evitar se aplica, e o alvo não escapa por velocidade nem por percepção. Apenas Absorção e Resistência mitigam.
 
-O raio é raio natural moldado, não chakra elétrico. Técnicas de absorção de chakra elemental não conseguem drená-lo, pois não há chakra do usuário na descarga. Esta imunidade é específica à absorção de chakra e não se estende a defesas físicas como o Susanoo, que bloqueia o raio pela estrutura material.
+A descarga não é chakra do executante, e por isso técnicas de absorção de chakra não a drenam. A imunidade alcança apenas a absorção, e defesas estruturais interpostas entre o céu e o alvo continuam valendo pela própria massa.
+
+A perfuração de Absorção do caminho Ponta não se aplica, porque o Kirin pertence à inclinação Corrente.
 
 ---
 
-## Método Alternativo — Manipulação Direta
+## Pontaria e o Sharingan
 
-Um usuário que não tenha construído a tempestade pelo Katon de combate pode forçar a formação de uma nuvem localizada enviando chakra de Raiton diretamente ao céu. Este método difere do principal em custo, velocidade e potência.
+O relâmpago alcança o solo em fração de segundo, e acompanhar a velocidade e a direção da queda excede a percepção comum.
 
-- **Custo:** 2.500 RC de uma vez, pagos para estimular a formação da nuvem.
-- **Velocidade:** rápido, resolve em 1 a 2 turnos, sem depender de acúmulo de combate.
-- **Limite de Intensidade:** trava no nível 2, fator ×1,80, independente de qualquer investimento adicional.
-- **Frequência:** uma vez por dia.
+Com Sharingan ativo, o executante declara um alvo e a descarga o alcança onde ele estiver no instante da queda.
 
-O método alternativo existe para situações em que a preparação prolongada não é viável, ao custo de uma versão consideravelmente mais fraca da técnica e de um gasto elevado de chakra que apenas usuários com Reserva alta conseguem sustentar.
+Sem Sharingan ativo, o executante declara um ponto do terreno, e a descarga atinge esse ponto e a área imediata em volta. Alvo que se desloque antes da queda escapa por posição, e o disparo permanece consumido.
+
+---
+
+## Rider de Paralisia Parcial
+
+A descarga atravessa o alvo com carga muito acima da que qualquer técnica moldada entrega.
+
+| Campo | Valor |
+|---|---|
+| Grau mínimo garantido | Grave |
+| Grau máximo possível | Crítico |
+| Atributos testados | RES + FOR |
+| Alvo do teste | (RES + FOR) × (1 − dano ÷ PV máximo da vítima) |
+| Membro afetado | o tronco, por difusão sistêmica |
+
+---
+
+## Formação sem Tempestade Natural
+
+Duas vias existem para quem não encontra nuvens no campo.
+
+A transcendência Arco Voltaico produz a carga atmosférica no ar em volta do praticante, sem tempestade e sem preparação. O executante que a possui dispensa a condição estrutural inteira e acessa qualquer nível de Intensidade que o volume de Katon do combate sustente.
+
+O executante que não transcendeu força a formação de uma nuvem localizada enviando chakra de Raiton ao céu, ao custo de 2.500 pagos da própria reserva, com o resultado travado no nível 2 de Intensidade e limitado a uma vez por dia. A via existe para quando a preparação prolongada não é viável, e o preço é uma versão consideravelmente mais fraca por um gasto que poucas reservas sustentam.
 
 ---
 
 ## Progressão por Maestria
 
-| Nível | Capacidade disponível |
+| Condição | Capacidade ou mudança |
 |---|---|
-| Raiton LV6 + Katon LV5 | Acesso ao Kirin pleno pelo método principal, até Intensidade nível 5 |
-| Raiton LV6 sem Katon alto | Acesso apenas ao método de manipulação direta, travado no nível 2 |
+| Raiton LV6, caminho Tempestade | acesso à técnica, dependente de tempestade em campo |
+| Caminho Tempestade aprofundado | a condição aceita carga atmosférica acumulada por dois turnos de preparação declarados |
+| Transcendência Arco Voltaico | a condição de tempestade deixa de existir |
+| Controle de Chakra LV6 | Fator de Moldagem 180, e 320 com dois caminhos adicionais |
+| Katon em alto volume | eleva a Intensidade disponível, e com ela a RC nominal da descarga |
+| Sharingan ativo | a descarga passa a perseguir alvo declarado no lugar de ponto de terreno |
 
 ---
 
 ## Referência de Usos por Perfil
 
-| Usuário | RC restante típica após combate | Disparo (100 RC) | Método viável |
-|---|---|---|---|
-| Sasuke exausto (contra Itachi) | ~120 | 1 turno, dispara | Principal |
-| Sasuke jounin | ~600 | 0 turnos, dispara | Principal |
-| Saki Especial | ~1.500 | 0 turnos, dispara | Principal e alternativo |
+| Teste de Moldagem | Custo pago | RC | LS | Janela | Observação |
+|---|---|---|---|---|---|
+| 185 | 100 | 120 | 24 | 1 turno | executante à beira da exaustão ainda dispara |
+| 185 | 100 | 2.211 | 442 | 0 turnos | disparo imediato |
+| 116 | 190 | 1.325 | 265 | 0 turnos | disparo imediato |
+
+O número de usos não é limitado pela reserva e sim pela tempestade. Cada formação sustenta um disparo.
 
 ---
 
 ## Sinergias
 
-- **Katon de alto volume:** qualquer técnica de Katon lançada ao céu durante o combate acumula Intensidade sem custo dedicado, pois serve simultaneamente ao ataque e à formação da tempestade.
-- **Amaterasu:** o fogo negro contribui com peso quádruplo para o volume de tempestade, sendo a via mais eficiente para alcançar os níveis altos de Intensidade rapidamente.
-- **Combate prolongado:** a técnica premia o usuário que sobrevive a um combate longo lançando Katon, convertendo o tempo de luta em potência acumulada.
-- **Reserva de Chakra alta:** viabiliza o método alternativo de manipulação direta, inacessível a usuários com Reserva baixa.
+- **Katon de alto volume:** toda técnica de fogo lançada ao alto acumula Intensidade sem custo dedicado, servindo ao ataque e à formação da tempestade no mesmo ato
+- **Amaterasu:** contribui com peso quádruplo e é a via mais rápida para os níveis altos de Intensidade
+- **Sharingan:** converte o ponto de terreno em alvo perseguido, e é a diferença entre acertar quem está parado e acertar quem se move
+- **Combate prolongado:** a técnica premia quem sobrevive lançando fogo, convertendo tempo de luta em carga acumulada
+- **Caminho Refino:** derruba o custo pago ao mínimo de 100, o que permite disparar com a reserva praticamente vazia
+- **Transcendência Arco Voltaico:** elimina a condição estrutural e transforma um trunfo de preparação em recurso disponível
 
 ---
 
 ## Notas para o Mestre
 
-- **Raridade estrutural:** o Kirin exige nuvens de tempestade que precisam ser construídas em combate, tornando-o um trunfo de uso único por preparação. O Narrador deve tratar cada uso como um evento raro, não como uma abertura padrão de combate.
-- **A tempestade é pública:** o escurecimento do céu e o adensamento das nuvens são perceptíveis a todos. Um oponente inteligente percebe a formação e pode tentar encerrar o combate antes que a Intensidade alcance níveis perigosos, ou forçar o usuário a se defender em vez de lançar Katon.
-- **Narração do disparo:** o raio desce instantaneamente, sem tempo de reação. A narração não deve conceder janela de esquiva; a inevitabilidade é a essência da técnica. Descreva o clarão, o estrondo e a dispersão imediata das nuvens.
-- **Acúmulo de volume:** o Narrador rastreia o volume de Katon lançado ao céu ao longo do combate. Informe ao jogador o nível de Intensidade atingido a cada técnica de Katon relevante, para que a decisão de disparar ou continuar acumulando seja informada.
-- **Consumo único:** após o disparo, as nuvens se dispersam. Um segundo Kirin no mesmo combate exige reconstruir todo o volume de tempestade do zero, o que raramente é viável na mesma luta.
+- **Rastreie o volume.** Informe o nível de Intensidade alcançado a cada técnica de Katon relevante, porque a decisão entre disparar agora e acumular mais um pouco é a tensão central da técnica e o jogador precisa dela informada
+- **A tempestade é pública.** Um oponente competente lê o céu e responde, encerrando o combate antes do nível alto ou forçando o executante a se defender em vez de lançar fogo
+- **Não conceda janela de esquiva.** A inevitabilidade é a essência da técnica. Narre o clarão, o estrondo e a dispersão imediata das nuvens, e resolva o dano sem teste de Evitar
+- **Um disparo por formação.** Um segundo Kirin no mesmo combate exige reconstruir o volume do zero, o que raramente cabe na mesma luta
+- **Sem Sharingan, o alvo é o chão.** Deixe isso claro antes da declaração, porque muda inteiramente a decisão tática de quando disparar
+- **NPCs.** Adversário construindo tempestade é um relógio visível na mesa, e o grupo que ignora o céu escurecendo merece a consequência
