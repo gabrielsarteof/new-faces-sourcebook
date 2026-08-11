@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 3
+version: 4
 layer: scenario
 scenario: naruto
 type: system
@@ -159,7 +159,9 @@ Mokuton usa três ingredientes (Terra, Água e Yang) mas não se qualifica como 
 
 ### Onmyōton
 
-Yin e Yang entram na mesma cadeia de afinidade da Transformação de Natureza, no branch descrito no documento base. A afinidade crua de Yang já tem uma manifestação nomeada fechada, Liberação de Velocidade, testada em Centelha própria no mesmo padrão desta seção. A afinidade crua de Yin ainda não tem manifestação nomeada. Até que uma seja definida, um personagem com afinidade de Yin possui a natureza crua sem acesso a técnica nomeada alguma, o mesmo estado latente de qualquer composição sem Centelha resolvida.
+Yin e Yang entram na mesma cadeia de afinidade da Transformação de Natureza, no branch descrito no documento base. São naturezas base do sistema e não naturezas avançadas: não passam pela Etapa de manifestação e não rolam Centelha, e cada uma tem perícia completa própria, Liberação de Yin v3 e Liberação de Yang v3, regidas pelo documento do Eixo do Onmyōton.
+
+A Liberação de Velocidade não pertence a este eixo. Nenhuma camada canônica a associa ao Yang, e ela consta do catálogo de Kekkei Genkai acima, com composição de Vento e Raio atribuída pela camada de jogos.
 
 ---
 
@@ -192,23 +194,24 @@ Meiton é exceção. Sua composição elemental permanece desconhecida e sua ide
 
 | Natureza | Composição | Gate | Tipo dominante | Tier | Poder | % base |
 |---|---|---|---|---|---|---|
-| Jinton (Tōta) | Fogo+Terra+Vento | nenhum | Fogo | S | Estratégico | 1% |
-| Mokuton | Terra+Água+Yang | Ashura (Senju/Uzumaki) | Terra | A | Estratégico | 2% |
+| Jinton 塵遁 (Poeira, Tōta) | Fogo+Terra+Vento | nenhum | Fogo | S | Estratégico | 1% |
+| Mokuton (Madeira) | Terra+Água | Ashura (Senju/Uzumaki) | Terra | A | Estratégico | 2% |
 | Shōton (Cristal) | Terra+Água | nenhum | Terra | A | Decisivo | 2% |
 | Kōton (Aço) | Fogo+Terra | nenhum | Fogo | A | Decisivo | 2% |
-| Meiton | desconhecida | nenhum | dinâmico | A | Decisivo | 2% |
+| Meiton (Escuridão) | desconhecida | nenhum | dinâmico | A | Decisivo | 2% |
 | Saton (Areia) | Terra+Vento | nenhum | Terra | A | Decisivo | 2% |
 | Shakuton (Queima) | Fogo+Vento | nenhum | Fogo | A | Decisivo | 2% |
-| Gravidade | Raio+Terra | nenhum | Raio | A | Tático-Decisivo | 2% |
-| Vidro/Obsidiana | Fogo+Terra | nenhum | Fogo | A | Tático-Decisivo | 2% |
-| Ácido | Água+Raio | nenhum | Raio | A | Tático | 2% |
+| Jūton (Gravidade) `[proposta]` | Raio+Terra | nenhum | Raio | A | Tático-Decisivo | 2% |
+| Hariton (Vidro/Obsidiana) `[proposta]` | Fogo+Terra | nenhum | Fogo | A | Tático-Decisivo | 2% |
+| Santon (Ácido) `[proposta]` | Água+Raio | nenhum | Raio | A | Tático | 2% |
 | Hyōton (Gelo) | Água+Vento | nenhum | Vento | B | Decisivo | 4% |
 | Bakuton (Explosão) | Terra+Raio | nenhum | Raio | B | Decisivo | 4% |
 | Futton (Ebulição) | Água+Fogo | nenhum | Fogo | B | Decisivo | 4% |
-| Yōton (Lava) | Fogo+Terra | nenhum | Fogo | C | Decisivo | 8% |
+| Jinton 迅遁 (Velocidade) | Vento+Raio | nenhum | Raio | B | Tático-Decisivo | 4% |
+| Yōton 溶遁 (Lava) | Fogo+Terra | nenhum | Fogo | C | Decisivo | 8% |
 | Jiton (Magnetismo) | Vento+Terra | nenhum | Terra | C | Decisivo | 8% |
 | Ranton (Tempestade) | Raio+Água | nenhum | Raio | C | Tático-Decisivo | 8% |
-| Estilo Plasma | Fogo+Raio | nenhum | Raio | C | Tático-Decisivo | 8% |
+| Puraton (Plasma) `[proposta]` | Fogo+Raio | nenhum | Raio | C | Tático-Decisivo | 8% |
 | Deiton (Lama) | Terra+Água | nenhum | Terra | C | Tático | 8% |
 
 A coluna de Poder não altera a chance de manifestação. Ela define o preço de retentativa da Centelha e, no caso do Kyōka, o bônus de multiplicador de dano.
@@ -217,11 +220,21 @@ A coluna de Poder não altera a chance de manifestação. Ela define o preço de
 
 | Par | Ocupantes | Portão testa por |
 |---|---|---|
-| Terra+Água | Mokuton, Cristal, Deiton | Mokuton |
-| Terra+Raio | Bakuton, Gravidade | Gravidade |
-| Fogo+Terra | Yōton, Vidro/Obsidiana, Aço | Aço |
-| Água+Raio | Ranton, Ácido | Ácido |
+| Terra+Água | Mokuton, Shōton, Deiton | Mokuton |
+| Terra+Raio | Bakuton, Jūton | Jūton |
+| Fogo+Terra | Yōton, Hariton, Kōton | Kōton |
+| Água+Raio | Ranton, Santon | Santon |
 | Terra+Vento | Jiton, Saton | Saton |
+
+Vento+Raio tem ocupante único, a Liberação de Velocidade, e por isso não entra na tabela. A composição dela estava vaga no catálogo até a errata lhe dar entrada própria.
+
+### Nomenclatura
+
+Toda natureza do catálogo tem nome japonês, para que a ficha não misture entradas nomeadas com entradas sem nome. Nove deles são construídos no padrão 〜遁 e não vêm de fonte alguma, porque o cânone não nomeia essas naturezas: Jūton, Hariton, Santon e Puraton entre as Kekkei Genkai, e Shiton, Taiton, Gōton, Shinton e Chōton entre as Kyōka. Todos ficam marcados `[proposta]` e podem ser revistos sem custo mecânico — nenhuma regra depende do nome.
+
+`[canon]` Duas romanizações colidem, e a colisão é da obra e não deste catálogo. **Jinton** é 塵遁, a Liberação de Poeira, e também 迅遁, a Liberação de Velocidade. **Yōton** é 陽遁, a Liberação de Yang que é natureza base, e também 溶遁, a Liberação de Lava. O kanji fica registrado nas quatro linhas por isso. Em mesa, o contexto separa: a Poeira é Kekkei Tōta de tier S e a Velocidade é tier B; o Yang é natureza base e a Lava é Kekkei Genkai.
+
+A entrada do Plasma resolve a pendência de padrão que o catálogo registrava — era a única com nome de termo de física em vez de composto japonês. Passa a ser Puraton, e o rótulo pt-BR continua Plasma.
 
 **Estilo Plasma, busca de condutor.** `[proposta]` O plasma ioniza o ar no percurso e a descarga se resolve no condutor mais favorável dentro do alcance declarado, em vez de obedecer à trajetória apontada.
 
@@ -237,12 +250,12 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 
 | Kyōka | Elemento base | Gate | Tier | Poder | % base | Mult. de dano |
 |---|---|---|---|---|---|---|
-| Enton | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 |
-| Incandescência `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 |
-| Tufão | Vento | nenhum | A | Estratégico | 2% | 1,65 |
-| Sobrecarga | Raio | `[PENDENTE]` | A | Decisivo | 2% | 1,95 |
-| Sísmico | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 |
-| Maré | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 |
+| Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 |
+| Shiton (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 |
+| Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 |
+| Gōton (Sobrecarga) `[proposta]` | Raio | `[PENDENTE]` | A | Decisivo | 2% | 1,95 |
+| Shinton (Sísmico) `[proposta]` | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 |
+| Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 |
 
 O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado.
 
@@ -269,10 +282,12 @@ Ela existe porque o Fogo era o único elemento sem Kyōka acessível sem portão
 
 ### Onmyōton
 
-| Manifestação | Afinidade crua | Status |
+| Natureza | Perícia | Status |
 |---|---|---|
-| Liberação de Velocidade | Yang | fechada, ver documento de Onmyōton |
-| — | Yin | `[PENDENTE]`, sem manifestação nomeada |
+| Inton 陰遁 (Yin) | Liberação de Yin v3 | natureza base, sem Centelha |
+| Yōton 陽遁 (Yang) | Liberação de Yang v3 | natureza base, sem Centelha |
+
+Ambas têm perícia completa, com dez caminhos, três inclinações e duas transcendências cada, regidas pelo documento do Eixo do Onmyōton. Nenhuma das duas é natureza avançada, e a Liberação de Velocidade, que já constou aqui, mudou para o catálogo de Kekkei Genkai.
 
 ---
 
