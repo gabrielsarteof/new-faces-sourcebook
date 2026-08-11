@@ -38,14 +38,14 @@ Rank, RC, Limite de Saída, Janela de Canalização e custo de XP pertencem ao M
 | Custo de XP | nenhum; a competência é comprada na perícia |
 | Teste | Seção 3.2, apenas quando o invocado declara Limiar de Aceitação |
 | Selos | cinco: Javali, Cão, Pássaro, Macaco, Carneiro |
-| Requisitos | Espaço-Tempo LV3; Controle de Chakra LV2 na coluna de precisão; contrato ativo no momento da execução |
+| Requisitos | Passagem LV3; Controle de Chakra LV2 na coluna de precisão; contrato ativo no momento da execução |
 | Âncora de validação | Seção 4.4 |
 
 O executor forma os selos, oferece sangue na mão que assinou o contrato e planta a palma contra uma superfície. Uma fórmula de selamento se materializa no ponto de contato e o ser chega ali. O sangue pode vir de qualquer ferimento aberto; a mordida no polegar é convenção, e não exigência. [CANON]
 
 ### 1.1 O portão de perícia
 
-A competência de abrir e sustentar a passagem pertence à perícia de Espaço-Tempo. O Kuchiyose no Jutsu é rank C e o portão de rank daquela perícia o coloca em LV3. O Controle de Chakra é a coluna de precisão do par, exigido em nível não inferior ao da perícia menos um.
+A competência de abrir e sustentar a passagem pertence à perícia de Passagem. O Kuchiyose no Jutsu é rank C e o portão de rank daquela perícia o coloca em LV3. O Controle de Chakra é a coluna de precisão do par, exigido em nível não inferior ao da perícia menos um.
 
 O jutsu-base não tem preço próprio em XP. A competência é comprada uma vez, na perícia, e vale para qualquer contrato que o personagem tenha ou venha a ter. O contrato continua a zero XP, porque acesso e competência são coisas distintas.
 
@@ -100,14 +100,14 @@ A vontade própria do invocado é canônica e precisa aparecer na mesa. O sistem
 ### 3.2 Teste de Aceitação [PROPOSTA]
 
 ```
-teste do invocador = teste da perícia de Espaço-Tempo
+teste do invocador = teste da perícia de Passagem
                      na inclinação de convocação
 oposição            = Limiar de Aceitação declarado na ficha do invocado
                       + agravos aplicáveis
                       − marcos de relação cumpridos
 ```
 
-**Limiar de Aceitação por tier.** Ancorados na faixa de teste da perícia de Espaço-Tempo. O limiar 140 de um chefe de espécie fica acima do teste 112 do praticante de LV4 sem o caminho Chamado e ao alcance apertado do LV5 com ele, o que reproduz a raridade canônica do chamado de chefe.
+**Limiar de Aceitação por tier.** Ancorados na faixa de teste da perícia de Passagem. O limiar 140 de um chefe de espécie fica acima do teste 112 do praticante de LV4 sem o caminho Chamado e ao alcance apertado do LV5 com ele, o que reproduz a raridade canônica do chamado de chefe.
 
 | Tier do invocado | Limiar |
 |---|---|
@@ -246,7 +246,7 @@ A invocação reversa, Gyaku Kuchiyose, é o mesmo jutsu executado pelo animal. 
 
 Regra dura. Toda invocação entrega o transportado na posição de quem executa. Enviar para longe, banir inimigo ou escolher destino arbitrário permanecem impossíveis. A distinção contra o Hiraishin é estrutural: o Hiraishin desloca o usuário até marcas próprias, sob o custo duplo do Fūinjutsu, e a invocação puxa o vinculado até o executor.
 
-**Alvo declarado de revogação.** Esta regra fica registrada como candidata a revogação por transcendência da perícia de Espaço-Tempo. É regra nomeada do sistema, que é exatamente a matéria de LV6, e a perícia a consome em vez de inventar alvo próprio. Enquanto a transcendência não existir, a regra vale sem exceção.
+**Alvo declarado de revogação.** Esta regra fica registrada como candidata a revogação por transcendência da perícia de Passagem. É regra nomeada do sistema, que é exatamente a matéria de LV6, e a perícia a consome em vez de inventar alvo próprio. Enquanto a transcendência não existir, a regra vale sem exceção.
 
 ### 6.3 Invocar pessoas dentro do contrato
 
@@ -297,7 +297,7 @@ As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, 
 | Gedō Mazō e invocação de bijū | escala de evento narrativo, com requisitos lendários |
 | Companheiros de clã, Akamaru e kikaichū | documentos de clã e de Hiden |
 | Selamento de armas | custo duplo do Fūinjutsu |
-| Competência de abrir e sustentar a passagem | perícia de Espaço-Tempo |
+| Competência de abrir e sustentar a passagem | perícia de Passagem |
 
 ---
 
@@ -305,19 +305,19 @@ As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, 
 
 ### 9.1 Consumidores
 
-A perícia de Espaço-Tempo lerá este documento na inclinação de convocação, consumindo o Teste de Aceitação e a regra dura da Seção 6.2. As fichas individuais de chefes de espécie leem o template da Seção 5.3. O Compêndio de Ninjutsu lê a Seção 7.2 para as invocações-golpe.
+A perícia de Passagem lerá este documento na inclinação de convocação, consumindo o Teste de Aceitação e a regra dura da Seção 6.2. As fichas individuais de chefes de espécie leem o template da Seção 5.3. O Compêndio de Ninjutsu lê a Seção 7.2 para as invocações-golpe.
 
 ### 9.2 Registro de alterações
 
-**v2.1.** Publicada a perícia de Espaço-Tempo, o portão fixou em LV3 pelo rank C do jutsu-base, o preço próprio em XP do jutsu-base saiu com a cláusula transitória cumprida, e os Limiares de Aceitação saíram do estado provisório conferidos contra a faixa de teste da perícia.
+**v2.1.** Publicada a perícia de Passagem, antes rotulada Espaço-Tempo, o portão fixou em LV3 pelo rank C do jutsu-base, o preço próprio em XP do jutsu-base saiu com a cláusula transitória cumprida, e os Limiares de Aceitação saíram do estado provisório conferidos contra a faixa de teste da perícia.
 
-**v2.** Alinhamento ao Manual de Criação de Poderes v3.2 e ao Manual de Criação de Jutsus v2.3. O documento passou de excluído do manual de poderes a instância declarada do modo de ficha registrada do motor de entidade. A competência de invocar passou para a perícia de Espaço-Tempo, com portão nomeado sem nível e cláusula transitória de conversão do XP já gasto. As três resoluções antes entregues ao julgamento do Narrador em cena, aceitação de invocado de tier alto, gatilho de recusa e usurpação, passaram a resolver pelo Teste de Aceitação, com o vínculo cultivado convertido em marcos de relação objetivos. O template ganhou Limiar de Aceitação e marcos. A regra dura da Seção 6.2 foi registrada como alvo declarado de revogação de transcendência. Entraram a etiquetagem editorial, o registro de consumidores, a fila de errata e este registro. A grafia Fuuinjutsu foi corrigida para Fūinjutsu.
+**v2.** Alinhamento ao Manual de Criação de Poderes v3.2 e ao Manual de Criação de Jutsus v2.3. O documento passou de excluído do manual de poderes a instância declarada do modo de ficha registrada do motor de entidade. A competência de invocar passou para a perícia de Passagem, com portão nomeado sem nível e cláusula transitória de conversão do XP já gasto. As três resoluções antes entregues ao julgamento do Narrador em cena, aceitação de invocado de tier alto, gatilho de recusa e usurpação, passaram a resolver pelo Teste de Aceitação, com o vínculo cultivado convertido em marcos de relação objetivos. O template ganhou Limiar de Aceitação e marcos. A regra dura da Seção 6.2 foi registrada como alvo declarado de revogação de transcendência. Entraram a etiquetagem editorial, o registro de consumidores, a fila de errata e este registro. A grafia Fuuinjutsu foi corrigida para Fūinjutsu.
 
 ---
 
 ## 10. Instruções para a IA
 
-Contrato é concessão narrativa a 0 XP. A competência de invocar é comprada uma vez, na perícia de Espaço-Tempo. Nunca precifique contrato, jutsu-base ou invocado individual em XP.
+Contrato é concessão narrativa a 0 XP. A competência de invocar é comprada uma vez, na perícia de Passagem. Nunca precifique contrato, jutsu-base ou invocado individual em XP.
 
 O custo de RC segue o invocado, jamais o rank C do mecanismo. Posicione cada invocado num tier da Seção 4 pela utilidade total do pacote, com justificativa de uma frase.
 

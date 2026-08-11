@@ -512,13 +512,13 @@ O limite é a imobilidade da absorção. O praticante precisa estar em Modo Erem
 
 Quatro entradas encadeadas, com a primeira habilitando as três seguintes. Todas leem a marca do caminho Âncora da Perícia de Fūinjutsu, que é onde o jutsu-shiki vive, e nenhuma delas a republica. O que se compra aqui é o salto.
 
-A coluna de magnitude destas entradas é a Perícia de Espaço-Tempo v1, publicada. O portão de rank é lido nela conforme a regra universal do Manual de Requisitos de Técnica, e a coluna de Fūinjutsu cobra apenas o que a marca exige. Três das quatro entradas resolvem por esse portão. O Corte do Deus do Trovão Voador segue inexecutável, porque o requisito de perícia de arma que ele cobra continua sem documento.
+A coluna de magnitude destas entradas é a Perícia de Passagem v1, publicada. O portão de rank é lido nela conforme a regra universal do Manual de Requisitos de Técnica, e a coluna de Fūinjutsu cobra apenas o que a marca exige. Três das quatro entradas resolvem por esse portão. O Corte do Deus do Trovão Voador segue inexecutável, porque o requisito de perícia de arma que ele cobra continua sem documento.
 
 ### Deus do Trovão Voador
 **Hiraishin no Jutsu — 飛雷神の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
-**Requisitos:** Espaço-Tempo LV6 · Fūinjutsu LV4 · Alta · Caminho Âncora
+**Requisitos:** Passagem LV6 · Fūinjutsu LV4 · Alta · Caminho Âncora
 **XP:** 32.000
 
 O praticante desaparece do lugar em que estava e existe, no mesmo instante, sobre qualquer marca que tenha inscrito. A travessia dispensa o espaço entre os dois pontos e por isso ignora a distância por completo, alcançando uma marca posta do outro lado do continente com o mesmo custo de uma marca posta a três metros. A barreira erguida entre o praticante e o destino permanece intacta e não o detém, porque ela se estende apenas sobre a dimensão em que foi levantada, e a travessia não passa por ela.
@@ -533,7 +533,7 @@ O limite é a marca. O praticante alcança o que inscreveu e nada além disso, e
 **Hiraishin: Ni no Dan — 飛雷神・弐の段**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Deus do Trovão Voador · Espaço-Tempo LV5 · Fūinjutsu LV4 · Alta
+**Requisitos:** Deus do Trovão Voador · Passagem LV5 · Fūinjutsu LV4 · Alta
 **XP:** 9.200
 
 O praticante arremessa um kunai marcado contra o adversário e atravessa para a posição dele no instante seguinte, chegando pelo ângulo que a trajetória da lâmina abriu. O ataque nasce de uma direção que o alvo acabou de descartar, e a velocidade entre o arremesso e a chegada dispensa qualquer leitura antecipada de movimento.
@@ -559,7 +559,7 @@ O limite é a marca no alvo. O corte alcança onde a fórmula estiver, e um adve
 **Hiraishin: Sōgo Shunkan Kaiten — 飛雷神・相互瞬間回転**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Deus do Trovão Voador · marca recíproca inscrita · Espaço-Tempo LV5
+**Requisitos:** Deus do Trovão Voador · marca recíproca inscrita · Passagem LV5
 **XP:** 15.200
 
 Dois praticantes marcam um ao outro e passam a trocar de posição a qualquer momento da batalha, sem aviso e sem que nenhum dos dois precise declarar intenção ao outro. O que estava no alcance de um passa instantaneamente ao alcance do outro, e o ataque dirigido a um encontra o companheiro dele já no lugar.

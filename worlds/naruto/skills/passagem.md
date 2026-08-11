@@ -1,16 +1,16 @@
 ---
-id: naruto.skill.space-time
-title: "Espaço-Tempo"
+id: naruto.skill.passagem
+title: "Passagem"
 version: 1
 layer: scenario
 scenario: naruto
 type: skill
 status: final
-source-file: Pericia_Espaco_Tempo_v1.md
+source-file: Pericia_Passagem_v1.md
 ---
 
-PERÍCIA DE ESPAÇO-TEMPO
-時空間忍術 · O ofício da passagem
+PERÍCIA DE PASSAGEM
+時空間忍術 · O ofício da travessia do intervalo
 
 O domínio responde a uma pergunta feita de dois lados: como uma coisa atravessa o intervalo entre dois pontos sem percorrer a distância entre eles. De um lado o praticante é o destino, e alguma coisa vem até ele. Do outro o praticante é o viajante, e vai por conta própria. O intervalo é o mesmo nos dois casos, e é ele que a perícia governa.
 
@@ -36,7 +36,7 @@ IDENTIDADE
 
 Regente INT. Categoria Erudição, multiplicador 1,7. Camada subclasse, sobre o portão de Controle de Chakra. Eixo de ofício, com Fūinjutsu, Controle de Chakra e Barreira.
 
-Portão: Espaço-Tempo exige Controle de Chakra em nível não inferior ao próprio menos um.
+Portão: Passagem exige Controle de Chakra em nível não inferior ao próprio menos um.
 
 Portão de obra com o Fūinjutsu, no deslocamento por marca: o rank da técnica é lido nesta coluna, que possui o verbo definidor, e a coluna companheira cobra apenas o que a parte dela exige.
 
@@ -206,4 +206,4 @@ O que não fica preso constrói Yachimata sobre Cravo transcendido e Salto aprof
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2. Custos leem o Manual de Economia de XP. O Contrato de Âncora, a estrutura de vazios e os degraus de Mobilidade leem o Manual de Criação de Poderes. Contratos, tiers e fichas de invocado leem o Documento de Invocação. As técnicas nomeadas vivem nos compêndios.
+Estrutura e valores de camada leem o Núcleo de Perícias v2. Custos leem o Manual de Economia de XP. O Contrato de Âncora, a estrutura de vazios e os degraus de Mobilidade leem o Manual de Criação de Poderes v3.2 ou superior. Contratos, tiers e fichas de invocado leem o Documento de Invocação. As técnicas nomeadas vivem nos compêndios.

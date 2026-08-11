@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.fuinjutsu
 title: "Fūinjutsu"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Fuinjutsu_v1.md
 ---
 
-FŪINJUTSU (封印術) — v1.3
+FŪINJUTSU (封印術) — v1.4
 
 Atributo: INT
 Categoria: Erudição (×1,7)
@@ -19,7 +19,7 @@ O Fūinjutsu é a arte de codificar um efeito em escrita e deixar que a escrita 
 
 A perícia é a única do sistema cujo produto sobrevive ao executor. Um selo escrito hoje dispara daqui a um ano contra quem cruzar a porta, e por isso a mesa lê o Fūinjutsu em dois tempos: o tempo em que se escreve e o tempo em que se paga. O Manual de Criação de Jutsus declara os dois custos separados de todo selo, a preparação paga na inscrição e o acionamento pago no disparo, e esta perícia consome essa regra sem redefini-la.
 
-O território termina onde o ofício alheio começa. A barreira erguida no espaço pertence à perícia de Barreira, e a interseção que o cânone chama de Fūin Kekkai nasce como técnica de compêndio com portão duplo entre as duas. O depósito de chakra próprio em selo corporal permanece em Controle de Chakra, pela fronteira declarada de que o que é do praticante se guarda por moldagem e o que é alheio se toma por selo. A defesa do próprio circuito contra intrusão permanece na Contenção de Controle de Chakra. As Correntes Adamantinas de Selamento são Hiden do clã Uzumaki. O Selo dos Oito Trigramas e o patamar de massa em escala de bijū exigem o Repertório do Selamento, caminho exclusivo do mesmo clã. Os estados de Selamento, Supressão e Dor leem o Sistema de Efeitos de Status. As técnicas nomeadas vivem no Compêndio de Fūinjutsu, e o deslocamento por marca vive lá como categoria própria, com a coluna de Espaço-Tempo declarada por nome e o portão publicado antes de a perícia existir.
+O território termina onde o ofício alheio começa. A barreira erguida no espaço pertence à perícia de Barreira, e a interseção que o cânone chama de Fūin Kekkai nasce como técnica de compêndio com portão duplo entre as duas. O depósito de chakra próprio em selo corporal permanece em Controle de Chakra, pela fronteira declarada de que o que é do praticante se guarda por moldagem e o que é alheio se toma por selo. A defesa do próprio circuito contra intrusão permanece na Contenção de Controle de Chakra. As Correntes Adamantinas de Selamento são Hiden do clã Uzumaki. O Selo dos Oito Trigramas e o patamar de massa em escala de bijū exigem o Repertório do Selamento, caminho exclusivo do mesmo clã. Os estados de Selamento, Supressão e Dor leem o Sistema de Efeitos de Status. As técnicas nomeadas vivem no Compêndio de Fūinjutsu, e o deslocamento por marca vive lá como categoria própria, com a coluna de Passagem declarada por nome e o portão publicado antes de a perícia existir.
 
 Duas obras canônicas permanecem inteiras dentro desta perícia e não recebem entrada de compêndio, porque a competência que elas nomeiam já é entregue aqui sem excedente algum a publicar. O Fūinjutsu: Kai é o comando de liberação do LV1. O Hiraishin: Yūrai é a transcendência Trovão Guia. Na direção oposta, todo efeito de caminho desta perícia entrega o verbo genérico sob nome descritivo, e a técnica canônica que compartilha o mesmo mecanismo vive no compêndio declarando o que acrescenta ao verbo, conforme a Regra da Técnica Nomeada do Manual de Criação de Perícias v7. A Errata A1 aplicou essa regra aos dois efeitos que carregavam nome canônico literal.
 
@@ -178,9 +178,9 @@ Deixar no mundo uma marca permanente que outra técnica leia depois.
 └─ Marca de Destino [ativado, ação menor, contato, 40 RC]: aplica fórmula de técnica permanente em superfície, objeto ou alvo, com alvo hostil exigindo toque disputado. Não expira e não sai por lavagem nem por dano superficial. Marcas mantidas ao mesmo tempo: ⌊teste ÷ 8⌋, 15 no LV4 e 18 no LV5. LV5: aplica a 5 m por tag arremessada, e a marca fica ilegível para Exegese alheia
 └─ Rede Compartilhada [passivo]: um praticante nomeado passa a ler as marcas do inscritor como se fossem dele. LV5: até três leitores
 
-O deslocamento pela marca é obra nomeada de compêndio, com portão duplo entre esta perícia e a perícia de Espaço-Tempo. Aqui vive a marca, não o salto.
+O deslocamento pela marca é obra nomeada de compêndio, com portão duplo entre esta perícia e a perícia de Passagem. Aqui vive a marca, não o salto.
 
-A Marca de Destino é a via de fórmula do Contrato de Âncora, Manual de Criação de Poderes, seção 3.3: legível por quem tenha o ofício, exposta a valor de oposição, sujeita a adulteração e a dissipação por terceiro, e sobrevivendo à queda de quem a inscreveu. Espaço-Tempo e Barreira a consomem sem redefini-la.
+A Marca de Destino é a via de fórmula do Contrato de Âncora, Manual de Criação de Poderes, seção 3.3: legível por quem tenha o ofício, exposta a valor de oposição, sujeita a adulteração e a dissipação por terceiro, e sobrevivendo à queda de quem a inscreveu. Passagem e Barreira a consomem sem redefini-la.
 
 NOTA: o grau mede amplitude e determina o valor da especialização; a complexidade mede profundidade e governa os verbos, sem entrar em teste.
 
@@ -293,7 +293,7 @@ RESOLVIDAS NESTA VERSÃO
 
 Compêndio de Fūinjutsu, publicado em v1 com quarenta e duas entradas e com os requisitos de caminho declarados por técnica.
 
-Perícia de Espaço-Tempo, publicada em v1. A marca segue vivendo aqui, no caminho Âncora; o salto e o portão de rank da Linhagem do Hiraishin vivem lá.
+Perícia de Passagem, publicada em v1, antes rotulada Espaço-Tempo. A marca segue vivendo aqui, no caminho Âncora; o salto e o portão de rank da Linhagem do Hiraishin vivem lá.
 
 Manual de Criação de Poderes v3.1, dono da família de magnitude Reemissão que Trovão Guia consome, seção 4.1. Não existe categoria de efeito com esse nome no manual; a interceptação e o reencaminhamento são mecânica de família, não de categoria, e a citação em Trovão Guia foi escrita conforme o manual publica.
 
