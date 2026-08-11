@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.susanoo
 title: "Susanoo (須佐能乎)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -13,6 +13,8 @@ source-file: Susanoo__1_.md
 Técnica de Dōjutsu · Mangekyō Sharingan · Capstone Uchiha
 
 Construção de chakra que envolve o usuário como defesa e plataforma de ataque, manifestada em estágios do esqueleto reflexo à entidade colossal.
+
+**Conformidade.** Este documento consome a categoria Construto do Manual de Criação de Poderes, seção 3.4, e as cinco regras daquele motor valem aqui sem redefinição: dois custos com a subida pagando a diferença, trava de sustento pelo Limite de Saída como única trava de recurso, pool próprio sem regeneração, herança de dano nas três direções e plataforma de acoplamento. O motor de núcleo foi abstraído do que este documento já validava, e por isso ele não precisou ser reemitido para alcançá-lo.
 
 ---
 
@@ -110,12 +112,14 @@ O estágio máximo acessível a um portador é governado pela sua maestria sobre
 
 | Maestria do Mangekyō | Estágio máximo acessível |
 |---|---|
-| Cru | Costelas e partes isoladas |
+| Cru | Esqueleto e partes isoladas |
 | Adepto | Humanoide completo |
 | Mestre | Armadura com armamento |
 | Mestre com Mangekyō Eterno ou pool externo equivalente | Completo |
 
-O acesso ao Completo é validado pela própria economia de chakra do portador. A ativação de 3.000 RC e a manutenção de 650 RC por turno excedem a Reserva e o Limite de Saída de um portador que não disponha do Limite de Saída ampliado do Mangekyō Eterno ou da reencarnação. Um portador que não alcança esses parâmetros não consegue ativar nem sustentar o Completo, ainda que possua a maestria Mestre. Esta é a única barreira ao Completo, e ela opera pelas regras de recurso do sistema sem exigir uma trava adicional.
+O Completo tem dois portões, e o portador precisa passar pelos dois. O primeiro é o portão de acesso do documento do Mangekyō Sharingan, que exige os dois eixos ao mesmo tempo, a maestria Mestre e o segundo eixo de poder, sem que um substitua o outro. O segundo é a economia de chakra: a ativação de 3.000 RC e a manutenção de 650 RC por turno excedem a Reserva e o Limite de Saída de portador sem Limite de Saída ampliado, e quem não alcança esses parâmetros não ativa nem sustenta o Completo ainda que passe no primeiro portão.
+
+A trava de recurso é a única trava que este documento acrescenta, conforme o motor de Construto da seção 3.4 do Manual de Criação de Poderes. O portão de acesso não é dele: pertence ao documento do dōjutsu, que é o dono da maestria e do que ela destrava.
 
 ---
 
@@ -143,17 +147,19 @@ Quando o portador possui acesso a outras camadas de poder que interagem com o Co
 |---|---|---|---|---|
 | Sasuke jounin | 875 | 2.211 | 442 (20%) | Armadura, poucos turnos |
 | Itachi | 792 | 1.900 | 380 (20%) | Armadura |
-| Sasuke com Eterno | 1.277 | 4.500 | 1.350 (30%) | Completo |
+| Sasuke com Eterno | 1.277 | 4.500 | 900 (20%) | Completo |
 | Saki, reencarnação de Indra | 1.452 | 5.000 | 1.500 (30%) | Completo |
 
 ¹ Estágio máximo que a economia de chakra do portador sustenta, independente da maestria, que impõe o seu próprio teto conforme a Progressão por Maestria.
+
+O portador com Eterno e sem reencarnação corre nos vinte por cento universais, e ainda assim sustenta o Completo, porque a manutenção de 650 cabe nos 900 da reserva dele. A reencarnação não é o que abre o Completo; é o que estica quantos turnos ele dura.
 
 ---
 
 ## Sinergias
 
 - **Reserva de Chakra alta:** amplia o número de turnos que cada estágio se sustenta, sendo o fator determinante para o uso prolongado dos estágios superiores.
-- **Limite de Saída ampliado:** a reencarnação e o Mangekyō Eterno elevam o Limite de Saída para trinta por cento, condição necessária para sustentar a manutenção do Completo.
+- **Limite de Saída ampliado:** a reencarnação eleva o Limite de Saída para trinta por cento, conforme o documento dela declara, e é o que sustenta a manutenção do Completo por mais de um punhado de turnos. O Mangekyō Eterno não move o Limite de Saída: o que ele entrega ao Susanoo é o portão de acesso ao Completo, e a economia dele corre nos vinte por cento universais.
 - **Ninjutsu canalizado:** o Susanoo pode conduzir técnicas de ninjutsu através da estrutura, amplificando o alcance e a plataforma de disparo do portador.
 - **Estado emocional intenso:** o vínculo com a Maldição do Ódio alimenta a manifestação e favorece o crescimento da construção nos momentos de maior tensão.
 
