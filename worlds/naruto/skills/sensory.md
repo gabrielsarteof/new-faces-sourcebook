@@ -433,7 +433,7 @@ Três migrações da Percepção aguardam confirmação. A antecipação contra 
 
 A régua de dificuldade do narrador continua pendente no Núcleo. Enquanto ela não existir, os limiares da Escala de Resolução são fixos e não arbitrados, e toda oposição corre contra teste declarado.
 
-**Errata a emitir no Manual de Criação de Perícias v7.** A seção 7 declara padrão de duas inclinações e teto de três, contra a seção 3.3 do Núcleo v2, que declara ausência de teto e manda a contagem sair da auditoria do domínio. O Núcleo vence. A mesma seção precisa registrar que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações.
+**Errata no Manual de Criação de Perícias v7: aplicada.** A seção 7 declarava padrão de duas inclinações e teto de três, contra a seção 3.3 do Núcleo v2, que declara ausência de teto e manda a contagem sair da auditoria do domínio. O Núcleo venceu por precedência de camada, e a v7.1 passou a derivar a contagem da auditoria do domínio, sem número padrão e sem teto, com a partição auditada por dois sinais de inflação. A mesma passada registrou que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito de caminho atravessa inclinações livremente. As quatro inclinações desta perícia eram conformes ao Núcleo desde a publicação e seguem sem rework.
 
 ---
 

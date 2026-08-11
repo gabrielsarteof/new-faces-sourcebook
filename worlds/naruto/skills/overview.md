@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v1. Camada de relação entre domínios.**
+**v2.1. Camada de relação entre domínios.**
 
 ---
 
@@ -232,12 +232,12 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Oito. Sete são de uma linha cada.
+Oito, das quais uma aplicada. Sete seguem abertas, seis de uma linha cada.
 
 | Errata | Documento |
 |---|---|
 | Integrar o Adendo da seção 4.1.3 ao corpo principal | Manual de Criação de Jutsus v2 |
-| Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações | Manual de Criação de Perícias v7, seção 7 |
+| ~~Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações~~ — **aplicada na v7.1** | Manual de Criação de Perícias v7, seção 7 |
 | Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um | Núcleo de Perícias v2, seção 1 |
 | Corrigir o apontamento de Eco de Presença, que exige o caminho Sinal | Genjutsu v1.1 |
 | Registrar o multiplicador de 65 do LV5 e a soma revogada pelo Apagamento no LV6 | Genjutsu v1.1 |
@@ -250,6 +250,8 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.1.** A segunda errata aberta foi aplicada. O Manual de Criação de Perícias subiu para v7.1 e revogou o teto de inclinações contra a seção 3.3 do Núcleo de Perícias v2, que vence por precedência de camada: a contagem passa a sair da auditoria do domínio, sem número padrão e sem teto, com a partição auditada por dois sinais de inflação. A mesma passada registrou que transcendência é camada à parte. As doze perícias publicadas seguem conformes e nenhuma entra em rework — a alteração remove um teto e não muda regra de valor, de camada ou de teste. Restam sete erratas abertas.
 
 **v2.** A categoria única Ninja se parte em três — Chakra ×1,4, Ninjutsu ×1,5 e Erudição ×1,7 — separadas por o que o praticante faz com a energia: opera, converte ou estuda. A definição normativa entrou no Manual de Economia de XP seção 6.1, e os doze documentos de perícia foram atualizados na linha de categoria. Nenhuma outra camada mudou: regentes, portões, inclinações e caminhos permanecem como estavam.
 

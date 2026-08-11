@@ -30,7 +30,7 @@ A natureza de afinidade é a primeira que o shinobi aprende e aquela que concent
 
 - **Pré-requisito:** Controle de Chakra, porque a perícia da natureza é dependente e se ancora nele.
 - **Atributo regente:** INT.
-- **Categoria:** Ninja (×1,5).
+- **Categoria:** Ninjutsu (×1,5).
 - **Portão de Reserva:** o custo efetivo da técnica cabe no Limite de Saída do shinobi, universal em 20% da RC por turno.
 - **Portão de Controle:** a perícia da natureza empregada atinge o nível mínimo do rank da técnica.
 
@@ -223,7 +223,7 @@ O multiplicador entra no motor de dano do Manual de Criação de Jutsus como mul
 
 ### Custo da perícia da natureza
 
-A régua abaixo é a da trilha Ninja do MANUAL_ECONOMIA_XP, com o multiplicador de categoria já aplicado.
+A régua abaixo é a da trilha Ninjutsu do MANUAL_ECONOMIA_XP, com o multiplicador de categoria já aplicado.
 
 | LV | XP do nível | XP acumulado |
 |---|---|---|
