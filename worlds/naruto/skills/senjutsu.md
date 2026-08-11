@@ -71,67 +71,93 @@ RÉGUAS TRANSVERSAIS
 
 Escritas uma vez para toda a perícia. Cada grandeza lê a especialização de um único caminho, e o praticante que não possui aquele caminho lê o teste geral. Os valores publicados assumem a largura mínima em que cada efeito pode existir, e o praticante de largura maior lê valor maior pela própria fórmula.
 
-RESERVA DE ENERGIA NATURAL. Pool externo à Reserva de Chakra, nasce vazio em toda cena e não se recupera com descanso. Toda operação desta perícia paga em REN, e a RC entra apenas onde o efeito declarar.
+RESERVA DE ENERGIA NATURAL
 
-TETO DE REN. Volume que o corpo comporta sem transmutar. Lê a especialização de Catalisador.
+Pool externo à Reserva de Chakra, nasce vazio em toda cena e não se recupera com descanso. Toda operação desta perícia paga em REN, e a RC entra apenas onde o efeito declarar.
+
+TETO DE REN
+
+Volume que o corpo comporta sem transmutar. Lê a especialização de Catalisador.
 
 teto = teste × 10
 
 Fora do caminho: 140 no LV1, 300 no LV2, 440 no LV3, 580 no LV4, 710 no LV5, 840 no LV6. Com Catalisador: 1.200 no LV4, 1.470 no LV5, 2.060 no LV6.
 
-ACÚMULO EM AMBIENTE VIVO. REN colhida por turno de imobilidade completa, em terra de densidade utilizável. Lê a especialização de Quietude.
+ACÚMULO EM AMBIENTE VIVO
+
+REN colhida por turno de imobilidade completa, em terra de densidade utilizável. Lê a especialização de Quietude.
 
 acúmulo = ⌊teste ÷ 1,5⌋
 
 Fora do caminho: 9 no LV1, 20 no LV2, 29 no LV3, 38 no LV4, 47 no LV5, 56 no LV6. Com Quietude: 74 no LV4, 92 no LV5, 130 no LV6. O pool cheio custa cerca de quinze turnos de imobilidade em qualquer nível, e é esse custo que a inclinação Colheita existe para atacar.
 
-ACÚMULO EM AMBIENTE POBRE. Campo arrasado, interior selado, cidade de pedra. Lê a especialização de Veio.
+ACÚMULO EM AMBIENTE POBRE
+
+Campo arrasado, interior selado, cidade de pedra. Lê a especialização de Veio.
 
 acúmulo pobre = ⌊teste ÷ 3⌋
 
 Sem o caminho, o ambiente pobre entrega um quarto da taxa de ambiente vivo, o que dá 9 no LV4. Com Veio: 38 no LV4, 47 no LV5, 67 no LV6. O praticante de Veio colhe em terreno estéril o que o praticante sem caminho colhe em terra viva.
 
-DRENO DE SUSTENTAÇÃO. REN gasta por turno com o modo de pé em combate. Fora de combate o gasto é um terço disso. Lê a especialização de Sustento.
+DRENO DE SUSTENTAÇÃO
+
+REN gasta por turno com o modo de pé em combate. Fora de combate o gasto é um terço disso. Lê a especialização de Sustento.
 
 dreno = ⌊25 − teste ÷ 8⌋, piso 5
 
 Fora do caminho: 23 no LV1, 21 no LV2, 19 no LV3, 17 no LV4, 16 no LV5, 14 no LV6. Com Sustento: 11 no LV4, 7 no LV5, 5 no LV6. O neutro em 25 é o gasto do corpo que não aprendeu a economizar, e o piso em 5 impede que o modo se torne gratuito.
 
-AMPLIFICAÇÃO FÍSICA. Reforço somado ao ativo de todo teste físico enquanto o modo estiver de pé. Lê a especialização de Vigor.
+AMPLIFICAÇÃO FÍSICA
+
+Reforço somado ao ativo de todo teste físico enquanto o modo estiver de pé. Lê a especialização de Vigor.
 
 reforço = ⌊teste ÷ 6⌋
 
 Fora do caminho: 2 no LV1, 5 no LV2, 7 no LV3, 9 no LV4, 11 no LV5, 14 no LV6. Com Vigor: 18 no LV4, 22 no LV5, 30 no LV6.
 
-ABSORÇÃO. Redução de dano por golpe recebido, ao custo de 10 REN por golpe. Lê a especialização de Couraça.
+ABSORÇÃO
+
+Redução de dano por golpe recebido, ao custo de 10 REN por golpe. Lê a especialização de Couraça.
 
 redução = ⌊teste ÷ 4⌋
 
 Fora do caminho: 14 no LV4, 17 no LV5, 21 no LV6. Com Couraça: 28 no LV4, 34 no LV5, 47 no LV6.
 
-ALCANCE DO ENVOLTÓRIO. Distância em que o golpe parte da energia e não da pele. Lê a especialização de Envoltório.
+ALCANCE DO ENVOLTÓRIO
+
+Distância em que o golpe parte da energia e não da pele. Lê a especialização de Envoltório.
 
 alcance = ⌊teste ÷ 20⌋ metros
 
 Com Envoltório: 5 m no LV4, 7 m no LV5, 9 m no LV6. O praticante sem o caminho golpeia a partir do corpo.
 
-VOLUME TRANSFERÍVEL. REN cedida por ato a outro corpo. Lê a especialização de Partilha.
+VOLUME TRANSFERÍVEL
+
+REN cedida por ato a outro corpo. Lê a especialização de Partilha.
 
 volume = teste × 2
 
 Com Partilha: 224 no LV4, 276 no LV5, 360 no LV6.
 
-RECUPERAÇÃO EM TERRA VIVA. REN reposta por hora de repouso em terra sagrada, floresta antiga ou sítio de densidade viva. Lê a especialização de Enraizamento.
+RECUPERAÇÃO EM TERRA VIVA
+
+REN reposta por hora de repouso em terra sagrada, floresta antiga ou sítio de densidade viva. Lê a especialização de Enraizamento.
 
 recuperação = ⌊teste ÷ 2⌋
 
 Com Enraizamento: 58 no LV4, 71 no LV5, 92 no LV6.
 
-MORDENTE. Elevação categórica do dano contra alvo cujo corpo é feito de chakra, e remoção da propriedade de intangibilidade dele contra o praticante. Lê a especialização de Mordente, e resolve por categoria em vez de número.
+MORDENTE
 
-EXPOSIÇÃO. Durante a absorção o praticante não executa ação alguma, e todo ataque contra ele resolve sem oposição de esquiva. A interrupção forçada custa metade da REN acumulada naquele bloco de absorção.
+Elevação categórica do dano contra alvo cujo corpo é feito de chakra, e remoção da propriedade de intangibilidade dele contra o praticante. Lê a especialização de Mordente, e resolve por categoria em vez de número.
 
-SATURAÇÃO. O praticante pode acumular acima do teto por decisão própria, e o excesso transmuta o corpo. A cada bloco de excesso igual ao teste de Controle de Chakra dele, um grau de Petrificação se instala, garantido e sem teste de resistência, porque a decisão de ultrapassar o teto já foi o teste. Esta perícia é a fonte de processo interno que o Sistema de Efeitos de Status admite na entrada da condição, e é dela a obrigação de declarar a via de reversão.
+EXPOSIÇÃO
+
+Durante a absorção o praticante não executa ação alguma, e todo ataque contra ele resolve sem oposição de esquiva. A interrupção forçada custa metade da REN acumulada naquele bloco de absorção.
+
+SATURAÇÃO
+
+O praticante pode acumular acima do teto por decisão própria, e o excesso transmuta o corpo. A cada bloco de excesso igual ao teste de Controle de Chakra dele, um grau de Petrificação se instala, garantido e sem teste de resistência, porque a decisão de ultrapassar o teto já foi o teste. Esta perícia é a fonte de processo interno que o Sistema de Efeitos de Status admite na entrada da condição, e é dela a obrigação de declarar a via de reversão.
 
 A via é o instrumento da espécie do pacto, empunhado por terceiro. Um aliado munido dele retira um grau por ação padrão, em qualquer grau da condição, e é a única via convencional que alcança o Grave e o Crítico. A terra viva é a segunda via, e responde pelo caminho Enraizamento no ritmo que aquele caminho declara.
 
