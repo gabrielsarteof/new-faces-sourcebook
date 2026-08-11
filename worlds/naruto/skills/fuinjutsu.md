@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.fuinjutsu
 title: "Fūinjutsu"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Fuinjutsu_v1.md
 ---
 
-FŪINJUTSU (封印術) — v1
+FŪINJUTSU (封印術) — v1.1
 
 Atributo: INT
 Categoria: Erudição (×1,7)
@@ -19,7 +19,9 @@ O Fūinjutsu é a arte de codificar um efeito em escrita e deixar que a escrita 
 
 A perícia é a única do sistema cujo produto sobrevive ao executor. Um selo escrito hoje dispara daqui a um ano contra quem cruzar a porta, e por isso a mesa lê o Fūinjutsu em dois tempos: o tempo em que se escreve e o tempo em que se paga. O Manual de Criação de Jutsus declara os dois custos separados de todo selo, a preparação paga na inscrição e o acionamento pago no disparo, e esta perícia consome essa regra sem redefini-la.
 
-O território termina onde o ofício alheio começa. A barreira erguida no espaço pertence à perícia de Barreira, e a interseção que o cânone chama de Fūin Kekkai nasce como técnica de compêndio com portão duplo entre as duas. O depósito de chakra próprio em selo corporal permanece em Controle de Chakra, pela fronteira declarada de que o que é do praticante se guarda por moldagem e o que é alheio se toma por selo. A defesa do próprio circuito contra intrusão permanece na Contenção de Controle de Chakra. As Correntes Adamantinas de Selamento são Hiden do clã Uzumaki. O Selo dos Oito Trigramas e o patamar de massa em escala de bijū exigem o Repertório do Selamento, caminho exclusivo do mesmo clã. Os estados de Selamento, Supressão e Dor leem o Sistema de Efeitos de Status. As técnicas nomeadas vivem no compêndio, e o deslocamento por marca permanece obra de compêndio com a coluna de Espaço-Tempo ainda pendente.
+O território termina onde o ofício alheio começa. A barreira erguida no espaço pertence à perícia de Barreira, e a interseção que o cânone chama de Fūin Kekkai nasce como técnica de compêndio com portão duplo entre as duas. O depósito de chakra próprio em selo corporal permanece em Controle de Chakra, pela fronteira declarada de que o que é do praticante se guarda por moldagem e o que é alheio se toma por selo. A defesa do próprio circuito contra intrusão permanece na Contenção de Controle de Chakra. As Correntes Adamantinas de Selamento são Hiden do clã Uzumaki. O Selo dos Oito Trigramas e o patamar de massa em escala de bijū exigem o Repertório do Selamento, caminho exclusivo do mesmo clã. Os estados de Selamento, Supressão e Dor leem o Sistema de Efeitos de Status. As técnicas nomeadas vivem no Compêndio de Fūinjutsu, e o deslocamento por marca vive lá como categoria própria, com a coluna de Espaço-Tempo declarada por nome e o portão publicado antes de a perícia existir.
+
+Duas obras canônicas permanecem inteiras dentro desta perícia e não recebem entrada de compêndio, porque a competência que elas nomeiam já é entregue aqui sem excedente algum a publicar. O Fūinjutsu: Kai é o comando de liberação do LV1. O Hiraishin: Yūrai é a transcendência Trovão Guia. Na direção oposta, todo efeito de caminho desta perícia entrega o verbo genérico sob nome descritivo, e a técnica canônica que compartilha o mesmo mecanismo vive no compêndio declarando o que acrescenta ao verbo, conforme a Regra da Técnica Nomeada do Manual de Criação de Perícias v7. A Errata A1 aplicou essa regra aos dois efeitos que carregavam nome canônico literal.
 
 A fronteira com a Liberação de Yin se lê por um teste único. Yin cria forma onde não havia nada, e o efeito cessa quando o executor deixa de sustentá-lo. Fūinjutsu escreve sobre o que já existe, e o efeito persiste porque a fórmula está no mundo, legível, adulterável e apagável por terceiros. O eixo de Yin que o cânone atribui ao selamento é registro histórico e não gera requisito: a perícia não exige afinidade de Yin nem entra no Eixo do Onmyōton.
 
@@ -136,7 +138,7 @@ INCLINAÇÃO IMPOSIÇÃO
 
 CERCEAMENTO (grau 3, complexidade 4) — 38
 Fechar o acesso de um portador vivo ao próprio chakra.
-└─ Selo dos Cinco Elementos [ativado, ação padrão, contato, 120 RC]: oposição do teste contra VONTADE somada a INT do alvo, com os graus lidos do Sistema de Efeitos de Status pela margem. Até 19 aplica Supressão Moderada, de 20 a 39 aplica Supressão Grave, e de 40 em diante aplica Selamento Grave, que deixa o alvo combatente puramente físico. Persiste até remoção deliberada. LV5: aplica por tag arremessada a 5 m, e a margem de 60 em diante alcança Selamento Crítico
+└─ Vedação dos Cinco Selos [ativado, ação padrão, contato, 120 RC]: oposição do teste contra VONTADE somada a INT do alvo, com os graus lidos do Sistema de Efeitos de Status pela margem. Até 19 aplica Supressão Moderada, de 20 a 39 aplica Supressão Grave, e de 40 em diante aplica Selamento Grave, que deixa o alvo combatente puramente físico. Persiste até remoção deliberada. LV5: aplica por tag arremessada a 5 m, e a margem de 60 em diante alcança Selamento Crítico
 └─ Estrangulamento Seletivo [ativado, ação padrão, contato, 90 RC]: veda uma única fonte declarada no lugar do acesso inteiro, uma natureza elemental, um dōjutsu, uma perícia nomeada ou o pool externo de um jinchūriki, com oposição idêntica e bônus de 15 ao inscritor pela redução de escopo. O alvo conserva o resto e só percebe a vedação ao tentar usar o que foi fechado. LV5: duas fontes na mesma inscrição, e a tentativa de uso devolve Exaustão de primeiro grau
 
 COERÇÃO (grau 4, complexidade 5) — 42
@@ -164,7 +166,7 @@ Ler, adulterar e desfazer a fórmula de outro.
 └─ Assinatura de Traço [passivo]: identifica autor, escola de origem e idade aproximada de qualquer selo examinado, e reconhece a mesma mão em outro selo depois. LV5: deduz o efeito de fórmula inédita sem tocá-la e percebe selo oculto sob camada
 └─ Desequilíbrio [ativado, ação padrão, contato, 80 RC]: sobrepõe fórmula de paridade oposta ao selo alvo, com oposição contra o teste registrado na ficha. O sucesso degrada um grau ou zera a válvula, e margem de 30 ou mais rompe. LV5: sobrepõe a 5 m, e o portador não percebe a adulteração
 └─ Kai Superior [ativado, ação padrão, 50 RC]: remove selo alheio, e a falha deixa de disparar o gatilho independentemente da margem. LV5: remove contenção e coerção, inclusive cláusula póstuma, devolvendo ao portador o que o selo retinha
-└─ Selo de Contrato [ativado, ação padrão, contato, 70 RC]: rompe o vínculo entre um invocador e a criatura invocada, que deixa de responder ao chamado, sem que comando algum passe ao inscritor. Oposição contra o teste do invocador, com bônus de 25 quando a criatura está sob coação e penalidade de 25 quando o laço é voluntário. LV5: rompe o vínculo entre um jinchūriki e o comando externo imposto sobre a besta que ele carrega
+└─ Rompimento de Vínculo [ativado, ação padrão, contato, 70 RC]: rompe o vínculo entre um invocador e a criatura invocada, que deixa de responder ao chamado, sem que comando algum passe ao inscritor. Oposição contra o teste do invocador, com bônus de 25 quando a criatura está sob coação e penalidade de 25 quando o laço é voluntário. LV5: rompe o vínculo entre um jinchūriki e o comando externo imposto sobre a besta que ele carrega
 
 ARMADILHA (grau 3, complexidade 3) — 38
 Pôr o disparo do selo fora da presença de quem o escreveu.
@@ -206,7 +208,7 @@ Revoga: ímpar sobre par cria desequilíbrio.
 └─ Assinatura de Traço LV6: lê a intenção de quem escreveu, não apenas a autoria
 └─ Desequilíbrio LV6: rompe em vez de degradar, com margem zero bastando
 └─ Kai Superior LV6: remove selo por observação a 10 m, sem contato
-└─ Selo de Contrato LV6: o rompimento dispensa oposição, e o contrato do próprio portador não pode ser rompido por selo algum
+└─ Rompimento de Vínculo LV6: o rompimento dispensa oposição, e o contrato do próprio portador não pode ser rompido por selo algum
 
 MÃO SEM TEMPO (elevação de escopo · Traço)
 Revoga: a régua de inscrição.
@@ -261,11 +263,21 @@ Fontes descartadas com registro: fóruns de sistemas de RPG derivados, agregador
 
 Proposta: todos os valores numéricos de efeito, as réguas de capacidade, vagas e inscrição, os custos de RC e as capacidades das transcendências.
 
+ERRATA A1 — RENOMEAÇÃO POR REGRA DA TÉCNICA NOMEADA
+
+Dois efeitos de caminho carregavam nome de técnica canônica dentro da perícia, contra a Regra da Técnica Nomeada. O verbo permanece idêntico e apenas o rótulo muda, e nenhum valor, custo ou resolução foi alterado.
+
+Selo dos Cinco Elementos, em Cerceamento, passa a Vedação dos Cinco Selos. O nome Gogyō Fūin fica livre para a entrada de rank A do compêndio.
+
+Selo de Contrato, em Exegese, passa a Rompimento de Vínculo, na aquisição e na evolução de LV6. O nome Keiyaku Fūin fica livre para o compêndio.
+
+Quatro efeitos compartilham mecanismo com técnica canônica sem compartilhar nome e permanecem como estão: Captura de Técnica contra o Fūka Hōin, Contenção do Mal contra o Fūja Hōin, Cláusula Póstuma contra o Ura Shishō Fūin e Trovão Guia contra o Hiraishin: Yūrai. Nos três primeiros a entrada de compêndio declara o excedente sobre o verbo. No quarto a obra permanece integralmente aqui.
+
 PENDÊNCIAS
 
-Perícia de Barreira, regente SAB, dona do inventário recusado por esta auditoria: Barreira de Cinco Selos, Formação das Quatro Chamas Violetas, barreiras de detecção de perímetro, barreiras auto-reparáveis e a barreira do Santuário Naka. A técnica Fūin Kekkai nasce depois, com portão duplo.
+Perícia de Barreira, regente SAB, dona do inventário recusado por esta auditoria: Barreira de Cinco Selos, Formação das Quatro Chamas Violetas, barreiras de detecção de perímetro, barreiras auto-reparáveis e a barreira do Santuário Naka. O Fūin Kekkai nasceu como a entrada Barreira de Selamento dos Quatro Cantos do compêndio, com portão duplo declarado e pendência de perícia registrada na própria linha de requisitos.
 
-Perícia de Espaço-Tempo, coluna par do portão do Hiraishin no Jutsu. Marca e salto permanecem separados até que ela exista.
+Perícia de Espaço-Tempo, coluna de magnitude da categoria da Linhagem do Hiraishin. A marca vive aqui, no caminho Âncora, e o salto vive no compêndio com o portão de rank já publicado pela regra universal do Manual de Requisitos de Técnica. As quatro entradas da categoria permanecem inexecutáveis até que a perícia exista.
 
 Manual de Criação de Poderes, dono da categoria de efeito de reemissão consumida por Trovão Guia.
 
@@ -275,11 +287,15 @@ Transcendências de Receptáculo e Apreensão, aguardando âncora canônica.
 
 Passada de nomeação deity-first das transcendências, hoje em nome descritivo, alinhada à mesma pendência registrada em Controle de Chakra.
 
-Compêndio de Fūinjutsu, com os requisitos de caminho declarados por técnica.
+Documento de Ferramentas Selantes, nascido por cedência deste compêndio. As Cinco Ferramentas do Tesouro selam por propriedade do objeto e por gatilho verbal, sem cobrar perícia de quem as empunha, e por isso ficam fora do domínio.
+
+RESOLVIDAS NESTA VERSÃO
+
+Compêndio de Fūinjutsu, publicado em v1 com quarenta e duas entradas e com os requisitos de caminho declarados por técnica.
 
 FILA DE ERRATA
 
-Manual de Criação de Jutsus v2, seção 7.3: vagas de selo preparado, ações de referência por família de selo e a régua de inscrição como consumidora do custo de preparação. Template de Documento de Técnica v3: ficha do selo com autor, teste registrado no ato da inscrição, gatilho declarado, custo de acionamento e requisito de caminho. Sistema de Efeitos de Status: leitura de grau por margem no Selo dos Cinco Elementos e no efeito de Dor da Cláusula. Uzumaki Documento Final: o Repertório do Selamento aponta esta perícia e o caminho exclusivo se declara contra a inclinação Confinamento. Clã Hyūga: o Selo do Pássaro Enjaulado aponta o caminho Coerção como requisito. Liberação de Yin v3: linha de fronteira declarada com esta perícia. Controle de Chakra: a Reserva Diferida se declara como chakra próprio, fechando a fronteira pelo outro lado. Compêndios: linhas de requisito de caminho para toda técnica de selamento.
+Manual de Criação de Jutsus v2, seção 7.3: vagas de selo preparado, ações de referência por família de selo e a régua de inscrição como consumidora do custo de preparação. A seção permanece citada por nome na entrada do Hiraishin e precisa sobreviver à próxima revisão. Template de Documento de Técnica v3: ficha do selo com autor, teste registrado no ato da inscrição, gatilho declarado, custo de acionamento e requisito de caminho. Sistema de Efeitos de Status: leitura de grau por margem na Vedação dos Cinco Selos e no efeito de Dor da Cláusula. Uzumaki Documento Final: o Repertório do Selamento aponta esta perícia e o caminho exclusivo se declara contra a inclinação Confinamento, e o brasão do clã se registra como hélice, aplicado na v1.1 daquele documento. Clã Hyūga: o Selo do Pássaro Enjaulado aponta o caminho Coerção como requisito. Liberação de Yin v3: linha de fronteira declarada com esta perícia. Controle de Chakra: a Reserva Diferida se declara como chakra próprio, fechando a fronteira pelo outro lado. Norma de Produção de Compêndios v2.2, seção 13: o Compêndio de Fūinjutsu entra no estado de conformidade como o primeiro nascido sob a norma. Compêndios: linhas de requisito de caminho para toda técnica de selamento.
 
 ═══════════════════════════════════════════════════════════════════
 

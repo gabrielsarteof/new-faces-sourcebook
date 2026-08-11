@@ -1,7 +1,7 @@
 ---
 id: naruto.clan.uzumaki
 title: "Uzumaki — A Estirpe da Longevidade"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: clan
@@ -17,7 +17,9 @@ source-file: content/worlds/naruto/clans/uzumaki/_index.md
 
 ## Sobre o Clã Uzumaki
 
-O Clã Uzumaki descende de Asura Ōtsutsuki, filho mais novo do Sábio dos Seis Caminhos, e compartilha por essa linhagem um parentesco de sangue distante com o Clã Senju. Fundaram e governaram Uzushiogakure, a vila shinobi do País dos Redemoinhos, erguida sobre uma força vital tão duradoura que rendeu à vila o título de Vila da Longevidade. A aliança entre Uzumaki e Senju se consolidou séculos depois no casamento entre Mito Uzumaki e Hashirama Senju, primeiro Hokage de Konohagakure. Em tributo a essa união, o símbolo em espiral do clã passou a estampar os coletes de todo chunin e jonin de Konoha, marca que a vila carrega até hoje.
+O Clã Uzumaki descende de Asura Ōtsutsuki, filho mais novo do Sábio dos Seis Caminhos, e compartilha por essa linhagem um parentesco de sangue distante com o Clã Senju. Fundaram e governaram Uzushiogakure, a vila shinobi do País dos Redemoinhos, erguida sobre uma força vital tão duradoura que rendeu à vila o título de Vila da Longevidade. A aliança entre Uzumaki e Senju se consolidou séculos depois no casamento entre Mito Uzumaki e Hashirama Senju, primeiro Hokage de Konohagakure. Em tributo a essa união, o brasão do clã passou a estampar os coletes de todo chunin e jonin de Konoha, marca que a vila carrega até hoje.
+
+O brasão que o mundo inteiro chama de espiral é uma hélice. Mito ensinou a distinção a Kushina, e ela é a única lição de heráldica que a linhagem transmitiu de boca em boca: a linha gira em círculo e muda de altura ao mesmo tempo, e parece espiral apenas porque a superfície onde ela é bordada tem duas dimensões. O giro corre para dentro, e é isso que o desenho diz. Uma volta que se fecha sobre si mesma sem voltar ao ponto de partida descreve exatamente o que uma fórmula de selamento faz com aquilo que ela prende, e o clã carregou a própria arte no peito por gerações enquanto as nações vizinhas liam ali apenas um enfeite.
 
 Uzushiogakure jamais perdeu uma guerra por falta de força. Perdeu por excesso de reputação. O domínio do clã sobre o fuinjutsu alcançou um nível que nenhuma outra nação sabia igualar, e foi esse mesmo domínio que despertou o medo de uma coalizão de vilas rivais, decidida a destruir Uzushiogakure antes que seu poder de selamento se tornasse impossível de conter. A vila caiu em tempo de guerra, e os sobreviventes se espalharam pelo mundo shinobi como refugiados, cada um levando consigo o que restava do nome Uzumaki para terras que não eram as suas.
 
