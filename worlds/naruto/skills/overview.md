@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.5. Camada de relação entre domínios.**
+**v2.6. Camada de relação entre domínios.**
 
 ---
 
@@ -44,8 +44,8 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Liberação de Yang | v4.1 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
-| Fūinjutsu | v1.3 | INT | Erudição ×1,7 |
-| Espaço-Tempo | v1 | INT | Erudição ×1,7 |
+| Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
+| Passagem | v1 | INT | Erudição ×1,7 |
 
 ### Por que três categorias e não uma
 
@@ -86,7 +86,7 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 
 O Núcleo de Perícias, seção 1, exige regentes distintos entre domínios vizinhos comprados juntos, para impedir que um único atributo alto destrave famílias inteiras de competência. Dez perícias em INT exigem que essa exigência seja lida com precisão.
 
-**A exposição é menor que a contagem.** Genjutsu exige Controle de Chakra em nível não inferior ao próprio, e Fūinjutsu o exige em nível não inferior ao próprio menos um. Nenhuma das duas se destrava por INT sozinho, porque SAB precisa acompanhar. A independência que a regra protege já está garantida ali, por outro instrumento. A décima perícia, Espaço-Tempo, entrou no eixo de ofício sob a mesma exigência cruzada de Controle de Chakra que já protege Fūinjutsu, em nível não inferior ao próprio menos um, de modo que a exposição real não cresceu junto com a contagem.
+**A exposição é menor que a contagem.** Genjutsu exige Controle de Chakra em nível não inferior ao próprio, e Fūinjutsu o exige em nível não inferior ao próprio menos um. Nenhuma das duas se destrava por INT sozinho, porque SAB precisa acompanhar. A independência que a regra protege já está garantida ali, por outro instrumento. A décima perícia, Passagem, entrou no eixo de ofício sob a mesma exigência cruzada de Controle de Chakra que já protege Fūinjutsu, em nível não inferior ao próprio menos um, de modo que a exposição real não cresceu junto com a contagem.
 
 **Os cinco elementos e a Liberação de Yin são o mesmo ato com matéria diferente.** Separá-los por atributo produziria distinção arbitrária entre competências que a obra trata como uma só disciplina, e o portão duplo contra Controle de Chakra já mantém a independência entre a magnitude e a precisão.
 
@@ -106,7 +106,7 @@ Agrupamentos de compra conjunta com frequência alta. É a tabela que torna o co
 
 **Eixo de informação.** Sensoriamento, Percepção e Controle de Chakra. Regentes PRE, devido e SAB.
 
-**Eixo de ofício.** Fūinjutsu, Controle de Chakra, Barreira e Espaço-Tempo. Regentes INT, SAB, devido e INT.
+**Eixo de ofício.** Fūinjutsu, Controle de Chakra, Barreira e Passagem. Regentes INT, SAB, devido e INT.
 
 **Eixo de engano.** Genjutsu, Controle de Chakra e Liberação de Yin. Regentes INT, SAB e INT.
 
@@ -148,7 +148,7 @@ A resistência à entrada mora em dois lugares ao mesmo tempo, aqui e na Conten�
 | Território | Dono |
 |---|---|
 | Barreira erguida no espaço | Barreira, devida |
-| Deslocamento por marca | Espaço-Tempo, honrada |
+| Deslocamento por marca | Passagem, honrada |
 | Depósito de chakra próprio em selo corporal | Controle de Chakra |
 | Correntes Adamantinas e Repertório do Selamento | documento do clã Uzumaki |
 
@@ -189,11 +189,11 @@ Pares em que duas perícias governam a mesma capacidade por eixos independentes,
 | Genjutsu | Controle de Chakra, em nível não inferior ao próprio | publicado |
 | Fūinjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
 | Fūinjutsu | Barreira, no Fūin Kekkai | devido |
-| Fūinjutsu | Espaço-Tempo, no deslocamento por marca | publicado |
+| Fūinjutsu | Passagem, no deslocamento por marca | publicado |
 
 O Controle de Chakra é a coluna de precisão de todo o eixo do chakra. Nenhum par publicado do portão duplo clássico corre entre duas perícias de magnitude.
 
-**Uma segunda espécie de par.** O portão duplo clássico governa uma capacidade por dois eixos independentes, um de magnitude e outro de precisão. Existe uma segunda espécie, o portão de obra, em que cada perícia possui metade de uma técnica nomeada em vez de um eixo próprio sobre a mesma capacidade: uma perícia lê o rank e publica o verbo definidor, e a companheira cobra apenas a parte que lhe cabe. O par do Hiraishin, entre Fūinjutsu e Espaço-Tempo, pertence a essa espécie e está publicado dos dois lados. O par do Fūin Kekkai, entre Fūinjutsu e Barreira, pertence à mesma espécie e segue devido, porque a Barreira ainda não existe.
+**Uma segunda espécie de par.** O portão duplo clássico governa uma capacidade por dois eixos independentes, um de magnitude e outro de precisão. Existe uma segunda espécie, o portão de obra, em que cada perícia possui metade de uma técnica nomeada em vez de um eixo próprio sobre a mesma capacidade: uma perícia lê o rank e publica o verbo definidor, e a companheira cobra apenas a parte que lhe cabe. O par do Hiraishin, entre Fūinjutsu e Passagem, pertence a essa espécie e está publicado dos dois lados. O par do Fūin Kekkai, entre Fūinjutsu e Barreira, pertence à mesma espécie e segue devido, porque a Barreira ainda não existe.
 
 ---
 
@@ -227,7 +227,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Sensoriamento v2.1 | conforme |
 | Genjutsu v1.2 | conforme, com uma ressalva de vocabulário |
 | Fūinjutsu v1.3 | conforme, com a mesma ressalva |
-| Espaço-Tempo v1 | conforme |
+| Passagem v1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha ou criando o dono dela.
 
@@ -254,11 +254,13 @@ Somente a última depende de material que não está na sessão.
 
 ## 9. Registro de Alterações
 
+**v2.6.** A perícia publicada na v2.3 como Espaço-Tempo é renomeada para Passagem. O rótulo antigo nomeava a categoria de jutsu do cânone e não o ofício, na mesma armadilha que mantém Taijutsu fora da lista de perícias; o nome novo cobre as duas inclinações sem privilegiar nenhuma e fecha o par com Barreira, a coluna que veda. Toda referência à perícia neste documento passa a dizer Passagem, incluindo dentro do texto histórico da v2.3; a categoria canônica Ninjutsu de Espaço-Tempo, citada por outros documentos, não muda, porque nomeia a obra e não o ofício adquirível. Nenhum valor, portão ou régua é alterado por esta passada.
+
 **v2.5.** O Manual de Criação de Poderes subiu para v3.2, com o Contrato de Âncora nascendo dentro da categoria Mobilidade e a categoria Interceptação nascendo no Contexto C. Controle de Chakra, v3.2, passou a declarar a via de impregnação do contrato, território que já era seu na prática e nunca tinha sido escrito: a marca sem fórmula, invisível ao selamento, que cai com quem a fez. Fūinjutsu, v1.3, declarou a Marca de Destino como a via de fórmula do mesmo contrato, e atualizou a citação de Trovão Guia para nomear a categoria Interceptação ao lado da família Reemissão que já citava. As quatro linhas correspondentes do Registro de Regentes e do Registro de Conformidade são corrigidas na mesma passada; a de Controle de Chakra vinha de v2 e v3, uma defasagem anterior a esta série de atualizações.
 
 **v2.4.** Quatro perícias citaram, pela primeira vez, categoria ou família da camada de núcleo que cada uma já sustentava sozinha desde antes de o Manual de Criação de Poderes v3.1 existir: Genjutsu e o Motor de Resistência, Liberação de Yang e a família Refluxo, Sensoriamento e a categoria Percepção, e Fūinjutsu e a família Reemissão em Trovão Guia. Nenhum valor mudou em nenhuma das quatro. Este registro atualiza as versões correspondentes no Registro de Regentes e no Registro de Conformidade: Genjutsu para v1.2, Fūinjutsu para v1.2, Liberação de Yang para v4.1, Sensoriamento para v2.1.
 
-**v2.3.** A Perícia de Espaço-Tempo v1 nasceu e sai da Fila de Nascimento, entrando conforme no Registro de Conformidade. O eixo INT passa de nove para dez perícias, com a exposição real sustentada pela mesma exigência cruzada de Controle de Chakra que já protege Fūinjutsu, em nível não inferior ao próprio menos um. O eixo de ofício ganha o quarto domínio no Registro de Vizinhança. No Registro de Fronteira, a cedência do deslocamento por marca passa de devida a honrada. No Registro de Portão Duplo, o par entre Fūinjutsu e Espaço-Tempo passa de devido a publicado, e a tabela ganha a nota sobre a segunda espécie de par, o portão de obra, que o par do Hiraishin e o par do Fūin Kekkai compartilham. Nenhuma perícia publicada muda de regente, categoria ou custo.
+**v2.3.** A Perícia de Passagem v1 nasceu e sai da Fila de Nascimento, entrando conforme no Registro de Conformidade. O eixo INT passa de nove para dez perícias, com a exposição real sustentada pela mesma exigência cruzada de Controle de Chakra que já protege Fūinjutsu, em nível não inferior ao próprio menos um. O eixo de ofício ganha o quarto domínio no Registro de Vizinhança. No Registro de Fronteira, a cedência do deslocamento por marca passa de devida a honrada. No Registro de Portão Duplo, o par entre Fūinjutsu e Passagem passa de devido a publicado, e a tabela ganha a nota sobre a segunda espécie de par, o portão de obra, que o par do Hiraishin e o par do Fūin Kekkai compartilham. Nenhuma perícia publicada muda de regente, categoria ou custo.
 
 **v2.2.** A primeira errata é marcada como aplicada, e a marcação apenas reconhece o que já estava feito: o Adendo da seção 4.1.3 entrou no corpo do Manual de Criação de Jutsus na v2.3 daquele documento, e o arquivo do adendo foi removido do corpus. Restam seis abertas. Na mesma passada, o Susanoo perdeu a saída "ou pool externo equivalente" para o Corpo Completo, que contradizia o documento do Mangekyō Sharingan, dono do acesso ao dōjutsu.
 

@@ -757,8 +757,8 @@ O Manual de Criação de Poderes publica doze pontos de extensão. Esta seção 
 | Réguas de Percepção | cobertura por custo de tempo, atenuação por meio e resolução por objeto de leitura | Perícia de Sensoriamento |
 | Sistema de status | condições, graus e a escada de severidade que o Refluxo paga | Sistema de Efeitos de Status |
 | Correspondência de escala | ranks E a Kinjutsu contra as escalas de Utilidade a Transcendente | Seção 1.1 deste manual |
-| Âncora | via de fórmula é o jutsu-shiki inscrito, via de impregnação é o símbolo em ferramenta própria; as operações contra âncora de fórmula são as do ofício de selamento | Perícia de Fūinjutsu e Perícia de Espaço-Tempo |
-| Estrutura de vazios | adotada. Cada técnica de travessia abre vazio próprio, e a fronteira erguida em um vazio não se estende sobre outro | Perícia de Espaço-Tempo e Perícia de Barreira |
+| Âncora | via de fórmula é o jutsu-shiki inscrito, via de impregnação é o símbolo em ferramenta própria; as operações contra âncora de fórmula são as do ofício de selamento | Perícia de Fūinjutsu e Perícia de Passagem |
+| Estrutura de vazios | adotada. Cada técnica de travessia abre vazio próprio, e a fronteira erguida em um vazio não se estende sobre outro | Perícia de Passagem e Perícia de Barreira |
 
 Os doze pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental, que publica a tabela de multiplicadores por natureza na seção de Tipos Elementais daquele documento, de modo que o slot está apontado e cheio e jutsu elemental novo fecha validação.
 
@@ -768,7 +768,7 @@ Os doze pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental
 
 **v2.5.** Alinhamento ao Manual de Criação de Poderes v3.2. Chegou um documento se declarando v2.3 e citando o manual de núcleo em v3.2, mas ele descendia apenas da linha de realinhamento ao núcleo que esta versão já havia absorvido na v2.4 — não conhecia a Seção 2.8, Kyūinjutsu, nem a Seção 4.1.3, Estimativa de XP sem RC, ambas de uma segunda linha reunida naquela versão. É a mesma colisão de numeração que gerou a v2.4, uma geração adiante: duas linhas de trabalho, um número de versão, cada uma cega para o que a outra carregava. Nada daquele documento substituiu texto algum aqui; apenas o que ele acrescentava de fato ao alinhamento com o núcleo entrou.
 
-Do que entrou: as categorias do manual de núcleo passaram de quatorze para quinze, com a categoria Interceptação separando o verbo de tomar efeito alheio em trânsito das famílias de cálculo que o computam. O registro de instâncias, Seção 10, ganhou as duas linhas dos pontos de extensão novos daquela versão do núcleo, Âncora e Estrutura de vazios, preenchidas pela Perícia de Fūinjutsu, pela Perícia de Espaço-Tempo e pela Perícia de Barreira. A compressão de limiar e a fórmula de dois termos, já reapresentadas como instância na v2.4, não mudam, porque a v3.2 do núcleo não tocou nelas.
+Do que entrou: as categorias do manual de núcleo passaram de quatorze para quinze, com a categoria Interceptação separando o verbo de tomar efeito alheio em trânsito das famílias de cálculo que o computam. O registro de instâncias, Seção 10, ganhou as duas linhas dos pontos de extensão novos daquela versão do núcleo, Âncora e Estrutura de vazios, preenchidas pela Perícia de Fūinjutsu, pela Perícia de Passagem e pela Perícia de Barreira. A compressão de limiar e a fórmula de dois termos, já reapresentadas como instância na v2.4, não mudam, porque a v3.2 do núcleo não tocou nelas.
 
 **v2.4.** Alinhamento ao Manual de Criação de Poderes v3.1, e reunião de duas linhas de trabalho que corriam em paralelo sob o mesmo número de versão.
 
