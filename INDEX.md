@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 114 documentos · 13 de núcleo · 101 de cenário
+**Total:** 115 documentos · 13 de núcleo · 102 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -117,6 +117,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
+| [Naturezas de Chakra na Criação de Personagem](worlds/naruto/character-creation/chakra-nature-selection.md) | `naruto.character-creation.chakra-nature` | 1 | system | final |
 | [Criação de Personagem — Naruto](worlds/naruto/character-creation/overview.md) | `naruto.character-creation.overview` | 1 | system | final |
 
 ## Naruto · Clãs e linhagens
@@ -272,7 +273,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**51 alvos distintos, em 57 referências.**
+**50 alvos distintos, em 56 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -283,7 +284,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/jujutsu/heart/cursed-energy-fundamentals.md` — citado em worlds/jujutsu/heart/overview.md
 - `worlds/jujutsu/heart/sorcerer-grades.md` — citado em worlds/jujutsu/heart/overview.md
 - `worlds/jujutsu/powers/domain-expansion.md` — citado em worlds/jujutsu/powers/overview.md
-- `worlds/naruto/character-creation/chakra-nature-selection.md` — citado em worlds/naruto/character-creation/overview.md
 - `worlds/naruto/character-creation/inata-technique.md` — citado em worlds/naruto/character-creation/overview.md
 - `worlds/naruto/character-creation/initial-skills.md` — citado em worlds/naruto/character-creation/overview.md
 - `worlds/naruto/character-creation/selecting-clan.md` — citado em worlds/naruto/character-creation/overview.md
