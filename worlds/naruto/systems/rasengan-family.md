@@ -173,23 +173,27 @@ A elevação da base reajustou a escada inteira da linhagem, conforme a tabela d
 
 O Fūton: Rasenshuriken custa 27.200 de XP, pela interpolação da Seção 4.1.1 sobre a RC nominal de 2.100. O valor de 38.000 publicado no Compêndio de Fūton veio da matriz de estimativa, que a própria Seção 4.1.3 declara provisória até a ficha existir. A correção vale dali em diante e não retroage sobre quem já pagou.
 
+**Erratas aplicadas.** As seis abertas por esta linhagem foram fechadas na publicação dela.
+
+O Manual de Criação de Jutsus subiu a v2.6. A âncora da Seção 3.2 passou a RC nominal 600, custo mínimo 200 e custo pago 200, mantendo a janela em zero turno. A âncora da Seção 4.1.1 passou a 600, posição 71,4% e XP_base 6.714. A linha de validação da Seção 5.3 passou a 600 e dano 390, que é 27% do par Elite e segue no tier Forte. A linha do Rasenshuriken na Seção 3.2 passou a 2.100 e 700, com o executor de referência recalculado sobre o piso do degrau Absoluto em teste 84, custo pago 1.619 e a mesma janela de dois turnos. O Rasengan saiu da tabela de calibração da Seção 4.1.3, e a calibração segue sustentada pelo Goukakyuu no degrau 2 e pelo Chidori e pelo Kirin no degrau 1.
+
+O Compêndio de Fūton subiu a v4, com o Rasenshuriken de Vento em 27.200 de XP e a entrada do Rasengan de Vento acrescentada. O Compêndio de Raiton subiu a v3.3, com o Rasengan Evanescente em etiqueta ATRIBUÍDO, degrau Moldagem Absoluta e 13.250 de XP.
+
+O Corte de Chakra deixou de viver apenas na ficha do Fūton: Rasenshuriken e passou a entrada nomeada da Família VI do Sistema de Efeitos de Status, que subiu a v2.2. O núcleo é dono da escada de quatro graus, da penalidade de cada um, da permanência e da recusa de cura por ninjutsu médico, e a ficha declara apenas o grau mínimo garantido, o grau máximo possível, os atributos testados, o alvo do teste e a região afetada.
+
+As quatro fichas sem natureza ganharam catálogo no Compêndio de Ninjutsu de Forma. O compêndio traz quatro entradas contra a mediana de trinta e quatro a cinquenta e quatro dos domínios elementais, e a auditoria de tamanho da ferramenta de frontmatter o aponta por isso. O desvio é fato do domínio, que possui exatamente quatro entradas canônicas sem natureza, e a Seção 12 da Norma de Produção de Compêndios declara que nenhum piso de contagem existe. O catálogo não se completa com entrada que a obra não nomeia.
+
 **Fila de errata.**
-
-Manual de Criação de Jutsus, Seções 3.2, 4.1.1, 4.1.3 e 5.3: as quatro tabelas publicam o Rasengan em RC nominal 450, custo mínimo 150, XP 4.786, posição 29% e dano 360 no LV6. Os cinco valores passam a 600, 200, 6.714, 71,4% e 390.
-
-Manual de Criação de Jutsus, Seção 4.1.3: o Rasengan deixa de servir como âncora de calibração da matriz de estimativa, porque a posição de 71,4% não corresponde ao degrau 2 que a descrição da técnica produz. A divergência é autorizada pela própria seção, que declara que a apuração da ficha substitui a estimativa e que a correção pertence à entrada e não ao método. A calibração permanece sustentada por Goukakyuu no degrau 2, e por Chidori e Kirin no degrau 1.
-
-Manual de Criação de Jutsus, Seção 3.2: a linha de âncora do Rasenshuriken publica RC nominal 1.800 e custo mínimo 600, e cita executante de teste de Moldagem 60, valor inalcançável para quem cumpre o degrau Absoluto de 84 que a técnica exige. Os dois valores passam a 2.100 e 700, e a linha precisa ser recalculada sobre o piso do degrau.
-
-Compêndio de Raiton: a entrada do Rasengan Evanescente publica 11.000 de XP. A ficha apura 13.250 sobre a RC nominal de 1.050.
 
 Manual de Criação de Jutsus, Seção 1: a coluna de usos por combate da tabela de ranks declara 2 a 5 para o rank B e 1 a 3 para o rank A, e nenhuma ficha publicada do corpus honra essa faixa. O Chidori entrega 8 usos com reserva de 2.211, o Chidori Nagashi entrega 7 e o Rasengan entrega 14, todos entre duas e três vezes o teto do próprio rank. A divergência é sistêmica e anterior a esta linhagem, e o conserto pertence à coluna e não a nenhuma ficha isolada.
 
-Compêndio de Fūton: a entrada do Rasenshuriken de Vento precisa ter o XP corrigido de 38.000 para 27.200.
-
-Compêndio de Raiton: a entrada do Rasengan Evanescente publica etiqueta CANON e degrau Moldagem Refinada. A franquia de origem da técnica não possui databook, o que a coloca em ATRIBUÍDO, e o degrau correto é Absoluta por herança do Rasengan.
-
 Perícia de Controle de Chakra: o caminho Composição permanece sem transcendência dedicada por pendência declarada. A dispensa integral de assistência da Seção 4 assume a coluna transcendida do caminho, e a pendência precisa fechar antes que a linha vire regra madura.
+
+Norma de Produção de Compêndios, Seção 6 e Seção 7: a entrada do Rasenshuriken de Vento publica acesso em Assinatura Pessoal com Autoria Aberta, e a ficha da técnica declara a camada Fechada na Criação para depois que o Rasengan tiver autor. As duas leituras valem em momentos distintos, e a composição de camada ao longo do tempo não tem regra publicada. A precedência do compêndio sobre a ficha impede que o catálogo seja ajustado por conta própria, então a regra de composição precisa nascer antes da correção.
+
+Norma de Produção de Compêndios, Seção 13: a tabela de Estado de conformidade declara o Fūton e o Raiton fora de norma por não possuírem linha de XP. Os dois carregam linha de XP e a forma da Seção 10, de modo que a tabela descreve um estado anterior à reemissão deles.
+
+Manual de Requisitos de Técnica: o documento publica as seções numeradas como texto puro, sem heading markdown algum, o que torna toda citação a ele inverificável por ferramenta. A Seção 3.2 que esta linhagem cita para o degrau de moldagem existe e confere, com Absoluta em 84 e o coeficiente 3,0 pedindo esse degrau. A dívida é de sintaxe e é a mesma que o documento do Clã Senju carrega.
 
 ---
 
