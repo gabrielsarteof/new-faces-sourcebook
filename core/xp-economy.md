@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 2.1
+version: 2.2
 layer: core
 type: system
 status: final
@@ -228,7 +228,7 @@ Suporte       PV 10 / PM 25 / PS 10
 
 Bônus de PV e PS provenientes de qualquer outra fonte (clã, vantagem, técnica) são expressos como adições ao multiplicador de Natureza, nunca somados diretamente ao valor final do pool.
 
-As naturezas de transformação de chakra (Fogo, Vento, Relâmpago, Terra e Água) são afinidades elementais selecionáveis e não possuem custo de XP próprio; seus custos operacionais vivem no Sistema Elemental e nas perícias de Transformação de Natureza.
+As naturezas de transformação de chakra não se compram nesta moeda. A natureza é fato de nascimento, determinado por rolagem na criação, ou aquisição por treino de campanha, e em nenhum dos dois casos existe uma linha de orçamento chamada natureza. O que custa XP é a perícia daquela natureza, que corre na trilha Ninjutsu como qualquer outra, e o Sistema Elemental publica o multiplicador de dispersão que a posição da natureza na ficha aplica sobre esse preço.
 
 ## 9. Regras transversais de cálculo
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.clan.uchiha
 title: "Uchiha — O Olho que Reflete Sentimentos"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: clan
@@ -33,9 +33,9 @@ Traços obrigatórios, presentes em todo personagem do Clã Uchiha.
 
 **Identidade.** Sobrenome Uchiha, com todo o peso histórico e político de pertencer a um dos dois clãs fundadores de Konoha.
 
-**Afinidade Katon.** A cadeia de afinidade elemental (Passo 1) favorece o Fogo em 80% para qualquer Uchiha. Um membro que role fora dessa faixa ainda aprende Katon pela tradição do clã; a afinidade rolada é que assume o posto de natureza primária.
+**Afinidade Katon.** A cadeia de naturezas natas (Passo 1) favorece o Fogo em 80% para qualquer Uchiha. Um membro que role fora dessa faixa ainda recebe o Katon pela tradição do clã, e o recebe como Compatibilidade, porque o Papel de Indução já leu outra vocação e o rito de passagem não a reescreve. O elemento rolado permanece como Afinidade.
 
-**Viés Yin.** Quando a cadeia de afinidade alcança o branch de Onmyōton (Passo 1.5), o lado Yin do teste sobe de 5% para 15%. A energia espiritual herdada de Indra pesa também na rolagem que decide entre chakra comum e chakra de Onmyōton.
+**Viés Yin.** Quando a cadeia de naturezas natas alcança o branch de Onmyōton (Passo 1.5), o lado Yin do teste sobe de 5% para 15%. A energia espiritual herdada de Indra pesa também na rolagem que decide entre chakra comum e chakra de Onmyōton.
 
 **Reserva de Chakra.** Multiplicador de clã de ×3,5 sobre a fórmula de Reserva de Chakra.
 
@@ -47,7 +47,7 @@ Traços obrigatórios, presentes em todo personagem do Clã Uchiha.
 
 | Traço | Efeito |
 |---|---|
-| Afinidade Katon | 80% na cadeia de afinidade |
+| Afinidade Katon | 80% na cadeia de naturezas natas |
 | Viés Yin | 15% no branch Onmyōton |
 | Reserva de Chakra | ×3,5 |
 | Chakra Denso | +15% potência em ninjutsu elemental |
@@ -91,7 +91,7 @@ Opcionais, compradas individualmente com XP de Sorte, disponíveis a qualquer Uc
 
 A genialidade de combate do clã não distingue o punho do selo de mão. O Uchiha trata o combate inteiro como uma disciplina única, e a mente do clã aprende as suas frentes ao mesmo tempo, do taijutsu ao ninjutsu elemental. A velocidade de assimilação cresce com o repertório acumulado: o mesmo shinobi que levou uma semana na primeira técnica assimila as seguintes em dias.
 
-**Efeitos:** +25% de XP em perícias de combate, atravessando categorias — o Físico inteiro e o Ninjutsu inteiro, mais o Genjutsu isolado dentro de Erudição; o resto de Erudição e todo o eixo de Chakra ficam fora —, e +5 em testes dessas perícias / Eco do Repertório: cada perícia de combate em LV3 ou superior soma +5% ao bônus de XP, com teto de +25%, válido também para técnicas de combate no Banco de Desenvolvimento / Transferência Marcial: em perícias de combate não desenvolvidas, metade do bônus da perícia de combate mais alta serve de base; o gênio nunca é iniciante em combate
+**Efeitos:** +25% de XP em perícias de combate, atravessando categorias (o Físico inteiro e o Ninjutsu inteiro, mais o Genjutsu isolado dentro de Erudição; o resto de Erudição e todo o eixo de Chakra ficam fora), e +5 em testes dessas perícias / Eco do Repertório: cada perícia de combate em LV3 ou superior soma +5% ao bônus de XP, com teto de +25%, válido também para técnicas de combate no Banco de Desenvolvimento / Transferência Marcial: em perícias de combate não desenvolvidas, metade do bônus da perícia de combate mais alta serve de base; o gênio nunca é iniciante em combate
 
 **Nota:** O bônus de XP não acumula com Prodígio nem Genialidade; quando mais de um se aplica ao mesmo treino, usa-se o maior. Sinergia com Sharingan: o limiar do teste do Portão de Execução para taijutsu e kenjutsu copiados aumenta em 25%. O olho registra a técnica e o corpo de gênio fecha o portão.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.system.technique-requirements
 title: "Manual de Requisitos de Técnica"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: system
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Requisitos_de_Tecnica_v2.md
 ---
 
-Manual de Requisitos de Técnica · v2
+Manual de Requisitos de Técnica · v2.1
 
 Governa os portões de acesso a técnicas do RPG Canônico 1:1 de Naruto. Define o que um shinobi precisa ter na ficha para executar uma técnica, e nada além disso.
 
@@ -99,7 +99,7 @@ Este documento reúne, sem alterar, os portões que o sistema já operava.
 
 Natureza. Técnica de natureza exige a perícia daquela natureza. Sem ela, a técnica é inexecutável, e não apenas mais cara. Naturezas do eixo do Onmyōton seguem a mesma regra das elementais.
 
-Afinidade. Praticante que executa fora da própria afinidade multiplica por 1,3 a RC nominal e o custo mínimo da técnica, com a penalidade de teste da Escada de Afinidade em vigor conforme a Errata D2, que fixa mais quinze na afinidade nata primária, mais oito na adicional e menos quinze na natureza aprendida. Isso encarece a execução e não bloqueia o acesso.
+Posição na escada. Praticante que executa em natureza aprendida multiplica por 1,3 a RC nominal e o custo mínimo da técnica, com a penalidade de teste da Escada de Afinidade em vigor conforme o Sistema Elemental v7, que fixa mais quinze na Afinidade, mais oito na Compatibilidade e menos quinze na natureza aprendida. Isso encarece a execução e não bloqueia o acesso.
 
 Controle de Chakra. Toda técnica lê a Régua de Exigência de Moldagem, e o degrau ocupa o lugar do nível mínimo que a versão anterior declarava.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.lineage.sharingan
 title: "Sharingan"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: lineage
@@ -175,7 +175,7 @@ A técnica registrada só fica executável se o portador tiver:
    · para invocação: contrato de sangue ativo com a espécie
 ```
 
-A natureza exigida não precisa ser afinidade nata. Precisa estar aprendida e treinada até o nível do portão, e a cópia executada fora da afinidade paga o custo efetivo de conversão e a janela mais longa que ele acarreta, pela regra universal do sistema. O copiador de todas as naturezas existe, e ele pagou cada uma delas com treino.
+A natureza exigida precisa estar na ficha e treinada até o nível do portão, e a posição dela na escada é indiferente para o acesso. A cópia executada em natureza aprendida paga o custo efetivo de conversão e a janela mais longa que ele acarreta, pela regra universal do sistema. O copiador de todas as naturezas existe, e ele pagou cada uma delas com treino.
 
 A régua corporal do taijutsu espelha a régua elemental do ninjutsu. O olho substitui o estilo, nunca o condicionamento: a técnica corporal copiada exige do portador uma perícia de arte marcial própria no nível em que a técnica destrava na perícia de origem. A cópia concede a coreografia. Os anos de corpo que a sustentam não se transferem pela vista.
 
@@ -195,7 +195,7 @@ A **Cópia Registrada** custa zero XP. Ela é executável de imediato, inclusive
 
 A **Assimilação** transforma a cópia em técnica plena do portador. Exige ter executado a forma crua ao menos uma vez em condição real, e paga o custo de XP da técnica com o modificador de jutsu copiado via Sharingan: **desconto de 50% sobre o XP_base**. A assimilação apaga qualquer Grau de Fidelidade e toda crueza: a janela volta ao normal, a técnica aceita extras e aprimoramento, e o taijutsu assimilado dispensa o teste físico contínuo. O grau é a qualidade da fotografia; o treino revela o filme inteiro.
 
-O desconto de cópia é um canal de aprendizado, e canais de aprendizado não se acumulam: copiada via Sharingan não empilha com mestre direto, jutsu de equipe nem desenvolvimento próprio. Modificadores que medem outra coisa empilham normalmente, como afinidade natal e rank inferior ao tier, na ordem de aplicação da economia.
+O desconto de cópia é um canal de aprendizado, e canais de aprendizado não se acumulam: copiada via Sharingan não empilha com mestre direto, jutsu de equipe nem desenvolvimento próprio. Modificadores que medem outra coisa empilham normalmente, como o rank inferior ao tier, na ordem de aplicação da economia. A posição da natureza na escada de dispersão também empilha, e ela é o único lugar onde a relação entre o portador e o elemento entra no preço, pelo Sistema Elemental.
 
 #### Espelhamento
 
