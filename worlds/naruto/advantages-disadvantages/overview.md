@@ -1,7 +1,7 @@
 ---
 id: naruto.advantages-disadvantages.overview
 title: "Vantagens Especiais do Mundo Shinobi"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: catalog
@@ -11,9 +11,11 @@ source-file: content/worlds/naruto/advantages-disadvantages/_index.md
 
 # Vantagens Especiais do Mundo Shinobi
 
-_Total: 14 vantagens_
+_Total: 15 vantagens_
 
 Este documento reúne as vantagens exclusivas do cenário de Naruto, compradas com XP Sorte na criação do personagem ou mediante autorização do Narrador. Cada peça nasce de uma capacidade demonstrada no cânone que não se explica por linhagem, ou de um traço de linhagem cuja versão universal foi deliberadamente aberta a qualquer personagem. Elas convivem com o arquivo de Vantagens Comuns sem sobreposição: arquétipos como o gênio de geração ou o shinobi cujas palavras mudam pessoas são montados por combinações de peças comuns já existentes (Genialidade com Prodígios; Conexão Genuína, Palavras Que Ecoam e Campo Gravitacional), e este arquivo cobre apenas o que nenhuma combinação comum alcança.
+
+A montagem por peças comuns tem uma fronteira, e ela está no eixo do chakra. Vantagem de aprendizado que lê categoria vale nas quatro categorias herdadas do núcleo, Físico, Prático, Mental e Social, e para na porta de Chakra, Ninjutsu e Erudição, onde o talento se compra por natureza ou por perícia nomeada. O gênio difuso atravessa a fronteira, porque multiplica rendimento de treino e deixa intacto o preço das naturezas, que a escada de posição governa. A regra completa e a razão dela vivem em Treinamento no Mundo Shinobi, e é dali que nasce a peça de acuidade elemental deste arquivo.
 
 Cada entrada carrega sua etiqueta de fonte. **Canon** marca capacidade demonstrada diretamente na obra. **Atribuído** marca padrão canônico consistente sem portador único. **Proposta** marca decisão de design assumida, sem âncora direta.
 
@@ -69,6 +71,18 @@ O corpo deste personagem canaliza chakra numa escala que contraria qualquer expe
 **Efeitos:** O Limite de Saída do personagem é de 30% da RC por turno, em lugar dos 20% universais
 
 **Nota:** Elevação permanente e fisiológica, sem custo corporal por uso. Incompatibilidade com as Oito Portas declarada desde já: a fronteira entre esta vantagem e o sistema de Portões será legislada no documento de Portões, que prevalece sobre esta nota.
+
+---
+
+## Afinidade Aguda — 480 XP [chakra] — Canon
+
+A afinidade diz qual natureza o corpo aceita sem esforço, e para a esmagadora maioria dos shinobi ela termina aí: o elemento sai, e sai correto. Existe uma minoria em que ele sai antes da hora e sai melhor do que a idade comporta. A vila percebe cedo, porque o exercício de canalização reservado ao segundo ano da Academia sai limpo no primeiro, e o rito de fogo que a família marca para os doze anos sai aos oito, com a criança de pé e o pai sem resposta pronta.
+
+O talento aqui é agudo e tem endereço. Ele não se espalha pelas outras naturezas, e o mesmo praticante que dobra o próprio elemento na primeira tentativa fica anos empacado no elemento vizinho, como qualquer um.
+
+**Efeitos:** Blocos cujo alvo é a perícia da afinidade nata primária rendem ×1,5 no slot de Talento / Nos mesmos Blocos, o degrau de Método sobe um, até o teto de Instrução, e o praticante extrai sozinho o que os colegas extraem acompanhados / +8 em todos os testes da natureza, somado ao bônus de posição da escada de afinidade
+
+**Nota:** A vantagem se amarra à natureza sorteada como primária no Passo 2 da criação e não é comprável duas vezes, porque a acuidade é a expressão do elemento com que o corpo lidera. Ela não alcança afinidade nata adicional nem natureza aprendida. Nenhum preço muda: a escada de posição do Sistema Elemental governa o custo das naturezas, e a afinidade primária paga a tabela em qualquer caso. Criar técnica nova do elemento continua sendo território da Inovação de Forma, e as duas se somam sem sombreamento no shinobi que inventa dentro do próprio elemento, que é o retrato do criador do Chidori.
 
 ---
 
