@@ -1,7 +1,7 @@
 ---
 id: naruto.clan.uchiha
 title: "Uchiha — O Olho que Reflete Sentimentos"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: clan
@@ -91,7 +91,7 @@ Opcionais, compradas individualmente com XP de Sorte, disponíveis a qualquer Uc
 
 A genialidade de combate do clã não distingue o punho do selo de mão. O Uchiha trata o combate inteiro como uma disciplina única, e a mente do clã aprende as suas frentes ao mesmo tempo, do taijutsu ao ninjutsu elemental. A velocidade de assimilação cresce com o repertório acumulado: o mesmo shinobi que levou uma semana na primeira técnica assimila as seguintes em dias.
 
-**Efeitos:** +25% de XP em perícias de combate, atravessando categorias (corporal, arma, arremesso e elemental), e +5 em testes dessas perícias / Eco do Repertório: cada perícia de combate em LV3 ou superior soma +5% ao bônus de XP, com teto de +25%, válido também para técnicas de combate no Banco de Desenvolvimento / Transferência Marcial: em perícias de combate não desenvolvidas, metade do bônus da perícia de combate mais alta serve de base; o gênio nunca é iniciante em combate
+**Efeitos:** +25% de XP em perícias de combate, atravessando categorias — o Físico inteiro e o Ninjutsu inteiro, mais o Genjutsu isolado dentro de Erudição; o resto de Erudição e todo o eixo de Chakra ficam fora —, e +5 em testes dessas perícias / Eco do Repertório: cada perícia de combate em LV3 ou superior soma +5% ao bônus de XP, com teto de +25%, válido também para técnicas de combate no Banco de Desenvolvimento / Transferência Marcial: em perícias de combate não desenvolvidas, metade do bônus da perícia de combate mais alta serve de base; o gênio nunca é iniciante em combate
 
 **Nota:** O bônus de XP não acumula com Prodígio nem Genialidade; quando mais de um se aplica ao mesmo treino, usa-se o maior. Sinergia com Sharingan: o limiar do teste do Portão de Execução para taijutsu e kenjutsu copiados aumenta em 25%. O olho registra a técnica e o corpo de gênio fecha o portão.
 
