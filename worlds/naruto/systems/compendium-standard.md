@@ -1,7 +1,7 @@
 ---
 id: naruto.system.compendium-standard
 title: "Norma de Produção de Compêndios"
-version: 2.2
+version: 2.4
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Norma_de_Producao_de_Compendios_v2-2.md
 ---
 
-# Norma de Produção de Compêndios · v2
+# Norma de Produção de Compêndios · v2.4
 
 Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:1 de Naruto.
 
@@ -43,6 +43,8 @@ O teste é mecânico e decide todos os casos. Bloco reprovado sai do compêndio 
 
 Nenhuma regra é escrita em dois lugares. O compêndio cita o dono pelo nome e segue adiante.
 
+**Um domínio pode ser propriedade de um sistema.** A tabela abaixo pressupõe, em quase toda linha, que o dono do domínio é a perícia dele, e isso vale para todo domínio cuja competência já nasceu. Existe o caso em que o domínio existe e a competência não: os Oito Portões governam um subsistema fisiológico e a perícia de corpo que os exerceria está na Fila de Nascimento. Nesse caso o dono é o documento de sistema, que carrega o identificador do domínio e responde por portão, escada e regra de execução até que a perícia nasça e assuma a posse sem que o identificador mude. O que não se admite é domínio sem dono declarado, porque catálogo que não se agrupa não se converte e não se audita.
+
 | Matéria | Dono |
 |---|---|
 | Etiquetagem editorial | esta Norma, seção 5 |
@@ -52,7 +54,7 @@ Nenhuma regra é escrita em dois lugares. O compêndio cita o dono pelo nome e s
 | Fronteira da cópia pelo Sharingan | esta Norma, seção 9, e documento do Sharingan |
 | Faixas de XP por rank e derivação do preço | Manual de Criação de Jutsus, seção 4.1 |
 | Orçamento de ficha e economia de aquisição | Manual de Economia de XP |
-| Portão de rank, escada de nível e regra de execução do domínio | perícia do domínio |
+| Portão de rank, escada de nível e regra de execução do domínio | perícia do domínio, ou o sistema dono quando o domínio ainda não tem perícia |
 | Degraus de exigência de moldagem | Perícia de Controle de Chakra |
 | Rider padrão do elemento e regra de condição | Sistema Elemental e Sistema de Efeitos de Status |
 | Graus, durações e remoção de status | Sistema de Efeitos de Status |
@@ -75,6 +77,14 @@ A ordem é fixa e curta.
 **Índice Rápido por Função Tática.** Seção 11.
 
 Nada mais entra. Contagem por rank, índice por camada, índice de preços e leitura da distribuição são vistas derivadas das entradas, recalculáveis a qualquer momento, e não pertencem ao artefato. Pendências de aprovação pertencem à fila de errata do projeto.
+
+Dois blocos são admitidos além dos quatro, cada um sob a condição que o autoriza, e nenhum deles é porta aberta.
+
+**Seção de cadeia**, no lugar da divisão por rank e somente para as entradas que formam uma. Cadeia tem definição estreita aqui: cada entrada exige a imediatamente anterior pela camada Requisito Mecânico, de modo que a ordem de aquisição é única e conhecida de antemão. Distribuir uma cadeia entre as seções de rank não é neutro, porque esconde a única coisa que o leitor precisa saber antes de comprar qualquer degrau dela, que é por onde se começa. A permissão nasce do que a própria sequência já fazia ao admitir faixa acima de S quando o domínio exigir: a divisão por rank é a regra e não um dogma, e cede quando a estrutura do domínio a contradiz. O resto do compêndio continua dividido por rank, e a seção de cadeia não recebe entrada que não pertença à cadeia.
+
+**Bloco de notas**, ao fim, para justificar leitura editorial e nada além disso. A seção 5 obriga toda entrada a declarar de onde vem, e existe leitura que a etiqueta afirma sem conseguir explicar: por que uma entrada que a fonte registra sem requisito foi ligada a um, por que um nome foi preservado. Sem lugar para a justificativa ela vira uma de duas coisas piores, uma etiqueta que o leitor aceita sem conta ou matéria normativa contrabandeada para dentro da prosa da entrada. A nota é numerada, referida por marca na entrada que a exige, e não carrega regra: regra que apareça em nota está no documento errado.
+
+O primeiro compêndio a usar os dois é o dos Oito Portões, e é do caso dele que a permissão nasce.
 
 ---
 
@@ -192,5 +202,10 @@ Uma entrada pode aparecer em mais de um bloco.
 | Doton Consumível | fora de norma, mesma condição |
 | Ninjutsu Médico | fora de norma, mesma condição |
 | Katon Consumível | fora de norma, superado pelo Katon v4 |
+| Oito Portões v1.1 | conforme, e o primeiro a estar |
 
-Nenhum compêndio existente está em conformidade com esta versão, e a razão é que a norma anterior obrigava exatamente o que esta proíbe. A reemissão é trabalho de errata e acontece um domínio por vez, sem que a norma precise ser reaberta a cada um.
+Nenhum compêndio herdado está em conformidade com esta versão, e a razão é que a norma anterior obrigava exatamente o que esta proíbe. A reemissão é trabalho de errata e acontece um domínio por vez, sem que a norma precise ser reaberta a cada um.
+
+O Compêndio dos Oito Portões é o primeiro escrito já sob esta norma e o primeiro em conformidade com ela. Os dois blocos que ele acrescentava e que a v2.3 registrou como pendência foram acolhidos na v2.4, com a condição que autoriza cada um, e é do caso dele que as duas permissões nascem.
+
+Ele é também o primeiro cujo domínio não tem perícia dona, e por isso a linha de requisitos das oito entradas da cadeia não traz o campo de perícia que a seção 10 fixa. No lugar dela vêm a exigência de atributo e os Blocos de maturação, que são o que aquele domínio de fato cobra, e a posse do domínio fica com o documento de sistema pela regra da seção 3. É desvio declarado e não omissão: a seção 10 pede o eixo que governa o acesso, e ali ele não é uma perícia.

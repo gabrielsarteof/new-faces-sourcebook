@@ -1,7 +1,7 @@
 ---
 id: core.advantages
 title: "Vantagens Comuns"
-version: 1
+version: 1.1
 layer: core
 type: catalog
 status: final
@@ -11,6 +11,8 @@ source-file: vantagens.md
 # Vantagens Comuns
 
 _Total: 97 vantagens_
+
+Onde uma vantagem compara o portador a um oponente, a régua é a **faixa** das Tabelas de Referência de Personagens, que vai de Treinado a Ápice pelo nível-base. A faixa gradua pessoas, que é o que essas entradas comparam, e a escala de graus do Manual de Criação de Poderes gradua efeitos, que é outra coisa.
 
 # Categoria: aprendizado
 
@@ -220,7 +222,7 @@ Após uma execução perfeita, a janela de clareza fica aberta. O corpo continua
 ## Prazer na Batalha — 220 XP [combate]
 Para esse personagem, a intensidade de um combate real não é algo a ser gerenciado — é o estado em que ele opera melhor. Quanto mais difícil, mais focado.
 
-**Efeitos:** Contra oponente de GA igual ou superior: +5 em todos os testes de combate / Contra múltiplos oponentes: +3 adicional, acumulando com o bônus anterior / Com PV ≤ 25%: penalidades de condição em combate reduzidas em 3 — o risco extremo afina
+**Efeitos:** Contra oponente de faixa igual ou superior: +5 em todos os testes de combate / Contra múltiplos oponentes: +3 adicional, acumulando com o bônus anterior / Com PV ≤ 25%: penalidades de condição em combate reduzidas em 3 — o risco extremo afina
 
 ---
 
@@ -840,7 +842,7 @@ Alguns líderes têm voz e presença que fazem pessoas obedecerem instintivament
 ## Ego Manifestado — 250 XP [social]
 Não é arrogância performática — é a presença de quem sabe exatamente o que é e não precisa convencer ninguém disso. O ambiente simplesmente registra.
 
-**Efeitos:** NPCs com GA significativamente inferior hesitam antes de engajar — o mestre avalia sem declaração do jogador / Em disputas de vontade contra oponentes visivelmente inferiores: empates são vencidos sem teste / Presença não pode ser desligada — o mestre a aplica como fato do ambiente
+**Efeitos:** NPCs de faixa significativamente inferior hesitam antes de engajar — o mestre avalia sem declaração do jogador / Em disputas de vontade contra oponentes visivelmente inferiores: empates são vencidos sem teste / Presença não pode ser desligada — o mestre a aplica como fato do ambiente
 
 ---
 
