@@ -1,7 +1,7 @@
 ---
 id: core.advantages
 title: "Vantagens Comuns"
-version: 1
+version: 2
 layer: core
 type: catalog
 status: final
@@ -12,60 +12,68 @@ source-file: vantagens.md
 
 _Total: 97 vantagens_
 
+Este arquivo é da camada de núcleo e vale em qualquer cenário. Duas consequências governam a leitura dele.
+
+**Vantagem de variante lê a lista do cenário.** Onde uma entrada se compra por categoria de perícia, por atributo ou por perícia nomeada, a lista de opções sai do catálogo do mundo em jogo, e não deste arquivo. Nomes citados aqui servem de exemplo do formato. Cada cenário publica quais opções existem e pode declarar categorias em que a compra não se abre, pelo documento de adaptação dele.
+
+**Bônus de XP de treino e desconto de custo são eixos separados.** Entrada que concede rendimento de treino atua no slot de Talento do Manual Global de Treinamento, disputando-o pelo maior aplicável ao alvo do Bloco. Entrada que altera preço atua na economia, pelo Manual de Economia de XP. Nenhuma das duas atravessa para o eixo da outra, e concessão de rendimento nunca se converte em desconto de preço.
+
 # Categoria: aprendizado
 
 ## Atleta Nato — 235 XP [aprendizado]
 Você possui uma aptidão natural para atividades físicas e combate, permitindo que seu progresso nessas áreas seja mais rápido e eficiente.
 
-**Efeitos:** +20% de XP em treinos de Físico e Combate — desenvolvimento físico que chega mais rápido / +5 em corrida, escalada, natação e salto: o corpo responde ao esforço com uma eficiência que não pode ser ensinada
+**Efeitos:** Rendimento de treino ×1,2 em Blocos cujo alvo pertence às categorias de corpo e combate, no slot de Talento / +5 em corrida, escalada, natação e salto, porque o corpo responde ao esforço com uma eficiência que não pode ser ensinada
 
-**Nota:** Sinergia com Recuperação Rápida: bônus de XP em treinos Físico e Combate aumenta para +30% e recupera +3% de PV e PS por hora durante descansos após treinos
+**Nota:** Sinergia com Recuperação Rápida: o rendimento sobe para ×1,3 nos mesmos Blocos, e o descanso após treino recupera +3% de PV e PS por hora. O slot de Talento continua valendo pelo maior aplicável, então esta vantagem e Prodígio na mesma categoria não somam.
 
 ---
 
 ## Genialidade — 480 XP [aprendizado]
 Sua mente conecta domínios que outros mantêm separados, aprende com velocidade que não respeita fronteiras de categoria e enxerga soluções que outros simplesmente não veem porque não atravessam os limites do próprio conhecimento.
 
-**Efeitos:** +20% de XP em qualquer área sem restrição de categoria / Aplicação Cruzada: transfere metade do bônus de uma perícia dominada para outra mediante justificativa narrativa e aprovação do mestre (3×/sessão) / Testes ativos e cognitivos nunca têm chance abaixo de 5% — o fracasso absoluto está fora do alcance desta mente
+**Efeitos:** Rendimento de treino ×1,2 em qualquer Bloco, sem restrição de categoria, no slot de Talento / Aplicação Cruzada: transfere metade do bônus de uma perícia dominada para outra mediante justificativa narrativa e aprovação do mestre (3×/sessão) / Testes ativos e cognitivos nunca têm chance abaixo de 5%, e o fracasso absoluto está fora do alcance desta mente
 
-**Nota:** O bônus de XP global de +20% não se acumula com o bônus de categoria de Prodígio de Treino — quando ambos se aplicam ao mesmo treino, usa-se o maior (50%), não a soma (70%). A Aplicação Cruzada exige aprovação do mestre a cada uso e tem limite de 3×/sessão.
+**Nota:** O rendimento ocupa o slot de Talento e vale o maior aplicável ao alvo do Bloco, então onde esta vantagem encontra Prodígio na categoria do alvo aplica-se ×1,5, e nunca o produto das duas. O alcance é universal por natureza, e vale inclusive nas categorias que um cenário fecha à compra por categoria, porque o que ela multiplica é rendimento e o preço de cada perícia permanece o que a economia publica. A Aplicação Cruzada exige aprovação do mestre a cada uso e tem limite de 3×/sessão.
 
 ---
 
 ## Multi-Talentoso — 115 XP [aprendizado]
-Você consegue fazer seus diferentes domínios de excelência conversarem entre si — não apenas ser bom em múltiplas coisas, mas usar um para amplificar o outro.
+Você consegue fazer seus diferentes domínios de excelência conversarem entre si, usando um para amplificar o outro em vez de apenas acumular competências separadas.
 
-**Efeitos:** 1×/cena: aplica o bônus de teste de um Prodígio em ação da categoria de outro Prodígio — mediante justificativa narrativa e validação do mestre / Não remove o custo de Prodígio: remove o teto que impedia a construção
+**Efeitos:** 1×/cena: aplica o bônus de teste de um Prodígio em ação da categoria de outro Prodígio, mediante justificativa narrativa e validação do mestre / Não remove o custo de Prodígio, remove o teto que impedia a construção
+
+**Nota:** Exige duas compras de Prodígio em categorias diferentes. O que ela move é o bônus de teste, e o rendimento de treino permanece onde a categoria do alvo o coloca, porque o slot de Talento se resolve pelo alvo do Bloco.
 
 ---
 
 ## Prodígio — 330 XP (Físico) / 330 XP (Prático) / 330 XP (Mental) / 330 XP (Social) / 330 XP (Amaldiçoado) / 330 XP (Reversão Amaldiçoada) [aprendizado]
 Você possui uma aptidão que vai além do talento comum — uma afinidade profunda com uma categoria inteira de conhecimento ou habilidade que acelera seu desenvolvimento e aguça sua execução de forma consistente. Não é dedicação extra: é como sua mente e corpo processam aquele domínio de um jeito fundamentalmente mais eficiente.
 
-**Físico:** Físico — combate, atletismo, acrobacia, corrida, reflexos, esquiva. +50% de XP e +5 em todos os testes da categoria.
-**Prático:** Prático — furtividade, arremesso, navegação, primeiros socorros, artesanato. +50% de XP e +5 em todos os testes da categoria.
-**Mental:** Mental — investigação, controle de energia, instrução, estratégia, conhecimento oculto. +50% de XP e +5 em todos os testes da categoria.
-**Social:** Social — persuasão, liderança, intimidação, enganação, lábia, performance. +50% de XP e +5 em todos os testes da categoria.
-**Amaldiçoado:** Amaldiçoado — controle de energia maldita, técnicas derivadas e barreiras. +50% de XP e +5 em todos os testes da categoria.
-**Reversão Amaldiçoada:** Reversão Amaldiçoada — controle de energia positiva e técnicas de reversão. +50% de XP e +5 em todos os testes da categoria.
+**Físico:** Físico — combate, atletismo, acrobacia, corrida, reflexos, esquiva. Rendimento de treino ×1,5 e +5 em todos os testes da categoria.
+**Prático:** Prático — furtividade, arremesso, navegação, primeiros socorros, artesanato. Rendimento de treino ×1,5 e +5 em todos os testes da categoria.
+**Mental:** Mental — investigação, controle de energia, instrução, estratégia, conhecimento oculto. Rendimento de treino ×1,5 e +5 em todos os testes da categoria.
+**Social:** Social — persuasão, liderança, intimidação, enganação, lábia, performance. Rendimento de treino ×1,5 e +5 em todos os testes da categoria.
+**Amaldiçoado:** Amaldiçoado — controle de energia maldita, técnicas derivadas e barreiras. Rendimento de treino ×1,5 e +5 em todos os testes da categoria.
+**Reversão Amaldiçoada:** Reversão Amaldiçoada — controle de energia positiva e técnicas de reversão. Rendimento de treino ×1,5 e +5 em todos os testes da categoria.
 
-**Efeitos:** +50% de XP em treinos da categoria vinculada e +5 em todos os testes da categoria / Comprável por cada categoria de perícia separadamente
+**Efeitos:** Rendimento de treino ×1,5 em Blocos cujo alvo pertence à categoria vinculada, no slot de Talento / +5 em todos os testes da categoria / Comprável por cada categoria de perícia separadamente
 
-**Nota:** Pode ser comprado múltiplas vezes, cada compra para uma categoria diferente. O bônus de XP não se acumula com o de Genialidade — quando ambos se aplicam ao mesmo treino, usa-se o maior, não a soma.
+**Nota:** Pode ser comprado múltiplas vezes, cada compra para uma categoria diferente. O rendimento ocupa o slot de Talento, então vale o maior modificador aplicável ao alvo do Bloco e nunca a soma: onde esta vantagem e Genialidade se encontram, aplica-se ×1,5. O talento aqui é de aquisição e de execução, e o preço da perícia permanece o que a economia publica. As categorias compráveis saem do catálogo do cenário, que pode declarar categorias fechadas a esta compra; no mundo de Naruto, as três categorias do eixo do chakra são fechadas, pela regra que o documento de Treinamento no Mundo Shinobi publica. Amaldiçoado e Reversão Amaldiçoada nomeiam energias do cenário de Jujutsu Kaisen e permanecem aqui até o arquivo de vantagens daquele mundo existir para recebê-las.
 
 ---
 
 ## Treinador Nato — 140 XP [aprendizado]
 Você enxerga o que o outro desperdiça. Não é técnica aprendida — é um olho que funciona involuntariamente, identificando onde o esforço vaza e intervindo no momento exato. Sob sua supervisão, o treino de qualquer pessoa se torna mais eficiente do que seria possível sozinha.
 
-**Efeitos:** Aliados sob supervisão direta ganham +20% de XP naquelas janelas — você precisa estar presente e ativo / Aliados supervisionados podem treinar acima do que os atributos normalmente permitiriam, sem as penalidades correspondentes
+**Efeitos:** Blocos de aliados sob supervisão direta rendem ×1,2, e a supervisão exige presença ativa durante a janela / Aliados supervisionados podem treinar acima do que os atributos normalmente permitiriam, sem as penalidades correspondentes
 
 ---
 
 ## Mentor Inspirador — 180 XP [aprendizado]
 Você não melhora o treino — você muda quem a pessoa é. Discípulos sob sua orientação desenvolvem uma forma diferente de processar experiência, de enfrentar o fracasso, de se ver diante do impossível. Isso persiste mesmo quando você não está presente.
 
-**Efeitos:** Até 2 discípulos formais recebem +15% em todo XP acumulado — mesmo sem presença física / Cada discípulo carrega 1 carga de re-rolar para momento significativo; a carga só recarrega com contato real
+**Efeitos:** Até 2 discípulos formais têm os Blocos multiplicados por 1,15, mesmo sem presença física / Cada discípulo carrega 1 carga de rerrolagem para momento significativo, e a carga só recarrega com contato real
 
 ---
 
@@ -333,7 +341,7 @@ Sua relação com PM é diferente. O mesmo resultado, menos combustível — nã
 ## Fator Protagonista — 330 XP [especial]
 Alguns personagens simplesmente não morrem quando deveriam. E quando quase morrem, algo muda. É o tipo de capacidade que não pode ser ensinado — só vivido.
 
-**Efeitos:** +25% de XP em encontros de combate / Uma vez por arco: após sobreviver com PV ≤ 10%, insight que desbloqueia ou melhora uma capacidade de combate — definida com o mestre pelo contexto
+**Efeitos:** Concessões de Pressão Real dirigidas a capacidades de combate aumentam em 25% / Uma vez por arco, após sobreviver com PV ≤ 10%, recebe insight que desbloqueia ou melhora uma capacidade de combate, definida com o mestre pelo contexto
 
 ---
 
@@ -372,7 +380,7 @@ Sua constituição excepcional permite que você se recupere de ferimentos, fadi
 
 **Efeitos:** +2% de PV, PM e PS recuperados por hora de descanso além da taxa natural / O corpo retorna ao pico com menos interrupção
 
-**Nota:** Sinergia com Atleta Nato: bônus de XP em treinos físicos/combate aumenta para +30% e recupera +3% de PV e PS por hora durante descansos após treinos
+**Nota:** Sinergia com Atleta Nato: o rendimento de treino no corpo e no combate sobe para ×1,3 e recupera +3% de PV e PS por hora durante descansos após treinos
 
 ---
 
@@ -556,16 +564,16 @@ Seu domínio em arremesso é incomparável, permitindo aplicar as mesmas períci
 ---
 
 ## Dom Natural — 265 XP (Força (FOR)) / 265 XP (Destreza (DES)) / 265 XP (Resistência (RES)) / 265 XP (Inteligência (INT)) / 265 XP (Sabedoria (SAB)) / 265 XP (Carisma (CAR)) [pericia]
-Um dos seus atributos fundamentais foi abençoado com potencial extraordinário, permitindo que você o desenvolva de forma mais natural e eficiente. Você acumula XP de treino 30% mais rápido nesse atributo.
+Um dos seus atributos fundamentais foi abençoado com potencial extraordinário, permitindo que você o desenvolva de forma mais natural e eficiente. O rendimento de treino nesse atributo corre a uma vez e três décimos do normal.
 
-**Força (FOR):** +30% de XP de treino e +3 em testes de Força — potencial físico bruto que se desenvolve com mais facilidade que o esperado.
-**Destreza (DES):** +30% de XP de treino e +3 em testes de Destreza — coordenação motora que responde ao treino de forma excepcional.
-**Resistência (RES):** +30% de XP de treino e +3 em testes de Resistência — recuperação e limiar de exaustão naturalmente mais elevados.
-**Inteligência (INT):** +30% de XP de treino e +3 em testes de Inteligência — processamento e retenção de informação acima da curva.
-**Sabedoria (SAB):** +30% de XP de treino e +3 em testes de Sabedoria — leitura de contexto e julgamento situacional que amadurece rápido.
-**Carisma (CAR):** +30% de XP de treino e +3 em testes de Carisma — presença e impacto pessoal que crescem com pouco esforço consciente.
+**Força (FOR):** Rendimento de treino ×1,3 e +3 em testes de Força — potencial físico bruto que se desenvolve com mais facilidade que o esperado.
+**Destreza (DES):** Rendimento de treino ×1,3 e +3 em testes de Destreza — coordenação motora que responde ao treino de forma excepcional.
+**Resistência (RES):** Rendimento de treino ×1,3 e +3 em testes de Resistência — recuperação e limiar de exaustão naturalmente mais elevados.
+**Inteligência (INT):** Rendimento de treino ×1,3 e +3 em testes de Inteligência — processamento e retenção de informação acima da curva.
+**Sabedoria (SAB):** Rendimento de treino ×1,3 e +3 em testes de Sabedoria — leitura de contexto e julgamento situacional que amadurece rápido.
+**Carisma (CAR):** Rendimento de treino ×1,3 e +3 em testes de Carisma — presença e impacto pessoal que crescem com pouco esforço consciente.
 
-**Efeitos:** +30% de XP de treino acumulado nas perícias do atributo escolhido / Talento que reduz o custo do crescimento — comprável separadamente para cada atributo
+**Efeitos:** Rendimento de treino ×1,3 em Blocos cujo alvo é o atributo escolhido ou uma perícia regida por ele, no slot de Talento / Comprável separadamente para cada atributo
 
 **Nota:** Pode ser comprada múltiplas vezes para atributos diferentes. Não pode ser adquirida para um atributo se você possui a desvantagem Inaptidão Natural no mesmo atributo.
 
@@ -643,50 +651,12 @@ Seus sentidos não-visuais são muito superiores aos de uma pessoa comum — son
 
 ---
 
-## Talento Natural — 225 XP (Espada) / 225 XP (Arco) / 225 XP (Machado) / 225 XP (Martelo) / 225 XP (Adaga) / 225 XP (Lança Curta) / 225 XP (Lança Longa) / 225 XP (Katana) / 225 XP (Desarmado) / 225 XP (Escudo) / 225 XP (Reação) / 225 XP (Defesa de Corpo) / 225 XP (Chicote) / 225 XP (Arremesso) / 225 XP (Percepção) / 225 XP (Furtividade) / 225 XP (Influência) / 225 XP (Investigação) / 225 XP (Intimidação) / 225 XP (Enganação) / 225 XP (Intuição) / 225 XP (Sobrevivência) / 225 XP (Conhecimento Oculto) / 225 XP (Medicina) / 225 XP (Liderança) / 225 XP (Performance) / 225 XP (Instrução) / 225 XP (Navegação) / 225 XP (Atletismo) / 225 XP (Acrobacia) / 225 XP (Corrida) / 225 XP (Furto) / 225 XP (Artesanato) / 225 XP (Primeiros Socorros) / 225 XP (Controle de Energia Amaldiçoada) / 225 XP (Controle de Energia Positiva) / 225 XP (Técnicas de Barreira) [pericia]
+## Talento Natural — 225 XP [pericia]
 Você possui talento excepcional em uma área específica, destacando-se muito além do esperado para seu nível de treinamento.
 
-**Espada:** +4 em todos os testes e −20% de XP investido em Espada
-**Arco:** +4 em todos os testes e −20% de XP investido em Arco
-**Machado:** +4 em todos os testes e −20% de XP investido em Machado
-**Martelo:** +4 em todos os testes e −20% de XP investido em Martelo
-**Adaga:** +4 em todos os testes e −20% de XP investido em Adaga
-**Lança Curta:** +4 em todos os testes e −20% de XP investido em Lança Curta
-**Lança Longa:** +4 em todos os testes e −20% de XP investido em Lança Longa
-**Katana:** +4 em todos os testes e −20% de XP investido em Katana
-**Desarmado:** +4 em todos os testes e −20% de XP investido em Desarmado
-**Escudo:** +4 em todos os testes e −20% de XP investido em Escudo
-**Reação:** +4 em todos os testes e −20% de XP investido em Reação
-**Defesa de Corpo:** +4 em todos os testes e −20% de XP investido em Defesa de Corpo
-**Chicote:** +4 em todos os testes e −20% de XP investido em Chicote
-**Arremesso:** +4 em todos os testes e −20% de XP investido em Arremesso
-**Percepção:** +4 em todos os testes e −20% de XP investido em Percepção
-**Furtividade:** +4 em todos os testes e −20% de XP investido em Furtividade
-**Influência:** +4 em todos os testes e −20% de XP investido em Influência
-**Investigação:** +4 em todos os testes e −20% de XP investido em Investigação
-**Intimidação:** +4 em todos os testes e −20% de XP investido em Intimidação
-**Enganação:** +4 em todos os testes e −20% de XP investido em Enganação
-**Intuição:** +4 em todos os testes e −20% de XP investido em Intuição
-**Sobrevivência:** +4 em todos os testes e −20% de XP investido em Sobrevivência
-**Conhecimento Oculto:** +4 em todos os testes e −20% de XP investido em Conhecimento Oculto
-**Medicina:** +4 em todos os testes e −20% de XP investido em Medicina
-**Liderança:** +4 em todos os testes e −20% de XP investido em Liderança
-**Performance:** +4 em todos os testes e −20% de XP investido em Performance
-**Instrução:** +4 em todos os testes e −20% de XP investido em Instrução
-**Navegação:** +4 em todos os testes e −20% de XP investido em Navegação
-**Atletismo:** +4 em todos os testes e −20% de XP investido em Atletismo
-**Acrobacia:** +4 em todos os testes e −20% de XP investido em Acrobacia
-**Corrida:** +4 em todos os testes e −20% de XP investido em Corrida
-**Furto:** +4 em todos os testes e −20% de XP investido em Furto
-**Artesanato:** +4 em todos os testes e −20% de XP investido em Artesanato
-**Primeiros Socorros:** +4 em todos os testes e −20% de XP investido em Primeiros Socorros
-**Controle de Energia Amaldiçoada:** +4 em todos os testes e −20% de XP investido em Controle de Energia Amaldiçoada
-**Controle de Energia Positiva:** +4 em todos os testes e −20% de XP investido em Controle de Energia Positiva
-**Técnicas de Barreira:** +4 em todos os testes e −20% de XP investido em Técnicas de Barreira
+**Efeitos:** +4 em todos os testes da perícia escolhida / Custo de XP da perícia escolhida reduzido em 20%, em todos os níveis / Comprável por cada perícia separadamente
 
-**Efeitos:** +4 em todos os testes da perícia escolhida e −20% no XP necessário para evoluí-la / Comprável por cada perícia separadamente
-
-**Nota:** Pode ser comprada múltiplas vezes para perícias diferentes.
+**Nota:** Pode ser comprada múltiplas vezes, cada compra para uma perícia diferente. A perícia sai do catálogo do cenário em jogo, e cada mundo declara quais entram: o desconto é de preço e vive na economia, de modo que a família de perícia cujo preço o cenário entrega a outro dono fica fechada a esta compra. No mundo de Naruto ficam de fora as sete perícias de natureza, porque a escada de posição do Sistema Elemental governa o preço delas e fixa a afinidade primária no valor de tabela.
 
 ---
 
