@@ -1,7 +1,7 @@
 ---
 id: core.skills-core
 title: "Núcleo de Perícias"
-version: 2.1
+version: 2.2
 layer: core
 type: core-layer
 status: final
@@ -10,7 +10,7 @@ source-file: Nucleo_de_Pericias_v2_1.md
 
 # Núcleo de Perícias
 
-**Camada Fundamental, fechada para modificação. v2.1, com as três emendas factuais de fechamento da coluna de precisão e a seção 6.1, que fixa a largura presumida na publicação de valores.**
+**Camada Fundamental, fechada para modificação. v2.2, com as três emendas factuais de fechamento da coluna de precisão, a seção 6.1, que fixa a largura presumida na publicação de valores, e a leitura por eixo da exigência de regentes distintos.**
 
 O Núcleo de Perícias define o que é uma perícia, de que camadas ela é feita, quanto
 cada camada vale, como se adquire cada uma e como um teste de perícia se lê. Toda
@@ -37,6 +37,16 @@ Cada perícia declara um **atributo regente**, somado aos seus testes e respons�
 pelo requisito mínimo de cada nível. Domínios vizinhos que costumam ser comprados
 juntos declaram regentes distintos, o que mantém os portões independentes e impede
 que um único atributo alto destrave famílias inteiras de competência.
+
+A exigência vale **entre eixos de domínio e não dentro de um eixo**. Um eixo é o
+conjunto de domínios que executam o mesmo ato sobre matéria diferente, e distinguir
+seus membros por atributo produziria diferença arbitrária entre competências que o
+mundo trata como uma disciplina só. Dentro do eixo, a independência dos portões se
+mantém por outros dois instrumentos: o portão duplo, que põe magnitude e precisão em
+perícias distintas, e a exigência de nível cruzado, que obriga o praticante a subir a
+companheira junto. Dois domínios de eixos diferentes que compartilham regente
+permanecem conformes, porque o que a regra protege é a independência de acesso, e
+essa independência é o que a leitura por eixo preserva.
 
 Perícia não embute capacidade. O nível autoriza o acesso, e a capacidade em si vive
 no compêndio do domínio, com custo próprio.

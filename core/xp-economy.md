@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 2
+version: 2.1
 layer: core
 type: system
 status: final
@@ -100,6 +100,10 @@ XP Sorte disponível = XP Sorte base + XP ganho por desvantagens - XP gasto
 ```
 
 Desvantagens aceitas aumentam o ganho. Vantagens compradas, habilidades raras de clã ou ramo e ajustes por remoção ou troca aumentam o gasto. Os núcleos de clã (Uchiha 1600, Uzumaki 900, Senju 900, Hyūga teto 700) e a fórmula de Escassez do Sangue são precificados nesta moeda, conforme os documentos de clã.
+
+Contratos de vínculo com espécie invocável também correm nesta moeda quando o personagem os traz da história pregressa, precificados pelo que a espécie alcança, e o catálogo de cada cenário publica a tabela. O contrato obtido durante a campanha é evento do mundo e não passa por aqui, porque esta moeda é orçamento de criação.
+
+**O teto de 1600 vale entre clãs.** Ele impede que um clã futuro iguale ou exceda o Uchiha, e não governa o que não é clã. Ativo do mundo com ficha própria, roster e agência é outra espécie de compra, e o cenário que a precifique acima do teto declara a passagem no documento que a publica.
 
 ## 5. Atributos
 

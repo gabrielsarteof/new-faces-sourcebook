@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 114 documentos · 13 de núcleo · 101 de cenário
+**Total:** 123 documentos · 13 de núcleo · 110 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -24,12 +24,12 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual de Criação de Poderes](core/power-creation.md) | `core.power-creation` | 3.3 | core-layer | final |
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1 | reference-table | final |
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.1 | methodology | final |
-| [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.1 | core-layer | final |
-| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.2 | system | final |
+| [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.2 | core-layer | final |
+| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.3 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.3 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
-| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2 | system | final |
+| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.1 | system | final |
 
 ## Jujutsu Kaisen
 
@@ -103,7 +103,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1 | catalog | final |
+| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1.2 | catalog | final |
 
 ## Naruto · Campanha
 
@@ -143,7 +143,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Combate — Naruto](worlds/naruto/combat/overview.md) | `naruto.combat.overview` | 1 | system | final |
+| [Combate — Naruto](worlds/naruto/combat/overview.md) | `naruto.combat.overview` | 1.1 | system | final |
 
 ## Naruto · Compêndios de técnicas
 
@@ -151,7 +151,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.1 | compendium | final |
 | [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 1 | compendium | final |
-| [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1 | compendium | final |
+| [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.1 | compendium | final |
 | [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4 | compendium | final |
 | [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1 | compendium | final |
 | [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.1 | compendium | final |
@@ -173,6 +173,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Coração — Fundamentos do Universo Ninja](worlds/naruto/heart/overview.md) | `naruto.heart.overview` | 1 | lore | final |
+| [Contratos de Invocação](worlds/naruto/heart/summoning-contracts.md) | `naruto.item.summoning-contracts` | 1 | item-catalog | final |
 
 ## worlds/naruto/items
 
@@ -201,7 +202,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.powers.overview` | 1 | system | final |
+| [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.powers.overview` | 1.1 | system | final |
 
 ## worlds/naruto/progression
 
@@ -221,6 +222,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
+| [Barreira](worlds/naruto/skills/barreira.md) | `naruto.skill.barreira` | 1 | skill | final |
 | [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 3.2 | skill | final |
 | [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.4 | skill | final |
@@ -228,12 +230,13 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.2 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 3 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.6 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.8 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 2 | skill | final |
-| [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.1 | skill | final |
+| [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
+| [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.1 | skill | final |
-| [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.1 | skill | final |
+| [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.2 | skill | final |
 | [Liberação de Yin](worlds/naruto/skills/yin-release.md) | `naruto.skill.yin-release` | 4.1 | skill | final |
 
 ## Naruto · Sistemas
@@ -242,13 +245,14 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 5 | system | final |
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
-| [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3 | system | final |
+| [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.1 | system | final |
 | [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.2 | methodology | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 6 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1 | pending-patch | pending-patch |
+| [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1 | pending-patch | pending-patch |
 | [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.6 | methodology | final |
 | [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1 | system | final |
-| [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.1 | system | final |
+| [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.4 | system | final |
 | [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2 | system | final |
 
 ## Naruto · Técnicas
@@ -260,6 +264,11 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1 | technique | final |
 | [Fūton: Rasengan (風遁・螺旋丸)](worlds/naruto/techniques/futon-rasengan.md) | `naruto.technique.futon-rasengan` | 1 | technique | final |
 | [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](worlds/naruto/techniques/futon-rasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1 | technique | final |
+| [Execução do Deus do Trovão Voador (飛雷神斬り)](worlds/naruto/techniques/hiraishin-giri.md) | `naruto.technique.hiraishin-giri` | 1 | technique | final |
+| [Deus do Trovão Voador pela Impregnação (飛雷神の術)](worlds/naruto/techniques/hiraishin-impregnacao.md) | `naruto.technique.hiraishin-impregnacao` | 1 | technique | final |
+| [Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)](worlds/naruto/techniques/hiraishin-ni-no-dan.md) | `naruto.technique.hiraishin-ni-no-dan` | 1 | technique | final |
+| [Rotação Instantânea Mútua do Deus do Trovão Voador (飛雷神・相互瞬間回転)](worlds/naruto/techniques/hiraishin-sogo-shunkan-kaiten.md) | `naruto.technique.hiraishin-sogo-shunkan-kaiten` | 1 | technique | final |
+| [Deus do Trovão Voador (飛雷神の術)](worlds/naruto/techniques/hiraishin.md) | `naruto.technique.hiraishin` | 1 | technique | final |
 | [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2 | technique | final |
 | [Ōdama Rasengan (大玉螺旋丸)](worlds/naruto/techniques/odama-rasengan.md) | `naruto.technique.odama-rasengan` | 1 | technique | final |
@@ -272,7 +281,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**54 alvos distintos, em 60 referências.**
+**51 alvos distintos, em 57 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -298,14 +307,12 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/naruto/combat/collaboration-jutsu.md` — citado em worlds/naruto/combat/overview.md
 - `worlds/naruto/combat/genjutsu.md` — citado em worlds/naruto/combat/overview.md
 - `worlds/naruto/combat/ninjutsu.md` — citado em worlds/naruto/combat/overview.md
-- `worlds/naruto/combat/senjutsu.md` — citado em worlds/naruto/combat/overview.md
 - `worlds/naruto/combat/taijutsu.md` — citado em worlds/naruto/combat/overview.md
 - `worlds/naruto/heart/chakra-control.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/chakra-fundamentals.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/chakra-natures-overview.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/nature-transformation.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/shinobi-ranks.md` — citado em worlds/naruto/heart/overview.md
-- `worlds/naruto/heart/summoning-contracts.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/tailed-beasts.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/villages.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/lineages/beast-communication.md` — citado em worlds/naruto/lineages/hiden.md
@@ -324,7 +331,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/naruto/natures/mokuton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
 - `worlds/naruto/natures/yoton.md` — citado em worlds/naruto/lineages/kekkei-genkai.md, worlds/naruto/natures/advanced.md
 - `worlds/naruto/powers/expansions-overview.md` — citado em worlds/naruto/powers/overview.md
-- `worlds/naruto/powers/sage-mode.md` — citado em worlds/naruto/powers/overview.md
 - `worlds/naruto/powers/tailed-beast-mode.md` — citado em worlds/naruto/powers/overview.md
 - `worlds/naruto/progression/dojutsu-evolution.md` — citado em worlds/naruto/progression/overview.md
 - `worlds/naruto/progression/rank-advancement.md` — citado em worlds/naruto/progression/overview.md

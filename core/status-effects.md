@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.2
+version: 2.3
 layer: core
 type: system
 status: final
@@ -26,6 +26,10 @@ com o sistema de combate. Para usar, basta este arquivo.
   pela dificuldade) multiplicado por 50. Isso já escala sozinho, atributo maior resiste
   mais fácil, sem precisar de número diferente por faixa.
 - **Reduções de atributo** seguem 15, 30, 50 e 70 por cento por grau, sobre o valor atual.
+- **Fonte sem teste de resistência** é vetor legítimo, e os efeitos automáticos derivados
+  de recurso perdido ou de acúmulo já operavam assim. A Petrificação passou a admitir o
+  vetor de processo interno, em que a transformação nasce da operação que o próprio
+  personagem executa sobre o próprio corpo e o grau se instala pela régua da fonte.
 
 A partir daqui, os efeitos nativos; ao final, os opcionais.
 
@@ -836,12 +840,13 @@ Notas: fogo ou calor remove o efeito em qualquer grau. Grau Leve e Moderado remo
 
 ### Petrificação
 
-O corpo está sendo transformado em substância inerte. Diferente da Imobilização, cuja saída é a força, a Petrificação exige intervenção específica: é um processo de transformação que avança progressivamente e só se reverte por essa via. Nos graus mais severos, o personagem deixa de ser um alvo de habilidades normais, não pode ser curado, não pode ser afetado por maioria dos efeitos, mas também não pode agir. Recomendado para campanhas com criaturas de transformação ou magia de transmutação.
+O corpo está sendo transformado em substância inerte. Diferente da Imobilização, cuja saída é a força, a Petrificação exige intervenção específica: é um processo de transformação que avança progressivamente e só se reverte por essa via. Nos graus mais severos, o personagem deixa de ser um alvo de habilidades normais, não pode ser curado, não pode ser afetado por maioria dos efeitos, mas também não pode agir. Recomendado para campanhas com criaturas de transformação, magia de transmutação, ou práticas que transformam quem as executa.
 
-Fonte: olhar de criatura específica, técnica de transmutação, armadilha mágica.
+Fonte: olhar de criatura específica, técnica de transmutação, armadilha mágica, processo de transmutação instalado no próprio corpo do personagem.
 Atributos testados: RES + VONTADE
 Alvo do teste para técnica: (RES + VONTADE) x (1 - RC nominal da técnica / RC máxima do atacante)
 Alvo do teste para fonte passiva: teste oposto.
+Alvo do teste para processo interno: sem teste. O personagem opera sobre o próprio corpo uma transformação que ele mesmo governa, e a instalação do grau é consequência da operação. A fonte que publica a operação declara a régua que instala o efeito e o grau garantido por instalação.
 
 Grau Leve: rigidez parcial. Redução de 15% em VEL, DES e FOR. O personagem ainda age mas sente o corpo resistindo.
 
@@ -851,7 +856,7 @@ Grau Grave: transformação quase completa. Redução de 50% em VEL, DES e FOR. 
 
 Grau Crítico: transformação completa. O personagem está inerte. Não pode agir, não pode ser curado por meios convencionais, não pode receber a maioria dos efeitos de status. Ataques físicos causam dano mínimo mas podem fragmentar o personagem se severos o suficiente. Apenas reversão da transformação resolve.
 
-Notas: Leve e Moderado removem pela regra universal. Grave exige técnica de reversão de transformação. Crítico exige técnica ou item específico declarado pela fonte que causou o efeito.
+Notas: Leve e Moderado removem pela regra universal. Grave exige técnica de reversão de transformação. Crítico exige técnica ou item específico declarado pela fonte que causou o efeito. A fonte de processo interno publica a própria via de reversão junto da régua que instala o efeito, e essa via responde pelos dois graus superiores.
 
 
 ### Peso Sobrenatural
