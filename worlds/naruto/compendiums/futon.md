@@ -415,7 +415,7 @@ A técnica é o portão da linha elemental da esfera. O verbete não cita databo
 **Fūton: Rasenshuriken — 風遁・螺旋手裏剣**
 **[CANON — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūton LV6 · Moldagem Absoluta · Caminho Composição (Controle de Chakra) · Caminho Vento Encanado · Fūton: Rasengan
+**Requisitos:** Fūton LV6 · Moldagem Absoluta · Caminho Composição (Controle de Chakra) · Caminho Vento Encanado · Rasengan de Vento
 **XP:** 27.200
 
 O único rank S de databook entre as técnicas dos cinco elementos puros. O usuário envolve uma esfera espiralada em quatro grandes pontas de vento, dando ao conjunto a forma de uma fūma shuriken, e a arremessa. Na detonação, a técnica libera incontáveis microlâminas de vento que cortam o corpo em escala celular, atingindo o sistema circulatório de chakra do alvo, e o databook registra que o dano ao sistema não é fechável por ninjutsu médico, com a vítima podendo perder para sempre a capacidade de moldar chakra. A execução exige maestria de transformação de forma somada à de natureza, o pináculo declarado do treinamento elemental, e a técnica figura aqui como registro do teto absoluto do Fūton.
