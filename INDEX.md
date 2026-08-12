@@ -8,7 +8,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
 <<<<<<< HEAD
-**Total:** 145 documentos · 13 de núcleo · 132 de cenário
+**Total:** 128 documentos · 13 de núcleo · 115 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -31,38 +31,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.3 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
 | [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.2 | system | final |
-
-## hiraishin
-
-| Documento | id | v | tipo | status |
-|---|---|---|---|---|
-| [Deus do Trovão Voador (飛雷神の術)](hiraishin/hiraishin.md) | `naruto.technique.hiraishin` | 1 | technique | final |
-| [Execução do Deus do Trovão Voador (飛雷神斬り)](hiraishin/hiraishingiri.md) | `naruto.technique.hiraishin-giri` | 1 | technique | final |
-| [Deus do Trovão Voador pela Impregnação (飛雷神の術)](hiraishin/hiraishinimpregnacao (1).md) | `naruto.technique.hiraishin-impregnacao` | 1 | technique | final |
-| [Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)](hiraishin/hiraishinninodan.md) | `naruto.technique.hiraishin-ni-no-dan` | 1 | technique | final |
-| [Rotação Instantânea Mútua do Deus do Trovão Voador (飛雷神・相互瞬間回転)](hiraishin/hiraishinsogoshunkankaiten.md) | `naruto.technique.hiraishin-sogo-shunkan-kaiten` | 1 | technique | final |
-
-## portoes
-
-| Documento | id | v | tipo | status |
-|---|---|---|---|---|
-| [Compêndio dos Oito Portões](portoes/eightgates (1).md) | `naruto.compendium.eight-gates` | 1 | compendium | final |
-| [Oito Portões (八門)](portoes/eightgates.md) | `naruto.system.eight-gates` | 1 | system | final |
-| [Obras dos Oito Portões](portoes/hachimonobras.md) | `naruto.technique.hachimon-obras` | 1 | technique | final |
-| [Hachimon Tonkō (八門遁甲)](portoes/hachimontonko.md) | `naruto.technique.hachimon-tonko` | 1 | technique | final |
-
-## rasengan
-
-| Documento | id | v | tipo | status |
-|---|---|---|---|---|
-| [Chō Ōdama Rasengan (超大玉螺旋丸)](rasengan/choodamarasengan.md) | `naruto.technique.cho-odama-rasengan` | 1 | technique | final |
-| [Fūton: Rasengan (風遁・螺旋丸)](rasengan/futonrasengan.md) | `naruto.technique.futon-rasengan` | 1 | technique | final |
-| [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](rasengan/futonrasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1 | technique | final |
-| [Rasengan Evanescente (消える螺旋丸)](rasengan/kierurasengan.md) | `naruto.technique.kieru-rasengan` | 1 | technique | final |
-| [Ōdama Rasengan (大玉螺旋丸)](rasengan/odamarasengan.md) | `naruto.technique.odama-rasengan` | 1 | technique | final |
-| [Rasengan (螺旋丸)](rasengan/rasengan.md) | `naruto.technique.rasengan` | 1 | technique | final |
-| [Linhagem do Rasengan](rasengan/rasenganfamily (1).md) | `naruto.system.rasengan-family` | 1 | system | final |
-| [Rasenrengan (螺旋連丸)](rasengan/rasenrengan.md) | `naruto.technique.rasenrengan` | 1 | technique | final |
 
 ## Jujutsu Kaisen
 
