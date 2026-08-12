@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.sensory
 title: "Sensoriamento"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Pericia_Sensoriamento_v2.md
 
 # Perícia de Sensoriamento
 
-**v2.1. Atributo regente: PRE. Categoria de custo: Chakra (×1,4).**
+**v2.2. Atributo regente: PRE. Categoria de custo: Chakra (×1,4).**
 
 ---
 
@@ -43,7 +43,7 @@ A perícia lê chakra e responde por mapa. A perícia vizinha lê o mundo físic
 
 **Documentos de dōjutsu.** Olhos que qualificam seu portador como tipo sensor publicam essa camada por conta própria, e não passam por esta perícia.
 
-**Senjutsu.** Sentir chakra pela energia natural fica acima do teto deste domínio.
+**Senjutsu.** Sentir chakra pela energia natural fica acima do teto deste domínio, e a perícia de Senjutsu é a dona da colheita. A cedência está honrada pelos dois lados. Enquanto o Modo Sábio estiver de pé, esta perícia recebe de lá uma elevação categórica de alcance, e toda a leitura permanece aqui: o praticante em modo alcança mais longe pelo alcance que este documento publica, e continua lendo posição, identidade, intenção e qualificação pelas réguas desta perícia. Nenhum caminho do Senjutsu informa coisa alguma.
 
 **Bijū e jinchūriki.** A percepção de emoção negativa não é um degrau alto desta perícia. A fonte declara a capacidade impossível até para o tipo sensor mais habilidoso do mundo, e a recusa é explícita e não omissão.
 
@@ -440,6 +440,8 @@ A régua de dificuldade do narrador continua pendente no Núcleo. Enquanto ela n
 ---
 
 ## 17. Registro de alterações
+
+**v2.2.** Publicada a perícia de Senjutsu, a cedência de sentir chakra pela energia natural passa de devida a honrada, com o dono nomeado. A linha de fronteira registra na mesma passada a elevação categórica de alcance que o Modo Sábio concede a esta perícia, com toda a leitura permanecendo aqui e nenhum caminho daquela perícia informando coisa alguma. Nenhum valor, régua ou degrau desta perícia muda.
 
 **v2.1.** As réguas de Varredura, Meio Atravessado e Objeto de Leitura ganharam a citação da categoria Percepção do Manual de Criação de Poderes v3.1, cujo contrato obrigatório de três réguas essa perícia já cumpria desde a v2. Nenhum valor mudou.
 

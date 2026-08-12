@@ -1,7 +1,7 @@
 ---
 id: naruto.system.summoning
 title: "Documento de Invocação"
-version: 2.1
+version: 2.4
 layer: scenario
 scenario: naruto
 type: system
@@ -11,7 +11,7 @@ source-file: Documento_de_Invocacao_v2-1.md
 
 # Documento de Invocação
 
-**v2.1. Regras de contrato, invocação e invocados para o RPG de Naruto.**
+**v2.4. Regras de contrato, invocação e invocados para o RPG de Naruto.**
 
 A invocação transporta um aliado através do espaço; ela nunca o cria. Todo invocado é um ser independente, com chakra, técnicas, sociedade e vontade próprios, vivendo em território próprio até ser chamado. O invocador paga o transporte. O invocado decide o resto. Este documento rege a técnica-base, a aquisição e estrutura dos contratos, a taxonomia de custos, a ficha do invocado, a invocação reversa e os casos especiais com precedente canônico.
 
@@ -61,11 +61,17 @@ O rank C descreve o mecanismo. A RC gasta em cada execução segue a tabela da S
 
 ## 2. O Contrato
 
-### 2.1 Aquisição por concessão narrativa
+### 2.1 Aquisição do contrato
 
-O contrato custa 0 XP e é adquirido exclusivamente por evento narrativo autorizado pelo Narrador: apresentação por um contratante ativo, descoberta do pergaminho, convite da própria espécie. O padrão é o mesmo das Reencarnações, em que concessões de vínculo não passam pela economia de XP. Sem contrato, nenhuma quantidade de RC compra a invocação.
+O contrato entra numa ficha por duas rotas, e elas se distinguem pelo momento.
 
-O contrato é requisito de objeto e vive na ficha do vínculo. A perícia governa a execução da passagem e nunca o acesso ao vínculo.
+**Em jogo, o contrato não tem preço.** Apresentação por um contratante ativo, descoberta do pergaminho, herança, tomada em campo ou convite da própria espécie. É evento do mundo, autorizado pelo Narrador, e nenhuma quantidade de XP o compra ou o acelera. Cada espécie declara a camada de acesso que rege a rota dela, entre as sete da Norma de Produção de Compêndios, e é a camada que diz quanta justificativa a ficção precisa produzir.
+
+**Na criação, o contrato se compra em XP de Sorte.** O personagem que chega à mesa já contratante traz um vínculo formado na história pregressa dele, e isso se paga na moeda de destino. O preço lê o tier do invocado mais alto que a espécie alcança, pela taxonomia da Seção 4, e o Catálogo de Contratos de Invocação publica a tabela e o preço de cada espécie.
+
+A distinção não é arbitrária. O XP de Sorte é orçamento de criação, e não corre durante a campanha; o que se paga ali é a vida vivida antes da primeira sessão. Sem contrato, por qualquer das duas rotas, nenhuma quantidade de RC compra a invocação.
+
+O contrato é requisito de objeto e vive na ficha do vínculo. A perícia governa a execução da passagem e nunca o acesso ao vínculo. O jutsu-base continua sem preço próprio, e o invocado individual continua sem custar XP.
 
 ### 2.2 O pergaminho
 
@@ -200,12 +206,19 @@ PV · RC · LS
 Atributos relevantes, apenas os que a ficha usa
 Técnicas próprias, de duas a quatro, com custo em RC do invocado
 Capacidades: fala, rastreio, transporte, plataforma
+Parceiro de fusão: sim ou não, apenas em ficha de chefe de espécie
 Retorno: condições específicas além das padrão
 ```
+
+**Parceiro de fusão** é campo exclusivo de chefe de espécie, e declara se aquela espécie mantém a prática de fundir um dos seus ao praticante para colher energia natural por ele. Só os sapos a mantêm na obra, e a propriedade existe aqui porque é da espécie e não da perícia que a consome. O campo é lido pela perícia de Senjutsu, onde ele decide o destino do praticante que ergueu o modo imperfeito.
 
 **Porte** é descritor tático sem bônus numérico, no mesmo princípio das Funções Operacionais. Grande carrega um ou dois ninjas, e Colossal serve de plataforma de equipe e interage com o terreno. Qualquer efeito mecânico de porte vem das técnicas e atributos declarados, nunca do rótulo.
 
 **Marcos de relação** substituem a apreciação subjetiva de vínculo. Cada marco é um fato do mundo, cumprido ou não cumprido, verificável antes do teste. Salvar a vida do invocado, cumprir um preço cobrado numa invocação anterior e ser apresentado por um contratante que o invocado respeita são exemplos da forma correta. Ter boa relação não é marco, porque não é verificável.
+
+**Um marco só entra na ficha quando três condições se cumprem**, no mesmo teste de admissão que a Rede do Musubi publica no documento da reencarnação de Asura: uma relação nomeada com uma criatura concreta daquela espécie, um evento sob Pressão Real que a ancore, nos patamares do Manual Global de Treinamento, e a confirmação do Narrador. As três são cumulativas.
+
+O teste existe porque assinar não compra serviço. O contratante recém-assinado tem zero marcos, encara o limiar cheio do tier e traz o que a reserva dele alcança, que no começo é o degrau mais baixo da espécie. A escada até o chefe é a campanha, e é ela que a obra mostra. **Marco não se compra em moeda nenhuma, nem na criação nem depois**, e o personagem que pagou o contrato na criação chega com zero marcos como qualquer outro. Exigir o evento sob Pressão Real e nunca confirmar marco por conveniência é o que mantém a escada de pé.
 
 **Gatilho de recusa** materializa a vontade própria em condição objetiva. Manda exige preço a cada chamado; Gamabunta recusa quem ainda vale pouco aos olhos dele, o que se escreve como marco não cumprido em vez de julgamento em cena. O gatilho passa pelos dois testes do contrato de condição, exogeneidade e falseabilidade, e gatilho que dependa de o invocador ter decidido algo não publica.
 
@@ -246,7 +259,7 @@ A invocação reversa, Gyaku Kuchiyose, é o mesmo jutsu executado pelo animal. 
 
 Regra dura. Toda invocação entrega o transportado na posição de quem executa. Enviar para longe, banir inimigo ou escolher destino arbitrário permanecem impossíveis. A distinção contra o Hiraishin é estrutural: o Hiraishin desloca o usuário até marcas próprias, sob o custo duplo do Fūinjutsu, e a invocação puxa o vinculado até o executor.
 
-**Alvo declarado de revogação.** Esta regra fica registrada como candidata a revogação por transcendência da perícia de Passagem. É regra nomeada do sistema, que é exatamente a matéria de LV6, e a perícia a consome em vez de inventar alvo próprio. Enquanto a transcendência não existir, a regra vale sem exceção.
+**Alvo de revogação, cumprido.** Esta regra foi registrada como candidata a revogação por transcendência da perícia de Passagem, e a transcendência Sarutahiko a revogou. O portador dela entrega o invocado em ponto ancorado que não o próprio, com o agravo de 25 declarado lá. Fora do alcance daquela transcendência, e caindo a âncora antes da chegada, a regra volta a valer sem exceção.
 
 ### 6.3 Invocar pessoas dentro do contrato
 
@@ -272,7 +285,7 @@ O caso resolve-se por três camadas já existentes, sem subsistema novo. O invoc
 
 ### 7.2 Invocação-golpe, precedente Kamatari
 
-Invocação-golpe é jutsu de dano comum do invocador, registrado pela forma de dois termos do Manual de Criação de Jutsus, com requisito adicional de contrato ativo. Sem mini-ficha, sem permanência e sem portão de aceitação além do contrato, porque o invocado é a forma de entrega do golpe, na mesma lógica em que a Kirin trata o raio natural como fonte. Kuchiyose: Kirikiri Mai, rank B, Fūton, rider de Sangramento e entrega de área, recebe números na fase de fichas, com marcação provisória até a simulação.
+Invocação-golpe é jutsu de dano comum do invocador, registrado pela forma de dois termos do Manual de Criação de Jutsus, com requisito adicional de contrato ativo. Sem mini-ficha, sem permanência e sem portão de aceitação além do contrato, porque o invocado é a forma de entrega do golpe, na mesma lógica em que a Kirin trata o raio natural como fonte. Kuchiyose: Kirikiri Mai, rank B, Fūton, rider de Sangramento e entrega de área, recebe os números no Compêndio de Fūton, que é o dono da obra. O Catálogo de Contratos de Invocação registra a espécie e a rota de acesso a ela.
 
 ### 7.3 O princípio do conduíte, precedente Katsuyu
 
@@ -284,7 +297,11 @@ Objetos invocados ficam fora da taxonomia de invocados. Tier, mini-ficha e port�
 
 ### 7.5 Senjutsu
 
-As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, ficam registradas como porta narrativa de acesso ao futuro documento de Senjutsu. O acesso é benefício de relacionamento com a terra, jamais cláusula automática do contrato. Nenhuma mecânica de senjutsu é antecipada aqui.
+As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, ficam registradas como porta narrativa de acesso à perícia de Senjutsu. O acesso é benefício de relacionamento com a terra, jamais cláusula automática do contrato. Nenhuma mecânica de senjutsu é antecipada aqui.
+
+**A via de acesso é a aceitação pelo chefe da espécie**, pelo Teste de Aceitação da Seção 3.2. O chefe responde pela terra, e enquanto ele recusa o praticante a terra não se abre, tenha ele pergaminho assinado ou não. Quem constrói a aceitação são os marcos de relação declarados na ficha do chefe, que são fatos do mundo cumpridos em jogo. É a leitura que a Seção 2 já exige, com o vínculo sendo concessão narrativa e nenhum nível de perícia comprando relação.
+
+A espécie que ensina declara a assinatura física do modo, o ramo do compêndio que o praticante alcança e se ela mantém parceiro que se funde ao praticante para colher por ele. As três propriedades vivem na ficha do chefe, e a perícia de Senjutsu as lê sem redefinir nenhuma.
 
 ---
 
@@ -305,9 +322,19 @@ As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, 
 
 ### 9.1 Consumidores
 
-A perícia de Passagem lerá este documento na inclinação de convocação, consumindo o Teste de Aceitação e a regra dura da Seção 6.2. As fichas individuais de chefes de espécie leem o template da Seção 5.3. O Compêndio de Ninjutsu lê a Seção 7.2 para as invocações-golpe.
+A perícia de Passagem lê este documento na inclinação de convocação desde a v1.1, consumindo o Teste de Aceitação e a regra dura da Seção 6.2, que a transcendência dela revoga. O Catálogo de Contratos de Invocação lê a taxonomia da Seção 4, o template da Seção 5.3 e o Teste de Aceitação, e publica as fichas de chefe que esta seção adiava. As fichas individuais de chefes de espécie leem o template da Seção 5.3. O Compêndio de Ninjutsu lê a Seção 7.2 para as invocações-golpe. A perícia de Senjutsu lê a Seção 2 e a Seção 7.5, consumindo o contrato como requisito de ficha e a espécie contratada como declarante da modalidade.
 
 ### 9.2 Registro de alterações
+
+**v2.4.** O contrato passa a ter duas rotas com preços distintos. Em jogo continua sendo evento do mundo sem preço, e cada espécie declara a camada de acesso que rege a rota dela. Na criação passa a se comprar em XP de Sorte, pelo tier mais alto que a espécie alcança, com a tabela publicada no Catálogo de Contratos de Invocação. A instrução da Seção 10 que proibia precificar contrato cai, porque nasceu quando o contrato era concessão pura, e a proibição permanece para o jutsu-base e para o invocado individual.
+
+Os marcos de relação ganham teste de admissão, e ele não é inventado aqui: são as três condições cumulativas que a Rede do Musubi já publica, com relação nomeada, evento sob Pressão Real e confirmação do Narrador. Marco continua sem preço em moeda alguma, e o personagem que pagou o contrato na criação chega com zero marcos como qualquer outro. É essa combinação que reproduz o contratante recém-assinado que traz filhote em vez de chefe.
+
+Quatro defasagens corrigidas na mesma passada. O rodapé dizia v2.1 num arquivo que já estava em v2.3. A Seção 9.1 dizia que a perícia de Passagem leria este documento, e ela lê desde a v1.1. A Seção 6.2 declarava a revogação por transcendência como futura, e a transcendência Sarutahiko já a publicou. A Seção 7.2 prometia os números do Kirikiri Mai para a fase de fichas, e eles pertencem ao Compêndio de Fūton.
+
+**v2.3.** O acesso ao treino de senjutsu passa a se resolver pela aceitação do chefe da espécie, pelo Teste de Aceitação da Seção 3.2, e deixa de se resolver pela posse do contrato. A troca corrige uma leitura que a Seção 7.5 já contradizia por escrito desde a v2.1, ao declarar o acesso como benefício de relacionamento e nunca como cláusula do vínculo. O template da Seção 5.3 ganha o campo de parceiro de fusão, exclusivo de ficha de chefe, porque manter alguém que se funde ao praticante é propriedade da espécie e não da perícia que a consome.
+
+**v2.2.** Publicada a perícia de Senjutsu, a Seção 7.5 deixa de citar um documento futuro e passa a nomear a perícia, com o contrato registrado do outro lado como requisito de ficha dela e a espécie contratada declarando a assinatura do modo e o ramo do compêndio. A aquisição do contrato permanece concessão narrativa, sem que nível de perícia algum compre vínculo, e nenhuma mecânica de senjutsu entra aqui.
 
 **v2.1.** Publicada a perícia de Passagem, antes rotulada Espaço-Tempo, o portão fixou em LV3 pelo rank C do jutsu-base, o preço próprio em XP do jutsu-base saiu com a cláusula transitória cumprida, e os Limiares de Aceitação saíram do estado provisório conferidos contra a faixa de teste da perícia.
 
@@ -317,7 +344,7 @@ A perícia de Passagem lerá este documento na inclinação de convocação, con
 
 ## 10. Instruções para a IA
 
-Contrato é concessão narrativa a 0 XP. A competência de invocar é comprada uma vez, na perícia de Passagem. Nunca precifique contrato, jutsu-base ou invocado individual em XP.
+Contrato obtido em jogo é evento narrativo sem preço. Contrato trazido da história pregressa se compra na criação, em XP de Sorte, pelo tier mais alto que a espécie alcança, com a tabela no Catálogo de Contratos de Invocação. A competência de invocar é comprada uma vez, na perícia de Passagem. **Nunca precifique jutsu-base ou invocado individual em XP**, e nunca cobre por marco de relação em moeda alguma.
 
 O custo de RC segue o invocado, jamais o rank C do mecanismo. Posicione cada invocado num tier da Seção 4 pela utilidade total do pacote, com justificativa de uma frase.
 
@@ -341,4 +368,4 @@ Nunca apresente invenção como fato canônico. Silêncio canônico é declarado
 
 ---
 
-*Documento de Invocação v2.1. Instância do modo de ficha registrada do motor de entidade. O contrato é concessão, a competência é da perícia, o custo segue o ser, a vontade do invocado resolve por teste contra valor declarado, o destino é sempre o executor e o canal nunca duplica pool.*
+*Documento de Invocação v2.4. Instância do modo de ficha registrada do motor de entidade. O contrato é evento em jogo e compra na criação, a competência é da perícia, o custo segue o ser, a vontade do invocado resolve por teste contra valor declarado, o destino é sempre o executor e o canal nunca duplica pool.*
