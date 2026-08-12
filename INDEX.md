@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 106 documentos · 13 de núcleo · 93 de cenário
+**Total:** 107 documentos · 13 de núcleo · 94 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -29,7 +29,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.3 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
-| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2 | system | final |
+| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.1 | system | final |
 
 ## Jujutsu Kaisen
 
@@ -172,6 +172,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Coração — Fundamentos do Universo Ninja](worlds/naruto/heart/overview.md) | `naruto.heart.overview` | 1 | lore | final |
+| [Contratos de Invocação](worlds/naruto/heart/summoning-contracts.md) | `naruto.item.summoning-contracts` | 1 | item-catalog | final |
 
 ## worlds/naruto/items
 
@@ -230,7 +231,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.8 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 2 | skill | final |
-| [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2 | skill | final |
+| [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.1 | skill | final |
 | [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.2 | skill | final |
@@ -247,7 +248,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 6 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1 | pending-patch | pending-patch |
 | [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.5 | methodology | final |
-| [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.3 | system | final |
+| [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.4 | system | final |
 | [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2 | system | final |
 
 ## Naruto · Técnicas
@@ -264,7 +265,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**52 alvos distintos, em 58 referências.**
+**51 alvos distintos, em 57 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -296,7 +297,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/naruto/heart/chakra-natures-overview.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/nature-transformation.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/shinobi-ranks.md` — citado em worlds/naruto/heart/overview.md
-- `worlds/naruto/heart/summoning-contracts.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/tailed-beasts.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/heart/villages.md` — citado em worlds/naruto/heart/overview.md
 - `worlds/naruto/lineages/beast-communication.md` — citado em worlds/naruto/lineages/hiden.md
