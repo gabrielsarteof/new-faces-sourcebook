@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.8
+version: 2.9
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.8. Camada de relação entre domínios.**
+**v2.9. Camada de relação entre domínios.**
 
 ---
 
@@ -35,7 +35,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 |---|---|---|---|
 | Controle de Chakra | v3.2 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
-| Senjutsu | v2 | RES | Chakra ×1,4 |
+| Senjutsu | v2.2 | RES | Chakra ×1,4 |
 | Katon | v3 | INT | Ninjutsu ×1,5 |
 | Raiton | v2 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.1 | INT | Ninjutsu ×1,5 |
@@ -253,7 +253,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Genjutsu v1.2 | conforme, com uma ressalva de vocabulário |
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
-| Senjutsu v2 | conforme |
+| Senjutsu v2.2 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
 
@@ -279,6 +279,10 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.9.** Nasce o documento de adaptação de treino do cenário, Treinamento no Mundo Shinobi, que o Manual Global de Treinamento exigia de todo cenário e que o índice de Progressão declarava por nome sem que o arquivo existisse. Ele passa a ser o dono da interface entre este sistema de perícias e o manual de treinamento, e a decisão que carrega toca as quatorze: no eixo do chakra o talento se compra por natureza ou por perícia nomeada, e as três categorias de custo ficam fechadas à compra de talento por categoria. A razão está na escada de posição do Sistema Elemental, que fixa a afinidade primária no valor de tabela e só sobe a partir dali, de modo que vantagem capaz de baratear a categoria inteira atravessaria a escada por fora.
+
+Nenhum regente, portão, inclinação ou caminho muda, e nenhuma perícia entra em rework, porque a passada fecha uma porta que nenhum documento de perícia usava. O Registro de Regentes e o de Conformidade corrigem a linha do Senjutsu, que constava em v2 nos dois e está em v2.2 no arquivo depois da correção de citação feita aqui. As erratas abertas continuam cinco.
 
 **v2.8.** A perícia de Senjutsu sobe para v2 e refaz a camada de acesso inteira, sem tocar em régua, caminho ou transcendência. Três portões caem, e os três caíam pelo mesmo motivo: eram portão de ficha onde o cânone tem acesso narrativo e qualidade de resultado. O limiar de Reserva de Chakra sai porque a fórmula da RC multiplica por clã, de modo que ele media linhagem em vez de reserva. A exigência de contrato ativo dá lugar à aceitação pelo chefe da espécie, pelo Teste de Aceitação que o Documento de Invocação já publicava, o que honra o que a seção 7.5 daquele documento afirmava desde a v2.1. E a vantagem Compatibilidade com Energia Natural sai da lista de requisitos, porque vantagem que só destrava conteúdo é porteiro, e passa a decidir se o praticante ergue o modo perfeito ou o imperfeito.
 

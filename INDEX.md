@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 107 documentos · 13 de núcleo · 94 de cenário
+**Total:** 108 documentos · 13 de núcleo · 95 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -17,7 +17,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Vantagens Comuns](core/advantages.md) | `core.advantages` | 1 | catalog | final |
+| [Vantagens Comuns](core/advantages.md) | `core.advantages` | 2 | catalog | final |
 | [Fator de Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 1 | system | final |
 | [Princípios de Design](core/design-principles.md) | `core.design-principles` | 1 | methodology | final |
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
@@ -29,7 +29,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.3 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
-| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.1 | system | final |
+| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.2 | system | final |
 
 ## Jujutsu Kaisen
 
@@ -103,7 +103,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1.2 | catalog | final |
+| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1.3 | catalog | final |
 
 ## Naruto · Campanha
 
@@ -172,7 +172,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Coração — Fundamentos do Universo Ninja](worlds/naruto/heart/overview.md) | `naruto.heart.overview` | 1 | lore | final |
-| [Contratos de Invocação](worlds/naruto/heart/summoning-contracts.md) | `naruto.item.summoning-contracts` | 1 | item-catalog | final |
+| [Contratos de Invocação](worlds/naruto/heart/summoning-contracts.md) | `naruto.item.summoning-contracts` | 1.1 | item-catalog | final |
 
 ## worlds/naruto/items
 
@@ -208,6 +208,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Progressão — Naruto](worlds/naruto/progression/overview.md) | `naruto.progression.overview` | 1 | system | final |
+| [Treinamento no Mundo Shinobi](worlds/naruto/progression/xp-training.md) | `naruto.progression.xp-training` | 1 | system | final |
 
 ## Naruto · Reencarnações
 
@@ -228,10 +229,10 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.2 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 3 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.8 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.9 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 2 | skill | final |
-| [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
+| [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.2 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.1 | skill | final |
 | [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.2 | skill | final |
@@ -265,7 +266,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**51 alvos distintos, em 57 referências.**
+**50 alvos distintos, em 56 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -319,7 +320,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/naruto/progression/dojutsu-evolution.md` — citado em worlds/naruto/progression/overview.md
 - `worlds/naruto/progression/rank-advancement.md` — citado em worlds/naruto/progression/overview.md
 - `worlds/naruto/progression/technique-extensions.md` — citado em worlds/naruto/progression/overview.md
-- `worlds/naruto/progression/xp-training.md` — citado em worlds/naruto/progression/overview.md
 
 ---
 
