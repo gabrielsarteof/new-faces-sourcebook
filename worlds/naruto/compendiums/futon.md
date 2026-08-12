@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 3
+version: 4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Futon_v3.md
 ---
 
-# Compêndio de Fūton (風遁) · v3
+# Compêndio de Fūton (風遁) · v4
 **Liberação de Vento**
 
 Catálogo das técnicas nomeadas do elemento vento. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
@@ -398,12 +398,25 @@ O usuário ergue sobre o campo inteiro um vendaval contínuo de escala de tempes
 
 ---
 
+### Rasengan de Vento
+**Fūton: Rasengan — 風遁・螺旋丸**
+**[ATRIBUÍDO — Rank A]**
+**Acesso:** Requisito Mecânico
+**Requisitos:** Fūton LV5 · Moldagem Absoluta · Caminho Composição (Controle de Chakra) · Rasengan
+**XP:** 20.000
+
+O usuário converte em vento o volume inteiro da esfera girada, e a natureza entrega à superfície a coesão que a forma pura não possui. A esfera passa a existir sem a mão que a segura, o que abre o modo arremessado e resolve o problema tático da técnica de origem, que é chegar ao contato. A borda convertida corta durante a rotação e aplica Sangramento, rider que a esfera sem natureza não tem como produzir. A execução exige três moldagens simultâneas, porque a forma e a natureza correm ao mesmo tempo e nenhuma das duas admite pausa, e é essa exigência que faz da entrada a mais dependente de assistência da linhagem.
+
+A técnica é o portão da linha elemental da esfera. O verbete não cita databook algum, e a classificação em rank A é atribuída aqui pela leitura da reserva que ela consome.
+
+---
+
 ### Rasenshuriken de Vento
 **Fūton: Rasenshuriken — 風遁・螺旋手裏剣**
 **[CANON — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūton LV6 · Moldagem Absoluta · Caminho Vento Encanado
-**XP:** 38.000
+**Requisitos:** Fūton LV6 · Moldagem Absoluta · Caminho Composição (Controle de Chakra) · Caminho Vento Encanado · Fūton: Rasengan
+**XP:** 27.200
 
 O único rank S de databook entre as técnicas dos cinco elementos puros. O usuário envolve uma esfera espiralada em quatro grandes pontas de vento, dando ao conjunto a forma de uma fūma shuriken, e a arremessa. Na detonação, a técnica libera incontáveis microlâminas de vento que cortam o corpo em escala celular, atingindo o sistema circulatório de chakra do alvo, e o databook registra que o dano ao sistema não é fechável por ninjutsu médico, com a vítima podendo perder para sempre a capacidade de moldar chakra. A execução exige maestria de transformação de forma somada à de natureza, o pináculo declarado do treinamento elemental, e a técnica figura aqui como registro do teto absoluto do Fūton.
 
@@ -413,9 +426,9 @@ O único rank S de databook entre as técnicas dos cinco elementos puros. O usu�
 
 **Derrubar e varrer.** Ruptura, Grande Ruptura, Palma do Vendaval, Dano de Pressão, Bala de Ar Perfurante, Grande Esfera de Vácuo, Grande Ruptura da Poeira Infinita.
 
-**Cortar de perto.** Espada de Mão, Fluxo de Chakra: Vento, Lâmina de Vácuo, Lâmina de Vento.
+**Cortar de perto.** Espada de Mão, Fluxo de Chakra: Vento, Lâmina de Vácuo, Lâmina de Vento, Rasengan de Vento.
 
-**Cortar a distância.** Vento Descendente Divino, Cortador de Vento, Foice de Doninha, Onda de Vácuo, Grande Foice de Doninha, Rasenshuriken de Vento.
+**Cortar a distância.** Vento Descendente Divino, Cortador de Vento, Foice de Doninha, Onda de Vácuo, Grande Foice de Doninha, Rasengan de Vento, Rasenshuriken de Vento.
 
 **Vencer a esquiva.** Ondas Seriais de Vácuo, Esferas de Vácuo, Grande Tarefa do Dragão.
 
