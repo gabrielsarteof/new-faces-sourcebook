@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chidori-family
 title: "Linhagem do Chidori"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: system
@@ -322,9 +322,7 @@ Nenhum personagem inicial adquire qualquer ficha desta linhagem na criação. Po
 
 **Fila de errata.**
 
-Compêndio de Raiton, entrada do Cortador de Raio: o preço publicado é 23.000, apurado pela matriz de estimativa da Seção 4.1.3. A ficha apura 23.600 sobre a RC nominal de 1.800, e a apuração substitui a estimativa pela regra que a própria seção declara. A correção vale dali em diante e não retroage sobre quem já pagou.
-
-Compêndio de Raiton: falta a entrada do Chidori Katana, que a Seção 8 registra como célula ocupada da grade. O texto de catálogo acompanha esta entrega.
+**Aplicadas, no Compêndio de Raiton v3.4.** O preço do Cortador de Raio subiu de 23.000, apurado pela matriz de estimativa da Seção 4.1.3, para 23.600, apurado sobre a RC nominal de 1.800 pela regra que a própria seção declara. A correção vale dali em diante e não retroage sobre quem já pagou. A entrada do Chidori Katana, que a Seção 8 registrava como célula ocupada da grade sem catálogo, foi publicada como Sabre de Mil Pássaros. A entrada do Takemikazuchi também entrou, na mesma versão.
 
 Compêndio de Raiton, entrada da Transmissão de Raio: a entrada publica rank B, acesso por Requisito Mecânico com segundo usuário ou clone, e descreve a corrente estendida entre dois executantes. A origem canônica do efeito é a execução simultânea de duas técnicas de Raikiri ligadas por um cordão, o que a colocaria em outro rank e sob outro pré-requisito. A entrada publicada é fato consumado e não é recalibrada aqui. A divergência fica registrada para decisão futura de Gabriel.
 
@@ -364,4 +362,4 @@ Toda entrada nova declara a distância da entrega, porque é ela que decide a pe
 
 ---
 
-*Linhagem do Chidori v1. Uma assinatura de três propriedades que caem juntas, o contrato de que quem larga a investida larga a perfuração, um eixo por variação, coeficiente técnico 2,0 como herança e degrau Refinado como portão comum, árvore de um nível com a raiz como pré-requisito obrigatório, cinco eixos com dono declarado, e o Kirin e o Shiden declarados fora dela.*
+*Linhagem do Chidori v1.1. Uma assinatura de três propriedades que caem juntas, o contrato de que quem larga a investida larga a perfuração, um eixo por variação, coeficiente técnico 2,0 como herança e degrau Refinado como portão comum, árvore de um nível com a raiz como pré-requisito obrigatório, cinco eixos com dono declarado, e o Kirin e o Shiden declarados fora dela.*
