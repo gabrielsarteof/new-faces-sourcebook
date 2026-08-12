@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.3
+version: 3.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.3
+# Compêndio de Raiton (雷遁) · v3.4
 **Liberação de Raio**
 
 Catálogo das técnicas nomeadas do elemento raio. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
@@ -284,6 +284,17 @@ Sem Sharingan ativo, a execução concede ao oponente uma janela de contra-ataqu
 
 ---
 
+### Sabre de Mil Pássaros
+**Kusanagi no Tsurugi: Chidori-tō — 草薙の剣・千鳥刀**
+**[CANON — Rank A]**
+**Acesso:** Requisito Mecânico
+**Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Ponta · Chidori · arma branca empunhada
+**XP:** 8.750
+
+O usuário transfere para a lâmina empunhada a corrente que o Chidori comprime na palma, e o aço passa a conduzir a carga ao longo de todo o fio. A vibração de alta frequência atravessa placa, guarda e arma interposta sem perder velocidade, o que retira do oponente a opção de aparar, e o golpe entrega o corte e a descarga no mesmo movimento. A lâmina mantida cravada no alvo continua alimentando a corrente e admite elevação para Paralisia Total. A dependência do objeto é o preço da entrada, e arma inimiga que carregue fluxo de raio detém o fio pelo confronto de mesma natureza.
+
+---
+
 ### Corrente de Mil Pássaros
 **Chidori Nagashi — 千鳥流し**
 **[CANON — Rank A]**
@@ -414,11 +425,22 @@ O usuário molda relâmpago negro na forma de uma pantera que avança de forma a
 **[CANON · Rank S]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Raiton LV6 · Moldagem Absoluta · Caminho Ponta · Chidori
-**XP:** 23.000
+**XP:** 23.600
 
 O usuário eleva a concentração do Chidori até o ponto em que a corrente deixa de se comportar como descarga e passa a operar como lâmina, capaz de cortar o próprio relâmpago ao meio. A densidade alcançada atravessa defesas de chakra que suportariam a versão original da técnica, e a perfuração deixa de depender da massa investida para depender da precisão do corte. O nome da técnica registra o feito que a originou.
 
 A janela de contra-ataque por visão de túnel permanece idêntica à do Chidori na ausência do Sharingan, e o portador do olho executa sem ela. Com maestria plena, a corrente é reunida simultaneamente nas duas mãos, dobrando os pontos de aplicação sem exigir nova moldagem.
+
+---
+
+### Takemikazuchi
+**建御雷神**
+**[CANON — Rank S]**
+**Acesso:** Fechada na Criação
+**Requisitos:** Raiton LV6 · Moldagem Refinada · Caminho Ponta · Chidori · Amaterasu com o olho correspondente ativo · Kyōka Enton
+**XP:** 21.800
+
+O usuário reveste a corrente já reunida do Chidori com a chama negra do Amaterasu, moldada sobre ela pela competência da natureza intensificada, e avança carregando as duas coisas na mesma mão. A chama nasce do olho e se acomoda sobre a corrente já pronta, sem sair da reserva do executante, de modo que o impacto conserva a perfuração e a paralisia da técnica de origem. O ponto de entrada permanece aceso depois que a corrente se dissipa, e a queima instalada não responde a meio comum de extinção, cedendo apenas à moldagem de quem a assentou. O preço da entrada se cobra no medidor do próprio olho.
 
 ---
 
@@ -486,7 +508,7 @@ O usuário ergue a mão e impõe ao céu a formação de um relâmpago colossal,
 
 ## Índice Rápido por Função Tática
 
-**Perfurar em ponto único.** Chidori, Cortador de Raio, Perfuração do Inferno, Falsa Escuridão, Lança Afiada de Mil Pássaros.
+**Perfurar em ponto único.** Chidori, Cortador de Raio, Perfuração do Inferno, Falsa Escuridão, Lança Afiada de Mil Pássaros, Sabre de Mil Pássaros, Takemikazuchi.
 
 **Entregar a distância.** Falsa Escuridão, Esfera de Raio, Relâmpago Púrpura, Flecha do Estrondo, Relâmpago Serpente, Presa Rastreadora do Raio.
 
@@ -502,9 +524,11 @@ O usuário ergue a mão e impõe ao céu a formação de um relâmpago colossal,
 
 **Preparar o terreno.** Selo de Tempestade, Centelha Estática, Onda de Inspiração.
 
-**Golpear no corpo a corpo.** Fluxo de Chakra: Raio, Bomba Liger, Descargas do Primeiro Ninshū.
+**Golpear no corpo a corpo.** Fluxo de Chakra: Raio, Bomba Liger, Descargas do Primeiro Ninshū, Sabre de Mil Pássaros.
 
 **Guardar para o momento certo.** Trovão Acumulado, Selo de Tempestade.
+
+**Continuar cobrando depois do golpe.** Takemikazuchi.
 
 **Decidir por escala.** Kirin, Vajra, Flecha de Indra, Limelight.
 
