@@ -11,9 +11,9 @@ source-file: Errata_Linhagem_Hiraishin_v1.md
 
 # Errata da Linhagem do Hiraishin
 
-As cinco fichas da Linhagem do Hiraishin publicam a Faixa de Travessia, que é a grandeza de RC nominal que as entradas do compêndio ainda não tinham. Com ela legível, três valores do Compêndio de Fūinjutsu e duas seções do Manual de Ancoragem passam a divergir do que o corpus afirma em outro lugar.
+As cinco fichas da Linhagem do Hiraishin publicam a Faixa de Travessia, que é a grandeza de RC nominal que as entradas do compêndio ainda não tinham. Com ela legível, valores do Compêndio de Fūinjutsu e seções do Manual de Ancoragem passam a divergir do que o corpus afirma em outro lugar, e a transcrição das fórmulas para o motor da aplicação expôs duas convenções de arredondamento que o Manual de Criação de Jutsus mantém em desacordo consigo mesmo.
 
-Dois alvos com correção declarada, e uma divergência que permanece aberta porque os dois lados dela têm dono e nenhum cedeu. Cada entrada indica onde localizar, o que sai, o que entra e a origem.
+Três alvos com correção declarada, e uma divergência que permanece aberta porque os dois lados dela têm dono e nenhum cedeu. Cada entrada indica onde localizar, o que sai, o que entra e a origem.
 
 ---
 
@@ -88,7 +88,7 @@ O parágrafo de abertura da categoria também nomeia a entrada, e a menção ao 
 
 **Entra:** Perícia de Fūinjutsu v1.4, Perícia de Controle de Chakra v3.2.
 
-**Origem:** o registro afirma conformidade contra versões que o Índice não publica mais. A declaração de conformidade do Controle de Chakra vale contra um texto de duas gerações atrás, e é dentro dessa diferença que vive a divergência do Alvo 3.
+**Origem:** o registro afirma conformidade contra versões que o Índice não publica mais. A declaração de conformidade do Controle de Chakra vale contra um texto de duas gerações atrás, e é dentro dessa diferença que vive a divergência do Alvo 4.
 
 ### 2.3 Pendência da ficha dedicada do Hiraishin de Boruto
 
@@ -110,9 +110,31 @@ O parágrafo de abertura da categoria também nomeia a entrada, e a menção ao 
 
 ---
 
-## ALVO 3 — Divergência aberta, sem lado escolhido
+## ALVO 3 — Manual de Criação de Jutsus v2.5, arredondamento
 
-### 3.1 Manutenção da âncora impregnada
+### 3.1 Âncoras de interpolação que discordam entre si
+
+**Localizar:** tabela de âncoras da Seção 4.1.1.
+
+A interpolação devolve valor fracionário em duas das quatro âncoras, e a tabela as publica arredondadas em sentidos opostos. O Goukakyuu em 180 de RC nominal resolve 1.722,72 e aparece como 1.722. O Rasengan em 450 resolve 4.785,71 e aparece como 4.786. As outras duas âncoras, Chidori e Kirin, caem em valor inteiro e não distinguem as duas leituras.
+
+A Seção 4.1.2 declara floor no resultado final, o que sustenta o 1.722 e contraria o 4.786. Uma das duas células precisa mudar, ou a Seção 4.1.2 precisa dizer que o floor incide depois dos modificadores da Seção 4.2 e não sobre a interpolação.
+
+As cinco fichas da Linhagem do Hiraishin caem todas em valor inteiro, e por isso a escolha não altera nenhum preço publicado por elas.
+
+### 3.2 Fator de Moldagem publicado truncado
+
+**Localizar:** tabela Fator de Moldagem por nível da Seção 5.3.
+
+A tabela publica 62 para o nível 5 e 122 para o nível 6 com um caminho, quando a fórmula devolve 62,5 e 122,5. O truncamento é de exibição e não entra em conta nenhuma, porque as âncoras de dano da mesma seção somam o fator sem truncar. A ficha da Execução do Deus do Trovão Voador publica a mesma coluna arredondada, com 88 para 87,5, e chega ao mesmo total.
+
+Vale declarar qual das duas convenções a coluna adota, porque um leitor que trunque o fator antes de somar perde um ponto de dano em todo nível ímpar.
+
+---
+
+## ALVO 4 — Divergência aberta, sem lado escolhido
+
+### 4.1 Manutenção da âncora impregnada
 
 O Controle de Chakra v3.2 afirma, no efeito Impregnação de Âncora, que a âncora cai junto com quem a impregnou e não cobra manutenção enquanto ele viver. O Manual de Ancoragem v1.1 publica, na tabela da Seção 4.2, manutenção por reimpregnação a cada cena de descanso, marcada como proposta.
 
@@ -122,11 +144,11 @@ O Manual de Ancoragem é o dono declarado dos oito slots do Contrato de Âncora,
 
 A leitura adotada pelas cinco fichas é a do Manual de Ancoragem, por ele ser o dono dos slots. A escolha de qual documento cede permanece aberta.
 
-### 3.2 Propriedades ausentes na entrada por impregnação
+### 4.2 Propriedades ausentes na entrada por impregnação
 
 A tabela de Propriedades da Âncora Consumida da ficha por impregnação declara quatro das sete propriedades que a Seção 4.2 do Manual publica. Ficam de fora Paridade, Manutenção e Contagem.
 
-A Manutenção depende do Alvo 3.1. A Contagem é pendência que o próprio Manual declara na Seção 8, aguardando que o Controle de Chakra publique quantas âncoras simultâneas a impregnação sustenta, e enquanto ela não existir a via permanece incompleta para consumo por técnica de compêndio. A Paridade é ausência sem disputa, e a ficha a incorpora quando a tabela for reaberta.
+A Manutenção depende do Alvo 4.1. A Contagem é pendência que o próprio Manual declara na Seção 8, aguardando que o Controle de Chakra publique quantas âncoras simultâneas a impregnação sustenta, e enquanto ela não existir a via permanece incompleta para consumo por técnica de compêndio. A Paridade é ausência sem disputa, e a ficha a incorpora quando a tabela for reaberta.
 
 A linha de Legibilidade diverge na redação. O Manual escreve legibilidade nula para Exegese, e a ficha escreve nula para o ofício do selamento. As duas descrevem o mesmo alcance, porque a Exegese é o instrumento pelo qual o ofício lê, e a harmonização acompanha o Alvo 2.4.
 
