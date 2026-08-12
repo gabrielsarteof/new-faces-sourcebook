@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.medical-ninjutsu
 title: "Ninjutsu Médico"
-version: 3
+version: 3.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -82,7 +82,7 @@ RÉGUAS TRANSVERSAIS
 
 Os dois eixos. Precisão e conhecimento resolvem separado. Falha de precisão entrega energia que não obedece e produz dano no lugar de reparo. Falha de conhecimento entrega execução perfeita no lugar errado e produz chakra gasto sem efeito. A mesa declara qual das duas falhou.
 
-Substrato de natureza. A Liberação de Yang é exigida por toda técnica que devolve pontos de vida acelerando o corpo, a partir do rank C. A Liberação de Yin é exigida pelos caminhos Prevenção e Prótese de Chakra. As inclinações Diagnóstico, Farmacologia e Intervenção não exigem nenhuma das duas, e os ranks E e D permanecem abertos por inteiro, porque conter sangramento, anestesiar, reduzir fratura, preparar erva e diagnosticar não vitalizam nem constroem. Quem não possui afinidade nata na natureza exigida a adquire por treino, pela via de desbloqueio e desenvolvimento do Sistema Elemental, e paga a penalidade de reserva declarada lá. O médico de talento e o médico de esforço executam as mesmas técnicas, e a diferença aparece inteira na conta de chakra.
+Substrato de natureza. A Liberação de Yang é exigida por toda técnica que devolve pontos de vida acelerando o corpo, a partir do rank C. A Liberação de Yin é exigida pelos caminhos Prevenção e Prótese de Chakra. As inclinações Diagnóstico, Farmacologia e Intervenção não exigem nenhuma das duas, e os ranks E e D permanecem abertos por inteiro, porque conter sangramento, anestesiar, reduzir fratura, preparar erva e diagnosticar não vitalizam nem constroem. Quem não traz a natureza exigida de nascença a adquire por treino, pela via de desbloqueio e desenvolvimento do Sistema Elemental, e paga a penalidade de reserva declarada lá. O médico de talento e o médico de esforço executam as mesmas técnicas, e a diferença aparece inteira na conta de chakra.
 
 Marca de Reparo [proposta]. Cada aplicação de cura por chakra que devolva pontos de vida a um mesmo corpo dentro da mesma missão acumula uma Marca sobre ele. Estabilização, suspensão, diagnóstico, antídoto e cirurgia com instalação não marcam, porque não aceleram divisão celular. A primeira e a segunda Marca não produzem efeito. A terceira faz toda cura por chakra recebida dali em diante devolver um degrau abaixo na escada do Núcleo, até o fim da missão. A quarta trava a região tratada, que deixa de responder a cura por chakra até repouso real fora de missão. A quinta trava o corpo inteiro, e a região da quarta Marca entra em Sequela pelo Sistema de Efeitos de Status. As Marcas pertencem ao corpo e não ao médico, de modo que trocar de médico não zera nada. Elas não interagem com a Marca de Empréstimo da linhagem de Asura, que conta empréstimos de reserva, nem com o teto por uso do Heal Bite Uzumaki, que conta usos por cena, e as três réguas podem correr no mesmo corpo ao mesmo tempo.
 

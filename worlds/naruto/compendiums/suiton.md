@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.suiton
 title: "Compêndio de Suiton (水遁)"
-version: 3.1
+version: 3.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -14,7 +14,7 @@ source-file: Compendio_Suiton_v3_1.md
 
 Catálogo das técnicas nomeadas do elemento água. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência, o grupo de execução e a descrição da técnica.
 
-**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis, o portão de rank e a escada de fonte são da Perícia de Suiton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Lentidão e as regras de condição são do Sistema Elemental v5 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
+**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis, o portão de rank e a escada de fonte são da Perícia de Suiton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Lentidão e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
 
 ---
 

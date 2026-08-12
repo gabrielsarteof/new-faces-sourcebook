@@ -476,7 +476,7 @@ Reserva v3: raio de assinatura, teto de recepção, fronteira com o depósito de
 
 Compêndios: linhas de requisito na régua de degraus, referências de selos e de janela.
 
-Sistema Elemental v5: aponta Refino, Composição e Modulação, e recebe a propriedade da penalidade de conversão fora de afinidade.
+Sistema Elemental v7: aponta Refino, Composição e Modulação, e recebe a propriedade da penalidade de conversão da natureza aprendida.
 
 Mangekyō: Manutenção Espaçada. Sharingan: quarenta por cento sobre a Base de Nível. Chidori, Nagashi e Kirin: Concisão, LV_CC, selos de referência e janela de referência.
 

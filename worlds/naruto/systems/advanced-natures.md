@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 5
+version: 5.1
 layer: scenario
 scenario: naruto
 type: system
@@ -20,7 +20,7 @@ Uma natureza avançada nasce de duas operações distintas sobre o chakra já co
 
 Existe ainda um terceiro eixo, o Onmyōton, que não compete no ciclo elemental e não usa Papel de Indução. Ele opera sobre Yin e Yang, as duas naturezas espirituais e vitais que ficam fora das cinco naturezas comuns, e cobre fenômenos não-elementais como manipulação corporal avançada e certas variantes de genjutsu.
 
-As três famílias compartilham a mesma lógica de aquisição em duas etapas. A primeira etapa é ter a afinidade crua necessária, que emerge naturalmente da cadeia de afinidades já definida na Transformação de Natureza. A segunda etapa é a Centelha, o teste que decide se aquela afinidade de fato acende como a natureza nomeada. Ter os componentes qualifica um shinobi. Não garante a manifestação.
+As três famílias compartilham a mesma lógica de aquisição em duas etapas. A primeira etapa é possuir as naturezas cruas necessárias, que emergem da cadeia já definida na Transformação de Natureza. A segunda etapa é a Centelha, o teste que decide se aquela composição de fato acende como a natureza nomeada. Ter os componentes qualifica um shinobi. Não garante a manifestação.
 
 ---
 
@@ -29,7 +29,7 @@ As três famílias compartilham a mesma lógica de aquisição em duas etapas. A
 - **Pré-requisito:** Tipo Elemental de cada natureza componente, no nível mínimo correspondente ao rank que a natureza avançada pretende destravar.
 - **Atributo regente:** INT, herdado do Tipo Elemental base.
 - **Categoria:** Ninjutsu (×1,5).
-- **Portão de Composição:** o shinobi precisa possuir, entre suas afinidades natas ou aprendidas, todos os componentes exigidos pela natureza avançada.
+- **Portão de Composição:** o shinobi precisa possuir, entre suas naturezas natas ou aprendidas, todos os componentes exigidos pela natureza avançada.
 - **Portão de Linhagem:** algumas naturezas exigem descendência específica, além da composição. Mokuton exige linhagem de Ashura, restrita a Senju e Uzumaki. Enton exige linhagem de Indra, restrita a Uchiha. As demais não têm portão de linhagem.
 
 O rank de acesso segue a mesma régua do documento base:
@@ -46,7 +46,7 @@ Quando a natureza avançada tem mais de um componente, o portão usa o maior ní
 
 ### Etapa 1 — Composição
 
-A composição de uma natureza avançada nunca tem rolagem própria. Ela emerge da cadeia de afinidades da Transformação de Natureza: se o shinobi possui, entre suas afinidades natas ou aprendidas, todos os componentes exigidos, a Etapa 1 está automaticamente satisfeita. Um personagem com afinidade em Água e Vento já preenche a composição de Hyōton sem precisar de teste adicional.
+A composição de uma natureza avançada nunca tem rolagem própria. Ela emerge da cadeia de naturezas da Transformação de Natureza: se o shinobi possui, entre suas naturezas natas ou aprendidas, todos os componentes exigidos, a Etapa 1 está automaticamente satisfeita. Um personagem com Água e Vento de nascença já preenche a composição de Hyōton sem precisar de teste adicional, e a posição de cada uma na escada não entra na conta.
 
 Quando a natureza avançada tem portão de linhagem, a composição sozinha não basta. Um Senju com Terra e Água ainda precisa da linhagem de Ashura para avançar à Etapa 2 de Mokuton. Sem a linhagem, a composição fica latente e nunca manifesta.
 
@@ -159,7 +159,7 @@ Mokuton usa três ingredientes (Terra, Água e Yang) mas não se qualifica como 
 
 ### Onmyōton
 
-Yin e Yang entram na mesma cadeia de afinidade da Transformação de Natureza, no branch descrito no documento base. São naturezas base do sistema e não naturezas avançadas: não passam pela Etapa de manifestação e não rolam Centelha, e cada uma tem perícia completa própria, Liberação de Yin v3 e Liberação de Yang v3, regidas pelo documento do Eixo do Onmyōton.
+Yin e Yang entram na mesma cadeia de naturezas natas da Transformação de Natureza, no branch descrito no documento base. São naturezas base do sistema e não naturezas avançadas: não passam pela Etapa de manifestação e não rolam Centelha, e cada uma tem perícia completa própria, Liberação de Yin v4.1 e Liberação de Yang v4.1, regidas pelo documento do Eixo do Onmyōton.
 
 A Liberação de Velocidade não pertence a este eixo. Nenhuma camada canônica a associa ao Yang, e ela consta do catálogo de Kekkei Genkai acima, com composição de Vento e Raio atribuída pela camada de jogos.
 
@@ -345,8 +345,8 @@ Ela existe porque o Fogo era o único elemento sem Kyōka acessível sem portão
 
 | Natureza | Perícia | Status |
 |---|---|---|
-| Inton 陰遁 (Yin) | Liberação de Yin v3 | natureza base, sem Centelha |
-| Yōton 陽遁 (Yang) | Liberação de Yang v3 | natureza base, sem Centelha |
+| Inton 陰遁 (Yin) | Liberação de Yin v4.1 | natureza base, sem Centelha |
+| Yōton 陽遁 (Yang) | Liberação de Yang v4.1 | natureza base, sem Centelha |
 
 Ambas têm perícia completa, com dez caminhos, três inclinações e duas transcendências cada, regidas pelo documento do Eixo do Onmyōton. Nenhuma das duas é natureza avançada, e a Liberação de Velocidade, que já constou aqui, mudou para o catálogo de Kekkei Genkai.
 

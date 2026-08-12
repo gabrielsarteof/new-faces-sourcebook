@@ -1,7 +1,7 @@
 ---
 id: naruto.natures.overview
 title: "Naturezas de Chakra — Naruto"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: system
@@ -11,7 +11,7 @@ source-file: content/worlds/naruto/natures/_index.md
 
 # Naturezas de Chakra — Naruto
 
-Todo chakra possui uma natureza de transformação. A maioria dos shinobi tem **afinidade com uma natureza** (mais fácil de moldar) mas pode aprender outras com treinamento intenso.
+Todo chakra possui uma natureza de transformação. Todo shinobi nasce com **uma Afinidade**, a natureza que o Papel de Indução revela e a mais fácil de moldar, e pode nascer com Compatibilidades além dela ou aprender outras com treinamento intenso. O Sistema Elemental publica a cadeia, a escada e os preços.
 
 ## As 5 Naturezas Básicas
 
@@ -25,8 +25,8 @@ Todo chakra possui uma natureza de transformação. A maioria dos shinobi tem **
 
 ## Ciclo de Relações
 ```
-Fogo > Vento > Relâmpago > Terra > Água > Fogo
-(cada natureza é fraca contra a seguinte no ciclo)
+Fogo > Vento > Raio > Terra > Água > Fogo
+(cada natureza supera a seguinte no ciclo)
 ```
 
 ## Naturezas Avançadas (Kekkei Genkai)

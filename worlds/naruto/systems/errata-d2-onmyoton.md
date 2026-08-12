@@ -1,17 +1,21 @@
 ---
 id: naruto.system.errata-d2
 title: "Errata D2 — Alinhamento upstream do eixo do Onmyōton"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: pending-patch
-status: pending-patch
+status: applied
 source-file: Errata_D2_Alinhamento_Upstream.md
 ---
 
 # Errata D2 — Alinhamento upstream do eixo do Onmyōton
 
 Aplica as decisões D1 a D11 aos documentos que antecedem o Eixo do Onmyōton. Cinco alvos. Cada entrada indica onde localizar, o que sai e o que entra.
+
+**Aplicada.** Os cinco alvos entraram nos documentos de destino: o Alvo 1 no Sistema Elemental v6, o Alvo 2 nas Naturezas Avançadas v5, e os Alvos 3, 4 e 5 nos documentos de clã do Uchiha, do Uzumaki e do Senju. O texto permanece publicado porque o registro do que saiu e do que entrou tem valor, e nenhuma edição pendente resta.
+
+Os números do item 1.6 desta errata, 207.258 e 314.671, são os que valem. O Sistema Elemental v6 os republicou arredondando o acumulado em vez de somar os níveis já arredondados, e chegou a 207.270 e 314.677. A v7 daquele documento restaurou a leitura desta errata e declarou a convenção de arredondamento por nível.
 
 ---
 

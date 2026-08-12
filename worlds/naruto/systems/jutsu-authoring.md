@@ -1,15 +1,15 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: methodology
 status: final
-source-file: Manual_de_Criacao_de_Jutsus_v2_4.md
+source-file: Manual_de_Criacao_de_Jutsus_v2_6.md
 ---
 
-# Manual de Criação de Jutsus · v2.5
+# Manual de Criação de Jutsus · v2.6
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.2.**
 
@@ -219,16 +219,16 @@ O cansaço é cobrado no ato, à razão de um ponto de PS por dez de chakra desp
 
 O Limite de Saída (LS) é **20% da RC por turno, universal**. Define o fluxo máximo de chakra que o sistema circulatório canaliza de forma sustentada, e é um cano único: jutsus, manutenção de dōjutsu e efeitos sustentados disputam o mesmo fluxo no mesmo turno.
 
-A assimetria entre a natureza de afinidade e as demais mora no custo. O chakra convertido para uma natureza alheia à afinidade do shinobi consome parte de si na própria conversão:
+A assimetria entre as naturezas de nascença e as aprendidas mora no custo. O chakra convertido para uma natureza que o shinobi não trouxe de berço consome parte de si na própria conversão:
 
 ```
 Custo efetivo em RC:
-   Natureza de afinidade (qualquer nata)    custo declarado × 1,0
-   Natureza não-afim aprendida              custo declarado × 1,3
-   Jutsu sem elemento                       custo declarado × 1,0
+   Natureza de nascença (Afinidade ou Compatibilidade)   custo declarado × 1,0
+   Natureza aprendida                                    custo declarado × 1,3
+   Jutsu sem elemento                                    custo declarado × 1,0
 ```
 
-Os valores declarados no registro do jutsu são sempre os de afinidade. O rank é lido pela RC nominal declarada; a penalidade de conversão pertence ao executor e incide sobre o custo mínimo, antes da aplicação do desperdício, e sobre a RC nominal na mesma proporção. Ela alcança as duas pontas da economia: o shinobi paga mais RC, entrega mais dano pelo volume convertido e, pelo mesmo movimento, empurra a técnica para janelas de canalização mais longas.
+Os valores declarados no registro do jutsu são sempre os de nascença. O rank é lido pela RC nominal declarada; a penalidade de conversão pertence ao executor e incide sobre o custo mínimo, antes da aplicação do desperdício, e sobre a RC nominal na mesma proporção. Ela alcança as duas pontas da economia: o shinobi paga mais RC, entrega mais dano pelo volume convertido e, pelo mesmo movimento, empurra a técnica para janelas de canalização mais longas.
 
 Para jutsus cujo custo efetivo excede o LS, os selos de mão funcionam como câmara de compressão: acumulam chakra progressivamente antes do disparo. Técnicas de alto rank precisam de mais selos e mais tempo porque a física do fluxo o exige.
 
@@ -256,7 +256,7 @@ A janela mede imperícia e não volume. O praticante de moldagem plena dispara n
 
 A régua reproduz a progressão canônica da mesma técnica ao longo da vida de um shinobi. O genin acumula por dois turnos e anuncia a investida, o executor de reserva média carrega um turno visível, e o mestre dispara no ato. O limite diário de quatro usos do Chidori atribuído a Kakashi resolve pela recuperação de reserva entre encontros, com três usos disponíveis dentro de um combate único.
 
-Um Suiton hipotético de 750 de RC nominal, executado por Sasuke fora da afinidade, sobe para 975 de nominal e 325 de mínimo, e a janela acompanha o custo pago resultante. A mesma técnica, dois tempos, conforme a relação do shinobi com o elemento.
+Um Suiton hipotético de 750 de RC nominal, executado por Sasuke em natureza aprendida, sobe para 975 de nominal e 325 de mínimo, e a janela acompanha o custo pago resultante. A mesma técnica, dois tempos, conforme a relação do shinobi com o elemento.
 
 **Durante os turnos de canalização:** o ninja está formando selos. Pode se mover com cuidado, sem executar outros jutsus que gastem RC. Receber dano igual ou superior a 15% do PV máximo em um único golpe interrompe a canalização; a RC investida até aquele ponto é perdida. CC duro interrompe automaticamente; CC suave aumenta a janela em +1 turno.
 
@@ -405,14 +405,15 @@ Compras de comportamento de execução, aplicadas como percentual sobre o XP_bas
 
 | Condição | Modificador |
 |---|---|
-| Jutsu elemental da afinidade natal do ninja | −20% |
-| Jutsu elemental de natureza não-afim | +30% ou bloqueado (se exige Transformação de Natureza ausente) |
+| Posição da natureza na escada | Conforme a tabela de dispersão do Sistema Elemental |
 | Hiden do próprio clã | Conforme documento de clã; inacessível fora do clã |
 | Jutsu desenvolvido pelo próprio personagem | −15% |
 | Jutsu copiado via Sharingan | Regras no documento de Sharingan |
 | Jutsu de equipe (todos aprendem juntos) | −25% por participante adicional |
 | Jutsu aprendido de mestre direto (LV5+ na perícia relevante) | −10% |
 | Rank do jutsu inferior ao tier atual do personagem | −30% |
+
+A relação entre o executor e a natureza tem dono único, o Sistema Elemental, e a mesma tabela de dispersão que precifica a perícia da natureza precifica o jutsu daquela natureza. A Afinidade paga o valor declarado, a Compatibilidade aplica ×1,125, e cada natureza aprendida aplica o degrau da sua ordem de aquisição. O jutsu que exige uma natureza ausente da ficha fica bloqueado, porque sem o desbloqueio a natureza não existe para o personagem.
 
 ### 4.3 Acesso a Kinjutsu
 
@@ -766,6 +767,8 @@ Os doze pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental
 
 ## 11. Registro de Alterações
 
+**v2.6.** A tabela de Modificadores de Custo de XP da Seção 4.2 cede as duas linhas que precificavam a relação do executor com a natureza, o desconto de 20% por afinidade natal e a sobretaxa de 30% por natureza não-afim. Elas eram uma segunda régua lendo a mesma grandeza que a Escada de Afinidade, e o Modelo de Ficha de Técnica já declarava que essa relação pertence ao Sistema Elemental. A tabela de dispersão daquele documento passa a governar os dois eixos, a perícia da natureza e o jutsu da natureza, e a cláusula de bloqueio vira o portão de desbloqueio. A Seção 3.2 acompanha o vocabulário da v7 do Sistema Elemental, com natureza de nascença no lugar de natureza de afinidade.
+
 **v2.5.** Alinhamento ao Manual de Criação de Poderes v3.2. Chegou um documento se declarando v2.3 e citando o manual de núcleo em v3.2, mas ele descendia apenas da linha de realinhamento ao núcleo que esta versão já havia absorvido na v2.4 — não conhecia a Seção 2.8, Kyūinjutsu, nem a Seção 4.1.3, Estimativa de XP sem RC, ambas de uma segunda linha reunida naquela versão. É a mesma colisão de numeração que gerou a v2.4, uma geração adiante: duas linhas de trabalho, um número de versão, cada uma cega para o que a outra carregava. Nada daquele documento substituiu texto algum aqui; apenas o que ele acrescentava de fato ao alinhamento com o núcleo entrou.
 
 Do que entrou: as categorias do manual de núcleo passaram de quatorze para quinze, com a categoria Interceptação separando o verbo de tomar efeito alheio em trânsito das famílias de cálculo que o computam. O registro de instâncias, Seção 10, ganhou as duas linhas dos pontos de extensão novos daquela versão do núcleo, Âncora e Estrutura de vazios, preenchidas pela Perícia de Fūinjutsu, pela Perícia de Passagem e pela Perícia de Barreira. A compressão de limiar e a fórmula de dois termos, já reapresentadas como instância na v2.4, não mudam, porque a v3.2 do núcleo não tocou nelas.
@@ -799,7 +802,7 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v2.5, manual tradutor do cenário Naruto para o Manual de Criação
+*Manual de Criação de Jutsus v2.6, manual tradutor do cenário Naruto para o Manual de Criação
 de Poderes v3.2. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
 absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
 RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a

@@ -1,7 +1,7 @@
 ---
 id: naruto.clan.uchiha
 title: "Uchiha — O Olho que Reflete Sentimentos"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: clan
@@ -33,9 +33,9 @@ Traços obrigatórios, presentes em todo personagem do Clã Uchiha.
 
 **Identidade.** Sobrenome Uchiha, com todo o peso histórico e político de pertencer a um dos dois clãs fundadores de Konoha.
 
-**Afinidade Katon.** A cadeia de afinidade elemental (Passo 1) favorece o Fogo em 80% para qualquer Uchiha. Um membro que role fora dessa faixa ainda aprende Katon pela tradição do clã; a afinidade rolada é que assume o posto de natureza primária.
+**Afinidade Katon.** A cadeia de naturezas natas (Passo 1) favorece o Fogo em 80% para qualquer Uchiha. Um membro que role fora dessa faixa ainda recebe o Katon pela tradição do clã, e o recebe como Compatibilidade, porque o Papel de Indução já leu outra vocação e o rito de passagem não a reescreve. O elemento rolado permanece como Afinidade.
 
-**Viés Yin.** Quando a cadeia de afinidade alcança o branch de Onmyōton (Passo 1.5), o lado Yin do teste sobe de 5% para 15%. A energia espiritual herdada de Indra pesa também na rolagem que decide entre chakra comum e chakra de Onmyōton.
+**Viés Yin.** Quando a cadeia de naturezas natas alcança o branch de Onmyōton (Passo 1.5), o lado Yin do teste sobe de 5% para 15%. A energia espiritual herdada de Indra pesa também na rolagem que decide entre chakra comum e chakra de Onmyōton.
 
 **Reserva de Chakra.** Multiplicador de clã de ×3,5 sobre a fórmula de Reserva de Chakra.
 
@@ -47,7 +47,7 @@ Traços obrigatórios, presentes em todo personagem do Clã Uchiha.
 
 | Traço | Efeito |
 |---|---|
-| Afinidade Katon | 80% na cadeia de afinidade |
+| Afinidade Katon | 80% na cadeia de naturezas natas |
 | Viés Yin | 15% no branch Onmyōton |
 | Reserva de Chakra | ×3,5 |
 | Chakra Denso | +15% potência em ninjutsu elemental |
