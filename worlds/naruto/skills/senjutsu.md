@@ -1,12 +1,12 @@
 ---
 id: naruto.skill.senjutsu
 title: "Senjutsu"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: skill
 status: final
-source-file: Pericia_Senjutsu_v1.md
+source-file: Pericia_Senjutsu_v2.md
 ---
 
 PERÍCIA DE SENJUTSU
@@ -16,9 +16,9 @@ O Senjutsu é a arte de colher a energia que corre fora do corpo e misturá-la a
 
 Esta é a coluna de magnitude do portão duplo com o Controle de Chakra. Esta perícia responde por quanto o corpo comporta e por quanto tempo, escalonando pela capacidade de suportar. O Controle de Chakra responde pela exatidão da proporção, e é ele que separa a saturação segura da saturação letal.
 
-O regente é RES porque o cânone liga a aptidão ao corpo e não à mente. O corpo que absorve por natureza, o corpo modificado que dispensa a quietude, a vitalidade que suporta a mistura sem treino e a reserva que sustenta o volume são todos leituras físicas, e a falha do domínio é morte física.
+O regente é RES porque o cânone liga a aptidão ao corpo e não à mente. O corpo que absorve por natureza, o corpo modificado que dispensa a quietude, a vitalidade que suporta a mistura sem treino e o corpo que a recusa mesmo em quem domina todo o resto são todos leituras físicas, e a falha do domínio é morte física.
 
-O território termina onde o ofício alheio começa. A percepção ampliada que o modo produz pertence à perícia de Sensoriamento, que recebe daqui uma elevação categórica de alcance enquanto o modo estiver de pé, e nenhum caminho desta perícia informa posição, identidade ou intenção. A amplificação sustentada pela saturação da própria vitalidade pertence à Liberação de Yang, ficando aqui o que se ergue sobre energia colhida de fora. O volume de chakra próprio pertence a Reserva de Chakra. A graduação do corpo que endurece pertence ao Sistema de Efeitos de Status, condição Petrificação. As terras sagradas e quem ensina nelas pertencem ao documento de Universo e Campanha. O contrato com a espécie pertence à perícia de Passagem e ao Documento de Invocação. A aptidão de nascença pertence à vantagem Compatibilidade com Energia Natural. A absorção passiva involuntária pertence ao documento do clã Jūgo. O Modo Sábio nato pertence ao documento do clã Senju, e o Senjutsu dos Seis Caminhos pertence aos documentos de reencarnação. As obras nomeadas sob o prefixo Senpō vivem no Compêndio de Senjutsu.
+O território termina onde o ofício alheio começa. A percepção ampliada que o modo produz pertence à perícia de Sensoriamento, que recebe daqui uma elevação categórica de alcance enquanto o modo estiver de pé, e nenhum caminho desta perícia informa posição, identidade ou intenção. A amplificação sustentada pela saturação da própria vitalidade pertence à Liberação de Yang, ficando aqui o que se ergue sobre energia colhida de fora. O volume de chakra próprio pertence a Reserva de Chakra. A graduação do corpo que endurece pertence ao Sistema de Efeitos de Status, condição Petrificação. As terras sagradas e quem ensina nelas pertencem ao documento de Universo e Campanha. O vínculo com a espécie e a aceitação pelo chefe dela pertencem ao Documento de Invocação, e a execução da travessia até a terra pertence à perícia de Passagem. A aptidão de nascença pertence à vantagem Compatibilidade com Energia Natural, e o que essa aptidão produz no praticante fica aqui, na distinção entre o modo perfeito e o imperfeito. A absorção passiva involuntária pertence ao documento do clã Jūgo. O Modo Sábio nato pertence ao documento do clã Senju, e o Senjutsu dos Seis Caminhos pertence aos documentos de reencarnação. As obras nomeadas sob o prefixo Senpō vivem no Compêndio de Senjutsu.
 
 A régua de níveis desta perícia lê a população dos sábios formados e não a população shinobi. O LV1 é o praticante que sobreviveu ao treinamento, e ele já é figura rara no mundo.
 
@@ -34,15 +34,39 @@ LV1 1.050 · LV2 1.575 · LV3 3.150 · LV4 5.775 · LV5 9.450 · LV6 14.175, acu
 
 REQUISITOS DE ACESSO
 
-Três camadas independentes, em três moedas distintas. Nenhuma substitui outra, e nenhuma delas é competência desta perícia.
+O domínio é raro porque quase ninguém é convidado às terras sagradas, e não porque exija número alto em ficha nenhuma. Quem chega à terra e sobrevive ao treino é sábio. O que a ficha do praticante decide não é se ele entra, é a qualidade do modo que ele ergue.
 
-Aptidão. Vantagem Compatibilidade com Energia Natural, 550 XP, paga em XP Sorte. Sem ela o treinamento é inviável e nenhuma quantidade de XP Ficha compra o LV1.
+Aceitação. O chefe da espécie que ensina precisa aceitar o praticante, pelo Teste de Aceitação do Documento de Invocação. O chefe é a espécie: enquanto ele recusa, a terra não se abre, e o pergaminho assinado sozinho não vale como resposta. A aceitação se constrói pelos marcos de relação declarados na ficha do chefe, que são fatos do mundo cumpridos em jogo e não compra de XP.
 
-Acesso. Terra de energia natural viva e mestre disposto a ensinar, autorizado pelo Narrador, sem preço em XP.
+Instrução. Terra de energia natural viva e mestre disposto a ensinar, autorizado pelo Narrador. O senjutsu integra o catálogo de portas que apenas o Mestre lendário abre, conforme o Manual Global de Treinamento, e nenhum acúmulo de XP substitui a mão de quem já atravessou.
 
-Ficha. Reserva de Chakra igual ou superior a 800, Controle de Chakra pelo portão declarado acima, e contrato ativo com a espécie que ensina, adquirido pelo Documento de Invocação.
+Ofício. Controle de Chakra pelo portão declarado acima, que é o par de precisão desta perícia.
 
-O limiar de 800 lê as Tabelas de Referência de Personagens contra a fórmula da Reserva de Chakra. O perfil Elite equilibrado tem 59.040 de XP em atributos e 1.440 de PV, o que entrega 318 de RC base sem multiplicador de clã e 478 sob o multiplicador Hatake, e nem o Dado de Potencial em 90 alcança o limiar a partir daí. A mesma ficha sob a linhagem Uzumaki passa de 1.750. O limiar reprova o perfil de reserva mediana em elite, que é exatamente o perfil que o cânone reprova pela boca de quem não pôde aprender, e admite a linhagem de volume e o praticante que alcançou a faixa Ápice, cuja RC base chega a 778 sem clã algum.
+Nenhum limiar de reserva. A obra afirma pela boca de quem não pôde aprender que a reserva alta é exigida, e a mesma obra mostra o contrário duas vezes em cena: um praticante de reserva colossal falhou em dominar o modo de cobra, e a portadora da vitalidade mais alta de um clã inteiro nunca foi sábia. O que separa quem domina de quem falha é o corpo aceitar a mistura, e isso é a compatibilidade e não o volume.
+
+Aquisição na criação permanece aberta. Cumpridos os requisitos e autorizada a história pregressa pelo Narrador, o personagem nasce sábio, porque a ficha de criação representa a vida vivida e não o instante em que a mesa começa.
+
+═══════════════════════════════════════════════════════════════════
+
+MODO PERFEITO E MODO IMPERFEITO
+
+Todo praticante que sobrevive ao treino ergue o Modo Sábio. A proporção que ele alcança na mistura decide qual dos dois ele ergue, e a diferença é permanente.
+
+MODO IMPERFEITO
+
+O padrão do domínio, e a figura mediana dele. O corpo aceita a energia natural sem alcançar a proporção exata, e o resultado é sábio de pleno direito com duas marcas.
+
+A assinatura da espécie avança sobre o corpo. Além do traço de rosto que todo praticante recebe, o imperfeito ganha alteração estrutural permanente, visível fora do modo, que a mesa lê como fato do mundo e que nenhum disfarce comum cobre.
+
+A colheita não corre sozinha. O praticante imperfeito não sustenta a absorção por conta própria em ritmo útil, e depende de parceiro fundido ou de corpo interposto para acumular. Sem uma das duas vias, a taxa dele em ambiente vivo cai à metade e o teto de REN cai a três quartos.
+
+MODO PERFEITO
+
+A proporção exata. O praticante colhe sozinho, no ritmo integral que as réguas publicam, e a assinatura da espécie se limita ao traço de rosto que desaparece com o modo.
+
+O modo perfeito se alcança pela vantagem Compatibilidade com Energia Natural, que é o corpo que aceita a mistura por sorteio de nascença. A vantagem não autoriza o treino, não compra nível e não destrava caminho: ela decide qual dos dois modos o praticante ergue quando o treino termina.
+
+A transcendência Ōgetsuhime revoga a imobilidade e, com ela, a dependência de terceiro que define o imperfeito. O praticante que a alcança opera em modo perfeito por outra via, e o cânone registra essa rota nas figuras de ápice.
 
 PORTÃO DE RANK
 
@@ -167,6 +191,8 @@ NÍVEL 1: FUNDAMENTOS
 Base 12 · teste típico 14 com RES 2 · rank E
 
 O sábio formado colhe com o corpo imóvel, acumula 9 de REN por turno e comporta 140. Sustenta o modo a 23 por turno, o que entrega seis turnos com o pool cheio. Recebe a assinatura física da espécie do pacto, marcas e traços que aparecem no rosto e permanecem enquanto o modo durar. O reforço físico é de 2.
+
+Estes são os valores do modo perfeito. O praticante que ergueu o imperfeito acumula 4 por turno e comporta 105 enquanto colher sozinho, e alcança os valores cheios com parceiro fundido ou corpo interposto sustentando a absorção por ele.
 
 A abertura do modo é ação padrão. A manutenção não consome ação. O encerramento é ação livre, e a REN restante se dissipa.
 
@@ -333,15 +359,21 @@ Revoga: o que não tem corpo está fora do alcance do que é material.
 
 MODALIDADE
 
-A espécie do pacto é propriedade do contrato e não objeto comprável desta perícia. Ela declara a assinatura física que o modo imprime no praticante, a terra em que o treinamento ocorre e o ramo do Compêndio de Senjutsu que o praticante alcança. Nenhum valor desta perícia muda com a espécie, e a diferença entre as três nasce entrada por entrada no compêndio, onde cada obra responde sozinha pelo próprio fundamento.
+A espécie que ensina é propriedade do vínculo e não objeto comprável desta perícia. Ela declara a assinatura física que o modo imprime no praticante, a terra em que o treinamento ocorre, o ramo do Compêndio de Senjutsu que o praticante alcança, e uma única diferença mecânica.
 
-| Espécie | Assinatura física | Terra | Ramo do compêndio |
-|---|---|---|---|
-| Sapo | Pigmentação laranja ao redor dos olhos, íris horizontal, pálpebra pesada | Monte Myōboku | Óleo, som e fusão com parceiros |
-| Cobra | Escamas na pele, íris vertical, pupila fendida | Caverna Ryūchi | Muda, veneno e recomposição do corpo |
-| Lesma | Marcas úmidas no rosto, sem alteração de íris registrada | Floresta Shikkotsu | Cânone vazio |
+| Espécie | Assinatura física | Terra | Ramo do compêndio | Parceiro de fusão |
+|---|---|---|---|---|
+| Sapo | Pigmentação laranja ao redor dos olhos, íris horizontal, pálpebra pesada | Monte Myōboku | Óleo, som e fusão com parceiros | Sim |
+| Cobra | Escamas na pele, íris vertical, pupila fendida | Caverna Ryūchi | Muda, veneno e recomposição do corpo | Não |
+| Lesma | Marcas úmidas no rosto, sem alteração de íris registrada | Floresta Shikkotsu | Cânone vazio | Não |
+
+A coluna do parceiro é a única diferença que altera valor, e ela decide o destino do praticante imperfeito. Os sapos mantêm anciões que se fundem aos ombros e colhem pelo praticante, e essa via está registrada na obra. As outras duas espécies não mantêm prática equivalente, e quem ergue o modo imperfeito com elas resolve a colheita por corpo interposto, pelo caminho Delegação, ou permanece à taxa reduzida.
+
+A propriedade vive na ficha do parceiro e não nesta perícia, pela regra do porteiro. O caminho Fusão continua universal e comprável por qualquer praticante; o que a espécie decide é se existe parceiro disposto a cumprir o verbo dele. Nenhuma régua desta perícia muda de fórmula por causa da espécie.
 
 O ramo das lesmas fica declarado sem entradas. A Floresta Shikkotsu é nomeada pela obra como a terceira terra sagrada, nenhum praticante do senjutsu dela aparece em cena, e nenhuma obra é atribuída a ela. O ramo existe como endereço reservado, e preenchê-lo é trabalho de proposta pura sujeito à aprovação do Narrador.
+
+O repertório que a obra atribui ao modo de cobra vem do enxerto de material do clã Jūgo no praticante que o exibiu, e não da espécie. A diferenciação de cobras por essa via é erro de fonte, e o que aquele corpo modificado faz pertence ao documento do clã Jūgo.
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -357,40 +389,51 @@ O senhor do que não se vê constrói Ōkuninushi sobre Mordente. Ele existe par
 
 ETIQUETAGEM
 
-Canon: a energia natural como terceira energia somada à física e à espiritual; a exigência de imobilidade durante a absorção; a petrificação e a morte da maioria dos que tentam; a interrupção da petrificação por intervenção externa munida do instrumento da espécie; o catalisador que acelera a absorção e agrava o risco; a proporção exata como definição do modo perfeito; o acúmulo por corpo interposto e o estoque prévio; a indefesa durante a colheita; a colheita apoiada por parceiro fundido; a absorção em movimento nas figuras de ápice; o fim do modo pelo esgotamento do acumulado; a amplificação de força, velocidade e resistência; o alcance do golpe além do corpo físico; a escala elevada das obras sob o modo; o efeito sobre chakra puro e construtos; a variação de marcas por espécie; a exigência de reserva alta declarada por quem não pôde aprender.
+Canon: a energia natural como terceira energia somada à física e à espiritual; a exigência de imobilidade durante a absorção; a petrificação e a morte da maioria dos que tentam; a interrupção da petrificação por intervenção externa munida do instrumento da espécie; o catalisador que acelera a absorção e agrava o risco; a existência de um modo perfeito e de um modo imperfeito, com o imperfeito marcando o corpo e dependendo de parceiro fundido para colher; a proporção exata como definição do modo perfeito; o acúmulo por corpo interposto e o estoque prévio; a indefesa durante a colheita; a absorção em movimento nas figuras de ápice; o fim do modo pelo esgotamento do acumulado; a amplificação de força, velocidade e resistência; o alcance do golpe além do corpo físico; a escala elevada das obras sob o modo; o efeito sobre chakra puro e construtos; a variação de marcas por espécie; a manutenção de anciões que se fundem ao praticante entre os sapos, e a ausência de prática equivalente nas outras duas espécies; o fracasso em dominar o modo por praticante de reserva colossal; o domínio alcançado por praticante cujo corpo foi modificado com material de clã alheio; a exigência de reserva alta declarada por quem não pôde aprender.
 
 Atribuído: a densidade variável de energia natural por ambiente; o vínculo entre a terra viva e a recuperação do praticante; a leitura da própria saturação.
 
-Cânone fraco declarado: a razão pela qual a reserva alta é exigida, cuja limitação é afirmada e cujo mecanismo nunca é explicado; a duração numérica do modo, ausente da obra em qualquer forma; o senjutsu das lesmas, cuja terra nunca aparece em cena e cujo praticante nunca é confirmado.
+Cânone fraco declarado: a razão pela qual a reserva alta é exigida, cuja limitação é afirmada, cujo mecanismo nunca é explicado, e que a própria obra contradiz duas vezes em cena, no praticante de reserva colossal que falhou em dominar e na portadora de vitalidade máxima que nunca foi sábia; a duração numérica do modo, ausente da obra em qualquer forma; o senjutsu das lesmas, cuja terra nunca aparece em cena e cujo praticante nunca é confirmado.
 
-Decisão de sistema declarada: a fronteira com a Liberação de Yang, vitalidade própria lá e energia colhida de fora aqui; a fronteira com o Sensoriamento, que recebe elevação categórica de alcance e conserva toda a leitura; a população da régua de níveis lida entre os sábios formados; a modalidade declarativa, com a diferença entre as espécies vivendo no compêndio e não nas réguas.
+Decisão de sistema declarada: a fronteira com a Liberação de Yang, vitalidade própria lá e energia colhida de fora aqui; a fronteira com o Sensoriamento, que recebe elevação categórica de alcance e conserva toda a leitura; a população da régua de níveis lida entre os sábios formados; a recusa de converter a exigência de reserva em limiar de ficha, porque a fórmula da Reserva de Chakra multiplica por clã e qualquer limiar absoluto mediria linhagem em vez de reserva; a compatibilidade lida como qualidade do modo e nunca como autorização de treino; a modalidade quase declarativa, com uma única coluna mecânica, a do parceiro de fusão, e o resto da diferença entre espécies vivendo no compêndio.
 
 Fontes descartadas com registro: atribuições de senjutsu não verificadas na varredura, incluindo a do Quarto Hokage. As vantagens exibidas no modo de cobra pelo praticante modificado vêm do material do clã Jūgo enxertado nele, e atribuí-las à espécie seria erro de fonte.
 
-Proposta: o limiar de 800 de Reserva de Chakra; todos os valores de custo, alcance, duração, teto e limiar; as réguas transversais; a partição em quatro inclinações; a lotação de quatorze caminhos; as quatro transcendências e a nomeação delas.
+Proposta: todos os valores de custo, alcance, duração, teto e limiar; a taxa e o teto reduzidos do modo imperfeito; as réguas transversais; a partição em quatro inclinações; a lotação de quatorze caminhos; as quatro transcendências e a nomeação delas.
 
 DEPENDÊNCIAS E PENDÊNCIAS
 
-Compêndio de Senjutsu, inexistente, que recebe as obras nomeadas sob o prefixo Senpō, o Kawazu Kumite e a técnica de fusão com os parceiros invocados. Documento do clã Jūgo, inexistente, dono da absorção passiva involuntária. Documento do clã Senju, dono do Modo Sábio nato. Documentos de reencarnação, donos do Senjutsu dos Seis Caminhos. Documento de Universo e Campanha, dono das terras sagradas e dos mestres que ensinam nelas. Régua de dificuldade do Narrador, camada externa, sem a qual nenhum efeito desta perícia resolve por dificuldade arbitrada.
+Fichas dos chefes de espécie, adiadas pelo Documento de Invocação para a fase de fichas, e sem as quais o requisito de aceitação não tem número contra o qual rolar. Cada uma precisa declarar Limiar de Aceitação, os marcos de relação, e se a espécie mantém parceiro que se funde ao praticante. Compêndio de Senjutsu, inexistente, que recebe as obras nomeadas sob o prefixo Senpō, o Kawazu Kumite e a técnica de fusão com os parceiros invocados. Documento do clã Jūgo, inexistente, dono da absorção passiva involuntária e do corpo modificado que dispensa a quietude. Documento do clã Senju, dono do Modo Sábio nato, que nasce sem terra, sem chefe e sem treino. Documentos de reencarnação, donos do Senjutsu dos Seis Caminhos. Documento de Universo e Campanha, dono das terras sagradas e dos mestres que ensinam nelas. Régua de dificuldade do Narrador, camada externa, sem a qual nenhum efeito desta perícia resolve por dificuldade arbitrada.
 
 FILA DE ERRATA
 
-Índice de Perícias v2.6: acrescentar Senjutsu ao Registro de Regentes com regente RES e categoria Chakra, registrar o portão duplo com o Controle de Chakra, registrar a conformidade e honrar a cedência do Sensoriamento.
+Índice de Perícias v2.7: registrar no Registro de Fronteira que o acesso ao treino lê a aceitação pelo chefe de espécie, e atualizar a linha de conformidade para a v2 desta perícia.
 
-Perícia de Sensoriamento v2.1: registrar a elevação categórica de alcance concedida pelo modo, com a leitura permanecendo lá por inteiro, e converter a linha de fronteira que aponta senjutsu de devida a honrada.
+Vantagem Compatibilidade com Energia Natural: retirar a cláusula de que sem ela o treinamento é inviável, porque ela transformava a vantagem em porteiro, e publicar no lugar o que ela entrega, que é o modo perfeito.
 
-Perícia de Liberação de Yang v4.1: registrar a fronteira pelo outro lado, vitalidade própria contra energia colhida de fora.
+Documento de Invocação v2.2, seção 7.5: nomear a aceitação pelo chefe como a via de acesso ao treino, e acrescentar ao template da seção 5.3 o campo que declara se a espécie mantém parceiro de fusão.
 
-Reserva de Chakra v3: a linha de sinergia do Modo Sábio aponta este documento, e a Reserva de Energia Natural nasce aqui como pool externo com teto próprio.
-
-Vantagem Compatibilidade com Energia Natural: apontar este documento por nome, encerrando a promessa de que o Senjutsu vive em regras próprias.
-
-Documento de Invocação v2.1, seção 7.5: o futuro documento de Senjutsu citado ali passa a existir e recebe o nome.
-
-Poderes e Combate do cenário Naruto: as duas tabelas de índice citam arquivos que nunca existiram, sage-mode.md e senjutsu.md, e as duas linhas passam a apontar este documento.
-
-Compêndio de Fūinjutsu: a entrada que declara requisito de Senjutsu com a marca de perícia pendente perde a marca.
+Compêndio de Senjutsu, quando nascer: as obras de cada ramo declaram a espécie na linha de requisitos, e o ramo das lesmas permanece publicado e vazio até que a obra ofereça fundamento.
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2.1. Procedimento segue o Manual de Criação de Perícias v7.1. Custos leem o Manual de Economia de XP v2, seção 6.1. A régua de saturação consome o teste publicado na perícia de Controle de Chakra v3.2, e a condição Petrificação pertence ao Sistema de Efeitos de Status v2.2, que admite esta perícia como fonte de processo interno. O contrato de espécie lê o Documento de Invocação v2.1 e a perícia de Passagem v1.1. As faixas de referência que calibram o limiar de acesso leem as Tabelas de Referência de Personagens e a Reserva de Chakra v3. As técnicas nomeadas vivem no Compêndio de Senjutsu.
+REGISTRO DE ALTERAÇÕES
+
+v2
+
+• Limiar de Reserva de Chakra de 800 revogado, junto do parágrafo que o derivava das Tabelas de Referência. A fórmula da RC multiplica por clã, de modo que o limiar media linhagem e não reserva: um praticante de faixa Treinado sob linhagem de volume o cruzava, e um de faixa Ápice sem clã algum era reprovado
+• A exigência de contrato ativo, escrita como booleano, dá lugar à aceitação pelo chefe da espécie, pelo Teste de Aceitação que o Documento de Invocação já publica. O acesso passa a se cumprir em jogo, por marcos de relação, e deixa de ser propriedade de pergaminho
+• A vantagem Compatibilidade com Energia Natural sai da lista de requisitos. Ela era porteiro de conteúdo, o que a regra do porteiro proíbe, e passa a governar qual dos dois modos o praticante ergue
+• Nasce a distinção entre modo perfeito e modo imperfeito, que o cânone mostra e que a v1 não representava. O imperfeito é o padrão do domínio, marca o corpo de forma permanente e depende de parceiro fundido ou de corpo interposto para colher
+• A instrução passa a citar o catálogo de portas que apenas o Mestre lendário abre, ponto de extensão que o Manual Global de Treinamento publica e que a Liberação de Yang já consome
+• A modalidade ganha uma coluna mecânica, a do parceiro de fusão, que os sapos mantêm e as outras duas espécies não. A propriedade vive na ficha do parceiro, e o caminho Fusão permanece universal
+• Aquisição na criação declarada aberta
+• Nenhuma régua, nenhum caminho, nenhuma inclinação e nenhuma transcendência muda de valor
+
+v1
+
+• Documento inicial
+
+═══════════════════════════════════════════════════════════════════
+
+Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.1. Custos leem o Manual de Economia de XP v2, seção 6.1. A régua de saturação consome o teste publicado na perícia de Controle de Chakra v3.2, e a condição Petrificação pertence ao Sistema de Efeitos de Status v2.2, que admite esta perícia como fonte de processo interno. A aceitação pelo chefe de espécie e os marcos de relação leem o Documento de Invocação, e a travessia até a terra lê a perícia de Passagem v1.1. O degrau de método que abre porta fechada lê o Manual Global de Treinamento. As técnicas nomeadas vivem no Compêndio de Senjutsu.

@@ -1,7 +1,7 @@
 ---
 id: naruto.system.summoning
 title: "Documento de Invocação"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: system
@@ -11,7 +11,7 @@ source-file: Documento_de_Invocacao_v2-1.md
 
 # Documento de Invocação
 
-**v2.2. Regras de contrato, invocação e invocados para o RPG de Naruto.**
+**v2.3. Regras de contrato, invocação e invocados para o RPG de Naruto.**
 
 A invocação transporta um aliado através do espaço; ela nunca o cria. Todo invocado é um ser independente, com chakra, técnicas, sociedade e vontade próprios, vivendo em território próprio até ser chamado. O invocador paga o transporte. O invocado decide o resto. Este documento rege a técnica-base, a aquisição e estrutura dos contratos, a taxonomia de custos, a ficha do invocado, a invocação reversa e os casos especiais com precedente canônico.
 
@@ -200,8 +200,11 @@ PV · RC · LS
 Atributos relevantes, apenas os que a ficha usa
 Técnicas próprias, de duas a quatro, com custo em RC do invocado
 Capacidades: fala, rastreio, transporte, plataforma
+Parceiro de fusão: sim ou não, apenas em ficha de chefe de espécie
 Retorno: condições específicas além das padrão
 ```
+
+**Parceiro de fusão** é campo exclusivo de chefe de espécie, e declara se aquela espécie mantém a prática de fundir um dos seus ao praticante para colher energia natural por ele. Só os sapos a mantêm na obra, e a propriedade existe aqui porque é da espécie e não da perícia que a consome. O campo é lido pela perícia de Senjutsu, onde ele decide o destino do praticante que ergueu o modo imperfeito.
 
 **Porte** é descritor tático sem bônus numérico, no mesmo princípio das Funções Operacionais. Grande carrega um ou dois ninjas, e Colossal serve de plataforma de equipe e interage com o terreno. Qualquer efeito mecânico de porte vem das técnicas e atributos declarados, nunca do rótulo.
 
@@ -286,7 +289,9 @@ Objetos invocados ficam fora da taxonomia de invocados. Tier, mini-ficha e port�
 
 As três terras sagradas, Monte Myōboku, Caverna Ryūchi e Floresta Shikkotsu, ficam registradas como porta narrativa de acesso à perícia de Senjutsu. O acesso é benefício de relacionamento com a terra, jamais cláusula automática do contrato. Nenhuma mecânica de senjutsu é antecipada aqui.
 
-O contrato entra do outro lado como requisito de ficha daquela perícia, e a espécie contratada é quem declara a assinatura física do modo e o ramo do compêndio que o praticante alcança. A aquisição do contrato segue a Seção 2 e continua sendo concessão narrativa, de modo que nenhum nível de perícia compra vínculo.
+**A via de acesso é a aceitação pelo chefe da espécie**, pelo Teste de Aceitação da Seção 3.2. O chefe responde pela terra, e enquanto ele recusa o praticante a terra não se abre, tenha ele pergaminho assinado ou não. Quem constrói a aceitação são os marcos de relação declarados na ficha do chefe, que são fatos do mundo cumpridos em jogo. É a leitura que a Seção 2 já exige, com o vínculo sendo concessão narrativa e nenhum nível de perícia comprando relação.
+
+A espécie que ensina declara a assinatura física do modo, o ramo do compêndio que o praticante alcança e se ela mantém parceiro que se funde ao praticante para colher por ele. As três propriedades vivem na ficha do chefe, e a perícia de Senjutsu as lê sem redefinir nenhuma.
 
 ---
 
@@ -310,6 +315,8 @@ O contrato entra do outro lado como requisito de ficha daquela perícia, e a esp
 A perícia de Passagem lerá este documento na inclinação de convocação, consumindo o Teste de Aceitação e a regra dura da Seção 6.2. As fichas individuais de chefes de espécie leem o template da Seção 5.3. O Compêndio de Ninjutsu lê a Seção 7.2 para as invocações-golpe. A perícia de Senjutsu lê a Seção 2 e a Seção 7.5, consumindo o contrato como requisito de ficha e a espécie contratada como declarante da modalidade.
 
 ### 9.2 Registro de alterações
+
+**v2.3.** O acesso ao treino de senjutsu passa a se resolver pela aceitação do chefe da espécie, pelo Teste de Aceitação da Seção 3.2, e deixa de se resolver pela posse do contrato. A troca corrige uma leitura que a Seção 7.5 já contradizia por escrito desde a v2.1, ao declarar o acesso como benefício de relacionamento e nunca como cláusula do vínculo. O template da Seção 5.3 ganha o campo de parceiro de fusão, exclusivo de ficha de chefe, porque manter alguém que se funde ao praticante é propriedade da espécie e não da perícia que a consome.
 
 **v2.2.** Publicada a perícia de Senjutsu, a Seção 7.5 deixa de citar um documento futuro e passa a nomear a perícia, com o contrato registrado do outro lado como requisito de ficha dela e a espécie contratada declarando a assinatura do modo e o ramo do compêndio. A aquisição do contrato permanece concessão narrativa, sem que nível de perícia algum compre vínculo, e nenhuma mecânica de senjutsu entra aqui.
 
