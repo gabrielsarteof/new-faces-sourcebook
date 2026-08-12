@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.2
+version: 3.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.1
+# Compêndio de Raiton (雷遁) · v3.3
 **Liberação de Raio**
 
 Catálogo das técnicas nomeadas do elemento raio. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
@@ -352,10 +352,10 @@ O usuário injeta por contato um sinal nervoso falso em um membro específico do
 
 ### Rasengan Evanescente
 **Kieru Rasengan — 消える螺旋丸**
-**[CANON — Rank A]**
+**[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Composição (Controle de Chakra) · Rasengan
-**XP:** 11.000
+**Requisitos:** Raiton LV5 · Moldagem Absoluta · Caminho Composição (Controle de Chakra) · Rasengan
+**XP:** 13.250
 
 O usuário infunde chakra de raio na esfera rotativa do Rasengan, alterando a forma como a luz e o próprio chakra se comportam na superfície da técnica. Durante o percurso, a esfera se torna invisível à observação comum e reaparece no instante do impacto, removendo do oponente a leitura de distância e de tempo que a técnica original oferece. A execução exige domínio pleno do Rasengan e controle simultâneo de infusão elemental, combinação que a mantém indisponível na criação de personagem e alcançável somente em jogo.
 

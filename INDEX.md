@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 105 documentos · 13 de núcleo · 92 de cenário
+**Total:** 114 documentos · 13 de núcleo · 101 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -25,7 +25,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1 | reference-table | final |
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.1 | core-layer | final |
-| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.1 | system | final |
+| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.2 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.3 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
@@ -150,13 +150,14 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.1 | compendium | final |
+| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 1 | compendium | final |
 | [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1 | compendium | final |
-| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 3 | compendium | final |
+| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4 | compendium | final |
 | [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1 | compendium | final |
 | [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.1 | compendium | final |
 | [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5 | compendium | final |
 | [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.1 | compendium | final |
-| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.2 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.3 | compendium | final |
 | [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1 | compendium | final |
 | [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.1 | compendium | final |
 | [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2 | compendium | final |
@@ -245,7 +246,8 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.2 | methodology | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 6 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1 | pending-patch | pending-patch |
-| [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.5 | methodology | final |
+| [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.6 | methodology | final |
+| [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1 | system | final |
 | [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.1 | system | final |
 | [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2 | system | final |
 
@@ -255,7 +257,14 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 2 | technique | final |
 | [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 4 | technique | final |
+| [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1 | technique | final |
+| [Fūton: Rasengan (風遁・螺旋丸)](worlds/naruto/techniques/futon-rasengan.md) | `naruto.technique.futon-rasengan` | 1 | technique | final |
+| [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](worlds/naruto/techniques/futon-rasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1 | technique | final |
+| [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2 | technique | final |
+| [Ōdama Rasengan (大玉螺旋丸)](worlds/naruto/techniques/odama-rasengan.md) | `naruto.technique.odama-rasengan` | 1 | technique | final |
+| [Rasengan (螺旋丸)](worlds/naruto/techniques/rasengan.md) | `naruto.technique.rasengan` | 1 | technique | final |
+| [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.2 | technique | final |
 
 ## Documentos previstos e ainda não escritos

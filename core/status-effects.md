@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.1
+version: 2.2
 layer: core
 type: system
 status: final
@@ -620,6 +620,24 @@ RC entre 1% e 24%: Grau Grave. Redução de 50% nesses testes, Limite de Saída 
 RC a 0%: Grau Crítico, o colapso final. Inconsciência aplicada no ato. Cada ponto de chakra exigido do personagem a partir daqui consome PV na razão de um para um, sem mitigação, e a redução do PV a zero por esta via é morte.
 
 Notas: a remoção acompanha a recuperação de reserva. Descanso curto sobe um grau, e descanso longo zera. O caminho Firmeza do Controle de Chakra ignora o Grau Leve, sobe ao Moderado no LV5 e alcança todos os graus abaixo do colapso final na transcendência. Chakra guardado fora da reserva atual, como o depósito da Reserva Diferida, não conta para a apuração do grau, e é o que permite a um praticante operar em Grau Grave com poder disponível.
+
+
+### Corte de Chakra
+
+As células do sistema circulatório de chakra foram desconectadas umas das outras. A reserva permanece intacta e o problema não é de volume: o que se perdeu é a via que conduz o chakra, e o praticante sente o efeito ao tentar moldar aquilo que antes lhe saía sem esforço. A condição se distingue da Exaustão de Chakra em ponto único e decisivo, que é a origem. A Exaustão mede uma reserva que se esvaziou e se resolve enchendo-a de novo; o Corte mede um circuito rompido, e reserva cheia não o repara.
+
+Fonte: rider declarado pela técnica que o produz, com o grau mínimo garantido e o grau máximo possível pertencendo à ficha dela. O teste é de RES somada a VON, contra o alvo que a fonte publicar.
+Atributos afetados: nenhum atributo diretamente. A penalidade incide sobre os testes de Controle de Chakra e das perícias de natureza, deixando o comprometimento físico para a Exaustão Física e a degradação de reserva para a Exaustão de Chakra.
+
+Grau Leve: redução de 15% nesses testes. O praticante nota a hesitação na moldagem e ainda entrega o efeito pleno das técnicas que já domina.
+
+Grau Moderado: redução de 30% nesses testes. O Índice de Desperdício lê o teste de Moldagem e sobe por consequência, de modo que a mesma técnica passa a custar mais a quem foi cortado, sem que este efeito precise declarar régua própria de custo.
+
+Grau Grave: redução de 50% nesses testes. A perda alcança o que o praticante executava com folga, e o desperdício resultante empurra as técnicas dele para janelas de canalização mais longas. A Régua de Exigência de Moldagem não é atingida, porque ela lê a Base Total somada ao atributo regente e não o teste.
+
+Grau Crítico: redução de 70% nesses testes, permanente. A via não se refaz, e a condição registra na ficha um Ferimento Grave de mesmo grau na região atingida.
+
+Notas: a ferida não é fechável por ninjutsu médico de rank algum, e essa recusa é o que separa este efeito dos demais desta família. Ela cede às durações deste sistema e ao tratamento narrativo que o Narrador declarar, e o Grau Crítico não cede a nenhum dos dois. A regra universal de remoção do Grau Crítico, que admite técnica de cura, fica revogada aqui por declaração da entrada. O Ferimento Grave que o Grau Crítico registra corre pelas regras da própria entrada dele, inclusive a que avança o grau quando a mesma região é atingida de novo sem tratamento. Fonte que eleve o grau produzido, como o caminho Minuano da perícia de Fūton, o faz sobre o grau mínimo garantido da ficha e nunca sobre o teto desta escada.
 
 ### Fadiga
 
