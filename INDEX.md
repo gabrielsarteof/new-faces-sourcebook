@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 105 documentos · 13 de núcleo · 92 de cenário
+**Total:** 113 documentos · 13 de núcleo · 100 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -246,6 +246,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 6 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1 | pending-patch | pending-patch |
 | [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.5 | methodology | final |
+| [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1 | system | final |
 | [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.1 | system | final |
 | [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2 | system | final |
 
@@ -255,7 +256,14 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 2 | technique | final |
 | [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 4 | technique | final |
+| [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1 | technique | final |
+| [Fūton: Rasengan (風遁・螺旋丸)](worlds/naruto/techniques/futon-rasengan.md) | `naruto.technique.futon-rasengan` | 1 | technique | final |
+| [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](worlds/naruto/techniques/futon-rasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1 | technique | final |
+| [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2 | technique | final |
+| [Ōdama Rasengan (大玉螺旋丸)](worlds/naruto/techniques/odama-rasengan.md) | `naruto.technique.odama-rasengan` | 1 | technique | final |
+| [Rasengan (螺旋丸)](worlds/naruto/techniques/rasengan.md) | `naruto.technique.rasengan` | 1 | technique | final |
+| [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.2 | technique | final |
 
 ## Documentos previstos e ainda não escritos
