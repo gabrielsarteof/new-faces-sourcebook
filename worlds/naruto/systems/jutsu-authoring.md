@@ -1,15 +1,15 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: methodology
 status: final
-source-file: Manual_de_Criacao_de_Jutsus_v2_4.md
+source-file: Manual_de_Criacao_de_Jutsus_v2_6.md
 ---
 
-# Manual de Criação de Jutsus · v2.5
+# Manual de Criação de Jutsus · v2.6
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.2.**
 
@@ -248,11 +248,11 @@ A janela mede imperícia e não volume. O praticante de moldagem plena dispara n
 | Jutsu | Rank | RC nominal | Mínimo | Executor | Pago | RC | LS | Janela | Canon |
 |---|---|---|---|---|---|---|---|---|---|
 | Goukakyuu | C | 180 | 60 | Sasuke genin, teste 60 | 157 | 1.325 | 265 | 0t | Usa livremente ✓ |
-| Rasengan | B | 450 | 150 | jounin de moldagem plena | 150 | 2.211 | 442 | 0t | Executa no ato ✓ |
+| Rasengan | B | 600 | 200 | jounin de moldagem plena | 200 | 2.211 | 442 | 0t | Executa no ato ✓ |
 | Chidori | A | 750 | 250 | jounin de moldagem plena | 250 | 2.211 | 442 | 0t | Sem selos no ápice ✓ |
 | Chidori | A | 750 | 250 | Kakashi, teste 185 | 250 | 942 | 188 | 1t | Carga visível, 3 usos ✓ |
 | Chidori | A | 750 | 250 | Sasuke genin, teste 60 | 656 | 1.325 | 265 | 2t | Corrida telegrafada, 2 usos ✓ |
-| Rasenshuriken | S | 1.800 | 600 | Naruto jovem, teste 60 | 1.575 | 3.800 | 760 | 2t | Inicialmente estático ✓ |
+| Rasenshuriken | S | 2.100 | 700 | piso do degrau Absoluto, teste 84 | 1.619 | 3.800 | 760 | 2t | Inicialmente estático ✓ |
 
 A régua reproduz a progressão canônica da mesma técnica ao longo da vida de um shinobi. O genin acumula por dois turnos e anuncia a investida, o executor de reserva média carrega um turno visível, e o mestre dispara no ato. O limite diário de quatro usos do Chidori atribuído a Kakashi resolve pela recuperação de reserva entre encontros, com três usos disponíveis dentro de um combate único.
 
@@ -311,7 +311,7 @@ Jutsu de custo variável interpola pelo custo máximo da faixa. Kinjutsu fica fo
 | Jutsu | RC nominal | Rank | Posição | XP_base |
 |---|---|---|---|---|
 | Goukakyuu | 180 | C | 23% | 1.722 |
-| Rasengan | 450 | B | 29% | 4.786 |
+| Rasengan | 600 | B | 71,4% | 6.714 |
 | Chidori | 750 | A | 6% | 8.750 |
 | Kirin | 1.800 | S | 12% | 23.600 |
 
@@ -364,16 +364,17 @@ Kinjutsu fica fora da estimativa pela mesma razão que fica fora da interpolaç�
 
 #### Calibração
 
-A estimativa não pode contradizer os quatro pontos que a 4.1.1 já fixou pela interpolação de RC nominal.
+A estimativa não pode contradizer os pontos que a 4.1.1 já fixou pela interpolação de RC nominal.
 
 | Jutsu | Posição apurada por RC | Degrau atribuído pela escala | Posição da escala |
 |---|---|---|---|
 | Chidori, rank A | 6% | 1 | 10% |
 | Kirin, rank S | 12% | 1 | 10% |
 | Goukakyuu, rank C | 23% | 2 | 25% |
-| Rasengan, rank B | 29% | 2 | 25% |
 
-Os quatro caem dentro de quatro pontos percentuais do valor apurado e nenhum troca de degrau. Que nenhuma âncora canônica ultrapasse trinta por cento é leitura correta e não desvio da escala: os degraus 4 e 5 pertencem ao que eleva categoria de escopo dentro do próprio rank, e a obra produz poucas técnicas assim por faixa.
+Os três caem dentro de quatro pontos percentuais do valor apurado e nenhum troca de degrau. Que nenhuma âncora de calibração ultrapasse trinta por cento é leitura correta e não desvio da escala: os degraus 4 e 5 pertencem ao que eleva categoria de escopo dentro do próprio rank, e a obra produz poucas técnicas assim por faixa.
+
+O Rasengan ocupava a quarta linha desta tabela e saiu dela. A ficha individual da técnica apura a posição de 71,4% dentro da faixa B, enquanto a descrição dela produz o degrau 2, que a escala fixa em 25%. A diferença é de quarenta e seis pontos percentuais e troca o degrau, o que desqualifica a entrada como âncora de um método que ela deveria confirmar. O caso se resolve pela convivência declarada mais abaixo, onde a apuração da ficha substitui a estimativa e a correção pertence à entrada e não à escala. A calibração permanece sustentada pelo Goukakyuu no degrau 2 e pelo Chidori e pelo Kirin no degrau 1.
 
 #### Ordem de aplicação
 
@@ -494,7 +495,7 @@ A fonte atmosférica exige condição estrutural de cenário declarada no regist
 | Chidori, moldagem plena | 750 | 0,20 | 6 | 2,0 | 443 | Elite 1.440 | 31% | Forte |
 | Chidori, +1t carga com LS 442 | 1.192 | 0,20 | 6 | 2,0 | 597 | Elite 1.440 | 41% | Supremo |
 | Chidori, +2t carga com LS 700 | 2.150 | 0,20 | 6 | 2,0 | 933 | Especial 1.920 | 49% | Supremo |
-| Rasengan, jounin LV6 | 450 | 0,20 | 6 | 3,0 | 360 | Elite 1.440 | 25% | Forte |
+| Rasengan, jounin LV6 | 600 | 0,20 | 6 | 3,0 | 390 | Elite 1.440 | 27% | Forte |
 | Kirin, Saki (S-rank) | 1.800 | 0,35 | 6 +2c | 2,0 | 1.423 | Especial 1.920 | 74% | Forbidden¹ |
 
 ¹ Perfil de Evasão Inevitável sob condição estrutural de tempestade (Seção 6.5).
@@ -766,6 +767,14 @@ Os doze pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental
 
 ## 11. Registro de Alterações
 
+**v2.6.** Aplicação da errata que a Linhagem do Rasengan abriu. A publicação da ficha individual do Rasengan apurou a RC nominal em 600, contra os 450 que quatro tabelas deste manual carregavam, e a apuração vence a estimativa pela regra que a própria Seção 4.1.3 declara.
+
+A âncora de validação da Seção 3.2 passou a RC nominal 600, custo mínimo 200 e custo pago 200, e a janela permanece em zero turno porque o custo pago segue abaixo do Limite de Saída de 442. A âncora de XP da Seção 4.1.1 passou a RC nominal 600, posição 71,4% e XP_base 6.714. A linha de validação da Seção 5.3 passou a RC nominal 600 e dano 390, que é 27% do par Elite e mantém o tier Forte.
+
+A linha de âncora do Rasenshuriken na Seção 3.2 passou a RC nominal 2.100 e custo mínimo 700. O executor de referência dela deixou de ser um praticante de teste de Moldagem 60, valor que ninguém no degrau Absoluto pode apresentar, e passou ao piso do próprio degrau em teste 84, com custo pago de 1.619 pela régua de desperdício e a mesma janela de dois turnos que a linha já publicava.
+
+O Rasengan saiu da tabela de calibração da Seção 4.1.3. A posição apurada de 71,4% não corresponde ao degrau 2 que a descrição da técnica produz, e âncora que troca de degrau não confirma o método que ela deveria confirmar. A calibração segue sustentada pelo Goukakyuu no degrau 2 e pelo Chidori e pelo Kirin no degrau 1.
+
 **v2.5.** Alinhamento ao Manual de Criação de Poderes v3.2. Chegou um documento se declarando v2.3 e citando o manual de núcleo em v3.2, mas ele descendia apenas da linha de realinhamento ao núcleo que esta versão já havia absorvido na v2.4 — não conhecia a Seção 2.8, Kyūinjutsu, nem a Seção 4.1.3, Estimativa de XP sem RC, ambas de uma segunda linha reunida naquela versão. É a mesma colisão de numeração que gerou a v2.4, uma geração adiante: duas linhas de trabalho, um número de versão, cada uma cega para o que a outra carregava. Nada daquele documento substituiu texto algum aqui; apenas o que ele acrescentava de fato ao alinhamento com o núcleo entrou.
 
 Do que entrou: as categorias do manual de núcleo passaram de quatorze para quinze, com a categoria Interceptação separando o verbo de tomar efeito alheio em trânsito das famílias de cálculo que o computam. O registro de instâncias, Seção 10, ganhou as duas linhas dos pontos de extensão novos daquela versão do núcleo, Âncora e Estrutura de vazios, preenchidas pela Perícia de Fūinjutsu, pela Perícia de Passagem e pela Perícia de Barreira. A compressão de limiar e a fórmula de dois termos, já reapresentadas como instância na v2.4, não mudam, porque a v3.2 do núcleo não tocou nelas.
@@ -799,7 +808,7 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v2.5, manual tradutor do cenário Naruto para o Manual de Criação
+*Manual de Criação de Jutsus v2.6, manual tradutor do cenário Naruto para o Manual de Criação
 de Poderes v3.2. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
 absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
 RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a
