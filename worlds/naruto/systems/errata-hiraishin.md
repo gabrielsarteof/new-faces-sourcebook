@@ -13,7 +13,7 @@ source-file: Errata_Linhagem_Hiraishin_v1.md
 
 As cinco fichas da Linhagem do Hiraishin publicam a Faixa de Travessia, que é a grandeza de RC nominal que as entradas do compêndio ainda não tinham. Com ela legível, valores do Compêndio de Fūinjutsu e seções do Manual de Ancoragem passam a divergir do que o corpus afirma em outro lugar, e a transcrição das fórmulas para o motor da aplicação expôs duas convenções de arredondamento que o Manual de Criação de Jutsus mantém em desacordo consigo mesmo.
 
-Três alvos com correção declarada, e uma divergência que permanece aberta porque os dois lados dela têm dono e nenhum cedeu. Cada entrada indica onde localizar, o que sai, o que entra e a origem.
+Quatro alvos resolvidos, três deles com correção a aplicar e um com fronteira de domínio fixada, e uma divergência que permanece aberta porque os dois lados dela têm dono e nenhum cedeu. Cada entrada de correção indica onde localizar, o que sai, o que entra e a origem.
 
 ---
 
@@ -88,7 +88,7 @@ O parágrafo de abertura da categoria também nomeia a entrada, e a menção ao 
 
 **Entra:** Perícia de Fūinjutsu v1.4, Perícia de Controle de Chakra v3.2.
 
-**Origem:** o registro afirma conformidade contra versões que o Índice não publica mais. A declaração de conformidade do Controle de Chakra vale contra um texto de duas gerações atrás, e é dentro dessa diferença que vive a divergência do Alvo 4.
+**Origem:** o registro afirma conformidade contra versões que o Índice não publica mais. A declaração de conformidade do Controle de Chakra vale contra um texto de duas gerações atrás, e é dentro dessa diferença que vive a divergência do Alvo 5.
 
 ### 2.3 Pendência da ficha dedicada do Hiraishin de Boruto
 
@@ -132,9 +132,35 @@ Vale declarar qual das duas convenções a coluna adota, porque um leitor que tr
 
 ---
 
-## ALVO 4 — Divergência aberta, sem lado escolhido
+## ALVO 4 — O compêndio dono da entrada por impregnação
 
-### 4.1 Manutenção da âncora impregnada
+### 4.1 A fronteira, decidida
+
+A entrada Deus do Trovão Voador pela Impregnação é a única das cinco sem entrada de compêndio. O compêndio que a receberá é o **Compêndio de Passagem**, que ainda não existe.
+
+A obra que a entrada entrega é a travessia, e quem entrega travessia é a Perícia de Passagem. O Controle de Chakra fornece a âncora, que é peça, no mesmo papel que o Fūinjutsu cumpre na via inscrita ao fornecer a marca. Um compêndio publica as obras que a competência da perícia dona produz, e a competência que produz esta obra é a de Passagem.
+
+A leitura se confirma no próprio Compêndio de Fūinjutsu, que abre a Categoria Especial declarando que a coluna de magnitude das quatro entradas é a Perícia de Passagem e que a coluna de Fūinjutsu cobra apenas o que a marca exige. As quatro moram em Fūinjutsu porque o compêndio foi escrito quando a Passagem ainda se chamava Espaço-Tempo e não existia como perícia adquirível.
+
+Três perícias do cenário seguem sem compêndio: Controle de Chakra, Passagem e Senjutsu. A Linhagem do Rasengan preenche a primeira, por ser moldagem pura e ter o Rasengan declarado como ápice canônico do eixo de Composição. Nenhuma das duas linhagens atravessa a fronteira da outra.
+
+### 4.2 Por que o compêndio não nasce agora
+
+Um compêndio de uma entrada se reabre na primeira obra seguinte. A Perícia de Passagem publica a inclinação Convocação, e o Kuchiyose no Jutsu e as obras que dela dependem são as entradas que dão massa ao documento. O Compêndio de Passagem nasce com elas, e a entrada por impregnação entra na mesma leva.
+
+Até lá, a ficha permanece publicada e legível no corpus, e a ausência de entrada está declarada na proveniência da aplicação. O que fica fixado aqui é a fronteira, para que a próxima passada não a redecida.
+
+### 4.3 Migração das quatro entradas inscritas
+
+Consequência da fronteira acima, registrada e não aplicada. Quando o Compêndio de Passagem existir, as quatro entradas da Categoria Especial do Compêndio de Fūinjutsu passam a ser candidatas a migrar para ele, e a Categoria Especial se dissolve.
+
+A migração muda o `fonte` dos quatro registros da aplicação e o `dominio` de todos eles, o que reescreve identificador de dado. É errata de porte próprio e não acompanha as demais deste documento.
+
+---
+
+## ALVO 5 — Divergência aberta, sem lado escolhido
+
+### 5.1 Manutenção da âncora impregnada
 
 O Controle de Chakra v3.2 afirma, no efeito Impregnação de Âncora, que a âncora cai junto com quem a impregnou e não cobra manutenção enquanto ele viver. O Manual de Ancoragem v1.1 publica, na tabela da Seção 4.2, manutenção por reimpregnação a cada cena de descanso, marcada como proposta.
 
@@ -144,11 +170,11 @@ O Manual de Ancoragem é o dono declarado dos oito slots do Contrato de Âncora,
 
 A leitura adotada pelas cinco fichas é a do Manual de Ancoragem, por ele ser o dono dos slots. A escolha de qual documento cede permanece aberta.
 
-### 4.2 Propriedades ausentes na entrada por impregnação
+### 5.2 Propriedades ausentes na entrada por impregnação
 
 A tabela de Propriedades da Âncora Consumida da ficha por impregnação declara quatro das sete propriedades que a Seção 4.2 do Manual publica. Ficam de fora Paridade, Manutenção e Contagem.
 
-A Manutenção depende do Alvo 4.1. A Contagem é pendência que o próprio Manual declara na Seção 8, aguardando que o Controle de Chakra publique quantas âncoras simultâneas a impregnação sustenta, e enquanto ela não existir a via permanece incompleta para consumo por técnica de compêndio. A Paridade é ausência sem disputa, e a ficha a incorpora quando a tabela for reaberta.
+A Manutenção depende do Alvo 5.1. A Contagem é pendência que o próprio Manual declara na Seção 8, aguardando que o Controle de Chakra publique quantas âncoras simultâneas a impregnação sustenta, e enquanto ela não existir a via permanece incompleta para consumo por técnica de compêndio. A Paridade é ausência sem disputa, e a ficha a incorpora quando a tabela for reaberta.
 
 A linha de Legibilidade diverge na redação. O Manual escreve legibilidade nula para Exegese, e a ficha escreve nula para o ofício do selamento. As duas descrevem o mesmo alcance, porque a Exegese é o instrumento pelo qual o ofício lê, e a harmonização acompanha o Alvo 2.4.
 
