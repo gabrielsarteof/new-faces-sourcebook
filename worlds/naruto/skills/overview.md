@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.6. Camada de relação entre domínios.**
+**v2.7. Camada de relação entre domínios.**
 
 ---
 
@@ -33,7 +33,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 
 | Perícia | Versão | Regente | Categoria de custo |
 |---|---|---|---|
-| Controle de Chakra | v3.2 | SAB | Chakra ×1,4 |
+| Controle de Chakra | v3.3 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.1 | PRE | Chakra ×1,4 |
 | Katon | v3 | INT | Ninjutsu ×1,5 |
 | Raiton | v2 | INT | Ninjutsu ×1,5 |
@@ -45,7 +45,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
-| Passagem | v1 | INT | Erudição ×1,7 |
+| Passagem | v1.1 | INT | Erudição ×1,7 |
 
 ### Por que três categorias e não uma
 
@@ -125,7 +125,7 @@ O livro-razão das cedências. Cada linha existe porque um documento publicado d
 | Comando de marionete | Marionetista, devida |
 | Resistência às penalidades de Exaustão | Sistema de Efeitos de Status |
 | Crescimento da reserva | Reserva de Chakra |
-| As Oito Portas | sistema próprio |
+| Os Oito Portões | Sistema dos Oito Portões, honrada |
 
 Permanecem no Controle de Chakra por precedente de marco de perícia a escalada, a caminhada sobre a água, a supressão e a doação.
 
@@ -206,13 +206,13 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Percepção | Sensoriamento v2, em três fronteiras | Sensoriamento v2, nos caminhos Rastro, Multidão e Ronda |
 | Barreira | Fūinjutsu v1 | o Fūin Kekkai |
 | Marionetista | Controle de Chakra v2 | nada |
-| Taijutsu | documento do clã Senju, que vende desconto de XP nela | nada |
+| Taijutsu | documento do clã Senju, que vende desconto de XP nela, e o Sistema dos Oito Portões, que lhe reserva a coluna de acesso | nada |
 | Perícia de arma | vantagens, que concedem bônus de arremesso e precisão de lançamento | nada |
 | Furtividade, Lábia e o eixo não combatente | vantagens, que testam as duas por nome | nada |
 
 **Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e os estilos nomeados entram como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio.
 
-**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico não tem equivalente, e é essa ausência que mantém o Chidori em divergência de motor.
+**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. O que ainda não existe é essa camada geral, e é a ausência dela que mantém o Chidori em divergência de motor.
 
 ---
 
@@ -223,11 +223,11 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Katon v3, Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
 | Liberação de Yin v4, Liberação de Yang v4.1 | conforme |
 | Ninjutsu Médico v3 | conforme |
-| Controle de Chakra v3.2 | conforme |
+| Controle de Chakra v3.3 | conforme |
 | Sensoriamento v2.1 | conforme |
 | Genjutsu v1.2 | conforme, com uma ressalva de vocabulário |
-| Fūinjutsu v1.3 | conforme, com a mesma ressalva |
-| Passagem v1 | conforme |
+| Fūinjutsu v1.4 | conforme, com a mesma ressalva |
+| Passagem v1.1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha ou criando o dono dela.
 
@@ -253,6 +253,8 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.7.** O Sistema dos Oito Portões nasceu, e com ele a cedência mais antiga do Registro de Fronteira passa de sem dono a honrada. A linha que o Controle de Chakra escreveu como "As Oito Portas, sistema próprio" agora nomeia o sistema que a recebeu. A Fila de Nascimento registra que o Taijutsu, quando nascer, herda daquele documento a coluna de acesso e nada além dela, e a nota de Dependência do eixo físico deixa de dizer que o eixo não tem camada alguma: ele ganhou as três primeiras réguas, Esforço, coeficiente de entrega física e Fator de Portão, que nasceram no documento dono porque era ele quem tinha o subsistema. O que continua faltando é a camada geral que absorve as três, e é ela, não mais a ausência inteira, que mantém o Chidori em divergência de motor. Na mesma passada, o nome do domínio passa a ser Oito Portões em todo o corpus, pelo precedente da renomeação de Passagem, e duas versões defasadas no Registro de Conformidade são corrigidas: Controle de Chakra para v3.3 nos dois registros, e Fūinjutsu para v1.4 e Passagem para v1.1, estas duas citações órfãs anteriores a esta série. Nenhuma perícia muda de regente, categoria ou custo.
 
 **v2.6.** A perícia publicada na v2.3 como Espaço-Tempo é renomeada para Passagem. O rótulo antigo nomeava a categoria de jutsu do cânone e não o ofício, na mesma armadilha que mantém Taijutsu fora da lista de perícias; o nome novo cobre as duas inclinações sem privilegiar nenhuma e fecha o par com Barreira, a coluna que veda. Toda referência à perícia neste documento passa a dizer Passagem, incluindo dentro do texto histórico da v2.3; a categoria canônica Ninjutsu de Espaço-Tempo, citada por outros documentos, não muda, porque nomeia a obra e não o ofício adquirível. Nenhum valor, portão ou régua é alterado por esta passada.
 

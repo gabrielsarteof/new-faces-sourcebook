@@ -1,7 +1,7 @@
 ---
 id: naruto.system.eight-gates
 title: "Oito Portões (八門)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: system
@@ -11,7 +11,7 @@ source-file: Sistema_dos_Oito_Portoes_v1.md
 
 # Oito Portões (八門)
 
-**v1. Sistema próprio do eixo corporal. Consome o Manual de Criação de Jutsus v2.5, o Manual de Criação de Poderes v3.3, o Núcleo do Sistema v3, o Sistema de Efeitos de Status v2.1, a Reserva de Chakra v3 e o Manual Global de Treinamento v1.**
+**v1.1. Sistema próprio do eixo corporal. Consome o Manual de Criação de Jutsus v2.5, o Manual de Criação de Poderes v3.3, o Núcleo do Sistema v3, o Sistema de Efeitos de Status v2.1, a Reserva de Chakra v3 e o Manual Global de Treinamento v1.**
 
 Este documento é a espinha dorsal do domínio. Ele publica o que um portão é, a régua única que todos os oito leem, o preço que o corpo paga e as fronteiras com os documentos vizinhos. As oito fichas individuais vivem no documento de técnica Hachimon Tonkō. As obras que dependem dos portões vivem no Compêndio dos Oito Portões. Nenhuma regra deste documento é reescrita nos outros dois.
 
@@ -295,16 +295,20 @@ A perícia de corpo, quando nascer, recebe deste documento a coluna de acesso e 
 
 O eixo físico não possui camada equivalente ao Sistema Elemental, e o Índice de Perícias registra essa ausência como o bloqueio da perícia de corpo. As três réguas da seção 6 nascem aqui porque este documento é o dono do subsistema que faltava, e a decisão segue a regra do Manual de Criação de Perícias de fazer o subsistema ausente nascer no documento dono. Quando a camada física geral for publicada, ela absorve as três réguas e este documento passa a citá-las em vez de sustentá-las.
 
-A vantagem Output Elevado declara incompatibilidade com as Oito Portas e remete a legislação a este documento. A seção 4 legisla e o resultado é convivência com leitura pelo maior, nunca soma. A nota daquele documento entra em errata para apontar a resolução.
+~~A vantagem Output Elevado declara incompatibilidade com as Oito Portas e remete a legislação a este documento. A seção 4 legisla e o resultado é convivência com leitura pelo maior, nunca soma. A nota daquele documento entra em errata para apontar a resolução.~~ — **aplicada na v1.1**, no catálogo de vantagens do cenário v1.1.
 
-A vantagem Restrição Corporal declara aptidão para as Oito Portas com pré-requisito reduzido em um grau, condicionada a este documento. A seção 4 confirma a proposta e fixa o grau como um degrau da tabela da seção 5.1. A nota daquele documento entra em errata para retirar a condicional.
+~~A vantagem Restrição Corporal declara aptidão para as Oito Portas com pré-requisito reduzido em um grau, condicionada a este documento. A seção 4 confirma a proposta e fixa o grau como um degrau da tabela da seção 5.1. A nota daquele documento entra em errata para retirar a condicional.~~ — **aplicada na v1.1**, no mesmo documento.
 
-O termo Grau de Ameaça não possui dono localizável no corpus e foi abolido no Manual de Criação de Poderes v3.3. Este documento publica, no lugar dele, a escala do manual de poderes e a faixa das Tabelas de Referência, que são as duas réguas com dono. Os documentos de vantagem que ainda usam a sigla entram na fila de errata do projeto.
+O termo Grau de Ameaça não possui dono localizável no corpus, e a auditoria de propagação desta versão mostrou que ele nunca teve: a forma por extenso não aparece em documento nenhum, em versão nenhuma, e o Manual de Criação de Poderes não o menciona nem para aboli-lo. Não é termo revogado que deixou citação órfã, é sigla que entrou em quatro linhas de vantagem sem nunca ter sido definida. A substituição publicada é a **faixa** das Tabelas de Referência, e não a escala de graus do manual de poderes: aquela escala gradua efeitos e as quatro linhas comparam pessoas, que é o que a faixa gradua. **Aplicada na v1.1**, nas duas linhas de `core/advantages.md` e nas duas do catálogo do cenário; a sigla não existe mais no corpus.
 
-O Índice de Perícias recebe a linha deste sistema no Registro de Fronteira, honrando a cedência que o Controle de Chakra e a Liberação de Yang já haviam declarado, e a Fila de Nascimento passa a registrar que a perícia de corpo herda a coluna de acesso deste documento quando nascer.
+~~O Índice de Perícias recebe a linha deste sistema no Registro de Fronteira, honrando a cedência que o Controle de Chakra e a Liberação de Yang já haviam declarado, e a Fila de Nascimento passa a registrar que a perícia de corpo herda a coluna de acesso deste documento quando nascer.~~ — **aplicada na v1.1**, no Índice de Perícias v2.7.
+
+Aberta ainda, e nascida da propagação: o Compêndio dos Oito Portões acrescenta dois blocos que a Norma de Produção de Compêndios fecha em quatro, e nenhuma entrada dele declara perícia, porque o domínio não tem perícia dona. A Norma registrou as duas divergências na v2.3 e decide na próxima versão se as acolhe.
 
 ---
 
 ## 12. Registro de Alterações
+
+**v1.1.** Passada de propagação. As quatro pendências que a v1 emitiu foram aplicadas nos documentos alvo e estão marcadas como tais na seção 11. A pendência da sigla Grau de Ameaça foi reescrita porque a auditoria contradisse a redação original: o termo não foi abolido pelo Manual de Criação de Poderes, ele nunca existiu por extenso em documento nenhum, e a régua que o substitui é a faixa das Tabelas de Referência e não a escala de graus, porque faixa gradua pessoas e escala gradua efeitos. Nenhum valor, tabela ou régua deste documento mudou.
 
 **v1.** Documento inicial. Sistema criado do zero sobre auditoria portão a portão, com a decisão de arquitetura registrada na seção 2. Nasceram a Régua do Portão Aberto sem empilhamento, os dois tetos de fluxo, o portão de acesso em três exigências, a Abertura Forçada, a moeda de Esforço com a forma de dois termos do eixo corporal, o Teto de Amplificação Corporal, a escada de sequelas em condições já publicadas e o tratamento do oitavo portão como revogação declarada do Limite de Saída.

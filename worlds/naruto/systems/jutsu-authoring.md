@@ -1,15 +1,15 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: methodology
 status: final
-source-file: Manual_de_Criacao_de_Jutsus_v2_4.md
+source-file: Manual_de_Criacao_de_Jutsus_v2_5.md
 ---
 
-# Manual de Criação de Jutsus · v2.5
+# Manual de Criação de Jutsus · v2.6
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.2.**
 
@@ -750,6 +750,7 @@ O Manual de Criação de Poderes publica doze pontos de extensão. Esta seção 
 | Curva de recurso | Reserva de Chakra, com Limite de Saída de 20% por turno | Seções 3.1, 3.2 e 9 deste manual |
 | Tipagem de efeito | naturezas elementais, com mult_Tipo e rider padrão por natureza | Sistema Elemental, consumido pela Seção 5.4 |
 | Coeficientes da forma de dois termos | coef_entrega na conversão, Fator de Moldagem como termo de maestria, coef_técnica como coeficiente de obra | Seção 5.3 deste manual |
+| Coeficientes da forma de dois termos, eixo corporal | Esforço em PS no lugar da RC nominal, coef_entrega_física na conversão, Fator de Portão como termo de maestria, coef_obra como coeficiente de obra | Seção 6 do Sistema dos Oito Portões |
 | Camadas de defesa | absorção, resistência e esquiva efetiva | documentos de defesa do cenário, lidos pela Seção 6.5 |
 | Eixo de evitabilidade | Perfil de Evasão em cinco degraus | Seção 6.5 deste manual |
 | Modelo de acerto | sem rolagem de acerto, vantagem ofensiva como redução de esquiva | abertura da Seção 6 deste manual |
@@ -762,9 +763,13 @@ O Manual de Criação de Poderes publica doze pontos de extensão. Esta seção 
 
 Os doze pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental, que publica a tabela de multiplicadores por natureza na seção de Tipos Elementais daquele documento, de modo que o slot está apontado e cheio e jutsu elemental novo fecha validação.
 
+Um ponto admite mais de uma instância, e a tabela tem uma linha por instância e não por ponto. A forma de dois termos é o primeiro caso: o eixo do chakra a instancia em RC nominal e o eixo corporal a instancia em Esforço, com réguas próprias e sem que uma leia a outra. Instância nova entra aqui declarando qual ponto preenche e onde as réguas dela vivem.
+
 ---
 
 ## 11. Registro de Alterações
+
+**v2.6.** O Registro de Instâncias recebe a segunda instância da forma de dois termos, publicada pelo Sistema dos Oito Portões: o eixo corporal mede em Esforço o que o eixo do chakra mede em RC nominal, com coeficiente de entrega física na conversão e Fator de Portão como termo de maestria. A seção passa a declarar que um ponto de extensão admite mais de uma instância e que a tabela tem uma linha por instância, porque com a linha nova ela deixaria de bater com a contagem de doze pontos. Nenhuma régua, faixa de XP ou coeficiente deste manual muda; o que entra é o registro de que o eixo físico ganhou dono.
 
 **v2.5.** Alinhamento ao Manual de Criação de Poderes v3.2. Chegou um documento se declarando v2.3 e citando o manual de núcleo em v3.2, mas ele descendia apenas da linha de realinhamento ao núcleo que esta versão já havia absorvido na v2.4 — não conhecia a Seção 2.8, Kyūinjutsu, nem a Seção 4.1.3, Estimativa de XP sem RC, ambas de uma segunda linha reunida naquela versão. É a mesma colisão de numeração que gerou a v2.4, uma geração adiante: duas linhas de trabalho, um número de versão, cada uma cega para o que a outra carregava. Nada daquele documento substituiu texto algum aqui; apenas o que ele acrescentava de fato ao alinhamento com o núcleo entrou.
 
@@ -799,7 +804,7 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v2.5, manual tradutor do cenário Naruto para o Manual de Criação
+*Manual de Criação de Jutsus v2.6, manual tradutor do cenário Naruto para o Manual de Criação
 de Poderes v3.2. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
 absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
 RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a

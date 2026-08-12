@@ -1,7 +1,7 @@
 ---
 id: naruto.advantages-disadvantages.overview
 title: "Vantagens Especiais do Mundo Shinobi"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: catalog
@@ -16,6 +16,8 @@ _Total: 14 vantagens_
 Este documento reúne as vantagens exclusivas do cenário de Naruto, compradas com XP Sorte na criação do personagem ou mediante autorização do Narrador. Cada peça nasce de uma capacidade demonstrada no cânone que não se explica por linhagem, ou de um traço de linhagem cuja versão universal foi deliberadamente aberta a qualquer personagem. Elas convivem com o arquivo de Vantagens Comuns sem sobreposição: arquétipos como o gênio de geração ou o shinobi cujas palavras mudam pessoas são montados por combinações de peças comuns já existentes (Genialidade com Prodígios; Conexão Genuína, Palavras Que Ecoam e Campo Gravitacional), e este arquivo cobre apenas o que nenhuma combinação comum alcança.
 
 Cada entrada carrega sua etiqueta de fonte. **Canon** marca capacidade demonstrada diretamente na obra. **Atribuído** marca padrão canônico consistente sem portador único. **Proposta** marca decisão de design assumida, sem âncora direta.
+
+Onde uma vantagem compara o portador a um oponente, a régua é a **faixa** das Tabelas de Referência de Personagens, que vai de Treinado a Ápice pelo nível-base. A faixa gradua pessoas, que é o que essas entradas comparam, e a escala de graus do Manual de Criação de Poderes gradua efeitos, que é outra coisa.
 
 ---
 
@@ -66,7 +68,7 @@ O corpo deste personagem canaliza chakra numa escala que contraria qualquer expe
 
 **Efeitos:** O Limite de Saída do personagem é de 30% da RC por turno, em lugar dos 20% universais
 
-**Nota:** Elevação permanente e fisiológica, sem custo corporal por uso. Incompatibilidade com as Oito Portas declarada desde já: a fronteira entre esta vantagem e o sistema de Portões será legislada no documento de Portões, que prevalece sobre esta nota.
+**Nota:** Elevação permanente e fisiológica, sem custo corporal por uso. A convivência com os Oito Portões está legislada na seção 4 daquele documento e resolve por leitura pelo maior, jamais por soma. A vantagem fixa o piso em 30% e permanece útil por não cobrar nada do corpo; o portão aberto prevalece sempre que publicar teto maior, e o oitavo revoga o Limite de Saída por inteiro.
 
 ---
 
@@ -74,7 +76,7 @@ O corpo deste personagem canaliza chakra numa escala que contraria qualquer expe
 
 O chakra deste personagem tem peso. Quando liberado, o ar registra a diferença: superfícies vibram, animais recuam, shinobi experientes sentem a pressão na pele antes de qualquer selo. Não é volume, é qualidade que o ambiente reconhece.
 
-**Efeitos:** Ao liberar a aura ativamente como presença, não como técnica: +5 em Intimidação, e oponentes de GA visivelmente inferior hesitam antes de engajar, avaliado pelo Narrador como fato do mundo / A liberação é perceptível por qualquer um na cena, sensor ou não, e não pode ser confundida com chakra comum
+**Efeitos:** Ao liberar a aura ativamente como presença, não como técnica: +5 em Intimidação, e oponentes de faixa visivelmente inferior hesitam antes de engajar, avaliado pelo Narrador como fato do mundo / A liberação é perceptível por qualquer um na cena, sensor ou não, e não pode ser confundida com chakra comum
 
 **Nota:** Esta vantagem cobre exclusivamente o eixo de pressão. Qualquer diferencial de potência por densidade pertence ao documento de Densidade e será legislado lá. Verbo distinto da Sede de Sangue Projetada: aquela é projeção ativa de intenção assassina com ação, teste e status; esta é peso ambiental da liberação de chakra.
 
@@ -136,7 +138,7 @@ O perigo não paralisa este personagem, calibra. Cada golpe sofrido afina o foco
 
 Todo shinobi carrega intenção assassina; pouquíssimos a projetam. A deste personagem atravessa o campo como coisa física, e o oponente vê a própria morte antes do primeiro selo, porque quem projeta já matou o suficiente, ou deseja o suficiente, para que o ar carregue o peso.
 
-**Efeitos:** Por ação menor, projeta a intenção contra alvos à vista: teste de VON contra a resistência de cada um, aplicando o efeito Medo do Sistema de Status em grau crescente pela margem / Contra oponentes de GA visivelmente inferior, a paralisia do primeiro grau é automática, sem teste, na primeira exposição da cena / Imune à sede de sangue alheia de portadores de GA igual ou inferior
+**Efeitos:** Por ação menor, projeta a intenção contra alvos à vista: teste de VON contra a resistência de cada um, aplicando o efeito Medo do Sistema de Status em grau crescente pela margem / Contra oponentes de faixa visivelmente inferior, a paralisia do primeiro grau é automática, sem teste, na primeira exposição da cena / Imune à sede de sangue alheia de portadores de faixa igual ou inferior
 
 **Nota:** Requer VON 14 ou história validada pelo Narrador que justifique o peso. Um personagem pode acumular esta vantagem com o Chakra Opressivo, pagando por cada verbo separadamente: um é arma ativa de intenção, o outro é peso passivo de liberação.
 
@@ -162,7 +164,7 @@ Nasceste com o sistema circulatório de chakra incapaz de moldagem externa. Nenh
 
 **Restrição estrutural (permanente, embutida na compra):** as perícias de Ninjutsu, Genjutsu e as cinco Transformações de Natureza ficam inacessíveis em caráter definitivo. A RC continua sendo calculada normalmente, mas só pode ser gasta em aplicações internas: reforço físico, controle de superfície e PS. Fuinjutsu e técnicas médicas de projeção também ficam inacessíveis.
 
-**Efeitos:** Custo de XP dos atributos FOR, AGI e RES reduzido em 25% / Perícias da categoria Físico ganham +30% de XP em treino e têm o requisito de atributo de cada nível reduzido em 2 / Conversão Interna: 40% da RC entra no pool de PS como camada adicional, o corpo aproveitando o que nunca vai virar jutsu / Aptidão para as Oito Portas: pré-requisitos de acesso reduzidos em um grau (Proposta condicionada ao documento de Portões)
+**Efeitos:** Custo de XP dos atributos FOR, AGI e RES reduzido em 25% / Perícias da categoria Físico ganham +30% de XP em treino e têm o requisito de atributo de cada nível reduzido em 2 / Conversão Interna: 40% da RC entra no pool de PS como camada adicional, o corpo aproveitando o que nunca vai virar jutsu / Aptidão para os Oito Portões: a exigência de RES somada a FOR desce um degrau na tabela da seção 5.1 daquele documento, e nada além dela é reduzido
 
 **Nota:** A restrição não é desvantagem separada e não gera XP Sorte; o preço da vantagem já desconta o pilar inteiro de que o personagem abre mão. Incompatível com qualquer clã cujo núcleo dependa de ninjutsu ou dōjutsu.
 

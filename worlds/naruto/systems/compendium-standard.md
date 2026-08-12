@@ -1,7 +1,7 @@
 ---
 id: naruto.system.compendium-standard
 title: "Norma de Produção de Compêndios"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Norma_de_Producao_de_Compendios_v2-2.md
 ---
 
-# Norma de Produção de Compêndios · v2
+# Norma de Produção de Compêndios · v2.3
 
 Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:1 de Naruto.
 
@@ -75,6 +75,8 @@ A ordem é fixa e curta.
 **Índice Rápido por Função Tática.** Seção 11.
 
 Nada mais entra. Contagem por rank, índice por camada, índice de preços e leitura da distribuição são vistas derivadas das entradas, recalculáveis a qualquer momento, e não pertencem ao artefato. Pendências de aprovação pertencem à fila de errata do projeto.
+
+**Pendência aberta.** O Compêndio dos Oito Portões acrescenta dois blocos que esta sequência não prevê. O primeiro é uma seção de categoria, A Escada, que reúne as oito entradas da progressão fora da divisão por rank, porque a escada é uma cadeia em que cada degrau exige o anterior e distribuí-la entre quatro seções de rank esconderia justamente a cadeia. O segundo é um bloco final de Notas com rodapés numerados, carregando a justificativa de duas leituras editoriais que a etiqueta sozinha não explica. Os dois têm razão de existir e nenhum tem lugar declarado aqui. A norma acolhe ou rejeita os dois na próxima versão; até lá aquele compêndio está fora de conformidade por dois blocos, e a divergência fica registrada em vez de silenciada.
 
 ---
 
@@ -192,5 +194,8 @@ Uma entrada pode aparecer em mais de um bloco.
 | Doton Consumível | fora de norma, mesma condição |
 | Ninjutsu Médico | fora de norma, mesma condição |
 | Katon Consumível | fora de norma, superado pelo Katon v4 |
+| Oito Portões v1 | nasce sob esta norma, com os dois blocos da pendência da seção 4 pendurados |
 
-Nenhum compêndio existente está em conformidade com esta versão, e a razão é que a norma anterior obrigava exatamente o que esta proíbe. A reemissão é trabalho de errata e acontece um domínio por vez, sem que a norma precise ser reaberta a cada um.
+Nenhum compêndio herdado está em conformidade com esta versão, e a razão é que a norma anterior obrigava exatamente o que esta proíbe. A reemissão é trabalho de errata e acontece um domínio por vez, sem que a norma precise ser reaberta a cada um.
+
+O Compêndio dos Oito Portões é o primeiro escrito já sob esta norma, e a distância dele até a conformidade plena são os dois blocos da seção 4 e nada mais. Ele é também o primeiro cujo domínio não tem perícia dona, o que deixa a linha de requisitos sem o campo de perícia que a seção 10 fixa: enquanto a perícia de corpo não nascer, aquelas entradas declaram exigência de atributo e Blocos de maturação no lugar dela.
