@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hachimon-obras
 title: "Obras dos Oito Portões"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -10,7 +10,7 @@ source-file: Obras_dos_Oito_Portoes_v1.md
 ---
 
 # Obras dos Oito Portões
-Taijutsu Puro · sem natureza · Rank C a Kinjutsu
+Taijutsu Puro · sem natureza · Rank C a Rank S, com o Guy Noturno marcado Kinjutsu
 
 As nove fichas mecânicas das técnicas que dependem de portão aberto para existir.
 
@@ -240,7 +240,7 @@ O praticante comprime o ar entre os punhos até que a massa contida alcance dens
 ---
 
 ## Guy Noturno (夜ガイ)
-Kinjutsu · Escala Transcendente · Portão exigido: oitavo
+Rank S · Kinjutsu · Escala Transcendente · Portão exigido: oitavo
 
 O praticante concentra no chute descendente a totalidade da saída que o coração sem regulador produz. O membro atravessa a distância antes que o ar tenha tempo de se deslocar, e o que chega ao alvo é a coluna inteira de ar comprimida no trajeto, que o olho registra como uma forma alongada de vapor luminoso. O ponto de chegada é atingido antes que qualquer leitura de posição do praticante se conclua.
 
