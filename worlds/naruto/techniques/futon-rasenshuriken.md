@@ -130,7 +130,7 @@ O dano em PV não é onde a técnica gasta o próprio rank. A leitura correta da
 
 ## Rider de Corte de Chakra
 
-Os fios de vento em escala microscópica desconectam as células do sistema circulatório de chakra do alvo. A resolução pertence ao Sistema de Efeitos de Status, e o efeito abaixo é declarado por esta ficha.
+Os fios de vento em escala microscópica desconectam as células do sistema circulatório de chakra do alvo. O efeito é o Corte de Chakra, publicado na Família VI do Sistema de Efeitos de Status, que é dono da escada de graus, da penalidade de cada um, da permanência e da recusa de cura por ninjutsu médico. Esta ficha declara apenas o que pertence à fonte.
 
 | Campo | Valor |
 |---|---|
@@ -140,17 +140,7 @@ Os fios de vento em escala microscópica desconectam as células do sistema circ
 | Alvo do teste | (RES + VON) × (1 − RC nominal ÷ RC máxima do executante) |
 | Região afetada | o corpo inteiro, por difusão celular |
 
-O grau produzido impõe penalidade aos testes de Controle de Chakra e das perícias de natureza do alvo, na mesma escada percentual que o sistema já emprega.
-
-| Grau | Penalidade aos testes de chakra | Permanência |
-|---|---|---|
-| Moderado | 30% | até tratamento narrativo adequado |
-| Grave | 50% | até tratamento narrativo adequado |
-| Crítico | 70% | permanente, com Ferimento Grave de mesmo grau registrado na ficha |
-
-A ferida não é fechável por ninjutsu médico de rank algum. Ela cede apenas às durações do Sistema de Efeitos de Status e ao tratamento narrativo que o Narrador declarar, e o grau Crítico não cede a nenhum dos dois.
-
-O caminho Minuano da perícia de Fūton eleva o grau produzido em uma categoria, e a transcendência O Corte Que Não Fecha eleva em duas, o que coloca o grau Crítico como piso garantido para o portador dela.
+O caminho Minuano da perícia de Fūton eleva o grau produzido em uma categoria, e a transcendência O Corte Que Não Fecha eleva em duas, o que coloca o grau Crítico como piso garantido para o portador dela. A elevação incide sobre o grau mínimo garantido desta ficha e não sobre o teto da escada.
 
 ---
 
