@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yang-release
 title: "Liberação de Yang"
-version: 4.1
+version: 4.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Liberacao_de_Yang_v4.md
 ---
 
-LIBERAÇÃO DE YANG (陽遁) · v4.1
+LIBERAÇÃO DE YANG (陽遁) · v4.2
 
 Atributo: RES
 Categoria: Ninjutsu (×1,5)
@@ -24,7 +24,7 @@ O território se define por um verbo próprio. A medicina repara, fechando ferid
 
 A perícia Ninjutsu Médico segue dona do diagnóstico, da cirurgia de chakra e do conserto por precisão, e a Liberação de Yang constitui substrato exigido daquele domínio a partir do rank C, conforme a divisão por verbo que a própria perícia médica declara. A exigência é portão de acesso e não bônus. Nenhum caminho desta perícia concede benefício sobre o domínio médico, porque todo portador de Yang qualificado como médico já paga as duas perícias e um benefício assim alcançaria a totalidade daquele domínio em vez de elevar alguém dentro dele.
 
-O território termina onde o ofício alheio começa. A ampliação de porte e de massa do próprio corpo pertence ao hiden do clã Akimichi. Os Oito Portões pertencem ao sistema próprio do taijutsu. A transferência de chakra de uma reserva para outra pertence ao Controle de Chakra, caminho Transferência. A leitura de presença viva e de vitalidade através de obstáculo pertence à perícia de Sensoriamento. A união de Yin e Yang, que dá forma pelo primeiro e vida pelo segundo, pertence ao Eixo do Onmyōton e fica acima do teto desta perícia, junto do poder de Yang dos Seis Caminhos e dos feitos registrados sob ele. A metade física do chakra de um bijū e o selamento dela pertencem aos documentos de bijū e de fūinjutsu. As técnicas nomeadas vivem no Compêndio de Yōton, sem exceção.
+O território termina onde o ofício alheio começa. A ampliação de porte e de massa do próprio corpo pertence ao hiden do clã Akimichi. Os Oito Portões pertencem ao sistema próprio do taijutsu. A transferência de chakra de uma reserva para outra pertence ao Controle de Chakra, caminho Transferência. A leitura de presença viva e de vitalidade através de obstáculo pertence à perícia de Sensoriamento. A amplificação do corpo erguida sobre energia colhida de fora pertence à perícia de Senjutsu, e a fronteira corre pela origem da energia: a vitalidade que esta perícia satura é a do próprio praticante, e a que o Modo Sábio soma vem do mundo. A união de Yin e Yang, que dá forma pelo primeiro e vida pelo segundo, pertence ao Eixo do Onmyōton e fica acima do teto desta perícia, junto do poder de Yang dos Seis Caminhos e dos feitos registrados sob ele. A metade física do chakra de um bijū e o selamento dela pertencem aos documentos de bijū e de fūinjutsu. As técnicas nomeadas vivem no Compêndio de Yōton, sem exceção.
 
 A fronteira final é absoluta e não admite exceção, teste ou circunstância. Quem já morreu está fora do alcance de todo caminho desta perícia.
 
@@ -254,6 +254,11 @@ DEPENDÊNCIAS E PENDÊNCIAS
 Perícia de Sensoriamento, hoje sem documento, dona da leitura de vida que a perícia recusa. Perícia Ninjutsu Médico, que consome esta como substrato a partir do rank C e cuja rederivação está na fila. Compêndio de Yōton, inexistente, que recebe todas as técnicas nomeadas desta natureza. Sistema de Efeitos de Status, que responde pelos graus de Exaustão do refluxo e pelas condições que a inclinação Pulso suspende. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas. Divergência entre o Manual de Criação de Perícias v7 seção 7 e o Núcleo de Perícias v2 seção 3.3 sobre teto de inclinações: resolvida na v7.1, que revogou o teto e passou a derivar a contagem da auditoria do domínio, conforme o Núcleo já mandava.
 
 REGISTRO DE ALTERAÇÕES
+
+v4.2
+
+• Fronteira com a perícia de Senjutsu registrada pelo lado desta perícia, correndo pela origem da energia: a vitalidade saturada aqui é a do próprio praticante, e a que o Modo Sábio soma vem do mundo
+• Nenhum valor, caminho, régua ou transcendência alterado
 
 v4
 

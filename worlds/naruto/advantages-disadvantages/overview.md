@@ -1,7 +1,7 @@
 ---
 id: naruto.advantages-disadvantages.overview
 title: "Vantagens Especiais do Mundo Shinobi"
-version: 1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: catalog
@@ -54,9 +54,11 @@ De tempos em tempos nasce um shinobi cuja reserva não obedece à aritmética do
 
 A energia natural mata quem a convida sem ter corpo para recebê-la. A esmagadora maioria dos shinobi petrifica na primeira tentativa séria, e nenhum treino prévio prediz quem sobrevive. Este corpo, por sorteio de nascença que nem os sábios explicam, aceita a mistura.
 
-**Efeitos:** Habilita o personagem a iniciar treinamento de Senjutsu quando houver acesso narrativo a um local e mestre apropriados / +5 em todos os testes contra petrificação e desequilíbrio da mistura durante o aprendizado
+**Efeitos:** O Modo Sábio erguido por este corpo é o perfeito, com a colheita correndo sozinha no ritmo integral e a assinatura da espécie limitada ao traço de rosto que some com o modo / +5 em todos os testes contra petrificação e desequilíbrio da mistura, no aprendizado e depois dele
 
-**Nota:** Vantagem de chave, não de poder: ela abre a porta e o Senjutsu inteiro vive nas suas próprias regras, em documento próprio. Sem esta vantagem, o treinamento é inviável para personagens de jogador. O preço reflete o valor do conteúdo destravado, não dos bônus listados.
+**Nota:** Vantagem de qualidade, não de porta. Ela não autoriza treinamento, não compra nível e não destrava caminho nenhum: quem não a possui treina, sobrevive e é sábio de pleno direito, no modo imperfeito que a perícia publica, com marca permanente no corpo e com a colheita dependente de parceiro fundido ou de corpo interposto. O que esta vantagem decide é qual dos dois modos o corpo ergue quando o treino termina, e é por isso que ela vale o que vale.
+
+O acesso ao treinamento não passa por aqui. Ele se cumpre em jogo, pela aceitação do chefe da espécie que ensina, pela terra viva com mestre disposto e pelo portão de Controle de Chakra, tudo declarado na perícia de Senjutsu.
 
 ---
 
