@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,14 +9,14 @@ status: final
 source-file: Compendio_Ninjutsu_de_Forma_v1.md
 ---
 
-# Compêndio de Ninjutsu de Forma · v1
+# Compêndio de Ninjutsu de Forma · v1.1
 **Técnicas que existem apenas pela Transformação de Forma**
 
 Catálogo das técnicas nomeadas que empregam a Transformação de Forma sozinha, sem converter chakra em natureza alguma. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço em pontos de experiência e a descrição da técnica.
 
 O domínio deste compêndio é a Perícia de Controle de Chakra, e não uma perícia elemental. Toda entrada aqui emprega um único componente, e é o nível dessa perícia que carrega o portão de rank delas, contra a mesma tabela universal que os domínios elementais usam. A ausência de natureza tem consequência de mesa declarada: nenhuma entrada deste compêndio recebe rider elemental, participa do ciclo de superação entre naturezas ou morde melhor contra um elemento que contra outro.
 
-**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios v2.2. Os níveis, o portão de rank, os degraus de moldagem e as réguas de desperdício, interface e permanência são da Perícia de Controle de Chakra v2. O motor compartilhado das quatro entradas, com o coeficiente técnico, o Fator de Moldagem por nível, a Assistência de Moldagem e a cadeia de derivação, é da Linhagem do Rasengan v1. A derivação do preço é da Seção 4.1.1 do Manual de Criação de Jutsus v2.6, e o custo de RC pertence à ficha individual de cada técnica.
+**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios v2.5. Os níveis, o portão de rank, os degraus de moldagem e as réguas de desperdício, interface e permanência são da Perícia de Controle de Chakra v2. O motor compartilhado das quatro entradas, com o coeficiente técnico, o Fator de Moldagem por nível, a Assistência de Moldagem e a cadeia de derivação, é da Linhagem do Rasengan v1. A derivação do preço é da Seção 4.1.1 do Manual de Criação de Jutsus v2.7, e o custo de RC pertence à ficha individual de cada técnica.
 
 ---
 

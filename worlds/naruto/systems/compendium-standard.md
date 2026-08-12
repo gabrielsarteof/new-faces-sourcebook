@@ -1,7 +1,7 @@
 ---
 id: naruto.system.compendium-standard
 title: "Norma de Produção de Compêndios"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Norma_de_Producao_de_Compendios_v2-2.md
 ---
 
-# Norma de Produção de Compêndios · v2.4
+# Norma de Produção de Compêndios · v2.5
 
 Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:1 de Naruto.
 
@@ -187,25 +187,34 @@ Uma entrada pode aparecer em mais de um bloco.
 
 `[pendente]` **Faixa alvo de acesso Livre.** O compêndio de Ninjutsu Médico se declara dentro de uma faixa e próximo do piso, o que implica uma banda declarada em algum lugar. O piso e o teto não aparecem em nenhum documento disponível.
 
-`[pendente]` **Faixa de contagem total.** Os compêndios variam de trinta e uma a quarenta e seis entradas, sem limite declarado.
+`[pendente]` **Faixa de contagem total.** Os compêndios variam de quatro a cinquenta e quatro entradas, sem limite declarado. As duas pontas são domínios de escopo estreito e de escopo largo, o Ninjutsu de Forma e o Ninjutsu Médico, e nada declara se a distância entre elas é saudável.
 
 ---
 
 ## 13. Estado de conformidade
 
-| Compêndio | Estado |
-|---|---|
-| Suiton v2 | aguarda reemissão sob esta norma |
-| Fūton v2 | fora de norma, carrega os seis blocos duplicados e não possui linha de XP |
-| Katon v4 | fora de norma, mesma condição |
-| Raiton v2 | fora de norma, mesma condição |
-| Doton Consumível | fora de norma, mesma condição |
-| Ninjutsu Médico | fora de norma, mesma condição |
-| Katon Consumível | fora de norma, superado pelo Katon v4 |
-| Oito Portões v1.1 | conforme, e o primeiro a estar |
+A conformidade que esta seção rastreia é a de forma de catálogo, que é o eixo em que esta norma rompeu com a v1: entrada no formato da seção 10 com a linha de XP, Índice Rápido da seção 11 presente, e nenhum bloco normativo reescrito dentro do artefato.
 
-Nenhum compêndio herdado está em conformidade com esta versão, e a razão é que a norma anterior obrigava exatamente o que esta proíbe. A reemissão é trabalho de errata e acontece um domínio por vez, sem que a norma precise ser reaberta a cada um.
+| Compêndio | Entradas | Estado |
+|---|---|---|
+| Katon v5 | 44 | em forma de catálogo |
+| Fūton v4 | 34 | em forma de catálogo |
+| Raiton v3.3 | 39 | em forma de catálogo |
+| Suiton v3.1 | 35 | em forma de catálogo. O bloco de Grupo de Execução é dado do domínio e não definição reescrita |
+| Ninjutsu Médico v2.1 | 54 | em forma de catálogo |
+| Genjutsu v1 | 36 | em forma de catálogo |
+| Inton v2.1 | 40 | em forma de catálogo |
+| Yōton v2 | 40 | em forma de catálogo |
+| Sensoriamento v1 | 36 | em forma de catálogo |
+| Fūinjutsu v1.1 | 42 | em forma de catálogo, e o primeiro nascido sob esta norma. As três categorias especiais são partição de domínio |
+| Oito Portões v1.1 | 17 | conforme, e o primeiro a estar sob a forma que a v2.4 fixou |
+| Ninjutsu de Forma v1.1 | 4 | em forma de catálogo, e escrito já sob esta norma |
+| Doton v2.1 | 34 | **fora de norma.** É o último a carregar blocos normativos reescritos, em Rider Elemental, Fronteira da Cópia pelo Sharingan, Contagem por Rank, Índice por Camada de Acesso, Distribuição de Moldagem e Pendências de Aprovação |
 
-O Compêndio dos Oito Portões é o primeiro escrito já sob esta norma e o primeiro em conformidade com ela. Os dois blocos que ele acrescentava e que a v2.3 registrou como pendência foram acolhidos na v2.4, com a condição que autoriza cada um, e é do caso dele que as duas permissões nascem.
+A reemissão que resta é a do Doton, e o trabalho é subtração: os seis blocos saem e as definições ficam onde já vivem, neste documento. A tabela anterior nomeava um estado que a passagem do tempo desfez, listando Fūton e Raiton em v2 e afirmando que nenhum dos dois possuía linha de XP, quando os dois foram reemitidos e a possuem, e omitia os cinco compêndios nascidos depois dela.
+
+Dois compêndios reivindicam primazia e os dois têm razão em eixos diferentes, o que a tabela anterior não distinguia. O de Fūinjutsu é o primeiro nascido sob esta norma, no estado em que ela estava na v2.2, e é essa a afirmação que a Perícia de Fūinjutsu faz ao citar esta seção. O dos Oito Portões é o primeiro em conformidade com a forma que a v2.4 fixou, porque os dois blocos que ele acrescentava e que a v2.3 registrou como pendência foram acolhidos ali, cada um sob a condição que o autoriza, e é do caso dele que as duas permissões nascem.
+
+O Compêndio de Ninjutsu de Forma é o terceiro escrito sob esta norma, e o primeiro cujo domínio pertence a uma perícia que não é uma natureza. A linha de requisitos das quatro entradas nomeia o Controle de Chakra, e a seção 10 se cumpre sem desvio, porque o eixo que governa o acesso ali é uma perícia.
 
 Ele é também o primeiro cujo domínio não tem perícia dona, e por isso a linha de requisitos das oito entradas da cadeia não traz o campo de perícia que a seção 10 fixa. No lugar dela vêm a exigência de atributo e os Blocos de maturação, que são o que aquele domínio de fato cobra, e a posse do domínio fica com o documento de sistema pela regra da seção 3. É desvio declarado e não omissão: a seção 10 pede o eixo que governa o acesso, e ali ele não é uma perícia.
