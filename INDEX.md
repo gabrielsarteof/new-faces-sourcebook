@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 107 documentos · 13 de núcleo · 94 de cenário
+**Total:** 113 documentos · 13 de núcleo · 100 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -221,6 +221,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
+| [Barreira](worlds/naruto/skills/barreira.md) | `naruto.skill.barreira` | 1 | skill | final |
 | [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 3.2 | skill | final |
 | [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.4 | skill | final |
@@ -257,6 +258,11 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 2 | technique | final |
 | [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 4 | technique | final |
+| [Execução do Deus do Trovão Voador (飛雷神斬り)](worlds/naruto/techniques/hiraishin-giri.md) | `naruto.technique.hiraishin-giri` | 1 | technique | final |
+| [Deus do Trovão Voador pela Impregnação (飛雷神の術)](worlds/naruto/techniques/hiraishin-impregnacao.md) | `naruto.technique.hiraishin-impregnacao` | 1 | technique | final |
+| [Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)](worlds/naruto/techniques/hiraishin-ni-no-dan.md) | `naruto.technique.hiraishin-ni-no-dan` | 1 | technique | final |
+| [Rotação Instantânea Mútua do Deus do Trovão Voador (飛雷神・相互瞬間回転)](worlds/naruto/techniques/hiraishin-sogo-shunkan-kaiten.md) | `naruto.technique.hiraishin-sogo-shunkan-kaiten` | 1 | technique | final |
+| [Deus do Trovão Voador (飛雷神の術)](worlds/naruto/techniques/hiraishin.md) | `naruto.technique.hiraishin` | 1 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.2 | technique | final |
 
