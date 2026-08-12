@@ -1,7 +1,7 @@
 ---
 id: naruto.system.eight-gates
 title: "Oito Portões (八門)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: system
@@ -11,7 +11,7 @@ source-file: Sistema_dos_Oito_Portoes_v1.md
 
 # Oito Portões (八門)
 
-**v1.1. Sistema próprio do eixo corporal. Consome o Manual de Criação de Jutsus v2.5, o Manual de Criação de Poderes v3.3, o Núcleo do Sistema v3, o Sistema de Efeitos de Status v2.1, a Reserva de Chakra v3 e o Manual Global de Treinamento v1.**
+**v1.2. Sistema próprio do eixo corporal, dono do domínio `oito-portoes`. Consome o Manual de Criação de Jutsus v2.6, o Manual de Criação de Poderes v3.3, o Núcleo do Sistema v3, o Sistema de Efeitos de Status v2.2, a Reserva de Chakra v3.2 e o Manual Global de Treinamento v1.**
 
 Este documento é a espinha dorsal do domínio. Ele publica o que um portão é, a régua única que todos os oito leem, o preço que o corpo paga e as fronteiras com os documentos vizinhos. As oito fichas individuais vivem no documento de técnica Hachimon Tonkō. As obras que dependem dos portões vivem no Compêndio dos Oito Portões. Nenhuma regra deste documento é reescrita nos outros dois.
 
@@ -34,6 +34,8 @@ O domínio pertence ao corpo e não à moldagem. Nenhum portão converte chakra 
 Os oito portões são oito técnicas, cada uma com ficha própria, rank próprio, custo próprio e preço em XP próprio. Cada portão exige o portão imediatamente anterior, pela camada Requisito Mecânico da Norma de Produção de Compêndios, e essa cadeia é o que produz a progressão sem que exista perícia dedicada a ela.
 
 A escada não é perícia. Perícia entrega competência larga sobre um domínio, particionada em regiões que o praticante resolve por operações distintas, e a escada dos portões é monotônica: cada degrau faz o que o anterior fazia com mais intensidade, mais um verbo novo. Uma partição em inclinações sobre essa escada produziria caminho promovido em todos os grupos, que é exatamente o sinal de inflação que o Manual de Criação de Perícias manda reprovar. Além disso, obra nomeada não mora dentro de perícia em nível algum, e os oito portões são obras nomeadas.
+
+**O domínio se chama `oito-portoes`, e o dono dele é este documento.** Em todo domínio já publicado o dono é a perícia, e o compêndio se agrupa por ela; aqui não existe perícia a que agrupar. A escolha não é deixar o domínio sem nome, porque catálogo sem domínio não agrupa e não converte, e sim declarar que um domínio pode ser propriedade de um sistema quando a competência que o exerce ainda não nasceu. Quando a perícia de corpo nascer, ela assume a posse do domínio sem que o identificador mude, do mesmo modo que a coluna de acesso passa a somar a Base Total sem invalidar ficha alguma. A Norma de Produção de Compêndios registra a espécie nova de posse na seção 3.
 
 A coluna de acesso do eixo corporal é a perícia de corpo, hoje inexistente e registrada na Fila de Nascimento do Índice de Perícias. Enquanto ela não nascer, o portão de acesso deste domínio lê atributo e tempo vivido, conforme a seção 5. Publicada a perícia de corpo, a Base Total dela soma ao portão de acesso na mesma forma que o portão de rank já usa em todo o corpus, e este documento entra em errata para receber a coluna. O acréscimo é aditivo e não invalida ficha alguma construída sob a régua atual.
 
@@ -58,7 +60,7 @@ A elevação de atributo lê a escada de graus do Manual de Criação de Poderes
 | 5 | Tomon | +50% | +50% | +50% | Supremo | A | duas faixas acima |
 | 6 | Keimon | +70% | +50% | +50% | Supremo | A | duas faixas acima, com teto de faixa Ápice |
 | 7 | Kyōmon | +70% | +70% | +70% | Forbidden | S | faixa Ápice a partir de corpo de faixa Especial |
-| 8 | Shimon | +100% | +100% | +100% | Transcendente | Kinjutsu | acima da faixa Transcendente |
+| 8 | Shimon | +100% | +100% | +100% | Transcendente | S · Kinjutsu | acima da faixa Transcendente |
 
 A coluna de faixa é leitura contra as Tabelas de Referência de Personagens e serve de calibração, não de regra. A régua de conversão em dano vive na seção 6.
 
@@ -172,6 +174,8 @@ Fator de Portão = P² × 10 × coef_obra
 **Independência das parcelas.** A parcela de conversão lê o PS gasto e a parcela de maestria lê o portão aberto. FOR, VEL e DES não entram em nenhuma das duas. A amplificação de atributo da seção 3.1 serve ao ataque básico, à iniciativa, à esquiva, à contagem de múltiplos ataques e a todo teste físico, e fica fora da fórmula das obras nomeadas. É essa separação que impede a escalada dupla, porque o portão entra no dano uma vez só, pela parcela de maestria.
 
 **Consequência declarada.** Dois praticantes no mesmo portão entregam o mesmo dano com a mesma obra, e a diferença entre eles mora no PS disponível para Esforço. A leitura é idêntica à do eixo do chakra, onde dois executores de mesma moldagem entregam o mesmo dano e se distinguem pela reserva disponível para carga.
+
+**Arredondamento.** O resultado se arredonda para o inteiro mais próximo, e só o resultado. Nenhuma parcela intermediária é arredondada, nem a conversão nem o Fator de Portão, pela mesma régua que o Fator de Cânone publica para o cálculo dele e que a Reserva de Chakra aplica à RC. A única entrada do domínio em que isso aparece é o Pavão da Manhã, cuja conversão resolve em duzentos e quarenta e nove vírgula seis e cujo total sai em novecentos e setenta.
 
 ### 6.2 Efeitos Mecânicos: coeficiente de entrega física
 
@@ -303,11 +307,15 @@ O termo Grau de Ameaça não possui dono localizável no corpus, e a auditoria d
 
 ~~O Índice de Perícias recebe a linha deste sistema no Registro de Fronteira, honrando a cedência que o Controle de Chakra e a Liberação de Yang já haviam declarado, e a Fila de Nascimento passa a registrar que a perícia de corpo herda a coluna de acesso deste documento quando nascer.~~ — **aplicada na v1.1**, no Índice de Perícias v2.7.
 
-Aberta ainda, e nascida da propagação: o Compêndio dos Oito Portões acrescenta dois blocos que a Norma de Produção de Compêndios fecha em quatro, e nenhuma entrada dele declara perícia, porque o domínio não tem perícia dona. A Norma registrou as duas divergências na v2.3 e decide na próxima versão se as acolhe.
+~~Aberta ainda, e nascida da propagação: o Compêndio dos Oito Portões acrescenta dois blocos que a Norma de Produção de Compêndios fecha em quatro, e nenhuma entrada dele declara perícia, porque o domínio não tem perícia dona.~~ — **resolvida na v1.2.** A Norma acolheu os dois blocos na v2.4, cada um sob a condição que o autoriza, e é do caso deste domínio que as duas permissões nascem. A ausência de perícia dona deixou de ser desvio e virou espécie declarada de posse, com o domínio `oito-portoes` pertencendo a este documento até a perícia de corpo nascer.
+
+Duas leituras deste documento estavam erradas contra o manual que ele consome, e as duas foram corrigidas na v1.2. O oitavo portão e o Guy Noturno declaravam Kinjutsu na posição do rank, e o Manual de Criação de Jutsus diz na seção 1.1 que a marcação Kinjutsu **sobrepõe** o rank S em vez de substituí-lo; os quatro precedentes do corpus já escreviam os dois separados, e as entradas passaram a escrever Rank S com o qualificador. E a régua de arredondamento do eixo corporal não estava publicada, o que deixava o Pavão da Manhã com um total que ninguém conseguia reproduzir sem adivinhar a regra; ela é a mesma do Fator de Cânone, arredondar só o resultado, e o valor publicado já estava certo.
 
 ---
 
 ## 12. Registro de Alterações
+
+**v1.2.** As três decisões que a v1.1 deixou abertas foram tomadas, e nenhuma por preferência: as três já tinham resposta no corpus e o que faltava era lê-la. O arredondamento do eixo corporal é o do Fator de Cânone, `round` só no resultado e nenhuma etapa intermediária arredondada, que é também o que a Reserva de Chakra e o Sistema Elemental aplicam; o valor de novecentos e setenta do Pavão da Manhã já estava correto sob essa régua e o que faltava era a régua escrita. A marcação Kinjutsu sobrepõe o rank S em vez de ser rank, pelo que o Manual de Criação de Jutsus publica na seção 1.1, e o oitavo portão e o Guy Noturno passam a declarar Rank S com o qualificador, como os quatro precedentes do corpus já faziam. E o domínio ganha identificador próprio, `oito-portoes`, com posse do documento de sistema, espécie que a Norma de Produção de Compêndios passou a admitir na v2.4 para o caso em que o domínio existe e a competência que o exerce ainda não nasceu. Nenhuma magnitude, tabela, exigência de acesso ou preço em XP mudou.
 
 **v1.1.** Passada de propagação. As quatro pendências que a v1 emitiu foram aplicadas nos documentos alvo e estão marcadas como tais na seção 11. A pendência da sigla Grau de Ameaça foi reescrita porque a auditoria contradisse a redação original: o termo não foi abolido pelo Manual de Criação de Poderes, ele nunca existiu por extenso em documento nenhum, e a régua que o substitui é a faixa das Tabelas de Referência e não a escala de graus, porque faixa gradua pessoas e escala gradua efeitos. Nenhum valor, tabela ou régua deste documento mudou.
 

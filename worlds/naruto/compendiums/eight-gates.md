@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.eight-gates
 title: "Compêndio dos Oito Portões"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: compendium
@@ -92,7 +92,7 @@ A pressão acumulada por operar acima do limite se libera, o suor evapora antes 
 
 ### Portão da Morte
 **Shimon — 死門**
-**[CANON — Kinjutsu]**
+**[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta e Fechada na Criação
 **Requisitos:** Portão do Assombro · RES somada a FOR igual a 70 · Trivial · 16 Blocos de maturação · validação narrativa do acesso
 **XP:** 50.000
@@ -189,11 +189,11 @@ O praticante comprime o ar entre os punhos até que a massa contida alcance dens
 
 ---
 
-## Kinjutsu
+## Rank S · Kinjutsu
 
 ### Guy Noturno
 **Yagai — 夜ガイ**
-**[CANON — Kinjutsu]**
+**[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta e Fechada na Criação
 **Requisitos:** Portão da Morte · Trivial · validação narrativa do acesso
 **XP:** 50.000

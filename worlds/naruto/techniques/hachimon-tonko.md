@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hachimon-tonko
 title: "Hachimon Tonkō (八門遁甲)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -10,7 +10,7 @@ source-file: Hachimon_Tonko_v1.md
 ---
 
 # Hachimon Tonkō (八門遁甲)
-Taijutsu Puro · sem natureza · Rank C a Kinjutsu
+Taijutsu Puro · sem natureza · Rank C a Rank S, com o oitavo portão marcado Kinjutsu
 
 As oito fichas da escada de portões, do Kaimon ao Shimon.
 
@@ -61,7 +61,7 @@ Portador de Sharingan não adquire portão algum pela cópia. A escada depende d
 | 5 Tomon | A | 12.800 |
 | 6 Keimon | A | 18.200 |
 | 7 Kyōmon | S | 38.000 |
-| 8 Shimon | Kinjutsu | 50.000 |
+| 8 Shimon | S · Kinjutsu | 50.000 |
 
 ---
 
@@ -275,7 +275,7 @@ O regulador abaixo do estômago contém a pressão que o corpo acumula ao operar
 ---
 
 ## Ficha 8: Shimon (死門)
-Portão da Morte · Kinjutsu · Escala Transcendente
+Portão da Morte · Rank S · Kinjutsu · Escala Transcendente
 
 O último regulador está no coração e é o que impede o órgão de trabalhar no limite mecânico dele. O Shimon o abre, o coração assume a função do regulador ausente e bombeia acima do que o tecido tolera. O sangue evapora na circulação, a pele queima e o corpo passa a irradiar o calor que não consegue dissipar.
 
