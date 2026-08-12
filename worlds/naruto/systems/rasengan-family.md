@@ -1,7 +1,7 @@
 ---
 id: naruto.system.rasengan-family
 title: "Linhagem do Rasengan"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: system
@@ -195,7 +195,7 @@ Seção 4 desta linhagem: a regra nomeia o Kage Bunshin, o caminho Simultaneidad
 
 Norma de Produção de Compêndios, Seção 6 e Seção 7: a entrada do Rasenshuriken de Vento publica acesso em Assinatura Pessoal com Autoria Aberta, e a ficha da técnica declara a camada Fechada na Criação para depois que o Rasengan tiver autor. As duas leituras valem em momentos distintos, e a composição de camada ao longo do tempo não tem regra publicada. A precedência do compêndio sobre a ficha impede que o catálogo seja ajustado por conta própria, então a regra de composição precisa nascer antes da correção.
 
-Norma de Produção de Compêndios, Seção 13: a tabela de Estado de conformidade declara o Fūton e o Raiton fora de norma por não possuírem linha de XP. Os dois carregam linha de XP e a forma da Seção 10, de modo que a tabela descreve um estado anterior à reemissão deles.
+~~Norma de Produção de Compêndios, Seção 13: a tabela de Estado de conformidade declara o Fūton e o Raiton fora de norma por não possuírem linha de XP. Os dois carregam linha de XP e a forma da Seção 10, de modo que a tabela descreve um estado anterior à reemissão deles.~~ **Aplicada na v1.1**, pela Norma v2.5. A tabela foi refeita contra os treze compêndios medidos, com versão, contagem de entradas e o estado conferido de cada um, e o Doton é o único que resta fora de norma.
 
 Manual de Requisitos de Técnica: o documento publica as seções numeradas como texto puro, sem heading markdown algum, o que torna toda citação a ele inverificável por ferramenta. A Seção 3.2 que esta linhagem cita para o degrau de moldagem existe e confere, com Absoluta em 84 e o coeficiente 3,0 pedindo esse degrau. A dívida é de sintaxe e é a mesma que o documento do Clã Senju carrega.
 
@@ -219,4 +219,4 @@ Respeite a cadeia de derivação da Seção 5. Ficha que pule um degrau da cadei
 
 ---
 
-*Linhagem do Rasengan v1. Um eixo por variação, coeficiente técnico 3,0 em toda a família, degrau Absoluto como portão único de moldagem, assistência declarada em vez de talento presumido, e a cadeia de derivação fechada sobre uma autoria que ainda não existe no mundo.*
+*Linhagem do Rasengan v1.1. Um eixo por variação, coeficiente técnico 3,0 em toda a família, degrau Absoluto como portão único de moldagem, assistência declarada em vez de talento presumido, e a cadeia de derivação fechada sobre uma autoria que ainda não existe no mundo.*
