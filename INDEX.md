@@ -135,7 +135,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Senju — O Clã de Mil Habilidades](worlds/naruto/clans/senju.md) | `naruto.clan.senju` | 1 | clan | final |
 | [Mangekyō Sharingan](worlds/naruto/clans/uchiha-mangekyo-sharingan.md) | `naruto.lineage.mangekyo-sharingan` | 1 | lineage | final |
 | [Sharingan](worlds/naruto/clans/uchiha-sharingan.md) | `naruto.lineage.sharingan` | 2 | lineage | final |
-| [Uchiha — O Olho que Reflete Sentimentos](worlds/naruto/clans/uchiha.md) | `naruto.clan.uchiha` | 1 | clan | final |
+| [Uchiha — O Olho que Reflete Sentimentos](worlds/naruto/clans/uchiha.md) | `naruto.clan.uchiha` | 2 | clan | final |
 | [Uzumaki — A Estirpe da Longevidade](worlds/naruto/clans/uzumaki.md) | `naruto.clan.uzumaki` | 1.1 | clan | final |
 | [Clã Yamanaka](worlds/naruto/clans/yamanaka.md) | `naruto.clan.yamanaka` | 1 | clan | final |
 
