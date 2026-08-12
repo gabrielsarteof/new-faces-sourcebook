@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chakra-reserve
 title: "Reserva de Chakra"
-version: 3.1
+version: 3.2
 layer: scenario
 scenario: naruto
 type: system
@@ -164,11 +164,12 @@ Shinobis sem clã consolidado usam x1.
 O corpo não consegue canalizar o volume total da RC de uma vez. Esse cap de output
 simultâneo é o Limite de Saída (LS).
 
-Em condições normais o LS equivale a 20% da RC por turno. Os 361 tenketsu e as Oito
-Portas regulam esse fluxo, impedindo que o sistema circulatório de chakra colapse.
+Em condições normais o LS equivale a 20% da RC por turno. Os 361 tenketsu e os Oito
+Portões regulam esse fluxo, impedindo que o sistema circulatório de chakra colapse.
 
-As Oito Portas elevam progressivamente o LS quando abertas, com custo físico
-correspondente. Regras detalhadas em documento separado.
+Os Oito Portões elevam progressivamente o LS quando abertos, com custo físico
+correspondente, e o oitavo o revoga por inteiro enquanto durar. A tabela de teto por
+portão e o preço de cada degrau pertencem ao Sistema dos Oito Portões.
 
 A Vontade pode autorizar ultrapassar o LS em momentos de desespero extremo.
 
@@ -211,7 +212,7 @@ desta página. Regras detalhadas na perícia de Senjutsu.
 - **PV alto:** eleva a RC diretamente. Clãs com força vital excepcional acumulam
   vantagem dupla: PV maior e multiplicador de linhagem alto.
 - **XP de Ficha elevado:** aumenta a RC com retorno decrescente ao longo da campanha.
-- **Oito Portas:** elevam o LS sem alterar a RC total.
+- **Oito Portões:** elevam o LS sem alterar a RC total, e no oitavo o revogam.
 - **Modo Sábio:** desacelera o consumo ao adicionar energia natural ao mix, pagando em
   REN o que sairia daqui. A perícia de Senjutsu publica o teto, a taxa de colheita e o
   dreno de sustentação, e exige 800 de RC como requisito de ficha para o acesso.

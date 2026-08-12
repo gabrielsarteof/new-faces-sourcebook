@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.chakra-control
 title: "Controle de Chakra"
-version: 3.2
+version: 3.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Controle_de_Chakra_v2_2.md
 ---
 
-CONTROLE DE CHAKRA (チャクラコントロール) — v3.2
+CONTROLE DE CHAKRA (チャクラコントロール) — v3.3
 
 Atributo: SAB
 Categoria: Chakra (×1,4)
@@ -32,7 +32,7 @@ Que forma o chakra assume e por quanto tempo se sustenta. Em que medida ele se a
 
 LISTA DE RECUSA
 
-Absorver, drenar ou roubar chakra alheio pertence aos portadores nomeados, o Rinnegan, a linhagem Uzumaki, as armas vivas e os selos de dreno do Fūinjutsu. Erguer barreira pertence ao Fūinjutsu. Colher energia natural pertence ao Senjutsu. Manejar chakra de bijū pertence ao documento de jinchūriki. Intervir no circuito de outro corpo pertence ao Jūken e ao Desarranjo do Ninjutsu Médico. Elevar alcance e escopo da técnica pertence à perícia de elemento, que recebe daqui apenas a coluna de requisitos de caminho. Trocar a natureza da técnica pertence ao Sistema Elemental, dono também da penalidade de conversão fora de afinidade. Criar variante e acelerar aprendizado pertencem ao Manual de Desenvolvimento de Técnicas e às vantagens de clã, e improvisar variação não registrada em combate pertence ao Manual de Variações e Elevações Categóricas, que lê daqui o teste e declara lá a dificuldade. Perceber chakra alheio pertence à perícia de Sensoriamento, ficando aqui apenas o lado oposto, esconder-se dele. Projetar presença falsa pertence à inclinação Vulto da Liberação de Yin. Amplificar o corpo por saturação vital sustentada pertence à Liberação de Yang, decisão de sistema declarada, com o baseline sobre-humano e a concentração pontual vivendo aqui. Comandar marionete pertence à perícia de marionetista. As Oito Portas são sistema próprio. Resistir às penalidades de Exaustão pertence ao Sistema de Efeitos de Status, ficando aqui a integridade da moldagem sob exaustão. O crescimento da reserva pertence a Reserva de Chakra. As técnicas nomeadas vivem nos compêndios.
+Absorver, drenar ou roubar chakra alheio pertence aos portadores nomeados, o Rinnegan, a linhagem Uzumaki, as armas vivas e os selos de dreno do Fūinjutsu. Erguer barreira pertence ao Fūinjutsu. Colher energia natural pertence ao Senjutsu. Manejar chakra de bijū pertence ao documento de jinchūriki. Intervir no circuito de outro corpo pertence ao Jūken e ao Desarranjo do Ninjutsu Médico. Elevar alcance e escopo da técnica pertence à perícia de elemento, que recebe daqui apenas a coluna de requisitos de caminho. Trocar a natureza da técnica pertence ao Sistema Elemental, dono também da penalidade de conversão fora de afinidade. Criar variante e acelerar aprendizado pertencem ao Manual de Desenvolvimento de Técnicas e às vantagens de clã, e improvisar variação não registrada em combate pertence ao Manual de Variações e Elevações Categóricas, que lê daqui o teste e declara lá a dificuldade. Perceber chakra alheio pertence à perícia de Sensoriamento, ficando aqui apenas o lado oposto, esconder-se dele. Projetar presença falsa pertence à inclinação Vulto da Liberação de Yin. Amplificar o corpo por saturação vital sustentada pertence à Liberação de Yang, decisão de sistema declarada, com o baseline sobre-humano e a concentração pontual vivendo aqui. Comandar marionete pertence à perícia de marionetista. Os Oito Portões são sistema próprio, e o documento deles existe. Resistir às penalidades de Exaustão pertence ao Sistema de Efeitos de Status, ficando aqui a integridade da moldagem sob exaustão. O crescimento da reserva pertence a Reserva de Chakra. As técnicas nomeadas vivem nos compêndios.
 
 Escalada, caminhada sobre a água, supressão e doação permanecem aqui pelo precedente dos marcos de perícia, competências com artigo próprio no cenário que não são jutsu adquirível.
 
@@ -105,7 +105,7 @@ INCLINAÇÃO CONDUÇÃO
 EMISSÃO (grau 2, complexidade 4) — 34
 Expelir chakra pelos tenketsu e conduzi-lo para fora do corpo através de um meio, de forma sustentada. Requisito consumível dos documentos de clã que exigem emissão, o Jūken à frente.
 └─ Ponto de Emissão [passivo]: declara qualquer ponto do próprio corpo como origem da técnica, no lugar das mãos. Agarre e imobilização de braços não impedem a emissão, ainda que impeçam selos. LV5: pontos múltiplos simultâneos, incluindo a superfície inteira do corpo
-└─ Vazão Ampliada [passivo]: Limite de Saída = RC × (20% + 5% × √(teste de Condução ÷ 205)), teto 25% da RC, abaixo do primeiro degrau das Oito Portas
+└─ Vazão Ampliada [passivo]: Limite de Saída = RC × (20% + 5% × √(teste de Condução ÷ 205)), teto 25% da RC, que é o patamar do segundo portão alcançado sem abrir nenhum e sem o custo corporal que a escada cobra
 
 IMPREGNAÇÃO (grau 3, complexidade 4) — 38
 Converter objeto em extensão do próprio circuito, sustentando chakra dentro da matéria alheia. O Chakura Nagashi, requisito consumível dos compêndios de arma e do Chakra no Ito.
