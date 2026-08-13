@@ -187,7 +187,7 @@ NOTA: o grau mede amplitude e determina o valor da especialização. A complexid
 
 NÍVEL 6: TRANSCENDÊNCIAS
 
-FUTSUNUSHI (elevação de escopo · Linha)
+AME-NO-WAKAHIKO (elevação de escopo · Linha)
 Revoga: um projétil arremessado deixa de ser controlável depois de sair da mão.
 └─ [passivo] O kunai arremessado por este praticante permanece sob controle pleno de trajetória enquanto estiver em voo, mesmo sem fio guiando-o, respondendo a ajustes declarados a cada momento do trajeto até o impacto ou o retorno à mão. A Trajetória deixa de exigir o fio de Linha para funcionar
 └─ Trajetória LV6: o ajuste de direção corre a cada segmento do voo, e não apenas uma vez por arremesso, contornando mais de um obstáculo interposto na mesma trajetória
@@ -207,7 +207,7 @@ ARQUÉTIPOS DE ÁPICE
 
 O que mata sem que ninguém ouça constrói Kuraokami sobre Ponto Vital. Ele entra numa sala cheia e sai antes de o corpo cair, porque o golpe não produz som e o alvo não produz reação. É a figura do assassino de infiltração, o nome que a vila nega ter mandado.
 
-O que controla a lâmina no ar constrói Futsunushi sobre Linha. O kunai dele não obedece a física comum depois de sair da mão, contorna, retorna, ajusta rota sem fio. É a figura do duelista à distância que nunca perde o próprio golpe de vista, e o motivo pelo qual companheiros de equipe confiam em arremessos que passam perto demais.
+O que controla a lâmina no ar constrói Ame-no-Wakahiko sobre Linha. O kunai dele não obedece a física comum depois de sair da mão, contorna, retorna, ajusta rota sem fio. É a figura do duelista à distância que nunca perde o próprio golpe de vista, e o motivo pelo qual companheiros de equipe confiam em arremessos que passam perto demais.
 
 O que chega cortando constrói sobre Transição e Cravar sem transcendência dedicada. Ele fecha a distância pela marca, entrega o golpe no mesmo instante da chegada e finca a próxima âncora antes de o inimigo entender que ele chegou. É a figura do executor da linhagem do Hiraishin, o motivo pelo qual essa técnica precisava desta perícia para existir.
 
