@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4
+version: 4.1
 layer: scenario
 scenario: naruto
 type: compendium
@@ -112,6 +112,8 @@ O usuário comprime diante de si uma parede momentânea de ar denso no instante 
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.120
 
 O usuário expele pela boca um vendaval frontal de grande escala, que varre tudo diante de si numa única onda de pressão. A potência cresce dramaticamente com a habilidade do executor, e o registro de databook compara a execução de um mestre a um furacão, com árvores arrancadas pela raiz e um campo inteiro achatado num sopro. Combatentes são arremessados, projéteis voltam contra quem os lançou e formações se desmancham sob a frente de ar. A Daitoppa é o padrão canônico da família de pressão e a régua pela qual a força bruta do vento é medida entre os cinco elementos.
@@ -178,6 +180,8 @@ O usuário canaliza chakra de vento por uma lâmina ou arma empunhada, estendend
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 1.775
 
 O usuário expele pela boca um jato de vento saturado de partículas abrasivas, que avança como uma frente de tempestade de areia em miniatura. A nuvem lixa superfícies, morde a pele exposta e força os olhos do alvo a se fechar, cegando a linha frontal inteira pelo tempo da passagem. O ofuscamento é efeito próprio da entrada, com área e duração declaradas, e não se soma ao rider. A técnica expressa o princípio canônico de que o vento lança partículas ao ar, e é a versão portátil da tempestade perfurante que o elemento ergue em escala de campo nos ranks superiores.
@@ -189,6 +193,8 @@ O usuário expele pela boca um jato de vento saturado de partículas abrasivas, 
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 1.775
 
 O usuário produz uma frente de vento larga e curta que atravessa o campo limpando o ar por onde passa. Névoa, fumaça, cinza, pólen e gás suspenso são varridos por completo da área alcançada, incluindo os que foram instalados por técnica alheia, e o registro canônico documenta a dissipação de uma cortina de névoa erguida por um mestre daquele ofício. A técnica não fere e não empurra o bastante para derrubar, e existe pela função que nenhuma outra cumpre, devolver visibilidade a um campo que o inimigo tinha fechado. O nome é idiomático e evoca o céu limpo que sucede a passagem da tempestade.
@@ -204,6 +210,8 @@ O usuário produz uma frente de vento larga e curta que atravessa o campo limpan
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV4 · Moldagem Alta · Caminho Rajada · leque de guerra empunhado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 6.200
 
 O usuário desfere o golpe pleno do leque gigante e ergue a Foice de Doninha à escala de área, com a frente de vácuos cortantes avançando e devastando tudo dentro do arco. O registro documenta uma floresta nivelada e uma posição fortificada desfeita num único golpe. A violência do vendaval dissipa até genjutsu sonoro, rasgando o meio pelo qual o som viaja, e essa dissipação lê o canal de entrega declarado na ficha da obra atingida, desfazendo obra instalada por canal sonoro conforme a classe de quebra registrada ali e não alcançando obra instalada por canal ocular ou tátil. A técnica figura entre os poucos ataques de arsenal comum que sustentaram embate direto contra uma armadura espiritual completa. A entrada declara elevação de rider por borda.
@@ -215,6 +223,8 @@ O usuário desfere o golpe pleno do leque gigante e ergue a Foice de Doninha à 
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 4.625
 
 O usuário inspira fundo e, girando o tronco, expele uma lâmina de vácuo em meia-lua que varre o arco frontal inteiro na altura escolhida. O corte contínuo atravessa múltiplos alvos numa única passagem, e a natureza rarefeita da lâmina a torna quase invisível até o instante do contato. O registro traz a meia-lua abatendo um esquadrão completo num gesto e repelindo o avanço de uma armadura espiritual. A Shinkūha abre a família de vácuo do elemento, o refinamento no qual o vento corta pela ausência que carrega dentro de si, e é a base da qual a especialização parte. A entrada declara elevação de rider por borda.
@@ -237,6 +247,8 @@ O usuário expele lâminas de vácuo em sequência rápida e em ângulos sobrepo
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.300
 
 O usuário inspira e cospe uma dispersão de pequenas esferas de vácuo comprimido, que voam como balas em leque e perfuram o que atingem. A dispersão cobre uma zona ampla à frente, dificultando a esquiva completa mesmo para alvos rápidos, e cada esfera individual carrega perfuração suficiente para atravessar carne e ferir fundo. A moldagem exige repartir o mesmo fôlego em muitas cargas iguais sem que nenhuma perca coesão, o que põe a técnica acima do próprio rank em exigência de controle. A Shinkūgyoku é a metralha da família de vácuo, a saturação que troca o corte limpo pela cobertura. A entrada declara elevação de rider por borda.
@@ -270,6 +282,8 @@ O usuário arremessa as próprias lâminas e assume o controle delas em pleno vo
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem Alta · Caminho Barlavento
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 6.200
 
 O usuário ergue ao próprio redor uma cúpula de vendaval circular em rotação contínua, que repele projéteis, rajadas e investidas por todos os ângulos ao mesmo tempo. A parede de ar arranca armas de trajetória, arremessa de volta o que é leve e desvia o que é pesado, protegendo também os aliados abrigados dentro do círculo. A manutenção consome chakra de forma contínua e a cúpula cede a técnicas de volume esmagador, que atravessam a rotação por pura massa. A técnica é a defesa de área do elemento e a elevação categórica do Escudo de Rajada, com a sustentação prolongada respondendo pela exigência de controle.
@@ -281,6 +295,8 @@ O usuário ergue ao próprio redor uma cúpula de vendaval circular em rotação
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV4 · Moldagem Alta · Caminho Rajada
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 7.325
 
 O usuário tece a Rede de Arremesso à escala de guerra, numa malha de fios de vento cortante ampla o bastante para envolver criaturas colossais e formações inteiras, lançada em colaboração ou por um único executor de reserva excepcional. A trama fecha sobre o que envolve, retalhando pela superfície completa do contato, e o peso do vendaval na malha prende ao chão o que capturou. O registro canônico pertence às forças do deserto diante do inimigo de maior porte já enfrentado em campo aberto, com a rede executada sob amplificação de chakra externo. A técnica é a elevação categórica da Kakeami de alvo para grupo. A entrada declara elevação de rider por borda.
@@ -307,6 +323,8 @@ O usuário traça pelo ar uma corrente firme entre dois pontos escolhidos e a ma
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV5 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 11.000
 
 O usuário comprime ar e chakra numa esfera densa e a dispara pela boca, com o projétil detonando no impacto numa explosão de pressão que arrasa o entorno. A escala registrada no cânone é a de bijū, com balas sucessivas nivelando uma floresta e medindo forças de igual para igual com artilharia de água de porte equivalente, e essa versão pertence ao documento de Bijū. A execução humana entrega esferas menores de mesma arquitetura, mantendo a detonação de pressão como assinatura. O Renkūdan é o único rank A de databook do elemento e o teto canônico da família de pressão em golpe único.
@@ -318,6 +336,8 @@ O usuário comprime ar e chakra numa esfera densa e a dispara pela boca, com o p
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV5 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 12.800
 
 O usuário retém uma massa de vento comprimido e a libera de uma vez, e a frente de pressão se expande sobre uma área ampla esmagando estruturas, terreno e formações numa única onda. A técnica dispensa o corte e vence pelo peso puro do ar, a expressão máxima da família de pressão em área. O registro inclui a aplicação cooperativa que define o segundo papel da técnica, com a massa de vento liberada junto a uma técnica de Katon alimentando as chamas numa tempestade de fogo que exigiu dois comandantes de campo para conter.
@@ -366,6 +386,8 @@ O usuário inspira ao limite e comprime o fôlego inteiro numa única esfera de 
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Fūton LV6 · Moldagem Básica · Caminho Vento de Areia
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 38.000
 
 O usuário expele um vendaval de escala colossal saturado de areia e partículas abrasivas, uma frente de tempestade que avança lixando tudo por quilômetros de largura. A pressão arrasa como a Grande Ruptura arrasa, e a poeira infinita converte o próprio ar em lixa, desbastando carne exposta, madeira e pedra na passagem, enquanto olhos e gargantas falham dentro da nuvem. A execução registrada pertence à escala de bijū e une os dois princípios declarados do elemento, a compressão e o transporte de partículas, num único cataclismo. A moldagem é a mais simples do rank, porque nada aqui pede proporção fina, e o que a técnica exige é volume de reserva que quase nenhum corpo humano carrega, condição que fecha a entrada na criação de personagem.
@@ -377,6 +399,8 @@ O usuário expele um vendaval de escala colossal saturado de areia e partículas
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Fūton LV6 · Moldagem Absoluta · Transcendência Calmaria
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 45.500
 
 O usuário esvazia de ar uma zona ampla do campo, elevando a família de vácuo de golpe para domínio. Dentro da zona, combatentes sufocam sem que golpe algum os toque, todo fogo se apaga por falta do que queimar, o som deixa de viajar e técnicas que dependem do próprio ar perdem o meio em que existem. O usuário dita a posição e a duração do vazio, respirando do ar que guardou, e o oponente escolhe entre abandonar a zona ou perder a consciência dentro dela. A asfixia é efeito próprio da entrada e não se soma ao rider. O Vácuo Absoluto é o domínio onde o vento vence pela ausência, o verbo cortante do elemento levado à conclusão de que a lâmina sempre foi o nada.
@@ -388,6 +412,8 @@ O usuário esvazia de ar uma zona ampla do campo, elevando a família de vácuo 
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV6 · Moldagem Alta · Caminho Lufada
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 38.000
 
 O usuário ergue sobre o campo inteiro um vendaval contínuo de escala de tempestade, soprando numa direção escolhida e mantida. Florestas dobram e arrancam, projéteis de qualquer porte abandonam a trajetória, voo adversário se torna impossível e todo combatente luta ancorado ao chão ou é levado pela frente de ar, enquanto o usuário e os aliados avisados operam a favor do vento. A técnica converte a atmosfera do combate numa condição imposta, o clima como arma, e encerra a família de pressão no seu limite lógico, o vendaval que deixa de ser golpe e passa a ser o mundo onde a luta acontece.

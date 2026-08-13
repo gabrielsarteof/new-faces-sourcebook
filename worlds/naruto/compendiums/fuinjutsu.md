@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -92,6 +92,8 @@ O limite é a nomeação. A lista de sacadores é fixada na inscrição, e acres
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV2 · Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 600
 
 O praticante abre um pergaminho armado e libera de uma vez o conteúdo inteiro dele, convertendo armamento guardado em chuva de projéteis. O pergaminho se desenrola no ar em torno do corpo do executor, as armas saem em volume e trajetória declarados, e o que era logística vira ataque de área na mesma ação.
@@ -105,6 +107,8 @@ O limite é o gasto. O pergaminho esvazia por completo, e recarregá-lo é traba
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV2 · Básica · Caminho Armadilha
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 880
 
 O praticante distribui etiquetas de selamento por uma área preparada e as mantém inertes até que um selo de mão as desperte todas ao mesmo tempo. As fórmulas se erguem do chão, das paredes e dos troncos em que foram fixadas, convergem sobre quem estiver dentro do perímetro e o prendem no lugar, deixando os aliados livres para atacar um alvo que parou de se mover.
@@ -118,6 +122,8 @@ O limite é o terreno. A formação existe onde foi montada, e um adversário qu
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV2 · Básica · Caminho Fórmula
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 720
 
 O praticante libera de uma vez um volume de folhas seladas e as espalha em suspensão pelo ar, produzindo uma cortina de papel que enche o espaço entre ele e o adversário. As folhas cortam pouco e obstruem muito, e cada uma delas pode ou não carregar uma fórmula, o que obriga quem estiver do outro lado a tratar todas como se carregassem.
@@ -131,6 +137,8 @@ O limite é o vento. Uma corrente de ar moderada dispersa a nevasca em um turno,
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV2 · Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 720
 
 Quatro fórmulas fixadas nos cantos de um cômodo fecham o que sai dele. O som morre na parede, o calor do chakra deixa de vazar para fora do batente e a leitura sensorial de quem estiver do lado de fora encontra um espaço vazio no lugar da sala. A conversa que acontece ali dentro existe apenas para quem está ali dentro.
@@ -200,6 +208,8 @@ O limite é a janela. A fórmula precisa alcançar o resto do selo antes que ele
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV3 · Plena · Caminho Armadilha
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.120
 
 A técnica guardada dentro do selo passa a sair em parcelas. O inscritor declara na fórmula quantos disparos e com que intervalo, e a carga que antes se esgotava em um único golpe se distribui ao longo de turnos, obrigando o adversário a permanecer no perímetro ou a sair dele sob fogo.
@@ -377,6 +387,8 @@ O limite é a vontade alheia. A supressão vale enquanto o portador quiser que v
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Cerceamento
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 12.800
 
 A fórmula é desenhada no solo ou na parede antes do combate e fecha todos os tenketsu de quem estiver dentro dos limites dela. O efeito atinge o espaço e não o corpo, e por isso alcança quantos alvos couberem na área traçada, cortando o fluxo de chakra de um esquadrão inteiro com uma única inscrição.
@@ -403,6 +415,8 @@ O limite é a paridade exposta. Quatro é par, e a fórmula que se anuncia par c
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Coerção
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 15.200
 
 O praticante grava a fórmula no próprio peito e a configura para disparar com a morte dele. No instante em que o coração para, quatro símbolos emergem do cadáver, fecham uma esfera negra sobre a área em volta e selam para dentro do corpo tudo o que estiver dentro dela, incluindo quem acabou de matá-lo.
@@ -498,6 +512,8 @@ O limite é o receptáculo. A técnica existe apenas onde a estátua estiver, e 
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Hashirama Senju) · Registrada
 **Requisitos:** Fūinjutsu LV6 · Absoluta · Caminho Cárcere · Senjutsu LV1
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 45.500
 
 O praticante em Modo Eremita faz descer do alto portais vermelhos de dimensão colossal, que caem sobre o alvo e o prendem entre a trave e o solo. A fórmula é o próprio portal, e o peso dela é suficiente para conter entidades que nenhuma corrente, nenhuma prisão e nenhum receptáculo deste catálogo seguraria.

@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.3
+version: 2.4
 layer: core
 type: system
 status: final
@@ -207,7 +207,7 @@ Grau Crítico: redução de 70% em VEL. O personagem mal consegue se deslocar. M
 
 O personagem está fisicamente preso por restrição externa. A causa é mecânica e externa ao corpo: a mente funciona, técnicas sem componente físico funcionam, e o corpo permanece onde está. Quebrar a restrição pela força é o caminho central de saída.
 
-Fonte: restrição física externa, correntes, raízes, técnicas de ancoragem.
+Fonte: restrição física externa, correntes, raízes, técnicas de ancoragem. A manobra Agarrar do Núcleo de Combate é uma via de aplicação declarada.
 Atributos testados: FOR + RES
 Alvo do teste: (FOR + RES) x (1 - RC nominal da técnica / RC máxima do atacante)
 
@@ -281,7 +281,7 @@ Notas: recuperação automática no turno seguinte.
 
 O personagem está no chão. A posição muda o que está disponível e como os outros interagem com ele. A redução em FOR e DES reflete que agir do chão é mecanicamente desvantajoso. Ataques físicos próximos ficam mais fáceis de acertar. Ataques à distância ficam mais difíceis porque o alvo é menor e mais baixo.
 
-Fonte: derrubada física, explosão, falha de equilíbrio, técnica específica.
+Fonte: derrubada física, explosão, falha de equilíbrio, técnica específica. A manobra Derrubar do Núcleo de Combate é uma via de aplicação declarada.
 Atributos testados: VEL + DES
 Alvo do teste físico: (VEL + DES) x (1 - dano / PV máximo da vítima)
 Alvo do teste para técnica: teste oposto.
@@ -294,6 +294,17 @@ Grau Moderado: desequilibrado, mal apoiado. Redução de 30% em FOR e DES. Bônu
 Grau Grave: completamente prostrado. Redução de 50% em FOR e DES. Bônus de 30% para próximos, penalidade de 30% para distantes. Levantar custa ação completa.
 
 Grau Crítico: incapaz de levantar sozinho pela força do efeito. Redução de 70% em FOR e DES. Bônus de 40% para próximos, penalidade de 40% para distantes. Levantar exige auxílio externo ou condição específica.
+
+
+### Quebra de Guarda
+
+A estrutura montada que sustentava o corpo cedeu de uma vez. O que a Guarda existe para deter chega inteiro enquanto ela não se remonta, e a saída depende de gastar tempo reconstruindo o alinhamento em vez de esperar a recarga sozinha resolver.
+
+Fonte: automática. O Impacto de um golpe supera a Guarda restante do alvo, publicado pelo Núcleo de Combate.
+
+Grau Único: a Guarda vai a zero e não recarrega. O Bloqueio deixa de estar disponível. O Limiar de Esquiva do quebrado é multiplicado por 0,8. Dura até o fim do turno seguinte de quem quebrou a Guarda.
+
+Notas: sem escala de margem, porque o gatilho é binário, a Guarda quebra ou não quebra, na mesma leitura que a Paralisia Total restringe a própria faixa de grau por definição. Gastar a Ação Completa e o Esforço de um Bloqueio encerra o estado no ato e devolve a recarga normal.
 
 
 ### Fratura
@@ -320,19 +331,19 @@ Notas: Leve e Moderado removem com tratamento simples mais descanso longo. Grave
 
 ### Exaustão Física
 
-O corpo chegou ao limite do esforço sustentável. A Exaustão corre fora dos motores de Ferimento e de Dano: ela é acúmulo do que foi exigido sem recuperação adequada. Os atributos afetados são especificamente os que o PS alimenta: força explosiva, velocidade e coordenação motora fina.
+O corpo chegou ao limite do esforço sustentável. A Exaustão corre fora dos motores de Ferimento e de Dano: ela é acúmulo do que foi exigido sem recuperação adequada. A régua de cada grau pertence ao Núcleo de Combate, dono da economia de PS que a deriva, e é publicada aqui porque toda condição de status mora no mesmo catálogo.
 
-Fonte: automática, derivada de PS perdido. Sem teste de aplicação. Cada nível substitui o anterior.
+Fonte: automática, derivada de PS perdido. Sem teste de aplicação. Cada grau substitui o anterior.
 
-PS entre 50% e 74%: Grau Leve. Redução de 15% em FOR, VEL e DES.
+PS entre 50% e 74%: Grau Leve. A Guarda recarrega 40% por rodada, sem redução na Potência, no Limiar de Esquiva, na Cadência ou no deslocamento.
 
-PS entre 25% e 49%: Grau Moderado. Redução de 30% em FOR, VEL e DES.
+PS entre 25% e 49%: Grau Moderado. A Guarda recarrega 30% por rodada. Redução de 10% na Potência. O Limiar de Esquiva é multiplicado por 0,9. O deslocamento é reduzido em 10%. A Cadência permanece cheia.
 
-PS entre 1% e 24%: Grau Grave. Redução de 50% em FOR, VEL e DES.
+PS entre 1% e 24%: Grau Grave. A Guarda recarrega 20% por rodada. Redução de 20% na Potência. O Limiar de Esquiva é multiplicado por 0,8. A Cadência perde um degrau. O deslocamento é reduzido em 25%.
 
-PS a 0%: Grau Crítico. Redução de 70% em FOR, VEL e DES. Qualquer ação física complexa exige teste de RES vs 50 ou falha.
+PS a 0%: Grau Crítico. A Guarda recarrega 10% por rodada. Redução de 30% na Potência. O Limiar de Esquiva é multiplicado por 0,7. A Cadência não concede degrau algum. O deslocamento é reduzido em 50%. O Esforço devido sai do PV, e qualquer ação física complexa exige teste de RES vs 50 ou falha.
 
-Notas: descanso curto restaura ao máximo Grau Leve. Descanso longo zera completamente.
+Notas: a Absorção não degrada em grau nenhum, e o Fôlego e o Limiar do Núcleo de Combate leem RES, que nenhum grau desta condição reduz. Descanso curto restaura ao máximo Grau Leve. Descanso longo zera completamente.
 
 
 ## FAMÍLIA III · SENTIDOS

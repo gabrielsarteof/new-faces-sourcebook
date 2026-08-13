@@ -1,7 +1,7 @@
 ---
 id: naruto.system.compendium-standard
 title: "Norma de Produção de Compêndios"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,9 +9,11 @@ status: final
 source-file: Norma_de_Producao_de_Compendios_v2-2.md
 ---
 
-# Norma de Produção de Compêndios · v2.5
+# Norma de Produção de Compêndios · v2.6
 
 Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:1 de Naruto.
+
+**O que mudou na v2.6.** O Núcleo de Combate publicou a resolução de área e campo pelo centro escolhido, e a Seção 10 ganhou os dois campos que faltavam para uma entrada de área ou campo declarar até onde o executor projeta esse centro, Banda Mínima e Banda Máxima. As entradas de categoria Alvo não ganham os dois campos, porque o alcance delas já morava na prosa das Restrições e continua lá.
 
 **O que mudou em relação à v1.** A versão anterior mandava todo compêndio reescrever seis blocos normativos idênticos. As definições viviam aqui e viviam de novo dentro de cada artefato, e alterar uma delas exigia reabrir todos os compêndios existentes. Nesta versão as definições vivem apenas neste documento, e o compêndio passa a ser catálogo puro. Acrescentar um domínio novo deixa de reabrir qualquer documento anterior.
 
@@ -154,6 +156,8 @@ Entrada cuja execução exige volume de reserva que nenhum corpo humano carrega 
 **[ETIQUETA — Rank X]**
 **Acesso:** Camada
 **Requisitos:** Perícia LV · Moldagem · Caminho
+**Banda Mínima:** Banda
+**Banda Máxima:** Banda
 **XP:** N
 
 Corpo em prosa.
@@ -162,6 +166,8 @@ Corpo em prosa.
 **Acesso.** Nome da camada, com a vila entre parênteses quando for Patrimônio de Vila e o estado de autoria quando for Assinatura Pessoal. Sem definição ao lado.
 
 **Requisitos.** Nível da perícia do domínio, degrau de moldagem e caminho, nesta ordem. O caminho aparece apenas quando a técnica reproduz o verbo mecânico de uma especialização, e a perícia dona vem entre parênteses quando não for a do domínio. Requisitos de outra natureza, como técnica prévia ou insumo, entram nesta mesma linha. O número do portão de rank não é reproduzido, porque é função do nível e já está publicado na perícia.
+
+**Banda Mínima e Banda Máxima.** Presentes apenas em entrada de categoria Área ou Campo, na escada de bandas do Núcleo de Combate, Engajado, Curta, Média, Longa ou Extrema. Declaram até onde o executor projeta o centro da obra, medido do próprio corpo, e não o alcance da área ou do campo em si, que a escada da Seção 11 daquele documento já fixa a partir do centro escolhido. Ausentes em toda entrada de categoria Alvo, onde o alcance mora na prosa das Restrições como sempre morou.
 
 **XP.** Somente o número. A escala que o produz e as faixas por rank pertencem ao Manual de Criação de Jutsus, e a derivação não é reescrita aqui nem na entrada.
 

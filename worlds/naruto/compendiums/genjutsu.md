@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.genjutsu
 title: "Compêndio de Genjutsu (幻術)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: compendium
@@ -215,6 +215,8 @@ A audição do alvo se apaga por completo enquanto a obra estiver de pé. Ele pe
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Genjutsu LV3 · Moldagem dispensada · Caminho dispensado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.141
 **Obra:** ocular · aceita auto-liberação · 220 RC
 
@@ -333,6 +335,8 @@ A obra foi construída para dar ao alvo a impressão de estar diante da Liberaç
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Otogakure)
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Brecha
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.686
 **Obra:** sonoro · exige rompimento externo · 520 RC
 
@@ -375,6 +379,8 @@ Nada dentro dela é estranho, porque tudo dentro dela pertence a quem está pres
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Cenário · Caminho Brecha
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 6.971
 **Obra:** sonoro · exige rompimento externo · 620 RC
 
@@ -421,6 +427,8 @@ A técnica pertence à fundação da vila e o registro do Tō no Sho a nomeia se
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Genjutsu LV5 · Moldagem dispensada · Caminho Brecha aprofundado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 13.250
 **Obra:** ocular · exige rompimento externo · 1.050 RC
 
@@ -485,6 +493,8 @@ A distância para o Fio Conduzido continua sendo a mesma da entrada anterior. O 
 **[ATRIBUÍDO · nome proposto — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Genjutsu LV6 · Moldagem dispensada · Caminho Cenário aprofundado · Caminho Verossimilhança aprofundado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 30.800
 **Obra:** ocular · resiste aos dois · 2.400 RC
 
@@ -501,6 +511,8 @@ O nome vem da terra perene além do mar, para onde se vai e de onde não se cost
 **[PROPOSTA — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Genjutsu LV6 · transcendência Falha de Percepção · Moldagem dispensada · Caminho Posse aprofundado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 40.400
 **Obra:** sonoro · resiste aos dois · 3.200 RC
 

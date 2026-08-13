@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -48,6 +48,8 @@ O criador canônico não existe nesta linha do tempo. A entrada permanece em Aut
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV5 · Moldagem Absoluta · Caminho Composição · Rasengan
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 15.500
 
 O usuário eleva o volume girado muito acima do porte padrão e produz uma esfera cujo diâmetro excede a envergadura dos próprios braços. A execução exige duas moldagens simultâneas, porque a contenção de um volume dessa ordem passa do que uma única mão sustenta, e o executante resolve a segunda por clone ou por caminho que abra outra janela de canalização. A entrega alcança todos os corpos dentro do raio de contato, com o dano resolvido integralmente por alvo, o que faz o rendimento da técnica escalar pelo número de corpos e não pelo chakra investido. Contra um corpo isolado, a esfera colossal entrega pouco mais que a esfera padrão pelo dobro do preço, e a compra se paga a partir do segundo alvo dentro do raio.
@@ -78,6 +80,8 @@ A coincidência de preço com o Ōdama Rasengan é estrutural. Dobrar o volume d
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Controle de Chakra LV6 · Moldagem Absoluta · Caminho Composição · Ōdama Rasengan · fonte externa de chakra declarada
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 45.200
 
 O usuário sustenta uma esfera de proporções que alcançam dezenas de metros, alimentada por chakra que não sai da própria reserva. A parcela acima do piso vem de uma fonte externa declarada na ficha, que pode ser o pool de uma entidade selada, uma reserva de energia natural sustentada ou a camada de reencarnação do portador, e o porte final resulta do volume efetivamente sacado. O crescimento ocupa turnos, governados pela taxa de entrega da fonte e pelo teto de recepção do executante, e é isso que põe a técnica em preparação visível onde as demais entradas do compêndio disparam no ato. O contato abre uma onda de choque que arranca terreno em amplitude larga, e o terceiro databook descreve o vórtice interno como capaz de levar consigo um pedaço de montanha.

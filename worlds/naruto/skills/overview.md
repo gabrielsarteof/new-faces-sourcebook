@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.9
+version: 2.10
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.9. Camada de relação entre domínios.**
+**v2.10. Camada de relação entre domínios.**
 
 ---
 
@@ -243,7 +243,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 ## 7. Registro de Conformidade
 
-| Perícia | Núcleo v2.2 e Manual v7.1 |
+| Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
 | Katon v3, Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
 | Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
@@ -279,6 +279,8 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.10.** O Manual de Criação de Perícias sobe para v7.2 e ganha duas peças novas na seção 3: a regra da inclinação de extensão manifestada, exceção nomeada e única à regra do porteiro, para o caso em que o requisito de manifestação não apenas autoriza um objeto mas abre pergunta nova na lista de resposta da perícia hospedeira; e a seção 13.1, o Ápice de Extensão Manifestada, o capstone daquela inclinação, exigindo apenas os caminhos dela mesma aprofundados e distinto da transcendência de LV6 da perícia inteira. O checklist da seção 15.4 e a lista de instruções da seção 17 passam a citar a exceção. Nenhuma perícia publicada declara inclinação de extensão manifestada hoje, a varredura desta passada não achou nenhuma em documento de perícia nem em documento de clã, e por isso a mudança não força rework em nenhum dos catorze documentos conformes. O Registro de Conformidade sobe a coluna para Manual v7.2, e a citação de dependência do Senjutsu é corrigida na mesma passada.
 
 **v2.9.** O Sistema dos Oito Portões nasceu, e com ele a cedência mais antiga do Registro de Fronteira passa de sem dono a honrada. A linha que o Controle de Chakra escreveu como "As Oito Portas, sistema próprio" agora nomeia o sistema que a recebeu. A Fila de Nascimento registra que o Taijutsu, quando nascer, herda daquele documento a coluna de acesso e nada além dela, e a nota de Dependência do eixo físico deixa de dizer que o eixo não tem camada alguma: ele ganhou as três primeiras réguas, Esforço, coeficiente de entrega física e Fator de Portão, que nasceram no documento dono porque era ele quem tinha o subsistema. O que continua faltando é a camada geral que absorve as três, e é ela, não mais a ausência inteira, que mantém o Chidori em divergência de motor. Na mesma passada, o nome do domínio passa a ser Oito Portões em todo o corpus, pelo precedente da renomeação de Passagem, e o Controle de Chakra sobe para v3.3 nos dois registros, porque a Vazão Ampliada dele comparava o próprio teto de 25% ao primeiro degrau da escada e a tabela publicada agora põe aquele degrau em 20%, o que tornava a comparação falsa. Nenhuma perícia muda de regente, categoria ou custo.
 

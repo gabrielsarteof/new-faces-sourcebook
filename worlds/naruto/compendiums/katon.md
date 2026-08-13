@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.1
+version: 5.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -64,6 +64,8 @@ O usuário concentra uma quantidade mínima de chakra na palma da mão e produz 
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 600
 
 O usuário canaliza chakra de fogo pelas palmas ou pelo solo e ergue uma barreira plana de chamas à sua frente. A parede incinera projéteis leves, interrompe a linha de visão do oponente e força o reposicionamento lateral de quem avança diretamente, deixando passar impactos físicos de alta força. A duração é curta e a densidade do fogo permite a travessia por um shinobi experiente com proteção de chakra. O uso principal da técnica é criar pressão direcional e cobrir deslocamentos de curta distância.
@@ -134,6 +136,8 @@ O usuário canaliza fogo ao longo de um fio condutor, arame ou cabo, que transpo
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.580
 
 O usuário expele pela boca um gás altamente inflamável que paira na área ao redor do alvo. O gás permanece inerte até entrar em contato com qualquer centelha, chama ou técnica de fogo, quando deflagra em combustão instantânea que atinge tudo dentro do raio de cobertura. A técnica funciona tanto como armadilha preparada quanto como amplificador de qualquer outro Katon executado sobre a área coberta. O volume do gás e o raio de detonação aumentam com a quantidade de chakra investida.
@@ -145,6 +149,8 @@ O usuário expele pela boca um gás altamente inflamável que paira na área ao 
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 1.775
 
 O usuário faz um único selo e gera uma estrutura de fogo à sua frente, que assume a forma de um pilar vertical ou de uma parede plana de chamas. A técnica cria uma barreira estacionária de alcance médio que bloqueia o avanço direto e interrompe a linha de visão, sem percorrer distância. Quando combinada com técnicas de Fūton aplicadas sobre as chamas, a parede se converte em uma onda de fogo que avança em direção ao alvo com potência multiplicada.
@@ -156,6 +162,8 @@ O usuário faz um único selo e gera uma estrutura de fogo à sua frente, que as
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.120
 
 O usuário expele chakra de fogo para cima, fragmentando-o em dezenas de partículas incandescentes que caem sobre uma área ao redor em padrão descendente. Cada fragmento isolado produz queimadura superficial, e a cobertura simultânea de múltiplos pontos do campo força o oponente a se mover constantemente, rompe formações e incendeia terreno combustível abaixo do ponto de queda. A função principal é o controle de posicionamento por saturação de área.
@@ -178,6 +186,8 @@ O usuário reveste as mãos ou os braços com chakra de fogo comprimido, formand
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 2.120
 
 O usuário expele uma nuvem densa de cinzas impregnadas de chakra que obstrui a visão do oponente e cobre a área com partículas incandescentes. A nuvem serve simultaneamente como cortina de fumaça e como agente de queimadura leve sobre qualquer alvo que permaneça dentro dela por tempo prolongado, e permanece suspensa depois da execução. A técnica tem perfil de suporte e controle, raro entre as técnicas de Katon.
@@ -193,6 +203,8 @@ O usuário expele uma nuvem densa de cinzas impregnadas de chakra que obstrui a 
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Clã Uchiha)
 **Requisitos:** Katon LV4 · Moldagem Alta · Caminho Muro Vivo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 4.625
 
 O usuário acende uma pequena chama de chakra na ponta de cada dedo de uma das mãos e golpeia a palma aberta contra o solo, erguendo uma barreira cilíndrica de chamas ao redor do ponto escolhido. A barreira protege tudo o que ficar contido dentro dela e incendeia com rapidez qualquer corpo que encoste na face externa, de modo que o avanço direto sobre a parede é punido antes de completar o movimento.
@@ -208,6 +220,8 @@ A resistência registrada da barreira está acima do que a escala de rank sugere
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem Alta · Caminho Pavio
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 6.200
 
 O usuário cospe pela boca uma corrente de pólvora impregnada de chakra, que paira ao redor do alvo criando uma cortina espessa de partículas cinza. Ao acionar a centelha de detonação, a nuvem explode em fogo que queima tudo o que envolve. Antes da detonação, a cortina funciona como bloqueio visual, cegando temporariamente o alvo e impedindo a leitura de movimentos, e permanece pairando no campo enquanto o usuário decidir a hora. A detonação pode ser atrasada para sincronizar com outras técnicas ou com o reposicionamento do usuário.
@@ -219,6 +233,8 @@ O usuário cospe pela boca uma corrente de pólvora impregnada de chakra, que pa
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem Alta · Caminho Rédea
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 4.625
 
 O usuário gera uma corrente de fogo que percorre o solo ou o ar em trajetórias circulares, cerceando o alvo antes do impacto. A técnica se combina com Fūton para criar um ciclone de chamas, ou é confinada por técnicas de Doton que fecham o espaço ao redor do alvo, transformando o ambiente em uma câmara de calor. A capacidade de manipular a trajetória em arco é o que diferencia o Hibashiri dos projéteis lineares de ranks equivalentes.
@@ -274,6 +290,8 @@ O usuário libera várias esferas de fogo com aparência de chamas espirituais q
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem Alta · Caminho Muro Vivo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 5.300
 
 O chakra de fogo do usuário surge ao redor do corpo em redemoinho giratório. A massa de chamas é mantida como zona de controle próximo que impede o avanço direto de oponentes, ou comprimida e lançada como projétil rotatório contra o alvo. Quando sustentado, o turbilhão funciona como escudo de calor que desfaz projéteis leves e obriga o adversário a manter distância. A manutenção ativa consome chakra continuamente enquanto o turbilhão permanecer aceso.
@@ -285,6 +303,8 @@ O chakra de fogo do usuário surge ao redor do corpo em redemoinho giratório. A
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 4.625
 
 O usuário expele da boca uma rajada contínua e larga de chamas que avança em cone crescente, cobrindo área média à frente. A técnica é menos concentrada que o Endan e mais ampla que o Gōkakyū, com a cobertura lateral sendo o principal diferencial tático. O uso central é forçar o deslocamento lateral do oponente, cobrir retiradas e pressionar formações múltiplas sem exigir precisão de mira.
@@ -296,6 +316,8 @@ O usuário expele da boca uma rajada contínua e larga de chamas que avança em 
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV4 · Moldagem Plena · Caminho Pavio · Fūinjutsu e selos explosivos
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.300
 
 O usuário posiciona a mão no solo e libera um grande número de selos explosivos que deslizam pelo chão em direção ao alvo. Os selos se enrolam ao redor das pernas do oponente a partir dos pés e detonam simultaneamente, gerando uma explosão de fogo de grande raio que envolve a vítima de baixo para cima. A eficácia depende da capacidade do alvo de perceber os selos antes que eles o cerquem, e o deslocamento rasteiro dificulta a detecção visual em combate de alta velocidade.
@@ -311,6 +333,8 @@ O usuário posiciona a mão no solo e libera um grande número de selos explosiv
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV5 · Moldagem Alta · Caminho Leito · Grande Chama
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 15.200
 
 O usuário molda chakra em múltiplas esferas de fogo lançadas em arco ascendente, que caem sobre o campo em trajetória descendente cobrindo área ampla de forma simultânea. A queda vertical retira das barreiras frontais qualquer valor defensivo, porque o ataque chega de cima. O terreno combustível dentro da área de queda é incendiado pelo impacto cumulativo das esferas, criando focos de fogo persistentes que reduzem as opções de reposicionamento do oponente depois da detonação.
@@ -322,6 +346,8 @@ O usuário molda chakra em múltiplas esferas de fogo lançadas em arco ascenden
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem Plena · Caminho Leito
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 12.800
 
 O usuário lança chamas intensas que inundam uma área delimitada, maximizando a temperatura dentro do espaço coberto. A técnica atinge eficiência máxima em ambientes fechados ou em conjunção com técnicas de Doton que criam paredes ou câmaras ao redor do alvo, porque o calor se acumula sem dispersão. Em espaço aberto o efeito equivale ao de outros Katon do mesmo rank, e em espaço confinado a temperatura gerada supera a de qualquer técnica de área equivalente.
@@ -355,6 +381,8 @@ Versão amplificada do Endan executada com chakra de senjutsu. O usuário preenc
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 18.200
 
 O chakra moldado no interior do corpo é convertido em fogo e expelido pela boca na forma de um mar de chamas que cobre um território imenso. A abrangência lateral torna a esquiva por deslocamento lateral extremamente difícil e o avanço frontal inviável. A contenção da técnica exige a colaboração de múltiplos usuários de Suiton operando de forma coordenada. Terreno combustível dentro da área de cobertura é incendiado de imediato, criando focos secundários que persistem depois de a técnica se dissipar.
@@ -399,6 +427,8 @@ Disparo preciso que grava no alvo uma marca ardente do tamanho de uma palma. A m
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem Alta · Caminho Muro Vivo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 12.800
 
 O usuário cospe fogo contra o solo e o prende ali, formando uma câmara de chama viva de raio médio. A técnica dispensa impacto prévio e ergue a zona do zero, o que a torna resposta imediata a formação inimiga fechada. O ar dentro da câmara fica impróprio para respiração normal e o piso permanece incandescente enquanto houver sustentação.
@@ -432,6 +462,8 @@ O usuário estende três guias simultâneos e envia fogo por cada um. Os guias c
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem Alta · Caminho Cinza
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 15.200
 
 Detonação de larga área que deixa para trás uma coluna de cinza incandescente muito mais densa que a produzida por impacto comum. A cinza sobe, paira e permanece suspensa enquanto o calor sustentar. Quem fica embaixo perde fôlego, perde velocidade e perde a leitura do campo, porque a nuvem obstrui a visão em todas as direções ao mesmo tempo.
@@ -469,6 +501,8 @@ Salva de projéteis de fogo com shuriken embalados no interior de cada esfera. O
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV6 · Moldagem Plena · Grande Aniquilação de Fogo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 38.000
 
 O usuário converte uma quantidade extrema de chakra em fogo e o expele pela boca em concentração máxima. As chamas saem em cone apertado e queimam tudo à esquerda e à direita do usuário enquanto avançam, combinando cobertura lateral com profundidade de alcance superior à do Gōka Mekkyaku. A técnica rende mais em corredores, formações cerradas e terrenos densos, onde a concentração das chamas maximiza o dano acumulado. É a técnica de Katon de maior poder registrado no cânone.
@@ -513,6 +547,8 @@ Execução simultânea dos três vetores de entrega do fogo. O usuário cospe, e
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Katon LV6 · Moldagem Alta · Transcendência O Grande Incêndio
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 45.500
 
 Conversão do campo de batalha inteiro em zona ardente. O solo pega, o ar carrega cinza e o calor deixa de ter fonte localizada, passando a emanar de toda a superfície ao redor. Qualquer Katon executado pelo usuário dentro do campo acende zona nova sem custo adicional de manutenção. O efeito dura até o fim do combate ou até intervenção externa de escala equivalente, e se executa uma vez por dia.

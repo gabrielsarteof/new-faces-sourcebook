@@ -1,0 +1,221 @@
+---
+id: naruto.technique.takemikazuchi
+title: "Takemikazuchi (建御雷神)"
+version: 1
+layer: scenario
+scenario: naruto
+type: technique
+status: final
+source-file: Takemikazuchi_v1.md
+---
+
+# Takemikazuchi (建御雷神)
+Ninjutsu · Raiton com módulo de Enton · Rank S
+
+---
+
+## Sobre a Técnica
+
+O Takemikazuchi é o Chidori executado com chama negra moldada sobre a corrente. O executante reúne o chakra de Raio pelo procedimento da técnica de origem e, no mesmo instante, faz o olho depositar o fogo do Amaterasu sobre a carga já formada, envolvendo a mão inteira. O que avança contra o alvo carrega as duas coisas ao mesmo tempo, e nenhuma delas substitui a outra.
+
+A ordem importa. A chama negra não é convertida a partir do chakra de raio e não sai da reserva do executante: ela nasce do olho, é moldada pela mesma competência que dá forma ao fogo do Mangekyō, e se acomoda sobre a corrente porque a corrente já está pronta. Um executante que perca a reunião no meio da canalização perde as duas parcelas juntas.
+
+O impacto é o do Chidori levado à escala do rank. A perfuração continua sendo do raio, a paralisia continua entrando pelo ponto de contato, e o corpo alcançado recebe o que a família sempre entregou. O que muda é o que sobra depois: o ponto de entrada permanece aceso, e a chama negra continua queimando por conta própria muito depois de a corrente ter se dissipado.
+
+A técnica pertence a quem já carrega o olho, e é a única entrada da família em que a fraqueza estrutural nunca chega a existir. A percepção ampliada que corrige a visão de túnel é pré-requisito da chama, de modo que ninguém consegue executar esta forma sem já dispor da correção. O preço que a linhagem cobra na investida é pago aqui em outra moeda, no medidor do próprio olho.
+
+---
+
+## Requisitos de Acesso
+
+- **Raiton LV6:** portão de rank S, que resolve em 84 pela soma da Base 50 com INT 34
+- **Moldagem Refinada:** 71 pela soma da Base Total com SAB, degrau lido do coeficiente técnico 2,0
+- **Caminho Ponta:** inclinação Relâmpago, dona da concentração em ponto único que a técnica conserva
+- **Chidori adquirido:** a técnica reveste a reunião de carga que o Chidori estabelece
+- **Amaterasu disponível, com o olho correspondente ativo:** a chama negra vem do trunfo do Mangekyō e não da reserva
+- **Kyōka Enton manifestada:** a moldagem da chama negra sobre uma forma já existente pertence à natureza intensificada
+
+O portão de linhagem de Indra que a Kyōka Enton cobra vale integralmente aqui, e nenhum requisito desta entrada o substitui.
+
+---
+
+## Despertar / Aquisição
+
+A entrada permanece indisponível enquanto o Chidori não tiver autor, na mesma condição de toda a linhagem. Ela permanece indisponível também enquanto o executante não reunir o Amaterasu e a Kyōka Enton, que correm por portões próprios e fora da criação de personagem.
+
+A camada de acesso é Fechada na Criação. Nenhum personagem inicial a adquire em circunstância alguma.
+
+---
+
+## Custo de XP
+
+**Custo de XP:** 21.800
+
+---
+
+## Efeitos Globais
+
+A mão do executante fica coberta por chama negra enquanto a corrente canta por baixo dela, e as duas assinaturas convivem sem se apagar. O som da compressão continua público e alcança toda a cena, e o fogo acrescenta a ele a ausência de luz que caracteriza a chama do Mangekyō, com o ponto mais quente do campo aparecendo como um vazio escuro em vez de um brilho.
+
+O terreno tocado pela mão durante o avanço acende. Pedra, metal e água em contato pegam fogo pela chama negra, e o rastro permanece queimando ao longo da linha percorrida até que alguém o remova por moldagem.
+
+O que a chama alcança não se apaga por meio comum. Água lançada sobre o ponto de ignição não responde, abafamento não responde, e a extinção depende da moldagem do próprio executante ou de intervenção de escala equivalente, conforme a entrada do Amaterasu.
+
+---
+
+## Mecânica de Ativação
+
+- **RC nominal:** 1.650, composta de 750 pagos da reserva do executante e 900 fornecidos pelo olho `[proposta]`
+- **Custo mínimo:** 250, referentes à terça parte da parcela de reserva
+- **Custo de PS:** 30 por execução, referentes à ativação da carne, somados ao que o desperdício do executante cobra pela régua do Controle de Chakra
+- **Selos de referência:** 3
+- **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
+- **Perfil de Evasão:** Veloz, com a sobretaxa da escada embutida na parcela de reserva
+- **Desgaste do Mangekyō:** técnica única pontual, somando 1% ao piso do olho que abriga o Amaterasu e a soma de carga da tabela de maestria
+- **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
+- **Aftermath:** saída reduzida, com o Limite de Saída caindo à metade no turno seguinte à resolução
+- **Ação:** janela de canalização, seguida de investida imediata em linha reta
+- **Restrições:** corpo a corpo, alvo único, linha de deslocamento livre até o alvo, carga adicional proibida
+
+A parcela do olho é a única do corpus, ao lado da tempestade do Kirin, em que a RC nominal provém de fonte externa ao executante. A regra que a governa é a de pools externos da Reserva de Chakra, e o custo mínimo permanece sujeito ao Índice de Desperdício como em qualquer técnica.
+
+---
+
+## Proibição de Carga
+
+A entrada não admite acúmulo de chakra além da RC nominal declarada. A parcela de reserva está travada na reunião que o Chidori estabelece, porque volume adicional desloca a chama do lugar em que ela foi assentada, e a parcela do olho não responde a esforço do circuito.
+
+A proibição fixa a janela de contra-ataque em um único oponente, ainda que a janela nunca chegue a se abrir para o executante que cumpre os requisitos.
+
+---
+
+## Família de Dano
+
+Conforme a Seção 5.3 do Manual de Jutsus, com cada parcela lendo o multiplicador da natureza que efetivamente a fornece:
+
+```
+dano = (RC de reserva × coef_entrega × mult_Raiton)
+     + (RC do olho × coef_entrega × mult_Enton)
+     + Fator de Moldagem
+
+dano = (750 × 0,20 × 1,75) + (900 × 0,20 × 2,10) + LV_CC² × 2,5 × 2,0
+dano = 641 + LV_CC² × 5
+```
+
+O coeficiente de entrega 0,20 vale para as duas parcelas, porque a forma de entrega é uma só e é o ponto concentrado em contato único que a linhagem herda. O coeficiente técnico 2,0 corresponde à dependência alta, herdado da técnica de origem.
+
+Os dois multiplicadores incidem sobre volumes distintos e nunca sobre o mesmo chakra. Nenhuma parcela é multiplicada duas vezes, e a entrada não cria régua de composição de naturezas.
+
+---
+
+## Tabela de Descarga
+
+Par de referência Especial, PV 1.920.
+
+| LV_CC | Fator de Moldagem | Dano de impacto | % PV do par |
+|---|---|---|---|
+| 5, entrada | 125 | 766 | 40% |
+| 6 | 180 | 821 | 43% |
+| 6 com 1 caminho | 245 | 886 | 46% |
+| 6 com 2 caminhos | 320 | 961 | 50% |
+
+A tabela publica apenas o impacto. A queima que se instala depois corre pela Persistência e não entra nestes valores.
+
+---
+
+## Interação com Defesas
+
+A perfuração de Absorção é lida do efeito Fio Concentrado do caminho Ponta, que a resolve em 43% no LV6. A entrada não declara perfuração própria, porque a competência pertence ao caminho que a gateia. A transcendência Raio Seco revoga a leitura por completo.
+
+O Perfil de Evasão Veloz reduz em 25% a esquiva do alvo, e em 40% no primeiro uso do combate contra cada alvo.
+
+A parcela de chama negra não responde à mitigação por Suiton nem a defesa que opere por resfriamento, conforme a entrada do Amaterasu. A Absorção comum do alvo continua valendo sobre o dano de impacto pelas regras gerais.
+
+---
+
+## Rider de Paralisia Parcial
+
+A corrente entra pelo ponto de contato e percorre o trajeto nervoso, e a resolução pertence ao Sistema de Efeitos de Status. O rider da entrada é o do Raiton e não muda com a presença da chama.
+
+| Campo | Valor |
+|---|---|
+| Grau mínimo garantido | Grave |
+| Grau máximo possível | Crítico |
+| Atributos testados | RES + FOR |
+| Alvo do teste | (RES + FOR) × (1 − dano de impacto ÷ PV máximo da vítima) |
+| Membro afetado | a região atingida pelo ponto de contato |
+
+---
+
+## Persistência — Ignição em Chama Negra
+
+O ponto de entrada permanece aceso depois que a corrente se dissipa. O módulo ocupa o slot de Persistência da Seção 6.6 do Manual de Jutsus, na forma de marca no alvo, e não consome o slot de rider.
+
+| Campo | Valor |
+|---|---|
+| Condição de ignição | o alvo transpassado pela investida |
+| Status aplicado | Queimadura |
+| Grau mínimo garantido | Grave `[proposta]` |
+| Grau máximo possível | Crítico |
+| Atributos testados | RES + FOR |
+| Alvo do teste | (RES + FOR) × (1 − dano de impacto ÷ PV máximo da vítima) |
+| Manutenção | nenhuma, porque a chama se alimenta sozinha |
+
+A duração, a recusa de extinção por meio comum e a remoção por moldagem pertencem à entrada do Amaterasu e não são reescritas aqui. Enquanto aquela entrada não possuir ficha própria, a mesa resolve pela descrição publicada no Compêndio de Katon, e a lacuna está registrada na fila de errata da Linhagem do Chidori.
+
+O executante que possua a moldagem da chama negra apaga a ignição que ele mesmo instalou, pela mesma competência que a assentou.
+
+---
+
+## Visão de Túnel
+
+O defeito estrutural da linhagem incide sobre esta entrada por construção, porque a investida em linha reta permanece inteira. A janela de contra-ataque com ignora-esquiva contra o usuário está declarada e fixada em um oponente pela proibição de carga.
+
+Na prática ela nunca se abre. Os requisitos de acesso exigem o Amaterasu, que exige o Mangekyō, que exige o Sharingan, e a percepção ampliada revoga a janela em qualquer patamar. A declaração fica registrada porque a regra pertence à linhagem e não à ficha, e porque um executante que perca o olho perde a técnica junto com a correção.
+
+---
+
+## Progressão por Maestria
+
+| Condição | Capacidade ou mudança |
+|---|---|
+| Raiton LV6, caminho Ponta, Chidori, Amaterasu, Kyōka Enton | acesso à técnica, com perfuração de 43% da Absorção |
+| Transcendência Raio Seco | a Absorção do alvo deixa de se aplicar ao dano de impacto |
+| Maestria do Mangekyō em Adepto ou Mestre | a soma à carga aguda por uso cai para 20% ou 15% |
+| Mangekyō Eterno | o piso acumulado recua, e a frequência viável da técnica sobe junto |
+| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
+| Caminho Concisão, ou interface 169 | execução com zero selos |
+| Caminho Refino | custo pago no mínimo de 250, sem PS de desperdício |
+
+---
+
+## Referência de Usos por Perfil
+
+| Teste de Moldagem | Custo pago | PS por execução | RC | LS | Janela | Usos por reserva |
+|---|---|---|---|---|---|---|
+| 185 | 250 | 30 | 3.500 | 700 | 0 turnos | 14 |
+| 185 | 250 | 30 | 2.211 | 442 | 0 turnos | 8 |
+| 116 | 475 | 53 | 1.325 | 265 | 1 turno | 2 |
+
+A coluna de usos por reserva descreve apenas o que o chakra permite, e não é o limite real da técnica. O limite real é o olho. Cada execução soma 1% ao piso do medidor e de 15% a 25% à carga aguda conforme a maestria, de modo que o executante alcança o grau Crítico de carga entre a quarta e a sexta execução da mesma cena e passa a arriscar cicatriz permanente muito antes de a reserva acabar.
+
+---
+
+## Sinergias
+
+- **Mangekyō Sharingan:** o gate da técnica é também a correção da fraqueza dela, e é a única entrada da família que chega à mesa sem a janela de contra-ataque aberta
+- **Kyōka Enton:** entrega a moldagem que assenta a chama sobre a corrente e a competência que apaga a ignição depois, e sem ela a técnica não existe
+- **Kirin:** o fogo negro contribui com peso quádruplo para a Intensidade da tempestade, e o executante que dispõe das duas converte cada ignição instalada em carga acumulada para o disparo seguinte
+- **Alvo com regeneração:** a queima que não se apaga é a resposta da família a quem sobrevive ao impacto, e é a única entrada que continua cobrando depois que o turno acabou
+- **Caminho Refino:** derruba o custo pago ao mínimo, o que importa pouco na reserva e importa muito na janela de canalização
+- **Mangekyō Eterno:** recua o piso e é o único investimento que altera a frequência real da técnica, porque a reserva nunca foi o freio dela
+
+---
+
+## Notas para o Mestre
+
+- **O freio é o olho, não o chakra.** Rastreie o medidor a cada execução e informe o grau de carga ao jogador. Um personagem que dispara a técnica quatro vezes numa cena está trocando visão permanente por vitória, e essa troca precisa ser dita em voz alta antes da quarta
+- **A ignição é o que a técnica entrega de verdade.** O impacto mata alvos normais, e a chama é para o alvo que não morre. Deixe a queima correr entre as cenas e cobre o preço dela na ficção
+- **Volume não compra nada aqui.** A parcela do olho não responde a esforço e a parcela de reserva está travada. Um jogador que peça carga está pedindo o Chidori
+- **Narração.** A mão fica escura em vez de brilhante, e o canto continua audível por baixo. O rastro do avanço fica queimando no chão. Depois do golpe, o que se vê é o ponto de entrada aceso e o resto do campo apagado
+- **NPCs.** Adversário com esta técnica não precisa acertar duas vezes. Um golpe entregue e o grupo passa a jogar contra o relógio da queima em vez de contra o inimigo

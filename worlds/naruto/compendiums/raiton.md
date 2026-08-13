@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.3
+version: 3.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.3
+# Compêndio de Raiton (雷遁) · v3.4
 **Liberação de Raio**
 
 Catálogo das técnicas nomeadas do elemento raio. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
@@ -86,6 +86,8 @@ O usuário concentra corrente elétrica na palma da mão e a descarrega por cont
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV2 · Moldagem Plena · meio condutor em campo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 600
 
 O usuário libera corrente elétrica pelas palmas diretamente sobre um meio condutor, propagando a descarga por água, metal ou terreno encharcado até todos os alvos em contato com ele. A técnica depende inteiramente da existência do condutor no campo, e é essa dependência que a torna a demonstração didática da propagação por meio condutor que a perícia governa por nível. Sustentada, a corrente mantém a superfície eletrificada por alguns instantes, punindo quem permanece ou ingressa na zona enquanto o usuário alimenta a técnica.
@@ -101,6 +103,8 @@ O usuário libera corrente elétrica pelas palmas diretamente sobre um meio cond
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 1.775
 
 O usuário projeta pelas mãos uma onda de eletricidade que avança em leque à sua frente. A intensidade varia com o chakra investido, indo de um choque destinado a incapacitar até uma corrente capaz de rasgar rocha sólida. O alcance curto e a abertura ampla fazem da técnica uma resposta eficiente contra grupos em aproximação frontal. Sobre terreno alagado ou contra alvos molhados, a onda percorre o meio e alcança quem estiver fora do leque original.
@@ -182,6 +186,8 @@ O usuário expele pela boca uma lança de eletricidade que atravessa o campo em 
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV4 · Moldagem Plena · segundo usuário de Raiton ou clone
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.300
 
 Dois executantes estendem entre si uma corrente contínua de alta intensidade e avançam mantendo a linha esticada, varrendo tudo o que estiver no trecho entre eles. A técnica converte o ataque de alvo único em elevação categórica para linha, e a largura da varredura depende exclusivamente da distância que a dupla consegue manter sem romper a corrente. A coordenação exigida faz da técnica um recurso de equipe treinada, e o uso com clones permite a execução por um único shinobi.
@@ -259,6 +265,8 @@ O usuário abre um canal condutor entre o próprio corpo e o solo, oferecendo à
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 4.625
 
 O usuário libera uma corrente que, ao alcançar o primeiro alvo, salta dele para os corpos próximos em sequência, perdendo potência a cada transferência. A propagação segue a proximidade física entre os alvos e é ampliada por qualquer meio condutor presente entre eles. A técnica converte formações cerradas em vulnerabilidade e perde eficácia contra oponentes dispersos, o que torna o posicionamento do inimigo o fator determinante do seu rendimento. É a semente do salto entre condutores, que a especialização depois governa por medida.
@@ -284,11 +292,24 @@ Sem Sharingan ativo, a execução concede ao oponente uma janela de contra-ataqu
 
 ---
 
+### Sabre de Mil Pássaros
+**Kusanagi no Tsurugi: Chidori-tō — 草薙の剣・千鳥刀**
+**[CANON — Rank A]**
+**Acesso:** Requisito Mecânico
+**Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Ponta · Chidori · arma branca empunhada
+**XP:** 8.750
+
+O usuário transfere para a lâmina empunhada a corrente que o Chidori comprime na palma, e o aço passa a conduzir a carga ao longo de todo o fio. A vibração de alta frequência atravessa placa, guarda e arma interposta sem perder velocidade, o que retira do oponente a opção de aparar, e o golpe entrega o corte e a descarga no mesmo movimento. A lâmina mantida cravada no alvo continua alimentando a corrente e admite elevação para Paralisia Total. A dependência do objeto é o preço da entrada, e arma inimiga que carregue fluxo de raio detém o fio pelo confronto de mesma natureza.
+
+---
+
 ### Corrente de Mil Pássaros
 **Chidori Nagashi — 千鳥流し**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Arco · Chidori
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 11.000
 
 O usuário irradia a corrente do Chidori pela superfície do corpo inteiro em vez de concentrá-la na mão, criando um campo elétrico de curto alcance ao seu redor. O campo atinge simultaneamente todos os oponentes em contato ou em proximidade imediata, e a corrente percorre lâminas, armas e superfícies condutoras que toquem o usuário. A ausência de avanço linear dispensa a janela de contra-ataque da técnica original, e a aplicação sustentada sobre alvo em contato prolongado admite elevação para Paralisia Total.
@@ -311,6 +332,8 @@ O usuário estende a corrente do Chidori em uma lança de eletricidade moldada, 
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem Alta · Chidori
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 11.000
 
 O usuário fragmenta a corrente reunida em dezenas de agulhas de eletricidade disparadas em sucessão rápida contra o alvo. A dispersão troca a perfuração concentrada por cobertura de área e por múltiplos pontos de aplicação do rider, saturando a capacidade de esquiva do oponente. As agulhas conservam velocidade suficiente para atravessar proteções leves e são empregadas com frequência para incapacitar sem matar.
@@ -414,11 +437,22 @@ O usuário molda relâmpago negro na forma de uma pantera que avança de forma a
 **[CANON · Rank S]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Raiton LV6 · Moldagem Absoluta · Caminho Ponta · Chidori
-**XP:** 23.000
+**XP:** 23.600
 
 O usuário eleva a concentração do Chidori até o ponto em que a corrente deixa de se comportar como descarga e passa a operar como lâmina, capaz de cortar o próprio relâmpago ao meio. A densidade alcançada atravessa defesas de chakra que suportariam a versão original da técnica, e a perfuração deixa de depender da massa investida para depender da precisão do corte. O nome da técnica registra o feito que a originou.
 
 A janela de contra-ataque por visão de túnel permanece idêntica à do Chidori na ausência do Sharingan, e o portador do olho executa sem ela. Com maestria plena, a corrente é reunida simultaneamente nas duas mãos, dobrando os pontos de aplicação sem exigir nova moldagem.
+
+---
+
+### Takemikazuchi
+**建御雷神**
+**[CANON — Rank S]**
+**Acesso:** Fechada na Criação
+**Requisitos:** Raiton LV6 · Moldagem Refinada · Caminho Ponta · Chidori · Amaterasu com o olho correspondente ativo · Kyōka Enton
+**XP:** 21.800
+
+O usuário reveste a corrente já reunida do Chidori com a chama negra do Amaterasu, moldada sobre ela pela competência da natureza intensificada, e avança carregando as duas coisas na mesma mão. A chama nasce do olho e se acomoda sobre a corrente já pronta, sem sair da reserva do executante, de modo que o impacto conserva a perfuração e a paralisia da técnica de origem. O ponto de entrada permanece aceso depois que a corrente se dissipa, e a queima instalada não responde a meio comum de extinção, cedendo apenas à moldagem de quem a assentou. O preço da entrada se cobra no medidor do próprio olho.
 
 ---
 
@@ -427,6 +461,8 @@ A janela de contra-ataque por visão de túnel permanece idêntica à do Chidori
 **[CANON · Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV6 · Moldagem Refinada · Caminho Tempestade · nuvens de tempestade sobre o campo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 23.600
 
 O usuário não gera a corrente, ele assume o controle de um relâmpago natural e o conduz ao alvo. A descarga desce do céu com velocidade que dispensa qualquer possibilidade de reação e libera energia incomparável à de qualquer técnica moldada por chakra, ao custo de uma fração mínima da reserva do executante, empregada apenas na condução. A exigência de moldagem é modesta justamente porque o poder pertence ao mundo, e o executante fornece apenas a direção.
@@ -456,6 +492,8 @@ Entradas sem teto de rank ficam fora da interpolação de preço, e o custo é d
 **[ATRIBUÍDO — Acima de Rank S]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV6 · Moldagem Alta · formação de quatro usuários e pilares posicionados
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
 
 Quatro executantes se posicionam em pilares dispostos ao redor da área designada e canalizam simultaneamente corrente de altíssima intensidade sobre o espaço delimitado. A descarga resultante cobre a totalidade da área e desintegra o que estiver dentro dela, resposta concebida para alvos que a força individual não alcança. A técnica exige coordenação exata entre os quatro executantes e o posicionamento prévio dos pilares, o que a restringe a operações planejadas.
@@ -467,6 +505,8 @@ Quatro executantes se posicionam em pilares dispostos ao redor da área designad
 **[CANON — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem Absoluta · Susanoo em estágio máximo · fonte de chakra externa excepcional
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
 
 O usuário molda com o Susanoo um arco e uma flecha carregados com chakra de raio em volume que nenhuma reserva individual sustenta, disparando o projétil em velocidade próxima à do relâmpago natural sobre uma área inteira. O impacto libera energia suficiente para reconfigurar o terreno e alcança alvos protegidos por defesas de escala equivalente. A técnica depende simultaneamente do Susanoo em sua forma completa e de uma fonte externa de chakra capaz de alimentar a carga.
@@ -478,6 +518,8 @@ O usuário molda com o Susanoo um arco e uma flecha carregados com chakra de rai
 **[ATRIBUÍDO — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem Absoluta · Transcendência Arco Voltaico
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
 
 O usuário ergue a mão e impõe ao céu a formação de um relâmpago colossal, que desce verticalmente sobre o ponto designado sem depender de nuvens, umidade ou condição atmosférica prévia. A coluna de corrente atinge diâmetro suficiente para engolir formações inteiras e libera no impacto energia comparável à do relâmpago natural. O custo em chakra é extremo, e a diferença fundamental em relação às demais técnicas de escala equivalente está na origem, porque o relâmpago não é encontrado nem aproveitado, ele é criado por ordem direta do executante. A independência da condição atmosférica é exatamente o que a transcendência do domínio revoga, e por isso a técnica não existe sem ela.
@@ -486,7 +528,7 @@ O usuário ergue a mão e impõe ao céu a formação de um relâmpago colossal,
 
 ## Índice Rápido por Função Tática
 
-**Perfurar em ponto único.** Chidori, Cortador de Raio, Perfuração do Inferno, Falsa Escuridão, Lança Afiada de Mil Pássaros.
+**Perfurar em ponto único.** Chidori, Cortador de Raio, Perfuração do Inferno, Falsa Escuridão, Lança Afiada de Mil Pássaros, Sabre de Mil Pássaros, Takemikazuchi.
 
 **Entregar a distância.** Falsa Escuridão, Esfera de Raio, Relâmpago Púrpura, Flecha do Estrondo, Relâmpago Serpente, Presa Rastreadora do Raio.
 
@@ -502,9 +544,11 @@ O usuário ergue a mão e impõe ao céu a formação de um relâmpago colossal,
 
 **Preparar o terreno.** Selo de Tempestade, Centelha Estática, Onda de Inspiração.
 
-**Golpear no corpo a corpo.** Fluxo de Chakra: Raio, Bomba Liger, Descargas do Primeiro Ninshū.
+**Golpear no corpo a corpo.** Fluxo de Chakra: Raio, Bomba Liger, Descargas do Primeiro Ninshū, Sabre de Mil Pássaros.
 
 **Guardar para o momento certo.** Trovão Acumulado, Selo de Tempestade.
+
+**Continuar cobrando depois do golpe.** Takemikazuchi.
 
 **Decidir por escala.** Kirin, Vajra, Flecha de Indra, Limelight.
 
