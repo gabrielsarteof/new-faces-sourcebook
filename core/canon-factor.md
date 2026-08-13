@@ -148,6 +148,10 @@ O Manual de Criação de Jutsus cita âncoras de orçamento derivadas da fórmul
 
 Uma escada de custo real com nove degraus, dois deles acima dos publicados aqui, não corresponde a nenhuma tabela existente no corpus. `core/reference-tables.md` publica sete faixas de investimento em atributos, sem nenhuma delas nomeada como degrau 8 ou 9. A pendência permanece sem documento que a sustente.
 
+## 9. Arredondamento
+
+O resultado de XP de Ficha se arredonda ao inteiro mais próximo. Nenhuma etapa intermediária arredonda: o Cânone soma os cinco eixos com a precisão de meio ponto que a Seção 2 permite, e só o resultado final da fórmula da Seção 1 sofre arredondamento.
+
 ## Dependências
 
 Este documento consome `core/xp-economy.md` v2.2 para a definição de XP de Ficha e XP Sorte como orçamentos separados, e para a definição de Protagonismo que permanece vigente fora do escopo revogado aqui.
