@@ -7,8 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-<<<<<<< HEAD
-**Total:** 135 documentos · 13 de núcleo · 122 de cenário
+**Total:** 136 documentos · 14 de núcleo · 122 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -18,17 +17,18 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Vantagens Comuns](core/advantages.md) | `core.advantages` | 1.1 | catalog | final |
+| [Vantagens Comuns](core/advantages.md) | `core.advantages` | 1.2 | catalog | final |
 | [Fator de Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 1 | system | final |
+| [Núcleo de Combate](core/combat-core.md) | `core.combat-core` | 1 | core-layer | final |
 | [Princípios de Design](core/design-principles.md) | `core.design-principles` | 1 | methodology | final |
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
 | [Manual de Criação de Poderes](core/power-creation.md) | `core.power-creation` | 3.3 | core-layer | final |
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1 | reference-table | final |
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.2 | core-layer | final |
-| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.3 | system | final |
-| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3 | core-layer | final |
-| [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.3 | template | final |
+| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.4 | system | final |
+| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.1 | core-layer | final |
+| [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
 | [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.2 | system | final |
 
@@ -151,19 +151,19 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.2 | compendium | final |
-| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.1 | compendium | final |
-| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 1.1 | compendium | final |
-| [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.1 | compendium | final |
-| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4 | compendium | final |
-| [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1 | compendium | final |
-| [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.1 | compendium | final |
-| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.1 | compendium | final |
-| [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.1 | compendium | final |
-| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.4 | compendium | final |
-| [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1 | compendium | final |
-| [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.2 | compendium | final |
-| [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2 | compendium | final |
+| [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.3 | compendium | final |
+| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.2 | compendium | final |
+| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 1.2 | compendium | final |
+| [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.2 | compendium | final |
+| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.1 | compendium | final |
+| [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1.1 | compendium | final |
+| [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.2 | compendium | final |
+| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.2 | compendium | final |
+| [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.2 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.5 | compendium | final |
+| [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.1 | compendium | final |
+| [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.3 | compendium | final |
+| [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.1 | compendium | final |
 
 ## worlds/naruto/extensions
 
@@ -250,8 +250,8 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.2 | system | final |
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.1 | system | final |
-| [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.5 | methodology | final |
-| [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.2 | system | final |
+| [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.6 | methodology | final |
+| [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.3 | system | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 7 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.1 | pending-patch | applied |
 | [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1 | pending-patch | pending-patch |
