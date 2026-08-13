@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.10
+version: 2.11
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.10. Camada de relação entre domínios.**
+**v2.11. Camada de relação entre domínios.**
 
 ---
 
@@ -47,6 +47,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
 | Passagem | v1.1 | INT | Erudição ×1,7 |
+| Leque | v1 | FOR | Prático ×1,1 |
 
 ### Por que três categorias e não uma
 
@@ -81,7 +82,8 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 | RES | 2 |
 | SAB | 1 |
 | PRE | 1 |
-| FOR, VEL, DES, DEF, CAR, VON | 0 |
+| FOR | 1 |
+| VEL, DES, DEF, CAR, VON | 0 |
 
 ### Leitura da carga
 
@@ -96,6 +98,8 @@ O Núcleo de Perícias, seção 1, exige regentes distintos entre domínios vizi
 **O segundo RES, e por que ele é conforme.** Senjutsu e Liberação de Yang regem pelo mesmo atributo em eixos distintos, um no eixo do chakra bruto e outro no da conversão elemental. Pela leitura por eixo, o par é conforme sem instrumento adicional. O que sustenta a independência de acesso do Senjutsu é o portão duplo com o Controle de Chakra, em nível não inferior ao próprio menos um, somado a duas camadas que perícia nenhuma compra: a aceitação pelo chefe da espécie, cumprida em jogo, e o evento de campanha que abre a terra e o mestre.
 
 **Dívida registrada, sem mitigação.** Ninjutsu Médico é ofício distinto do eixo elemental, roda em INT, não possui exigência cruzada de nível e é comprado junto de Controle de Chakra com frequência muito alta. É o único ponto do corpus onde a regra dói sem instrumento que a compense. A revisão fica agendada para quando o eixo físico entrar e trouxer DES, VEL e FOR para a tabela, porque hoje não existe alternativa viável e mudar regente sem alternativa é troca de um problema por outro.
+
+**O primeiro FOR.** Leque abre o eixo físico com regente FOR, comprado com frequência alta ao lado de Fūton pelo portão que exige, em nível não inferior ao próprio menos um. Os dois regem por atributos distintos, INT e FOR, então o par nasce conforme sem instrumento adicional, e a dívida registrada contra Ninjutsu Médico permanece aberta até que DES e VEL também entrem na tabela.
 
 ---
 
@@ -114,6 +118,8 @@ Agrupamentos de compra conjunta com frequência alta. É a tabela que torna o co
 **Eixo de engano.** Genjutsu, Controle de Chakra e Liberação de Yin. Regentes INT, SAB e INT.
 
 **Eixo do sábio.** Senjutsu, Controle de Chakra e Sensoriamento. Regentes RES, SAB e PRE. O terceiro entra porque o Modo Sábio eleva o alcance daquela perícia e o praticante que paga o modo costuma pagar a leitura junto, e os três regentes já nascem distintos.
+
+**Eixo do leque.** Fūton e Leque. Regentes INT e FOR. O primeiro par do eixo físico com um domínio do eixo do chakra, sustentado pelo portão em nível não inferior ao próprio menos um.
 
 ---
 
@@ -193,6 +199,14 @@ A contrapartida da primeira linha corre no sentido inverso: o Sensoriamento rece
 
 A Liberação de Yang v4 cedeu a leitura de presença viva e de vitalidade a distância ao Sensoriamento, retirando o caminho Sentinela Vital inteiro. A Liberação de Yin v4 declarou que não lê chakra alheio nem identifica fonte. O Ninjutsu Médico v3 declarou que a leitura de campo não é dele. As três cedências estão honradas nas duas pontas.
 
+### Cedido pelo Fūton v2.2
+
+| Território | Dono |
+|---|---|
+| Escalada física do leque de guerra em três luas, golpe e bloqueio sem chakra, barreira fincada, defesa dupla contra dano físico e genjutsu sonoro | Leque, honrada |
+
+O corte e o deslocamento por vento permanecem no Fūton, que a Perícia de Leque conduz sem redefinir.
+
 ### Cedências pendentes de honra
 
 O Controle de Chakra v2 precisa registrar Ame-no-Sagume como a revogação externa da Supressão Recíproca, e registrar Partilha como o par de Rede Viva. As duas linhas nasceram com o Sensoriamento e ainda não foram inscritas do outro lado.
@@ -215,6 +229,7 @@ Pares em que duas perícias governam a mesma capacidade por eixos independentes,
 | Senjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
 | Fūinjutsu | Barreira, no Fūin Kekkai | devido |
 | Fūinjutsu | Passagem, no deslocamento por marca | publicado |
+| Leque | Fūton, em nível não inferior ao próprio menos um | publicado |
 
 O Controle de Chakra é a coluna de precisão de todo o eixo do chakra. Nenhum par publicado do portão duplo clássico corre entre duas perícias de magnitude.
 
@@ -254,6 +269,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2 | conforme |
+| Leque v1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
 
@@ -279,6 +295,8 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.11.** A perícia de Leque nasce, e o sistema passa de quatorze para quinze perícias. Ela entra no Registro de Regentes com regente FOR e categoria Prático ×1,1, a primeira do eixo físico do sistema, e a Carga por Atributo registra o primeiro FOR ao lado dos dez INT, dois RES, um SAB e um PRE. O Registro de Vizinhança ganha o eixo do leque, Fūton e Leque, regentes INT e FOR. O Registro de Portão Duplo ganha o par entre Leque e Fūton em nível não inferior ao próprio menos um, no mesmo molde do par entre Fūinjutsu e Controle de Chakra. No Registro de Fronteira, o Fūton cede à perícia nova a escalada física do leque de guerra, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla contra dano físico e genjutsu sonoro, subindo para v2.2, e o Compêndio de Fūton sobe para v4.2 com o requisito de Leque somado às três entradas que já exigiam o objeto empunhado. Nenhuma perícia publicada antes desta versão muda de regente, categoria ou custo.
 
 **v2.10.** O Manual de Criação de Perícias sobe para v7.2 e ganha duas peças novas na seção 3: a regra da inclinação de extensão manifestada, exceção nomeada e única à regra do porteiro, para o caso em que o requisito de manifestação não apenas autoriza um objeto mas abre pergunta nova na lista de resposta da perícia hospedeira; e a seção 13.1, o Ápice de Extensão Manifestada, o capstone daquela inclinação, exigindo apenas os caminhos dela mesma aprofundados e distinto da transcendência de LV6 da perícia inteira. O checklist da seção 15.4 e a lista de instruções da seção 17 passam a citar a exceção. Nenhuma perícia publicada declara inclinação de extensão manifestada hoje, a varredura desta passada não achou nenhuma em documento de perícia nem em documento de clã, e por isso a mudança não força rework em nenhum dos catorze documentos conformes. O Registro de Conformidade sobe a coluna para Manual v7.2, e a citação de dependência do Senjutsu é corrigida na mesma passada.
 

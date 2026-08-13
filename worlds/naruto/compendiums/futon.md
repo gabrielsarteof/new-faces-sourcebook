@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.1
+version: 4.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,12 +9,12 @@ status: final
 source-file: Compendio_Futon_v3.md
 ---
 
-# Compêndio de Fūton (風遁) · v4
+# Compêndio de Fūton (風遁) · v4.2
 **Liberação de Vento**
 
 Catálogo das técnicas nomeadas do elemento vento. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
 
-**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Fūton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Sangramento e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
+**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Fūton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Sangramento e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica. A competência de empunhar o leque de guerra é da Perícia de Leque v1, que a Foice de Doninha, a Grande Foice de Doninha e a Grande Tarefa do Dragão passam a exigir ao lado do Fūton.
 
 ---
 
@@ -135,7 +135,7 @@ O usuário bate as palmas e comprime o ar entre elas num golpe de vendaval que d
 **Fūton: Kamaitachi no Jutsu — 鎌鼬の術**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
-**Requisitos:** Fūton LV3 · Moldagem Alta · leque de guerra empunhado
+**Requisitos:** Fūton LV3 · Moldagem Alta · Leque LV1 · leque de guerra empunhado
 **XP:** 2.120
 
 O usuário golpeia com o leque gigante e faz correntes de vento colidirem entre si, criando bolsões de vácuo que retalham o que envolvem. O alvo apanhado pela rajada é erguido do chão e talhado por incontáveis lâminas invisíveis, e o registro documenta o controle fino que a técnica exige: a intensidade do corte é calibrável ao ponto de abrir a armadura de um samurai sem ferir o homem dentro dela, e a forma do vento é moldável em tornados que arremessam ao alto. A técnica é a âncora da família cortante do elemento e pertence à tradição de leque que as forças do deserto guardam como patrimônio. A entrada declara elevação de rider por borda.
@@ -209,7 +209,7 @@ O usuário produz uma frente de vento larga e curta que atravessa o campo limpan
 **Fūton: Dai Kamaitachi — 大鎌鼬の術**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
-**Requisitos:** Fūton LV4 · Moldagem Alta · Caminho Rajada · leque de guerra empunhado
+**Requisitos:** Fūton LV4 · Moldagem Alta · Caminho Rajada · Leque LV4 · Caminho Rede Cortante · leque de guerra empunhado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 6.200
@@ -348,7 +348,7 @@ O usuário retém uma massa de vento comprimido e a libera de uma vez, e a frent
 **Fūton: Tatsu no Ōshigoto — 風遁・竜の大仕事**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūton LV5 · Moldagem Alta · Caminho Ascendente · leque de guerra empunhado
+**Requisitos:** Fūton LV5 · Moldagem Alta · Caminho Ascendente · Leque LV4 · Caminho Rede Cortante · leque de guerra empunhado
 **XP:** 15.200
 
 O usuário lança o golpe do leque ao céu em vez de à frente, e o vendaval sobe, se organiza e desce sobre o alvo como um tornado completo instantes depois. O intervalo entre o gesto e a chegada converte a técnica em armadilha aérea, e o oponente que leu o golpe do leque e não viu ataque algum é apanhado pelo funil descendente quando a guarda já baixou. O tornado ergue o que captura, retalha na rotação e descarta a grande altura. Manter a coluna organizada durante a subida e devolvê-la ao ponto exato da descida é o que põe a exigência de controle acima do rank. A entrada declara elevação de rider por borda.
