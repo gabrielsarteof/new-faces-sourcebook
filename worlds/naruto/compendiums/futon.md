@@ -418,6 +418,8 @@ O usuário esvazia de ar uma zona ampla do campo, elevando a família de vácuo 
 
 O usuário ergue sobre o campo inteiro um vendaval contínuo de escala de tempestade, soprando numa direção escolhida e mantida. Florestas dobram e arrancam, projéteis de qualquer porte abandonam a trajetória, voo adversário se torna impossível e todo combatente luta ancorado ao chão ou é levado pela frente de ar, enquanto o usuário e os aliados avisados operam a favor do vento. A técnica converte a atmosfera do combate numa condição imposta, o clima como arma, e encerra a família de pressão no seu limite lógico, o vendaval que deixa de ser golpe e passa a ser o mundo onde a luta acontece.
 
+**Nota cruzada.** A direção escolhida e mantida é o que separa esta entrada do caminho Espiral, da inclinação Ciclone da Perícia de Fūton. O Vento Divino sopra por um rumo declarado, e a linha avisada se posiciona a favor dele e colhe vantagem disso. O sistema erguido pela Espiral gira em torno de um centro, alcança por igual todo corpo que esteja fora do centro e oferece escolha de alvo a ninguém. A ficha desta técnica permanece inalterada, e a distinção fica registrada para que nenhuma passagem futura funde as duas.
+
 ---
 
 ## Categoria Especial · Maestria de Forma

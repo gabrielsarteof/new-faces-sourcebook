@@ -236,6 +236,8 @@ Toda natureza do catálogo tem nome japonês, para que a ficha não misture entr
 
 A Incandescência recebe kanji próprio nesta versão e passa a constar como 熾遁. O caractere 熾 nomeia a brasa que arde clara, que é exatamente a matéria brilhando de calor que a natureza opera, e a escolha fecha a única entrada de Kyōka que trazia rótulo em romanização sem grafia correspondente.
 
+O **Taiton** passa a registrar kanji, 颱遁, com 颱 significando tufão. A entrada segue marcada `[proposta]` como as demais construídas neste catálogo, e o registro do kanji existe para que a natureza com implementação mecânica publicada apareça na ficha com a mesma forma das entradas de fonte.
+
 `[canon]` Duas romanizações colidem, e a colisão é da obra e não deste catálogo. **Jinton** é 塵遁, a Liberação de Poeira, e também 迅遁, a Liberação de Velocidade. **Yōton** é 陽遁, a Liberação de Yang que é natureza base, e também 溶遁, a Liberação de Lava. O kanji fica registrado nas quatro linhas por isso. Em mesa, o contexto separa: a Poeira é Kekkei Tōta de tier S e a Velocidade é tier B; o Yang é natureza base e a Lava é Kekkei Genkai.
 
 A entrada do Plasma resolve a pendência de padrão que o catálogo registrava — era a única com nome de termo de física em vez de composto japonês. Passa a ser Puraton, e o rótulo pt-BR continua Plasma.
@@ -270,7 +272,7 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 |---|---|---|---|---|---|---|---|
 | Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 | cânone |
 | Shiton 熾遁 (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 | criação de Gabriel |
-| Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 | criação do catálogo |
+| Taiton 颱遁 (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 | criação de Gabriel |
 | Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | sem Centelha | 1,95 | cânone |
 | Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 | cânone |
 | Shinton (Sísmico) `[proposta]` | Terra | nenhum | A | Decisivo | 2% | 1,70 | criação de Gabriel |
@@ -278,7 +280,7 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 
 A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram. O Sísmico entra nesse grupo com a publicação da inclinação Sismo no Doton, no mesmo padrão que já valia para o Shiton.
 
-**Três Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon, e Sismo, a inclinação de extensão da Kyōka Shinton, na Perícia de Doton — o primeiro caso em que a natureza avançada não abre perícia própria alguma, cabendo por inteiro dentro do domínio que a hospeda.
+**Quatro Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon, Sismo, a inclinação de extensão da Kyōka Shinton, na Perícia de Doton — o primeiro caso em que a natureza avançada não abre perícia própria alguma, cabendo por inteiro dentro do domínio que a hospeda — e Ciclone, a inclinação de extensão da Kyōka Taiton, na Perícia de Fūton, com os caminhos Espiral, Olho e Fome e o Ápice O Vento Que Não Passa. O Taiton é o primeiro Kyōka do catálogo a conservar o rider do elemento base em vez de trocá-lo: nenhuma substituição está declarada para ele.
 
 O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado, salvo substituição declarada pela regra de rider substituído por natureza intensificada do Sistema de Efeitos de Status, que fixa escopo, graus e vetor de teste da troca e mantém o registro dos casos vigentes.
 
