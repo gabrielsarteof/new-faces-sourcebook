@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 2.2
+version: 2.3
 layer: core
 type: system
 status: final
@@ -31,7 +31,7 @@ Gastos entram por atributos, perícias e técnicas. Técnicas não custam XP par
 
 ## 2. Protagonismo
 
-O Protagonismo é a alavanca mestra da economia. Ele multiplica o XP Ficha, alimenta o XP Sorte e participa da fórmula de resolução do sistema (`chance_final = chance_base × (1 + multiplicador × P)`). A escala vai de 0 a 10:
+O Protagonismo é a alavanca mestra do destino do personagem. Ele alimenta o XP Sorte e participa da fórmula de resolução do sistema (`chance_final = chance_base × (1 + multiplicador × P)`). Ele não participa do cálculo do XP Ficha: essa conta é regida por `core/canon-factor.md`, pela leitura do que o personagem viveu, e centralidade narrativa fica de fora dela. A escala vai de 0 a 10:
 
 ```txt
 1  Anônimo      sem nome, sem impacto
@@ -48,44 +48,7 @@ O Protagonismo é a alavanca mestra da economia. Ele multiplica o XP Ficha, alim
 
 ## 3. XP Ficha
 
-```txt
-XP Ficha = round(XP Base × Protagonismo × Índice de Idade × Fator de História)
-```
-
-**XP Base:** 3000, universal para todos os sistemas (Genérico, Jujutsu e o RPG de Naruto).
-
-**Índice de Idade:**
-
-```txt
-Índice de Idade = 1 + 0.111 × ln(1 + 5 × max(0, idade - 18)²)
-```
-
-Até 18 anos o índice é 1. Acima disso, cresce logaritmicamente. Marcos aproximados:
-
-```txt
-18 anos  1.000
-20 anos  1.339
-25 anos  1.646
-30 anos  1.782
-40 anos  1.934
-50 anos  2.025
-```
-
-**Fator de História:**
-
-```txt
-Fator de História = 1 + (Pontos de História efetivos / 10)
-```
-
-Para personagens com menos de 20 anos, os pontos de história efetivos são limitados por um teto:
-
-```txt
-HMax = max(0, (idade - 6) × 10)
-```
-
-Com 6 anos ou menos, a história efetiva é 0. A partir de 20 anos não existe teto.
-
-**Exemplo de referência:** personagem de 18 anos, Protagonismo 5, 20 pontos de história. HMax = 120, então os 20 pontos entram inteiros. XP Ficha = round(3000 × 5 × 1.0 × 3.0) = 45000.
+O cálculo do XP Ficha é regido por `core/canon-factor.md`. Ele lê cinco eixos sobre a vida inteira do personagem, Pressão, Tração, Agência, Custo e Amplitude, soma o resultado num Cânone de 0 a 10, e aplica `XP de Ficha = 5.000 × 2^Cânone`. Protagonismo, idade como fator multiplicativo, e o antigo Registro do Ano por faixa de vida não participam mais desta conta.
 
 ## 4. XP Sorte
 
@@ -243,3 +206,4 @@ As naturezas de transformação de chakra não se compram nesta moeda. A naturez
 2. Caminhos existem apenas em LV4 e LV5. As tabelas de caminho LV6 presentes no código são dados mortos e devem ser removidas.
 3. O XP Base é 3000 para todos os sistemas. Referências antigas a base 2500 estão obsoletas.
 4. O comentário de migração sobre a fórmula antiga de sorte é resíduo de código sem efeito de regra e deve ser limpo.
+5. O cálculo de XP Ficha por Protagonismo, Índice de Idade e Fator de História, descrito neste manual até a v2.2, foi revogado por `core/canon-factor.md` v2. O item 3 acima, sobre o XP Base de 3000, vale apenas para o histórico deste manual e não descreve a base do cálculo vigente.

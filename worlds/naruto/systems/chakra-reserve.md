@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chakra-reserve
 title: "Reserva de Chakra"
-version: 3.2
+version: 3.3
 layer: scenario
 scenario: naruto
 type: system
@@ -87,13 +87,12 @@ para uma Uzumaki. Esse componente não pode ser treinado: é fixo desde o nascim
 ## Como o Sistema Representa Esses Fatores
 
 **Stamina, maturidade e energia espiritual são representadas pelo XP de Ficha.** O XP
-de Ficha é derivado do Protagonismo, da Idade e da História do personagem. Ele mede o
-quanto aquele shinobi viveu, treinou e se desenvolveu. A Maturidade está embutida na
-fórmula de cálculo do XP: personagens mais velhos têm mais XP pelo tempo vivido. A
-História contribui pelos eventos formativos. O Protagonismo reflete a centralidade do
-personagem nos acontecimentos que o moldaram. Juntos, esses eixos espelham a stamina
-canônica. A raiz quadrada do XP entra na fórmula para refletir retornos decrescentes:
-dobrar o treino não dobra a reserva.
+de Ficha é derivado do Cânone, a leitura de quanto aquele shinobi viveu, treinou e se
+desenvolveu, publicada em `core/canon-factor.md`. A Maturidade está embutida nessa
+leitura: uma vida mais longa teve mais chance de acumular os eixos que compõem o
+Cânone. Juntos, esses eixos espelham a stamina canônica. A raiz quadrada do XP entra
+na fórmula abaixo para refletir retornos decrescentes: dobrar o treino não dobra a
+reserva.
 
 **A força vital é representada pelo PV.** Os clãs modificam o PV diretamente. O tipo
 de ser também influencia. O PV entra na fórmula com peso dois.

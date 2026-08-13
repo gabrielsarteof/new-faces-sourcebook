@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.9
+version: 2.10
 layer: scenario
 scenario: naruto
 type: methodology
@@ -293,7 +293,7 @@ As faixas são ancoradas na régua de perícias da economia. A razão entre o cu
 | S | 20.000–50.000 | Kage/Especial: 1–2 S-ranks de propósito |
 | Kinjutsu | 50.000+ | 1 jutsu por personagem de nível Kage |
 
-**Âncoras ilustrativas de budget.** O orçamento de jutsus compete com atributos e perícias dentro do mesmo XP de Ficha; o sistema reserva fração nenhuma. Um jounin típico (~175k XP), após atributos de faixa Elite e as perícias-chave de Controle de Chakra e Transformação de Natureza, sustenta uma A-rank assinatura, duas ou três B-ranks confiáveis e um arsenal C/D/E versátil. Saki, em Grau Especial (~500k XP), fecha duas S-ranks e duas A-ranks de assinatura por volta de 85k, com arsenal de suporte por cima.
+**Âncoras ilustrativas de budget.** O orçamento de jutsus compete com atributos e perícias dentro do mesmo XP de Ficha; o sistema reserva fração nenhuma. Um jonin de rotina (~160k XP, `core/canon-factor.md`), após atributos de faixa Elite e as perícias-chave de Controle de Chakra e Transformação de Natureza, sustenta uma A-rank assinatura, duas ou três B-ranks confiáveis e um arsenal C/D/E versátil. Saki (640k XP sob o Cânone vigente) tem orçamento de jutsu maior que o calculado para a v1 deste manual; a repartição por rank publicada até aqui presumia ~500k e precisa de nova passada.
 
 ### 4.1.1 Cálculo do XP Dentro da Faixa
 
@@ -770,6 +770,8 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 ---
 
 ## 11. Registro de Alterações
+
+**v2.10.** As âncoras ilustrativas de budget da Seção 4.1, jonin típico e Saki, seguiam o Fator de Cânone v1, revogado por `core/canon-factor.md` v2. O jonin de rotina passa a ~160k XP e Saki a 640k XP, os dois lidos dos perfis de referência que o documento novo publica. A repartição por rank que a Seção 4.1 descrevia para Saki presumia o orçamento antigo e precisa de nova passada, que este registro não faz. Nenhuma faixa de XP por rank, régua de interpolação ou fórmula deste manual muda.
 
 **v2.9.** A Seção 2.8, Cedências, ganha a linha que faltava: o lado aberto e treinável do dreno, por Contato e por Meio, contra alvo que resiste e sem selo, sem clã e sem contrato, passa a ter dono nomeado. A Perícia de Kyūinjutsu publica esse dono, consumindo a régua de quantidade, o teto de recepção e a cláusula do senjutsu já publicados aqui sem redefinir nenhum dos três. As demais cedências da seção, a dōjutsu, a arma, a clã e a entidade, permanecem como estavam. Nenhum valor, régua ou fórmula deste manual muda.
 

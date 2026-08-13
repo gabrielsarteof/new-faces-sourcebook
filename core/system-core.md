@@ -1,7 +1,7 @@
 ---
 id: core.system-core
 title: "Núcleo do Sistema"
-version: 3.1
+version: 3.2
 layer: core
 type: core-layer
 status: final
@@ -89,24 +89,18 @@ Os dois modelos plugam no mesmo Núcleo. O dano bate em PV, igual nos dois; o qu
 
 ## 3. Economia de XP
 
-```
-XP de Ficha = 3000 × Protagonismo × (I(idade) × Fator_História)
+O cálculo do XP de Ficha é regido por `core/canon-factor.md`, e o do XP Sorte por
+`core/xp-economy.md`. O Núcleo não fixa a fórmula de nenhum dos dois, para que o
+motor de cálculo possa evoluir sem exigir mudança nesta camada fechada.
 
-I(idade)       = 1 + 0,111 × ln(1 + 5 × max(0, idade − 18)²)
-Fator_História = 1 + (pontos_efetivos ÷ 10)
-pontos_efetivos = min(pontos_brutos, H_Max)
-H_Max          = max(0, (idade − 6) × 10)   para idade < 20
-                 sem teto                    a partir de 20
-```
-
-O XP de Ficha é **distribuído pelo jogador entre atributos e perícias** — cada
+O XP de Ficha é **distribuído pelo jogador entre atributos e perícias**. Cada
 personagem decide quanto vai para cada lado, e só o que foi para atributos aparece
 nos pools.
 
-> **Atenção de design:** idade e história inflam o XP total sem refletir poder de
-> combate. Dois personagens com os mesmos atributos têm o mesmo poder em combate,
-> mesmo que um (mais velho, com muita história) tenha XP total muito maior. Para
-> balanceamento, o que importa é o **investimento em atributos**, não o XP total.
+Vida vivida infla o XP de Ficha sem refletir poder de combate por si só. Dois
+personagens com os mesmos atributos têm o mesmo poder em combate, mesmo que um
+tenha XP de Ficha muito maior. Para balanceamento, o que importa é o
+**investimento em atributos**, não o XP de Ficha total.
 
 Custos de perícia e multiplicadores por categoria: ver *Referência de Economia de XP*.
 
