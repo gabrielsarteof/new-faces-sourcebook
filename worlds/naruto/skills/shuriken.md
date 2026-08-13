@@ -63,7 +63,7 @@ teste de fuga do preso ≥ Firmeza da Fixação para se soltar naquele turno
 
 Resolvido: 116 no LV4 com o caminho aberto, 142 no LV5 aprofundado, 169 no LV6 transcendido.
 
-MODOS DE GIRO. Categórica, fixa, sem leitura de teste, porque a grandeza que ela governa é a forma do arremesso e não a força de quem arremessa. O praticante declara modo e eixo a cada arremesso do caminho Giro.
+MODOS DE GIRO. Categórica, fixa, sem leitura de teste, porque a grandeza que ela governa é a forma do arremesso e não a força de quem arremessa, e nenhum modo domina os outros: alcance e penetração puxam em direções opostas, e o eixo só decide qual cobertura o arremesso ignora, sem alterar nenhum dos dois. O praticante declara modo e eixo a cada arremesso do caminho Giro.
 
 | Modo | Alcance | Coeficiente de impacto |
 |---|---|---|
@@ -76,8 +76,6 @@ MODOS DE GIRO. Categórica, fixa, sem leitura de teste, porque a grandeza que el
 | Vertical | Alvo agachado ou prostrado atrás de obstáculo baixo |
 | Horizontal | Alvo atrás de anteparo fino lateral |
 | Diagonal | Combinação das duas, contra alvo parcialmente coberto por cima e pelo lado |
-
-Nenhum modo domina os outros. Alcance e penetração puxam em direções opostas, e o eixo não altera nenhum dos dois: ele só decide qual cobertura o arremesso ignora.
 
 ═══════════════════════════════════════════════════════════════════
 
