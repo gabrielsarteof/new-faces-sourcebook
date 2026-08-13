@@ -1,9 +1,9 @@
 ---
-id: naruto.skill.kenpo
+id: common.skill.kenpo
 title: "Kenpo"
 version: 1
 layer: scenario
-scenario: naruto
+scenario: common
 type: skill
 status: final
 source-file: Pericia_Kenpo_v1.md
@@ -15,6 +15,8 @@ PERÍCIA DE KENPO
 Kenpo é a escola que trata desperdício de movimento como o único inimigo real. Todo golpe parte de onde a mão já está, sem o recuo que anuncia a intenção. Bloquear é a metade ofensiva do mesmo gesto que a metade defensiva começa, fundindo as duas ações num só instante. A sequência inteira de uma troca funciona como um único argumento contra o corpo do oponente, e cada peça dela cobra o preço da anterior. A resposta certa a uma linha é um círculo, e a resposta certa a um círculo é uma linha.
 
 Nenhuma dessas quatro ideias tem verbete no cânone de Naruto. A escola inteira é `[proposta]`, tradução de princípio de arte marcial real para o vocabulário deste sistema, e a marca não se repete efeito a efeito porque cobriria o documento inteiro sem acrescentar informação nova.
+
+Esta perícia mora em worlds/common porque nenhuma linha dela pressupõe fato de cenário algum, no mesmo padrão que o Taichi abriu.
 
 O território termina onde o ofício alheio começa. O Punho Gentil, estilo nomeado que já vive no documento do clã Hyūga, permanece lá, porque a nota de desenho do Índice de Perícias reserva estilo de clã ao documento do clã. A escola de Muay Thai é a vizinha mais próxima: os caminhos dela prendem bônus de combinação a uma posição fixa dentro de uma série curta, o segundo soco, o terceiro golpe, e nenhum caminho desta perícia lê posição de golpe. O Aikido neutraliza pela absorção, guardando o impulso do oponente para devolvê-lo numa projeção separada, e o contra-ataque de Kenpo devolve o mesmo impulso no instante em que o recebe. As duas escolas seguem sob schema de migração pendente, e a distinção vale para o formato futuro delas tanto quanto para o atual. A escalada de amplificação corporal por saturação de energia física pertence à Liberação de Yang. O Fator de Portão, os tetos de fluxo e a fisiologia do circuito de chakra pertencem ao Sistema dos Oito Portões e à perícia de corpo que ele reserva como consumidora futura. Potência, Guarda, Absorção, a escada de Cadência e as quatro manobras pertencem ao Núcleo de Combate, e esta perícia consome o motor sem redefinir uma linha dele. Os graus, as durações e a remoção de toda condição instalada pertencem ao Sistema de Efeitos de Status. O tratamento que encerra uma Marcação antes do fim de cena pertence ao Ninjutsu Médico.
 
@@ -237,11 +239,11 @@ O praticante que aprofunda os dois caminhos de uma mesma inclinação, o teto de
 PENDÊNCIAS E FILA DE ERRATA
 
 1. O Núcleo de Combate não publica a classe do golpe desarmado. Este documento declara Esforço 0,9 e coeficiente de impacto 0,9 por interpolação entre a arma de precisão e a lâmina curva, `[proposta]`, e a errata pede que o Núcleo de Combate absorva o valor quando revisado.
-2. O Índice de Perícias não lista Kenpo no Registro de Regentes nem no Registro de Conformidade, e a nota de desenho da Fila de Nascimento, que reserva estilo nomeado a caminho ou a documento de clã, precisa acomodar a leitura desta perícia contra o Núcleo de Combate §9, que autoriza documento próprio de escola de combate.
+2. O Índice de Perícias registra Kenpo no Registro de Regentes e no Registro de Conformidade, mas não abriu a subseção "Cedido pelo Kenpo v1" no Registro de Fronteira, apesar dos cinco vizinhos nomeados nesta abertura. Propagação pendente.
 3. O Perfil de Evasão vive no Manual de Criação de Jutsus e resolve técnica de chakra. Sem Aviso o consome por precedente já aberto pelo Compêndio dos Oito Portões, e a régua pede dono declarado na camada física geral quando ela nascer.
 4. O Fator de Kenpo e a Eficiência de Retorno são subsistemas próprios desta perícia, pendentes de absorção pela camada física geral, no mesmo padrão que o Sistema dos Oito Portões já reserva para o Fator de Portão.
 5. Muay Thai e Aikido seguem sem documento de corpus, migrados sob schema anterior, lacuna já registrada em `provenance.json` do lado da aplicação.
-6. Taichi, citado em material de trabalho anterior a este documento, não existe em nenhum documento do corpus nem do código. Nenhuma referência a Taichi sobrevive nesta versão.
+6. Correção de errata: o item 6 anterior desta lista afirmava que o Taichi não existia em documento nenhum do corpus. Essa afirmação valia apenas dentro da linha de trabalho isolada em que este documento nasceu. O Taichi existe, publicado em paralelo em `worlds/common/skills/taichi.md`, e é o precedente que esta perícia segue ao morar na mesma pasta.
 
 ═══════════════════════════════════════════════════════════════════
 
