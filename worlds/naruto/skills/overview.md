@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.10
+version: 2.11
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.10. Camada de relação entre domínios.**
+**v2.11. Camada de relação entre domínios.**
 
 ---
 
@@ -47,6 +47,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
 | Passagem | v1.1 | INT | Erudição ×1,7 |
+| Taichi | v1 | DES | Físico ×1,0 |
 
 ### Por que três categorias e não uma
 
@@ -73,15 +74,22 @@ a matéria-prima ser comum. O preço mais alto cobra o acesso, não a energia.
 A definição normativa e os custos resolvidos vivem no Manual de Economia de XP,
 seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 
+**Físico** entra pela primeira vez neste registro com o Taichi, e não é categoria
+nova: o Manual de Economia de XP já a publicava desde a v1, no degrau mais barato
+da escala geral, para o domínio que não opera energia alguma, nem bruta nem
+convertida. O Taichi lê o corpo contra o corpo, e é a primeira perícia do cenário
+a cobrar por esse eixo.
+
 ### Carga por atributo
 
 | Atributo | Perícias que rege |
 |---|---|
 | INT | 10 |
 | RES | 2 |
+| DES | 1 |
 | SAB | 1 |
 | PRE | 1 |
-| FOR, VEL, DES, DEF, CAR, VON | 0 |
+| FOR, VEL, DEF, CAR, VON | 0 |
 
 ### Leitura da carga
 
@@ -114,6 +122,8 @@ Agrupamentos de compra conjunta com frequência alta. É a tabela que torna o co
 **Eixo de engano.** Genjutsu, Controle de Chakra e Liberação de Yin. Regentes INT, SAB e INT.
 
 **Eixo do sábio.** Senjutsu, Controle de Chakra e Sensoriamento. Regentes RES, SAB e PRE. O terceiro entra porque o Modo Sábio eleva o alcance daquela perícia e o praticante que paga o modo costuma pagar a leitura junto, e os três regentes já nascem distintos.
+
+**Taichi sem eixo.** O Taichi não entra em nenhum agrupamento de compra conjunta, porque é a primeira perícia do eixo físico e não existe ainda uma segunda para formar par. O eixo nasce quando Taijutsu, perícia de arma ou Marionetista publicarem, e não antes.
 
 ---
 
@@ -189,6 +199,16 @@ A resistência à entrada mora em dois lugares ao mesmo tempo, aqui e na Conten�
 
 A contrapartida da primeira linha corre no sentido inverso: o Sensoriamento recebe do Modo Sábio uma elevação categórica de alcance e conserva toda a leitura, de modo que a única coisa que atravessa a fronteira é a distância.
 
+### Cedido pelo Taichi v1
+
+| Território | Dono |
+|---|---|
+| Leitura de posição, identidade e intenção à distância | Sensoriamento |
+| Repulsão carregada por chakra, rider de técnica, sopro elemental e correnteza | Controle de Chakra, caminho Impregnação, verbo Base Ancorada |
+| Definição dos quatro graus de estado e a régua que os posiciona | Sistema de Efeitos de Status |
+| Potência, Guarda, Absorção e o motor de manobras | Núcleo de Combate |
+| Obras nomeadas de escola de combate específica | compêndio de escola de combate, devida |
+
 ### Cedido por outros
 
 A Liberação de Yang v4 cedeu a leitura de presença viva e de vitalidade a distância ao Sensoriamento, retirando o caminho Sentinela Vital inteiro. A Liberação de Yin v4 declarou que não lê chakra alheio nem identifica fonte. O Ninjutsu Médico v3 declarou que a leitura de campo não é dele. As três cedências estão honradas nas duas pontas.
@@ -218,6 +238,8 @@ Pares em que duas perícias governam a mesma capacidade por eixos independentes,
 
 O Controle de Chakra é a coluna de precisão de todo o eixo do chakra. Nenhum par publicado do portão duplo clássico corre entre duas perícias de magnitude.
 
+O Taichi não separa magnitude de precisão e não entra nesta tabela. O domínio resolve inteiro pelo próprio teste, sem coluna irmã, porque a distinção entre quanto e quão exato não se aplica a um ofício que não converte nem manipula energia.
+
 **Uma segunda espécie de par.** O portão duplo clássico governa uma capacidade por dois eixos independentes, um de magnitude e outro de precisão. Existe uma segunda espécie, o portão de obra, em que cada perícia possui metade de uma técnica nomeada em vez de um eixo próprio sobre a mesma capacidade: uma perícia lê o rank e publica o verbo definidor, e a companheira cobra apenas a parte que lhe cabe. O par do Hiraishin, entre Fūinjutsu e Passagem, pertence a essa espécie e está publicado dos dois lados. O par do Fūin Kekkai, entre Fūinjutsu e Barreira, pertence à mesma espécie e segue devido, porque a Barreira ainda não existe.
 
 ---
@@ -237,7 +259,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 **Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e os estilos nomeados entram como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio.
 
-**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. O que ainda não existe é essa camada geral, e é a ausência dela que mantém o Chidori em divergência de motor.
+**Dependência do eixo físico, resolvida.** Nenhuma perícia de corpo ou de arma nascia antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão, e o eixo físico não tinha essa camada geral, apenas as três réguas bespoke que o Sistema dos Oito Portões publicou para o próprio subsistema. O Núcleo de Combate v1 publicou a camada geral: Potência, Guarda, Absorção, Exaustão Física e o motor de manobras que qualquer perícia de corpo consome sem redefinir. O Taichi é a primeira a consumi-lo, e a dependência que bloqueava Taijutsu, Perícia de arma e Marionetista deixa de existir. Uma divergência fica registrada e não resolvida por esta passada: esta seção dizia que a camada geral absorveria o trio do Sistema dos Oito Portões quando nascesse, mas aquele documento declara na própria seção 6 que Esforço, Fator de Portão e as sequelas do subsistema de portões permanecem lá, porque governam um subsistema fisiológico próprio e não uma competência adquirida. As duas leituras não convergem sozinhas, e a decisão entre absorver ou manter separado é de Gabriel. O Chidori segue citando divergência de motor por outro documento, e esta passada não o toca.
 
 ---
 
@@ -254,6 +276,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2 | conforme |
+| Taichi v1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
 
@@ -261,7 +284,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
+Doze, das quais três aplicadas. Nove seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -273,12 +296,18 @@ Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
 | Registrar Ame-no-Sagume como revogação externa da Supressão Recíproca, e Partilha como par de Rede Viva | Controle de Chakra v2 |
 | Resolver as três migrações para o Sensoriamento e rederivar sob Núcleo v2 | Percepção v5, ausente do projeto |
+| Publicar a conversão de margem em metros que a Seção 9 promete para o Empurrar e nunca resolve | Núcleo de Combate v1, seção 9 |
+| Corrigir a citação de "escala de resultado já publicada" da Seção 9, que aponta para a tabela sem números do Núcleo do Sistema em vez da régua de quatro graus do Sistema de Efeitos de Status | Núcleo de Combate v1, seção 9 |
+| Publicar os limiares numéricos de margem de vitória em teste oposto, hoje ausentes em toda a camada de núcleo | Núcleo do Sistema |
+| Declarar que a vantagem Gênio Bruto, linha de Resistência, não se soma à exceção de Enraizamento do Taichi para a mesma manobra e o mesmo par de atributos | core/advantages.md, vantagem Gênio Bruto |
 
-Somente a última depende de material que não está na sessão.
+Só a de Percepção depende de material que não está na sessão. As quatro novas nasceram da auditoria de Taichi v1 contra o Núcleo de Combate, e nenhuma delas é dívida desta perícia: o Taichi resolve os próprios efeitos por comparação de limiar e por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.11.** O Taichi nasce, décima quinta perícia do sistema, primeira do eixo físico e primeira regida por DES. Ele entra no Registro de Regentes com categoria Físico ×1,0, degrau que o Manual de Economia de XP já publicava sem perícia alguma para ocupá-lo. A tabela de Carga por atributo ganha a linha de DES. O Registro de Vizinhança recebe a nota de que o Taichi não tem eixo ainda, por falta de uma segunda perícia física para formar par. O Registro de Fronteira ganha o bloco de cinco cedências do Taichi v1, com o Núcleo de Combate como maior credor. O Registro de Portão Duplo ganha a nota de que o Taichi não separa magnitude de precisão e não entra na tabela. A Fila de Nascimento registra a resolução da dependência do eixo físico: o Núcleo de Combate v1 publicou a camada geral que faltava, e Taijutsu, Perícia de arma e Marionetista deixam de estar bloqueados por ela, com uma divergência entre este registro e o Sistema dos Oito Portões sobre absorção do trio de Fator de Portão ficando aberta para decisão de Gabriel. O Registro de Conformidade recebe a linha do Taichi v1, conforme. A auditoria contra o Núcleo de Combate abriu quatro erratas novas, todas de dívida alheia: a conversão de margem em metros que a Seção 9 promete e não resolve, a citação cruzada da escala de resultado daquela mesma seção, a ausência de limiares numéricos de margem de vitória em teste oposto, e a falta de declaração de não cumulatividade entre a vantagem Gênio Bruto e a exceção de Enraizamento, primeira substituição dura de atributo por atributo do corpus.
 
 **v2.10.** O Manual de Criação de Perícias sobe para v7.2 e ganha duas peças novas na seção 3: a regra da inclinação de extensão manifestada, exceção nomeada e única à regra do porteiro, para o caso em que o requisito de manifestação não apenas autoriza um objeto mas abre pergunta nova na lista de resposta da perícia hospedeira; e a seção 13.1, o Ápice de Extensão Manifestada, o capstone daquela inclinação, exigindo apenas os caminhos dela mesma aprofundados e distinto da transcendência de LV6 da perícia inteira. O checklist da seção 15.4 e a lista de instruções da seção 17 passam a citar a exceção. Nenhuma perícia publicada declara inclinação de extensão manifestada hoje, a varredura desta passada não achou nenhuma em documento de perícia nem em documento de clã, e por isso a mudança não força rework em nenhum dos catorze documentos conformes. O Registro de Conformidade sobe a coluna para Manual v7.2, e a citação de dependência do Senjutsu é corrigida na mesma passada.
 
