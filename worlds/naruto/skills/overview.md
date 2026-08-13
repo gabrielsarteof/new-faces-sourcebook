@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.17
+version: 2.18
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.17. Camada de relação entre domínios.**
+**v2.18. Camada de relação entre domínios.**
 
 ---
 
@@ -39,7 +39,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Katon | v4 | INT | Ninjutsu ×1,5 |
 | Raiton | v3 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.3 | INT | Ninjutsu ×1,5 |
-| Suiton | v2.1 | INT | Ninjutsu ×1,5 |
+| Suiton | v2.2 | INT | Ninjutsu ×1,5 |
 | Doton | v2.1 | INT | Ninjutsu ×1,5 |
 | Liberação de Yin | v4.1 | INT | Ninjutsu ×1,5 |
 | Liberação de Yang | v4.2 | RES | Ninjutsu ×1,5 |
@@ -341,8 +341,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4, Raiton v3, Doton v2.1, Fūton v2.3 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
-| Suiton v2.1 | conforme |
+| Katon v4, Raiton v3, Doton v2.1, Fūton v2.3, Suiton v2.2 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
 | Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
@@ -365,7 +364,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Vinte e três, das quais três aplicadas. Vinte seguem abertas.
+Vinte e quatro, das quais três aplicadas. Vinte e uma seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -392,12 +391,17 @@ Vinte e três, das quais três aplicadas. Vinte seguem abertas.
 | Abrir linha de preço própria para o Ápice de Extensão Manifestada, hoje lido pela régua de transcendência adicional | Manual de Economia de XP v2.2, seção 7 |
 | Prever a terceira leitura de largura, a do Ápice de extensão manifestada, que soma largura de ápice com especialização aprofundada porque a seção 13.1 o desliga do LV6 — vale para todo Ápice já publicado, não só o do Doton | Núcleo de Perícias v2.2, seção 6.1 |
 | Publicar a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje declarada só em nota de fronteira local por documento — o escopo já alcança a indiscriminação do Futton, o Rescaldo do Puraton, a transparência do Hariton, a Terra Morta do Kuroi Kaminari e a Absorção do Ciclone | Núcleo do Sistema, sem seção própria ainda |
+| Corrigir o efeito Sem Posição, da transcendência Névoa Eterna: publica 174, lido da especialização de Toque da Maré em largura mínima, quando o efeito de transcendência deveria ler largura de ápice pela seção 6.1 do Núcleo de Perícias — Bruma tem três caminhos, e o valor correto é 190, o mesmo que a linha de testes de referência da perícia já publica | Suiton v2.2 |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.18.** Colisão de versão com a v2.11, pela quarta vez: uma quinta linha de trabalho, a extensão manifestada da Perícia de Suiton, também publicou sob o número v2.11 a partir do mesmo commit em que as linhas de seis perícias, do Katon, do Raiton e do Doton já haviam colidido, sem enxergar nenhuma delas. Resolvida do mesmo modo, subindo mais um degrau.
+
+A Perícia de Suiton sobe para v2.2 e passa a ser a quinta do corpus a declarar inclinação de extensão manifestada — Katon, Raiton, Doton e Fūton vieram antes, na mesma reconciliação, e as cinco passadas não se enxergaram. A inclinação Maré é destravada pelo Chōton, a Kyōka de Água do catálogo de Naturezas Avançadas, traz os caminhos Preia-Mar, Vazante e Ciclo e recebe o Ápice Macaréu pela seção 13.1 do Manual. A mesma passada resolve o portão do Chōton de `[PENDENTE]` para nenhum, e eleva o poder dele de Decisivo para Estratégico, com o multiplicador de dano indo de 1,20 para 1,35 — a leitura que a concepção aprovada registrava como definitiva, contra o valor provisório que o catálogo carregava. O Registro de Regentes e o de Conformidade acompanham a versão nova, e a seção "Progressão por Maestria" de Naturezas Avançadas passa a enumerar as quatro naturezas hospedadas por perícia existente juntas — Incandescência, Sísmico, Tufão e Maré — em vez de tratar cada uma como exceção isolada.
 
 **v2.17.** A Perícia de Fūton sobe para v2.3 e passa a ser a quarta do corpus a declarar inclinação de extensão manifestada — Katon, Raiton e Doton vieram antes, na mesma reconciliação, e as quatro passadas não se enxergaram. A inclinação Ciclone é destravada pelo Taiton, a Kyōka de Vento do catálogo de Naturezas Avançadas, traz os caminhos Espiral, Olho e Fome e recebe o Ápice O Vento Que Não Passa pela seção 13.1 do Manual, sem piso de nível na hospedeira, no mesmo padrão que o Ápice do Doton já fixava. O Taiton é o primeiro Kyōka do catálogo a conservar o rider do elemento base em vez de trocá-lo. A subida corrige uma colisão de versão que não gerava conflito de texto e por isso passava despercebida: a própria Perícia de Fūton chegou a ter duas linhas de trabalho independentes reivindicando "v2.2" a partir da v2.1, a publicação da Perícia de Leque e esta passada do Taiton, cada uma sem ver a outra. Como as duas escreviam o mesmo literal `version: 2.2` na base, nenhum `git rebase` acusava o choque, e a versão errada ficaria publicada em silêncio se a linha de trabalho seguinte não a tivesse conferido contra o histórico do documento. Resolvida subindo a v2.2 real para v2.3 e escrevendo, pela primeira vez, o registro de alterações que a v2.2 nunca tivera — a Perícia de Leque, que cede ao Fūton apenas o corte e o deslocamento por vento, mantendo o resto para si. O Registro de Regentes e o de Conformidade acompanham a versão nova, e uma errata nova entra na tabela: a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje espalhada em nota de fronteira local por cada documento que a toca (Futton, Puraton, Hariton, Kuroi Kaminari, e agora Ciclone) sem seção própria no Núcleo do Sistema.
 
