@@ -1,7 +1,7 @@
 ---
 id: core.system-core
 title: "Núcleo do Sistema"
-version: 3
+version: 3.1
 layer: core
 type: core-layer
 status: final
@@ -152,9 +152,11 @@ Pares de atributo por tipo de teste: ver *Cálculos Rápidos — Testes*.
 ## 5. Recuperação de Recursos
 
 Princípio: fora de combate só há a recuperação descrita aqui; não existe regen
-passiva por descanso comum além desta. Dentro de combate, recurso só volta por
-habilidade (ativa ou passiva). Isso faz o dano importar e dá valor real a quem
-investe em cura.
+passiva por descanso comum além desta. Dentro de combate, PV e PM só voltam por
+habilidade (ativa ou passiva). O PS é a exceção declarada: ele retorna também
+pelo Fôlego que o Núcleo de Combate publica, e qualquer retorno acima do que o
+Fôlego entrega continua exigindo habilidade. Isso faz o dano importar e dá
+valor real a quem investe em cura.
 
 ### 5.1 Papéis temporais das três barras
 
@@ -167,7 +169,9 @@ investe em cura.
 ### 5.2 PS — Vigor
 
 Fora da fórmula. Um respiro curto (sub-hora, sem ameaça) devolve o PS **cheio**.
-Em combate, só volta por habilidade.
+Em combate, o retorno de rodada a rodada segue o Fôlego que o Núcleo de Combate
+publica; além dele, só volta por habilidade. O Kyūmon dos Oito Portões é a
+exceção declarada, devolvendo o pool inteiro no ato da abertura.
 
 ### 5.3 PV e PM — fórmula de recuperação
 
