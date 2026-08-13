@@ -1,8 +1,9 @@
 ---
-id: core.skill.tanto
+id: common.skill.tanto
 title: "Tantō"
 version: 1
-layer: core
+layer: scenario
+scenario: common
 type: skill
 status: final
 source-file: Pericia_Tanto_v1.md
@@ -11,7 +12,7 @@ source-file: Pericia_Tanto_v1.md
 PERÍCIA DE TANTŌ
 短刀 · A lâmina que se saca de dentro
 
-Perícia de núcleo, agnóstica de cenário. Qualquer mundo que jogue com lâmina curta de perfuração consome este documento sem reescrevê-lo, e flavor específico de cenário vive em `worlds/<mundo>/extensions/`, nunca aqui.
+Perícia sem cenário. Nenhuma linha dela lê fato de mundo algum, e qualquer cenário que jogue com lâmina curta de perfuração consome este documento sem reescrevê-lo, no mesmo padrão do Taichi em `worlds/common/skills/`.
 
 O tantō é a lâmina que existe para o momento em que a espada não cabe mais entre dois corpos. Onde a distância já fechou e o combatente já está preso pelo outro, o tantō entra pela junta que a armadura deixa aberta e pela abertura que o próprio agarrão cria. `[real]` O propósito original do objeto era perfurar couraça no alcance de um clinch, quando nenhuma lâmina longa consegue girar. `[real]` A variante yoroi-dōshi, espinha e base reforçadas, existe porque perfurar sem entortar sob esse tipo de pressão exige uma construção própria. `[real]` E a montagem tradicional na cintura invertia o cabo contra o corpo e a ponta da bainha para frente, desenho que impede a lâmina de escorregar ou de ser arrancada quando o portador já está agarrado.
 
@@ -186,9 +187,9 @@ A colisão com Adagas e Facas de Combate fica registrada sem dono. Aquela períc
 
 Nenhuma régua de elevação de Guarda por armadura existe no corpus. `Guarda = DEF × 5` é o único termo publicado pelo Núcleo de Combate, e nenhum documento declara como um item ou uma obra eleva esse valor. Sem Dobra e a Leitura de Fresta contra elevação declarada dependem de um item ou de uma obra publicarem essa elevação em algum lugar, e até lá o efeito não tem alvo real contra o qual disparar. Dono: Núcleo de Combate, camada fechada para modificação.
 
-Seis perícias de arma, incluindo Adagas e Facas de Combate, vivem apenas em `common/skills.json`, schema v5, sem manual correspondente. O Tantō é a primeira perícia de arma do corpus a nascer com manual, e a primeira perícia individual publicada na camada de núcleo: até aqui `core/` só hospedava documento de metodologia e de sistema, nunca uma perícia jogável.
+Seis perícias de arma, incluindo Adagas e Facas de Combate, vivem apenas em `common/skills.json`, schema v5, sem manual correspondente. O Tantō é a primeira perícia de arma do corpus a nascer com manual.
 
-Nenhum registro global de regentes, vizinhança ou conformidade existe para perícias de núcleo. O Índice de Perícias do Sistema é documento do cenário Naruto, `naruto.skill.overview`, e sua Regra de Propriedade limita o que entra ali a fatos sobre a relação entre perícias daquele cenário. Tantō não entra nele por não pertencer a cenário nenhum, mas o conflito de regente que uma perícia de núcleo pode abrir contra as perícias de qualquer cenário que a compre continua sem lugar que o rastreie. Dono: um Índice de Perícias de Núcleo, ainda inexistente.
+O Índice de Perícias do Sistema é documento do cenário Naruto, `naruto.skill.overview`, e sua Regra de Propriedade limita o que entra ali a fatos sobre a relação entre perícias daquele cenário. Tantō registra ali as relações que valem quando um personagem daquele cenário o compra, no mesmo padrão que o Taichi já abriu, e por isso não é dono soberano do próprio registro de regentes: um conflito de regente que Tantō abra contra uma perícia de outro cenário continua sem lugar que o rastreie, porque não existe ainda um Índice de Perícias comum aos cenários. Dono: um Índice de Perícias Comuns, ainda inexistente.
 
 Imobilização em Grau Grave ou acima torna o alvo indefeso pela Seção 10 do Núcleo de Combate, e alvo indefeso já não lê Guarda alguma. Busca de Junta e Estocada Carregada perdem função contra esse alvo pelo mesmo motivo que perdem função contra qualquer alvo sem Guarda de pé. A leitura é intencional e não pendência.
 

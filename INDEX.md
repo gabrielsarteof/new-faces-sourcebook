@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 137 documentos · 15 de núcleo · 122 de cenário
+**Total:** 137 documentos · 14 de núcleo · 123 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -32,11 +32,11 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
 | [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.2 | system | final |
 
-## Núcleo — Perícias
+## worlds/common/skills
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Tantō](core/skills/tanto.md) | `core.skill.tanto` | 1 | skill | final |
+| [Tantō](worlds/common/skills/tanto.md) | `common.skill.tanto` | 1 | skill | final |
 
 ## Jujutsu Kaisen
 
