@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.futon
 title: "Fūton (風遁)"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: FUTON_Pericia_v2_1.md
 ---
 
-FŪTON (風遁) · v2.2
+FŪTON (風遁) · v2.3
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -251,6 +251,10 @@ Os caminhos e as transcendências do Fūton empregam nomeação por imagem, e a 
 
 REGISTRO DE ALTERAÇÕES
 
-v2.2. Nasce a inclinação Ciclone, primeira inclinação de extensão manifestada publicada no sourcebook, destravada pela manifestação do Taiton 颱遁 e composta por Espiral, Olho e Fome. Nasce com ela o Ápice O Vento Que Não Passa, capstone próprio da extensão pela seção 13.1 do Manual de Criação de Perícias v7.2, exigindo apenas os caminhos de Ciclone aprofundados e distinto da transcendência do LV6. A fronteira do documento passa a citar o Taiton, a seção de aquisição recebe os preços da extensão e os testes de referência dela, e os arquétipos ganham a construção do portador do sistema. Duas erratas abertas ficam registradas: a régua geral de efeitos que atingem aliados sem escolha do executor e a linha de custo do Ápice no Manual de Economia de XP. As inclinações Vácuo, Vendaval e Vento a Favor, os onze caminhos delas e as três transcendências permanecem como estavam na v2.1.
+v2.3. Colisão de versão com a v2.2: duas linhas de trabalho independentes partiram da v2.1 e cada uma bateu o próprio martelo em "v2.2" sem enxergar a outra — a publicação da Perícia de Leque, que cedeu ao documento novo a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla, mantendo aqui apenas o corte e o deslocamento por vento; e esta passada, que nasce a inclinação Ciclone. Resolvida subindo um degrau a mais, no mesmo padrão que outras colisões de versão já registradas no corpus.
+
+Nasce a inclinação Ciclone, primeira inclinação de extensão manifestada publicada no sourcebook, destravada pela manifestação do Taiton 颱遁 e composta por Espiral, Olho e Fome. Nasce com ela o Ápice O Vento Que Não Passa, capstone próprio da extensão pela seção 13.1 do Manual de Criação de Perícias v7.2, exigindo apenas os caminhos de Ciclone aprofundados e distinto da transcendência do LV6. A fronteira do documento passa a citar o Taiton, a seção de aquisição recebe os preços da extensão e os testes de referência dela, e os arquétipos ganham a construção do portador do sistema. Duas erratas abertas ficam registradas: a régua geral de efeitos que atingem aliados sem escolha do executor e a linha de custo do Ápice no Manual de Economia de XP. As inclinações Vácuo, Vendaval e Vento a Favor, os onze caminhos delas e as três transcendências permanecem como estavam na v2.1.
+
+v2.2. A Perícia de Leque nasce como documento próprio, subclasse componente sobre o portão de Fūton em nível não inferior ao próprio menos um. A linha de fronteira territorial passa a ceder ao Leque a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla contra dano físico e genjutsu sonoro, mantendo com o Fūton apenas o corte e o deslocamento por vento que a Perícia de Leque conduz sem redefinir. Nenhuma inclinação, caminho ou transcendência desta perícia muda de valor.
 
 v2.1. Estado anterior do documento.

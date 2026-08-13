@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.16
+version: 2.17
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.16. Camada de relação entre domínios.**
+**v2.17. Camada de relação entre domínios.**
 
 ---
 
@@ -38,7 +38,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Senjutsu | v2 | RES | Chakra ×1,4 |
 | Katon | v4 | INT | Ninjutsu ×1,5 |
 | Raiton | v3 | INT | Ninjutsu ×1,5 |
-| Fūton | v2.1 | INT | Ninjutsu ×1,5 |
+| Fūton | v2.3 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.1 | INT | Ninjutsu ×1,5 |
 | Doton | v2.1 | INT | Ninjutsu ×1,5 |
 | Liberação de Yin | v4.1 | INT | Ninjutsu ×1,5 |
@@ -341,8 +341,8 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4, Raiton v3, Doton v2.1 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
-| Fūton v2, Suiton v2 | conforme |
+| Katon v4, Raiton v3, Doton v2.1, Fūton v2.3 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Suiton v2.1 | conforme |
 | Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
@@ -365,7 +365,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Vinte e duas, das quais três aplicadas. Dezenove seguem abertas.
+Vinte e três, das quais três aplicadas. Vinte seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -391,12 +391,15 @@ Vinte e duas, das quais três aplicadas. Dezenove seguem abertas.
 | A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por quatro documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi | `core.xp-economy`, Anexo A |
 | Abrir linha de preço própria para o Ápice de Extensão Manifestada, hoje lido pela régua de transcendência adicional | Manual de Economia de XP v2.2, seção 7 |
 | Prever a terceira leitura de largura, a do Ápice de extensão manifestada, que soma largura de ápice com especialização aprofundada porque a seção 13.1 o desliga do LV6 — vale para todo Ápice já publicado, não só o do Doton | Núcleo de Perícias v2.2, seção 6.1 |
+| Publicar a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje declarada só em nota de fronteira local por documento — o escopo já alcança a indiscriminação do Futton, o Rescaldo do Puraton, a transparência do Hariton, a Terra Morta do Kuroi Kaminari e a Absorção do Ciclone | Núcleo do Sistema, sem seção própria ainda |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.17.** A Perícia de Fūton sobe para v2.3 e passa a ser a quarta do corpus a declarar inclinação de extensão manifestada — Katon, Raiton e Doton vieram antes, na mesma reconciliação, e as quatro passadas não se enxergaram. A inclinação Ciclone é destravada pelo Taiton, a Kyōka de Vento do catálogo de Naturezas Avançadas, traz os caminhos Espiral, Olho e Fome e recebe o Ápice O Vento Que Não Passa pela seção 13.1 do Manual, sem piso de nível na hospedeira, no mesmo padrão que o Ápice do Doton já fixava. O Taiton é o primeiro Kyōka do catálogo a conservar o rider do elemento base em vez de trocá-lo. A subida corrige uma colisão de versão que não gerava conflito de texto e por isso passava despercebida: a própria Perícia de Fūton chegou a ter duas linhas de trabalho independentes reivindicando "v2.2" a partir da v2.1, a publicação da Perícia de Leque e esta passada do Taiton, cada uma sem ver a outra. Como as duas escreviam o mesmo literal `version: 2.2` na base, nenhum `git rebase` acusava o choque, e a versão errada ficaria publicada em silêncio se a linha de trabalho seguinte não a tivesse conferido contra o histórico do documento. Resolvida subindo a v2.2 real para v2.3 e escrevendo, pela primeira vez, o registro de alterações que a v2.2 nunca tivera — a Perícia de Leque, que cede ao Fūton apenas o corte e o deslocamento por vento, mantendo o resto para si. O Registro de Regentes e o de Conformidade acompanham a versão nova, e uma errata nova entra na tabela: a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje espalhada em nota de fronteira local por cada documento que a toca (Futton, Puraton, Hariton, Kuroi Kaminari, e agora Ciclone) sem seção própria no Núcleo do Sistema.
 
 **v2.16.** Colisão de versão com a v2.11, pela terceira vez: uma quarta linha de trabalho, a extensão manifestada da Perícia de Doton, também publicou sob o número v2.11 a partir do mesmo commit em que as linhas de seis perícias, do Katon e do Raiton já haviam colidido, sem enxergar nenhuma delas. Resolvida do mesmo modo, subindo mais um degrau.
 
