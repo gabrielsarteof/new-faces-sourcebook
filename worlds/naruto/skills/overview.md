@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.13
+version: 2.14
 layer: scenario
 scenario: naruto
 type: skill
@@ -36,7 +36,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Controle de Chakra | v3.3 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2 | RES | Chakra ×1,4 |
-| Katon | v3 | INT | Ninjutsu ×1,5 |
+| Katon | v4 | INT | Ninjutsu ×1,5 |
 | Raiton | v2 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.1 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.1 | INT | Ninjutsu ×1,5 |
@@ -341,7 +341,8 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v3, Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
+| Katon v4 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
 | Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
@@ -364,7 +365,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Dezesseis, das quais três aplicadas. Treze seguem abertas.
+Vinte, das quais três aplicadas. Dezessete seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -375,6 +376,10 @@ Dezesseis, das quais três aplicadas. Treze seguem abertas.
 | Registrar o multiplicador de 65 do LV5 e a soma revogada pelo Apagamento no LV6 | Genjutsu v1.1 |
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
 | Registrar Ame-no-Sagume como revogação externa da Supressão Recíproca, e Partilha como par de Rede Viva | Controle de Chakra v2 |
+| Escrever a inclinação de extensão Dessecação, hospedeira do Shakuton, ao lado de Brasa | Katon v4 |
+| Declarar que o estado Transcendido também se alcança pelo Ápice de Extensão Manifestada, e que os caminhos de inclinação de extensão ficam fora do requisito e da elevação da transcendência de LV6 | Núcleo de Perícias v2.2, seções 3.4 e 4.4, e Manual de Criação de Perícias v7.2, seção 13.1 |
+| Publicar o preço de aprofundamento de caminho de inclinação de extensão adquirido abaixo do LV5 da hospedeira | Manual de Economia de XP v2.2, seção 7 |
+| Declarar se o sistema terá camada de armadura própria, hoje ausente, contra a qual o efeito Núcleo do Katon v4 inverte a Absorção | Núcleo de Combate, seção 6 |
 | Resolver as três migrações para o Sensoriamento e rederivar sob Núcleo v2 | Percepção v5, ausente do projeto |
 | Publicar a classe de golpe desarmado que o motor de dano não declara, hoje herdada por interpolação entre Kenpo, Taekwondo e Taichi sem repetir a errata em cada uma | Núcleo de Combate v1 |
 | Nomear dono para o Perfil de Evasão consumido por perícia física sem chakra, e para a contrapartida de coeficiente de entrega que o degrau Telegrafado cobra sem análogo físico | Manual de Criação de Jutsus, seção 6.5 |
@@ -390,6 +395,10 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.14.** Colisão de versão com a v2.11: duas linhas de trabalho publicaram sob o mesmo número a partir do mesmo commit sem se enxergarem, uma reconciliando Kyuinjutsu/Taichi/Tantō/Leque/Kenpo/Taekwondo (registrada abaixo, v2.11 a v2.13) e esta subindo a Perícia de Katon. Resolvida subindo um degrau a mais, no mesmo padrão que a v2.9 já registrou para a colisão com o Senjutsu.
+
+A Perícia de Katon sobe para v4 e passa a ser a primeira do corpus a declarar inclinação de extensão manifestada, o que revoga a afirmação da v2.10 de que nenhuma perícia publicada declarava uma. A inclinação é Brasa, hospedeira da Kyōka Shiton de Incandescência, com os caminhos Têmpera, Fulgor e Forja e com o Ápice Sem Combustão pela seção 13.1 do Manual. Nenhuma das três inclinações anteriores do Katon foi tocada e nenhum caminho ou transcendência mudou de valor. A perícia permanece conforme ao Manual v7.2 e abre uma errata contra o Núcleo v2.2, que ainda lê o estado Transcendido como alcançável somente pela transcendência de LV6 e não conhece a isenção recíproca entre a transcendência comum e os caminhos de inclinação de extensão. Na mesma passada, o Sistema de Efeitos de Status sobe para v2.5 com a regra geral de rider substituído por natureza intensificada e o registro de casos dela, e Naturezas Avançadas sobe para v5.2 com o kanji 熾遁, a coluna de proveniência do catálogo de Kyōka e a reescrita da entrada de Incandescência contra o documento de concepção. Fica registrado como errata aberta que a inclinação Shakuton de Dessecação, prevista para a mesma camada dentro do Katon, ainda não foi escrita.
 
 **v2.13.** Quatro linhas de trabalho paralelas se reconciliam numa passada só: Kyuinjutsu v1 (décima oitava perícia, INT, Chakra ×1,4), Taichi v1 e Tantō v1 (Físico ×1,0, ao lado de Kenpo e Taekwondo já publicados), e Leque v1 (a primeira perícia do degrau Prático ×1,1, subclasse do Fūton). As seis linhas partiram do mesmo commit sem se enxergarem, e cada uma resolveu sozinha decisões que exigiam ver as outras: Taichi e Kenpo nasceram cada um se autodeclarando "a primeira perícia global do catálogo", e Tantō nasceu em `core/skills/`, camada fechada para conteúdo jogável, antes de uma correção própria o mover. Esta passada resolve as três junto: Taichi, Kenpo, Taekwondo e Tantō convergem em `worlds/common/skills/`, porque nenhuma linha de nenhum dos quatro lê fato de cenário, e o Registro de Fronteira ganha a nota que explica por que perícias sem cenário continuam registrando regente e fronteira neste índice.
 

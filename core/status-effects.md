@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.4
+version: 2.5
 layer: core
 type: system
 status: final
@@ -30,6 +30,10 @@ com o sistema de combate. Para usar, basta este arquivo.
   de recurso perdido ou de acúmulo já operavam assim. A Petrificação passou a admitir o
   vetor de processo interno, em que a transformação nasce da operação que o próprio
   personagem executa sobre o próprio corpo e o grau se instala pela régua da fonte.
+- **Rider substituído por natureza intensificada** é regra geral desde a v2.5, publicada
+  logo após as Regras Universais de Aplicação, com registro próprio dos casos vigentes.
+  Antes dela a troca corria caso a caso dentro de cada documento de natureza, o que
+  deixava escopo, grau e vetor de teste sem forma fixa.
 
 A partir daqui, os efeitos nativos; ao final, os opcionais.
 
@@ -71,6 +75,23 @@ Margem de falha entre 31 e 50 resulta em Grau Grave.
 Margem de falha de 51 ou mais resulta em Grau Crítico.
 
 A fonte declara o grau mínimo garantido e o grau máximo possível. A margem de falha posiciona o efeito dentro desse range.
+
+
+### Rider Substituído por Natureza Intensificada
+
+O rider natural de cada Tipo Elemental é propriedade passiva publicada pelo Sistema Elemental, e a técnica que o declara aplica aquele efeito e nenhum outro. A camada de intensificação abre a exceção. Uma Kyōka, ou a inclinação e o caminho que nascem dela dentro da perícia hospedeira, troca o rider natural do elemento base por outro efeito deste catálogo quando a manifestação muda o vetor pelo qual a técnica fere.
+
+A troca é substituição e permanece substituição. O rider trocado deixa de se aplicar por completo, uma entrega carrega um rider por vez, e nenhuma leitura soma os dois. Quando duas fontes do mesmo praticante declararem substituições diferentes sobre a mesma entrega, vale a do caminho pelo qual a técnica foi resolvida.
+
+O documento que declara a substituição publica cinco coisas, e a substituição vale apenas quando as cinco estão escritas: qual rider sai, qual entra, o escopo alcançado, seja a técnica declarada, o caminho inteiro ou a natureza toda, o grau mínimo garantido e o grau máximo possível do rider que entra, e os atributos testados por ele. O alvo do teste segue o vetor do rider que entra e não o do que sai, porque quem resiste resiste ao que está sofrendo.
+
+Registro de casos publicados:
+
+| Natureza intensificada | Hospedeira | Rider natural | Rider substituto | Escopo |
+|---|---|---|---|---|
+| Shiton, Incandescência | Perícia de Katon, inclinação Brasa | Queimadura | Cegueira | caminho Fulgor |
+
+A tabela nasce com uma linha e recebe as demais conforme os documentos de natureza intensificada as publiquem. Substituição praticada por documento que não conste dela é erro do documento e entra na fila de errata.
 
 
 ### Regras Universais de Remoção

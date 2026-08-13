@@ -232,7 +232,9 @@ Vento+Raio tem ocupante único, a Liberação de Velocidade, e por isso não ent
 
 ### Nomenclatura
 
-Toda natureza do catálogo tem nome japonês, para que a ficha não misture entradas nomeadas com entradas sem nome. Nove deles são construídos no padrão 〜遁 e não vêm de fonte alguma, porque o cânone não nomeia essas naturezas: Jūton, Hariton, Santon e Puraton entre as Kekkei Genkai, e Shiton, Taiton, Gōton, Shinton e Chōton entre as Kyōka. Todos ficam marcados `[proposta]` e podem ser revistos sem custo mecânico — nenhuma regra depende do nome.
+Toda natureza do catálogo tem nome japonês, para que a ficha não misture entradas nomeadas com entradas sem nome. Nove deles são construídos no padrão 〜遁 e não vêm de fonte alguma, porque o cânone não nomeia essas naturezas: Jūton, Hariton, Santon e Puraton entre as Kekkei Genkai, e Shiton, Taiton, Gōton, Shinton e Chōton entre as Kyōka. Todos ficam marcados `[proposta]` e podem ser revistos sem custo mecânico, porque nenhuma regra depende do nome.
+
+A Incandescência recebe kanji próprio nesta versão e passa a constar como 熾遁. O caractere 熾 nomeia a brasa que arde clara, que é exatamente a matéria brilhando de calor que a natureza opera, e a escolha fecha a única entrada de Kyōka que trazia rótulo em romanização sem grafia correspondente.
 
 `[canon]` Duas romanizações colidem, e a colisão é da obra e não deste catálogo. **Jinton** é 塵遁, a Liberação de Poeira, e também 迅遁, a Liberação de Velocidade. **Yōton** é 陽遁, a Liberação de Yang que é natureza base, e também 溶遁, a Liberação de Lava. O kanji fica registrado nas quatro linhas por isso. Em mesa, o contexto separa: a Poeira é Kekkei Tōta de tier S e a Velocidade é tier B; o Yang é natureza base e a Lava é Kekkei Genkai.
 
@@ -250,7 +252,7 @@ A regra permanente governa o destino da descarga. A produção da corrente, o al
 
 **A conciliação entre canal e busca.** As duas cláusulas tocam o mesmo disparo e respondem a perguntas diferentes. **O canal decide por onde a descarga viaja, e a busca decide onde ela termina.** O canal ionizado governa o percurso, produzindo o próprio meio e atravessando o que estiver interposto no caminho. A busca de condutor governa o destino, escolhendo entre os condutores presentes aquele em que a descarga se resolve. As duas convivem no mesmo disparo porque uma responde pelo trajeto e a outra pelo ponto final. O corredor de ar ionizado do Grau 2 entra pela porta do destino, acrescentando condutor ao terreno, e o Grau 3 fecha essa porta ao declarar destino e suspender a busca.
 
-**Fronteiras de condução.** Três mecânicas distintas operam sobre condutores, e nenhuma substitui outra. Ficam registradas juntas para que nenhuma passagem futura as confunda ou funda:
+**Fronteiras de condução.** Cinco mecânicas distintas operam sobre condutores, e nenhuma substitui outra. A enumeração de condutor de cada linha é a da entrada dona, e a definição ampla desta seção, que alcança pele exposta, vale apenas para o Puraton. Ficam registradas juntas para que nenhuma passagem futura as confunda ou funda:
 
 | Mecânica | Eixo | O que faz | Limite de alcance |
 |---|---|---|---|
@@ -258,22 +260,25 @@ A regra permanente governa o destino da descarga. A produção da corrente, o al
 | Condução por Meio do Shiden | conversão ativa | o praticante escolhe aplicar a descarga sobre um meio condutor e converte entrega de alvo único em entrega de área | a extensão física do meio |
 | Canal ionizado do Puraton, Grau 1 | isenção | a descarga dispensa meio externo e atravessa isolante seco interposto, invertendo a regra base | a declaração da técnica |
 | Rescaldo do Puraton, Grau 2 | publicação de condutor | o ar do trajeto permanece ionizado por turnos declarados e vale como condutor para descargas seguintes de qualquer usuário de Raiton | o corredor declarado, enquanto durar |
+| Núcleo do Shiton | inversão de mitigação | a camada condutora vestida ou carregada pelo alvo inverte a Absorção dele, que passa a somar em vez de subtrair | a camada que o alvo carrega |
 
 A limitação de escolha de alvo não é compensada com redução de dano. O sistema não tem rolagem de acerto e toda vantagem ofensiva já é ignora-esquiva por regra central, de modo que acerto garantido não é privilégio do Puraton. A troca real é escolha de alvo por posicionamento, e ela se paga sozinha em cena com múltiplos combatentes.
 
 ### Catálogo de Kyōka
 
-| Kyōka | Elemento base | Gate | Tier | Poder | % base | Mult. de dano |
-|---|---|---|---|---|---|---|
-| Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 |
-| Shiton (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 |
-| Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 |
-| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | 2% | 1,95 |
-| Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 |
-| Shinton (Sísmico) `[proposta]` | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 |
-| Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 |
+| Kyōka | Elemento base | Gate | Tier | Poder | % base | Mult. de dano | Proveniência |
+|---|---|---|---|---|---|---|---|
+| Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 | cânone |
+| Shiton 熾遁 (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 | criação de Gabriel |
+| Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 | criação do catálogo |
+| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | 2% | 1,95 | cânone |
+| Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 | cânone |
+| Shinton (Sísmico) `[proposta]` | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 | criação do catálogo |
+| Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 | criação do catálogo |
 
-O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado.
+A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram.
+
+O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado, salvo substituição declarada pela regra de rider substituído por natureza intensificada do Sistema de Efeitos de Status, que fixa escopo, graus e vetor de teste da troca e mantém o registro dos casos vigentes.
 
 ```
 Mult_Kyōka = Mult_base_do_elemento + Bônus_de_poder
@@ -338,15 +343,29 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 ### Incandescência
 
-`[proposta]` A Incandescência é a combustão completa, a chama que consome o próprio combustível sem deixar resíduo e por isso queima mais quente que a chama comum. Ela é maestria técnica pura do elemento, sem componente sobrenatural, e é por aí que se separa do Enton sem esforço adicional de design: o Enton é dom de linhagem e chama que não se apaga, a Incandescência é o teto do fogo que qualquer shinobi alcança por ofício.
+`[proposta]` em toda a extensão, e criação de Gabriel. A natureza não tem verbete em fonte primária, e o registro fica etiquetado por inteiro em vez de emprestar autoridade que ela não tem.
 
-Ela existe porque o Fogo era o único elemento sem Kyōka acessível sem portão. Vento, Raio, Terra e Água tinham caminho de intensificação aberto a qualquer praticante que passasse na Centelha, e o Fogo tinha apenas o Enton, travado em linhagem. A lacuna era de cobertura do sistema e não de fidelidade ao cânone, porque nada na obra estabelece que a intensidade máxima do fogo comum dependa de herança.
+A Incandescência é o calor separado da chama. O Katon queima matéria, e o Shiton faz a matéria ficar quente: o ferro na forja emite luz porque está quente o bastante para isso, e continua inteiro enquanto brilha. A luz, que no fogo comum é subproduto, aqui é carga, e boa parte das cenas que a natureza resolve se decide por ela.
 
-**Combustão sem resíduo.** Técnica de Incandescência não produz fumaça, cinza ou fuligem. O campo permanece limpo depois da passagem da chama, e o praticante não ganha nem perde cobertura visual pelo próprio ataque. A propriedade tem custo real, porque remove do praticante o recurso de ocultação por fumaça que o Katon comum oferece.
+Ela existe porque a única entrada de intensificação do Fogo cobrava portão de linhagem, e o Enton restringe o teto do elemento aos descendentes de Indra. A lacuna era de cobertura do sistema e não de fidelidade ao cânone, porque nada na obra estabelece que a intensidade máxima do fogo comum dependa de herança.
 
-**Consumo integral.** Cobertura, barreira ou obstáculo de material combustível dentro da área declarada é consumido por inteiro, em vez de sofrer dano parcial. A propriedade converte terreno em não terreno, e existe para dar à Kyōka presença tática que o dano bruto sozinho não daria.
+A separação dos vizinhos fica registrada linha a linha, porque o Fogo é a região mais povoada do catálogo.
 
-**Grau de Queimadura elevado.** O grau mínimo de Queimadura declarável sobe um degrau em relação ao que a margem produziria em Katon comum, com teto absoluto mantido em Crítico. A escada da condição pertence ao Sistema de Efeitos de Status e não é reescrita aqui: os quatro graus penalizam INT e SAB em 15%, 30%, 50% e 70%, e o Crítico gera Ferimento Grave Moderado permanente. Um degrau a mais nesta natureza é, portanto, um degrau a mais de penalidade cognitiva sobre o alvo, e no topo da escada é sequela.
+| Contra | Separação |
+|---|---|
+| Katon | ali se molda chama, aqui se aquece matéria |
+| Enton | ali a chama consome e persiste por cenas, aqui o efeito termina quando a matéria esfria |
+| Shakuton | ali o calor retira a água do corpo e mata por ressecamento, aqui o calor entra na matéria e a matéria é que fere |
+| Yōton | ali a massa fundida escoa, aqui a peça permanece sólida e brilhando |
+| Bakuton | ali o rebento explode de dentro ignorando a armadura, aqui a armadura trabalha contra o dono |
+
+**Hospedagem.** A Incandescência não tem perícia própria. Ela se hospeda na Perícia de Katon como inclinação de extensão manifestada, de nome Brasa, com os caminhos Têmpera, Fulgor e Forja e com o Ápice Sem Combustão, pelas seções 3 e 13.1 do Manual de Criação de Perícias. A Centelha, o tier histórico, a classificação de poder e o multiplicador de 1,80 continuam sendo governados por este documento, e toda a mecânica de mesa vive naquele. As três leituras abaixo descrevem a natureza e apontam onde cada uma foi escrita como regra, sem repetir a regra aqui.
+
+**Temperatura sem combustão.** A natureza eleva a temperatura da matéria declarada, e a elevação acontece sem chama, de modo que nada arde e nada se consome. A imunidade à extinção é capstone e não propriedade de entrada: ela mora no Ápice Sem Combustão, que a perícia hospedeira cobra pelos três caminhos de Brasa aprofundados mais o preço de transcendência adicional. Até lá a entrega continua sujeita às cláusulas comuns de água da perícia hospedeira. O Ciclo de Superação permanece de pé, com o resfriamento por volume de água ou por gelo como a saída publicada.
+
+**A luz como carga.** A emissão resolve por Cegueira no lugar do dano, alcançando quem tenha linha de visão para a fonte. A troca de rider tem escopo de caminho e não de natureza: ela vale no caminho Fulgor, pela regra geral de rider substituído do Sistema de Efeitos de Status, e a entrega resolvida por Têmpera, por Forja ou por qualquer caminho comum da perícia hospedeira continua no rider de Queimadura. É também em Fulgor que a leitura por dōjutsu recebe o degrau imediatamente acima, porque o olho que capta mais é o que mais recebe. A cláusula é deliberada: o mundo respondeu aos olhos que leem tudo ficando mais brilhante, e a resposta é comum, barata e acessível sem portão.
+
+**O calor por dentro.** O calor entra na matéria em vez de envolvê-la, e o alvo que veste ou carrega camada condutora passa a somar a própria Absorção ao dano em vez de subtraí-la. A propriedade tem escopo de caminho e vive no efeito Núcleo de Forja, condicionada à camada que o alvo carrega e não à origem do número invertido. Ela não ignora a couraça, converte a couraça em problema, e é contra portadores de Kōton com o corpo em liga e de Jiton cobertos de areia de ferro que ela pesa mais.
 
 ### Onmyōton
 
@@ -362,6 +381,8 @@ Ambas têm perícia completa, com dez caminhos, três inclinações e duas trans
 ## Progressão por Maestria
 
 Cada natureza avançada é uma perícia própria, LV1 a LV6, no mesmo padrão de Katon, Raiton ou Controle de Chakra. O pré-requisito de cada nível é o Tipo Elemental de todos os componentes no nível equivalente, conforme a tabela de Requisitos de Acesso.
+
+A Incandescência é a primeira exceção declarada. Ela corre pela inclinação de extensão Brasa dentro da Perícia de Katon, e os níveis dela são os da hospedeira, com a inclinação e os caminhos comprados pelo preço de aquisição adicional da categoria Ninjutsu e com Ápice próprio no lugar da transcendência de LV6. A forma vale para Kyōka e para Kekkei Genkai igualmente, porque o que a autoriza é a seção 3 do Manual de Criação de Perícias, que lê a manifestação e não a família da natureza. O Shakuton, Kekkei Genkai de Fogo e Vento, está na fila para a mesma forma sob a inclinação Dessecação, e nenhuma outra natureza do catálogo a adota sem que a errata correspondente a autorize.
 
 | Nível | Rank acessível | O que o shinobi alcança |
 |---|---|---|
