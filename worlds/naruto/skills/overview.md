@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.10
+version: 2.11
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.10. Camada de relação entre domínios.**
+**v2.11. Camada de relação entre domínios.**
 
 ---
 
@@ -47,6 +47,10 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
 | Passagem | v1.1 | INT | Erudição ×1,7 |
+| Barreira | v1 | SAB | Erudição ×1,7 |
+| Kenpo | v1 | DES | Físico ×1,0 |
+
+Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova.
 
 ### Por que três categorias e não uma
 
@@ -79,9 +83,10 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 |---|---|
 | INT | 10 |
 | RES | 2 |
-| SAB | 1 |
+| SAB | 2 |
 | PRE | 1 |
-| FOR, VEL, DES, DEF, CAR, VON | 0 |
+| DES | 1 |
+| FOR, VEL, DEF, CAR, VON | 0 |
 
 ### Leitura da carga
 
@@ -229,15 +234,16 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Perícia | Declarada por | Bloqueia |
 |---|---|---|
 | Percepção | Sensoriamento v2, em três fronteiras | Sensoriamento v2, nos caminhos Rastro, Multidão e Ronda |
-| Barreira | Fūinjutsu v1 | o Fūin Kekkai |
 | Marionetista | Controle de Chakra v2 | nada |
 | Taijutsu | documento do clã Senju, que vende desconto de XP nela, e o Sistema dos Oito Portões, que lhe reserva a coluna de acesso | nada |
 | Perícia de arma | vantagens, que concedem bônus de arremesso e precisão de lançamento | nada |
 | Furtividade, Lábia e o eixo não combatente | vantagens, que testam as duas por nome | nada |
 
-**Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e os estilos nomeados entram como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio.
+Barreira saiu desta fila porque já é documento publicado, v1, e a linha permanecia aqui por esquecimento de propagação e não por dívida real.
 
-**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. O que ainda não existe é essa camada geral, e é a ausência dela que mantém o Chidori em divergência de motor.
+**Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e a maior parte dos estilos nomeados entra como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio. Kenpo é a exceção nomeada a essa nota, e não a substitui: o Núcleo de Combate, seção 9, declara que o repertório físico especializado de uma escola de combate pode pertencer a documento próprio que consome o motor comum sem redefini-lo, e Kenpo se ergue sobre essa autorização. A regra que decide entre as três formas, caminho, documento de clã ou perícia própria, é a densidade da escola: uma escola com identidade mecânica larga o suficiente para sustentar seis níveis e partição em inclinações pede documento próprio, e uma que só acrescenta um verbo ou dois ao repertório de um clã cabe como caminho.
+
+**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. Kenpo acrescentou duas réguas próprias sob a mesma regra, o Fator de Kenpo e a Eficiência de Retorno, também pendentes de absorção. O que ainda não existe é essa camada geral, e é a ausência dela que mantém o Chidori em divergência de motor.
 
 ---
 
@@ -254,6 +260,8 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2 | conforme |
+| Barreira v1 | conforme |
+| Kenpo v1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
 
@@ -279,6 +287,8 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.11.** A perícia de Kenpo v1 nasce, a décima sexta do sistema e a primeira do eixo físico. Ela entra no Registro de Regentes com regente DES e categoria Físico ×1,0, categoria que a Economia de XP já publicava sem uma perícia v7 para consumi-la. A nota de desenho sobre o eixo físico ganha a exceção nomeada que faltava: Kenpo se ergue como documento próprio pela autorização do Núcleo de Combate, seção 9, e não como caminho de Taijutsu nem como documento de clã, e a nota passa a declarar o critério que separa as três formas. A Dependência do eixo físico registra as duas réguas que Kenpo acrescentou, o Fator de Kenpo e a Eficiência de Retorno, pendentes de absorção pela camada geral no mesmo padrão que o Sistema dos Oito Portões já abriu. Nesta mesma passada, a perícia de Barreira v1, publicada desde antes desta versão, entra no Registro de Regentes e no Registro de Conformidade e sai da Fila de Nascimento, onde permanecia por esquecimento de propagação. A Carga por atributo ganha a coluna de DES, com uma perícia, e o SAB sobe de um para dois. Nenhuma perícia existente muda de regente, categoria ou custo.
 
 **v2.10.** O Manual de Criação de Perícias sobe para v7.2 e ganha duas peças novas na seção 3: a regra da inclinação de extensão manifestada, exceção nomeada e única à regra do porteiro, para o caso em que o requisito de manifestação não apenas autoriza um objeto mas abre pergunta nova na lista de resposta da perícia hospedeira; e a seção 13.1, o Ápice de Extensão Manifestada, o capstone daquela inclinação, exigindo apenas os caminhos dela mesma aprofundados e distinto da transcendência de LV6 da perícia inteira. O checklist da seção 15.4 e a lista de instruções da seção 17 passam a citar a exceção. Nenhuma perícia publicada declara inclinação de extensão manifestada hoje, a varredura desta passada não achou nenhuma em documento de perícia nem em documento de clã, e por isso a mudança não força rework em nenhum dos catorze documentos conformes. O Registro de Conformidade sobe a coluna para Manual v7.2, e a citação de dependência do Senjutsu é corrigida na mesma passada.
 
