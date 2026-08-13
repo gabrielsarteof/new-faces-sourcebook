@@ -32,6 +32,12 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
 | [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.2 | system | final |
 
+## Comum · Perícias sem cenário
+
+| Documento | id | v | tipo | status |
+|---|---|---|---|---|
+| [Taichi](worlds/common/skills/taichi.md) | `common.skill.taichi` | 1 | skill | final |
+
 ## Jujutsu Kaisen
 
 | Documento | id | v | tipo | status |
@@ -239,7 +245,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.1 | skill | final |
-| [Taichi](worlds/naruto/skills/taichi.md) | `naruto.skill.taichi` | 1 | skill | final |
 | [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.2 | skill | final |
 | [Liberação de Yin](worlds/naruto/skills/yin-release.md) | `naruto.skill.yin-release` | 4.1 | skill | final |
 

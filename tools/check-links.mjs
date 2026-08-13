@@ -25,6 +25,7 @@ const MARCA_FIM = '## Pendências herdadas da migração';
 
 const GRUPO_ROTULO = {
   'core': 'Núcleo — regras agnósticas de cenário',
+  'worlds/common/skills': 'Comum · Perícias sem cenário',
   'worlds/naruto/systems': 'Naruto · Sistemas',
   'worlds/naruto/skills': 'Naruto · Perícias',
   'worlds/naruto/compendiums': 'Naruto · Compêndios de técnicas',

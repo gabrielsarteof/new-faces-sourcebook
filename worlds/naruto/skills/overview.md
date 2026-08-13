@@ -77,8 +77,17 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 **Físico** entra pela primeira vez neste registro com o Taichi, e não é categoria
 nova: o Manual de Economia de XP já a publicava desde a v1, no degrau mais barato
 da escala geral, para o domínio que não opera energia alguma, nem bruta nem
-convertida. O Taichi lê o corpo contra o corpo, e é a primeira perícia do cenário
-a cobrar por esse eixo.
+convertida. O Taichi lê o corpo contra o corpo, e é a primeira perícia a cobrar
+por esse eixo em qualquer cenário do repositório.
+
+**Nota sobre o Taichi.** O documento vive em `worlds/common/skills/`, fora da
+árvore do Naruto, porque nenhum efeito dele lê fato de cenário e a dependência
+inteira mora em camada de núcleo. Ele entra neste registro porque as relações
+que ele estabelece, categoria de custo, fronteira com Sensoriamento e Controle
+de Chakra, ausência de eixo de vizinhança, são fatos sobre como ele se encaixa
+no sistema de perícias do Naruto quando um personagem deste cenário o compra,
+e essa é exatamente a classe de fato que a regra de propriedade da seção 1
+reserva a este índice.
 
 ### Carga por atributo
 
@@ -307,7 +316,7 @@ Só a de Percepção depende de material que não está na sessão. As quatro no
 
 ## 9. Registro de Alterações
 
-**v2.11.** O Taichi nasce, décima quinta perícia do sistema, primeira do eixo físico e primeira regida por DES. Ele entra no Registro de Regentes com categoria Físico ×1,0, degrau que o Manual de Economia de XP já publicava sem perícia alguma para ocupá-lo. A tabela de Carga por atributo ganha a linha de DES. O Registro de Vizinhança recebe a nota de que o Taichi não tem eixo ainda, por falta de uma segunda perícia física para formar par. O Registro de Fronteira ganha o bloco de cinco cedências do Taichi v1, com o Núcleo de Combate como maior credor. O Registro de Portão Duplo ganha a nota de que o Taichi não separa magnitude de precisão e não entra na tabela. A Fila de Nascimento registra a resolução da dependência do eixo físico: o Núcleo de Combate v1 publicou a camada geral que faltava, e Taijutsu, Perícia de arma e Marionetista deixam de estar bloqueados por ela, com uma divergência entre este registro e o Sistema dos Oito Portões sobre absorção do trio de Fator de Portão ficando aberta para decisão de Gabriel. O Registro de Conformidade recebe a linha do Taichi v1, conforme. A auditoria contra o Núcleo de Combate abriu quatro erratas novas, todas de dívida alheia: a conversão de margem em metros que a Seção 9 promete e não resolve, a citação cruzada da escala de resultado daquela mesma seção, a ausência de limiares numéricos de margem de vitória em teste oposto, e a falta de declaração de não cumulatividade entre a vantagem Gênio Bruto e a exceção de Enraizamento, primeira substituição dura de atributo por atributo do corpus.
+**v2.11.** O Taichi nasce, décima quinta perícia do sistema, primeira do eixo físico, primeira regida por DES e primeira publicada em `worlds/common/skills/` em vez de dentro de um mundo, porque nenhuma linha dela lê fato de cenário. `tools/check-links.mjs` ganhou o rótulo de grupo Comum · Perícias sem cenário para a pasta nova. Ele entra no Registro de Regentes com categoria Físico ×1,0, degrau que o Manual de Economia de XP já publicava sem perícia alguma para ocupá-lo. A tabela de Carga por atributo ganha a linha de DES. O Registro de Vizinhança recebe a nota de que o Taichi não tem eixo ainda, por falta de uma segunda perícia física para formar par. O Registro de Fronteira ganha o bloco de cinco cedências do Taichi v1, com o Núcleo de Combate como maior credor. O Registro de Portão Duplo ganha a nota de que o Taichi não separa magnitude de precisão e não entra na tabela. A Fila de Nascimento registra a resolução da dependência do eixo físico: o Núcleo de Combate v1 publicou a camada geral que faltava, e Taijutsu, Perícia de arma e Marionetista deixam de estar bloqueados por ela, com uma divergência entre este registro e o Sistema dos Oito Portões sobre absorção do trio de Fator de Portão ficando aberta para decisão de Gabriel. O Registro de Conformidade recebe a linha do Taichi v1, conforme. A auditoria contra o Núcleo de Combate abriu quatro erratas novas, todas de dívida alheia: a conversão de margem em metros que a Seção 9 promete e não resolve, a citação cruzada da escala de resultado daquela mesma seção, a ausência de limiares numéricos de margem de vitória em teste oposto, e a falta de declaração de não cumulatividade entre a vantagem Gênio Bruto e a exceção de Enraizamento, primeira substituição dura de atributo por atributo do corpus.
 
 **v2.10.** O Manual de Criação de Perícias sobe para v7.2 e ganha duas peças novas na seção 3: a regra da inclinação de extensão manifestada, exceção nomeada e única à regra do porteiro, para o caso em que o requisito de manifestação não apenas autoriza um objeto mas abre pergunta nova na lista de resposta da perícia hospedeira; e a seção 13.1, o Ápice de Extensão Manifestada, o capstone daquela inclinação, exigindo apenas os caminhos dela mesma aprofundados e distinto da transcendência de LV6 da perícia inteira. O checklist da seção 15.4 e a lista de instruções da seção 17 passam a citar a exceção. Nenhuma perícia publicada declara inclinação de extensão manifestada hoje, a varredura desta passada não achou nenhuma em documento de perícia nem em documento de clã, e por isso a mudança não força rework em nenhum dos catorze documentos conformes. O Registro de Conformidade sobe a coluna para Manual v7.2, e a citação de dependência do Senjutsu é corrigida na mesma passada.
 

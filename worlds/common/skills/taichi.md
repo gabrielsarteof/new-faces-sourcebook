@@ -1,9 +1,9 @@
 ---
-id: naruto.skill.taichi
+id: common.skill.taichi
 title: "Taichi"
 version: 1
 layer: scenario
-scenario: naruto
+scenario: common
 type: skill
 status: final
 source-file: Pericia_Taichi_v1.md
@@ -14,9 +14,11 @@ PERÍCIA DE TAICHI
 
 O Taichi é a arte de não opor força a força. O praticante formado não bloqueia o golpe que chega, ele sente a direção, a intensidade e a intenção pelo contato, e devolve o que recebeu usando o próprio corpo do agressor como veículo. A postura enraizada absorve o que a estrutura montada não consegue deter, a torção de quadril redireciona o que a estrutura não precisa deter, e o excedente se guarda para sair de uma vez quando o praticante decidir. Nenhum dos três pilares é potência bruta, e é essa recusa que separa o domínio de qualquer arte que vença pelo músculo.
 
-O território termina onde o ofício alheio começa. Toda leitura de posição, identidade e intenção à distância pertence ao Sensoriamento. Repulsão carregada por chakra, seja rider de técnica, sopro elemental ou correnteza, pertence ao Controle de Chakra, caminho Impregnação, verbo Base Ancorada, que já responde pelo lado defensivo daquele vetor. A definição dos quatro graus de estado e a régua que os posiciona pertencem ao Sistema de Efeitos de Status. A Potência de um golpe, a Guarda que o detém, a Absorção que o corpo sustenta e as quatro manobras de desequilíbrio pertencem ao Núcleo de Combate, que esta perícia consome inteiro sem redefinir uma linha dele. Obras nomeadas de escola de combate específica pertencem a compêndio próprio, ainda inexistente.
+O território termina onde o ofício alheio começa. A definição dos quatro graus de estado e a régua que os posiciona pertencem ao Sistema de Efeitos de Status. A Potência de um golpe, a Guarda que o detém, a Absorção que o corpo sustenta e as quatro manobras de desequilíbrio pertencem ao Núcleo de Combate, que esta perícia consome inteiro sem redefinir uma linha dele. Os dois são camada de núcleo, e valem para qualquer cenário que hospede esta perícia. Obras nomeadas de escola de combate específica pertencem a compêndio próprio, ainda inexistente.
 
-Contra Jujutsu, a distância é o destino do corpo alheio. O Jujutsu projeta o oponente até o chão. O Taichi devolve a força dele para ele mesmo, sem precisar projetar coisa nenhuma. Contra Aikido, a distância é o que sobra depois do golpe. O Aikido usa a trajetória que o atacante já trouxe e não guarda nada dela. O Taichi absorve, comprime e pode guardar o que absorveu para liberar depois, em outro instante e contra outro alvo.
+Esta perícia mora em worlds/common porque nenhuma linha dela pressupõe fato de cenário algum, e qualquer mundo que publique o Núcleo de Combate e o Sistema de Efeitos de Status pode hospedá-la sem tradução. No cenário Naruto, dois territórios vizinhos já publicados por outras perícias cruzam o caminho do Taichi e são cedidos: toda leitura de posição, identidade e intenção à distância pertence ao Sensoriamento, e repulsão carregada por chakra, seja rider de técnica, sopro elemental ou correnteza, pertence ao Controle de Chakra, caminho Impregnação, verbo Base Ancorada, que já responde pelo lado defensivo daquele vetor. Cenário sem essas duas perícias simplesmente não produz a cena em que a cedência importaria, e o Taichi resolve sozinho.
+
+Contra o Jiu-Jitsu, a distância é o destino do corpo alheio. O Jiu-Jitsu projeta o oponente até o chão. O Taichi devolve a força dele para ele mesmo, sem precisar projetar coisa nenhuma. Contra Aikido, a distância é o que sobra depois do golpe. O Aikido usa a trajetória que o atacante já trouxe e não guarda nada dela. O Taichi absorve, comprime e pode guardar o que absorveu para liberar depois, em outro instante e contra outro alvo.
 
 O regente é DES porque a identidade do domínio é sensibilidade de contato e não velocidade de deslocamento nem força de músculo. A régua de níveis desta perícia lê a população dos praticantes formados, e o LV1 já é o corpo que aprendeu a ceder em vez de resistir.
 
@@ -264,7 +266,7 @@ Atribuído: nenhum.
 
 Cânone fraco declarado: não se aplica, pela ausência de fonte primária.
 
-Decisão de sistema declarada: a tradução da arte marcial real Taichi Chuan pelo método de quatro passos, com o pilar de Enraizamento, o pilar de Ceder e Redirecionar e o pilar de Escuta pelo Contato como os três eixos originais, e as Oito Portas do repertório real como a quarta camada que vira a inclinação PORTAS; a fronteira contra Aikido, que projeta sem guardar, e contra Jujutsu, que arremessa o corpo alheio em vez de devolver a força dele; o regente DES em vez do VEL que artes marciais de velocidade usam, porque a identidade do domínio é sensibilidade e não deslocamento; a Reserva de Força como pool separado de PV e PS, que decai por cena inteira e não por turno; a substituição de RES pelo segundo termo do par defensivo de Empurrar e Derrubar, isolada em seção própria por ser a primeira do tipo no corpus; a leitura da Potência do golpe recebido pelo verbo Devolução, sem precedente publicado antes desta perícia.
+Decisão de sistema declarada: a publicação em worlds/common, primeira perícia jogável do corpus fora de um mundo específico, porque nenhum efeito dela lê fato de cenário e a dependência inteira mora em documentos de núcleo; a tradução da arte marcial real Taichi Chuan pelo método de quatro passos, com o pilar de Enraizamento, o pilar de Ceder e Redirecionar e o pilar de Escuta pelo Contato como os três eixos originais, e as Oito Portas do repertório real como a quarta camada que vira a inclinação PORTAS; a fronteira contra Aikido, que projeta sem guardar, e contra Jiu-Jitsu, que arremessa o corpo alheio em vez de devolver a força dele; o regente DES em vez do VEL que artes marciais de velocidade usam, porque a identidade do domínio é sensibilidade e não deslocamento; a Reserva de Força como pool separado de PV e PS, que decai por cena inteira e não por turno; a substituição de RES pelo segundo termo do par defensivo de Empurrar e Derrubar, isolada em seção própria por ser a primeira do tipo no corpus; a leitura da Potência do golpe recebido pelo verbo Devolução, sem precedente publicado antes desta perícia.
 
 Fontes descartadas com registro: nenhuma, pela ausência de fonte primária a descartar.
 
@@ -272,7 +274,7 @@ Proposta: todos os valores de custo, teste, régua e teto; a partição em três
 
 DEPENDÊNCIAS E PENDÊNCIAS
 
-Núcleo de Combate v1, dono do motor de manobras, da Potência, da Guarda, da Absorção e das cinco bandas, consumido sem redefinição em nenhum ponto desta perícia. Sistema de Efeitos de Status, dono da Imobilização, da Queda e da régua de graus, consumido pelos verbos Cai, Lie e Kao. Controle de Chakra, dono do caminho Impregnação e do verbo Base Ancorada, fronteira declarada contra Enraizamento pela separação de vetor. Compêndio de escola de combate, inexistente, dono de qualquer obra nomeada que um praticante desta perícia venha a executar.
+Núcleo de Combate v1, dono do motor de manobras, da Potência, da Guarda, da Absorção e das cinco bandas, consumido sem redefinição em nenhum ponto desta perícia. Sistema de Efeitos de Status, dono da Imobilização, da Queda e da régua de graus, consumido pelos verbos Cai, Lie e Kao. Compêndio de escola de combate, inexistente, dono de qualquer obra nomeada que um praticante desta perícia venha a executar. No cenário Naruto, a perícia de Controle de Chakra é dona do caminho Impregnação e do verbo Base Ancorada, com fronteira declarada contra Enraizamento pela separação de vetor.
 
 FILA DE ERRATA
 
@@ -294,4 +296,4 @@ v1
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.2. Custos leem o Manual de Economia de XP v2, seção 6.1. O motor de manobras, a Potência, a Guarda e a Absorção leem o Núcleo de Combate v1. A régua de graus de estado e as condições Imobilização e Queda pertencem ao Sistema de Efeitos de Status v2.4. A fronteira contra Impregnação lê a perícia de Controle de Chakra v3.3.
+Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.2. Custos leem o Manual de Economia de XP v2, seção 6.1. O motor de manobras, a Potência, a Guarda e a Absorção leem o Núcleo de Combate v1. A régua de graus de estado e as condições Imobilização e Queda pertencem ao Sistema de Efeitos de Status v2.4. No cenário Naruto, a fronteira contra Impregnação lê a perícia de Controle de Chakra v3.3.
