@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.2
+version: 4.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Futon_v3.md
 ---
 
-# Compêndio de Fūton (風遁) · v4.2
+# Compêndio de Fūton (風遁) · v4.3
 **Liberação de Vento**
 
 Catálogo das técnicas nomeadas do elemento vento. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
@@ -418,7 +418,7 @@ O usuário esvazia de ar uma zona ampla do campo, elevando a família de vácuo 
 
 O usuário ergue sobre o campo inteiro um vendaval contínuo de escala de tempestade, soprando numa direção escolhida e mantida. Florestas dobram e arrancam, projéteis de qualquer porte abandonam a trajetória, voo adversário se torna impossível e todo combatente luta ancorado ao chão ou é levado pela frente de ar, enquanto o usuário e os aliados avisados operam a favor do vento. A técnica converte a atmosfera do combate numa condição imposta, o clima como arma, e encerra a família de pressão no seu limite lógico, o vendaval que deixa de ser golpe e passa a ser o mundo onde a luta acontece.
 
-**Nota cruzada.** A direção escolhida e mantida é o que separa esta entrada do caminho Espiral, da inclinação Ciclone da Perícia de Fūton. O Vento Divino sopra por um rumo declarado, e a linha avisada se posiciona a favor dele e colhe vantagem disso. O sistema erguido pela Espiral gira em torno de um centro, alcança por igual todo corpo que esteja fora do centro e oferece escolha de alvo a ninguém. A ficha desta técnica permanece inalterada, e a distinção fica registrada para que nenhuma passagem futura funde as duas.
+**Nota cruzada.** A direção escolhida e mantida é o que separa esta entrada do caminho Espiral, da inclinação Ciclone da Perícia de Fūton. O Vento Divino sopra por um rumo declarado, e a linha avisada se posiciona a favor dele e colhe vantagem disso. O sistema erguido pela Espiral gira em torno de um centro, alcança por igual todo corpo que esteja fora do centro e oferece escolha de alvo a ninguém. A ficha desta técnica permanece inalterada, e a distinção fica registrada para que nenhuma passagem futura funde as duas. (A versão deste documento subiu para v4.3 na mesma passada: a v4.2 já estava tomada pela publicação da Perícia de Leque, colisão de versão que não gerava conflito de texto por escreverem o mesmo literal `version: 4.2` a partir de bases distintas, e por isso passou despercebida até esta nota cruzada expor a necessidade de conferir o histórico do documento.)
 
 ---
 
