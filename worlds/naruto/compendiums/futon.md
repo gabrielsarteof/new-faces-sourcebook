@@ -209,7 +209,7 @@ O usuário produz uma frente de vento larga e curta que atravessa o campo limpan
 **Fūton: Dai Kamaitachi — 大鎌鼬の術**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
-**Requisitos:** Fūton LV4 · Moldagem Alta · Caminho Rajada · Leque LV4 · Caminho Rede Cortante · leque de guerra empunhado
+**Requisitos:** Fūton LV4 · Moldagem Alta · Caminho Rajada · Leque LV4 · Caminho Rede Cortante (Leque) · leque de guerra empunhado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 6.200
@@ -348,7 +348,7 @@ O usuário retém uma massa de vento comprimido e a libera de uma vez, e a frent
 **Fūton: Tatsu no Ōshigoto — 風遁・竜の大仕事**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūton LV5 · Moldagem Alta · Caminho Ascendente · Leque LV4 · Caminho Rede Cortante · leque de guerra empunhado
+**Requisitos:** Fūton LV5 · Moldagem Alta · Caminho Ascendente · Leque LV4 · Caminho Rede Cortante (Leque) · leque de guerra empunhado
 **XP:** 15.200
 
 O usuário lança o golpe do leque ao céu em vez de à frente, e o vendaval sobe, se organiza e desce sobre o alvo como um tornado completo instantes depois. O intervalo entre o gesto e a chegada converte a técnica em armadilha aérea, e o oponente que leu o golpe do leque e não viu ataque algum é apanhado pelo funil descendente quando a guarda já baixou. O tornado ergue o que captura, retalha na rotação e descarta a grande altura. Manter a coluna organizada durante a subida e devolvê-la ao ponto exato da descida é o que põe a exigência de controle acima do rank. A entrada declara elevação de rider por borda.
