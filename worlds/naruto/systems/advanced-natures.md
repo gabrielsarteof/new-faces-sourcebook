@@ -276,11 +276,11 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 | Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | sem Centelha | 1,95 | cânone |
 | Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 | cânone |
 | Shinton (Sísmico) `[proposta]` | Terra | nenhum | A | Decisivo | 2% | 1,70 | criação de Gabriel |
-| Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 | criação do catálogo |
+| Chōton 潮遁 (Maré) `[proposta]` | Água | nenhum | A | Estratégico | 2% | 1,35 | criação de Gabriel |
 
 A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram. O Sísmico entra nesse grupo com a publicação da inclinação Sismo no Doton, no mesmo padrão que já valia para o Shiton.
 
-**Quatro Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon, Sismo, a inclinação de extensão da Kyōka Shinton, na Perícia de Doton — o primeiro caso em que a natureza avançada não abre perícia própria alguma, cabendo por inteiro dentro do domínio que a hospeda — e Ciclone, a inclinação de extensão da Kyōka Taiton, na Perícia de Fūton, com os caminhos Espiral, Olho e Fome e o Ápice O Vento Que Não Passa. O Taiton é o primeiro Kyōka do catálogo a conservar o rider do elemento base em vez de trocá-lo: nenhuma substituição está declarada para ele.
+**Cinco Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon, Sismo, a inclinação de extensão da Kyōka Shinton, na Perícia de Doton — o primeiro caso em que a natureza avançada não abre perícia própria alguma, cabendo por inteiro dentro do domínio que a hospeda —, Ciclone, a inclinação de extensão da Kyōka Taiton, na Perícia de Fūton, com os caminhos Espiral, Olho e Fome e o Ápice O Vento Que Não Passa, e Maré, a inclinação de extensão da Kyōka Chōton, na Perícia de Suiton, com os caminhos Preia-Mar, Vazante e Ciclo e o Ápice Macaréu. O Taiton é o primeiro Kyōka do catálogo a conservar o rider do elemento base em vez de trocá-lo: nenhuma substituição está declarada para ele.
 
 O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado, salvo substituição declarada pela regra de rider substituído por natureza intensificada do Sistema de Efeitos de Status, que fixa escopo, graus e vetor de teste da troca e mantém o registro dos casos vigentes.
 
@@ -401,6 +401,18 @@ A separação dos vizinhos fica registrada linha a linha, porque o Fogo é a reg
 
 **Sem perícia própria.** O Sísmico é a primeira natureza avançada do catálogo que não abre perícia. A competência que ele destrava entra na Perícia de Doton como a inclinação de extensão manifestada Sismo, com os caminhos Tremor, Concussão e Ressonância e com o Ápice Primeira Onda, pela regra da seção 3 e pela seção 13.1 do Manual de Criação de Perícias. A Centelha, o portão e o multiplicador permanecem aqui; a mecânica de mesa mora lá.
 
+### Maré
+
+`[proposta]` em toda a extensão. O Chōton é concebido para este sistema e não tem fonte primária a auditar.
+
+**Poder Estratégico.** A Maré muda a condição do campo inteiro em vez de vencer a troca direta, no mesmo critério que põe o Taiton na faixa Estratégico, e o multiplicador segue a régua sem desvio: Água 1,00 somada ao incremento Estratégico de 0,35 resulta em 1,35. O número permanece o mais baixo do catálogo de Kyōka porque a base da Água é a mais baixa das cinco naturezas, e o valor tático da natureza está no ciclo que ela impõe e não na cifra de dano.
+
+**Sem portão de linhagem.** O Chōton é intensificação de água acessível a qualquer praticante que passe na Centelha, sem clã, sem doutrina e sem vaga por geração. A Centelha corre pelo procedimento padrão de tier A, e a retentativa cobra pela linha Estratégico da tabela de poder.
+
+**Ciclo autônomo.** O portador declara o compasso de subida e descida da água e passa a lê-lo em vez de comandá-lo. Enquanto o ciclo corre, as fases alternam sozinhas, e o portador está sujeito a elas na mesma medida que o adversário.
+
+**Maré vive dentro da perícia de Suiton.** A natureza abre a inclinação de extensão manifestada Maré na Perícia de Suiton, com os caminhos Preia-Mar, Vazante e Ciclo e o Ápice Macaréu, em lugar de perícia própria. A razão é de camada: a Kyōka intensifica um único elemento e responde às perguntas do domínio daquele elemento, de modo que a mecânica dela pertence à perícia hospedeira pela regra da inclinação de extensão manifestada do Manual de Criação de Perícias. O tier, a Centelha, o poder e o multiplicador de dano continuam vivendo aqui.
+
 ### Onmyōton
 
 | Natureza | Perícia | Status |
@@ -416,7 +428,7 @@ Ambas têm perícia completa, com dez caminhos, três inclinações e duas trans
 
 Cada natureza avançada é uma perícia própria, LV1 a LV6, no mesmo padrão de Katon, Raiton ou Controle de Chakra. O pré-requisito de cada nível é o Tipo Elemental de todos os componentes no nível equivalente, conforme a tabela de Requisitos de Acesso.
 
-A Incandescência é a primeira exceção declarada. Ela corre pela inclinação de extensão Brasa dentro da Perícia de Katon, e os níveis dela são os da hospedeira, com a inclinação e os caminhos comprados pelo preço de aquisição adicional da categoria Ninjutsu e com Ápice próprio no lugar da transcendência de LV6. A forma vale para Kyōka e para Kekkei Genkai igualmente, porque o que a autoriza é a seção 3 do Manual de Criação de Perícias, que lê a manifestação e não a família da natureza. O Shakuton, Kekkei Genkai de Fogo e Vento, está na fila para a mesma forma sob a inclinação Dessecação, e nenhuma outra natureza do catálogo a adota sem que a errata correspondente a autorize.
+A Incandescência é a primeira exceção declarada. Ela corre pela inclinação de extensão Brasa dentro da Perícia de Katon, e os níveis dela são os da hospedeira, com a inclinação e os caminhos comprados pelo preço de aquisição adicional da categoria Ninjutsu e com Ápice próprio no lugar da transcendência de LV6. A forma vale para Kyōka e para Kekkei Genkai igualmente, porque o que a autoriza é a seção 3 do Manual de Criação de Perícias, que lê a manifestação e não a família da natureza. O Sísmico, o Tufão e a Maré seguem a mesma forma: o Sísmico pela inclinação Sismo na Perícia de Doton, o Tufão pela inclinação Ciclone na Perícia de Fūton, e a Maré pela inclinação de mesmo nome na Perícia de Suiton, cada um com o Ápice próprio da hospedeira no lugar da transcendência de LV6. O Shakuton, Kekkei Genkai de Fogo e Vento, está na fila para a mesma forma sob a inclinação Dessecação, e nenhuma outra natureza do catálogo a adota sem que a errata correspondente a autorize.
 
 | Nível | Rank acessível | O que o shinobi alcança |
 |---|---|---|
