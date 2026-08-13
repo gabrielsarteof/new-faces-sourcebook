@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.10
+version: 2.11
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.10. Camada de relação entre domínios.**
+**v2.11. Camada de relação entre domínios.**
 
 ---
 
@@ -36,6 +36,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Controle de Chakra | v3.3 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2 | RES | Chakra ×1,4 |
+| Kyūinjutsu | v1 | INT | Chakra ×1,4 |
 | Katon | v3 | INT | Ninjutsu ×1,5 |
 | Raiton | v2 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.1 | INT | Ninjutsu ×1,5 |
@@ -77,7 +78,7 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 
 | Atributo | Perícias que rege |
 |---|---|
-| INT | 10 |
+| INT | 11 |
 | RES | 2 |
 | SAB | 1 |
 | PRE | 1 |
@@ -85,9 +86,9 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 
 ### Leitura da carga
 
-O Núcleo de Perícias, seção 1, exige regentes distintos entre domínios vizinhos comprados juntos, para impedir que um único atributo alto destrave famílias inteiras de competência. Dez perícias em INT exigem que essa exigência seja lida com precisão.
+O Núcleo de Perícias, seção 1, exige regentes distintos entre domínios vizinhos comprados juntos, para impedir que um único atributo alto destrave famílias inteiras de competência. Onze perícias em INT exigem que essa exigência seja lida com precisão.
 
-**A exposição é menor que a contagem.** Genjutsu exige Controle de Chakra em nível não inferior ao próprio, e Fūinjutsu o exige em nível não inferior ao próprio menos um. Nenhuma das duas se destrava por INT sozinho, porque SAB precisa acompanhar. A independência que a regra protege já está garantida ali, por outro instrumento. A décima perícia, Passagem, entrou no eixo de ofício sob a mesma exigência cruzada de Controle de Chakra que já protege Fūinjutsu, em nível não inferior ao próprio menos um, de modo que a exposição real não cresceu junto com a contagem.
+**A exposição é menor que a contagem.** Genjutsu exige Controle de Chakra em nível não inferior ao próprio, e Fūinjutsu o exige em nível não inferior ao próprio menos um. Nenhuma das duas se destrava por INT sozinho, porque SAB precisa acompanhar. A independência que a regra protege já está garantida ali, por outro instrumento. A décima perícia, Passagem, entrou no eixo de ofício sob a mesma exigência cruzada de Controle de Chakra que já protege Fūinjutsu, em nível não inferior ao próprio menos um, de modo que a exposição real não cresceu junto com a contagem. A décima primeira, Kyūinjutsu, entrou sob a mesma exigência cruzada, em nível não inferior ao próprio menos um, e pela mesma razão a contagem voltou a crescer sem que a exposição real acompanhasse.
 
 **Os cinco elementos e a Liberação de Yin são o mesmo ato com matéria diferente.** Separá-los por atributo produziria distinção arbitrária entre competências que a obra trata como uma só disciplina, e o portão duplo contra Controle de Chakra já mantém a independência entre a magnitude e a precisão.
 
@@ -114,6 +115,8 @@ Agrupamentos de compra conjunta com frequência alta. É a tabela que torna o co
 **Eixo de engano.** Genjutsu, Controle de Chakra e Liberação de Yin. Regentes INT, SAB e INT.
 
 **Eixo do sábio.** Senjutsu, Controle de Chakra e Sensoriamento. Regentes RES, SAB e PRE. O terceiro entra porque o Modo Sábio eleva o alcance daquela perícia e o praticante que paga o modo costuma pagar a leitura junto, e os três regentes já nascem distintos.
+
+**Eixo do dreno.** Kyūinjutsu e Controle de Chakra. Regentes INT e SAB, já distintos, com a independência de acesso sustentada pelo portão em nível não inferior ao próprio menos um.
 
 ---
 
@@ -189,6 +192,18 @@ A resistência à entrada mora em dois lugares ao mesmo tempo, aqui e na Conten�
 
 A contrapartida da primeira linha corre no sentido inverso: o Sensoriamento recebe do Modo Sábio uma elevação categórica de alcance e conserva toda a leitura, de modo que a única coisa que atravessa a fronteira é a distância.
 
+### Cedido pelo Kyūinjutsu v1
+
+| Território | Dono |
+|---|---|
+| Captura de técnica com devolução na forma original, e dreno sustentado de entidade selada | Fūinjutsu, na Válvula |
+| Doação consentida e recusa do dreno | Controle de Chakra, no caminho Transferência |
+| Colheita de energia natural do ambiente | Senjutsu |
+| Dreno por dōjutsu | Manual de Técnicas Oculares |
+| Dreno por arma com vontade própria, por recurso vivo de clã e por entidade | documento de arma, documento de clã e documento de entidade, os três devidos |
+
+A contrapartida corre no sentido inverso na mesma passada: `jutsu-authoring.md` §2.8 nomeia esta perícia como dona do lado aberto e treinável do dreno, por Contato e por Meio, contra alvo que resiste e sem selo, sem clã e sem contrato, fechando a cedência que a Seção 2.8 vinha declarando sem dono desde a sua própria criação.
+
 ### Cedido por outros
 
 A Liberação de Yang v4 cedeu a leitura de presença viva e de vitalidade a distância ao Sensoriamento, retirando o caminho Sentinela Vital inteiro. A Liberação de Yin v4 declarou que não lê chakra alheio nem identifica fonte. O Ninjutsu Médico v3 declarou que a leitura de campo não é dele. As três cedências estão honradas nas duas pontas.
@@ -213,6 +228,7 @@ Pares em que duas perícias governam a mesma capacidade por eixos independentes,
 | Genjutsu | Controle de Chakra, em nível não inferior ao próprio | publicado |
 | Fūinjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
 | Senjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
+| Kyūinjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
 | Fūinjutsu | Barreira, no Fūin Kekkai | devido |
 | Fūinjutsu | Passagem, no deslocamento por marca | publicado |
 
@@ -254,6 +270,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2 | conforme |
+| Kyūinjutsu v1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
 
@@ -261,7 +278,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
+Nove, das quais três aplicadas. Seis seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -273,12 +290,15 @@ Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
 | Registrar Ame-no-Sagume como revogação externa da Supressão Recíproca, e Partilha como par de Rede Viva | Controle de Chakra v2 |
 | Resolver as três migrações para o Sensoriamento e rederivar sob Núcleo v2 | Percepção v5, ausente do projeto |
+| Citar no próprio texto do Corte de Fluxo a exceção que Ibukidonushi, transcendência de Kyūinjutsu, abre contra a leitura gratuita da reação | Controle de Chakra v3.3, caminho Contenção |
 
-Somente a última depende de material que não está na sessão.
+Somente a de Percepção depende de material que não está na sessão.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.11.** A Perícia de Kyūinjutsu v1 nasce, e o sistema passa de catorze para quinze perícias. Ela entra no Registro de Regentes com regente INT e categoria Chakra ×1,4, e é a décima primeira perícia naquele atributo; o Registro de Vizinhança ganha o eixo do dreno, com Controle de Chakra. No Registro de Fronteira, nasce o bloco de cinco cedências que a perícia nova declarou, três delas devidas a documentos que ainda não existem, e a contrapartida fecha do outro lado: `jutsu-authoring.md` §2.8 sobe para v2.9 e nomeia esta perícia como dona do lado aberto e treinável do dreno, cedência que a Seção 2.8 vinha declarando sem dono desde que a classificação nasceu na v2.4 daquele documento. O Registro de Portão Duplo ganha o par com o Controle de Chakra em nível não inferior ao próprio menos um. O Registro de Conformidade ganha a linha da perícia nova, conforme ao Núcleo v2.2 e ao Manual v7.2 sem ressalva. As Erratas Abertas ganham uma nova linha, contra o caminho Contenção de Controle de Chakra, que precisa citar no próprio texto do Corte de Fluxo a exceção que a transcendência Ibukidonushi abre.
 
 **v2.10.** O Manual de Criação de Perícias sobe para v7.2 e ganha duas peças novas na seção 3: a regra da inclinação de extensão manifestada, exceção nomeada e única à regra do porteiro, para o caso em que o requisito de manifestação não apenas autoriza um objeto mas abre pergunta nova na lista de resposta da perícia hospedeira; e a seção 13.1, o Ápice de Extensão Manifestada, o capstone daquela inclinação, exigindo apenas os caminhos dela mesma aprofundados e distinto da transcendência de LV6 da perícia inteira. O checklist da seção 15.4 e a lista de instruções da seção 17 passam a citar a exceção. Nenhuma perícia publicada declara inclinação de extensão manifestada hoje, a varredura desta passada não achou nenhuma em documento de perícia nem em documento de clã, e por isso a mudança não força rework em nenhum dos catorze documentos conformes. O Registro de Conformidade sobe a coluna para Manual v7.2, e a citação de dependência do Senjutsu é corrigida na mesma passada.
 
