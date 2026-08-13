@@ -1,7 +1,7 @@
 ---
 id: core.skill-authoring
 title: "Manual de Criação de Perícias"
-version: 7.1
+version: 7.2
 layer: core
 type: methodology
 status: final
@@ -10,7 +10,8 @@ source-file: Manual_de_Criacao_de_Pericias_v7.md
 
 # Manual de Criação de Perícias
 
-**v7.1 — Substitui integralmente o v6**
+**v7.2 — Acrescenta a regra da inclinação de extensão manifestada (§3) e o Ápice de
+Extensão Manifestada (§13.1) à v7.1**
 
 Este manual é o procedimento de construção de perícias. Ele diz como se preenche cada
 camada da estrutura definida no *Núcleo de Perícias*, que é quem define quais camadas
@@ -96,6 +97,17 @@ variedade faz por ser aquela variedade.
 efeito, é requisito, e requisito mora na ficha do objeto. A perícia pode ser citada como
 exigência por quantos objetos quiserem, sem gastar orçamento com isso. Caminho que se
 descreve por aquilo que ele destrava e por mais nada está vazio.
+
+**Regra da inclinação de extensão manifestada.** Exceção nomeada à regra do porteiro, e
+a única. Requisito de manifestação que apenas autoriza o uso de um objeto nomeado, a
+técnica, a linhagem, o item, permanece porteiro e mora na ficha daquele objeto, sob a
+regra anterior. Requisito de manifestação que abre pergunta nova na lista de resposta
+da perícia hospedeira, pergunta que nenhum praticante sem aquela manifestação pode
+fazer, deixa de ser porteiro e passa a ser inclinação, chamada aqui de inclinação de
+extensão. A distinção não está na origem: as duas nascem de linhagem, dōjutsu ou
+herança rara, igualmente. Está na forma. Porteiro autoriza; inclinação de extensão
+responde. Inclinação de extensão se particiona, se audita e se precifica como qualquer
+outra inclinação da seção 7, e seu ápice segue a seção 13.1.
 
 **Regra da técnica nomeada.** Habilidade que o cânone do cenário nomeia é objeto de
 compêndio, com registro, custo e acesso próprios, e nunca efeito embutido em perícia. A
@@ -419,6 +431,37 @@ que o conjunto de transcendências sustenta, nomeando as figuras do cenário que
 retratam. É o teste final de que o topo da perícia produz personagens reconhecíveis em
 vez de fichas otimizadas.
 
+### 13.1 Ápice de Extensão Manifestada
+
+Inclinação de extensão pela regra da seção 3, destravada por manifestação
+e não disponível à generalidade dos praticantes da perícia hospedeira,
+recebe capstone próprio, chamado aqui de Ápice, distinto da
+transcendência de LV6 da perícia.
+
+O Ápice exige apenas que os caminhos DESTA inclinação estejam
+Aprofundados, independente do estado dos caminhos das demais inclinações
+da perícia hospedeira. Ele não altera o estado dos caminhos de outras
+inclinações e não conta como a transcendência de LV6 da perícia para
+nenhum efeito. Um praticante pode possuir o Ápice de uma extensão
+manifestada estando ainda em nível baixo na perícia hospedeira, desde que
+tenha comprado e aprofundado os caminhos daquela inclinação especificamente,
+inclusive por aquisição adicional fora da progressão padrão de nível.
+
+O Ápice segue a mesma estrutura obrigatória da transcendência comum: a
+linha de revogação no formato "revoga: a regra tal", a habilidade própria
+com os oito campos e números resolvidos, e a versão elevada dos efeitos do
+caminho tocado, quando ela tocar um caminho.
+
+**Justificativa.** A inclinação de extensão já é rara por manifestação, e
+amarrar o ápice dela ao LV6 da perícia inteira apagaria a raridade em vez
+de destacá-la, exigindo do portador dominar também os caminhos comuns da
+perícia, que não têm relação com a linhagem que ele carrega.
+
+**Uma extensão, um Ápice.** Salvo indicação contrária no documento da
+extensão específica, cada inclinação de extensão recebe exatamente um
+Ápice, construído a partir do caminho de maior grau e complexidade da
+própria inclinação.
+
 ---
 
 ## 14. Aquisição e largura
@@ -503,6 +546,9 @@ transcendências pelo padrão de revogação.
 - **Progressão declarada:** todo efeito diz o que muda no LV5.
 - **Transcendências:** cada uma com linha de revogação, família declarada, números
   resolvidos e as versões LV6 dos caminhos que toca.
+- **Ápices de extensão:** cada inclinação de extensão manifestada, se a perícia tiver
+  alguma, tem Ápice próprio pela seção 13.1, com linha de revogação, sem depender do
+  estado das demais inclinações e sem contar como a transcendência de LV6.
 - **Arquétipos:** o topo da perícia produz figuras reconhecíveis do cenário.
 - **Valores conferidos:** todas as camadas batem com as tabelas do núcleo.
 
@@ -546,7 +592,9 @@ O critério de aceite é o checklist da seção 15.4.
 8. Uma grandeza, uma fonte. Duas réguas nunca leem a mesma especialização.
 9. Verifique duplicação semântica de verbo. Face passiva de caminho existente se escreve
    dentro dele.
-10. Corte porteiros. Requisito mora na ficha do objeto.
+10. Corte porteiros. Requisito mora na ficha do objeto, exceto quando a manifestação
+    abre pergunta nova na lista de resposta da perícia hospedeira: aí é inclinação de
+    extensão (seção 3), com Ápice próprio pela seção 13.1, nunca porteiro.
 11. Corte técnicas nomeadas. A perícia dá competência, o compêndio dá a obra.
 12. Escreva a linha de revogação antes de cada transcendência. Sem ela, é upgrade.
 13. Transcendência que toca caminho traz as versões LV6 dos efeitos daquele caminho.
