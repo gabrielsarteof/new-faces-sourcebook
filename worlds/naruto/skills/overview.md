@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.10
+version: 2.11
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.10. Camada de relação entre domínios.**
+**v2.11. Camada de relação entre domínios.**
 
 ---
 
@@ -37,7 +37,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2 | RES | Chakra ×1,4 |
 | Katon | v3 | INT | Ninjutsu ×1,5 |
-| Raiton | v2 | INT | Ninjutsu ×1,5 |
+| Raiton | v3 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.1 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.1 | INT | Ninjutsu ×1,5 |
 | Doton | v2 | INT | Ninjutsu ×1,5 |
@@ -245,7 +245,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v3, Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
+| Katon v3, Raiton v3, Fūton v2, Suiton v2, Doton v2 | conforme |
 | Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
@@ -261,7 +261,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
+Dez, das quais três aplicadas. Sete seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -273,12 +273,16 @@ Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
 | Registrar Ame-no-Sagume como revogação externa da Supressão Recíproca, e Partilha como par de Rede Viva | Controle de Chakra v2 |
 | Resolver as três migrações para o Sensoriamento e rederivar sob Núcleo v2 | Percepção v5, ausente do projeto |
+| Comportar rider substituído por Kyōka, hoje declarado como propriedade passiva do Tipo | Sistema Elemental e Naturezas Avançadas v5.2 |
+| Abrir linha de preço própria para o Ápice de Extensão Manifestada, hoje lido pela régua de transcendência adicional | Manual de Economia de XP v2.2, seção 7 |
 
 Somente a última depende de material que não está na sessão.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.11.** A Perícia de Raiton sobe para v3 e passa a ser a primeira do corpus a declarar inclinação de extensão manifestada, o que retira da nota da v2.10 a afirmação de que nenhuma perícia publicada declarava uma. São duas, hospedadas pelas Kyōka de Raio: Calamidade, aberta pelo Kuroi Kaminari, e Agudo, aberta pelo Shiden, cada uma com três caminhos e um Ápice próprio pela seção 13.1 do manual. Nenhuma inclinação, caminho ou transcendência anterior do Raiton foi tocada, o regente e a categoria permanecem, e o Registro de Conformidade acompanha a versão nova. A passagem abre duas erratas de sistema, a substituição de rider por Kyōka e a linha de preço do Ápice na economia de XP, ambas registradas no changelog do documento da perícia.
 
 **v2.10.** O Manual de Criação de Perícias sobe para v7.2 e ganha duas peças novas na seção 3: a regra da inclinação de extensão manifestada, exceção nomeada e única à regra do porteiro, para o caso em que o requisito de manifestação não apenas autoriza um objeto mas abre pergunta nova na lista de resposta da perícia hospedeira; e a seção 13.1, o Ápice de Extensão Manifestada, o capstone daquela inclinação, exigindo apenas os caminhos dela mesma aprofundados e distinto da transcendência de LV6 da perícia inteira. O checklist da seção 15.4 e a lista de instruções da seção 17 passam a citar a exceção. Nenhuma perícia publicada declara inclinação de extensão manifestada hoje, a varredura desta passada não achou nenhuma em documento de perícia nem em documento de clã, e por isso a mudança não força rework em nenhum dos catorze documentos conformes. O Registro de Conformidade sobe a coluna para Manual v7.2, e a citação de dependência do Senjutsu é corrigida na mesma passada.
 

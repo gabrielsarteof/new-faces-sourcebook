@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.shiden
 title: "Shiden — Relâmpago Púrpura (紫電)"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
@@ -10,7 +10,7 @@ source-file: Shiden_v1.md
 ---
 
 # Relâmpago Púrpura (紫電)
-Raiton: Shiden · Ninjutsu · Kyōka Shiden · Rank A
+Raiton: Shiden · Ninjutsu · Raiton · Rank A · [CANON]
 
 ---
 
@@ -41,17 +41,28 @@ A entrada corre por natureza intensificada e não por Raiton comum, o que a colo
 - **Raiton LV5:** portão de rank A, que resolve em 71 pela soma da Base 45 com INT 26
 - **Moldagem Refinada:** 71 pela soma da Base Total com SAB, degrau lido do coeficiente técnico 2,0
 - **Caminho Lança:** inclinação Relâmpago, dona da descarga concentrada alongada em forma dirigida
-- **Kyōka Shiden manifestada:** a natureza intensificada de Raio, conforme Naturezas Avançadas
+
+A Kyōka Shiden deixou de figurar entre os requisitos obrigatórios e passou a elevação, conforme a seção seguinte.
+
+---
+
+## Elevação por Kyōka Shiden
+
+A entrada corre por duas rotas que chegam à mesma cor. A rota do trabalho é o refinamento do Raiton comum até a banda violeta, e é ela que o criador percorreu. A rota do sangue é a manifestação da Kyōka Shiden, que entrega de nascença a banda que a primeira rota custa uma carreira a aproximar.
+
+Quem aprende a técnica sem a Kyōka a executa com o multiplicador comum do elemento, 1,75, e dispõe da modulação de intensidade e da condução por meio que a entrada possui.
+
+Quem manifesta a Kyōka executa a mesma técnica com o multiplicador 1,85 da natureza intensificada, e o Raiton inteiro dele corre na mesma banda. A inclinação de extensão Agudo da Perícia de Raiton fica disponível a esse portador e responde por corte, fidelidade de rumo e chegada sem trajeto, propriedades que a técnica sozinha não concede.
 
 ---
 
 ## Despertar / Aquisição
 
-A entrada está na camada Assinatura Pessoal em estado de Autoria Aberta. Nenhum personagem inicial a adquire na criação.
+A entrada está na camada Assinatura Pessoal em estado Registrada, com Kakashi Hatake como autor declarado. A obra registra que ele a desenvolveu por refinamento próprio, como substituto do Raikiri, depois de perder o dōjutsu que tornava a investida linear segura, e a autoria fica fechada nele por essa razão.
 
-O portão real é a Centelha da Kyōka Shiden, que corre fora da criação de personagem e é testada de forma independente conforme a camada de naturezas avançadas. Manifestada a Kyōka, a entrada se abre a quem cumprir os demais requisitos e concluir o processo de criação de técnica.
+Nenhum personagem inicial a adquire na criação. O acesso do jogador corre pela regra de contexto aprovado da Norma de Produção de Compêndios, que governa a camada Assinatura Pessoal em estado Registrada.
 
-A técnica é transmissível por ensino a qualquer praticante que reúna os mesmos requisitos, e o portão da Kyōka não é de linhagem nem de doutrina.
+A técnica é transmissível por ensino a qualquer praticante que reúna os requisitos mecânicos, e o cânone registra a transmissão a três gerações seguintes. A Kyōka Shiden permanece fora da lista de requisitos e entra como elevação, conforme a seção acima.
 
 ---
 
@@ -107,13 +118,14 @@ Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
 dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 900 × 0,16 × 1,85 + LV_CC² × 2,5 × 2,0
-dano = 266 + LV_CC² × 5
+
+sem a Kyōka:   dano = 900 × 0,16 × 1,75 + LV_CC² × 2,5 × 2,0 = 252 + LV_CC² × 5
+com a Kyōka:   dano = 900 × 0,16 × 1,85 + LV_CC² × 2,5 × 2,0 = 266 + LV_CC² × 5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, porque o feixe cruza o espaço até o alvo. O coeficiente técnico 2,0 corresponde à dependência alta, porque a modulação de intensidade é a técnica inteira e ela vive na moldagem.
 
-O multiplicador 1,85 é o da Kyōka Shiden e substitui o multiplicador comum do elemento base, conforme Naturezas Avançadas. A carga adicional eleva o escopo e não entra no termo de RC nominal do dano.
+O multiplicador 1,75 é o do Tipo Elétrico comum e responde pelo executante que aprendeu a técnica sem a natureza intensificada. O multiplicador 1,85 é o da Kyōka Shiden e substitui o comum no portador dela, conforme Naturezas Avançadas. A carga adicional eleva o escopo e permanece fora do termo de RC nominal do dano.
 
 ---
 
@@ -121,12 +133,12 @@ O multiplicador 1,85 é o da Kyōka Shiden e substitui o multiplicador comum do 
 
 Par de referência Elite, PV 1.440.
 
-| LV_CC | Fator de Moldagem | Dano por corpo | % PV do par |
-|---|---|---|---|
-| 5, entrada | 125 | 391 | 27% |
-| 6 | 180 | 446 | 31% |
-| 6 com 1 caminho | 245 | 511 | 36% |
-| 6 com 2 caminhos | 320 | 586 | 41% |
+| LV_CC | Fator de Moldagem | Dano sem a Kyōka | % PV do par | Dano com a Kyōka | % PV do par |
+|---|---|---|---|---|---|
+| 5, entrada | 125 | 377 | 26% | 391 | 27% |
+| 6 | 180 | 432 | 30% | 446 | 31% |
+| 6 com 1 caminho | 245 | 497 | 35% | 511 | 36% |
+| 6 com 2 caminhos | 320 | 572 | 40% | 586 | 41% |
 
 O dano por corpo é o mesmo em qualquer degrau de escopo. O rendimento da técnica escala pelo número de corpos alcançados.
 
@@ -162,6 +174,8 @@ O feixe entra pelo ponto alcançado e percorre o trajeto nervoso a partir dele, 
 
 O modo cirúrgico não aplica rider.
 
+**Substituição de rider pelo caminho Gume.** O portador da Kyōka Shiden que possua o caminho Gume da inclinação Agudo entrega esta técnica com dano cortante e aplica Sangramento no lugar da Paralisia Parcial, com o DoT lido do dano causador pela régua do Sistema de Efeitos de Status e a penalidade de remoção declarada naquele caminho. A substituição de rider por Kyōka segue como pendência de errata do Sistema Elemental e de Naturezas Avançadas, que hoje declaram o rider como propriedade passiva do Tipo.
+
 ---
 
 ## Progressão por Maestria
@@ -192,7 +206,8 @@ O modo cirúrgico não aplica rider.
 
 ## Sinergias
 
-- **Kyōka Shiden:** o multiplicador 1,85 coloca a entrada na faixa de dano das grandes perfurações do elemento sem exigir contato nem investida, e é a razão pela qual ela substitui as formas de investida em vez de complementá-las
+- **Kyōka Shiden:** o multiplicador 1,85 coloca a entrada na faixa de dano das grandes perfurações do elemento sem exigir contato nem investida, e o portador da natureza soma a isso a inclinação de extensão Agudo da Perícia de Raiton
+- **Ausência da Kyōka:** o executante que aprendeu a técnica opera em 1,75 e conserva a modulação de intensidade, a condução por meio e a ausência de exposição, que são propriedades da obra e não da natureza
 - **Meio condutor em cena:** a elevação de escopo por condutor não consome carga, e uma poça no lugar certo entrega em um turno o que a carga entregaria em dois
 - **Modo cirúrgico:** a única ferramenta do elemento que resolve problema de precisão sem dano, e ela abre cenas de resgate, desarme e captura que nenhuma outra entrada cobre
 - **Caminho Rede:** o Salto Condutor encadeia trechos condutores separados e amplia a área efetiva sem elevar a categoria declarada
