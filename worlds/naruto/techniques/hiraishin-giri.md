@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hiraishin-giri
 title: "Execução do Deus do Trovão Voador (飛雷神斬り)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -31,11 +31,11 @@ Nenhuma antecipação oferece defesa. A percepção que lê movimento antes de e
 ## Requisitos de Acesso
 
 - **Deus do Trovão Voador:** a entrada de origem, que carrega o portão de rank em Passagem LV6 e o satisfaz com folga sobre o rank A desta
-- **Perícia de arma LV5:** portão de rank A na coluna do manejo, *(perícia pendente de documento)*
+- **Kunai LV5:** portão de rank A, caminho Transição aberto, com o verbo Chegada Cortante entregando o corte no instante da travessia
 - **Fūinjutsu LV4:** nível em que o caminho Âncora abre, que é tudo o que a coluna da marca exige
 - **Moldagem Alta:** 58 pela soma da Base Total com SAB, degrau lido do coeficiente técnico 1,4
 
-A entrada publica preço e permanece inexecutável enquanto a perícia de arma não possuir documento, conforme a doutrina de portão pendente do Compêndio de Fūinjutsu. O preço vale no momento da compra e a revisão desta ficha o corrige dali em diante, sem retroagir sobre quem já pagou.
+A entrada publica preço e passa a executável com a publicação da Perícia de Kunai, que fecha a doutrina de portão pendente do Compêndio de Fūinjutsu. O preço vale no momento da compra e a revisão desta ficha o corrige dali em diante, sem retroagir sobre quem já pagou.
 
 ---
 
@@ -112,7 +112,7 @@ A magnitude fica na metade baixa do rank por construção. O que a entrada compr
 
 O Perfil Inevitável anula a esquiva do alvo por completo. Nenhuma reação defensiva de movimento se aplica, nenhuma previsão de dōjutsu concede posição melhor e nenhuma iniciativa superior antecipa a chegada. Restam a Absorção e a Resistência, que mitigam pelas regras ordinárias.
 
-A entrada não declara perfuração de Absorção própria. A competência pertence ao manejo da arma e será lida do caminho correspondente quando a perícia de arma existir.
+A entrada lê a perfuração de Absorção da Perícia de Kunai, caminho Transição, verbo Chegada Cortante: a Absorção do alvo se reduz em um terço com o caminho aberto, ou à metade com ele aprofundado, no passo 9 da sequência de dano do Núcleo de Combate.
 
 A fronteira erguida no espaço entre o praticante e o alvo não detém a travessia, pela mesma razão publicada na entrada de origem.
 
@@ -136,7 +136,7 @@ O corte abre ferimento e a resolução pertence ao Sistema de Efeitos de Status.
 
 | Condição | Capacidade ou mudança |
 |---|---|
-| Deus do Trovão Voador, perícia de arma LV5 | acesso à técnica, com Perfil Inevitável sob condição estrutural |
+| Deus do Trovão Voador, Kunai LV5 com Transição aberto | acesso à técnica, com Perfil Inevitável sob condição estrutural |
 | Controle de Chakra LV6 | Fator de Moldagem 126, e 172 ou 224 com caminhos adicionais |
 | Marca de Destino no estado aprofundado | aplica marca a 5 m por etiqueta arremessada, o que abre a condição estrutural sem toque |
 | Segundo Passo adquirido | a lâmina arremessada cria a condição estrutural dentro da própria cena |

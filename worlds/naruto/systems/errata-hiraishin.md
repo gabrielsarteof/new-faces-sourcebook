@@ -1,7 +1,7 @@
 ---
 id: naruto.system.errata-hiraishin
 title: "Errata da Linhagem do Hiraishin"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: pending-patch
@@ -66,7 +66,9 @@ O parágrafo de abertura da categoria também nomeia a entrada, e a menção ao 
 
 **Entra:** a herança do portão de Passagem LV6 pela entrada de origem, declarada como tal.
 
-**Origem:** as três derivadas exigem o Deus do Trovão Voador, que carrega Passagem LV6 por ser rank S. Quem possui a entrada de origem já satisfez o LV6, e o LV5 nominal descreve um degrau que nenhum praticante da linhagem ocupa. A entrada Execução do Deus do Trovão Voador mantém, ao lado disso, o requisito de perícia de arma LV5 que segue sem documento, e por isso permanece inexecutável.
+**Origem:** as três derivadas exigem o Deus do Trovão Voador, que carrega Passagem LV6 por ser rank S. Quem possui a entrada de origem já satisfez o LV6, e o LV5 nominal descreve um degrau que nenhum praticante da linhagem ocupa.
+
+**Fechado.** A entrada Execução do Deus do Trovão Voador mantinha, ao lado disso, o requisito de perícia de arma LV5 que seguia sem documento, e por isso permanecia inexecutável. A Perícia de Kunai, `naruto.skill.kunai`, publica esse manejo: o requisito agora lê Kunai LV5 com o caminho Transição aberto, e a ficha já foi corrigida. Esta linha específica fecha aqui; a herança de portão de rank descrita acima, e o restante desta errata, seguem abertos.
 
 ---
 

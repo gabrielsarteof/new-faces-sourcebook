@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hiraishin-ni-no-dan
 title: "Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -93,7 +93,7 @@ O golpe entregue no turno da chegada sobe um degrau na escada de Perfil de Evas�
 
 A elevação não se acumula com a que caminho ou transcendência de perícia conceda à mesma técnica. Quando as duas fontes incidirem, vale a maior e o degrau permanece único.
 
-A lâmina em trânsito é objeto em campo e recebe o tratamento de qualquer projétil. Interceptá-la, bloqueá-la ou desviá-la anula a travessia antes que ela exista, e a RC declarada não é gasta.
+A lâmina em trânsito é objeto em campo e recebe o tratamento de qualquer projétil. Interceptá-la, bloqueá-la ou desviá-la anula a travessia antes que ela exista, e a RC declarada não é gasta. O verbo que resolve a interceptação em jogo é Interceptação, da Perícia de Kunai, caminho Salva, que executa Corte de Trajeto contra a lâmina marcada como faria contra qualquer projétil.
 
 ---
 
