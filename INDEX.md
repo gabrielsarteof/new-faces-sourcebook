@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 143 documentos · 15 de núcleo · 128 de cenário
+**Total:** 144 documentos · 15 de núcleo · 129 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -155,7 +155,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Combate — Naruto](worlds/naruto/combat/overview.md) | `naruto.combat.overview` | 1.1 | system | final |
+| [Combate — Naruto](worlds/naruto/combat/overview.md) | `naruto.combat.overview` | 1.2 | system | final |
 
 ## Naruto · Compêndios de técnicas
 
@@ -242,10 +242,11 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.2 | skill | final |
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.2 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 3 | skill | final |
+| [Kunai](worlds/naruto/skills/kunai.md) | `naruto.skill.kunai` | 1 | skill | final |
 | [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1 | skill | final |
 | [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.1 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.13 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.14 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 2 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
@@ -266,7 +267,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.3 | system | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 7 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.1 | pending-patch | applied |
-| [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1 | pending-patch | pending-patch |
+| [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.1 | pending-patch | pending-patch |
 | [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.9 | methodology | final |
 | [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1.1 | system | final |
 | [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.4 | system | final |
@@ -286,9 +287,9 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](worlds/naruto/techniques/futon-rasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1 | technique | final |
 | [Obras dos Oito Portões](worlds/naruto/techniques/hachimon-obras.md) | `naruto.technique.hachimon-obras` | 1.1 | technique | final |
 | [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.1 | technique | final |
-| [Execução do Deus do Trovão Voador (飛雷神斬り)](worlds/naruto/techniques/hiraishin-giri.md) | `naruto.technique.hiraishin-giri` | 1 | technique | final |
+| [Execução do Deus do Trovão Voador (飛雷神斬り)](worlds/naruto/techniques/hiraishin-giri.md) | `naruto.technique.hiraishin-giri` | 1.1 | technique | final |
 | [Deus do Trovão Voador pela Impregnação (飛雷神の術)](worlds/naruto/techniques/hiraishin-impregnacao.md) | `naruto.technique.hiraishin-impregnacao` | 1 | technique | final |
-| [Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)](worlds/naruto/techniques/hiraishin-ni-no-dan.md) | `naruto.technique.hiraishin-ni-no-dan` | 1 | technique | final |
+| [Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)](worlds/naruto/techniques/hiraishin-ni-no-dan.md) | `naruto.technique.hiraishin-ni-no-dan` | 1.1 | technique | final |
 | [Rotação Instantânea Mútua do Deus do Trovão Voador (飛雷神・相互瞬間回転)](worlds/naruto/techniques/hiraishin-sogo-shunkan-kaiten.md) | `naruto.technique.hiraishin-sogo-shunkan-kaiten` | 1 | technique | final |
 | [Deus do Trovão Voador (飛雷神の術)](worlds/naruto/techniques/hiraishin.md) | `naruto.technique.hiraishin` | 1 | technique | final |
 | [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1 | technique | final |
@@ -306,7 +307,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**50 alvos distintos, em 56 referências.**
+**49 alvos distintos, em 55 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -327,7 +328,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/naruto/clans/mind-arts.md` — citado em worlds/naruto/clans/yamanaka.md
 - `worlds/naruto/clans/shadow-arts.md` — citado em worlds/naruto/clans/nara.md
 - `worlds/naruto/clans/sharingan-copy.md` — citado em worlds/naruto/clans/hatake.md
-- `worlds/naruto/combat/bukijutsu.md` — citado em worlds/naruto/combat/overview.md
 - `worlds/naruto/combat/collaboration-jutsu.md` — citado em worlds/naruto/combat/overview.md
 - `worlds/naruto/combat/genjutsu.md` — citado em worlds/naruto/combat/overview.md
 - `worlds/naruto/combat/ninjutsu.md` — citado em worlds/naruto/combat/overview.md

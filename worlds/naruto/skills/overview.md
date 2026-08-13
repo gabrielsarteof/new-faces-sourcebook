@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.13
+version: 2.14
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.13. Camada de relação entre domínios.**
+**v2.14. Camada de relação entre domínios.**
 
 ---
 
@@ -54,8 +54,9 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Taichi | v1 | DES | Físico ×1,0 |
 | Tantō | v1 | DES | Físico ×1,0 |
 | Leque | v1 | FOR | Prático ×1,1 |
+| Kunai | v1 | DES | Físico ×1,0 |
 
-Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kyuinjutsu é a décima primeira perícia do eixo INT e opera energia bruta já em trânsito por outro corpo ou meio, o mesmo critério que a separa de Ninjutsu. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos. Taichi e Tantō chegam na mesma passada que Kenpo e Taekwondo, os quatro do eixo físico, e os quatro moram em `worlds/common/skills/`, fora da árvore do Naruto, porque nenhuma linha de nenhum dos quatro lê fato de cenário — a nota logo abaixo do Registro de Fronteira explica por que perícias sem cenário ainda entram neste índice. Leque é a primeira do degrau Prático ×1,1 do corpus: é subclasse do Fūton, e a categoria acompanha a obra que a origina, não o eixo físico que a hospedaria se fosse escola marcial genérica.
+Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kyuinjutsu é a décima primeira perícia do eixo INT e opera energia bruta já em trânsito por outro corpo ou meio, o mesmo critério que a separa de Ninjutsu. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos. Taichi e Tantō chegam na mesma passada que Kenpo e Taekwondo, os quatro do eixo físico, e os quatro moram em `worlds/common/skills/`, fora da árvore do Naruto, porque nenhuma linha de nenhum dos quatro lê fato de cenário — a nota logo abaixo do Registro de Fronteira explica por que perícias sem cenário ainda entram neste índice. Leque é a primeira do degrau Prático ×1,1 do corpus: é subclasse do Fūton, e a categoria acompanha a obra que a origina, não o eixo físico que a hospedaria se fosse escola marcial genérica. Kunai é a quinta entrada do degrau Físico e a primeira armada cujo portão de rank é lido por ficha de técnica externa: a linhagem do Hiraishin cobrava requisito de perícia de arma pendente desde a publicação da Execução do Deus do Trovão Voador, e essa dívida fecha nesta passada.
 
 ### Por que o eixo do chakra tem três categorias, e não uma
 
@@ -82,11 +83,14 @@ a matéria-prima ser comum. O preço mais alto cobra o acesso, não a energia.
 **Físico** e **Prático**, degraus mais baratos que Chakra, não são novos: o
 Manual de Economia de XP sempre publicou a escala geral com Físico ×1,0 e
 Prático ×1,1 ao lado dos três do eixo do chakra, para o domínio que não opera
-energia alguma. Kenpo, Taekwondo, Taichi e Tantō são as primeiras entradas do
-degrau Físico neste índice, quatro escolas ou armas que resolvem golpe contra
-golpe pelo Núcleo de Combate sem tocar chakra em caminho nenhum. Leque é a
-primeira em Prático, e não em Físico, porque não é escola marcial genérica: é
-subclasse do Fūton, e a categoria acompanha a obra de origem.
+energia alguma. Kenpo, Taekwondo, Taichi, Tantō e Kunai são as entradas do
+degrau Físico neste índice, cinco escolas ou armas que resolvem golpe contra
+golpe pelo Núcleo de Combate. Kunai é a única das cinco que toca chakra, num
+único caminho, Fio Infundido: a categoria de custo lê o corpo do domínio e não
+o caminho isolado, e os outros sete caminhos do Kunai nunca operam energia
+alguma. Leque é a primeira em Prático, e não em Físico, porque não é escola
+marcial genérica: é subclasse do Fūton, e a categoria acompanha a obra de
+origem.
 
 A definição normativa e os custos resolvidos vivem no Manual de Economia de XP,
 seção 6.1. Este índice apenas atribui a categoria de cada domínio.
@@ -96,7 +100,7 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 | Atributo | Perícias que rege |
 |---|---|
 | INT | 11 |
-| DES | 3 |
+| DES | 4 |
 | RES | 2 |
 | SAB | 2 |
 | PRE | 1 |
@@ -139,6 +143,10 @@ Agrupamentos de compra conjunta com frequência alta. É a tabela que torna o co
 **Eixo do leque.** Leque e Fūton. Regentes FOR e INT, já distintos. Leque exige Fūton em nível não inferior ao próprio menos um, e o par se compra junto por construção: não existe personagem que empunhe o leque sem já operar o vento que o sustenta.
 
 **Kenpo, Taekwondo, Taichi e Tantō sem eixo entre si.** As quatro perícias do degrau Físico não formam vizinhança porque não se compram juntas: cada uma é uma resposta completa e alternativa à mesma pergunta, corpo contra corpo ou lâmina curta contra corpo, e um personagem escolhe uma escola, não a soma delas. Vizinhança registra compra conjunta, e substituto não é par.
+
+Kunai não entra nessa leitura: não é escola alternativa de corpo, é arma que qualquer uma das quatro pode empunhar sem substituir a doutrina de combate desarmado ou de lâmina curta que já possui. A distinção com o Tantō, que também lê DES e também é lâmina curta, está publicada no próprio documento do Kunai: um persegue o ponto anatômico contra alvo desprevenido e troca de papel entre punho e arremesso sem custo, o outro perfura estrutura contra Guarda elevada a partir de controle físico já formado.
+
+**Eixo do Hiraishin.** Kunai, Fūinjutsu e Passagem. Regentes DES, INT e INT, distintos por eixo de domínio. A linhagem do Hiraishin exige as três juntas em toda entrada avançada: Fūinjutsu e Passagem constroem e leem a marca, e Kunai entrega o manejo empunhado que a Execução do Deus do Trovão Voador cobra desde a correção desta passada.
 
 ---
 
@@ -276,6 +284,20 @@ A cessão é recíproca e fechada dos dois lados: `futon.md` já declara que o l
 
 **Perícias sem cenário, e por que registram fronteira aqui.** Kyuinjutsu, Leque e Barreira são documentos do cenário Naruto. Kenpo, Taekwondo, Taichi e Tantō não são: moram em `worlds/common/skills/`, porque nenhuma linha deles lê fato de cenário algum. As quatro registram fronteira e regente aqui do mesmo jeito que qualquer perícia deste cenário, porque a Regra de Propriedade da seção 1 não pergunta onde o arquivo mora, pergunta se o fato é sobre a relação entre perícias que um personagem deste cenário compra — e as quatro entram na roda de compra de qualquer ficha Naruto exatamente como entrariam se o documento estivesse em `worlds/naruto/skills/`. Um Índice de Perícias Comuns, que rastreasse regente e conformidade entre as quatro sem depender de nenhum cenário específico, ainda não existe: é dono pendente, nomeado no documento do Tantō.
 
+### Cedido pelo Kunai v1
+
+| Território | Dono |
+|---|---|
+| Detonação, dano e temporização da etiqueta explosiva | Fūinjutsu |
+| Marcar destino e atravessar até a marca | Passagem e Fūinjutsu, linhagem do Hiraishin |
+| Duplicação da ferramenta lançada por clone das sombras | Compêndio de Ninjutsu, devida |
+| Cruzamento, ângulo de entrada, transição de pega, doutrina geral de lâmina curta | Adagas e Facas de Combate |
+| Perfuração de armadura a partir de um agarrão | Tantō |
+| Makibishi, senbon, bomba de fumaça e fio de aço sem lâmina | Perícia de Ferramenta Ninja, devida |
+| Formação de kunai por técnica de clã | documento do clã |
+
+O verbo Chegada Cortante, caminho Transição, fecha o requisito de manejo empunhado que a Execução do Deus do Trovão Voador cobrava desde a publicação, corrigido por esta mesma passada. O verbo Interceptação, caminho Salva, é o mecanismo que o Segundo Passo nomeia para quem intercepta a lâmina em trânsito, sem que a ficha precisasse declarar requisito de acesso novo para isso.
+
 ### Cedido por outros
 
 A Liberação de Yang v4 cedeu a leitura de presença viva e de vitalidade a distância ao Sensoriamento, retirando o caminho Sentinela Vital inteiro. A Liberação de Yin v4 declarou que não lê chakra alheio nem identifica fonte. O Ninjutsu Médico v3 declarou que a leitura de campo não é dele. As três cedências estão honradas nas duas pontas.
@@ -304,6 +326,7 @@ Pares em que duas perícias governam a mesma capacidade por eixos independentes,
 | Leque | Fūton, em nível não inferior ao próprio menos um | publicado |
 | Fūinjutsu | Barreira, no Fūin Kekkai | devido |
 | Fūinjutsu | Passagem, no deslocamento por marca | publicado |
+| Kunai | Fūinjutsu e Passagem, na Execução do Deus do Trovão Voador | publicado |
 
 O Controle de Chakra é a coluna de precisão de todo o eixo do chakra. Nenhum par publicado do portão duplo clássico corre entre duas perícias de magnitude.
 
@@ -320,18 +343,18 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Percepção | Sensoriamento v2, em três fronteiras | Sensoriamento v2, nos caminhos Rastro, Multidão e Ronda |
 | Marionetista | Controle de Chakra v2 | nada |
 | Taijutsu | documento do clã Senju, que vende desconto de XP nela, e o Sistema dos Oito Portões, que lhe reserva a coluna de acesso | nada |
-| Perícia de arma | vantagens, que concedem bônus de arremesso e precisão de lançamento | nada |
+| Perícia de Ferramenta Ninja | este documento, dono de makibishi, senbon, bomba de fumaça e fio de aço sem lâmina | nada |
 | Furtividade, Lábia e o eixo não combatente | vantagens, que testam as duas por nome | nada |
 
-Barreira saiu desta fila porque já é documento publicado, v1, e a linha permanecia aqui por esquecimento de propagação e não por dívida real.
+Barreira saiu desta fila porque já é documento publicado, v1, e a linha permanecia aqui por esquecimento de propagação e não por dívida real. "Perícia de arma" sai pela mesma razão: o Kunai a publica, e a linha que restava era dívida das vantagens de arremesso, não do Kunai. A Perícia de Ferramenta Ninja entra no lugar dela, dona do que o Kunai deliberadamente não reivindicou.
 
 **Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e a maior parte dos estilos nomeados entra como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio. Kenpo, Taekwondo e Taichi são as exceções nomeadas a essa nota, e não a substituem: o Núcleo de Combate, seção 9, declara que o repertório físico especializado de uma escola de combate pode pertencer a documento próprio que consome o motor comum sem redefini-lo, e as três se erguem sobre essa autorização. A regra que decide entre as três formas, caminho, documento de clã ou perícia própria, é a densidade da escola: uma escola com identidade mecânica larga o suficiente para sustentar seis níveis e partição em inclinações pede documento próprio, e uma que só acrescenta um verbo ou dois ao repertório de um clã cabe como caminho. Taekwondo e Taichi cumprem o mesmo teste que Kenpo cumpriu, cada um com a distinção provada dentro do próprio documento, Taekwondo caminho a caminho contra o Chutador do Muay Thai e Taichi contra Aikido e Jiu-Jitsu.
 
-O mesmo teste vale do lado das armas, onde a nota original previa só especialidade sem documento. Tantō e Leque publicaram documento próprio, cada um com identidade mecânica larga o suficiente: o primeiro porque a lâmina curta resolve por perfuração de estrutura e implantação a partir de controle, verbos que a doutrina genérica de faca não nomeia, e o segundo porque o leque é subclasse do Fūton com verbos físicos que nenhum caminho elemental repete. Adaga, faca de combate e as demais armas legadas em `common/skills.json` seguem sem documento, e a decisão entre promover cada uma a documento próprio ou mantê-la como especialidade continua caso a caso, pela mesma densidade que separou Tantō e Leque do resto.
+O mesmo teste vale do lado das armas, onde a nota original previa só especialidade sem documento. Tantō, Leque e Kunai publicaram documento próprio, cada um com identidade mecânica larga o suficiente: o primeiro porque a lâmina curta resolve por perfuração de estrutura e implantação a partir de controle, verbos que a doutrina genérica de faca não nomeia; o segundo porque o leque é subclasse do Fūton com verbos físicos que nenhum caminho elemental repete; e o terceiro porque a mesma lâmina resolve por punho, por voo e por âncora, com verbos que nenhuma das duas doutrinas vizinhas nomeia. Adaga, faca de combate e as demais armas legadas em `common/skills.json` seguem sem documento, e a decisão entre promover cada uma a documento próprio ou mantê-la como especialidade continua caso a caso, pela mesma densidade que separou Tantō, Leque e Kunai do resto.
 
-**Dependência do eixo físico, resolvida.** Nenhuma perícia de corpo ou de arma nascia antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão, e o eixo físico não tinha essa camada geral, só as réguas bespoke que o Sistema dos Oito Portões publicou para o próprio subsistema, Esforço, coeficiente de entrega física e Fator de Portão. O Núcleo de Combate v1 publicou a camada geral: Potência, Guarda, Absorção, Exaustão Física e o motor de manobras que qualquer perícia de corpo consome sem redefinir. Kenpo, Taekwondo, Taichi e Tantō consomem essa camada, e nenhum dos quatro redefine uma linha dela.
+**Dependência do eixo físico, resolvida.** Nenhuma perícia de corpo ou de arma nascia antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão, e o eixo físico não tinha essa camada geral, só as réguas bespoke que o Sistema dos Oito Portões publicou para o próprio subsistema, Esforço, coeficiente de entrega física e Fator de Portão. O Núcleo de Combate v1 publicou a camada geral: Potência, Guarda, Absorção, Exaustão Física e o motor de manobras que qualquer perícia de corpo consome sem redefinir. Kenpo, Taekwondo, Taichi, Tantō e Kunai consomem essa camada, e nenhum dos cinco redefine uma linha dela.
 
-Cada um dos quatro também acrescentou réguas próprias, pendentes de absorção pela camada geral no mesmo padrão que o Sistema dos Oito Portões já reserva para as dele: Kenpo, o Fator de Kenpo e a Eficiência de Retorno; Taekwondo, a Elevação de Reação, a Fração de Guarda, a Economia de Esforço e o Alcance de Salto, e é o primeiro documento do eixo físico a publicar uma redução parcial de Guarda, onde as reduções parciais anteriores do corpus só atacavam a Absorção; Taichi, o Limiar de Raiz, o Teto da Reserva de Força, o Piso de Alavanca, a Pressão Curta, o Piso de Escuta e a Fração de Descarga, e é o primeiro documento do corpus a publicar uma substituição dura de atributo por atributo dentro de um teste, RES no lugar de FOR no par defensivo de Empurrar e Derrubar; Tantō, a Leitura de Fresta, o Grau de Ocultação e a Posse da Lâmina.
+Cada um dos cinco também acrescentou réguas próprias, pendentes de absorção pela camada geral no mesmo padrão que o Sistema dos Oito Portões já reserva para as dele: Kenpo, o Fator de Kenpo e a Eficiência de Retorno; Taekwondo, a Elevação de Reação, a Fração de Guarda, a Economia de Esforço e o Alcance de Salto, e é o primeiro documento do eixo físico a publicar uma redução parcial de Guarda, onde as reduções parciais anteriores do corpus só atacavam a Absorção; Taichi, o Limiar de Raiz, o Teto da Reserva de Força, o Piso de Alavanca, a Pressão Curta, o Piso de Escuta e a Fração de Descarga, e é o primeiro documento do corpus a publicar uma substituição dura de atributo por atributo dentro de um teste, RES no lugar de FOR no par defensivo de Empurrar e Derrubar; Tantō, a Leitura de Fresta, o Grau de Ocultação e a Posse da Lâmina; Kunai, a Posse do Kunai, o Limiar de Travessia e a Precisão de Cravação, e é o primeiro do eixo físico a resolver a perfuração de Absorção por fração, no verbo Chegada Cortante, em vez de por fração de Guarda.
 
 Uma divergência fica registrada e não resolvida por esta passada: esta seção dizia que a camada geral absorveria o trio do Sistema dos Oito Portões quando nascesse, mas aquele documento declara na própria seção 6 que Esforço, Fator de Portão e as sequelas do subsistema de portões permanecem lá, porque governam um subsistema fisiológico próprio e não uma competência adquirida. As duas leituras não convergem sozinhas, e a decisão entre absorver ou manter separado é de Gabriel. O Chidori segue citando divergência de motor por outro documento, e esta passada não o toca.
 
@@ -357,8 +380,9 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 | Taichi v1 | conforme |
 | Tantō v1 | conforme |
 | Leque v1 | conforme |
+| Kunai v1 | conforme |
 
-**Ressalva de vocabulário.** Genjutsu e Fūinjutsu abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas. As seis perícias desta passada seguem o mesmo hábito, Camada subclasse ou superclasse na abertura de cada uma, o que leva o termo a dez documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e cresce a cada perícia nova até que alguém lhe dê dono ou a prosa pare de repeti-la.
+**Ressalva de vocabulário.** Genjutsu e Fūinjutsu abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas. As seis perícias da passada anterior seguiram o mesmo hábito, Camada subclasse ou superclasse na abertura de cada uma, e o Kunai desta passada repete o padrão, o que leva o termo a onze documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e cresce a cada perícia nova até que alguém lhe dê dono ou a prosa pare de repeti-la.
 
 ---
 
@@ -383,13 +407,19 @@ Dezesseis, das quais três aplicadas. Treze seguem abertas.
 | Publicar os limiares numéricos de margem de vitória em teste oposto, hoje ausentes em toda a camada de núcleo | Núcleo do Sistema |
 | Declarar que a vantagem Gênio Bruto, linha de Resistência, não se soma à exceção de Enraizamento do Taichi para a mesma manobra e o mesmo par de atributos | core/advantages.md, vantagem Gênio Bruto |
 | Publicar régua de elevação de Guarda por armadura ou item, hoje sem termo publicado em documento nenhum, pendência que Sem Dobra e a Leitura de Fresta do Tantō dependem para disparar | Núcleo de Combate v1 |
-| A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por quatro documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi | `core.xp-economy`, Anexo A |
+| A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por sete documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi, Tantō, Leque, Kunai | `core.xp-economy`, Anexo A |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.14.** A perícia de Kunai v1 nasce, a décima nona do sistema e a quinta do degrau Físico, regente DES. Ela fecha uma dívida que a linhagem do Hiraishin carregava desde a própria publicação: a Execução do Deus do Trovão Voador exigia perícia de arma LV5 sem documento, e três lugares daquela ficha citavam a lacuna nominalmente. As quatro ocorrências foram substituídas por referência ao caminho Transição, verbo Chegada Cortante, que também resolve a perfuração de Absorção que a entrada nunca declarava. O Segundo Passo ganhou uma nota nomeando o caminho Salva, verbo Interceptação, como o mecanismo que já intercepta a lâmina em trânsito, sem requisito de acesso novo. A Rotação Instantânea Mútua não foi tocada: nenhuma linha daquela ficha emprega lâmina, arremesso ou manejo de arma, e inventar uma dependência ali quebraria a regra de nunca inventar valor. A linha correspondente de `errata-hiraishin.md` §1.4 foi marcada como fechada.
+
+O documento também publica, de forma explícita, a decisão de tratar shurikenjutsu como categoria e não como nome de perícia, na mesma leitura que já separa Taijutsu de Muay Thai, contrariando a linha literal da fonte primária por decisão deliberada e registrada.
+
+O Registro de Regentes sobe de vinte e uma para vinte e duas entradas. A Carga por atributo ganha um DES, subindo de três para quatro. O Registro de Vizinhança ganha o Eixo do Hiraishin, Kunai com Fūinjutsu e Passagem, e uma nota explicando por que Kunai não é substituto de Tantō, ao contrário das quatro perícias físicas anteriores. O Registro de Fronteira ganha o bloco de cessão do Kunai, incluindo a fronteira contra a etiqueta explosiva do Fūinjutsu e contra a doutrina geral de Adagas e Facas de Combate. O Registro de Portão Duplo ganha a linha de portão de obra entre Kunai, Fūinjutsu e Passagem. A Fila de Nascimento perde "Perícia de arma", fechada por este documento, e ganha "Perícia de Ferramenta Ninja", dona do que o Kunai deliberadamente recusou: makibishi, senbon, bomba de fumaça e fio de aço sem lâmina. O link morto para `bukijutsu.md`, em `worlds/naruto/combat/overview.md`, passa a apontar para este documento na fatia que lhe cabe. O Registro de Conformidade ganha a linha nova, conforme. A linha de errata sobre a divergência de requisito de transcendência entre `core.skills-core` e `core.xp-economy` é corrigida para citar os sete documentos que hoje seguem o precedente, não apenas os quatro que a citavam antes.
 
 **v2.13.** Quatro linhas de trabalho paralelas se reconciliam numa passada só: Kyuinjutsu v1 (décima oitava perícia, INT, Chakra ×1,4), Taichi v1 e Tantō v1 (Físico ×1,0, ao lado de Kenpo e Taekwondo já publicados), e Leque v1 (a primeira perícia do degrau Prático ×1,1, subclasse do Fūton). As seis linhas partiram do mesmo commit sem se enxergarem, e cada uma resolveu sozinha decisões que exigiam ver as outras: Taichi e Kenpo nasceram cada um se autodeclarando "a primeira perícia global do catálogo", e Tantō nasceu em `core/skills/`, camada fechada para conteúdo jogável, antes de uma correção própria o mover. Esta passada resolve as três junto: Taichi, Kenpo, Taekwondo e Tantō convergem em `worlds/common/skills/`, porque nenhuma linha de nenhum dos quatro lê fato de cenário, e o Registro de Fronteira ganha a nota que explica por que perícias sem cenário continuam registrando regente e fronteira neste índice.
 
