@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 142 documentos · 14 de núcleo · 128 de cenário
+**Total:** 143 documentos · 15 de núcleo · 128 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -25,6 +25,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual de Criação de Poderes](core/power-creation.md) | `core.power-creation` | 3.3 | core-layer | final |
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1 | reference-table | final |
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.2 | methodology | final |
+| [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.2 | core-layer | final |
 | [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.4 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.1 | core-layer | final |
