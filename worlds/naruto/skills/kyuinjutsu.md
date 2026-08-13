@@ -102,7 +102,7 @@ CAPTURA. Fração da RC nominal de um jutsu alheio que Interceptação retira em
 RC capturada = RC nominal da obra × √(teste ÷ 205)
 ```
 
-Limitada pela recepção segura declarada. A obra interceptada segue com a RC nominal restante, e o dano dela recalcula pela fórmula publicada do Índice de Desperdício sobre a RC nominal reduzida, sem tocar o Fator de Moldagem, que pertence à moldagem de quem executou a obra e não a quem a interceptou. Resolvido: o interceptador de LV4 arranca 77% de uma obra, 85% no LV5, 92% no LV6. Aparar uma obra é o padrão do caminho; comê-la inteira é o que a transcendência abre.
+Limitada pela recepção segura declarada, a obra interceptada segue com a RC nominal restante, e o dano dela recalcula pela fórmula publicada do Índice de Desperdício sobre a RC nominal reduzida, sem tocar o Fator de Moldagem, que pertence à moldagem de quem executou a obra e não a quem a interceptou. Resolvido: o interceptador de LV4 arranca 77% de uma obra, 85% no LV5, 92% no LV6. Aparar uma obra é o padrão do caminho; comê-la inteira é o que a transcendência abre.
 
 SANGUESSUGA. Fração do dano entregue por arma infundida por Lâmina Sedenta que se converte em RC própria. Lê a especialização de Lâmina Sedenta.
 
