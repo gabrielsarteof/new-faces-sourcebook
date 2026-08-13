@@ -1,7 +1,7 @@
 ---
 id: core.advantages
 title: "Vantagens Comuns"
-version: 1.1
+version: 1.2
 layer: core
 type: catalog
 status: final
@@ -758,11 +758,11 @@ Você possui controle excepcional sobre o fluxo de energia, conseguindo manifest
 ---
 
 ## Resistência Eficiente — 195 XP [recurso]
-O personagem possui uma constituição excepcionalmente eficiente, convertendo sua própria resistência em estamina extra. O custo de PS de qualquer ação é reduzido por um valor igual a Resistência ÷ 10 (arredondado para baixo), com teto de -5 PS e mínimo de 1 PS.
+O personagem possui uma constituição excepcionalmente eficiente, convertendo a própria resistência em economia de movimento. O Esforço do Golpe e o Esforço de deslocamento, os dois publicados pelo Núcleo de Combate, são reduzidos em 10%.
 
-**Efeitos:** Custo de PS por ação reduzido em RES÷10, mínimo de 1 e teto de −5 / O benefício escala com o atributo: a eficiência cresce junto com o personagem
+**Efeitos:** Esforço do Golpe reduzido em 10% / Esforço de deslocamento reduzido em 10%
 
-**Nota:** A redução escala com o atributo Resistência até o teto de -5. Exemplo: RES 20 → -2 PS/ação; RES 50 → -5 PS/ação (teto atingido).
+**Nota:** A redução incide sobre o Esforço já calculado pela ficha, depois de qualquer outra penalidade ou classe de arma já aplicada.
 
 ---
 
