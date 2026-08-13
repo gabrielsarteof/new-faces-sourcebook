@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.12
+version: 2.13
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.12. Camada de relação entre domínios.**
+**v2.13. Camada de relação entre domínios.**
 
 ---
 
@@ -48,16 +48,20 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
 | Passagem | v1.1 | INT | Erudição ×1,7 |
 | Barreira | v1 | SAB | Erudição ×1,7 |
+| Kyuinjutsu | v1 | INT | Chakra ×1,4 |
 | Kenpo | v1 | DES | Físico ×1,0 |
 | Taekwondo | v1 | VEL | Físico ×1,0 |
+| Taichi | v1 | DES | Físico ×1,0 |
+| Tantō | v1 | DES | Físico ×1,0 |
+| Leque | v1 | FOR | Prático ×1,1 |
 
-Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos.
+Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kyuinjutsu é a décima primeira perícia do eixo INT e opera energia bruta já em trânsito por outro corpo ou meio, o mesmo critério que a separa de Ninjutsu. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos. Taichi e Tantō chegam na mesma passada que Kenpo e Taekwondo, os quatro do eixo físico, e os quatro moram em `worlds/common/skills/`, fora da árvore do Naruto, porque nenhuma linha de nenhum dos quatro lê fato de cenário — a nota logo abaixo do Registro de Fronteira explica por que perícias sem cenário ainda entram neste índice. Leque é a primeira do degrau Prático ×1,1 do corpus: é subclasse do Fūton, e a categoria acompanha a obra que a origina, não o eixo físico que a hospedaria se fosse escola marcial genérica.
 
-### Por que três categorias e não uma
+### Por que o eixo do chakra tem três categorias, e não uma
 
 A categoria única Ninja cobrava o mesmo preço de doze domínios que não custam a
 mesma coisa para aprender, e a tabela acima é o que a separação revela: o eixo
-se divide por **o que o praticante faz com a energia**.
+do chakra se divide por **o que o praticante faz com a energia**.
 
 **Chakra** opera a energia bruta — moldar, conduzir, reter, perceber, esconder.
 É o degrau mais barato porque está mais perto do que a formação shinobi já
@@ -75,6 +79,15 @@ e Fūinjutsu têm literatura, escola, termo técnico e erro que só um mestre
 corrige, e o cânone registra a raridade de praticantes reais nos três apesar de
 a matéria-prima ser comum. O preço mais alto cobra o acesso, não a energia.
 
+**Físico** e **Prático**, degraus mais baratos que Chakra, não são novos: o
+Manual de Economia de XP sempre publicou a escala geral com Físico ×1,0 e
+Prático ×1,1 ao lado dos três do eixo do chakra, para o domínio que não opera
+energia alguma. Kenpo, Taekwondo, Taichi e Tantō são as primeiras entradas do
+degrau Físico neste índice, quatro escolas ou armas que resolvem golpe contra
+golpe pelo Núcleo de Combate sem tocar chakra em caminho nenhum. Leque é a
+primeira em Prático, e não em Físico, porque não é escola marcial genérica: é
+subclasse do Fūton, e a categoria acompanha a obra de origem.
+
 A definição normativa e os custos resolvidos vivem no Manual de Economia de XP,
 seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 
@@ -82,19 +95,20 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 
 | Atributo | Perícias que rege |
 |---|---|
-| INT | 10 |
+| INT | 11 |
+| DES | 3 |
 | RES | 2 |
 | SAB | 2 |
 | PRE | 1 |
-| DES | 1 |
 | VEL | 1 |
-| FOR, DEF, CAR, VON | 0 |
+| FOR | 1 |
+| DEF, CAR, VON | 0 |
 
 ### Leitura da carga
 
-O Núcleo de Perícias, seção 1, exige regentes distintos entre domínios vizinhos comprados juntos, para impedir que um único atributo alto destrave famílias inteiras de competência. Dez perícias em INT exigem que essa exigência seja lida com precisão.
+O Núcleo de Perícias, seção 1, exige regentes distintos entre domínios vizinhos comprados juntos, para impedir que um único atributo alto destrave famílias inteiras de competência. Onze perícias em INT exigem que essa exigência seja lida com precisão.
 
-**A exposição é menor que a contagem.** Genjutsu exige Controle de Chakra em nível não inferior ao próprio, e Fūinjutsu o exige em nível não inferior ao próprio menos um. Nenhuma das duas se destrava por INT sozinho, porque SAB precisa acompanhar. A independência que a regra protege já está garantida ali, por outro instrumento. A décima perícia, Passagem, entrou no eixo de ofício sob a mesma exigência cruzada de Controle de Chakra que já protege Fūinjutsu, em nível não inferior ao próprio menos um, de modo que a exposição real não cresceu junto com a contagem.
+**A exposição é menor que a contagem.** Genjutsu exige Controle de Chakra em nível não inferior ao próprio, e Fūinjutsu o exige em nível não inferior ao próprio menos um. Nenhuma das duas se destrava por INT sozinho, porque SAB precisa acompanhar. A independência que a regra protege já está garantida ali, por outro instrumento. A décima perícia, Passagem, entrou no eixo de ofício sob a mesma exigência cruzada de Controle de Chakra que já protege Fūinjutsu, em nível não inferior ao próprio menos um, de modo que a exposição real não cresceu junto com a contagem. Kyuinjutsu é a décima primeira, sob a mesma exigência cruzada que já protege Senjutsu e Fūinjutsu, pelo mesmo motivo.
 
 **Os cinco elementos e a Liberação de Yin são o mesmo ato com matéria diferente.** Separá-los por atributo produziria distinção arbitrária entre competências que a obra trata como uma só disciplina, e o portão duplo contra Controle de Chakra já mantém a independência entre a magnitude e a precisão.
 
@@ -102,7 +116,7 @@ O Núcleo de Perícias, seção 1, exige regentes distintos entre domínios vizi
 
 **O segundo RES, e por que ele é conforme.** Senjutsu e Liberação de Yang regem pelo mesmo atributo em eixos distintos, um no eixo do chakra bruto e outro no da conversão elemental. Pela leitura por eixo, o par é conforme sem instrumento adicional. O que sustenta a independência de acesso do Senjutsu é o portão duplo com o Controle de Chakra, em nível não inferior ao próprio menos um, somado a duas camadas que perícia nenhuma compra: a aceitação pelo chefe da espécie, cumprida em jogo, e o evento de campanha que abre a terra e o mestre.
 
-**Dívida registrada, sem mitigação.** Ninjutsu Médico é ofício distinto do eixo elemental, roda em INT, não possui exigência cruzada de nível e é comprado junto de Controle de Chakra com frequência muito alta. É o único ponto do corpus onde a regra dói sem instrumento que a compense. A revisão fica agendada para quando o eixo físico entrar e trouxer DES, VEL e FOR para a tabela, porque hoje não existe alternativa viável e mudar regente sem alternativa é troca de um problema por outro.
+**Dívida registrada, sem mitigação.** Ninjutsu Médico é ofício distinto do eixo elemental, roda em INT, não possui exigência cruzada de nível e é comprado junto de Controle de Chakra com frequência muito alta. É o único ponto do corpus onde a regra dói sem instrumento que a compense. O eixo físico entrou desde então, com DES, VEL e FOR agora na tabela, mas nenhuma das cinco perícias que o compõem toca o par Ninjutsu Médico/Controle de Chakra: a dívida é de outro eixo, e a entrada do físico não a mitiga. Hoje não existe alternativa viável e mudar regente sem alternativa é troca de um problema por outro.
 
 ---
 
@@ -121,6 +135,10 @@ Agrupamentos de compra conjunta com frequência alta. É a tabela que torna o co
 **Eixo de engano.** Genjutsu, Controle de Chakra e Liberação de Yin. Regentes INT, SAB e INT.
 
 **Eixo do sábio.** Senjutsu, Controle de Chakra e Sensoriamento. Regentes RES, SAB e PRE. O terceiro entra porque o Modo Sábio eleva o alcance daquela perícia e o praticante que paga o modo costuma pagar a leitura junto, e os três regentes já nascem distintos.
+
+**Eixo do leque.** Leque e Fūton. Regentes FOR e INT, já distintos. Leque exige Fūton em nível não inferior ao próprio menos um, e o par se compra junto por construção: não existe personagem que empunhe o leque sem já operar o vento que o sustenta.
+
+**Kenpo, Taekwondo, Taichi e Tantō sem eixo entre si.** As quatro perícias do degrau Físico não formam vizinhança porque não se compram juntas: cada uma é uma resposta completa e alternativa à mesma pergunta, corpo contra corpo ou lâmina curta contra corpo, e um personagem escolhe uma escola, não a soma delas. Vizinhança registra compra conjunta, e substituto não é par.
 
 ---
 
@@ -196,6 +214,68 @@ A resistência à entrada mora em dois lugares ao mesmo tempo, aqui e na Conten�
 
 A contrapartida da primeira linha corre no sentido inverso: o Sensoriamento recebe do Modo Sábio uma elevação categórica de alcance e conserva toda a leitura, de modo que a única coisa que atravessa a fronteira é a distância.
 
+### Cedido pelo Kyuinjutsu v1
+
+| Território | Dono |
+|---|---|
+| Captura de técnica com devolução na forma original | Fūinjutsu |
+| Dreno sustentado de entidade selada, pela Válvula | Fūinjutsu, `jutsu-authoring.md` §2.8 |
+| Doação consentida e recusa do dreno, canal consentido em vez de forçado | Controle de Chakra, caminho Transferência |
+| Colheita de energia natural do ambiente | Senjutsu |
+| Dreno por contato visual de dōjutsu | Manual de Técnicas Oculares |
+| Caminho Voragem, dreno de recurso vivo de clã | documento do Meiton, devida e pendente de rework |
+
+### Cedido pelo Kenpo v1
+
+| Território | Dono |
+|---|---|
+| Punho Gentil, estilo nomeado do clã Hyūga | documento do clã Hyūga |
+| Amplificação corporal por saturação de energia física | Liberação de Yang |
+| Fator de Portão, tetos de fluxo e fisiologia do circuito de chakra | Sistema dos Oito Portões, e a perícia de corpo que ele reserva |
+| Potência, Guarda, Absorção, Cadência e as quatro manobras | Núcleo de Combate |
+| Graus, durações e remoção de toda condição instalada | Sistema de Efeitos de Status |
+| Tratamento que encerra Marcação antes do fim de cena | Ninjutsu Médico |
+
+### Cedido pelo Taekwondo v1
+
+| Território | Dono |
+|---|---|
+| Combate desarmado genérico, sem estilo nomeado | perícia de corpo, Fila de Nascimento |
+| Arremesso, submissão e luta de solo | documento próprio, autorizado pelo Núcleo de Combate §9 |
+| Amplificação corporal por saturação de chakra e fisiologia do circuito | Sistema dos Oito Portões, e a perícia de corpo que ele reserva |
+| Classe de golpe desarmado | Kenpo, herdada sem reabrir a errata |
+
+### Cedido pelo Taichi v1
+
+| Território | Dono |
+|---|---|
+| Leitura de posição, identidade e intenção à distância | Sensoriamento |
+| Repulsão carregada por chakra, rider de técnica, sopro elemental e correnteza | Controle de Chakra, caminho Impregnação, verbo Base Ancorada |
+| Definição dos quatro graus de estado e a régua que os posiciona | Sistema de Efeitos de Status |
+| Potência, Guarda, Absorção e o motor de manobras | Núcleo de Combate |
+| Obras nomeadas de escola de combate específica | compêndio de escola de combate, devida |
+
+### Cedido pelo Tantō v1
+
+| Território | Dono |
+|---|---|
+| Cruzamento, ângulo de entrada, transição de empunhadura, gramática geral de lâmina curta | Adagas e Facas de Combate |
+| Agarrar, derrubar, empurrar e desarmar | motor de manobras do Núcleo de Combate |
+
+Três caminhos de Adagas e Facas de Combate, migração v5 sem manual próprio, ocupam parte do mesmo território que Busca de Junta e Saque Reverso leem: Grappling da Lâmina, Pakal Fundo e Estocada Penetrante. A colisão fica registrada sem dono, porque a resolução depende de qual documento absorve qual verbo quando Adagas e Facas de Combate migrar para manual próprio, decisão que sobe a Gabriel e não se resolve nesta passada.
+
+### Cedido pelo Leque v1
+
+| Território | Dono |
+|---|---|
+| Corte por vento e deslocamento por massa de ar | Fūton |
+| Foice de Doninha e Grande Foice de Doninha, técnicas nomeadas | Compêndio de Fūton, pela regra da técnica nomeada |
+| Peso, resistência e origem do objeto | Fila de Nascimento |
+
+A cessão é recíproca e fechada dos dois lados: `futon.md` já declara que o leque de guerra pertence à Perícia de Leque para a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla, e permanece com o Fūton apenas para o corte e o deslocamento por vento.
+
+**Perícias sem cenário, e por que registram fronteira aqui.** Kyuinjutsu, Leque e Barreira são documentos do cenário Naruto. Kenpo, Taekwondo, Taichi e Tantō não são: moram em `worlds/common/skills/`, porque nenhuma linha deles lê fato de cenário algum. As quatro registram fronteira e regente aqui do mesmo jeito que qualquer perícia deste cenário, porque a Regra de Propriedade da seção 1 não pergunta onde o arquivo mora, pergunta se o fato é sobre a relação entre perícias que um personagem deste cenário compra — e as quatro entram na roda de compra de qualquer ficha Naruto exatamente como entrariam se o documento estivesse em `worlds/naruto/skills/`. Um Índice de Perícias Comuns, que rastreasse regente e conformidade entre as quatro sem depender de nenhum cenário específico, ainda não existe: é dono pendente, nomeado no documento do Tantō.
+
 ### Cedido por outros
 
 A Liberação de Yang v4 cedeu a leitura de presença viva e de vitalidade a distância ao Sensoriamento, retirando o caminho Sentinela Vital inteiro. A Liberação de Yin v4 declarou que não lê chakra alheio nem identifica fonte. O Ninjutsu Médico v3 declarou que a leitura de campo não é dele. As três cedências estão honradas nas duas pontas.
@@ -220,6 +300,8 @@ Pares em que duas perícias governam a mesma capacidade por eixos independentes,
 | Genjutsu | Controle de Chakra, em nível não inferior ao próprio | publicado |
 | Fūinjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
 | Senjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
+| Kyuinjutsu | Controle de Chakra, em nível não inferior ao próprio menos um | publicado |
+| Leque | Fūton, em nível não inferior ao próprio menos um | publicado |
 | Fūinjutsu | Barreira, no Fūin Kekkai | devido |
 | Fūinjutsu | Passagem, no deslocamento por marca | publicado |
 
@@ -243,9 +325,15 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 Barreira saiu desta fila porque já é documento publicado, v1, e a linha permanecia aqui por esquecimento de propagação e não por dívida real.
 
-**Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e a maior parte dos estilos nomeados entra como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio. Kenpo e Taekwondo são as exceções nomeadas a essa nota, e não a substituem: o Núcleo de Combate, seção 9, declara que o repertório físico especializado de uma escola de combate pode pertencer a documento próprio que consome o motor comum sem redefini-lo, e as duas se erguem sobre essa autorização. A regra que decide entre as três formas, caminho, documento de clã ou perícia própria, é a densidade da escola: uma escola com identidade mecânica larga o suficiente para sustentar seis níveis e partição em inclinações pede documento próprio, e uma que só acrescenta um verbo ou dois ao repertório de um clã cabe como caminho. Taekwondo cumpre o mesmo teste que Kenpo cumpriu, com a distinção provada caminho a caminho contra o Chutador do Muay Thai dentro do próprio documento.
+**Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e a maior parte dos estilos nomeados entra como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio. Kenpo, Taekwondo e Taichi são as exceções nomeadas a essa nota, e não a substituem: o Núcleo de Combate, seção 9, declara que o repertório físico especializado de uma escola de combate pode pertencer a documento próprio que consome o motor comum sem redefini-lo, e as três se erguem sobre essa autorização. A regra que decide entre as três formas, caminho, documento de clã ou perícia própria, é a densidade da escola: uma escola com identidade mecânica larga o suficiente para sustentar seis níveis e partição em inclinações pede documento próprio, e uma que só acrescenta um verbo ou dois ao repertório de um clã cabe como caminho. Taekwondo e Taichi cumprem o mesmo teste que Kenpo cumpriu, cada um com a distinção provada dentro do próprio documento, Taekwondo caminho a caminho contra o Chutador do Muay Thai e Taichi contra Aikido e Jiu-Jitsu.
 
-**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. Kenpo acrescentou duas réguas próprias sob a mesma regra, o Fator de Kenpo e a Eficiência de Retorno. Taekwondo acrescentou quatro, a Elevação de Reação, a Fração de Guarda, a Economia de Esforço e o Alcance de Salto, e é também o primeiro documento do eixo físico a publicar uma redução parcial de Guarda, onde as reduções parciais anteriores do corpus só atacavam a Absorção. Todas essas réguas seguem pendentes de absorção pela camada geral. O que ainda não existe é essa camada geral, e é a ausência dela que mantém o Chidori em divergência de motor.
+O mesmo teste vale do lado das armas, onde a nota original previa só especialidade sem documento. Tantō e Leque publicaram documento próprio, cada um com identidade mecânica larga o suficiente: o primeiro porque a lâmina curta resolve por perfuração de estrutura e implantação a partir de controle, verbos que a doutrina genérica de faca não nomeia, e o segundo porque o leque é subclasse do Fūton com verbos físicos que nenhum caminho elemental repete. Adaga, faca de combate e as demais armas legadas em `common/skills.json` seguem sem documento, e a decisão entre promover cada uma a documento próprio ou mantê-la como especialidade continua caso a caso, pela mesma densidade que separou Tantō e Leque do resto.
+
+**Dependência do eixo físico, resolvida.** Nenhuma perícia de corpo ou de arma nascia antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão, e o eixo físico não tinha essa camada geral, só as réguas bespoke que o Sistema dos Oito Portões publicou para o próprio subsistema, Esforço, coeficiente de entrega física e Fator de Portão. O Núcleo de Combate v1 publicou a camada geral: Potência, Guarda, Absorção, Exaustão Física e o motor de manobras que qualquer perícia de corpo consome sem redefinir. Kenpo, Taekwondo, Taichi e Tantō consomem essa camada, e nenhum dos quatro redefine uma linha dela.
+
+Cada um dos quatro também acrescentou réguas próprias, pendentes de absorção pela camada geral no mesmo padrão que o Sistema dos Oito Portões já reserva para as dele: Kenpo, o Fator de Kenpo e a Eficiência de Retorno; Taekwondo, a Elevação de Reação, a Fração de Guarda, a Economia de Esforço e o Alcance de Salto, e é o primeiro documento do eixo físico a publicar uma redução parcial de Guarda, onde as reduções parciais anteriores do corpus só atacavam a Absorção; Taichi, o Limiar de Raiz, o Teto da Reserva de Força, o Piso de Alavanca, a Pressão Curta, o Piso de Escuta e a Fração de Descarga, e é o primeiro documento do corpus a publicar uma substituição dura de atributo por atributo dentro de um teste, RES no lugar de FOR no par defensivo de Empurrar e Derrubar; Tantō, a Leitura de Fresta, o Grau de Ocultação e a Posse da Lâmina.
+
+Uma divergência fica registrada e não resolvida por esta passada: esta seção dizia que a camada geral absorveria o trio do Sistema dos Oito Portões quando nascesse, mas aquele documento declara na própria seção 6 que Esforço, Fator de Portão e as sequelas do subsistema de portões permanecem lá, porque governam um subsistema fisiológico próprio e não uma competência adquirida. As duas leituras não convergem sozinhas, e a decisão entre absorver ou manter separado é de Gabriel. O Chidori segue citando divergência de motor por outro documento, e esta passada não o toca.
 
 ---
 
@@ -263,16 +351,20 @@ Barreira saiu desta fila porque já é documento publicado, v1, e a linha perman
 | Passagem v1.1 | conforme |
 | Senjutsu v2 | conforme |
 | Barreira v1 | conforme |
+| Kyuinjutsu v1 | conforme |
 | Kenpo v1 | conforme |
 | Taekwondo v1 | conforme |
+| Taichi v1 | conforme |
+| Tantō v1 | conforme |
+| Leque v1 | conforme |
 
-**Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
+**Ressalva de vocabulário.** Genjutsu e Fūinjutsu abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas. As seis perícias desta passada seguem o mesmo hábito, Camada subclasse ou superclasse na abertura de cada uma, o que leva o termo a dez documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e cresce a cada perícia nova até que alguém lhe dê dono ou a prosa pare de repeti-la.
 
 ---
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
+Dezesseis, das quais três aplicadas. Treze seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -284,12 +376,24 @@ Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
 | Registrar Ame-no-Sagume como revogação externa da Supressão Recíproca, e Partilha como par de Rede Viva | Controle de Chakra v2 |
 | Resolver as três migrações para o Sensoriamento e rederivar sob Núcleo v2 | Percepção v5, ausente do projeto |
+| Publicar a classe de golpe desarmado que o motor de dano não declara, hoje herdada por interpolação entre Kenpo, Taekwondo e Taichi sem repetir a errata em cada uma | Núcleo de Combate v1 |
+| Nomear dono para o Perfil de Evasão consumido por perícia física sem chakra, e para a contrapartida de coeficiente de entrega que o degrau Telegrafado cobra sem análogo físico | Manual de Criação de Jutsus, seção 6.5 |
+| Publicar a conversão de margem em metros que a Seção 9 promete para o Empurrar e nunca resolve | Núcleo de Combate v1, seção 9 |
+| Corrigir a citação de "escala de resultado já publicada" da Seção 9, que aponta para a tabela sem números do Núcleo do Sistema em vez da régua de quatro graus do Sistema de Efeitos de Status | Núcleo de Combate v1, seção 9 |
+| Publicar os limiares numéricos de margem de vitória em teste oposto, hoje ausentes em toda a camada de núcleo | Núcleo do Sistema |
+| Declarar que a vantagem Gênio Bruto, linha de Resistência, não se soma à exceção de Enraizamento do Taichi para a mesma manobra e o mesmo par de atributos | core/advantages.md, vantagem Gênio Bruto |
+| Publicar régua de elevação de Guarda por armadura ou item, hoje sem termo publicado em documento nenhum, pendência que Sem Dobra e a Leitura de Fresta do Tantō dependem para disparar | Núcleo de Combate v1 |
+| A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por quatro documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi | `core.xp-economy`, Anexo A |
 
-Somente a última depende de material que não está na sessão.
+Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.13.** Quatro linhas de trabalho paralelas se reconciliam numa passada só: Kyuinjutsu v1 (décima oitava perícia, INT, Chakra ×1,4), Taichi v1 e Tantō v1 (Físico ×1,0, ao lado de Kenpo e Taekwondo já publicados), e Leque v1 (a primeira perícia do degrau Prático ×1,1, subclasse do Fūton). As seis linhas partiram do mesmo commit sem se enxergarem, e cada uma resolveu sozinha decisões que exigiam ver as outras: Taichi e Kenpo nasceram cada um se autodeclarando "a primeira perícia global do catálogo", e Tantō nasceu em `core/skills/`, camada fechada para conteúdo jogável, antes de uma correção própria o mover. Esta passada resolve as três junto: Taichi, Kenpo, Taekwondo e Tantō convergem em `worlds/common/skills/`, porque nenhuma linha de nenhum dos quatro lê fato de cenário, e o Registro de Fronteira ganha a nota que explica por que perícias sem cenário continuam registrando regente e fronteira neste índice.
+
+O Registro de Regentes sobe de dezessete para vinte e uma entradas. A Carga por atributo ganha INT (Kyuinjutsu, 11), DES (Taichi e Tantō, 3) e FOR (Leque, 1). O Registro de Vizinhança ganha o eixo do leque, Leque com Fūton, e a nota de que as quatro perícias do degrau Físico não formam vizinhança entre si, por serem substitutas e não pares de compra conjunta. O Registro de Fronteira ganha seis blocos de cessão, um por perícia nova, incluindo a colisão sem dono entre o Tantō e os três caminhos de Adagas e Facas de Combate, e a cessão recíproca já fechada dos dois lados entre Leque e Fūton. O Registro de Portão Duplo ganha Kyuinjutsu sobre Controle de Chakra e Leque sobre Fūton, os dois em nível não inferior ao próprio menos um. A nota de desenho sobre o eixo físico passa a nomear Taichi como terceira exceção de estilo nomeado, e Tantō e Leque como as primeiras exceções do lado das armas, que a nota original prometia sem documento. A Dependência do eixo físico é reescrita: o Núcleo de Combate v1, que a Linhagem do Chidori já consumia sem esta observação ter sido atualizada, é a camada geral que faltava, e ela registra as réguas próprias das quatro perícias físicas juntas, com a divergência não resolvida sobre se a camada geral absorve o trio do Sistema dos Oito Portões ou se ele permanece separado, decisão que sobe a Gabriel. O Registro de Conformidade ganha as quatro linhas novas, todas conformes. O Registro de Erratas sobe de oito para dezesseis entradas, com oito erratas novas de dívida alheia, a maioria contra o Núcleo de Combate v1 e o Manual de Criação de Jutsus, nenhuma delas dívida das perícias que as encontraram.
 
 **v2.12.** A perícia de Taekwondo v1 nasce, a décima sétima do sistema e a segunda do eixo físico. Ela entra no Registro de Regentes com regente VEL e categoria Físico ×1,0, e é a primeira perícia do eixo físico a compartilhar regente com um domínio vizinho, o Muay Thai que só existe como dado de aplicação: a leitura por eixo do Núcleo de Perícias não cobre o caso porque não há dois documentos, mas a distinção de verbo que a regra exigiria já está provada no próprio documento, caminho a caminho contra o Chutador daquela escola. A Carga por atributo ganha a coluna de VEL, com uma perícia. A nota de desenho sobre o eixo físico passa a nomear Kenpo e Taekwondo juntos como as exceções à regra de estilo-como-caminho, e a Dependência do eixo físico registra as quatro réguas que Taekwondo acrescentou, a primeira redução parcial de Guarda do corpus entre elas, onde as reduções parciais anteriores atacavam apenas a Absorção. Nenhuma perícia existente muda de regente, categoria ou custo.
 
