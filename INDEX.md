@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 138 documentos · 14 de núcleo · 124 de cenário
+**Total:** 137 documentos · 14 de núcleo · 123 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -206,6 +206,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.powers.overview` | 1.1 | system | final |
+| [Puraton (Plasma)](worlds/naruto/powers/puraton.md) | `naruto.power.puraton` | 1 | power | final |
 
 ## worlds/naruto/progression
 
@@ -232,15 +233,13 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.1 | skill | final |
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.2 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 3 | skill | final |
-| [Kenpo](worlds/naruto/skills/kenpo.md) | `naruto.skill.kenpo` | 1 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.1 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.12 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.10 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 2 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.1 | skill | final |
-| [Taekwondo](worlds/naruto/skills/taekwondo.md) | `naruto.skill.taekwondo` | 1 | skill | final |
 | [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.2 | skill | final |
 | [Liberação de Yin](worlds/naruto/skills/yin-release.md) | `naruto.skill.yin-release` | 4.1 | skill | final |
 
@@ -248,7 +247,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 5.1 | system | final |
+| [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 5.2 | system | final |
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.2 | system | final |
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.1 | system | final |

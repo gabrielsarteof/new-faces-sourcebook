@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 5.1
+version: 5.2
 layer: scenario
 scenario: naruto
 type: system
@@ -192,27 +192,29 @@ Meiton é exceção. Sua composição elemental permanece desconhecida e sua ide
 
 ### Catálogo de Kekkei Genkai e Kekkei Tōta
 
-| Natureza | Composição | Gate | Tipo dominante | Tier | Poder | % base |
-|---|---|---|---|---|---|---|
-| Jinton 塵遁 (Poeira, Tōta) | Fogo+Terra+Vento | nenhum | Fogo | S | Estratégico | 1% |
-| Mokuton (Madeira) | Terra+Água | Ashura (Senju/Uzumaki) | Terra | A | Estratégico | 2% |
-| Shōton (Cristal) | Terra+Água | nenhum | Terra | A | Decisivo | 2% |
-| Kōton (Aço) | Fogo+Terra | nenhum | Fogo | A | Decisivo | 2% |
-| Meiton (Escuridão) | desconhecida | nenhum | dinâmico | A | Decisivo | 2% |
-| Saton (Areia) | Terra+Vento | nenhum | Terra | A | Decisivo | 2% |
-| Shakuton (Queima) | Fogo+Vento | nenhum | Fogo | A | Decisivo | 2% |
-| Jūton (Gravidade) `[proposta]` | Raio+Terra | nenhum | Raio | A | Tático-Decisivo | 2% |
-| Hariton (Vidro/Obsidiana) `[proposta]` | Fogo+Terra | nenhum | Fogo | A | Tático-Decisivo | 2% |
-| Santon (Ácido) `[proposta]` | Água+Raio | nenhum | Raio | A | Tático | 2% |
-| Hyōton (Gelo) | Água+Vento | nenhum | Vento | B | Decisivo | 4% |
-| Bakuton (Explosão) | Terra+Raio | nenhum | Raio | B | Decisivo | 4% |
-| Futton (Ebulição) | Água+Fogo | nenhum | Fogo | B | Decisivo | 4% |
-| Jinton 迅遁 (Velocidade) | Vento+Raio | nenhum | Raio | B | Tático-Decisivo | 4% |
-| Yōton 溶遁 (Lava) | Fogo+Terra | nenhum | Fogo | C | Decisivo | 8% |
-| Jiton (Magnetismo) | Vento+Terra | nenhum | Terra | C | Decisivo | 8% |
-| Ranton (Tempestade) | Raio+Água | nenhum | Raio | C | Tático-Decisivo | 8% |
-| Puraton (Plasma) `[proposta]` | Fogo+Raio | nenhum | Raio | C | Tático-Decisivo | 8% |
-| Deiton (Lama) | Terra+Água | nenhum | Terra | C | Tático | 8% |
+| Natureza | Composição | Gate | Tipo dominante | Tier | Poder | % base | Proveniência |
+|---|---|---|---|---|---|---|---|
+| Jinton 塵遁 (Poeira, Tōta) | Fogo+Terra+Vento | nenhum | Fogo | S | Estratégico | 1% | cânone |
+| Mokuton (Madeira) | Terra+Água | Ashura (Senju/Uzumaki) | Terra | A | Estratégico | 2% | cânone |
+| Shōton (Cristal) | Terra+Água | nenhum | Terra | A | Decisivo | 2% | cânone |
+| Kōton (Aço) | Fogo+Terra | nenhum | Fogo | A | Decisivo | 2% | cânone |
+| Meiton (Escuridão) | desconhecida | nenhum | dinâmico | A | Decisivo | 2% | cânone |
+| Saton (Areia) | Terra+Vento | nenhum | Terra | A | Decisivo | 2% | cânone |
+| Shakuton (Queima) | Fogo+Vento | nenhum | Fogo | A | Decisivo | 2% | cânone |
+| Jūton (Gravidade) `[proposta]` | Raio+Terra | nenhum | Raio | A | Tático-Decisivo | 2% | proposta de sistema |
+| Hariton (Vidro/Obsidiana) `[proposta]` | Fogo+Terra | nenhum | Fogo | A | Tático-Decisivo | 2% | proposta de sistema |
+| Santon (Ácido) `[proposta]` | Água+Raio | nenhum | Raio | A | Tático | 2% | proposta de sistema |
+| Hyōton (Gelo) | Água+Vento | nenhum | Vento | B | Decisivo | 4% | cânone |
+| Bakuton (Explosão) | Terra+Raio | nenhum | Raio | B | Decisivo | 4% | cânone |
+| Futton (Ebulição) | Água+Fogo | nenhum | Fogo | B | Decisivo | 4% | cânone |
+| Jinton 迅遁 (Velocidade) | Vento+Raio | nenhum | Raio | B | Tático-Decisivo | 4% | cânone, composição pela camada de jogos |
+| Yōton 溶遁 (Lava) | Fogo+Terra | nenhum | Fogo | C | Decisivo | 8% | cânone |
+| Jiton (Magnetismo) | Vento+Terra | nenhum | Terra | C | Decisivo | 8% | cânone |
+| Ranton (Tempestade) | Raio+Água | nenhum | Raio | C | Tático-Decisivo | 8% | cânone |
+| Puraton (Plasma) `[proposta]` | Fogo+Raio | nenhum | Raio | C | Tático-Decisivo | 8% | **criação de Gabriel** |
+| Deiton (Lama) | Terra+Água | nenhum | Terra | C | Tático | 8% | cânone |
+
+A coluna de Proveniência registra de onde a entrada vem. `cânone` marca natureza que a obra nomeia, com o nome japonês do catálogo podendo ser construção deste sistema conforme a seção de Nomenclatura. `proposta de sistema` marca natureza que nasce aqui para fechar par elemental vago, ainda sem auditoria própria. `criação de Gabriel` marca natureza desenhada de origem e aprovada pelo método de três passos, com documento próprio publicado.
 
 A coluna de Poder não altera a chance de manifestação. Ela define o preço de retentativa da Centelha e, no caso do Kyōka, o bônus de multiplicador de dano.
 
@@ -236,13 +238,17 @@ Toda natureza do catálogo tem nome japonês, para que a ficha não misture entr
 
 A entrada do Plasma resolve a pendência de padrão que o catálogo registrava — era a única com nome de termo de física em vez de composto japonês. Passa a ser Puraton, e o rótulo pt-BR continua Plasma.
 
-**Estilo Plasma, busca de condutor.** `[proposta]` O plasma ioniza o ar no percurso e a descarga se resolve no condutor mais favorável dentro do alcance declarado, em vez de obedecer à trajetória apontada.
+**Natureza mecânica do Puraton.** `[proposta]` O comportamento do Puraton é **poder de linhagem, construído pelo Manual de Criação de Poderes**, em três graus que se compram com progressão, sobre uma regra permanente que vale desde a manifestação. Ele não é perícia, não é inclinação de perícia e não é caminho. A ficha completa, com a escada de condutividade, o campo de busca, os três graus, os contratos de oito campos e o preço de aquisição, vive em [Puraton (Plasma)](../powers/puraton.md). Esta entrada permanece dona da composição, do portão, do tier histórico e do percentual da Centelha.
+
+**Puraton, busca de condutor.** `[proposta]` O plasma ioniza o ar no percurso e a descarga se resolve no condutor mais favorável dentro do alcance declarado, em vez de obedecer à trajetória apontada.
 
 - Alvo declarado livremente quando a entrega é por contato direto, ou quando existe um único condutor viável na área declarada.
 - Busca automática quando mais de um condutor disputa a descarga dentro do alcance. A técnica se resolve no condutor mais favorável, que pode não ser o alvo pretendido, e aliado em posição mais condutora entra na conta.
 - Condutor abrange metal, água, terreno alagado, umidade corporal e pele exposta, e não apenas metal. É aqui que a propriedade se separa do Jiton, que atrai metal por magnetismo e não alcança os demais.
 
-A propriedade governa apenas em qual condutor a descarga se resolve. Tudo que diz respeito a atravessar isolante e a propagar-se por água já pertence à perícia de Raiton, que o Estilo Plasma herda como tipo dominante e não reescreve — a dissipação contra isolante no LV1 e a travessia de isolante fino a partir do rank C continuam valendo sem exceção para o Plasma.
+A regra permanente governa o destino da descarga. A produção da corrente, o alcance e a propagação por água pertencem à perícia de Raiton, que o Puraton herda como tipo dominante e não reescreve. A dissipação contra isolante do LV1 e a travessia de isolante fino a partir do rank C continuam valendo para todo portador, e o Grau 1 do poder é onde a dissipação passa a ser revogada, somente para as descargas de Puraton de quem o possui.
+
+**A conciliação entre canal e busca.** As duas cláusulas tocam o mesmo disparo e respondem a perguntas diferentes. **O canal decide por onde a descarga viaja, e a busca decide onde ela termina.** O canal ionizado governa o percurso, produzindo o próprio meio e atravessando o que estiver interposto no caminho. A busca de condutor governa o destino, escolhendo entre os condutores presentes aquele em que a descarga se resolve. As duas convivem no mesmo disparo porque uma responde pelo trajeto e a outra pelo ponto final. O corredor de ar ionizado do Grau 2 entra pela porta do destino, acrescentando condutor ao terreno, e o Grau 3 fecha essa porta ao declarar destino e suspender a busca.
 
 **Fronteiras de condução.** Três mecânicas distintas operam sobre condutores, e nenhuma substitui outra. Ficam registradas juntas para que nenhuma passagem futura as confunda ou funda:
 
@@ -250,9 +256,10 @@ A propriedade governa apenas em qual condutor a descarga se resolve. Tudo que di
 |---|---|---|---|
 | Regra de Condução do Raiton | passiva | a descarga percorre condutor já presente na cena e se dissipa contra isolante seco | o condutor existente |
 | Condução por Meio do Shiden | conversão ativa | o praticante escolhe aplicar a descarga sobre um meio condutor e converte entrega de alvo único em entrega de área | a extensão física do meio |
-| Canal ionizado do Estilo Plasma | isenção | a descarga dispensa meio externo e atravessa isolante seco interposto, invertendo a regra base | a declaração da técnica |
+| Canal ionizado do Puraton, Grau 1 | isenção | a descarga dispensa meio externo e atravessa isolante seco interposto, invertendo a regra base | a declaração da técnica |
+| Rescaldo do Puraton, Grau 2 | publicação de condutor | o ar do trajeto permanece ionizado por turnos declarados e vale como condutor para descargas seguintes de qualquer usuário de Raiton | o corredor declarado, enquanto durar |
 
-A limitação de escolha de alvo não é compensada com redução de dano. O sistema não tem rolagem de acerto e toda vantagem ofensiva já é ignora-esquiva por regra central, de modo que acerto garantido não é privilégio do Plasma. A troca real é escolha de alvo por posicionamento, e ela se paga sozinha em cena com múltiplos combatentes.
+A limitação de escolha de alvo não é compensada com redução de dano. O sistema não tem rolagem de acerto e toda vantagem ofensiva já é ignora-esquiva por regra central, de modo que acerto garantido não é privilégio do Puraton. A troca real é escolha de alvo por posicionamento, e ela se paga sozinha em cena com múltiplos combatentes.
 
 ### Catálogo de Kyōka
 
@@ -387,3 +394,9 @@ A perícia da natureza avançada não reduz o custo dos Tipos Elementais compone
 - **Clusters são geografia viva:** o viés de linhagem e região é a razão pela qual Iwagakure tem doutrina de Yōton e Kumogakure tem esgrimistas de Ranton. Use os clusters ao gerar PdMs para que a distribuição de naturezas avançadas no mundo pareça orgânica.
 - **Meiton pede adaptação:** por ter tipo dinâmico, o Mestre precisa declarar contra qual chakra o Meiton está sendo usado a cada ativação, antes de resolver o Ciclo de Superação daquele turno.
 - **Onmyōton segue incompleto:** a manifestação de Yin ainda não existe. Não improvise uma em mesa sem antes fechar a decisão de design formalmente.
+
+---
+
+## Registro de Alterações
+
+**v5.2.** Errata do Puraton. A entrada passa a declarar a natureza mecânica dela como poder de linhagem construído pelo Manual de Criação de Poderes, com a ficha completa publicada em `worlds/naruto/powers/puraton.md`, e o catálogo deixa de ser lido como se a propriedade fosse camada de perícia ou de inclinação. A conciliação entre canal e busca virou linha publicada, com o canal decidindo por onde a descarga viaja e a busca decidindo onde ela termina, encerrando a leitura contraditória que a seção de busca e a tabela de fronteiras permitiam. O parágrafo que afirmava a dissipação contra isolante do LV1 valendo sem exceção para o Plasma foi corrigido, porque o Grau 1 do poder a revoga para as descargas de Puraton de quem o possui. A tabela de fronteiras de condução ganhou a linha do Rescaldo e o canal ionizado passou a citar o grau que o publica. O catálogo de Kekkei Genkai ganhou coluna de Proveniência, com o Puraton marcado como criação de Gabriel. O nome Estilo Plasma foi substituído por Puraton em todo o documento, alinhando o corpo do texto à decisão de nomenclatura que a v5.1 já havia tomado. Nenhuma composição, portão, tier, percentual de Centelha ou régua de progressão mudou.

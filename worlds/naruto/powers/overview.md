@@ -17,6 +17,7 @@ Habilidades e modos que transcendem o shinobi padrão.
 
 | Arquivo | Conteúdo |
 |---|---|
+| [puraton.md](puraton.md) | Puraton (Plasma): poder de linhagem em três graus sobre o produto da Perícia de Raiton, com a regra permanente de Busca de Condutor |
 | [../skills/senjutsu.md](../skills/senjutsu.md) | Modo Sábio: entrar no modo é o LV1 da perícia de Senjutsu, que publica requisitos de acesso, réguas, caminhos e a modalidade por espécie |
 | [tailed-beast-mode.md](tailed-beast-mode.md) | Modo Besta de Cauda / Modo Bijuu |
 | [expansions-overview.md](expansions-overview.md) | Como expansões funcionam no sistema; referência ao Seis Olhos |
