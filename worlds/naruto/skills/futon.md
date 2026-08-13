@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.futon
 title: "Fūton (風遁)"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: FUTON_Pericia_v2_1.md
 ---
 
-FŪTON (風遁) · v2.2
+FŪTON (風遁) · v2.3
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -20,7 +20,7 @@ Esta é a coluna de magnitude do portão duplo, e ela escalona por rank. A perí
 
 A fronteira interna do domínio corre pela expulsão. Tudo que acontece antes dela, o afinamento do chakra até a borda que parte a folha, a compressão do volume, a proporção da mistura e a integridade da lâmina sob moldagem, pertence ao Controle de Chakra. Tudo que acontece depois dela pertence a esta perícia, e o cânone autoriza a segunda metade ao registrar que o vento se manipula a partir de uma fonte externa já existente, com chakra ou com uma ferramenta, sem que o praticante precise tê-lo gerado.
 
-O território termina onde o ofício alheio começa. A raridade da natureza, a relação de vantagem contra Raiton e de desvantagem contra Katon pertencem ao Sistema Elemental. A colaboração que faz o vento fortalecer a chama e agitar a água pertence ao Manual de Criação de Jutsus. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo do Pássaro à frente, pertence ao Controle de Chakra, que também responde pelo ajuste de comprimento e densidade da borda de vento aplicada a uma arma. A persistência da ferida e a graduação do Sangramento pertencem ao Sistema de Efeitos de Status. O vento como componente de Hyōton, Shakuton, Jiton e Jinton pertence a Naturezas Avançadas. O leque de guerra pertence à Perícia de Leque para a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla contra dano físico e genjutsu sonoro, e permanece com o Fūton apenas para o corte e o deslocamento por vento que a Perícia de Leque conduz sem redefinir. O leque lendário e toda outra ferramenta que produz vento pertencem à camada de acesso do compêndio, e a prática do leque como traço recorrente das forças de Sunagakure pertence ao contexto daquela vila. O sopro do bijū de uma cauda pertence ao documento de Bijū. As técnicas nomeadas vivem no Compêndio de Fūton, sem exceção.
+O território termina onde o ofício alheio começa. A raridade da natureza, a relação de vantagem contra Raiton e de desvantagem contra Katon pertencem ao Sistema Elemental. A colaboração que faz o vento fortalecer a chama e agitar a água pertence ao Manual de Criação de Jutsus. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo do Pássaro à frente, pertence ao Controle de Chakra, que também responde pelo ajuste de comprimento e densidade da borda de vento aplicada a uma arma. A persistência da ferida e a graduação do Sangramento pertencem ao Sistema de Efeitos de Status. O vento como componente de Hyōton, Shakuton, Jiton e Jinton pertence a Naturezas Avançadas, e a camada de intensificação do elemento, o Taiton, pertence ao mesmo documento, que responde pelo portão, pela chance de manifestação e pelo multiplicador de dano; o que a manifestação abre dentro desta perícia vive na inclinação Ciclone. O leque de guerra pertence à Perícia de Leque para a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla contra dano físico e genjutsu sonoro, e permanece com o Fūton apenas para o corte e o deslocamento por vento que a Perícia de Leque conduz sem redefinir. O leque lendário e toda outra ferramenta que produz vento pertencem à camada de acesso do compêndio, e a prática do leque como traço recorrente das forças de Sunagakure pertence ao contexto daquela vila. O sopro do bijū de uma cauda pertence ao documento de Bijū. As técnicas nomeadas vivem no Compêndio de Fūton, sem exceção.
 
 PORTÃO DE RANK
 
@@ -53,6 +53,10 @@ VENDAVAL: A massa de ar que disputa posição. O vento existe para decidir onde 
 
 VENTO A FAVOR: A corrente que toma o que já existe. O vento existe para servir-se do campo, e o problema se resolve por aquilo que estava lá antes dele.
 └─ Entra no teste quando a cena apresenta matéria solta, meio suspenso ou corpo alheio disponível no campo, e a solução passa por aquilo em vez de passar pelo ar puro
+
+CICLONE: O ar que deixa de ser corrente e passa a ser sistema. O vento existe para ocupar o campo por conta própria, e o problema se resolve por aquilo que continua girando depois que a mão parou.
+└─ Entra no teste quando a cena apresenta problema que a corrente dirigida alcança apenas enquanto o praticante a segura, um lugar que precisa continuar ocupado, uma frente que precisa continuar andando ou uma condição que precisa durar além da ação que a criou
+└─ Inclinação de extensão manifestada, destravada pela manifestação do Taiton e disponível somente a quem a carrega. Ela corre por fora da escolha de inclinação do LV2, se compra e se aprofunda por aquisição adicional, e o capstone dela vive na seção de Ápice adiante, separado da transcendência do LV6
 
 NÍVEL 3: COMPETÊNCIA
 Base 32 · Inclinação 16 (aprofundada)
@@ -124,6 +128,32 @@ A corrente vira caminho, e quem entra nela chega onde o vento vai. [atribuído: 
 └─ Passageiro [ação menor, 25 RC]: aliado, invocação, animal ou o próprio praticante entra na corrente e se desloca por ela sem tocar o solo. Distância = ⌊teste de Vento a Favor ÷ 6⌋ metros por turno, resultando em 20 no LV4, 24 no LV5 e 29 no LV6. LV5: o passageiro age no mesmo turno em que chega, sem perder a ação pelo trajeto
 └─ Rastro Aberto [passivo]: a corrente permanece traçada por 2 turnos depois de aberta e qualquer aliado pode entrar nela sem novo custo. LV5: 4 turnos, e a corrente aceita uma bifurcação declarada, servindo a dois destinos
 
+───────────────────────────────
+INCLINAÇÃO CICLONE
+extensão manifestada · Taiton 颱遁
+───────────────────────────────
+
+Os caminhos abaixo pertencem à inclinação de extensão e exigem a manifestação do Taiton registrada na ficha. Eles se compram por aquisição adicional, na ordem que o portador quiser, e a inclinação precisa estar aprofundada antes do primeiro deles, como toda inclinação da perícia.
+
+ESPIRAL (grau 4, complexidade 4) · 42
+O vento ganha estrutura própria e passa a existir depois do gesto que o criou, com centro, permanência e rumo seus. [proposta]
+└─ Formação [ativado, ação padrão, 45 RC]: converte em sistema rotativo a área declarada em torno de um centro escolhido, e o sistema gira sozinho depois de erguido, sem manutenção e sem consumir ação do praticante. Raio = ⌊teste de Ciclone ÷ 7⌋ metros, resultando em 17 no LV4, 21 no LV5 e 24 no LV6. Duração = ⌈teste de Ciclone ÷ 40⌉ turnos, resultando em 3 no LV4, 4 no LV5 e 5 no LV6. Corpo apanhado dentro do sistema perde o apoio e a ação de movimento do turno e é retido em órbita pela borda, e deixa o sistema opondo o próprio teste de deslocamento ao teste de Ciclone, uma tentativa por turno como ação padrão. LV5: a retenção sobe de corpo apoiado para corpo em qualquer meio, alcançando quem voa, quem se sustenta por chakra e quem se desloca acima do solo
+└─ Deriva [passivo]: o sistema anda por conta própria no início de cada turno do praticante, seguindo a rota declarada no instante da formação. A rota é uma reta única, com origem no centro do sistema e sentido declarado junto com ela, e a velocidade é fixa, valendo ⌊teste de Ciclone ÷ 10⌋ metros por turno, resultando em 12 no LV4, 14 no LV5 e 17 no LV6. A reta e a velocidade são lidas do teste no instante da formação e permanecem as mesmas até o sistema se desfazer. A rota é irrevogável em todas as circunstâncias: o praticante a mantém como declarou, terceiro algum a altera, efeito algum a desvia e ela permanece fora do juízo do Narrador enquanto o sistema existir. Estrutura interposta no trajeto é desbastada pela borda durante a travessia e o rumo declarado segue intacto. LV5: a rota aceita uma inflexão única, declarada junto com a reta no mesmo instante da formação, passando a ser duas retas encadeadas com o ponto de inflexão declarado, e a irrevogabilidade vale integralmente sobre as duas
+
+OLHO (grau 3, complexidade 4) · 38
+O centro de um sistema é uma região parada, e quem o ocupa comanda de dentro daquilo que alcança todo o resto do campo. [proposta]
+└─ Centro Parado [passivo]: o centro do sistema fica isento dos efeitos dele, e o praticante declara na formação quem o ocupa além de si mesmo. Raio do centro = ⌊teste de Ciclone ÷ 25⌋ metros, resultando em 4 no LV4, 5 no LV5 e 6 no LV6. Ocupantes declarados = ⌊teste de Ciclone ÷ 30⌋, resultando em 3 no LV4, 4 no LV5 e 5 no LV6. Corpo que alcance o centro sem constar da declaração continua sofrendo o sistema e continua orbitando. LV5: a declaração deixa de ser presa à formação e passa a ser refeita por ação livre, uma vez por turno, sobre quem estiver dentro do centro naquele instante
+└─ Migração [passivo]: o ocupante do centro acompanha o deslocamento do sistema sem gastar ação de movimento e sem opor teste, e sai do centro por ação declarada, sofrendo o sistema como qualquer outro corpo a partir do instante em que cruza a borda do centro. LV5: o praticante lança um ocupante pela borda como ação declarada, e ele atravessa o sistema isento até o ponto de saída declarado
+
+FOME (grau 4, complexidade 5) · 42
+O sistema come o campo em que está e cresce com aquilo que engoliu. [proposta]
+└─ Absorção [passivo]: técnica de Fūton, névoa, fumaça, poeira, areia e chama que entrem no sistema são incorporadas a ele, venham de onde vierem. Técnica incorporada passa a alimentar o sistema, e o efeito próprio dela se encerra dentro do sistema sem alcançar alvo algum. Cada incorporação eleva a magnitude em um degrau, e cada degrau soma ⌊teste de Ciclone ÷ 20⌋ metros ao raio e um turno à duração restante, resultando em 6 metros no LV4, 7 no LV5 e 8 no LV6. Teto de degraus = ⌊teste de Ciclone ÷ 30⌋, resultando em 4 no LV4, 4 no LV5 e 5 no LV6. A incorporação corre por origem indiferente, e a chama, o meio suspenso e a técnica de Fūton de um aliado alimentam o sistema nos mesmos termos dos do inimigo. LV5: a chama incorporada permanece ardendo na borda, e o sistema aplica Queimadura somada ao rider próprio do elemento enquanto durar o degrau que aquela chama produziu
+└─ Sucção [passivo]: o sistema recolhe por conta própria a matéria solta e o meio suspenso que estejam ao alcance da borda e os traz para dentro, e cada recolhimento conta como incorporação. Alcance além da borda = ⌊teste de Ciclone ÷ 15⌋ metros, resultando em 8 no LV4, 9 no LV5 e 11 no LV6. O recolhimento acontece sem ação e sem custo, e o material recolhido passa a pertencer ao sistema em vez de responder à mão do praticante. LV5: a sucção alcança também corpo não firmado dentro da faixa, que entra no sistema e passa a orbitar
+
+NOTA DE FRONTEIRA DA ABSORÇÃO: a indiferença de origem é regra da inclinação e vale contra a linha aliada com a mesma força com que vale contra a inimiga. A régua geral que trata efeitos atingindo aliados sem escolha do executor ainda não tem documento dono publicado, e a dependência fica registrada como errata aberta, com escopo alcançando a indiscriminação do Futton, o Rescaldo do Puraton, a transparência do Hariton e a Terra Morta do Kuroi Kaminari. Enquanto a régua não nascer, a cláusula acima governa o caso do Ciclone.
+
+NOTA DE FRONTEIRA DA ESPIRAL: o Vento Divino do compêndio sopra numa direção escolhida e mantida, e a linha avisada opera a favor dela; o sistema do Ciclone gira em torno de um centro e alcança por igual todo corpo fora dele, sem oferecer escolha de alvo a ninguém.
+
 NOTA: o grau mede amplitude e determina o valor da especialização; a complexidade mede profundidade e governa os verbos, sem entrar em teste.
 
 NÍVEL 5: MAESTRIA
@@ -168,11 +198,42 @@ Revoga: a regra de que cada corpo carregado pelo vento exige ação e declaraç�
 
 ═══════════════════════════════════════════════════════════════════
 
+ÁPICE DE EXTENSÃO: CICLONE
+Requisito: Espiral, Olho e Fome no estado aprofundado
+
+O Ápice pertence à inclinação de extensão manifestada e corre por fora da transcendência da perícia. Ele exige apenas os três caminhos de Ciclone aprofundados, lê o estado deles e nada mais, e permanece disponível ao portador que esteja em nível baixo em Fūton, desde que tenha comprado e aprofundado esses caminhos por aquisição adicional. Ele ocupa a transcendência do LV6 para nenhum efeito, e o praticante que possua as duas coisas conta cada uma no seu lugar.
+
+Adquirido o Ápice, os três caminhos de Ciclone passam ao estado transcendido no mesmo ato. Os caminhos de Vácuo, Vendaval e Vento a Favor permanecem no estado em que estavam.
+
+O VENTO QUE NÃO PASSA (remoção de condição · Fome)
+Revoga: a regra de que todo efeito sustentado e toda técnica de área declaram duração no instante da execução e cessam ao fim dela.
+
+└─ Perpetuação: enquanto o sistema encontrar alimento, ele deixa de contar duração e deixa de conhecer teto de crescimento.
+   · Tipo: passivo
+   · Ação de mesa: nenhuma
+   · Custo: nenhum
+   · Teste: nenhum para a permanência; a saída de corpo do sistema continua opondo o teste de deslocamento do alvo ao teste de Ciclone com a especialização de Espiral
+   · Números: as duas leituras abaixo tomam o teste de Ciclone pela especialização transcendida de Fome com a largura de ápice, os três caminhos da inclinação possuídos e nenhum outro caminho da perícia, valendo 144 no LV4, 165 no LV5 e 190 no LV6. Janela de alimentação = ⌈teste de Ciclone ÷ 80⌉ turnos, resultando em 2 no LV4, 3 no LV5 e 3 no LV6. Recebida ao menos uma incorporação dentro da janela, a duração declarada na Formação para de correr e o sistema permanece de pé; vencida a janela sem incorporação, a duração volta a correr do ponto em que parou. O teto de degraus de magnitude deixa de existir, e cada degrau acima do antigo teto exige uma incorporação de rank igual ou superior à que produziu o degrau anterior. O incremento de raio por degrau vale ⌊teste de Ciclone ÷ 20⌋ metros, resultando em 7 no LV4, 8 no LV5 e 9 no LV6
+   · Interações: lê a Absorção e a Sucção de Fome e a duração declarada na Formação de Espiral; deixa a Deriva intacta, e a rota declarada permanece irrevogável por toda a permanência do sistema, inclusive quando essa permanência deixa de ter fim previsto; os riders do material incorporado resolvem pelo Sistema de Efeitos de Status; a relação elemental daquilo que entra permanece com o Sistema Elemental
+   · Etiqueta: [proposta]
+   · Âncora de validação: um praticante de LV5 com o Ápice adquirido, os três caminhos de Ciclone transcendidos por ele, ergue o sistema sobre uma frente florestal em chamas, e a Sucção recolhe folhagem, fumaça e brasa a cada turno, cumprindo a janela de três turnos sem gastar ação, de modo que o sistema atravessa a cena inteira e cresce enquanto a floresta durar. Contra o par declarado de pedra limpa e ar parado, sem matéria solta ao alcance da borda, a janela vence, a duração de quatro turnos da Formação volta a correr e a habilidade entrega o mesmo que o caminho comum entregava
+
+└─ Absorção elevada: a incorporação deixa de exigir que o material entre no sistema e passa a valer sobre todo material que o sistema alcance, e técnica de Fūton de qualquer rank é incorporada em vez de disputar rank e investimento contra a borda
+└─ Sucção elevada: o alcance deixa de ser medido a partir da borda e passa a valer sobre o campo declarado, e toda matéria solta e todo meio suspenso do campo caminham para o sistema no início de cada turno
+
+[o Centro Parado continua alcançando apenas os ocupantes declarados, e o praticante que deixe o centro sofre o sistema perpetuado como qualquer outro corpo]
+
+═══════════════════════════════════════════════════════════════════
+
 AQUISIÇÃO E LARGURA
 
 O primeiro caminho chega no LV4 e exige a inclinação associada no estado aprofundado. Cada caminho adicional soma à Base Total um bônus geral de 4 no LV4 e no LV5 e de 5 no LV6, aplicável a todos os testes da perícia. Cada caminho adicional pertencente a uma inclinação soma à Inclinação Total dela um bônus de 2 quando a inclinação está aberta e de 3 quando está aprofundada. Não existe teto de caminhos, e a especialização permanece exclusiva ao contexto do caminho ativo. A escolha entre transcender cedo com poucos caminhos e tarde com muitos é decisão real de construção, porque a elevação acontece uma única vez.
 
 Os testes de referência no ápice, com o praticante em LV6 transcendido e todos os caminhos da inclinação possuídos, valem 180, 185 e 190 em Vácuo, 180, 185 e 190 em Vendaval, e 188, 193, 198 e 198 em Vento a Favor. A inclinação mais larga do domínio produz o teste mais alto, e a diferença é a consequência declarada de haver mais território a cobrir.
+
+A inclinação Ciclone se adquire por compra adicional a partir do LV2, pelo preço de LV2 da perícia na categoria Ninjutsu, e aprofunda pelo mesmo preço outra vez, somando 3.374 de XP. Cada caminho dela corre pelo preço de caminho adicional da categoria, 3.093 no LV4 e 5.062 no LV5. O Ápice custa o preço cheio do LV6 da categoria, 15.187, e dispensa a perícia no LV6, porque a exigência dele são os caminhos da própria inclinação. A economia de XP registra esta linha como errata aberta, porque a seção de transcendências dela ainda descreve apenas o capstone embutido no LV6.
+
+Os testes de referência de Ciclone, com os três caminhos possuídos e transcendidos pelo Ápice, valem 144, 140 e 144 no LV4, 165, 161 e 165 no LV5 e 190, 185 e 190 no LV6, em Espiral, Olho e Fome. O portador que alcance o Ápice antes do LV6 lê a coluna transcendida a partir da Base de Nível que possui, e é essa combinação de coluna alta com base baixa que dá à extensão manifestada a textura de linhagem em vez de a textura de maestria.
 
 ARQUÉTIPOS DE ÁPICE
 
@@ -182,6 +243,18 @@ O que fecha a passagem constrói Vendaval transcendido sobre Vácuo aprofundado.
 
 O que governa o campo constrói Vento a Favor transcendido sobre Vendaval aprofundado. Ele gera pouco e comanda tudo, os projéteis dos aliados, os do inimigo depois de redirecionados, a areia levantada do chão e a rota aberta por onde os companheiros chegam. Dentro dos 49 metros dele, mover-se é privilégio concedido, na figura da portadora do grande leque dobrável, que agita o campo em vez de soprar, e da criatura invocada que viaja sobre a corrente até o inimigo.
 
+O que governa o tempo constrói Ciclone com o Ápice sobre os três caminhos da própria inclinação. Ele ergue o sistema, declara a reta por onde aquilo vai andar, escolhe quem ocupa o centro parado e passa o resto da cena comandando um centro que se move. O campo em volta dele vira problema de todos os presentes, a linha aliada precisa descobrir onde ficar, e a chama que qualquer um acender na cena vira massa dele, na figura do portador que troca o controle momento a momento por uma coisa que continua trabalhando sozinha.
+
 NOTA DE NOMEAÇÃO
 
-Os caminhos e as transcendências do Fūton empregam nomeação por imagem, e a imagem é sempre um vento ou um fenômeno do ar que se entende na leitura, sem explicação ao lado.
+Os caminhos e as transcendências do Fūton empregam nomeação por imagem, e a imagem é sempre um vento ou um fenômeno do ar que se entende na leitura, sem explicação ao lado. A inclinação de extensão nomeia pelas partes do sistema, e Espiral, Olho e Fome dizem a forma, o centro e o apetite do tufão.
+
+REGISTRO DE ALTERAÇÕES
+
+v2.3. Colisão de versão com a v2.2: duas linhas de trabalho independentes partiram da v2.1 e cada uma bateu o próprio martelo em "v2.2" sem enxergar a outra — a publicação da Perícia de Leque, que cedeu ao documento novo a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla, mantendo aqui apenas o corte e o deslocamento por vento; e esta passada, que nasce a inclinação Ciclone. Resolvida subindo um degrau a mais, no mesmo padrão que outras colisões de versão já registradas no corpus.
+
+Nasce a inclinação Ciclone, primeira inclinação de extensão manifestada publicada no sourcebook, destravada pela manifestação do Taiton 颱遁 e composta por Espiral, Olho e Fome. Nasce com ela o Ápice O Vento Que Não Passa, capstone próprio da extensão pela seção 13.1 do Manual de Criação de Perícias v7.2, exigindo apenas os caminhos de Ciclone aprofundados e distinto da transcendência do LV6. A fronteira do documento passa a citar o Taiton, a seção de aquisição recebe os preços da extensão e os testes de referência dela, e os arquétipos ganham a construção do portador do sistema. Duas erratas abertas ficam registradas: a régua geral de efeitos que atingem aliados sem escolha do executor e a linha de custo do Ápice no Manual de Economia de XP. As inclinações Vácuo, Vendaval e Vento a Favor, os onze caminhos delas e as três transcendências permanecem como estavam na v2.1.
+
+v2.2. A Perícia de Leque nasce como documento próprio, subclasse componente sobre o portão de Fūton em nível não inferior ao próprio menos um. A linha de fronteira territorial passa a ceder ao Leque a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla contra dano físico e genjutsu sonoro, mantendo com o Fūton apenas o corte e o deslocamento por vento que a Perícia de Leque conduz sem redefinir. Nenhuma inclinação, caminho ou transcendência desta perícia muda de valor.
+
+v2.1. Estado anterior do documento.

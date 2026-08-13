@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.2
+version: 5.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -14,7 +14,7 @@ source-file: Compendio_Katon_v5.md
 
 Catálogo das técnicas nomeadas do elemento fogo. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
 
-**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Katon v3. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Queimadura e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
+**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Katon v4. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Queimadura e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status, com a ressalva de que o caminho Fulgor da inclinação de extensão Brasa substitui a Queimadura por Cegueira nas entregas resolvidas por ele, pela regra de rider substituído por natureza intensificada. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
 
 ---
 

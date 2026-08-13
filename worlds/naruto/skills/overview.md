@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.15
+version: 2.20
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.15. Camada de relação entre domínios.**
+**v2.20. Camada de relação entre domínios.**
 
 ---
 
@@ -36,11 +36,11 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Controle de Chakra | v3.3 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2 | RES | Chakra ×1,4 |
-| Katon | v3 | INT | Ninjutsu ×1,5 |
-| Raiton | v2 | INT | Ninjutsu ×1,5 |
-| Fūton | v2.1 | INT | Ninjutsu ×1,5 |
-| Suiton | v2.1 | INT | Ninjutsu ×1,5 |
-| Doton | v2 | INT | Ninjutsu ×1,5 |
+| Katon | v4 | INT | Ninjutsu ×1,5 |
+| Raiton | v3 | INT | Ninjutsu ×1,5 |
+| Fūton | v2.3 | INT | Ninjutsu ×1,5 |
+| Suiton | v2.2 | INT | Ninjutsu ×1,5 |
+| Doton | v2.1 | INT | Ninjutsu ×1,5 |
 | Liberação de Yin | v4.1 | INT | Ninjutsu ×1,5 |
 | Liberação de Yang | v4.2 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
@@ -379,7 +379,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v3, Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
+| Katon v4, Raiton v3, Doton v2.1, Fūton v2.3, Suiton v2.2 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
 | Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
@@ -404,7 +404,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Dezesseis, das quais três aplicadas. Treze seguem abertas.
+Vinte e quatro, das quais três aplicadas. Vinte e uma seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -415,6 +415,10 @@ Dezesseis, das quais três aplicadas. Treze seguem abertas.
 | Registrar o multiplicador de 65 do LV5 e a soma revogada pelo Apagamento no LV6 | Genjutsu v1.1 |
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
 | Registrar Ame-no-Sagume como revogação externa da Supressão Recíproca, e Partilha como par de Rede Viva | Controle de Chakra v2 |
+| Escrever a inclinação de extensão Dessecação, hospedeira do Shakuton, ao lado de Brasa | Katon v4 |
+| Declarar que o estado Transcendido também se alcança pelo Ápice de Extensão Manifestada, e que os caminhos de inclinação de extensão ficam fora do requisito e da elevação da transcendência de LV6 | Núcleo de Perícias v2.2, seções 3.4 e 4.4, e Manual de Criação de Perícias v7.2, seção 13.1 |
+| Publicar o preço de aprofundamento de caminho de inclinação de extensão adquirido abaixo do LV5 da hospedeira | Manual de Economia de XP v2.2, seção 7 |
+| Declarar se o sistema terá camada de armadura própria, hoje ausente, contra a qual o efeito Núcleo do Katon v4 inverte a Absorção | Núcleo de Combate, seção 6 |
 | Resolver as três migrações para o Sensoriamento e rederivar sob Núcleo v2 | Percepção v5, ausente do projeto |
 | Publicar a classe de golpe desarmado que o motor de dano não declara, hoje herdada por interpolação entre Kenpo, Taekwondo e Taichi sem repetir a errata em cada uma | Núcleo de Combate v1 |
 | Nomear dono para o Perfil de Evasão consumido por perícia física sem chakra, e para a contrapartida de coeficiente de entrega que o degrau Telegrafado cobra sem análogo físico | Manual de Criação de Jutsus, seção 6.5 |
@@ -424,6 +428,10 @@ Dezesseis, das quais três aplicadas. Treze seguem abertas.
 | Declarar que a vantagem Gênio Bruto, linha de Resistência, não se soma à exceção de Enraizamento do Taichi para a mesma manobra e o mesmo par de atributos | core/advantages.md, vantagem Gênio Bruto |
 | Publicar régua de elevação de Guarda por armadura ou item, hoje sem termo publicado em documento nenhum, pendência que Sem Dobra e a Leitura de Fresta do Tantō dependem para disparar | Núcleo de Combate v1 |
 | A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por oito documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi, Tantō, Leque, Kunai, Shuriken | `core.xp-economy`, Anexo A |
+| Abrir linha de preço própria para o Ápice de Extensão Manifestada, hoje lido pela régua de transcendência adicional | Manual de Economia de XP v2.2, seção 7 |
+| Prever a terceira leitura de largura, a do Ápice de extensão manifestada, que soma largura de ápice com especialização aprofundada porque a seção 13.1 o desliga do LV6 — vale para todo Ápice já publicado, não só o do Doton | Núcleo de Perícias v2.2, seção 6.1 |
+| Publicar a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje declarada só em nota de fronteira local por documento — o escopo já alcança a indiscriminação do Futton, o Rescaldo do Puraton, a transparência do Hariton, a Terra Morta do Kuroi Kaminari e a Absorção do Ciclone | Núcleo do Sistema, sem seção própria ainda |
+| Corrigir o efeito Sem Posição, da transcendência Névoa Eterna: publica 174, lido da especialização de Toque da Maré em largura mínima, quando o efeito de transcendência deveria ler largura de ápice pela seção 6.1 do Núcleo de Perícias — Bruma tem três caminhos, e o valor correto é 190, o mesmo que a linha de testes de referência da perícia já publica | Suiton v2.2 |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
@@ -431,15 +439,35 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 
 ## 9. Registro de Alterações
 
-**v2.15.** A perícia de Shuriken v1 nasce, a vigésima do sistema e a sexta do degrau Físico, regente DES, a segunda a preencher o rótulo canônico de shurikenjutsu ao lado do Kunai. A densidade é deliberadamente menor que a da vizinha, três inclinações e seis caminhos contra oito, porque o inventário canônico não sustenta uso corpo a corpo fora do Fūma, e o documento registra essa honestidade em vez de inflar a partição. Sem portão de rank, porque nenhuma ficha de técnica publicada cita esta perícia como requisito de manejo, ao contrário do Kunai. Duas réguas transversais, Firmeza da Fixação e Modos de Giro, a segunda categórica e fixa, sem leitura de teste. Uma transcendência, Ame-no-Koyane sobre Sombra, revogando a regra de que uma Reação gasta encerra a capacidade de defesa do alvo pelo resto do turno.
+**v2.20.** Colisão de versão com a v2.14, pela quinta vez e pela primeira em que os dois lados eram documentos publicáveis inteiros e não só reconciliação de índice: a linha de trabalho do Kunai e do Shuriken também numerou a primeira das duas publicações como v2.14, a partir do mesmo commit em que a extensão manifestada do Katon já reivindicava aquele número, sem enxergá-la. Resolvida do mesmo modo que as quatro colisões anteriores, subindo as duas entradas para os dois degraus livres no topo da pilha, v2.19 e v2.20, sem alterar uma vírgula do conteúdo de nenhuma.
+
+A perícia de Shuriken v1 nasce, a vigésima do sistema e a sexta do degrau Físico, regente DES, a segunda a preencher o rótulo canônico de shurikenjutsu ao lado do Kunai. A densidade é deliberadamente menor que a da vizinha, três inclinações e seis caminhos contra oito, porque o inventário canônico não sustenta uso corpo a corpo fora do Fūma, e o documento registra essa honestidade em vez de inflar a partição. Sem portão de rank, porque nenhuma ficha de técnica publicada cita esta perícia como requisito de manejo, ao contrário do Kunai. Duas réguas transversais, Firmeza da Fixação e Modos de Giro, a segunda categórica e fixa, sem leitura de teste. Uma transcendência, Ame-no-Koyane sobre Sombra, revogando a regra de que uma Reação gasta encerra a capacidade de defesa do alvo pelo resto do turno.
 
 O Registro de Regentes sobe de vinte e duas para vinte e três entradas. A Carga por atributo ganha um DES, subindo de quatro para cinco. O Registro de Vizinhança ganha a nota de que Shuriken não forma eixo com o Kunai apesar do rótulo compartilhado, pelo mesmo motivo que já separa Kunai das quatro perícias físicas anteriores. O Registro de Fronteira ganha o bloco de cessão do Shuriken, incluindo a fronteira contra a duplicação por clone das sombras, que o cânone declara funcionar com qualquer ferramenta lançada e que por isso não entra em caminho nenhum aqui, e contra o Rasenshuriken e qualquer técnica de chakra em forma de shuriken. A linha da Fila de Nascimento sobre a Perícia de Ferramenta Ninja é corrigida para citar Kunai e Shuriken como as duas declarantes, em vez de se referir a si mesma. O link para `bukijutsu.md` fecha a lacuna de shuriken que restava depois da correção do Kunai. O Registro de Conformidade ganha a linha nova, conforme. A linha de errata sobre a divergência de requisito de transcendência sobe para oito documentos citados.
 
-**v2.14.** A perícia de Kunai v1 nasce, a décima nona do sistema e a quinta do degrau Físico, regente DES. Ela fecha uma dívida que a linhagem do Hiraishin carregava desde a própria publicação: a Execução do Deus do Trovão Voador exigia perícia de arma LV5 sem documento, e três lugares daquela ficha citavam a lacuna nominalmente. As quatro ocorrências foram substituídas por referência ao caminho Transição, verbo Chegada Cortante, que também resolve a perfuração de Absorção que a entrada nunca declarava. O Segundo Passo ganhou uma nota nomeando o caminho Salva, verbo Interceptação, como o mecanismo que já intercepta a lâmina em trânsito, sem requisito de acesso novo. A Rotação Instantânea Mútua não foi tocada: nenhuma linha daquela ficha emprega lâmina, arremesso ou manejo de arma, e inventar uma dependência ali quebraria a regra de nunca inventar valor. A linha correspondente de `errata-hiraishin.md` §1.4 foi marcada como fechada.
+**v2.19.** A perícia de Kunai v1 nasce, a décima nona do sistema e a quinta do degrau Físico, regente DES. Ela fecha uma dívida que a linhagem do Hiraishin carregava desde a própria publicação: a Execução do Deus do Trovão Voador exigia perícia de arma LV5 sem documento, e três lugares daquela ficha citavam a lacuna nominalmente. As quatro ocorrências foram substituídas por referência ao caminho Transição, verbo Chegada Cortante, que também resolve a perfuração de Absorção que a entrada nunca declarava. O Segundo Passo ganhou uma nota nomeando o caminho Salva, verbo Interceptação, como o mecanismo que já intercepta a lâmina em trânsito, sem requisito de acesso novo. A Rotação Instantânea Mútua não foi tocada: nenhuma linha daquela ficha emprega lâmina, arremesso ou manejo de arma, e inventar uma dependência ali quebraria a regra de nunca inventar valor. A linha correspondente de `errata-hiraishin.md` §1.4 foi marcada como fechada.
 
 O documento também publica, de forma explícita, a decisão de tratar shurikenjutsu como categoria e não como nome de perícia, na mesma leitura que já separa Taijutsu de Muay Thai, contrariando a linha literal da fonte primária por decisão deliberada e registrada.
 
 O Registro de Regentes sobe de vinte e uma para vinte e duas entradas. A Carga por atributo ganha um DES, subindo de três para quatro. O Registro de Vizinhança ganha o Eixo do Hiraishin, Kunai com Fūinjutsu e Passagem, e uma nota explicando por que Kunai não é substituto de Tantō, ao contrário das quatro perícias físicas anteriores. O Registro de Fronteira ganha o bloco de cessão do Kunai, incluindo a fronteira contra a etiqueta explosiva do Fūinjutsu e contra a doutrina geral de Adagas e Facas de Combate. O Registro de Portão Duplo ganha a linha de portão de obra entre Kunai, Fūinjutsu e Passagem. A Fila de Nascimento perde "Perícia de arma", fechada por este documento, e ganha "Perícia de Ferramenta Ninja", dona do que o Kunai deliberadamente recusou: makibishi, senbon, bomba de fumaça e fio de aço sem lâmina. O link morto para `bukijutsu.md`, em `worlds/naruto/combat/overview.md`, passa a apontar para este documento na fatia que lhe cabe. O Registro de Conformidade ganha a linha nova, conforme. A linha de errata sobre a divergência de requisito de transcendência entre `core.skills-core` e `core.xp-economy` é corrigida para citar os sete documentos que hoje seguem o precedente, não apenas os quatro que a citavam antes.
+
+**v2.18.** Colisão de versão com a v2.11, pela quarta vez: uma quinta linha de trabalho, a extensão manifestada da Perícia de Suiton, também publicou sob o número v2.11 a partir do mesmo commit em que as linhas de seis perícias, do Katon, do Raiton e do Doton já haviam colidido, sem enxergar nenhuma delas. Resolvida do mesmo modo, subindo mais um degrau.
+
+A Perícia de Suiton sobe para v2.2 e passa a ser a quinta do corpus a declarar inclinação de extensão manifestada — Katon, Raiton, Doton e Fūton vieram antes, na mesma reconciliação, e as cinco passadas não se enxergaram. A inclinação Maré é destravada pelo Chōton, a Kyōka de Água do catálogo de Naturezas Avançadas, traz os caminhos Preia-Mar, Vazante e Ciclo e recebe o Ápice Macaréu pela seção 13.1 do Manual. A mesma passada resolve o portão do Chōton de `[PENDENTE]` para nenhum, e eleva o poder dele de Decisivo para Estratégico, com o multiplicador de dano indo de 1,20 para 1,35 — a leitura que a concepção aprovada registrava como definitiva, contra o valor provisório que o catálogo carregava. O Registro de Regentes e o de Conformidade acompanham a versão nova, e a seção "Progressão por Maestria" de Naturezas Avançadas passa a enumerar as quatro naturezas hospedadas por perícia existente juntas — Incandescência, Sísmico, Tufão e Maré — em vez de tratar cada uma como exceção isolada.
+
+**v2.17.** A Perícia de Fūton sobe para v2.3 e passa a ser a quarta do corpus a declarar inclinação de extensão manifestada — Katon, Raiton e Doton vieram antes, na mesma reconciliação, e as quatro passadas não se enxergaram. A inclinação Ciclone é destravada pelo Taiton, a Kyōka de Vento do catálogo de Naturezas Avançadas, traz os caminhos Espiral, Olho e Fome e recebe o Ápice O Vento Que Não Passa pela seção 13.1 do Manual, sem piso de nível na hospedeira, no mesmo padrão que o Ápice do Doton já fixava. O Taiton é o primeiro Kyōka do catálogo a conservar o rider do elemento base em vez de trocá-lo. A subida corrige uma colisão de versão que não gerava conflito de texto e por isso passava despercebida: a própria Perícia de Fūton chegou a ter duas linhas de trabalho independentes reivindicando "v2.2" a partir da v2.1, a publicação da Perícia de Leque e esta passada do Taiton, cada uma sem ver a outra. Como as duas escreviam o mesmo literal `version: 2.2` na base, nenhum `git rebase` acusava o choque, e a versão errada ficaria publicada em silêncio se a linha de trabalho seguinte não a tivesse conferido contra o histórico do documento. Resolvida subindo a v2.2 real para v2.3 e escrevendo, pela primeira vez, o registro de alterações que a v2.2 nunca tivera — a Perícia de Leque, que cede ao Fūton apenas o corte e o deslocamento por vento, mantendo o resto para si. O Registro de Regentes e o de Conformidade acompanham a versão nova, e uma errata nova entra na tabela: a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje espalhada em nota de fronteira local por cada documento que a toca (Futton, Puraton, Hariton, Kuroi Kaminari, e agora Ciclone) sem seção própria no Núcleo do Sistema.
+
+**v2.16.** Colisão de versão com a v2.11, pela terceira vez: uma quarta linha de trabalho, a extensão manifestada da Perícia de Doton, também publicou sob o número v2.11 a partir do mesmo commit em que as linhas de seis perícias, do Katon e do Raiton já haviam colidido, sem enxergar nenhuma delas. Resolvida do mesmo modo, subindo mais um degrau.
+
+A Perícia de Doton sobe para v2.1 e passa a ser a terceira do corpus a declarar inclinação de extensão manifestada — Katon e Raiton vieram antes, na mesma reconciliação, e as três passadas não se enxergaram. A inclinação Sismo é destravada pelo Shinton, a Kyōka de Terra do catálogo de Naturezas Avançadas, traz os caminhos Tremor, Concussão e Ressonância e recebe o Ápice Primeira Onda pela seção 13.1 do Manual. O caso é o primeiro em que a natureza avançada não abre perícia própria alguma: Naturezas Avançadas ganha a exceção declarada de natureza hospedada por perícia existente, com a progressão correndo pela hospedeira, na seção "Progressão por Maestria". O rider da inclinação inteira substitui a Imobilização da Terra por Atordoamento, pela regra geral de rider substituído por natureza intensificada que a passada do Katon publicou em `core/status-effects.md` v2.5 — a mesma regra, com o Sísmico como segundo caso registrado e escopo de inclinação inteira em vez de caminho só, porque a troca aqui é propriedade passiva de toda técnica de Sismo e não uma habilidade paga à parte. O Registro de Conformidade acompanha a versão nova, e a seção 6.1 do Núcleo de Perícias recebe pendência de errata, porque o Ápice de extensão publica valores lendo largura de ápice com especialização aprofundada, leitura que aquela seção ainda não previa antes desta reconciliação — a mesma pendência que já valia para o Ápice do Katon, agora nomeada.
+
+**v2.15.** Colisão de versão com a v2.11, pela segunda vez: uma terceira linha de trabalho, a extensão manifestada da Perícia de Raiton, também publicou sob o número v2.11 a partir do mesmo commit em que a linha de seis perícias e a linha do Katon já haviam colidido, sem enxergar nenhuma das duas. Resolvida do mesmo modo, subindo mais um degrau.
+
+A Perícia de Raiton sobe para v3 e passa a ser a segunda do corpus a declarar inclinação de extensão manifestada — a primeira foi o Katon, na mesma reconciliação, e as duas passadas não se enxergaram. São duas inclinações no Raiton, hospedadas pelas Kyōka de Raio: Calamidade, aberta pelo Kuroi Kaminari, e Agudo, aberta pelo Shiden, cada uma com três caminhos e um Ápice próprio pela seção 13.1 do manual. Nenhuma inclinação, caminho ou transcendência anterior do Raiton foi tocada, o regente e a categoria permanecem, e o Registro de Conformidade acompanha a versão nova. A passagem original abria duas erratas de sistema, a substituição de rider por Kyōka e a linha de preço do Ápice na economia de XP; a primeira fechou nesta mesma reconciliação, pela regra geral de rider substituído por natureza intensificada que a passada do Katon publicou em `core/status-effects.md` v2.5, e só a segunda segue aberta.
+
+**v2.14.** Colisão de versão com a v2.11: duas linhas de trabalho publicaram sob o mesmo número a partir do mesmo commit sem se enxergarem, uma reconciliando Kyuinjutsu/Taichi/Tantō/Leque/Kenpo/Taekwondo (registrada abaixo, v2.11 a v2.13) e esta subindo a Perícia de Katon. Resolvida subindo um degrau a mais, no mesmo padrão que a v2.9 já registrou para a colisão com o Senjutsu.
+
+A Perícia de Katon sobe para v4 e passa a ser a primeira do corpus a declarar inclinação de extensão manifestada, o que revoga a afirmação da v2.10 de que nenhuma perícia publicada declarava uma. A inclinação é Brasa, hospedeira da Kyōka Shiton de Incandescência, com os caminhos Têmpera, Fulgor e Forja e com o Ápice Sem Combustão pela seção 13.1 do Manual. Nenhuma das três inclinações anteriores do Katon foi tocada e nenhum caminho ou transcendência mudou de valor. A perícia permanece conforme ao Manual v7.2 e abre uma errata contra o Núcleo v2.2, que ainda lê o estado Transcendido como alcançável somente pela transcendência de LV6 e não conhece a isenção recíproca entre a transcendência comum e os caminhos de inclinação de extensão. Na mesma passada, o Sistema de Efeitos de Status sobe para v2.5 com a regra geral de rider substituído por natureza intensificada e o registro de casos dela, e Naturezas Avançadas sobe para v5.2 com o kanji 熾遁, a coluna de proveniência do catálogo de Kyōka e a reescrita da entrada de Incandescência contra o documento de concepção. Fica registrado como errata aberta que a inclinação Shakuton de Dessecação, prevista para a mesma camada dentro do Katon, ainda não foi escrita.
 
 **v2.13.** Quatro linhas de trabalho paralelas se reconciliam numa passada só: Kyuinjutsu v1 (décima oitava perícia, INT, Chakra ×1,4), Taichi v1 e Tantō v1 (Físico ×1,0, ao lado de Kenpo e Taekwondo já publicados), e Leque v1 (a primeira perícia do degrau Prático ×1,1, subclasse do Fūton). As seis linhas partiram do mesmo commit sem se enxergarem, e cada uma resolveu sozinha decisões que exigiam ver as outras: Taichi e Kenpo nasceram cada um se autodeclarando "a primeira perícia global do catálogo", e Tantō nasceu em `core/skills/`, camada fechada para conteúdo jogável, antes de uma correção própria o mover. Esta passada resolve as três junto: Taichi, Kenpo, Taekwondo e Tantō convergem em `worlds/common/skills/`, porque nenhuma linha de nenhum dos quatro lê fato de cenário, e o Registro de Fronteira ganha a nota que explica por que perícias sem cenário continuam registrando regente e fronteira neste índice.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 5.1
+version: 5.2
 layer: scenario
 scenario: naruto
 type: system
@@ -192,27 +192,29 @@ Meiton é exceção. Sua composição elemental permanece desconhecida e sua ide
 
 ### Catálogo de Kekkei Genkai e Kekkei Tōta
 
-| Natureza | Composição | Gate | Tipo dominante | Tier | Poder | % base |
-|---|---|---|---|---|---|---|
-| Jinton 塵遁 (Poeira, Tōta) | Fogo+Terra+Vento | nenhum | Fogo | S | Estratégico | 1% |
-| Mokuton (Madeira) | Terra+Água | Ashura (Senju/Uzumaki) | Terra | A | Estratégico | 2% |
-| Shōton (Cristal) | Terra+Água | nenhum | Terra | A | Decisivo | 2% |
-| Kōton (Aço) | Fogo+Terra | nenhum | Fogo | A | Decisivo | 2% |
-| Meiton (Escuridão) | desconhecida | nenhum | dinâmico | A | Decisivo | 2% |
-| Saton (Areia) | Terra+Vento | nenhum | Terra | A | Decisivo | 2% |
-| Shakuton (Queima) | Fogo+Vento | nenhum | Fogo | A | Decisivo | 2% |
-| Jūton (Gravidade) `[proposta]` | Raio+Terra | nenhum | Raio | A | Tático-Decisivo | 2% |
-| Hariton (Vidro/Obsidiana) `[proposta]` | Fogo+Terra | nenhum | Fogo | A | Tático-Decisivo | 2% |
-| Santon (Ácido) `[proposta]` | Água+Raio | nenhum | Raio | A | Tático | 2% |
-| Hyōton (Gelo) | Água+Vento | nenhum | Vento | B | Decisivo | 4% |
-| Bakuton (Explosão) | Terra+Raio | nenhum | Raio | B | Decisivo | 4% |
-| Futton (Ebulição) | Água+Fogo | nenhum | Fogo | B | Decisivo | 4% |
-| Jinton 迅遁 (Velocidade) | Vento+Raio | nenhum | Raio | B | Tático-Decisivo | 4% |
-| Yōton 溶遁 (Lava) | Fogo+Terra | nenhum | Fogo | C | Decisivo | 8% |
-| Jiton (Magnetismo) | Vento+Terra | nenhum | Terra | C | Decisivo | 8% |
-| Ranton (Tempestade) | Raio+Água | nenhum | Raio | C | Tático-Decisivo | 8% |
-| Puraton (Plasma) `[proposta]` | Fogo+Raio | nenhum | Raio | C | Tático-Decisivo | 8% |
-| Deiton (Lama) | Terra+Água | nenhum | Terra | C | Tático | 8% |
+| Natureza | Composição | Gate | Tipo dominante | Tier | Poder | % base | Proveniência |
+|---|---|---|---|---|---|---|---|
+| Jinton 塵遁 (Poeira, Tōta) | Fogo+Terra+Vento | nenhum | Fogo | S | Estratégico | 1% | cânone |
+| Mokuton (Madeira) | Terra+Água | Ashura (Senju/Uzumaki) | Terra | A | Estratégico | 2% | cânone |
+| Shōton (Cristal) | Terra+Água | nenhum | Terra | A | Decisivo | 2% | cânone |
+| Kōton (Aço) | Fogo+Terra | nenhum | Fogo | A | Decisivo | 2% | cânone |
+| Meiton (Escuridão) | desconhecida | nenhum | dinâmico | A | Decisivo | 2% | cânone |
+| Saton (Areia) | Terra+Vento | nenhum | Terra | A | Decisivo | 2% | cânone |
+| Shakuton (Queima) | Fogo+Vento | nenhum | Fogo | A | Decisivo | 2% | cânone |
+| Jūton (Gravidade) `[proposta]` | Raio+Terra | nenhum | Raio | A | Tático-Decisivo | 2% | proposta de sistema |
+| Hariton (Vidro/Obsidiana) `[proposta]` | Fogo+Terra | nenhum | Fogo | A | Tático-Decisivo | 2% | proposta de sistema |
+| Santon (Ácido) `[proposta]` | Água+Raio | nenhum | Raio | A | Tático | 2% | proposta de sistema |
+| Hyōton (Gelo) | Água+Vento | nenhum | Vento | B | Decisivo | 4% | cânone |
+| Bakuton (Explosão) | Terra+Raio | nenhum | Raio | B | Decisivo | 4% | cânone |
+| Futton (Ebulição) | Água+Fogo | nenhum | Fogo | B | Decisivo | 4% | cânone |
+| Jinton 迅遁 (Velocidade) | Vento+Raio | nenhum | Raio | B | Tático-Decisivo | 4% | cânone, composição pela camada de jogos |
+| Yōton 溶遁 (Lava) | Fogo+Terra | nenhum | Fogo | C | Decisivo | 8% | cânone |
+| Jiton (Magnetismo) | Vento+Terra | nenhum | Terra | C | Decisivo | 8% | cânone |
+| Ranton (Tempestade) | Raio+Água | nenhum | Raio | C | Tático-Decisivo | 8% | cânone |
+| Puraton (Plasma) `[proposta]` | Fogo+Raio | nenhum | Raio | C | Tático-Decisivo | 8% | **criação de Gabriel** |
+| Deiton (Lama) | Terra+Água | nenhum | Terra | C | Tático | 8% | cânone |
+
+A coluna de Proveniência registra de onde a entrada vem. `cânone` marca natureza que a obra nomeia, com o nome japonês do catálogo podendo ser construção deste sistema conforme a seção de Nomenclatura. `proposta de sistema` marca natureza que nasce aqui para fechar par elemental vago, ainda sem auditoria própria. `criação de Gabriel` marca natureza desenhada de origem e aprovada pelo método de três passos, com documento próprio publicado.
 
 A coluna de Poder não altera a chance de manifestação. Ela define o preço de retentativa da Centelha e, no caso do Kyōka, o bônus de multiplicador de dano.
 
@@ -230,43 +232,57 @@ Vento+Raio tem ocupante único, a Liberação de Velocidade, e por isso não ent
 
 ### Nomenclatura
 
-Toda natureza do catálogo tem nome japonês, para que a ficha não misture entradas nomeadas com entradas sem nome. Nove deles são construídos no padrão 〜遁 e não vêm de fonte alguma, porque o cânone não nomeia essas naturezas: Jūton, Hariton, Santon e Puraton entre as Kekkei Genkai, e Shiton, Taiton, Gōton, Shinton e Chōton entre as Kyōka. Todos ficam marcados `[proposta]` e podem ser revistos sem custo mecânico — nenhuma regra depende do nome.
+Toda natureza do catálogo tem nome japonês, para que a ficha não misture entradas nomeadas com entradas sem nome. Nove deles são construídos no padrão 〜遁 e não vêm de fonte alguma, porque o cânone não nomeia essas naturezas: Jūton, Hariton, Santon e Puraton entre as Kekkei Genkai, e Shiton, Taiton, Gōton, Shinton e Chōton entre as Kyōka. Todos ficam marcados `[proposta]` e podem ser revistos sem custo mecânico, porque nenhuma regra depende do nome.
+
+A Incandescência recebe kanji próprio nesta versão e passa a constar como 熾遁. O caractere 熾 nomeia a brasa que arde clara, que é exatamente a matéria brilhando de calor que a natureza opera, e a escolha fecha a única entrada de Kyōka que trazia rótulo em romanização sem grafia correspondente.
+
+O **Taiton** passa a registrar kanji, 颱遁, com 颱 significando tufão. A entrada segue marcada `[proposta]` como as demais construídas neste catálogo, e o registro do kanji existe para que a natureza com implementação mecânica publicada apareça na ficha com a mesma forma das entradas de fonte.
 
 `[canon]` Duas romanizações colidem, e a colisão é da obra e não deste catálogo. **Jinton** é 塵遁, a Liberação de Poeira, e também 迅遁, a Liberação de Velocidade. **Yōton** é 陽遁, a Liberação de Yang que é natureza base, e também 溶遁, a Liberação de Lava. O kanji fica registrado nas quatro linhas por isso. Em mesa, o contexto separa: a Poeira é Kekkei Tōta de tier S e a Velocidade é tier B; o Yang é natureza base e a Lava é Kekkei Genkai.
 
 A entrada do Plasma resolve a pendência de padrão que o catálogo registrava — era a única com nome de termo de física em vez de composto japonês. Passa a ser Puraton, e o rótulo pt-BR continua Plasma.
 
-**Estilo Plasma, busca de condutor.** `[proposta]` O plasma ioniza o ar no percurso e a descarga se resolve no condutor mais favorável dentro do alcance declarado, em vez de obedecer à trajetória apontada.
+**Natureza mecânica do Puraton.** `[proposta]` O comportamento do Puraton é **poder de linhagem, construído pelo Manual de Criação de Poderes**, em três graus que se compram com progressão, sobre uma regra permanente que vale desde a manifestação. Ele não é perícia, não é inclinação de perícia e não é caminho. A ficha completa, com a escada de condutividade, o campo de busca, os três graus, os contratos de oito campos e o preço de aquisição, vive em [Puraton (Plasma)](../powers/puraton.md). Esta entrada permanece dona da composição, do portão, do tier histórico e do percentual da Centelha.
+
+**Puraton, busca de condutor.** `[proposta]` O plasma ioniza o ar no percurso e a descarga se resolve no condutor mais favorável dentro do alcance declarado, em vez de obedecer à trajetória apontada.
 
 - Alvo declarado livremente quando a entrega é por contato direto, ou quando existe um único condutor viável na área declarada.
 - Busca automática quando mais de um condutor disputa a descarga dentro do alcance. A técnica se resolve no condutor mais favorável, que pode não ser o alvo pretendido, e aliado em posição mais condutora entra na conta.
 - Condutor abrange metal, água, terreno alagado, umidade corporal e pele exposta, e não apenas metal. É aqui que a propriedade se separa do Jiton, que atrai metal por magnetismo e não alcança os demais.
 
-A propriedade governa apenas em qual condutor a descarga se resolve. Tudo que diz respeito a atravessar isolante e a propagar-se por água já pertence à perícia de Raiton, que o Estilo Plasma herda como tipo dominante e não reescreve — a dissipação contra isolante no LV1 e a travessia de isolante fino a partir do rank C continuam valendo sem exceção para o Plasma.
+A regra permanente governa o destino da descarga. A produção da corrente, o alcance e a propagação por água pertencem à perícia de Raiton, que o Puraton herda como tipo dominante e não reescreve. A dissipação contra isolante do LV1 e a travessia de isolante fino a partir do rank C continuam valendo para todo portador, e o Grau 1 do poder é onde a dissipação passa a ser revogada, somente para as descargas de Puraton de quem o possui.
 
-**Fronteiras de condução.** Três mecânicas distintas operam sobre condutores, e nenhuma substitui outra. Ficam registradas juntas para que nenhuma passagem futura as confunda ou funda:
+**A conciliação entre canal e busca.** As duas cláusulas tocam o mesmo disparo e respondem a perguntas diferentes. **O canal decide por onde a descarga viaja, e a busca decide onde ela termina.** O canal ionizado governa o percurso, produzindo o próprio meio e atravessando o que estiver interposto no caminho. A busca de condutor governa o destino, escolhendo entre os condutores presentes aquele em que a descarga se resolve. As duas convivem no mesmo disparo porque uma responde pelo trajeto e a outra pelo ponto final. O corredor de ar ionizado do Grau 2 entra pela porta do destino, acrescentando condutor ao terreno, e o Grau 3 fecha essa porta ao declarar destino e suspender a busca.
+
+**Fronteiras de condução.** Cinco mecânicas distintas operam sobre condutores, e nenhuma substitui outra. A enumeração de condutor de cada linha é a da entrada dona, e a definição ampla desta seção, que alcança pele exposta, vale apenas para o Puraton. Ficam registradas juntas para que nenhuma passagem futura as confunda ou funda:
 
 | Mecânica | Eixo | O que faz | Limite de alcance |
 |---|---|---|---|
 | Regra de Condução do Raiton | passiva | a descarga percorre condutor já presente na cena e se dissipa contra isolante seco | o condutor existente |
 | Condução por Meio do Shiden | conversão ativa | o praticante escolhe aplicar a descarga sobre um meio condutor e converte entrega de alvo único em entrega de área | a extensão física do meio |
-| Canal ionizado do Estilo Plasma | isenção | a descarga dispensa meio externo e atravessa isolante seco interposto, invertendo a regra base | a declaração da técnica |
+| Canal ionizado do Puraton, Grau 1 | isenção | a descarga dispensa meio externo e atravessa isolante seco interposto, invertendo a regra base | a declaração da técnica |
+| Rescaldo do Puraton, Grau 2 | publicação de condutor | o ar do trajeto permanece ionizado por turnos declarados e vale como condutor para descargas seguintes de qualquer usuário de Raiton | o corredor declarado, enquanto durar |
+| Núcleo do Shiton | inversão de mitigação | a camada condutora vestida ou carregada pelo alvo inverte a Absorção dele, que passa a somar em vez de subtrair | a camada que o alvo carrega |
 
-A limitação de escolha de alvo não é compensada com redução de dano. O sistema não tem rolagem de acerto e toda vantagem ofensiva já é ignora-esquiva por regra central, de modo que acerto garantido não é privilégio do Plasma. A troca real é escolha de alvo por posicionamento, e ela se paga sozinha em cena com múltiplos combatentes.
+A limitação de escolha de alvo não é compensada com redução de dano. O sistema não tem rolagem de acerto e toda vantagem ofensiva já é ignora-esquiva por regra central, de modo que acerto garantido não é privilégio do Puraton. A troca real é escolha de alvo por posicionamento, e ela se paga sozinha em cena com múltiplos combatentes.
 
 ### Catálogo de Kyōka
 
-| Kyōka | Elemento base | Gate | Tier | Poder | % base | Mult. de dano |
-|---|---|---|---|---|---|---|
-| Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 |
-| Shiton (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 |
-| Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 |
-| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | 2% | 1,95 |
-| Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 |
-| Shinton (Sísmico) `[proposta]` | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 |
-| Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 |
+| Kyōka | Elemento base | Gate | Tier | Poder | % base | Mult. de dano | Proveniência |
+|---|---|---|---|---|---|---|---|
+| Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 | cânone |
+| Shiton 熾遁 (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 | criação de Gabriel |
+| Taiton 颱遁 (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 | criação de Gabriel |
+| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | sem Centelha | 1,95 | cânone |
+| Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 | cânone |
+| Shinton (Sísmico) `[proposta]` | Terra | nenhum | A | Decisivo | 2% | 1,70 | criação de Gabriel |
+| Chōton 潮遁 (Maré) `[proposta]` | Água | nenhum | A | Estratégico | 2% | 1,35 | criação de Gabriel |
 
-O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado.
+A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram. O Sísmico entra nesse grupo com a publicação da inclinação Sismo no Doton, no mesmo padrão que já valia para o Shiton.
+
+**Cinco Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon, Sismo, a inclinação de extensão da Kyōka Shinton, na Perícia de Doton — o primeiro caso em que a natureza avançada não abre perícia própria alguma, cabendo por inteiro dentro do domínio que a hospeda —, Ciclone, a inclinação de extensão da Kyōka Taiton, na Perícia de Fūton, com os caminhos Espiral, Olho e Fome e o Ápice O Vento Que Não Passa, e Maré, a inclinação de extensão da Kyōka Chōton, na Perícia de Suiton, com os caminhos Preia-Mar, Vazante e Ciclo e o Ápice Macaréu. O Taiton é o primeiro Kyōka do catálogo a conservar o rider do elemento base em vez de trocá-lo: nenhuma substituição está declarada para ele.
+
+O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado, salvo substituição declarada pela regra de rider substituído por natureza intensificada do Sistema de Efeitos de Status, que fixa escopo, graus e vetor de teste da troca e mantém o registro dos casos vigentes.
 
 ```
 Mult_Kyōka = Mult_base_do_elemento + Bônus_de_poder
@@ -289,7 +305,7 @@ A regra de portão único com sub-rolagem ponderada, vigente na camada de Kekkei
 
 **Um shinobi manifesta no máximo uma Kyōka por elemento base.** Duas Kyōka do mesmo elemento seriam dois tetos do mesmo elemento no mesmo portador.
 
-**Ordem de teste.** Quando o personagem é elegível a mais de uma Kyōka do mesmo elemento, testa primeiro a de portão mais restrito; manifestada essa, as demais do mesmo elemento não são testadas. A ordem vigente é Enton antes de Shiton, e Kuroi Kaminari antes de Shiden.
+**Ordem de teste.** Quando o personagem é elegível a mais de uma Kyōka do mesmo elemento, testa primeiro a de portão mais restrito; manifestada essa, as demais do mesmo elemento não são testadas. A ordem vigente é Enton antes de Shiton. No Raio a ordem opera por outra via, porque o Kuroi Kaminari corre fora da Centelha: o personagem que conclua o arco de doutrina do Raio Negro possui a Kyōka de Raio daquele portador e deixa de testar o Shiden, e o personagem que manifeste o Shiden pela Centelha conserva a vaga de doutrina fechada pelo mesmo teto de uma Kyōka por elemento base.
 
 ### Portão por doutrina
 
@@ -299,9 +315,13 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Exclusividade.** A vaga é única por geração. Existe no mundo um único receptor ativo por vez, e ela permanece ocupada até a morte ou a renúncia do receptor, ainda que ele nunca manifeste a Kyōka. `[canon]` A tradição do Terceiro Raikage foi oferecida a cada geração e apenas Darui dominou, o que a exclusividade da vaga reproduz.
 
-**Após o vínculo.** Aceito como aprendiz, o personagem rola a Centelha pelo procedimento padrão, e a retentativa cobra pela tabela vigente de poder Decisivo.
+**Após o vínculo.** O portão por doutrina não passa pela Centelha em momento algum. Aceito como aprendiz, o personagem cumpre um arco de treino jogado em mesa, conduzido pelo Narrador junto do portador vivo, e ao fim dele a Kyōka está manifestada. Não existe rolagem, não existe percentual de manifestação, não existe decaimento e não existe retentativa, porque não existe teste a falhar. A escassez sai de haver pouquíssimos portadores no mundo e de cada um escolher a quem passa.
 
-**Custo.** O portão não cobra XP. O preço dele é político e se paga em mesa, na disputa por uma vaga que outro personagem pode estar ocupando.
+**Precedente.** Esta é a única entrada do catálogo que dispensa a Centelha, e a exceção fica nomeada aqui para que nenhuma passagem futura a estenda por analogia. Natureza avançada nova nasce com Centelha salvo declaração explícita como esta.
+
+**Marca de conclusão.** Concluído o arco, o portador carrega o kanji de raio tatuado no ombro, na tradição que a vila reconhece.
+
+**Custo.** O portão não cobra XP próprio. O preço dele é político e se paga em mesa, na disputa por uma vaga que outro personagem pode estar ocupando. A Perícia de Raiton cobra normalmente a inclinação de extensão, os caminhos dela e o Ápice, pela régua do Manual de Economia de XP.
 
 ### Kuroi Kaminari
 
@@ -315,7 +335,11 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Marca de domínio.** `[proposta]` O portador reconhecido carrega a tatuagem de kanji de raio de Kumogakure. É efeito de reconhecimento social e político, sem valor mecânico de combate, no mesmo tratamento que este documento já dá ao peso político das naturezas de tier A.
 
-**Calibração.** A Amplificação Doutrinária coloca o Raiton comum do portador na mesma faixa numérica do Shiden, e a equivalência é intencional. O Shiden é uma Kyōka completa, com três propriedades próprias; a amplificação entrega apenas o número. O portador de Kuroi Kaminari opera o Raiton comum na faixa do Shiden e não dispõe de nenhuma das capacidades do Shiden.
+**Calibração.** A Amplificação Doutrinária coloca o Raiton comum do portador na mesma faixa numérica do Shiden, e a equivalência é intencional. O Shiden é uma Kyōka completa, com propriedades próprias; a amplificação entrega apenas o número. O portador de Kuroi Kaminari opera o Raiton comum na faixa do Shiden e dispõe das capacidades da inclinação Calamidade, que são de outra natureza.
+
+**Hospedagem na Perícia de Raiton.** `[proposta]` A manifestação abre a inclinação de extensão Calamidade na Perícia de Raiton v3, com os caminhos Doma, Assolação e Devastação, e o Ápice Nai-no-Kami. A inclinação responde por forma sustentada, permanência da descarga no ponto de impacto e desfazimento de estrutura e terreno. A partição, os números e o Ápice vivem naquele documento.
+
+**Fronteira contra o raio negro do Chakra dos Seis Caminhos.** `[canon]` O Raiton assume coloração negra sob aquele chakra, como nas execuções conhecidas de Chidori e de Kamui Raikiri. Aquilo permanece Raiton comum, recebe o multiplicador comum do elemento e não abre a inclinação Calamidade. A coincidência é de cor e a origem é outra.
 
 ### Shiden
 
@@ -327,19 +351,67 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Condução por meio.** `[proposta]` O praticante aplica a descarga sobre um meio condutor presente na cena e converte entrega de alvo único em entrega de área. O alcance da conversão é limitado pela extensão física do meio empregado. `[canon]` Kakashi apoia a mão sobre álcool derramado e eletrifica toda a região ao redor.
 
-**Execução sem exposição.** `[proposta]` O Shiden não abre a janela de contra-ataque que a família do Chidori abre. Está redigido como constatação e não como isenção: a penalidade vigente no Compêndio de Raiton está presa à investida linear — é a velocidade do avanço que impõe a visão de túnel, e o Sharingan a corrige — e o Shiden não tem investida. A ausência da janela decorre da forma da técnica, não de uma dispensa concedida a ela.
+**Execução sem exposição.** `[proposta]` O Shiden não abre a janela de contra-ataque que a família do Chidori abre. Está redigido como constatação e não como isenção: a penalidade vigente no Compêndio de Raiton está presa à investida linear, porque é a velocidade do avanço que impõe a visão de túnel e o Sharingan a corrige, e o Shiden não tem investida. A ausência da janela decorre da forma da técnica, não de uma dispensa concedida a ela.
+
+**Duas rotas para a mesma cor.** `[proposta]` A cor violeta é atribuída pela obra a fenômeno declarado desconhecido, e a leitura que este catálogo adota preenche a lacuna sem contradizer a fonte: o Raiton opera elevando a frequência de vibração do chakra, e o violeta é a banda acima da faixa que o elemento alcança em uso comum. A técnica nomeada é a rota do trabalho, alcançada por refinamento e transmissível por ensino. A Kyōka é a rota do sangue, que entrega a banda de nascença. Quem aprende apenas a técnica a executa no multiplicador comum do elemento. Quem manifesta a Kyōka executa todo o próprio Raiton em 1,85 e dispõe da inclinação de extensão.
+
+**Hospedagem na Perícia de Raiton.** `[proposta]` A manifestação abre a inclinação de extensão Agudo na Perícia de Raiton v3, com os caminhos Gume, Fidelidade e Instante, e o Ápice Ame-no-Ohabari. A inclinação responde por corte no lugar de perfuração, recusa de condutor alheio ao alvo e chegada sem trajeto observável. A modulação de intensidade e a condução por meio permanecem propriedades da técnica nomeada e não da natureza.
+
+**Substituição de rider.** `[proposta]` O caminho Gume aplica Sangramento no lugar da Paralisia Parcial. A regra vigente deste documento declara que o rider continua o do elemento base, e o Sistema Elemental declara o rider como propriedade passiva do Tipo. A substituição de rider por Kyōka segue como pendência de errata dos dois documentos, sem travar a publicação da inclinação.
+
+**Errata da técnica nomeada.** A ficha do Shiden no Compêndio de Raiton sobe de `[ATRIBUÍDO]` para `[CANON]`, fecha a autoria em Kakashi Hatake em estado Registrada no lugar de Autoria Aberta, e retira a Kyōka Shiden da lista de requisitos obrigatórios, que passa a elevação.
 
 ### Incandescência
 
-`[proposta]` A Incandescência é a combustão completa, a chama que consome o próprio combustível sem deixar resíduo e por isso queima mais quente que a chama comum. Ela é maestria técnica pura do elemento, sem componente sobrenatural, e é por aí que se separa do Enton sem esforço adicional de design: o Enton é dom de linhagem e chama que não se apaga, a Incandescência é o teto do fogo que qualquer shinobi alcança por ofício.
+`[proposta]` em toda a extensão, e criação de Gabriel. A natureza não tem verbete em fonte primária, e o registro fica etiquetado por inteiro em vez de emprestar autoridade que ela não tem.
 
-Ela existe porque o Fogo era o único elemento sem Kyōka acessível sem portão. Vento, Raio, Terra e Água tinham caminho de intensificação aberto a qualquer praticante que passasse na Centelha, e o Fogo tinha apenas o Enton, travado em linhagem. A lacuna era de cobertura do sistema e não de fidelidade ao cânone, porque nada na obra estabelece que a intensidade máxima do fogo comum dependa de herança.
+A Incandescência é o calor separado da chama. O Katon queima matéria, e o Shiton faz a matéria ficar quente: o ferro na forja emite luz porque está quente o bastante para isso, e continua inteiro enquanto brilha. A luz, que no fogo comum é subproduto, aqui é carga, e boa parte das cenas que a natureza resolve se decide por ela.
 
-**Combustão sem resíduo.** Técnica de Incandescência não produz fumaça, cinza ou fuligem. O campo permanece limpo depois da passagem da chama, e o praticante não ganha nem perde cobertura visual pelo próprio ataque. A propriedade tem custo real, porque remove do praticante o recurso de ocultação por fumaça que o Katon comum oferece.
+Ela existe porque a única entrada de intensificação do Fogo cobrava portão de linhagem, e o Enton restringe o teto do elemento aos descendentes de Indra. A lacuna era de cobertura do sistema e não de fidelidade ao cânone, porque nada na obra estabelece que a intensidade máxima do fogo comum dependa de herança.
 
-**Consumo integral.** Cobertura, barreira ou obstáculo de material combustível dentro da área declarada é consumido por inteiro, em vez de sofrer dano parcial. A propriedade converte terreno em não terreno, e existe para dar à Kyōka presença tática que o dano bruto sozinho não daria.
+A separação dos vizinhos fica registrada linha a linha, porque o Fogo é a região mais povoada do catálogo.
 
-**Grau de Queimadura elevado.** O grau mínimo de Queimadura declarável sobe um degrau em relação ao que a margem produziria em Katon comum, com teto absoluto mantido em Crítico. A escada da condição pertence ao Sistema de Efeitos de Status e não é reescrita aqui: os quatro graus penalizam INT e SAB em 15%, 30%, 50% e 70%, e o Crítico gera Ferimento Grave Moderado permanente. Um degrau a mais nesta natureza é, portanto, um degrau a mais de penalidade cognitiva sobre o alvo, e no topo da escada é sequela.
+| Contra | Separação |
+|---|---|
+| Katon | ali se molda chama, aqui se aquece matéria |
+| Enton | ali a chama consome e persiste por cenas, aqui o efeito termina quando a matéria esfria |
+| Shakuton | ali o calor retira a água do corpo e mata por ressecamento, aqui o calor entra na matéria e a matéria é que fere |
+| Yōton | ali a massa fundida escoa, aqui a peça permanece sólida e brilhando |
+| Bakuton | ali o rebento explode de dentro ignorando a armadura, aqui a armadura trabalha contra o dono |
+
+**Hospedagem.** A Incandescência não tem perícia própria. Ela se hospeda na Perícia de Katon como inclinação de extensão manifestada, de nome Brasa, com os caminhos Têmpera, Fulgor e Forja e com o Ápice Sem Combustão, pelas seções 3 e 13.1 do Manual de Criação de Perícias. A Centelha, o tier histórico, a classificação de poder e o multiplicador de 1,80 continuam sendo governados por este documento, e toda a mecânica de mesa vive naquele. As três leituras abaixo descrevem a natureza e apontam onde cada uma foi escrita como regra, sem repetir a regra aqui.
+
+**Temperatura sem combustão.** A natureza eleva a temperatura da matéria declarada, e a elevação acontece sem chama, de modo que nada arde e nada se consome. A imunidade à extinção é capstone e não propriedade de entrada: ela mora no Ápice Sem Combustão, que a perícia hospedeira cobra pelos três caminhos de Brasa aprofundados mais o preço de transcendência adicional. Até lá a entrega continua sujeita às cláusulas comuns de água da perícia hospedeira. O Ciclo de Superação permanece de pé, com o resfriamento por volume de água ou por gelo como a saída publicada.
+
+**A luz como carga.** A emissão resolve por Cegueira no lugar do dano, alcançando quem tenha linha de visão para a fonte. A troca de rider tem escopo de caminho e não de natureza: ela vale no caminho Fulgor, pela regra geral de rider substituído do Sistema de Efeitos de Status, e a entrega resolvida por Têmpera, por Forja ou por qualquer caminho comum da perícia hospedeira continua no rider de Queimadura. É também em Fulgor que a leitura por dōjutsu recebe o degrau imediatamente acima, porque o olho que capta mais é o que mais recebe. A cláusula é deliberada: o mundo respondeu aos olhos que leem tudo ficando mais brilhante, e a resposta é comum, barata e acessível sem portão.
+
+**O calor por dentro.** O calor entra na matéria em vez de envolvê-la, e o alvo que veste ou carrega camada condutora passa a somar a própria Absorção ao dano em vez de subtraí-la. A propriedade tem escopo de caminho e vive no efeito Núcleo de Forja, condicionada à camada que o alvo carrega e não à origem do número invertido. Ela não ignora a couraça, converte a couraça em problema, e é contra portadores de Kōton com o corpo em liga e de Jiton cobertos de areia de ferro que ela pesa mais.
+
+### Sísmico
+
+`[proposta]` integral quanto à existência, ao nome e às propriedades. O Sísmico é concepção deste projeto e não tem fonte primária a auditar. A única âncora canônica que ele toca vem do lado do alvo, e é a fraqueza que a obra declara para o Shōton: o cristal exige acúmulo molecular preciso e é vulnerável a uma frequência sonora específica, que quebra o acúmulo antes de o cristal se formar. O Cristal ainda não tem verbete próprio neste catálogo, e a nota cruzada do lado dele entra na fila de errata.
+
+**Energia que viaja pela terra.** O Doton comum move matéria, levanta, derruba, abre, endurece e prende. O Sísmico não move nada. A intensificação converte a terra em meio de transmissão, de modo que a onda percorre o leito, resolve em ponto que o praticante não tocou e deixa a matéria onde ela estava. A entrega chega sem atravessar o que está acima do solo, e cobertura, muro e obstáculo erguido não recebem nada porque não estão no caminho dela.
+
+**Frequência no lugar de força.** Estrutura rígida tem frequência própria, e a onda certa a derruba com fração da energia que seria necessária para quebrá-la. A propriedade inverte a leitura habitual de defesa, porque quanto mais rígido o material, mais barato ele custa para vir abaixo.
+
+**Ataque ao ato.** A onda atravessa a carne sem romper nada e desarranja equilíbrio, concentração e mãos. Num sistema em que toda técnica cobra moldagem e selos, a entrega que impede o ato de executar é o eixo próprio da natureza, e é ela que sustenta o rider substituto de Atordoamento no lugar da Imobilização da Terra.
+
+**Sem portão.** O Sísmico não cobra portão de linhagem nem portão de doutrina. Ele segue o precedente da Incandescência, Kyōka de tier A aberta a qualquer praticante que passe na Centelha, e confirma a leitura já publicada de que a Terra dispõe de caminho de intensificação acessível por ofício.
+
+**Sem perícia própria.** O Sísmico é a primeira natureza avançada do catálogo que não abre perícia. A competência que ele destrava entra na Perícia de Doton como a inclinação de extensão manifestada Sismo, com os caminhos Tremor, Concussão e Ressonância e com o Ápice Primeira Onda, pela regra da seção 3 e pela seção 13.1 do Manual de Criação de Perícias. A Centelha, o portão e o multiplicador permanecem aqui; a mecânica de mesa mora lá.
+
+### Maré
+
+`[proposta]` em toda a extensão. O Chōton é concebido para este sistema e não tem fonte primária a auditar.
+
+**Poder Estratégico.** A Maré muda a condição do campo inteiro em vez de vencer a troca direta, no mesmo critério que põe o Taiton na faixa Estratégico, e o multiplicador segue a régua sem desvio: Água 1,00 somada ao incremento Estratégico de 0,35 resulta em 1,35. O número permanece o mais baixo do catálogo de Kyōka porque a base da Água é a mais baixa das cinco naturezas, e o valor tático da natureza está no ciclo que ela impõe e não na cifra de dano.
+
+**Sem portão de linhagem.** O Chōton é intensificação de água acessível a qualquer praticante que passe na Centelha, sem clã, sem doutrina e sem vaga por geração. A Centelha corre pelo procedimento padrão de tier A, e a retentativa cobra pela linha Estratégico da tabela de poder.
+
+**Ciclo autônomo.** O portador declara o compasso de subida e descida da água e passa a lê-lo em vez de comandá-lo. Enquanto o ciclo corre, as fases alternam sozinhas, e o portador está sujeito a elas na mesma medida que o adversário.
+
+**Maré vive dentro da perícia de Suiton.** A natureza abre a inclinação de extensão manifestada Maré na Perícia de Suiton, com os caminhos Preia-Mar, Vazante e Ciclo e o Ápice Macaréu, em lugar de perícia própria. A razão é de camada: a Kyōka intensifica um único elemento e responde às perguntas do domínio daquele elemento, de modo que a mecânica dela pertence à perícia hospedeira pela regra da inclinação de extensão manifestada do Manual de Criação de Perícias. O tier, a Centelha, o poder e o multiplicador de dano continuam vivendo aqui.
 
 ### Onmyōton
 
@@ -356,6 +428,8 @@ Ambas têm perícia completa, com dez caminhos, três inclinações e duas trans
 
 Cada natureza avançada é uma perícia própria, LV1 a LV6, no mesmo padrão de Katon, Raiton ou Controle de Chakra. O pré-requisito de cada nível é o Tipo Elemental de todos os componentes no nível equivalente, conforme a tabela de Requisitos de Acesso.
 
+A Incandescência é a primeira exceção declarada. Ela corre pela inclinação de extensão Brasa dentro da Perícia de Katon, e os níveis dela são os da hospedeira, com a inclinação e os caminhos comprados pelo preço de aquisição adicional da categoria Ninjutsu e com Ápice próprio no lugar da transcendência de LV6. A forma vale para Kyōka e para Kekkei Genkai igualmente, porque o que a autoriza é a seção 3 do Manual de Criação de Perícias, que lê a manifestação e não a família da natureza. O Sísmico, o Tufão e a Maré seguem a mesma forma: o Sísmico pela inclinação Sismo na Perícia de Doton, o Tufão pela inclinação Ciclone na Perícia de Fūton, e a Maré pela inclinação de mesmo nome na Perícia de Suiton, cada um com o Ápice próprio da hospedeira no lugar da transcendência de LV6. O Shakuton, Kekkei Genkai de Fogo e Vento, está na fila para a mesma forma sob a inclinação Dessecação, e nenhuma outra natureza do catálogo a adota sem que a errata correspondente a autorize.
+
 | Nível | Rank acessível | O que o shinobi alcança |
 |---|---|---|
 | LV1 — Alicerce | E | Primeira manifestação estável da natureza avançada, ainda instável fora de condições controladas. |
@@ -366,6 +440,8 @@ Cada natureza avançada é uma perícia própria, LV1 a LV6, no mesmo padrão de
 | LV6 — Transcendência | S | Limite do possível para aquela natureza. |
 
 A perícia da natureza avançada não reduz o custo dos Tipos Elementais componentes. Ela é adquirida e desenvolvida separadamente, com XP próprio, na mesma régua de custo do documento base ajustada pela categoria Ninja.
+
+**Exceção declarada.** A natureza avançada cuja competência cabe inteira dentro do domínio de uma perícia já publicada entra ali como inclinação de extensão manifestada, pela regra da seção 3 do Manual de Criação de Perícias, e não abre perícia própria. Nesse caso a progressão corre pela perícia hospedeira, o rank acessível corre pelo portão dela, e o capstone da extensão segue a seção 13.1 em vez da transcendência do LV6. O Sísmico é a primeira entrada nessa forma, hospedado pela Perícia de Doton.
 
 ---
 
@@ -387,3 +463,9 @@ A perícia da natureza avançada não reduz o custo dos Tipos Elementais compone
 - **Clusters são geografia viva:** o viés de linhagem e região é a razão pela qual Iwagakure tem doutrina de Yōton e Kumogakure tem esgrimistas de Ranton. Use os clusters ao gerar PdMs para que a distribuição de naturezas avançadas no mundo pareça orgânica.
 - **Meiton pede adaptação:** por ter tipo dinâmico, o Mestre precisa declarar contra qual chakra o Meiton está sendo usado a cada ativação, antes de resolver o Ciclo de Superação daquele turno.
 - **Onmyōton segue incompleto:** a manifestação de Yin ainda não existe. Não improvise uma em mesa sem antes fechar a decisão de design formalmente.
+
+---
+
+## Registro de Alterações
+
+**v5.2.** Errata do Puraton. A entrada passa a declarar a natureza mecânica dela como poder de linhagem construído pelo Manual de Criação de Poderes, com a ficha completa publicada em `worlds/naruto/powers/puraton.md`, e o catálogo deixa de ser lido como se a propriedade fosse camada de perícia ou de inclinação. A conciliação entre canal e busca virou linha publicada, com o canal decidindo por onde a descarga viaja e a busca decidindo onde ela termina, encerrando a leitura contraditória que a seção de busca e a tabela de fronteiras permitiam. O parágrafo que afirmava a dissipação contra isolante do LV1 valendo sem exceção para o Plasma foi corrigido, porque o Grau 1 do poder a revoga para as descargas de Puraton de quem o possui. A tabela de fronteiras de condução ganhou a linha do Rescaldo e o canal ionizado passou a citar o grau que o publica. O catálogo de Kekkei Genkai ganhou coluna de Proveniência, com o Puraton marcado como criação de Gabriel. O nome Estilo Plasma foi substituído por Puraton em todo o documento, alinhando o corpo do texto à decisão de nomenclatura que a v5.1 já havia tomado. Nenhuma composição, portão, tier, percentual de Centelha ou régua de progressão mudou.
