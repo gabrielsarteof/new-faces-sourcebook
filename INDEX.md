@@ -18,7 +18,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Vantagens Comuns](core/advantages.md) | `core.advantages` | 1.2 | catalog | final |
-| [Fator de Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 1 | system | final |
+| [Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 2 | system | final |
 | [Núcleo de Combate](core/combat-core.md) | `core.combat-core` | 1 | core-layer | final |
 | [Princípios de Design](core/design-principles.md) | `core.design-principles` | 1 | methodology | final |
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
