@@ -1,9 +1,9 @@
 ---
-id: naruto.skill.taekwondo
+id: common.skill.taekwondo
 title: "Taekwondo"
 version: 1
 layer: scenario
-scenario: naruto
+scenario: common
 type: skill
 status: final
 ---
@@ -14,6 +14,8 @@ PERÍCIA DE TAEKWONDO
 Taekwondo é a escola que fez do chute uma arma que o soco nunca poderia ser. Onde o Muay Thai estende a perna, acerta e recolhe, Taekwondo gira o corpo inteiro antes do impacto, deixa o chão para alcançar o que ninguém alcança parado, desce sobre uma guarda erguida em vez de contorná-la, e troca tensão constante por um ritmo de relaxar e travar só no instante do choque. As quatro ideias têm um traço comum: cada uma paga um preço real, de tempo, de posição, de fôlego ou de iniciativa, pelo dano e pelo alcance que entrega. Nenhuma delas é o chute que estende e volta.
 
 Nenhuma das ideias abaixo tem verbete no cânone de Naruto. A escola inteira é `[proposta]`, tradução de princípio de arte marcial real para o vocabulário deste sistema, e a marca não se repete efeito a efeito porque cobriria o documento inteiro sem acrescentar informação nova.
+
+Esta perícia mora em worlds/common porque nenhuma linha dela pressupõe fato de cenário algum, no mesmo padrão que o Taichi e o Kenpo já abrem.
 
 O território termina onde o ofício alheio começa. O Muay Thai é o vizinho mais próximo e o mais fácil de confundir: o caminho Chutador daquela escola é chute-padrão de perna que estende e volta, alternando alto e baixo sem penalidade, sem janela de vulnerabilidade e sem sair do chão. Nenhum caminho desta perícia repete esse padrão; os seis exigem giro completo, saída do chão, gestão de Esforço ou resposta reativa, e a distinção mora inteira no verbo e não no atributo regente, que os dois domínios compartilham de propósito. O Kenpo é o segundo vizinho, e a fronteira ali é de registro e não de dano: Kenpo decide uma troca pela ausência de aviso, pelo bloqueio que já é o meio golpe seguinte e pela corrente que nunca solta o fio; nenhum caminho desta perícia lê ausência de aviso como abertura de turno, nenhum devolve dano por bloquear, e a sequência que Onda governa não soma dano por golpe conectado como a Corrente Sem Fim do Kenpo soma — ela reduz o custo de sustentar a sequência, e as duas nunca leem a mesma grandeza. Combate desarmado genérico, sem estilo nomeado, pertence à perícia de corpo que a Fila de Nascimento do Índice de Perícias ainda reserva. Arremesso, submissão e luta de solo pertencem a documento próprio, pela autorização que o Núcleo de Combate declara na seção 9. A amplificação corporal por saturação de chakra e a fisiologia do circuito pertencem ao Sistema dos Oito Portões e à perícia de corpo que ele reserva como consumidora futura. Rank de técnica shinobi e jutsu nomeado não se aplicam: o domínio é físico e não converte chakra, e nenhum compêndio de Taekwondo existe porque o cânone de Naruto não nomeia obra alguma desta escola.
 
@@ -48,7 +50,7 @@ Uma inclinação e uma especialização por teste, no máximo. O teste desta per
 
 CLASSE DE GOLPE DESARMADO
 
-O Núcleo de Combate publica três classes de arma e nenhuma classe para o golpe sem arma. Esta perícia herda a que `worlds/naruto/skills/kenpo.md` já declarou por interpolação entre a arma de precisão e a lâmina curva, `[proposta]`, sem reabrir a errata: o corpo desarmado é uma grandeza só, e as duas escolas físicas leem o mesmo valor.
+O Núcleo de Combate publica três classes de arma e nenhuma classe para o golpe sem arma. Esta perícia herda a que `worlds/common/skills/kenpo.md` já declarou por interpolação entre a arma de precisão e a lâmina curva, `[proposta]`, sem reabrir a errata: o corpo desarmado é uma grandeza só, e as duas escolas físicas leem o mesmo valor.
 
 | Classe | Esforço | Coeficiente de impacto |
 |---|---|---|
@@ -235,8 +237,8 @@ O praticante que aprofunda os dois caminhos de uma mesma inclinação, o teto de
 
 PENDÊNCIAS E FILA DE ERRATA
 
-1. O Núcleo de Combate não publica a classe do golpe desarmado. Esta perícia herda a classe que `worlds/naruto/skills/kenpo.md` já declarou por interpolação, Esforço 0,9 e coeficiente de impacto 0,9, `[proposta]`, e não reabre a errata: a pendência é a mesma, já registrada lá, e as duas perícias leem o mesmo valor porque o corpo desarmado é uma grandeza só.
-2. O Índice de Perícias não lista Taekwondo no Registro de Regentes nem no Registro de Conformidade. A propagação deste documento entra na mesma passada que publica esta perícia.
+1. O Núcleo de Combate não publica a classe do golpe desarmado. Esta perícia herda a classe que `worlds/common/skills/kenpo.md` já declarou por interpolação, Esforço 0,9 e coeficiente de impacto 0,9, `[proposta]`, e não reabre a errata: a pendência é a mesma, já registrada lá, e as duas perícias leem o mesmo valor porque o corpo desarmado é uma grandeza só.
+2. O Índice de Perícias lista Taekwondo no Registro de Regentes e no Registro de Conformidade, propagados na mesma passada que publicou esta perícia. A relocação para worlds/common/skills/ pede uma segunda passada de conferência sobre o Registro de Fronteira e o Registro de Vizinhança, no mesmo padrão que o Taichi já abriu para perícia sem cenário.
 3. O Perfil de Evasão vive no Manual de Criação de Jutsus e resolve técnica de chakra. Giro Completo o consome pelo precedente que o Sistema dos Oito Portões abriu e que o Kenpo confirmou, e a régua segue pedindo dono declarado na camada física geral quando ela nascer.
 4. A contrapartida de coeficiente de entrega que a escada do Perfil de Evasão cobra do degrau Telegrafado não tem análogo nesta perícia sem chakra. Giro Completo paga a contrapartida pelo coeficiente de impacto em vez do de entrega, um degrau acima na mesma tabela que Kenpo declarou, e a errata pede que o Manual de Criação de Jutsus, seção 6.5, reconheça essa via alternativa para o eixo corporal, no mesmo pedido que Kenpo já abriu para o degrau Veloz.
 5. Esta é a primeira redução parcial de Guarda publicada no sistema. As reduções parciais anteriores, do Fio Concentrado do Raiton, atacam a Absorção, e a errata registra a diferença para quem for auditar o corpus por grandeza, sem propor fusão das duas.
@@ -245,4 +247,4 @@ PENDÊNCIAS E FILA DE ERRATA
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.2. Custos leem o Manual de Economia de XP v2.2. Potência, Guarda, Absorção, Cadência, o motor de manobras e a régua de deslocamento leem o Núcleo de Combate v1. O Perfil de Evasão lê o Manual de Criação de Jutsus v2.8, por precedente do Sistema dos Oito Portões v1.3 e do Kenpo v1. A classe de golpe desarmado lê o Kenpo v1. A tabela de Exaustão Física que Descida-Subida inverte lê o Núcleo de Combate v1, seção 8. A Elevação de Reação, a Fração de Guarda, a Economia de Esforço e o Alcance de Salto são subsistemas próprios desta perícia, pendentes de absorção pela camada física geral no mesmo padrão que o Sistema dos Oito Portões e o Kenpo já reservam para os deles.
+Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.2. Custos leem o Manual de Economia de XP v2.2. Potência, Guarda, Absorção, Cadência, o motor de manobras e a régua de deslocamento leem o Núcleo de Combate v1. O Perfil de Evasão lê o Manual de Criação de Jutsus v2.8, por precedente do Sistema dos Oito Portões v1.3 e do Kenpo v1. A classe de golpe desarmado lê o Kenpo v1. A tabela de Exaustão Física que Descida-Subida inverte lê o Núcleo de Combate v1, seção 8. A Elevação de Reação, a Fração de Guarda, a Economia de Esforço e o Alcance de Salto são subsistemas próprios desta perícia, pendentes de absorção pela camada física geral no mesmo padrão que o Sistema dos Oito Portões e o Kenpo (`worlds/common/skills/kenpo.md`) já reservam para os deles.
