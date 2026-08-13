@@ -271,12 +271,14 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 | Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 | cânone |
 | Shiton 熾遁 (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 | criação de Gabriel |
 | Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 | criação do catálogo |
-| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | 2% | 1,95 | cânone |
+| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | sem Centelha | 1,95 | cânone |
 | Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 | cânone |
 | Shinton (Sísmico) `[proposta]` | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 | criação do catálogo |
 | Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 | criação do catálogo |
 
 A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram.
+
+**Duas Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon.
 
 O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado, salvo substituição declarada pela regra de rider substituído por natureza intensificada do Sistema de Efeitos de Status, que fixa escopo, graus e vetor de teste da troca e mantém o registro dos casos vigentes.
 
@@ -301,7 +303,7 @@ A regra de portão único com sub-rolagem ponderada, vigente na camada de Kekkei
 
 **Um shinobi manifesta no máximo uma Kyōka por elemento base.** Duas Kyōka do mesmo elemento seriam dois tetos do mesmo elemento no mesmo portador.
 
-**Ordem de teste.** Quando o personagem é elegível a mais de uma Kyōka do mesmo elemento, testa primeiro a de portão mais restrito; manifestada essa, as demais do mesmo elemento não são testadas. A ordem vigente é Enton antes de Shiton, e Kuroi Kaminari antes de Shiden.
+**Ordem de teste.** Quando o personagem é elegível a mais de uma Kyōka do mesmo elemento, testa primeiro a de portão mais restrito; manifestada essa, as demais do mesmo elemento não são testadas. A ordem vigente é Enton antes de Shiton. No Raio a ordem opera por outra via, porque o Kuroi Kaminari corre fora da Centelha: o personagem que conclua o arco de doutrina do Raio Negro possui a Kyōka de Raio daquele portador e deixa de testar o Shiden, e o personagem que manifeste o Shiden pela Centelha conserva a vaga de doutrina fechada pelo mesmo teto de uma Kyōka por elemento base.
 
 ### Portão por doutrina
 
@@ -311,9 +313,13 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Exclusividade.** A vaga é única por geração. Existe no mundo um único receptor ativo por vez, e ela permanece ocupada até a morte ou a renúncia do receptor, ainda que ele nunca manifeste a Kyōka. `[canon]` A tradição do Terceiro Raikage foi oferecida a cada geração e apenas Darui dominou, o que a exclusividade da vaga reproduz.
 
-**Após o vínculo.** Aceito como aprendiz, o personagem rola a Centelha pelo procedimento padrão, e a retentativa cobra pela tabela vigente de poder Decisivo.
+**Após o vínculo.** O portão por doutrina não passa pela Centelha em momento algum. Aceito como aprendiz, o personagem cumpre um arco de treino jogado em mesa, conduzido pelo Narrador junto do portador vivo, e ao fim dele a Kyōka está manifestada. Não existe rolagem, não existe percentual de manifestação, não existe decaimento e não existe retentativa, porque não existe teste a falhar. A escassez sai de haver pouquíssimos portadores no mundo e de cada um escolher a quem passa.
 
-**Custo.** O portão não cobra XP. O preço dele é político e se paga em mesa, na disputa por uma vaga que outro personagem pode estar ocupando.
+**Precedente.** Esta é a única entrada do catálogo que dispensa a Centelha, e a exceção fica nomeada aqui para que nenhuma passagem futura a estenda por analogia. Natureza avançada nova nasce com Centelha salvo declaração explícita como esta.
+
+**Marca de conclusão.** Concluído o arco, o portador carrega o kanji de raio tatuado no ombro, na tradição que a vila reconhece.
+
+**Custo.** O portão não cobra XP próprio. O preço dele é político e se paga em mesa, na disputa por uma vaga que outro personagem pode estar ocupando. A Perícia de Raiton cobra normalmente a inclinação de extensão, os caminhos dela e o Ápice, pela régua do Manual de Economia de XP.
 
 ### Kuroi Kaminari
 
@@ -327,7 +333,11 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Marca de domínio.** `[proposta]` O portador reconhecido carrega a tatuagem de kanji de raio de Kumogakure. É efeito de reconhecimento social e político, sem valor mecânico de combate, no mesmo tratamento que este documento já dá ao peso político das naturezas de tier A.
 
-**Calibração.** A Amplificação Doutrinária coloca o Raiton comum do portador na mesma faixa numérica do Shiden, e a equivalência é intencional. O Shiden é uma Kyōka completa, com três propriedades próprias; a amplificação entrega apenas o número. O portador de Kuroi Kaminari opera o Raiton comum na faixa do Shiden e não dispõe de nenhuma das capacidades do Shiden.
+**Calibração.** A Amplificação Doutrinária coloca o Raiton comum do portador na mesma faixa numérica do Shiden, e a equivalência é intencional. O Shiden é uma Kyōka completa, com propriedades próprias; a amplificação entrega apenas o número. O portador de Kuroi Kaminari opera o Raiton comum na faixa do Shiden e dispõe das capacidades da inclinação Calamidade, que são de outra natureza.
+
+**Hospedagem na Perícia de Raiton.** `[proposta]` A manifestação abre a inclinação de extensão Calamidade na Perícia de Raiton v3, com os caminhos Doma, Assolação e Devastação, e o Ápice Nai-no-Kami. A inclinação responde por forma sustentada, permanência da descarga no ponto de impacto e desfazimento de estrutura e terreno. A partição, os números e o Ápice vivem naquele documento.
+
+**Fronteira contra o raio negro do Chakra dos Seis Caminhos.** `[canon]` O Raiton assume coloração negra sob aquele chakra, como nas execuções conhecidas de Chidori e de Kamui Raikiri. Aquilo permanece Raiton comum, recebe o multiplicador comum do elemento e não abre a inclinação Calamidade. A coincidência é de cor e a origem é outra.
 
 ### Shiden
 
@@ -339,7 +349,15 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Condução por meio.** `[proposta]` O praticante aplica a descarga sobre um meio condutor presente na cena e converte entrega de alvo único em entrega de área. O alcance da conversão é limitado pela extensão física do meio empregado. `[canon]` Kakashi apoia a mão sobre álcool derramado e eletrifica toda a região ao redor.
 
-**Execução sem exposição.** `[proposta]` O Shiden não abre a janela de contra-ataque que a família do Chidori abre. Está redigido como constatação e não como isenção: a penalidade vigente no Compêndio de Raiton está presa à investida linear — é a velocidade do avanço que impõe a visão de túnel, e o Sharingan a corrige — e o Shiden não tem investida. A ausência da janela decorre da forma da técnica, não de uma dispensa concedida a ela.
+**Execução sem exposição.** `[proposta]` O Shiden não abre a janela de contra-ataque que a família do Chidori abre. Está redigido como constatação e não como isenção: a penalidade vigente no Compêndio de Raiton está presa à investida linear, porque é a velocidade do avanço que impõe a visão de túnel e o Sharingan a corrige, e o Shiden não tem investida. A ausência da janela decorre da forma da técnica, não de uma dispensa concedida a ela.
+
+**Duas rotas para a mesma cor.** `[proposta]` A cor violeta é atribuída pela obra a fenômeno declarado desconhecido, e a leitura que este catálogo adota preenche a lacuna sem contradizer a fonte: o Raiton opera elevando a frequência de vibração do chakra, e o violeta é a banda acima da faixa que o elemento alcança em uso comum. A técnica nomeada é a rota do trabalho, alcançada por refinamento e transmissível por ensino. A Kyōka é a rota do sangue, que entrega a banda de nascença. Quem aprende apenas a técnica a executa no multiplicador comum do elemento. Quem manifesta a Kyōka executa todo o próprio Raiton em 1,85 e dispõe da inclinação de extensão.
+
+**Hospedagem na Perícia de Raiton.** `[proposta]` A manifestação abre a inclinação de extensão Agudo na Perícia de Raiton v3, com os caminhos Gume, Fidelidade e Instante, e o Ápice Ame-no-Ohabari. A inclinação responde por corte no lugar de perfuração, recusa de condutor alheio ao alvo e chegada sem trajeto observável. A modulação de intensidade e a condução por meio permanecem propriedades da técnica nomeada e não da natureza.
+
+**Substituição de rider.** `[proposta]` O caminho Gume aplica Sangramento no lugar da Paralisia Parcial. A regra vigente deste documento declara que o rider continua o do elemento base, e o Sistema Elemental declara o rider como propriedade passiva do Tipo. A substituição de rider por Kyōka segue como pendência de errata dos dois documentos, sem travar a publicação da inclinação.
+
+**Errata da técnica nomeada.** A ficha do Shiden no Compêndio de Raiton sobe de `[ATRIBUÍDO]` para `[CANON]`, fecha a autoria em Kakashi Hatake em estado Registrada no lugar de Autoria Aberta, e retira a Kyōka Shiden da lista de requisitos obrigatórios, que passa a elevação.
 
 ### Incandescência
 

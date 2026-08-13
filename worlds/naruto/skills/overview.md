@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.14
+version: 2.15
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.13. Camada de relação entre domínios.**
+**v2.15. Camada de relação entre domínios.**
 
 ---
 
@@ -37,7 +37,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2 | RES | Chakra ×1,4 |
 | Katon | v4 | INT | Ninjutsu ×1,5 |
-| Raiton | v2 | INT | Ninjutsu ×1,5 |
+| Raiton | v3 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.1 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.1 | INT | Ninjutsu ×1,5 |
 | Doton | v2 | INT | Ninjutsu ×1,5 |
@@ -341,8 +341,8 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
-| Raiton v2, Fūton v2, Suiton v2, Doton v2 | conforme |
+| Katon v4, Raiton v3 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Fūton v2, Suiton v2, Doton v2 | conforme |
 | Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
@@ -365,7 +365,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Vinte, das quais três aplicadas. Dezessete seguem abertas.
+Vinte e uma, das quais três aplicadas. Dezoito seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -389,12 +389,17 @@ Vinte, das quais três aplicadas. Dezessete seguem abertas.
 | Declarar que a vantagem Gênio Bruto, linha de Resistência, não se soma à exceção de Enraizamento do Taichi para a mesma manobra e o mesmo par de atributos | core/advantages.md, vantagem Gênio Bruto |
 | Publicar régua de elevação de Guarda por armadura ou item, hoje sem termo publicado em documento nenhum, pendência que Sem Dobra e a Leitura de Fresta do Tantō dependem para disparar | Núcleo de Combate v1 |
 | A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por quatro documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi | `core.xp-economy`, Anexo A |
+| Abrir linha de preço própria para o Ápice de Extensão Manifestada, hoje lido pela régua de transcendência adicional | Manual de Economia de XP v2.2, seção 7 |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.15.** Colisão de versão com a v2.11, pela segunda vez: uma terceira linha de trabalho, a extensão manifestada da Perícia de Raiton, também publicou sob o número v2.11 a partir do mesmo commit em que a linha de seis perícias e a linha do Katon já haviam colidido, sem enxergar nenhuma das duas. Resolvida do mesmo modo, subindo mais um degrau.
+
+A Perícia de Raiton sobe para v3 e passa a ser a segunda do corpus a declarar inclinação de extensão manifestada — a primeira foi o Katon, na mesma reconciliação, e as duas passadas não se enxergaram. São duas inclinações no Raiton, hospedadas pelas Kyōka de Raio: Calamidade, aberta pelo Kuroi Kaminari, e Agudo, aberta pelo Shiden, cada uma com três caminhos e um Ápice próprio pela seção 13.1 do manual. Nenhuma inclinação, caminho ou transcendência anterior do Raiton foi tocada, o regente e a categoria permanecem, e o Registro de Conformidade acompanha a versão nova. A passagem original abria duas erratas de sistema, a substituição de rider por Kyōka e a linha de preço do Ápice na economia de XP; a primeira fechou nesta mesma reconciliação, pela regra geral de rider substituído por natureza intensificada que a passada do Katon publicou em `core/status-effects.md` v2.5, e só a segunda segue aberta.
 
 **v2.14.** Colisão de versão com a v2.11: duas linhas de trabalho publicaram sob o mesmo número a partir do mesmo commit sem se enxergarem, uma reconciliando Kyuinjutsu/Taichi/Tantō/Leque/Kenpo/Taekwondo (registrada abaixo, v2.11 a v2.13) e esta subindo a Perícia de Katon. Resolvida subindo um degrau a mais, no mesmo padrão que a v2.9 já registrou para a colisão com o Senjutsu.
 
