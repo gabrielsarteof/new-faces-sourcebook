@@ -1,7 +1,7 @@
 ---
 id: naruto.system.eight-gates
 title: "Oito Portões (八門)"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: system
@@ -11,7 +11,7 @@ source-file: Sistema_dos_Oito_Portoes_v1.md
 
 # Oito Portões (八門)
 
-**v1.2. Sistema próprio do eixo corporal, dono do domínio `oito-portoes`. Consome o Manual de Criação de Jutsus v2.6, o Manual de Criação de Poderes v3.3, o Núcleo do Sistema v3, o Sistema de Efeitos de Status v2.2, a Reserva de Chakra v3.2 e o Manual Global de Treinamento v1.**
+**v1.3. Sistema próprio do eixo corporal, dono do domínio `oito-portoes`. Consome o Manual de Criação de Jutsus v2.8, o Manual de Criação de Poderes v3.3, o Núcleo do Sistema v3.1, o Núcleo de Combate v1, o Sistema de Efeitos de Status v2.4, a Reserva de Chakra v3.2 e o Manual Global de Treinamento v1.**
 
 Este documento é a espinha dorsal do domínio. Ele publica o que um portão é, a régua única que todos os oito leem, o preço que o corpo paga e as fronteiras com os documentos vizinhos. As oito fichas individuais vivem no documento de técnica Hachimon Tonkō. As obras que dependem dos portões vivem no Compêndio dos Oito Portões. Nenhuma regra deste documento é reescrita nos outros dois.
 
@@ -68,7 +68,7 @@ A coluna de faixa é leitura contra as Tabelas de Referência de Personagens e s
 
 ### 3.2 Efeitos Mecânicos: teto de fluxo por portão
 
-O regulador governa dois canos, e abrir o portão alarga os dois. O Limite de Saída é o teto de chakra por turno publicado na Reserva de Chakra. O Teto de Esforço é o teto de gasto de PS por turno, definido na seção 6.
+O regulador governa dois canos, e abrir o portão alarga os dois. O Limite de Saída é o teto de chakra por turno publicado na Reserva de Chakra. O Teto de Esforço é o teto de gasto de PS por turno, e a régua fechada de 40% publicada pelo Núcleo de Combate é o piso desta tabela: o portão fechado lê exatamente esse piso, e cada portão aberto eleva o teto acima dele, porque abrir a escada é elevar precisamente o que o corpo comum não eleva sozinho.
 
 | Portão | Limite de Saída | Teto de Esforço |
 |---|---|---|
@@ -82,9 +82,9 @@ O regulador governa dois canos, e abrir o portão alarga os dois. O Limite de Sa
 | 7 | 65% | 100% |
 | 8 | sem teto | sem teto |
 
-**Excesso deliberado.** Gastar acima de qualquer um dos dois tetos é permitido e cobra dano direto em PV, sem mitigação, na proporção de um ponto por unidade excedida. A regra é a mesma do uso emergencial já publicado no Manual de Criação de Jutsus, seção 3.2, aplicada aos dois canos, e é ela que permite ao praticante de portão baixo executar a obra que o portão dele ainda não sustenta.
+**Excesso deliberado.** Gastar acima de qualquer um dos dois tetos é permitido e cobra dano direto em PV, sem mitigação, na proporção de um ponto por unidade excedida, pela mesma regra que o Núcleo de Combate publica para o Teto de Esforço e que o Manual de Criação de Jutsus publica na seção 3.2 para o Limite de Saída. Este documento não redefine nenhuma das duas leituras, aplicando as duas aos canos deste domínio, e é essa aplicação que permite ao praticante de portão baixo executar a obra que o portão dele ainda não sustenta.
 
-**Pool esgotado.** O Esforço continua devido depois que o PS chega a zero e passa a ser pago em PV, sem mitigação, na mesma proporção de um para um. A regra vale em qualquer portão e é a única forma de operar no oitavo, onde a abertura consome o pool inteiro de vigor e o corpo passa a queimar a si mesmo para continuar entregando.
+**Pool esgotado.** O Esforço continua devido depois que o PS chega a zero e passa a ser pago em PV, sem mitigação, na mesma proporção de um para um, pela mesma regra que o Núcleo de Combate já publica para qualquer corpo sem fôlego para pagar a própria defesa. A regra vale em qualquer portão e é a única forma de operar no oitavo, onde a abertura consome o pool inteiro de vigor e o corpo passa a queimar a si mesmo para continuar entregando.
 
 ### 3.3 Efeitos Mecânicos: verbos por portão
 
@@ -155,7 +155,7 @@ O acesso a cada portão cobra três coisas ao mesmo tempo, e nenhuma substitui a
 
 ## 6. Esforço, a moeda do eixo corporal
 
-O eixo do chakra mede o que a técnica põe em campo em RC nominal. O eixo corporal mede a mesma coisa em Esforço, e o Esforço sai integralmente do PS.
+O eixo do chakra mede o que a técnica põe em campo em RC nominal. O eixo corporal mede a mesma coisa em Esforço, e o Esforço sai integralmente do PS. O nome e a moeda são os que o Núcleo de Combate publica para qualquer ataque comum; este documento consome os dois e acrescenta a forma que uma obra nomeada de portão lê por cima deles, no lugar do Golpe simples da ficha.
 
 O Esforço não possui régua de desperdício. O desperdício do eixo do chakra mede imperícia de moldagem, e não existe moldagem aqui. O corpo entrega o que gasta, e o preço da imperícia neste domínio é cobrado na escada de sequelas e não na conversão.
 
@@ -291,7 +291,7 @@ A perícia de corpo, quando nascer, recebe deste documento a coluna de acesso e 
 
 ## 11. Dependências e pendências
 
-**Alimentam este sistema.** Núcleo do Sistema v3, pelos pools e pela resolução. Manual de Criação de Poderes v3.3, pela escada de graus, pela forma de dois termos, pela família Refluxo e pelo contrato do tier Transcendente. Manual de Criação de Jutsus v2.5, pelo rank, pelas faixas de XP, pelo Perfil de Evasão e pela regra de uso emergencial. Reserva de Chakra v3, pelo Limite de Saída. Sistema de Efeitos de Status v2.1, por Fadiga, Ferimento Grave, Fratura e Exaustão Física. Manual Global de Treinamento v1, pela Maturação. Tabelas de Referência de Personagens v1, pelos pares de validação.
+**Alimentam este sistema.** Núcleo do Sistema v3.1, pelos pools e pela resolução. Núcleo de Combate v1, pelo nome e pela moeda de Esforço, pelo Teto de Esforço fechado de 40% e pela regra de Excesso deliberado, e pela Exaustão Física que a Camada de operação aciona. Manual de Criação de Poderes v3.3, pela escada de graus, pela forma de dois termos, pela família Refluxo e pelo contrato do tier Transcendente. Manual de Criação de Jutsus v2.8, pelo rank, pelas faixas de XP, pelo Perfil de Evasão e pela regra de uso emergencial. Reserva de Chakra v3, pelo Limite de Saída. Sistema de Efeitos de Status v2.4, por Fadiga, Ferimento Grave, Fratura e Exaustão Física. Manual Global de Treinamento v1, pela Maturação. Tabelas de Referência de Personagens v1, pelos pares de validação.
 
 **Consomem este sistema.** O documento de técnica Hachimon Tonkō, o Compêndio dos Oito Portões, e todo documento de clã, vantagem ou entidade que declare acesso à escada.
 
@@ -314,6 +314,8 @@ Duas leituras deste documento estavam erradas contra o manual que ele consome, e
 ---
 
 ## 12. Registro de Alterações
+
+**v1.3.** O Núcleo de Combate publica a camada do ataque comum que faltava para o eixo físico, e este documento passa a consumi-la em vez de sustentar sozinho o que era provisório. A seção 3.2 mantém a tabela de Teto de Esforço por portão, a elevação do domínio, e passa a citar o teto fechado de 40% e a regra de Excesso deliberado como leitura do Núcleo de Combate em vez de definição própria. A seção 6 mantém a fórmula de dano das obras nomeadas, o coeficiente de entrega física e o Fator de Portão, todos exclusivos deste domínio, e passa a citar o nome e a moeda de Esforço como os que o Núcleo de Combate publica para qualquer ataque comum. Nenhuma magnitude, tabela, exigência de acesso ou preço em XP mudou. As citações de versão do Manual de Criação de Jutsus e do Sistema de Efeitos de Status, que estavam defasadas em duas revisões cada, foram corrigidas para as versões vigentes.
 
 **v1.2.** As três decisões que a v1.1 deixou abertas foram tomadas, e nenhuma por preferência: as três já tinham resposta no corpus e o que faltava era lê-la. O arredondamento do eixo corporal é o do Fator de Cânone, `round` só no resultado e nenhuma etapa intermediária arredondada, que é também o que a Reserva de Chakra e o Sistema Elemental aplicam; o valor de novecentos e setenta do Pavão da Manhã já estava correto sob essa régua e o que faltava era a régua escrita. A marcação Kinjutsu sobrepõe o rank S em vez de ser rank, pelo que o Manual de Criação de Jutsus publica na seção 1.1, e o oitavo portão e o Guy Noturno passam a declarar Rank S com o qualificador, como os quatro precedentes do corpus já faziam. E o domínio ganha identificador próprio, `oito-portoes`, com posse do documento de sistema, espécie que a Norma de Produção de Compêndios passou a admitir na v2.4 para o caso em que o domínio existe e a competência que o exerce ainda não nasceu. Nenhuma magnitude, tabela, exigência de acesso ou preço em XP mudou.
 
