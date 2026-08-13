@@ -273,7 +273,7 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 | Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 | criação do catálogo |
 | Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | sem Centelha | 1,95 | cânone |
 | Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 | cânone |
-| Shinton (Sísmico) `[proposta]` | Terra | sem portão de linhagem | A | Decisivo | 2% | 1,70 | criação de Gabriel |
+| Shinton (Sísmico) `[proposta]` | Terra | nenhum | A | Decisivo | 2% | 1,70 | criação de Gabriel |
 | Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 | criação do catálogo |
 
 A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram. O Sísmico entra nesse grupo com a publicação da inclinação Sismo no Doton, no mesmo padrão que já valia para o Shiton.
