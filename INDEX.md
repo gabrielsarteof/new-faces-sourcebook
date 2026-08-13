@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 136 documentos · 14 de núcleo · 122 de cenário
+**Total:** 137 documentos · 14 de núcleo · 123 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -232,8 +232,9 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.1 | skill | final |
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.2 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 3 | skill | final |
+| [Kenpo](worlds/naruto/skills/kenpo.md) | `naruto.skill.kenpo` | 1 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.1 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.10 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.11 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 2 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
