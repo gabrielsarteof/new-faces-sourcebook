@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.11
+version: 2.10
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.11. Camada de relação entre domínios.**
+**v2.10. Camada de relação entre domínios.**
 
 ---
 
@@ -47,9 +47,6 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
 | Passagem | v1.1 | INT | Erudição ×1,7 |
-| Tantō | v1 | DES | Físico ×1,0 |
-
-Tantō vive fora do eixo do chakra e entra nesta tabela pela mesma regra de extração que todas as demais: o texto publicado declara regente e categoria, e este registro os reúne. A categoria Físico ×1,0 é a primeira do eixo físico a aparecer aqui, e a subseção seguinte segue descrevendo apenas as três do eixo do chakra, porque é delas que trata.
 
 ### Por que três categorias e não uma
 
@@ -84,8 +81,7 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 | RES | 2 |
 | SAB | 1 |
 | PRE | 1 |
-| DES | 1 |
-| FOR, VEL, DEF, CAR, VON | 0 |
+| FOR, VEL, DES, DEF, CAR, VON | 0 |
 
 ### Leitura da carga
 
@@ -201,10 +197,6 @@ A Liberação de Yang v4 cedeu a leitura de presença viva e de vitalidade a dis
 
 O Controle de Chakra v2 precisa registrar Ame-no-Sagume como a revogação externa da Supressão Recíproca, e registrar Partilha como o par de Rede Viva. As duas linhas nasceram com o Sensoriamento e ainda não foram inscritas do outro lado.
 
-### Colisão pendente entre Tantō e Adagas e Facas de Combate
-
-Tantō v1 declara Busca de Junta e Saque Reverso como perfuração de estrutura contra Guarda elevada e entrega a partir de controle físico já formado. Três caminhos de Adagas e Facas de Combate, migração v5 sem manual próprio no corpus, ocupam parte do mesmo território: Grappling da Lâmina, sobre golpe de lâmina em clinch sem custo de ação adicional, e Pakal Fundo e Estocada Penetrante, sobre ignorar defesa erguida a partir de controle. Nenhuma das duas linhas cede formalmente, porque Adagas e Facas de Combate não tem documento publicado para declarar a cedência. A linha permanece pendente até aquela perícia migrar para manual próprio e a fronteira entre as duas se escrever dos dois lados.
-
 ---
 
 ## 5. Registro de Portão Duplo
@@ -243,9 +235,9 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Perícia de arma | vantagens, que concedem bônus de arremesso e precisão de lançamento | nada |
 | Furtividade, Lábia e o eixo não combatente | vantagens, que testam as duas por nome | nada |
 
-**Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e os estilos nomeados entram como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo valia para arma, em que kenjutsu e shurikenjutsu eram tratados como especialidades e não documentos, com a decisão entre uma perícia de duas inclinações e duas perícias separadas saindo da lista de perguntas do domínio. Tantō v1 estabeleceu o precedente contrário para arma branca de alcance curto: o objeto é grande o bastante para sustentar doutrina própria e para ancorar uma família futura de Espada Curta, e nasceu como perícia separada de Adagas e Facas de Combate em vez de inclinação dentro dela. A partição entre perícia única e família de perícias por classe de arma volta a ser pergunta aberta a cada objeto novo, e não resposta padrão.
+**Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e os estilos nomeados entram como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio.
 
-**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão, exceto quando a entrega inteira do domínio já corre por um motor publicado em outro lugar. O eixo do chakra tem essa camada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. Tantō v1 nasceu sem esperar essa camada geral porque o Núcleo de Combate já publica, por conta própria, a tipologia de classes de arma, a Guarda, a Absorção e a sequência de doze passos que resolvem todo golpe físico, e a nova perícia consome esse motor inteiro sem lacuna. A dependência permanece real para Taijutsu e para qualquer domínio físico cuja entrega não se reduza a golpe de arma nas classes já publicadas, e é essa ausência que mantém o Chidori em divergência de motor.
+**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. O que ainda não existe é essa camada geral, e é a ausência dela que mantém o Chidori em divergência de motor.
 
 ---
 
@@ -262,7 +254,6 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2 | conforme |
-| Tantō v1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
 
@@ -270,7 +261,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Nove, das quais três aplicadas. Seis seguem abertas, cinco de uma linha cada.
+Oito, das quais três aplicadas. Cinco seguem abertas, quatro de uma linha cada.
 
 | Errata | Documento |
 |---|---|
@@ -282,15 +273,12 @@ Nove, das quais três aplicadas. Seis seguem abertas, cinco de uma linha cada.
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
 | Registrar Ame-no-Sagume como revogação externa da Supressão Recíproca, e Partilha como par de Rede Viva | Controle de Chakra v2 |
 | Resolver as três migrações para o Sensoriamento e rederivar sob Núcleo v2 | Percepção v5, ausente do projeto |
-| Publicar a régua de elevação de Guarda por armadura ou item, que nenhum documento declara hoje | Núcleo de Combate v1 |
 
-Somente a de Percepção depende de material que não está na sessão.
+Somente a última depende de material que não está na sessão.
 
 ---
 
 ## 9. Registro de Alterações
-
-**v2.11.** A perícia de Tantō v1 nasce, e o sistema passa de quatorze para quinze perícias no eixo do chakra e ganha a primeira fora dele. Regente DES e categoria Físico ×1,0, a primeira do eixo físico a entrar no Registro de Regentes, que passa a listar quinze linhas. A Carga por Atributo ganha DES com contagem 1, sem exigir comentário de leitura porque não há segundo domínio no mesmo atributo para disputar o portão. O Registro de Fronteira ganha a colisão pendente entre Busca de Junta e Saque Reverso, de um lado, e Grappling da Lâmina, Pakal Fundo e Estocada Penetrante de Adagas e Facas de Combate, do outro, sem cedência formal porque aquela perícia não tem documento publicado. A Fila de Nascimento não perde entrada nenhuma, porque a linha de Perícia de Arma ali registrada é sobre vantagens de arremesso e precisão de lançamento, território que Tantō não toca, mas a Nota de Desenho sobre o eixo físico é corrigida: o precedente de uma perícia única por categoria de arma cede ao precedente novo, uma perícia por família de arma quando a família comporta doutrina própria, que Tantō estabeleceu ao nascer separada de Adagas e Facas de Combate. A nota de Dependência do eixo físico ganha a mesma correção, registrando que a entrega inteira do domínio já corre pelo motor do Núcleo de Combate e por isso não esperou a camada geral que Taijutsu ainda espera. O Registro de Conformidade ganha a linha de Tantō v1, conforme. A lista de erratas abertas ganha a ausência de régua de elevação de Guarda por armadura ou item, sem dono declarado em documento nenhum, com o Núcleo de Combate nomeado como dono da lacuna, subindo a contagem de oito para nove erratas registradas e de cinco para seis abertas. Nenhuma perícia publicada do eixo do chakra muda de regente, categoria, custo, portão ou régua.
 
 **v2.10.** O Manual de Criação de Perícias sobe para v7.2 e ganha duas peças novas na seção 3: a regra da inclinação de extensão manifestada, exceção nomeada e única à regra do porteiro, para o caso em que o requisito de manifestação não apenas autoriza um objeto mas abre pergunta nova na lista de resposta da perícia hospedeira; e a seção 13.1, o Ápice de Extensão Manifestada, o capstone daquela inclinação, exigindo apenas os caminhos dela mesma aprofundados e distinto da transcendência de LV6 da perícia inteira. O checklist da seção 15.4 e a lista de instruções da seção 17 passam a citar a exceção. Nenhuma perícia publicada declara inclinação de extensão manifestada hoje, a varredura desta passada não achou nenhuma em documento de perícia nem em documento de clã, e por isso a mudança não força rework em nenhum dos catorze documentos conformes. O Registro de Conformidade sobe a coluna para Manual v7.2, e a citação de dependência do Senjutsu é corrigida na mesma passada.
 

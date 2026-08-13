@@ -1,9 +1,8 @@
 ---
-id: naruto.skill.tanto
+id: core.skill.tanto
 title: "Tantō"
 version: 1
-layer: scenario
-scenario: naruto
+layer: core
 type: skill
 status: final
 source-file: Pericia_Tanto_v1.md
@@ -11,6 +10,8 @@ source-file: Pericia_Tanto_v1.md
 
 PERÍCIA DE TANTŌ
 短刀 · A lâmina que se saca de dentro
+
+Perícia de núcleo, agnóstica de cenário. Qualquer mundo que jogue com lâmina curta de perfuração consome este documento sem reescrevê-lo, e flavor específico de cenário vive em `worlds/<mundo>/extensions/`, nunca aqui.
 
 O tantō é a lâmina que existe para o momento em que a espada não cabe mais entre dois corpos. Onde a distância já fechou e o combatente já está preso pelo outro, o tantō entra pela junta que a armadura deixa aberta e pela abertura que o próprio agarrão cria. `[real]` O propósito original do objeto era perfurar couraça no alcance de um clinch, quando nenhuma lâmina longa consegue girar. `[real]` A variante yoroi-dōshi, espinha e base reforçadas, existe porque perfurar sem entortar sob esse tipo de pressão exige uma construção própria. `[real]` E a montagem tradicional na cintura invertia o cabo contra o corpo e a ponta da bainha para frente, desenho que impede a lâmina de escorregar ou de ser arrancada quando o portador já está agarrado.
 
@@ -123,7 +124,7 @@ O golpe mira a junção estrutural em vez da superfície inteira, e a Guarda do 
 ESPINHA REFORÇADA (grau 4, complexidade 4) — 42
 `[real]` A variante yoroi-dōshi troca velocidade por penetração, com espinha e base reforçadas para suportar o estresse de perfurar sem entortar. O golpe aqui é o mesmo desenho aplicado em mesa: mais lento, mais grosso, e construído para não ceder contra o que resiste mais.
 └─ Estocada Carregada [ativado, ação completa mais uma Ação de Movimento adicional de preparação, custo nenhum, teste do golpe contra a Esquiva do alvo]: o golpe eleva o coeficiente de impacto da própria classe de precisão, 0,8, ao da classe pesada, 1,3, apenas para este ataque, e o Esforço pago acompanha a mesma elevação. LV5: o tempo de preparação cai para a própria Ação de Movimento da rodada, sem a adicional
-└─ Sem Dobra [passivo]: a Estocada Carregada não perde eficácia contra construto rígido de chakra ou material de dureza excepcional, e a Leitura de Fresta se aplica a ela por inteiro mesmo quando a Guarda do alvo estiver elevada por obra ou item que declare resistência fora da régua comum. LV5: a mesma isenção se estende a Busca de Junta quando os dois caminhos golpeiam o mesmo alvo na mesma cena
+└─ Sem Dobra [passivo]: a Estocada Carregada não perde eficácia contra construto rígido de origem sobrenatural ou material de dureza excepcional, e a Leitura de Fresta se aplica a ela por inteiro mesmo quando a Guarda do alvo estiver elevada por obra ou item que declare resistência fora da régua comum. LV5: a mesma isenção se estende a Busca de Junta quando os dois caminhos golpeiam o mesmo alvo na mesma cena
 
 ═══════════════════════════════════════════════════════════════════
 INCLINAÇÃO GRAMPO
@@ -135,9 +136,9 @@ SAQUE REVERSO (grau 4, complexidade 4) — 42
 └─ Fixação [passivo]: quando o golpe conecta contra alvo já em Imobilização, a duração da condição se estende em um turno adicional. LV5: a extensão passa a dois turnos adicionais
 
 OCULTAÇÃO (grau 3, complexidade 3) — 38
-`[real]` A montagem aikuchi, sem guarda de mão, favorece o porte discreto por desenho. `[canon]` É a montagem que operativos da Raiz carregam sob a roupa, reconhecida tarde demais por quem enfrenta um deles.
+`[real]` A montagem aikuchi, sem guarda de mão, favorece o porte discreto por desenho, e é a montagem histórica de agentes que precisavam carregar lâmina sem anunciá-la.
 └─ Lâmina Não Lida [passivo, declarado enquanto a arma permanece guardada]: enquanto não usada ofensivamente na cena, a lâmina não é reconhecida como arma por quem a vê, e o primeiro golpe desferido com ela multiplica o Limiar de Esquiva do alvo por 0,85 no estado Aberto, 0,80 no Aprofundado, entrando na mesma família de multiplicadores de Limiar de Esquiva do Núcleo de Combate que se acumulam entre si. A vantagem reseta no início da cena seguinte, no mesmo padrão de reconhecimento tardio que o Objeto Inocente já usa. LV5: o multiplicador cai para 0,75, e a Ocultação da lâmina sobrevive ao primeiro golpe sem resultar em Quebra de Guarda no alvo
-└─ Porte Discreto [passivo]: revista superficial não identifica o tantō como arma, resolvendo por oposição ao Grau de Ocultação contra o teste de quem revista. LV5: a mesma oposição vale contra leitura de chakra ou de metal que não seja dedicada especificamente a armas brancas
+└─ Porte Discreto [passivo]: revista superficial não identifica o tantō como arma, resolvendo por oposição ao Grau de Ocultação contra o teste de quem revista. LV5: a mesma oposição vale contra leitura sensorial ou de metal que não seja dedicada especificamente a armas brancas
 
 `[distinção contra Adagas e Facas de Combate]` doutrina geral de lâmina curta, ângulo de entrada e transição de empunhadura ali. Perfuração de estrutura rígida contra Guarda elevada e entrega a partir de controle físico já formado aqui.
 
@@ -165,9 +166,9 @@ Espinha Reforçada e Ocultação seguem sem transcendência dedicada. Os efeitos
 
 ARQUÉTIPOS DE ÁPICE
 
-O operativo da Raiz constrói Ocultação e Saque Reverso sobre Takeminakata. A lâmina dele não existe até o instante em que existe, carregada sob a roupa através de qualquer revista, sacada de dentro do próprio controle sobre um alvo que nunca soube que havia uma arma na sala. A mesa dele é de infiltração, de execução silenciosa e de operação deniável, na figura do agente que a vila nega ter enviado.
+O agente encoberto constrói Ocultação e Saque Reverso sobre Takeminakata. A lâmina dele não existe até o instante em que existe, carregada sob a roupa através de qualquer revista, sacada de dentro do próprio controle sobre um alvo que nunca soube que havia uma arma na sala. A mesa dele é de infiltração, de execução silenciosa e de operação deniável, na figura de quem uma organização nega ter enviado. Cada cenário nomeia essa organização à própria maneira.
 
-O caçador de couraça constrói Busca de Junta e Espinha Reforçada sobre Kanayamahiko. A fresta que ele abre numa armadura de placas ou num revestimento de chakra não fecha depois que ele passa, e o resto do esquadrão explora a mesma abertura. A mesa dele é de combate contra alvo blindado e de trabalho em equipe contra uma única defesa dura, na figura do especialista que a vila chama quando o problema veste couraça.
+O caçador de couraça constrói Busca de Junta e Espinha Reforçada sobre Kanayamahiko. A fresta que ele abre numa armadura de placas ou num revestimento de energia não fecha depois que ele passa, e quem vem atrás dele explora a mesma abertura. A mesa dele é de combate contra alvo blindado e de trabalho em equipe contra uma única defesa dura, na figura do especialista chamado quando o problema veste couraça.
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -185,9 +186,9 @@ A colisão com Adagas e Facas de Combate fica registrada sem dono. Aquela períc
 
 Nenhuma régua de elevação de Guarda por armadura existe no corpus. `Guarda = DEF × 5` é o único termo publicado pelo Núcleo de Combate, e nenhum documento declara como um item ou uma obra eleva esse valor. Sem Dobra e a Leitura de Fresta contra elevação declarada dependem de um item ou de uma obra publicarem essa elevação em algum lugar, e até lá o efeito não tem alvo real contra o qual disparar. Dono: Núcleo de Combate, camada fechada para modificação.
 
-Seis perícias de arma, incluindo Adagas e Facas de Combate, vivem apenas em `common/skills.json`, schema v5, sem manual correspondente. O Tantō é a primeira perícia de arma do corpus a nascer com manual.
+Seis perícias de arma, incluindo Adagas e Facas de Combate, vivem apenas em `common/skills.json`, schema v5, sem manual correspondente. O Tantō é a primeira perícia de arma do corpus a nascer com manual, e a primeira perícia individual publicada na camada de núcleo: até aqui `core/` só hospedava documento de metodologia e de sistema, nunca uma perícia jogável.
 
-A categoria de custo Físico ×1,0 estreia no Registro de Regentes do Índice de Perícias, que hoje só lista Chakra, Ninjutsu e Erudição.
+Nenhum registro global de regentes, vizinhança ou conformidade existe para perícias de núcleo. O Índice de Perícias do Sistema é documento do cenário Naruto, `naruto.skill.overview`, e sua Regra de Propriedade limita o que entra ali a fatos sobre a relação entre perícias daquele cenário. Tantō não entra nele por não pertencer a cenário nenhum, mas o conflito de regente que uma perícia de núcleo pode abrir contra as perícias de qualquer cenário que a compre continua sem lugar que o rastreie. Dono: um Índice de Perícias de Núcleo, ainda inexistente.
 
 Imobilização em Grau Grave ou acima torna o alvo indefeso pela Seção 10 do Núcleo de Combate, e alvo indefeso já não lê Guarda alguma. Busca de Junta e Estocada Carregada perdem função contra esse alvo pelo mesmo motivo que perdem função contra qualquer alvo sem Guarda de pé. A leitura é intencional e não pendência.
 
