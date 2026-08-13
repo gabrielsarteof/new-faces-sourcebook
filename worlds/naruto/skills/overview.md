@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.11
+version: 2.12
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.11. Camada de relação entre domínios.**
+**v2.12. Camada de relação entre domínios.**
 
 ---
 
@@ -49,8 +49,9 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Passagem | v1.1 | INT | Erudição ×1,7 |
 | Barreira | v1 | SAB | Erudição ×1,7 |
 | Kenpo | v1 | DES | Físico ×1,0 |
+| Taekwondo | v1 | VEL | Físico ×1,0 |
 
-Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova.
+Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos.
 
 ### Por que três categorias e não uma
 
@@ -86,7 +87,8 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 | SAB | 2 |
 | PRE | 1 |
 | DES | 1 |
-| FOR, VEL, DEF, CAR, VON | 0 |
+| VEL | 1 |
+| FOR, DEF, CAR, VON | 0 |
 
 ### Leitura da carga
 
@@ -241,9 +243,9 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 
 Barreira saiu desta fila porque já é documento publicado, v1, e a linha permanecia aqui por esquecimento de propagação e não por dívida real.
 
-**Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e a maior parte dos estilos nomeados entra como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio. Kenpo é a exceção nomeada a essa nota, e não a substitui: o Núcleo de Combate, seção 9, declara que o repertório físico especializado de uma escola de combate pode pertencer a documento próprio que consome o motor comum sem redefini-lo, e Kenpo se ergue sobre essa autorização. A regra que decide entre as três formas, caminho, documento de clã ou perícia própria, é a densidade da escola: uma escola com identidade mecânica larga o suficiente para sustentar seis níveis e partição em inclinações pede documento próprio, e uma que só acrescenta um verbo ou dois ao repertório de um clã cabe como caminho.
+**Nota de desenho sobre o eixo físico.** Taijutsu é categoria e não perícia, do mesmo modo que ninjutsu é categoria. A perícia é o corpo, e a maior parte dos estilos nomeados entra como caminho ou como documento de clã, pelo precedente do Punho Gentil, que já vive no documento Hyūga. O mesmo vale para arma, em que kenjutsu e shurikenjutsu são especialidades e não documentos, e a decisão entre uma perícia com duas inclinações e duas perícias separadas sai da lista de perguntas do domínio. Kenpo e Taekwondo são as exceções nomeadas a essa nota, e não a substituem: o Núcleo de Combate, seção 9, declara que o repertório físico especializado de uma escola de combate pode pertencer a documento próprio que consome o motor comum sem redefini-lo, e as duas se erguem sobre essa autorização. A regra que decide entre as três formas, caminho, documento de clã ou perícia própria, é a densidade da escola: uma escola com identidade mecânica larga o suficiente para sustentar seis níveis e partição em inclinações pede documento próprio, e uma que só acrescenta um verbo ou dois ao repertório de um clã cabe como caminho. Taekwondo cumpre o mesmo teste que Kenpo cumpriu, com a distinção provada caminho a caminho contra o Chutador do Muay Thai dentro do próprio documento.
 
-**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. Kenpo acrescentou duas réguas próprias sob a mesma regra, o Fator de Kenpo e a Eficiência de Retorno, também pendentes de absorção. O que ainda não existe é essa camada geral, e é a ausência dela que mantém o Chidori em divergência de motor.
+**Dependência do eixo físico.** Nenhuma perícia de corpo ou de arma nasce antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão. O eixo do chakra tem essa camada publicada no Sistema Elemental. O eixo físico ganhou as três primeiras réguas na seção 6 do Sistema dos Oito Portões, que publica o Esforço, o coeficiente de entrega física e o Fator de Portão porque é o dono do subsistema que faltava, e declara que a camada geral as absorve quando for escrita. Kenpo acrescentou duas réguas próprias sob a mesma regra, o Fator de Kenpo e a Eficiência de Retorno. Taekwondo acrescentou quatro, a Elevação de Reação, a Fração de Guarda, a Economia de Esforço e o Alcance de Salto, e é também o primeiro documento do eixo físico a publicar uma redução parcial de Guarda, onde as reduções parciais anteriores do corpus só atacavam a Absorção. Todas essas réguas seguem pendentes de absorção pela camada geral. O que ainda não existe é essa camada geral, e é a ausência dela que mantém o Chidori em divergência de motor.
 
 ---
 
@@ -262,6 +264,7 @@ Barreira saiu desta fila porque já é documento publicado, v1, e a linha perman
 | Senjutsu v2 | conforme |
 | Barreira v1 | conforme |
 | Kenpo v1 | conforme |
+| Taekwondo v1 | conforme |
 
 **Ressalva de vocabulário.** As duas abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas, o que leva o termo a quatro documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e se resolve suprimindo a linha nos quatro ou criando o dono dela.
 
@@ -287,6 +290,8 @@ Somente a última depende de material que não está na sessão.
 ---
 
 ## 9. Registro de Alterações
+
+**v2.12.** A perícia de Taekwondo v1 nasce, a décima sétima do sistema e a segunda do eixo físico. Ela entra no Registro de Regentes com regente VEL e categoria Físico ×1,0, e é a primeira perícia do eixo físico a compartilhar regente com um domínio vizinho, o Muay Thai que só existe como dado de aplicação: a leitura por eixo do Núcleo de Perícias não cobre o caso porque não há dois documentos, mas a distinção de verbo que a regra exigiria já está provada no próprio documento, caminho a caminho contra o Chutador daquela escola. A Carga por atributo ganha a coluna de VEL, com uma perícia. A nota de desenho sobre o eixo físico passa a nomear Kenpo e Taekwondo juntos como as exceções à regra de estilo-como-caminho, e a Dependência do eixo físico registra as quatro réguas que Taekwondo acrescentou, a primeira redução parcial de Guarda do corpus entre elas, onde as reduções parciais anteriores atacavam apenas a Absorção. Nenhuma perícia existente muda de regente, categoria ou custo.
 
 **v2.11.** A perícia de Kenpo v1 nasce, a décima sexta do sistema e a primeira do eixo físico. Ela entra no Registro de Regentes com regente DES e categoria Físico ×1,0, categoria que a Economia de XP já publicava sem uma perícia v7 para consumi-la. A nota de desenho sobre o eixo físico ganha a exceção nomeada que faltava: Kenpo se ergue como documento próprio pela autorização do Núcleo de Combate, seção 9, e não como caminho de Taijutsu nem como documento de clã, e a nota passa a declarar o critério que separa as três formas. A Dependência do eixo físico registra as duas réguas que Kenpo acrescentou, o Fator de Kenpo e a Eficiência de Retorno, pendentes de absorção pela camada geral no mesmo padrão que o Sistema dos Oito Portões já abriu. Nesta mesma passada, a perícia de Barreira v1, publicada desde antes desta versão, entra no Registro de Regentes e no Registro de Conformidade e sai da Fila de Nascimento, onde permanecia por esquecimento de propagação. A Carga por atributo ganha a coluna de DES, com uma perícia, e o SAB sobe de um para dois. Nenhuma perícia existente muda de regente, categoria ou custo.
 
