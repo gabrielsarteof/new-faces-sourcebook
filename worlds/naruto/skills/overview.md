@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.14
+version: 2.15
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.14. Camada de relação entre domínios.**
+**v2.15. Camada de relação entre domínios.**
 
 ---
 
@@ -55,8 +55,9 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Tantō | v1 | DES | Físico ×1,0 |
 | Leque | v1 | FOR | Prático ×1,1 |
 | Kunai | v1 | DES | Físico ×1,0 |
+| Shuriken | v1 | DES | Físico ×1,0 |
 
-Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kyuinjutsu é a décima primeira perícia do eixo INT e opera energia bruta já em trânsito por outro corpo ou meio, o mesmo critério que a separa de Ninjutsu. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos. Taichi e Tantō chegam na mesma passada que Kenpo e Taekwondo, os quatro do eixo físico, e os quatro moram em `worlds/common/skills/`, fora da árvore do Naruto, porque nenhuma linha de nenhum dos quatro lê fato de cenário — a nota logo abaixo do Registro de Fronteira explica por que perícias sem cenário ainda entram neste índice. Leque é a primeira do degrau Prático ×1,1 do corpus: é subclasse do Fūton, e a categoria acompanha a obra que a origina, não o eixo físico que a hospedaria se fosse escola marcial genérica. Kunai é a quinta entrada do degrau Físico e a primeira armada cujo portão de rank é lido por ficha de técnica externa: a linhagem do Hiraishin cobrava requisito de perícia de arma pendente desde a publicação da Execução do Deus do Trovão Voador, e essa dívida fecha nesta passada.
+Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kyuinjutsu é a décima primeira perícia do eixo INT e opera energia bruta já em trânsito por outro corpo ou meio, o mesmo critério que a separa de Ninjutsu. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos. Taichi e Tantō chegam na mesma passada que Kenpo e Taekwondo, os quatro do eixo físico, e os quatro moram em `worlds/common/skills/`, fora da árvore do Naruto, porque nenhuma linha de nenhum dos quatro lê fato de cenário — a nota logo abaixo do Registro de Fronteira explica por que perícias sem cenário ainda entram neste índice. Leque é a primeira do degrau Prático ×1,1 do corpus: é subclasse do Fūton, e a categoria acompanha a obra que a origina, não o eixo físico que a hospedaria se fosse escola marcial genérica. Kunai é a quinta entrada do degrau Físico e a primeira armada cujo portão de rank é lido por ficha de técnica externa: a linhagem do Hiraishin cobrava requisito de perícia de arma pendente desde a publicação da Execução do Deus do Trovão Voador, e essa dívida fecha nesta passada. Shuriken é a sexta, e a segunda a preencher o rótulo canônico de shurikenjutsu junto do Kunai: densidade menor por inventário, três inclinações e seis caminhos, sem portão de rank, porque nenhuma ficha de técnica cita esta perícia como requisito.
 
 ### Por que o eixo do chakra tem três categorias, e não uma
 
@@ -83,14 +84,14 @@ a matéria-prima ser comum. O preço mais alto cobra o acesso, não a energia.
 **Físico** e **Prático**, degraus mais baratos que Chakra, não são novos: o
 Manual de Economia de XP sempre publicou a escala geral com Físico ×1,0 e
 Prático ×1,1 ao lado dos três do eixo do chakra, para o domínio que não opera
-energia alguma. Kenpo, Taekwondo, Taichi, Tantō e Kunai são as entradas do
-degrau Físico neste índice, cinco escolas ou armas que resolvem golpe contra
-golpe pelo Núcleo de Combate. Kunai é a única das cinco que toca chakra, num
-único caminho, Fio Infundido: a categoria de custo lê o corpo do domínio e não
-o caminho isolado, e os outros sete caminhos do Kunai nunca operam energia
-alguma. Leque é a primeira em Prático, e não em Físico, porque não é escola
-marcial genérica: é subclasse do Fūton, e a categoria acompanha a obra de
-origem.
+energia alguma. Kenpo, Taekwondo, Taichi, Tantō, Kunai e Shuriken são as
+entradas do degrau Físico neste índice, seis escolas ou armas que resolvem
+golpe contra golpe pelo Núcleo de Combate. Kunai é a única das seis que toca
+chakra, num único caminho, Fio Infundido: a categoria de custo lê o corpo do
+domínio e não o caminho isolado, e os outros sete caminhos do Kunai, e todos
+os seis do Shuriken, nunca operam energia alguma. Leque é a primeira em
+Prático, e não em Físico, porque não é escola marcial genérica: é subclasse
+do Fūton, e a categoria acompanha a obra de origem.
 
 A definição normativa e os custos resolvidos vivem no Manual de Economia de XP,
 seção 6.1. Este índice apenas atribui a categoria de cada domínio.
@@ -100,7 +101,7 @@ seção 6.1. Este índice apenas atribui a categoria de cada domínio.
 | Atributo | Perícias que rege |
 |---|---|
 | INT | 11 |
-| DES | 4 |
+| DES | 5 |
 | RES | 2 |
 | SAB | 2 |
 | PRE | 1 |
@@ -145,6 +146,8 @@ Agrupamentos de compra conjunta com frequência alta. É a tabela que torna o co
 **Kenpo, Taekwondo, Taichi e Tantō sem eixo entre si.** As quatro perícias do degrau Físico não formam vizinhança porque não se compram juntas: cada uma é uma resposta completa e alternativa à mesma pergunta, corpo contra corpo ou lâmina curta contra corpo, e um personagem escolhe uma escola, não a soma delas. Vizinhança registra compra conjunta, e substituto não é par.
 
 Kunai não entra nessa leitura: não é escola alternativa de corpo, é arma que qualquer uma das quatro pode empunhar sem substituir a doutrina de combate desarmado ou de lâmina curta que já possui. A distinção com o Tantō, que também lê DES e também é lâmina curta, está publicada no próprio documento do Kunai: um persegue o ponto anatômico contra alvo desprevenido e troca de papel entre punho e arremesso sem custo, o outro perfura estrutura contra Guarda elevada a partir de controle físico já formado.
+
+Shuriken também não entra nessa leitura, pelo mesmo motivo do Kunai: não é escola de corpo, é arma. Não forma eixo com o Kunai apesar de os dois preencherem o mesmo rótulo canônico de shurikenjutsu: nenhum documento exige a compra conjunta, e a densidade menor do Shuriken, sem uso empunhado fora do Fūma, já basta para separar os dois verbo a verbo sem precisar de instrumento de regente.
 
 **Eixo do Hiraishin.** Kunai, Fūinjutsu e Passagem. Regentes DES, INT e INT, distintos por eixo de domínio. A linhagem do Hiraishin exige as três juntas em toda entrada avançada: Fūinjutsu e Passagem constroem e leem a marca, e Kunai entrega o manejo empunhado que a Execução do Deus do Trovão Voador cobra desde a correção desta passada.
 
@@ -298,6 +301,18 @@ A cessão é recíproca e fechada dos dois lados: `futon.md` já declara que o l
 
 O verbo Chegada Cortante, caminho Transição, fecha o requisito de manejo empunhado que a Execução do Deus do Trovão Voador cobrava desde a publicação, corrigido por esta mesma passada. O verbo Interceptação, caminho Salva, é o mecanismo que o Segundo Passo nomeia para quem intercepta a lâmina em trânsito, sem que a ficha precisasse declarar requisito de acesso novo para isso.
 
+### Cedido pelo Shuriken v1
+
+| Território | Dono |
+|---|---|
+| Duplicação da ferramenta lançada por clone das sombras | Compêndio de Ninjutsu, devida |
+| Uso empunhado de lâmina curta em geral | Adagas e Facas de Combate, Tantō e Kunai |
+| Detonação, dano e temporização da etiqueta explosiva | Fūinjutsu |
+| Senbon, makibishi e bomba de fumaça | Perícia de Ferramenta Ninja, devida |
+| Rasenshuriken e técnica de chakra em forma de shuriken | perícia elemental correspondente |
+
+A duplicação por clone das sombras não entra em caminho nenhum deste documento por instrução expressa: o cânone mostra a técnica funcionando com qualquer ferramenta lançada, e o Compêndio de Ninjutsu que a publicar exigirá esta perícia ou a de Kunai como componente, nunca as duas ao mesmo tempo por regra fixa. A cessão para a Perícia de Ferramenta Ninja soma à que o Kunai já fez, sem duplicar a atribuição.
+
 ### Cedido por outros
 
 A Liberação de Yang v4 cedeu a leitura de presença viva e de vitalidade a distância ao Sensoriamento, retirando o caminho Sentinela Vital inteiro. A Liberação de Yin v4 declarou que não lê chakra alheio nem identifica fonte. O Ninjutsu Médico v3 declarou que a leitura de campo não é dele. As três cedências estão honradas nas duas pontas.
@@ -343,7 +358,7 @@ Perícia declarada por nome em documento publicado e ainda inexistente. Nenhuma 
 | Percepção | Sensoriamento v2, em três fronteiras | Sensoriamento v2, nos caminhos Rastro, Multidão e Ronda |
 | Marionetista | Controle de Chakra v2 | nada |
 | Taijutsu | documento do clã Senju, que vende desconto de XP nela, e o Sistema dos Oito Portões, que lhe reserva a coluna de acesso | nada |
-| Perícia de Ferramenta Ninja | este documento, dono de makibishi, senbon, bomba de fumaça e fio de aço sem lâmina | nada |
+| Perícia de Ferramenta Ninja | Kunai v1 e Shuriken v1, ambos dono de makibishi, senbon, bomba de fumaça e fio de aço sem lâmina | nada |
 | Furtividade, Lábia e o eixo não combatente | vantagens, que testam as duas por nome | nada |
 
 Barreira saiu desta fila porque já é documento publicado, v1, e a linha permanecia aqui por esquecimento de propagação e não por dívida real. "Perícia de arma" sai pela mesma razão: o Kunai a publica, e a linha que restava era dívida das vantagens de arremesso, não do Kunai. A Perícia de Ferramenta Ninja entra no lugar dela, dona do que o Kunai deliberadamente não reivindicou.
@@ -381,8 +396,9 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 | Tantō v1 | conforme |
 | Leque v1 | conforme |
 | Kunai v1 | conforme |
+| Shuriken v1 | conforme |
 
-**Ressalva de vocabulário.** Genjutsu e Fūinjutsu abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas. As seis perícias da passada anterior seguiram o mesmo hábito, Camada subclasse ou superclasse na abertura de cada uma, e o Kunai desta passada repete o padrão, o que leva o termo a onze documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e cresce a cada perícia nova até que alguém lhe dê dono ou a prosa pare de repeti-la.
+**Ressalva de vocabulário.** Genjutsu e Fūinjutsu abrem declarando Camada como superclasse ou subclasse, e Passagem e Senjutsu adotaram a mesma fórmula depois delas. As seis perícias da passada anterior seguiram o mesmo hábito, Camada subclasse ou superclasse na abertura de cada uma, o Kunai repetiu o padrão na passada seguinte, e o Shuriken desta passada faz o mesmo, o que leva o termo a treze documentos. Categoria e regente têm donos, o Manual de Economia de XP e o Núcleo respectivamente, e estão corretos. O termo Camada não aparece no Núcleo nem no Manual v7.1 com esse sentido, e não tem dono localizável no corpus. A ressalva é de nomenclatura e não de mecânica, e cresce a cada perícia nova até que alguém lhe dê dono ou a prosa pare de repeti-la.
 
 ---
 
@@ -407,13 +423,17 @@ Dezesseis, das quais três aplicadas. Treze seguem abertas.
 | Publicar os limiares numéricos de margem de vitória em teste oposto, hoje ausentes em toda a camada de núcleo | Núcleo do Sistema |
 | Declarar que a vantagem Gênio Bruto, linha de Resistência, não se soma à exceção de Enraizamento do Taichi para a mesma manobra e o mesmo par de atributos | core/advantages.md, vantagem Gênio Bruto |
 | Publicar régua de elevação de Guarda por armadura ou item, hoje sem termo publicado em documento nenhum, pendência que Sem Dobra e a Leitura de Fresta do Tantō dependem para disparar | Núcleo de Combate v1 |
-| A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por sete documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi, Tantō, Leque, Kunai | `core.xp-economy`, Anexo A |
+| A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por oito documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi, Tantō, Leque, Kunai, Shuriken | `core.xp-economy`, Anexo A |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.15.** A perícia de Shuriken v1 nasce, a vigésima do sistema e a sexta do degrau Físico, regente DES, a segunda a preencher o rótulo canônico de shurikenjutsu ao lado do Kunai. A densidade é deliberadamente menor que a da vizinha, três inclinações e seis caminhos contra oito, porque o inventário canônico não sustenta uso corpo a corpo fora do Fūma, e o documento registra essa honestidade em vez de inflar a partição. Sem portão de rank, porque nenhuma ficha de técnica publicada cita esta perícia como requisito de manejo, ao contrário do Kunai. Duas réguas transversais, Firmeza da Fixação e Modos de Giro, a segunda categórica e fixa, sem leitura de teste. Uma transcendência, Ame-no-Koyane sobre Sombra, revogando a regra de que uma Reação gasta encerra a capacidade de defesa do alvo pelo resto do turno.
+
+O Registro de Regentes sobe de vinte e duas para vinte e três entradas. A Carga por atributo ganha um DES, subindo de quatro para cinco. O Registro de Vizinhança ganha a nota de que Shuriken não forma eixo com o Kunai apesar do rótulo compartilhado, pelo mesmo motivo que já separa Kunai das quatro perícias físicas anteriores. O Registro de Fronteira ganha o bloco de cessão do Shuriken, incluindo a fronteira contra a duplicação por clone das sombras, que o cânone declara funcionar com qualquer ferramenta lançada e que por isso não entra em caminho nenhum aqui, e contra o Rasenshuriken e qualquer técnica de chakra em forma de shuriken. A linha da Fila de Nascimento sobre a Perícia de Ferramenta Ninja é corrigida para citar Kunai e Shuriken como as duas declarantes, em vez de se referir a si mesma. O link para `bukijutsu.md` fecha a lacuna de shuriken que restava depois da correção do Kunai. O Registro de Conformidade ganha a linha nova, conforme. A linha de errata sobre a divergência de requisito de transcendência sobe para oito documentos citados.
 
 **v2.14.** A perícia de Kunai v1 nasce, a décima nona do sistema e a quinta do degrau Físico, regente DES. Ela fecha uma dívida que a linhagem do Hiraishin carregava desde a própria publicação: a Execução do Deus do Trovão Voador exigia perícia de arma LV5 sem documento, e três lugares daquela ficha citavam a lacuna nominalmente. As quatro ocorrências foram substituídas por referência ao caminho Transição, verbo Chegada Cortante, que também resolve a perfuração de Absorção que a entrada nunca declarava. O Segundo Passo ganhou uma nota nomeando o caminho Salva, verbo Interceptação, como o mecanismo que já intercepta a lâmina em trânsito, sem requisito de acesso novo. A Rotação Instantânea Mútua não foi tocada: nenhuma linha daquela ficha emprega lâmina, arremesso ou manejo de arma, e inventar uma dependência ali quebraria a regra de nunca inventar valor. A linha correspondente de `errata-hiraishin.md` §1.4 foi marcada como fechada.
 
