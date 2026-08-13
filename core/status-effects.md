@@ -83,16 +83,16 @@ O rider natural de cada Tipo Elemental é propriedade passiva publicada pelo Sis
 
 A troca é substituição e permanece substituição. O rider trocado deixa de se aplicar por completo, uma entrega carrega um rider por vez, e nenhuma leitura soma os dois. Quando duas fontes do mesmo praticante declararem substituições diferentes sobre a mesma entrega, vale a do caminho pelo qual a técnica foi resolvida.
 
-O documento que declara a substituição publica cinco coisas, e a substituição vale apenas quando as cinco estão escritas: qual rider sai, qual entra, o escopo alcançado, seja a técnica declarada, o caminho inteiro ou a natureza toda, o grau mínimo garantido e o grau máximo possível do rider que entra, e os atributos testados por ele. O alvo do teste segue o vetor do rider que entra e não o do que sai, porque quem resiste resiste ao que está sofrendo.
+O documento que declara a substituição publica cinco coisas, e a substituição vale apenas quando as cinco estão escritas: qual rider sai, qual entra, o escopo alcançado, seja a técnica declarada, o caminho inteiro ou a natureza toda, o grau mínimo garantido e o grau máximo possível do rider que entra, e os atributos testados por ele. O alvo do teste segue o vetor do rider que entra e não o do que sai, porque quem resiste resiste ao que está sofrendo. O escopo pode nomear a inclinação inteira em vez de um caminho só, quando o documento hospedeiro declarar a troca como propriedade de toda técnica da natureza intensificada e não de uma habilidade paga à parte; nesse caso o grau mínimo garantido e o máximo possível continuam os que a ficha de cada técnica executada já publica, porque a troca muda qual rider se aplica e não a régua de grau dele.
 
 Registro de casos publicados:
 
 | Natureza intensificada | Hospedeira | Rider natural | Rider substituto | Escopo |
 |---|---|---|---|---|
 | Shiton, Incandescência | Perícia de Katon, inclinação Brasa | Queimadura | Cegueira | caminho Fulgor |
+| Shinton, Sísmico | Perícia de Doton, inclinação Sismo | Imobilização | Atordoamento | inclinação Sismo inteira |
 
-A tabela nasce com uma linha e recebe as demais conforme os documentos de natureza intensificada as publiquem. Substituição praticada por documento que não conste dela é erro do documento e entra na fila de errata.
-
+A tabela nasce com uma linha e recebe as demais conforme os documentos de natureza intensificada as publiquem. Substituição praticada por documento que não conste dela é erro do documento e entra na fila de errata. Elevação de grau do rider herdado não é substituição e não entra aqui.
 
 ### Regras Universais de Remoção
 

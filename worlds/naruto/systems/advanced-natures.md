@@ -273,12 +273,12 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 | Taiton (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 | criação do catálogo |
 | Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | sem Centelha | 1,95 | cânone |
 | Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,85 | cânone |
-| Shinton (Sísmico) `[proposta]` | Terra | `[PENDENTE]` | A | Decisivo | 2% | 1,70 | criação do catálogo |
+| Shinton (Sísmico) `[proposta]` | Terra | sem portão de linhagem | A | Decisivo | 2% | 1,70 | criação de Gabriel |
 | Chōton (Maré) `[proposta]` | Água | `[PENDENTE]` | A | Decisivo | 2% | 1,20 | criação do catálogo |
 
-A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram.
+A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram. O Sísmico entra nesse grupo com a publicação da inclinação Sismo no Doton, no mesmo padrão que já valia para o Shiton.
 
-**Duas Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon.
+**Três Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon, e Sismo, a inclinação de extensão da Kyōka Shinton, na Perícia de Doton — o primeiro caso em que a natureza avançada não abre perícia própria alguma, cabendo por inteiro dentro do domínio que a hospeda.
 
 O multiplicador de dano do Kyōka substitui o multiplicador comum do elemento base. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado, salvo substituição declarada pela regra de rider substituído por natureza intensificada do Sistema de Efeitos de Status, que fixa escopo, graus e vetor de teste da troca e mantém o registro dos casos vigentes.
 
@@ -385,6 +385,20 @@ A separação dos vizinhos fica registrada linha a linha, porque o Fogo é a reg
 
 **O calor por dentro.** O calor entra na matéria em vez de envolvê-la, e o alvo que veste ou carrega camada condutora passa a somar a própria Absorção ao dano em vez de subtraí-la. A propriedade tem escopo de caminho e vive no efeito Núcleo de Forja, condicionada à camada que o alvo carrega e não à origem do número invertido. Ela não ignora a couraça, converte a couraça em problema, e é contra portadores de Kōton com o corpo em liga e de Jiton cobertos de areia de ferro que ela pesa mais.
 
+### Sísmico
+
+`[proposta]` integral quanto à existência, ao nome e às propriedades. O Sísmico é concepção deste projeto e não tem fonte primária a auditar. A única âncora canônica que ele toca vem do lado do alvo, e é a fraqueza que a obra declara para o Shōton: o cristal exige acúmulo molecular preciso e é vulnerável a uma frequência sonora específica, que quebra o acúmulo antes de o cristal se formar. O Cristal ainda não tem verbete próprio neste catálogo, e a nota cruzada do lado dele entra na fila de errata.
+
+**Energia que viaja pela terra.** O Doton comum move matéria, levanta, derruba, abre, endurece e prende. O Sísmico não move nada. A intensificação converte a terra em meio de transmissão, de modo que a onda percorre o leito, resolve em ponto que o praticante não tocou e deixa a matéria onde ela estava. A entrega chega sem atravessar o que está acima do solo, e cobertura, muro e obstáculo erguido não recebem nada porque não estão no caminho dela.
+
+**Frequência no lugar de força.** Estrutura rígida tem frequência própria, e a onda certa a derruba com fração da energia que seria necessária para quebrá-la. A propriedade inverte a leitura habitual de defesa, porque quanto mais rígido o material, mais barato ele custa para vir abaixo.
+
+**Ataque ao ato.** A onda atravessa a carne sem romper nada e desarranja equilíbrio, concentração e mãos. Num sistema em que toda técnica cobra moldagem e selos, a entrega que impede o ato de executar é o eixo próprio da natureza, e é ela que sustenta o rider substituto de Atordoamento no lugar da Imobilização da Terra.
+
+**Sem portão.** O Sísmico não cobra portão de linhagem nem portão de doutrina. Ele segue o precedente da Incandescência, Kyōka de tier A aberta a qualquer praticante que passe na Centelha, e confirma a leitura já publicada de que a Terra dispõe de caminho de intensificação acessível por ofício.
+
+**Sem perícia própria.** O Sísmico é a primeira natureza avançada do catálogo que não abre perícia. A competência que ele destrava entra na Perícia de Doton como a inclinação de extensão manifestada Sismo, com os caminhos Tremor, Concussão e Ressonância e com o Ápice Primeira Onda, pela regra da seção 3 e pela seção 13.1 do Manual de Criação de Perícias. A Centelha, o portão e o multiplicador permanecem aqui; a mecânica de mesa mora lá.
+
 ### Onmyōton
 
 | Natureza | Perícia | Status |
@@ -412,6 +426,8 @@ A Incandescência é a primeira exceção declarada. Ela corre pela inclinação
 | LV6 — Transcendência | S | Limite do possível para aquela natureza. |
 
 A perícia da natureza avançada não reduz o custo dos Tipos Elementais componentes. Ela é adquirida e desenvolvida separadamente, com XP próprio, na mesma régua de custo do documento base ajustada pela categoria Ninja.
+
+**Exceção declarada.** A natureza avançada cuja competência cabe inteira dentro do domínio de uma perícia já publicada entra ali como inclinação de extensão manifestada, pela regra da seção 3 do Manual de Criação de Perícias, e não abre perícia própria. Nesse caso a progressão corre pela perícia hospedeira, o rank acessível corre pelo portão dela, e o capstone da extensão segue a seção 13.1 em vez da transcendência do LV6. O Sísmico é a primeira entrada nessa forma, hospedado pela Perícia de Doton.
 
 ---
 

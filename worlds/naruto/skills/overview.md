@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.15
+version: 2.16
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.15. Camada de relação entre domínios.**
+**v2.16. Camada de relação entre domínios.**
 
 ---
 
@@ -40,7 +40,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Raiton | v3 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.1 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.1 | INT | Ninjutsu ×1,5 |
-| Doton | v2 | INT | Ninjutsu ×1,5 |
+| Doton | v2.1 | INT | Ninjutsu ×1,5 |
 | Liberação de Yin | v4.1 | INT | Ninjutsu ×1,5 |
 | Liberação de Yang | v4.2 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
@@ -341,8 +341,8 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4, Raiton v3 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
-| Fūton v2, Suiton v2, Doton v2 | conforme |
+| Katon v4, Raiton v3, Doton v2.1 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Fūton v2, Suiton v2 | conforme |
 | Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
@@ -365,7 +365,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Vinte e uma, das quais três aplicadas. Dezoito seguem abertas.
+Vinte e duas, das quais três aplicadas. Dezenove seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -390,12 +390,17 @@ Vinte e uma, das quais três aplicadas. Dezoito seguem abertas.
 | Publicar régua de elevação de Guarda por armadura ou item, hoje sem termo publicado em documento nenhum, pendência que Sem Dobra e a Leitura de Fresta do Tantō dependem para disparar | Núcleo de Combate v1 |
 | A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por quatro documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi | `core.xp-economy`, Anexo A |
 | Abrir linha de preço própria para o Ápice de Extensão Manifestada, hoje lido pela régua de transcendência adicional | Manual de Economia de XP v2.2, seção 7 |
+| Prever a terceira leitura de largura, a do Ápice de extensão manifestada, que soma largura de ápice com especialização aprofundada porque a seção 13.1 o desliga do LV6 — vale para todo Ápice já publicado, não só o do Doton | Núcleo de Perícias v2.2, seção 6.1 |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.16.** Colisão de versão com a v2.11, pela terceira vez: uma quarta linha de trabalho, a extensão manifestada da Perícia de Doton, também publicou sob o número v2.11 a partir do mesmo commit em que as linhas de seis perícias, do Katon e do Raiton já haviam colidido, sem enxergar nenhuma delas. Resolvida do mesmo modo, subindo mais um degrau.
+
+A Perícia de Doton sobe para v2.1 e passa a ser a terceira do corpus a declarar inclinação de extensão manifestada — Katon e Raiton vieram antes, na mesma reconciliação, e as três passadas não se enxergaram. A inclinação Sismo é destravada pelo Shinton, a Kyōka de Terra do catálogo de Naturezas Avançadas, traz os caminhos Tremor, Concussão e Ressonância e recebe o Ápice Primeira Onda pela seção 13.1 do Manual. O caso é o primeiro em que a natureza avançada não abre perícia própria alguma: Naturezas Avançadas ganha a exceção declarada de natureza hospedada por perícia existente, com a progressão correndo pela hospedeira, na seção "Progressão por Maestria". O rider da inclinação inteira substitui a Imobilização da Terra por Atordoamento, pela regra geral de rider substituído por natureza intensificada que a passada do Katon publicou em `core/status-effects.md` v2.5 — a mesma regra, com o Sísmico como segundo caso registrado e escopo de inclinação inteira em vez de caminho só, porque a troca aqui é propriedade passiva de toda técnica de Sismo e não uma habilidade paga à parte. O Registro de Conformidade acompanha a versão nova, e a seção 6.1 do Núcleo de Perícias recebe pendência de errata, porque o Ápice de extensão publica valores lendo largura de ápice com especialização aprofundada, leitura que aquela seção ainda não previa antes desta reconciliação — a mesma pendência que já valia para o Ápice do Katon, agora nomeada.
 
 **v2.15.** Colisão de versão com a v2.11, pela segunda vez: uma terceira linha de trabalho, a extensão manifestada da Perícia de Raiton, também publicou sob o número v2.11 a partir do mesmo commit em que a linha de seis perícias e a linha do Katon já haviam colidido, sem enxergar nenhuma das duas. Resolvida do mesmo modo, subindo mais um degrau.
 
