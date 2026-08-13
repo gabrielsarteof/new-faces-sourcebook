@@ -1,7 +1,7 @@
 ---
 id: core.skill-authoring
 title: "Manual de Criação de Perícias"
-version: 7.2
+version: 7.3
 layer: core
 type: methodology
 status: final
@@ -10,8 +10,11 @@ source-file: Manual_de_Criacao_de_Pericias_v7.md
 
 # Manual de Criação de Perícias
 
-**v7.2 — Acrescenta a regra da inclinação de extensão manifestada (§3) e o Ápice de
-Extensão Manifestada (§13.1) à v7.1**
+**v7.3 — Abre exceção de preço para a inclinação de extensão manifestada (§3) e para
+os caminhos que a instituem (§14.2) à v7.2. A v7.2 publicou a regra da inclinação de
+extensão sem essa exceção, precificando-a como qualquer inclinação e caminho comuns; a
+primeira perícia a publicar uma, o Raiton, expôs que a manifestação em si é o conteúdo
+comprado, não sobra de progressão, e pediu a régua própria.**
 
 Este manual é o procedimento de construção de perícias. Ele diz como se preenche cada
 camada da estrutura definida no *Núcleo de Perícias*, que é quem define quais camadas
@@ -106,8 +109,17 @@ da perícia hospedeira, pergunta que nenhum praticante sem aquela manifestação
 fazer, deixa de ser porteiro e passa a ser inclinação, chamada aqui de inclinação de
 extensão. A distinção não está na origem: as duas nascem de linhagem, dōjutsu ou
 herança rara, igualmente. Está na forma. Porteiro autoriza; inclinação de extensão
-responde. Inclinação de extensão se particiona, se audita e se precifica como qualquer
-outra inclinação da seção 7, e seu ápice segue a seção 13.1.
+responde. Inclinação de extensão se particiona e se audita como qualquer outra
+inclinação da seção 7, e seu ápice segue a seção 13.1.
+
+**Exceção de preço da inclinação de extensão.** A inclinação de extensão e os
+caminhos que a instituem nascem em preço cheio, nunca na régua de aquisição
+adicional da seção 14.2: a manifestação em si é o conteúdo comprado, não sobra da
+progressão comum, e cobrar como aquisição adicional descontaria o que não é
+adicional a nada. Um caminho que o documento daquela extensão publicar além dos
+que a instituem, se algum dia existir, segue a régua comum de caminho adicional,
+porque esse caminho é excedente e a manifestação já respondeu pela pergunta que o
+justifica.
 
 **Regra da técnica nomeada.** Habilidade que o cânone do cenário nomeia é objeto de
 compêndio, com registro, custo e acesso próprios, e nunca efeito embutido em perícia. A
@@ -487,6 +499,10 @@ Inclinação adicional a partir do LV2, caminho adicional a partir do LV4, ambos
 Abertos e aprofundando por compra separada. Todo caminho exige a inclinação dele
 Aprofundada. Não existe teto. Aquisição adicional custa metade da original, sem tarifa
 por proximidade.
+
+**Exceção nomeada:** a inclinação de extensão manifestada e os caminhos que a
+instituem, pela seção 3, não seguem esta régua — nascem em preço cheio, porque a
+manifestação em si é o conteúdo, não uma aquisição além da primeira.
 
 Caminho comprado depois da transcendência nasce Aberto, aprofunda por compra e
 permanece no teto Aprofundado, porque a elevação acontece uma única vez. A escolha entre

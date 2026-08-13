@@ -24,7 +24,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
 | [Manual de Criação de Poderes](core/power-creation.md) | `core.power-creation` | 3.3 | core-layer | final |
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1 | reference-table | final |
-| [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.2 | methodology | final |
+| [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.3 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.2 | core-layer | final |
 | [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.4 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.1 | core-layer | final |
@@ -235,7 +235,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.1 | skill | final |
 | [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.11 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
-| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3 | skill | final |
+| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.1 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.1 | skill | final |

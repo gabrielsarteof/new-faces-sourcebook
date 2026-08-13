@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3
+version: 3.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,13 +9,13 @@ status: final
 source-file: RAITON_Pericia_v2_final.md
 ---
 
-RAITON (雷遁) · v3
+RAITON (雷遁) · v3.1
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
 
 VERSÕES LIDAS NESTA PASSAGEM
-Núcleo de Perícias v2.2 · Manual de Criação de Perícias v7.2, com a seção 3 da inclinação de extensão manifestada e a seção 13.1 do Ápice de Extensão Manifestada · Manual de Economia de XP v2.2 · Naturezas Avançadas v5.1 · Sistema Elemental, pela tabela de Tipo Elemental e rider natural · Sistema de Efeitos de Status, pela graduação de Sangramento e de Paralisia Parcial · Núcleo de Combate, pela sequência de resolução · Manual de Criação de Jutsus, pela seção 6.5 do Perfil de Evasão · Compêndio de Raiton v3.5.
+Núcleo de Perícias v2.2 · Manual de Criação de Perícias v7.3, com a seção 3 da inclinação de extensão manifestada, a exceção de preço da seção 3 e da seção 14.2, e a seção 13.1 do Ápice de Extensão Manifestada · Manual de Economia de XP v2.2 · Naturezas Avançadas v5.1 · Sistema Elemental, pela tabela de Tipo Elemental e rider natural · Sistema de Efeitos de Status, pela graduação de Sangramento e de Paralisia Parcial · Núcleo de Combate, pela sequência de resolução · Manual de Criação de Jutsus, pela seção 6.5 do Perfil de Evasão · Compêndio de Raiton v3.5.
 
 O Raiton é o domínio do chakra convertido em corrente elétrica. O praticante eleva a vibração da própria energia até que ela assuma as propriedades da eletricidade, e o que sai atravessa, dormenta e corre por onde encontrar caminho. A tese da perícia mora na relação entre superfície e penetração. Quanto menor o ponto de entrega, maior a concentração, e um contato reduzido a um dedo vence a defesa que a descarga difusa não vence. Produzir a corrente é o primeiro passo e o mais barato deles, e o ofício verdadeiro começa em decidir para onde ela vai, o que ela atravessa e o que ela toma emprestado para chegar lá.
 
@@ -114,7 +114,7 @@ INCLINAÇÕES DE EXTENSÃO MANIFESTADA
 
 Duas inclinações desta perícia nascem de manifestação e permanecem fechadas à generalidade dos praticantes. As duas seguem a regra da inclinação de extensão manifestada do Manual de Criação de Perícias, seção 3: a manifestação abre pergunta nova na lista de resposta do Raiton, pergunta que nenhum praticante sem ela formula, e por isso ela responde como inclinação em vez de autorizar como requisito.
 
-Cada uma se compra, se aprofunda e recebe caminhos pela régua comum da seção 14.2 do manual, com o preço de inclinação adicional e de caminho adicional do Manual de Economia de XP. Cada uma recebe um Ápice próprio, publicado adiante, que exige apenas os caminhos dela mesma aprofundados e permanece distinto da transcendência de LV6 desta perícia.
+Cada uma se compra e se aprofunda pela régua comum da seção 14.2 do manual, com o preço de inclinação adicional do Manual de Economia de XP, mas os caminhos que a instituem nascem em preço cheio, pela exceção que a seção 3 e a seção 14.2 do Manual de Criação de Perícias abrem para a inclinação de extensão: a manifestação em si é o conteúdo comprado, não sobra da progressão comum, e não se paga como caminho adicional de algo que já foi pago na inclinação. Cada uma recebe um Ápice próprio, publicado adiante, que exige apenas os caminhos dela mesma aprofundados e permanece distinto da transcendência de LV6 desta perícia.
 
 O portador soma a inclinação de extensão às três inclinações comuns conservando todas elas, e a regra de uma inclinação e uma especialização por teste continua valendo.
 
@@ -344,3 +344,21 @@ DECISÕES TOMADAS POR PADRÃO
 10. **A Amplificação Doutrinária do Kuroi Kaminari foi preservada.** Ela já estava publicada em Naturezas Avançadas, coloca o Raiton comum do portador em 1,85 e o Raiton de Calamidade em 1,95, e nada na raiz travada pedia a remoção dela.
 11. **A tatuagem entrou como consequência declarada e não como requisito**, com valor social e político e sem valor mecânico de combate, conforme a auditoria.
 12. **Nai-no-Kami e Ame-no-Ohabari** seguem a metodologia deity-first do projeto, com Nai-no-Kami respondendo pelo abalo que derruba o lugar e Ame-no-Ohabari pela lâmina celeste que separa. Ōmagatsuhi e Futsunushi ficaram fora por já ocuparem transcendências publicadas em Ninjutsu Médico e em Sensoriamento.
+
+═══════════════════════════════════════════════════════════════════
+
+CHANGELOG DA v3.1
+
+ALTERADO NESTA PERÍCIA
+
+1. Versão de 3 para 3.1, no cabeçalho e no frontmatter.
+2. Bloco de versões lidas, citando o Manual de Criação de Perícias v7.3 em vez de v7.2.
+3. O parágrafo de aquisição das inclinações de extensão (seção Inclinações de Extensão Manifestada) deixa de citar "preço de inclinação adicional e de caminho adicional" para os três caminhos de cada inclinação, e passa a citar a exceção de preço cheio que o Manual de Criação de Perícias abre nas seções 3 e 14.2. A inclinação em si continua na régua comum de inclinação adicional, sem mudança. Os testes de referência publicados (130/134, 156/161, 185/190) não mudam: são bônus de teste, não custo de XP, e a exceção não os toca.
+
+ALTERADO FORA DESTA PERÍCIA
+
+4. `core/skill-authoring.md` sobe para v7.3. A seção 3 ganha o parágrafo "Exceção de preço da inclinação de extensão", e a seção 14.2 ganha uma nota de exceção cruzando para a seção 3. A v7.2 havia publicado a regra da inclinação de extensão sem essa exceção; a primeira perícia a publicar uma, esta, expôs que a manifestação em si é o conteúdo comprado, não sobra de progressão.
+
+DECISÃO TOMADA POR PADRÃO
+
+13. **A exceção nasceu no núcleo, não só nesta perícia.** Toda inclinação de extensão manifestada futura, de qualquer perícia, herda o mesmo preço cheio para os caminhos que a instituem — não é regra local do Raiton.
