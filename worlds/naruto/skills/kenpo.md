@@ -59,7 +59,9 @@ O Núcleo de Combate publica três classes de arma e nenhuma classe para o golpe
 
 RÉGUAS TRANSVERSAIS
 
-FATOR DE KENPO. A parcela de maestria que o golpe de Corrente Sem Fim soma à Energia comum do Núcleo de Combate, no lugar do Fator de Técnica que uma obra nomeada declararia. Lê a especialização de Corrente Sem Fim e mais nenhuma outra.
+FATOR DE KENPO
+
+A parcela de maestria que o golpe de Corrente Sem Fim soma à Energia comum do Núcleo de Combate, no lugar do Fator de Técnica que uma obra nomeada declararia. Lê a especialização de Corrente Sem Fim e mais nenhuma outra.
 
 ```
 Fator de Kenpo = degrau² × (teste do caminho ÷ 4)
@@ -76,7 +78,9 @@ O divisor foi substituído contra a faixa inteira de testes do domínio antes de
 
 O terceiro degrau fecha dentro da banda Forte, de 25 a 38% do par de validação, a mesma âncora que o Manual de Criação de Jutsus declara para descarga única. A leitura por analogia entre um domínio sem chakra e a banda de um domínio que o tem é `[proposta]`.
 
-EFICIÊNCIA DE RETORNO. A fração da Potência do praticante que Bloqueio Ofensivo devolve ao atacante. Lê a especialização de Bloqueio Ofensivo e mais nenhuma outra.
+EFICIÊNCIA DE RETORNO
+
+A fração da Potência do praticante que Bloqueio Ofensivo devolve ao atacante. Lê a especialização de Bloqueio Ofensivo e mais nenhuma outra.
 
 ```
 Retorno de Bloqueio = Potência do praticante × 0,20 × Eficiência de Retorno
@@ -85,7 +89,9 @@ Eficiência de Retorno = √(teste do caminho ÷ 174), teto 1,0
 
 O neutro 174 é o praticante de LV6 com Bloqueio Ofensivo transcendido, largura mínima. Resolvido: 83% no LV4, 92% no LV5, teto de 100% no LV6 transcendido. Para o combatente de Potência 1.600, o retorno fecha em 266, 294 e 320.
 
-GRAU DE EXPOSIÇÃO. O grau de Marcação que Alvo Exposto instala contra o ponto vital golpeado. Lê a especialização de Alvo Exposto e mais nenhuma outra, e consome a escala de redução por grau que o Sistema de Efeitos de Status já publica, sem inventar uma nova.
+GRAU DE EXPOSIÇÃO
+
+O grau de Marcação que Alvo Exposto instala contra o ponto vital golpeado. Lê a especialização de Alvo Exposto e mais nenhuma outra, e consome a escala de redução por grau que o Sistema de Efeitos de Status já publica, sem inventar uma nova.
 
 | Teste do caminho | Grau instalado | Redução de Absorção do alvo naquele ponto |
 |---|---|---|
@@ -96,7 +102,9 @@ GRAU DE EXPOSIÇÃO. O grau de Marcação que Alvo Exposto instala contra o pont
 
 Resolvido: LV4 instala Leve, LV5 instala Moderado, LV6 largura mínima instala Grave, LV6 com o segundo caminho da inclinação aprofundado instala Crítico.
 
-JANELA DE ADAPTAÇÃO. A fração da Guarda do atacante que o contra-ataque de Contra-Círculo ignora. Lê a especialização de Contra-Círculo e mais nenhuma outra.
+JANELA DE ADAPTAÇÃO
+
+A fração da Guarda do atacante que o contra-ataque de Contra-Círculo ignora. Lê a especialização de Contra-Círculo e mais nenhuma outra.
 
 ```
 Janela de Adaptação = teste do caminho ÷ 5, arredondado para baixo, piso 0%, teto 40%
