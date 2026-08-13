@@ -1,14 +1,14 @@
 ---
 id: core.technique-template
 title: "Template — Documento de Técnica"
-version: 3.3
+version: 3.4
 layer: core
 type: template
 status: final
 source-file: Template_Documento_Tecnica_v3_3.md
 ---
 
-# Template — Documento de Técnica (v3.3)
+# Template — Documento de Técnica (v3.4)
 
 Guia de como escrever o documento de qualquer técnica ou fenômeno do sistema.
 Cada seção tem uma instrução entre colchetes explicando o que vai ali.
@@ -59,6 +59,7 @@ Antes de produzir o documento final, verifique cada item:
 - [ ] RC nominal e custo mínimo declarados como par
 - [ ] Selos de referência e assinatura selada declarados
 - [ ] Perfil de Evasão declarado em toda técnica ofensiva de alvo
+- [ ] Banda Mínima e Banda Máxima declaradas em toda técnica de área ou campo
 - [ ] Tabela de descarga indexada a LV_CC, nunca a nome de personagem
 - [ ] Rider declarando grau mínimo garantido e grau máximo possível, sem escala de margem própria
 - [ ] Custo de XP como valor único, sem colunas de afinidade
@@ -143,6 +144,7 @@ Use parágrafos curtos. Aplique as Regras de Escrita. Não coloque dano aqui.]
 - **Custo de PS:** [valor por turno de carga ou uso, se houver. Remova se não aplicável]
 - **Janela de Canalização:** [turnos de selos calculados pela fórmula da Seção 3.2 do Manual, com referência a um ou dois perfis canônicos para âncora]
 - **Ação:** [o que o usuário faz fisicamente para executar: selos, movimento, contato]
+- **Banda Mínima e Banda Máxima:** [OBRIGATÓRIO PARA TÉCNICA DE ÁREA OU CAMPO. Até onde o executor projeta o centro da obra, na escada do Núcleo de Combate. Remova se a técnica for de alvo único, onde o alcance segue morando em Restrições]
 - **Restrições:** [alcance, número de alvos, condições de uso, interações proibidas]
 - **Classe de Quebra:** [OBRIGATÓRIO PARA GENJUTSU. Um entre aceita auto-liberação, exige rompimento externo e resiste aos dois. Este é o piso da obra; a escalada em jogo pertence ao caminho Amarra da Perícia Genjutsu. Remova se a técnica não for genjutsu]
 - **Canal de Entrega:** [OBRIGATÓRIO PARA GENJUTSU. Um entre ocular, sonoro e tátil. Remova se a técnica não for genjutsu]
