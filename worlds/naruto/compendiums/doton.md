@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.doton
 title: "Compêndio de Doton (土遁)"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -77,6 +77,8 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Doton LV1 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 130
 **Execução:** Moldagem de Solo
 
@@ -157,6 +159,8 @@ O usuário nada pelo interior do solo como um peixe pela água, deslocando-se em
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem Plena · formação rochosa suspensa
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.120
 **Execução:** Moldagem de Solo
 
@@ -169,6 +173,8 @@ O usuário infunde chakra em formação rochosa suspensa, como teto de caverna, 
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.120
 **Execução:** Moldagem de Solo
 
@@ -181,6 +187,8 @@ O usuário pressiona a palma contra o chão e faz o solo ao redor do alvo se rom
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.120
 **Execução:** Moldagem de Solo
 
@@ -205,6 +213,8 @@ O usuário molda terra e rocha na forma de uma cópia física de si mesmo. O clo
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.580
 **Execução:** Moldagem de Solo
 
@@ -257,6 +267,8 @@ O usuário ergue do solo uma cabeça de dragão de lama solidificada, que dispar
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 6.200
 **Execução:** Moldagem de Solo
 
@@ -295,6 +307,8 @@ Erguer terra é estudo do elemento, e fazer a terra beber o chakra de quem ela p
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.300
 **Execução:** Moldagem de Solo
 
@@ -309,6 +323,8 @@ A técnica é a forma comum do fechamento de abóbada, ensinada onde quer que o 
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 6.200
 **Execução:** Moldagem de Solo
 
@@ -361,6 +377,8 @@ A metade que alivia é guardada por Iwagakure com o mesmo rigor da metade que es
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV4 · Moldagem Plena · segundo usuário de Doton ou clone
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 6.200
 **Execução:** Moldagem de Solo
 
@@ -385,6 +403,8 @@ O usuário ergue do leito rochoso duas lajes monumentais em lados opostos do alv
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 4.625
 **Execução:** Moldagem de Solo
 
@@ -401,6 +421,8 @@ O usuário pressiona a palma contra o solo e estende o chakra pelo leito rochoso
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV5 · Moldagem Plena · Caminho Atoleiro
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 18.200
 **Execução:** Moldagem de Solo
 
@@ -427,6 +449,8 @@ O endurecimento pleno do corpo exige que o executante já domine o revestimento 
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV5 · Moldagem Plena · Muro de Terra · Caminho Paredão
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 18.200
 **Execução:** Moldagem de Solo
 
@@ -439,6 +463,8 @@ O usuário ergue do terreno uma escarpa de escala geográfica, um paredão cont�
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV5 · Moldagem Refinada · Caminho Cinzel da Pedra
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 15.200
 **Execução:** Moldagem de Solo
 

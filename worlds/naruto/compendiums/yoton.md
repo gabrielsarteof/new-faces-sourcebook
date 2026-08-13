@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.yoton
 title: "Compêndio de Yōton"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: compendium
@@ -251,6 +251,8 @@ Obra erguida por outra natureza recebe vitalidade e passa a operar por conta pr�
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yang LV4 · Plena · Rebento · ter aprendido Broto Adiantado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 4.625
 
 A aceleração alcança o terreno em vez de um alvo, e uma clareira aberta fecha em mata alta no tempo de uma ação. O que cresce continua vivo e não obedece ao praticante, e serve tanto à retirada dele quanto ao avanço de quem vier depois pelo mesmo caminho.
@@ -319,6 +321,8 @@ A vitalidade sobe mais rápido do que aquilo que avança dentro do corpo, suspen
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yang LV5 · Refinada · Esteio · ter aprendido Segunda Maré
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 15.200
 
 A sustentação deixa de exigir toque e alcança corpo a curta distância, mantendo dois operantes ao mesmo tempo sem que o praticante precise se expor ao contato. Ninguém neste mundo levou o canal a esse alcance. O primeiro praticante a cumprir o requisito e concluir o processo de criação de técnica torna-se o criador registrado.
@@ -328,6 +332,8 @@ A sustentação deixa de exigir toque e alcança corpo a curta distância, mante
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yang LV5 · Alta · Arrimo · ter aprendido Ombro de Ferro
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 12.800
 
 O empréstimo de vigor alcança três corpos a curta distância, e uma formação inteira passa a aguentar o mesmo que o praticante aguenta. É a técnica que decide defesa de portão em desvantagem numérica, e a que mais aparece nos relatos de posto que resistiu quando não deveria.
@@ -337,6 +343,8 @@ O empréstimo de vigor alcança três corpos a curta distância, e uma formaçã
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yang LV5 · Refinada · Enxerto · ter aprendido Raiz na Obra Alheia
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 15.200
 
 Toda obra de outra natureza ao alcance do praticante recebe a infusão no mesmo turno, sobe uma categoria de escala e passa a se reerguer sozinha ao ser destruída. Combatendo ao lado de quem ergue terreno, o portador desta técnica transforma o trabalho do companheiro em guarnição.
@@ -346,6 +354,8 @@ Toda obra de outra natureza ao alcance do praticante recebe a infusão no mesmo 
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yang LV5 · Plena · Rebento · ter aprendido Mato Fechado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 11.000
 
 A aceleração cobre um campo inteiro, e uma encosta rala vira bosque fechado no tempo de uma conversa. O Mokuton origina madeira do chakra do usuário e aqui nada é originado, o que torna a técnica inútil onde não haja coisa viva no terreno e devastadora onde haja.
@@ -355,6 +365,8 @@ A aceleração cobre um campo inteiro, e uma encosta rala vira bosque fechado no
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yang LV5 · Refinada · Legado · ter aprendido Serviço Deixado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 15.200
 
 Várias formas instaladas ao mesmo tempo, operando por dias e com condição de encerramento declarada em cada uma. O praticante monta o posto, dá as instruções e vai embora, e o posto continua respondendo. Guarnições inteiras se mantêm com esta técnica e um punhado de shinobi.
@@ -388,6 +400,8 @@ O metabolismo acelerado passa a operar pela duração de uma missão inteira, co
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yang LV6 · Absoluta · Animador
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 38.000
 
 Formas infundidas em número, de porte grande e agindo em ação plena própria, sob a mesma instrução declarada. Um pátio de ferramentas, uma parede de armas, uma carroça inteira de material morto passa a operar ao mesmo tempo. Ninguém neste mundo levou a infusão a essa escala, e o primeiro a alcançá-la e concluir o processo de criação torna-se o criador registrado.
@@ -397,6 +411,8 @@ Formas infundidas em número, de porte grande e agindo em ação plena própria,
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Liberação de Yang LV6 · Absoluta · Enxerto · ter aprendido Floresta Que Responde
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 45.500
 
 Toda obra de outra natureza em campo sobe duas categorias de escala e volta a se erguer cada vez que for destruída, enquanto o praticante estiver ali. Uma linha de defesa erguida por outro deixa de ter fim, e o inimigo derruba a mesma parede quatro vezes antes de entender o que está acontecendo. A técnica existe no mundo em posse de um portador desconhecido.
@@ -407,6 +423,8 @@ Toda obra de outra natureza em campo sobe duas categorias de escala e volta a se
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yang LV6 · Refinada · Arrimo · ter aprendido Linha Inteira de Pé
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 38.000
 
 O empréstimo de vigor alcança seis corpos a distância média e sustenta um esquadrão inteiro no patamar do praticante, com cada um deles ignorando pela cena a penalidade de ferimento e de peso carregado. Nada de chakra passa de um para o outro em momento algum. Ninguém neste mundo estendeu o empréstimo a esse número, e o primeiro a alcançá-lo e concluir o processo de criação torna-se o criador registrado.

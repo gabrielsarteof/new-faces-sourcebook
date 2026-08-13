@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.suiton
 title: "Compêndio de Suiton (水遁)"
-version: 3.2
+version: 3.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -73,6 +73,8 @@ O usuário canaliza chakra de água pelas mãos e forma uma película fina e ade
 **[CANON — Rank D]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Requisitos:** Suiton LV2 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **Execução:** Expelida
 **XP:** 880
 
@@ -109,6 +111,8 @@ O usuário forma um chicote longo e contínuo de água sustentada por chakra, an
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV2 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **Execução:** Expelida
 **XP:** 600
 
@@ -149,6 +153,8 @@ O usuário envolve o alvo em esfera de água mais pesada e densa que a comum, fo
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **Execução:** Expelida
 **XP:** 2.580
 
@@ -161,6 +167,8 @@ O usuário expele pela boca uma corrente de água de altíssima viscosidade, imp
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **Execução:** Expelida
 **XP:** 1.775
 
@@ -197,6 +205,8 @@ O usuário comprime água em disco fino de rotação veloz e o dispara rente ao 
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Suiton LV3 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **Execução:** Expelida
 **XP:** 2.580
 
@@ -297,6 +307,8 @@ O usuário ergue de uma fonte de água uma serpente colossal de bocarra aberta, 
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **Execução:** Expelida
 **XP:** 6.200
 
@@ -321,6 +333,8 @@ O usuário ergue a água do ambiente ao redor do alvo e a molda em mil agulhas l
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Requisitos:** Suiton LV4 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **Execução:** Expelida
 **XP:** 7.325
 
@@ -369,6 +383,8 @@ O usuário reveste um ou ambos os braços com camadas densas de água comprimida
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Amegakure)
 **Requisitos:** Suiton LV4 · Moldagem Refinada · Caminho Toque da Maré
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **Execução:** Expelida
 **XP:** 7.325
 
@@ -397,6 +413,8 @@ O usuário ergue de uma fonte de água coluna espiral colossal, que desaba sobre
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV5 · Moldagem Absoluta · Caminho Agulha das Profundezas
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **Execução:** Expelida
 **XP:** 11.000
 
@@ -421,6 +439,8 @@ O usuário ergue de uma fonte próxima orbe central de água do qual partem múl
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Suiton LV5 · Moldagem Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **Execução:** Expelida
 **XP:** 18.200
 
@@ -461,6 +481,8 @@ O usuário molda um tubarão de água de porte colossal que avança contra a té
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Suiton LV6 · Moldagem Absoluta · Caminho Câmara de Água transcendido
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **Execução:** Moldagem de Fonte
 **XP:** 45.500
 

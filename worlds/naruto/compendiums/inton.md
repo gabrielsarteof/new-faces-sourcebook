@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -146,6 +146,8 @@ O praticante reveste um objeto presente em cena com a aparência de outro de por
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yin LV3 · Plena · ter aprendido Vulto de Costas
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 2.120
 
 Um volume de escuro real com três metros de raio, erguido em ponto declarado. Ninguém dentro enxerga, incluindo quem o ergueu, e a audição, o olfato e a leitura de chakra continuam operando sem penalidade. É a versão curta do ofício da cortina, empregada para cobrir uma porta, um beco ou o instante de uma troca.
@@ -177,6 +179,8 @@ Uma forma que percorre trajeto instruído no ato e entrega o que carrega no pont
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Liberação de Yin LV4 · Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 5.300
 
 Um painel erguido em ponto declarado, com até cinco metros de largura por três de altura, que corta linha de visão e de movimento e resiste pelo limiar de integridade. A parede é o exercício base de toda construção do domínio, e permanece livre justamente por preceder a especialização que depois a refina em estrutura de porte.
@@ -271,6 +275,8 @@ A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yin LV5 · Alta · Arquiteto · ter aprendido Parede de Nada
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 15.200
 
 Estrutura erguida em escala de terreno, muro corrido, cúpula ou plataforma de dezenas de metros, com integridade própria e passagem que o praticante abre e fecha à vontade. Ela serve de chão para os dois lados, e o inimigo que a escala ganha o mesmo apoio que o esquadrão defendido. É o arsenal de defesa de posição do domínio.
@@ -289,6 +295,8 @@ Uma casca completa erguida rente ao corpo, que recebe cada golpe antes da carne 
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yin LV5 · Refinada · Velador · ter aprendido Manto de Ninguém
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 15.200
 
 O véu deixa de cobrir uma forma e passa a cobrir um grupo em deslocamento, com cada integrante conservando a própria posição real enquanto some da leitura de quem procura. A obra exige que o esquadrão permaneça dentro de distância declarada, e o integrante que se afasta reaparece sozinho, o que faz da técnica um instrumento de disciplina tanto quanto de furtividade.
@@ -298,6 +306,8 @@ O véu deixa de cobrir uma forma e passa a cobrir um grupo em deslocamento, com 
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yin LV5 · Alta · Cortina · ter aprendido Escuro de Bolso
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 15.200
 
 Um volume de escuro real que cobre uma rua, um pátio ou a boca de um desfiladeiro. Ninguém dentro enxerga, incluindo o portador de dōjutsu que dependa de luz, e ataque à distância que atravesse a borda resolve sem linha de visão. A audição e a leitura de chakra continuam operando, e é por elas que os combates dentro da noite erguida se decidem.
@@ -307,6 +317,8 @@ Um volume de escuro real que cobre uma rua, um pátio ou a boca de um desfiladei
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yin LV5 · Alta · Laço · ter aprendido Grilhão do Vazio
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 12.800
 
 Malha de substância espiritual estendida sobre área, que prende quem estiver dentro e quem entrar depois, pelo grau lido da margem. A rede persiste alguns turnos sem sustentação e por isso vale como armadilha posta antes do encontro, o que a distingue do grilhão, que exige alvo já escolhido.
@@ -344,6 +356,8 @@ Uma projeção com presença física real, capaz de tocar, empurrar e ser tocada
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Liberação de Yin LV5 · Alta · Miragista
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 15.200
 
 O terreno em área passa a mentir para quem o percorre, com distância, direção e contagem reescritas para todos que estiverem dentro. Aliados nomeados no ato ficam de fora, e quem entra depois entra dentro da mentira. A técnica existe no mundo e nenhuma vila a ensina, de modo que ela só se aprende com um portador disposto a compartilhá-la.
@@ -376,6 +390,8 @@ A energia espiritual veste a forma de um raio e é despachada contra o alvo em l
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Liberação de Yin LV6 · Absoluta · Miragista
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 45.500
 
 A mentira deixa de ocupar área e passa a reescrever o campo de batalha inteiro, com todos os pontos de referência, distâncias e posições relativas submetidos à obra. Exércitos perdem formação dentro dela sem que um único golpe tenha sido desferido. A técnica existe no mundo em posse de um portador desconhecido, e alcançá-la exige encontrar essa pessoa.
@@ -385,6 +401,8 @@ A mentira deixa de ocupar área e passa a reescrever o campo de batalha inteiro,
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Liberação de Yin LV6 · Absoluta · Arquiteto
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 45.500
 
 Fortificação erguida do nada em escala de centena de metros, com muralha, portão, plataformas e passagens que respondem ao comando de quem a ergueu. Ela se levanta sobre água e no vazio, porque não depende de solo algum, e permanece de pé enquanto a reserva sustentar. A moldagem absoluta responde por manter proporção interna constante ao longo de toda a estrutura.

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.4
+version: 3.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -86,6 +86,8 @@ O usuário concentra corrente elétrica na palma da mão e a descarrega por cont
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV2 · Moldagem Plena · meio condutor em campo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 600
 
 O usuário libera corrente elétrica pelas palmas diretamente sobre um meio condutor, propagando a descarga por água, metal ou terreno encharcado até todos os alvos em contato com ele. A técnica depende inteiramente da existência do condutor no campo, e é essa dependência que a torna a demonstração didática da propagação por meio condutor que a perícia governa por nível. Sustentada, a corrente mantém a superfície eletrificada por alguns instantes, punindo quem permanece ou ingressa na zona enquanto o usuário alimenta a técnica.
@@ -101,6 +103,8 @@ O usuário libera corrente elétrica pelas palmas diretamente sobre um meio cond
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 1.775
 
 O usuário projeta pelas mãos uma onda de eletricidade que avança em leque à sua frente. A intensidade varia com o chakra investido, indo de um choque destinado a incapacitar até uma corrente capaz de rasgar rocha sólida. O alcance curto e a abertura ampla fazem da técnica uma resposta eficiente contra grupos em aproximação frontal. Sobre terreno alagado ou contra alvos molhados, a onda percorre o meio e alcança quem estiver fora do leque original.
@@ -182,6 +186,8 @@ O usuário expele pela boca uma lança de eletricidade que atravessa o campo em 
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV4 · Moldagem Plena · segundo usuário de Raiton ou clone
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.300
 
 Dois executantes estendem entre si uma corrente contínua de alta intensidade e avançam mantendo a linha esticada, varrendo tudo o que estiver no trecho entre eles. A técnica converte o ataque de alvo único em elevação categórica para linha, e a largura da varredura depende exclusivamente da distância que a dupla consegue manter sem romper a corrente. A coordenação exigida faz da técnica um recurso de equipe treinada, e o uso com clones permite a execução por um único shinobi.
@@ -259,6 +265,8 @@ O usuário abre um canal condutor entre o próprio corpo e o solo, oferecendo à
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem Alta
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 4.625
 
 O usuário libera uma corrente que, ao alcançar o primeiro alvo, salta dele para os corpos próximos em sequência, perdendo potência a cada transferência. A propagação segue a proximidade física entre os alvos e é ampliada por qualquer meio condutor presente entre eles. A técnica converte formações cerradas em vulnerabilidade e perde eficácia contra oponentes dispersos, o que torna o posicionamento do inimigo o fator determinante do seu rendimento. É a semente do salto entre condutores, que a especialização depois governa por medida.
@@ -300,6 +308,8 @@ O usuário transfere para a lâmina empunhada a corrente que o Chidori comprime 
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem Refinada · Caminho Arco · Chidori
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 11.000
 
 O usuário irradia a corrente do Chidori pela superfície do corpo inteiro em vez de concentrá-la na mão, criando um campo elétrico de curto alcance ao seu redor. O campo atinge simultaneamente todos os oponentes em contato ou em proximidade imediata, e a corrente percorre lâminas, armas e superfícies condutoras que toquem o usuário. A ausência de avanço linear dispensa a janela de contra-ataque da técnica original, e a aplicação sustentada sobre alvo em contato prolongado admite elevação para Paralisia Total.
@@ -322,6 +332,8 @@ O usuário estende a corrente do Chidori em uma lança de eletricidade moldada, 
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem Alta · Chidori
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 11.000
 
 O usuário fragmenta a corrente reunida em dezenas de agulhas de eletricidade disparadas em sucessão rápida contra o alvo. A dispersão troca a perfuração concentrada por cobertura de área e por múltiplos pontos de aplicação do rider, saturando a capacidade de esquiva do oponente. As agulhas conservam velocidade suficiente para atravessar proteções leves e são empregadas com frequência para incapacitar sem matar.
@@ -449,6 +461,8 @@ O usuário reveste a corrente já reunida do Chidori com a chama negra do Amater
 **[CANON · Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV6 · Moldagem Refinada · Caminho Tempestade · nuvens de tempestade sobre o campo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 23.600
 
 O usuário não gera a corrente, ele assume o controle de um relâmpago natural e o conduz ao alvo. A descarga desce do céu com velocidade que dispensa qualquer possibilidade de reação e libera energia incomparável à de qualquer técnica moldada por chakra, ao custo de uma fração mínima da reserva do executante, empregada apenas na condução. A exigência de moldagem é modesta justamente porque o poder pertence ao mundo, e o executante fornece apenas a direção.
@@ -478,6 +492,8 @@ Entradas sem teto de rank ficam fora da interpolação de preço, e o custo é d
 **[ATRIBUÍDO — Acima de Rank S]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV6 · Moldagem Alta · formação de quatro usuários e pilares posicionados
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
 
 Quatro executantes se posicionam em pilares dispostos ao redor da área designada e canalizam simultaneamente corrente de altíssima intensidade sobre o espaço delimitado. A descarga resultante cobre a totalidade da área e desintegra o que estiver dentro dela, resposta concebida para alvos que a força individual não alcança. A técnica exige coordenação exata entre os quatro executantes e o posicionamento prévio dos pilares, o que a restringe a operações planejadas.
@@ -489,6 +505,8 @@ Quatro executantes se posicionam em pilares dispostos ao redor da área designad
 **[CANON — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem Absoluta · Susanoo em estágio máximo · fonte de chakra externa excepcional
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
 
 O usuário molda com o Susanoo um arco e uma flecha carregados com chakra de raio em volume que nenhuma reserva individual sustenta, disparando o projétil em velocidade próxima à do relâmpago natural sobre uma área inteira. O impacto libera energia suficiente para reconfigurar o terreno e alcança alvos protegidos por defesas de escala equivalente. A técnica depende simultaneamente do Susanoo em sua forma completa e de uma fonte externa de chakra capaz de alimentar a carga.
@@ -500,6 +518,8 @@ O usuário molda com o Susanoo um arco e uma flecha carregados com chakra de rai
 **[ATRIBUÍDO — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem Absoluta · Transcendência Arco Voltaico
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
 
 O usuário ergue a mão e impõe ao céu a formação de um relâmpago colossal, que desce verticalmente sobre o ponto designado sem depender de nuvens, umidade ou condição atmosférica prévia. A coluna de corrente atinge diâmetro suficiente para engolir formações inteiras e libera no impacto energia comparável à do relâmpago natural. O custo em chakra é extremo, e a diferença fundamental em relação às demais técnicas de escala equivalente está na origem, porque o relâmpago não é encontrado nem aproveitado, ele é criado por ordem direta do executante. A independência da condição atmosférica é exatamente o que a transcendência do domínio revoga, e por isso a técnica não existe sem ela.

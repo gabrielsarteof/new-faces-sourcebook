@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -202,6 +202,8 @@ O limite é o contato. O bisturi exige a mão sobre o alvo, não bloqueia ataque
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Plena · insumo tradicional
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 2.120
 
 O médico converte substância preparada em uma nuvem expelida pela boca, que se espalha em cone à frente dele. Quem respira dentro da névoa recebe o efeito da substância, que pode paralisar, cegar, entorpecer ou corroer conforme a formulação escolhida no preparo. A técnica é a razão pela qual um médico é perigoso mesmo quando fica quieto no fundo da formação.
@@ -290,6 +292,8 @@ O limite é a saturação. Cada corpo aceita um único tratamento por cena, e o 
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Plena · Liberação de Yang
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 2.120
 
 O médico deixa de tratar um corpo por vez e passa a repartir a aplicação entre vários feridos ao alcance, entregando a cada um o mínimo que impede a perda. É a doutrina de campo que troca profundidade por cobertura, e a razão pela qual um esquadrão inteiro chega à retaguarda em vez de um só.
@@ -437,6 +441,8 @@ O limite é o instante. A liberação fora do momento correto devolve todo o cha
 **[ATRIBUÍDO · anime — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV4 · Alta · Toxicologia · ter aprendido Névoa Venenosa
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 5.300
 
 A névoa deixa de sair em cone único e passa a se dividir em várias correntes independentes, que o médico dirige a alvos separados ou combina para fechar um espaço inteiro. Cada corrente pode carregar uma formulação diferente, o que permite paralisar um adversário e cegar outro na mesma expiração.
@@ -509,6 +515,8 @@ O limite é o quórum e a mesa. O procedimento exige médicos suficientes, todos
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Alta · Triagem · Liberação de Yang · ter aprendido Triagem de Campo
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 12.800
 
 O médico declara uma área e a converte em posto de estabilização. Todo ferido posto ali para de deteriorar sem que ninguém precise manter contato, e o médico deixa de ser refém de cada corpo que estabilizou. É o que transforma uma retirada em evacuação organizada.
@@ -531,6 +539,8 @@ O limite é a margem. O procedimento exige instalação, tempo, assistência tre
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Plena · Concentração · ter aprendido Força Aumentada por Chakra
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 12.800
 
 O acúmulo deixa de ser aplicado contra um corpo e passa a ser aplicado contra o chão. O punho desce, o chakra libera no instante do contato com o solo e a superfície se parte em cratera, projetando estilhaço de pedra em todas as direções e derrubando quem estiver de pé no raio. O golpe transforma o terreno em arma e resolve formações inteiras de uma vez.
@@ -542,6 +552,8 @@ A exigência de moldagem plena em rank A é o par alto deste compêndio contra a
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Alta · Concentração · ter aprendido Força Aumentada por Chakra
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 12.800
 
 A mesma liberação executada com o calcanhar a partir de um salto, somando à precisão do médico toda a queda do corpo. O impacto rasga o terreno em linha em vez de abrir cratera circular, e a fenda avança à frente de quem golpeou, alcançando quem já tinha recuado.
@@ -654,6 +666,8 @@ O limite é o depósito. O selo devolve exatamente o que foi guardado nele, e um
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação · Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV6 · Absoluta · Liberação de Yang · Regeneração Criadora e Selo da Força de Cem, ambos em estado Registrado
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 45.500
 
 O selo se rompe e as marcas se espalham pelo corpo inteiro, e a regeneração deixa de ser um ato voltado para dentro. O usuário estende a ordem de divisão celular a todos os corpos dentro da área declarada, e feridos que estavam morrendo voltam a se levantar simultaneamente, sem que ninguém precise ser tocado. É a única técnica deste compêndio capaz de virar o resultado de uma batalha inteira.

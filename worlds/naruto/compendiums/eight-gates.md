@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.eight-gates
 title: "Compêndio dos Oito Portões"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -174,6 +174,8 @@ O praticante desfere uma sequência contínua de socos em cadência tal que o at
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão do Assombro · Trivial
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 27.500
 
 O praticante desfere chutes descendentes cuja passagem comprime uma massa de ar do tamanho do próprio corpo, e a massa se desprende do pé e avança à frente conservando a forma que a compressão lhe deu. Cada chute produz uma massa, e o encadeamento cobre a área inteira à frente do praticante até que o terreno abaixo ceda. É a obra que transforma o combatente de contato em peça de negação de espaço.
@@ -183,6 +185,8 @@ O praticante desfere chutes descendentes cuja passagem comprime uma massa de ar 
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão do Assombro · Trivial
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 32.000
 
 O praticante comprime o ar entre os punhos até que a massa contida alcance densidade própria e a libera em um único disparo dirigido. A massa atravessa a distância conservando a forma da compressão e detona no ponto de chegada, arrasando a área ao redor do alvo. É a obra que converte a sobrepressão do sétimo portão em ataque de alcance real, e a única do domínio em que o praticante decide o combate sem precisar alcançar o adversário.

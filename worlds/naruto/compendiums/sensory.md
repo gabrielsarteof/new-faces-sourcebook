@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.sensory
 title: "Compêndio de Sensoriamento"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: compendium
@@ -32,6 +32,8 @@ A categoria existe na fonte com nome próprio, e a maior parte das obras deste r
 **[CANON — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV1 · Trivial
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 175
 
 A obra fundadora do domínio. O praticante amassa o próprio chakra e muda a operação dele para o modo de percepção, e a partir daí detecta e acompanha alvos pela assinatura que cada um carrega. Todo sensor do mundo aprende esta técnica antes de qualquer outra, e as obras exclusivas que aparecem adiante são refinamentos construídos sobre ela. O alcance varia enormemente de praticante para praticante, e é a régua da perícia que responde por ele.
@@ -41,6 +43,8 @@ A obra fundadora do domínio. O praticante amassa o próprio chakra e muda a ope
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV1 · Trivial
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 130
 
 O praticante ajoelha e apoia os dedos no chão, e o terreno passa a conduzir o que o ar não conduz. A leitura devolve presença e número com o dobro do alcance de escuta habitual, ao custo de o praticante permanecer imóvel e em contato com o solo. É a técnica das guarnições de fronteira e dos rastreadores de estrada, ensinada em qualquer posto avançado, e continua sendo o modo mais barato de saber quantos vêm subindo a trilha.
@@ -81,6 +85,8 @@ O praticante deposita um traço do próprio chakra em objeto ou superfície, e p
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV2 · Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 600
 
 O praticante deixa de procurar chakra e passa a procurar o lugar onde ele deveria estar e não está. Corpos vivos deslocam o ruído de fundo do ambiente, e um vulto que não emite nada continua ocupando espaço nesse ruído. A técnica devolve presença em degrau baixo contra alvo sob supressão total, contra marionete e contra corpo sem assinatura própria, e é a primeira resposta do domínio a quem escolheu não existir no mapa.
@@ -99,6 +105,8 @@ O que o toque entregava passa a alcançar sem contato, dentro do raio de assinat
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV2 · Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 480
 
 Em vez de abrir o campo inteiro de uma vez, o praticante varre um arco estreito e o conduz devagar pelo horizonte. O arco alcança o dobro do alcance de escuta e devolve degrau superior ao da varredura aberta, ao custo do tempo de percorrer o círculo. É a técnica que se usa quando se sabe de que lado o problema vem e não se sabe a que distância ele está.
@@ -108,6 +116,8 @@ Em vez de abrir o campo inteiro de uma vez, o praticante varre um arco estreito 
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV2 · Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 600
 
 O praticante separa assinaturas que se sobrepõem e devolve número exato onde a escuta comum devolveria uma massa só. O teto sobe em doze presenças acima do que a régua de densidade permite, e a leitura distingue quem está parado de quem está em movimento dentro do mesmo aglomerado. É a técnica que responde à pergunta que precede todas as outras numa emboscada, que é quantos são.
@@ -117,6 +127,8 @@ O praticante separa assinaturas que se sobrepõem e devolve número exato onde a
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV2 · Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 720
 
 O praticante nomeia um perímetro dentro do alcance de escuta e deixa nele uma linha de chakra tênue, que o avisa de qualquer entrada mesmo com o modo de percepção fechado. O aviso devolve o ponto de entrada e nada além dele. A técnica é o que permite a um esquadrão dormir em território hostil sem manter alguém acordado a noite inteira, e é a semente da vigília que os ranks acima transformam em rotina de vila.
@@ -126,6 +138,8 @@ O praticante nomeia um perímetro dentro do alcance de escuta e deixa nele uma l
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV2 · Básica
+**Banda Mínima:** Engajado
+**Banda Máxima:** Curta
 **XP:** 880
 
 O praticante calibra a escuta contra um conjunto de assinaturas conhecidas e passa a ouvir apenas o que não pertence a ele. Tudo que é de casa some do mapa, e o que sobra é o estrangeiro. Guarnições de portão trabalham inteiramente por este filtro, porque a alternativa é ler uma cidade viva presença por presença e não terminar nunca.
@@ -148,6 +162,8 @@ A técnica opõe a leitura à supressão em vez de contorná-la. O praticante fi
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV3 · Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 1.775
 
 A leitura vital deixa de ser um alvo por vez e cobre todos os corpos dentro de cem metros numa única ação. O praticante recebe o estado de cada um na mesma leitura, o que transforma um campo depois da batalha em lista de quem ainda pode ser salvo. É a técnica que a formação médica de campo ensina antes de qualquer procedimento, porque decidir a ordem vale mais que a velocidade da mão.
@@ -157,6 +173,8 @@ A leitura vital deixa de ser um alvo por vez e cobre todos os corpos dentro de c
 **[CANON — Rank C]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Sensoriamento LV3 · Plena · fiação própria ou insumo de fio
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 1.775
 
 O praticante envia chakra pelos fios de uma teia estendida sobre o terreno, e a teia passa a devolver tudo que a toca. A sensibilidade alcança a menor perturbação do ar, o que faz da técnica um detector que não depende de contato direto com o intruso. Quem a executa precisa produzir a teia por conta própria ou carregar fio preparado, e a dependência de matéria já presente é o que mantém o preço abaixo do que o alcance sugeriria.
@@ -166,6 +184,8 @@ O praticante envia chakra pelos fios de uma teia estendida sobre o terreno, e a 
 **[CANON — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Sensoriamento LV3 · Plena · Suiton LV2
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.120
 
 Uma esfera de água suspensa monitora a região ao redor e devolve ao praticante o que atravessa o alcance dela. A própria tradição registra a limitação em voz alta, e ela não constitui detecção completa a menos que venha acompanhada de barreira. Sozinha, a esfera entrega presença e direção e deixa passar quem se aproxima pela borda com a assinatura encolhida, o que faz dela instrumento de posto e não de perímetro fechado.
@@ -175,6 +195,8 @@ Uma esfera de água suspensa monitora a região ao redor e devolve ao praticante
 **[CANON — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Sensoriamento LV3 · Plena · Fūinjutsu LV3
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 2.580
 
 O praticante inscreve um selo de seis pontas que transmite ondas de chakra e devolve o que elas encontram, à maneira de um radar. O raio supera de longe o alcance de escuta do próprio autor, e a leitura corre sem que ele precise manter o modo de percepção aberto. A técnica é o que permite a uma torre de vigia cobrir um vale inteiro com um único sensor de talento médio inscrevendo o papel.
@@ -193,6 +215,8 @@ Chakra deixa resíduo no caminho, e o resíduo esfria devagar. A técnica lê a 
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV3 · Plena
+**Banda Mínima:** Engajado
+**Banda Máxima:** Média
 **XP:** 1.775
 
 A leitura devolve o tamanho da reserva de um alvo em faixa, e ordena os presentes de um grupo do maior para o menor. É a técnica que decide se um esquadrão avança ou recua, e é também a que produz os relatórios de estimativa de força que qualquer serviço de inteligência arquiva. A margem é larga contra quem suprime, e permanece útil porque a supressão encolhe o raio sem alterar o volume real.
@@ -206,6 +230,8 @@ A leitura devolve o tamanho da reserva de um alvo em faixa, e ordena os presente
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV4 · Alta · Pulso
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 4.625
 
 A leitura vital passa a correr continuamente sobre uma área nomeada, e o praticante é avisado no instante em que qualquer corpo dentro dela muda de categoria. Ele não precisa perguntar quem caiu, porque a queda o alcança. Postos médicos de campanha operam inteiramente sobre esta técnica, e a extensão dela é o que separa um hospital de guerra funcional de uma fila de macas.
@@ -224,6 +250,8 @@ Pelo contato físico, o praticante entrega diretamente à mente de outra pessoa 
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Sensoriamento LV4 · Alta · Semeadura · Doton LV4
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.300
 
 O praticante espalha areia especializada por um terreno largo, e a areia devolve tudo que entra em contato com ela, alvo invisível incluído. A técnica é o exemplar mais puro do subtipo por contato, porque a leitura não acontece no corpo de quem a executou e sim no chão, e é por isso que ela permanece funcionando enquanto o autor luta. Quem a domina não vigia um perímetro e sim o possui.
@@ -233,6 +261,8 @@ O praticante espalha areia especializada por um terreno largo, e a areia devolve
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV4 · Alta · Aproximação
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 4.625
 
 O perímetro deixa de avisar apenas que alguém entrou e passa a devolver quantos entraram, por onde e a que velocidade avançam. O praticante recebe o tempo estimado até o contato e é informado da brecha aberta enquanto estava ocupado, com o horário da passagem. É a diferença entre acordar sabendo que houve visita e acordar sabendo quem veio, por onde e há quanto tempo.
@@ -242,6 +272,8 @@ O perímetro deixa de avisar apenas que alguém entrou e passa a devolver quanto
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV4 · Alta · Multidão
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.300
 
 Dentro de uma massa de gente, o praticante destaca uma assinatura conhecida e a acompanha enquanto ela se move. A leitura devolve também a estrutura do conjunto, com agrupamentos por procedência e a posição do maior volume presente. É a técnica de quem trabalha em cidade cheia, em festival e em praça de mercado, e é o instrumento padrão de vigilância interna de qualquer vila grande.
@@ -269,6 +301,8 @@ O praticante percebe estar sendo lido no instante em que a leitura acontece, com
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV4 · Alta · Lacuna
+**Banda Mínima:** Engajado
+**Banda Máxima:** Longa
 **XP:** 5.300
 
 O praticante passa a registrar os buracos do mapa como registra as presenças. Um posto que deveria ter guarnição e não tem, uma casa vazia numa rua cheia e uma faixa de terreno onde nada emite nada viram informação em vez de silêncio. A técnica também reconhece sinal plantado como falso, opondo a leitura ao trabalho de quem o plantou, e é o que impede um sensor experiente de ser conduzido por um mapa fabricado.
@@ -282,6 +316,8 @@ O praticante passa a registrar os buracos do mapa como registra as presenças. U
 **[CANON — Rank A]**
 **Acesso:** Patrimônio de Vila (Amegakure)
 **Requisitos:** Sensoriamento LV5 · Refinada · Ronda · Suiton LV5
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 15.200
 
 O praticante faz cair uma chuva cujas gotas permanecem ligadas aos próprios sentidos, e o volume de água cobre uma vila inteira. Quando a chuva é obstruída pelo chakra de alguém que não pertence ao lugar, a existência do intruso é detectada no ato, sem que o autor precise procurar. A obra é o motivo pelo qual a vila detentora é considerada impenetrável por infiltração convencional, e ela é o exemplar máximo do que uma vigília por meio investido alcança.
@@ -300,6 +336,8 @@ Ao fechar os olhos e abrir o que a tradição chama de olho da mente, o pratican
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV5 · Refinada · Ronda
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 11.000
 
 A vigília passa a cobrir escopo de vila e a se sustentar por uma semana, aceitando vários filtros nomeados ao mesmo tempo. O praticante dorme, treina e cumpre missão enquanto a escuta corre, e é avisado com posição precisa no ponto de entrada. É o cargo antes de ser a técnica, porque a vila que possui alguém capaz de sustentá-la costuma organizar a própria segurança em torno dessa pessoa.
@@ -327,6 +365,8 @@ O canal alcança vinte pessoas e passa a aceitar outros sensores como emissores,
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Sensoriamento LV5 · Refinada · Perturbação
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 11.000
 
 O praticante detecta genjutsu operando sobre todos os presentes numa única ação e nomeia quantos estão sob a mesma obra, o que separa ilusão individual de ilusão de área. A intrusão no próprio circuito passa a ser reconhecida no instante em que ocorre, sem teste. A técnica não desfaz ilusão alguma, e o valor dela está em dizer à formação inteira que aquilo que estão vendo pertence a outra pessoa.
@@ -340,6 +380,8 @@ O praticante detecta genjutsu operando sobre todos os presentes numa única aç�
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Sensoriamento LV6 · Absoluta · Alcance · transcendência Ame-no-Torifune
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 32.000
 
 O praticante mantém aberto um campo de dezenas de quilômetros sem repetir varredura alguma, e a matéria investida que ele tenha semeado serve de posto avançado que estende a leitura a partir de onde está. O que ele lê deixa de ser um perímetro e passa a ser uma região com fronteiras políticas dentro dela. Poucos praticantes por geração alcançam a técnica, e a existência de um deles altera o modo como um país inteiro planeja movimento de tropa.
@@ -358,6 +400,8 @@ O canal perde o teto de participantes e a exigência de alcance, cobrindo qualqu
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Sensoriamento LV6 · Absoluta · Lacuna · transcendência Sarutahiko
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 32.000
 
 Barreira selada deixa de interromper. O praticante localiza com precisão quem se fechou atrás dela, devolve a contagem exata de quem está dentro e alcança quem varia constantemente a frequência do próprio chakra. A obra é a resposta definitiva do domínio a todas as contramedidas conhecidas, e é a única coisa neste catálogo que um comando inimigo precisa levar em conta ao escolher onde esconder alguém.
@@ -367,6 +411,8 @@ Barreira selada deixa de interromper. O praticante localiza com precisão quem s
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Sensoriamento LV6 · Absoluta · Lacuna · Contenção Aprofundada (Controle de Chakra) · transcendência Ame-no-Sagume
+**Banda Mínima:** Engajado
+**Banda Máxima:** Extrema
 **XP:** 27.500
 
 O praticante escuta um território inteiro de dentro dele sem aparecer no mapa de ninguém, com a supressão correndo completa e a leitura correndo junto. A trava que impede a execução de técnica sob supressão permanece de pé, e é o que mantém a obra dentro do que o mundo suporta: quem a usa vê tudo e não pode fazer nada enquanto vê. Serviços de inteligência tratam a existência de um praticante assim como informação de segurança máxima.
