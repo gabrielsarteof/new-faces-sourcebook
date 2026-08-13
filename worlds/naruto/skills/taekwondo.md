@@ -58,7 +58,9 @@ O Núcleo de Combate publica três classes de arma e nenhuma classe para o golpe
 
 RÉGUAS TRANSVERSAIS
 
-ELEVAÇÃO DE REAÇÃO. O quanto Chegada Compacta reduz a vantagem de esquiva que o giro concede ao alvo durante Giro Completo. Lê a especialização de Giro Completo e mais nenhuma outra.
+ELEVAÇÃO DE REAÇÃO
+
+O quanto Chegada Compacta reduz a vantagem de esquiva que o giro concede ao alvo durante Giro Completo. Lê a especialização de Giro Completo e mais nenhuma outra.
 
 ```
 Elevação de Reação = 6 + (182 − teste do caminho) ÷ 5, piso 6%, teto 25%
@@ -66,7 +68,9 @@ Elevação de Reação = 6 + (182 − teste do caminho) ÷ 5, piso 6%, teto 25%
 
 O neutro 182 é o praticante de LV6 com Giro Completo transcendido e Encadeamento aprofundado, os dois caminhos de ROTAÇÃO, a largura de ápice da inclinação. É o mesmo patamar que o teste pleno de grau 4 alcança na régua de Largura ao final deste documento. Resolvido: 25% enquanto o efeito não existe, no Aberto; 13,00% no LV5 largura mínima, 11,60% com o segundo caminho da inclinação; 7,60% no LV6 largura mínima; piso de 6,00% exatamente na largura de ápice.
 
-FRAÇÃO DE GUARDA. Quanto Queda de Machado reduz a Guarda do alvo, só para aquele golpe. Lê a especialização de Queda de Machado e mais nenhuma outra. É a primeira redução parcial de Guarda que o corpus publica: as reduções parciais anteriores, do Fio Concentrado do Raiton, atacam a Absorção, e este documento não confunde as duas camadas.
+FRAÇÃO DE GUARDA
+
+Quanto Queda de Machado reduz a Guarda do alvo, só para aquele golpe. Lê a especialização de Queda de Machado e mais nenhuma outra. É a primeira redução parcial de Guarda que o corpus publica: as reduções parciais anteriores, do Fio Concentrado do Raiton, atacam a Absorção, e este documento não confunde as duas camadas.
 
 ```
 Fração de Guarda = teste do caminho ÷ 400, piso 20%, teto 45%
@@ -74,7 +78,9 @@ Fração de Guarda = teste do caminho ÷ 400, piso 20%, teto 45%
 
 O divisor reaproveita o do Fio Concentrado por convenção de corpus para redução parcial de camada de defesa, sem herdar o alvo dele. Resolvido: 29,00% no LV4 largura mínima, 35,50% no LV5, 42,25% no LV6 largura mínima, 44,25% na largura de ápice da inclinação.
 
-ECONOMIA DE ESFORÇO. A fração de Esforço que Onda economiza em cada golpe da sequência, enquanto o praticante não for interrompido. Lê a especialização de Onda e mais nenhuma outra.
+ECONOMIA DE ESFORÇO
+
+A fração de Esforço que Onda economiza em cada golpe da sequência, enquanto o praticante não for interrompido. Lê a especialização de Onda e mais nenhuma outra.
 
 ```
 Economia de Esforço = teste do caminho ÷ 590, piso 10%, teto 30%
@@ -82,7 +88,9 @@ Economia de Esforço = teste do caminho ÷ 590, piso 10%, teto 30%
 
 O neutro 590 é 177 dividido por 0,30, onde 177 é o teste pleno de grau 3 na largura de ápice de CADÊNCIA: o teto da régua se alcança exatamente ali, e não antes. Resolvido: 19,66% no LV4 largura mínima, 24,07% no LV5, 28,64% no LV6 largura mínima, teto de 30,00% na largura de ápice.
 
-ALCANCE DE SALTO. Os metros que Salto soma ao alcance do chute além da Banda Engajado. Lê a especialização de Salto e mais nenhuma outra.
+ALCANCE DE SALTO
+
+Os metros que Salto soma ao alcance do chute além da Banda Engajado. Lê a especialização de Salto e mais nenhuma outra.
 
 ```
 Alcance de Salto = teste do caminho ÷ 15
