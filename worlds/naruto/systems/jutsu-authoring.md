@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.8
+version: 2.9
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_7.md
 ---
 
-# Manual de Criação de Jutsus · v2.8
+# Manual de Criação de Jutsus · v2.9
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.2.**
 
@@ -187,7 +187,7 @@ O neutro fica em 205, na mesma âncora que o restante do corpus usa. Percentual 
 
 **Efeito sobre o alvo.** O alvo perde a RC drenada e recebe um grau de Exaustão de Chakra a cada parcela equivalente ao próprio Limite de Saída retirada em um mesmo turno, com a graduação lida do Sistema de Efeitos de Status. O esgotamento físico acompanha o de chakra e não exige entrada separada no registro.
 
-**Cedências.** A captura de técnica com devolução na forma original pertence a Fuuinjutsu, e o dreno sustentado de entidade selada pertence à Válvula do mesmo documento. A doação consentida e a recusa do dreno pertencem a Controle de Chakra. A colheita de energia natural pertence a Senjutsu. O dreno por dōjutsu pertence ao Manual de Técnicas Oculares. O dreno por arma, por recurso vivo de clã e por entidade pertence ao documento de arma, ao documento de clã e ao documento de entidade, cada um consumindo esta seção sem redefini-la.
+**Cedências.** A captura de técnica com devolução na forma original pertence a Fuuinjutsu, e o dreno sustentado de entidade selada pertence à Válvula do mesmo documento. A doação consentida e a recusa do dreno pertencem a Controle de Chakra. A colheita de energia natural pertence a Senjutsu. O dreno por dōjutsu pertence ao Manual de Técnicas Oculares. O dreno por arma, por recurso vivo de clã e por entidade pertence ao documento de arma, ao documento de clã e ao documento de entidade, cada um consumindo esta seção sem redefini-la. O lado aberto e treinável do dreno, por Contato e por Meio, contra alvo que resiste e sem selo, sem clã e sem contrato, pertence à Perícia de Kyūinjutsu, que consome a régua de quantidade, o teto de recepção e a cláusula do senjutsu publicados aqui sem redefini-los.
 
 ---
 
@@ -771,6 +771,8 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 
 ## 11. Registro de Alterações
 
+**v2.9.** A Seção 2.8, Cedências, ganha a linha que faltava: o lado aberto e treinável do dreno, por Contato e por Meio, contra alvo que resiste e sem selo, sem clã e sem contrato, passa a ter dono nomeado. A Perícia de Kyūinjutsu publica esse dono, consumindo a régua de quantidade, o teto de recepção e a cláusula do senjutsu já publicados aqui sem redefinir nenhum dos três. As demais cedências da seção, a dōjutsu, a arma, a clã e a entidade, permanecem como estavam. Nenhum valor, régua ou fórmula deste manual muda.
+
 **v2.8.** A v2.7 já havia fechado a colisão de duas linhas numeradas v2.6, a terceira vez que este documento registrava esse tipo de choque depois da v2.4 e da v2.5. Uma terceira linha, também numerada v2.6, apareceu depois de fechada aquela reunião, cega para as outras duas como elas foram cegas entre si. Ela vale tanto quanto as outras e não substitui nenhuma, de modo que entra aqui, no primeiro número livre. Uma corrige quatro tabelas contra a ficha do Rasengan; a segunda registra que o eixo corporal ganhou dono; a terceira aposenta a régua duplicada de afinidade elemental. Nenhuma toca no que as outras tocaram.
 
 O Registro de Instâncias recebe a segunda instância da forma de dois termos, publicada pelo Sistema dos Oito Portões: o eixo corporal mede em Esforço o que o eixo do chakra mede em RC nominal, com coeficiente de entrega física na conversão e Fator de Portão como termo de maestria. A seção passa a declarar que um ponto de extensão admite mais de uma instância e que a tabela tem uma linha por instância, porque com a linha nova ela deixaria de bater com a contagem de doze pontos. Nenhuma régua, faixa de XP ou coeficiente deste manual muda por essa parte; o que entra é o registro de que o eixo físico ganhou dono.
@@ -818,7 +820,7 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v2.8, manual tradutor do cenário Naruto para o Manual de Criação
+*Manual de Criação de Jutsus v2.9, manual tradutor do cenário Naruto para o Manual de Criação
 de Poderes v3.2. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
 absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
 RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a
