@@ -1,7 +1,7 @@
 ---
 id: naruto.system.compendium-standard
 title: "Norma de Produção de Compêndios"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,9 +9,11 @@ status: final
 source-file: Norma_de_Producao_de_Compendios_v2-2.md
 ---
 
-# Norma de Produção de Compêndios · v2.6
+# Norma de Produção de Compêndios · v2.7
 
 Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:1 de Naruto.
+
+**O que mudou na v2.7.** O Compêndio de Kyūinjutsu registra o primeiro uso da camada Requisito Mecânico com insumo que ainda não existe como campo de ficha, a posse de um dojutsu ou de uma natureza avançada não implementados. A seção 6 já previa insumo declarado como requisito válido, e o caso apenas confirma a leitura: a entrada publica o requisito e permanece inerte até que o insumo exista, sem exigir mudança de forma.
 
 **O que mudou na v2.6.** O Núcleo de Combate publicou a resolução de área e campo pelo centro escolhido, e a Seção 10 ganhou os dois campos que faltavam para uma entrada de área ou campo declarar até onde o executor projeta esse centro, Banda Mínima e Banda Máxima. As entradas de categoria Alvo não ganham os dois campos, porque o alcance delas já morava na prosa das Restrições e continua lá.
 
@@ -216,6 +218,7 @@ A conformidade que esta seção rastreia é a de forma de catálogo, que é o ei
 | Oito Portões v1.1 | 17 | conforme, e o primeiro a estar sob a forma que a v2.4 fixou |
 | Ninjutsu de Forma v1.1 | 4 | em forma de catálogo, e escrito já sob esta norma |
 | Doton v2.1 | 34 | **fora de norma.** É o último a carregar blocos normativos reescritos, em Rider Elemental, Fronteira da Cópia pelo Sharingan, Contagem por Rank, Índice por Camada de Acesso, Distribuição de Moldagem e Pendências de Aprovação |
+| Kyūinjutsu v1 | 19 | em forma de catálogo, escrito já sob esta norma. Duas entradas exigem Rinnegan e duas exigem a natureza Meiton, nenhuma das duas implementada, e o Bloco de notas da seção 4 justifica as quatro |
 
 A reemissão que resta é a do Doton, e o trabalho é subtração: os seis blocos saem e as definições ficam onde já vivem, neste documento. A tabela anterior nomeava um estado que a passagem do tempo desfez, listando Fūton e Raiton em v2 e afirmando que nenhum dos dois possuía linha de XP, quando os dois foram reemitidos e a possuem, e omitia os cinco compêndios nascidos depois dela.
 
@@ -224,3 +227,5 @@ Dois compêndios reivindicam primazia e os dois têm razão em eixos diferentes,
 O Compêndio de Ninjutsu de Forma é o terceiro escrito sob esta norma, e o primeiro cujo domínio pertence a uma perícia que não é uma natureza. A linha de requisitos das quatro entradas nomeia o Controle de Chakra, e a seção 10 se cumpre sem desvio, porque o eixo que governa o acesso ali é uma perícia.
 
 Ele é também o primeiro cujo domínio não tem perícia dona, e por isso a linha de requisitos das oito entradas da cadeia não traz o campo de perícia que a seção 10 fixa. No lugar dela vêm a exigência de atributo e os Blocos de maturação, que são o que aquele domínio de fato cobra, e a posse do domínio fica com o documento de sistema pela regra da seção 3. É desvio declarado e não omissão: a seção 10 pede o eixo que governa o acesso, e ali ele não é uma perícia.
+
+O Compêndio de Kyūinjutsu é o primeiro a publicar entrada travada atrás de um insumo que nenhuma ficha ainda sabe ler. Quatro das dezenove entradas exigem a posse do Rinnegan ou da natureza Meiton, e nenhum dos dois existe como campo verificável, porque o dojutsu não tem documento próprio publicado e a natureza aguarda o rework que lhe daria portão de acesso. A camada Requisito Mecânico já previa insumo declarado como requisito legítimo, e as quatro entradas cumprem a seção 6 sem exceção: o requisito está escrito, é objetivo e será verificável no dia em que o campo existir. Até lá, a entrada permanece publicada e inerte, e o Bloco de notas do compêndio nomeia os dois documentos que faltam.
