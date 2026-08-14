@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.24
+version: 2.25
 layer: scenario
 scenario: naruto
 type: skill
@@ -10,6 +10,8 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 ---
 
 # Índice de Perícias do Sistema
+
+**v2.25. A errata da composição por caminhos, aberta na v2.24 para as demais perícias v6, fecha nesta passada para vinte e três delas: Doton, Enton, Fūinjutsu, Futon, Genjutsu, Katon, Kunai, Kyūinjutsu, Leque, Ninjutsu Médico, Passagem, Raiton, Senjutsu, Shuriken, Suiton, Yang, Yin, Aikidō, Katana, Kenpo, Taekwondo, Taichi, Tantō e Wing Chun sobem de versão cada uma, todas com pré-requisito de caminhos nomeado em cada transcendência, lido do próprio texto já publicado de cada uma e nunca inventado. Barreira fica de fora porque a perícia nunca ganhou dado da aplicação, e composição de transcendência sem JSON para receber `prerequisitos` não tem onde pousar; a transcrição de Barreira vira errata própria. O Registro de Regentes, o Registro de Conformidade e os demais registros desta seção não mudam: nenhuma perícia nova nasceu, nenhum regente ou multiplicador mudou, só a camada de transcendência de perícias já publicadas ganhou uma exigência que já devia ter desde a v7 do Manual de Criação de Perícias.**
 
 **v2.24. A composição por caminhos nomeados, exceção do Sensoriamento desde a v2, vira regra obrigatória de toda transcendência, fechando a contradição de três documentos de núcleo listada há passadas na seção 8. Controle de Chakra sobe para v3.4 como piloto: as treze transcendências ganham pré-requisito próprio, e quatro dos cinco caminhos sem transcendência dedicada (Composição, Emissão, Ancoragem, Cadência) passam a compor outras. As outras perícias v6 seguem com composição pendente, registrada como errata nova na seção 8.**
 
@@ -448,11 +450,12 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Vinte e seis, das quais quatro aplicadas. Vinte e duas seguem abertas.
+Vinte e sete, das quais cinco aplicadas. Vinte e duas seguem abertas.
 
 | Errata | Documento |
 |---|---|
-| Publicar a composição por caminhos de cada transcendência, pelo padrão que o Sensoriamento e o Controle de Chakra v3.4 já cumprem — Manual de Criação de Perícias v7.4 §13 tornou isso regra e não exceção | Barreira, Doton, Enton, Fūinjutsu, Futon, Genjutsu, Katon, Kunai, Kyūinjutsu, Leque, Ninjutsu Médico, Passagem, Raiton, Shuriken, Suiton, Yang, Yin, Aikidō, Katana, Kenpo, Taekwondo, Taichi, Tantō, Wing Chun |
+| ~~Publicar a composição por caminhos de cada transcendência, pelo padrão que o Sensoriamento e o Controle de Chakra v3.4 já cumprem~~ **aplicada nesta mesma passada**: Doton v2.2, Enton v1.1, Fūinjutsu v1.5, Futon v2.4, Genjutsu v1.4, Katon v4.1, Kunai v1.1, Kyūinjutsu v1.1, Leque v1.1, Ninjutsu Médico v3.2, Passagem v1.2, Raiton v3.2, Senjutsu v2.3, Shuriken v1.1, Suiton v2.3, Yang v4.3, Yin v4.2, Aikidō v1.1, Katana v1.1, Kenpo v1.1, Taekwondo v1.1, Taichi v1.1, Tantō v1.1 e Wing Chun v1.1. Senjutsu não estava nomeada na linha original, mas é perícia v6 e recebeu o mesmo tratamento na auditoria | Barreira |
+| Transcrever Barreira para `rulesets/naruto/skills/barreira.json`, que ainda não existe. A perícia está publicada em v1, mas nunca ganhou dado da aplicação; a composição por caminhos de suas transcendências fica pendente disso, e não é dívida desta errata | `src/shared/data/rulesets/naruto/skills/` |
 | ~~Integrar o Adendo da seção 4.1.3 ao corpo principal~~ — **aplicada na v2.3** | Manual de Criação de Jutsus v2 |
 | ~~Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações~~ — **aplicada na v7.1** | Manual de Criação de Perícias v7, seção 7 |
 | ~~Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um~~ — **aplicada na v2.2** | Núcleo de Perícias v2, seção 1 |
@@ -484,6 +487,10 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.25 e v2.24.** A transcendência de LV6 ganha uma segunda porta. `core/skills-core.md` v2.4 §3.4/9 e o Manual de Criação de Perícias v7.4 §13 fecham uma contradição de três documentos que a seção 8 já registrava havia várias passadas: o piso geral (todos os caminhos possuídos precisam estar Aprofundados) continua abrindo o LV6, mas cada transcendência publicada passa a nomear, além dele, os caminhos específicos que a compõem, o padrão que o Sensoriamento já usava desde a v2 sem nunca ter sido promovido a regra do núcleo. Sem essa segunda porta, um praticante que aprofundasse um único caminho de uma perícia inteira destravava todas as transcendências dela de uma vez.
+
+A v2.24 piloteou a mudança em Controle de Chakra v3.4, cujas treze transcendências ganharam composição fundamentada nos próprios efeitos publicados. A v2.25 fecha a mesma errata para as vinte e três perícias v6 restantes que já tinham JSON na aplicação: Doton, Enton, Fūinjutsu, Futon, Genjutsu, Katon, Kunai, Kyūinjutsu, Leque, Ninjutsu Médico, Passagem, Raiton, Senjutsu, Shuriken, Suiton, Yang, Yin, Aikidō, Katana, Kenpo, Taekwondo, Taichi, Tantō e Wing Chun. Cada composição foi lida do texto mecânico já publicado de cada transcendência (a etiqueta entre parênteses, os efeitos elevados a LV6, e nos casos ambíguos a seção de Arquétipos de Ápice, quando ela nomeia caminho e não outra transcendência), nunca inventada para preencher número. Barreira segue fora: a perícia está publicada mas nunca ganhou `rulesets/naruto/skills/barreira.json`, e composição de transcendência não tem onde pousar sem esse dado, o que vira errata própria na seção 8.
 
 **v2.23.** Três perícias nascem numa leva só, a sétima, a oitava e a nona do degrau Físico: Katana, Wing Chun e Aikidō, todas regente conforme a tabela, categoria Físico ×1,0, e todas em `worlds/common/skills/`.
 

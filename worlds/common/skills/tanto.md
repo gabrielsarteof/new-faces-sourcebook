@@ -1,7 +1,7 @@
 ---
 id: common.skill.tanto
 title: "Tantō"
-version: 1
+version: 1.1
 layer: scenario
 scenario: common
 type: skill
@@ -113,6 +113,8 @@ Requisito: todos os caminhos possuídos no estado aprofundado
 
 Teste pleno na largura de ápice, um caminho adicional na mesma inclinação, ambos aprofundados e o de origem transcendido: 177 em Definida, 182 em Estreita.
 
+O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados.
+
 ═══════════════════════════════════════════════════════════════════
 INCLINAÇÃO FRESTA
 ═══════════════════════════════════════════════════════════════════
@@ -150,12 +152,14 @@ NOTA: o grau mede amplitude e determina o valor da especialização. A complexid
 NÍVEL 6: TRANSCENDÊNCIAS
 
 KANAYAMAHIKO (elevação de escopo · Busca de Junta)
+Pré-requisito: Busca de Junta Aprofundado.
 Revoga: a Guarda desfeita se remonta.
 └─ [passivo] A fresta que Busca de Junta abre num alvo não fecha sozinha. A redução de Guarda daquele degrau de Leitura de Fresta permanece pelo resto da cena sem exigir golpe novo que a sustente, e vale para qualquer atacante que golpeie o mesmo alvo, não apenas para o praticante que a abriu
 └─ Fresta LV6: a leitura reduzida se aplica também no primeiro passo de Guarda de cada rodada seguinte, sem precisar de novo teste de golpe para reconfirmá-la
 └─ Leitura de Fresta LV6: o teto de três degraus acumulados na cena deixa de existir. O piso absoluto de 0,25 permanece de pé, porque a Guarda nunca chega a zero por esta régua sozinha
 
 TAKEMINAKATA (remoção de condição · Saque Reverso)
+Pré-requisito: Saque Reverso Aprofundado.
 Revoga: a entrega de dentro do controle físico exige que o controle exista.
 └─ [passivo] Saque Reverso deixa de exigir Imobilização prévia. Qualquer contato breve com o alvo no mesmo turno, engajado por ao menos uma rodada, autoriza o golpe sem gastar a Ação Completa própria
 └─ Saque Reverso LV6: a exigência de Imobilização cai por completo, e o golpe resolve a partir do contato declarado no passo de alcance da sequência comum

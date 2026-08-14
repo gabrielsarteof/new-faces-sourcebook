@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.genjutsu
 title: "Genjutsu"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Genjutsu_v1_1.md
 ---
 
-GENJUTSU (幻術) — v1.3
+GENJUTSU (幻術) — v1.4
 
 Atributo: INT
 Categoria: Erudição (×1,7)
@@ -208,21 +208,26 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 (transcendida) · INT 34
 Requisito: todos os caminhos possuídos no estado aprofundado
 
+O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados.
+
 Testes plenos no LV6: grau 2 alcança 164, grau 3 alcança 169, grau 4 alcança 174.
 
 FALHA DE PERCEPÇÃO (remoção de condição · Brecha)
+Pré-requisito: Brecha Aprofundada.
 Revoga: o piso de 10 do limiar.
 └─ [passivo] O limiar calculado abaixo de 1 resolve como imposição automática, sem rolagem do alvo. Chegar lá exige que o investimento multiplicado pela eficiência alcance a RC máxima do praticante, o que consome a reserva inteira e turnos de carga contra alvo de faixa alta, e dispensa carga alguma contra alvo cuja VON somada à SAB fique em 20 ou menos
 └─ Difusão LV6: os alvos simultâneos passam a ler 2 + ⌊teste ÷ 20⌋, alcançando 10
 └─ Canal Aberto LV6: a imposição instala por canal que o alvo não pode fechar, incluindo o próprio equilíbrio e a propriocepção, e negar canais deixa de ser defesa disponível
 
 A OBRA QUE NÃO PEDE AUTOR (abertura de categoria · Cenário)
+Pré-requisito: Cenário Aprofundado.
 Revoga: toda obra declara limiar no ato da imposição e resolve contra ele.
 └─ Terreno Mentiroso [ativado, custo de rank S, uma vez por cena] A obra se torna condição do espaço. Quem entra sofre o efeito sem rolagem e o mantém enquanto permanecer dentro, recuperando a percepção correta ao sair. Raio igual a ⌊teste ÷ 2⌋, alcançando 84 m. Arranco, Devolução e Sobrescrita ficam sem objeto, porque não existe obra individual instalada em circuito nenhum, e dispersar o terreno exige destruir o lugar ou remover o praticante da cena. A obra permanece subjetiva e invisível a quem está fora do raio
 └─ Obra Sem Dono LV6: a duração deixa de ser medida e a obra permanece até ser desfeita
 └─ Falseta LV6: a leitura acontece sem o praticante presente, colhida ao retornar ao lugar
 
 CIRCUITO ALHEIO COMO PÁGINA (elevação de escopo · Ruptura)
+Pré-requisito: Ruptura Aprofundada.
 Revoga: a obra alheia pertence a quem a escreveu.
 └─ Tomada de Autoria [ação padrão, 200 RC] Assume obra alheia em pé, de qualquer rank, sem penalidade. O teste registrado permanece o do autor original e o conteúdo passa a ser governado por quem tomou, e o autor original percebe a perda apenas se possuir Assinatura de Autor. LV6 pleno: assume duas obras na mesma cena
 └─ Devolução LV6: deixa de ser uma vez por cena e passa a reação livre a cada turno

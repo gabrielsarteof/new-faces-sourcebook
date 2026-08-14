@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.1
+version: 3.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,13 +9,13 @@ status: final
 source-file: RAITON_Pericia_v2_final.md
 ---
 
-RAITON (雷遁) · v3.1
+RAITON (雷遁) · v3.2
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
 
 VERSÕES LIDAS NESTA PASSAGEM
-Núcleo de Perícias v2.2 · Manual de Criação de Perícias v7.3, com a seção 3 da inclinação de extensão manifestada, a exceção de preço da seção 3 e da seção 14.2, e a seção 13.1 do Ápice de Extensão Manifestada · Manual de Economia de XP v2.2 · Naturezas Avançadas v5.1 · Sistema Elemental, pela tabela de Tipo Elemental e rider natural · Sistema de Efeitos de Status, pela graduação de Sangramento e de Paralisia Parcial · Núcleo de Combate, pela sequência de resolução · Manual de Criação de Jutsus, pela seção 6.5 do Perfil de Evasão · Compêndio de Raiton v3.5.
+Núcleo de Perícias v2.2 · Manual de Criação de Perícias v7.4, com a seção 3 da inclinação de extensão manifestada, a exceção de preço da seção 3 e da seção 14.2, a seção 13.1 do Ápice de Extensão Manifestada e a seção 13 da composição por caminhos de toda transcendência de LV6 · Manual de Economia de XP v2.2 · Naturezas Avançadas v5.1 · Sistema Elemental, pela tabela de Tipo Elemental e rider natural · Sistema de Efeitos de Status, pela graduação de Sangramento e de Paralisia Parcial · Núcleo de Combate, pela sequência de resolução · Manual de Criação de Jutsus, pela seção 6.5 do Perfil de Evasão · Compêndio de Raiton v3.5.
 
 O Raiton é o domínio do chakra convertido em corrente elétrica. O praticante eleva a vibração da própria energia até que ela assuma as propriedades da eletricidade, e o que sai atravessa, dormenta e corre por onde encontrar caminho. A tese da perícia mora na relação entre superfície e penetração. Quanto menor o ponto de entrega, maior a concentração, e um contato reduzido a um dedo vence a defesa que a descarga difusa não vence. Produzir a corrente é o primeiro passo e o mais barato deles, e o ofício verdadeiro começa em decidir para onde ela vai, o que ela atravessa e o que ela toma emprestado para chegar lá.
 
@@ -183,9 +183,10 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 70 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada.
+O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos de cada caminho da própria composição ganham a versão LV6 declarada.
 
 RAIO SECO (elevação de escopo · Ponta e Lança)
+Pré-requisito: Ponta e Lança, ambos Aprofundados.
 Revoga: a Absorção reduz o dano da técnica.
 └─ Contra técnicas de Relâmpago do praticante, entregues por contato ou por forma dirigida, a Absorção do alvo não se aplica em grau algum
 └─ Barreira ou anteparo elemental interposto deixa de deter a descarga, que atravessa e prossegue ao alvo original com a potência restante
@@ -194,6 +195,7 @@ Revoga: a Absorção reduz o dano da técnica.
 └─ Fio Estendido LV6: 28 metros, e a forma dirigida atravessa alvos alinhados na mesma trajetória, com cada alvo seguinte recebendo 60% do dano do anterior
 
 TROVÃO (remoção de condição · Impulso e Arco)
+Pré-requisito: Impulso e Arco, ambos Aprofundados.
 Revoga: a limitação de uma reação por rodada.
 └─ O praticante deixa de ter contagem de reações por rodada, reagindo a quantas ameaças a cena apresentar, com cada reação pagando o custo próprio em RC e o Limite de Saída permanecendo como único freio
 └─ Reflexo Acelerado LV6: permanente, sem ativação e sem manutenção, e a ação de movimento adicional deixa de ser consumida quando empregada como reação
@@ -201,6 +203,7 @@ Revoga: a limitação de uma reação por rodada.
 └─ Descarga de Contato LV6: 59 de dano, e a descarga passa a valer contra contato mediado por arma empunhada pelo atacante, subindo pelo próprio metal até a mão dele
 
 ARCO VOLTAICO (abertura de categoria · Rede, Meridiano e Tempestade)
+Pré-requisito: Rede, Meridiano e Tempestade, todos Aprofundados.
 Revoga: a corrente exige meio condutor.
 └─ O ar passa a conduzir, e toda técnica de Corrente do praticante opera sem metal, água, arma ou tempestade presentes na cena. A condição da inclinação permanece em vigor para todos os outros praticantes do sistema
 └─ Salto Condutor LV6: o vão deixa de ter medida, e a descarga alcança qualquer ponto dentro do alcance declarado da técnica sem trecho condutor intermediário
@@ -362,3 +365,22 @@ ALTERADO FORA DESTA PERÍCIA
 DECISÃO TOMADA POR PADRÃO
 
 13. **A exceção nasceu no núcleo, não só nesta perícia.** Toda inclinação de extensão manifestada futura, de qualquer perícia, herda o mesmo preço cheio para os caminhos que a instituem — não é regra local do Raiton.
+
+═══════════════════════════════════════════════════════════════════
+
+CHANGELOG DA v3.2
+
+ALTERADO NESTA PERÍCIA
+
+1. Versão de 3.1 para 3.2, no cabeçalho e no frontmatter.
+2. Bloco de versões lidas, citando o Manual de Criação de Perícias v7.4 em vez de v7.3, e nomeando a seção 13 da composição por caminhos.
+3. Seção NÍVEL 6: TRANSCENDÊNCIA ganha a frase que separa o requisito geral, que só abre o nível, do pré-requisito próprio que cada transcendência nomeia além dele.
+4. Raio Seco, Trovão e Arco Voltaico ganham linha de Pré-requisito: Raio Seco exige Ponta e Lança Aprofundados, Trovão exige Impulso e Arco Aprofundados, Arco Voltaico exige Rede, Meridiano e Tempestade Aprofundados.
+
+ALTERADO FORA DESTA PERÍCIA
+
+5. `core/skill-authoring.md` sobe para v7.4. A seção 13 promove a composição por caminhos, publicada primeiro pelo Sensoriamento e depois pelo Controle de Chakra v3.4, a regra de toda transcendência de LV6 do sistema, revogando a leitura de que aprofundar um único caminho da perícia destrava as transcendências inteiras.
+
+DECISÃO TOMADA POR PADRÃO
+
+14. **A composição de cada transcendência já estava publicada na própria etiqueta, e o pré-requisito só a nomeia como regra.** As três transcendências desta perícia declaram desde a v3, entre parênteses no próprio título, todos os caminhos da inclinação que tocam: Ponta e Lança em Raio Seco, Impulso e Arco em Trovão, Rede, Meridiano e Tempestade em Arco Voltaico. Os efeitos LV6 de cada uma, linha por linha, já liam exclusivamente esses caminhos e nenhum outro. Nenhuma das três atravessa inclinação alheia ou perícia alheia, porque nenhum efeito delas o faz. A nova linha formaliza como pré-requisito de aquisição o que a redação já praticava como composição, sem alterar caminho nenhum de nenhuma das três.

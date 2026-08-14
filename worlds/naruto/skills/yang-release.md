@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yang-release
 title: "Liberação de Yang"
-version: 4.2
+version: 4.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Liberacao_de_Yang_v4.md
 ---
 
-LIBERAÇÃO DE YANG (陽遁) · v4.2
+LIBERAÇÃO DE YANG (陽遁) · v4.3
 
 Atributo: RES
 Categoria: Ninjutsu (×1,5)
@@ -176,9 +176,10 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-Quatro corpos servidos ao mesmo tempo, alcance médio e seis formas infundidas. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado.
+Quatro corpos servidos ao mesmo tempo, alcance médio e seis formas infundidas. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, no próprio parêntese do título, o pré-requisito de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados.
 
 AME-NO-UZUME (remoção de condição · Couro, Ímpeto, Fornalha e Cicatriz)
+Pré-requisito: Couro, Ímpeto, Fornalha e Cicatriz, todos Aprofundados.
 Revoga: a exigência de sustentação, que faz toda saturação e toda compressão desta inclinação cessar no instante em que o praticante para de mantê-las e cobrar custo por turno.
 └─ Corpo Que Não Baixa [passivo, sem custo]: a energia física deixa de precisar ser sustentada. Toda saturação, compressão e aceleração da inclinação Corpo passa a estado permanente do praticante, sem ação para abrir, sem custo por turno e sem cessar por interrupção, inconsciência ou queda. O custo em RC no ato deixa de existir junto da sustentação, e o Limite de Saída passa a servir apenas ao que a perícia projeta para fora. Não alcança as inclinações Pulso e Alento, que continuam pagando por turno
 └─ Saturação LV6: a Natureza soma 3 ao multiplicador de PV, e dano bruto abaixo do grau resolve como carga absorvida mesmo vindo de rank S
@@ -191,6 +192,7 @@ Revoga: a exigência de sustentação, que faz toda saturação e toda compress�
 └─ Última Hora LV6: sem refluxo, e a permanência alcança o fim do dia
 
 SUKUNABIKONA (remoção de condição · Esteio, Contracorrente, Brasa, Vigília e Arrimo)
+Pré-requisito: Esteio, Contracorrente, Brasa, Vigília e Arrimo, todos Aprofundados.
 Revoga: a régua de refluxo vital, que cobra do praticante em graus de Exaustão de Chakra por cada serviço vertido em corpo alheio.
 └─ Vida Que Não Custa [passivo, sem custo]: verter vitalidade em corpo alheio deixa de cobrar refluxo. Sustentar, travar e reacender passam a custar apenas RC, e o praticante atravessa uma noite inteira de trabalho vital sem nenhum grau de Exaustão acumulado. O teto de quantos corpos ele serve numa cena deixa de ser o próprio corpo dele e passa a ser a reserva
 └─ Sustento LV6: alcance médio e quatro corpos ao mesmo tempo, com o dano acumulado no intervalo entrando um grau abaixo ao ser cobrado
@@ -206,6 +208,7 @@ Revoga: a régua de refluxo vital, que cobra do praticante em graus de Exaustão
 [a fronteira absoluta e a régua de sustentação não é reparo permanecem intactas, de modo que a revogação retira o custo e não amplia o alcance do verbo]
 
 WAKUMUSUBI (abertura de categoria · Animador, Enxerto, Rebento e Legado)
+Pré-requisito: Animador, Enxerto, Rebento e Legado, todos Aprofundados.
 Revoga: a régua de operação da forma infundida, que proíbe a forma de improvisar fora da instrução declarada e obriga a mesa a resolver a lacuna pela leitura literal.
 └─ Coisa Que Sabe o Serviço [passivo, sem custo]: a forma infundida passa a operar por juízo. O praticante declara um propósito em vez de uma instrução, e a forma resolve por conta própria o que fazer diante do que a cena apresentar, dentro daquele propósito, avaliando, escolhendo alvo, mudando de tarefa e reagindo a interferência sem consulta. A forma continua sem falar e sem vontade própria fora do propósito recebido, continua não sendo criatura e continua não devolvendo refluxo ao ser destruída
 └─ Sopro na Forma LV6: porte grande, ação plena própria por turno, e seis formas simultâneas
@@ -254,6 +257,11 @@ DEPENDÊNCIAS E PENDÊNCIAS
 Perícia de Sensoriamento, hoje sem documento, dona da leitura de vida que a perícia recusa. Perícia Ninjutsu Médico, que consome esta como substrato a partir do rank C e cuja rederivação está na fila. Compêndio de Yōton, inexistente, que recebe todas as técnicas nomeadas desta natureza. Sistema de Efeitos de Status, que responde pelos graus de Exaustão do refluxo e pelas condições que a inclinação Pulso suspende. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas. Divergência entre o Manual de Criação de Perícias v7 seção 7 e o Núcleo de Perícias v2 seção 3.3 sobre teto de inclinações: resolvida na v7.1, que revogou o teto e passou a derivar a contagem da auditoria do domínio, conforme o Núcleo já mandava.
 
 REGISTRO DE ALTERAÇÕES
+
+v4.3
+
+• Pré-requisito de composição declarado em cada transcendência do LV6, formalizando como exigência de escolha os caminhos que o parêntese do título já nomeava, conforme o Manual de Criação de Perícias v7.1 seção 13
+• Nenhum valor, caminho, régua ou transcendência alterado
 
 v4.2
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.shuriken
 title: "Shuriken"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -163,7 +163,10 @@ NOTA: o grau mede amplitude e determina o valor da especialização. A complexid
 
 NÍVEL 6: TRANSCENDÊNCIA
 
+O requisito acima abre o LV6, não escolhe a transcendência: Ame-no-Koyane nomeia, além dele, o pré-requisito próprio de caminho que a compõe, e o portador só a escolhe possuindo-o Aprofundado.
+
 AME-NO-KOYANE (elevação de escopo · Sombra)
+Pré-requisito: Sombra Aprofundado.
 Revoga: uma Reação gasta encerra a capacidade de defesa do alvo pelo resto do turno.
 └─ [passivo] O praticante encadeia mais de um shuriken oculto na mesma Sombra, cada um resolvendo em sequência depois que a Reação do alvo já foi consumida contra o primeiro, sem que nenhum deles conceda ao alvo uma nova Reação para respondê-los. O alvo permanece indefeso contra toda a cadeia enquanto ela durar, e a cadeia se limita ao número de shuriken que a Cadência da rodada autoriza
 └─ Sombra LV6: o segundo shuriken deixa de exigir que o primeiro conecte para permanecer oculto, e a esteira oculta toda a cadeia até o último impacto

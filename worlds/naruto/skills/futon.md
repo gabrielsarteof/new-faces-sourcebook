@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.futon
 title: "Fūton (風遁)"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: FUTON_Pericia_v2_1.md
 ---
 
-FŪTON (風遁) · v2.3
+FŪTON (風遁) · v2.4
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -165,9 +165,10 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada.
+O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos de cada caminho da própria composição ganham a versão LV6 declarada.
 
 O CORTE QUE NÃO FECHA (abertura de categoria · Vento Encanado e Minuano)
+Pré-requisito: Vento Encanado e Minuano, ambos Aprofundados.
 Revoga: a regra de que barreira, armadura e guarda de chakra se interpõem entre a técnica e o alvo, e a regra de que ninjutsu médico fecha qualquer ferida.
 └─ Corte Fino [passivo]: toda técnica de Fūton do praticante passa a operar em escala fina, e o sangramento que ela produz alcança o sistema circulatório de chakra do alvo além da carne. Enquanto o sangramento persistir, o alvo sofre penalidade de 19 em todo teste de moldagem, lida da especialização de Minuano, e a ferida deixa de ser fechável por ninjutsu médico de qualquer rank, cedendo apenas às durações do Sistema de Efeitos de Status
 └─ Passagem LV6: além da espessura sólida, atravessa barreira e revestimento de chakra interpostos e resolve contra o alvo do outro lado, com a barreira permanecendo de pé e intacta
@@ -177,6 +178,7 @@ Revoga: a regra de que barreira, armadura e guarda de chakra se interpõem entre
 [o alvo continua opondo evasão e defesa próprias, e o que deixa de existir é o anteparo de chakra entre os dois]
 
 CALMARIA (remoção de condição · Barlavento e Ascendente)
+Pré-requisito: Barlavento e Ascendente, ambos Aprofundados.
 Revoga: a cláusula de desvantagem elemental na relação Fūton contra Katon, e a regra de que o vento presente amplia a chama alheia.
 └─ Ar Negado [passivo]: nenhuma técnica de Katon vence a do praticante por natureza, e o choque entre as duas passa a resolver por comparação de rank e investimento. Técnica de Katon executada por terceiro dentro do alcance de uma corrente sustentada pelo praticante deixa de receber ampliação por colaboração com vento e desce uma categoria de efeito, porque o ar de que ela precisava está sendo governado por outra vontade
 └─ Anteparo Vivo LV6: deixa de consumir reação e perde o limite por turno, e o praticante opõe corrente a quantas chegadas houver na rodada, mantido o rank A como teto detido
@@ -186,6 +188,7 @@ Revoga: a cláusula de desvantagem elemental na relação Fūton contra Katon, e
 [a relação favorável contra Raiton permanece inalterada, e a chama continua vencendo o vento de quem não transcendeu]
 
 O GRANDE VENTO (elevação de escopo · Vento no Voo, Ponte de Vento e Vento de Areia)
+Pré-requisito: Vento no Voo, Ponte de Vento e Vento de Areia, todos Aprofundados.
 Revoga: a regra de que cada corpo carregado pelo vento exige ação e declaração próprias do praticante.
 └─ Campo de Corrente [sustentado, 40 RC de ativação, sem manutenção]: o praticante declara uma corrente que ocupa o campo, e tudo que estiver solto dentro dela passa a obedecer sem custo de ação. Raio = teste de Vento a Favor ÷ 4 metros, lido da especialização de Ponte de Vento, resultando em 49 metros. Dentro do campo, projétil, arma arremessada, aliado embarcado e matéria suspensa se movem pela vontade do praticante como parte da ação que já estava sendo executada
 └─ Corrente Guia LV6: perde a contagem de projéteis e o limite por turno, e todo projétil dentro do campo é redirecionável a qualquer momento
@@ -250,6 +253,8 @@ NOTA DE NOMEAÇÃO
 Os caminhos e as transcendências do Fūton empregam nomeação por imagem, e a imagem é sempre um vento ou um fenômeno do ar que se entende na leitura, sem explicação ao lado. A inclinação de extensão nomeia pelas partes do sistema, e Espiral, Olho e Fome dizem a forma, o centro e o apetite do tufão.
 
 REGISTRO DE ALTERAÇÕES
+
+v2.4. O Manual de Criação de Perícias v7.4 §13 fecha a brecha que a auditoria ao vivo do Controle de Chakra descobriu: aprofundar um único caminho de uma perícia inteira não destrava mais todas as transcendências dela de uma vez. O requisito geral do LV6 continua abrindo o nível, e cada transcendência passa a nomear também a composição própria de caminhos que a habilita, ancorada no que ela já revela no próprio corpo. O Corte Que Não Fecha ganha o Pré-requisito de Vento Encanado e Minuano Aprofundados, os dois caminhos cujas habilidades ela já eleva para a coluna LV6. Calmaria ganha o Pré-requisito de Barlavento e Ascendente Aprofundados, pela mesma leitura. O Grande Vento ganha o Pré-requisito de Vento no Voo, Ponte de Vento e Vento de Areia Aprofundados, os três caminhos de Vento a Favor que ela eleva, Vento na Lâmina de fora porque a própria transcendência já registrava esse caminho como sem versão LV6. Nenhum valor numérico, efeito ou caminho muda de conteúdo.
 
 v2.3. Colisão de versão com a v2.2: duas linhas de trabalho independentes partiram da v2.1 e cada uma bateu o próprio martelo em "v2.2" sem enxergar a outra — a publicação da Perícia de Leque, que cedeu ao documento novo a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla, mantendo aqui apenas o corte e o deslocamento por vento; e esta passada, que nasce a inclinação Ciclone. Resolvida subindo um degrau a mais, no mesmo padrão que outras colisões de versão já registradas no corpus.
 

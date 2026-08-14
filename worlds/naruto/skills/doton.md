@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.doton
 title: "Doton (土遁)"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: DOTON_Pericia_v2.md
 ---
 
-DOTON (土遁) · v2.1
+DOTON (土遁) · v2.2
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -205,9 +205,10 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada.
+O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. O requisito geral acima abre o LV6 e não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos dos caminhos da própria composição ganham a versão LV6 declarada.
 
 MONTE CAÍDO (elevação de escopo · Saraivada, Mausoléu e Encosta)
+Pré-requisito: Saraivada, Mausoléu e Encosta, todos Aprofundados.
 Revoga: a regra de que a massa empregada por uma técnica se esgota nela e precisa ser erguida de novo a cada execução.
 └─ Acervo [fluxo de fundo, 60 RC de ativação, sem manutenção]: toda massa que o praticante desprendeu permanece sob comando dele e se soma a um acervo, junto do projétil que errou, da massa que soterrou, da formação que desabou e do escombro que qualquer combatente do campo produzir, incorporado no início do turno seguinte. Técnica de Avalanche executada a partir do acervo dispensa a via moldada, corre fora da escada de porte e alcança qualquer ponto dentro do alcance de comando. Redirecionar o acervo custa ação menor
 └─ Cadência LV6: a contagem de corpos perde o teto, e ele reparte o acervo em quantos declarar
@@ -218,6 +219,7 @@ Revoga: a regra de que a massa empregada por uma técnica se esgota nela e preci
 [o alvo continua opondo esquiva e defesa próprias, e o que deixa de existir é a necessidade de erguer material novo a cada execução]
 
 MACIÇO (remoção de condição · Paredão, Carne de Pedra e Cúpula)
+Pré-requisito: Paredão, Carne de Pedra e Cúpula, todos Aprofundados.
 Revoga: a regra de que toda estrutura tem integridade finita e deixa de existir quando ela se esgota.
 └─ Rocha que Volta [passivo]: as estruturas erguidas pelo praticante restauram a integridade cheia no início de cada turno, sacando material do terreno em volta sem custo e sem ação. Elas caem quando o material ao alcance se esgota, e quando um único golpe vence a integridade inteira de uma vez
 └─ Anteparo LV6: dispensa nova ativação a cada cena, e a extensão perde o limite declarado
@@ -228,6 +230,7 @@ Revoga: a regra de que toda estrutura tem integridade finita e deixa de existir 
 [a corrente do Raiton continua atravessando a matéria de terra sem redução, e o terreno esgotado continua derrubando tudo de uma vez, de modo que a revogação retira o esgotamento e conserva as duas rupturas nomeadas]
 
 SUBMUNDO (abertura de categoria · Atoleiro, Cinzel da Pedra, Raiz Cega e Abalo)
+Pré-requisito: Atoleiro, Cinzel da Pedra, Raiz Cega e Abalo, todos Aprofundados.
 Revoga: a regra de que o solo é superfície firme que sustenta quem está sobre ele e separa quem está sob ele.
 └─ Chão Aberto [fluxo de fundo, 60 RC de ativação, sem manutenção]: enquanto o praticante mantiver contato com o leito, o solo do campo inteiro sustenta apenas quem ele declarar. Combatente não declarado que gastar deslocamento afunda um estágio da escada do Atoleiro, opondo FOR ou RES ao teste de Sumidouro, valendo 188. A superfície deixa de separar os dois lados: ele executa qualquer técnica de Doton de dentro do solo sem emergir, tem linha de efeito para a superfície a partir de qualquer ponto do subsolo, e é alcançado de fora por técnica que vença a profundidade em que estiver ou por quem leia o subsolo
 └─ Sucção LV6: perde o raio e ocupa o campo, com o praticante declarando os trechos firmes
@@ -286,5 +289,7 @@ DEPENDÊNCIAS ABERTAS
 A resolução do impacto cinético contra barreira elemental pertence ao Núcleo do Sistema e é consumida por Peso Morto e por Colapso. O que o sensoriamento alheio enxerga sob a superfície pertence à Perícia de Sensoriamento e é consumido por Travessia. A permanência de modificação topográfica é proposta desta perícia e sustenta a distinção entre Paredão e a muralha de água. A escada de rigidez de material, com as três categorias de desconto que a Frequência lê e a lista de matéria dúctil que ela não alcança, nasce declarada aqui por falta de dono e pertence ao Núcleo do Sistema quando a camada de propriedade de material for escrita. A leitura de largura do Ápice de extensão, que soma largura de ápice com especialização aprofundada, pertence à seção 6.1 do Núcleo de Perícias e está declarada aqui enquanto aquela seção não a absorve. O que a onda que viaja pelo leito faz diante da superfície de uma barreira apoiada no solo pertence à Perícia de Barreira e segue devido dos dois lados. A vulnerabilidade do cristal a uma frequência sonora específica é fraqueza declarada pela obra para o Shōton, consumida aqui pela Frequência, e a nota cruzada do lado do Shōton segue devida enquanto aquela perícia não existir.
 
 REGISTRO DE VERSÃO
+
+v2.2. Aplica a errata do Manual de Criação de Perícias v7.4 §13: as três transcendências do LV6, Monte Caído, Maciço e Submundo, ganham a linha Pré-requisito, declarando a composição própria de caminhos que cada uma exige Aprofundados, além do requisito geral de todos os caminhos possuídos no estado aprofundado. A composição de cada uma já estava nomeada no parênteses do próprio título e corroborada pelos efeitos LV6 declarados: Saraivada, Mausoléu e Encosta para Monte Caído; Paredão, Carne de Pedra e Cúpula para Maciço; Atoleiro, Cinzel da Pedra, Raiz Cega e Abalo para Submundo. As três coincidem com a inclinação inteira que tocam, e a mudança formaliza como pré-requisito de escolha o que os efeitos já exigiam nomeados. O parágrafo de abertura do NÍVEL 6 ganha a frase que distingue o requisito geral, que abre o nível, da composição própria de cada transcendência, que a escolhe. O Ápice de extensão Primeira Onda não é alcançado pela errata, porque a seção 13.1 do Manual já o desliga do LV6 e da regra de composição dele. Nenhuma inclinação, caminho, régua ou valor numérico foi alterado.
 
 v2.1. Entra a inclinação de extensão manifestada Sismo, destravada pelo Shinton, com os caminhos Tremor, Concussão e Ressonância e com o Ápice Primeira Onda pela seção 13.1 do Manual de Criação de Perícias. A inclinação declara Atordoamento como rider substituto da Imobilização em toda técnica de Sismo, com a regra geral de substituição de rider por Kyōka nascendo no Sistema de Efeitos de Status e a declaração normativa vivendo em Naturezas Avançadas. Nenhuma inclinação, caminho ou transcendência anterior foi alterada, e o caminho Abalo permanece como estava.

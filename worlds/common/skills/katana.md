@@ -1,7 +1,7 @@
 ---
 id: common.skill.katana
 title: "Katana"
-version: 1
+version: 1.1
 layer: scenario
 scenario: common
 type: skill
@@ -160,6 +160,7 @@ O corte alcança dois corpos quando os dois estão ao alcance.
 NÍVEL 6: TRANSCENDÊNCIAS
 
 HAYAAKITSUHIKO (elevação de escopo · unifica Saque Cortante, Saque Reativo e Reembainhar Fluido)
+Pré-requisito: Saque Cortante, Saque Reativo e Reembainhar Fluido, todos Aprofundados.
 Revoga: a exigência de que a lâmina esteja fisicamente embainhada para que o estado de saque valha, condição publicada nos três caminhos desta inclinação.
 
 HABILIDADE PRÓPRIA · Instante Perpétuo
@@ -173,6 +174,7 @@ Tipo: passivo. Ação de mesa: nenhuma. Custo: nenhum. Teste: nenhum próprio, l
 MESTRE ARQUÉTIPO. O duelista de exame único constrói os três caminhos sobre Hayaakitsuhiko, sem jamais precisar declarar postura antes do primeiro golpe. Para ele o combate inteiro é o instante de sacar, ainda que a lâmina já estivesse na mão desde o início da cena.
 
 ISHIKORIDOME (elevação de escopo · unifica Golpe Assentado, Quebra Refletida e Postura Sustentada)
+Pré-requisito: Golpe Assentado, Quebra Refletida e Postura Sustentada, todos Aprofundados.
 Revoga: a Guarda retirada por golpe ou aparo recarrega pela taxa padrão no início da rodada seguinte, Seção 8 do Núcleo de Combate.
 
 HABILIDADE PRÓPRIA · Estrutura Que Não Cede
@@ -186,6 +188,7 @@ Tipo: passivo. Ação de mesa: nenhuma. Custo: nenhum. Teste: lê Guarda Reverti
 MURO ARQUÉTIPO. O muro que não recua constrói os três caminhos sobre Ishikoridome, e cada troca de golpes o deixa mais difícil de derrubar do que começou, porque o desgaste que deveria acumular nele acumula no oponente.
 
 YATAGARASU (elevação de escopo · unifica Fio Contínuo, Postura Circular e Arco de Alcance)
+Pré-requisito: Fio Contínuo, Postura Circular e Arco de Alcance, todos Aprofundados.
 Revoga: o alcance de um golpe comum atinge apenas o alvo declarado, passo 1 da sequência de resolução do Núcleo de Combate.
 
 HABILIDADE PRÓPRIA · Caminho Sem Fim

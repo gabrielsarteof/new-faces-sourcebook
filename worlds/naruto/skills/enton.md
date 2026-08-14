@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.enton
 title: "Enton (炎遁)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Enton_v1.md
 ---
 
-ENTON (炎遁) · A Chama Negra · v1
+ENTON (炎遁) · A Chama Negra · v1.1
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -374,9 +374,10 @@ NOTA: o grau mede amplitude e determina o valor da especialização; a complexid
 
 NÍVEL 6: TRANSCENDÊNCIA
 
-Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. As três inclinações desta perícia correm atrás do mesmo portão de Mangekyō, e nenhuma delas é destravada por manifestação separada da perícia inteira, de modo que o LV6 é a transcendência comum pela seção 13 do Manual de Criação de Perícias.
+Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. As três inclinações desta perícia correm atrás do mesmo portão de Mangekyō, e nenhuma delas é destravada por manifestação separada da perícia inteira, de modo que o LV6 é a transcendência comum pela seção 13 do Manual de Criação de Perícias. O requisito geral abre o LV6 e não escolhe a transcendência: havendo uma só nesta perícia, ela nomeia, além dele, o pré-requisito próprio de caminho que a compõe, e o portador só a escolhe possuindo-o Aprofundado. Quem chega ao LV6 sem Extinção Aprofundada chega sem transcendência disponível para escolher, com os caminhos possuídos lendo a coluna transcendida do jeito que o restante desta seção declara.
 
 AME-NO-OHABARI (remoção de condição · Extinção)
+Pré-requisito: Extinção Aprofundada.
 
 **Revoga: a regra do Amaterasu de arder por sete dias e sete noites sem se apagar por meio comum.** O praticante deixa de estar sujeito a ela e passa a ser o meio comum que ela declarava não existir.
 
@@ -441,6 +442,8 @@ Os caminhos empregam nomeação por imagem e a transcendência emprega nomeaçã
 REGISTRO DE VERSÃO
 
 v1. Documento inicial, nascido da auditoria de fundamentos do Enton em segunda passada, com validação canônica contra o verbete de Katon, o verbete do Amaterasu, a ficha do Enton: Kagutsuchi e a ficha do Enton: Susanoo Kagutsuchi. Nascem a fronteira contra o Mangekyō, a leitura de um olho, as três inclinações com dez caminhos, as seis réguas transversais e a transcendência Ame-no-Ohabari. O multiplicador 2,10 migra de Naturezas Avançadas para este documento com a justificativa reescrita a partir da declaração de nível mais alto de Katon, e deixa de correr pela fórmula da camada Kyōka. Três erratas nascem desta passada e estão aplicadas: a saída do Enton do catálogo de Kyōka, a referência cruzada no documento do Mangekyō Sharingan e a referência cruzada no documento do Susanoo.
+
+v1.1. Aplica a seção 13 do Manual de Criação de Perícias v7.4: cada transcendência de LV6 passa a nomear, além do requisito geral de todos os caminhos possuídos Aprofundados, a composição própria de caminhos que a habilitam. Ame-no-Ohabari ganha o pré-requisito Extinção Aprofundada, o caminho cujos dois efeitos, Sopro e Recolhimento, ela eleva. Antes desta versão, aprofundar qualquer caminho isolado da perícia, mesmo um alheio à Extinção, destravava a transcendência inteira. Nenhum outro campo muda.
 
 ═══════════════════════════════════════════════════════════════════
 

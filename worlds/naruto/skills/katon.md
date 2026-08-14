@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.katon
 title: "Katon (火遁)"
-version: 4
+version: 4.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: KATON_Pericia_v3.md
 ---
 
-KATON (火遁) · v4
+KATON (火遁) · v4.1
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -157,11 +157,12 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada.
+O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos de cada caminho da própria composição ganham a versão LV6 declarada.
 
 Os caminhos da inclinação de extensão Brasa ficam fora das duas leituras acima, nos dois sentidos. Eles não entram no requisito de aprofundamento da transcendência comum, e a transcendência comum não os eleva. Quem quiser a coluna transcendida deles compra o Ápice de Brasa, e as duas aquisições são independentes e cumuláveis. [proposta]
 
 CORAÇÃO DO DRAGÃO (remoção de condição · Núcleo Branco)
+Pré-requisito: Núcleo Branco Aprofundado.
 Revoga: a cláusula de desvantagem elemental na relação Katon contra Suiton.
 └─ Nenhuma técnica de Suiton vence a do praticante por natureza. Água aplicada disputa por potência, comparando rank e investimento, e a chama cede apenas quando perde essa comparação. A relação favorável contra Fūton permanece inalterada
 └─ Chama Teimosa LV6: o limiar de rank desaparece e toda tentativa de apagar vira disputa, com a chama já acesa persistindo pelas durações do Sistema de Efeitos de Status mesmo com o alvo submerso
@@ -169,6 +170,7 @@ Revoga: a cláusula de desvantagem elemental na relação Katon contra Suiton.
 [a chama permanece extinguível por potência; a inextinguibilidade pertence às chamas negras]
 
 O GRANDE INCÊNDIO (abertura de categoria · Muro Vivo)
+Pré-requisito: Muro Vivo Aprofundado.
 Revoga: a regra de que fogo não opõe resistência física a impacto cinético.
 └─ A linha acesa ganha integridade estrutural, e impacto cinético que tente atravessá-la é oposto pelo teste de Braseiro com a especialização de Muro Vivo, valendo 185. Quem não vencer é detido além de queimado
 └─ Linha Acesa LV6: sobe de perímetro para volume, fechando por cima
@@ -176,6 +178,7 @@ Revoga: a regra de que fogo não opõe resistência física a impacto cinético.
 [atribuído: a barreira de chamas defletiu um golpe de escala de bijū]
 
 LABAREDA DA FÊNIX (elevação de escopo · Pavio e Sopro Medido)
+Pré-requisito: Pavio e Sopro Medido, ambos Aprofundados.
 Revoga: a limitação de uma reação por rodada e a regra de que uma carga dormente detona uma vez só.
 └─ Elevação de área para campo. As cargas dormentes perdem a contagem e passam a ter limite de área total somada, com o praticante detonando quantas quiser, quantas vezes na rodada quiser, sem consumir reação. Área total = teste de Fagulha com a especialização de Pavio ÷ 4, resultando em 44 metros de raio distribuídos livremente entre quantas cargas o praticante semear
 └─ Carga Dormente LV6: perde o prazo e persiste até o fim da cena
@@ -238,6 +241,8 @@ NOTA DE NOMEAÇÃO
 Os caminhos e as transcendências do Katon empregam nomeação por imagem, com a família nominal de Kagutsuchi reservada ao arsenal do Mangekyō Sharingan, onde ela responde por chamas que operam sob regras próprias. A inclinação de extensão segue a mesma nomeação, com Brasa, Têmpera, Fulgor e Forja saindo do vocabulário da forja e não do vocabulário da chama.
 
 REGISTRO DE VERSÃO
+
+v4.1. As três transcendências publicam pré-requisito de composição próprio, além do piso geral de todos os caminhos possuídos no estado Aprofundado que já abria o LV6. Coração do Dragão e O Grande Incêndio exigem só o caminho que a própria etiqueta nomeia, Núcleo Branco e Muro Vivo respectivamente, porque cada uma revoga inteiramente dentro do território dele. Labareda da Fênix exige Pavio e Sopro Medido, os dois caminhos que a etiqueta já citava e que o efeito publicado eleva em conjunto. Fecha, para esta perícia, a errata do Manual de Criação de Perícias v7.4 §13 sobre a composição obrigatória de toda transcendência.
 
 v4. Nasce a inclinação de extensão manifestada Brasa, hospedeira da Kyōka Shiton de Incandescência, com os caminhos Têmpera, Fulgor e Forja e com o Ápice Sem Combustão. O caminho Fulgor substitui o rider natural de Queimadura pelo de Cegueira e pune leitura por dōjutsu em degrau dobrado, cláusula deliberada e aprovada. O Sistema de Efeitos de Status sobe para v2.5 com a regra geral de rider substituído por natureza intensificada e o registro de casos dela, Naturezas Avançadas sobe para v5.2 com o kanji 熾遁, a coluna de proveniência e a reescrita da entrada de Incandescência, e o Compêndio de Katon sobe para v5.3 com a ressalva do rider. Quatro erratas nascem desta passada e estão registradas no Índice de Perícias: o estado Transcendido alcançado pelo Ápice, o preço de aprofundamento de caminho de extensão abaixo do LV5, a ausência de camada de armadura própria no Núcleo de Combate e a inclinação Dessecação, hospedeira do Shakuton, que segue pendente. Nenhuma inclinação, caminho ou transcendência da v3 foi alterada.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.suiton
 title: "Suiton (水遁)"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: SUITON_Pericia_v2_1.md
 ---
 
-SUITON (水遁) · v2.2
+SUITON (水遁) · v2.3
 
 BLOCO DE VERSÕES
 
@@ -198,9 +198,10 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada.
+O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. O requisito acima abre o LV6 e não escolhe a transcendência: cada uma nomeia, junto do rótulo entre parênteses, a composição própria de caminhos que a exige, e o portador só a escolhe possuindo-os Aprofundados. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos dos caminhos tocados ganham a versão LV6 declarada.
 
 MARÉ CHEIA (elevação de escopo · Cachoeira, Agulha das Profundezas e Arrebentação)
+Pré-requisito: Cachoeira, Agulha das Profundezas e Arrebentação, todos Aprofundados.
 Revoga: a regra de que técnica ofensiva de alvo se resolve num instante e se encerra na resolução.
 └─ Enchente [fluxo de fundo, 60 RC de ativação, sem manutenção]: toda técnica ofensiva de Suiton do praticante deixa de terminar quando resolve e permanece correndo como zona ativa no lugar onde chegou. A zona resolve de novo o efeito declarado da técnica contra quem estiver dentro dela no início de cada turno, sem nova execução e sem novo custo. Raio da zona = ⌊teste de Torrente ÷ 10⌋ metros, resultando em 18, lido da especialização de Cachoeira. A zona dura até a água escorrer e vale como fonte existente para o praticante e para qualquer outro usuário de Suiton em campo
 └─ Arrasto LV6: deixa de acabar com a técnica e corre enquanto a zona existir, com o praticante declarando rota nova a cada turno
@@ -211,6 +212,7 @@ Revoga: a regra de que técnica ofensiva de alvo se resolve num instante e se en
 [o alvo continua opondo esquiva e defesa próprias a cada resolução, e o que deixa de existir é o encerramento da técnica no instante do impacto]
 
 ENSEADA (remoção de condição · Muralha Viva, Câmara de Água, Baixio e Ressaca)
+Pré-requisito: Muralha Viva, Câmara de Água, Baixio e Ressaca, todos Aprofundados.
 Revoga: a regra de que efeito sustentado cessa quando a manutenção deixa de ser paga, e a regra de que técnica detida por defesa se dissipa.
 └─ Águas Mortas [passivo]: as sustentações de Remanso do praticante deixam de vencer manutenção e permanecem até serem quebradas ou dispensadas. Técnica elemental contida pela muralha, pelo terreno ou pela água que ele governa deixa de se dissipar, e o volume dela é incorporado à água sob comando dele, valendo dali em diante como fonte existente. Volume incorporado = o volume declarado da técnica contida
 └─ Muralha LV6: dispensa nova ativação a cada cena e o rank contido perde o teto, contendo qualquer rank com o excedente passando reduzido em uma categoria
@@ -223,6 +225,7 @@ Revoga: a regra de que efeito sustentado cessa quando a manutenção deixa de se
 [a água continua podendo ser evaporada, congelada ou dispersada por técnica que vença o rank, e o que deixa de existir é o vencimento da manutenção]
 
 NÉVOA ETERNA (abertura de categoria · Cerração, Passo da Bruma e Toque da Maré)
+Pré-requisito: Cerração, Passo da Bruma e Toque da Maré, todos Aprofundados.
 Revoga: a regra de que todo combatente ocupa posição determinada e declarável no campo.
 └─ Sem Posição [fluxo de fundo, 50 RC de ativação, sem manutenção]: enquanto houver água em suspensão no campo, o praticante deixa de ocupar posição declarável. Quem quiser agir contra ele gasta primeiro uma ação para determinar onde ele está, opondo percepção ao teste de Bruma, valendo 174 e lido da especialização de Toque da Maré. Determinada a posição, ela vale por um turno e se perde depois. Ataque que cubra o campo inteiro alcança-o sem determinação prévia, e o Byakugan lê a posição dele sem gastar ação
 └─ Espessura LV6: a névoa perde o raio e ocupa o campo, e deixa de dispersar por vento de qualquer rank
@@ -324,4 +327,7 @@ DECISÕES TOMADAS POR PADRÃO
 15. Preço do Ápice. Lido como transcendência extra da categoria Ninjutsu, em 15.187 de XP Ficha, com a lacuna registrada na fila de errata sob o manual de economia.
 16. Registro do Chōton no catálogo. A linha ganhou o kanji 潮遁, coerente com o padrão 〜遁 que o próprio catálogo declara para os nove nomes construídos, e a coluna de Proveniência foi preenchida em todas as linhas de Kyōka, com cânone nas três naturezas registradas na obra e criação de Gabriel nas quatro concebidas para o sistema. O catálogo de Kekkei Genkai não recebeu a coluna, porque o escopo do trabalho é a linha do Chōton.
 17. Seção descritiva do Chōton em Naturezas Avançadas. A natureza ganhou verbete próprio no padrão que o documento já usa para Kuroi Kaminari, Shiden e Incandescência, e o verbete declara que a progressão da Maré corre dentro da Perícia de Suiton, em lugar de perícia própria, com a exceção repetida na seção de Progressão por Maestria.
+
+v2.3
+- Manual de Criação de Perícias v7.4 §13 exige que toda transcendência de LV6 declare composição própria além do requisito geral do LV6, e as três transcendências recebem a linha de Pré-requisito, nomeando os caminhos que a compõem. São os mesmos já publicados entre parênteses no título de cada uma, porque cada transcendência desta perícia já nascia amarrada à inclinação inteira que revoga.
 

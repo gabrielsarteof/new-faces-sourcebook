@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.leque
 title: "Leque"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Leque_v1.md
 ---
 
-LEQUE (扇) — v1
+LEQUE (扇) — v1.1
 
 Atributo: FOR
 Categoria: Prático (×1,1)
@@ -183,13 +183,17 @@ Requisito: todos os caminhos possuídos no estado aprofundado
 
 Testes plenos no LV6, largura mínima: grau 2 alcança 164, grau 4 alcança 174. Com os dois caminhos da mesma inclinação aprofundados, largura de ápice: grau 2 alcança 172, grau 4 alcança 182.
 
+O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, além dele, o caminho específico que a compõe, e o portador só a escolhe possuindo-o Aprofundado.
+
 LUA CERRADA (abertura de categoria · Rede Cortante)
+Pré-requisito: Rede Cortante Aprofundado.
 Revoga: o leque precisa estar aberto para soltar a Rede Cortante.
 └─ [passivo] O praticante emite Golpe em Rede a partir do estado fechado do leque, sem gastar a ação de Abrir o Leque antes e sem que o objeto chegue a se abrir fisicamente. A Escala das Luas continua valendo: o praticante declara mentalmente quantas luas a emissão carrega, um, duas ou três, e a categoria alcançada segue a mesma régua, ainda que o gesto de abertura nunca aconteça
 └─ Golpe em Rede LV6: raio e degraus de evasão leem a largura de ápice, 36 metros e teto de 3 degraus
 └─ Escala da Emissão LV6: a declaração de luas deixa de exigir o turno anterior, resolvendo no mesmo turno em que Golpe em Rede é emitido
 
 TRÊS LUAS NUM GESTO (elevação de escopo · Lua Revelada)
+Pré-requisito: Lua Revelada Aprofundado.
 Revoga: a escada de ação da abertura das luas.
 └─ [passivo] Abrir o leque em qualquer estágio, uma, duas ou três luas, passa a custar ação menor, sempre, independente de quantas luas forem declaradas
 └─ Abrir o Leque LV6: ação menor em qualquer estágio, superando o próprio LV5 do caminho
@@ -236,6 +240,8 @@ Fūton subiu para v2.2 e sua linha de fronteira passou a declarar a cedência à
 O Compêndio de Fūton subiu para v4.2. Foice de Doninha, Grande Foice de Doninha e Grande Tarefa do Dragão ganharam o requisito adicional de Leque que lhes faltava.
 
 O Índice de Perícias subiu para v2.11, com a décima quinta linha do Registro de Regentes, o primeiro FOR na Carga por Atributo, o eixo do leque no Registro de Vizinhança, o par de portão no Registro de Portão Duplo, e a cedência do Fūton descrita acima no Registro de Fronteira.
+
+O Manual de Criação de Perícias subiu para v7.4, e a seção 13 passou a exigir que toda transcendência de LV6 declare, além do piso geral de todos os caminhos possuídos Aprofundados, a composição própria dos caminhos que ela exige, também Aprofundados, para poder ser escolhida. O Leque subiu para v1.1 em resposta: Lua Cerrada passou a exigir Rede Cortante Aprofundado, e Três Luas num Gesto passou a exigir Lua Revelada Aprofundado, cada uma restrita ao único caminho que a própria composição já tocava.
 
 FILA DE ERRATA
 

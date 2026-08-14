@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.medical-ninjutsu
 title: "Ninjutsu Médico"
-version: 3.1
+version: 3.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -222,9 +222,10 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado.
+Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. O requisito acima abre o LV6 e não escolhe a transcendência: cada uma nomeia, junto do rótulo entre parênteses, a composição própria de caminhos que a exige, e o portador só a escolhe possuindo-os Aprofundados.
 
 KAMIMUSUBI (remoção de condição · Palma, Triagem, Circuito, Concílio e Prevenção)
+Pré-requisito: Palma, Triagem, Circuito, Concílio e Prevenção, todos Aprofundados.
 Revoga: a Marca de Reparo, que faz o corpo tratado acumular desgaste e deixar de responder à cura por chakra dentro da mesma missão.
 └─ Corpo Que Aceita Sempre [passivo, sem custo]: a cura aplicada por este médico deixa de marcar. O corpo tratado por ele não acumula Marca de Reparo, e as Marcas que já carregava por mão alheia entram um degrau abaixo enquanto ele estiver responsável pelo tratamento. O esquadrão dele deixa de ter teto de quantas vezes pode ser recomposto numa missão longa, e o custo passa a ser inteiramente de reserva
 └─ Palma Mística LV6: cura por contato executa como ação menor, e uma aplicação completa reverte todos os graus de status da família física presentes no alvo
@@ -240,6 +241,7 @@ Revoga: a Marca de Reparo, que faz o corpo tratado acumular desgaste e deixar de
 [não alcança a Marca de Empréstimo de Asura nem o teto por uso do Uzumaki, e a fronteira absoluta permanece intacta]
 
 AME-NO-MAHITOTSU (remoção de condição · Reconstrução, Transplante, Adaptação, Prótese de Chakra e Veterinária)
+Pré-requisito: Reconstrução, Transplante, Adaptação, Prótese de Chakra e Veterinária, todos Aprofundados.
 Revoga: a rejeição, que faz todo enxerto instalado nascer em estado de degradação ativa e cobrar custo contínuo do portador até que alguém o estabilize.
 └─ Peça Que Vira Corpo [passivo, sem custo]: o enxerto instalado por este médico nasce integrado. Não há estado de rejeição, não há custo contínuo e não há degradação a suspender, e o corpo do portador trata a peça recebida como se tivesse nascido com ela. A janela de viabilidade do doador estende-se muito além do que o tecido sustentaria sozinho, e a prótese de chakra torna-se permanente e deixa de drenar reserva de quem a carrega
 └─ Recomposição LV6: reconstrução e transplante executam em campo sem penalidade ao paciente
@@ -255,6 +257,7 @@ Revoga: a rejeição, que faz todo enxerto instalado nascer em estado de degrada
 [a capacidade ativa do que foi enxertado continua governada pelo documento de origem; a perícia governa viabilidade e integração, e não poder]
 
 OMOIKANE (abertura de categoria · Anatomia, Sondagem, Necroscopia e Prognóstico)
+Pré-requisito: Anatomia, Sondagem, Necroscopia e Prognóstico, todos Aprofundados.
 Revoga: a exigência de contato e de ação completa, que obriga toda leitura desta inclinação a tocar o corpo e a consumir o turno inteiro do médico.
 └─ Enxergar Antes de Encostar [passivo, sem custo]: a leitura deixa de exigir contato e deixa de consumir ação. Todo corpo dentro do alcance de visão do médico é lido por inteiro, sem toque, sem teste e sem ação declarada, com estrutura, anomalia, substância em circulação, chakra intruso e prazo de deterioração vindo juntos. O médico entra em qualquer cena já sabendo o que há dentro de todos que estão nela
 └─ Mapa Decorado LV6: a redução de custo alcança toda a mesa e persiste pela missão em corpo já lido
@@ -268,6 +271,7 @@ Revoga: a exigência de contato e de ação completa, que obriga toda leitura de
 [a leitura continua sendo do corpo e não do chakra em campo, o que a separa de Sensoriamento, e não concede precisão ofensiva]
 
 ŌMONONUSHI (remoção de condição · Farmacopeia, Estimulante e Toxicologia)
+Pré-requisito: Farmacopeia, Estimulante e Toxicologia, todos Aprofundados.
 Revoga: a paridade da prateleira, pela qual toda substância produzida pode ser identificada e neutralizada por antídoto de formulação comum, e todo corpo permanece vulnerável ao que a prateleira alheia produz.
 └─ Dono da Prateleira [passivo, sem custo]: o médico torna-se imune a veneno, toxina e substância incapacitante de origem não sobrenatural, e o que ele formula deixa de ser neutralizável por antídoto de formulação comum, exigindo do antagonista a fórmula exata. Identifica qualquer substância em uma única ação, com o antídoto correspondente formulável na mesma cena. Uma área declarada torna-se limpa, e substância hostil dispersa nela deixa de produzir efeito
 └─ A Prateleira LV6: formula na hora contra qualquer substância identificada, e o antídoto serve a todos os afetados em campo
@@ -279,6 +283,7 @@ Revoga: a paridade da prateleira, pela qual toda substância produzida pode ser 
 [a imunidade não alcança substância de origem sobrenatural, veneno de bijū nem produto de natureza avançada; a área limpa não é barreira]
 
 ŌMAGATSUHI (abertura de categoria · Bisturi, Desarranjo, Supressão e Concentração)
+Pré-requisito: Bisturi, Desarranjo, Supressão e Concentração, todos Aprofundados.
 Revoga: a exigência de contato, que obriga todo verbo desta inclinação a alcançar o corpo hostil pela mão e a manter esse contato para continuar.
 └─ Mão Que Não Precisa Tocar [passivo, sem custo]: corte, desarranjo e supressão passam a operar a alcance curto sem contato. O teto de precisão deixa de cair em Pressão Real, e o corte alcança ponto vital em combate aberto. O desarranjo aplica-se junto do corte na mesma ação, e a supressão instala-se pelo corte e dispensa sustentação
 └─ Ferida que Recusa [proposta]: alvo cortado por este médico não recebe cura de outra fonte enquanto o corte estiver aberto. É a primeira mecânica de anticura do sistema. A cláusula não alcança o Onmyōton pleno, que opera em grau de Seis Caminhos e tem teto próprio de restauração declarado no Eixo do Onmyōton
@@ -355,3 +360,7 @@ v3
 • As Quatro Cláusulas entram como régua transversal institucional, com consequência declarada
 • Prevenção, Prótese de Chakra e Ferida que Recusa recebem a etiqueta de proposta no corpo do caminho
 • Reabertura de tenketsu por Punho Suave reetiquetada como atribuído
+
+v3.2
+
+• Manual de Criação de Perícias v7.4 §13 exige que toda transcendência de LV6 declare composição própria além do requisito geral do LV6, e as cinco transcendências recebem a linha de Pré-requisito, nomeando os caminhos que a compõem. São os mesmos já publicados entre parênteses no título de cada uma, porque cada transcendência desta perícia já nascia amarrada à inclinação inteira que revoga

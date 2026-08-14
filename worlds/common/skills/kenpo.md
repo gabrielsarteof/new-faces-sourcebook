@@ -1,7 +1,7 @@
 ---
 id: common.skill.kenpo
 title: "Kenpo"
-version: 1
+version: 1.1
 layer: scenario
 scenario: common
 type: skill
@@ -154,6 +154,8 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 60 a 65 (transcendida) · DES 34
 Requisito: todos os caminhos possuídos no estado aprofundado
 
+O requisito acima abre o LV6 e não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados.
+
 Testes plenos no LV6 com largura mínima: grau 3 alcança 169, grau 4 alcança 174.
 
 ═══════════════════════════════════════════════════════════════════
@@ -201,14 +203,17 @@ Contra a linha reta, o arco aproveita o próprio impulso do golpe alheio, e devo
 NÍVEL 6: TRANSCENDÊNCIAS
 
 FUTSUNUSHI (経津主), remoção de condição · Sem Aviso
+Pré-requisito: Sem Aviso e Corrente Sem Fim, ambos Aprofundados.
 Revoga: apenas o primeiro golpe da rodada do praticante carrega o degrau de Sem Aviso.
 └─ Ponto de Origem LV6 [passivo, sem custo, requer Sem Aviso Aprofundado]: enquanto a escada de Corrente Sem Fim não quebrar pela Quebra Total, todo golpe desarmado conectado carrega o degrau de Sem Aviso, de Padrão para Veloz, e não apenas o golpe de abertura da rodada. A quebra da corrente devolve a exigência de Primeiro Toque até o próximo golpe de abertura
 
 TAKAMIMUSUBI (高御産巣日), elevação de escopo · Corrente Sem Fim
+Pré-requisito: Corrente Sem Fim Aprofundado.
 Revoga: o teto de três degraus da escada de Corrente Sem Fim.
 └─ Escalada LV6 [passivo, sem custo, requer Corrente Sem Fim Aprofundado]: a escada deixa de ter teto, e cada golpe conectado além do terceiro soma mais um degrau ao Fator de Kenpo, contido apenas pelo Teto de Esforço por turno que o Núcleo de Combate já aplica à Cadência que sustenta a corrente. Resolvido para o teste de 174 no LV6: o quarto degrau soma 696, o quinto soma 1.087,5
 
 SARUTAHIKO (猿田毘古), remoção de condição · Bloqueio Ofensivo
+Pré-requisito: Bloqueio Ofensivo Aprofundado.
 Revoga: o Bloqueio deixa de estar disponível durante o estado de Quebra de Guarda.
 └─ Retorno LV6 [passivo, sem custo, requer Bloqueio Ofensivo Aprofundado]: o Bloqueio permanece disponível mesmo com a Guarda em Quebra, e o Retorno de Bloqueio aplicado durante o estado lê a Eficiência de Retorno no teto de 1,0, independente do teste do caminho, porque o corpo que já perdeu a estrutura não tem mais nada a proteger além do próprio contra-ataque. Resolvido para Potência 1.600: retorno de 320 mesmo fora do LV6 transcendido
 

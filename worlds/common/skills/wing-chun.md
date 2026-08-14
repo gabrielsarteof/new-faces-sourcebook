@@ -1,7 +1,7 @@
 ---
 id: common.skill.wing-chun
 title: "Wing Chun"
-version: 1
+version: 1.1
 layer: scenario
 scenario: common
 type: skill
@@ -136,7 +136,10 @@ Chutes rasteiros, a resposta que não abandona a Guarda alta. `[real]` derivada 
 
 NÍVEL 6: TRANSCENDÊNCIAS
 
+O portador chega ao LV6 com todos os caminhos possuídos no estado Aprofundado, requisito geral que abre a escolha sem decidir por ela. Cada transcendência nomeia, além desse piso, a composição própria de caminhos que exige Aprofundados para poder ser escolhida, e é a mesma composição que a tag do título já indica pela palavra "unifica".
+
 AMENOMINAKANUSHI (remoção de condição · unifica Ocupação da Linha, Ataque Simultâneo e Pressão Constante)
+Pré-requisito: Ocupação da Linha, Ataque Simultâneo e Pressão Constante, todos Aprofundados.
 Revoga: apenas um combatente por vez pode ocupar a linha central declarada entre dois corpos, leitura implícita da sequência de resolução do Núcleo de Combate.
 
 HABILIDADE PRÓPRIA · Centro Que Não Se Divide
@@ -150,6 +153,7 @@ Tipo: passivo. Ação de mesa: nenhuma. Custo: nenhum. Teste: nenhum próprio, l
 ARQUÉTIPO DA LINHA IMÓVEL. O centro que não se divide constrói os três caminhos sobre Amenominakanushi, e para ele cercar não é vantagem numérica: é oferecer mais linhas para o mesmo centro ocupar.
 
 KAMIMUSUBI (elevação de escopo · unifica Leitura pelo Contato e Aprisionamento)
+Pré-requisito: Leitura pelo Contato e Aprisionamento, ambos Aprofundados.
 Revoga: o contato sustentado se rompe quando qualquer um dos dois corpos se desloca além da Banda Engajado.
 
 HABILIDADE PRÓPRIA · Ponte Que Não Se Solta
@@ -163,6 +167,7 @@ Tipo: passivo. Ação de mesa: nenhuma. Custo: nenhum. Teste: lê Abertura de Li
 ARQUÉTIPO DA PONTE ETERNA. O que nunca larga o contato constrói os dois caminhos sobre Kamimusubi, e para ele a distância deixou de ser a saída do oponente: uma vez que a ponte se forma, ela segue o alvo até onde ele for.
 
 IZANAGI (remoção de condição · unifica Recuperação de Estrutura e Linha Baixa)
+Pré-requisito: Recuperação de Estrutura e Linha Baixa, ambos Aprofundados.
 Revoga: a Quebra de Guarda impede o Bloqueio até o fim do turno seguinte de quem a sofreu, regra publicada no Sistema de Efeitos de Status.
 
 HABILIDADE PRÓPRIA · Retorno Sem Marca

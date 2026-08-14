@@ -1,7 +1,7 @@
 ---
 id: common.skill.aikido
 title: "Aikidō"
-version: 1
+version: 1.1
 layer: scenario
 scenario: common
 type: skill
@@ -137,6 +137,7 @@ Controlar a articulação até o corpo inteiro parar de resistir. `[real]` deriv
 NÍVEL 6: TRANSCENDÊNCIAS
 
 AMENOTORIFUNE (elevação de escopo · unifica Irimi, Tenkan e Ma-ai)
+Pré-requisito: Irimi, Tenkan e Ma-ai, todos Aprofundados.
 Revoga: um ataque só pode ser respondido por uma única linha de defesa por vez, leitura implícita da Reação do Núcleo de Combate.
 
 HABILIDADE PRÓPRIA · Entrada Sem Limite
@@ -150,6 +151,7 @@ Tipo: passivo. Ação de mesa: nenhuma. Custo: nenhum. Teste: nenhum próprio, l
 ARQUÉTIPO DA PORTA QUE NÃO FECHA. Quem nunca escolhe apenas uma linha constrói os três caminhos sobre Amenotorifune, e para ele um cerco não é uma decisão forçada: é várias decisões simultâneas, cada uma resolvida a tempo.
 
 SHINATSUHIKO (remoção de condição · unifica Ligação ao Centro e Espiral de Kuzushi)
+Pré-requisito: Ligação ao Centro e Espiral de Kuzushi, ambos Aprofundados.
 Revoga: o Impacto de uma manobra de Derrubar precisa superar a Guarda restante do alvo pela leitura padrão do passo 8 da sequência do Núcleo de Combate.
 
 HABILIDADE PRÓPRIA · Quebra Sem Guarda
@@ -163,6 +165,7 @@ Tipo: passivo. Ação de mesa: nenhuma. Custo: nenhum. Teste: nenhum próprio, l
 ARQUÉTIPO DO CENTRO QUE CONDUZ. Quem nunca precisa quebrar Guarda nenhuma constrói os dois caminhos sobre Shinatsuhiko, e para ele um alvo perfeitamente postado é o alvo mais fácil de conduzir, porque toda a força dele já está ali, pronta para ser redirecionada.
 
 ISOTAKERU (elevação de escopo · unifica Arremesso e Imobilização)
+Pré-requisito: Arremesso e Imobilização, ambos Aprofundados.
 Revoga: uma técnica de Projeção só pode ser aplicada contra um alvo por ação.
 
 HABILIDADE PRÓPRIA · Um Só Gesto, Muitos Corpos

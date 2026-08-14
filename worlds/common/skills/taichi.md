@@ -1,7 +1,7 @@
 ---
 id: common.skill.taichi
 title: "Taichi"
-version: 1
+version: 1.1
 layer: scenario
 scenario: common
 type: skill
@@ -174,6 +174,8 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 60 a 65 transcendida · DES 34 · rank S
 Requisito: todos os caminhos possuídos no estado aprofundado
 
+O requisito acima abre o nível, não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados.
+
 Testes plenos no LV6 com largura mínima: grau 3 alcança 169, grau 4 alcança 174. As três inclinações têm a mesma forma, um caminho de grau 3 e um de grau 4 cada, e a largura de ápice é simétrica nas três: com a inclinação inteira possuída, o caminho de grau 3 entrega 177 e o de grau 4 entrega 182, lidos pela especialização transcendida do caminho que cada efeito declarar.
 
 ═══════════════════════════════════════════════════════════════════
@@ -222,15 +224,17 @@ Fa Jing, a descarga da Reserva de Força num único golpe. A especialização de
 
 NÍVEL 6: TRANSCENDÊNCIAS
 
-Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada. As leituras aplicam a largura de ápice da inclinação correspondente.
+Cada transcendência revoga uma regra nomeada do sistema, e os efeitos dos caminhos da própria composição ganham a versão LV6 declarada. As leituras aplicam a largura de ápice da inclinação correspondente.
 
 KUNITOKOTACHI (remoção de condição · RAIZ)
+Pré-requisito: Enraizamento e Absorção Ativa, ambos Aprofundados.
 Revoga: força suficiente desloca qualquer corpo apoiado.
 └─ Raiz Sem Fim [passivo, sem custo]: enquanto o praticante mantiver apoio no chão, nenhum Empurrar e nenhum Derrubar o desloca, qualquer que seja o ativo do executor. A comparação contra o limiar de raiz deixa de ocorrer, porque não existe mais força que a supere
 └─ Postura LV6: a leitura de RES no lugar do segundo termo se torna irrelevante contra Empurrar e Derrubar, porque nenhum dos dois desloca o praticante de qualquer forma; contra as demais manobras a substituição segue valendo
 └─ Ancoragem LV6: toda manobra dirigida ao praticante enraizado carrega a Reserva de Força na taxa dobrada de Ceder, mesmo sem declaração prévia
 
 AME-NO-TAJIKARAO (elevação de escopo · PORTAS)
+Pré-requisito: Arrancar-Quebrar e Cotovelo-Ombro, ambos Aprofundados.
 Revoga: a manobra custa a Ação Completa e não causa dano.
 └─ Alavanca que Fere [passivo, sem custo]: Cai, Lie, Zhou e Kao passam a resolver dentro do Esforço de um Golpe comum, e o estado que cada um impõe se soma ao dano do próprio golpe no mesmo ato, sem exigir uma segunda ação
 └─ Cai LV6: o piso de alavanca sobe a Grave garantido, com o teto normal da régua de status acima dele
@@ -239,6 +243,7 @@ Revoga: a manobra custa a Ação Completa e não causa dano.
 └─ Kao LV6: a Queda resultante garante Grau Grave de piso de alavanca, mesmo sem o caminho Arrancar-Quebrar
 
 ŌMONONUSHI (remoção de condição · CÍRCULO)
+Pré-requisito: Escuta e Liberação, ambos Aprofundados.
 Revoga: o teto da Reserva de Força, e a perda dela ao fim da cena.
 └─ Vaso Sem Fundo [passivo, sem custo]: a Reserva de Força deixa de ter teto e atravessa o fim de cena sem se perder, permanecendo acumulada até que o praticante a descarregue por vontade própria
 └─ Fa Jing LV6: a fração de descarga sobe a 0,91, e a Reserva usada num disparo parcial não zera, apenas reduz pelo valor consumido
@@ -293,6 +298,10 @@ REGISTRO DE ALTERAÇÕES
 v1
 
 • Documento inicial
+
+v1.1
+
+• Cada transcendência de LV6 passa a nomear, além do requisito geral de nível, a composição própria de caminhos Aprofundados que a compõe, conforme o Manual de Criação de Perícias v7.4 §13
 
 ═══════════════════════════════════════════════════════════════════
 

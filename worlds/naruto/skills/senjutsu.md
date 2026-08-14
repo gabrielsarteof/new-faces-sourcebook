@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.senjutsu
 title: "Senjutsu"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -318,9 +318,10 @@ O grau mede amplitude e determina o valor da especialização. A complexidade me
 
 NÍVEL 6: TRANSCENDÊNCIAS
 
-Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada. As leituras aplicam a largura de ápice da inclinação correspondente.
+Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada. O requisito geral do nível abre o LV6; cada transcendência nomeia, além dele, os caminhos da própria inclinação que a compõem, e o portador só a escolhe possuindo-os todos Aprofundados. As leituras aplicam a largura de ápice da inclinação correspondente.
 
 ŌGETSUHIME (remoção de condição · Colheita)
+Pré-requisito: Quietude, Catalisador, Veio, Delegação e Sustento, todos Aprofundados.
 Revoga: a absorção de energia natural exige imobilidade do corpo.
 └─ Corpo Aberto [passivo, sem custo]: a colheita corre em movimento pleno, em combate, em queda e sob execução de técnica, com a taxa integral e sem exposição alguma
 └─ Colheita Funda LV6: 130 de REN por turno
@@ -331,6 +332,7 @@ Revoga: a absorção de energia natural exige imobilidade do corpo.
 └─ Estoque Guardado LV6: seis vagas, sobrevivendo a qualquer intervalo
 
 ŌYAMATSUMI (abertura de categoria · Comunhão)
+Pré-requisito: Partilha, Fusão e Enraizamento, todos Aprofundados.
 Revoga: a energia natural pertence a quem a colheu.
 └─ Patrimônio Comum [passivo, sem custo]: todo sábio ligado ao praticante pelo pacto, pela partilha ativa ou pela presença na mesma terra viva compartilha um pool único de REN, sem transferência, sem ação e sem perda no caminho. O teto do pool comum é o maior teto individual entre os ligados, porque o teto mede o corpo que suporta e não o volume que existe
 └─ Mão Cheia LV6: 360 por ato, dispensando contato dentro do campo visual
@@ -339,6 +341,7 @@ Revoga: a energia natural pertence a quem a colheu.
 └─ Chão Conhecido LV6: 92 de REN por hora, e um grau de Petrificação removido por noite
 
 TAKEMINAKATA (elevação de escopo · Investidura)
+Pré-requisito: Vigor, Couraça, Envoltório e Prontidão, todos Aprofundados.
 Revoga: o teto humano da régua de amplificação física.
 └─ Medida de Deuses [passivo, sem custo]: o reforço deixa de somar ao ativo e passa a multiplicar por dois o atributo físico já reforçado, e o impacto sobe duas categorias contra estrutura
 └─ Corpo Saturado LV6: 30 de reforço antes da multiplicação
@@ -349,6 +352,7 @@ Revoga: o teto humano da régua de amplificação física.
 └─ Resposta Antecipada LV6: três reações adicionais por turno
 
 ŌKUNINUSHI (abertura de categoria · Condução)
+Pré-requisito: Amplitude e Mordente, ambos Aprofundados.
 Revoga: o que não tem corpo está fora do alcance do que é material.
 └─ Domínio do Oculto [passivo, sem custo]: entidade sem corpo, construto de chakra, forma selada e massa em escala de bijū tornam-se alvo legítimo de qualquer ataque do praticante e perdem toda intangibilidade contra ele, e a Amarra Viva prende sem sustentação, até que terceiro a desfaça
 └─ Obra Elevada LV6: três categorias de escala, com cano próprio de Limite de Saída
@@ -418,6 +422,11 @@ Compêndio de Senjutsu, quando nascer: as obras de cada ramo declaram a espécie
 ═══════════════════════════════════════════════════════════════════
 
 REGISTRO DE ALTERAÇÕES
+
+v2.3
+
+• O Manual de Criação de Perícias v7.4 §13 passa a exigir que cada transcendência de LV6 declare, além do requisito geral de todos os caminhos possuídos Aprofundados, a composição própria de caminhos que a franqueia. A composição de cada transcendência desta perícia é a inclinação inteira que ela toca, porque o LV6 já a eleva por completo: Ōgetsuhime exige Quietude, Catalisador, Veio, Delegação e Sustento Aprofundados; Ōyamatsumi exige Partilha, Fusão e Enraizamento Aprofundados; Takeminakata exige Vigor, Couraça, Envoltório e Prontidão Aprofundados; Ōkuninushi exige Amplitude e Mordente Aprofundados
+• Nenhum valor, régua, caminho ou transcendência muda de efeito ou de número
 
 v2.1
 

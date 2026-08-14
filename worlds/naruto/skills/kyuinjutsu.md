@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.kyuinjutsu
 title: "Kyūinjutsu"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -193,21 +193,24 @@ Infundir o próprio dreno em qualquer arma empunhada. A especialização deste c
 
 NÍVEL 6: TRANSCENDÊNCIAS
 
-Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada. As leituras aplicam a largura de ápice da inclinação correspondente.
+O requisito do nível anterior, todos os caminhos possuídos no estado aprofundado, abre o LV6 e não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõe, e o portador só a escolhe possuindo-os Aprofundados. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada. As leituras aplicam a largura de ápice da inclinação correspondente.
 
 HAYAAKITSUHIME (remoção de condição · Tomada)
+Pré-requisito: Tomada Aprofundada.
 Revoga: o excedente sobre a recepção segura vira dano direto de PV, um para um.
 └─ [passivo] O excedente sobre a recepção segura deixa de ferir o drenador. Ele entra na reserva separada da Régua de Retenção mesmo além do teto dela, sem decair enquanto a cena de combate durar, e volta a decair dez por cento por turno assim que ela terminar
 └─ Tomar LV6: a ação cai para menor em qualquer alvo, imobilizado ou não
 └─ Retenção LV6: a reserva separada nunca decai por completo, estacionando em dez por cento do teto em vez de zerar
 
 SEORITSUHIME (abertura de categoria · Sifão)
+Pré-requisito: Sifão Aprofundado.
 Revoga: o degrau de Campo pertence a entidade e permanece fechado a personagem jogador.
 └─ [ativado, ação completa, exige meio contínuo de escala suficiente, região e entidade] Abre o terceiro degrau do vetor. O dreno passa a correr sobre todo portador de chakra dentro de um raio igual a metade do teste em metros, lendo a régua de quantidade contra cada um deles em separado, com a recepção segura e o teto de retenção respeitados individualmente por alvo. Resolvido: raio de 92 metros na largura de ápice
 └─ Contato Indireto LV6: o meio aceita interrupção total por até dois turnos sem que o dreno se desfaça
 └─ Persistência LV6: renova-se automaticamente contra qualquer número de rupturas, uma vez por cena cada
 
 IBUKIDONUSHI (remoção de condição · Obstrução)
+Pré-requisito: Obstrução Aprofundada.
 Revoga: o Corte de Fluxo nega a tentativa e a estende ao turno inteiro contra a mesma fonte.
 └─ [passivo] Contra a Trava desta perícia, o Corte de Fluxo deixa de negar por reação gratuita. O alvo só nega pagando a Sobrecarga Deliberada do §2.8, RC do próprio bolso, para romper o travamento
 └─ Trava LV6: a duração deixa de exigir declaração de turnos, durando enquanto o executor sustentar o contato
@@ -262,6 +265,14 @@ Slot Voragem: permanece vazio até que o Meiton seja retrabalhado. Preenchê-lo 
 ═══════════════════════════════════════════════════════════════════
 
 REGISTRO DE ALTERAÇÕES
+
+v1.1
+
+• Aplica a errata do Manual de Criação de Perícias v7.4 §13: cada transcendência de LV6 passa a declarar, além do requisito geral de todos os caminhos possuídos no estado aprofundado, a composição própria de caminhos que a compõe, também Aprofundados, sem a qual não pode ser escolhida
+• Hayaakitsuhime exige só Tomada Aprofundada, porque os três efeitos leem Tomar e Retenção, as duas capacidades do próprio caminho, sem tocar nenhum outro
+• Seoritsuhime exige só Sifão Aprofundado, pelo mesmo motivo: os efeitos leem Contato Indireto e Persistência, sem sair do caminho tocado
+• Ibukidonushi exige só Obstrução Aprofundada. A revogação toca o Corte de Fluxo do alvo, publicado em Controle de Chakra, mas o efeito inteiro mede a força da própria Trava e Travamento do portador contra a defesa alheia, sem exigir que o portador possua Contenção: a diferença do precedente de Ame-no-Sagume em Sensoriamento, que revoga uma restrição sobre a própria supressão do portador e por isso exige o caminho da outra perícia como composição
+• Os três arquétipos de ápice já nomeavam um único caminho por transcendência antes desta passada, e a nova exigência apenas torna mecânica a leitura que a prosa já declarava
 
 v1
 

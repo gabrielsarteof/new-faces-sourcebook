@@ -1,7 +1,7 @@
 ---
 id: common.skill.taekwondo
 title: "Taekwondo"
-version: 1
+version: 1.1
 layer: scenario
 scenario: common
 type: skill
@@ -140,6 +140,8 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 60 a 65 (transcendida) · VEL 34
 Requisito: todos os caminhos possuídos no estado aprofundado
 
+O requisito acima abre o LV6. A transcendência nomeia, além dele, o pré-requisito próprio do caminho que a compõe, e o portador só a escolhe possuindo-o Aprofundado.
+
 Testes plenos no LV6 com largura mínima: grau 3 alcança 169, grau 4 alcança 174. Com os dois caminhos da mesma inclinação aprofundados e a transcendendo, grau 3 alcança 177 e grau 4 alcança 182.
 
 ═══════════════════════════════════════════════════════════════════
@@ -194,6 +196,7 @@ Interceptar quem avança, no mesmo instante em que ele decide fechar espaço.
 NÍVEL 6: TRANSCENDÊNCIA
 
 AME-NO-UZUME (天宇受賣命), remoção de condição · Giro Completo
+Pré-requisito: Giro Completo Aprofundado.
 Revoga: durante o Giro Completo, o alvo lê Telegrafado no Perfil de Evasão.
 └─ [passivo, sem custo, requer Giro Completo Aprofundado] O giro passa a ler Padrão em vez de Telegrafado: o multiplicador de Limiar de Esquiva que ele concedia ao alvo desaparece por completo, e o alvo deixa de ficar fora de posição por ter esquivado dele, porque não há mais aviso algum para reagir. O golpe conserva o coeficiente de impacto elevado que Giro Completo já concedia, agora sem nenhum custo em esquiva alheia para pagá-lo. Resolvido contra o par declarado na Tarefa de Âncoras deste documento: o Limiar de Esquiva do alvo de baixa evasão volta ao valor base de 27,50, em vez dos 29,15 que o mesmo giro concederia sem a transcendência
 

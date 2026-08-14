@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.kunai
 title: "Kunai"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: skill
@@ -187,13 +187,17 @@ NOTA: o grau mede amplitude e determina o valor da especialização. A complexid
 
 NÍVEL 6: TRANSCENDÊNCIAS
 
+O requisito do LV6 abre a escolha, não a decide: cada transcendência nomeia, além dele, o caminho aprofundado que a compõe.
+
 AME-NO-WAKAHIKO (elevação de escopo · Linha)
+Pré-requisito: Linha Aprofundada.
 Revoga: um projétil arremessado deixa de ser controlável depois de sair da mão.
 └─ [passivo] O kunai arremessado por este praticante permanece sob controle pleno de trajetória enquanto estiver em voo, mesmo sem fio guiando-o, respondendo a ajustes declarados a cada momento do trajeto até o impacto ou o retorno à mão. A Trajetória deixa de exigir o fio de Linha para funcionar
 └─ Trajetória LV6: o ajuste de direção corre a cada segmento do voo, e não apenas uma vez por arremesso, contornando mais de um obstáculo interposto na mesma trajetória
 └─ Amarra LV6: o vínculo se forma mesmo sem fio físico, porque o controle sobre a lâmina em voo substitui a necessidade dele
 
 KURAOKAMI (remoção de condição · Ponto Vital)
+Pré-requisito: Ponto Vital Aprofundado.
 Revoga: a Estocada silenciosa só funciona contra alvo desprevenido ou indefeso.
 └─ [passivo] A Estocada aplica o Fator de Técnica de Silêncio contra qualquer alvo, alerta ou não, e o golpe que resolve por este caminho nunca produz sinal perceptível a terceiros, independente do estado do alvo atingido
 └─ Estocada LV6: o Fator de Técnica somado à Energia dobra quando o alvo está distraído por outro combatente na mesma cena

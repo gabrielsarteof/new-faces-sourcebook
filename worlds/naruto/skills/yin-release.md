@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yin-release
 title: "Liberação de Yin"
-version: 4.1
+version: 4.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -179,9 +179,10 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-Seis obras simultâneas e alcance de 120 metros. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada.
+Seis obras simultâneas e alcance de 120 metros. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, no próprio parêntese do título, o pré-requisito de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos de cada caminho da própria composição ganham a versão LV6 declarada.
 
 ŌKUNINUSHI (remoção de condição · Velador, Duplicador, Máscara, Miragista e Cortina)
+Pré-requisito: Velador, Duplicador, Máscara, Miragista e Cortina, todos Aprofundados.
 Revoga: a régua de oposição da miragem, que resolve toda obra da inclinação por oposição do teste contra a percepção de quem a examina.
 └─ Mundo Aceito [passivo, sem custo]: a obra de Miragem do praticante deixa de ser examinada. Não há teste de percepção contra ela, nem no primeiro contato nem depois, e a mesa a trata como fato da cena para todo observador que dependa de percepção comum. Restam três desmentidos, todos exógenos: contato deliberado com força aplicada sobre obra sem matéria por baixo, leitura de chakra que enxergue a moldagem, e dōjutsu que declare em ficha própria a leitura de ilusão erguida no terreno
 └─ Véu LV6: cobre até seis formas, sem limite de separação entre elas dentro do alcance
@@ -196,6 +197,7 @@ Revoga: a régua de oposição da miragem, que resolve toda obra da inclinação
 [a obra do genjutsu permanece fora do alcance da revogação, com a escada de quebra do documento daquela perícia intacta]
 
 ISHIKORIDOME (remoção de condição · Armeiro, Couraça, Arquiteto, Laço e Forjador de Fenômenos)
+Pré-requisito: Armeiro, Couraça, Arquiteto, Laço e Forjador de Fenômenos, todos Aprofundados.
 Revoga: o limiar de ruptura da régua de integridade, que rompe a obra por inteiro quando o dano bruto iguala ou supera o teste que a ergueu.
 └─ Forma Que Não Cede [passivo, sem custo]: a obra de Construto do praticante deixa de romper por dano. Golpe acima do limiar consome a obra em vez de destruí-la, e a mesa registra o excedente como custo de 20 RC por golpe absorvido, pago no instante enquanto a reserva sustentar. A obra cessa quando o praticante interromper a sustentação ou quando a reserva não cobrir o pagamento, e o resíduo espiritual deixa de existir, porque não há ruptura a devolver
 └─ Forja de Punho LV6: a forma se refaz como ação livre, quantas vezes couberem no turno
@@ -211,6 +213,7 @@ Revoga: o limiar de ruptura da régua de integridade, que rompe a obra por intei
 [a obra permanece fora do ciclo elemental e continua cessando por decisão do praticante e por esgotamento da reserva, de modo que a revogação retira a ruptura por dano e conserva o custo]
 
 KUEBIKO (abertura de categoria · Projecionista, Atalaia, Estafeta e Ancorador)
+Pré-requisito: Projecionista, Atalaia, Estafeta e Ancorador, todos Aprofundados.
 Revoga: a régua de atenção, que exige que o praticante dirija a ação da obra que age e lhe retira a ação plena no turno em que o fizer.
 └─ Vontade Emprestada [passivo, sem custo]: a obra que age passa a operar sem direção. O praticante declara uma intenção no ato de erguê-la, em uma frase verificável, e ela persegue essa intenção por conta própria enquanto durar, resolvendo pelo teste de Vulto sem consumir ação nem atenção dele. O praticante conserva a ação plena no mesmo turno e passa a operar em duas frentes de fato, e redirigir a intenção em cena custa ação menor. A obra não improvisa fora da intenção declarada, e a mesa resolve a lacuna pela leitura literal da frase
 └─ Projeção LV6: três projeções simultâneas, alcance de 300 metros, cada uma com ação plena própria
@@ -262,6 +265,11 @@ DEPENDÊNCIAS E PENDÊNCIAS
 Perícia de Sensoriamento, hoje sem documento, dona da leitura de chakra alheio e da identificação de fonte que o caminho Atalaia recusa. Núcleo do Sistema, que ainda não publica a resolução de impacto cinético contra barreira, consumida pelo caminho Arquiteto e resolvida provisoriamente pela régua de limiar. Compêndio de Inton, escrito contra a partição anterior, com entradas a reendereçar e faixa a crescer para a lotação vigente. Sistema de Efeitos de Status, que responde pela graduação da Imobilização do caminho Laço e pela Exaustão de Chakra do resíduo espiritual. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas.
 
 REGISTRO DE ALTERAÇÕES
+
+v4.2
+
+• Pré-requisito de composição declarado em cada transcendência do LV6, formalizando como exigência de escolha os caminhos que o parêntese do título já nomeava, conforme o Manual de Criação de Perícias v7.4 seção 13
+• Nenhum valor, caminho, régua ou transcendência alterado
 
 v4
 

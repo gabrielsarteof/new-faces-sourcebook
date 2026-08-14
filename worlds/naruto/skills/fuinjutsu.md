@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.fuinjutsu
 title: "Fūinjutsu"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Fuinjutsu_v1.md
 ---
 
-FŪINJUTSU (封印術) — v1.4
+FŪINJUTSU (封印術) — v1.5
 
 Atributo: INT
 Categoria: Erudição (×1,7)
@@ -195,9 +195,12 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 70 (transcendida) · INT 34
 Requisito: todos os caminhos possuídos no estado aprofundado
 
+O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados.
+
 Testes plenos no LV6: grau 2 alcança 164, grau 3 alcança 169, grau 4 alcança 174, grau 5 alcança 179.
 
 PRISÃO SEM CHAVE (abertura de categoria · Cárcere)
+Pré-requisito: Cárcere e Receptáculo, ambos Aprofundados.
 Revoga: todo selo se desfaz.
 └─ [passivo, declarado na inscrição, 200 RC adicionais] O que o portador sela deixa de admitir Kai, Kai Superior, Desequilíbrio ou remoção por qualquer teste, e a abertura forçada mata o conteúdo em vez de libertá-lo. Só o inscritor reabre, e a única passagem restante é ninjutsu espaço-tempo que ignore a fronteira do selo
 └─ Prisão de Entidade LV6: sela sozinho no patamar que exigia formação de quatro
@@ -205,6 +208,7 @@ Revoga: todo selo se desfaz.
 └─ Chave LV6: existe em duas cópias, e a destruição de ambas torna o selo definitivo
 
 PARIDADE ABSOLUTA (remoção de condição · Exegese)
+Pré-requisito: Exegese Aprofundada.
 Revoga: ímpar sobre par cria desequilíbrio.
 └─ [passivo] A fórmula do portador não expõe paridade legível, e nenhum selo sobreposto a ela produz efeito, venha de quem vier. Na direção oposta, o portador desfaz qualquer selo alheio sem oposição de paridade, restando apenas o teste
 └─ Assinatura de Traço LV6: lê a intenção de quem escreveu, não apenas a autoria
@@ -213,12 +217,14 @@ Revoga: ímpar sobre par cria desequilíbrio.
 └─ Rompimento de Vínculo LV6: o rompimento dispensa oposição, e o contrato do próprio portador não pode ser rompido por selo algum
 
 MÃO SEM TEMPO (elevação de escopo · Traço)
+Pré-requisito: Traço Aprofundado.
 Revoga: a régua de inscrição.
 └─ [passivo] Toda inscrição resolve em uma ação, inclusive a de referência quarenta. Ritual deixa de existir como categoria de tempo para o portador, e a formação coletiva vira conveniência de custo, nunca de execução
 └─ Traço Vivo LV6: escreve sobre alvo em combate pleno sem toque disputado, bastando alcance corpo a corpo
 └─ Fórmula Parcial LV6: deixa de ocupar vaga
 
 TROVÃO GUIA (abertura de categoria · Âncora)
+Pré-requisito: Âncora e Traço, ambos Aprofundados.
 Revoga: o que é lançado chega onde foi lançado.
 └─ [reação, 60 RC, uma vez por turno] Uma técnica ou projétil dirigido ao portador é interceptado pela marca e reemitido em outra marca sua, à escolha, com dano e riders preservados e o alvo de destino resolvendo defesa normalmente. Limite de RC nominal igual ao teste multiplicado por seis, 1.044
 └─ Marca de Destino LV6: aplica-se sem contato dentro do campo de visão
@@ -227,12 +233,14 @@ Revoga: o que é lançado chega onde foi lançado.
 Consome a categoria Interceptação e, dentro dela, a família Reemissão, Manual de Criação de Poderes v3.2, seções 3.3 e 4.1, para a resolução instantânea e para a magnitude reencaminhada. O teto nominal e a frequência são a instância desta perícia dos dois campos que a categoria exige; o gatilho por reação e a marca de destino como alvo escolhido permanecem desta perícia.
 
 SILÊNCIO (remoção de condição · Absolvição)
+Pré-requisito: Absolvição Aprofundada.
 Revoga: a contenção depende da vontade do portador.
 └─ [passivo] Marca contida por este praticante deixa de exigir teste de VONTADE em qualquer pressão. Não há limiar a vencer nem cena em que a marca se abre, e a supressão persiste com o portador inconsciente, enlouquecido ou morto
 └─ Contenção do Mal LV6: alcança kekkei genkai forçado e possessão de entidade
 └─ Reforço LV6: opera a 10 m e devolve integridade plena em uma ação
 
 JUGO (elevação de escopo · Coerção)
+Pré-requisito: Coerção Aprofundada.
 Revoga: um selo, um portador.
 └─ [ritual, 600 RC] A cláusula é inscrita uma vez sobre um grupo declarado por linhagem, unidade ou juramento presenciado, e todo membro presente a recebe no mesmo ato, com a autoridade permanecendo com o inscritor. Novos membros recebem por contato de qualquer detentor da autoridade
 └─ Cláusula LV6: admite condições ilimitadas por selo
@@ -298,6 +306,8 @@ Perícia de Passagem, publicada em v1, antes rotulada Espaço-Tempo. A marca seg
 Manual de Criação de Poderes v3.1, dono da família de magnitude Reemissão que Trovão Guia consome, seção 4.1. Não existe categoria de efeito com esse nome no manual; a interceptação e o reencaminhamento são mecânica de família, não de categoria, e a citação em Trovão Guia foi escrita conforme o manual publica.
 
 Manual de Criação de Poderes v3.2, dono do Contrato de Âncora, seção 3.3, que a Marca de Destino cumpre como via de fórmula desde antes de o contrato existir. A categoria de efeito Interceptação também nasceu naquela versão, e a citação em Trovão Guia, acima, foi atualizada para nomeá-la ao lado da família Reemissão.
+
+Manual de Criação de Perícias v7.4, seção 13, que promove a composição por caminhos nomeados a regra obrigatória de toda transcendência. Um único caminho aprofundado deixava de travar nada além de si mesmo, e destravava as seis transcendências desta perícia de uma vez só. Cada uma delas passa a nomear, além do requisito geral do LV6, o pré-requisito próprio de caminhos aprofundados que a compõem: Prisão sem Chave sobre Cárcere e Receptáculo, Trovão Guia sobre Âncora e Traço, e as demais quatro sobre o caminho tocado sozinho, por não ultrapassarem o domínio dele.
 
 FILA DE ERRATA
 

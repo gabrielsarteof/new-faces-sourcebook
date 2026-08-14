@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.passagem
 title: "Passagem"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -130,6 +130,8 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 65 transcendida · INT 34 · rank S
 Requisito: todos os caminhos possuídos no estado aprofundado
 
+O requisito geral abre o LV6 e não decide qual transcendência o portador escolhe: cada uma nomeia, além dele, a composição própria de caminhos que a exige, também Aprofundados, e só entra no repertório de quem os possui nesse estado.
+
 Testes plenos no LV6 com largura mínima: grau 2 alcança 164, grau 3 alcança 169, grau 4 alcança 174. Com a inclinação inteira possuída e a especialização de grau 2 como fonte da leitura, o teste alcança 180 nas duas inclinações.
 
 ═══════════════════════════════════════════════════════════════════
@@ -175,12 +177,14 @@ Ancorar no que se move e em quem não quer ser âncora.
 NÍVEL 6: TRANSCENDÊNCIAS
 
 SARUTAHIKO (elevação de escopo · Chamado)
+Pré-requisito: Chamado Aprofundado.
 Revoga: o destino de toda invocação é a posição de quem executa.
 └─ O Guia da Encruzilhada [ativado, ação padrão mais a janela, custo igual ao dobro da RC do invocado, exige âncora no destino] Entrega o invocado em ponto ancorado que não o próprio, dentro do alcance de Mobilidade possuído. O Teste de Aceitação corre com agravo de 25 por se tratar de chamado a ponto alheio, contra teste de 180 na largura de ápice da inclinação, lido pela especialização transcendida de Chamado, o que mantém um chefe de espécie ao alcance e um chefe hostilizado fora dele. O invocado chega orientado e age a partir da rodada seguinte. Caindo a âncora antes da chegada, a regra revogada volta a valer e o invocado aparece no executor
 └─ Chegada Firme LV6: a margem exigida para agir na mesma rodada deixa de existir, e todo invocado que aceita age imediatamente
 └─ Segundo Chamado LV6: o teto de dois invocados simultâneos cai, e o limite passa a ser exclusivamente a RC paga e o Limite de Saída
 
 YACHIMATA (abertura de categoria · Translado)
+Pré-requisito: Salto, Carga e Cravo, todos Aprofundados.
 Revoga: o vazio de uma técnica de travessia é inalcançável pelas demais.
 └─ As Oito Bifurcações [ativado, ação padrão, custo de acionamento multiplicado pela distância entre os vazios, simples na curta, triplo na média e dez vezes na longa] Entra no vazio de uma travessia alheia, sai por ela em qualquer ponto que ela sirva, ou a fecha pelo lado de dentro. Resolve por teste oposto contra o teste registrado da técnica que abriu o vazio alvo, com o teste do praticante em 180 na largura de ápice da inclinação, lido pela especialização transcendida de Salto. A distância longa admite uma tentativa por cena. Havendo em jogo a transcendência da Barreira que ataca a mesma propriedade do lado oposto, o confronto decide por qual alcança primeiro o vazio da outra
 └─ Ir LV6: dispensa âncora inscrita e toma por destino qualquer ponto que o praticante tenha atravessado antes na mesma cena
