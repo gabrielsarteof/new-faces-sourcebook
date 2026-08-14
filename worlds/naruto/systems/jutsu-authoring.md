@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.10
+version: 2.11
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_7.md
 ---
 
-# Manual de Criação de Jutsus · v2.10
+# Manual de Criação de Jutsus · v2.11
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.2.**
 
@@ -779,11 +779,13 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 
 ## 11. Registro de Alterações
 
-**v2.10.** Três erratas abertas pela leva de Técnicas Base Universais fecham nesta versão, nenhuma delas mudando fórmula ou custo já publicado. A Seção 7.1 perde a linguagem de fragmentação por contagem de clones: o Kage Bunshin de 1 clone deixa de se ler como C-rank, porque a ficha inteira já declarava rank B por convergência canônica desde a publicação da técnica, e o texto normativo estava atrás da própria ficha que ele deveria governar. A escalada a A, S e Kinjutsu passa a pertencer exclusivamente ao Tajū Kage Bunshin no Jutsu, técnica distinta, e não a uma leitura aritmética do Kage Bunshin. A curva de custo de RC por clone não muda.
+**v2.11.** A leva de Técnicas Base Universais fechou sua passada de erratas numerada v2.10, cega para a propagação do Cânone v2 que fechava a dela no mesmo número ao mesmo tempo. Nenhuma das duas substitui a outra; esta entra no primeiro número livre, no mesmo padrão já usado para a colisão da v2.6. Três erratas abertas pela leva fecham aqui, nenhuma delas mudando fórmula ou custo já publicado. A Seção 7.1 perde a linguagem de fragmentação por contagem de clones: o Kage Bunshin de 1 clone deixa de se ler como C-rank, porque a ficha inteira já declarava rank B por convergência canônica desde a publicação da técnica, e o texto normativo estava atrás da própria ficha que ele deveria governar. A escalada a A, S e Kinjutsu passa a pertencer exclusivamente ao Tajū Kage Bunshin no Jutsu, técnica distinta, e não a uma leitura aritmética do Kage Bunshin. A curva de custo de RC por clone não muda.
 
 A tabela de Aftermath por Rank da Seção 1.2 ganha a magnitude que faltava na linha de Kinjutsu: 15% do PV máximo, por analogia à forma como o aftermath de rank A já expressa preço em fração de recurso, marcada `[proposta]` até este manual fixar o número oficial. A Seção 7 ganha a subseção 7.6, Modo Viagem, registrando a régua de Esforço de deslocamento do Núcleo de Combate (metros efetivos ÷ 5) como referência oficial para qualquer jutsu de deslocamento que publique custo de uso fora de combate, com o Shunshin no Jutsu como primeira instância.
 
 O piso de 50.000 XP para Kinjutsu, verificado nesta mesma leva contra a Seção 1, a Seção 4 e a Seção 4.3, já estava correto em toda parte desde a v2.6 e não muda.
+
+**v2.10.** As âncoras ilustrativas de budget da Seção 4.1, jonin típico e Saki, seguiam o Fator de Cânone v1, revogado por `core/canon-factor.md` v2. O jonin de rotina passa a ~160k XP e Saki a 640k XP, os dois lidos dos perfis de referência que o documento novo publica. A repartição por rank que a Seção 4.1 descrevia para Saki presumia o orçamento antigo e precisa de nova passada, que este registro não faz. Nenhuma faixa de XP por rank, régua de interpolação ou fórmula deste manual muda.
 
 **v2.9.** A Seção 2.8, Cedências, ganha a linha que faltava: o lado aberto e treinável do dreno, por Contato e por Meio, contra alvo que resiste e sem selo, sem clã e sem contrato, passa a ter dono nomeado. A Perícia de Kyūinjutsu publica esse dono, consumindo a régua de quantidade, o teto de recepção e a cláusula do senjutsu já publicados aqui sem redefinir nenhum dos três. As demais cedências da seção, a dōjutsu, a arma, a clã e a entidade, permanecem como estavam. Nenhum valor, régua ou fórmula deste manual muda.
 
@@ -834,7 +836,7 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v2.10, manual tradutor do cenário Naruto para o Manual de Criação
+*Manual de Criação de Jutsus v2.11, manual tradutor do cenário Naruto para o Manual de Criação
 de Poderes v3.2. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
 absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
 RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a
