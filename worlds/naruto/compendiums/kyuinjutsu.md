@@ -248,7 +248,7 @@ A entrada pressupõe o domínio da infusão trocável do Corte que Bebe, porque 
 **Gakumon — 顎門**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Kyūinjutsu LV5 · Moldagem Refinada · Caminho Voragem · Natureza Meiton ativa
+**Requisitos:** Kyūinjutsu LV5 · Moldagem Refinada · posse do caminho Voragem, da natureza Meiton
 **XP:** 15.200
 
 O usuário abre um campo de absorção que se comporta como uma boca sem contorno fixo, engolindo o chakra de qualquer técnica ou corpo que entre nele, sem distinguir natureza elemental nenhuma no ato da colheita. O campo não tem cor própria, porque assume a cor do que está engolindo no instante em que engole, a mesma propriedade de tipo dinâmico que o Meiton exibe em qualquer uso.
@@ -282,7 +282,7 @@ A tradição atribui esse grau de domínio a poucos praticantes lendários, capa
 **Takamimusubinokami — 高御産巣日神**
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Kyūinjutsu LV6 · Moldagem Absoluta · Caminho Interceptação · Rinnegan ativo
+**Requisitos:** Kyūinjutsu LV6 · Moldagem Absoluta · Caminho Interceptação · posse do Rinnegan
 **XP:** 38.000
 
 O usuário absorve pelo Rinnegan de uma das mãos qualquer técnica baseada em chakra que entre em contato com ela, e libera pela outra mão a mesma técnica reproduzida em escala e potência muito acima do original. A absorção acontece no instante do toque, sem esforço aparente, e a reemissão sai carregada de uma energia visivelmente mais densa que a fonte.
@@ -297,7 +297,7 @@ A entrada permanece bloqueada enquanto o Rinnegan não existir como linhagem jog
 **Sabaki — 裁き**
 **[PROPOSTA — Rank S]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Kyūinjutsu LV6 · Moldagem Absoluta · Caminho Voragem · Fauce
+**Requisitos:** Kyūinjutsu LV6 · Moldagem Absoluta · Fauce · posse do caminho Voragem, da natureza Meiton
 **XP:** 38.000
 
 O usuário devolve o chakra que a Fauce engoliu contra a própria fonte, reconvertido em ataque na mesma natureza que ele carregava ao ser absorvido. O campo que antes só engolia passa a expelir na direção de quem o alimentou, e a devolução carrega o peso do que foi tomado somado ao que o próprio usuário investiu no ato.
@@ -314,9 +314,9 @@ A entrada permanece bloqueada pela mesma razão que a Fauce permanece, e as duas
 
 ### Caminho Preta: Fome sem Fundo
 **Gakidō — 餓鬼道**
-**[CANON — Kinjutsu]**
+**[CANON · Kinjutsu — Acima de Rank S]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Kyūinjutsu LV6 · Moldagem Absoluta · Caminho Interceptação · Rinnegan ativo · Takamimusubinokami
+**Requisitos:** Kyūinjutsu LV6 · Moldagem Absoluta · Caminho Interceptação · posse do Rinnegan · Takamimusubinokami
 **XP:** 55.000
 
 O portador do Rinnegan que domina este caminho absorve qualquer técnica baseada em chakra que o alcance, sem limite declarado de volume, ao ponto de já ter suportado em cena o impacto de uma esfera de chakra em escala de bijū sem se romper. O corpo do usuário não muda de aparência durante a colheita, e a ausência de qualquer sinal externo de esforço é o que torna a técnica tão temida quanto é.
