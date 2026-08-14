@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 5.3
+version: 5.4
 layer: scenario
 scenario: naruto
 type: system
@@ -207,7 +207,7 @@ Meiton é exceção. Sua composição elemental permanece desconhecida e sua ide
 | Hyōton (Gelo) | Água+Vento | nenhum | Vento | B | Decisivo | 4% | cânone |
 | Bakuton (Explosão) | Terra+Raio | nenhum | Raio | B | Decisivo | 4% | cânone |
 | Futton (Ebulição) | Água+Fogo | nenhum | Fogo | B | Decisivo | 4% | cânone |
-| Jinton 迅遁 (Velocidade) | Vento+Raio | nenhum | Raio | B | Tático-Decisivo | 4% | cânone, composição pela camada de jogos |
+| Jinton 迅遁 (Velocidade) | Vento+Raio `[proposta]` | nenhum | Raio | B | Tático-Decisivo | 4% | cânone; composição `[proposta]`, atribuída pela camada de jogos |
 | Yōton 溶遁 (Lava) | Fogo+Terra | nenhum | Fogo | C | Decisivo | 8% | cânone |
 | Jiton (Magnetismo) | Vento+Terra | nenhum | Terra | C | Decisivo | 8% | cânone |
 | Ranton (Tempestade) | Raio+Água | nenhum | Raio | C | Tático-Decisivo | 8% | cânone |
@@ -228,7 +228,11 @@ A coluna de Poder não altera a chance de manifestação. Ela define o preço de
 | Água+Raio | Ranton, Santon | Santon |
 | Terra+Vento | Jiton, Saton | Saton |
 
-Vento+Raio tem ocupante único, a Liberação de Velocidade, e por isso não entra na tabela. A composição dela estava vaga no catálogo até a errata lhe dar entrada própria.
+Vento+Raio tem ocupante único, a Liberação de Velocidade, e por isso não entra na tabela. A composição dela estava vaga no catálogo até a errata lhe dar entrada própria, e a mesma errata corrigiu a etiqueta da composição para `[proposta]`: a única fonte é Naruto Mobile, e o próprio jogo declara a informação como suposição, não como fato confirmado pela obra.
+
+**Natureza mecânica da Celeridade.** `[proposta]` O comportamento do Jinton 迅遁 é **poder de linhagem, construído pelo Manual de Criação de Poderes**, em três graus que se compram com progressão, sem escada, sem inclinação e sem caminho. A admissão como perícia foi testada e reprovada por ausência de âncora de domínio na obra: o território que uma perícia de velocidade reivindicaria já tem quatro donos publicados, Raiton, Hachimon, Passagem e o Shunshin no Jutsu. A ficha completa, com os três graus, os contratos de oito campos e o preço de aquisição, vive em [Celeridade](../powers/celeridade.md). Esta entrada permanece dona da composição, do portão, do tier histórico e do percentual da Centelha.
+
+**Dependência aberta.** Se nascer uma perícia do domínio físico de movimento, a Celeridade ganha inclinação de extensão manifestada dentro dela, no mesmo molde que já vale para Brasa dentro de Katon, Sismo dentro de Doton, Ciclone dentro de Fūton e Maré dentro de Suiton. Até lá, os três graus vivem inteiramente no documento de poder, sem hospedeira.
 
 ### Nomenclatura
 
@@ -486,6 +490,8 @@ A perícia da natureza avançada não reduz o custo dos Tipos Elementais compone
 ---
 
 ## Registro de Alterações
+
+**v5.4.** Errata da Celeridade. A entrada do Jinton 迅遁 passa a declarar a natureza mecânica dela como poder de linhagem construído pelo Manual de Criação de Poderes, com a ficha completa publicada em `worlds/naruto/powers/celeridade.md`, no mesmo padrão que a v5.2 já fixou para o Puraton. A composição Vento e Raio, atribuída apenas por Naruto Mobile e declarada suposição pelo próprio jogo, passa a carregar a etiqueta `[proposta]` na tabela, corrigindo a leitura implícita de cânone que a v5.3 carregava. Nasce a nota de dependência aberta: se uma perícia do domínio físico de movimento vier a existir, a Celeridade ganha inclinação de extensão manifestada dentro dela, no mesmo molde já usado por Brasa, Sismo, Ciclone e Maré. Nenhuma outra composição, portão, tier ou percentual de Centelha mudou.
 
 **v5.3.** Errata do Enton. A natureza sai do catálogo de Kyōka e passa a responder pela Perícia de Enton, com este documento conservando o elemento base, o portão de linhagem de Indra, o tier A, o percentual de Centelha e a ordem de teste no Fogo, e cedendo à perícia o multiplicador de dano de 2,10, a partição e as réguas. A exceção nominal que o 2,10 abria contra a fórmula de Kyōka deixa de existir, porque a fórmula deixou de alcançar a natureza, e a justificativa do valor passa a ser lida direto da fonte no documento que agora o publica. Com a saída, o catálogo de Kyōka perde o único membro canônico que tinha, e a nota da categoria passa a defini-la pela substituição do multiplicador do elemento base, que é a propriedade mecânica que sobrou para separá-la das camadas vizinhas. A lacuna deliberada na faixa Estratégico do Raio permanece, com a justificativa reescrita para não depender de uma exceção que saiu do documento. Nenhuma outra composição, portão, tier, percentual de Centelha ou régua de progressão mudou.
 

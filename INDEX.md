@@ -9,7 +9,8 @@ vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-**Total:** 182 documentos · 16 de núcleo · 166 de cenário
+<<<<<<< HEAD
+**Total:** 183 documentos · 16 de núcleo · 167 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -223,7 +224,8 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.powers.overview` | 1.1 | system | final |
+| [Celeridade (Jinton 迅遁)](worlds/naruto/powers/celeridade.md) | `naruto.power.celeridade` | 1 | power | final |
+| [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.powers.overview` | 1.2 | system | final |
 | [Puraton (Plasma)](worlds/naruto/powers/puraton.md) | `naruto.power.puraton` | 1 | power | final |
 
 ## worlds/naruto/progression
@@ -271,7 +273,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 5.3 | system | final |
+| [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 5.4 | system | final |
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.3 | system | final |
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.1 | system | final |
