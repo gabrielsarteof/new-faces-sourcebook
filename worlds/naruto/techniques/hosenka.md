@@ -1,0 +1,114 @@
+---
+id: naruto.technique.hosenka
+title: "Hōsenka no Jutsu (鳳仙花の術)"
+version: 1
+layer: scenario
+scenario: naruto
+type: technique
+status: final
+source-file: Hosenka_v1.md
+---
+
+# Múltiplas Bolas de Fogo da Fênix — Katon: Hōsenka no Jutsu (火遁・鳳仙花の術)
+Ninjutsu · Katon · Rank D
+
+---
+
+## Sobre a Técnica
+
+O Hōsenka no Jutsu é a expulsão simultânea de várias bolas de fogo de pequeno porte pela boca, cada uma guiada pelo chakra do praticante de forma independente. As esferas se dividem no ar em trajetórias distintas assim que deixam o corpo, e cada uma mantém rota própria até o impacto ou até se dissipar.
+
+A dispersão em múltiplas trajetórias é o que distingue o Hōsenka de um disparo único como o Endan. Um alvo que calcula a esquiva contra uma única linha de ataque encontra várias chegando de ângulos diferentes ao mesmo tempo, e a defesa eficiente contra uma esfera não cobre automaticamente as demais.
+
+O praticante pode ocultar projéteis metálicos no interior de cada esfera antes do disparo. O fogo mascara a presença do metal durante o voo, e o alvo que calibra a defesa contra chamas recebe, no momento em que as esferas se abrem ou se dissipam, um segundo vetor de ameaça que a leitura inicial não previa. Entre as famílias de Konohagakure com afinidade para fogo, o Hōsenka é ensinado cedo, e serve de base para o controle direcional de múltiplos alvos que técnicas posteriores do mesmo arsenal exploram com mais profundidade.
+
+---
+
+## Requisitos de Acesso
+
+- **Katon LV2:** portão de rank D, que resolve em 30 pela soma da Base 24 com INT 6
+- **Moldagem Alta:** 58 pela soma da Base Total com SAB, degrau elevado um passo acima do piso Plena que o coeficiente técnico 1,0 fixaria, pela propriedade de proporção interna fina, com o praticante guiando várias esferas pequenas de forma independente e simultânea
+
+---
+
+## Custo de XP
+
+**Custo de XP:** 720
+
+---
+
+## Efeitos Globais
+
+As esferas produzem luminosidade e calor perceptíveis a curta distância antes do impacto, e qualquer superfície combustível dentro das trajetórias individuais acende ao contato, pela regra padrão do Nível 1 da Perícia de Katon. A dispersão simultânea cobre uma faixa curta de terreno diante do praticante, sem alcançar o perfil de uma técnica de área declarada.
+
+---
+
+## Mecânica de Ativação
+
+- **RC nominal:** 76
+- **Custo mínimo:** 25
+- **Selos de referência:** 1, o Selo do Tigre
+- **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
+- **Perfil de Evasão:** Padrão
+- **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus. No custo mínimo de 25, qualquer Limite de Saída acima de 25 dispara no ato
+- **Ação:** um selo, seguido de disparo imediato das esferas simultâneas
+- **Restrições:** alvo único ou até três alvos próximos entre si, distância curta, origem pela boca do praticante
+
+---
+
+## Família de Dano
+
+Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
+
+```
+dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
+dano = 76 × 0,13 × 1,60 + LV_CC² × 2,5 × 1,0
+dano = 15,808 + LV_CC² × 2,5
+```
+
+O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos, com o Hōsenka nomeado como o próprio exemplo canônico da linha na Seção 5.3. O coeficiente técnico 1,0 corresponde à dependência média, com o degrau de exigência elevado de Plena para Alta pela propriedade de proporção interna fina, publicada pela Seção 4 do Manual de Requisitos de Técnica: guiar várias esferas pequenas com rota própria ao mesmo tempo cobra proporção mais fina do que produzir uma única esfera.
+
+Quando o praticante oculta projéteis metálicos no interior das esferas, a quantidade declarada nesta ficha é **3**, valendo como requisito consumível de qualquer caminho de perícia que leia contagem de projéteis embutidos, entre eles o efeito Segunda Linha do caminho Agulha, publicado pela Perícia de Katon. A entrada de catálogo não exige esse caminho para a execução básica da técnica, e o valor de dano acima já cobre a versão sem projéteis embutidos, com o efeito adicional deles regido inteiramente pela perícia.
+
+---
+
+## Tabela de Descarga
+
+Par de referência Veterano, PV 960, pela leitura de par por rank fechada na ficha do Endan.
+
+| LV_CC | Fator de Moldagem | Dano | % PV do par |
+|---|---|---|---|
+| 4, entrada | 40 | 56 | 5,8% |
+| 5 | 62 | 78 | 8,1% |
+| 6 | 90 | 106 | 11,0% |
+| 6 com 1 caminho | 122 | 138 | 14,4% |
+| 6 com 2 caminhos | 160 | 176 | 18,3% |
+
+O Hōsenka não alcança o tier Forte em nenhum patamar, consistente com o rank D correspondendo à escala Básico do Manual de Criação de Poderes, e com o dano distribuído entre múltiplas esferas em vez de concentrado numa única entrega. O valor de cada linha representa a soma das esferas simultâneas, e o coeficiente de entrega 0,13 já embute a penalidade de dividir o efeito entre elas, conforme a Seção 5.3 declara para a categoria.
+
+---
+
+## Progressão por Maestria
+
+| Nível | Capacidade ou mudança |
+|---|---|
+| Katon LV2, Moldagem Alta | acesso à técnica pela camada Livre |
+| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
+| Caminho Agulha, inclinação Labareda | os três projéteis embutidos exigem esquiva separada, pelo efeito Segunda Linha |
+| Múltiplas Bolas de Fogo da Fênix dominada | abre o Hōsenka Tsumabeni, requisito mecânico consumível |
+
+---
+
+## Sinergias
+
+- **Caminho Agulha:** o efeito Segunda Linha converte os três projéteis embutidos em ameaça de esquiva separada, usando a contagem que esta ficha já declara
+- **Hōsenka Tsumabeni:** consome esta técnica como requisito mecânico publicado no próprio catálogo
+- **Caminho Refino:** zera o desperdício, derrubando o custo pago ao mínimo de 25
+
+---
+
+## Notas para o Mestre
+
+- **A dispersão é a identidade tática.** Trate cada esfera como uma ameaça de esquiva separada quando o jogador declarar o uso de projéteis embutidos, e não apenas como um único disparo maior
+- **Frequência esperada é alta em rank D e C.** É a técnica de controle de múltiplos alvos mais barata do arsenal desta leva
+- **NPCs.** Genin de clã forte e chuunin de fogo usam o Hōsenka como resposta padrão contra grupos pequenos ou contra um único alvo protegido por barreira frontal, explorando os ângulos que a dispersão abre

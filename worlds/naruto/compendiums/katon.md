@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.3
+version: 5.4
 layer: scenario
 scenario: naruto
 type: compendium

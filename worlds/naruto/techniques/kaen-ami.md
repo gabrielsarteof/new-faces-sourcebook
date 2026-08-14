@@ -1,0 +1,124 @@
+---
+id: naruto.technique.kaen-ami
+title: "Kaen Ami (火炎網)"
+version: 1
+layer: scenario
+scenario: naruto
+type: technique
+status: final
+source-file: KaenAmi_v1.md
+---
+
+# Rede de Chamas — Katon: Kaen Ami (火遁・火炎網)
+Ninjutsu · Katon · Rank A
+
+---
+
+## Sobre a Técnica
+
+O Kaen Ami é a projeção de três guias de fogo simultâneos, cada um estabelecido no próprio instante da execução e conduzido de forma independente, sem exigir fio, arame ou cabo já posicionado em campo. O praticante envia chama por cada guia, e os três podem convergir sobre um único alvo vindos de ângulos diferentes ou tomar rumos separados contra alvos distintos.
+
+Contra um único alvo cercado pelos três guias, a esquiva deixa de ter direção livre, porque toda rota de saída cruza pelo menos um deles. É a expressão mais avançada do controle territorial que o caminho Veia já demonstra no Ryūka, elevada de um único condutor para três guias autônomos e sem exigir material externo.
+
+---
+
+## Requisitos de Acesso
+
+- **Katon LV5:** portão de rank A, que resolve em 71 pela soma da Base 45 com INT 26
+- **Moldagem Refinada:** 71 pela soma da Base Total com SAB, degrau lido do coeficiente técnico 2,0, sem elevação
+- **Caminho Veia:** inclinação Labareda da Perícia de Katon, requisito consumível. O efeito Estrada Viva é o que permite os três guias se estabelecerem no próprio turno da execução, sem preparação prévia de condutor em campo, ao contrário do que o Ryūka de rank C exige
+
+---
+
+## Custo de XP
+
+**Custo de XP:** 12.800
+
+---
+
+## Efeitos Globais
+
+Os três guias são visíveis como linhas de calor distorcendo o ar, convergentes ou divergentes conforme a escolha do praticante, e qualquer observador competente lê de imediato quantos alvos a técnica ameaça pela contagem de guias abertos.
+
+---
+
+## Mecânica de Ativação
+
+- **RC nominal:** 1.020
+- **Custo mínimo:** 340
+- **Selos de referência:** 3
+- **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
+- **Perfil de Evasão:** Padrão. A convergência dos três guias sobre um único alvo estreita as rotas de fuga por geometria de cerco, um efeito tático narrado em mesa, e não eleva o degrau de evasão da Seção 6.5 do Manual de Jutsus, que exige RC adicional e Extra pago em XP para qualquer elevação a Teleguiado, sobretaxa que esta ficha não paga
+- **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
+- **Ação:** três selos, seguidos do envio simultâneo dos três guias
+- **Restrições:** até três alvos distintos, distância curta a média, cada guia resolve a própria esquiva quando dirigido a alvos separados
+
+---
+
+## Família de Dano
+
+Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
+
+```
+dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
+dano = 1.020 × 0,13 × 1,60 + LV_CC² × 2,5 × 2,0
+dano = 212,16 + LV_CC² × 5
+```
+
+O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos: os três guias dividem a RC nominal entre si independentemente de convergirem ou se separarem, pela mesma leitura que a Seção 5.3 aplica a qualquer entrega dividida em vetores paralelos. O coeficiente técnico 2,0 corresponde à dependência alta, moldagem como mecanismo central, e o catálogo confirma o piso Refinada sem elevação: sustentar três guias autônomos e coerentes ao mesmo tempo já satisfaz a exigência do degrau sem propriedade adicional.
+
+Contra um alvo único cercado pelos três guias convergentes, o dano publicado nesta tabela representa a soma dos três, entregue no mesmo instante.
+
+---
+
+## Tabela de Descarga
+
+Par de referência Especial, PV 1.920, pela leitura de par por rank fechada na ficha do Endan.
+
+| LV_CC | Fator de Moldagem | Dano | % PV do par |
+|---|---|---|---|
+| 5, entrada | 125 | 337 | 17,6% |
+| 6 | 180 | 392 | 20,4% |
+| 6 com 1 caminho | 245 | 457 | 23,8% |
+| 6 com 2 caminhos | 320 | 532 | 27,7% |
+
+O Kaen Ami alcança o piso do tier Forte com dois caminhos adicionais em Controle de Chakra, e se aproxima dele já no LV6 pleno, na mesma faixa do Jigoku no Hane pelo compartilhamento do mesmo coeficiente técnico. Contra três alvos separados, cada um recebe uma fração proporcional deste total, e nenhum alvo isolado recebe o dano cheio da convergência.
+
+---
+
+## Rider — Queimadura
+
+O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, a cada alvo atingido por ao menos um guia.
+
+| Campo | Valor |
+|---|---|
+| Grau mínimo garantido | Moderado |
+| Grau máximo possível | Grave |
+| Atributos testados | RES + FOR |
+| Alvo do teste | (RES + FOR) × (1 − dano ÷ PV máximo da vítima) |
+
+---
+
+## Progressão por Maestria
+
+| Nível | Capacidade ou mudança |
+|---|---|
+| Katon LV5, Moldagem Refinada, Caminho Veia | acesso à técnica pela camada Livre |
+| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
+| Caminho Veia, efeito Estrada Viva LV5 | os guias saltam vãos de descontinuidade, ampliando a geometria de cerco em terreno fragmentado |
+
+---
+
+## Sinergias
+
+- **Caminho Veia, efeito Estrada Viva:** requisito da técnica, dispensa material condutor pré-posicionado que o Ryūka de rank C ainda exige
+- **Formação de cerco:** três guias contra um único alvo eliminam rota de fuga sem exigir aliados posicionando o cerco fisicamente
+- **Caminho Sopro Medido, efeito Talhe Limpo:** quando o praticante possui o caminho, exclui aliados presos na mesma geometria de cerco sem alterar o dano contra os demais
+
+---
+
+## Notas para o Mestre
+
+- **A escolha de convergir ou dividir é do jogador.** Peça a decisão antes de resolver a esquiva, porque ela muda tanto o número de alvos ameaçados quanto o dano que cada um recebe
+- **Narração pela geometria.** Descreva os três guias como linhas visíveis de calor distorcido, permitindo ao alvo perceber a direção deles antes do impacto, mesmo sem impedir a resolução
+- **NPCs.** Um Uchiha isolado contra um grupo pequeno usa o Kaen Ami para dividir a ameaça entre os atacantes, trocando dano concentrado por controle de múltiplas frentes
