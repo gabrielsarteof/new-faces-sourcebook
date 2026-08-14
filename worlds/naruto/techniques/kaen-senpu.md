@@ -16,9 +16,9 @@ Ninjutsu · Katon · Rank B
 
 ## Sobre a Técnica
 
-O Kaen Senpū é a manifestação de chakra de fogo em redemoinho giratório sustentado ao redor do corpo do praticante. A massa de chamas gira em velocidade suficiente para funcionar como escudo de calor, desfazendo projéteis leves que se aproximam e obrigando qualquer oponente a manter distância do praticante enquanto o turbilhão estiver aceso.
+O Kaen Senpū é a manifestação de chakra de fogo em redemoinho giratório ao redor do corpo do praticante, lançado das mãos contra o alvo. O impacto ergue o atingido do chão e o arremessa girando, e o corpo em rotação queima até virar cinzas no trajeto. É a forma de ataque que define a técnica, um golpe único de curto a médio alcance que converte o próprio corpo do praticante em fonte da chama antes de ela deixar as mãos.
 
-O praticante mantém o turbilhão como zona de controle próximo, pagando a manutenção ativa por turno enquanto ele permanecer girando. A mesma massa comprimida pode ser destacada do corpo e lançada como projétil rotatório contra um alvo único, trocando a função de zona defensiva pela de ataque dirigido, ao custo de encerrar a proteção que o turbilhão mantido oferecia.
+O mesmo redemoinho admite uma segunda aplicação, tática e não canônica em fonte primária: mantido ao redor do corpo em vez de lançado, ele funciona como escudo de calor sustentado, desfazendo projéteis leves e obrigando o oponente a manter distância enquanto o praticante paga a manutenção ativa por turno. As duas aplicações competem pela mesma massa de chama: sustentar a zona não produz o arremesso, e lançar contra um alvo encerra a proteção que a zona mantinha.
 
 ---
 
@@ -48,13 +48,13 @@ O redemoinho produz uma coluna visível de chama em rotação constante e um des
 - **Custo mínimo:** 163
 - **Selos de referência:** 2
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Padrão, aplicável apenas ao modo comprimido e lançado. No modo mantido, o turbilhão não é entrega de alvo único e resolve pela regra de área e campo do Núcleo de Combate
-- **Custo de PS:** somado ao PS que o desperdício do executante já cobra pela régua do Controle de Chakra, conforme a manutenção abaixo
-- **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus, para a ignição inicial do turbilhão
-- **Ação:** dois selos para erguer o turbilhão. Comprimir e lançar como projétil custa uma ação menor adicional e encerra a manutenção
+- **Perfil de Evasão:** Padrão, no lançamento direto contra o alvo. Se mantido ao redor do corpo em vez de lançado, o turbilhão não é entrega de alvo único e resolve pela regra de área e campo do Núcleo de Combate
+- **Custo de PS:** somado ao PS que o desperdício do executante já cobra pela régua do Controle de Chakra, aplicável apenas quando o turbilhão é mantido, conforme a manutenção abaixo
+- **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
+- **Ação:** dois selos, seguidos do arremesso do turbilhão contra o alvo. Manter o redemoinho ao redor do corpo em vez de lançá-lo é a aplicação alternativa, sem custo de ação adicional além da manutenção declarada abaixo
 - **Banda Mínima:** Engajado
 - **Banda Máxima:** Curta
-- **Restrições:** modo mantido ao redor do corpo, ou modo comprimido e lançado contra alvo único, nunca os dois ao mesmo tempo
+- **Restrições:** lançado contra um alvo único, ou mantido ao redor do corpo como zona, nunca os dois ao mesmo tempo
 
 ---
 
@@ -80,9 +80,9 @@ dano = 490 × 0,12 × 1,60 + LV_CC² × 2,5 × 1,0
 dano = 94,08 + LV_CC² × 2,5
 ```
 
-O coeficiente de entrega 0,12 corresponde à categoria de área irradiada do corpo, lendo o modo primário e definidor da técnica, o turbilhão mantido como zona de controle ao redor do praticante. O coeficiente técnico 1,0 corresponde à dependência média, com o degrau de exigência elevado de Plena para Alta pela sustentação prolongada da manutenção ativa.
+O coeficiente de entrega 0,12 corresponde à categoria de área irradiada do corpo: mesmo lançado contra um alvo único, o redemoinho nasce ao redor do corpo do praticante e viaja como a mesma massa larga e giratória, sem afunilar numa linha reta como o jato do Endan, do Gōkakyū ou do Gōryūka. O coeficiente técnico 1,0 corresponde à dependência média, com o degrau de exigência elevado de Plena para Alta pela sustentação prolongada que a aplicação mantida ao redor do corpo exige.
 
-O modo comprimido e lançado como projétil rotatório reaproveita o mesmo valor de dano contra alvo único, sem recalcular coeficiente de entrega separado: a massa de chama muda de aplicação tática, entre zona e projétil, sem mudar de identidade mecânica, e uma segunda régua de conversão duplicaria o que a Seção 5.3 já resolve para esta entrada.
+O uso mantido ao redor do corpo reaproveita o mesmo valor de dano contra quem atravessar a zona, sem recalcular coeficiente de entrega separado: a massa de chama muda de aplicação tática, entre projétil e zona, sem mudar de identidade mecânica, e uma segunda régua de conversão duplicaria o que a Seção 5.3 já resolve para esta entrada.
 
 ---
 
@@ -98,13 +98,13 @@ Par de referência Elite, PV 1.440, pela leitura de par por rank fechada na fich
 | 6 com 1 caminho | 122 | 216 | 15,0% |
 | 6 com 2 caminhos | 160 | 254 | 17,6% |
 
-O Kaen Senpū não alcança o tier Forte. O valor tático da entrada está na zona de controle sustentada, que nega espaço e desfaz projéteis leves sem custo de dano adicional em cada turno de manutenção, e não em ser a maior fonte de dano de contato do rank B desta leva.
+O Kaen Senpū não alcança o tier Forte. O golpe lançado entrega dano competitivo com o Gōryūka, do mesmo rank, e a aplicação mantida ao redor do corpo soma a isso uma zona de controle sem custo de dano adicional em cada turno de manutenção, o que faz da entrada uma opção completa de ataque e de controle de espaço no mesmo custo de XP.
 
 ---
 
 ## Rider de Queimadura
 
-O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, contra qualquer alvo que atravesse a área do turbilhão mantido ou que seja atingido pelo modo comprimido.
+O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, contra o alvo do lançamento ou contra quem atravesse a área do turbilhão mantido.
 
 | Campo | Valor |
 |---|---|
@@ -136,6 +136,7 @@ O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, cont
 
 ## Notas para o Mestre
 
-- **É uma decisão de turno a turno.** Cobre a manutenção a cada início de turno enquanto o jogador mantiver o turbilhão aceso, e deixe clara a escolha entre sustentar a zona ou comprimir e lançar
-- **Narração pela sustentação.** Descreva o desgaste visível de quem mantém o turbilhão por vários turnos seguidos, o suor e a respiração cada vez mais puxada, como sinal de que a manutenção está cobrando
-- **NPCs.** Um defensor de posição usa o Kaen Senpū para negar uma passagem estreita, obrigando o grupo atacante a procurar rota alternativa ou a pagar o preço de atravessar o turbilhão
+- **O lançamento é o uso padrão.** Trate o arremesso contra o alvo como a aplicação de referência da técnica, o corpo girando em chamas até virar cinzas no impacto, e reserve a zona sustentada para quando o jogador declarar essa escolha explicitamente
+- **A manutenção é decisão de turno a turno.** Cobre a manutenção a cada início de turno enquanto o jogador mantiver o turbilhão aceso ao redor do corpo, e deixe clara a escolha entre lançar contra o alvo ou seguir sustentando
+- **Narração pela sustentação.** Quando mantido, descreva o desgaste visível de quem sustenta o turbilhão por vários turnos seguidos, o suor e a respiração cada vez mais puxada, como sinal de que a manutenção está cobrando
+- **NPCs.** Um defensor de posição usa o Kaen Senpū mantido para negar uma passagem estreita, e o mesmo praticante em ofensiva prefere lançá-lo contra o alvo mais perigoso do campo
