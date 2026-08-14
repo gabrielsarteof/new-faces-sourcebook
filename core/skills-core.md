@@ -1,7 +1,7 @@
 ---
 id: core.skills-core
 title: "Núcleo de Perícias"
-version: 2.3
+version: 2.4
 layer: core
 type: core-layer
 status: final
@@ -10,7 +10,7 @@ source-file: Nucleo_de_Pericias_v2_1.md
 
 # Núcleo de Perícias
 
-**Camada Fundamental, fechada para modificação. v2.3, que soma bônus permanente de vantagem e desvantagem ao portão de capacidade da seção 8, ao lado das três emendas factuais herdadas da v2.2: o fechamento da coluna de precisão, a seção 6.1, que fixa a largura presumida na publicação de valores, e a leitura por eixo da exigência de regentes distintos.**
+**Camada Fundamental, fechada para modificação. v2.4, que fecha a contradição entre esta seção 3.4/9 e o Anexo A do Manual de Economia de XP: cada transcendência publicada declara os caminhos que a compõem, e o praticante só a escolhe possuindo todos eles Aprofundados, além do piso geral que já exigia todo caminho possuído Aprofundado para alcançar o LV6. O padrão nasceu no Sensoriamento e vira regra do núcleo nesta versão. v2.3 somou bônus permanente de vantagem e desvantagem ao portão de capacidade da seção 8, ao lado das três emendas factuais herdadas da v2.2: o fechamento da coluna de precisão, a seção 6.1, que fixa a largura presumida na publicação de valores, e a leitura por eixo da exigência de regentes distintos.**
 
 O Núcleo de Perícias define o que é uma perícia, de que camadas ela é feita, quanto
 cada camada vale, como se adquire cada uma e como um teste de perícia se lê. Toda
@@ -122,11 +122,18 @@ limitada por XP e pelo tempo de mesa.
 ### 3.4 Transcendência
 
 A transcendência exige que **todos os caminhos que o praticante possui estejam
-Aprofundados**. Domínio parcial não transcende.
+Aprofundados**. Domínio parcial não transcende. Este é o piso que abre o LV6, não a
+escolha de qual transcendência tomar dentro dele.
+
+**Cada transcendência publicada declara os caminhos que a compõem**, o subconjunto
+específico cujo domínio ela eleva. O praticante só a escolhe possuindo esses caminhos
+nomeados, todos Aprofundados, além do piso geral acima. O mesmo caminho pode compor
+mais de uma transcendência, e a quantidade nomeada por cada uma vem da auditoria do
+próprio efeito, sem número padrão e sem teto.
 
 Ao ser adquirida, todos os caminhos possuídos passam ao estado Transcendido de uma
-vez. Largura cobra em tempo: cada caminho novo é mais um que precisa alcançar o
-Aprofundado antes que o ápice se abra.
+vez, e não só os nomeados pela composição escolhida. Largura cobra em tempo: cada
+caminho novo é mais um que precisa alcançar o Aprofundado antes que o ápice se abra.
 
 ---
 
@@ -427,11 +434,15 @@ compêndio atribui o degrau de uma capacidade.
 
 O LV6 muda a natureza da perícia em vez de aumentar sua grandeza.
 
-**Requisito.** Todos os caminhos possuídos precisam estar Aprofundados.
+**Requisito para o nível.** Todos os caminhos possuídos precisam estar Aprofundados.
+
+**Requisito para a escolha.** Cada transcendência publicada nomeia os caminhos que a
+compõem, e o praticante só a escolhe possuindo esses caminhos Aprofundados. O mesmo
+caminho compõe quantas transcendências a auditoria do domínio sustentar.
 
 **Efeito estrutural.** Todos os caminhos possuídos passam ao estado Transcendido de
-uma vez. A elevação acontece uma única vez, e transcendências adicionais compram
-efeito novo em vez de repetir elevação.
+uma vez, e não só os nomeados pela composição escolhida. A elevação acontece uma única
+vez, e transcendências adicionais compram efeito novo em vez de repetir elevação.
 
 **Efeito categórico.** A transcendência entrega uma habilidade especial que altera
 condição, escopo ou categoria de operação. Remover a condição de uma camada

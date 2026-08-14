@@ -1,7 +1,7 @@
 ---
 id: core.skill-authoring
 title: "Manual de Criação de Perícias"
-version: 7.3
+version: 7.4
 layer: core
 type: methodology
 status: final
@@ -9,6 +9,14 @@ source-file: Manual_de_Criacao_de_Pericias_v7.md
 ---
 
 # Manual de Criação de Perícias
+
+**v7.4 — A seção 13 promove a composição por caminhos nomeados, até aqui exceção do
+Sensoriamento, a regra obrigatória de toda transcendência: cada uma declara o conjunto
+de caminhos que a formam, e o praticante só a escolhe possuindo-os Aprofundados, além
+do piso geral que já exigia todo caminho possuído Aprofundado para abrir o LV6. Fecha
+a contradição que `core/skills-core.md` v2.4 §3.4/9 e `core/xp-economy.md` v2.7 Anexo A
+também fecham na mesma passada, contra uma leitura anterior do Anexo A que nunca chegou
+a ser implementada.**
 
 **v7.3 — Abre exceção de preço para a inclinação de extensão manifestada (§3) e para
 os caminhos que a instituem (§14.2) à v7.2. A v7.2 publicou a regra da inclinação de
@@ -403,6 +411,18 @@ sistema, e não como o praticante se relaciona com ela, a escala está no docume
 A transcendência é a habilidade do LV6. Ela exige todos os caminhos possuídos
 aprofundados, eleva todos eles de uma vez e entrega um efeito categórico.
 
+**A composição: cada transcendência nomeia os caminhos que a formam.** O piso do
+parágrafo anterior abre o LV6 e não escolhe a transcendência dentro dele. Cada
+transcendência publicada declara, à parte, o conjunto específico de caminhos cujo
+domínio ela representa, nomeados pelo nome do caminho. O praticante só a escolhe
+possuindo esses caminhos Aprofundados, além do piso geral. A quantidade sai da
+auditoria de cada transcendência, sem número padrão e sem teto: uma cujo efeito nasce
+inteiro dentro de um único caminho nomeia só ele, e uma cujo efeito atravessa a perícia
+nomeia quantos caminhos o próprio efeito, lido com cuidado, já cita. O mesmo caminho
+pode compor mais de uma transcendência. `worlds/naruto/skills/sensory.md` é o
+precedente publicado — seis transcendências, cada uma com dois ou três caminhos
+nomeados, um deles reaproveitado em duas.
+
 **A barra: transcendência revoga uma regra nomeada do sistema.** Este é o teste de
 admissão, e ele reprova a maior parte das primeiras propostas. Aumentar um número,
 somar uma vaga ou melhorar um efeito é upgrade, e upgrade pertence ao LV5. Transcender
@@ -420,19 +440,24 @@ fazia antes, em nenhum nível e por nenhum caminho.
 
 **Estrutura obrigatória de cada transcendência.**
 
-1. A linha de revogação.
-2. A habilidade própria, com os oito campos e números resolvidos.
-3. A versão LV6 de cada efeito do caminho tocado, quando ela tocar um caminho.
+1. A linha de pré-requisito, no formato **pré-requisito: caminho, caminho e caminho,
+   todos Aprofundados**, nomeando a composição.
+2. A linha de revogação.
+3. A habilidade própria, com os oito campos e números resolvidos.
+4. A versão LV6 de cada efeito de cada caminho da composição, quando ela tocar caminho.
 
-A terceira parte é a mais esquecida. Transcendência que toca um caminho eleva os efeitos
-daquele caminho, e apenas daquele. Transcendência que não toca caminho algum, como as de
-abertura de categoria, não gera versão LV6 de efeito nenhum.
+A quarta parte é a mais esquecida. Transcendência que toca caminho eleva os efeitos de
+cada caminho da própria composição, e apenas deles. Transcendência que não toca caminho
+algum, como as de abertura de categoria, não gera versão LV6 de efeito nenhum, mesmo
+declarando composição para fins de pré-requisito.
 
 **Quantidade e cobertura.** Não existe teto de transcendências, e não existe obrigação de
-cobrir todos os caminhos. Caminho cujos efeitos leem teste cresce sozinho na coluna
-transcendida e passa bem sem transcendência dedicada. Caminho sem transcendência por
-falta de âncora no cenário se declara como pendência, e forçar uma para preencher a
-tabela é o vício que esta seção existe para impedir.
+cobrir todos os caminhos da perícia pelo conjunto das transcendências. Caminho cujos
+efeitos leem teste cresce sozinho na coluna transcendida e passa bem sem transcendência
+dedicada. Caminho sem transcendência por falta de âncora no cenário se declara como
+pendência, e forçar uma para preencher a tabela é o vício que esta seção existe para
+impedir. A obrigação de composição vale por transcendência publicada, não pelo conjunto:
+uma transcendência sem os caminhos que a nomeiam não é uma transcendência ainda.
 
 **Nenhuma transcendência soma valor plano ao teste**, e nenhuma concede bônus de
 atributo. Transcendências adicionais compram efeito novo de outra família, sem repetir a

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.23
+version: 2.24
 layer: scenario
 scenario: naruto
 type: skill
@@ -10,6 +10,8 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 ---
 
 # Índice de Perícias do Sistema
+
+**v2.24. A composição por caminhos nomeados, exceção do Sensoriamento desde a v2, vira regra obrigatória de toda transcendência, fechando a contradição de três documentos de núcleo listada há passadas na seção 8. Controle de Chakra sobe para v3.4 como piloto: as treze transcendências ganham pré-requisito próprio, e quatro dos cinco caminhos sem transcendência dedicada (Composição, Emissão, Ancoragem, Cadência) passam a compor outras. As outras perícias v6 seguem com composição pendente, registrada como errata nova na seção 8.**
 
 **v2.23. Três perícias novas do degrau Físico: Katana, armada, e Wing Chun e Aikidō, desarmadas.**
 
@@ -446,10 +448,11 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Vinte e cinco, das quais três aplicadas. Vinte e duas seguem abertas.
+Vinte e seis, das quais quatro aplicadas. Vinte e duas seguem abertas.
 
 | Errata | Documento |
 |---|---|
+| Publicar a composição por caminhos de cada transcendência, pelo padrão que o Sensoriamento e o Controle de Chakra v3.4 já cumprem — Manual de Criação de Perícias v7.4 §13 tornou isso regra e não exceção | Barreira, Doton, Enton, Fūinjutsu, Futon, Genjutsu, Katon, Kunai, Kyūinjutsu, Leque, Ninjutsu Médico, Passagem, Raiton, Shuriken, Suiton, Yang, Yin, Aikidō, Katana, Kenpo, Taekwondo, Taichi, Tantō, Wing Chun |
 | ~~Integrar o Adendo da seção 4.1.3 ao corpo principal~~ — **aplicada na v2.3** | Manual de Criação de Jutsus v2 |
 | ~~Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações~~ — **aplicada na v7.1** | Manual de Criação de Perícias v7, seção 7 |
 | ~~Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um~~ — **aplicada na v2.2** | Núcleo de Perícias v2, seção 1 |
@@ -469,7 +472,7 @@ Vinte e cinco, das quais três aplicadas. Vinte e duas seguem abertas.
 | Publicar os limiares numéricos de margem de vitória em teste oposto, hoje ausentes em toda a camada de núcleo | Núcleo do Sistema |
 | Declarar que a vantagem Gênio Bruto, linha de Resistência, não se soma à exceção de Enraizamento do Taichi para a mesma manobra e o mesmo par de atributos | core/advantages.md, vantagem Gênio Bruto |
 | Publicar régua de elevação de Guarda por armadura ou item, hoje sem termo publicado em documento nenhum, pendência que Sem Dobra e a Leitura de Fresta do Tantō dependem para disparar | Núcleo de Combate v1 |
-| A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por oito documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi, Tantō, Leque, Kunai, Shuriken | `core.xp-economy`, Anexo A |
+| ~~A contradição entre `core.skills-core` §3.4/9, que exige todos os caminhos possuídos aprofundados para transcender, e o Anexo A de `core.xp-economy`, que fala em ao menos um caminho relacionado, segue aberta e agora citada por oito documentos que leem `core.skills-core` por precedência de camada: Barreira, Kenpo, Taekwondo, Taichi, Tantō, Leque, Kunai, Shuriken~~ — **aplicada em `core.skills-core` v2.4, `core.xp-economy` v2.7 e Manual de Criação de Perícias v7.4**: o piso geral de skills-core permanece, e cada transcendência passa a declarar também os caminhos que a compõem, pelo padrão que o Sensoriamento já publicava. Os oito documentos citados, e toda perícia v6 sem composição própria ainda escrita, seguem pendentes de receber a composição pelas próprias transcendências | `core.xp-economy`, Anexo A |
 | Abrir linha de preço própria para o Ápice de Extensão Manifestada, hoje lido pela régua de transcendência adicional | Manual de Economia de XP v2.2, seção 7 |
 | Prever a terceira leitura de largura, a do Ápice de extensão manifestada, que soma largura de ápice com especialização aprofundada porque a seção 13.1 o desliga do LV6 — vale para todo Ápice já publicado, não só o do Doton | Núcleo de Perícias v2.2, seção 6.1 |
 | Publicar a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje declarada só em nota de fronteira local por documento — o escopo já alcança a indiscriminação do Futton, o Rescaldo do Puraton, a transparência do Hariton, a Terra Morta do Kuroi Kaminari e a Absorção do Ciclone | Núcleo do Sistema, sem seção própria ainda |

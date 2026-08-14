@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 2.6
+version: 2.7
 layer: core
 type: system
 status: final
@@ -177,7 +177,7 @@ Erudição:  LV4 3506 / LV5 5737
 
 Cada caminho extra adquirido também eleva o bônus geral da perícia pelo fator de largura declarado no Núcleo de Perícias v2, de 0,10 sobre a Base de Nível.
 
-**Transcendência** é o ápice da perícia no LV6. A primeira transcendência está embutida no custo normal do LV6 e exige ao menos um caminho relacionado em LV5. Transcendências extras custam o preço cheio do LV6 da categoria.
+**Transcendência** é o ápice da perícia no LV6. A primeira transcendência está embutida no custo normal do LV6 e exige todos os caminhos possuídos em LV5, além dos caminhos que a transcendência escolhida declara como composição própria, também em LV5. Transcendências extras custam o preço cheio do LV6 da categoria.
 
 ## 8. Naturezas
 
@@ -206,7 +206,7 @@ As naturezas de transformação de chakra não se compram nesta moeda. A naturez
 
 ## Anexo A. Decisões de auditoria consolidadas
 
-1. A transcendência exige ao menos um caminho relacionado em LV5. A implementação que exigia todos os caminhos relacionados está incorreta e deve ser corrigida no código.
+1. ~~A transcendência exige ao menos um caminho relacionado em LV5. A implementação que exigia todos os caminhos relacionados está incorreta e deve ser corrigida no código.~~ **Superada na v2.7**, em favor da leitura de `core/skills-core.md` v2.4 §3.4/9: a transcendência exige todos os caminhos possuídos em LV5, e a transcendência escolhida exige adicionalmente todos os caminhos que ela mesma declara como composição. "Ao menos um" nunca esteve implementado e contradizia tanto o núcleo quanto o precedente publicado do Sensoriamento, que já nomeava dois ou três caminhos por transcendência antes desta decisão existir.
 2. Caminhos existem apenas em LV4 e LV5. As tabelas de caminho LV6 presentes no código são dados mortos e devem ser removidas.
 3. O XP Base é 3000 para todos os sistemas. Referências antigas a base 2500 estão obsoletas.
 4. O comentário de migração sobre a fórmula antiga de sorte é resíduo de código sem efeito de regra e deve ser limpo.

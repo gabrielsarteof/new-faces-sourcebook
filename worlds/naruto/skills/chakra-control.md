@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.chakra-control
 title: "Controle de Chakra"
-version: 3.3
+version: 3.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Controle_de_Chakra_v2_2.md
 ---
 
-CONTROLE DE CHAKRA (チャクラコントロール) — v3.3
+CONTROLE DE CHAKRA (チャクラコントロール) — v3.4
 
 Atributo: SAB
 Categoria: Chakra (×1,4)
@@ -191,9 +191,10 @@ NÍVEL 6: TRANSCENDÊNCIA (escolha 1)
 Base 50 · Inclinação 25 · Especialização 55 a 70 (transcendida)
 Requisito: todos os caminhos possuídos no estado aprofundado
 
-O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. Transcender cedo com poucos caminhos ou tarde com muitos é decisão real de construção. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos do caminho tocado ganham a versão LV6 declarada.
+O LV6 é a transcendência. Todos os caminhos possuídos passam a transcendidos no mesmo ato, e caminho comprado depois nasce aberto, aprofunda por compra e permanece no teto aprofundado. Transcender cedo com poucos caminhos ou tarde com muitos é decisão real de construção. O requisito acima abre o LV6, não escolhe a transcendência: cada uma nomeia, além dele, o pré-requisito próprio de caminhos que a compõem, e o portador só a escolhe possuindo-os Aprofundados. Cada transcendência revoga uma regra nomeada do sistema, e os efeitos de cada caminho da própria composição ganham a versão LV6 declarada.
 
 MEDIDA LIVRE (elevação de escopo · Modulação)
+Pré-requisito: Modulação, Composição e Dosagem, todos Aprofundados.
 Revoga: a ficha da técnica fixa a medida da execução.
 └─ A escada de degraus deixa de existir. O portador declara qualquer ponto contínuo entre o mínimo de existência da técnica e o próprio Limite de Saída, e o rank deixa de travar o piso e o teto do repertório inteiro
 └─ A régua de exigência permanece valendo, e a técnica empurrada acima do nominal sobe degraus que o portador paga pelo portão numérico. O coeficiente de entrega não muda, e volume despejado em obra de conversão pobre continua produzindo gasto grande com dano medíocre
@@ -201,6 +202,7 @@ Revoga: a ficha da técnica fixa a medida da execução.
 └─ Sobrecarga LV6: o rendimento fixa em 1,50 sem ler teste, e a carga deixa de subir degrau na régua de exigência
 
 RESERVA DIFERIDA (elevação de escopo · Acúmulo)
+Pré-requisito: Acúmulo, Firmeza e Transferência, todos Aprofundados.
 Revoga: todo gasto sai da reserva atual.
 └─ Deposita 2% da RC máxima por dia em selo corporal, sem decair, fora do Índice de Volume e sem emitir assinatura, com capacidade igual ao menor entre 300% da RC máxima e o teste de Retenção com Acúmulo multiplicado por dez, resolvendo 1.850 no LV6
 └─ Libera qualquer volume por ação menor, e o chakra próprio liberado ignora o teto de recepção, porque o corpo não queima com o que é dele
@@ -210,6 +212,7 @@ Revoga: todo gasto sai da reserva atual.
 └─ Saque LV6: o depósito deixa de somar ao raio de assinatura
 
 MÃO AUSENTE (elevação de escopo · Permanência)
+Pré-requisito: Permanência e Ancoragem, ambos Aprofundados.
 Revoga: a moldagem exige o moldador.
 └─ O degrau autônomo abre. A obra deixa de exigir presença, consciência ou proximidade, e existe pelos próprios termos até a duração vencer ou até ser desfeita por quem a enfrente
 └─ Duração no degrau autônomo: teste de Retenção com Permanência ÷ 10 em horas, resolvendo 18 horas
@@ -218,6 +221,7 @@ Revoga: a moldagem exige o moldador.
 └─ Vigília Solta LV6: obras autônomas simultâneas até três, com a ignição de cada uma como único custo
 
 CONFLUÊNCIA (elevação de escopo · Colaboração)
+Pré-requisito: Colaboração e Emissão, ambos Aprofundados.
 Revoga: a fusão exige compasso e lê o mais fraco.
 └─ A condição de sincronia deixa de existir. O portador co-molda com qualquer executor em contato ou alcance declarado, sem vínculo, sem treino e sem o turno de compasso
 └─ A fusão lê o maior teste entre os participantes no lugar do menor, resolvendo o multiplicador em 1,48. O portador vira a coluna que sustenta a obra alheia em vez do gargalo dela
@@ -226,12 +230,14 @@ Revoga: a fusão exige compasso e lê o mais fraco.
 └─ Aporte Assimétrico LV6: o aporte deixa de ocupar ação e vira fluxo de fundo, com o portador alimentando obra aliada enquanto executa a própria
 
 SUSTENTAÇÃO PARALELA (elevação de escopo · Simultaneidade)
+Pré-requisito: Simultaneidade e Emissão, ambos Aprofundados.
 Revoga: a sustentação ocupa vaga.
 └─ A contagem de vagas deixa de existir. O portador sustenta quantas obras o Limite de Saída pagar, e o único limite passa a ser a soma das manutenções contra o LS do turno
 └─ Segunda Vaga LV6: o limiar de colapso volta a ler cada sustentação em separado, e o golpe que derruba uma deixa as outras de pé
 └─ Janela Dupla LV6: janelas simultâneas até o número de pontos de emissão declarados, exigindo Emissão
 
 CALIBRAÇÃO (abertura de categoria · Dosagem)
+Pré-requisito: Dosagem e Transferência, ambos Aprofundados.
 Revoga: chakra tem dono.
 └─ Chakra externo em posse do portador, recebido, selado ou de bijū, é moldado como próprio: alimenta técnicas e não causa dano de incompatibilidade
 └─ Chakra enviado pelo portador chega calibrado à assinatura do receptor, que não paga incompatibilidade nem teste de integração
@@ -239,16 +245,19 @@ Revoga: chakra tem dono.
 [canon direto: a moldagem por receptor do feito de guerra]
 
 DOMÍNIO PERENE (remoção de condição)
+Pré-requisito: Refino, Modulação, Concisão, Cadência, Contenção, Permanência, Acúmulo e Transferência, todos Aprofundados.
 Revoga: a verificação da condição de uma inclinação à escolha.
-└─ A Inclinação Total escolhida entra em todo teste da perícia, com o efeito correndo pelas réguas: desperdício, modulação, interface, janela, supressão, permanência, acúmulo e doação leem o teste maior
+└─ A Inclinação Total escolhida entra em todo teste da perícia, com o efeito correndo pelas réguas: desperdício, modulação, interface, janela, supressão, permanência, acúmulo e doação leem o teste maior. As oito réguas correspondem, na ordem, aos oito caminhos do pré-requisito, e é por possuí-los todos Aprofundados que a escolha de qualquer inclinação inteira se sustenta
 
 FLUXO INCONDICIONAL (remoção de condição · Refino)
+Pré-requisito: Refino Aprofundado.
 Revoga: o preço do volume e o preço do tempo.
 └─ Sobretaxa de volume zero em toda compra futura desta perícia
 └─ Manutenção Espaçada LV6: manutenção de sustentadas deixa de vencer, custando apenas a ignição
 └─ Moldagem sem Perda LV6: a RC retorna em qualquer interrupção, sem exceção
 
 APAGAMENTO (elevação de escopo · Contenção)
+Pré-requisito: Contenção Aprofundada.
 Revoga: agir revela.
 └─ Raio suprimido zero, e a trava dos 15 m morre: o portador executa técnicas apagado, o precedente Ōtsutsuki na letra
 └─ A troca permanece: apagado, não sente chakra alheio
@@ -256,16 +265,19 @@ Revoga: agir revela.
 └─ Defesa do Circuito LV6: revoga a leitura pelo maior valor declarada na fronteira com Genjutsu. Contra imposição de genjutsu, a recusa concedida pelo ofício da ilusão e a conversão desta especialização passam a somar, alcançando 90 para quem pagou as duas escadas até o topo. Quem não estuda a ilusão continua lendo apenas a conversão, e a transcendência lhe entrega este degrau como ponte disponível e não como número
 
 MOLDAGEM MUDA (elevação de escopo · Concisão)
+Pré-requisito: Concisão Aprofundada.
 Revoga: a preparação legível.
 └─ Selos reais zero em todo o repertório, com mãos ocupadas, feridas ou amarradas irrelevantes
 └─ Detecção por postura de selos não existe contra o portador, e a leitura antecipada de natureza e timing é impossível, restando ao Sharingan a moldagem no instante do disparo
 
 MOLDAGEM INQUEBRÁVEL (elevação de escopo · Firmeza)
+Pré-requisito: Firmeza Aprofundada.
 Revoga: a interrupção.
 └─ O limiar de ruptura deixa de existir: dano não quebra moldagem em curso, CC duro não interrompe automaticamente e CC suave não soma turno de janela; a técnica do portador sempre completa ou falha pelos próprios termos
 └─ Vigor Persistente LV6: ignora as penalidades de Exaustão de Chakra de todos os graus abaixo do colapso final
 
 MARÉ PARTILHADA (elevação de escopo · Transferência)
+Pré-requisito: Transferência e Emissão, ambos Aprofundados.
 Revoga: o contato, o receptor único e o teto do receptor.
 └─ Doa a 10 m sem contato, a até 3 receptores dividindo o envio
 └─ O receptor pode exceder a própria RC máxima em até 50%, com o excedente decaindo 10% por turno
@@ -274,12 +286,13 @@ Revoga: o contato, o receptor único e o teto do receptor.
 └─ Receptividade LV6: a doação do portador chega limpa, fora do teto de incompatibilidade do receptor
 
 REDE VIVA (elevação de escopo · Sinal)
+Pré-requisito: Sinal e Simultaneidade, ambos Aprofundados.
 Revoga: o sinal é um disparo.
 └─ O sinal vira canal sustentado com até 5 aliados de assinatura conhecida, posição e estado percebidos continuamente, ordem transmitida por ação livre uma vez por turno
 └─ Custo de 20 RC por turno, ocupando a vaga de sustentação, com a frequência ajustada mantendo a rede inaudível e irrastreável
 [atribuído na coordenação da Aliança, proposta na mecânica, com o fio canônico da guerra pertencendo ao clã Yamanaka]
 
-Composição, Emissão, Impregnação, Ancoragem e Cadência permanecem sem transcendência dedicada por pendência declarada: os efeitos deles leem teste ou crescem pela coluna transcendida, e nenhuma revogação com âncora canônica limpa emergiu da auditoria.
+Composição, Emissão, Impregnação, Ancoragem e Cadência permanecem sem transcendência dedicada por pendência declarada: os efeitos deles leem teste ou crescem pela coluna transcendida, e nenhuma revogação com âncora canônica limpa emergiu da auditoria. Isso não os deixa fora do LV6: Composição compõe Medida Livre, Emissão compõe Confluência, Sustentação Paralela e Maré Partilhada, Ancoragem compõe Mão Ausente, e Cadência compõe Domínio Perene. Só Impregnação segue sem aparecer em pré-requisito nenhum, porque nenhuma transcendência publicada toca sustentar chakra dentro de matéria alheia.
 
 ARQUÉTIPOS DE ÁPICE: Tsunade é Reserva Diferida sobre Acúmulo, Firmeza e Transferência. O infiltrador perfeito é Apagamento sobre Moldagem Muda e Modulação. O pilar da guerra é Confluência sobre Calibração, Maré Partilhada e Rede Viva. O especialista de forma é Medida Livre sobre Composição, Dosagem e Simultaneidade.
 
