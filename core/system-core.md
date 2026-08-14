@@ -139,7 +139,7 @@ Escala de resultado (a margem define o grau):
 | Falha Justa | falha sem complicação |
 | Falha Grave | falha com complicação ativa |
 
-Pares de atributo por tipo de teste: ver *Cálculos Rápidos — Testes*.
+Leitura de teste, portão e cálculos derivados: ver [Cálculos Rápidos de Testes](quick-calculations.md).
 
 ---
 
