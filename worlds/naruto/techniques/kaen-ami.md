@@ -52,6 +52,7 @@ Os três guias são visíveis como linhas de calor distorcendo o ar, convergente
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** três selos, seguidos do envio simultâneo dos três guias
 - **Restrições:** até três alvos distintos, distância curta a média, cada guia resolve a própria esquiva quando dirigido a alvos separados
+- **Aftermath:** leve, pela Seção 1.2 do Manual de Criação de Jutsus. PS igual a 20% do custo pago pela execução, cobrado após a resolução
 
 ---
 

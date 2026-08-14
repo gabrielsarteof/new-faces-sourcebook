@@ -54,6 +54,7 @@ O calor concentrado da descarga é perceptível apenas a quem está ao alcance d
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** ação de ataque corpo a corpo, contato direto da palma
 - **Restrições:** alcance Engajado exclusivo, sem trajetória nem projeção. A técnica não executa contra alvo fora do contato físico
+- **Aftermath:** leve, pela Seção 1.2 do Manual de Criação de Jutsus. PS igual a 20% do custo pago pela execução, cobrado após a resolução
 
 ---
 

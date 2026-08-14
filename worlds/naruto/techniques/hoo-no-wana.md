@@ -52,6 +52,7 @@ As marcações são visíveis a quem examina o ponto ou o alvo de perto, como um
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus, referente à colocação das marcas. A detonação de cada marca já colocada é ação livre, pelo efeito Palavra de Fogo do caminho Pavio, ou ação menor quando disparada por escolha deliberada fora de reação
 - **Ação:** dois selos, seguidos da distribuição simultânea das marcações
 - **Restrições:** validade das marcas conforme a contagem de turnos do efeito Carga Dormente do caminho Pavio, sem redeclaração nesta ficha
+- **Aftermath:** leve, pela Seção 1.2 do Manual de Criação de Jutsus. PS igual a 20% do custo pago por detonação, cobrado após a resolução
 
 ---
 

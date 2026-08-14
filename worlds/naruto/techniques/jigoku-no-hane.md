@@ -55,6 +55,7 @@ A salva ilumina o campo como qualquer disparo de fogo comum até o instante da a
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** dois selos, seguidos do disparo simultâneo da salva completa
 - **Restrições:** distância curta a média, alvo único ou grupo próximo dentro da dispersão da salva, exige provisão de shuriken suficiente para a quantidade declarada
+- **Aftermath:** leve, pela Seção 1.2 do Manual de Criação de Jutsus. PS igual a 20% do custo pago pela execução, cobrado após a resolução
 
 ---
 
