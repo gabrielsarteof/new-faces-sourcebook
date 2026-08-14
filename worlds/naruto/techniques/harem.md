@@ -91,3 +91,4 @@ Nenhum além do que a criação dos clones subjacentes já impõe pela ficha do 
 - **A escala é o produto real:** o Harem não é mais forte por técnica nova, é mais forte por quantidade. Deixe o número de clones visíveis fazer o trabalho mecânico, sem inflar a régua além do que a fórmula já prevê.
 - **Não cobre custo duplicado:** confirme que o jogador já pagou pela criação dos clones e pela aquisição do Oiroke antes de aplicar esta ficha. O Harem nunca substitui esses custos.
 - **PdMs:** raramente vale o investimento de XP para antagonistas, que normalmente não têm acesso simultâneo às três fichas. Reserve o combo a personagens dedicados à linha do Naruto ou a NPCs cômicos específicos da campanha.
+- **Interface pendente:** o teste social provisório sobre CAR herda a mesma lacuna já registrada nas fichas do Henge e do Oiroke, `[pendente]` até a Perícia de Lábia nascer.

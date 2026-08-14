@@ -241,13 +241,13 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2.1 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.4 | skill | final |
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.3 | skill | final |
-| [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.2 | skill | final |
+| [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.3 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 4 | skill | final |
 | [Kunai](worlds/naruto/skills/kunai.md) | `naruto.skill.kunai` | 1 | skill | final |
 | [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1 | skill | final |
 | [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.1 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.20 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.21 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.1 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
@@ -270,8 +270,8 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 7 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.1 | pending-patch | applied |
 | [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.1 | pending-patch | pending-patch |
-| [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.10 | methodology | final |
-| [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1.1 | system | final |
+| [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.11 | methodology | final |
+| [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1.2 | system | final |
 | [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.4 | system | final |
 | [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2.1 | system | final |
 
