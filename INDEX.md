@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 176 documentos · 15 de núcleo · 161 de cenário
+**Total:** 179 documentos · 15 de núcleo · 164 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -37,10 +37,13 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
+| [Aikidō](worlds/common/skills/aikido.md) | `common.skill.aikido` | 1 | skill | final |
+| [Katana](worlds/common/skills/katana.md) | `common.skill.katana` | 1 | skill | final |
 | [Kenpo](worlds/common/skills/kenpo.md) | `common.skill.kenpo` | 1 | skill | final |
 | [Taekwondo](worlds/common/skills/taekwondo.md) | `common.skill.taekwondo` | 1 | skill | final |
 | [Taichi](worlds/common/skills/taichi.md) | `common.skill.taichi` | 1 | skill | final |
 | [Tantō](worlds/common/skills/tanto.md) | `common.skill.tanto` | 1 | skill | final |
+| [Wing Chun](worlds/common/skills/wing-chun.md) | `common.skill.wing-chun` | 1 | skill | final |
 
 ## Jujutsu Kaisen
 
@@ -249,7 +252,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1 | skill | final |
 | [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.1 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.22 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.23 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.1 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.2 | skill | final |
