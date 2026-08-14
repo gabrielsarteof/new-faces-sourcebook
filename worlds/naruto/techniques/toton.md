@@ -39,11 +39,11 @@ A técnica não possui natureza elemental. O custo é único para qualquer shino
 
 | RC nominal | Custo mínimo | Custo de XP |
 |---|---|---|
-| 50 | 16 | 489 |
+| 50 | 16 | 488 |
 
 ```
 posição = (50 − 40) ÷ (130 − 40) = 0,111
-XP_base = 400 + 0,111 × (1.200 − 400) = 489
+XP_base = 400 + 0,111 × (1.200 − 400) = 488,89, por piso 488
 ```
 
 ---

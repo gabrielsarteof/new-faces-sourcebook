@@ -123,7 +123,7 @@ O usuário vitaliza o corpo com chakra e cruza uma banda de distância em explos
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV2 · Moldagem Plena · Kakuremino no Jutsu
-**XP:** 489
+**XP:** 488
 
 O usuário se torna invisível a olho nu contra qualquer fundo, sem depender de objeto físico. A invisibilidade sustenta durante deslocamento e observação, mas qualquer ação ofensiva do usuário a encerra de forma automática e sem teste, o que torna a técnica ferramenta de reconhecimento e fuga, e não de combate direto.
 
