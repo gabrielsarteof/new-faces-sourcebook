@@ -1,7 +1,7 @@
 ---
 id: core.reference-tables
 title: "Tabelas de Referência de Personagens"
-version: 1
+version: 1.1
 layer: core
 type: reference-table
 status: final
@@ -44,15 +44,15 @@ As faixas medem **investimento em atributos** — o que move pools e testes. XP 
 
 | Faixa | Nível-base | XP em atributos |
 |---|---|---|
-| Civil comum | 4 | ~2,070 |
-| Treinado | 10 | ~8,280 |
-| Veterano | 17 | ~25,155 |
-| Elite | 24 | ~59,040 |
-| Especial | 33 | ~138,510 |
-| Ápice | 50 | ~446,940 |
-| Transcendente | 60 | ~757,170 |
+| Civil comum | 4 | ~2,160 |
+| Treinado | 10 | ~9,765 |
+| Veterano | 17 | ~32,265 |
+| Elite | 24 | ~78,795 |
+| Especial | 33 | ~189,135 |
+| Ápice | 50 | ~620,550 |
+| Transcendente | 60 | ~1,055,790 |
 
-## Civil comum  (nível-base 4, ~2,070 XP em atributos)
+## Civil comum  (nível-base 4, ~2,160 XP em atributos)
 
 | Perfil | FOR | VEL | DES | DEF | INT | SAB | RES | PRE | CAR | PV | PS |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -62,7 +62,7 @@ As faixas medem **investimento em atributos** — o que move pools e testes. XP 
 | Conjurador | 1 | 4 | 4 | 2 | 5 | 5 | 4 | 4 | 5 | 150 | 96 |
 | Frágil/Suporte | 3 | 4 | 4 | 3 | 5 | 5 | 3 | 4 | 5 | 180 | 84 |
 
-## Treinado  (nível-base 10, ~8,280 XP em atributos)
+## Treinado  (nível-base 10, ~9,765 XP em atributos)
 
 | Perfil | FOR | VEL | DES | DEF | INT | SAB | RES | PRE | CAR | PV | PS |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -72,7 +72,7 @@ As faixas medem **investimento em atributos** — o que move pools e testes. XP 
 | Conjurador | 3 | 10 | 10 | 5 | 12 | 12 | 10 | 9 | 14 | 390 | 240 |
 | Frágil/Suporte | 6 | 9 | 9 | 6 | 12 | 13 | 7 | 10 | 14 | 390 | 192 |
 
-## Veterano  (nível-base 17, ~25,155 XP em atributos)
+## Veterano  (nível-base 17, ~32,265 XP em atributos)
 
 | Perfil | FOR | VEL | DES | DEF | INT | SAB | RES | PRE | CAR | PV | PS |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -82,7 +82,7 @@ As faixas medem **investimento em atributos** — o que move pools e testes. XP 
 | Conjurador | 5 | 16 | 17 | 8 | 20 | 20 | 17 | 15 | 23 | 660 | 396 |
 | Frágil/Suporte | 10 | 16 | 16 | 10 | 19 | 21 | 12 | 18 | 23 | 660 | 336 |
 
-## Elite  (nível-base 24, ~59,040 XP em atributos)
+## Elite  (nível-base 24, ~78,795 XP em atributos)
 
 | Perfil | FOR | VEL | DES | DEF | INT | SAB | RES | PRE | CAR | PV | PS |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -92,7 +92,7 @@ As faixas medem **investimento em atributos** — o que move pools e testes. XP 
 | Conjurador | 8 | 23 | 24 | 11 | 28 | 28 | 24 | 21 | 32 | 960 | 564 |
 | Frágil/Suporte | 15 | 22 | 22 | 15 | 27 | 30 | 17 | 25 | 32 | 960 | 468 |
 
-## Especial  (nível-base 33, ~138,510 XP em atributos)
+## Especial  (nível-base 33, ~189,135 XP em atributos)
 
 | Perfil | FOR | VEL | DES | DEF | INT | SAB | RES | PRE | CAR | PV | PS |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -102,7 +102,7 @@ As faixas medem **investimento em atributos** — o que move pools e testes. XP 
 | Conjurador | 11 | 32 | 32 | 16 | 38 | 39 | 32 | 29 | 44 | 1290 | 768 |
 | Frágil/Suporte | 20 | 30 | 30 | 20 | 37 | 40 | 24 | 34 | 44 | 1320 | 648 |
 
-## Ápice  (nível-base 50, ~446,940 XP em atributos)
+## Ápice  (nível-base 50, ~620,550 XP em atributos)
 
 | Perfil | FOR | VEL | DES | DEF | INT | SAB | RES | PRE | CAR | PV | PS |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -112,7 +112,7 @@ As faixas medem **investimento em atributos** — o que move pools e testes. XP 
 | Conjurador | 16 | 47 | 49 | 23 | 58 | 59 | 49 | 43 | 67 | 1950 | 1152 |
 | Frágil/Suporte | 31 | 46 | 46 | 31 | 56 | 61 | 36 | 51 | 67 | 2010 | 984 |
 
-## Transcendente  (nível-base 60, ~757,170 XP em atributos)
+## Transcendente  (nível-base 60, ~1,055,790 XP em atributos)
 
 | Perfil | FOR | VEL | DES | DEF | INT | SAB | RES | PRE | CAR | PV | PS |
 |---|---|---|---|---|---|---|---|---|---|---|---|

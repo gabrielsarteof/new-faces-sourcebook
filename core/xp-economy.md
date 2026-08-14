@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 2.7
+version: 2.8
 layer: core
 type: system
 status: final
@@ -73,21 +73,21 @@ Contratos de vínculo com espécie invocável também correm nesta moeda quando 
 Custo individual para subir um atributo para o nível L:
 
 ```txt
-Custo(L) = round((50 + 2.2 × (L² - 1)) / 5) × 5
+Custo(L) = round((50 + 1.55 × (L² - 1)) / 5) × 5
 ```
 
 Marcos de custo individual:
 
 ```txt
-LV1  50    LV10 270   LV26 1535
-LV5  105   LV18 760   LV34 2590
+LV1  50    LV10 205   LV26 1095
+LV5  85    LV18 550   LV34 1840
 ```
 
 Custo acumulado nos marcos de requisito de perícia:
 
 ```txt
-LV2  105    LV12 2010   LV26 14900
-LV6  490    LV18 5510   LV34 31750
+LV2  105    LV12 1590   LV26 10865
+LV6  430    LV18 4135   LV34 22855
 ```
 
 Modificadores que alteram o preço final de atributo: descontos de clã por atributo, e reduções de custo concedidas por vantagem que declare redução de custo no próprio texto. Bônus de XP de treino ficam fora desta lista, porque atuam no slot de Talento do Manual Global de Treinamento, e nenhuma concessão de rendimento se converte em desconto de preço. O arredondamento por floor é aplicado em cada nível pago, individualmente.
@@ -211,4 +211,5 @@ As naturezas de transformação de chakra não se compram nesta moeda. A naturez
 3. O XP Base é 3000 para todos os sistemas. Referências antigas a base 2500 estão obsoletas.
 4. O comentário de migração sobre a fórmula antiga de sorte é resíduo de código sem efeito de regra e deve ser limpo.
 5. O cálculo de XP Ficha por Protagonismo, Índice de Idade e Fator de História, descrito neste manual até a v2.2, foi revogado por `core/canon-factor.md`, hoje em v3. O item 3 acima, sobre o XP Base de 3000, vale apenas para o histórico deste manual e não descreve a base do cálculo vigente.
-6. O coeficiente quadrático da fórmula de custo de atributo subiu de 1,1 para 2,2 na v2.6, dobrando o preço de progressão em todos os níveis acima de LV1. `core/system-core.md` publica a mesma fórmula em espelho e sobe junto.
+6. O coeficiente quadrático da fórmula de custo de atributo subiu de 1,1 para 2,2 na v2.6, dobrando o preço de progressão em todos os níveis acima de LV1. `core/system-core.md` publica a mesma fórmula em espelho e sobe junto. **Recalibrado na v2.8**, ver item 7.
+7. O coeficiente 2,2 da v2.6 precificava um atributo isolado acima de LV50 mais caro que dominar uma perícia inteira em Ninjutsu, todas as inclinações e todos os caminhos, transcendida — 165.285 contra 109.674 para um único ponto de atributo no teto contra o domínio inteiro de um Katon completo. O coeficiente cai para 1,55, que fecha o ponto de virada perto do próprio degrau Ápice da régua de faixas: abaixo dele, um atributo isolado ainda custa menos que uma perícia completa; acima, custa mais. Um atributo entra em toda perícia que rege, em toda pool que o soma e em todo cálculo de combate que o lê, e é por isso que o preço dele deve superar o de uma perícia no topo da curva, e não antes: um caminho de perícia rende numa fatia estreita da ficha, um atributo rende em todo lugar que ele aparece. `core/system-core.md` publica a mesma fórmula em espelho e desce junto. `core/reference-tables.md` regenerado.
