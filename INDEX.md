@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 177 documentos · 16 de núcleo · 161 de cenário
+**Total:** 178 documentos · 16 de núcleo · 162 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -110,6 +110,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Naruto — Setting Overview](worlds/naruto/overview.md) | `naruto.overview` | 1 | doc | final |
+| [Cálculos Rápidos de Naruto](worlds/naruto/quick-calculations.md) | `naruto.quick-calculations` | 1 | reference-table | final |
 
 ## worlds/naruto/advantages-disadvantages
 
@@ -340,7 +341,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**49 alvos distintos, em 55 referências.**
+**48 alvos distintos, em 54 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -392,7 +393,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/naruto/progression/dojutsu-evolution.md` — citado em worlds/naruto/progression/overview.md
 - `worlds/naruto/progression/rank-advancement.md` — citado em worlds/naruto/progression/overview.md
 - `worlds/naruto/progression/technique-extensions.md` — citado em worlds/naruto/progression/overview.md
-- `worlds/naruto/quick-calculations.md` — citado em core/quick-calculations.md
 
 ---
 
