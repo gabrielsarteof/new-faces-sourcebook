@@ -1,7 +1,7 @@
 ---
 id: naruto.advantages-disadvantages.overview
 title: "Vantagens Especiais do Mundo Shinobi"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: catalog
