@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 2.4
+version: 2.5
 layer: core
 type: system
 status: final
@@ -48,7 +48,7 @@ O Protagonismo é a alavanca mestra do destino do personagem. Ele alimenta o XP 
 
 ## 3. XP Ficha
 
-O cálculo do XP Ficha é regido por `core/canon-factor.md`. Ele lê cinco eixos sobre a vida inteira do personagem, Pressão, Tração, Agência, Custo e Amplitude, soma o resultado num Cânone de 0 a 10, e aplica `XP de Ficha = 5.000 × 2^Cânone`. Protagonismo, idade como fator multiplicativo, e o antigo Registro do Ano por faixa de vida não participam mais desta conta.
+O cálculo do XP Ficha é regido por `core/canon-factor.md`. O narrador declara um Cânone de 0 a 10 sobre a vida inteira do personagem, e a fórmula aplica `XP de Ficha = 5.000 × 2^Cânone`. Protagonismo, idade como fator multiplicativo, e o antigo Registro do Ano por faixa de vida não participam mais desta conta.
 
 ## 4. XP Sorte
 
@@ -210,4 +210,4 @@ As naturezas de transformação de chakra não se compram nesta moeda. A naturez
 2. Caminhos existem apenas em LV4 e LV5. As tabelas de caminho LV6 presentes no código são dados mortos e devem ser removidas.
 3. O XP Base é 3000 para todos os sistemas. Referências antigas a base 2500 estão obsoletas.
 4. O comentário de migração sobre a fórmula antiga de sorte é resíduo de código sem efeito de regra e deve ser limpo.
-5. O cálculo de XP Ficha por Protagonismo, Índice de Idade e Fator de História, descrito neste manual até a v2.2, foi revogado por `core/canon-factor.md` v2. O item 3 acima, sobre o XP Base de 3000, vale apenas para o histórico deste manual e não descreve a base do cálculo vigente.
+5. O cálculo de XP Ficha por Protagonismo, Índice de Idade e Fator de História, descrito neste manual até a v2.2, foi revogado por `core/canon-factor.md`, hoje em v3. O item 3 acima, sobre o XP Base de 3000, vale apenas para o histórico deste manual e não descreve a base do cálculo vigente.

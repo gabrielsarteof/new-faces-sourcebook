@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 163 documentos · 15 de núcleo · 148 de cenário
+**Total:** 176 documentos · 15 de núcleo · 161 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -18,7 +18,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Vantagens Comuns](core/advantages.md) | `core.advantages` | 2.1 | catalog | final |
-| [Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 2 | system | final |
+| [Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 3 | system | final |
 | [Núcleo de Combate](core/combat-core.md) | `core.combat-core` | 1 | core-layer | final |
 | [Princípios de Design](core/design-principles.md) | `core.design-principles` | 1 | methodology | final |
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
@@ -31,7 +31,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.2 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
-| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.4 | system | final |
+| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.5 | system | final |
 
 ## Comum · Perícias sem cenário
 
@@ -114,7 +114,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1.3 | catalog | final |
+| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1.4 | catalog | final |
 
 ## Naruto · Campanha
 
@@ -168,7 +168,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.3 | compendium | final |
 | [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1.1 | compendium | final |
 | [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.2 | compendium | final |
-| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.3 | compendium | final |
+| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.4 | compendium | final |
 | [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.2 | compendium | final |
 | [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.6 | compendium | final |
 | [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.1 | compendium | final |
@@ -290,8 +290,11 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)](worlds/naruto/techniques/chidori-senbon.md) | `naruto.technique.chidori-senbon` | 1 | technique | final |
 | [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 4 | technique | final |
 | [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1 | technique | final |
+| [Endan (炎弾)](worlds/naruto/techniques/endan.md) | `naruto.technique.endan` | 1 | technique | final |
 | [Fūton: Rasengan (風遁・螺旋丸)](worlds/naruto/techniques/futon-rasengan.md) | `naruto.technique.futon-rasengan` | 1 | technique | final |
 | [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](worlds/naruto/techniques/futon-rasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1 | technique | final |
+| [Gōkakyū no Jutsu (豪火球の術)](worlds/naruto/techniques/gokakyu.md) | `naruto.technique.gokakyu` | 1 | technique | final |
+| [Gōryūka no Jutsu (豪龍火の術)](worlds/naruto/techniques/goryuka.md) | `naruto.technique.goryuka` | 1 | technique | final |
 | [Obras dos Oito Portões](worlds/naruto/techniques/hachimon-obras.md) | `naruto.technique.hachimon-obras` | 1.1 | technique | final |
 | [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.1 | technique | final |
 | [Técnica do Harém](worlds/naruto/techniques/harem.md) | `naruto.technique.harem` | 1 | technique | final |
@@ -301,9 +304,17 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)](worlds/naruto/techniques/hiraishin-ni-no-dan.md) | `naruto.technique.hiraishin-ni-no-dan` | 1.1 | technique | final |
 | [Rotação Instantânea Mútua do Deus do Trovão Voador (飛雷神・相互瞬間回転)](worlds/naruto/techniques/hiraishin-sogo-shunkan-kaiten.md) | `naruto.technique.hiraishin-sogo-shunkan-kaiten` | 1 | technique | final |
 | [Deus do Trovão Voador (飛雷神の術)](worlds/naruto/techniques/hiraishin.md) | `naruto.technique.hiraishin` | 1 | technique | final |
+| [Hōō no Wana (鳳凰の罠)](worlds/naruto/techniques/hoo-no-wana.md) | `naruto.technique.hoo-no-wana` | 1 | technique | final |
+| [Hōō Shō (鳳凰掌)](worlds/naruto/techniques/hoo-sho.md) | `naruto.technique.hoo-sho` | 1 | technique | final |
+| [Hōsenka Tsumabeni (鳳仙花爪紅)](worlds/naruto/techniques/hosenka-tsumabeni.md) | `naruto.technique.hosenka-tsumabeni` | 1 | technique | final |
+| [Hōsenka no Jutsu (鳳仙花の術)](worlds/naruto/techniques/hosenka.md) | `naruto.technique.hosenka` | 1 | technique | final |
+| [Jigoku no Hane (地獄の羽)](worlds/naruto/techniques/jigoku-no-hane.md) | `naruto.technique.jigoku-no-hane` | 1 | technique | final |
+| [Kaen Ami (火炎網)](worlds/naruto/techniques/kaen-ami.md) | `naruto.technique.kaen-ami` | 1 | technique | final |
+| [Kaen Senpū (火炎旋風)](worlds/naruto/techniques/kaen-senpu.md) | `naruto.technique.kaen-senpu` | 1 | technique | final |
 | [Técnica do Clone das Sombras](worlds/naruto/techniques/kage-bunshin.md) | `naruto.technique.kage-bunshin` | 2 | technique | final |
 | [Liberação](worlds/naruto/techniques/kai.md) | `naruto.technique.kai` | 2 | technique | final |
 | [Técnica do Manto Oculto](worlds/naruto/techniques/kakuremino.md) | `naruto.technique.kakuremino` | 1 | technique | final |
+| [Kasumi Enbu no Jutsu (霞炎舞の術)](worlds/naruto/techniques/kasumi-enbu.md) | `naruto.technique.kasumi-enbu` | 1 | technique | final |
 | [Substituição de Corpo](worlds/naruto/techniques/kawarimi.md) | `naruto.technique.kawarimi` | 2 | technique | final |
 | [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2 | technique | final |
@@ -314,6 +325,8 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Raikiri — Cortador de Raio (雷切)](worlds/naruto/techniques/raikiri.md) | `naruto.technique.raikiri` | 1 | technique | final |
 | [Rasengan (螺旋丸)](worlds/naruto/techniques/rasengan.md) | `naruto.technique.rasengan` | 1 | technique | final |
 | [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1 | technique | final |
+| [Rengoku Ryūsei (煉獄龍勢)](worlds/naruto/techniques/rengoku-ryusei.md) | `naruto.technique.rengoku-ryusei` | 1 | technique | final |
+| [Ryūka no Jutsu (龍火の術)](worlds/naruto/techniques/ryuka.md) | `naruto.technique.ryuka` | 1 | technique | final |
 | [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2 | technique | final |
 | [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |
