@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.20
+version: 2.21
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.20. Camada de relação entre domínios.**
+**v2.21. Sincronização de registro com a errata de Kai.**
 
 ---
 
@@ -384,7 +384,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
 | Sensoriamento v2.2 | conforme |
-| Genjutsu v1.2 | conforme, com uma ressalva de vocabulário |
+| Genjutsu v1.3 | conforme, com uma ressalva de vocabulário |
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2 | conforme |
@@ -438,6 +438,8 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.21.** A leva de Técnicas Base Universais publicou o Kai como técnica universal comprável independente da perícia, com a concessão de "Genjutsu: Kai nas duas modalidades registradas" no LV1 desta perícia registrada explicitamente como dispensa de custo de XP para quem já paga a perícia, não portão de acesso exclusivo. `worlds/naruto/skills/genjutsu.md` sobe para v1.3 por essa clarificação, sem mudar nenhum valor publicado. O Registro de Conformidade é atualizado para citar a versão nova.
 
 **v2.20.** Colisão de versão com a v2.14, pela quinta vez e pela primeira em que os dois lados eram documentos publicáveis inteiros e não só reconciliação de índice: a linha de trabalho do Kunai e do Shuriken também numerou a primeira das duas publicações como v2.14, a partir do mesmo commit em que a extensão manifestada do Katon já reivindicava aquele número, sem enxergá-la. Resolvida do mesmo modo que as quatro colisões anteriores, subindo as duas entradas para os dois degraus livres no topo da pilha, v2.19 e v2.20, sem alterar uma vírgula do conteúdo de nenhuma.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.system.rasengan-family
 title: "Linhagem do Rasengan"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: system
@@ -181,7 +181,7 @@ O Compêndio de Fūton subiu a v4, com o Rasenshuriken de Vento em 27.200 de XP 
 
 O Corte de Chakra deixou de viver apenas na ficha do Fūton: Rasenshuriken e passou a entrada nomeada da Família VI do Sistema de Efeitos de Status, que subiu a v2.2. O núcleo é dono da escada de quatro graus, da penalidade de cada um, da permanência e da recusa de cura por ninjutsu médico, e a ficha declara apenas o grau mínimo garantido, o grau máximo possível, os atributos testados, o alvo do teste e a região afetada.
 
-As quatro fichas sem natureza ganharam catálogo no Compêndio de Ninjutsu de Forma. O compêndio traz quatro entradas contra a mediana de trinta e quatro a cinquenta e quatro dos domínios elementais, e a auditoria de tamanho da ferramenta de frontmatter o aponta por isso. O desvio é fato do domínio, que possui exatamente quatro entradas canônicas sem natureza, e a Seção 12 da Norma de Produção de Compêndios declara que nenhum piso de contagem existe. O catálogo não se completa com entrada que a obra não nomeia.
+As quatro fichas sem natureza ganharam catálogo no Compêndio de Ninjutsu de Forma. Na publicação original do compêndio, a auditoria de tamanho da ferramenta de frontmatter apontava as quatro entradas contra a mediana de trinta e quatro a cinquenta e quatro dos domínios elementais, e o desvio era lido como fato do domínio: exatamente quatro entradas canônicas sem natureza, sem piso de contagem pela Seção 12 da Norma de Produção de Compêndios. **Nota superada.** A leva de Técnicas Base Universais acrescentou quinze entradas ao mesmo domínio sem natureza — Kawarimi, Bunshin, Henge, Nawanuke, Kai, Oiroke, Kakuremino, Shunshin, Tōton, Meisaigakure, Chakura no Ito, Kage Bunshin, Bunshin Daibakuha, Harem e Tajū Kage Bunshin —, e o Compêndio de Ninjutsu de Forma v2.0 publica dezenove entradas no total. O domínio sem natureza nunca teve piso baixo por natureza própria; tinha apenas um inventário de obras nomeadas menor do que o das naturezas elementais até esta leva ampliá-lo. O catálogo continua não se completando com entrada que a obra não nomeia.
 
 **Fila de errata.**
 
@@ -219,4 +219,4 @@ Respeite a cadeia de derivação da Seção 5. Ficha que pule um degrau da cadei
 
 ---
 
-*Linhagem do Rasengan v1.1. Um eixo por variação, coeficiente técnico 3,0 em toda a família, degrau Absoluto como portão único de moldagem, assistência declarada em vez de talento presumido, e a cadeia de derivação fechada sobre uma autoria que ainda não existe no mundo.*
+*Linhagem do Rasengan v1.2. Um eixo por variação, coeficiente técnico 3,0 em toda a família, degrau Absoluto como portão único de moldagem, assistência declarada em vez de talento presumido, e a cadeia de derivação fechada sobre uma autoria que ainda não existe no mundo.*

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.genjutsu
 title: "Genjutsu"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Genjutsu_v1_1.md
 ---
 
-GENJUTSU (幻術) — v1.2
+GENJUTSU (幻術) — v1.3
 
 Atributo: INT
 Categoria: Erudição (×1,7)
@@ -55,6 +55,8 @@ Base 12 · teste típico 14 com INT 2
 O praticante impõe a um alvo por vez, ocupando um sentido, por contato visual, a até 5 m. A sustentação consome a ação padrão de cada turno, e agir com o corpo derruba a obra. Ele reconhece que está dentro de uma ilusão apenas quando a cena se contradiz abertamente diante dele, executa o Genjutsu: Kai nas duas modalidades registradas e liberta aliado por toque. A autoria e a família da obra alheia permanecem ilegíveis.
 
 Rank E. A obra simples custa 15 RC. O custo e a ação do Kai leem o documento da técnica. A recusa de obra alheia entra desde aqui, pela régua transversal, e cresce com o teste em todos os níveis seguintes. [proposta nos valores]
+
+Kai é técnica universal, publicada em `worlds/naruto/techniques/kai.md` e comprável por qualquer personagem independente desta perícia. A concessão desta linha, "Genjutsu: Kai nas duas modalidades registradas", é dispensa do custo de XP daquela técnica para quem já paga LV1 desta perícia, não portão de acesso exclusivo: quem não pratica Genjutsu executa o Kai normalmente pagando a técnica em separado, e quem paga esta perícia recebe a competência de graça a partir do momento em que ela é adquirida.
 
 NÍVEL 2: INCLINAÇÃO (escolha 1)
 Base 24 · Inclinação 8 · teste típico 30 fora e 38 dentro, com INT 6
