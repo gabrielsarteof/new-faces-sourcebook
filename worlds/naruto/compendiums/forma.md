@@ -41,7 +41,7 @@ O usuário troca o próprio corpo de lugar com um objeto próximo no instante em
 **Bunshin no Jutsu — 分身の術**
 **[CANON — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Controle de Chakra LV1 · Moldagem Plena (elevada de Básica por tolerância zero a excesso de volume)
+**Requisitos:** Controle de Chakra LV1 · Moldagem Plena
 **XP:** 228
 
 O usuário projeta de uma a quatro cópias visuais de si mesmo, sem substância física, que se movem por direção mental e estouram ao primeiro contato sólido. A calibração exigida para moldar quase nenhum chakra é o que torna esta técnica de rank E inacessível a quem não supera o grau Plena de Moldagem, reserva grande incluída.
@@ -85,7 +85,7 @@ O usuário interrompe o próprio fluxo de chakra, ou aplica um pulso externo por
 **Oiroke no Jutsu — お色気の術**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV1 · Moldagem Plena (elevada de Básica por proporção interna fina) · Henge no Jutsu
+**Requisitos:** Controle de Chakra LV1 · Moldagem Plena · Henge no Jutsu
 **XP:** 185
 
 O usuário veste uma forma humana adulta idealizada, aplicação especializada do Henge calibrada para produzir choque em vez de convicção. Observadores com linha de visão direta testam VONTADE e SAB contra o teste social do usuário, e a falha aplica Atordoamento leve, abrindo uma janela tática real por trás do efeito cômico.
@@ -122,7 +122,7 @@ O usuário vitaliza o corpo com chakra e cruza uma banda de distância em explos
 **Tōton no Jutsu — 透遁の術**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV2 · Moldagem Plena (elevada de Básica por proporção interna fina) · Kakuremino no Jutsu
+**Requisitos:** Controle de Chakra LV2 · Moldagem Plena · Kakuremino no Jutsu
 **XP:** 489
 
 O usuário se torna invisível a olho nu contra qualquer fundo, sem depender de objeto físico. A invisibilidade sustenta durante deslocamento e observação, mas qualquer ação ofensiva do usuário a encerra de forma automática e sem teste, o que torna a técnica ferramenta de reconhecimento e fuga, e não de combate direto.
@@ -137,7 +137,7 @@ O usuário se torna invisível a olho nu contra qualquer fundo, sem depender de 
 **Meisaigakure no Jutsu — 明再隠れの術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV3 · Moldagem Alta (elevada de Plena por sustentação prolongada) · Kakuremino no Jutsu
+**Requisitos:** Controle de Chakra LV3 · Moldagem Alta · Kakuremino no Jutsu
 **XP:** 1.409
 
 O usuário dobra a luz diretamente sobre o próprio corpo, sem depender de manto ou objeto físico, sustentando a camuflagem durante deslocamento e combate ativo. A percepção do observador lê a mesma Régua de Leitura publicada no Kawarimi no Jutsu, e o ataque declarado pelo usuário camuflado expõe a posição real apenas no instante do golpe.
@@ -148,7 +148,7 @@ O usuário dobra a luz diretamente sobre o próprio corpo, sem depender de manto
 **Chakura no Ito — チャクラの糸**
 **[CANON — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV4 (caminho Impregnação) · Moldagem Plena
+**Requisitos:** Controle de Chakra LV4 · Caminho Impregnação · Moldagem Plena
 **XP:** 1.722
 
 O usuário projeta fios de chakra quase invisíveis das próprias mãos, capazes de prender e comandar objetos ou corpos à distância. A fixação sobre alvo inconsciente ou que não resiste é automática; contra corpo vivo resistente, testa FOR e DES do alvo contra o teste de Condução do usuário na especialização Impregnação. O comando de marionete articulada pertence à Perícia de Marionetista, que consome esta técnica como base.
@@ -233,12 +233,12 @@ O usuário forma uma esfera em cada mão e entrega as duas na mesma ação. Cada
 
 ### Técnica dos Múltiplos Clones das Sombras
 **Tajū Kage Bunshin no Jutsu — 多重影分身の術**
-**[CANON — Rank A a Kinjutsu, conforme a quantidade]**
+**[CANON — Rank A]**
 **Acesso:** Requisito de Segurança (Kinjutsu acima de 27 clones exige validação narrativa)
 **Requisitos:** Controle de Chakra LV5 · Moldagem Alta · Kage Bunshin no Jutsu
-**XP:** 18.500 (Rank A) · 49.400 (Rank S) · 50.000 (Kinjutsu)
+**XP:** 18.500
 
-O usuário estende a partição de reserva do Kage Bunshin muito além da banda tática comum, gerando de cinco a centenas de corpos sólidos simultâneos. A escala escolhida define o rank, o custo de XP e o Aftermath que recai sobre o próprio usuário ao final da cena, do leve desgaste físico do rank A ao esgotamento estrutural da faixa Kinjutsu. Esta entrada única cobre as três faixas; consulte a ficha individual para a tabela completa de clones por faixa e para o Aftermath de cada uma.
+O usuário estende a partição de reserva do Kage Bunshin muito além da banda tática comum, gerando de cinco a centenas de corpos sólidos simultâneos. A escala escolhida define o rank, o custo de XP e o Aftermath que recai sobre o próprio usuário ao final da cena, do leve desgaste físico do rank A ao esgotamento estrutural da faixa Kinjutsu. O rank e o XP declarados acima são o degrau de entrada, cinco a nove clones; a ficha individual publica a tabela completa das três faixas, Rank A a 18.500 XP, Rank S a 49.400 XP e Kinjutsu a 50.000 XP, com a tabela de clones por faixa e o Aftermath de cada uma. O catálogo, por norma, publica um rank e um custo de XP por entrada; a escalada pertence à ficha, que já a resolve por inteiro.
 
 ---
 
