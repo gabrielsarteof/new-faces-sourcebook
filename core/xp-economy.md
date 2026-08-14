@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 2.3
+version: 2.4
 layer: core
 type: system
 status: final
@@ -90,7 +90,7 @@ LV2  105    LV12 1305   LV26 8095
 LV6  395    LV18 3200   LV34 16715
 ```
 
-Modificadores que alteram o preço final: descontos de clã por atributo, reduções globais de custo de atributo concedidas por vantagens, bônus de XP convertidos em multiplicador de custo. O arredondamento por floor é aplicado em cada nível pago, individualmente.
+Modificadores que alteram o preço final de atributo: descontos de clã por atributo, e reduções de custo concedidas por vantagem que declare redução de custo no próprio texto. Bônus de XP de treino ficam fora desta lista, porque atuam no slot de Talento do Manual Global de Treinamento, e nenhuma concessão de rendimento se converte em desconto de preço. O arredondamento por floor é aplicado em cada nível pago, individualmente.
 
 ## 6. Perícias
 
@@ -114,6 +114,10 @@ Chakra    ×1.4  1050 / 1575 / 3150 / 5775 / 9450 / 14175
 Ninjutsu  ×1.5  1125 / 1687 / 3375 / 6187 / 10125 / 15187
 Erudição  ×1.7  1275 / 1912 / 3825 / 7012 / 11475 / 17212
 ```
+
+Modificadores que alteram o preço final de perícia: desconto de clã sobre perícia nomeada, redução de custo concedida por vantagem que nomeie uma perícia, e o multiplicador de posição que um cenário publique para a família de perícia cujo preço ele reserva a dono próprio. Vantagem que se compra por categoria, por área de domínio ou por classe de perícia atua no rendimento de treino e nunca no preço, em qualquer cenário. Bônus de XP de treino ficam fora desta lista pela mesma razão que ficam fora da seção 5.
+
+Cada cenário declara, no documento de adaptação de treino dele, quais categorias se abrem à compra de talento por categoria e quais famílias de perícia têm o preço reservado. No mundo de Naruto, as sete perícias de natureza têm o preço governado pela escada de posição do Sistema Elemental, e as três categorias do eixo do chakra ficam fechadas à compra de talento por categoria.
 
 ### 6.1 As três categorias do eixo do chakra
 
@@ -195,7 +199,7 @@ As naturezas de transformação de chakra não se compram nesta moeda. A naturez
 
 ## 9. Regras transversais de cálculo
 
-1. Custos de chakra e de XP são números fixos absolutos. Percentuais existem apenas em bônus de teste, escalonamento de magnitude e nas frações definidas neste manual (caminho extra a 50%).
+1. Custos de chakra e de XP se publicam como números fixos absolutos, e nunca como percentual de outra grandeza da ficha. Percentuais e multiplicadores existem em bônus de teste, em escalonamento de magnitude, nas frações definidas neste manual (caminho extra a 50%) e nos modificadores de preço que as seções 5 e 6 enumeram. Modificador de preço incide sobre o valor publicado e não reescreve a tabela.
 2. Arredondamentos: atributos usam round ao múltiplo de 5 na fórmula de custo e floor em cada nível pago; perícias e frações de caminho usam floor; o XP Ficha usa round no resultado final.
 3. A ordem de operações é sempre a da fórmula escrita. Nenhuma etapa intermediária é arredondada além das regras acima.
 4. Bônus de pool de atributos de escala alta (RES, SAB) não entram como insumo da fórmula de RC.

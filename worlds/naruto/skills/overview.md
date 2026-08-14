@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.21
+version: 2.22
 layer: scenario
 scenario: naruto
 type: skill
@@ -11,7 +11,7 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 
 # Índice de Perícias do Sistema
 
-**v2.21. Sincronização de registro com a errata de Kai.**
+**v2.22. Reconciliação com a adaptação de treino do eixo do chakra.**
 
 ---
 
@@ -35,7 +35,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 |---|---|---|---|
 | Controle de Chakra | v3.3 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
-| Senjutsu | v2 | RES | Chakra ×1,4 |
+| Senjutsu | v2.2 | RES | Chakra ×1,4 |
 | Katon | v4 | INT | Ninjutsu ×1,5 |
 | Raiton | v3 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.3 | INT | Ninjutsu ×1,5 |
@@ -387,7 +387,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 | Genjutsu v1.3 | conforme, com uma ressalva de vocabulário |
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
-| Senjutsu v2 | conforme |
+| Senjutsu v2.2 | conforme |
 | Barreira v1 | conforme |
 | Kyuinjutsu v1 | conforme |
 | Kenpo v1 | conforme |
@@ -438,6 +438,12 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.22.** Nasce o documento de adaptação de treino do cenário, Treinamento no Mundo Shinobi, que o Manual Global de Treinamento exigia de todo cenário e que o índice de Progressão declarava por nome sem que o arquivo existisse. Ele passa a ser o dono da interface entre este sistema de perícias e o manual de treinamento, e a decisão que carrega toca as perícias do eixo do chakra: no eixo do chakra o talento se compra por natureza ou por perícia nomeada, e as três categorias de custo, Chakra, Ninjutsu e Erudição, ficam fechadas à compra de talento por categoria. A razão está na escada de posição do Sistema Elemental, que fixa a afinidade primária no valor de tabela e só sobe a partir dali, de modo que vantagem capaz de baratear a categoria inteira atravessaria a escada por fora.
+
+Nenhum regente, portão, inclinação ou caminho muda, e nenhuma perícia entra em rework, porque a passada fecha uma porta que nenhum documento de perícia usava. O Registro de Regentes e o de Conformidade corrigem a linha do Senjutsu, que constava em v2 nos dois e está em v2.2 no arquivo depois da correção de citação feita aqui. As erratas abertas continuam cinco.
+
+Esta versão nasceu de uma linha de trabalho que partiu do corpus publicado logo após a v2.8 e não enxergava nenhuma das doze passadas seguintes, da v2.9 à v2.21. A reconciliação aconteceu no merge: onde as duas tocaram o mesmo registro, o Registro de Regentes e o de Conformidade, a linha do Senjutsu desta passada entra ao lado das entradas que as doze passadas publicaram depois dela, sem apagar nenhuma. Desta linha só entrou o documento de adaptação de treino e a correção de citação do Senjutsu; nenhum conteúdo das outras doze foi tocado.
 
 **v2.21.** A leva de Técnicas Base Universais publicou o Kai como técnica universal comprável independente da perícia, com a concessão de "Genjutsu: Kai nas duas modalidades registradas" no LV1 desta perícia registrada explicitamente como dispensa de custo de XP para quem já paga a perícia, não portão de acesso exclusivo. `worlds/naruto/skills/genjutsu.md` sobe para v1.3 por essa clarificação, sem mudar nenhum valor publicado. O Registro de Conformidade é atualizado para citar a versão nova.
 

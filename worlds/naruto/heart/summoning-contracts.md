@@ -1,7 +1,7 @@
 ---
 id: naruto.item.summoning-contracts
 title: "Contratos de Invocação"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: item-catalog
@@ -395,7 +395,7 @@ Proposta: todos os preços em XP de Sorte; todos os valores de PV, RC e Limite d
 
 ## PENDÊNCIAS
 
-Compêndio de Senjutsu, inexistente, que recebe as obras nomeadas de cada ramo. Compêndio de Fūton, dono da obra da doninha, que ainda não publica os números dela. Compêndio do domínio de terra, dono da técnica de perseguição da matilha. Documento de campanha, dono do contrato dos falcões. Auditoria própria para as tartarugas. Documento de adaptação de treinamento do cenário, que o Manual Global de Treinamento exige e que ninguém escreveu, dono do catálogo completo das portas que o Mestre lendário abre.
+Compêndio de Senjutsu, inexistente, que recebe as obras nomeadas de cada ramo. Compêndio de Fūton, dono da obra da doninha, que ainda não publica os números dela. Compêndio do domínio de terra, dono da técnica de perseguição da matilha. Documento de campanha, dono do contrato dos falcões. Auditoria própria para as tartarugas. A pendência do documento de adaptação de treinamento está fechada: Treinamento no Mundo Shinobi o cumpre e cataloga as portas do Mestre lendário, com o contrato de tier alto entre elas, aberto pela aceitação do chefe da espécie.
 
 ## FILA DE ERRATA
 
