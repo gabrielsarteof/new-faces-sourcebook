@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.eight-gates
 title: "Compêndio dos Oito Portões"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -32,9 +32,9 @@ Categoria especial. As oito entradas abaixo são a progressão do domínio, e ca
 **[CANON — Rank C]**
 **Acesso:** Transmissão Direta
 **Requisitos:** RES somada a FOR igual a 10 · Trivial · 4 Blocos de maturação
-**XP:** 1.775
+**XP:** 25.000
 
-O primeiro regulador cai e o corpo passa a acionar a musculatura inteira em vez da fração que o comando voluntário autoriza. A força bruta do praticante sobe de patamar e nada mais muda, o que faz deste o único degrau da escada que não toca a economia de chakra de quem o abre. É o portão que abre o acesso à Lótus Frontal.
+O primeiro regulador cai e o corpo passa a acionar a musculatura inteira em vez da fração que o comando voluntário autoriza. A força bruta do praticante sobe de patamar e nada mais muda, o que faz deste o único degrau da escada que não toca a economia de chakra de quem o abre. É o portão que abre o acesso à Lótus Frontal. O preço mede a transmissão rara e a década de treino físico que qualquer praticante paga para chegar até aqui, e por isso é o único da escada fora da faixa de XP que o rank C normalmente prevê. Para o portador de Restrição Corporal o custo cai pela metade, para 12.500, porque a escada é o único caminho de moldagem que a fisiologia dele permite.
 
 ### Portão do Descanso
 **Kyūmon — 休門**

@@ -1,7 +1,7 @@
 ---
 id: core.skills-core
 title: "Núcleo de Perícias"
-version: 2.2
+version: 2.3
 layer: core
 type: core-layer
 status: final
@@ -10,7 +10,7 @@ source-file: Nucleo_de_Pericias_v2_1.md
 
 # Núcleo de Perícias
 
-**Camada Fundamental, fechada para modificação. v2.2, com as três emendas factuais de fechamento da coluna de precisão, a seção 6.1, que fixa a largura presumida na publicação de valores, e a leitura por eixo da exigência de regentes distintos.**
+**Camada Fundamental, fechada para modificação. v2.3, que soma bônus permanente de vantagem e desvantagem ao portão de capacidade da seção 8, ao lado das três emendas factuais herdadas da v2.2: o fechamento da coluna de precisão, a seção 6.1, que fixa a largura presumida na publicação de valores, e a leitura por eixo da exigência de regentes distintos.**
 
 O Núcleo de Perícias define o que é uma perícia, de que camadas ela é feita, quanto
 cada camada vale, como se adquire cada uma e como um teste de perícia se lê. Toda
@@ -399,6 +399,12 @@ portão = Base Total + atributo regente
 
 Inclinação e especialização ficam de fora. Capacidade destravada é permanente, e não
 pode depender da situação em que o praticante se encontrava quando a comprou.
+
+Bônus permanente de vantagem ou desvantagem entra no portão, pela mesma soma real que
+já traz o atributo regente. O bônus não depende de situação alguma, e por isso não se
+qualifica para a exclusão que barra inclinação e especialização. Bônus condicional, que
+só se aplica quando a situação declarada se cumpre, fica de fora do portão pela mesma
+razão que já vale para as duas primeiras.
 
 O atributo regente entra no portão porque a régua de exigências precisa alcançar a
 soma real de quem se candidata. Lida só pela Base, ela nasce curta e libera por
