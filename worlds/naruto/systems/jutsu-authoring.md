@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.9
+version: 2.10
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_7.md
 ---
 
-# Manual de Criação de Jutsus · v2.9
+# Manual de Criação de Jutsus · v2.10
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.2.**
 
@@ -90,9 +90,11 @@ Duas colunas da tabela de Escala do MCP recebem tratamento próprio em jutsus:
 | E–B | nenhum | vazio |
 | A | leve | PS igual a 20% do custo de RC, pago após a resolução |
 | S | saída reduzida | o Limite de Saída cai à metade no turno seguinte |
-| Kinjutsu | burnout | dano direto em PV, sem mitigação, declarado no registro da técnica, somado ao preço narrativo da proibição |
+| Kinjutsu | burnout | PV igual a 15% do PV máximo, dano direto sem mitigação, declarado no registro da técnica, somado ao preço narrativo da proibição `[proposta]` |
 
 O aftermath de S-rank produz o shinobi ofegante após a técnica definidora: a reserva permanece, o fluxo despenca, e por um turno o executor só canaliza o que couber em 10% da RC. Clones que executam técnicas com aftermath o pagam com o próprio corpo (Seção 7.1).
+
+A magnitude de 15% do PV máximo para o burnout de Kinjutsu é lida por analogia à régua do aftermath de rank A, que também expressa o preço em fração de recurso, e permanece `[proposta]` até este manual fixar o número oficial. O Tajū Kage Bunshin no Jutsu adota esse valor na faixa Kinjutsu (`worlds/naruto/techniques/taju-kage-bunshin.md`).
 
 ### Por que o rank vai além do dano
 
@@ -661,7 +663,7 @@ O slot de Choque define quais técnicas participam do confronto elemental por es
 
 Kage Bunshin divide a RC real entre os clones. Cada clone recebe `RC_total ÷ (número_de_clones + 1)` de RC de partida. **O clone é um executor pleno limitado apenas pela RC que carrega**: paga custos, custos efetivos de conversão, janelas de canalização e aftermaths pelas próprias regras, com a própria reserva e o próprio LS de 20%. Clones de pouco chakra canalizam devagar e estouram sob o aftermath de técnicas altas. Quando destruído, o clone devolve o chakra restante e as memórias acumuladas ao usuário.
 
-O custo do jutsu usa a família **por alvo** do MCP: base de C-rank para o primeiro clone, com incremento fixo por clone adicional, e o rank lido pelo custo total conforme a regra de custo variável. O Kage Bunshin de 1 clone é C-rank; o Tajuu Kage Bunshin escala até S-rank e Kinjutsu como consequência aritmética da mesma fórmula.
+O custo do jutsu usa a família **por alvo** do MCP: base de C-rank para o primeiro clone, com incremento fixo por clone adicional. Kage Bunshin no Jutsu é rank B em toda a banda de um a quatro clones, declarado por convergência canônica sobre a leitura literal de banda de RC — o databook classifica a técnica inteira como rank B, e a curva de custo de RC segue sem alteração por baixo dessa declaração. A escalada a A, S e Kinjutsu pertence ao Tajū Kage Bunshin no Jutsu, técnica distinta.
 
 ### 7.2 Invocação
 
@@ -689,6 +691,12 @@ O custo de XP é individual para cada participante, com desconto de −25% por m
 ### 7.5 Jutsu com Dojutsu
 
 Técnicas que requerem dojutsu ativo têm o custo do dojutsu declarado separadamente do custo do jutsu. O registro do jutsu cobre apenas a técnica em si. O custo de ativação e manutenção do dojutsu está no documento do dojutsu correspondente (Sharingan, Mangekyō), e ambos disputam o mesmo LS de 20% no turno.
+
+### 7.6 Modo Viagem
+
+Jutsu de deslocamento que publica um custo separado para uso fora de combate, em vez do custo de RC nominal do uso em cena, é Modo Viagem. A régua de referência oficial para o preço em fôlego desse uso é a Seção 7 do Núcleo de Combate, Esforço de deslocamento igual aos metros efetivos percorridos divididos por cinco: fora de combate, sobre a distância medida em quilômetros, ela resolve o custo em PS que o jutsu paga por trecho.
+
+O Shunshin no Jutsu é a primeira instância: 1 km resolve 1.000 m ÷ 5 = 200, e o Modo Viagem daquela ficha publica 200 PS por quilômetro sobre essa régua, no lugar dos 10 PS/km da versão legada. Qualquer Modo Viagem futuro deriva do mesmo motor, sem republicar a fórmula.
 
 ---
 
@@ -771,6 +779,12 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 
 ## 11. Registro de Alterações
 
+**v2.10.** Três erratas abertas pela leva de Técnicas Base Universais fecham nesta versão, nenhuma delas mudando fórmula ou custo já publicado. A Seção 7.1 perde a linguagem de fragmentação por contagem de clones: o Kage Bunshin de 1 clone deixa de se ler como C-rank, porque a ficha inteira já declarava rank B por convergência canônica desde a publicação da técnica, e o texto normativo estava atrás da própria ficha que ele deveria governar. A escalada a A, S e Kinjutsu passa a pertencer exclusivamente ao Tajū Kage Bunshin no Jutsu, técnica distinta, e não a uma leitura aritmética do Kage Bunshin. A curva de custo de RC por clone não muda.
+
+A tabela de Aftermath por Rank da Seção 1.2 ganha a magnitude que faltava na linha de Kinjutsu: 15% do PV máximo, por analogia à forma como o aftermath de rank A já expressa preço em fração de recurso, marcada `[proposta]` até este manual fixar o número oficial. A Seção 7 ganha a subseção 7.6, Modo Viagem, registrando a régua de Esforço de deslocamento do Núcleo de Combate (metros efetivos ÷ 5) como referência oficial para qualquer jutsu de deslocamento que publique custo de uso fora de combate, com o Shunshin no Jutsu como primeira instância.
+
+O piso de 50.000 XP para Kinjutsu, verificado nesta mesma leva contra a Seção 1, a Seção 4 e a Seção 4.3, já estava correto em toda parte desde a v2.6 e não muda.
+
 **v2.9.** A Seção 2.8, Cedências, ganha a linha que faltava: o lado aberto e treinável do dreno, por Contato e por Meio, contra alvo que resiste e sem selo, sem clã e sem contrato, passa a ter dono nomeado. A Perícia de Kyūinjutsu publica esse dono, consumindo a régua de quantidade, o teto de recepção e a cláusula do senjutsu já publicados aqui sem redefinir nenhum dos três. As demais cedências da seção, a dōjutsu, a arma, a clã e a entidade, permanecem como estavam. Nenhum valor, régua ou fórmula deste manual muda.
 
 **v2.8.** A v2.7 já havia fechado a colisão de duas linhas numeradas v2.6, a terceira vez que este documento registrava esse tipo de choque depois da v2.4 e da v2.5. Uma terceira linha, também numerada v2.6, apareceu depois de fechada aquela reunião, cega para as outras duas como elas foram cegas entre si. Ela vale tanto quanto as outras e não substitui nenhuma, de modo que entra aqui, no primeiro número livre. Uma corrige quatro tabelas contra a ficha do Rasengan; a segunda registra que o eixo corporal ganhou dono; a terceira aposenta a régua duplicada de afinidade elemental. Nenhuma toca no que as outras tocaram.
@@ -820,7 +834,7 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v2.9, manual tradutor do cenário Naruto para o Manual de Criação
+*Manual de Criação de Jutsus v2.10, manual tradutor do cenário Naruto para o Manual de Criação
 de Poderes v3.2. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
 absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
 RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a
