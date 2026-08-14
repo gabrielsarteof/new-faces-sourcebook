@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 176 documentos · 15 de núcleo · 161 de cenário
+**Total:** 177 documentos · 16 de núcleo · 161 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -23,10 +23,11 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Princípios de Design](core/design-principles.md) | `core.design-principles` | 1 | methodology | final |
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
 | [Manual de Criação de Poderes](core/power-creation.md) | `core.power-creation` | 3.3 | core-layer | final |
+| [Cálculos Rápidos de Testes](core/quick-calculations.md) | `core.quick-calculations` | 1 | reference-table | final |
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1 | reference-table | final |
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.3 | methodology | final |
 | [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
-| [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.2 | core-layer | final |
+| [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.3 | core-layer | final |
 | [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.5 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.2 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.4 | template | final |
@@ -114,7 +115,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1.4 | catalog | final |
+| [Vantagens Especiais do Mundo Shinobi](worlds/naruto/advantages-disadvantages/overview.md) | `naruto.advantages-disadvantages.overview` | 1.5 | catalog | final |
 
 ## Naruto · Campanha
 
@@ -162,7 +163,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.3 | compendium | final |
-| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.2 | compendium | final |
+| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.3 | compendium | final |
 | [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 2.0 | compendium | final |
 | [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.2 | compendium | final |
 | [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.3 | compendium | final |
@@ -296,7 +297,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Gōkakyū no Jutsu (豪火球の術)](worlds/naruto/techniques/gokakyu.md) | `naruto.technique.gokakyu` | 1 | technique | final |
 | [Gōryūka no Jutsu (豪龍火の術)](worlds/naruto/techniques/goryuka.md) | `naruto.technique.goryuka` | 1 | technique | final |
 | [Obras dos Oito Portões](worlds/naruto/techniques/hachimon-obras.md) | `naruto.technique.hachimon-obras` | 1.1 | technique | final |
-| [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.1 | technique | final |
+| [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.2 | technique | final |
 | [Técnica do Harém](worlds/naruto/techniques/harem.md) | `naruto.technique.harem` | 1 | technique | final |
 | [Técnica da Transformação](worlds/naruto/techniques/henge.md) | `naruto.technique.henge` | 2 | technique | final |
 | [Execução do Deus do Trovão Voador (飛雷神斬り)](worlds/naruto/techniques/hiraishin-giri.md) | `naruto.technique.hiraishin-giri` | 1.1 | technique | final |
@@ -339,7 +340,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 Referências que os documentos existentes fazem a material planejado. Não são links
 quebrados por erro — são o backlog de autoria declarado pelo próprio corpus.
 
-**48 alvos distintos, em 54 referências.**
+**49 alvos distintos, em 55 referências.**
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -391,6 +392,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 - `worlds/naruto/progression/dojutsu-evolution.md` — citado em worlds/naruto/progression/overview.md
 - `worlds/naruto/progression/rank-advancement.md` — citado em worlds/naruto/progression/overview.md
 - `worlds/naruto/progression/technique-extensions.md` — citado em worlds/naruto/progression/overview.md
+- `worlds/naruto/quick-calculations.md` — citado em core/quick-calculations.md
 
 ---
 
