@@ -1,7 +1,7 @@
 ---
 id: naruto.advantages-disadvantages.overview
 title: "Vantagens Especiais do Mundo Shinobi"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: catalog
@@ -180,7 +180,7 @@ Nasceste com o sistema circulatório de chakra incapaz de moldagem externa. Nenh
 
 **Restrição estrutural (permanente, embutida na compra):** as perícias de Ninjutsu, Genjutsu e as cinco Transformações de Natureza ficam inacessíveis em caráter definitivo. A RC continua sendo calculada normalmente, mas só pode ser gasta em aplicações internas: reforço físico, controle de superfície e PS. Fuinjutsu e técnicas médicas de projeção também ficam inacessíveis.
 
-**Efeitos:** Custo de XP dos atributos FOR, AGI e RES reduzido em 25% / Perícias da categoria Físico ganham +30% de XP em treino e têm o requisito de atributo de cada nível reduzido em 2 / Conversão Interna: 40% da RC entra no pool de PS como camada adicional, o corpo aproveitando o que nunca vai virar jutsu / Aptidão para os Oito Portões: a exigência de RES somada a FOR desce um degrau na tabela da seção 5.1 daquele documento, e nada além dela é reduzido
+**Efeitos:** Custo de XP dos atributos FOR, AGI e RES reduzido em 25% / Perícias da categoria Físico ganham +30% de XP em treino e têm o requisito de atributo de cada nível reduzido em 2 / Conversão Interna: 40% da RC entra no pool de PS como camada adicional, o corpo aproveitando o que nunca vai virar jutsu / Aptidão para os Oito Portões: a exigência de RES somada a FOR desce um degrau na tabela da seção 5.1 daquele documento, e o custo de XP do Kaimon, publicado na ficha do Hachimon Tonkō, cai pela metade, para 12.500
 
 **Nota:** A restrição não é desvantagem separada e não gera XP Sorte; o preço da vantagem já desconta o pilar inteiro de que o personagem abre mão. Incompatível com qualquer clã cujo núcleo dependa de ninjutsu ou dōjutsu.
 

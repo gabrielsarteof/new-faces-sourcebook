@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hachimon-tonko
 title: "Hachimon Tonkō (八門遁甲)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -54,7 +54,7 @@ Portador de Sharingan não adquire portão algum pela cópia. A escada depende d
 
 | Portão | Rank | Custo de XP |
 |---|---|---|
-| 1 Kaimon | C | 1.775 |
+| 1 Kaimon | C | 25.000, ou 12.500 com Restrição Corporal |
 | 2 Kyūmon | C | 2.120 |
 | 3 Seimon | B | 5.300 |
 | 4 Shōmon | B | 6.200 |
@@ -62,6 +62,8 @@ Portador de Sharingan não adquire portão algum pela cópia. A escada depende d
 | 6 Keimon | A | 18.200 |
 | 7 Kyōmon | S | 38.000 |
 | 8 Shimon | S · Kinjutsu | 50.000 |
+
+O Kaimon é o único portão fora da interpolação de faixa por rank do Manual de Criação de Jutsus, seção 4.1.1. O preço mede o corpo inteiro dedicado à abertura da escada, e o primeiro portão continua Rank C em combate. A vantagem Restrição Corporal reduz o custo do Kaimon em 50%, para 12.500 XP, porque para o portador dela a escada é o único caminho de moldagem que a fisiologia permite, e o preço cheio cobraria duas vezes pela mesma ausência que a vantagem já desconta em atributos e perícias.
 
 ---
 
@@ -108,9 +110,9 @@ O regulador do crânio limita a fração da musculatura que o comando voluntári
 - **RES + FOR exigido:** 10
 - **Maturação:** 4 Blocos
 - **Sequela na saída:** nenhuma
-- **Custo de XP:** 1.775
+- **Custo de XP:** 25.000, ou 12.500 para portadores de Restrição Corporal
 
-**Interações.** Abre o acesso à Lótus Frontal no Compêndio dos Oito Portões. Não eleva teto de fluxo algum, o que o mantém compatível com qualquer construção sem tocar a economia de chakra dela.
+**Interações.** Abre o acesso à Lótus Frontal no Compêndio dos Oito Portões. Não eleva teto de fluxo algum, o que o mantém compatível com qualquer construção sem tocar a economia de chakra dela. O custo de XP sai da faixa que rege os outros sete portões porque mede a transmissão rara e a década de treino físico que abrir a escada exige. O impacto de combate do primeiro degrau permanece Rank C.
 
 **Etiqueta.** Canon na queda da trava cerebral sobre a musculatura. Proposta na magnitude, no custo e na exigência de acesso.
 
@@ -316,7 +318,7 @@ O último regulador está no coração e é o que impede o órgão de trabalhar 
 | Keimon adquirido | acesso ao Pavão da Manhã, e primeiro degrau de Perfil de Evasão |
 | Kyōmon adquirido | acesso ao Tigre Diurno e ao Elefante Vespertino, e entrega em área |
 | Shimon adquirido | acesso ao Guy Noturno, segundo degrau de Perfil de Evasão e revogação do Limite de Saída |
-| Vantagem Restrição Corporal | exigência de RES somada a FOR reduzida em um degrau da tabela |
+| Vantagem Restrição Corporal | exigência de RES somada a FOR reduzida em um degrau da tabela, e custo de XP do Kaimon reduzido para 12.500 |
 
 ---
 
