@@ -1,7 +1,7 @@
 ---
 id: core.system-core
 title: "Núcleo do Sistema"
-version: 3.2
+version: 3.3
 layer: core
 type: core-layer
 status: final
@@ -35,7 +35,7 @@ Dez atributos. Nove compráveis com XP; **VON** é concedida só pelo narrador.
 Custo por nível:
 
 ```
-custo(n) = round((50 + 1.1 × (n² − 1)) / 5) × 5
+custo(n) = round((50 + 2.2 × (n² − 1)) / 5) × 5
 ```
 
 Tabela completa de custos: ver *Referência de Economia de XP*.

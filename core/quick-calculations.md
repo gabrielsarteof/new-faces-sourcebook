@@ -254,4 +254,4 @@ O ×25 de Potência não tem derivação publicada. `core/system-core.md` §6 de
 
 ## Dependências
 
-`core/skills-core.md` v2.2, dono da Base de Nível, das frações de inclinação e especialização, e da leitura de teste e portão. `core/system-core.md` v3.2, dono da resolução de testes e do Ritmo de Combate. `core/combat-core.md` v1, dono de toda a Seção 4. `core/skill-authoring.md` v7.3 §13.1, dono da inclinação de extensão manifestada. `core/status-effects.md` v2.5, dono da penalidade percentual de status. `core/xp-economy.md` v2.5, dono do preço de caminho e transcendência.
+`core/skills-core.md` v2.2, dono da Base de Nível, das frações de inclinação e especialização, e da leitura de teste e portão. `core/system-core.md` v3.3, dono da resolução de testes e do Ritmo de Combate. `core/combat-core.md` v1, dono de toda a Seção 4. `core/skill-authoring.md` v7.3 §13.1, dono da inclinação de extensão manifestada. `core/status-effects.md` v2.5, dono da penalidade percentual de status. `core/xp-economy.md` v2.6, dono do preço de caminho e transcendência.

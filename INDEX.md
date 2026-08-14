@@ -32,10 +32,10 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.3 | core-layer | final |
 | [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.5 | system | final |
-| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.2 | core-layer | final |
+| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.3 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
-| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.5 | system | final |
+| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.6 | system | final |
 
 ## Comum · Perícias sem cenário
 
