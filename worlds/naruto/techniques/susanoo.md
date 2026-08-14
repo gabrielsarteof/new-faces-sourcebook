@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.susanoo
 title: "Susanoo (須佐能乎)"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -130,6 +130,8 @@ A trava de recurso é a única trava que este documento acrescenta, conforme o m
 O armamento é um ponto de extensão da técnica. Cada portador manifesta armas próprias a partir do estágio Armadura, e essas armas são documentadas individualmente sem alterar o motor do Susanoo. O projétil genérico Yasaka Magatama é a exceção compartilhada, disponível a todos os portadores a partir da forma humanoide.
 
 O Yasaka Magatama é um projétil de chakra em forma de três magatama unidos, arremessado à distância. Serve como o ataque ofensivo padrão de qualquer Susanoo humanoide ou superior, e o seu dano segue a família de dano do Manual de Jutsus com a natureza e os coeficientes definidos no documento do projétil.
+
+O portador que domina a chama negra acopla duas coisas a esta plataforma, e as duas pertencem à [Perícia de Enton](../skills/enton.md) sem alterar o motor do Susanoo. A primeira é o revestimento, entregue pelo caminho Anteparo na face Guarnição, que cobre a construção de chama negra em qualquer estágio e faz quem toca a estrutura receber o dano da técnica que acendeu a chama. O revestimento fica fora do pool de PV do Susanoo, não o repõe, não o consome e acompanha a subida de estágio sem reemissão a partir do aprofundamento daquele caminho. A segunda é o orbe de chamas negras que o caminho Fonte sustenta acoplado à construção, do qual o portador saca massas de chama sem emissão nova e a partir do qual o caminho Voleio produz os projéteis em magatama e as flechas do arco. O orbe é reserva de chama e não é armamento, e as armas que saem dele correm pelas fichas daquela perícia.
 
 As armas específicas de portador, como a lâmina seladora e o escudo reflexivo de determinados portadores canônicos, são efeitos únicos que se acoplam ao Susanoo daquele portador. Cada arma recebe documento próprio no padrão das técnicas, com o seu rank, custo e efeito, e depende apenas da presença do Susanoo no estágio adequado. O motor do Susanoo não muda para acomodar novas armas; a arma é uma extensão que se pluga na plataforma.
 
