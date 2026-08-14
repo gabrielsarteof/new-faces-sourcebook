@@ -129,3 +129,4 @@ O grau Básica já se satisfaz por volta do LV2, abaixo do primeiro benchmark de
 - **Lacunas objetivas expõem sem rolagem:** a senha errada, o nome do filho que o usuário não sabe, o hábito que todos esperam e não aparece. Prepare uma ou duas dessas âncoras ao planejar cenas de infiltração.
 - **Narração:** descreva a perfeição da forma com a mesma seriedade nos dois lados da mesa. O disfarce dos PdMs contra o grupo usa as mesmas regras, e a assinatura de chakra é a rota de contrajogo de quem investiu em sensoriamento.
 - **PdMs:** infiltradores competentes preferem o disfarce genérico ao específico, porque a pessoa inexistente não tem convivência para traí-la.
+- **Interface pendente:** o teste de personificação específica roda sobre CAR e a perícia social mais próxima que o Mestre declarar em mesa, leitura provisória `[pendente]` até a Perícia de Lábia nascer.

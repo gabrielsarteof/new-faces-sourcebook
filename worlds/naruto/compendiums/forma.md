@@ -234,11 +234,11 @@ O usuário forma uma esfera em cada mão e entrega as duas na mesma ação. Cada
 ### Técnica dos Múltiplos Clones das Sombras
 **Tajū Kage Bunshin no Jutsu — 多重影分身の術**
 **[CANON — Rank A]**
-**Acesso:** Requisito de Segurança (Kinjutsu acima de 27 clones exige validação narrativa)
+**Acesso:** Requisito de Segurança
 **Requisitos:** Controle de Chakra LV5 · Moldagem Alta · Kage Bunshin no Jutsu
 **XP:** 18.500
 
-O usuário estende a partição de reserva do Kage Bunshin muito além da banda tática comum, gerando de cinco a centenas de corpos sólidos simultâneos. A escala escolhida define o rank, o custo de XP e o Aftermath que recai sobre o próprio usuário ao final da cena, do leve desgaste físico do rank A ao esgotamento estrutural da faixa Kinjutsu. O rank e o XP declarados acima são o degrau de entrada, cinco a nove clones; a ficha individual publica a tabela completa das três faixas, Rank A a 18.500 XP, Rank S a 49.400 XP e Kinjutsu a 50.000 XP, com a tabela de clones por faixa e o Aftermath de cada uma. O catálogo, por norma, publica um rank e um custo de XP por entrada; a escalada pertence à ficha, que já a resolve por inteiro.
+O usuário estende a partição de reserva do Kage Bunshin muito além da banda tática comum, gerando de cinco a centenas de corpos sólidos simultâneos. A escala escolhida define o rank, o custo de XP e o Aftermath que recai sobre o próprio usuário ao final da cena, do leve desgaste físico do rank A ao esgotamento estrutural da faixa Kinjutsu. O rank e o XP declarados acima são o degrau de entrada, cinco a nove clones; a ficha individual publica a tabela completa das três faixas, Rank A a 18.500 XP, Rank S a 49.400 XP e Kinjutsu a 50.000 XP, com a tabela de clones por faixa e o Aftermath de cada uma. O catálogo, por norma, publica um rank e um custo de XP por entrada; a escalada pertence à ficha, que já a resolve por inteiro. A escalada até 27 clones ou mais satura a marcação Kinjutsu e exige a validação narrativa da Seção 4.3 do Manual de Criação de Jutsus por cima do Requisito de Segurança declarado acima, trava que a ficha individual descreve por inteiro.
 
 ---
 

@@ -69,16 +69,16 @@ O estouro não carrega assinatura elemental. É calor e pressão de chakra bruto
 
 ## Família de Dano
 
-```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator_Moldagem
-Fator_Moldagem = LV_CC² × 2,5 × coef_técnica
+Conforme a Seção 5.3 do Manual de Jutsus:
 
-coef_entrega  = 0,15    entrega em área ao redor do ponto de detonação
-mult_Tipo     = 1,00    sem natureza elemental
-coef_técnica  = 2,0     moldagem relevante, mas não dominante, porque o combustível já chega pronto do clone
+```
+dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
+dano = RC nominal × 0,15 × 1,00 + LV_CC² × 2,5 × 2,0
 ```
 
-**RC nominal** é a fração de RC que o clone detonado ainda carregava no instante do gatilho, lida diretamente da Divisão da Reserva do Kage Bunshin. **LV_CC** é o nível de Controle de Chakra do usuário no momento da detonação, não do clone.
+**RC nominal** é a fração de RC que o clone detonado ainda carregava no instante do gatilho, lida diretamente da Divisão da Reserva do Kage Bunshin, e por isso permanece simbólica na segunda linha em vez de substituída por um número: não há um valor fixo a inscrever, o clone que detona é que decide. **LV_CC** é o nível de Controle de Chakra do usuário no momento da detonação, não do clone.
+
+O coeficiente de entrega 0,15 corresponde à entrega em área ao redor do ponto de detonação, entre a categoria "Área irradiada do corpo" (0,12) e a categoria "Projétil único direcionado" (0,16) da Seção 5.3, sem coincidir com nenhuma delas: nenhuma das sete formas de entrega publicadas descreve uma explosão que nasce de um ponto fixo e se expande, e este é o primeiro jutsu da leva a precisar de um valor nesse intervalo. `[proposta]`, precedente para qualquer técnica futura de detonação em área a partir de um corpo estacionário. O multiplicador de tipo 1,00 corresponde à ausência de natureza elemental. O coeficiente técnico 2,0 corresponde à moldagem como mecanismo central, mas não dominante, porque o combustível já chega pronto do clone em vez de ser convertido no instante do gatilho.
 
 **Raio de Detonação:** banda Curta do Núcleo de Combate, até 15 metros, medida a partir do ponto onde o clone se encontrava. Todo alvo dentro do raio sofre o dano cheio, sem redução por distância dentro da própria banda.
 
