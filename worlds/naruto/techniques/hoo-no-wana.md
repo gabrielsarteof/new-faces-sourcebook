@@ -48,7 +48,7 @@ As marcações são visíveis a quem examina o ponto ou o alvo de perto, como um
 - **Custo mínimo:** 340
 - **Selos de referência:** 2
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Padrão para cada marcação, resolvido no instante da detonação e não no instante da colocação, porque é a detonação que constitui a entrega ofensiva
+- **Perfil de Evasão:** Padrão, resolvido para cada marcação no instante da detonação e não no instante da colocação, porque é a detonação que constitui a entrega ofensiva
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus, referente à colocação das marcas. A detonação de cada marca já colocada é ação livre, pelo efeito Palavra de Fogo do caminho Pavio, ou ação menor quando disparada por escolha deliberada fora de reação
 - **Ação:** dois selos, seguidos da distribuição simultânea das marcações
 - **Restrições:** validade das marcas conforme a contagem de turnos do efeito Carga Dormente do caminho Pavio, sem redeclaração nesta ficha
@@ -87,7 +87,7 @@ Com três marcas ativas, cada detonação isolada entrega um terço do total pub
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, a cada marcação detonada.
 

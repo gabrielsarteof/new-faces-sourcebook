@@ -49,7 +49,7 @@ O calor concentrado da descarga é perceptível apenas a quem está ao alcance d
 - **RC nominal:** 780
 - **Custo mínimo:** 260
 - **Selos de referência:** 0, execução pela via de Emissão, sem selo de mão
-- **Assinatura selada:** não aplicável, pela mesma razão do Endan
+- **Assinatura selada:** dispensada, pela mesma razão do Endan: selos de referência já em zero, sem contagem a dispensar
 - **Perfil de Evasão:** Padrão
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** ação de ataque corpo a corpo, contato direto da palma
@@ -94,7 +94,7 @@ Nenhuma perfuração declarada além do padrão. A entrega por contato não conc
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
 

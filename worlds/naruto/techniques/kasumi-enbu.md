@@ -96,7 +96,7 @@ Nenhuma perfuração declarada além do padrão. A técnica não distingue aliad
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, a todos dentro da área no instante da detonação.
 

@@ -105,7 +105,7 @@ O confronto direto contra Suiton de rank equivalente ou inferior resolve pelo Ci
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
 

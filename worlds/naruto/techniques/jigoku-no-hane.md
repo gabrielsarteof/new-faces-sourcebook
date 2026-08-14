@@ -96,7 +96,7 @@ A esquiva contra os projéteis embutidos é regida pelo efeito Segunda Linha do 
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, sobre o alvo atingido pela chama antes da abertura.
 

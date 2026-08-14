@@ -52,7 +52,7 @@ A coluna de fogo ilumina o trajeto por menos de um segundo e não deixa marca du
 - **RC nominal:** 49
 - **Custo mínimo:** 16
 - **Selos de referência:** 0
-- **Assinatura selada:** não aplicável. A técnica já executa sem selo algum em qualquer nível de maestria, por definição da própria entrada, e não pela regra de assinatura selada da Régua de Interface
+- **Assinatura selada:** dispensada. A técnica já executa sem selo algum em qualquer nível de maestria, por definição da própria entrada, e não pela regra de assinatura selada da Régua de Interface, que pressupõe uma contagem de selos a dispensar
 - **Perfil de Evasão:** Padrão
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus. No custo mínimo de 16, qualquer Limite de Saída acima de 16 dispara no ato
 - **Ação:** ação de ataque única, sem canalização prévia em praticante de moldagem competente
@@ -134,6 +134,21 @@ Par de referência Veterano, PV 960, conforme a leitura de par por rank fechada 
 ### Validação de magnitude
 
 O Endan não alcança o tier Forte em nenhum patamar de maestria, nem no piso de 25% nem no teto de 38% do par. A leitura é esperada e não um defeito de calibração: o próprio catálogo descreve a técnica como modesta diante das técnicas de rank superior, RC nominal de 49 é o piso absoluto da faixa D, e a ausência de selos publica a barganha central da entrada, imediatismo trocado por potência. Uma técnica de rank D que alcançasse Forte tornaria as onze técnicas de rank superior desta leva redundantes no próprio degrau que deveriam superar. O Endan compra velocidade de resposta e função de ignição, não dano decisivo, e a Tabela de Descarga confirma essa leitura sem contradizer a Régua de Magnitude, que reserva o tier Forte para as técnicas cujo catálogo as descreve como opção de combate central.
+
+---
+
+## Rider de Queimadura
+
+O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
+
+| Campo | Valor |
+|---|---|
+| Grau mínimo garantido | Leve |
+| Grau máximo possível | Moderado |
+| Atributos testados | RES + FOR |
+| Alvo do teste | (RES + FOR) × (1 − dano ÷ PV máximo da vítima) |
+
+O grau máximo possível não passa de Moderado, o mais baixo teto desta leva, coerente com o dano modesto que a Tabela de Descarga acima publica.
 
 ---
 

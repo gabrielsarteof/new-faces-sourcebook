@@ -93,7 +93,7 @@ Nenhuma perfuração declarada além do padrão. A leitura de "ignorar cobertura
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
 

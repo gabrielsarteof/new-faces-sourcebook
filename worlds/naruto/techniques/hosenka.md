@@ -88,6 +88,19 @@ O Hōsenka não alcança o tier Forte em nenhum patamar, consistente com o rank 
 
 ---
 
+## Rider de Queimadura
+
+O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, a cada esfera que atinja o alvo.
+
+| Campo | Valor |
+|---|---|
+| Grau mínimo garantido | Leve |
+| Grau máximo possível | Moderado |
+| Atributos testados | RES + FOR |
+| Alvo do teste | (RES + FOR) × (1 − dano ÷ PV máximo da vítima) |
+
+---
+
 ## Progressão por Maestria
 
 | Nível | Capacidade ou mudança |

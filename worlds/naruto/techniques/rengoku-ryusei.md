@@ -71,6 +71,7 @@ Rank S publica saída reduzida, pela Seção 1.2 do Manual de Criação de Jutsu
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** quatro selos, seguidos da compressão visível e do disparo em linha reta
 - **Restrições:** alvo único ou linha estreita atravessando até três alvos alinhados, distância longa, uma execução por combate pelo próprio custo de reserva envolvido
+- **Aftermath:** saída reduzida, pela Seção 1.2 do Manual de Criação de Jutsus. O Limite de Saída do praticante cai à metade no turno seguinte à execução
 
 ---
 
@@ -108,7 +109,7 @@ Nenhuma perfuração mecânica declarada além do padrão de dano e do rider. A 
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
 

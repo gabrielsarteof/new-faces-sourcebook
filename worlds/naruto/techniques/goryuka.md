@@ -93,7 +93,7 @@ O Gōryūka não alcança o tier Forte em nenhum patamar de maestria. A RC nomin
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
 

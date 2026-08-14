@@ -48,7 +48,7 @@ Os três guias são visíveis como linhas de calor distorcendo o ar, convergente
 - **Custo mínimo:** 340
 - **Selos de referência:** 3
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Padrão. A convergência dos três guias sobre um único alvo estreita as rotas de fuga por geometria de cerco, um efeito tático narrado em mesa, e não eleva o degrau de evasão da Seção 6.5 do Manual de Jutsus, que exige RC adicional e Extra pago em XP para qualquer elevação a Teleguiado, sobretaxa que esta ficha não paga
+- **Perfil de Evasão:** Padrão, sem elevação a Teleguiado. A convergência dos três guias sobre um único alvo estreita as rotas de fuga por geometria de cerco, um efeito tático narrado em mesa, e não eleva o degrau de evasão da Seção 6.5 do Manual de Jutsus, que exige RC adicional e Extra pago em XP para qualquer elevação, sobretaxa que esta ficha não paga
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** três selos, seguidos do envio simultâneo dos três guias
 - **Restrições:** até três alvos distintos, distância curta a média, cada guia resolve a própria esquiva quando dirigido a alvos separados
@@ -87,7 +87,7 @@ O Kaen Ami alcança o piso do tier Forte com dois caminhos adicionais em Control
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, a cada alvo atingido por ao menos um guia.
 

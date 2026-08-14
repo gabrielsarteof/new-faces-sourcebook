@@ -50,7 +50,7 @@ As lâminas continuam visivelmente acesas depois do impacto, mesmo cravadas em s
 - **RC nominal:** 438
 - **Custo mínimo:** 146
 - **Selos de referência:** 0, execução por movimento de arremesso e expulsão simultânea de chakra, sem selo de mão
-- **Assinatura selada:** não aplicável, pela mesma razão do Endan
+- **Assinatura selada:** dispensada, pela mesma razão do Endan: selos de referência já em zero, sem contagem a dispensar
 - **Perfil de Evasão:** Padrão
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** arremesso com uma mão, com a expulsão de chakra ocorrendo no mesmo movimento
@@ -90,7 +90,7 @@ O Hōsenka Tsumabeni se aproxima do piso do tier Forte sem alcançá-lo, mesmo n
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
 

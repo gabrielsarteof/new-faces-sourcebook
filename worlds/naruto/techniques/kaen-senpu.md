@@ -102,7 +102,7 @@ O Kaen Senpū não alcança o tier Forte. O valor tático da entrada está na zo
 
 ---
 
-## Rider — Queimadura
+## Rider de Queimadura
 
 O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, contra qualquer alvo que atravesse a área do turbilhão mantido ou que seja atingido pelo modo comprimido.
 
