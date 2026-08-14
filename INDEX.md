@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 161 documentos · 15 de núcleo · 146 de cenário
+**Total:** 162 documentos · 15 de núcleo · 147 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -145,7 +145,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Clãs — Naruto](worlds/naruto/clans/overview.md) | `naruto.clans.overview` | 1 | clan | final |
 | [Clã Sarutobi](worlds/naruto/clans/sarutobi.md) | `naruto.clan.sarutobi` | 1 | clan | final |
 | [Senju — O Clã de Mil Habilidades](worlds/naruto/clans/senju.md) | `naruto.clan.senju` | 1 | clan | final |
-| [Mangekyō Sharingan](worlds/naruto/clans/uchiha-mangekyo-sharingan.md) | `naruto.lineage.mangekyo-sharingan` | 1 | lineage | final |
+| [Mangekyō Sharingan](worlds/naruto/clans/uchiha-mangekyo-sharingan.md) | `naruto.lineage.mangekyo-sharingan` | 1.1 | lineage | final |
 | [Sharingan](worlds/naruto/clans/uchiha-sharingan.md) | `naruto.lineage.sharingan` | 2.1 | lineage | final |
 | [Uchiha — O Olho que Reflete Sentimentos](worlds/naruto/clans/uchiha.md) | `naruto.clan.uchiha` | 2.1 | clan | final |
 | [Uzumaki — A Estirpe da Longevidade](worlds/naruto/clans/uzumaki.md) | `naruto.clan.uzumaki` | 1.1 | clan | final |
@@ -239,6 +239,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Barreira](worlds/naruto/skills/barreira.md) | `naruto.skill.barreira` | 1 | skill | final |
 | [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 3.3 | skill | final |
 | [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2.1 | skill | final |
+| [Enton (炎遁)](worlds/naruto/skills/enton.md) | `naruto.skill.enton` | 1 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.4 | skill | final |
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.3 | skill | final |
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.3 | skill | final |
@@ -261,7 +262,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 5.2 | system | final |
+| [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 5.3 | system | final |
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.3 | system | final |
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.1 | system | final |
@@ -314,7 +315,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1 | technique | final |
 | [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2 | technique | final |
 | [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2 | technique | final |
-| [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.2 | technique | final |
+| [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |
 | [Técnica dos Múltiplos Clones das Sombras](worlds/naruto/techniques/taju-kage-bunshin.md) | `naruto.technique.taju-kage-bunshin` | 1 | technique | final |
 | [Takemikazuchi (建御雷神)](worlds/naruto/techniques/takemikazuchi.md) | `naruto.technique.takemikazuchi` | 1 | technique | final |
 | [Técnica de Escape Transparente](worlds/naruto/techniques/toton.md) | `naruto.technique.toton` | 1 | technique | final |

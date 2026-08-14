@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 5.2
+version: 5.3
 layer: scenario
 scenario: naruto
 type: system
@@ -270,7 +270,6 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 
 | Kyōka | Elemento base | Gate | Tier | Poder | % base | Mult. de dano | Proveniência |
 |---|---|---|---|---|---|---|---|
-| Enton 炎遁 (Chama Negra) | Fogo | Indra (Uchiha) | A | Estratégico | 2% | 2,10 | cânone |
 | Shiton 熾遁 (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,80 | criação de Gabriel |
 | Taiton 颱遁 (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,65 | criação de Gabriel |
 | Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | sem Centelha | 1,95 | cânone |
@@ -289,9 +288,29 @@ Mult_Kyōka = Mult_base_do_elemento + Bônus_de_poder
 Bônus_de_poder: Estratégico +0,35 · Decisivo +0,20 · Tático-Decisivo +0,10
 ```
 
-O Enton é a única exceção declarada a essa régua. A fórmula o colocaria em 1,95, e ele está registrado em 2,10. `[canon]` O Amaterasu é a ninjutsu de Katon de nível mais alto da série, fogo que arde por sete dias e sete noites e não se apaga por meios comuns, e nenhuma manifestação de Raiton ocupa posição equivalente na obra. O Enton cobra portão de linhagem de Indra somado ao Sharingan, e a régua sozinha o empatava com o topo do Raio, que não cobra linhagem alguma.
+**O catálogo de Kyōka perde o único membro canônico que tinha.** Com a saída do Enton, as seis entradas restantes são criação de Gabriel ou natureza sem verbete próprio na obra, e a camada deixa de poder se justificar pela existência de um ocupante que a fonte nomeia. A definição da categoria passa a ser puramente mecânica: **Kyōka é a natureza que substitui o multiplicador de dano do elemento base sem recompor elemento algum.** É essa substituição, e apenas ela, que separa a camada das Kekkei Genkai e das Kekkei Tōta a partir desta versão. Toda entrada nova precisa cumprir a substituição para pertencer aqui, e a proveniência de cada uma continua declarada na coluna própria.
 
-A faixa Estratégico do Raio fica deliberadamente vazia, e a lacuna é decisão e não esquecimento. Raio 1,75 somado ao incremento Estratégico daria 2,10 e reabriria exatamente o empate que a exceção acima existe para desfazer. Nenhuma passagem futura deve preenchê-la por simetria com os outros elementos.
+A faixa Estratégico do Raio fica deliberadamente vazia, e a lacuna é decisão e não esquecimento. Raio 1,75 somado ao incremento Estratégico daria 2,10, que é o valor de dano do Enton publicado na perícia própria dele, e o empate reabriria a equivalência entre o topo do Raio e o topo do Fogo que a separação existe para manter. Nenhuma passagem futura deve preenchê-la por simetria com os outros elementos.
+
+### Enton, natureza com perícia própria
+
+O Enton deixa de figurar no catálogo de Kyōka e passa a responder por documento próprio, a [Perícia de Enton](../skills/enton.md). A razão é de camada. As demais entradas desta seção intensificam um elemento e respondem às perguntas do domínio daquele elemento, cabendo dentro da perícia hospedeira como inclinação de extensão manifestada. O Enton abre uma lista de perguntas que o Katon não formula em nível nenhum, sobre chama que já existe no mundo, que tem dono declarado, que não se apaga por meio comum e que consome construto de chakra, e uma lista de resposta própria é a definição de perícia própria.
+
+Este documento permanece dono do que a manifestação decide.
+
+| Propriedade | Valor | Dono |
+|---|---|---|
+| Elemento base | Fogo | este documento |
+| Portão de linhagem | Indra, restrito a Uchiha | este documento |
+| Tier histórico | A | este documento |
+| Centelha, percentual base | 2% | este documento |
+| Ordem de teste no Fogo | Enton antes de Shiton | este documento |
+| Multiplicador de dano | 2,10 | Perícia de Enton |
+| Partição, réguas e verbos | três inclinações, dez caminhos | Perícia de Enton |
+
+A justificativa do 2,10 acompanha o valor para a perícia e passa a ser lida direto da fonte, que declara o Amaterasu o ninjutsu de Katon de nível mais alto da série. A fórmula de Kyōka deixa de alcançá-lo, porque ela precifica substituição de multiplicador dentro desta camada e o Enton saiu dela.
+
+O portão de linhagem permanece exatamente onde estava, e o teto de uma Kyōka por elemento base continua valendo para o Fogo do portador: o Uchiha que manifesta o Enton não testa o Shiton, do mesmo modo que a ordem de teste já determinava.
 
 `[cânone fraco, wiki de fã]` O princípio geral da camada tem descrição registrada fora de databook: a intensificação é a transformação de natureza levada ao extremo, o chakra vibrado na maior velocidade e no maior volume que o praticante alcança, e a mesma fonte afirma que o refinamento não é exclusivo do raio e se aplica a qualquer uma das cinco naturezas básicas. A descrição fica registrada porque sustenta a existência da camada inteira, e fica etiquetada porque a fonte é wiki de fã e não databook.
 
@@ -467,5 +486,7 @@ A perícia da natureza avançada não reduz o custo dos Tipos Elementais compone
 ---
 
 ## Registro de Alterações
+
+**v5.3.** Errata do Enton. A natureza sai do catálogo de Kyōka e passa a responder pela Perícia de Enton, com este documento conservando o elemento base, o portão de linhagem de Indra, o tier A, o percentual de Centelha e a ordem de teste no Fogo, e cedendo à perícia o multiplicador de dano de 2,10, a partição e as réguas. A exceção nominal que o 2,10 abria contra a fórmula de Kyōka deixa de existir, porque a fórmula deixou de alcançar a natureza, e a justificativa do valor passa a ser lida direto da fonte no documento que agora o publica. Com a saída, o catálogo de Kyōka perde o único membro canônico que tinha, e a nota da categoria passa a defini-la pela substituição do multiplicador do elemento base, que é a propriedade mecânica que sobrou para separá-la das camadas vizinhas. A lacuna deliberada na faixa Estratégico do Raio permanece, com a justificativa reescrita para não depender de uma exceção que saiu do documento. Nenhuma outra composição, portão, tier, percentual de Centelha ou régua de progressão mudou.
 
 **v5.2.** Errata do Puraton. A entrada passa a declarar a natureza mecânica dela como poder de linhagem construído pelo Manual de Criação de Poderes, com a ficha completa publicada em `worlds/naruto/powers/puraton.md`, e o catálogo deixa de ser lido como se a propriedade fosse camada de perícia ou de inclinação. A conciliação entre canal e busca virou linha publicada, com o canal decidindo por onde a descarga viaja e a busca decidindo onde ela termina, encerrando a leitura contraditória que a seção de busca e a tabela de fronteiras permitiam. O parágrafo que afirmava a dissipação contra isolante do LV1 valendo sem exceção para o Plasma foi corrigido, porque o Grau 1 do poder a revoga para as descargas de Puraton de quem o possui. A tabela de fronteiras de condução ganhou a linha do Rescaldo e o canal ionizado passou a citar o grau que o publica. O catálogo de Kekkei Genkai ganhou coluna de Proveniência, com o Puraton marcado como criação de Gabriel. O nome Estilo Plasma foi substituído por Puraton em todo o documento, alinhando o corpo do texto à decisão de nomenclatura que a v5.1 já havia tomado. Nenhuma composição, portão, tier, percentual de Centelha ou régua de progressão mudou.

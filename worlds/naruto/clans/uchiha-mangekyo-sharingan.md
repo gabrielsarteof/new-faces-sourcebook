@@ -1,7 +1,7 @@
 ---
 id: naruto.lineage.mangekyo-sharingan
 title: "Mangekyō Sharingan"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: lineage
@@ -220,6 +220,8 @@ O Mangekyō destrava três capacidades que não existem no Sharingan base. Cada 
 As **técnicas únicas** são uma por olho, geradas no momento do despertar pelo desejo ou trauma do portador. Nenhum dos dois portadores tem as mesmas técnicas. Cada técnica reside em um olho específico e é cobrada por aquele olho no medidor de desgaste. O documento de criação de técnica ocular detalha como construí-las.
 
 O **Susanoo** é a habilidade mais poderosa do portador que acendeu o Mangekyō nos dois olhos. Não está disponível a portadores de um único Sharingan. Manifesta-se em estágios progressivos do esqueleto ao Corpo Completo, com custo, potência e acesso distintos em cada estágio. O documento do Susanoo detalha a progressão completa e as regras de combate.
+
+A chama negra produzida pelo Amaterasu tem governo próprio. O Amaterasu permanece técnica única deste documento, com o acendimento nascendo no ponto em que o olho pousa o olhar, o custo cobrado pela ficha da técnica e o desgaste somado ao medidor do olho que a abriga, e nada disso se move de lugar. O que a chama vira depois de posta pertence à [Perícia de Enton](../skills/enton.md), que responde pela forma que ela toma, pelo alcance a que ela continua obedecendo, por quanto tempo ela fica, pelo que ela faz com construto de chakra e por apagá-la. O portador que acende sem comprar aquela perícia produz a chama e a deixa onde ela caiu, que é o comportamento registrado na fonte para o portador sem o governo. A perícia exige o Mangekyō desperto em ao menos um olho e não exige os dois, e a divisão entre o olho que acende e o olho que molda permanece como descrição de portador e não como requisito.
 
 O **controle de bestas com cauda** é o teto extremo do Olho da Hipnose no tier do Mangekyō. Não é habilidade geral concedida a qualquer portador: é o limite alcançável pela Hipnose quando a potência do Mangekyō se soma a uma reserva de chakra de magnitude excepcional. Fica reservado a uso de evento, liberado pelo Narrador.
 
