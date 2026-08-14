@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 147 documentos · 15 de núcleo · 132 de cenário
+**Total:** 162 documentos · 15 de núcleo · 147 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -18,7 +18,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Vantagens Comuns](core/advantages.md) | `core.advantages` | 1.2 | catalog | final |
-| [Fator de Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 1 | system | final |
+| [Cânone — Cálculo do XP de Ficha](core/canon-factor.md) | `core.canon-factor` | 2 | system | final |
 | [Núcleo de Combate](core/combat-core.md) | `core.combat-core` | 1 | core-layer | final |
 | [Princípios de Design](core/design-principles.md) | `core.design-principles` | 1 | methodology | final |
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
@@ -28,10 +28,10 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.2 | core-layer | final |
 | [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.5 | system | final |
-| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.1 | core-layer | final |
+| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.2 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
-| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.2 | system | final |
+| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.3 | system | final |
 
 ## Comum · Perícias sem cenário
 
@@ -163,7 +163,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.3 | compendium | final |
 | [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.2 | compendium | final |
-| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 1.2 | compendium | final |
+| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 2.0 | compendium | final |
 | [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.2 | compendium | final |
 | [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.3 | compendium | final |
 | [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1.1 | compendium | final |
@@ -242,13 +242,13 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Enton (炎遁)](worlds/naruto/skills/enton.md) | `naruto.skill.enton` | 1 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.4 | skill | final |
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.3 | skill | final |
-| [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.2 | skill | final |
+| [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.3 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 4 | skill | final |
 | [Kunai](worlds/naruto/skills/kunai.md) | `naruto.skill.kunai` | 1 | skill | final |
 | [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1 | skill | final |
 | [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.1 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.20 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.21 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.1 | skill | final |
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.1 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.1 | skill | final |
@@ -264,15 +264,15 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 5.3 | system | final |
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
-| [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.2 | system | final |
+| [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.3 | system | final |
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.1 | system | final |
 | [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.6 | methodology | final |
 | [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.3 | system | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 7 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.1 | pending-patch | applied |
 | [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.1 | pending-patch | pending-patch |
-| [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.9 | methodology | final |
-| [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1.1 | system | final |
+| [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.11 | methodology | final |
+| [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1.2 | system | final |
 | [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.4 | system | final |
 | [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2.1 | system | final |
 
@@ -280,6 +280,9 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
+| [Técnica da Grande Explosão do Clone](worlds/naruto/techniques/bunshin-daibakuha.md) | `naruto.technique.bunshin-daibakuha` | 1 | technique | final |
+| [Técnica do Clone](worlds/naruto/techniques/bunshin.md) | `naruto.technique.bunshin` | 2 | technique | final |
+| [Técnica dos Fios de Chakra](worlds/naruto/techniques/chakura-no-ito.md) | `naruto.technique.chakura-no-ito` | 1 | technique | final |
 | [Chidori Eisō — Lança Afiada de Mil Pássaros (千鳥鋭槍)](worlds/naruto/techniques/chidori-eiso.md) | `naruto.technique.chidori-eiso` | 1 | technique | final |
 | [Chidori Katana — Sabre de Mil Pássaros (草薙の剣・千鳥刀)](worlds/naruto/techniques/chidori-katana.md) | `naruto.technique.chidori-katana` | 1 | technique | final |
 | [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 2 | technique | final |
@@ -290,20 +293,32 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](worlds/naruto/techniques/futon-rasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1 | technique | final |
 | [Obras dos Oito Portões](worlds/naruto/techniques/hachimon-obras.md) | `naruto.technique.hachimon-obras` | 1.1 | technique | final |
 | [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.1 | technique | final |
+| [Técnica do Harém](worlds/naruto/techniques/harem.md) | `naruto.technique.harem` | 1 | technique | final |
+| [Técnica da Transformação](worlds/naruto/techniques/henge.md) | `naruto.technique.henge` | 2 | technique | final |
 | [Execução do Deus do Trovão Voador (飛雷神斬り)](worlds/naruto/techniques/hiraishin-giri.md) | `naruto.technique.hiraishin-giri` | 1.1 | technique | final |
 | [Deus do Trovão Voador pela Impregnação (飛雷神の術)](worlds/naruto/techniques/hiraishin-impregnacao.md) | `naruto.technique.hiraishin-impregnacao` | 1 | technique | final |
 | [Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)](worlds/naruto/techniques/hiraishin-ni-no-dan.md) | `naruto.technique.hiraishin-ni-no-dan` | 1.1 | technique | final |
 | [Rotação Instantânea Mútua do Deus do Trovão Voador (飛雷神・相互瞬間回転)](worlds/naruto/techniques/hiraishin-sogo-shunkan-kaiten.md) | `naruto.technique.hiraishin-sogo-shunkan-kaiten` | 1 | technique | final |
 | [Deus do Trovão Voador (飛雷神の術)](worlds/naruto/techniques/hiraishin.md) | `naruto.technique.hiraishin` | 1 | technique | final |
+| [Técnica do Clone das Sombras](worlds/naruto/techniques/kage-bunshin.md) | `naruto.technique.kage-bunshin` | 2 | technique | final |
+| [Liberação](worlds/naruto/techniques/kai.md) | `naruto.technique.kai` | 2 | technique | final |
+| [Técnica do Manto Oculto](worlds/naruto/techniques/kakuremino.md) | `naruto.technique.kakuremino` | 1 | technique | final |
+| [Substituição de Corpo](worlds/naruto/techniques/kawarimi.md) | `naruto.technique.kawarimi` | 2 | technique | final |
 | [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2 | technique | final |
+| [Técnica da Camuflagem Óptica](worlds/naruto/techniques/meisaigakure.md) | `naruto.technique.meisaigakure` | 1 | technique | final |
+| [Técnica do Escape de Cordas](worlds/naruto/techniques/nawanuke.md) | `naruto.technique.nawanuke` | 2 | technique | final |
 | [Ōdama Rasengan (大玉螺旋丸)](worlds/naruto/techniques/odama-rasengan.md) | `naruto.technique.odama-rasengan` | 1 | technique | final |
+| [Técnica Sensual](worlds/naruto/techniques/oiroke.md) | `naruto.technique.oiroke` | 1 | technique | final |
 | [Raikiri — Cortador de Raio (雷切)](worlds/naruto/techniques/raikiri.md) | `naruto.technique.raikiri` | 1 | technique | final |
 | [Rasengan (螺旋丸)](worlds/naruto/techniques/rasengan.md) | `naruto.technique.rasengan` | 1 | technique | final |
 | [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1 | technique | final |
 | [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2 | technique | final |
+| [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |
+| [Técnica dos Múltiplos Clones das Sombras](worlds/naruto/techniques/taju-kage-bunshin.md) | `naruto.technique.taju-kage-bunshin` | 1 | technique | final |
 | [Takemikazuchi (建御雷神)](worlds/naruto/techniques/takemikazuchi.md) | `naruto.technique.takemikazuchi` | 1 | technique | final |
+| [Técnica de Escape Transparente](worlds/naruto/techniques/toton.md) | `naruto.technique.toton` | 1 | technique | final |
 
 ## Documentos previstos e ainda não escritos
 
