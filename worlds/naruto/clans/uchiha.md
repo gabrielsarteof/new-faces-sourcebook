@@ -1,7 +1,7 @@
 ---
 id: naruto.clan.uchiha
 title: "Uchiha — O Olho que Reflete Sentimentos"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: clan
@@ -10,6 +10,8 @@ source-file: content/worlds/naruto/clans/uchiha/Uchiha.md
 ---
 
 # Uchiha — O Olho que Reflete Sentimentos
+
+**O que mudou na v2.2.** A exceção de portão do Rito da Grande Bola de Fogo, seção de vantagens, passa a cobrir explicitamente o portão de moldagem além do de rank, fechando a lacuna que a Reforma da Exigência de Moldagem registrava contra este documento. Nenhum XP mudou.
 
 *Clã fundador de Konoha. Fogo, genialidade e a maldição que transforma perda em poder.*
 
@@ -125,6 +127,8 @@ O Gōkakyū no Jutsu é o rito de passagem do Clã Uchiha. O membro que domina a
 **Efeitos:** O personagem inicia o jogo com o Gōkakyū no Jutsu consolidado no repertório, sem custo de XP. Para esta técnica especificamente, o portão de rank cai de Katon LV3 para Katon LV2; a exceção é exclusiva do jutsu do Rito e não se estende a nenhuma outra técnica de rank C / Filho do Fogo: +5 em testes de resistência contra Queimadura e calor, e penalidades ambientais em zona de fogo ou calor extremo reduzidas em 5
 
 **Nota:** O Gōkakyū concedido conta como técnica plenamente dominada no repertório do personagem, servindo de raiz para derivação por quem tenha acesso a ela, o que no sistema pertence à Reencarnação de Indra através do Códice. A exceção de portão é individual e intransferível: qualquer técnica derivada do Gōkakyū segue os portões normais do seu próprio rank.
+
+A exceção cobre os dois portões, não só o de rank: a criança do píer do rio Naka não possui nenhum dos dois. O portão de moldagem já carrega a exceção embutida na própria Exigência publicada pelo Compêndio de Katon — 44, abaixo da mediana de rank C do domínio (Ryūka e Kasumi Enbu, ambas 60), porque o rito é ensinado a crianças e a Exigência de Moldagem da entrada já foi calibrada para refletir isso. Nenhum valor adicional se soma a ela para quem recebe a técnica por este Rito.
 
 ### Chama do Vínculo — 120 XP
 

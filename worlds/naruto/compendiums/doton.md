@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.doton
 title: "Compêndio de Doton (土遁)"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,8 +9,10 @@ status: final
 source-file: Compendio_Doton_v2-1.md
 ---
 
-# Compêndio de Doton (土遁) · v2
+# Compêndio de Doton (土遁) · v2.4
 **Liberação de Terra**
+
+**O que mudou na v2.4.** Primeira auditoria completa da Exigência de Moldagem: as 34 entradas, que já carregavam degrau nomeado, passaram a número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas [PROPOSTA] mantêm veto pendente de Gabriel, já registrado na seção de Pendências de Aprovação, e a Exigência delas herda a mesma incerteza. Este compêndio segue fora de norma pela Norma de Produção de Compêndios §13 — carrega os seis blocos normativos que a v2.7 da Norma já centralizou noutro lugar — e essa reemissão não foi feita nesta passada, por ser trabalho de forma e não de conteúdo.
 
 Catálogo das técnicas nomeadas do elemento terra. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
 
@@ -52,7 +54,7 @@ O Doton apresenta um obstáculo próprio à observação. Boa parte do arsenal s
 **Doton: Renga no Jutsu — 土遁・煉瓦の術**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Doton LV1 · Moldagem Básica
+**Requisitos:** Doton LV1 · Moldagem 30
 **XP:** 175
 **Execução:** Moldagem de Solo
 
@@ -64,7 +66,7 @@ O usuário compacta terra solta em blocos regulares e endurecidos, moldados com 
 **Doton: Iwa Shunshin — 土遁・岩瞬身**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV1 · Moldagem Básica · Shunshin no Jutsu
+**Requisitos:** Doton LV1 · Moldagem 40 · Shunshin no Jutsu
 **XP:** 130
 **Execução:** Moldagem de Solo
 
@@ -76,7 +78,7 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 **Doton: Jinarashi — 土遁・地均しの術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Doton LV1 · Moldagem Alta
+**Requisitos:** Doton LV1 · Moldagem 58
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 130
@@ -94,7 +96,7 @@ O usuário pressiona a palma contra o solo e compacta uma pequena área ao redor
 **Doton: Shinjū Zanshu no Jutsu — 土遁・心中斬首の術**
 **[CANON — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Doton LV2 · Moldagem Plena
+**Requisitos:** Doton LV2 · Moldagem 44
 **XP:** 600
 **Execução:** Moldagem de Solo
 
@@ -106,7 +108,7 @@ O usuário se desloca sob a superfície, agarra o alvo pelos tornozelos e o arra
 **Doton: Moguragakure no Jutsu — 土遁・土竜隠れの術**
 **[CANON — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Doton LV2 · Moldagem Plena
+**Requisitos:** Doton LV2 · Moldagem 44
 **XP:** 600
 **Execução:** Moldagem de Solo
 
@@ -118,7 +120,7 @@ O usuário converte a terra ao redor de si em areia fina por infusão de chakra 
 **Doton: Doroku Gaeshi — 土遁・土陸返し**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Doton LV2 · Moldagem Básica
+**Requisitos:** Doton LV2 · Moldagem 32
 **XP:** 600
 **Execução:** Moldagem de Solo
 
@@ -130,7 +132,7 @@ O usuário golpeia o solo com as mãos e ergue diante de si uma laje compacta de
 **Doton: Iwa Tsubute — 土遁・岩礫**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Doton LV2 · Moldagem Básica
+**Requisitos:** Doton LV2 · Moldagem 32
 **XP:** 600
 **Execução:** Moldagem de Solo
 
@@ -146,7 +148,7 @@ O usuário arranca do solo pedras do tamanho de punhos, as compacta com chakra e
 **Doton: Dochū Eigyo — 土遁・土中映魚**
 **[CANON — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV3 · Moldagem Alta · Ocultação da Toupeira
+**Requisitos:** Doton LV3 · Moldagem 58 · Ocultação da Toupeira
 **XP:** 2.120
 **Execução:** Moldagem de Solo
 
@@ -158,7 +160,7 @@ O usuário nada pelo interior do solo como um peixe pela água, deslocando-se em
 **Doton: Iwayado Kuzushi — 土遁・岩宿崩し**
 **[CANON — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Doton LV3 · Moldagem Plena · formação rochosa suspensa
+**Requisitos:** Doton LV3 · Moldagem 46 · formação rochosa suspensa
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.120
@@ -172,7 +174,7 @@ O usuário infunde chakra em formação rochosa suspensa, como teto de caverna, 
 **Doton: Retsudo Tenshō — 土遁・裂土転掌**
 **[CANON — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Doton LV3 · Moldagem Plena
+**Requisitos:** Doton LV3 · Moldagem 44
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.120
@@ -186,7 +188,7 @@ O usuário pressiona a palma contra o chão e faz o solo ao redor do alvo se rom
 **Doton: Doryūsō — 土遁・土流槍**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Doton LV3 · Moldagem Plena
+**Requisitos:** Doton LV3 · Moldagem 50
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.120
@@ -200,7 +202,7 @@ O usuário canaliza chakra pelo solo e ergue sob o alvo estacas de rocha afiadas
 **Iwa Bunshin no Jutsu — 岩分身の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV3 · Moldagem Alta · Bunshin no Jutsu
+**Requisitos:** Doton LV3 · Moldagem 58 · Bunshin no Jutsu
 **XP:** 2.580
 **Execução:** Moldagem de Solo
 
@@ -212,7 +214,7 @@ O usuário molda terra e rocha na forma de uma cópia física de si mesmo. O clo
 **Doton: Arijigoku — 土遁・蟻地獄の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Doton LV3 · Moldagem Plena
+**Requisitos:** Doton LV3 · Moldagem 50
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.580
@@ -226,7 +228,7 @@ O usuário converte uma área ampla de solo em funil giratório de terra solta, 
 **Doton: Kengan no Jutsu — 土遁・拳岩の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Doton LV3 · Moldagem Plena
+**Requisitos:** Doton LV3 · Moldagem 54
 **XP:** 1.775
 **Execução:** Moldagem de Solo
 
@@ -242,7 +244,7 @@ O usuário reveste o braço, do punho ao cotovelo, em camadas sobrepostas de roc
 **Doton: Doryūheki — 土遁・土流壁**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Plena
+**Requisitos:** Doton LV4 · Moldagem 48
 **XP:** 5.300
 **Execução:** Moldagem de Solo ou Expelida
 
@@ -254,7 +256,7 @@ O usuário ergue diante de si uma muralha maciça de terra, por moldagem direta 
 **Doton: Doryūdan — 土遁・土竜弾**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Alta
+**Requisitos:** Doton LV4 · Moldagem 58
 **XP:** 5.300
 **Execução:** Moldagem de Solo
 
@@ -266,7 +268,7 @@ O usuário ergue do solo uma cabeça de dragão de lama solidificada, que dispar
 **Doton: Doryū Taiga — 土遁・土流大河**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Plena
+**Requisitos:** Doton LV4 · Moldagem 54
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 6.200
@@ -280,7 +282,7 @@ O usuário liquefaz o solo sob o oponente e o converte em correnteza de lama que
 **Doton: Doryō Dango — 土遁・土陵団子**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Básica
+**Requisitos:** Doton LV4 · Moldagem 40
 **XP:** 5.300
 **Execução:** Moldagem de Solo
 
@@ -292,7 +294,7 @@ O usuário crava as mãos no chão e arranca do terreno uma esfera colossal de t
 **Doton Kekkai: Dorō Dōmu — 土遁結界・土牢堂無**
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal — Autoria Aberta
-**Requisitos:** Doton LV4 · Moldagem Refinada
+**Requisitos:** Doton LV4 · Moldagem 74
 **XP:** 6.200
 **Execução:** Moldagem de Solo
 
@@ -306,7 +308,7 @@ Erguer terra é estudo do elemento, e fazer a terra beber o chakra de quem ela p
 **Doton: Ganseki Dōmu — 土遁・岩石堂無**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Alta
+**Requisitos:** Doton LV4 · Moldagem 62
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 5.300
@@ -322,7 +324,7 @@ A técnica é a forma comum do fechamento de abóbada, ensinada onde quer que o 
 **Doton: Dosekiryū — 土遁・土石竜**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Plena
+**Requisitos:** Doton LV4 · Moldagem 54
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 6.200
@@ -336,7 +338,7 @@ O usuário ergue do solo um dragão serpenteante de rocha e terra compactada, de
 **Doton: Golem no Jutsu — 土遁・ゴーレムの術**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Alta
+**Requisitos:** Doton LV4 · Moldagem 64
 **XP:** 6.200
 **Execução:** Moldagem de Solo ou Expelida
 
@@ -348,7 +350,7 @@ O usuário molda um colosso humanoide de rocha, expelido pela boca ou erguido de
 **Doton: Kajūgan no Jutsu — 土遁・加重岩の術**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
-**Requisitos:** Doton LV4 · Moldagem Refinada
+**Requisitos:** Doton LV4 · Moldagem 74
 **XP:** 4.625
 **Execução:** Expelida
 
@@ -362,7 +364,7 @@ O par de manipulação de peso é patrimônio de Iwagakure e a razão pela qual 
 **Doton: Keijūgan no Jutsu — 土遁・軽重岩の術**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
-**Requisitos:** Doton LV4 · Moldagem Refinada
+**Requisitos:** Doton LV4 · Moldagem 74
 **XP:** 4.625
 **Execução:** Expelida
 
@@ -376,7 +378,7 @@ A metade que alivia é guardada por Iwagakure com o mesmo rigor da metade que es
 **Doton: Kaidō Shōkutsu — 土遁・開道昇掘**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV4 · Moldagem Plena · segundo usuário de Doton ou clone
+**Requisitos:** Doton LV4 · Moldagem 54 · segundo usuário de Doton ou clone
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 6.200
@@ -390,7 +392,7 @@ Dois ou mais executantes rompem e erguem camadas inteiras do subsolo em moviment
 **Doton: Ganban Kyū — 土遁・岩盤柩**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Plena · leito rochoso contínuo
+**Requisitos:** Doton LV4 · Moldagem 50 · leito rochoso contínuo
 **XP:** 4.625
 **Execução:** Moldagem de Solo
 
@@ -402,7 +404,7 @@ O usuário ergue do leito rochoso duas lajes monumentais em lados opostos do alv
 **Doton: Chi no Mimi — 土遁・地の耳**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Doton LV4 · Moldagem Alta
+**Requisitos:** Doton LV4 · Moldagem 56
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 4.625
@@ -420,7 +422,7 @@ O usuário pressiona a palma contra o solo e estende o chakra pelo leito rochoso
 **Doton: Yomi Numa — 土遁・黄泉沼**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV5 · Moldagem Plena · Caminho Atoleiro
+**Requisitos:** Doton LV5 · Moldagem 50 · Caminho Atoleiro
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 18.200
@@ -434,7 +436,7 @@ O usuário converte uma extensão vasta de terreno em pântano de lama profunda 
 **Doton: Domu — 土遁・土矛**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV5 · Moldagem Absoluta · Punho de Rocha · Caminho Carne de Pedra
+**Requisitos:** Doton LV5 · Moldagem 84 · Punho de Rocha · Caminho Carne de Pedra
 **XP:** 12.800
 **Execução:** Expelida
 
@@ -448,7 +450,7 @@ O endurecimento pleno do corpo exige que o executante já domine o revestimento 
 **Doton: Doryū Jōheki — 土遁・土流城壁**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV5 · Moldagem Plena · Muro de Terra · Caminho Paredão
+**Requisitos:** Doton LV5 · Moldagem 48 · Muro de Terra · Caminho Paredão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 18.200
@@ -462,7 +464,7 @@ O usuário ergue do terreno uma escarpa de escala geográfica, um paredão cont�
 **Doton: Chidōkaku — 土遁・地動核**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV5 · Moldagem Refinada · Caminho Cinzel da Pedra
+**Requisitos:** Doton LV5 · Moldagem 78 · Caminho Cinzel da Pedra
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 15.200
@@ -480,7 +482,7 @@ O usuário assume controle contínuo do leito rochoso sob o campo e o move à vo
 **Doton: Sando no Jutsu — 土遁・山土の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Doton LV6 · Moldagem Plena · leito rochoso contínuo · Caixão de Rocha · Caminho Encosta transcendido
+**Requisitos:** Doton LV6 · Moldagem 54 · leito rochoso contínuo · Caixão de Rocha · Caminho Encosta transcendido
 **XP:** 38.000
 **Execução:** Moldagem de Solo
 
@@ -492,7 +494,7 @@ O usuário ergue do leito da terra duas formações rochosas do porte de montanh
 **Doton: Chō Kajūgan no Jutsu — 土遁・超加重岩の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
-**Requisitos:** Doton LV6 · Moldagem Absoluta · Rocha de Peso Adicionado
+**Requisitos:** Doton LV6 · Moldagem 92 · Rocha de Peso Adicionado
 **XP:** 27.500
 **Execução:** Expelida
 
@@ -504,7 +506,7 @@ O usuário eleva o Kajūgan à ordem monumental, e o toque multiplica o peso do 
 **Doton: Chō Keijūgan no Jutsu — 土遁・超軽重岩の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
-**Requisitos:** Doton LV6 · Moldagem Absoluta · Rocha de Peso Reduzido
+**Requisitos:** Doton LV6 · Moldagem 92 · Rocha de Peso Reduzido
 **XP:** 27.500
 **Execução:** Expelida
 
@@ -579,9 +581,9 @@ Vinte das trinta e quatro entradas são de aquisição livre e nove se organizam
 
 ## Distribuição de Moldagem
 
-O elemento produz o par que a régua de exigência pede nos dois sentidos. O Alisamento de Terra é rank E com Moldagem Alta, porque apagar rastro e nivelar em silêncio tem tolerância zero a excesso de volume. O Bolinho de Terra do Mausoléu é rank B com Moldagem Básica, porque arrancar e arremessar massa bruta cobra porte e força física. Reforçam a leitura o Peixe de Projeção Subterrânea e o Clone de Rocha, ambos rank C com Alta, e o Pântano do Submundo, rank A com Plena.
+O elemento produz o par que a Exigência de Moldagem pede nos dois sentidos, régua contínua desde a v2.4 conforme o Manual de Requisitos de Técnica v2.2. O Alisamento de Terra é rank E com Exigência 58, porque apagar rastro e nivelar em silêncio tem tolerância zero a excesso de volume. O Bolinho de Terra do Mausoléu é rank B com Exigência 40, porque arrancar e arremessar massa bruta cobra porte e força física. Reforçam a leitura o Peixe de Projeção Subterrânea e o Clone de Rocha, ambos rank C com 58, e o Pântano do Submundo, rank A com 50.
 
-Os degraus Absolutos ficam com as três técnicas que sustentam proporção fina sobre matéria viva ou sobre massa de ordem monumental, que são a Lança de Terra e o par superior de manipulação de peso.
+As Exigências mais altas do domínio ficam com as técnicas que sustentam proporção fina sobre matéria viva ou sobre massa de ordem monumental: a Lança de Terra (84) e o par superior de manipulação de peso, Super Rocha de Peso Adicionado e Super Rocha de Peso Reduzido (92 cada).
 
 ---
 
@@ -592,7 +594,7 @@ Os degraus Absolutos ficam com as três técnicas que sustentam proporção fina
 | Entradas [PROPOSTA] | Alisamento de Terra, Pedrisco de Rocha, Escuta da Terra e Cúpula de Pedra, veto pendente | decisão de Gabriel |
 | Cúpula de Pedra | Entrada nova, criada para dar base livre ao caminho Cúpula, que sem ela nasceria sem técnica comprável | decisão de Gabriel |
 | Escuta da Terra | Efeito reescrito para o baseline do LV3 da perícia, com o mapa preciso devolvido ao caminho Abalo | Perícia de Doton v2 |
-| Degraus de moldagem das entradas [PROPOSTA] | Lidos da escala de efeito descrita na prosa e somados por propriedade declarada no próprio texto, sem coeficiente técnico publicado. Interpretação, e a ficha individual vence quando existir | Manual de Criação de Jutsus v2, seção 4.1.1 |
+| Exigência de Moldagem das entradas [PROPOSTA] | Números contínuos lidos da escala de efeito descrita na prosa, sem coeficiente técnico publicado. Interpretação, e a ficha individual vence quando existir | Manual de Criação de Jutsus v2, seção 4.1.1 |
 | Cadeia Punho de Rocha para Lança de Terra | Requisito proposto pela conversão, sem âncora canônica direta | decisão de Gabriel |
 | Rank atribuído da Palma que Rasga a Terra | Rank C mantido por escala de efeito, sem confirmação de databook | Narutopedia |
 | Escala da Técnica do Sanduíche | Contenção de criatura colossal descrita sem citar o evento canônico correspondente | Narutopedia |

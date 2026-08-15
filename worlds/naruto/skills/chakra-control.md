@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.chakra-control
 title: "Controle de Chakra"
-version: 3.4
+version: 3.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,9 @@ status: final
 source-file: Pericia_Controle_de_Chakra_v2_2.md
 ---
 
-CONTROLE DE CHAKRA (チャクラコントロール) — v3.4
+CONTROLE DE CHAKRA (チャクラコントロール) — v3.5
+
+**O que mudou na v3.5.** A Régua de Exigência de Moldagem deixou de ser degrau nomeado, revogada pelo Manual de Requisitos de Técnica v2.2. Cada técnica passa a declarar a própria Exigência como número contínuo, e a elevação por propriedade deixou de subir uma casa nomeada, passando a somar valor entre 6 e 14.
 
 Atributo: SAB
 Categoria: Chakra (×1,4)
@@ -316,14 +318,7 @@ RÉGUA DE EXIGÊNCIA DE MOLDAGEM
 
 A moeda é Base Total somada a SAB, sem camadas condicionais, porque capacidade destravada é permanente.
 
-Trivial     livre
-Básica      30      par LV2 com SAB 6
-Plena       44      par LV3 com SAB 12
-Alta        58      par LV4 com SAB 18
-Refinada    71      par LV5 com SAB 26
-Absoluta    84      par LV6 com SAB 34
-
-O degrau sai do coef_técnica: 0,5 é Básica, 1,0 é Plena, 2,0 é Refinada, 3,0 é Absoluta. Fora do motor de dano, o degrau sobe uma casa por propriedade presente entre proporção interna fina, sustentação prolongada, escala mínima de moldagem e tolerância zero a excesso de volume, a última resolvendo o Bunshin do jovem Naruto. Técnica executada por verbo de caminho exige o caminho declarado na ficha além do portão numérico.
+A régua deixou de ser degrau nomeado. Exigência de Moldagem é maestria acumulada, grandeza contínua por definição, e a régua de seis degraus — Trivial, Básica 30, Plena 44, Alta 58, Refinada 71, Absoluta 84 — está revogada pelo Manual de Requisitos de Técnica v2.2. Cada entrada de compêndio declara um número contínuo, ancorado contra as Tabelas de Referência de Personagens e contra quem executa a técnica no cânone, e não deriva mais do coef_técnica: os dois eixos medem coisas diferentes, quanto a técnica recompensa quem tem controle e quanto ela cobra para existir, e a correlação entre eles é fraca. Fora do motor de dano, a Exigência soma um valor declarado entre 6 e 14 por propriedade presente entre proporção interna fina, sustentação prolongada, escala mínima de moldagem e tolerância zero a excesso de volume, a última resolvendo o Bunshin do jovem Naruto. Técnica executada por verbo de caminho exige o caminho declarado na ficha além do portão numérico. As seis âncoras antigas seguem valendo como referência de leitura, não como teto: Nawanuke 18, Kage Bunshin 32, Gōkakyū 44, Rasengan 62 (42 com uma Assistência de Moldagem), Chidori 71, Raikiri 89, com o teto do domínio em 173, o portão real da Saki Uchiha em LV6 com treze caminhos adicionais.
 
 ÍNDICE DE DESPERDÍCIO
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,9 +9,11 @@ status: final
 source-file: Compendio_Ninjutsu_Medico_v2-1.md
 ---
 
-# Compêndio de Ninjutsu Médico
+# Compêndio de Ninjutsu Médico · v2.3
 
 **医療忍術 · Iryō Ninjutsu**
+
+**O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem do domínio: as 53 entradas que dependem de moldagem passaram de degrau nomeado (Trivial a Absoluta, sem o prefixo "Moldagem" na linha de Requisitos) para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Palma Mística e Cerejeira, Impacto Violento já traziam justificativa própria da exigência na prosa, usada como âncora direta. Reincarnação da Própria Vida ganha isenção explícita — a própria entrada já declarava não ser medicina e não cobrar chakra, mesmo tratamento que o Amaterasu recebeu no Katon.
 
 Catálogo das técnicas nomeadas do domínio médico, da contenção de sangramento que qualquer shinobi aprende no primeiro ano de academia até a regeneração absoluta que nenhuma mão do mundo alcançou ainda. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa.
 
@@ -33,7 +35,7 @@ O domínio médico se organiza de forma diferente dos elementais. Uma moldagem d
 **Myakushin — 脈診**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV1 · Trivial
+**Requisitos:** Ninjutsu Médico LV1 · Moldagem 16
 **XP:** 175
 
 O médico apoia os dedos sobre o punho, o pescoço ou o esterno do paciente e sente ao mesmo tempo a circulação do sangue e a do chakra. A leitura entrega a condição geral de um corpo em poucos segundos, dizendo se há hemorragia em curso, se a reserva está esgotada, se existe substância estranha circulando e se o paciente está consciente por vontade própria ou por reflexo. É o primeiro gesto de qualquer atendimento e o único que o domínio inteiro considera obrigatório antes de tocar em outra técnica.
@@ -44,7 +46,7 @@ O limite é a superfície. A leitura diz que algo está errado e aponta a regiã
 **Shiketsu no Jutsu — 止血の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV1 · Trivial
+**Requisitos:** Ninjutsu Médico LV1 · Moldagem 20
 **XP:** 220
 
 Chakra aplicado sobre um ferimento aberto contrai o vaso rompido e coagula a superfície em segundos. O sangramento cessa, a ferida permanece exposta e o paciente para de perder pontos de vida por ciclo. É a técnica que mais salva vidas no domínio inteiro, porque a maior parte das mortes de campo vem da hemorragia e não do golpe.
@@ -55,7 +57,7 @@ O limite é que a técnica não fecha nem repara. A ferida continua aberta, vuln
 **Masui no Jutsu — 麻酔の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV1 · Básica
+**Requisitos:** Ninjutsu Médico LV1 · Moldagem 26
 **XP:** 175
 
 O médico interrompe a condução da dor em uma região delimitada do corpo, deixando o paciente consciente e sem sensação local. Serve à sutura, à redução de fratura e a qualquer procedimento que o paciente não suportaria acordado. Aplicada sobre um combatente ferido, remove por uma cena a penalidade de ação imposta por dor.
@@ -66,7 +68,7 @@ O limite é que a ausência de dor não é ausência de lesão. O paciente anest
 **Shōdoku no Jutsu — 消毒の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV1 · Trivial
+**Requisitos:** Ninjutsu Médico LV1 · Moldagem 18
 **XP:** 130
 
 Um pulso curto de chakra sobre ferida, lâmina, agulha ou superfície de trabalho destrói o que houver de contaminação biológica. O médico cria condição operatória onde não existe hospital, que é a situação normal de toda missão fora dos muros.
@@ -77,7 +79,7 @@ O limite é o alcance biológico. A técnica não neutraliza veneno, não remove
 **Yakusō Chōgō — 薬草調合**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV1 · Trivial · insumo tradicional
+**Requisitos:** Ninjutsu Médico LV1 · Moldagem 16 · insumo tradicional
 **XP:** 130
 
 O médico identifica planta medicinal em campo, colhe na parte certa e combina em cataplasma, infusão ou pó. Produz analgésico, cicatrizante, febrífugo e sedativo leve com o que houver ao redor, e o efeito serve tanto ao shinobi quanto ao civil sem exigir chakra de ninguém.
@@ -92,7 +94,7 @@ O limite é a potência. Preparações de ervas atuam sobre desconforto, febre e
 **Chakura Hōgō — チャクラ縫合**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV2 · Básica · ter aprendido Estancamento
+**Requisitos:** Ninjutsu Médico LV2 · Moldagem 32 · ter aprendido Estancamento
 **XP:** 720
 
 O médico aproxima as bordas de um corte e conduz chakra ao longo da linha da ferida, acelerando a formação de tecido novo até que ela feche por completo. O procedimento leva minutos e deixa cicatriz visível, e devolve integridade à superfície e elimina em definitivo o risco de reabertura.
@@ -103,7 +105,7 @@ O limite é a profundidade. A sutura fecha o que a mão alcança, e uma lesão q
 **Doku Chūshutsu — 毒抽出**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV2 · Plena · água limpa
+**Requisitos:** Ninjutsu Médico LV2 · Moldagem 42 · água limpa
 **XP:** 720
 
 O médico envolve a região afetada em uma esfera de água controlada por chakra e puxa a substância para fora do tecido através do ponto de entrada. O veneno sai do corpo e fica suspenso na água, visível e descartável.
@@ -114,7 +116,7 @@ O limite é a janela. Uma vez que a substância entrou na circulação geral, a 
 **Shindan — 診断**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV2 · Plena · ter aprendido Leitura de Pulso de Chakra
+**Requisitos:** Ninjutsu Médico LV2 · Moldagem 42 · ter aprendido Leitura de Pulso de Chakra
 **XP:** 880
 
 O médico percorre o corpo com as mãos e com chakra e monta o quadro completo do que há dentro dele. Identifica fratura fechada, hemorragia interna, órgão comprometido, ponto vital exposto e prognóstico. Um corpo diagnosticado nesta cena reduz em um degrau o custo fixo de qualquer técnica deste compêndio aplicada sobre ele, porque o médico deixa de gastar chakra procurando.
@@ -125,7 +127,7 @@ O limite é declarado com firmeza. O diagnóstico entrega informação e nunca p
 **Shinzō Sosei — 心臓蘇生**
 **[ATRIBUÍDO · anime — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV2 · Plena
+**Requisitos:** Ninjutsu Médico LV2 · Moldagem 44
 **XP:** 880
 
 Pulsos rítmicos de chakra aplicados sobre o tórax reiniciam um coração parado. O médico recupera um paciente que cruzou o limite há pouco, devolvendo batimento e respiração antes que a ausência de circulação destrua o que não se refaz.
@@ -136,7 +138,7 @@ O limite é a janela, e ela é curta. Passado o intervalo em que o corpo ainda r
 **Seikotsu no Jutsu — 整骨の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV2 · Básica
+**Requisitos:** Ninjutsu Médico LV2 · Moldagem 32
 **XP:** 600
 
 O médico realinha osso quebrado e acelera a consolidação até o ponto em que o membro sustenta peso de novo. Remove o estado de fratura do catálogo de status, que a recuperação por descanso não remove sozinha, e devolve ao paciente o uso do membro dentro da mesma cena.
@@ -147,7 +149,7 @@ O limite é a integridade do osso. Fratura limpa se resolve por completo, e osso
 **Kenshi — 検屍**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV2 · Básica · corpo presente
+**Requisitos:** Ninjutsu Médico LV2 · Moldagem 30 · corpo presente
 **XP:** 600
 
 O médico lê um corpo que parou e reconstrói o que aconteceu. Determina causa de morte, tempo decorrido desde a parada, ordem dos ferimentos e categoria da técnica empregada, distinguindo perfuração de lâmina, queimadura elemental, dano interno por chakra e envenenamento. Identifica o corpo por estrutura óssea, dentição e marca de tecido quando o rosto não serve.
@@ -158,7 +160,7 @@ O limite é a categoria. O exame diz que o dano interno veio de chakra aplicado 
 **Hyōrōgan — 兵糧丸**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV2 · Trivial · insumo tradicional
+**Requisitos:** Ninjutsu Médico LV2 · Moldagem 20 · insumo tradicional
 **XP:** 480
 
 Composto denso preparado antes da missão, que sustenta um shinobi em atividade por vários dias sem alimento e devolve Reserva de imediato quando consumido em combate. O médico prepara um número de doses declarado antes da saída, limitado pelo insumo disponível.
@@ -173,7 +175,7 @@ O limite é a cobrança. A pílula adianta o que o corpo não tem, e ao fim da c
 **Shōsen Jutsu — 掌仙術**
 **[CANON — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Refinada · Liberação de Yang
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 68 · Liberação de Yang
 **XP:** 3.155
 
 A técnica central de todo o domínio. O médico condensa chakra na palma até formar uma camada visível e sustenta o contato sobre o ferimento, acelerando a divisão celular do paciente até que o tecido se refaça sob a mão. A luz que se forma entre a palma e a pele é azul esbranquiçada, e o procedimento exige do médico concentração absoluta e imobilidade enquanto durar. A mesma técnica, aplicada ao contrário, abre a incisão precisa que a cirurgia exige.
@@ -188,7 +190,7 @@ O limite é o fluxo e a atenção. Nenhuma aplicação ultrapassa o Limite de Sa
 **Chakura no Mesu — チャクラのメス**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Alta
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 58
 **XP:** 2.580
 
 Chakra afiado até formar uma lâmina curta sobre a mão, capaz de atravessar a pele sem rompê-la e cortar o que houver por baixo. Na sala de cirurgia abre acesso a um órgão sem produzir ferida externa. Em combate faz a mesma coisa contra um adversário, e o corte ignora armadura, vestimenta e qualquer defesa material, porque nada disso está entre a mão e o tecido.
@@ -201,7 +203,7 @@ O limite é o contato. O bisturi exige a mão sobre o alvo, não bloqueia ataque
 **Dokugiri — 毒霧**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Plena · insumo tradicional
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 44 · insumo tradicional
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 2.120
@@ -214,7 +216,7 @@ O limite é o ar. A névoa obedece ao vento, dispersa em espaço aberto e não a
 **Kōtai Kasseika — 抗体活性化**
 **[ATRIBUÍDO · anime — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Plena · ter aprendido Diagnóstico Anatômico
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 44 · ter aprendido Diagnóstico Anatômico
 **XP:** 2.120
 
 Em vez de retirar a substância hostil do corpo, o médico ensina o corpo a lidar com ela. Chakra aplicado sobre o sistema do paciente acelera a produção da defesa correspondente até que ela alcance a concentração necessária. O paciente passa a neutralizar sozinho aquilo que o afetava e permanece resistente à mesma substância pelo resto do arco.
@@ -225,7 +227,7 @@ O limite é o tempo e a identificação. O procedimento exige que a substância 
 **Kairo Sōji — 回路掃除**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Alta
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 58
 **XP:** 1.775
 
 O médico insere chakra próprio no sistema circulatório de um aliado sob ilusão e varre o fluxo alheio que ali se instalou. O afetado retorna à percepção correta sem precisar detectar sozinho que estava iludido, que é justamente o que a maior parte das vítimas não consegue fazer.
@@ -236,7 +238,7 @@ O limite é a origem. A limpeza remove interferência instalada por fluxo extern
 **Masui Senbon — 麻酔千本**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Alta · agulha
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 58 · agulha
 **XP:** 2.120
 
 Agulhas finas arremessadas ou cravadas em pontos precisos do corpo, que interrompem função sem causar dano relevante. Conforme o ponto escolhido, a aplicação anestesia uma região, paralisa um membro, derruba o alvo em inconsciência ou simula os sinais externos da morte com precisão suficiente para enganar um observador atento.
@@ -247,7 +249,7 @@ O limite é o conhecimento e a mão. Errar o ponto transforma a agulha em ferime
 **Chakura Yokusei — チャクラ抑制**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Plena
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 46
 **XP:** 2.120
 
 O médico fecha o circuito alheio com as próprias mãos, comprimindo o fluxo até que o alvo perca a capacidade de moldar. É a via de contenção que dispensa selo, papel e preparo, e por isso é o procedimento padrão de captura, de transporte de prisioneiro e de sedação de paciente que resiste ao tratamento.
@@ -258,7 +260,7 @@ O limite é a manutenção. A supressão dura enquanto o contato durar, o alvo m
 **Ketsueki Zōka Gan — 血液増加丸**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Básica · insumo tradicional
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 32 · insumo tradicional
 **XP:** 1.775
 
 Composto que força o corpo a repor volume sanguíneo em minutos, revertendo a palidez, a tontura e a queda de desempenho de quem perdeu sangue demais, e removendo por completo o estado de hemorragia acumulada.
@@ -269,7 +271,7 @@ O limite é a cobrança e o descontrole. Ao fim da cena o consumidor recebe dois
 **Sōkon Kaidoku — 創痕解読**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Plena · corpo ou ferimento presente
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 42 · corpo ou ferimento presente
 **XP:** 1.775
 
 O médico examina uma lesão viva ou morta e reconstrói o gesto que a produziu. A leitura entrega o ângulo do golpe, a estatura aproximada e a mão dominante de quem o desferiu, a natureza elemental empregada quando houve uma, e se o ferimento foi feito em combate franco, por emboscada ou sobre alguém já imobilizado.
@@ -280,7 +282,7 @@ O limite é a assinatura pessoal. A leitura descreve o gesto e nunca identifica 
 **Hirō Chiryō — 疲労治療**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Plena
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 44
 **XP:** 2.120
 
 O médico trabalha sobre o circuito de um shinobi esgotado, desfazendo o acúmulo que o esforço deixou nas vias de condução. O paciente recupera graus de Exaustão e volta a moldar sem a penalidade que carregava. Não acumula Marca de Reparo, porque não acelera divisão celular.
@@ -291,7 +293,7 @@ O limite é a saturação. Cada corpo aceita um único tratamento por cena, e o 
 **Senji Bunrui — 戦時分類**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Plena · Liberação de Yang
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 46 · Liberação de Yang
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 2.120
@@ -304,7 +306,7 @@ O limite é a repartição. A eficácia se divide igualmente entre os alcançado
 **Hikaku Kaibō — 比較解剖**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Básica
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 32
 **XP:** 1.430
 
 O currículo de vila ensina o corpo humano e para ali. Esta entrada é o estudo que continua depois, sobre o cão de combate, a montaria, a ave mensageira e a criatura invocada, cada um com uma disposição de órgão, uma resposta a chakra e um ponto de colapso diferentes. Sem ela, toda aplicação médica em corpo não humano corre com penalidade de leitura e marca em dobro.
@@ -315,7 +317,7 @@ O limite é o porte e o estranhamento. A entrada cobre a espécie estudada, e di
 **Yogo Handan — 予後判断**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV3 · Básica
+**Requisitos:** Ninjutsu Médico LV3 · Moldagem 30
 **XP:** 1.775
 
 O médico declara à mesa quanto tempo um ferido tem antes de deteriorar sem tratamento, e o esquadrão passa a operar com relógio declarado em vez de suposição. A declaração é informação verdadeira e vinculante.
@@ -330,7 +332,7 @@ O limite é o alcance da estimativa. A entrada mede prazo e não mede resistênc
 **Soshiki Saisei — 組織再生**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV4 · Plena · Liberação de Yang
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 48 · Liberação de Yang
 **XP:** 5.300
 
 O médico induz o crescimento de tecido novo sobre região destruída, refazendo pele, músculo e revestimento onde não sobrou o suficiente para suturar. Trata queimadura profunda, arrancamento e necrose, devolvendo superfície funcional onde a cura comum não tem em que se apoiar. Permanece livre porque é a base de rank B que antecede a especialização cirúrgica.
@@ -341,7 +343,7 @@ O limite é a estrutura. A regeneração produz tecido mole e nunca osso, nervo 
 **Seimei Iji — 生命維持**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Ninjutsu Médico LV4 · Plena
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 48
 **XP:** 5.300
 
 O médico assume as funções que o corpo do paciente não está mais executando e as mantém pela própria mão. Um aliado reduzido a zero pontos de vida permanece vivo, sem deteriorar, enquanto o contato durar, e o médico ganha o tempo que a evacuação exige. Não acumula Marca de Reparo, porque não repara nada.
@@ -352,7 +354,7 @@ O limite é a imobilidade absoluta. A sustentação consome a ação completa do
 **Zenshin Doku Haishutsu — 全身毒排出**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Farmacopeia · ter aprendido Extração de Veneno de Campo
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 60 · Farmacopeia · ter aprendido Extração de Veneno de Campo
 **XP:** 5.300
 
 Quando a substância já entrou na circulação geral, o médico persegue o veneno por todo o corpo do paciente e o empurra para fora pelos poros e pelas vias naturais. O procedimento é longo, exaustivo para os dois lados, e é a única resposta possível a envenenamento avançado quando não existe antídoto formulado.
@@ -363,7 +365,7 @@ O limite é o dano já feito. A purga remove a substância e interrompe a deteri
 **Enkaku Shindan — 遠隔診断**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Sondagem
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 58 · Sondagem
 **XP:** 4.625
 
 O médico projeta uma camada fina de chakra sobre um corpo a alcance curto sem encostar nele e lê o que há dentro. Detecta anomalia interna, corpo estranho, substância em circulação e presença de chakra alheio alojado no alvo, o que permite avaliar um paciente hostil, um cadáver contaminado ou um aliado que não pode ser tocado.
@@ -374,7 +376,7 @@ O limite é a natureza do que se detecta e a distância. A leitura confirma que 
 **Tenketsu Kaihō — 経穴開放**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Refinada · Circuito · ter aprendido Diagnóstico Anatômico
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 74 · Circuito · ter aprendido Diagnóstico Anatômico
 **XP:** 6.200
 
 Um circuito fechado por intervenção externa não se abre sozinho, e o shinobi atingido continua incapaz de moldar mesmo depois de curado de tudo o mais. O médico localiza cada ponto obstruído e força a passagem com chakra próprio, devolvendo condução às vias bloqueadas. O procedimento cobre um membro inteiro por aplicação e é doloroso o bastante para exigir anestesia prévia.
@@ -385,7 +387,7 @@ A relação entre esta entrada e o estilo de combate que fecha pontos de chakra 
 **Soshiki Ishoku — 組織移植**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Refinada · Transplante · Liberação de Yang · instalação, tempo, assistência e doador viável
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 76 · Transplante · Liberação de Yang · instalação, tempo, assistência e doador viável
 **XP:** 6.200
 
 O médico move tecido vivo de um corpo para outro e o instala em um receptor. Pele, músculo, osso e membro inteiro transferem por esta via, desde que o material venha de um doador dentro da janela de viabilidade.
@@ -396,7 +398,7 @@ Todo enxerto instalado nasce em estado de rejeição ativa. O receptor sofre det
 **Teichaku — 定着**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Adaptação
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 60 · Adaptação
 **XP:** 4.625
 
 O médico trabalha a fronteira entre o corpo do receptor e o tecido que não é dele, ajustando a resposta do organismo até que a rejeição cesse. O portador para de deteriorar e para de pagar o custo contínuo, e o enxerto passa a funcionar como parte do corpo que o recebeu.
@@ -407,7 +409,7 @@ O limite é a permanência da diferença. A estabilização suspende a rejeiçã
 **Kōzō Shiji — 構造支持**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Refinada · Prótese de Chakra · Liberação de Yin · ter aprendido Diagnóstico Anatômico
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 78 · Prótese de Chakra · Liberação de Yin · ter aprendido Diagnóstico Anatômico
 **XP:** 6.200
 
 Quando um osso se pulveriza ou um segmento de estrutura simplesmente deixa de existir, não sobra substrato para vitalizar, e a cura por aceleração celular não encontra em que se apoiar. O médico desenha em chakra a forma que falta e a instala no vazio, e o paciente volta a sustentar peso sobre um osso que não está mais ali. A estrutura é visível como contorno pálido sob a pele e obedece ao movimento do corpo como se pertencesse a ele.
@@ -418,7 +420,7 @@ A técnica não cura nada, e o que ela faz é ocupar o lugar do que se perdeu en
 **Jintai Keiro Kakuran — 人体経路撹乱**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Desarranjo · ter aprendido Bisturi de Chakra
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 62 · Desarranjo · ter aprendido Bisturi de Chakra
 **XP:** 5.300
 
 Um toque preciso injeta chakra nas vias nervosas do alvo e embaralha o caminho entre a intenção e o membro. O adversário declara a ação que pretende executar e o corpo dela responde em outra direção, com a perna esquerda avançando quando ele mandou a direita e o braço subindo quando ele mandou descer. O efeito não dói e não deixa marca, e a vítima leva alguns segundos até entender que o problema não é a técnica dela.
@@ -429,7 +431,7 @@ O limite é a camada atingida. O desarranjo age sobre execução e nunca sobre d
 **Kairiki — 怪力**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Concentração · perícia de combate corporal declarada na ficha
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 64 · Concentração · perícia de combate corporal declarada na ficha
 **XP:** 4.625
 
 O mesmo controle de precisão que permite reparar um corpo permite acumular chakra em um único ponto do próprio e soltá-lo no instante exato do impacto. O resultado é força física fora de qualquer proporção com a musculatura de quem golpeia, e vem inteiramente da precisão do médico e não do corpo dele. Dano, acerto e alcance correm pelas réguas de combate corporal.
@@ -440,7 +442,7 @@ O limite é o instante. A liberação fora do momento correto devolve todo o cha
 **Tabun Dokugiri — 多分毒霧**
 **[ATRIBUÍDO · anime — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Toxicologia · ter aprendido Névoa Venenosa
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 62 · Toxicologia · ter aprendido Névoa Venenosa
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 5.300
@@ -453,7 +455,7 @@ O limite continua sendo o ar. Espaço aberto, vento forte e alvos que não respi
 **Kasane Te — 重ね手**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Concílio · Liberação de Yang
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 58 · Concílio · Liberação de Yang
 **XP:** 5.300
 
 Dois médicos aplicam sobre o mesmo corpo ao mesmo tempo, dividindo o campo de trabalho e sincronizando o fluxo até que as duas aplicações somem em vez de se atrapalharem. É a versão de campo do procedimento de hospital, executável sem instalação e sem assistência, com o segundo par de mãos sendo qualquer médico do esquadrão.
@@ -464,7 +466,7 @@ O limite é a sincronia. Os dois comprometem a ação no mesmo turno, precisam e
 **Kuchiyose Shujutsu — 口寄せ手術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Veterinária · Liberação de Yang · ter aprendido Anatomia Comparada
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 60 · Veterinária · Liberação de Yang · ter aprendido Anatomia Comparada
 **XP:** 5.300
 
 A criatura invocada ferida em campo é normalmente dispensada, e o aliado que a chamou perde a ferramenta e o contrato paga o preço. Esta entrada trata a criatura onde ela está, com a leitura anatômica que a espécie exige, e a mantém no combate. Cobre cão de combate, montaria, ave e invocação de escala.
@@ -475,7 +477,7 @@ O limite é o porte e o consentimento. Criatura muito acima do humano exige o qu
 **Taika Shinsa — 耐荷審査**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Plena · Prognóstico · ter aprendido Prognóstico de Campo
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 46 · Prognóstico · ter aprendido Prognóstico de Campo
 **XP:** 4.625
 
 O médico declara o que aquele corpo suporta antes que alguém tente. Quantas Marcas de Reparo ele já carrega, se aguenta a cirurgia proposta, se o enxerto pretendido vai pegar, se a dose que se pretende dar o mata. É a entrada que torna as Marcas de Reparo jogáveis, porque sem ela a mesa conta às cegas.
@@ -486,7 +488,7 @@ O limite é a presença. O parecer exige o corpo diante do médico, e uma descri
 **Shinsui — 深睡**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV4 · Alta · Supressão · ter aprendido Supressão de Chakra
+**Requisitos:** Ninjutsu Médico LV4 · Moldagem 58 · Supressão · ter aprendido Supressão de Chakra
 **XP:** 4.625
 
 A supressão deixa de apenas fechar o fluxo e passa a alcançar a consciência, apagando o alvo sem substância, sem golpe e sem marca. O paciente que resiste ao tratamento adormece, o prisioneiro para de gritar, e o corpo permanece estável e respirando durante todo o intervalo.
@@ -501,7 +503,7 @@ O limite é a manutenção e a memória. O alvo desperta no turno seguinte ao fi
 **Chiyu Sosei Saisei no Jutsu — 治癒蘇生再生の術**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV5 · Refinada · Concílio · Liberação de Yang · ter aprendido Mãos Somadas
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 78 · Concílio · Liberação de Yang · ter aprendido Mãos Somadas
 **XP:** 15.200
 
 O procedimento reservado ao ferimento que nenhuma mão sozinha resolve. Vários médicos cercam o paciente e aplicam ao mesmo tempo, usando parte do próprio corpo dele como meio da regeneração em vez de trabalhar de fora para dentro. O resultado soma as aplicações em vez de repeti-las, e alcança órgão perfurado, hemorragia interna maciça e queimadura profunda em extensão, casos em que a Palma Mística plena apenas prolonga a agonia. O conjunto acumula uma única Marca de Reparo sobre o corpo, e não uma por médico.
@@ -514,7 +516,7 @@ O limite é o quórum e a mesa. O procedimento exige médicos suficientes, todos
 **Jin'ei no Toko — 陣営の床**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV5 · Alta · Triagem · Liberação de Yang · ter aprendido Triagem de Campo
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 64 · Triagem · Liberação de Yang · ter aprendido Triagem de Campo
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 12.800
@@ -527,7 +529,7 @@ O limite é declarado com firmeza. O leito estabiliza e impede deterioração, e
 **Manbyō Kaiyu no Jutsu — 万病快癒の術**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV5 · Absoluta · Farmacopeia · Liberação de Yang · instalação e assistência · ter aprendido Bisturi de Chakra e Diagnóstico Anatômico
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 88 · Farmacopeia · Liberação de Yang · instalação e assistência · ter aprendido Bisturi de Chakra e Diagnóstico Anatômico
 **XP:** 18.200
 
 O procedimento mais delicado do domínio. O médico isola a doença dentro do corpo do paciente, separa o que está adoecido do que está são e retira aquilo em uma massa contida, sem que nenhum fragmento escape para a circulação. Cura enfermidade que nenhum antídoto alcança, e é a razão pela qual um hospital de vila vale mais que um batalhão.
@@ -538,7 +540,7 @@ O limite é a margem. O procedimento exige instalação, tempo, assistência tre
 **Ōkashō — 桜花衝**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV5 · Plena · Concentração · ter aprendido Força Aumentada por Chakra
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 46 · Concentração · ter aprendido Força Aumentada por Chakra
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 12.800
@@ -551,7 +553,7 @@ A exigência de moldagem plena em rank A é o par alto deste compêndio contra a
 **Tsūtenkyaku — 痛天脚**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV5 · Alta · Concentração · ter aprendido Força Aumentada por Chakra
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 66 · Concentração · ter aprendido Força Aumentada por Chakra
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 12.800
@@ -564,7 +566,7 @@ O limite é o compromisso. O golpe exige o salto, anuncia a trajetória no ar e 
 **Saiken Shujutsu — 再建手術**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito de Segurança
-**Requisitos:** Ninjutsu Médico LV5 · Refinada · Reconstrução · Liberação de Yang
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 80 · Reconstrução · Liberação de Yang
 **XP:** 15.200
 
 O médico abre o paciente, trabalha diretamente sobre estrutura interna e refaz o que a cura por superfície não alcança. Recompõe osso estilhaçado, reconecta nervo seccionado, repara órgão comprometido e reimplanta membro do próprio paciente enquanto ele ainda estiver viável. É o procedimento que separa o médico de campo do cirurgião.
@@ -575,7 +577,7 @@ A técnica é aprendível por qualquer um que alcance o nível, e a ausência de
 **Gan'ishoku — 眼移植**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico e Requisito de Segurança
-**Requisitos:** Ninjutsu Médico LV5 · Absoluta · Transplante · Liberação de Yang · instalação, tempo, assistência e doador dentro da janela · ter aprendido Enxerto de Tecido
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 90 · Transplante · Liberação de Yang · instalação, tempo, assistência e doador dentro da janela · ter aprendido Enxerto de Tecido
 **XP:** 18.200
 
 A operação mais consequente que este compêndio registra. O médico remove o olho de um doador e o instala em um receptor, reconectando o nervo com precisão suficiente para que a visão retorne. Quando o olho transplantado carrega linhagem, a capacidade viaja com ele, e um portador passa a possuir aquilo que não nasceu com ele.
@@ -588,7 +590,7 @@ As regras específicas de um olho de linhagem instalado, incluindo o que ele con
 **Chakura Gishi — チャクラ義肢**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV5 · Absoluta · Prótese de Chakra · Liberação de Yin · instalação e tempo · ter aprendido Suporte Estrutural e Cirurgia de Reconstrução
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 88 · Prótese de Chakra · Liberação de Yin · instalação e tempo · ter aprendido Suporte Estrutural e Cirurgia de Reconstrução
 **XP:** 18.200
 
 A forma acabada do que o suporte estrutural faz em emergência. O médico constrói em chakra um membro inteiro, uma articulação completa ou a função de um órgão perdido, e ancora a construção nas terminações que sobraram do corpo do paciente. O portador move o membro construído pela própria intenção, sente pressão através dele e o utiliza em combate com força equivalente à do membro que perdeu. Um pulmão desenhado em chakra executa a troca que o pulmão ausente executava, e o paciente respira.
@@ -601,7 +603,7 @@ O limite é o custo permanente e a fragilidade. A prótese drena reserva do port
 **Senji Yakugaku — 戦時薬学**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila · Sunagakure
-**Requisitos:** Ninjutsu Médico LV5 · Refinada · Toxicologia · insumo tradicional
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 76 · Toxicologia · insumo tradicional
 **XP:** 15.200
 
 A doutrina completa da substância aplicada ao combate, mantida como currículo por uma vila que fez do veneno instrumento de estado. Cobre formulação de ação retardada com gatilho declarado no momento da aplicação, veneno de contato que atravessa a pele sem ferimento, composto que se ativa apenas dentro de um corpo específico e o antídoto correspondente a cada um deles. Quem domina a doutrina produz e neutraliza na mesma bancada.
@@ -615,7 +617,7 @@ O limite é a bancada. Toda formulação exige preparo prévio com insumo declar
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Autoria Aberta
-**Requisitos:** Ninjutsu Médico LV5 · Absoluta · Prevenção · Liberação de Yin · ter aprendido Diagnóstico Anatômico
+**Requisitos:** Ninjutsu Médico LV5 · Moldagem 92 · Prevenção · Liberação de Yin · ter aprendido Diagnóstico Anatômico
 **XP:** 18.200
 
 O médico lê a expressão do adversário, a trajetória do braço e a velocidade do golpe, deduz em um instante onde o impacto vai cair e prepara aquele ponto do próprio corpo antes que ele seja atingido. As células recebem a instrução de reparo enquanto o tecido ainda está íntegro, e quando o golpe conecta a reconstrução já está em curso no mesmo instante em que a destruição acontece. Quem observa vê um ataque acertar sem produzir consequência.
@@ -635,7 +637,7 @@ O limite é a leitura. Errar o ponto antecipado desperdiça a reserva inteira se
 **[CANON · Kinjutsu — Rank S]**
 **Acesso:** Assinatura Pessoal · Fechada na Criação
 **Estado de Autoria:** Autoria Aberta
-**Requisitos:** Ninjutsu Médico LV6 · Absoluta · Liberação de Yang · reserva acumulada
+**Requisitos:** Ninjutsu Médico LV6 · Moldagem 104 · Liberação de Yang · reserva acumulada
 **XP:** 40.000, piso de kinjutsu aplicado sem redutor
 
 O ápice absoluto do ninjutsu médico. Em vez de aplicar chakra sobre um ferimento, o usuário libera de uma vez uma reserva acumulada por anos e ordena a divisão simultânea de todas as células do próprio corpo. Ferimentos desaparecem no instante em que aparecem, membros se refazem, órgãos destruídos voltam a existir, e a morte por dano físico deixa de ser um resultado possível enquanto a técnica estiver ativa.
@@ -652,7 +654,7 @@ O limite é a vida. A regeneração não devolve o que já foi gasto, não prote
 **Byakugō no In — 百豪の印**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação · Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV6 · Absoluta · Fūinjutsu LV5 · Regeneração Criadora em estado Registrado · anos de acúmulo declarados
+**Requisitos:** Ninjutsu Médico LV6 · Moldagem 96 · Fūinjutsu LV5 · Regeneração Criadora em estado Registrado · anos de acúmulo declarados
 **XP:** 32.000
 
 O usuário deposita uma fração da própria reserva em um selo inscrito na testa, dia após dia, ao longo de anos. O selo não faz nada enquanto acumula, e o que existe ali é uma reserva paralela guardada fora do corpo, imune ao gasto do cotidiano e disponível de uma vez quando a marca se rompe. É a solução para o custo da Regeneração Criadora, e a existência dela depende inteiramente daquela.
@@ -665,7 +667,7 @@ O limite é o depósito. O selo devolve exatamente o que foi guardado nele, e um
 **Ninpō Sōzō Saisei Byakugō no Jutsu — 忍法・創造再生・百豪の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação · Requisito Mecânico
-**Requisitos:** Ninjutsu Médico LV6 · Absoluta · Liberação de Yang · Regeneração Criadora e Selo da Força de Cem, ambos em estado Registrado
+**Requisitos:** Ninjutsu Médico LV6 · Moldagem 100 · Liberação de Yang · Regeneração Criadora e Selo da Força de Cem, ambos em estado Registrado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 45.500
@@ -678,7 +680,7 @@ O limite é a reserva depositada. A técnica gasta o que o selo acumulou e nada 
 **Kishō Tensei — 起死回生**
 **[ATRIBUÍDO · Kinjutsu — Rank S]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Ninjutsu Médico LV6 · Absoluta · contato
+**Requisitos:** Ninjutsu Médico LV6 · contato · isento de Exigência de Moldagem (não é medicina, o preço não é chakra)
 **XP:** 40.000, piso de kinjutsu aplicado sem redutor
 
 O médico devolve à vida alguém que já a perdeu, e o faz transferindo a própria. A técnica não cura, não repara e não estabiliza. Ela move existência de um corpo para outro, e ao final o alvo se levanta íntegro enquanto quem o trouxe de volta permanece deitado no lugar dele.

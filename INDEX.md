@@ -154,8 +154,8 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Clã Sarutobi](worlds/naruto/clans/sarutobi.md) | `naruto.clan.sarutobi` | 1 | clan | final |
 | [Senju — O Clã de Mil Habilidades](worlds/naruto/clans/senju.md) | `naruto.clan.senju` | 1 | clan | final |
 | [Mangekyō Sharingan](worlds/naruto/clans/uchiha-mangekyo-sharingan.md) | `naruto.lineage.mangekyo-sharingan` | 1.1 | lineage | final |
-| [Sharingan](worlds/naruto/clans/uchiha-sharingan.md) | `naruto.lineage.sharingan` | 2.1 | lineage | final |
-| [Uchiha — O Olho que Reflete Sentimentos](worlds/naruto/clans/uchiha.md) | `naruto.clan.uchiha` | 2.1 | clan | final |
+| [Sharingan](worlds/naruto/clans/uchiha-sharingan.md) | `naruto.lineage.sharingan` | 2.2 | lineage | final |
+| [Uchiha — O Olho que Reflete Sentimentos](worlds/naruto/clans/uchiha.md) | `naruto.clan.uchiha` | 2.2 | clan | final |
 | [Uzumaki — A Estirpe da Longevidade](worlds/naruto/clans/uzumaki.md) | `naruto.clan.uzumaki` | 1.1 | clan | final |
 | [Clã Yamanaka](worlds/naruto/clans/yamanaka.md) | `naruto.clan.yamanaka` | 1 | clan | final |
 
@@ -169,20 +169,20 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.3 | compendium | final |
-| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.3 | compendium | final |
-| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 2.0 | compendium | final |
-| [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.2 | compendium | final |
-| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.3 | compendium | final |
+| [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.4 | compendium | final |
+| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.4 | compendium | final |
+| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 2.1 | compendium | final |
+| [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.3 | compendium | final |
+| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.4 | compendium | final |
 | [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1.1 | compendium | final |
-| [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.2 | compendium | final |
-| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.4 | compendium | final |
-| [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1 | compendium | final |
-| [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.2 | compendium | final |
-| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.6 | compendium | final |
-| [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.1 | compendium | final |
-| [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.3 | compendium | final |
-| [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.1 | compendium | final |
+| [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.3 | compendium | final |
+| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.5 | compendium | final |
+| [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1.1 | compendium | final |
+| [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.3 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.7 | compendium | final |
+| [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.2 | compendium | final |
+| [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.4 | compendium | final |
+| [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.2 | compendium | final |
 
 ## worlds/naruto/extensions
 
@@ -248,7 +248,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Barreira](worlds/naruto/skills/barreira.md) | `naruto.skill.barreira` | 1 | skill | final |
-| [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 3.4 | skill | final |
+| [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 3.5 | skill | final |
 | [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2.2 | skill | final |
 | [Enton (炎遁)](worlds/naruto/skills/enton.md) | `naruto.skill.enton` | 1.1 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.5 | skill | final |
@@ -283,9 +283,9 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.1 | pending-patch | applied |
 | [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.1 | pending-patch | pending-patch |
 | [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 2.11 | methodology | final |
-| [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1.2 | system | final |
+| [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1.3 | system | final |
 | [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.4 | system | final |
-| [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2.1 | system | final |
+| [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2.2 | system | final |
 
 ## Naruto · Técnicas
 
