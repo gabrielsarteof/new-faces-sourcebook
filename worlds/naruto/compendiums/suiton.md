@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.suiton
 title: "Compêndio de Suiton (水遁)"
-version: 3.3
+version: 3.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,8 +9,10 @@ status: final
 source-file: Compendio_Suiton_v3_1.md
 ---
 
-# Compêndio de Suiton (水遁) · v3.1
+# Compêndio de Suiton (水遁) · v3.4
 **Liberação de Água**
+
+**O que mudou na v3.4.** A Exigência de Moldagem de todas as 35 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. As últimas três — Espelho de Água, Torrente Dilaceradora e Prisão do Mar Profundo, que a auditoria original registrava como pendentes de nome no índice — não tinham correspondência publicada e foram resolvidas por leitura própria contra as âncoras de calibragem do domínio: Torrente Dilaceradora pareada com a Bala Presa de Água pela mesma descrição de vórtice em rotação violenta; Espelho de Água ancorada nos B-rank mais altos do domínio, porque a própria entrada já declarava a propriedade de tolerância zero a excesso de volume; Prisão do Mar Profundo, capstone proposto e fechado na criação, ancorada perto do Kirin do Raiton, abaixo do teto elemental do Daikōdan. As três têm ancoragem canônica mais fraca que o restante do compêndio, por serem ATRIBUÍDO ou PROPOSTA sem par espelho em outro elemento.
 
 Catálogo das técnicas nomeadas do elemento água. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência, o grupo de execução e a descrição da técnica.
 
@@ -32,7 +34,7 @@ Cada entrada declara o grupo a que pertence, que é dado da técnica. As técnic
 **Suiton: Shizuku no Jutsu — 水遁・雫の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV1 · Moldagem Plena
+**Requisitos:** Suiton LV1 · Moldagem 46
 **Execução:** Expelida
 **XP:** 130
 
@@ -44,7 +46,7 @@ O usuário condensa a umidade do ar e o próprio chakra em um volume pequeno de 
 **Suiton: Kiri Shunshin — 水遁・霧瞬身**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Suiton LV1 · Moldagem Básica · Shunshin no Jutsu
+**Requisitos:** Suiton LV1 · Moldagem 40 · Shunshin no Jutsu
 **Execução:** Expelida
 **XP:** 175
 
@@ -56,7 +58,7 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 **Suiton: Mizu no Maku — 水遁・水の膜**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV1 · Moldagem Alta
+**Requisitos:** Suiton LV1 · Moldagem 58
 **Execução:** Expelida
 **XP:** 175
 
@@ -72,7 +74,7 @@ O usuário canaliza chakra de água pelas mãos e forma uma película fina e ade
 **Kirigakure no Jutsu — 霧隠れの術**
 **[CANON — Rank D]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
-**Requisitos:** Suiton LV2 · Moldagem Plena
+**Requisitos:** Suiton LV2 · Moldagem 48
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **Execução:** Expelida
@@ -86,7 +88,7 @@ O usuário cobre a área ao redor com névoa densa impregnada de chakra, erguida
 **Suiton: Mizuhari — 水遁・水針**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV2 · Moldagem Alta
+**Requisitos:** Suiton LV2 · Moldagem 56
 **Execução:** Expelida
 **XP:** 480
 
@@ -98,7 +100,7 @@ O usuário molda um conjunto pequeno de agulhas de água endurecidas por chakra 
 **Suiton: Suiben — 水遁・水鞭**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV2 · Moldagem Plena
+**Requisitos:** Suiton LV2 · Moldagem 52
 **Execução:** Expelida
 **XP:** 600
 
@@ -110,7 +112,7 @@ O usuário forma um chicote longo e contínuo de água sustentada por chakra, an
 **Suiton: Mizutamari — 水遁・水溜まり**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV2 · Moldagem Básica
+**Requisitos:** Suiton LV2 · Moldagem 42
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **Execução:** Expelida
@@ -128,7 +130,7 @@ O usuário expele água rasa impregnada de chakra que se espalha pelo solo à fr
 **Mizu Bunshin no Jutsu — 水分身の術**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
-**Requisitos:** Suiton LV3 · Moldagem Alta
+**Requisitos:** Suiton LV3 · Moldagem 60
 **Execução:** Moldagem de Fonte
 **XP:** 1.775
 
@@ -140,7 +142,7 @@ O usuário molda água ambiente na forma de uma ou mais cópias físicas de si m
 **Suirō no Jutsu — 水牢の術**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
-**Requisitos:** Suiton LV3 · Moldagem Alta
+**Requisitos:** Suiton LV3 · Moldagem 60
 **Execução:** Moldagem de Fonte
 **XP:** 1.775
 
@@ -152,7 +154,7 @@ O usuário envolve o alvo em esfera de água mais pesada e densa que a comum, fo
 **Suiton: Mizuame Nabara — 水遁・水飴拿原**
 **[CANON — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV3 · Moldagem Alta
+**Requisitos:** Suiton LV3 · Moldagem 64
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **Execução:** Expelida
@@ -166,7 +168,7 @@ O usuário expele pela boca uma corrente de água de altíssima viscosidade, imp
 **Suiton: Mizurappa — 水遁・水乱破**
 **[CANON — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV3 · Moldagem Básica
+**Requisitos:** Suiton LV3 · Moldagem 34
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **Execução:** Expelida
@@ -180,7 +182,7 @@ O usuário converte chakra em água no interior do corpo e a expele pela boca em
 **Suiton: Teppōdama — 水遁・鉄砲玉**
 **[CANON — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV3 · Moldagem Plena
+**Requisitos:** Suiton LV3 · Moldagem 44
 **Execução:** Expelida
 **XP:** 1.430
 
@@ -192,7 +194,7 @@ O usuário comprime água no interior do corpo e a dispara pela boca como esfera
 **Suiton: Mizu Kamikiri — 水遁・水噛み切り**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV3 · Moldagem Alta
+**Requisitos:** Suiton LV3 · Moldagem 58
 **Execução:** Expelida
 **XP:** 1.430
 
@@ -204,7 +206,7 @@ O usuário comprime água em disco fino de rotação veloz e o dispara rente ao 
 **Suiton: Kokuun no Jutsu — 水遁・黒雲の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito de Segurança
-**Requisitos:** Suiton LV3 · Moldagem Alta
+**Requisitos:** Suiton LV3 · Moldagem 62
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **Execução:** Expelida
@@ -218,7 +220,7 @@ O usuário forma acima do campo uma nuvem escura e baixa que despeja chuva de á
 **Suiton: Kakure Ame no Jutsu — 水遁・隠れ雨の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV3 · Moldagem Refinada · chuva, névoa ou umidade em campo
+**Requisitos:** Suiton LV3 · Moldagem 72 · chuva, névoa ou umidade em campo
 **Execução:** Moldagem de Fonte
 **XP:** 1.430
 
@@ -234,7 +236,7 @@ O usuário reúne em torno do corpo uma camada de gotas suspensas e as alinha at
 **Suiton: Suiryūdan no Jutsu — 水遁・水龍弾の術**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV4 · Moldagem Plena
+**Requisitos:** Suiton LV4 · Moldagem 52
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -246,7 +248,7 @@ O usuário ergue de uma fonte de água um dragão colossal de corpo serpenteante
 **Suiton: Suijinheki — 水遁・水陣壁**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV4 · Moldagem Plena
+**Requisitos:** Suiton LV4 · Moldagem 54
 **Execução:** Expelida
 **XP:** 5.300
 
@@ -258,7 +260,7 @@ O usuário expele água pela boca ou a ergue do terreno ao redor, formando mural
 **Suiton: Suikōdan no Jutsu — 水遁・水鮫弾の術**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
-**Requisitos:** Suiton LV4 · Moldagem Plena
+**Requisitos:** Suiton LV4 · Moldagem 60
 **Execução:** Moldagem de Fonte
 **XP:** 4.625
 
@@ -270,7 +272,7 @@ O usuário molda a água de uma fonte na forma de um tubarão que avança contra
 **Suiton: Goshokuzame — 水遁・五食鮫**
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Suiton LV4 · Moldagem Refinada
+**Requisitos:** Suiton LV4 · Moldagem 74
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -282,7 +284,7 @@ O usuário toca a superfície da água com a mão aberta e libera cinco tubarõe
 **Suiton: Suigadan — 水遁・水牙弾**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV4 · Moldagem Plena
+**Requisitos:** Suiton LV4 · Moldagem 58
 **Execução:** Moldagem de Fonte
 **XP:** 4.625
 
@@ -294,7 +296,7 @@ O usuário ergue de uma fonte próxima múltiplos vórtices de água em rotaçã
 **Suiton: Ja no Kuchi — 水遁・蛇の口**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV4 · Moldagem Plena
+**Requisitos:** Suiton LV4 · Moldagem 60
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -306,7 +308,7 @@ O usuário ergue de uma fonte de água uma serpente colossal de bocarra aberta, 
 **Suiton: Takitsubo no Jutsu — 水遁・滝壺の術**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV4 · Moldagem Básica
+**Requisitos:** Suiton LV4 · Moldagem 42
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **Execução:** Expelida
@@ -320,7 +322,7 @@ O usuário converte grande quantidade de chakra em água e a despeja no terreno,
 **Sensatsu Suishō — 千殺水翔**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV4 · Moldagem Refinada · água existente ao redor do alvo
+**Requisitos:** Suiton LV4 · Moldagem 82 · água existente ao redor do alvo
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -332,7 +334,7 @@ O usuário ergue a água do ambiente ao redor do alvo e a molda em mil agulhas l
 **Suiton: Bakusui Shōha — 水遁・爆水衝波**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
-**Requisitos:** Suiton LV4 · Moldagem Básica
+**Requisitos:** Suiton LV4 · Moldagem 40
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **Execução:** Expelida
@@ -346,7 +348,7 @@ O usuário expele pela boca volume de água imensamente superior ao próprio cor
 **Suiton: Mizukagami no Jutsu — 水遁・水鏡の術**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV4 · Moldagem Refinada
+**Requisitos:** Suiton LV4 · Moldagem 74
 **Execução:** Expelida
 **XP:** 5.300
 
@@ -358,7 +360,7 @@ O usuário ergue diante de si superfície vertical de água perfeitamente lisa, 
 **Suiton: Hahonryū — 水遁・破奔流**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV4 · Moldagem Alta
+**Requisitos:** Suiton LV4 · Moldagem 58
 **Execução:** Expelida
 **XP:** 3.950
 
@@ -480,7 +482,7 @@ O usuário molda um tubarão de água de porte colossal que avança contra a té
 **Suiton: Shinkai Rōgoku — 水遁・深海牢獄**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Suiton LV6 · Moldagem Absoluta · Caminho Câmara de Água transcendido
+**Requisitos:** Suiton LV6 · Moldagem 100 · Caminho Câmara de Água transcendido
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **Execução:** Moldagem de Fonte

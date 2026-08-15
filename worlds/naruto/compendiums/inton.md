@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,9 @@ status: final
 source-file: Compendio_Inton_v2-1.md
 ---
 
-# Compêndio de Inton
+# Compêndio de Inton · v2.3
+
+**O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Seis entradas já traziam justificativa própria na prosa (Lâmina de Vazio, Eco de Presença, Armadura de Segunda Pele, Carregador Sem Rosto, Despacho de Raio, Cidadela do Vazio), usada como âncora direta.
 
 **陰遁 · Técnicas da Liberação de Yin**
 
@@ -29,7 +31,7 @@ Os nomes japoneses deste compêndio são romanização proposta e construída pa
 **Giei no Jutsu — 偽影の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV1 · Trivial
+**Requisitos:** Liberação de Yin LV1 · Moldagem 18
 **XP:** 175
 
 O praticante projeta a própria imagem a curta distância, parada e sem comportamento. A forma ocupa lugar aos olhos de quem a examina e se desfaz ao primeiro contato. É o primeiro exercício de todo portador da afinidade, e a maior parte dos que nunca avançam além dele o emprega para comprar um instante de hesitação alheia.
@@ -38,7 +40,7 @@ O praticante projeta a própria imagem a curta distância, parada e sem comporta
 **Namakatachi no Jutsu — 生形の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV1 · Trivial
+**Requisitos:** Liberação de Yin LV1 · Moldagem 18
 **XP:** 175
 
 O praticante origina uma forma sem função, um bloco, uma esfera, uma haste, sustentada enquanto a atenção permanecer nela. A forma não suporta peso e não detém golpe, e a execução em combate serve sobretudo para confirmar a um aliado ou a um inimigo que a energia é real.
@@ -47,7 +49,7 @@ O praticante origina uma forma sem função, um bloco, uma esfera, uma haste, su
 **Reikō no Ito — 冷光の糸**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV1 · Trivial
+**Requisitos:** Liberação de Yin LV1 · Moldagem 16
 **XP:** 130
 
 Uma linha de luz sem calor e sem fonte, erguida no ar e mantida enquanto o praticante quiser. Ela marca rota em galeria escura, sinaliza posição a distância curta e assinala perímetro para quem estiver de vigília. A luz não aquece, não queima e não revela o praticante a quem leia chakra, porque a emissão permanece dentro do corpo.
@@ -56,7 +58,7 @@ Uma linha de luz sem calor e sem fonte, erguida no ar e mantida enquanto o prati
 **Sehai no Jutsu — 背影の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV1 · Básica
+**Requisitos:** Liberação de Yin LV1 · Moldagem 26
 **XP:** 130
 
 O praticante apaga da leitura alheia o contorno de uma coisa parada, a própria mochila largada, uma marca no chão, um corpo caído atrás de si. O apagamento não resiste a exame deliberado e serve para atravessar a atenção de quem passa sem procurar. É a semente de todo o ofício do véu.
@@ -69,7 +71,7 @@ O praticante apaga da leitura alheia o contorno de uma coisa parada, a própria 
 **Teikei no Jutsu — 定形の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV2 · Básica · ter aprendido Molde Cru
+**Requisitos:** Liberação de Yin LV2 · Moldagem 32 · ter aprendido Molde Cru
 **XP:** 720
 
 A forma originada continua existindo depois que a atenção do praticante se volta para outro lugar, e permanece em campo pelo resíduo declarado na escada de projeção. É o primeiro momento em que uma obra de Yin sobrevive a uma distração do próprio autor, e a tradição do domínio trata o dia em que um aprendiz a alcança como o dia em que ele passou a ter a natureza de fato.
@@ -78,7 +80,7 @@ A forma originada continua existindo depois que a atenção do praticante se vol
 **Hokōei no Jutsu — 歩行影の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV2 · Básica · ter aprendido Reflexo Falso
+**Requisitos:** Liberação de Yin LV2 · Moldagem 32 · ter aprendido Reflexo Falso
 **XP:** 600
 
 A imagem projetada ganha um comportamento simples e repetitivo, caminhar em linha reta, levantar o braço, virar o rosto na direção do som. Ela ainda não responde ao ambiente, e passa a exigir um segundo de observação para ser lida como falsa, o que basta contra sentinela cansada e contra quem olha de longe.
@@ -87,7 +89,7 @@ A imagem projetada ganha um comportamento simples e repetitivo, caminhar em linh
 **Kirinuki no Jutsu — 切り抜きの術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV2 · Básica · ter aprendido Vulto de Costas
+**Requisitos:** Liberação de Yin LV2 · Moldagem 34 · ter aprendido Vulto de Costas
 **XP:** 600
 
 O apagamento passa a cobrir objeto de porte maior e a resistir a exame apressado, alcançando alçapão fechado, arma largada e vão de parede. A obra permanece no lugar depois que o praticante sai, pelo resíduo do nível, e por isso serve a quem prepara terreno antes da chegada de terceiros.
@@ -96,7 +98,7 @@ O apagamento passa a cobrir objeto de porte maior e a resistir a exame apressado
 **Mude no Te — 無腕の手**
 **[PROPOSTA — Rank D]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV2 · Plena · Controle de Chakra LV2
+**Requisitos:** Liberação de Yin LV2 · Moldagem 44 · Controle de Chakra LV2
 **XP:** 600
 
 Uma mão de substância espiritual erguida à distância do corpo, presa a nada e movida pela vontade do praticante. Ela puxa alavanca, apara projétil leve, segura uma porta e carrega até vinte quilos. O refinamento exigido vem da articulação, porque a obra precisa dobrar em pontos declarados sem colapsar no meio do movimento.
@@ -105,7 +107,7 @@ Uma mão de substância espiritual erguida à distância do corpo, presa a nada 
 **Okime — 置き目**
 **[PROPOSTA — Rank D]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV2 · Plena · ter aprendido Forma Sustentada
+**Requisitos:** Liberação de Yin LV2 · Moldagem 42 · ter aprendido Forma Sustentada
 **XP:** 720
 
 Uma forma pequena deixada em ponto declarado, pela qual o praticante enxerga enquanto a sustentar, até dez metros de distância. A obra não age, não fala e não lê chakra, e o corpo do praticante permanece consciente do próprio entorno durante a leitura. É a primeira técnica do domínio a pôr percepção onde o corpo não está.
@@ -118,7 +120,7 @@ Uma forma pequena deixada em ponto declarado, pela qual o praticante enxerga enq
 **Kōei no Jutsu — 硬影の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV3 · Básica · ter aprendido Forma Sustentada
+**Requisitos:** Liberação de Yin LV3 · Moldagem 34 · ter aprendido Forma Sustentada
 **XP:** 2.120
 
 A forma originada ganha resistência estrutural comparável à madeira comum, o bastante para deter um golpe leve, escorar uma laje trincada ou sustentar o peso do próprio praticante. É a primeira técnica de Yin com presença tática real em combate, e a primeira em que o limiar de integridade da perícia entra em jogo.
@@ -127,7 +129,7 @@ A forma originada ganha resistência estrutural comparável à madeira comum, o 
 **Kyojū no Jutsu — 虚重の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito de Segurança
-**Requisitos:** Liberação de Yin LV3 · Plena · ter aprendido Silhueta Rígida
+**Requisitos:** Liberação de Yin LV3 · Moldagem 44 · ter aprendido Silhueta Rígida
 **XP:** 1.775
 
 O praticante origina peso concentrado sem forma reconhecível, empregado para desequilibrar, lastrear ou prender. Ao término do efeito a energia precisa ser dispersada de modo gradual, e quem encerra a técnica de uma vez vê o vazio colapsar sobre o ponto de origem, recebendo o resíduo espiritual em dobro no mesmo turno.
@@ -136,7 +138,7 @@ O praticante origina peso concentrado sem forma reconhecível, empregado para de
 **Karimen no Jutsu — 借面の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV3 · Plena
+**Requisitos:** Liberação de Yin LV3 · Moldagem 46
 **XP:** 1.775
 
 O praticante reveste um objeto presente em cena com a aparência de outro de porte semelhante, sem contato e à distância. Um pergaminho vira pedra, uma arma vira galho, uma marca de vila vira remendo de pano. A matéria continua embaixo, de modo que o contato não desfaz o revestimento, e a checagem corre por exame atento.
@@ -145,7 +147,7 @@ O praticante reveste um objeto presente em cena com a aparência de outro de por
 **Futokoro Yami no Jutsu — 懐闇の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV3 · Plena · ter aprendido Vulto de Costas
+**Requisitos:** Liberação de Yin LV3 · Moldagem 48 · ter aprendido Vulto de Costas
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 2.120
@@ -156,7 +158,7 @@ Um volume de escuro real com três metros de raio, erguido em ponto declarado. N
 **Kyonawa — 虚縄**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV3 · Básica
+**Requisitos:** Liberação de Yin LV3 · Moldagem 34
 **XP:** 1.775
 
 Uma corda originada do nada, sem peso e sem ponta solta, que o praticante amarra em alvo imóvel, em estrutura ou em si mesmo. Ela sustenta até cem quilos e rompe pelo limiar de integridade da perícia. A tradição do domínio a ensina antes de qualquer arma, porque prender é o primeiro serviço que uma forma sem matéria presta bem.
@@ -165,7 +167,7 @@ Uma corda originada do nada, sem peso e sem ponta solta, que o praticante amarra
 **Mōshisha — 盲使者**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV3 · Plena · ter aprendido Forma Sustentada
+**Requisitos:** Liberação de Yin LV3 · Moldagem 44 · ter aprendido Forma Sustentada
 **XP:** 2.120
 
 Uma forma que percorre trajeto instruído no ato e entrega o que carrega no ponto declarado, sem decidir nada durante o percurso e sem responder a interferência. Suporta até vinte quilos e alcança cinquenta metros. Interceptada, ela rompe e o que carregava cai onde estava.
@@ -178,7 +180,7 @@ Uma forma que percorre trajeto instruído no ato e entrega o que carrega no pont
 **Mu no Kabe — 無の壁**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Liberação de Yin LV4 · Plena
+**Requisitos:** Liberação de Yin LV4 · Moldagem 48
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 5.300
@@ -189,7 +191,7 @@ Um painel erguido em ponto declarado, com até cinco metros de largura por três
 **Kyoba — 虚刃**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV4 · Alta · Armeiro
+**Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Armeiro
 **XP:** 4.625
 
 Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem peso e imune a quebra por uso. Ela apara aço e morde couro endurecido, e cede apenas quando o golpe recebido vence o limiar registrado no ato da forja. Empunhar uma arma real exige mais refinamento do que erguer uma forma parada, e a exigência de moldagem alta registra isso.
@@ -198,7 +200,7 @@ Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem pe
 **Sōei no Jutsu — 双影の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV4 · Alta · Duplicador · ter aprendido Andar do Vulto
+**Requisitos:** Liberação de Yin LV4 · Moldagem 58 · Duplicador · ter aprendido Andar do Vulto
 **XP:** 5.300
 
 Uma cópia espiritual completa do praticante, que se desloca junto dele e responde ao ambiente por um turno antes de se desfazer. A cópia não reparte reserva e não devolve memória, e a função dela é inteiramente de engano, cobrando do inimigo a reação que ele gastaria contra o corpo verdadeiro.
@@ -207,7 +209,7 @@ Uma cópia espiritual completa do praticante, que se desloca junto dele e respon
 **Kehai Kodama no Jutsu — 気配木霊の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV4 · Refinada · Duplicador · Sinal (Controle de Chakra)
+**Requisitos:** Liberação de Yin LV4 · Moldagem 74 · Duplicador · Sinal (Controle de Chakra)
 **XP:** 4.625
 
 A forma falsa passa a emitir presença de chakra convincente, o bastante para que um sensor a registre como pessoa. A exigência de moldagem refinada em rank B é o par declarado deste compêndio contra a indexação de precisão por porte: convencer quem lê chakra pede proporção interna fina, e a técnica que faz isso é modesta em escala e cara em controle.
@@ -216,7 +218,7 @@ A forma falsa passa a emitir presença de chakra convincente, o bastante para qu
 **Mujin no Gaitō — 無人の外套**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV4 · Alta · Velador · ter aprendido Recorte Simples
+**Requisitos:** Liberação de Yin LV4 · Moldagem 58 · Velador · ter aprendido Recorte Simples
 **XP:** 5.300
 
 O véu passa a cobrir o praticante em movimento pleno, dobrando a leitura de quem o procura enquanto ele atravessa. A emissão de chakra permanece intacta, e quem lê o circuito continua lendo a posição dele, o que faz do manto uma peça de infiltração contra guarnição comum e nada contra sensor treinado.
@@ -225,7 +227,7 @@ O véu passa a cobrir o praticante em movimento pleno, dobrando a leitura de que
 **Karigao no Jutsu — 借顔の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV4 · Refinada · Máscara · ter aprendido Máscara de Empréstimo
+**Requisitos:** Liberação de Yin LV4 · Moldagem 72 · Máscara · ter aprendido Máscara de Empréstimo
 **XP:** 4.625
 
 O revestimento alcança pessoa viva, dando a um terceiro o rosto, o porte e a roupa de outro sem tocá-lo e sem alterar capacidade alguma dele. A obra sobrevive ao contato, porque há corpo embaixo, e o refinamento exigido vem de acompanhar a respiração, o gesto e a fala de quem foi revestido sem descolar da carne.
@@ -234,7 +236,7 @@ O revestimento alcança pessoa viva, dando a um terceiro o rosto, o porte e a ro
 **Mutai no Me — 無体の眼**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV4 · Alta · Atalaia · ter aprendido Olho Posto
+**Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Atalaia · ter aprendido Olho Posto
 **XP:** 5.300
 
 O praticante ergue formas de observação em pontos separados e enxerga e ouve a partir de qualquer uma delas, trocando à vontade entre os postos. A leitura corre pela percepção comum e não alcança chakra alheio nem identifica fonte, o que pertence a outro ofício. O alcance cobre um vale, uma estrada ou um quarteirão inteiro.
@@ -243,7 +245,7 @@ O praticante ergue formas de observação em pontos separados e enxerga e ouve a
 **Kyokase — 虚枷**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV4 · Alta · Laço · ter aprendido Corda do Vazio
+**Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Laço · ter aprendido Corda do Vazio
 **XP:** 5.300
 
 Uma forma que se fecha sobre alvo declarado e o acompanha enquanto ele se desloca, impondo Imobilização pelo grau lido da margem, conforme o Sistema de Efeitos de Status. O grilhão não prende ao chão e não ancora em nada, e por isso o alvo carrega consigo aquilo que o prende até romper o limiar ou até cair.
@@ -252,7 +254,7 @@ Uma forma que se fecha sobre alvo declarado e o acompanha enquanto ele se desloc
 **Uchikui — 打杭**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV4 · Refinada · Ancorador
+**Requisitos:** Liberação de Yin LV4 · Moldagem 76 · Ancorador
 **XP:** 6.200
 
 Uma obra já erguida se desliga da sustentação de quem a criou e passa a existir por conta própria por uma hora, conservando o limiar registrado no ato. O praticante pode sair de cena, dormir ou morrer, e a obra permanece de pé. É a técnica que converte o arsenal do domínio em trabalho de esquadrão, porque a partir dela quem ergue deixa de ser refém do que ergueu.
@@ -261,7 +263,7 @@ Uma obra já erguida se desliga da sustentação de quem a criou e passa a exist
 **Genju no Eda — 幻樹の枝**
 **[PROPOSTA — Rank B]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Liberação de Yin LV4 · Alta · Forjador de Fenômenos
+**Requisitos:** Liberação de Yin LV4 · Moldagem 62 · Forjador de Fenômenos
 **XP:** 4.625
 
 A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo que cresce no ar sem raiz, uma réstia de luz que não vem de fonte alguma, e atravessa a distância como golpe. O fenômeno fica fora do ciclo de superação, e quem tenta apartá-lo pelo tipo não encontra tipo algum. A técnica existe no mundo em posse de pouquíssimos, e nenhum currículo institucional a transmite.
@@ -274,7 +276,7 @@ A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo
 **Seiheki — 静壁**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV5 · Alta · Arquiteto · ter aprendido Parede de Nada
+**Requisitos:** Liberação de Yin LV5 · Moldagem 64 · Arquiteto · ter aprendido Parede de Nada
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 15.200
@@ -285,7 +287,7 @@ Estrutura erguida em escala de terreno, muro corrido, cúpula ou plataforma de d
 **Daini no Hada — 第二の肌**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV5 · Refinada · Couraça
+**Requisitos:** Liberação de Yin LV5 · Moldagem 80 · Couraça
 **XP:** 12.800
 
 Uma casca completa erguida rente ao corpo, que recebe cada golpe antes da carne e absorve por inteiro tudo que não vencer o limiar registrado. Vencido o limiar, a casca rompe, o golpe segue já resolvido e o praticante recebe o resíduo. A moldagem refinada responde pela espessura constante sobre articulação em movimento, que é onde a obra falha em quem a executa mal.
@@ -294,7 +296,7 @@ Uma casca completa erguida rente ao corpo, que recebe cada golpe antes da carne 
 **Tai no Tobari — 隊の帳**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV5 · Refinada · Velador · ter aprendido Manto de Ninguém
+**Requisitos:** Liberação de Yin LV5 · Moldagem 78 · Velador · ter aprendido Manto de Ninguém
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 15.200
@@ -305,7 +307,7 @@ O véu deixa de cobrir uma forma e passa a cobrir um grupo em deslocamento, com 
 **Tateyoru — 立て夜**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV5 · Alta · Cortina · ter aprendido Escuro de Bolso
+**Requisitos:** Liberação de Yin LV5 · Moldagem 66 · Cortina · ter aprendido Escuro de Bolso
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 15.200
@@ -316,7 +318,7 @@ Um volume de escuro real que cobre uma rua, um pátio ou a boca de um desfiladei
 **Mujin no Ami — 無人の網**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV5 · Alta · Laço · ter aprendido Grilhão do Vazio
+**Requisitos:** Liberação de Yin LV5 · Moldagem 66 · Laço · ter aprendido Grilhão do Vazio
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 12.800
@@ -327,7 +329,7 @@ Malha de substância espiritual estendida sobre área, que prende quem estiver d
 **Kaonashi no Ninai — 顔無しの荷**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV5 · Plena · Estafeta · ter aprendido Mensageiro Cego
+**Requisitos:** Liberação de Yin LV5 · Moldagem 48 · Estafeta · ter aprendido Mensageiro Cego
 **XP:** 12.800
 
 A forma passa a carregar pessoa e a percorrer quilômetros por trajeto instruído, com um único ponto de decisão declarado na partida. Ela não combate, não desvia de emboscada e não responde a chamado, e o que ela oferece é a retirada de um ferido sem que o esquadrão perca velocidade. A moldagem plena registra que o serviço é de porte e não de precisão.
@@ -336,7 +338,7 @@ A forma passa a carregar pessoa e a percorrer quilômetros por trajeto instruíd
 **Fumetsu no Ban — 不滅の番**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Liberação de Yin LV5 · Refinada · Ancorador · ter aprendido Marco Fincado
+**Requisitos:** Liberação de Yin LV5 · Moldagem 80 · Ancorador · ter aprendido Marco Fincado
 **XP:** 15.200
 
 Várias obras ancoradas ao mesmo tempo, com duração de metade de um dia e com condição declarada em cada uma, passagem cruzada, peso apoiado, contato de quem não for nomeado. A obra dispara sozinha e o praticante nunca precisa estar presente. Postos avançados inteiros se mantêm com esta técnica e um punhado de shinobi.
@@ -346,7 +348,7 @@ Várias obras ancoradas ao mesmo tempo, com duração de metade de um dia e com 
 **[PROPOSTA — Rank A]**
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Autoria Aberta
-**Requisitos:** Liberação de Yin LV5 · Refinada · Projecionista
+**Requisitos:** Liberação de Yin LV5 · Moldagem 82 · Projecionista
 **XP:** 15.200
 
 Uma projeção com presença física real, capaz de tocar, empurrar e ser tocada, que executa a ação dirigida pelo praticante à distância. Ninguém neste mundo criou esta técnica. O primeiro praticante a alcançar o requisito e concluir o processo de criação de técnica torna-se o criador registrado, e a entrada passa a Registrada em nome dele.
@@ -355,7 +357,7 @@ Uma projeção com presença física real, capaz de tocar, empurrar e ser tocada
 **Kaze Senmen no Jutsu — 風千面の術**
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Liberação de Yin LV5 · Alta · Miragista
+**Requisitos:** Liberação de Yin LV5 · Moldagem 68 · Miragista
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 15.200
@@ -366,7 +368,7 @@ O terreno em área passa a mentir para quem o percorre, com distância, direçã
 **Ryūketsu no Kage — 流血の影**
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Liberação de Yin LV5 · Refinada · Duplicador · ter aprendido Sombra Gêmea
+**Requisitos:** Liberação de Yin LV5 · Moldagem 78 · Duplicador · ter aprendido Sombra Gêmea
 **XP:** 12.800
 
 A cópia espiritual passa a sofrer dano convincente quando atingida, com ferida aberta e sangue aparente, sem que nada disso alcance a reserva real do praticante. O inimigo que a fere acredita ter vencido, e a técnica circula apenas entre quem já domina a sombra gêmea e encontra alguém disposto a ensinar o refinamento.
@@ -380,7 +382,7 @@ A cópia espiritual passa a sofrer dano convincente quando atingida, com ferida 
 **[CANON — Rank S]**
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Autoria Aberta
-**Requisitos:** Liberação de Yin LV6 · Plena · Forjador de Fenômenos
+**Requisitos:** Liberação de Yin LV6 · Moldagem 52 · Forjador de Fenômenos
 **XP:** 27.500
 
 A energia espiritual veste a forma de um raio e é despachada contra o alvo em linha, fora do ciclo de superação e sem que exista natureza elemental a apartar. É a única técnica de Yin confirmada em fonte primária com nome próprio. O criador registrado no cânone não existe na história deste mundo, e a entrada permanece aberta ao primeiro que alcançar o requisito e concluir o processo de criação. A moldagem plena em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
@@ -389,7 +391,7 @@ A energia espiritual veste a forma de um raio e é despachada contra o alvo em l
 **Fuzaiya no Jutsu — 不在野の術**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Liberação de Yin LV6 · Absoluta · Miragista
+**Requisitos:** Liberação de Yin LV6 · Moldagem 100 · Miragista
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 45.500
@@ -400,7 +402,7 @@ A mentira deixa de ocupar área e passa a reescrever o campo de batalha inteiro,
 **Kyojō — 虚城**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Liberação de Yin LV6 · Absoluta · Arquiteto
+**Requisitos:** Liberação de Yin LV6 · Moldagem 96 · Arquiteto
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 45.500
@@ -412,7 +414,7 @@ Fortificação erguida do nada em escala de centena de metros, com muralha, port
 **[PROPOSTA — Rank S]**
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Autoria Aberta
-**Requisitos:** Liberação de Yin LV6 · Absoluta · Projecionista
+**Requisitos:** Liberação de Yin LV6 · Moldagem 104 · Projecionista
 **XP:** 38.000
 
 Projeções simultâneas com presença física real, cada uma agindo em ação plena a centenas de metros de quem as ergueu. O praticante deixa de ser um combatente e passa a ser uma frente. Ninguém neste mundo levou a projeção a este ponto, e o primeiro a alcançá-la e concluir o processo de criação torna-se o criador registrado.
@@ -421,7 +423,7 @@ Projeções simultâneas com presença física real, cada uma agindo em ação p
 **Sekai no Omote — 世界の面**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Liberação de Yin LV6 · Refinada · Máscara · ter aprendido Rosto Emprestado
+**Requisitos:** Liberação de Yin LV6 · Moldagem 88 · Máscara · ter aprendido Rosto Emprestado
 **XP:** 38.000
 
 O revestimento alcança construção plena e permanece sem sustentação por uma cena inteira. Um posto de fronteira vira encosta de morro, um portão vira parede lisa, uma ponte vira água corrente, com a matéria toda continuando exatamente onde está. Campanhas foram decididas por comandantes que marcharam ao lado do objetivo sem enxergá-lo, e a técnica se aprende apenas com quem já a executou.

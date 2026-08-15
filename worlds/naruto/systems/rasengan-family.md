@@ -1,7 +1,7 @@
 ---
 id: naruto.system.rasengan-family
 title: "Linhagem do Rasengan"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: system
@@ -12,6 +12,8 @@ source-file: Linhagem_do_Rasengan_v1.md
 # Linhagem do Rasengan
 
 Documento dono do motor compartilhado pelas fichas da família Rasengan. Ele publica o eixo que cada variação move, a regra de assistência de moldagem, a cadeia de derivação e o estado de autoria da linhagem inteira. As fichas individuais consomem este documento e não reescrevem nada dele.
+
+**O que mudou na v1.3.** O Manual de Requisitos de Técnica v2.2 revogou o degrau nomeado de moldagem, e a Exigência deixou de ser herdada como valor único da linhagem (antes, Absoluta/84 para as sete fichas): cada ficha passa a declarar o próprio número, publicado no Compêndio de Ninjutsu de Forma e no de Raiton. A Assistência de Moldagem, seção 4, ganhou o efeito numérico que faltava — reduz a Exigência efetiva em 20 por moldagem assistente, regra nova aprovada que a Reforma da Exigência de Moldagem publica.
 
 ---
 
@@ -25,16 +27,15 @@ O documento pertence à camada de cenário. Ele consome o Manual de Criação de
 
 ## 2. A base compartilhada
 
-Toda ficha da linhagem herda os quatro valores abaixo e declara apenas o que diverge deles.
+Toda ficha da linhagem herda os três valores abaixo e declara apenas o que diverge deles.
 
 | Campo herdado | Valor | Origem |
 |---|---|---|
 | coef_técnica | 3,0 | Manual de Criação de Jutsus, Seção 5.3 |
-| Degrau de moldagem | Absoluta, 84 | Manual de Requisitos de Técnica, Seção 3.2 |
 | Caminho exigido | Composição, inclinação Moldagem | Perícia de Controle de Chakra, LV4 |
 | Selos de referência | 0 | Perícia de Controle de Chakra, Régua de Interface |
 
-O coeficiente técnico 3,0 é o valor mais alto da tabela e corresponde à técnica que existe pela moldagem. Ele governa duas coisas ao mesmo tempo: o Fator de Moldagem que domina o dano de toda a família, e o degrau Absoluto da Régua de Exigência, que é o portão de moldagem mais alto do sistema.
+O coeficiente técnico 3,0 é o valor mais alto da tabela e corresponde à técnica que existe pela moldagem. Ele governa o Fator de Moldagem que domina o dano de toda a família, e não deriva mais a Exigência de Moldagem: pelo Manual de Requisitos de Técnica v2.2, a Exigência é declarada por entrada e não herdada da linhagem, porque volume e escopo mudam o controle que cada variação cobra. As sete fichas publicam valores próprios, ancorados contra o Compêndio de Ninjutsu de Forma e o de Raiton: Rasengan 62, Ōdama Rasengan 66, Rasenrengan 62 por esfera, Chō Ōdama Rasengan 74, Rasengan Evanescente 70 por exceção de piso aprovada.
 
 **O portão de rank da linha sem natureza.** O Manual de Requisitos de Técnica ancora o portão de rank na perícia do domínio da técnica, e as fichas de moldagem pura desta linhagem não possuem domínio elemental que o carregue. O portão delas corre pela Perícia de Controle de Chakra, que é a perícia do único componente que essas fichas empregam, lida contra a mesma tabela universal.
 
@@ -88,6 +89,14 @@ A elevação de escopo do Ōdama Rasengan é categórica e não percentual, conf
 ## 4. Assistência de Moldagem
 
 Regra própria desta linhagem, criada porque o cânone declara com todas as letras que a execução de forma e natureza no mesmo instante excede um único praticante, e que o problema se resolve por paralelização e não por talento.
+
+**Efeito sobre a Exigência de Moldagem.** Cada moldagem assistente reduz a Exigência declarada da ficha:
+
+```
+Exigência efetiva = Exigência declarada − (20 × número de moldagens assistentes)
+```
+
+Validação canônica: o Rasengan declara 62 e cai para 42 com uma assistência. Naruto aos treze, com Controle de Chakra LV3, Base 32 e SAB 10, resolve 42 exato — ele executa a técnica sem nunca ter possuído o controle que ela cobra sozinha.
 
 **Definição.** Uma ficha da linhagem declara o número de moldagens simultâneas que a execução exige, entre uma e três. A primeira é sempre a do executante. Cada moldagem além da primeira precisa de um assistente, e o assistente é uma das três fontes abaixo.
 

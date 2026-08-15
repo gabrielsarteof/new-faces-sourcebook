@@ -1,7 +1,7 @@
 ---
 id: naruto.lineage.sharingan
 title: "Sharingan"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: lineage
@@ -10,6 +10,8 @@ source-file: Sharingan_Documento_Final-2.md
 ---
 
 # Sharingan
+
+**O que mudou na v2.2.** Precisão de termo na seção Controle de chakra: a linha que já isentava o bônus do olho de alterar pré-requisito de jutsu passa a nomear os dois portões do Manual de Requisitos de Técnica v2.2, e cita a regra geral que este documento inspirou — efeito ligável nunca entra em portão. Nenhum número mudou.
 
 *Dōjutsu kekkei genkai do Clã Uchiha. Olho de percepção, cópia e hipnose.*
 
@@ -117,7 +119,7 @@ No topo da maestria, a leitura fina alcança o nível de precisão mais alto, e 
 
 ### Controle de chakra
 
-Enquanto o Sharingan está ativo, o portador vê o próprio chakra fluir, e isso concede um bônus pequeno aos testes ativos de Controle de Chakra. O bônus é quarenta por cento da curva-mãe. Ele se aplica a moldar, estabilizar e refinar chakra durante uma ação observada. Ele não altera o piso de Controle de Chakra exigido como pré-requisito de rank de jutsu. O olho ajuda a moldar com mais precisão no momento. Ele não destrava rank que o portador não qualifica.
+Enquanto o Sharingan está ativo, o portador vê o próprio chakra fluir, e isso concede um bônus pequeno aos testes ativos de Controle de Chakra. O bônus é quarenta por cento da curva-mãe. Ele se aplica a moldar, estabilizar e refinar chakra durante uma ação observada. Ele não altera o portão de moldagem exigido como pré-requisito de jutsu, nem o portão de rank: dōjutsu é efeito ligável, e efeito ligável nunca entra em portão, pela regra geral que o Manual de Requisitos de Técnica publica a partir do próprio caso deste documento. O olho ajuda a moldar com mais precisão no momento. Ele não destrava rank nem exigência de controle que o portador não qualifica.
 
 ### Cópia de Técnicas: o Olho da Cópia
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,9 @@ status: final
 source-file: Compendio_Fuinjutsu_v1.md
 ---
 
-# Compêndio de Fūinjutsu
+# Compêndio de Fūinjutsu · v1.3
+
+**O que mudou na v1.3.** Primeira auditoria completa da Exigência de Moldagem: 39 das 42 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Duas ficam sem edição por não terem portão de moldagem próprio: Rotação Instantânea Mútua do Hiraishin não declara nível nem degrau de Fūinjutsu na entrada, herdando o portão de Deus do Trovão Voador sem republicá-lo; Juinjutsu de Orochimaru não tem portão nenhum, porque quem recebe a marca não a adquire nem a executa. Nenhuma das duas precisava de correção — ambas já estavam corretas por não se aplicarem.
 
 **封印術 · Fūinjutsu**
 
@@ -35,7 +37,7 @@ O selamento se organiza em dois tempos, e o catálogo inteiro se lê por eles. E
 **Kibaku Fuda — 起爆札**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV1 · Trivial
+**Requisitos:** Fūinjutsu LV1 · Moldagem 18
 **XP:** 175
 
 O praticante inscreve sobre papel uma fórmula que guarda uma parcela de chakra em estado instável e a libera de uma vez quando a condição de disparo se cumpre. A etiqueta acesa queima por alguns segundos antes de detonar, e esse intervalo é a única janela que o alvo recebe. É o primeiro trabalho de selamento que qualquer academia ensina, e a maioria dos shinobi do mundo passa a vida inteira sem inscrever nenhum outro.
@@ -48,7 +50,7 @@ O limite é o papel. A etiqueta se molha, se rasga e queima antes da hora, e o a
 **Ketsu Fūin — 血封印**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV1 · Trivial
+**Requisitos:** Fūinjutsu LV1 · Moldagem 18
 **XP:** 220
 
 A fórmula é traçada com o sangue de quem a escreve, e o sangue vincula o selo a uma pessoa em vez de vinculá-lo a um objeto. O que foi fechado assim abre para o inscritor, para quem compartilhar a linhagem dele e para mais ninguém, e a tentativa alheia encontra uma fórmula que simplesmente permanece fechada.
@@ -61,7 +63,7 @@ O limite é a origem. O selo lê o sangue e ignora a intenção, e um parente ho
 **Kiroku Fūin — 記録封印**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV1 · Básica · Caminho Fórmula
+**Requisitos:** Fūinjutsu LV1 · Moldagem 26 · Caminho Fórmula
 **XP:** 280
 
 Um documento inteiro entra na fórmula e deixa de existir como objeto. O papel selado some do mundo físico e passa a viver como traço, e quem revistar o portador encontra um pergaminho em branco com uma marca de tinta na margem. A recuperação exige o gesto de abertura declarado na inscrição, que pode ser um selo de mão, uma palavra ou o contato de uma superfície nomeada.
@@ -74,7 +76,7 @@ O limite é a revista. A marca na margem é visível a olho nu, e um selador com
 **Buntai Fūin — 分隊封印**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV1 · Trivial
+**Requisitos:** Fūinjutsu LV1 · Moldagem 16
 **XP:** 130
 
 Um pergaminho, quatro sacadores. O praticante inscreve a fórmula de armazenamento com uma cláusula de autoria estendida, e os membros nomeados do esquadrão passam a sacar do mesmo selo sem que nenhum deles precise saber escrever. A ração, a corda, o antídoto e a lâmina reserva ficam com quem tiver a mão livre no momento em que forem necessários.
@@ -91,7 +93,7 @@ O limite é a nomeação. A lista de sacadores é fixada na inscrição, e acres
 **Fūin Kaijo: Shuriken — 封印解除・手裏剣**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV2 · Básica
+**Requisitos:** Fūinjutsu LV2 · Moldagem 32
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 600
@@ -106,7 +108,7 @@ O limite é o gasto. O pergaminho esvazia por completo, e recarregá-lo é traba
 **Fūbaku Hōjin — 封縛法陣**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV2 · Básica · Caminho Armadilha
+**Requisitos:** Fūinjutsu LV2 · Moldagem 34 · Caminho Armadilha
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 880
@@ -121,7 +123,7 @@ O limite é o terreno. A formação existe onde foi montada, e um adversário qu
 **Fūin Kaijo: Kamifubuki — 封印解除・紙吹雪**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV2 · Básica · Caminho Fórmula
+**Requisitos:** Fūinjutsu LV2 · Moldagem 32 · Caminho Fórmula
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 720
@@ -136,7 +138,7 @@ O limite é o vento. Uma corrente de ar moderada dispersa a nevasca em um turno,
 **Bōon Fūin — 防音封印**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV2 · Básica
+**Requisitos:** Fūinjutsu LV2 · Moldagem 32
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 720
@@ -151,7 +153,7 @@ O limite é a fixação. As quatro fórmulas ficam expostas nos cantos, e retira
 **Otori Fūin — 囮封印**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV2 · Básica · Caminho Armadilha
+**Requisitos:** Fūinjutsu LV2 · Moldagem 34 · Caminho Armadilha
 **XP:** 600
 
 A fórmula se apresenta como outra coisa a quem a examina. Um selo de armazenamento vazio se lê como contenção de alto grau, uma armadilha se lê como arquivo inofensivo, e o adversário que confia na própria leitura escolhe a ação errada com confiança total. A camada de disfarce vive sobre a fórmula real e resolve por oposição contra a Exegese de quem lê.
@@ -168,7 +170,7 @@ O limite é a leitura única. Um selador que já tenha aberto uma isca do mesmo 
 **Angō Fūin — 暗号封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV3 · Plena · Caminho Exegese
+**Requisitos:** Fūinjutsu LV3 · Moldagem 46 · Caminho Exegese
 **XP:** 2.580
 
 A fórmula devolve conteúdo falso a quem não é o leitor declarado. O selo abre para qualquer um que o force com perícia suficiente, e o que sai dele é um documento coerente, plausível e inteiramente inventado pelo inscritor no ato da escrita. Só o leitor nomeado recebe o texto verdadeiro, e nem ele percebe a existência da camada falsa.
@@ -181,7 +183,7 @@ O limite é a coerência. O conteúdo falso é escrito uma vez e envelhece, e um
 **Kyōyū Fūin — 共有封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV3 · Plena · Caminho Âncora
+**Requisitos:** Fūinjutsu LV3 · Moldagem 44 · Caminho Âncora
 **XP:** 2.120
 
 Dois pergaminhos inscritos com a mesma fórmula passam a guardar o mesmo espaço. O que entra em um sai do outro, e a distância entre os dois deixa de importar para o conteúdo. O selador que guarda um documento em Konoha o entrega em Suna sem que ninguém carregue nada pela estrada.
@@ -194,7 +196,7 @@ O limite é o par. Um terceiro pergaminho exige nova inscrição de ambos, e o q
 **Kanshiki Fūin — 鑑識封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV3 · Plena · Caminho Exegese
+**Requisitos:** Fūinjutsu LV3 · Moldagem 46 · Caminho Exegese
 **XP:** 1.775
 
 A fórmula é lançada sobre o que restou de um selo rompido e fixa aquele estado, preservando o traço, a paridade, a assinatura do autor e a marca de quem forçou a abertura. O registro sobrevive à chuva, ao fogo e à passagem de dias, e o selador que chegou depois do crime lê a cena com o mesmo detalhe de quem estivesse presente quando ela aconteceu.
@@ -207,7 +209,7 @@ O limite é a janela. A fórmula precisa alcançar o resto do selo antes que ele
 **Chien Fūin — 遅延封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV3 · Plena · Caminho Armadilha
+**Requisitos:** Fūinjutsu LV3 · Moldagem 44 · Caminho Armadilha
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.120
@@ -222,7 +224,7 @@ O limite é a previsibilidade. O intervalo é fixado na inscrição, e um advers
 **Bosshū Fūin — 没収封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
-**Requisitos:** Fūinjutsu LV3 · Plena · Caminho Cerceamento
+**Requisitos:** Fūinjutsu LV3 · Moldagem 48 · Caminho Cerceamento
 **XP:** 3.155
 
 O selo fecha o acesso do portador a um único objeto, e não ao chakra dele. Uma arma marcada deixa de responder à mão que a empunha, um pergaminho de invocação deixa de aceitar o sangue do dono e um dōjutsu implantado permanece no lugar sem acender. O portador conserva tudo o mais que sabe fazer e descobre a vedação apenas quando tenta usar o que foi fechado.
@@ -239,7 +241,7 @@ O limite é a declaração. O objeto vedado é nomeado na inscrição, e a fórm
 **Fūka Hōin — 封火法印**
 **[CANON — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV4 · Alta · Caminho Apreensão · Katon LV3
+**Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Apreensão · Katon LV3
 **XP:** 5.300
 
 O praticante desenrola um pergaminho pré-inscrito com um espaço central em branco, e o fogo que se aproxima é sugado para dentro dele. O kanji de selamento surge no vazio da fórmula no instante em que a captura se completa, e a chama passa a existir apenas ali. A propriedade especial do fogo capturado deixa de protegê-lo, e por isso a técnica alcança as chamas negras que nenhuma água apaga.
@@ -252,7 +254,7 @@ O limite é a natureza. O pergaminho lê fogo e nada mais, e a reemissão exige 
 **Fūinjutsu: Koshi Tandan — 封印術・虎視眈弾**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
-**Requisitos:** Fūinjutsu LV4 · Alta · Caminho Armadilha · técnica de tinta
+**Requisitos:** Fūinjutsu LV4 · Moldagem 62 · Caminho Armadilha · técnica de tinta
 **XP:** 5.300
 
 O praticante desenha um tigre sobre o pergaminho e a figura se projeta para fora dele sem jamais se desconectar do papel. A besta avança presa ao próprio traço, alcança a presa com dentes e garras e a arrasta de volta para dentro do desenho, onde ela permanece selada enquanto a tinta durar. O que sai do pergaminho é a fórmula, e o que entra nele é o alvo.
@@ -265,7 +267,7 @@ O limite é a atenção. O praticante que sofre interrupção perde o desenho e 
 **Fūin Teppeki — 封印鉄壁**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (País do Fogo)
-**Requisitos:** Fūinjutsu LV4 · Alta · Caminho Armadilha
+**Requisitos:** Fūinjutsu LV4 · Moldagem 58 · Caminho Armadilha
 **XP:** 4.625
 
 A fórmula é inscrita no batente de uma passagem e permanece ali por gerações, examinando quem tenta atravessá-la. O que a condição declarada reprova encontra a passagem fechada como se fosse pedra maciça, e o que ela aprova atravessa sem perceber que houve exame. A condição é escrita uma vez e vale para sempre.
@@ -278,7 +280,7 @@ O limite é a imobilidade. A muralha existe onde foi inscrita, e o que a contorn
 **Fūinjutsu: Sanpō Fūin — 封印術・三方封印**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
-**Requisitos:** Fūinjutsu LV4 · Alta · Caminho Confinamento · Kage Bunshin no Jutsu
+**Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Confinamento · Kage Bunshin no Jutsu
 **XP:** 6.200
 
 Três executores fecham um triângulo em volta do alvo e formam o selo ao mesmo tempo. Uma figura de luz se ergue entre eles, prende o que estiver no centro e o lança aos céus, deixando no chão uma cratera do tamanho da formação. A técnica resolve em uma única ação o que o caminho Confinamento resolve em ritual, e paga essa velocidade com o número de corpos que precisa pôr em campo.
@@ -291,7 +293,7 @@ O limite é a formação. Um dos três vértices que caia antes do fechamento de
 **Tekkō Fūin — 鉄甲封印**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
-**Requisitos:** Fūinjutsu LV4 · Alta · Caminho Cárcere
+**Requisitos:** Fūinjutsu LV4 · Moldagem 58 · Caminho Cárcere
 **XP:** 6.200
 
 A fórmula surge no corpo do portador como o kanji de ferro e sustenta uma entidade de chakra hostil no lugar. É o selo de jinchūriki que uma vila produz quando não possui o ofício de Uzushiogakure, e ele funciona: Kumogakure carregou uma bijū por gerações inteiras atrás desta fórmula.
@@ -304,7 +306,7 @@ O limite é a escala. O selo sustenta o que carrega e não sustenta mais que iss
 **Kaija Hōin — 封邪解印**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Fūinjutsu LV4 · Alta · Caminho Exegese
+**Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Exegese
 **XP:** 5.300
 
 A fórmula é traçada em volta de um selo hospedado e o abre para fora, devolvendo ao mundo o que a marca retinha. A técnica trabalha com preparação muito menor que a supressão equivalente, porque abrir uma fórmula alheia exige apenas encontrar a costura dela, e o inscritor original raramente escreve pensando em quem vai querer soltar o que ele prendeu.
@@ -317,7 +319,7 @@ O limite é a fidelidade. A fórmula devolve o estado exato que o selo guardava,
 **Jibaku no Juin — 自縛の呪印**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV4 · Alta · Caminho Coerção
+**Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Coerção
 **XP:** 4.625
 
 A marca é aplicada durante o combate, em contato breve e sem que o alvo perceba. Ela permanece inerte pelo tempo que o inscritor quiser e, ao ser acionada, se espalha pelo corpo do portador em linhas que travam o movimento onde ele estiver. O alvo descobre que carrega o selo no instante em que ele o paralisa.
@@ -330,7 +332,7 @@ O limite é a liberação. Uma descarga suficientemente forte de chakra rompe as
 **Gisō Fūin — 偽装封印**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV4 · Alta · Caminho Fórmula
+**Requisitos:** Fūinjutsu LV4 · Moldagem 62 · Caminho Fórmula
 **XP:** 6.200
 
 A fórmula exibe uma fenda que não existe. O selador que a examina encontra a costura mal fechada, calcula a paridade oposta e aplica o desequilíbrio exatamente ali, e o que ele atinge é uma camada vazia posta no caminho para receber o golpe. A fórmula real permanece intacta sob ela e o atacante gasta a ação, o chakra e a posição sem obter nada.
@@ -347,7 +349,7 @@ O limite é a passagem única. A costura falsa absorve um desequilíbrio e se de
 **Gogyō Fūin — 五行封印**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Cerceamento
+**Requisitos:** Fūinjutsu LV5 · Moldagem 78 · Caminho Cerceamento
 **XP:** 11.000
 
 O praticante acende chakra nas cinco pontas dos dedos e o crava sobre um selo já existente. O que decide o resultado é a aritmética: cinco é ímpar, e a fórmula ímpar posta sobre a fórmula par produz um desequilíbrio que a estrutura do selo original não comporta. O alvo perde o acesso ao que o selo guardava e perde junto a facilidade de usar o próprio chakra, e a maioria dos atingidos desmaia no lugar.
@@ -360,7 +362,7 @@ O limite é a paridade. O selo alvo precisa ser par para que o desequilíbrio se
 **Gogyō Kaiin — 五行解印**
 **[CANON — Rank A]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Exegese
+**Requisitos:** Fūinjutsu LV5 · Moldagem 76 · Caminho Exegese
 **XP:** 9.200
 
 O praticante concentra chakra nas pontas dos dedos e golpeia o selo alheio, e a fórmula se desfaz sob o impacto. A técnica remove selos de patamar semelhante ao dela e o faz de uma vez, sem desmontar a costura e sem desequilibrar a paridade. É o contra-selo direto, e a existência dele é a razão pela qual nenhum selamento deste mundo é definitivo.
@@ -373,7 +375,7 @@ O limite é o patamar. A fórmula alcança selos de poder comparável ao do exec
 **Fūja Hōin — 封邪法印**
 **[CANON — Rank A]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Absolvição · sangue do inscritor
+**Requisitos:** Fūinjutsu LV5 · Moldagem 78 · Caminho Absolvição · sangue do inscritor
 **XP:** 11.000
 
 O praticante escreve com o próprio sangue longas linhas de símbolos que partem da marca hospedada e se espalham pelo chão em volta do portador, e no fechamento faz tudo convergir de uma vez sobre o ponto de origem. A marca é forçada para dentro da vontade de quem a carrega e passa a depender dela para operar.
@@ -386,7 +388,7 @@ O limite é a vontade alheia. A supressão vale enquanto o portador quiser que v
 **Fūinjutsu: Shishi Heikō — 封印術・獅子閉哮**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Cerceamento
+**Requisitos:** Fūinjutsu LV5 · Moldagem 76 · Caminho Cerceamento
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 12.800
@@ -401,7 +403,7 @@ O limite é a borda. O que estiver com um pé fora da linha permanece inteiro, e
 **Shishō Fūin — 四象封印**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Cárcere · Repertório do Selamento
+**Requisitos:** Fūinjutsu LV5 · Moldagem 82 · Caminho Cárcere · Repertório do Selamento
 **XP:** 15.200
 
 A fórmula é aplicada sobre objeto ou corpo humano e prende dentro dele uma entidade de escala que nenhum outro selo deste catálogo comporta. Quatro símbolos fecham em torno do ponto de aplicação, e o que entra ali permanece com a própria consciência, a própria memória e a própria vontade, vivendo dentro de um receptáculo que continua andando pelo mundo.
@@ -414,7 +416,7 @@ O limite é a paridade exposta. Quatro é par, e a fórmula que se anuncia par c
 **Ura Shishō Fūin — 裏四象封印**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Coerção
+**Requisitos:** Fūinjutsu LV5 · Moldagem 80 · Caminho Coerção
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 15.200
@@ -429,7 +431,7 @@ O limite é a preparação. A fórmula é inscrita com antecedência, em ritual 
 **Uzumaki Fūin — うずまき封印**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Confinamento
+**Requisitos:** Fūinjutsu LV5 · Moldagem 74 · Caminho Confinamento
 **XP:** 12.800
 
 O praticante encadeia os selos de mão e apoia a palma contra o solo, e a fórmula se forma sob os pés do alvo, subindo em espiral para fechar sobre o que estiver acima dela. O desenho é o do clã, reconhecível a qualquer distância, e quem o vê se formar no chão sabe imediatamente com que linhagem está lidando.
@@ -442,7 +444,7 @@ O limite é a assinatura. A fórmula anuncia o autor antes de fechar, e o clã p
 **Juzetsu Kōjin — 呪舌抗印**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Coerção
+**Requisitos:** Fūinjutsu LV5 · Moldagem 76 · Caminho Coerção
 **XP:** 12.800
 
 A fórmula é inscrita na língua do portador e vigia a intenção dele. A cláusula comum espera o ato e pune depois, e esta dispara no momento em que o portador decide revelar o que está vedado, paralisando a fala e o corpo antes que a primeira sílaba saia. O selo trabalha contra o pensamento e não contra a palavra.
@@ -455,7 +457,7 @@ O limite é o escopo declarado. A vedação alcança o que a inscrição nomeou,
 **Kekkai Shihō Fūjin — 結界四方封陣**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Cárcere · Barreira LV4 *(perícia pendente)* · quatro executores · quatro pergaminhos · amostra de sangue do alvo
+**Requisitos:** Fūinjutsu LV5 · Moldagem 80 · Caminho Cárcere · Barreira LV4 *(perícia pendente)* · quatro executores · quatro pergaminhos · amostra de sangue do alvo
 **XP:** 18.200
 
 Quatro executores tomam posição nos cantos de um quadrado, cada um com o próprio pergaminho, e erguem uma barreira que primeiro localiza o alvo, depois se estende acima dele e por fim desce fechando. O que está dentro é selado onde a formação mandar, e o procedimento inteiro consome minutos em que as quatro pessoas ficam paradas e indefesas.
@@ -468,7 +470,7 @@ O limite é a formação viva. Um dos quatro que caia derruba a barreira inteira
 **Ikigi no Kagi — 生鍵**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
-**Requisitos:** Fūinjutsu LV5 · Refinada · Caminho Âncora · contrato de invocação ativo
+**Requisitos:** Fūinjutsu LV5 · Moldagem 72 · Caminho Âncora · contrato de invocação ativo
 **XP:** 12.800
 
 A chave de um selo é inscrita no corpo de uma criatura invocável em vez de ser inscrita em objeto. A criatura carrega a fórmula viva, atende ao chamado de quem detiver o contrato e permite que o selo seja afrouxado ou reapertado onde quer que o portador dele esteja, sem que a chave precise atravessar uma única estrada.
@@ -485,7 +487,7 @@ O limite é a mortalidade. A criatura que morre leva a chave com ela, e o selo s
 **Hakke no Fūin Shiki — 八卦の封印式**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
-**Requisitos:** Fūinjutsu LV6 · Absoluta · Caminho Cárcere aprofundado · Repertório do Selamento
+**Requisitos:** Fūinjutsu LV6 · Moldagem 104 · Caminho Cárcere aprofundado · Repertório do Selamento
 **XP:** 45.500
 
 Dois Selamentos dos Quatro Símbolos são sobrepostos sobre o mesmo corpo, e a fórmula resultante sustenta uma bijū dentro de um ser humano pela vida inteira dele. É o ponto mais alto que a arte do selamento alcançou por mão humana e é a única via conhecida de produzir um selo obra-prima.
@@ -498,7 +500,7 @@ O limite é a chave. A fórmula exige um registro externo que a afrouxe e a reap
 **Fūinjutsu: Genryū Kyū Fūjin — 封印術・幻龍九封尽**
 **[CANON — Rank S]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Fūinjutsu LV6 · Absoluta · Caminho Cárcere · nove executores · Kuchiyose: Gedō Mazō
+**Requisitos:** Fūinjutsu LV6 · Moldagem 100 · Caminho Cárcere · nove executores · Kuchiyose: Gedō Mazō
 **XP:** 38.000
 
 Nove executores tomam posição sobre as pontas dos dedos da estátua invocada e sustentam a fórmula por dias inteiros. A boca da estátua se abre, nove entidades draconianas emergem dela, cercam o jinchūriki e extraem a bijū de dentro dele. Um dos olhos da estátua se abre a cada selamento concluído.
@@ -511,7 +513,7 @@ O limite é o receptáculo. A técnica existe apenas onde a estátua estiver, e 
 **Senpō: Myōjinmon — 仙法・明神門**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Hashirama Senju) · Registrada
-**Requisitos:** Fūinjutsu LV6 · Absoluta · Caminho Cárcere · Senjutsu LV1
+**Requisitos:** Fūinjutsu LV6 · Moldagem 96 · Caminho Cárcere · Senjutsu LV1
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 45.500
@@ -534,7 +536,7 @@ A coluna de magnitude destas entradas é a Perícia de Passagem v1, publicada. O
 **Hiraishin no Jutsu — 飛雷神の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
-**Requisitos:** Passagem LV6 · Fūinjutsu LV4 · Alta · Caminho Âncora
+**Requisitos:** Passagem LV6 · Fūinjutsu LV4 · Moldagem 62 · Caminho Âncora
 **XP:** 32.000
 
 O praticante desaparece do lugar em que estava e existe, no mesmo instante, sobre qualquer marca que tenha inscrito. A travessia dispensa o espaço entre os dois pontos e por isso ignora a distância por completo, alcançando uma marca posta do outro lado do continente com o mesmo custo de uma marca posta a três metros. A barreira erguida entre o praticante e o destino permanece intacta e não o detém, porque ela se estende apenas sobre a dimensão em que foi levantada, e a travessia não passa por ela.
@@ -549,7 +551,7 @@ O limite é a marca. O praticante alcança o que inscreveu e nada além disso, e
 **Hiraishin: Ni no Dan — 飛雷神・弐の段**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Deus do Trovão Voador · Passagem LV5 · Fūinjutsu LV4 · Alta
+**Requisitos:** Deus do Trovão Voador · Passagem LV5 · Fūinjutsu LV4 · Moldagem 64
 **XP:** 9.200
 
 O praticante arremessa um kunai marcado contra o adversário e atravessa para a posição dele no instante seguinte, chegando pelo ângulo que a trajetória da lâmina abriu. O ataque nasce de uma direção que o alvo acabou de descartar, e a velocidade entre o arremesso e a chegada dispensa qualquer leitura antecipada de movimento.
@@ -562,7 +564,7 @@ O limite é o arremesso. A lâmina precisa chegar, e um adversário que a desvie
 **Hiraishin Giri — 飛雷神斬り**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
-**Requisitos:** Deus do Trovão Voador · perícia de arma LV5 *(perícia pendente)* · Fūinjutsu LV4 · Alta
+**Requisitos:** Deus do Trovão Voador · perícia de arma LV5 *(perícia pendente)* · Fūinjutsu LV4 · Moldagem 64
 **XP:** 11.000
 
 O praticante atravessa até a marca com a lâmina já em movimento e o corte se completa no mesmo instante da chegada. A travessia e o golpe ocupam um único ato, e por isso o alvo recebe o ferimento antes de registrar a presença de quem o feriu. Nem um dōjutsu capaz de antecipar movimento oferece tempo de reação, porque não existe movimento a antecipar.
@@ -594,7 +596,7 @@ O limite é a reciprocidade. As duas marcas precisam existir, e a morte de um do
 **Shiki Fūjin — 屍鬼封尽**
 **[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
-**Requisitos:** Fūinjutsu LV6 · Absoluta · Caminho Cárcere · a vida do executor
+**Requisitos:** Fūinjutsu LV6 · Moldagem 100 · Caminho Cárcere · a vida do executor
 **XP:** 55.000
 
 O praticante forma o selo e o Shinigami se ergue atrás dele, invisível para todos os demais. A mão do deus atravessa o corpo do executor, alcança a alma do alvo e a arranca, e as duas almas são recolhidas para dentro do ventre da entidade, onde permanecem trancadas uma diante da outra por toda a eternidade. O corpo do executor cai no mesmo instante.
@@ -607,7 +609,7 @@ O limite é o preço. A vida do executor é cobrada sempre, no sucesso e no frac
 **Shiki Fūjin: Kai — 屍鬼封尽・解**
 **[ATRIBUÍDO — Rank S · Kinjutsu]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Fūinjutsu LV6 · Absoluta · máscara do Templo das Máscaras Uzumaki · sacrifício ritual
+**Requisitos:** Fūinjutsu LV6 · Moldagem 96 · máscara do Templo das Máscaras Uzumaki · sacrifício ritual
 **XP:** 50.000
 
 O executor veste a máscara cerimonial e convoca o Shinigami por dentro dela, e a entidade é obrigada a devolver o que consumiu. As almas trancadas no ventre saem, e o que estava selado para sempre volta a existir no mundo com a memória inteira do tempo que passou lá dentro.

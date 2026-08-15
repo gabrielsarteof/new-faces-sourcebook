@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 2.0
+version: 2.1
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,9 @@ status: final
 source-file: Compendio_Ninjutsu_de_Forma_v1.md
 ---
 
-# Compêndio de Ninjutsu de Forma · v2.0
+# Compêndio de Ninjutsu de Forma · v2.1
+
+**O que mudou na v2.1.** A Exigência de Moldagem de cada entrada deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado, conforme a Régua de Exigência de Moldagem da Perícia de Controle de Chakra. Rasengan, Ōdama Rasengan e Rasenrengan declaram também o valor efetivo com Assistência de Moldagem, conforme a Linhagem do Rasengan v1.3.
 **Técnicas que existem apenas pela Transformação de Forma**
 
 Catálogo das técnicas nomeadas que empregam a Transformação de Forma sozinha, sem converter chakra em natureza alguma. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço em pontos de experiência e a descrição da técnica.
@@ -30,7 +32,7 @@ Esta versão incorpora a leva de técnicas base universais, quinze entradas que 
 **Kawarimi no Jutsu — 変わり身の術**
 **[CANON — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Controle de Chakra LV1 · Moldagem Trivial
+**Requisitos:** Controle de Chakra LV1 · Moldagem 22
 **XP:** 228
 
 O usuário troca o próprio corpo de lugar com um objeto próximo no instante em que um ataque conecta, negando o golpe e reaparecendo a poucos metros do ponto original. A técnica nunca falha em deslocar o corpo, e o valor real dela mora no engano que produz sobre o atacante, lido pela Régua de Leitura publicada na ficha individual.
@@ -41,7 +43,7 @@ O usuário troca o próprio corpo de lugar com um objeto próximo no instante em
 **Bunshin no Jutsu — 分身の術**
 **[CANON — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Controle de Chakra LV1 · Moldagem Plena
+**Requisitos:** Controle de Chakra LV1 · Moldagem 38 (elevada +12 por tolerância zero a excesso de volume)
 **XP:** 228
 
 O usuário projeta de uma a quatro cópias visuais de si mesmo, sem substância física, que se movem por direção mental e estouram ao primeiro contato sólido. A calibração exigida para moldar quase nenhum chakra é o que torna esta técnica de rank E inacessível a quem não supera o grau Plena de Moldagem, reserva grande incluída.
@@ -52,7 +54,7 @@ O usuário projeta de uma a quatro cópias visuais de si mesmo, sem substância 
 **Henge no Jutsu — 変化の術**
 **[CANON — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Controle de Chakra LV1 · Moldagem Básica
+**Requisitos:** Controle de Chakra LV1 · Moldagem 26
 **XP:** 142
 
 O usuário transforma fisicamente o próprio corpo em outra forma, com substância, textura e aparência reais, preservando a própria massa sob qualquer disfarce. A forma nunca falha por teste de percepção; o que decide uma infiltração é a atuação de quem a veste diante de quem convive com o original.
@@ -63,7 +65,7 @@ O usuário transforma fisicamente o próprio corpo em outra forma, com substânc
 **Nawanuke no Jutsu — 縄抜けの術**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Controle de Chakra LV1 · Moldagem Trivial
+**Requisitos:** Controle de Chakra LV1 · Moldagem 18
 **XP:** 100
 
 O usuário combina flexibilidade articular com uma película de chakra que reduz o atrito das amarras, escapando de cordas e correias comuns em segundos, mesmo com as mãos atadas. O escape em si nunca falha contra contenção mundana; a técnica não participa da disputa contra imobilização sustentada por chakra.
@@ -74,7 +76,7 @@ O usuário combina flexibilidade articular com uma película de chakra que reduz
 **Kai — 解**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Controle de Chakra LV1 · Moldagem Trivial · consciência prévia do genjutsu
+**Requisitos:** Controle de Chakra LV1 · Moldagem 34 · consciência prévia do genjutsu
 **XP:** 142
 
 O usuário interrompe o próprio fluxo de chakra, ou aplica um pulso externo por toque em um aliado, rompendo um genjutsu que a vítima já percebeu. A tentativa testa VONTADE e SAB da vítima contra o limiar que o impositor travou no ato da imposição, e nenhum esforço do usuário do Kai além de perceber a ilusão melhora a própria chance de escapar.
@@ -85,7 +87,7 @@ O usuário interrompe o próprio fluxo de chakra, ou aplica um pulso externo por
 **Oiroke no Jutsu — お色気の術**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV1 · Moldagem Plena · Henge no Jutsu
+**Requisitos:** Controle de Chakra LV1 · Moldagem 28 · Henge no Jutsu
 **XP:** 185
 
 O usuário veste uma forma humana adulta idealizada, aplicação especializada do Henge calibrada para produzir choque em vez de convicção. Observadores com linha de visão direta testam VONTADE e SAB contra o teste social do usuário, e a falha aplica Atordoamento leve, abrindo uma janela tática real por trás do efeito cômico.
@@ -96,7 +98,7 @@ O usuário veste uma forma humana adulta idealizada, aplicação especializada d
 **Kakuremino no Jutsu — 隠れ蓑の術**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
-**Requisitos:** Controle de Chakra LV1 · Moldagem Básica · manto ou pano físico
+**Requisitos:** Controle de Chakra LV1 · Moldagem 22 · manto ou pano físico
 **XP:** 125
 
 O usuário molda cor e textura sobre um manto físico para imitar a superfície imediatamente atrás dele, permanecendo camuflado enquanto ficar coberto e majoritariamente parado. A percepção do observador lê a mesma Régua de Leitura publicada na ficha do Kawarimi no Jutsu, e qualquer movimento além do deslocamento lento quebra a camuflagem sem teste.
@@ -111,7 +113,7 @@ O usuário molda cor e textura sobre um manto físico para imitar a superfície 
 **Shunshin no Jutsu — 瞬身の術**
 **[CANON — Rank D]**
 **Acesso:** Livre
-**Requisitos:** Controle de Chakra LV2 · Moldagem Básica
+**Requisitos:** Controle de Chakra LV2 · Moldagem 38
 **XP:** 1.022
 
 O usuário vitaliza o corpo com chakra e cruza uma banda de distância em explosão única de movimento, imune a ataques de perfil inferior a Teleguiado durante o trânsito. A chegada testa a percepção de cada observador pela Régua de Leitura publicada na ficha individual, e o Modo Viagem estende o mesmo princípio a deslocamentos fora de combate ao custo real do fôlego do usuário.
@@ -122,7 +124,7 @@ O usuário vitaliza o corpo com chakra e cruza uma banda de distância em explos
 **Tōton no Jutsu — 透遁の術**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV2 · Moldagem Plena · Kakuremino no Jutsu
+**Requisitos:** Controle de Chakra LV2 · Moldagem 36 · Kakuremino no Jutsu
 **XP:** 488
 
 O usuário se torna invisível a olho nu contra qualquer fundo, sem depender de objeto físico. A invisibilidade sustenta durante deslocamento e observação, mas qualquer ação ofensiva do usuário a encerra de forma automática e sem teste, o que torna a técnica ferramenta de reconhecimento e fuga, e não de combate direto.
@@ -137,7 +139,7 @@ O usuário se torna invisível a olho nu contra qualquer fundo, sem depender de 
 **Meisaigakure no Jutsu — 明再隠れの術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV3 · Moldagem Alta · Kakuremino no Jutsu
+**Requisitos:** Controle de Chakra LV3 · Moldagem 44 · Kakuremino no Jutsu
 **XP:** 1.409
 
 O usuário dobra a luz diretamente sobre o próprio corpo, sem depender de manto ou objeto físico, sustentando a camuflagem durante deslocamento e combate ativo. A percepção do observador lê a mesma Régua de Leitura publicada no Kawarimi no Jutsu, e o ataque declarado pelo usuário camuflado expõe a posição real apenas no instante do golpe.
@@ -148,7 +150,7 @@ O usuário dobra a luz diretamente sobre o próprio corpo, sem depender de manto
 **Chakura no Ito — チャクラの糸**
 **[CANON — Rank C]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV4 · Caminho Impregnação · Moldagem Plena
+**Requisitos:** Controle de Chakra LV4 · Caminho Impregnação · Moldagem 50
 **XP:** 1.722
 
 O usuário projeta fios de chakra quase invisíveis das próprias mãos, capazes de prender e comandar objetos ou corpos à distância. A fixação sobre alvo inconsciente ou que não resiste é automática; contra corpo vivo resistente, testa FOR e DES do alvo contra o teste de Condução do usuário na especialização Impregnação. O comando de marionete articulada pertence à Perícia de Marionetista, que consome esta técnica como base.
@@ -163,7 +165,7 @@ O usuário projeta fios de chakra quase invisíveis das próprias mãos, capazes
 **Rasengan — 螺旋丸**
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Controle de Chakra LV4 · Moldagem Absoluta · Caminho Composição
+**Requisitos:** Controle de Chakra LV4 · Moldagem 62 (42 com 1 Assistência de Moldagem) · Caminho Composição
 **XP:** 6.714
 
 O usuário gira o chakra simultaneamente em várias direções e o comprime na palma da mão até que a esfera se sustente sozinha, sem casca e sem molde externo que a segure. A esfera fica visível como uma luz azul densa em rotação e emite um zumbido grave que alcança poucos metros. O contato transfere o giro ao corpo atingido, mói o ponto de entrada e arremessa o alvo na direção do avanço, e a rotação faz todo o trabalho sem que o executante precise de força própria. A técnica dispensa selos de mão por completo, o que a deixa disponível com as mãos ocupadas, feridas ou parcialmente presas, e impossível de antecipar por leitura de postura.
@@ -174,7 +176,7 @@ O usuário gira o chakra simultaneamente em várias direções e o comprime na p
 **Kage Bunshin no Jutsu — 影分身の術**
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV4 · Moldagem Alta
+**Requisitos:** Controle de Chakra LV4 · Moldagem 32
 **XP:** 7.357
 
 O usuário divide a própria reserva de chakra em até quatro corpos sólidos, capazes de agir, lutar e usar técnicas com autonomia plena. Cada clone se desfaz ao primeiro dano físico sólido que o atinja e devolve ao usuário, no mesmo instante, toda a experiência vivida durante a própria existência.
@@ -185,7 +187,7 @@ O usuário divide a própria reserva de chakra em até quatro corpos sólidos, c
 **Bunshin Daibakuha no Jutsu — 分身大爆破の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV4 · Moldagem Alta · Kage Bunshin no Jutsu
+**Requisitos:** Controle de Chakra LV4 · Moldagem 40 · Kage Bunshin no Jutsu
 **XP:** 3.500
 
 O usuário detona um Kage Bunshin ativo, convertendo toda a reserva de chakra que o clone ainda carrega em uma explosão de área ao redor do próprio corpo do clone. A força do estouro varia com o quanto aquele clone específico já gastou em combate antes do gatilho, e a transferência de memória para o usuário original ocorre normalmente antes da detonação.
@@ -196,7 +198,7 @@ O usuário detona um Kage Bunshin ativo, convertendo toda a reserva de chakra qu
 **Harem no Jutsu — ハーレムの術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV4 · Moldagem Alta · Kage Bunshin no Jutsu · Oiroke no Jutsu
+**Requisitos:** Controle de Chakra LV4 · Moldagem 34 · Kage Bunshin no Jutsu · Oiroke no Jutsu
 **XP:** 3.500
 
 O usuário veste simultaneamente todos os clones das sombras ativos com a forma do Oiroke, convertendo o choque individual em saturação de área. Observadores testam a própria resistência uma única vez contra o efeito combinado, e a falha aplica Atordoamento moderado, abrindo uma janela tática ampliada pela quantidade de corpos em campo.
@@ -211,7 +213,7 @@ O usuário veste simultaneamente todos os clones das sombras ativos com a forma 
 **Ōdama Rasengan — 大玉螺旋丸**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV5 · Moldagem Absoluta · Caminho Composição · Rasengan
+**Requisitos:** Controle de Chakra LV5 · Moldagem 66 (46 com 1 Assistência de Moldagem) · Caminho Composição · Rasengan
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 15.500
@@ -224,7 +226,7 @@ O usuário eleva o volume girado muito acima do porte padrão e produz uma esfer
 **Rasenrengan — 螺旋連丸**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Controle de Chakra LV5 · Moldagem Absoluta · Caminho Composição · Rasengan
+**Requisitos:** Controle de Chakra LV5 · Moldagem 62 por esfera (42 com 1 Assistência de Moldagem cada) · Caminho Composição · Rasengan
 **XP:** 15.500
 
 O usuário forma uma esfera em cada mão e entrega as duas na mesma ação. Cada esfera reproduz o Rasengan sem alteração de geometria, o que mantém o rendimento por esfera idêntico ao da base e faz a técnica comprar multiplicidade. As duas moldagens simultâneas exigem assistência pela mesma via que o porte elevado exige, por clone ou pelo caminho da segunda janela.
@@ -235,7 +237,7 @@ O usuário forma uma esfera em cada mão e entrega as duas na mesma ação. Cada
 **Tajū Kage Bunshin no Jutsu — 多重影分身の術**
 **[CANON — Rank A]**
 **Acesso:** Requisito de Segurança
-**Requisitos:** Controle de Chakra LV5 · Moldagem Alta · Kage Bunshin no Jutsu
+**Requisitos:** Controle de Chakra LV5 · Moldagem 34 · Kage Bunshin no Jutsu
 **XP:** 18.500
 
 O usuário estende a partição de reserva do Kage Bunshin muito além da banda tática comum, gerando de cinco a centenas de corpos sólidos simultâneos. A escala escolhida define o rank, o custo de XP e o Aftermath que recai sobre o próprio usuário ao final da cena, do leve desgaste físico do rank A ao esgotamento estrutural da faixa Kinjutsu. O rank e o XP declarados acima são o degrau de entrada, cinco a nove clones; a ficha individual publica a tabela completa das três faixas, Rank A a 18.500 XP, Rank S a 49.400 XP e Kinjutsu a 50.000 XP, com a tabela de clones por faixa e o Aftermath de cada uma. O catálogo, por norma, publica um rank e um custo de XP por entrada; a escalada pertence à ficha, que já a resolve por inteiro. A escalada até 27 clones ou mais satura a marcação Kinjutsu e exige a validação narrativa da Seção 4.3 do Manual de Criação de Jutsus por cima do Requisito de Segurança declarado acima, trava que a ficha individual descreve por inteiro.
@@ -250,7 +252,7 @@ O usuário estende a partição de reserva do Kage Bunshin muito além da banda 
 **Chō Ōdama Rasengan — 超大玉螺旋丸**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Controle de Chakra LV6 · Moldagem Absoluta · Caminho Composição · Ōdama Rasengan · fonte externa de chakra declarada
+**Requisitos:** Controle de Chakra LV6 · Moldagem 74 (34 com 2 Assistências de Moldagem) · Caminho Composição · Ōdama Rasengan · fonte externa de chakra declarada
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 45.200
