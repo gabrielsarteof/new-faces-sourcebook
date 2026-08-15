@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.yoton
 title: "Compêndio de Yōton"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,9 +9,11 @@ status: final
 source-file: Compendio_Yoton_v2.md
 ---
 
-# Compêndio de Yōton · v2.2
+# Compêndio de Yōton · v2.3
 
 **O que mudou na v2.2.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Golpe Além do Osso e Corpo Que Nunca Esfria já traziam justificativa própria na prosa, usada como âncora direta.
+
+**Correção na v2.3.** Golpe Além do Osso e Corpo Que Nunca Esfria — as duas âncoras próprias que a v2.2 já usava — ainda citavam o degrau nomeado (moldagem refinada, moldagem plena) na própria justificativa. Reescritas para citar o número declarado (68 e 52).
 
 **陽遁 · Técnicas da Liberação de Yang**
 
@@ -134,7 +136,7 @@ O praticante empurra a própria fadiga para trás, adiando por uma cena inteira 
 **Requisitos:** Liberação de Yang LV3 · Moldagem 68 · perícia de combate corporal declarada na ficha
 **XP:** 1.775
 
-A saturação se comprime num único golpe e se libera no instante do impacto, amplificando a pancada além do que o músculo comum permitiria. A exigência de moldagem refinada em rank C é o par declarado deste compêndio contra a indexação de precisão por porte: concentrar vitalidade num instante exige mais refinamento do que sustentá-la ao longo de uma cena.
+A saturação se comprime num único golpe e se libera no instante do impacto, amplificando a pancada além do que o músculo comum permitiria. A Exigência de Moldagem 68 em rank C é o par declarado deste compêndio contra a indexação de precisão por porte: concentrar vitalidade num instante exige mais refinamento do que sustentá-la ao longo de uma cena.
 
 ### Carne Que Segura
 **Niku Tomari — 肉止まり**
@@ -394,7 +396,7 @@ Pelo toque, função que cessou volta a operar em corpo que permanece inteiro. C
 **Requisitos:** Liberação de Yang LV6 · Moldagem 52 · Fornalha · ter aprendido Fornalha Sem Fim
 **XP:** 32.000
 
-O metabolismo acelerado passa a operar pela duração de uma missão inteira, com temperatura extrema, veneno ambiental e privação prolongada entrando dois graus abaixo contra o praticante. A moldagem plena em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
+O metabolismo acelerado passa a operar pela duração de uma missão inteira, com temperatura extrema, veneno ambiental e privação prolongada entrando dois graus abaixo contra o praticante. A Exigência de Moldagem 52 em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
 
 ### Vida Emprestada em Massa
 **Shūmei no Jutsu — 集命の術**

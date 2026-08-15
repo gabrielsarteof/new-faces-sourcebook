@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.suiton
 title: "Compêndio de Suiton (水遁)"
-version: 3.4
+version: 3.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,10 +9,12 @@ status: final
 source-file: Compendio_Suiton_v3_1.md
 ---
 
-# Compêndio de Suiton (水遁) · v3.4
+# Compêndio de Suiton (水遁) · v3.5
 **Liberação de Água**
 
 **O que mudou na v3.4.** A Exigência de Moldagem de todas as 35 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. As últimas três — Espelho de Água, Torrente Dilaceradora e Prisão do Mar Profundo, que a auditoria original registrava como pendentes de nome no índice — não tinham correspondência publicada e foram resolvidas por leitura própria contra as âncoras de calibragem do domínio: Torrente Dilaceradora pareada com a Bala Presa de Água pela mesma descrição de vórtice em rotação violenta; Espelho de Água ancorada nos B-rank mais altos do domínio, porque a própria entrada já declarava a propriedade de tolerância zero a excesso de volume; Prisão do Mar Profundo, capstone proposto e fechado na criação, ancorada perto do Kirin do Raiton, abaixo do teto elemental do Daikōdan. As três têm ancoragem canônica mais fraca que o restante do compêndio, por serem ATRIBUÍDO ou PROPOSTA sem par espelho em outro elemento.
+
+**Correção na v3.5.** A v3.4 declarava as 35 entradas convertidas e oito não estavam: Grande Braço de Água, Chuva do Tigre à Vontade, Técnica da Grande Cachoeira, Onda Cortante de Água, Chicotes do Dragão de Água, Grande Onda Explosiva de Colisão, Mil Tubarões Famintos e Grande Bala Tubarão continuavam com o degrau nomeado da régua já revogada. Resolvidas agora pela mesma banda rank+degrau-antigo cruzada contra os compêndios já fechados que fechou o Doton do zero, com o próprio domínio como âncora primária: Grande Braço de Água (Alta) 64 e Chuva do Tigre à Vontade (Refinada) 76 entre os B-rank já publicados do domínio (40–82); Técnica da Grande Cachoeira (Básica) 43 e Grande Onda Explosiva de Colisão (Básica) 42, cada uma escalada acima da respectiva irmã de Rank B na mesma família — Técnica da Bacia da Cachoeira 42 e Onda Explosiva de Colisão 40 — sem cruzar o teto de 44 que fecha o degrau Básica; Chicotes do Dragão de Água (Refinada) 78, no meio da banda que Raiton e Ninjutsu Médico calibram para A-rank de utilidade; Mil Tubarões Famintos (Refinada) 82, ecoando o par temático com Mil Agulhas Voadoras da Morte; e Grande Bala Tubarão — o Daikōdan que o próprio texto da v3.4 já citava como teto elemental acima de Prisão do Mar Profundo — em 104, acima dos 100 de Prisão e alinhado ao grupo de tetos de Rank S que Inton, Yōton e Ninjutsu Médico publicam na mesma faixa. Nenhuma das oito tem par espelho direto fora do domínio, e a ancoragem é mais fraca que a das 27 já fechadas na v3.4.
 
 Catálogo das técnicas nomeadas do elemento água. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência, o grupo de execução e a descrição da técnica.
 
@@ -372,7 +374,7 @@ O usuário concentra água em rotação violenta na palma da mão e a descarrega
 **Suiton: Gōsuiwan — 水遁・剛水腕**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito de Segurança
-**Requisitos:** Suiton LV4 · Moldagem Alta
+**Requisitos:** Suiton LV4 · Moldagem 64
 **Execução:** Expelida
 **XP:** 5.300
 
@@ -384,7 +386,7 @@ O usuário reveste um ou ambos os braços com camadas densas de água comprimida
 **Ugo Jizai no Jutsu — 雨虎自在の術**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Amegakure)
-**Requisitos:** Suiton LV4 · Moldagem Refinada · Caminho Toque da Maré
+**Requisitos:** Suiton LV4 · Moldagem 76 · Caminho Toque da Maré
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **Execução:** Expelida
@@ -402,7 +404,7 @@ O usuário ergue nuvem de chuva com o próprio chakra e mantém a precipitação
 **Suiton: Daibakufu no Jutsu — 水遁・大瀑布の術**
 **[CANON — Rank A]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV5 · Moldagem Básica
+**Requisitos:** Suiton LV5 · Moldagem 43
 **Execução:** Moldagem de Fonte
 **XP:** 12.800
 
@@ -414,13 +416,13 @@ O usuário ergue de uma fonte de água coluna espiral colossal, que desaba sobre
 **Suiton: Suidanha — 水遁・水断波**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
-**Requisitos:** Suiton LV5 · Moldagem Absoluta · Caminho Agulha das Profundezas
+**Requisitos:** Suiton LV5 · Moldagem 86 · Caminho Agulha das Profundezas
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **Execução:** Expelida
 **XP:** 11.000
 
-O usuário expele pela boca jato contínuo de água comprimida a pressão extrema, fino como uma lâmina e sustentado por vários segundos. O corte atravessa rocha maciça, estruturas e defesas de chakra de densidade média, e o usuário varre o jato lateralmente durante a emissão, seccionando tudo dentro do arco. O cânone registra a execução sem qualquer fonte externa, com a água inteira vinda do corpo de quem a dispara, e a entrada representa o ápice do vetor de pressão cortante iniciado no Mizu Kamikiri. Onde a Daibakufu esmaga pelo volume, a Suidanha decide pelo fio, e o par compõe as duas leituras ofensivas máximas do elemento no rank. A tolerância zero a excesso de volume responde pelo degrau de moldagem, porque água a mais no jato o transforma em jorro e o corte deixa de existir.
+O usuário expele pela boca jato contínuo de água comprimida a pressão extrema, fino como uma lâmina e sustentado por vários segundos. O corte atravessa rocha maciça, estruturas e defesas de chakra de densidade média, e o usuário varre o jato lateralmente durante a emissão, seccionando tudo dentro do arco. O cânone registra a execução sem qualquer fonte externa, com a água inteira vinda do corpo de quem a dispara, e a entrada representa o ápice do vetor de pressão cortante iniciado no Mizu Kamikiri. Onde a Daibakufu esmaga pelo volume, a Suidanha decide pelo fio, e o par compõe as duas leituras ofensivas máximas do elemento no rank. A tolerância zero a excesso de volume responde pela Exigência de Moldagem 86, porque água a mais no jato o transforma em jorro e o corte deixa de existir.
 
 ---
 
@@ -428,7 +430,7 @@ O usuário expele pela boca jato contínuo de água comprimida a pressão extrem
 **Suiton: Suiryūben — 水遁・水龍鞭**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
-**Requisitos:** Suiton LV5 · Moldagem Refinada · água selada em pergaminho
+**Requisitos:** Suiton LV5 · Moldagem 78 · água selada em pergaminho
 **Execução:** Moldagem de Fonte
 **XP:** 11.000
 
@@ -440,7 +442,7 @@ O usuário ergue de uma fonte próxima orbe central de água do qual partem múl
 **Suiton: Dai Bakusui Shōha — 水遁・大爆水衝波**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
-**Requisitos:** Suiton LV5 · Moldagem Básica
+**Requisitos:** Suiton LV5 · Moldagem 42
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **Execução:** Expelida
@@ -458,7 +460,7 @@ O usuário expele volume de água de escala geográfica, que se expande em todas
 **Suiton: Senjikizame — 水遁・千食鮫**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Suiton LV6 · Moldagem Refinada · Caminho Cachoeira
+**Requisitos:** Suiton LV6 · Moldagem 82 · Caminho Cachoeira
 **Execução:** Expelida
 **XP:** 38.000
 
@@ -470,7 +472,7 @@ O usuário forma diante de si parede d'água da qual irrompem mil tubarões em m
 **Suiton: Daikōdan no Jutsu — 水遁・大鮫弾の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Suiton LV6 · Moldagem Absoluta · Caminho Muralha Viva
+**Requisitos:** Suiton LV6 · Moldagem 104 · Caminho Muralha Viva
 **Execução:** Expelida
 **XP:** 32.000
 

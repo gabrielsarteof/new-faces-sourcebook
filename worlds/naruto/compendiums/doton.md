@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.doton
 title: "Compêndio de Doton (土遁)"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,10 +9,12 @@ status: final
 source-file: Compendio_Doton_v2-1.md
 ---
 
-# Compêndio de Doton (土遁) · v2.4
+# Compêndio de Doton (土遁) · v2.5
 **Liberação de Terra**
 
 **O que mudou na v2.4.** Primeira auditoria completa da Exigência de Moldagem: as 34 entradas, que já carregavam degrau nomeado, passaram a número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas [PROPOSTA] mantêm veto pendente de Gabriel, já registrado na seção de Pendências de Aprovação, e a Exigência delas herda a mesma incerteza. Este compêndio segue fora de norma pela Norma de Produção de Compêndios §13 — carrega os seis blocos normativos que a v2.7 da Norma já centralizou noutro lugar — e essa reemissão não foi feita nesta passada, por ser trabalho de forma e não de conteúdo.
+
+**Correção na v2.5.** A prosa de Lança de Terra ainda citava "a exigência absoluta de moldagem" depois que a linha de Requisitos já declarava o número. Corrigida para citar a Exigência de Moldagem 84 diretamente, sem nomear o degrau da régua revogada.
 
 Catálogo das técnicas nomeadas do elemento terra. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
 
@@ -442,7 +444,7 @@ O usuário converte uma extensão vasta de terreno em pântano de lama profunda 
 
 O usuário infunde chakra de terra por todo o corpo e endurece a própria carne até o negro de aparência metálica, convertendo-se em fortaleza ambulante. A pele enegrecida apara lâmina, punho e projétil sem ferimento, e os golpes desferidos pelo corpo endurecido carregam a densidade da rocha, unindo defesa suprema e ofensiva pesada num único estado sustentado. A fraqueza da técnica segue a lógica elemental, com o Raiton atravessando o endurecimento pela condutividade da terra, brecha que permanece a via de ruptura direta.
 
-O endurecimento pleno do corpo exige que o executante já domine o revestimento de um único membro. O Punho de Rocha ensina a aplicar terra sobre a própria carne sem perder o movimento da articulação, e é essa lição que a Lança de Terra estende ao corpo inteiro, com a exigência absoluta de moldagem respondendo por sustentar a proporção sobre carne viva que precisa continuar respirando e se movendo.
+O endurecimento pleno do corpo exige que o executante já domine o revestimento de um único membro. O Punho de Rocha ensina a aplicar terra sobre a própria carne sem perder o movimento da articulação, e é essa lição que a Lança de Terra estende ao corpo inteiro, com a Exigência de Moldagem 84 respondendo por sustentar a proporção sobre carne viva que precisa continuar respirando e se movendo.
 
 ---
 
