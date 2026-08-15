@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,9 +9,11 @@ status: final
 source-file: Compendio_Ninjutsu_de_Forma_v1.md
 ---
 
-# Compêndio de Ninjutsu de Forma · v2.1
+# Compêndio de Ninjutsu de Forma · v2.2
 
 **O que mudou na v2.1.** A Exigência de Moldagem de cada entrada deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado, conforme a Régua de Exigência de Moldagem da Perícia de Controle de Chakra. Rasengan, Ōdama Rasengan e Rasenrengan declaram também o valor efetivo com Assistência de Moldagem, conforme a Linhagem do Rasengan v1.3.
+
+**Correção na v2.2.** A prosa de Técnica do Clone ainda citava "o grau Plena de Moldagem", nome da régua já revogada. Reescrita sem nomear degrau algum, porque a referência descrevia uma dificuldade narrativa e não a Exigência de Moldagem 38 da própria entrada.
 **Técnicas que existem apenas pela Transformação de Forma**
 
 Catálogo das técnicas nomeadas que empregam a Transformação de Forma sozinha, sem converter chakra em natureza alguma. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço em pontos de experiência e a descrição da técnica.
@@ -46,7 +48,7 @@ O usuário troca o próprio corpo de lugar com um objeto próximo no instante em
 **Requisitos:** Controle de Chakra LV1 · Moldagem 38 (elevada +12 por tolerância zero a excesso de volume)
 **XP:** 228
 
-O usuário projeta de uma a quatro cópias visuais de si mesmo, sem substância física, que se movem por direção mental e estouram ao primeiro contato sólido. A calibração exigida para moldar quase nenhum chakra é o que torna esta técnica de rank E inacessível a quem não supera o grau Plena de Moldagem, reserva grande incluída.
+O usuário projeta de uma a quatro cópias visuais de si mesmo, sem substância física, que se movem por direção mental e estouram ao primeiro contato sólido. A calibração exigida para moldar quase nenhum chakra é o que torna esta técnica de rank E inacessível a quem não domina a moldagem fina, reserva grande incluída.
 
 ---
 

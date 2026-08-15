@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,11 +9,13 @@ status: final
 source-file: Compendio_Ninjutsu_Medico_v2-1.md
 ---
 
-# Compêndio de Ninjutsu Médico · v2.3
+# Compêndio de Ninjutsu Médico · v2.4
 
 **医療忍術 · Iryō Ninjutsu**
 
 **O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem do domínio: as 53 entradas que dependem de moldagem passaram de degrau nomeado (Trivial a Absoluta, sem o prefixo "Moldagem" na linha de Requisitos) para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Palma Mística e Cerejeira, Impacto Violento já traziam justificativa própria da exigência na prosa, usada como âncora direta. Reincarnação da Própria Vida ganha isenção explícita — a própria entrada já declarava não ser medicina e não cobrar chakra, mesmo tratamento que o Amaterasu recebeu no Katon.
+
+**Correção na v2.4.** Palma Mística e Cerejeira, Impacto Violento — as duas âncoras próprias que a v2.3 já usava — ainda citavam o degrau nomeado (moldagem refinada, moldagem plena) na própria justificativa. Reescritas para citar o número declarado (68 e 46).
 
 Catálogo das técnicas nomeadas do domínio médico, da contenção de sangramento que qualquer shinobi aprende no primeiro ano de academia até a regeneração absoluta que nenhuma mão do mundo alcançou ainda. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa.
 
@@ -182,7 +184,7 @@ A técnica central de todo o domínio. O médico condensa chakra na palma até f
 
 A entrada existe em duas formas. A básica, de rank C, trata ferimento externo, queimadura, laceração e estabilização, converte à razão de sete décimos e dispensa teste fora de Pressão Real. A plena, de rank A e disponível a partir do quinto nível da perícia, alcança lesão interna, órgão comprometido e reparo profundo, e converte à razão de um para um. O rank A é o registrado em fonte primária, e a forma básica é redução atribuída por este compêndio para preservar o médico de esquadrão que o mundo pressupõe em toda equipe de três.
 
-A exigência de moldagem refinada em rank C é o par declarado deste compêndio contra a indexação de precisão por porte: a mão que cura pede mais refinamento do que porte, e é por isso que ela é a barreira real da profissão. Cada aplicação acumula uma Marca de Reparo sobre o corpo tratado.
+A Exigência de Moldagem 68 em rank C é o par declarado deste compêndio contra a indexação de precisão por porte: a mão que cura pede mais refinamento do que porte, e é por isso que ela é a barreira real da profissão. Cada aplicação acumula uma Marca de Reparo sobre o corpo tratado.
 
 O limite é o fluxo e a atenção. Nenhuma aplicação ultrapassa o Limite de Saída, e o médico que cura não ataca, não se move e não reage.
 
@@ -547,7 +549,7 @@ O limite é a margem. O procedimento exige instalação, tempo, assistência tre
 
 O acúmulo deixa de ser aplicado contra um corpo e passa a ser aplicado contra o chão. O punho desce, o chakra libera no instante do contato com o solo e a superfície se parte em cratera, projetando estilhaço de pedra em todas as direções e derrubando quem estiver de pé no raio. O golpe transforma o terreno em arma e resolve formações inteiras de uma vez.
 
-A exigência de moldagem plena em rank A é o par alto deste compêndio contra a indexação de precisão por porte: o efeito vem da força liberada e não do refinamento pedido. O limite é a superfície, e a técnica perde quase todo o efeito sobre água, areia solta, plataforma suspensa ou terreno já destruído.
+A Exigência de Moldagem 46 em rank A é o par alto deste compêndio contra a indexação de precisão por porte: o efeito vem da força liberada e não do refinamento pedido. O limite é a superfície, e a técnica perde quase todo o efeito sobre água, areia solta, plataforma suspensa ou terreno já destruído.
 
 ### Perna do Céu Doloroso
 **Tsūtenkyaku — 痛天脚**

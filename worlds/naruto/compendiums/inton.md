@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,9 +9,11 @@ status: final
 source-file: Compendio_Inton_v2-1.md
 ---
 
-# Compêndio de Inton · v2.3
+# Compêndio de Inton · v2.4
 
 **O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Seis entradas já traziam justificativa própria na prosa (Lâmina de Vazio, Eco de Presença, Armadura de Segunda Pele, Carregador Sem Rosto, Despacho de Raio, Cidadela do Vazio), usada como âncora direta.
+
+**Correção na v2.4.** Quatro entradas além das seis já âncoras próprias ainda citavam o degrau nomeado na própria prosa, sem que a v2.3 as tivesse alcançado: Lâmina de Vazio (moldagem alta), Carregador Sem Rosto (moldagem plena), Despacho de Raio (moldagem plena) e Cidadela do Vazio (moldagem absoluta). Todas reescritas para citar o número que a própria linha de Requisitos já declara (60, 48, 52 e 96).
 
 **陰遁 · Técnicas da Liberação de Yin**
 
@@ -194,7 +196,7 @@ Um painel erguido em ponto declarado, com até cinco metros de largura por três
 **Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Armeiro
 **XP:** 4.625
 
-Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem peso e imune a quebra por uso. Ela apara aço e morde couro endurecido, e cede apenas quando o golpe recebido vence o limiar registrado no ato da forja. Empunhar uma arma real exige mais refinamento do que erguer uma forma parada, e a exigência de moldagem alta registra isso.
+Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem peso e imune a quebra por uso. Ela apara aço e morde couro endurecido, e cede apenas quando o golpe recebido vence o limiar registrado no ato da forja. Empunhar uma arma real exige mais refinamento do que erguer uma forma parada, e a Exigência de Moldagem 60 registra isso.
 
 ### Sombra Gêmea
 **Sōei no Jutsu — 双影の術**
@@ -212,7 +214,7 @@ Uma cópia espiritual completa do praticante, que se desloca junto dele e respon
 **Requisitos:** Liberação de Yin LV4 · Moldagem 74 · Duplicador · Sinal (Controle de Chakra)
 **XP:** 4.625
 
-A forma falsa passa a emitir presença de chakra convincente, o bastante para que um sensor a registre como pessoa. A exigência de moldagem refinada em rank B é o par declarado deste compêndio contra a indexação de precisão por porte: convencer quem lê chakra pede proporção interna fina, e a técnica que faz isso é modesta em escala e cara em controle.
+A forma falsa passa a emitir presença de chakra convincente, o bastante para que um sensor a registre como pessoa. A Exigência de Moldagem 74 em rank B é o par declarado deste compêndio contra a indexação de precisão por porte: convencer quem lê chakra pede proporção interna fina, e a técnica que faz isso é modesta em escala e cara em controle.
 
 ### Manto de Ninguém
 **Mujin no Gaitō — 無人の外套**
@@ -290,7 +292,7 @@ Estrutura erguida em escala de terreno, muro corrido, cúpula ou plataforma de d
 **Requisitos:** Liberação de Yin LV5 · Moldagem 80 · Couraça
 **XP:** 12.800
 
-Uma casca completa erguida rente ao corpo, que recebe cada golpe antes da carne e absorve por inteiro tudo que não vencer o limiar registrado. Vencido o limiar, a casca rompe, o golpe segue já resolvido e o praticante recebe o resíduo. A moldagem refinada responde pela espessura constante sobre articulação em movimento, que é onde a obra falha em quem a executa mal.
+Uma casca completa erguida rente ao corpo, que recebe cada golpe antes da carne e absorve por inteiro tudo que não vencer o limiar registrado. Vencido o limiar, a casca rompe, o golpe segue já resolvido e o praticante recebe o resíduo. A Exigência de Moldagem 80 responde pela espessura constante sobre articulação em movimento, que é onde a obra falha em quem a executa mal.
 
 ### Véu do Esquadrão
 **Tai no Tobari — 隊の帳**
@@ -332,7 +334,7 @@ Malha de substância espiritual estendida sobre área, que prende quem estiver d
 **Requisitos:** Liberação de Yin LV5 · Moldagem 48 · Estafeta · ter aprendido Mensageiro Cego
 **XP:** 12.800
 
-A forma passa a carregar pessoa e a percorrer quilômetros por trajeto instruído, com um único ponto de decisão declarado na partida. Ela não combate, não desvia de emboscada e não responde a chamado, e o que ela oferece é a retirada de um ferido sem que o esquadrão perca velocidade. A moldagem plena registra que o serviço é de porte e não de precisão.
+A forma passa a carregar pessoa e a percorrer quilômetros por trajeto instruído, com um único ponto de decisão declarado na partida. Ela não combate, não desvia de emboscada e não responde a chamado, e o que ela oferece é a retirada de um ferido sem que o esquadrão perca velocidade. A Exigência de Moldagem 48 registra que o serviço é de porte e não de precisão.
 
 ### Vigília Sem Fim
 **Fumetsu no Ban — 不滅の番**
@@ -385,7 +387,7 @@ A cópia espiritual passa a sofrer dano convincente quando atingida, com ferida 
 **Requisitos:** Liberação de Yin LV6 · Moldagem 52 · Forjador de Fenômenos
 **XP:** 27.500
 
-A energia espiritual veste a forma de um raio e é despachada contra o alvo em linha, fora do ciclo de superação e sem que exista natureza elemental a apartar. É a única técnica de Yin confirmada em fonte primária com nome próprio. O criador registrado no cânone não existe na história deste mundo, e a entrada permanece aberta ao primeiro que alcançar o requisito e concluir o processo de criação. A moldagem plena em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
+A energia espiritual veste a forma de um raio e é despachada contra o alvo em linha, fora do ciclo de superação e sem que exista natureza elemental a apartar. É a única técnica de Yin confirmada em fonte primária com nome próprio. O criador registrado no cânone não existe na história deste mundo, e a entrada permanece aberta ao primeiro que alcançar o requisito e concluir o processo de criação. A Exigência de Moldagem 52 em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
 
 ### Campo de Nunca Esteve Aqui
 **Fuzaiya no Jutsu — 不在野の術**
@@ -407,7 +409,7 @@ A mentira deixa de ocupar área e passa a reescrever o campo de batalha inteiro,
 **Banda Máxima:** Longa
 **XP:** 45.500
 
-Fortificação erguida do nada em escala de centena de metros, com muralha, portão, plataformas e passagens que respondem ao comando de quem a ergueu. Ela se levanta sobre água e no vazio, porque não depende de solo algum, e permanece de pé enquanto a reserva sustentar. A moldagem absoluta responde por manter proporção interna constante ao longo de toda a estrutura.
+Fortificação erguida do nada em escala de centena de metros, com muralha, portão, plataformas e passagens que respondem ao comando de quem a ergueu. Ela se levanta sobre água e no vazio, porque não depende de solo algum, e permanece de pé enquanto a reserva sustentar. A Exigência de Moldagem 96 responde por manter proporção interna constante ao longo de toda a estrutura.
 
 ### Os Que Chegam Sozinhos
 **Dokurai no Kage — 独来の影**
