@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.enton
 title: "Enton (炎遁)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -152,7 +152,7 @@ Toda divisão publicada neste documento resolve por piso, e toda régua que exig
 
 CUSTO EM XP
 
-LV1 1.125 · LV2 1.687 · LV3 3.375 · LV4 6.187 · LV5 10.125 · LV6 15.187, acumulando 37.686. Caminho extra custa 3.093 no LV4 e 5.062 no LV5, pela metade do valor do nível. Inclinação extra custa 1.687 para abrir e 1.687 para aprofundar, pela régua da seção 7 do Manual de Economia de XP, que precifica inclinação adicional pelo valor cheio do LV2 da perícia.
+LV1 1.350 · LV2 2.025 · LV3 4.050 · LV4 7.425 · LV5 12.150 · LV6 18.225, acumulando 45.225. Caminho extra custa 3.712 no LV4 e 6.075 no LV5, pela metade do valor do nível. Inclinação extra custa 2.025 para abrir e 2.025 para aprofundar, pela régua da seção 7 do Manual de Economia de XP, que precifica inclinação adicional pelo valor cheio do LV2 da perícia.
 
 ═══════════════════════════════════════════════════════════════════
 

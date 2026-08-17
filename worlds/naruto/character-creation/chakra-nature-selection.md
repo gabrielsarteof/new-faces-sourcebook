@@ -1,7 +1,7 @@
 ---
 id: naruto.character-creation.chakra-nature
 title: "Naturezas de Chakra na Criação de Personagem"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: system
@@ -103,16 +103,16 @@ Preço por nível, com o multiplicador de posição já aplicado:
 
 | LV | Afinidade | Compatibilidade | 1ª aprendida |
 |---|---|---|---|
-| LV1, Alicerce | 1.125 | 1.265 | 1.406 |
-| LV2, Inclinação | 1.687 | 1.897 | 2.108 |
-| LV3, Competência | 3.375 | 3.796 | 4.218 |
-| LV4, Especialização | 6.187 | 6.960 | 7.733 |
-| LV5, Maestria | 10.125 | 11.390 | 12.656 |
-| LV6, Transcendência | 15.187 | 17.085 | 18.983 |
+| LV1, Alicerce | 1.350 | 1.518 | 1.687 |
+| LV2, Inclinação | 2.025 | 2.278 | 2.531 |
+| LV3, Competência | 4.050 | 4.556 | 5.062 |
+| LV4, Especialização | 7.425 | 8.353 | 9.281 |
+| LV5, Maestria | 12.150 | 13.668 | 15.187 |
+| LV6, Transcendência | 18.225 | 20.503 | 22.781 |
 
-O acumulado até o LV6 sai em 37.686 para a Afinidade, 42.393 para a Compatibilidade e 47.104 para a primeira aprendida. O piso incide sobre cada nível, porque o personagem compra um nível de cada vez.
+O acumulado até o LV6 sai em 45.225 para a Afinidade, 50.876 para a Compatibilidade e 56.529 para a primeira aprendida. O piso incide sobre cada nível, porque o personagem compra um nível de cada vez.
 
-Um personagem de criação raramente passa do LV2 em qualquer natureza, e o orçamento inicial não sustenta duas naturezas altas. Comprar a Afinidade até o LV3 e deixar a Compatibilidade em LV1 é o padrão de um genin competente, e custa 6.187 mais 1.265.
+Um personagem de criação raramente passa do LV2 em qualquer natureza, e o orçamento inicial não sustenta duas naturezas altas. Comprar a Afinidade até o LV3 e deixar a Compatibilidade em LV1 é o padrão de um genin competente, e custa 4.050 mais 1.518.
 
 A natureza de nascença que o personagem não comprar continua na ficha e continua rolando na cadeia de Kekkei Genkai, porque ela é fato de nascimento. O que ela não faz é produzir técnica, porque técnica exige a perícia.
 

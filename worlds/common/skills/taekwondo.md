@@ -1,7 +1,7 @@
 ---
 id: common.skill.taekwondo
 title: "Taekwondo"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: common
 type: skill
@@ -27,7 +27,7 @@ IDENTIDADE
 
 Regente VEL, o mesmo do Muay Thai, por decisão deliberada. A regra de manter regentes distintos entre domínios vizinhos existe para impedir que um único atributo alto destrave famílias inteiras de competência, mas os dois domínios não se compram como par: um personagem escolhe entre chutar reto e chutar girando, não as duas coisas ao mesmo tempo, e a distinção entre eles já mora inteira no verbo de cada caminho, provada caminho a caminho contra o Chutador na abertura deste documento. Onde o Kenpo evitou a sobreposição de atributo com o Muay Thai porque as duas escolas realmente competem pelo mesmo golpe rápido e próximo, Taekwondo e Muay Thai competem pelo mesmo membro e pelo mesmo atributo, e ainda assim nunca respondem à mesma pergunta. Categoria Físico, multiplicador 1,0. Camada subclasse provisória, sem superclasse publicada. Sem portão duplo: o domínio não separa magnitude de precisão.
 
-LV1 750 · LV2 1.125 · LV3 2.250 · LV4 4.125 · LV5 6.750 · LV6 10.125, acumulando 25.125. Caminho extra custa 2.062 no LV4 e 3.375 no LV5.
+LV1 900 · LV2 1.350 · LV3 2.700 · LV4 4.950 · LV5 8.100 · LV6 12.150, acumulando 30.150. Caminho extra custa 2.475 no LV4 e 4.050 no LV5.
 
 PORTÃO
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.futon
 title: "Fūton (風遁)"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -234,7 +234,7 @@ O primeiro caminho chega no LV4 e exige a inclinação associada no estado aprof
 
 Os testes de referência no ápice, com o praticante em LV6 transcendido e todos os caminhos da inclinação possuídos, valem 180, 185 e 190 em Vácuo, 180, 185 e 190 em Vendaval, e 188, 193, 198 e 198 em Vento a Favor. A inclinação mais larga do domínio produz o teste mais alto, e a diferença é a consequência declarada de haver mais território a cobrir.
 
-A inclinação Ciclone se adquire por compra adicional a partir do LV2, pelo preço de LV2 da perícia na categoria Ninjutsu, e aprofunda pelo mesmo preço outra vez, somando 3.374 de XP. Cada caminho dela corre pelo preço de caminho adicional da categoria, 3.093 no LV4 e 5.062 no LV5. O Ápice custa o preço cheio do LV6 da categoria, 15.187, e dispensa a perícia no LV6, porque a exigência dele são os caminhos da própria inclinação. A economia de XP registra esta linha como errata aberta, porque a seção de transcendências dela ainda descreve apenas o capstone embutido no LV6.
+A inclinação Ciclone se adquire por compra adicional a partir do LV2, pelo preço de LV2 da perícia na categoria Ninjutsu, e aprofunda pelo mesmo preço outra vez, somando 4.050 de XP. Cada caminho dela corre pelo preço de caminho adicional da categoria, 3.712 no LV4 e 6.075 no LV5. O Ápice custa o preço cheio do LV6 da categoria, 18.225, e dispensa a perícia no LV6, porque a exigência dele são os caminhos da própria inclinação. A economia de XP registra esta linha como errata aberta, porque a seção de transcendências dela ainda descreve apenas o capstone embutido no LV6.
 
 Os testes de referência de Ciclone, com os três caminhos possuídos e transcendidos pelo Ápice, valem 144, 140 e 144 no LV4, 165, 161 e 165 no LV5 e 190, 185 e 190 no LV6, em Espiral, Olho e Fome. O portador que alcance o Ápice antes do LV6 lê a coluna transcendida a partir da Base de Nível que possui, e é essa combinação de coluna alta com base baixa que dá à extensão manifestada a textura de linhagem em vez de a textura de maestria.
 

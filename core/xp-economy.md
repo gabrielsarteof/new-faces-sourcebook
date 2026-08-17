@@ -1,7 +1,7 @@
 ---
 id: core.xp-economy
 title: "Manual de Economia de XP e Criação de Ficha"
-version: 2.8
+version: 2.9
 layer: core
 type: system
 status: final
@@ -99,20 +99,20 @@ Esta economia governa o custo em XP e o requisito de atributo por nível. A estr
 Custo base por nível, antes do multiplicador de categoria:
 
 ```txt
-LV1 750    LV3 2250   LV5 6750
-LV2 1125   LV4 4125   LV6 10125
+LV1 900    LV3 2700   LV5 8100
+LV2 1350   LV4 4950   LV6 12150
 ```
 
 Multiplicadores por categoria e custos resolvidos (arredondamento por floor em cada nível):
 
 ```txt
-Físico    ×1.0   750 / 1125 / 2250 / 4125 / 6750 / 10125
-Prático   ×1.1   825 / 1237 / 2475 / 4537 / 7425 / 11137
-Mental    ×1.2   900 / 1350 / 2700 / 4950 / 8100 / 12150
-Social    ×1.3   975 / 1462 / 2925 / 5362 / 8775 / 13162
-Chakra    ×1.4  1050 / 1575 / 3150 / 5775 / 9450 / 14175
-Ninjutsu  ×1.5  1125 / 1687 / 3375 / 6187 / 10125 / 15187
-Erudição  ×1.7  1275 / 1912 / 3825 / 7012 / 11475 / 17212
+Físico    ×1.0    900 / 1350 / 2700 / 4950 /  8100 / 12150
+Prático   ×1.1    990 / 1485 / 2970 / 5445 /  8910 / 13365
+Mental    ×1.2   1080 / 1620 / 3240 / 5940 /  9720 / 14580
+Social    ×1.3   1170 / 1755 / 3510 / 6435 / 10530 / 15795
+Chakra    ×1.4   1260 / 1890 / 3780 / 6930 / 11340 / 17010
+Ninjutsu  ×1.5   1350 / 2025 / 4050 / 7425 / 12150 / 18225
+Erudição  ×1.7   1530 / 2295 / 4590 / 8415 / 13770 / 20655
 ```
 
 Modificadores que alteram o preço final de perícia: desconto de clã sobre perícia nomeada, redução de custo concedida por vantagem que nomeie uma perícia, e o multiplicador de posição que um cenário publique para a família de perícia cujo preço ele reserva a dono próprio. Vantagem que se compra por categoria, por área de domínio ou por classe de perícia atua no rendimento de treino e nunca no preço, em qualquer cenário. Bônus de XP de treino ficam fora desta lista pela mesma razão que ficam fora da seção 5.
@@ -166,13 +166,13 @@ Bônus geral acumulado da perícia: lê o Núcleo de Perícias v2, onde a Base d
 Custo de caminho extra (50% do custo do nível na categoria, floor):
 
 ```txt
-Físico:    LV4 2062 / LV5 3375
-Prático:   LV4 2268 / LV5 3712
-Mental:    LV4 2475 / LV5 4050
-Social:    LV4 2681 / LV5 4387
-Chakra:    LV4 2887 / LV5 4725
-Ninjutsu:  LV4 3093 / LV5 5062
-Erudição:  LV4 3506 / LV5 5737
+Físico:    LV4 2475 / LV5 4050
+Prático:   LV4 2722 / LV5 4455
+Mental:    LV4 2970 / LV5 4860
+Social:    LV4 3217 / LV5 5265
+Chakra:    LV4 3465 / LV5 5670
+Ninjutsu:  LV4 3712 / LV5 6075
+Erudição:  LV4 4207 / LV5 6885
 ```
 
 Cada caminho extra adquirido também eleva o bônus geral da perícia pelo fator de largura declarado no Núcleo de Perícias v2, de 0,10 sobre a Base de Nível.
@@ -213,3 +213,4 @@ As naturezas de transformação de chakra não se compram nesta moeda. A naturez
 5. O cálculo de XP Ficha por Protagonismo, Índice de Idade e Fator de História, descrito neste manual até a v2.2, foi revogado por `core/canon-factor.md`, hoje em v3. O item 3 acima, sobre o XP Base de 3000, vale apenas para o histórico deste manual e não descreve a base do cálculo vigente.
 6. O coeficiente quadrático da fórmula de custo de atributo subiu de 1,1 para 2,2 na v2.6, dobrando o preço de progressão em todos os níveis acima de LV1. `core/system-core.md` publica a mesma fórmula em espelho e sobe junto. **Recalibrado na v2.8**, ver item 7.
 7. O coeficiente 2,2 da v2.6 precificava um atributo isolado acima de LV50 mais caro que dominar uma perícia inteira em Ninjutsu, todas as inclinações e todos os caminhos, transcendida — 165.285 contra 109.674 para um único ponto de atributo no teto contra o domínio inteiro de um Katon completo. O coeficiente cai para 1,55, que fecha o ponto de virada perto do próprio degrau Ápice da régua de faixas: abaixo dele, um atributo isolado ainda custa menos que uma perícia completa; acima, custa mais. Um atributo entra em toda perícia que rege, em toda pool que o soma e em todo cálculo de combate que o lê, e é por isso que o preço dele deve superar o de uma perícia no topo da curva, e não antes: um caminho de perícia rende numa fatia estreita da ficha, um atributo rende em todo lugar que ele aparece. `core/system-core.md` publica a mesma fórmula em espelho e desce junto. `core/reference-tables.md` regenerado.
+8. **Preço de perícia sobe 20% na v2.9.** A tabela base de custo, seção 6, subiu de 750/1125/2250/4125/6750/10125 para 900/1350/2700/4950/8100/12150, com o mesmo floor por nível de sempre. Motivo: a leitura de mesa mostrava perícia entregando poder desproporcional ao XP cobrado, contra o pano de fundo de fichas médias em torno de Cânone 7 (`core/canon-factor.md`), quase o degrau de Saki Uchiha. O aumento manteve o ponto de virada da seção 5 item 7 próximo de onde estava: uma perícia Ninjutsu inteira, transcendida, sobe de 109.674 para 131.609, e o nível de atributo em que um atributo isolado passa a custar mais que essa perícia completa sobe de LV59 para LV63 — cinco níveis além do degrau-base 50 da faixa Ápice, ainda dentro da mesma vizinhança que a v2.8 fechou, e não a LV68 que um aumento de 50% teria produzido sem recalibrar o coeficiente de atributo junto. A tabela de caminho extra (seção 7) e a escada de dispersão elemental (`worlds/naruto/systems/elemental-system.md`) sobem na mesma proporção, por derivarem da mesma base.

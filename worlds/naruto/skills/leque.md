@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.leque
 title: "Leque"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -31,7 +31,7 @@ Regente FOR. Categoria Prático (×1,1). Camada subclasse, componente, sobre o p
 
 Portão: Leque exige Fūton em nível não inferior ao próprio menos um, no mesmo molde do portão de Fūinjutsu sobre Controle de Chakra e de Barreira sobre Controle de Chakra. `[proposta]`
 
-LV1 825 · LV2 1.237 · LV3 2.475 · LV4 4.537 · LV5 7.425 · LV6 11.137, acumulando 27.636. Caminho extra custa 2.268 no LV4 e 3.712 no LV5.
+LV1 990 · LV2 1.485 · LV3 2.970 · LV4 5.445 · LV5 8.910 · LV6 13.365, acumulando 33.165. Caminho extra custa 2.722 no LV4 e 4.455 no LV5.
 
 PORTÃO DE RANK
 

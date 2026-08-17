@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.suiton
 title: "Suiton (水遁)"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -269,7 +269,7 @@ AQUISIÇÃO E LARGURA
 
 O primeiro caminho chega no LV4 e exige a inclinação associada no estado aprofundado. Cada caminho adicional soma à Base Total um bônus geral de 4 no LV4 e no LV5 e de 5 no LV6, aplicável a todos os testes da perícia. Cada caminho adicional pertencente a uma inclinação soma à Inclinação Total dela um bônus de 2 quando a inclinação está aberta e de 3 quando está aprofundada. Não existe teto de caminhos, e a especialização permanece exclusiva ao contexto do caminho ativo. A escolha entre transcender cedo com poucos caminhos e tarde com muitos é decisão real de construção, porque a elevação acontece uma única vez.
 
-A inclinação Maré se compra como inclinação adicional pela régua do Manual de Economia de XP, disponível a partir do LV2 e restrita ao praticante que manifestou o Chōton, e o portador pode tomá-la como a primeira inclinação da ficha em lugar de Torrente, Remanso ou Bruma. Os caminhos dela seguem o preço de caminho adicional da categoria Ninjutsu e somam largura como qualquer outro. O Ápice se adquire à parte, com os três caminhos de Maré aprofundados, pelo preço cheio do LV6 da categoria Ninjutsu, que corre em 15.187 de XP Ficha, e a aquisição dispensa a perícia em LV6.
+A inclinação Maré se compra como inclinação adicional pela régua do Manual de Economia de XP, disponível a partir do LV2 e restrita ao praticante que manifestou o Chōton, e o portador pode tomá-la como a primeira inclinação da ficha em lugar de Torrente, Remanso ou Bruma. Os caminhos dela seguem o preço de caminho adicional da categoria Ninjutsu e somam largura como qualquer outro. O Ápice se adquire à parte, com os três caminhos de Maré aprofundados, pelo preço cheio do LV6 da categoria Ninjutsu, que corre em 18.225 de XP Ficha, e a aquisição dispensa a perícia em LV6.
 
 Os testes de referência no ápice, com o praticante em LV6 transcendido e todos os caminhos da inclinação possuídos, valem 180, 185 e 190 em Torrente, 188, 193, 193 e 198 em Remanso, 180, 185 e 190 em Bruma, e 190, 190 e 190 em Maré. A inclinação mais larga do domínio produz o teste mais alto, e a diferença é a consequência declarada de haver mais território a cobrir. Maré produz três valores iguais porque os três caminhos dela partilham o grau Estreita, e o piso de publicação do Ápice, com a perícia em LV5 e os três caminhos aprofundados, vale 161.
 
@@ -324,7 +324,7 @@ DECISÕES TOMADAS POR PADRÃO
 12. Escopo de Fundo Exposto. O efeito alcança exclusivamente ocultação sustentada por meio úmido, e a lista do que permanece intacto foi escrita nominalmente para que a mesa não a leia por extensão.
 13. Cobertura de Subida contra o compêndio. O efeito satisfaz o requisito do grupo de execução Moldagem de Fonte, que governa doze entradas do Compêndio de Suiton, e satisfaz também o requisito estreito de água existente ao redor do alvo das Mil Agulhas Voadoras da Morte quando o alvo estiver dentro da área. Os dois requisitos de estado diverso permanecem de pé e continuam sendo lidos na linha da própria técnica, com a chuva, a névoa e a umidade em suspensão da Ocultação na Chuva e o volume selado em pergaminho dos Chicotes do Dragão de Água. O teto de volume continua na escada de fonte.
 14. Maré como primeira inclinação. O portador pode tomar Maré em lugar de Torrente, Remanso ou Bruma na escolha do Nível 2, sem obrigação de comprar nenhuma das três antes.
-15. Preço do Ápice. Lido como transcendência extra da categoria Ninjutsu, em 15.187 de XP Ficha, com a lacuna registrada na fila de errata sob o manual de economia.
+15. Preço do Ápice. Lido como transcendência extra da categoria Ninjutsu, em 18.225 de XP Ficha, com a lacuna registrada na fila de errata sob o manual de economia.
 16. Registro do Chōton no catálogo. A linha ganhou o kanji 潮遁, coerente com o padrão 〜遁 que o próprio catálogo declara para os nove nomes construídos, e a coluna de Proveniência foi preenchida em todas as linhas de Kyōka, com cânone nas três naturezas registradas na obra e criação de Gabriel nas quatro concebidas para o sistema. O catálogo de Kekkei Genkai não recebeu a coluna, porque o escopo do trabalho é a linha do Chōton.
 17. Seção descritiva do Chōton em Naturezas Avançadas. A natureza ganhou verbete próprio no padrão que o documento já usa para Kuroi Kaminari, Shiden e Incandescência, e o verbete declara que a progressão da Maré corre dentro da Perícia de Suiton, em lugar de perícia própria, com a exceção repetida na seção de Progressão por Maestria.
 
