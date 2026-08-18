@@ -21,10 +21,15 @@ import { fileURLToPath } from 'node:url';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
+// Diretorios que nunca contem documento do corpus. `site` hospeda o
+// new-faces-docs, que traz node_modules com milhares de .md de pacote; sem
+// esta exclusao o indice e a contagem de documentos incorporariam todos.
+const IGNORADOS = new Set(['.git', 'tools', 'site', 'node_modules']);
+
 function documentos(dir, acc = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
     if (e.isDirectory()) {
-      if (e.name !== '.git' && e.name !== 'tools') documentos(path.join(dir, e.name), acc);
+      if (!IGNORADOS.has(e.name)) documentos(path.join(dir, e.name), acc);
     } else if (e.name.endsWith('.md')) acc.push(path.join(dir, e.name));
   }
   return acc;

@@ -1,0 +1,13 @@
+# O new-faces-docs vive em site/. Só o código-fonte dele é versionado;
+# dependências, saída de build e cache do Astro ficam de fora.
+site/node_modules/
+site/dist/
+site/.astro/
+site/.vercel/
+
+# Node em geral, caso alguma ferramenta de tools/ ganhe dependências
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
