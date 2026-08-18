@@ -1,7 +1,7 @@
 ---
 id: core.skill-authoring
 title: "Manual de Criação de Perícias"
-version: 7.4
+version: 7.5
 layer: core
 type: methodology
 status: final
@@ -9,6 +9,14 @@ source-file: Manual_de_Criacao_de_Pericias_v7.md
 ---
 
 # Manual de Criação de Perícias
+
+**v7.5 — Fecha a contradição de §14.2 com `core/xp-economy.md` §7: a v7.4 e anteriores
+liam "aquisição adicional custa metade da original" como regra única para inclinação e
+caminho, mas a Economia de XP sempre precificou só o caminho a desconto, com a
+inclinação em preço cheio. A auditoria que expôs a divergência também recalibrou a
+fração do caminho de 50% para 65% (desconto de 35%), fundamentada em pesquisa de
+transferência de aprendizado — ver `core/xp-economy.md` v2.10 Anexo A item 9. §14.2
+agora nomeia as duas réguas em separado e explica por que não são a mesma.**
 
 **v7.4 — A seção 13 promove a composição por caminhos nomeados, até aqui exceção do
 Sensoriamento, a regra obrigatória de toda transcendência: cada uma declara o conjunto
@@ -522,8 +530,18 @@ freia a largura infinita.
 
 Inclinação adicional a partir do LV2, caminho adicional a partir do LV4, ambos nascendo
 Abertos e aprofundando por compra separada. Todo caminho exige a inclinação dele
-Aprofundada. Não existe teto. Aquisição adicional custa metade da original, sem tarifa
-por proximidade.
+Aprofundada. Não existe teto.
+
+**As duas aquisições não descontam pela mesma régua, e a diferença é proposital.**
+Caminho adicional custa 65% do custo do nível na categoria — desconto de 35%, sem
+tarifa por proximidade, a mesma fração para o segundo caminho e para o décimo. Inclinação
+adicional custa o preço cheio do LV2 da perícia, e o mesmo preço de novo para aprofundar
+essa inclinação ao LV3. A régua vive em `core/xp-economy.md` §7, com o fundamento
+completo — transferência de conhecimento próxima é forte e mensurável, transferência
+distante não é — registrado no Anexo A item 9 daquele manual: caminho adicional exige a
+inclinação já Aprofundada (§3.3 do Núcleo), então herda a base compartilhada da
+inclinação que já tem; inclinação adicional abre região nova do domínio, sem essa base
+compartilhada, e por isso não desconta.
 
 **Exceção nomeada:** a inclinação de extensão manifestada e os caminhos que a
 instituem, pela seção 3, não seguem esta régua — nascem em preço cheio, porque a
