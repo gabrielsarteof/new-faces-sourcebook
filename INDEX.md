@@ -7,9 +7,6 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Total:** 183 documentos · 16 de núcleo · 167 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
@@ -28,14 +25,14 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual de Criação de Poderes](core/power-creation.md) | `core.power-creation` | 3.3 | core-layer | final |
 | [Cálculos Rápidos de Testes](core/quick-calculations.md) | `core.quick-calculations` | 1 | reference-table | final |
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1.1 | reference-table | final |
-| [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.4 | methodology | final |
+| [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.6 | methodology | final |
 | [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.4 | core-layer | final |
 | [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.5 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.4 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 3.4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
-| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.10 | system | final |
+| [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.12 | system | final |
 
 ## Comum · Perícias sem cenário
 
