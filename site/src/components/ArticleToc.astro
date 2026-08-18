@@ -2,9 +2,13 @@
 /**
  * Trilho "Nesta página".
  *
- * Lista só heading Markdown real, na ordem do documento. Documento sem heading
- * não recebe trilho vazio: o componente não renderiza nada. Os 28 documentos do
- * corpus que marcam seção em caixa alta caem nesse caso de propósito, porque o
+ * O criador tem o análogo em SheetTableOfContents.tsx, com o mesmo rótulo em
+ * uppercase e o mesmo destaque de item ativo por card. Aqui o item é textual,
+ * porque heading de documento não tem ícone, mas o ativo usa toc-card-active,
+ * que é a sombra que o criador aplica ao item corrente.
+ *
+ * Lista só heading Markdown real. Documento sem heading não recebe trilho: os 28
+ * do corpus que marcam seção em caixa alta caem nesse caso de propósito, porque o
  * site não infere estrutura que o manual não publicou.
  */
 interface Heading { depth: number; slug: string; text: string }
@@ -14,31 +18,26 @@ const { headings = [] } = Astro.props;
 const itens = headings.filter(h => h.depth === 2 || h.depth === 3);
 ---
 {itens.length > 0 && (
-  <aside class="hidden w-[228px] shrink-0 xl:block" aria-label="Nesta página">
-    <div class="sticky top-14 max-h-[calc(100vh-3.5rem)] overflow-y-auto py-6 pr-4">
-      <h2 class="mb-2 text-[11px] font-bold uppercase tracking-widest text-[var(--color-mono-muted)]">
-        Nesta página
-      </h2>
-      <ul class="space-y-px border-l border-[var(--color-mono-border)]">
+  <aside class="hidden w-60 shrink-0 xl:block" aria-label="Nesta página">
+    <div class="sidebar-scroll sticky top-14 max-h-[calc(100vh-3.5rem)] overflow-y-auto py-6 pr-3">
+      <h2 class="app-nav-label mb-2 px-3 text-mono-muted">Nesta página</h2>
+      <div class="flex flex-col gap-0.5">
         {itens.map(h => (
-          <li>
-            <a
-              href={`#${h.slug}`}
-              data-toc-link={h.slug}
-              class:list={[
-                'block border-l-2 border-transparent py-1 text-[12.5px] leading-snug text-[var(--color-mono-muted)] no-underline transition-colors hover:text-[var(--color-mono-text)]',
-                h.depth === 3 ? 'pl-6' : 'pl-3',
-              ]}
-            >{h.text}</a>
-          </li>
+          <a
+            href={`#${h.slug}`}
+            data-toc-link={h.slug}
+            class:list={[
+              'app-nav-row no-underline text-[12.5px] leading-snug !min-h-9',
+              h.depth === 3 ? '!pl-6' : '',
+            ]}
+          >{h.text}</a>
         ))}
-      </ul>
+      </div>
     </div>
   </aside>
 )}
 
 <script>
-  // Scroll spy. Marca a última seção cujo topo passou da linha de leitura.
   const links = [...document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]')];
   if (links.length > 0) {
     const alvos = links
@@ -48,9 +47,10 @@ const itens = headings.filter(h => h.depth === 2 || h.depth === 3);
     const ativo = (slug: string | null) => {
       for (const l of links) {
         const on = l.dataset.tocLink === slug;
-        l.classList.toggle('border-l-[var(--color-mono-text)]', on);
-        l.classList.toggle('text-[var(--color-mono-text)]', on);
-        l.classList.toggle('font-semibold', on);
+        l.classList.toggle('toc-card-active', on);
+        // aria-current é o que o app-nav-row lê para pintar o estado ativo
+        if (on) l.setAttribute('aria-current', 'location');
+        else l.removeAttribute('aria-current');
       }
     };
 

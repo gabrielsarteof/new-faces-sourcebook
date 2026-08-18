@@ -1,0 +1,68 @@
+/*
+ * Idiomas de composição do criador que não existem como classe utilitária lá,
+ * mas se repetem em vários componentes dele. Nomeados aqui para que o site use a
+ * mesma linguagem em vez de reinventá-la a cada componente.
+ *
+ * A origem de cada um está citada. Se o criador mudar, isto não quebra sozinho:
+ * são composições, não tokens, e tokens.css é quem carrega a guarda de drift.
+ */
+
+/* Rótulo de navegação e de seção.
+   Origem: SystemSidebar.tsx (drawerRow) e PageHeader.tsx. */
+.app-nav-label {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Linha de navegação clicável.
+   Origem: SystemSidebar.tsx, variante mobile — px-3 min-h-11 rounded-xl. */
+.app-nav-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  min-height: 2.75rem;
+  padding-inline: 0.75rem;
+  border-radius: 0.75rem;
+  color: var(--color-mono-sub);
+  transition: background-color 150ms ease, color 150ms ease;
+  cursor: pointer;
+}
+.app-nav-row:hover {
+  background-color: var(--color-mono-card);
+  color: var(--color-mono-text);
+}
+.app-nav-row:active { opacity: 0.6; }
+.app-nav-row[aria-current] {
+  background-color: var(--color-mono-card);
+  color: var(--color-mono-text);
+}
+
+/* Card de ícone do dock. Origem: NavIconButton.tsx — w-9 h-9 rounded-xl. */
+.app-icon-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  transition: all 150ms ease;
+}
+.app-icon-card:hover { background-color: color-mix(in srgb, var(--color-mono-bg) 50%, transparent); }
+
+/* Botão secundário. Origem: Button.tsx, variante secondary. */
+.app-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-mono-card);
+  border: 2px solid var(--color-border-secondary-btn);
+  color: var(--color-mono-text);
+  transition: background-color 150ms ease;
+  cursor: pointer;
+}
+.app-btn-secondary:hover { background-color: var(--color-mono-card-hover); }

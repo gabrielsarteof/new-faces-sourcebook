@@ -2,23 +2,30 @@
 /**
  * Navegação lateral.
  *
- * Na fase 2 a árvore passa a sair do manifesto curado, que contém só `id`. Aqui
- * ela é fixture, para julgar medidas e estados antes de existir conteúdo.
+ * Segue a variante mobile de SystemSidebar.tsx do criador, que é o idioma dele
+ * para navegação em texto: w-72, navbar-bg, linhas com px-3 min-h-11 rounded-xl,
+ * rótulo em uppercase tracking-widest, ativa em bg-mono-card. No desktop ela fica
+ * fixa em coluna; no celular vira gaveta, como lá.
+ *
+ * Na fase 2 a árvore passa a sair do manifesto curado, que contém só `id`.
  */
 interface Item { rotulo: string; href: string }
 interface Grupo { titulo: string; itens: Item[] }
+interface Props { rotaAtual?: string }
+
+const { rotaAtual = '' } = Astro.props;
 
 const grupos: Grupo[] = [
   {
     titulo: 'Começar',
     itens: [
-      { rotulo: 'O que é o New Faces', href: '/' },
+      { rotulo: 'Visão geral', href: '/' },
       { rotulo: 'Criar personagem', href: '/naruto/character-creation' },
       { rotulo: 'Cálculos rápidos', href: '/naruto/quick-calculations' },
     ],
   },
   {
-    titulo: 'Regras de núcleo',
+    titulo: 'Núcleo',
     itens: [
       { rotulo: 'Economia de XP', href: '/core/xp-economy' },
       { rotulo: 'Núcleo de Perícias', href: '/core/skills-core' },
@@ -44,46 +51,37 @@ const grupos: Grupo[] = [
     ],
   },
 ];
-
-interface Props { rotaAtual?: string }
-const { rotaAtual = '' } = Astro.props;
 ---
 <aside
   id="docs-sidebar"
-  class="fixed inset-y-0 left-0 z-50 w-[264px] -translate-x-full overflow-y-auto border-r border-[var(--color-sidebar-border)] bg-[var(--color-mono-bg)] pb-10 transition-transform duration-200 lg:sticky lg:top-14 lg:z-0 lg:h-[calc(100vh-3.5rem)] lg:translate-x-0 lg:bg-transparent"
+  class="sidebar-scroll fixed inset-y-0 left-0 z-50 w-72 -translate-x-full overflow-y-auto navbar-bg sidebar-boundary px-2 pt-6 pb-10 transition-transform duration-200 lg:sticky lg:top-14 lg:z-0 lg:h-[calc(100vh-3.5rem)] lg:translate-x-0 lg:shrink-0 lg:pt-6"
   aria-label="Navegação da documentação"
 >
-  <div class="flex h-14 items-center justify-between px-4 lg:hidden">
-    <span class="text-sm font-bold text-[var(--color-mono-text)]">Navegação</span>
+  <div class="mb-4 flex items-center justify-between px-3 lg:hidden">
+    <span class="app-nav-label text-mono-text">Navegação</span>
     <button
       id="nav-close"
       type="button"
-      class="grid h-8 w-8 place-items-center rounded-md border border-[var(--color-mono-border)] text-[var(--color-mono-sub)]"
+      class="app-icon-card text-mono-sub hover:text-mono-text cursor-pointer"
       aria-label="Fechar navegação"
     >
-      <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
         <path d="M18 6 6 18M6 6l12 12" />
       </svg>
     </button>
   </div>
 
-  <nav class="px-3 pt-2 lg:pt-6">
+  <nav class="flex flex-col gap-5">
     {grupos.map(g => (
-      <div class="mb-6">
-        <h2 class="mb-1.5 px-2.5 text-[11px] font-bold uppercase tracking-widest text-[var(--color-mono-muted)]">
-          {g.titulo}
-        </h2>
-        <ul class="space-y-px">
-          {g.itens.map(i => (
-            <li>
-              <a
-                href={i.href}
-                aria-current={i.href === rotaAtual ? 'page' : undefined}
-                class="block rounded-md px-2.5 py-1.5 text-[13px] leading-snug text-[var(--color-mono-sub)] no-underline transition-colors hover:bg-[var(--color-mono-card-hover)] hover:text-[var(--color-mono-text)] aria-[current=page]:bg-[var(--color-mono-card)] aria-[current=page]:font-semibold aria-[current=page]:text-[var(--color-mono-text)]"
-              >{i.rotulo}</a>
-            </li>
-          ))}
-        </ul>
+      <div class="flex flex-col gap-0.5">
+        <h2 class="app-nav-label mb-1 px-3 text-mono-muted">{g.titulo}</h2>
+        {g.itens.map(i => (
+          <a
+            href={i.href}
+            aria-current={i.href === rotaAtual ? 'page' : undefined}
+            class="app-nav-row app-nav-label no-underline"
+          >{i.rotulo}</a>
+        ))}
       </div>
     ))}
   </nav>
@@ -91,7 +89,7 @@ const { rotaAtual = '' } = Astro.props;
 
 <div
   id="nav-backdrop"
-  class="fixed inset-0 z-40 hidden bg-black/40 backdrop-blur-[1px] lg:hidden"
+  class="fixed inset-0 z-40 hidden bg-black/40 lg:hidden"
   aria-hidden="true"
 ></div>
 

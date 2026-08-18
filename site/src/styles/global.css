@@ -4,6 +4,7 @@
 
 @import "tailwindcss";
 @import "./tokens.css";
+@import "./app-utilities.css";
 @import "./docs-prose.css";
 
 html {

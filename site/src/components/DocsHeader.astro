@@ -1,69 +1,71 @@
 ---
 import ThemeToggle from './ThemeToggle.astro';
 
-/** Eixos do topo. Na fase 2 passam a sair do manifesto de navegação. */
+/**
+ * Barra do topo.
+ *
+ * Altura h-14 e fundo navbar-bg, como PageHeader.tsx do criador. Os botões de
+ * ícone usam o card de NavIconButton, e o rótulo dos eixos usa o mesmo
+ * uppercase tracking-widest que a navegação do criador usa em toda parte.
+ */
+interface Props { rotaAtual?: string }
+const { rotaAtual = '' } = Astro.props;
+
 const eixos = [
-  { rotulo: 'Começar', href: '/comecar' },
   { rotulo: 'Regras', href: '/core' },
   { rotulo: 'Naruto', href: '/naruto' },
   { rotulo: 'Jujutsu', href: '/jujutsu' },
-  { rotulo: 'Referência', href: '/referencia' },
 ];
-interface Props { rotaAtual?: string }
-const { rotaAtual = '' } = Astro.props;
+const CRIADOR = 'https://new-faces-character-creator.vercel.app';
 ---
-<header
-  class="sticky top-0 z-40 border-b border-[var(--color-mono-border)] bg-[var(--color-navbar-bg)]/95 backdrop-blur-sm"
->
-  <div class="mx-auto flex h-14 max-w-[1600px] items-center gap-3 px-4 sm:px-6">
-    <!-- Abre a navegação no celular -->
+<header class="sticky top-0 z-40 h-14 navbar-bg border-b border-mono-border">
+  <div class="mx-auto flex h-full max-w-[1600px] items-center gap-2 px-3 sm:px-4">
     <button
       id="nav-toggle"
       type="button"
-      class="grid h-8 w-8 shrink-0 place-items-center rounded-md border border-[var(--color-mono-border)] text-[var(--color-mono-sub)] lg:hidden"
+      class="app-icon-card text-mono-sub hover:text-mono-text cursor-pointer lg:hidden"
       aria-label="Abrir navegação"
       aria-expanded="false"
       aria-controls="docs-sidebar"
     >
-      <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
         <path d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </button>
 
-    <a href="/" class="flex shrink-0 items-baseline gap-2 no-underline">
-      <span class="text-sm font-bold tracking-tight text-[var(--color-mono-text)]">New Faces</span>
-      <span class="text-sm text-[var(--color-mono-muted)]">docs</span>
+    <a href="/" class="flex shrink-0 items-baseline gap-1.5 px-1.5 no-underline">
+      <span class="app-nav-label text-mono-text">New Faces</span>
+      <span class="app-nav-label text-mono-muted">docs</span>
     </a>
 
-    <nav class="ml-4 hidden items-center gap-1 md:flex" aria-label="Seções">
+    <nav class="ml-3 hidden items-center gap-0.5 md:flex" aria-label="Mundos">
       {eixos.map(e => (
         <a
           href={e.href}
           aria-current={rotaAtual.startsWith(e.href) ? 'page' : undefined}
-          class="rounded-md px-2.5 py-1.5 text-[13px] text-[var(--color-mono-sub)] no-underline transition-colors hover:bg-[var(--color-mono-card-hover)] hover:text-[var(--color-mono-text)] aria-[current=page]:text-[var(--color-mono-text)] aria-[current=page]:font-semibold"
+          class="app-nav-row app-nav-label !min-h-9 !gap-0 w-auto no-underline"
         >{e.rotulo}</a>
       ))}
     </nav>
 
-    <div class="ml-auto flex items-center gap-2">
-      <!-- Fase 4 liga a paleta de busca aqui. -->
+    <div class="ml-auto flex items-center gap-1.5">
       <button
         type="button"
-        class="hidden items-center gap-2 rounded-md border border-[var(--color-mono-border)] bg-[var(--color-mono-card)] px-2.5 py-1.5 text-[13px] text-[var(--color-mono-muted)] transition-colors hover:bg-[var(--color-mono-card-hover)] sm:flex"
+        class="app-btn-secondary app-nav-label hidden h-9 rounded-md px-3 text-mono-sub sm:inline-flex"
         aria-label="Buscar na documentação"
         disabled
       >
-        <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
           <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
         </svg>
         <span>Buscar</span>
-        <kbd class="ml-6 rounded border border-[var(--color-mono-border)] px-1.5 py-0.5 font-sans text-[10px]">Ctrl K</kbd>
+        <kbd class="ml-4 rounded border border-mono-border px-1.5 py-0.5 font-sans text-[10px] tracking-normal">Ctrl K</kbd>
       </button>
 
       <a
-        href="https://new-faces-character-creator.vercel.app"
-        class="hidden rounded-md px-2.5 py-1.5 text-[13px] text-[var(--color-mono-sub)] no-underline transition-colors hover:bg-[var(--color-mono-card-hover)] hover:text-[var(--color-mono-text)] sm:block"
-      >Criador de fichas</a>
+        href={CRIADOR}
+        class="app-nav-row app-nav-label !min-h-9 !gap-0 hidden w-auto no-underline sm:flex"
+      >Criador</a>
 
       <ThemeToggle />
     </div>

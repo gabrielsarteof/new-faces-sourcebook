@@ -1,18 +1,18 @@
 /**
- * Copia o bloco de tokens do criador de fichas para src/styles/tokens.css.
+ * Copia a pele do criador de fichas para src/styles/tokens.css.
  *
- * A pele dos dois sites precisa ser a mesma, e o criador é o dono dos tokens.
- * Como os dois vivem em repositórios diferentes e o do criador é privado, a cópia
- * não pode ser buscada por HTTP: ela sai do checkout local, que existe porque este
- * repositório é submódulo do criador.
+ * Os dois sites precisam parecer o mesmo produto, e o criador é o dono do design
+ * system. Como eles vivem em repositórios diferentes e o do criador é privado, a
+ * cópia não pode ser buscada por HTTP: ela sai do checkout local, que existe
+ * porque este repositório é submódulo do criador.
  *
  *   node scripts/sync-tokens.mjs [caminho/para/style.css]
  *
- * Sem argumento, procura ../../../src/style.css, que é onde o criador fica quando
+ * Sem argumento, procura ../../src/style.css, que é onde o criador fica quando
  * este repositório está montado como submódulo dele.
  *
  * A verificação de divergência NÃO mora aqui. Ela mora no criador, em
- * src/test/presentation/docsTokens.test.ts, que é o único lugar que enxerga os dois
+ * src/test/data/docsTokens.test.ts, que é o único lugar que enxerga os dois
  * arquivos ao mesmo tempo.
  */
 import fs from 'node:fs';
@@ -24,7 +24,7 @@ const RAIZ = path.resolve(AQUI, '..');
 const PADRAO = path.resolve(RAIZ, '../../src/style.css');
 const DESTINO = path.join(RAIZ, 'src/styles/tokens.css');
 
-/** Recorta de style.css apenas o que define a pele: a variante escura e os três blocos de token. */
+/** Recorta de style.css a variante escura e os três blocos de token. */
 export function extrairTokens(css) {
   const blocos = [];
 
@@ -35,7 +35,6 @@ export function extrairTokens(css) {
   for (const abertura of ['@theme {', ':root {', '.dark {']) {
     const i = css.indexOf('\n' + abertura);
     if (i < 0) throw new Error(`bloco ${abertura} não encontrado`);
-    // Fecha no primeiro `}` em coluna zero depois da abertura.
     const fim = css.indexOf('\n}', i);
     if (fim < 0) throw new Error(`bloco ${abertura} não fecha`);
     blocos.push(css.slice(i + 1, fim + 2));
@@ -44,10 +43,50 @@ export function extrairTokens(css) {
   return blocos.join('\n\n');
 }
 
-// O corpo só roda quando o arquivo é chamado direto. O criador importa
-// extrairTokens neste módulo para a guarda de drift, e importar não pode
-// reescrever tokens.css como efeito colateral.
-const chamadoDireto = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+/**
+ * Classes utilitárias do design system que o site também usa.
+ *
+ * São poucas e estáveis, e copiá-las evita reescrever à mão o que já existe.
+ * Quando o seletor aparece agrupado com outros, como nas regras de scrollbar, só
+ * a linha desta classe é recortada, o que produz uma regra válida e isolada.
+ */
+export const UTILITARIOS = ['navbar-bg', 'sidebar-boundary', 'sidebar-scroll', 'toc-card-active'];
+
+/** Recorta as regras cujo seletor começa por um dos nomes declarados. */
+export function extrairUtilitarios(css, nomes = UTILITARIOS) {
+  const achadas = [];
+  for (const nome of nomes) {
+    const re = new RegExp(`^\.${nome}(?![\w-])[^{\n]*\{[^}]*\}`, 'gm');
+    for (const m of css.matchAll(re)) achadas.push(m[0].trim());
+  }
+  if (achadas.length === 0) throw new Error('nenhuma classe utilitária encontrada');
+  return achadas.join('\n\n');
+}
+
+/** Monta o conteúdo completo do arquivo gerado. */
+export function montarTokensCss(css) {
+  const cabecalho = [
+    '/*',
+    ' * ARQUIVO GERADO. Não edite à mão.',
+    ' *',
+    ' * Cópia da pele de src/style.css do new-faces-character-creator: a variante',
+    ' * escura, os três blocos de token, e as classes utilitárias compartilhadas.',
+    ' * O criador é o dono; este site consome. Para atualizar:',
+    ' *',
+    ' *   npm run tokens:sync',
+    ' *',
+    ' * A divergência é detectada por src/test/data/docsTokens.test.ts, no criador.',
+    ' */',
+    '',
+  ].join('\n');
+
+  return `${cabecalho}${extrairTokens(css)}\n\n/* ── Utilitários do design system ─────────────────────────────────────── */\n\n${extrairUtilitarios(css)}\n`;
+}
+
+// O corpo só roda quando o arquivo é chamado direto. O criador importa as funções
+// acima para a guarda de drift, e importar não pode reescrever tokens.css.
+const chamadoDireto =
+  process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 
 if (chamadoDireto) {
   const origem = process.argv[2] ? path.resolve(process.argv[2]) : PADRAO;
@@ -58,24 +97,13 @@ if (chamadoDireto) {
   }
 
   const css = fs.readFileSync(origem, 'utf8');
-  const cabecalho = [
-    '/*',
-    ' * ARQUIVO GERADO. Não edite à mão.',
-    ' *',
-    ' * Cópia do bloco de tokens de src/style.css do new-faces-character-creator.',
-    ' * O criador é o dono da pele; este site consome. Para atualizar:',
-    ' *',
-    ' *   npm run tokens:sync',
-    ' *',
-    ' * A divergência entre este arquivo e a fonte é detectada por',
-    ' * src/test/presentation/docsTokens.test.ts, no repositório do criador.',
-    ' */',
-    '',
-  ].join('\n');
+  fs.writeFileSync(DESTINO, montarTokensCss(css));
 
-  fs.writeFileSync(DESTINO, cabecalho + extrairTokens(css) + '\n');
   const corpo = extrairTokens(css);
-  const declaracoes = (corpo.match(/^\s*--[a-z][\w-]*\s*:/gm) || []).length;
+  const tokens = (corpo.match(/^\s*--[a-z][\w-]*\s*:/gm) || []).length;
   const cores = (corpo.match(/^\s*--color-[\w-]*\s*:/gm) || []).length;
-  console.log(`tokens.css regravado de ${path.relative(process.cwd(), origem)} — ${declaracoes} tokens, ${cores} deles --color-*`);
+  const utils = extrairUtilitarios(css).split('\n\n').length;
+  console.log(
+    `tokens.css regravado de ${path.relative(process.cwd(), origem)} — ${tokens} tokens (${cores} de cor) e ${utils} classes utilitárias`,
+  );
 }

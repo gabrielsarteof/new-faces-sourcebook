@@ -1,13 +1,13 @@
 /*
  * ARQUIVO GERADO. Não edite à mão.
  *
- * Cópia do bloco de tokens de src/style.css do new-faces-character-creator.
- * O criador é o dono da pele; este site consome. Para atualizar:
+ * Cópia da pele de src/style.css do new-faces-character-creator: a variante
+ * escura, os três blocos de token, e as classes utilitárias compartilhadas.
+ * O criador é o dono; este site consome. Para atualizar:
  *
  *   npm run tokens:sync
  *
- * A divergência entre este arquivo e a fonte é detectada por
- * src/test/presentation/docsTokens.test.ts, no repositório do criador.
+ * A divergência é detectada por src/test/data/docsTokens.test.ts, no criador.
  */
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -143,4 +143,31 @@
   --color-rework-badge-bg: rgba(255, 238, 140, 0.18);
   --color-rework-badge-text: #ffe889;
   --color-catalog-highlight-ring: rgba(255, 238, 140, 0.52);
+}
+
+/* ── Utilitários do design system ─────────────────────────────────────── */
+
+.navbar-bg { background-color: var(--color-navbar-bg); }
+
+.sidebar-boundary { border-right: 1px solid var(--color-sidebar-border); }
+
+.sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.sidebar-scroll:hover {
+  scrollbar-color: var(--color-mono-border) transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar { width: 3px; height: 3px; }
+
+.sidebar-scroll::-webkit-scrollbar-track { background: transparent; }
+
+.sidebar-scroll::-webkit-scrollbar-thumb { background: transparent; border-radius: 4px; }
+
+.sidebar-scroll:hover::-webkit-scrollbar-thumb { background: var(--color-mono-border); }
+
+.toc-card-active {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
 }
