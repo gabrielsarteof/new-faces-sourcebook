@@ -1,0 +1,28 @@
+/* A mesma família do criador. O @import de fonte não vem no bloco de tokens
+   porque tokens.css é gerado e recorta só as declarações de variável. */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./docs-prose.css";
+
+html {
+  scroll-behavior: smooth;
+  /* O sumário ancora em heading; sem isso a âncora encosta no cabeçalho fixo. */
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--color-mono-bg);
+  color: var(--color-mono-text);
+  font-family: var(--font-nunito-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Foco visível em tudo que recebe teclado. O site é lido na mesa e no celular,
+   mas precisa ser navegável por teclado inteiro. */
+:where(a, button, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-mono-text);
+  outline-offset: 2px;
+  border-radius: 2px;
+}

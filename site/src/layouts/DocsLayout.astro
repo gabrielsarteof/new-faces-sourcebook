@@ -1,0 +1,84 @@
+---
+import '../styles/global.css';
+import DocsHeader from '../components/DocsHeader.astro';
+import DocsSidebar from '../components/DocsSidebar.astro';
+import ArticleToc from '../components/ArticleToc.astro';
+
+interface Heading { depth: number; slug: string; text: string }
+interface Props {
+  titulo: string;
+  descricao?: string;
+  trilha?: { rotulo: string; href?: string }[];
+  headings?: Heading[];
+}
+
+const { titulo, descricao, trilha = [], headings = [] } = Astro.props;
+const rotaAtual = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titulo} · New Faces</title>
+    {descricao && <meta name="description" content={descricao} />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <!--
+      Aplica o tema antes da primeira pintura. Sem este bloco síncrono a página
+      abre clara e pisca para escura, que é o pior defeito visível de site
+      estático com tema por classe.
+    -->
+    <script is:inline>
+      (function () {
+        try {
+          var v = localStorage.getItem('nf_theme');
+          var escolha = v === 'light' || v === 'dark' || v === 'system' ? v : 'system';
+          var escuro =
+            escolha === 'dark' ||
+            (escolha === 'system' &&
+              window.matchMedia &&
+              window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (escuro) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+
+  <body class="min-h-screen">
+    <a
+      href="#conteudo"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-50 focus:rounded-md focus:border focus:border-[var(--color-mono-border)] focus:bg-[var(--color-mono-card)] focus:px-3 focus:py-2 focus:text-sm"
+    >Pular para o conteúdo</a>
+
+    <DocsHeader rotaAtual={rotaAtual} />
+
+    <div class="mx-auto flex max-w-[1600px] px-0 sm:px-6">
+      <DocsSidebar rotaAtual={rotaAtual} />
+
+      <div class="flex min-w-0 flex-1 gap-8 px-4 sm:px-6 lg:px-10">
+        <main id="conteudo" class="min-w-0 flex-1 py-8 lg:py-10">
+          {trilha.length > 0 && (
+            <nav aria-label="Trilha" class="mb-4">
+              <ol class="flex flex-wrap items-center gap-1.5 text-[12.5px] text-[var(--color-mono-muted)]">
+                {trilha.map((t, i) => (
+                  <li class="flex items-center gap-1.5">
+                    {i > 0 && <span aria-hidden="true">/</span>}
+                    {t.href
+                      ? <a href={t.href} class="no-underline hover:text-[var(--color-mono-text)]">{t.rotulo}</a>
+                      : <span>{t.rotulo}</span>}
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
+          <article class="docs-prose">
+            <slot />
+          </article>
+        </main>
+
+        <ArticleToc headings={headings} />
+      </div>
+    </div>
+  </body>
+</html>

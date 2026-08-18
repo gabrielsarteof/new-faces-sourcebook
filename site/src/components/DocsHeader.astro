@@ -1,0 +1,71 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+
+/** Eixos do topo. Na fase 2 passam a sair do manifesto de navegação. */
+const eixos = [
+  { rotulo: 'Começar', href: '/comecar' },
+  { rotulo: 'Regras', href: '/core' },
+  { rotulo: 'Naruto', href: '/naruto' },
+  { rotulo: 'Jujutsu', href: '/jujutsu' },
+  { rotulo: 'Referência', href: '/referencia' },
+];
+interface Props { rotaAtual?: string }
+const { rotaAtual = '' } = Astro.props;
+---
+<header
+  class="sticky top-0 z-40 border-b border-[var(--color-mono-border)] bg-[var(--color-navbar-bg)]/95 backdrop-blur-sm"
+>
+  <div class="mx-auto flex h-14 max-w-[1600px] items-center gap-3 px-4 sm:px-6">
+    <!-- Abre a navegação no celular -->
+    <button
+      id="nav-toggle"
+      type="button"
+      class="grid h-8 w-8 shrink-0 place-items-center rounded-md border border-[var(--color-mono-border)] text-[var(--color-mono-sub)] lg:hidden"
+      aria-label="Abrir navegação"
+      aria-expanded="false"
+      aria-controls="docs-sidebar"
+    >
+      <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <a href="/" class="flex shrink-0 items-baseline gap-2 no-underline">
+      <span class="text-sm font-bold tracking-tight text-[var(--color-mono-text)]">New Faces</span>
+      <span class="text-sm text-[var(--color-mono-muted)]">docs</span>
+    </a>
+
+    <nav class="ml-4 hidden items-center gap-1 md:flex" aria-label="Seções">
+      {eixos.map(e => (
+        <a
+          href={e.href}
+          aria-current={rotaAtual.startsWith(e.href) ? 'page' : undefined}
+          class="rounded-md px-2.5 py-1.5 text-[13px] text-[var(--color-mono-sub)] no-underline transition-colors hover:bg-[var(--color-mono-card-hover)] hover:text-[var(--color-mono-text)] aria-[current=page]:text-[var(--color-mono-text)] aria-[current=page]:font-semibold"
+        >{e.rotulo}</a>
+      ))}
+    </nav>
+
+    <div class="ml-auto flex items-center gap-2">
+      <!-- Fase 4 liga a paleta de busca aqui. -->
+      <button
+        type="button"
+        class="hidden items-center gap-2 rounded-md border border-[var(--color-mono-border)] bg-[var(--color-mono-card)] px-2.5 py-1.5 text-[13px] text-[var(--color-mono-muted)] transition-colors hover:bg-[var(--color-mono-card-hover)] sm:flex"
+        aria-label="Buscar na documentação"
+        disabled
+      >
+        <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
+        </svg>
+        <span>Buscar</span>
+        <kbd class="ml-6 rounded border border-[var(--color-mono-border)] px-1.5 py-0.5 font-sans text-[10px]">Ctrl K</kbd>
+      </button>
+
+      <a
+        href="https://new-faces-character-creator.vercel.app"
+        class="hidden rounded-md px-2.5 py-1.5 text-[13px] text-[var(--color-mono-sub)] no-underline transition-colors hover:bg-[var(--color-mono-card-hover)] hover:text-[var(--color-mono-text)] sm:block"
+      >Criador de fichas</a>
+
+      <ThemeToggle />
+    </div>
+  </div>
+</header>

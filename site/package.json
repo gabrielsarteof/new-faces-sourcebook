@@ -1,0 +1,20 @@
+{
+  "name": "new-faces-docs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site público de leitura do sourcebook do New Faces. O corpus é a fonte; este site consome.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "tokens:sync": "node scripts/sync-tokens.mjs"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.2.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3"
+  }
+}

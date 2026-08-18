@@ -1,0 +1,146 @@
+/*
+ * ARQUIVO GERADO. Não edite à mão.
+ *
+ * Cópia do bloco de tokens de src/style.css do new-faces-character-creator.
+ * O criador é o dono da pele; este site consome. Para atualizar:
+ *
+ *   npm run tokens:sync
+ *
+ * A divergência entre este arquivo e a fonte é detectada por
+ * src/test/presentation/docsTokens.test.ts, no repositório do criador.
+ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Modo Claro — padrão */
+  --color-mono-bg: #fefefe;
+  --color-mono-card: #f5f5f5;
+  --color-mono-border: #dde2e8;
+  --color-mono-border-strong: #dde2e8;
+  --color-page-border: #dde2e8;
+  --color-mono-text: #000000;
+  --color-mono-sub: #1a1a1a;
+  --color-mono-muted: #333333;     /* texto terciário / decorativo */
+  --color-mono-inv: #0f1114;       /* fundo do botão CTA */
+  --color-mono-inv-text: #ffffff;  /* texto do botão CTA */
+  --color-bg-secondary: #f4f4f4;   /* fundo externo da página de ficha */
+  --color-navbar-bg: #dbdbdb;
+
+  /* Button hover + elevated surface */
+  --color-mono-inv-hover: #1a1a1a;
+  --color-mono-card-hover: #efefef;
+  --color-surface-elevated: #f0f0f0;
+
+  /* Button border */
+  --color-border-secondary-btn: #c0c5cb;
+
+  /* Master bar — superfície levemente elevada */
+  --color-master-bar-bg: #f2f2f2;
+  --color-master-bar-text: #000000;
+
+  /* Floating header buttons */
+  --color-floating-btn-bg: #1a1a1a;
+  --color-floating-btn-text: #ffffff;
+
+  /* Glass morphism border — shimmer sutil sobre o fundo */
+  --color-glass-border: rgba(0,0,0,0.10);
+
+  /* Definindo a fonte no tema do Tailwind */
+  --font-nunito-sans: "Nunito Sans", sans-serif;
+
+}
+
+:root {
+  --color-navbar-bg: #f5f5f5;
+  --color-sidebar-border: #dde2e8;
+  --color-new-badge-bg: rgba(37, 99, 235, 0.16);
+  --color-new-badge-text: #1d4ed8;
+  --color-rework-badge-bg: rgba(255, 238, 140, 0.24);
+  --color-rework-badge-text: #7a5a00;
+  --color-catalog-highlight-ring: rgba(184, 134, 11, 0.58);
+  --new-badge-margin-top: 0.25rem;
+  --new-badge-radius: 9999px;
+  --new-badge-padding-y: 0.125rem;
+  --new-badge-padding-x: 0.375rem;
+  --new-badge-font-size: 10px;
+  --new-badge-font-weight: 600;
+  --new-badge-letter-spacing: 0.08em;
+  --new-filter-pill-radius: 9999px;
+  --new-filter-pill-padding-y: 0.25rem;
+  --new-filter-pill-padding-x: 0.5rem;
+  --new-filter-pill-font-size: 11px;
+  --new-filter-pill-font-weight: 500;
+  --new-filter-pill-letter-spacing: 0.08em;
+  --new-filter-pill-min-height: 1.6rem;
+
+  /* Cores de fundo da ficha (modo claro) */
+  --color-sheet-red:    #ff474c;
+  --color-sheet-blue:   #93c5fd;
+  --color-sheet-purple: #c4b5fd;
+  --color-sheet-green:  #86efac;
+  --color-sheet-amber:  #fcd34d;
+  --color-sheet-rose:   #ffc0cb;
+  --color-sheet-slate:  #94a3b8;
+  --color-sheet-teal:   #5eead4;
+  --shadow-btn-primary: 0 5px 0 0 #000000;
+  --shadow-btn-secondary: 0 5px 0 0 #c0c5cb;
+  --shadow-panel-hide-btn: -4px 0 10px rgba(0,0,0,0.30), -10px 0 28px rgba(0,0,0,0.10), 4px 0 14px rgba(0,0,0,0.22);
+  --shadow-panel-header: 0 1px 3px rgba(0,0,0,0.06), 0 3px 8px rgba(0,0,0,0.03);
+  --shadow-panel-sidebar: -4px 0 8px rgba(0,0,0,0.25), -12px 0 32px rgba(0,0,0,0.08);
+  --shadow-panel-card: 0 4px 16px rgba(0, 0, 0, 0.18);
+  --shadow-sidebar-left: 4px 0 8px rgba(0,0,0,0.10), 12px 0 32px rgba(0,0,0,0.04);
+}
+
+.dark {
+  --color-mono-bg: #040404;
+  --color-sidebar-border: #141414;
+  --color-mono-card: #020202;
+  --color-mono-border: #2c2c2b;
+  --color-mono-border-strong: #000000;
+  --color-page-border: #141414;
+  --color-mono-text: #fafafa;
+  --color-mono-sub: #f2f0ef;
+  --color-mono-muted: #f2f0ef;     /* texto terciário / decorativo */
+  --color-mono-inv: #fafafa;
+  --color-mono-inv-text: #000000;
+  --color-bg-secondary: #121212;
+  --color-navbar-bg: var(--color-mono-bg);
+
+  --color-mono-inv-hover: #e8e8e8;
+  --color-mono-card-hover: #060606;
+  --color-surface-elevated: #1a1a1a;
+
+  --shadow-btn-primary: 0 5px 0 0 #cbcbcb;
+  --shadow-btn-secondary: 0 5px 0 0 #808080;
+  --shadow-panel-hide-btn: -4px 0 10px rgba(0,0,0,0.70), -10px 0 28px rgba(0,0,0,0.40), 4px 0 14px rgba(0,0,0,0.60);
+  --shadow-panel-header: 0 1px 3px rgba(0,0,0,0.30), 0 3px 8px rgba(0,0,0,0.15);
+  --shadow-panel-sidebar: -4px 0 8px rgba(0,0,0,0.60), -12px 0 32px rgba(0,0,0,0.35);
+  --shadow-panel-card: 0 4px 16px rgba(0, 0, 0, 0.65);
+  --shadow-sidebar-left: 4px 0 8px rgba(0,0,0,0.40), 12px 0 32px rgba(0,0,0,0.20);
+  --color-border-secondary-btn: #808080;
+  --color-navbar-bg: var(--color-mono-bg);
+  --color-master-bar-bg: var(--color-mono-bg);
+  --color-master-bar-text: #ffffff;
+
+  /* Floating header buttons */
+  --color-floating-btn-bg: #040720;
+  --color-floating-btn-text: #ffffff;
+
+  /* Glass morphism border — shimmer sutil sobre o fundo */
+  --color-glass-border: rgba(255,255,255,0.05);
+
+  /* Cores de fundo da ficha (modo escuro) — sobrescreve :root */
+  --color-sheet-red:    #7f1d1d;
+  --color-sheet-blue:   #1e3a5f;
+  --color-sheet-purple: #3b1f6e;
+  --color-sheet-green:  #14532d;
+  --color-sheet-amber:  #78350f;
+  --color-sheet-rose:   #881337;
+  --color-sheet-slate:  #1e293b;
+  --color-sheet-teal:   #134e4a;
+  --color-new-badge-bg: rgba(96, 165, 250, 0.2);
+  --color-new-badge-text: #93c5fd;
+  --color-rework-badge-bg: rgba(255, 238, 140, 0.18);
+  --color-rework-badge-text: #ffe889;
+  --color-catalog-highlight-ring: rgba(255, 238, 140, 0.52);
+}

@@ -1,0 +1,133 @@
+/*
+ * Camada de leitura longa.
+ *
+ * O criador define .prose-editor e .prose-viewer com heading em CAIXA ALTA,
+ * letter-spacing de 0,2em e parágrafo com margem de 0,5em. Aquilo serve a card
+ * denso e a campo curto de edição, e é ilegível num documento de mil linhas.
+ * .docs-prose é a camada do artigo, e não toca nas outras duas.
+ */
+
+.docs-prose {
+  /* Medida de leitura. Tabela e bloco de código escapam dela abaixo. */
+  max-width: 72ch;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-mono-sub);
+}
+
+.docs-prose > * + * { margin-top: 1.15em; }
+
+/* ── Hierarquia de heading, em caixa normal ──────────────────────────────── */
+.docs-prose h1,
+.docs-prose h2,
+.docs-prose h3,
+.docs-prose h4 {
+  color: var(--color-mono-text);
+  font-weight: 700;
+  letter-spacing: -0.011em;
+  line-height: 1.25;
+  scroll-margin-top: 5rem;
+}
+
+.docs-prose h1 { font-size: 2rem;    margin-top: 0; }
+.docs-prose h2 { font-size: 1.5rem;  margin-top: 2.5em; padding-top: 1.5rem; border-top: 1px solid var(--color-mono-border); }
+.docs-prose h3 { font-size: 1.175rem; margin-top: 2em; }
+.docs-prose h4 { font-size: 1rem;    margin-top: 1.75em; }
+
+.docs-prose h2 + *, .docs-prose h3 + *, .docs-prose h4 + * { margin-top: 0.6em; }
+
+/* Âncora de heading: aparece no hover, invisível para quem não procura. */
+.docs-prose :is(h2, h3, h4) > a.anchor {
+  margin-left: 0.4ch;
+  color: var(--color-mono-muted);
+  opacity: 0;
+  text-decoration: none;
+  transition: opacity 120ms ease;
+}
+.docs-prose :is(h2, h3, h4):hover > a.anchor,
+.docs-prose :is(h2, h3, h4) > a.anchor:focus-visible { opacity: 1; }
+
+/* ── Texto ───────────────────────────────────────────────────────────────── */
+.docs-prose strong { color: var(--color-mono-text); font-weight: 600; }
+.docs-prose em     { font-style: italic; }
+
+.docs-prose a {
+  color: var(--color-mono-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--color-mono-border-strong);
+}
+.docs-prose a:hover { text-decoration-color: var(--color-mono-text); }
+
+.docs-prose ul { list-style: disc;    padding-left: 1.4em; }
+.docs-prose ol { list-style: decimal; padding-left: 1.4em; }
+.docs-prose li { margin-top: 0.35em; }
+.docs-prose li > ul, .docs-prose li > ol { margin-top: 0.35em; }
+
+.docs-prose blockquote {
+  border-left: 2px solid var(--color-mono-border-strong);
+  padding-left: 1em;
+  color: var(--color-mono-muted);
+}
+
+.docs-prose hr { border: 0; border-top: 1px solid var(--color-mono-border); margin: 2.5em 0; }
+
+/* ── Tabela: continua tabela, e rola dentro do próprio contêiner ─────────── */
+.docs-prose .table-wrap {
+  max-width: none;
+  overflow-x: auto;
+  border: 1px solid var(--color-mono-border);
+  border-radius: 8px;
+  background: var(--color-mono-card);
+}
+.docs-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.docs-prose thead th {
+  position: sticky;
+  top: 0;
+  background: var(--color-surface-elevated);
+  color: var(--color-mono-text);
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+}
+.docs-prose th, .docs-prose td {
+  padding: 0.6rem 0.85rem;
+  border-bottom: 1px solid var(--color-mono-border);
+  vertical-align: top;
+}
+.docs-prose tbody tr:last-child td { border-bottom: 0; }
+
+/* ── Código: rola, nunca quebra fórmula ──────────────────────────────────── */
+.docs-prose :not(pre) > code {
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-mono-border);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.875em;
+  white-space: nowrap;
+}
+.docs-prose pre {
+  max-width: none;
+  overflow-x: auto;
+  background: var(--color-mono-card);
+  border: 1px solid var(--color-mono-border);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+.docs-prose pre code { white-space: pre; }
+
+/* ── Celular ─────────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .docs-prose { font-size: 0.975rem; }
+  .docs-prose h1 { font-size: 1.6rem; }
+  .docs-prose h2 { font-size: 1.3rem; }
+  .docs-prose h3 { font-size: 1.075rem; }
+}

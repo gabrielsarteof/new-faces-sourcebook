@@ -1,0 +1,75 @@
+---
+/**
+ * Trilho "Nesta página".
+ *
+ * Lista só heading Markdown real, na ordem do documento. Documento sem heading
+ * não recebe trilho vazio: o componente não renderiza nada. Os 28 documentos do
+ * corpus que marcam seção em caixa alta caem nesse caso de propósito, porque o
+ * site não infere estrutura que o manual não publicou.
+ */
+interface Heading { depth: number; slug: string; text: string }
+interface Props { headings?: Heading[] }
+
+const { headings = [] } = Astro.props;
+const itens = headings.filter(h => h.depth === 2 || h.depth === 3);
+---
+{itens.length > 0 && (
+  <aside class="hidden w-[228px] shrink-0 xl:block" aria-label="Nesta página">
+    <div class="sticky top-14 max-h-[calc(100vh-3.5rem)] overflow-y-auto py-6 pr-4">
+      <h2 class="mb-2 text-[11px] font-bold uppercase tracking-widest text-[var(--color-mono-muted)]">
+        Nesta página
+      </h2>
+      <ul class="space-y-px border-l border-[var(--color-mono-border)]">
+        {itens.map(h => (
+          <li>
+            <a
+              href={`#${h.slug}`}
+              data-toc-link={h.slug}
+              class:list={[
+                'block border-l-2 border-transparent py-1 text-[12.5px] leading-snug text-[var(--color-mono-muted)] no-underline transition-colors hover:text-[var(--color-mono-text)]',
+                h.depth === 3 ? 'pl-6' : 'pl-3',
+              ]}
+            >{h.text}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </aside>
+)}
+
+<script>
+  // Scroll spy. Marca a última seção cujo topo passou da linha de leitura.
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]')];
+  if (links.length > 0) {
+    const alvos = links
+      .map(l => document.getElementById(l.dataset.tocLink!))
+      .filter((e): e is HTMLElement => e !== null);
+
+    const ativo = (slug: string | null) => {
+      for (const l of links) {
+        const on = l.dataset.tocLink === slug;
+        l.classList.toggle('border-l-[var(--color-mono-text)]', on);
+        l.classList.toggle('text-[var(--color-mono-text)]', on);
+        l.classList.toggle('font-semibold', on);
+      }
+    };
+
+    const marcar = () => {
+      const linha = 96;
+      let atual: string | null = null;
+      for (const el of alvos) {
+        if (el.getBoundingClientRect().top <= linha) atual = el.id;
+        else break;
+      }
+      ativo(atual ?? alvos[0]?.id ?? null);
+    };
+
+    marcar();
+    let agendado = false;
+    addEventListener('scroll', () => {
+      if (agendado) return;
+      agendado = true;
+      requestAnimationFrame(() => { marcar(); agendado = false; });
+    }, { passive: true });
+  }
+</script>
