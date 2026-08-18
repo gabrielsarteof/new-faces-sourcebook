@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.chakra-control
 title: "Controle de Chakra"
-version: 3.5
+version: 3.6
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,9 @@ status: final
 source-file: Pericia_Controle_de_Chakra_v2_2.md
 ---
 
-CONTROLE DE CHAKRA (チャクラコントロール) — v3.5
+CONTROLE DE CHAKRA (チャクラコントロール) — v3.6
+
+**O que mudou na v3.6.** A Sobretaxa de Volume deixou de ser tabela de sete faixas nomeadas e passou a curva contínua sobre o Índice de Volume, que a Reserva de Chakra v3.4 publica pela primeira vez com definição e fórmula. A régua ganhou peso por nível, derivado da escada de Base do Núcleo de Perícias, e perdeu o teto de cem por cento.
 
 **O que mudou na v3.5.** A Régua de Exigência de Moldagem deixou de ser degrau nomeado, revogada pelo Manual de Requisitos de Técnica v2.2. Cada técnica passa a declarar a própria Exigência como número contínuo, e a elevação por propriedade deixou de subir uma casa nomeada, passando a somar valor entre 6 e 14.
 
@@ -426,9 +428,40 @@ excedente convertido em dano direto de PV, um para um
 
 SOBRETAXA DE VOLUME
 
-O custo de XP de cada nível recebe sobretaxa indexada ao Índice de Volume, a razão entre a RC final e a base humana. Volume encarece a precisão sem impor teto ao refinamento.
+O custo de XP desta perícia recebe sobretaxa indexada ao Índice de Volume do praticante, publicado em Reserva de Chakra. Volume encarece a precisão sem impor teto ao refinamento: quem carrega reserva colossal alcança o mesmo LV6 que qualquer outro, e paga mais tempo de vida pelo caminho. O cânone é explícito nos dois sentidos, no genin de reserva monstruosa que reprovou três vezes numa técnica de rank E e no mesmo homem, adulto, calibrando chakra por receptor para um exército inteiro.
 
-Mediana +0% · Ampla +10% · Vasta +20% · Colossal +35% · Monstruosa +50% · Bijū sem Cauda +75% · Escala de Bijū +100%
+sobretaxa do nível = 0,75 × (√Índice de Volume − 1) × peso do nível          piso 0%, sem teto
+
+O coeficiente é âncora canônica e não calibragem: 0,75 é o valor que faz o portador de volume Uzumaki pagar o dobro, nos fundamentos da perícia, do que paga quem não tem clã de volume. Essa é a comparação de controle mais explícita da obra e nunca foi desmentida.
+
+Não há teto porque a reserva não tem teto, e régua que lê grandeza sem limite não inventa um. A raiz quadrada é a trava: reserva quadruplicada dobra o estorvo em vez de quadruplicá-lo.
+
+O piso em zero é o que fecha o outro lado. Reserva abaixo da referência não gera desconto, porque a régua mede o estorvo do excesso e não a facilidade da escassez, e não ter sobretaxa alguma já é toda a vantagem de quem tem pouco.
+
+PESO DO NÍVEL
+
+O estorvo do volume pesa na razão inversa do controle que o praticante já construiu, e por isso o peso sai da própria escada de Base de Nível do Núcleo de Perícias:
+
+peso do nível = Base de Nível de LV1 ÷ Base de Nível daquele nível = 12 ÷ Base
+
+LV1 1,000 · LV2 0,500 · LV3 0,375 · LV4 0,300 · LV5 0,267 · LV6 0,240
+
+Nenhuma constante nova entra no sistema por esta linha, e se a escada de Base for revista um dia o peso acompanha sozinho. A forma reproduz onde o cânone põe a dificuldade: toda falha registrada de controle por excesso de volume acontece na base da escada, na folha, na escalada, na caminhada sobre a água e no clone comum, e nenhuma acontece no ápice. A escada de preço desta perícia é traseira, com os três primeiros níveis somando menos de um quinto do total, e uma sobretaxa plana cobraria quase tudo no lugar onde a obra diz que a dificuldade já passou.
+
+A aquisição adicional lê o peso do nível em que é precificada, com teto no peso do LV4. Caminho adicional e transcendência extra já caem abaixo desse teto. A inclinação extra é precificada em LV2 e herdaria o peso cheio, o que cobraria alíquota de fundamento por largura que o praticante compra depois de dominar a base, e o teto a corrige. O teto nomeia o nível e lê o peso dele pela mesma fórmula, nunca um número solto, porque o fator de preço do caminho adicional é grandeza sem relação com esta e as duas não devem se amarrar por coincidência de dígito.
+
+Resolvido, na sobretaxa por nível de dois praticantes:
+
+| Nível | Peso | Índice 5,5 | Índice 15,0 |
+|---|---:|---:|---:|
+| LV1 | 1,000 | 101% | 215% |
+| LV2 | 0,500 | 50% | 108% |
+| LV3 | 0,375 | 38% | 81% |
+| LV4 | 0,300 | 30% | 65% |
+| LV5 | 0,267 | 27% | 57% |
+| LV6 | 0,240 | 24% | 52% |
+
+A sobretaxa incide sobre cada linha de compra em separado, com o mesmo arredondamento por linha que a economia já aplica aos demais modificadores de preço, e nunca sobre o total somado. A transcendência Medida Livre revoga a régua inteira.
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -480,7 +513,7 @@ Manual de Jutsus v2: RC nominal e custo mínimo, carga com rendimento de Sobreca
 
 Template v3: campos de selos de referência, janela de referência, degrau de duração, assinatura selada, variantes com requisito de caminho, par nominal e mínimo, manutenção.
 
-Reserva v3: raio de assinatura, teto de recepção, fronteira com o depósito de Acúmulo.
+Reserva v3.4: Índice de Volume, que a Sobretaxa de Volume e o raio de assinatura leem; teto de recepção; fronteira com o depósito de Acúmulo.
 
 Compêndios: linhas de requisito na régua de degraus, referências de selos e de janela.
 

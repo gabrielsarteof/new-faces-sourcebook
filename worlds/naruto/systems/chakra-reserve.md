@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chakra-reserve
 title: "Reserva de Chakra"
-version: 3.3
+version: 3.4
 layer: scenario
 scenario: naruto
 type: system
@@ -158,6 +158,78 @@ Shinobis sem clã consolidado usam x1.
 
 ---
 
+## Índice de Volume
+
+A RC é um número absoluto, e sozinha ela informa pouco. A escala inteira do mundo cabe
+dentro da mesma grandeza, do civil que nunca moldou nada à besta que uma vila inteira
+sente acordar, e o valor bruto não responde à pergunta que o resto do sistema faz sobre
+uma reserva: quão fora do comum ela é para aquele corpo.
+
+O Índice de Volume é essa leitura. Ele compara a reserva que o shinobi tem com a reserva
+que o mesmo shinobi teria sem clã e sem potencial latente, e o resultado mede o quanto o
+sangue e a sorte de nascimento o afastaram do que ele seria sem nenhum dos dois.
+
+```
+Índice de Volume = RC final ÷ RC do mesmo shinobi com Mult_Cla 1 e sem Bonus_Dado
+                 = Mult_Cla x (1 + Bonus_Dado)
+```
+
+As duas grandezas da razão são RC de verdade, calculadas pela fórmula desta página, e a
+simplificação à direita existe porque os dois termos que a razão não cancela são
+exatamente os dois que a linhagem e o Dado introduzem. O XP de Ficha e o PV desaparecem
+da conta, e é isso que faz o índice medir sangue em vez de idade.
+
+Um índice de 1 descreve quem não tem clã de volume. Um índice de 4 descreve quem carrega
+quatro vezes a reserva que teria sem o próprio sangue, e é onde os grandes clãs
+depositam seus portadores.
+
+**O índice é fixo na vida do personagem.** Ele não sobe com o XP acumulado, porque o XP
+eleva os dois lados da razão na mesma proporção. Só muda se o clã, o Dado de Potencial
+ou uma reencarnação mudarem, e nenhum dos três muda por progressão comum. Isso é o que
+permite que réguas caras de aprendizado leiam o índice sem reprecificar a ficha toda a
+cada sessão.
+
+### Como o índice se lê no cânone
+
+| Quem | Índice | Leitura |
+|---|---:|---|
+| Sakura Haruno, sem clã de volume | 1,00 | o zero da régua, e o melhor controle da geração dela |
+| Kakashi Hatake, x1,5 | 1,50 | reserva média em elite, o exemplo que esta página já nomeia |
+| Aburame, x2,0 | 2,00 | acima da média por demanda constante |
+| Sasuke Uchiha, x4,0 | 4,00 | volume alto de clã, sem Dado excepcional |
+| Naruto Uzumaki, x5,5 | 5,50 | o topo do volume de clã, antes de qualquer pool externo |
+| Senju de Ashura com Dado 100 | 15,00 | a combinação humana máxima, o patamar de Hashirama |
+
+A escala não termina em quinze. Ela segue subindo enquanto houver reserva para medir, e
+é assim que precisa ser: a RC não tem teto, e uma régua que a lê não inventa um.
+
+### O que entra e o que fica de fora
+
+Entra tudo que multiplica a própria RC, porque o índice lê a RC final. O Multiplicador
+de Clã, o Dado de Potencial e o traço de reencarnação que eleva o multiplicador entram
+sem cláusula própria, e é a soma dos três que produz os índices mais altos que a mesa
+alcança.
+
+Os pools que correm por fora da reserva ficam de fora enquanto os documentos que os
+governam não publicarem a conversão. A chakra da bijū selada e a camada do ancestral são
+reservatórios separados, com regra própria de acesso e de esgotamento, e somá-los ao
+índice sem essa regra faria o jinchūriki emitir presença de besta com o selo fechado e
+intocado. A Reserva de Energia Natural nunca entra, por não pertencer a este cálculo em
+leitura nenhuma.
+
+O depósito de acúmulo do Controle de Chakra também fica de fora, tanto na Carga Espiral
+quanto na Reserva Diferida, e aquele documento já declara essa fronteira do outro lado.
+
+### Quem consome o índice
+
+O raio de assinatura de chakra, que o Controle de Chakra publica e o Sensoriamento
+consome, é cinquenta metros multiplicados pelo índice. A aferição de nível de força do
+Sensoriamento devolve o índice de um alvo lido, em faixa de meia unidade no degrau cinco
+e em unidade fechada nas versões de LV6. E a Sobretaxa de Volume, publicada no Controle
+de Chakra, indexa a ele o preço em XP daquela perícia.
+
+---
+
 ## Limite de Saída por Turno
 
 O corpo não consegue canalizar o volume total da RC de uma vez. Esse cap de output
@@ -214,7 +286,12 @@ desta página. Regras detalhadas na perícia de Senjutsu.
 - **Oito Portões:** elevam o LS sem alterar a RC total, e no oitavo o revogam.
 - **Modo Sábio:** desacelera o consumo ao adicionar energia natural ao mix, pagando em
   REN o que sairia daqui. A perícia de Senjutsu publica o teto, a taxa de colheita e o
-  dreno de sustentação, e exige 800 de RC como requisito de ficha para o acesso.
+  dreno de sustentação, e não lê a reserva em requisito algum: o acesso corre por
+  compatibilidade do corpo e por aceitação da espécie, e aquele documento declara que
+  nenhum limiar de reserva governa a prática.
+- **Volume alto:** encarece o Controle de Chakra pela Sobretaxa de Volume, que lê o
+  Índice de Volume. O preço do volume é cobrado na aquisição da precisão, e não há teto
+  de refinamento em lugar nenhum do sistema.
 
 ---
 
@@ -230,3 +307,7 @@ desta página. Regras detalhadas na perícia de Senjutsu.
   físicas reais. A Vontade entra como autorização para esse gasto.
 - **Segundo eixo de densidade pendente.** Trate o Uchiha como reserva alta sem
   diferencial mecânico de potência até o documento de Densidade ser escrito.
+- **Volume cobra na aprendizagem, nunca no resultado.** O portador de reserva colossal
+  demora mais e paga mais para refinar o controle, e chega exatamente onde qualquer
+  outro chega. Nenhuma régua do sistema rebaixa o teste dele por ele ter muito chakra, e
+  nenhuma o barra de uma técnica por esse motivo.
