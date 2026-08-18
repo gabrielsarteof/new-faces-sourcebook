@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.2
+version: 3.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -218,7 +218,7 @@ Cada inclinação de extensão desta perícia recebe um Ápice próprio, pela se
 
 Adquirido o Ápice, os caminhos da própria inclinação passam a transcendidos e os caminhos das demais inclinações permanecem no estado em que estavam. O praticante que alcance a transcendência de LV6 desta perícia eleva todos os caminhos possuídos pela regra já publicada acima, o que inclui os de extensão, e a elevação por essa via concede o valor de especialização conservando a habilidade do Ápice fora do alcance de quem não o comprou.
 
-PREÇO: o Ápice cobra o custo cheio de LV6 da categoria Ninjutsu, 15.187, na mesma régua que o Manual de Economia de XP aplica a transcendências adicionais, e dispensa o LV6 da perícia. A economia ainda não tem linha própria para o Ápice, e a lacuna está registrada no changelog.
+PREÇO: o Ápice cobra o custo cheio de LV6 da categoria Ninjutsu, 18.225, na mesma régua que o Manual de Economia de XP aplica a transcendências adicionais, e dispensa o LV6 da perícia. A economia ainda não tem linha própria para o Ápice, e a lacuna está registrada no changelog.
 
 Os valores publicados abaixo leem os três caminhos da inclinação possuídos e transcendidos, na largura de ápice da seção 6.1 do Núcleo de Perícias.
 

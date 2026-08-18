@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.passagem
 title: "Passagem"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -40,7 +40,7 @@ Portão: Passagem exige Controle de Chakra em nível não inferior ao próprio m
 
 Portão de obra com o Fūinjutsu, no deslocamento por marca: o rank da técnica é lido nesta coluna, que possui o verbo definidor, e a coluna companheira cobra apenas o que a parte dela exige.
 
-LV1 1.275 · LV2 1.912 · LV3 3.825 · LV4 7.012 · LV5 11.475 · LV6 17.212, acumulando 42.711. Caminho extra custa 3.506 no LV4 e 5.737 no LV5.
+LV1 1.530 · LV2 2.295 · LV3 4.590 · LV4 8.415 · LV5 13.770 · LV6 20.655, acumulando 51.255. Caminho extra custa 4.207 no LV4 e 6.885 no LV5.
 
 PORTÃO DE RANK
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.system.errata-d2
 title: "Errata D2 — Alinhamento upstream do eixo do Onmyōton"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: pending-patch
@@ -15,7 +15,7 @@ Aplica as decisões D1 a D11 aos documentos que antecedem o Eixo do Onmyōton. C
 
 **Aplicada.** Os cinco alvos entraram nos documentos de destino: o Alvo 1 no Sistema Elemental v6, o Alvo 2 nas Naturezas Avançadas v5, e os Alvos 3, 4 e 5 nos documentos de clã do Uchiha, do Uzumaki e do Senju. O texto permanece publicado porque o registro do que saiu e do que entrou tem valor, e nenhuma edição pendente resta.
 
-Os números do item 1.6 desta errata, 207.258 e 314.671, são os que valem. O Sistema Elemental v6 os republicou arredondando o acumulado em vez de somar os níveis já arredondados, e chegou a 207.270 e 314.677. A v7 daquele documento restaurou a leitura desta errata e declarou a convenção de arredondamento por nível.
+Os números do item 1.6 desta errata valiam 207.258 e 314.671 sob o preço de perícia da v2.8 do Manual de Economia de XP. A v2.9 daquele manual subiu a tabela base em 20%, e os números correntes são 248.729 e 377.625, publicados por `worlds/naruto/systems/elemental-system.md` v7.1. O Sistema Elemental v6 havia republicado o par antigo arredondando o acumulado em vez de somar os níveis já arredondados, e chegara a 207.270 e 314.677; a v7 daquele documento restaurou a leitura desta errata e declarou a convenção de arredondamento por nível, convenção que segue valendo sobre os números correntes.
 
 ---
 
@@ -98,14 +98,14 @@ As razões entre posições permanecem idênticas às da tabela anterior. O que 
 
 **Sai:** o número e a ambiguidade de cenário, porque a frase atual não declara se descreve cinco afinidades natas ou uma nata acompanhada de quatro aprendidas.
 
-**Entra:** uma perícia de natureza completa, de LV1 a LV6, custa 37.686 XP na trilha Ninja. O custo das cinco naturezas depende de como foram obtidas.
+**Entra:** uma perícia de natureza completa, de LV1 a LV6, custa 45.225 XP na trilha Ninja. O custo das cinco naturezas depende de como foram obtidas.
 
 | Cenário | Custo total |
 |---|---|
-| Cinco afinidades natas | 207.258 |
-| Uma nata e quatro aprendidas | 314.671 |
+| Cinco afinidades natas | 248.729 |
+| Uma nata e quatro aprendidas | 377.625 |
 
-O caminho das cinco pertence a shinobi de nível lendário com décadas de dedicação.
+O caminho das cinco pertence a shinobi de nível lendário com décadas de dedicação. Os dois totais foram atualizados na v1.2 desta errata, quando a v2.9 do Manual de Economia de XP subiu 20% o preço base de perícia; ver a nota no topo deste documento.
 
 **Nota de impacto.** A reancoragem eleva em 25% o custo absoluto de todas as naturezas. O equilíbrio interno entre elas permanece intacto e o peso das naturezas contra o restante da economia de XP sobe por decisão deliberada.
 

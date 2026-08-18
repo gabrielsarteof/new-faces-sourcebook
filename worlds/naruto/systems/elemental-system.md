@@ -1,7 +1,7 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 7
+version: 7.1
 layer: scenario
 scenario: naruto
 type: system
@@ -235,36 +235,36 @@ A régua abaixo é a da trilha Ninjutsu do Manual de Economia de XP, com o multi
 
 | LV | XP do nível | XP acumulado |
 |---|---|---|
-| LV1, Alicerce | 1.125 | 1.125 |
-| LV2, Inclinação | 1.687 | 2.812 |
-| LV3, Competência | 3.375 | 6.187 |
-| LV4, Especialização | 6.187 | 12.374 |
-| LV5, Maestria | 10.125 | 22.499 |
-| LV6, Transcendência | 15.187 | 37.686 |
+| LV1, Alicerce | 1.350 | 1.350 |
+| LV2, Inclinação | 2.025 | 3.375 |
+| LV3, Competência | 4.050 | 7.425 |
+| LV4, Especialização | 7.425 | 14.850 |
+| LV5, Maestria | 12.150 | 27.000 |
+| LV6, Transcendência | 18.225 | 45.225 |
 
 A Afinidade é o estado padrão de qualquer shinobi e não conquista que mereça desconto. A Afinidade paga o preço de tabela, e cada posição mais distante aplica sobretaxa.
 
 | Posição | Multiplicador | XP acumulado a LV6 |
 |---|---|---|
-| Afinidade | ×1,0 | 37.686 |
-| Compatibilidade | ×1,125 | 42.393 |
-| 1ª natureza aprendida | ×1,25 | 47.104 |
-| 2ª natureza aprendida | ×1,6 | 60.297 |
-| 3ª natureza aprendida | ×2,0 | 75.372 |
-| 4ª natureza aprendida | ×2,5 | 94.212 |
-| 5ª natureza aprendida | ×3,2 | 120.594 |
-| 6ª natureza aprendida | ×4,0 | 150.744 |
+| Afinidade | ×1,0 | 45.225 |
+| Compatibilidade | ×1,125 | 50.876 |
+| 1ª natureza aprendida | ×1,25 | 56.529 |
+| 2ª natureza aprendida | ×1,6 | 72.360 |
+| 3ª natureza aprendida | ×2,0 | 90.450 |
+| 4ª natureza aprendida | ×2,5 | 113.061 |
+| 5ª natureza aprendida | ×3,2 | 144.720 |
+| 6ª natureza aprendida | ×4,0 | 180.900 |
 
 A escada das aprendidas cresce cerca de um quarto a cada degrau, e os dois últimos degraus continuam esse passo. Eles existem porque a cadeia admite até sete naturezas no total, e um shinobi com uma única natureza nata pode perseguir as outras seis por treino.
 
-**Convenção de arredondamento.** O multiplicador de dispersão incide sobre o custo de cada nível, e o piso é aplicado nível a nível, na mesma convenção do multiplicador de categoria. O jogador compra um nível de cada vez, e o preço que ele paga é a soma dos níveis já arredondados. Uma Compatibilidade levada ao LV1 custa 1.265, que é o piso de 1.125 multiplicado por 1,125, e a coluna de acumulado é a soma desses valores. O piso aplicado sobre o total acumulado devolveria 42.396 no lugar de 42.393, e essa leitura fica revogada.
+**Convenção de arredondamento.** O multiplicador de dispersão incide sobre o custo de cada nível, e o piso é aplicado nível a nível, na mesma convenção do multiplicador de categoria. O jogador compra um nível de cada vez, e o preço que ele paga é a soma dos níveis já arredondados. Uma Compatibilidade levada ao LV1 custa 1.518, que é o piso de 1.350 multiplicado por 1,125, e a coluna de acumulado é a soma desses valores. O piso aplicado sobre o total acumulado devolveria 50.878 no lugar de 50.876, e essa leitura fica revogada.
 
 O custo de dominar as cinco naturezas depende de como foram obtidas.
 
 | Cenário | Custo total |
 |---|---|
-| Cinco naturezas natas | 207.258 |
-| Uma nata e quatro aprendidas | 314.671 |
+| Cinco naturezas natas | 248.729 |
+| Uma nata e quatro aprendidas | 377.625 |
 
 O caminho das cinco pertence a shinobi de nível lendário com décadas de dedicação.
 
@@ -410,6 +410,8 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 
 ## Registro de Alterações
 
+**v7.1.** O Manual de Economia de XP sobe para v2.9 e reajusta a tabela base de custo de perícia em 20%. A régua da seção "Custo da perícia da natureza" sobe de acordo, LV1 a LV6 e acumulado, e a tabela de dispersão inteira é recalculada sobre a nova base: Afinidade fecha em 45.225, Compatibilidade em 50.876, e a escada de aprendidas segue até 180.900 na sexta. Os dois cenários de custo total passam a 248.729 (cinco natas, uma Afinidade e quatro Compatibilidades) e 377.625 (uma nata e quatro aprendidas). As proporções entre posições não mudam, só a base sobre a qual elas incidem.
+
 **v7.** A Afinidade passa a ser sempre uma, revelada por uma única reação do Papel de Indução, e as naturezas natas adicionais passam a se chamar Compatibilidades. A cadeia do Passo 1, as faixas de d100, o Fator Protagonismo e todos os multiplicadores permanecem como estavam, e clã, linhagem e Protagonismo ficam declarados como viés da cadeia. A convenção de arredondamento da tabela de dispersão é declarada em nível, e os acumulados são corrigidos para 42.393, 47.104 e 94.212, com os cenários em 207.258 e 314.671. A escada das aprendidas ganha o quinto e o sexto degraus, em ×3,2 e ×4,0, porque a cadeia admite sete naturezas e o texto parava na quarta. A ordem de aquisição das aprendidas passa a ser registrada na ficha, e a conversão de uma aprendida em Afinidade fica proibida. A seção sobre as lendas de muitas naturezas entra, e a independência entre o Tipo Elemental e a posição na escada fica declarada.
 
 **v6.** A Errata D2 é absorvida. A coluna de desconto de XP sai da Escada, que passa a tratar exclusivamente de desempenho, e a âncora econômica se desloca para a afinidade como preço de tabela com sobretaxa por distância. O viés de clã no branch do Onmyōton cai de 20% para 15%, o Protagonismo passa a incidir sobre o branch, e o Senju entra com viés a Yang.
@@ -420,7 +422,7 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 
 | Documento | Versão consumida | O que este documento lê |
 |---|---|---|
-| Manual de Economia de XP | 2.1 | A régua de custo por nível e a convenção de arredondamento da categoria |
+| Manual de Economia de XP | 2.9 | A régua de custo por nível e a convenção de arredondamento da categoria |
 | Núcleo de Perícias | 2.2 | A estrutura de níveis LV1 a LV6 |
 | Manual de Criação de Jutsus | 2.5 | A Janela de Canalização, o motor de dano e o mult_Tipo |
 | Reserva de Chakra | 3.1 | A RC nominal e o Limite de Saída de 20% |

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.senjutsu
 title: "Senjutsu"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -30,7 +30,7 @@ Regente RES. Categoria Chakra, multiplicador 1,4. Camada subclasse, sobre o port
 
 Portão: Senjutsu exige Controle de Chakra em nível não inferior ao próprio menos um.
 
-LV1 1.050 · LV2 1.575 · LV3 3.150 · LV4 5.775 · LV5 9.450 · LV6 14.175, acumulando 35.175. Caminho extra custa 2.887 no LV4 e 4.725 no LV5.
+LV1 1.260 · LV2 1.890 · LV3 3.780 · LV4 6.930 · LV5 11.340 · LV6 17.010, acumulando 42.210. Caminho extra custa 3.465 no LV4 e 5.670 no LV5.
 
 REQUISITOS DE ACESSO
 

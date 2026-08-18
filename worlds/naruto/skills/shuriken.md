@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.shuriken
 title: "Shuriken"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -34,7 +34,7 @@ Sem portão de perícia: nenhuma outra perícia é pré-requisito para abrir est
 
 O domínio não controla portão de rank. Nenhuma ficha de técnica publicada cita esta perícia como requisito de manejo, e nenhum compêndio de obras nomeadas de shuriken escalona o acesso por rank: a perícia entrega competência de arremesso e não catálogo de técnicas.
 
-LV1 750 · LV2 1.125 · LV3 2.250 · LV4 4.125 · LV5 6.750 · LV6 10.125, acumulando 25.125. Caminho extra custa 2.062 no LV4 e 3.375 no LV5.
+LV1 900 · LV2 1.350 · LV3 2.700 · LV4 4.950 · LV5 8.100 · LV6 12.150, acumulando 30.150. Caminho extra custa 2.475 no LV4 e 4.050 no LV5.
 
 TESTES RESOLVIDOS
 
