@@ -1,7 +1,7 @@
 ---
 id: core.skill-authoring
 title: "Manual de Criação de Perícias"
-version: 7.5
+version: 7.6
 layer: core
 type: methodology
 status: final
@@ -9,6 +9,14 @@ source-file: Manual_de_Criacao_de_Pericias_v7.md
 ---
 
 # Manual de Criação de Perícias
+
+**v7.6 — §14.2 recalibra o desconto do caminho adicional de 65% para 2/3 (desconto de
+1/3, não mais 35%), acompanhando `core/xp-economy.md` v2.11 Anexo A item 10: o topo de
+uma faixa de pesquisa heterogênea (6% a 35%) não é fundamento seguro para o parâmetro de
+uma fórmula que rege toda perícia do jogo. A âncora principal passa a ser a paridade
+interna — a inclinação adicional já desconta implicitamente 1/3 contra a progressão
+equivalente, sem nunca ter declarado esse percentual — e a pesquisa de transferência vira
+confirmação qualitativa, não o número em si.**
 
 **v7.5 — Fecha a contradição de §14.2 com `core/xp-economy.md` §7: a v7.4 e anteriores
 liam "aquisição adicional custa metade da original" como regra única para inclinação e
@@ -533,13 +541,16 @@ Abertos e aprofundando por compra separada. Todo caminho exige a inclinação de
 Aprofundada. Não existe teto.
 
 **As duas aquisições não descontam pela mesma régua, e a diferença é proposital.**
-Caminho adicional custa 65% do custo do nível na categoria — desconto de 35%, sem
+Caminho adicional custa 2/3 do custo do nível na categoria — desconto de 1/3, sem
 tarifa por proximidade, a mesma fração para o segundo caminho e para o décimo. Inclinação
 adicional custa o preço cheio do LV2 da perícia, e o mesmo preço de novo para aprofundar
-essa inclinação ao LV3. A régua vive em `core/xp-economy.md` §7, com o fundamento
-completo — transferência de conhecimento próxima é forte e mensurável, transferência
-distante não é — registrado no Anexo A item 9 daquele manual: caminho adicional exige a
-inclinação já Aprofundada (§3.3 do Núcleo), então herda a base compartilhada da
+essa inclinação ao LV3 — o que, por LV3 valer sempre o dobro de LV2 na tabela base, já é
+um desconto implícito de exatamente 1/3 contra a progressão equivalente, a mesma fração
+do caminho. A régua vive em `core/xp-economy.md` §7, com o fundamento completo —
+transferência de conhecimento próxima é forte e mensurável, transferência distante não é,
+e o desconto do caminho ancora nessa paridade interna, não no topo da pesquisa externa —
+registrado no Anexo A item 10 daquele manual: caminho adicional exige a inclinação já
+Aprofundada (§3.3 do Núcleo), então herda a base compartilhada da
 inclinação que já tem; inclinação adicional abre região nova do domínio, sem essa base
 compartilhada, e por isso não desconta.
 
