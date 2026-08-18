@@ -1,5 +1,5 @@
 ---
-id: jujutsu.techniques.overview
+id: jujutsu.technique.overview
 title: "Técnicas — Jujutsu Kaisen"
 version: 1
 layer: scenario

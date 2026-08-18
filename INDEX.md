@@ -66,7 +66,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Seis Olhos — Dojutsu do Clã Gojo](worlds/jujutsu/clans/gojo-six-eyes.md) | `jujutsu.clan.gojo-six-eyes` | 1 | clan | final |
 | [Clã Gojo](worlds/jujutsu/clans/gojo.md) | `jujutsu.clan.gojo` | 1 | clan | final |
 | [Clã Kamo](worlds/jujutsu/clans/kamo.md) | `jujutsu.clan.kamo` | 1 | clan | final |
-| [Clãs — Jujutsu Kaisen](worlds/jujutsu/clans/overview.md) | `jujutsu.clans.overview` | 1 | clan | final |
+| [Clãs — Jujutsu Kaisen](worlds/jujutsu/clans/overview.md) | `jujutsu.clan.overview` | 1 | clan | final |
 | [Clã Zenin](worlds/jujutsu/clans/zenin.md) | `jujutsu.clan.zenin` | 1 | clan | final |
 
 ## worlds/jujutsu/combat
@@ -86,7 +86,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Técnicas Inatas — por Linhagem](worlds/jujutsu/lineages/innate-techniques.md) | `jujutsu.lineage.innate-techniques` | 1 | lineage | final |
-| [Linhagens — Jujutsu Kaisen](worlds/jujutsu/lineages/overview.md) | `jujutsu.lineages.overview` | 1 | lineage | final |
+| [Linhagens — Jujutsu Kaisen](worlds/jujutsu/lineages/overview.md) | `jujutsu.lineage.overview` | 1 | lineage | final |
 
 ## worlds/jujutsu/powers
 
@@ -106,7 +106,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Técnicas Malditas](worlds/jujutsu/techniques/cursed-techniques.md) | `jujutsu.technique.cursed-techniques` | 1 | technique | final |
 | [Extensões de Técnica](worlds/jujutsu/techniques/extensions.md) | `jujutsu.technique.extensions` | 1 | technique | final |
-| [Técnicas — Jujutsu Kaisen](worlds/jujutsu/techniques/overview.md) | `jujutsu.techniques.overview` | 1 | technique | final |
+| [Técnicas — Jujutsu Kaisen](worlds/jujutsu/techniques/overview.md) | `jujutsu.technique.overview` | 1 | technique | final |
 
 ## Naruto · Geral
 
@@ -147,7 +147,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Clã Hyūga — O Olho que Tudo Vê](worlds/naruto/clans/hyuga.md) | `naruto.clan.hyuga` | 1 | clan | final |
 | [Clã Inuzuka](worlds/naruto/clans/inuzuka.md) | `naruto.clan.inuzuka` | 1 | clan | final |
 | [Clã Nara](worlds/naruto/clans/nara.md) | `naruto.clan.nara` | 1 | clan | final |
-| [Clãs — Naruto](worlds/naruto/clans/overview.md) | `naruto.clans.overview` | 1 | clan | final |
+| [Clãs — Naruto](worlds/naruto/clans/overview.md) | `naruto.clan.overview` | 1 | clan | final |
 | [Clã Sarutobi](worlds/naruto/clans/sarutobi.md) | `naruto.clan.sarutobi` | 1 | clan | final |
 | [Senju — O Clã de Mil Habilidades](worlds/naruto/clans/senju.md) | `naruto.clan.senju` | 1 | clan | final |
 | [Mangekyō Sharingan](worlds/naruto/clans/uchiha-mangekyo-sharingan.md) | `naruto.lineage.mangekyo-sharingan` | 1.1 | lineage | final |
@@ -207,7 +207,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Dojutsu — Olhos Especiais](worlds/naruto/lineages/dojutsu.md) | `naruto.lineage.dojutsu` | 1 | lineage | final |
 | [Hiden — Técnicas Secretas de Clã](worlds/naruto/lineages/hiden.md) | `naruto.lineage.hiden` | 1 | lineage | final |
 | [Kekkei Genkai — Naturezas Herdadas](worlds/naruto/lineages/kekkei-genkai.md) | `naruto.lineage.kekkei-genkai` | 1 | lineage | final |
-| [Linhagens — Naruto](worlds/naruto/lineages/overview.md) | `naruto.lineages.overview` | 1 | lineage | final |
+| [Linhagens — Naruto](worlds/naruto/lineages/overview.md) | `naruto.lineage.overview` | 1 | lineage | final |
 
 ## worlds/naruto/natures
 
@@ -222,7 +222,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Celeridade (Jinton 迅遁)](worlds/naruto/powers/celeridade.md) | `naruto.power.celeridade` | 1 | power | final |
-| [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.powers.overview` | 1.2 | system | final |
+| [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.power.overview` | 1.2 | system | final |
 | [Puraton (Plasma)](worlds/naruto/powers/puraton.md) | `naruto.power.puraton` | 1 | power | final |
 
 ## worlds/naruto/progression
@@ -238,7 +238,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 |---|---|---|---|---|
 | [Asura Ōtsutsuki — O Herdeiro do Corpo do Sábio](worlds/naruto/reincarnations/asura.md) | `naruto.reincarnation.asura` | 1 | reincarnation | final |
 | [Indra Ōtsutsuki](worlds/naruto/reincarnations/indra.md) | `naruto.reincarnation.indra` | 1 | reincarnation | final |
-| [Reencarnações — Naruto](worlds/naruto/reincarnations/overview.md) | `naruto.reincarnations.overview` | 1 | reincarnation | final |
+| [Reencarnações — Naruto](worlds/naruto/reincarnations/overview.md) | `naruto.reincarnation.overview` | 1 | reincarnation | final |
 
 ## Naruto · Perícias
 

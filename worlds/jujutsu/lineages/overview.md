@@ -1,5 +1,5 @@
 ---
-id: jujutsu.lineages.overview
+id: jujutsu.lineage.overview
 title: "Linhagens — Jujutsu Kaisen"
 version: 1
 layer: scenario

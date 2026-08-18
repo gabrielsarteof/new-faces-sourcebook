@@ -1,5 +1,5 @@
 ---
-id: naruto.lineages.overview
+id: naruto.lineage.overview
 title: "Linhagens — Naruto"
 version: 1
 layer: scenario

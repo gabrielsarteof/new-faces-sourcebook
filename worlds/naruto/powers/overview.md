@@ -1,5 +1,5 @@
 ---
-id: naruto.powers.overview
+id: naruto.power.overview
 title: "Poderes — Naruto"
 version: 1.2
 layer: scenario

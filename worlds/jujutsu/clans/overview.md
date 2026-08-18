@@ -1,5 +1,5 @@
 ---
-id: jujutsu.clans.overview
+id: jujutsu.clan.overview
 title: "Clãs — Jujutsu Kaisen"
 version: 1
 layer: scenario

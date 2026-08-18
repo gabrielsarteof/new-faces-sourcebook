@@ -1,5 +1,5 @@
 ---
-id: naruto.reincarnations.overview
+id: naruto.reincarnation.overview
 title: "Reencarnações — Naruto"
 version: 1
 layer: scenario

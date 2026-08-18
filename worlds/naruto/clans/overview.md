@@ -1,5 +1,5 @@
 ---
-id: naruto.clans.overview
+id: naruto.clan.overview
 title: "Clãs — Naruto"
 version: 1
 layer: scenario
