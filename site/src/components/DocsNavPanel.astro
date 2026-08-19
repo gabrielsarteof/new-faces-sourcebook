@@ -1,66 +1,27 @@
 ---
+import { mundoDaRota } from '../data/navegacao';
+
 /**
  * Painel de navegação, 280px.
  *
- * Modelado em QuickSwitchPanel.tsx, que é o painel de texto que o criador já
- * encosta no dock: w-[280px] navbar-bg sidebar-boundary, cabeçalho com o
- * wordmark, campo de busca, rótulo de grupo em 10px uppercase e item em
- * text-sm font-medium de caixa normal.
- *
- * Na fase 2 a árvore passa a sair do manifesto curado, que contém só `id`.
+ * Mostra só os documentos do mundo que o dock selecionou. Modelado em
+ * QuickSwitchPanel.tsx: w-[280px] navbar-bg sidebar-boundary encostado no dock por
+ * translateX(72px), cabeçalho com o wordmark, campo de busca, rótulo de grupo em
+ * 10px uppercase e item em text-sm font-medium de caixa normal.
  */
-interface Item { rotulo: string; href: string }
-interface Grupo { titulo: string; itens: Item[] }
 interface Props { rotaAtual?: string }
-
-const { rotaAtual = '' } = Astro.props;
-
-const grupos: Grupo[] = [
-  {
-    titulo: 'Começar',
-    itens: [
-      { rotulo: 'Visão geral', href: '/' },
-      { rotulo: 'Criar personagem', href: '/naruto/character-creation' },
-      { rotulo: 'Cálculos rápidos', href: '/naruto/quick-calculations' },
-    ],
-  },
-  {
-    titulo: 'Núcleo',
-    itens: [
-      { rotulo: 'Economia de XP', href: '/core/xp-economy' },
-      { rotulo: 'Núcleo de Perícias', href: '/core/skills-core' },
-      { rotulo: 'Núcleo de Combate', href: '/core/combat-core' },
-      { rotulo: 'Efeitos de status', href: '/core/status-effects' },
-    ],
-  },
-  {
-    titulo: 'Naruto · Perícias',
-    itens: [
-      { rotulo: 'Índice de Perícias', href: '/naruto/skill' },
-      { rotulo: 'Katon', href: '/naruto/skill/katon' },
-      { rotulo: 'Raiton', href: '/naruto/skill/raiton' },
-      { rotulo: 'Controle de Chakra', href: '/naruto/skill/chakra-control' },
-    ],
-  },
-  {
-    titulo: 'Naruto · Clãs',
-    itens: [
-      { rotulo: 'Clãs', href: '/naruto/clan' },
-      { rotulo: 'Uchiha', href: '/naruto/clan/uchiha' },
-      { rotulo: 'Senju', href: '/naruto/clan/senju' },
-    ],
-  },
-];
+const { rotaAtual = '/' } = Astro.props;
+const mundo = mundoDaRota(rotaAtual);
 ---
 <aside
   id="docs-nav"
   class="sidebar-scroll fixed inset-y-0 left-0 z-[70] flex w-[280px] -translate-x-full flex-col overflow-y-auto navbar-bg sidebar-boundary pb-6 transition-transform duration-300 ease-in-out lg:translate-x-[72px]"
-  aria-label="Navegação da documentação"
+  aria-label="Documentos"
 >
   <header class="mb-3 flex shrink-0 items-center justify-between px-4 py-3">
     <a href="/" class="flex h-7 items-center gap-2 no-underline sm:h-8">
       <img src="/logo-wordmark.png" alt="New Faces" class="h-full w-auto select-none object-contain" draggable="false" />
-      <span class="app-section-label !p-0 !tracking-widest">docs</span>
+      <span class="app-section-label !p-0">docs</span>
     </a>
     <button
       id="nav-close"
@@ -77,7 +38,7 @@ const grupos: Grupo[] = [
   <div class="shrink-0 px-3 pb-3">
     <button
       type="button"
-      class="relative flex w-full items-center gap-2 rounded-xl bg-mono-card px-3 py-2 text-sm text-mono-sub transition-colors hover:bg-mono-card-hover"
+      class="flex w-full items-center gap-2 rounded-xl bg-mono-card px-3 py-2 text-sm text-mono-sub transition-colors hover:bg-mono-card-hover"
       aria-label="Buscar na documentação"
       disabled
     >
@@ -85,12 +46,15 @@ const grupos: Grupo[] = [
         <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
       </svg>
       <span class="flex-1 text-left">Buscar</span>
-      <kbd class="rounded border border-mono-border px-1.5 py-0.5 text-[10px] font-sans">Ctrl K</kbd>
+      <kbd class="rounded border border-mono-border px-1.5 py-0.5 font-sans text-[10px]">Ctrl K</kbd>
     </button>
   </div>
 
+  <!-- Nomeia o mundo corrente, para o painel não parecer uma lista solta. -->
+  <p class="shrink-0 px-4 pb-1 text-sm font-bold text-mono-text">{mundo.rotulo}</p>
+
   <nav class="flex flex-col px-3">
-    {grupos.map(g => (
+    {mundo.grupos.map(g => (
       <div class="flex flex-col">
         <p class="app-section-label">{g.titulo}</p>
         {g.itens.map(i => (

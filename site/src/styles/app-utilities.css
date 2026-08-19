@@ -6,101 +6,110 @@
  * quebra sozinho: são composições, não tokens, e tokens.css é quem tem a guarda.
  */
 
-/* Rótulo de seção dentro de painel lateral.
-   Origem: QuickSwitchPanel.tsx, SectionLabel. Uppercase existe aqui e só aqui,
-   em 10px, para rotular grupo. Item de lista NÃO é uppercase no criador. */
-.app-section-label {
-  padding-inline: 0.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.375rem;
-  font-size: 10px;
-  line-height: 1;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-mono-sub);
-  user-select: none;
-}
+/*
+ * Tudo aqui vive em @layer components de proposito.
+ *
+ * CSS sem camada vence CSS em camada, e as utilities do Tailwind moram em
+ * @layer utilities. Sem esta camada, .app-icon-card { display: flex } derrotava
+ * lg:hidden e o botao de fechar a navegacao aparecia no desktop.
+ */
+@layer components {
+  /* Rótulo de seção dentro de painel lateral.
+     Origem: QuickSwitchPanel.tsx, SectionLabel. Uppercase existe aqui e só aqui,
+     em 10px, para rotular grupo. Item de lista NÃO é uppercase no criador. */
+  .app-section-label {
+    padding-inline: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.375rem;
+    font-size: 10px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-mono-sub);
+    user-select: none;
+  }
 
-/* Item de lista de painel lateral.
-   Origem: QuickSwitchPanel.tsx, CharacterItem — px-2 py-1.5 rounded-xl,
-   texto em text-sm font-medium, caixa normal. */
-.app-nav-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  width: 100%;
-  padding: 0.375rem 0.5rem;
-  border-radius: 0.75rem;
-  font-size: 0.875rem;
-  line-height: 1.35;
-  font-weight: 500;
-  color: var(--color-mono-sub);
-  text-align: left;
-  transition: background-color 150ms ease, color 150ms ease;
-  cursor: pointer;
-}
-.app-nav-item:hover {
-  background-color: var(--color-mono-card-hover);
-  color: var(--color-mono-text);
-}
-.app-nav-item[aria-current] {
-  background-color: var(--color-mono-card);
-  color: var(--color-mono-text);
-  font-weight: 600;
-}
+  /* Item de lista de painel lateral.
+     Origem: QuickSwitchPanel.tsx, CharacterItem — px-2 py-1.5 rounded-xl,
+     texto em text-sm font-medium, caixa normal. */
+  .app-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.375rem 0.5rem;
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.35;
+    font-weight: 500;
+    color: var(--color-mono-sub);
+    text-align: left;
+    transition: background-color 150ms ease, color 150ms ease;
+    cursor: pointer;
+  }
+  .app-nav-item:hover {
+    background-color: var(--color-mono-card-hover);
+    color: var(--color-mono-text);
+  }
+  .app-nav-item[aria-current] {
+    background-color: var(--color-mono-card);
+    color: var(--color-mono-text);
+    font-weight: 600;
+  }
 
-/* Título de seção de conteúdo.
-   Origem: SectionHeading.tsx — font-bold text-mono-text/60, caixa normal. */
-.app-section-heading {
-  font-weight: 700;
-  font-size: 0.75rem;
-  color: color-mix(in srgb, var(--color-mono-text) 60%, transparent);
-}
-@media (min-width: 640px) { .app-section-heading { font-size: 0.875rem; } }
+  /* Título de seção de conteúdo.
+     Origem: SectionHeading.tsx — font-bold text-mono-text/60, caixa normal. */
+  .app-section-heading {
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: color-mix(in srgb, var(--color-mono-text) 60%, transparent);
+  }
+  @media (min-width: 640px) { .app-section-heading { font-size: 0.875rem; } }
 
-/* Card de ícone do dock.
-   Origem: NavIconButton.tsx — w-9 h-9 rounded-xl, ícone 22 com stroke 1.5. */
-.app-icon-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  flex-shrink: 0;
-  border-radius: 0.75rem;
-  transition: all 150ms ease;
-}
-.app-dock-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.375rem;
-  width: 100%;
-  padding-block: 0.5rem;
-  color: var(--color-mono-sub);
-  cursor: pointer;
-  transition: color 150ms ease;
-}
-.app-dock-btn:hover { color: var(--color-mono-text); }
-.app-dock-btn:hover .app-icon-card {
-  background-color: color-mix(in srgb, var(--color-mono-bg) 50%, transparent);
-}
-.app-dock-btn[aria-current] { color: var(--color-mono-text); }
-.app-dock-btn[aria-current] .app-icon-card {
-  background-color: var(--color-mono-bg);
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
-}
+  /* Card de ícone do dock.
+     Origem: NavIconButton.tsx — w-9 h-9 rounded-xl, ícone 22 com stroke 1.5. */
+  .app-icon-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border-radius: 0.75rem;
+    transition: all 150ms ease;
+  }
+  .app-dock-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.375rem;
+    width: 100%;
+    padding-block: 0.5rem;
+    color: var(--color-mono-sub);
+    cursor: pointer;
+    transition: color 150ms ease;
+  }
+  .app-dock-btn:hover { color: var(--color-mono-text); }
+  .app-dock-btn:hover .app-icon-card {
+    background-color: color-mix(in srgb, var(--color-mono-bg) 50%, transparent);
+  }
+  .app-dock-btn[aria-current] { color: var(--color-mono-text); }
+  .app-dock-btn[aria-current] .app-icon-card {
+    background-color: var(--color-mono-bg);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+  }
 
-/* Botão secundário. Origem: Button.tsx, variante secondary. */
-.app-btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background-color: var(--color-mono-card);
-  border: 2px solid var(--color-border-secondary-btn);
-  color: var(--color-mono-text);
-  transition: background-color 150ms ease;
-  cursor: pointer;
+  /* Botão secundário. Origem: Button.tsx, variante secondary. */
+  .app-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--color-mono-card);
+    border: 2px solid var(--color-border-secondary-btn);
+    color: var(--color-mono-text);
+    transition: background-color 150ms ease;
+    cursor: pointer;
+  }
+  .app-btn-secondary:hover { background-color: var(--color-mono-card-hover); }
 }
-.app-btn-secondary:hover { background-color: var(--color-mono-card-hover); }
