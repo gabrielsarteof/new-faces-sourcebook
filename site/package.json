@@ -8,13 +8,20 @@
     "dev": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "tokens:sync": "node scripts/sync-tokens.mjs"
+    "tokens:sync": "node scripts/sync-tokens.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
+    "@astrojs/markdown-remark": "^7.2.3",
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.2.3",
     "tailwindcss": "^4.3.3",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "unist-util-visit": "^5.1.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.11"
   }
 }

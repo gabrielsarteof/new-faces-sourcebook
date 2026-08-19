@@ -1,0 +1,150 @@
+---
+import { render } from 'astro:content';
+import DocsLayout from '../layouts/DocsLayout.astro';
+import {
+  documentosPublicos, documentosOmitidos, indicesGerados, agruparPorEixo,
+  type Publicado, type Indice,
+} from '../application/documentos';
+import { rotaDoEixo } from '../domain/rota';
+import { rotuloDoEixo, rotuloPluralDoEixo, rotuloDoMundo, ordemDoEixo, eixoConhecido } from '../data/rotulos';
+
+/**
+ * A única rota de conteúdo do site.
+ *
+ * Uma rota é uma de duas coisas: um documento do corpus, ou um índice de categoria
+ * que o corpus não publica e o site gera. As duas moram aqui porque a pergunta que o
+ * arquivo responde é a mesma, "o que existe neste endereço", e separá-las exigiria
+ * dois catch-all no mesmo nível, que o roteador não permite.
+ *
+ * Não existe página escrita à mão por documento, e nunca vai existir: publicar no
+ * corpus faz a página aparecer, porque a lista de rotas sai da coleção.
+ */
+export async function getStaticPaths() {
+  const publicos = await documentosPublicos();
+  const omitidos = await documentosOmitidos();
+  const indices = await indicesGerados();
+
+  const semClassificacao = omitidos.filter(o => !o.conhecido);
+  console.log(
+    `[corpus] ${publicos.length} documentos públicos, ${indices.length} índices gerados, ` +
+      `${omitidos.length} omitidos (${omitidos.length - semClassificacao.length} por decisão, ` +
+      `${semClassificacao.length} sem classificação)`,
+  );
+  for (const o of semClassificacao) console.warn(`[corpus] AVISO ${o.id}: ${o.razao}`);
+  for (const i of indices.filter(i => i.eixo)) {
+    console.warn(
+      `[corpus] AVISO índice gerado em ${i.rota}: o corpus não publica ` +
+        `${i.mundo}.${i.eixo}.overview, então a página é só a lista`,
+    );
+  }
+
+  return [
+    ...publicos.map(p => ({
+      params: { rota: p.rota.slice(1) || undefined },
+      props: { doc: p, indice: null },
+    })),
+    ...indices.map(i => ({
+      params: { rota: i.rota.slice(1) || undefined },
+      props: { doc: null, indice: i },
+    })),
+  ];
+}
+
+interface Props { doc: Publicado | null; indice: Indice | null }
+const { doc, indice } = Astro.props;
+
+const mundo = doc?.mundo ?? indice!.mundo;
+const titulo = doc
+  ? doc.titulo
+  : indice!.eixo
+    ? `${rotuloPluralDoEixo(indice!.eixo)} · ${rotuloDoMundo(mundo)}`
+    : rotuloDoMundo(mundo);
+
+const trilha: { rotulo: string; href?: string }[] = [{ rotulo: 'Início', href: '/' }];
+if (mundo && (doc?.rota ?? indice!.rota) !== `/${mundo}`) {
+  trilha.push({ rotulo: rotuloDoMundo(mundo), href: `/${mundo}` });
+}
+if (doc) {
+  const eixo = rotaDoEixo(doc.id);
+  if (eixo && eixo !== doc.rota) trilha.push({ rotulo: rotuloPluralDoEixo(doc.eixo!), href: eixo });
+}
+trilha.push({ rotulo: titulo });
+
+const render_ = doc ? await render(doc.entrada) : null;
+// Extraído para constante porque o guard `doc &&` no template não estreita `render_`.
+const Conteudo = render_?.Content;
+
+/**
+ * O corpo traz o próprio título, ou o site precisa dar um?
+ *
+ * Cento e cinquenta e dois documentos abrem com `# Título`. Os 28 que marcam seção
+ * em caixa alta não abrem com heading nenhum, e sem isto renderizariam sem título:
+ * uma página inteira sem h1, que quebra tanto a leitura quanto a navegação por
+ * cabeçalho. O título do front matter cobre o vão sem duplicar quem já tem.
+ */
+const corpoTemTitulo = (render_?.headings ?? []).some(h => h.depth === 1);
+const estadoAtipico = doc && doc.entrada.data.status !== 'final' ? doc.entrada.data.status : null;
+
+// Índice: agrupa por eixo quando é índice de mundo; lista direto quando é de eixo.
+const grupos = indice && !indice.eixo
+  ? [...agruparPorEixo(indice.membros).entries()].sort((a, b) => ordemDoEixo(a[0]) - ordemDoEixo(b[0]))
+  : null;
+---
+<DocsLayout titulo={titulo} trilha={trilha} headings={render_?.headings ?? []}>
+  {doc && Conteudo && (
+    <>
+      {!corpoTemTitulo && <h1>{doc.titulo}</h1>}
+
+      {estadoAtipico && (
+        <p class="not-prose mb-6 rounded-xl border border-mono-border bg-mono-card px-4 py-3 text-sm text-mono-sub">
+          <strong class="text-mono-text">Estado: {estadoAtipico}.</strong>
+          {' '}Este documento não está publicado como final no corpus.
+        </p>
+      )}
+
+      <Conteudo />
+
+      <hr />
+
+      <details class="not-prose text-sm text-mono-sub">
+        <summary class="cursor-pointer font-semibold text-mono-text">Detalhes do documento</summary>
+        <dl class="mt-3 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1">
+          <dt class="font-semibold">Identificador</dt><dd><code>{doc.id}</code></dd>
+          <dt class="font-semibold">Versão</dt><dd>{doc.versao}</dd>
+          <dt class="font-semibold">Tipo</dt><dd>{rotuloDoEixo(doc.tipo)}</dd>
+          <dt class="font-semibold">Camada</dt><dd>{doc.entrada.data.layer}</dd>
+          <dt class="font-semibold">Integração</dt><dd><code>/d/{doc.id}</code></dd>
+        </dl>
+      </details>
+    </>
+  )}
+
+  {indice && (
+    <>
+      <h1>{titulo}</h1>
+      <p>
+        {indice.membros.length} documento{indice.membros.length === 1 ? '' : 's'} publicado
+        {indice.membros.length === 1 ? '' : 's'} no corpus. Esta página é gerada da coleção:
+        documento novo entra aqui sozinho.
+      </p>
+
+      {grupos
+        ? grupos.map(([eixo, membros]) => (
+            <>
+              <h2 id={eixo || 'geral'}>{eixo ? rotuloPluralDoEixo(eixo) : 'Geral'}</h2>
+              {!eixoConhecido(eixo) && eixo && (
+                <p><em>Eixo sem rótulo próprio; exibido pelo nome que o corpus usa.</em></p>
+              )}
+              <ul>
+                {membros.map(m => <li><a href={m.rota}>{m.titulo}</a></li>)}
+              </ul>
+            </>
+          ))
+        : (
+            <ul>
+              {indice.membros.map(m => <li><a href={m.rota}>{m.titulo}</a></li>)}
+            </ul>
+          )}
+    </>
+  )}
+</DocsLayout>

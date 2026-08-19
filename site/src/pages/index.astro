@@ -1,105 +1,95 @@
 ---
 import DocsLayout from '../layouts/DocsLayout.astro';
+import { documentosPublicos, agruparPorEixo } from '../application/documentos';
+import { rotuloDoMundo, rotuloPluralDoEixo, ordemDoEixo } from '../data/rotulos';
 
 /**
- * Artigo fixture da fase 1.
+ * Home.
  *
- * Existe para julgar a pele contra o criador antes de o pipeline existir, e por
- * isso exercita todas as formas que o corpus usa: heading em três níveis, tabela,
- * bloco de código, citação, lista e código em linha. Sai na fase 2, quando o
- * conteúdo real passar a vir de ../core e ../worlds.
+ * Combina dois eixos, como o Supabase Docs faz: primeiro os mundos disponíveis, com
+ * contagem real saída da coleção, depois as tarefas com que o jogador chega. A
+ * contagem não é escrita à mão de propósito — documento novo muda o número sozinho,
+ * e um número que mente é pior que nenhum.
+ *
+ * A prosa desta página é copy de interface do site, e não regra: nenhuma linha aqui
+ * afirma mecânica. Onde há afirmação de regra, ela mora no corpus.
  */
-const headings = [
-  { depth: 2, slug: 'o-que-e', text: 'O que é este site' },
-  { depth: 2, slug: 'formas', text: 'Formas que o corpus usa' },
-  { depth: 3, slug: 'tabela', text: 'Tabela' },
-  { depth: 3, slug: 'formula', text: 'Fórmula' },
-  { depth: 3, slug: 'citacao', text: 'Citação' },
-  { depth: 2, slug: 'estado', text: 'Estado desta fase' },
-];
+const publicos = await documentosPublicos();
+
+const ORDEM_MUNDOS = ['core', 'common', 'naruto', 'jujutsu'];
+const porMundo = new Map<string, typeof publicos>();
+for (const p of publicos) {
+  if (!porMundo.has(p.mundo)) porMundo.set(p.mundo, []);
+  porMundo.get(p.mundo)!.push(p);
+}
+const mundos = [...porMundo.entries()].sort(
+  (a, b) => ORDEM_MUNDOS.indexOf(a[0]) - ORDEM_MUNDOS.indexOf(b[0]),
+);
+
+const descricaoDoMundo: Record<string, string> = {
+  core: 'As regras que valem em qualquer cenário: economia de XP, perícias, combate e efeitos de status.',
+  common: 'Perícias que não leem nenhum fato de cenário e valem em qualquer mesa.',
+  naruto: 'O cenário principal: perícias, clãs, linhagens, compêndios de técnicas e sistemas.',
+  jujutsu: 'Cenário em cobertura fina, com clãs, linhagens e técnicas ainda em preenchimento.',
+};
+
+/** Eixo mais volumoso de cada mundo, como atalho de leitura no card. */
+function destaques(membros: typeof publicos) {
+  return [...agruparPorEixo(membros).entries()]
+    .filter(([eixo]) => eixo)
+    .sort((a, b) => ordemDoEixo(a[0]) - ordemDoEixo(b[0]))
+    .slice(0, 4);
+}
 ---
 <DocsLayout
   titulo="New Faces docs"
   descricao="Site público de leitura do sourcebook do New Faces."
-  trilha={[{ rotulo: 'Início', href: '/' }, { rotulo: 'Visão geral' }]}
-  headings={headings}
+  trilha={[{ rotulo: 'Início' }]}
 >
   <h1>New Faces docs</h1>
 
   <p>
-    Este é o site de leitura do <strong>sourcebook</strong>. O corpus é a fonte de
-    verdade e este site consome: nada de regra nasce aqui, e divergência entre os
-    dois significa que o site está atrasado.
+    O manual do New Faces, publicado para leitura. O corpus é a fonte de verdade e
+    este site consome: nada de regra nasce aqui, e divergência entre os dois significa
+    que o site está atrasado.
   </p>
-
-  <h2 id="o-que-e">O que é este site<a class="anchor" href="#o-que-e" aria-label="Link para esta seção">#</a></h2>
 
   <p>
-    O corpus tem 183 documentos com front matter, escritos em Markdown, versionados
-    em repositório próprio. Quem tem o repositório lê; quem senta na mesa, não. O
-    site existe para fechar essa distância, e mora dentro do repositório do corpus
-    justamente para nunca ficar atrasado em relação a ele.
+    São <strong>{publicos.length} documentos</strong> publicados. Toda página é gerada
+    do Markdown do corpus, então documento novo aparece sem que ninguém escreva código.
   </p>
 
-  <ul>
-    <li>A URL deriva do <code>id</code> do front matter, sem dicionário de tradução.</li>
-    <li>A visibilidade deriva do <code>type</code>: metodologia e campanha ficam fora.</li>
-    <li>O conteúdo vira HTML na build, então o celular na mesa não baixa 2,85 MB de Markdown.</li>
-  </ul>
+  <h2 id="mundos">Mundos</h2>
 
-  <h2 id="formas">Formas que o corpus usa<a class="anchor" href="#formas" aria-label="Link para esta seção">#</a></h2>
-
-  <h3 id="tabela">Tabela<a class="anchor" href="#tabela" aria-label="Link para esta seção">#</a></h3>
-
-  <p>
-    Cento e vinte e sete documentos usam tabela, e a relação entre linha e coluna <em>é</em> o conteúdo. Tabela nunca vira card: ela rola dentro do próprio
-    contêiner, inclusive no celular.
-  </p>
-
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr><th>Nível</th><th>Rank destravado</th><th>Custo acumulado</th><th>Observação</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>LV1</td><td>E</td><td>750</td><td>Fundamentos do domínio</td></tr>
-        <tr><td>LV2</td><td>D</td><td>1.875</td><td>Primeira inclinação</td></tr>
-        <tr><td>LV3</td><td>C</td><td>4.125</td><td>Portão de perícia cruzada</td></tr>
-        <tr><td>LV4</td><td>B</td><td>8.250</td><td>Teto do peso de aquisição adicional</td></tr>
-        <tr><td>LV5</td><td>A</td><td>15.000</td><td>Ápice de extensão manifestada</td></tr>
-        <tr><td>LV6</td><td>S</td><td>25.125</td><td>Transcendência</td></tr>
-      </tbody>
-    </table>
+  <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+    {mundos.map(([mundo, membros]) => (
+      <a
+        href={`/${mundo}`}
+        class="flex flex-col gap-2 rounded-xl border border-mono-border bg-mono-card p-4 no-underline transition-colors hover:bg-mono-card-hover"
+      >
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="text-base font-bold text-mono-text">{rotuloDoMundo(mundo)}</span>
+          <span class="text-xs text-mono-muted">{membros.length} documentos</span>
+        </div>
+        <p class="text-sm leading-snug text-mono-sub">{descricaoDoMundo[mundo]}</p>
+        <div class="mt-1 flex flex-wrap gap-1.5">
+          {destaques(membros).map(([eixo, docs]) => (
+            <span class="rounded-md border border-mono-border px-1.5 py-0.5 text-[11px] text-mono-muted">
+              {rotuloPluralDoEixo(eixo)} · {docs.length}
+            </span>
+          ))}
+        </div>
+      </a>
+    ))}
   </div>
 
-  <h3 id="formula">Fórmula<a class="anchor" href="#formula" aria-label="Link para esta seção">#</a></h3>
+  <h2 id="comecar">Por onde começar</h2>
 
-  <p>
-    Noventa documentos trazem bloco de código, quase sempre fórmula. Bloco rola na
-    horizontal e nunca quebra a linha, porque fórmula quebrada muda de sentido.
-  </p>
-
-  <pre><code>custo do nível = round((50 + 2,2 × (L² − 1)) / 5) × 5
-
-peso do nível = Base de Nível de LV1 ÷ Base de Nível daquele nível = 12 ÷ Base
-LV1 1,000 · LV2 0,500 · LV3 0,375 · LV4 0,300 · LV5 0,267 · LV6 0,240</code></pre>
-
-  <h3 id="citacao">Citação<a class="anchor" href="#citacao" aria-label="Link para esta seção">#</a></h3>
-
-  <blockquote>
-    Treze documentos usam citação. O corpus não publica convenção de callout, e o
-    site não inventa uma.
-  </blockquote>
-
-  <h2 id="estado">Estado desta fase<a class="anchor" href="#estado" aria-label="Link para esta seção">#</a></h2>
-
-  <p>
-    Esta página é fixture da fase 1 e existe só para julgar a pele contra o criador
-    de fichas. A navegação lateral é lista fixa, a busca está desligada e nenhum
-    documento do corpus renderiza ainda. A fase 2 liga o pipeline sobre <code>../core</code> e <code>../worlds</code>, e esta página some.
-  </p>
-
-  <p>
-    Os tokens de cor vêm de <code>tokens.css</code>, que é arquivo gerado a partir do <code>style.css</code> do criador. Se as duas peles divergirem, o teste <code>docsTokens.test.ts</code> no repositório do criador falha.
-  </p>
+  <ul>
+    <li><a href="/naruto/character-creation">Criar personagem</a>, o passo a passo da ficha.</li>
+    <li><a href="/core/xp-economy">Economia de XP</a>, quanto custa cada compra.</li>
+    <li><a href="/naruto/skill">Índice de Perícias</a>, o que existe para comprar e o que cada uma entrega.</li>
+    <li><a href="/naruto/compendium">Compêndios de técnicas</a>, os jutsus catalogados por domínio.</li>
+    <li><a href="/naruto/quick-calculations">Cálculos rápidos</a>, as contas que a mesa faz toda sessão.</li>
+  </ul>
 </DocsLayout>

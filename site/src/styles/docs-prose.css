@@ -110,7 +110,9 @@
   border-radius: 4px;
   padding: 0.1em 0.35em;
   font-size: 0.875em;
-  white-space: nowrap;
+  /* Token curto não deve quebrar no meio, mas caminho de arquivo é longo e, sem
+     permitir quebra, empurra a página inteira na horizontal no celular. */
+  overflow-wrap: anywhere;
 }
 .docs-prose pre {
   max-width: none;
@@ -131,3 +133,25 @@
   .docs-prose h2 { font-size: 1.3rem; }
   .docs-prose h3 { font-size: 1.075rem; }
 }
+
+/* ── Referência que não leva a lugar nenhum ──────────────────────────────────
+   O corpus cita documentos ainda não escritos: 48 alvos previstos em 54
+   referências. Isso é dívida declarada, não link quebrado, e um 404 mentiria.
+   Fica focável para quem navega por teclado alcançar a explicação. */
+.docs-prose .ref-indisponivel {
+  color: var(--color-mono-muted);
+  border-bottom: 1px dashed var(--color-mono-border-strong);
+  cursor: help;
+}
+.docs-prose .ref-estado {
+  margin-left: 0.4ch;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.75;
+}
+.docs-prose .ref-estado::before { content: '('; }
+.docs-prose .ref-estado::after  { content: ')'; }
+
+/* Bloco de detalhes do documento, fora da medida de leitura. */
+.docs-prose .not-prose { max-width: none; }
