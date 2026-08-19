@@ -150,33 +150,40 @@
     width: 4.5rem;
     transition: width 200ms ease-out, box-shadow 200ms ease-out;
   }
+  /*
+   * 18rem, e não o mínimo exato para caber o conteúdo mais largo de hoje.
+   *
+   * A primeira versão usava 15.5rem, calculado para caber exatamente a soma do
+   * logo (wordmark + "docs") medida naquele momento — e cortava a palavra "docs"
+   * pela metade assim que a matemática de sobra virou matemática justa: ícone
+   * (36px) + gap (12px) + padding do botão (22px) + padding do nav (12px) = 82px
+   * de estrutura fixa, sobrando só 165px de área útil contra os 177px que o
+   * wordmark em h-8 mais "docs" precisam. Zero de folga quebra no primeiro
+   * conteúdo que mudar — um mundo com nome mais longo, um ícone maior. 18rem
+   * (288px) deixa a mesma linha com quase 30px de sobra, e o mesmo vale para
+   * qualquer rótulo de texto puro, que já cabia com folga menor ainda.
+   */
   .dock-expandivel:hover,
   .dock-expandivel:focus-within {
-    width: 15.5rem;
+    width: 18rem;
     box-shadow: 4px 0 24px rgba(0, 0, 0, 0.18);
   }
   .dock-expandivel:hover .app-dock-label,
   .dock-expandivel:focus-within .app-dock-label {
-    max-width: 12rem;
+    max-width: 14rem;
     opacity: 1;
   }
 
   /*
-   * Logo do dock: o ícone quadrado dá lugar ao wordmark completo no mesmo hover
-   * que revela os rótulos. Os dois ficam empilhados por position:absolute na mesma
-   * origem, então o crossfade é só opacidade — nunca desloca nada, e o overflow-
-   * hidden do próprio dock recorta o wordmark enquanto a largura ainda não chegou,
-   * o que produz a revelação em sincronia com o crescimento do rail.
+   * Ícone do logo: some no mesmo hover que revela os rótulos, deixando o slot de
+   * revelação (.app-dock-label, reaproveitado para o wordmark + "docs") tomar o
+   * lugar visual dele. Ícone e wordmark não ficam empilhados — moram em slots
+   * diferentes da mesma linha, exatamente como qualquer outro item do dock.
    */
   .app-dock-logo-icon { opacity: 1; transition: opacity 150ms ease; }
-  .app-dock-logo-wordmark { opacity: 0; transition: opacity 150ms ease; pointer-events: none; }
   .dock-expandivel:hover .app-dock-logo-icon,
   .dock-expandivel:focus-within .app-dock-logo-icon {
     opacity: 0;
-  }
-  .dock-expandivel:hover .app-dock-logo-wordmark,
-  .dock-expandivel:focus-within .app-dock-logo-wordmark {
-    opacity: 1;
   }
 
   /* Botão secundário. Origem: Button.tsx, variante secondary. */
