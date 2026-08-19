@@ -199,3 +199,136 @@
   }
   .app-btn-secondary:hover { background-color: var(--color-mono-card-hover); }
 }
+
+/*
+ * Navegação colapsável do painel de documentos.
+ *
+ * Antes, o painel abria todos os 142 itens de Naruto de uma vez: 5005px de conteúdo
+ * numa tela de 720px, mais de 4000px de rolagem para achar qualquer coisa. Uma
+ * hierarquia que existe nos dados mas não na interface não é hierarquia, é lista.
+ *
+ * Usa <details>/<summary> nativos de propósito, em vez de div + JavaScript: o
+ * navegador já dá teclado (Enter/Espaço), papel de acessibilidade, estado
+ * aria-expanded e Ctrl+F que revela conteúdo fechado. Reimplementar isso à mão
+ * seria mais código para chegar num resultado pior.
+ */
+@layer components {
+  .nav-grupo,
+  .nav-subgrupo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-grupo-cabecalho,
+  .nav-subgrupo-cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    transition: background-color 150ms ease, color 150ms ease;
+  }
+  /* Remove o triângulo padrão do <summary> nos dois motores. */
+  .nav-grupo-cabecalho::-webkit-details-marker,
+  .nav-subgrupo-cabecalho::-webkit-details-marker { display: none; }
+
+  .nav-grupo-cabecalho:hover,
+  .nav-subgrupo-cabecalho:hover {
+    background-color: var(--color-mono-card-hover);
+    color: var(--color-mono-text);
+  }
+  .nav-grupo-cabecalho:focus-visible,
+  .nav-subgrupo-cabecalho:focus-visible {
+    outline: 2px solid var(--color-mono-text);
+    outline-offset: -2px;
+  }
+
+  .nav-subgrupo-cabecalho {
+    margin-left: 0.5rem;
+    font-size: 9px;
+    opacity: 0.75;
+  }
+
+  /* A seta gira em vez de trocar de ícone: mesma peça nos dois estados, e o giro
+     comunica a direção do movimento melhor que dois glifos diferentes. */
+  .nav-chevron { transition: transform 200ms ease; }
+  .nav-grupo[open] > .nav-grupo-cabecalho .nav-chevron,
+  .nav-subgrupo[open] > .nav-subgrupo-cabecalho .nav-chevron {
+    transform: rotate(90deg);
+  }
+
+  .nav-contagem {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: var(--color-mono-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /*
+   * Animação de altura por grid-template-rows.
+   *
+   * `height: auto` não é animável, então a técnica é animar a linha de um grid de
+   * 0fr para 1fr, com o filho em overflow hidden. É o jeito moderno de animar
+   * altura desconhecida sem medir nada em JavaScript nem fixar um max-height
+   * chutado, que cortaria listas longas ou deixaria a animação lenta nas curtas.
+   */
+  .nav-grupo-corpo {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 220ms ease;
+  }
+  .nav-grupo[open] > .nav-grupo-corpo,
+  .nav-subgrupo[open] > .nav-grupo-corpo {
+    grid-template-rows: 1fr;
+  }
+  .nav-grupo-conteudo {
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  /* O índice do eixo ("Visão geral") é o próprio grupo como página, então recebe
+     um traço que o separa dos documentos listados abaixo dele. */
+  .nav-item-indice { font-style: italic; opacity: 0.85; }
+
+  /*
+   * Quem prefere menos movimento não recebe nenhum.
+   *
+   * Sem isto, o site ignora uma preferência de sistema que existe justamente para
+   * quem sente enjoo ou desconforto com animação — e este painel anima altura,
+   * rotação e largura ao mesmo tempo.
+   */
+  @media (prefers-reduced-motion: reduce) {
+    .nav-grupo-corpo,
+    .nav-chevron,
+    .nav-grupo-cabecalho,
+    .nav-subgrupo-cabecalho,
+    .dock-expandivel,
+    .dock-expandivel * {
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/*
+ * Alvo de toque em tela sem mouse.
+ *
+ * O cabeçalho de grupo media 28px de altura, contra os 44px que as diretrizes de
+ * acessibilidade pedem para alvo de toque — confortável para cursor, pequeno demais
+ * para o dedo. `pointer: coarse` aplica isso só onde o apontador é impreciso, sem
+ * inchar a navegação no desktop, onde 28px é adequado e cabe mais item na tela.
+ */
+@media (pointer: coarse) {
+  @layer components {
+    .nav-grupo-cabecalho,
+    .nav-subgrupo-cabecalho {
+      min-height: 2.75rem;
+    }
+    .app-nav-item {
+      min-height: 2.75rem;
+    }
+  }
+}

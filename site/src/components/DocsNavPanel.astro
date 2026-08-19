@@ -1,5 +1,6 @@
 ---
 import { arvoreDeNavegacao, mundoDaRota } from '../application/navegacao';
+import { marcarRotaAtual } from '../domain/navegacao';
 
 /**
  * Painel de navegação, 280px.
@@ -34,7 +35,7 @@ interface Props {
 }
 const { rotaAtual = '/', abrirNoDesktop = true } = Astro.props;
 
-const arvore = await arvoreDeNavegacao();
+const arvore = marcarRotaAtual(await arvoreDeNavegacao(), rotaAtual);
 const mundo = mundoDaRota(rotaAtual, arvore);
 const CRIADOR = 'https://new-faces-character-creator.vercel.app';
 ---
@@ -87,33 +88,63 @@ const CRIADOR = 'https://new-faces-character-creator.vercel.app';
 
       <nav class="flex flex-col px-3">
         {mundo.grupos.map(g => (
-          <div class="flex flex-col">
-            {g.rotaDoIndice
-              ? <a href={g.rotaDoIndice} class="app-section-label no-underline hover:text-mono-text">{g.titulo}</a>
-              : <p class="app-section-label">{g.titulo}</p>}
+          <details class="nav-grupo" open={g.contemRotaAtual}>
+            <summary class="nav-grupo-cabecalho app-section-label">
+              <svg class="nav-chevron shrink-0" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+              <span class="flex-1">{g.titulo}</span>
+              <span class="nav-contagem">{g.itens.length}</span>
+            </summary>
 
-            {g.subgrupos
-              ? g.subgrupos.map(sub => (
-                  <>
-                    <p class="app-section-label !pt-1 !text-[9px] !opacity-70 pl-2">{sub.titulo}</p>
-                    {sub.itens.map(i => (
-                      <a href={i.rota} aria-current={i.rota === rotaAtual ? 'page' : undefined} class="app-nav-item no-underline">
-                        <span class="flex-1 truncate">{i.titulo}</span>
-                        {i.emprestado && (
-                          <span class="shrink-0 text-[9px] uppercase tracking-widest text-mono-muted" title="Perícia sem cenário, jogável em qualquer mesa">
-                            comum
-                          </span>
-                        )}
-                      </a>
-                    ))}
-                  </>
-                ))
-              : g.itens.map(i => (
-                  <a href={i.rota} aria-current={i.rota === rotaAtual ? 'page' : undefined} class="app-nav-item no-underline">
-                    <span class="flex-1 truncate">{i.titulo}</span>
+            <div class="nav-grupo-corpo">
+              <div class="nav-grupo-conteudo">
+                {g.rotaDoIndice && (
+                  <a
+                    href={g.rotaDoIndice}
+                    aria-current={g.rotaDoIndice === rotaAtual ? 'page' : undefined}
+                    class="app-nav-item nav-item-indice no-underline"
+                  >
+                    <span class="flex-1 truncate">Visão geral</span>
                   </a>
-                ))}
-          </div>
+                )}
+
+                {g.subgrupos
+                  ? g.subgrupos.map(sub => (
+                      <details class="nav-subgrupo" open={sub.contemRotaAtual}>
+                        <summary class="nav-subgrupo-cabecalho app-section-label">
+                          <svg class="nav-chevron shrink-0" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="m9 18 6-6-6-6" />
+                          </svg>
+                          <span class="flex-1">{sub.titulo}</span>
+                          <span class="nav-contagem">{sub.itens.length}</span>
+                        </summary>
+                        <div class="nav-grupo-corpo">
+                          <div class="nav-grupo-conteudo">
+                            {sub.itens.map(i => (
+                              <a href={i.rota} aria-current={i.rota === rotaAtual ? 'page' : undefined} class="app-nav-item no-underline">
+                                <span class="flex-1 truncate">{i.titulo}</span>
+                                {i.emprestado && (
+                                  <span class="shrink-0 text-[9px] uppercase tracking-widest text-mono-muted" title="Perícia sem cenário, jogável em qualquer mesa">
+                                    comum
+                                  </span>
+                                )}
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      </details>
+                    ))
+                  : g.itens
+                      .filter(i => i.rota !== g.rotaDoIndice)
+                      .map(i => (
+                        <a href={i.rota} aria-current={i.rota === rotaAtual ? 'page' : undefined} class="app-nav-item no-underline">
+                          <span class="flex-1 truncate">{i.titulo}</span>
+                        </a>
+                      ))}
+              </div>
+            </div>
+          </details>
         ))}
       </nav>
     </>

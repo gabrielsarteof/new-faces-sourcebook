@@ -120,9 +120,15 @@ export async function arvoreDeNavegacao(): Promise<MundoNav[]> {
             .map(([categoria, itens]) => ({
               titulo: nomeDaCategoria(categoria),
               itens: ordenar(itens, rotaDoIndice),
+              // Preenchido por marcarRotaAtual, que sabe qual rota está sendo lida.
+              contemRotaAtual: false,
             }));
           if (semCategoria.length > 0) {
-            subgrupos.push({ titulo: 'Sem classificação', itens: ordenar(semCategoria, rotaDoIndice) });
+            subgrupos.push({
+              titulo: 'Sem classificação',
+              itens: ordenar(semCategoria, rotaDoIndice),
+              contemRotaAtual: false,
+            });
           }
         }
       }
@@ -133,6 +139,8 @@ export async function arvoreDeNavegacao(): Promise<MundoNav[]> {
         subgrupos,
         itens: ordenar(todos, rotaDoIndice),
         rotaDoIndice,
+        // Preenchido por marcarRotaAtual, que sabe qual rota está sendo lida.
+        contemRotaAtual: false,
       });
     }
 

@@ -14,14 +14,23 @@ export interface ItemNav {
   emprestado: boolean;
 }
 
+export interface SubgrupoNav {
+  titulo: string;
+  itens: ItemNav[];
+  /** Se o documento sendo lido está aqui dentro. Decide o que abre por padrão. */
+  contemRotaAtual: boolean;
+}
+
 export interface GrupoNav {
   /** O `type` que define o grupo. */
   tipo: string;
   titulo: string;
   /** Subgrupos por categoria, quando o eixo tem classificação publicada. */
-  subgrupos: { titulo: string; itens: ItemNav[] }[] | null;
+  subgrupos: SubgrupoNav[] | null;
   itens: ItemNav[];
   rotaDoIndice: string | null;
+  /** Se o documento sendo lido está aqui dentro. Decide o que abre por padrão. */
+  contemRotaAtual: boolean;
 }
 
 export interface MundoNav {
@@ -51,4 +60,38 @@ export function mundoDaRota(rota: string, arvore: MundoNav[]): MundoNav | null {
   if (direto) return direto;
   if (pertence('/common')) return arvore.find(m => m.base === '/naruto') ?? null;
   return null;
+}
+
+/**
+ * Marca que grupo e subgrupo contêm a rota sendo lida.
+ *
+ * A navegação abre colapsada, e sem isto o leitor perderia o próprio lugar: abrir o
+ * painel numa perícia de Katon precisa mostrar Perícias aberta e, dentro dela,
+ * Ninjutsu aberta, com o resto fechado. Abrir tudo (o que a versão anterior fazia)
+ * dava 142 itens e mais de 4000px de rolagem; abrir nada esconderia onde você está.
+ *
+ * O índice do eixo conta como pertencente ao grupo: ler `/naruto/skill` deve abrir
+ * Perícias, não deixar tudo fechado.
+ *
+ * Puro e sem efeito colateral: devolve uma árvore nova, não muda a recebida.
+ */
+export function marcarRotaAtual(arvore: MundoNav[], rotaAtual: string): MundoNav[] {
+  return arvore.map(mundo => {
+    const grupos = mundo.grupos.map(grupo => {
+      const subgrupos =
+        grupo.subgrupos?.map(sub => ({
+          ...sub,
+          contemRotaAtual: sub.itens.some(i => i.rota === rotaAtual),
+        })) ?? null;
+
+      const contemRotaAtual =
+        grupo.rotaDoIndice === rotaAtual ||
+        grupo.itens.some(i => i.rota === rotaAtual) ||
+        (subgrupos?.some(s => s.contemRotaAtual) ?? false);
+
+      return { ...grupo, subgrupos, contemRotaAtual };
+    });
+
+    return { ...mundo, grupos };
+  });
 }
