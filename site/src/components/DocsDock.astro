@@ -21,6 +21,11 @@ import { iconeDoMundo } from '../data/rotulos';
  * hover não. Reflodir o layout a cada passada de mouse perto da borda esquerda
  * seria pior ainda aqui, porque o painel de documentos já reflui no clique: dois
  * refluxos concorrentes (um por hover, outro por navegação) brigariam entre si.
+ *
+ * O logo acompanha o mesmo gesto: o ícone quadrado dá lugar ao wordmark completo,
+ * os dois ancorados na mesma borda esquerda que os ícones dos itens abaixo — nunca
+ * centralizados, porque um logo centralizado numa barra que muda de largura desliza
+ * de lugar a cada hover, e nada deve se mover além da largura do próprio dock.
  */
 interface Props { rotaAtual?: string }
 const { rotaAtual = '/' } = Astro.props;
@@ -32,14 +37,28 @@ const emComecar = rotaAtual === '/comecar';
 const CRIADOR = 'https://new-faces-character-creator.vercel.app';
 ---
 <nav
-  class="dock-expandivel fixed inset-y-0 left-0 z-[80] hidden w-18 flex-col overflow-hidden navbar-bg sidebar-boundary px-1.5 pt-14 pb-3 lg:flex"
+  class="dock-expandivel fixed inset-y-0 left-0 z-[80] hidden w-18 flex-col overflow-hidden navbar-bg sidebar-boundary px-1.5 py-3 lg:flex"
   aria-label="Navegação principal"
 >
-  <div class="absolute inset-x-0 top-0 flex h-14 items-center justify-center">
-    <a href="/" class="flex h-9 w-9 shrink-0 items-center justify-center" aria-label="Início">
-      <img src="/logo-icon.png" alt="" width="24" height="24" class="h-6 w-6 select-none object-contain" draggable="false" />
-    </a>
-  </div>
+  {/*
+    Reaproveita .app-dock-btn e .app-icon-card em vez de recalcular o recuo à mão:
+    o cartão de ícone centraliza um SVG de 22px numa caixa de 36px, e sem essa
+    mesma caixa em volta do logo os dois ficariam desalinhados por 7px.
+  */}
+  <a href="/" aria-label="Início" class="app-dock-btn mb-2 no-underline">
+    <span class="app-icon-card">
+      <span class="relative block h-6 w-6 shrink-0">
+        <img
+          src="/logo-icon.png" alt="" width="24" height="24" draggable="false"
+          class="app-dock-logo-icon absolute inset-0 h-6 w-6 select-none object-contain"
+        />
+        <img
+          src="/logo-wordmark.png" alt="New Faces" draggable="false"
+          class="app-dock-logo-wordmark absolute left-0 top-1/2 h-6 w-auto -translate-y-1/2 select-none object-contain"
+        />
+      </span>
+    </span>
+  </a>
 
   <div class="flex shrink-0 flex-col">
     <a href="/" class="app-dock-btn no-underline" aria-current={naInicio ? 'page' : undefined}>

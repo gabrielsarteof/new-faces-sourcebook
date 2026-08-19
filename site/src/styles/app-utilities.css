@@ -148,6 +148,24 @@
     opacity: 1;
   }
 
+  /*
+   * Logo do dock: o ícone quadrado dá lugar ao wordmark completo no mesmo hover
+   * que revela os rótulos. Os dois ficam empilhados por position:absolute na mesma
+   * origem, então o crossfade é só opacidade — nunca desloca nada, e o overflow-
+   * hidden do próprio dock recorta o wordmark enquanto a largura ainda não chegou,
+   * o que produz a revelação em sincronia com o crescimento do rail.
+   */
+  .app-dock-logo-icon { opacity: 1; transition: opacity 150ms ease; }
+  .app-dock-logo-wordmark { opacity: 0; transition: opacity 150ms ease; pointer-events: none; }
+  .dock-expandivel:hover .app-dock-logo-icon,
+  .dock-expandivel:focus-within .app-dock-logo-icon {
+    opacity: 0;
+  }
+  .dock-expandivel:hover .app-dock-logo-wordmark,
+  .dock-expandivel:focus-within .app-dock-logo-wordmark {
+    opacity: 1;
+  }
+
   /* Botão secundário. Origem: Button.tsx, variante secondary. */
   .app-btn-secondary {
     display: inline-flex;
