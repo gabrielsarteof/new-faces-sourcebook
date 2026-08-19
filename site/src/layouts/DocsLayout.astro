@@ -33,7 +33,8 @@ interface Props {
 
 const { titulo, descricao, trilha = [], headings = [], comPainel = true } = Astro.props;
 const rotaAtual = Astro.url.pathname;
-const DOCK = 72;
+// A largura do dock não é constante aqui: ela varia com o hover e vive como
+// `--dock-largura` em app-utilities.css, que é quem sabe quando o dock expande.
 const PAINEL = comPainel ? 280 : 0;
 ---
 <!doctype html>
@@ -123,10 +124,23 @@ const PAINEL = comPainel ? 280 : 0;
       </div>
     </div>
 
-    <style define:vars={{ dock: `${DOCK}px`, painel: `${PAINEL}px` }}>
+    <style define:vars={{ painel: `${PAINEL}px` }}>
+      /*
+       * O conteúdo reserva o dock mais o painel, e o dock é variável.
+       *
+       * `--dock-largura` é definida em app-utilities.css e muda de 4.5rem para
+       * 18rem quando o dock expande com painel presente. Sem ler essa variável
+       * aqui, o painel empurrado invadiria o texto do artigo — trocaria um
+       * problema de sobreposição por outro.
+       *
+       * Sem painel (Início, Começar), o dock volta a crescer por cima: não há
+       * navegação embaixo dele para soterrar, e refluir o artigo inteiro a cada
+       * passada de mouse seria pior que a sobreposição.
+       */
       @media (min-width: 1024px) {
         [data-conteudo-wrapper] {
-          padding-left: calc(var(--dock) + var(--painel)) !important;
+          padding-left: calc(var(--dock-largura, 4.5rem) + var(--painel)) !important;
+          transition: padding-left 200ms ease-out;
         }
       }
     </style>

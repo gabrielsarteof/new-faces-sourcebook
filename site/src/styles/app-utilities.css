@@ -151,26 +151,26 @@
     transition: width 200ms ease-out, box-shadow 200ms ease-out;
   }
   /*
-   * 18rem, e não o mínimo exato para caber o conteúdo mais largo de hoje.
+   * 14rem (224px), medido e não chutado.
    *
-   * A primeira versão usava 15.5rem, calculado para caber exatamente a soma do
-   * logo (wordmark + "docs") medida naquele momento — e cortava a palavra "docs"
-   * pela metade assim que a matemática de sobra virou matemática justa: ícone
-   * (36px) + gap (12px) + padding do botão (22px) + padding do nav (12px) = 82px
-   * de estrutura fixa, sobrando só 165px de área útil contra os 177px que o
-   * wordmark em h-8 mais "docs" precisam. Zero de folga quebra no primeiro
-   * conteúdo que mudar — um mundo com nome mais longo, um ícone maior. 18rem
-   * (288px) deixa a mesma linha com quase 30px de sobra, e o mesmo vale para
-   * qualquer rótulo de texto puro, que já cabia com folga menor ainda.
+   * Sem o logo no dock, o item mais largo passou a ser "Criador de fichas", com
+   * 100px de texto. Somando a estrutura fixa — padding do nav (12) + padding do
+   * botão (22) + ícone (36) + gap (12) = 82px — o mínimo real é 182px, e 224px
+   * deixa 42px de folga.
+   *
+   * Os 288px anteriores existiam só para caber o wordmark que morava aqui; com ele
+   * removido, aquela largura virou espaço vazio. 224px também cai na faixa de
+   * 200–240px que rail expansível de VS Code e Linear usa, que é o que se espera
+   * de uma barra deste tipo.
    */
   .dock-expandivel:hover,
   .dock-expandivel:focus-within {
-    width: 18rem;
+    width: 14rem;
     box-shadow: 4px 0 24px rgba(0, 0, 0, 0.18);
   }
   .dock-expandivel:hover .app-dock-label,
   .dock-expandivel:focus-within .app-dock-label {
-    max-width: 14rem;
+    max-width: 10rem;
     opacity: 1;
   }
 
@@ -252,12 +252,17 @@
     opacity: 0.75;
   }
 
-  /* A seta gira em vez de trocar de ícone: mesma peça nos dois estados, e o giro
-     comunica a direção do movimento melhor que dois glifos diferentes. */
-  .nav-chevron { transition: transform 200ms ease; }
-  .nav-grupo[open] > .nav-grupo-cabecalho .nav-chevron,
-  .nav-subgrupo[open] > .nav-subgrupo-cabecalho .nav-chevron {
-    transform: rotate(90deg);
+  /*
+   * O estado aberto se comunica pelo próprio texto, sem seta.
+   *
+   * Um grupo aberto acende: passa para a cor de texto cheia. Fechado fica na cor
+   * secundária. Isso basta porque o conteúdo aparecendo logo abaixo já é o sinal
+   * mais forte de "abriu" que existe — a seta era uma segunda afirmação da mesma
+   * coisa, ocupando espaço numa barra estreita.
+   */
+  .nav-grupo[open] > .nav-grupo-cabecalho,
+  .nav-subgrupo[open] > .nav-subgrupo-cabecalho {
+    color: var(--color-mono-text);
   }
 
   .nav-contagem {
@@ -303,7 +308,6 @@
    */
   @media (prefers-reduced-motion: reduce) {
     .nav-grupo-corpo,
-    .nav-chevron,
     .nav-grupo-cabecalho,
     .nav-subgrupo-cabecalho,
     .dock-expandivel,
@@ -329,6 +333,48 @@
     }
     .app-nav-item {
       min-height: 2.75rem;
+    }
+  }
+}
+
+/*
+ * Posição do painel de documentos, nas duas telas.
+ *
+ * Tudo aqui é `left`, e nenhuma utility do Tailwind governa `left` neste
+ * elemento. Foi preciso tirar `left-0` e `-translate-x-full` da lista de classes:
+ * utilities vencem components na ordem de camadas deste projeto, então disputar a
+ * mesma propriedade travava a posição em 0. É o terceiro bug desta natureza nesta
+ * sessão — a regra que fica é não dividir uma propriedade entre utility e classe
+ * própria, e sim dar a propriedade inteira a uma das duas.
+ *
+ * No celular o painel é gaveta: fica fora da tela por `left` negativo e entra
+ * quando `data-aberto` liga. No desktop ele encosta no dock e acompanha a largura
+ * dele, porque o dock expandido cobria 216 dos 280px do painel — sobrando uma tira
+ * de 64px com meia palavra. Sobrepor texto de artigo é aceitável, ele volta
+ * intacto; sobrepor a navegação que o leitor está usando para trocar de seção, não.
+ */
+@layer components {
+  :root { --dock-largura: 4.5rem; }
+
+  .painel-lateral {
+    left: -280px;
+    transition: left 300ms ease-in-out;
+  }
+  .painel-lateral[data-aberto="true"] { left: 0; }
+
+  @media (min-width: 1024px) {
+    /* Sem painel na rota (Início, Começar) ele fica fora da tela e o dock volta a
+       crescer por cima: não há navegação embaixo para soterrar. */
+    .painel-encostado-no-dock {
+      left: var(--dock-largura);
+    }
+    body:has(.painel-encostado-no-dock) .dock-expandivel:hover,
+    body:has(.painel-encostado-no-dock) .dock-expandivel:focus-within {
+      box-shadow: none;
+    }
+    body:has(.painel-encostado-no-dock):has(.dock-expandivel:hover),
+    body:has(.painel-encostado-no-dock):has(.dock-expandivel:focus-within) {
+      --dock-largura: 14rem;
     }
   }
 }

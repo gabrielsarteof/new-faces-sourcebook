@@ -41,34 +41,14 @@ const CRIADOR = 'https://new-faces-character-creator.vercel.app';
   aria-label="Navegação principal"
 >
   {/*
-    Reaproveita .app-dock-btn e .app-icon-card em vez de recalcular o recuo à mão:
-    o cartão de ícone centraliza um SVG de 22px numa caixa de 36px, e sem essa
-    mesma caixa em volta do logo os dois ficariam desalinhados por 7px.
-  */}
-  {/*
-    Expandido, o logo vira exatamente o cabeçalho do painel de documentos:
-    logo-wordmark.png + "docs" em app-section-label, lado a lado. Não é a mesma
-    imagem só maior — é a mesma composição, reaproveitada e não reinventada. O
-    ícone quadrado ocupa o cartão fixo à esquerda e desaparece no hover; o
-    wordmark+docs mora no mesmo slot de revelação que todo rótulo do dock usa,
-    então ganha a largura e a opacidade de graça, sem CSS próprio.
-  */}
-  <a href="/" aria-label="Início" class="app-dock-btn mb-2 no-underline">
-    <span class="app-icon-card">
-      <img
-        src="/logo-icon.png" alt="" width="24" height="24" draggable="false"
-        class="app-dock-logo-icon h-6 w-6 select-none object-contain"
-      />
-    </span>
-    <span class="app-dock-label flex items-center gap-1.5" aria-hidden="true">
-      <img
-        src="/logo-wordmark.png" alt="" draggable="false"
-        class="h-8 w-auto shrink-0 select-none object-contain"
-      />
-      <span class="app-section-label !p-0 !text-[10px]">docs</span>
-    </span>
-  </a>
+    O dock não carrega logo.
 
+    O painel de documentos já publica "NEW FACES docs" no cabeçalho dele, e ter os
+    dois na mesma tela mostrava a identidade duas vezes lado a lado. Entre os dois,
+    o do painel é o que fica: o dock só revela texto no hover, e identidade de
+    produto não pode ser um elemento que pisca — some quando o mouse sai. O painel
+    está sempre presente enquanto se lê um mundo, então é o lugar estável para ela.
+  */}
   <div class="flex shrink-0 flex-col">
     <a href="/" class="app-dock-btn no-underline" aria-current={naInicio ? 'page' : undefined}>
       <span class="app-icon-card">
@@ -88,7 +68,14 @@ const CRIADOR = 'https://new-faces-character-creator.vercel.app';
       <span class="app-dock-label">Começar</span>
     </a>
 
-    <div class="my-1.5 h-px shrink-0 bg-mono-border" role="separator" />
+    {/*
+      Espaço separa Início/Começar dos mundos, sem traço.
+
+      A linha era ruído: com só duas seções acima e três abaixo, o intervalo já
+      comunica o agrupamento sozinho. Separador desenhado só se paga quando o
+      espaço em branco não basta, e aqui bastava.
+    */}
+    <div class="h-3 shrink-0" aria-hidden="true" />
 
     {arvore.map(m => {
       const ativo = mundoAtual?.base === m.base;
