@@ -1,0 +1,103 @@
+---
+import DocsLayout from '../layouts/DocsLayout.astro';
+
+/**
+ * Começar.
+ *
+ * Equivalente ao "Getting Started" que supabase.com/docs/guides/getting-started
+ * publica: medido ao vivo, ele também não tem sidebar de árvore — é página cheia,
+ * agrupada em essenciais, casos de uso e atalhos por framework. Aqui os três viram
+ * "como ler", "documentos essenciais" e "por mundo".
+ *
+ * A peça que só esta página pode dar é explicar os selos de cor que os documentos
+ * usam, porque eles são a informação mais consequente de qualquer regra — de onde
+ * ela vem — e nenhum leitor chega sabendo o que significam sem alguém contar. Os
+ * exemplos abaixo usam as mesmas classes CSS que o pipeline gera para o corpus real
+ * (.etiqueta/.etiqueta-canon/.etiqueta-atribuido/.etiqueta-proposta), então o que o
+ * leitor vê aqui é visualmente idêntico ao que vai encontrar dentro de qualquer
+ * documento — não é uma cópia que pode dessincronizar da aparência real.
+ */
+const ESSENCIAIS = [
+  { titulo: 'Criar personagem', href: '/naruto/character-creation', texto: 'O passo a passo da ficha, do zero à primeira sessão.' },
+  { titulo: 'Economia de XP', href: '/core/xp-economy', texto: 'Quanto custa cada compra, e como o custo cresce por nível.' },
+  { titulo: 'Núcleo de Perícias', href: '/core/skills-core', texto: 'Como uma perícia se organiza por dentro: inclinação, caminho, régua.' },
+  { titulo: 'Índice de Perícias', href: '/naruto/skill', texto: 'Todas as perícias jogáveis, agrupadas por categoria de custo.' },
+  { titulo: 'Compêndios de técnicas', href: '/naruto/compendium', texto: 'Os jutsus catalogados por domínio, do Rank E ao S.' },
+  { titulo: 'Cálculos rápidos', href: '/naruto/quick-calculations', texto: 'As contas que a mesa faz toda sessão, numa página só.' },
+];
+---
+<DocsLayout
+  titulo="Começar"
+  descricao="Como ler o manual do New Faces: o que os selos de cor significam e por onde entrar."
+  trilha={[{ rotulo: 'Início', href: '/' }, { rotulo: 'Começar' }]}
+  comPainel={false}
+>
+  <h1>Começar</h1>
+
+  <p>
+    Este site publica o sourcebook do New Faces para leitura. Toda página vem de um
+    documento do corpus, sem reescrita: o que você lê aqui é o que a mesa aplica.
+  </p>
+
+  <h2 id="como-ler">Como ler um documento</h2>
+
+  <p>
+    Todo documento carrega um título, uma versão e um estado editorial — quase
+    sempre <code>final</code>, que por isso não aparece marcado na página. Quando um
+    documento está num estado diferente, um aviso aparece logo abaixo do título.
+  </p>
+
+  <p>
+    Dentro do texto, três selos coloridos marcam de onde cada afirmação vem. Eles são
+    a informação mais importante de qualquer regra, porque respondem a pergunta que
+    mais importa numa mesa: isto é canônico, ou é decisão nossa?
+  </p>
+
+  <div class="not-prose my-6 flex flex-col gap-3">
+    <div class="flex items-start gap-3 rounded-xl border border-mono-border bg-mono-card p-3">
+      <span class="etiqueta etiqueta-canon shrink-0 mt-0.5">canon</span>
+      <p class="text-sm leading-snug text-mono-sub">A obra declara isto diretamente. É o selo mais firme.</p>
+    </div>
+    <div class="flex items-start gap-3 rounded-xl border border-mono-border bg-mono-card p-3">
+      <span class="etiqueta etiqueta-atribuido shrink-0 mt-0.5">atribuído</span>
+      <p class="text-sm leading-snug text-mono-sub">A obra mostra isto em cena, sem nomear a regra por trás. É leitura com inferência.</p>
+    </div>
+    <div class="flex items-start gap-3 rounded-xl border border-mono-border bg-mono-card p-3">
+      <span class="etiqueta etiqueta-proposta shrink-0 mt-0.5">proposta</span>
+      <p class="text-sm leading-snug text-mono-sub">O sistema cria isto para fechar uma lacuna que a obra não resolve. Não vem da fonte.</p>
+    </div>
+  </div>
+
+  <p>
+    Às vezes o selo vem acompanhado da evidência que o sustenta, como em
+    <span class="etiqueta etiqueta-canon">canon</span><span class="etiqueta-razao">o fogo admite moldagem depois de produzido</span>.
+    Essa evidência é preservada sempre que o documento a publica.
+  </p>
+
+  <h2 id="essenciais">Documentos essenciais</h2>
+
+  <p>
+    Seis pontos de entrada cobrem a maior parte do que uma mesa precisa consultar.
+  </p>
+
+  <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+    {ESSENCIAIS.map(item => (
+      <a
+        href={item.href}
+        class="flex flex-col gap-1 rounded-xl border border-mono-border bg-mono-card p-4 no-underline transition-colors hover:bg-mono-card-hover"
+      >
+        <span class="text-sm font-bold text-mono-text">{item.titulo}</span>
+        <span class="text-sm leading-snug text-mono-sub">{item.texto}</span>
+      </a>
+    ))}
+  </div>
+
+  <h2 id="mundos">Por mundo</h2>
+
+  <p>
+    Regras de núcleo valem em qualquer cenário. Naruto é o cenário principal, com
+    cobertura quase completa. Jujutsu Kaisen está em cobertura fina, com clãs,
+    linhagens e técnicas ainda em preenchimento. <a href="/">Veja todos os mundos</a>{' '}
+    com a contagem real de documentos de cada um.
+  </p>
+</DocsLayout>

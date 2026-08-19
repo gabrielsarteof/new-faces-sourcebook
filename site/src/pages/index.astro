@@ -45,6 +45,7 @@ function destaques(membros: typeof publicos) {
   titulo="New Faces docs"
   descricao="Site público de leitura do sourcebook do New Faces."
   trilha={[{ rotulo: 'Início' }]}
+  comPainel={false}
 >
   <h1>New Faces docs</h1>
 
@@ -57,6 +58,8 @@ function destaques(membros: typeof publicos) {
   <p>
     São <strong>{publicos.length} documentos</strong> publicados. Toda página é gerada
     do Markdown do corpus, então documento novo aparece sem que ninguém escreva código.
+    Primeira vez aqui? <a href="/comecar">Veja como começar</a>, com o que os selos de
+    cor significam e por onde entrar.
   </p>
 
   <h2 id="mundos">Mundos</h2>
@@ -83,13 +86,4 @@ function destaques(membros: typeof publicos) {
     ))}
   </div>
 
-  <h2 id="comecar">Por onde começar</h2>
-
-  <ul>
-    <li><a href="/naruto/character-creation">Criar personagem</a>, o passo a passo da ficha.</li>
-    <li><a href="/core/xp-economy">Economia de XP</a>, quanto custa cada compra.</li>
-    <li><a href="/naruto/skill">Índice de Perícias</a>, o que existe para comprar e o que cada uma entrega.</li>
-    <li><a href="/naruto/compendium">Compêndios de técnicas</a>, os jutsus catalogados por domínio.</li>
-    <li><a href="/naruto/quick-calculations">Cálculos rápidos</a>, as contas que a mesa faz toda sessão.</li>
-  </ul>
 </DocsLayout>

@@ -16,6 +16,10 @@ import ArticleToc from '../components/ArticleToc.astro';
  * segue a segunda regra.
  * Aqui o recorte começa depois do dock mais o painel de navegação, que é o mesmo
  * lugar que o QuickSwitchPanel ocupa lá quando está aberto.
+ *
+ * O painel só reserva espaço em páginas dentro de um mundo. Início e Começar não
+ * pertencem a mundo nenhum e ocupam a largura inteira, o mesmo comportamento medido
+ * ao vivo em supabase.com/docs: a home de lá não tem sidebar, qualquer guia tem.
  */
 interface Heading { depth: number; slug: string; text: string }
 interface Props {
@@ -23,12 +27,14 @@ interface Props {
   descricao?: string;
   trilha?: { rotulo: string; href?: string }[];
   headings?: Heading[];
+  /** Falso em Início e Começar, que não pertencem a mundo nenhum. */
+  comPainel?: boolean;
 }
 
-const { titulo, descricao, trilha = [], headings = [] } = Astro.props;
+const { titulo, descricao, trilha = [], headings = [], comPainel = true } = Astro.props;
 const rotaAtual = Astro.url.pathname;
 const DOCK = 72;
-const PAINEL = 280;
+const PAINEL = comPainel ? 280 : 0;
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -61,7 +67,7 @@ const PAINEL = 280;
     >Pular para o conteúdo</a>
 
     <DocsDock rotaAtual={rotaAtual} />
-    <DocsNavPanel rotaAtual={rotaAtual} />
+    <DocsNavPanel rotaAtual={rotaAtual} abrirNoDesktop={comPainel} />
 
     <!-- Barra de topo apenas no celular, como o criador faz fora do desktop. -->
     <div class="fixed inset-x-0 top-0 z-50 flex h-14 items-center gap-2 px-3 navbar-bg lg:hidden">

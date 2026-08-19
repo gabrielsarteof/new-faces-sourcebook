@@ -4,25 +4,46 @@ import { arvoreDeNavegacao, mundoDaRota } from '../application/navegacao';
 /**
  * Painel de navegação, 280px.
  *
- * Mostra os documentos do mundo que o dock selecionou, derivados da coleção. Nada
- * aqui é escrito à mão: documento novo entra sozinho no eixo dele.
+ * Contextual à rota, como o Supabase Docs: medido ao vivo, a home dele
+ * (supabase.com/docs) não tem nenhuma árvore lateral, e qualquer página de guia tem
+ * uma sempre presente. Não existe estado de "abrir/fechar" no desktop — a página que
+ * a rota carrega já vem com painel ou sem, e a decisão de reservar o espaço para ele
+ * mora em `DocsLayout.astro` (`abrirNoDesktop`). O JavaScript deste arquivo só
+ * governa a gaveta do celular, onde o dock fica oculto e o painel é a navegação.
  *
- * O eixo de perícias subdivide por categoria de custo, lida do Registro de Regentes
- * do Índice de Perícias. É a única classificação que o corpus publica como tabela, e
- * sem ela o eixo vira uma lista plana de trinta itens.
+ * Dentro de um mundo, mostra os documentos dele — derivados da coleção, com o eixo
+ * de perícias subdividido por categoria de custo, lida do Registro de Regentes do
+ * Índice de Perícias. Fora de um mundo (Início, Começar), mostra a lista de seções
+ * que o dock oferece, porque no celular o dock nem aparece: sem isto, quem entra
+ * pelo celular na home não teria como alcançar Naruto ou Jujutsu.
  *
  * Modelado em QuickSwitchPanel.tsx: rótulo de grupo em 10px uppercase, item em
  * text-sm font-medium de caixa normal.
  */
-interface Props { rotaAtual?: string }
-const { rotaAtual = '/' } = Astro.props;
+interface Props {
+  rotaAtual?: string;
+  /**
+   * Se o painel abre sozinho no desktop.
+   *
+   * Contextual à rota, como o Supabase: home e Começar não pertencem a mundo
+   * nenhum, então não têm o que preencher aqui — a página delas ocupa a largura
+   * inteira, igual a `supabase.com/docs`, medido sem sidebar nenhuma. Dentro de um
+   * mundo o painel abre sozinho, sem precisar de clique.
+   */
+  abrirNoDesktop?: boolean;
+}
+const { rotaAtual = '/', abrirNoDesktop = true } = Astro.props;
 
 const arvore = await arvoreDeNavegacao();
 const mundo = mundoDaRota(rotaAtual, arvore);
+const CRIADOR = 'https://new-faces-character-creator.vercel.app';
 ---
 <aside
   id="docs-nav"
-  class="sidebar-scroll fixed inset-y-0 left-0 z-[70] flex w-[280px] -translate-x-full flex-col overflow-y-auto navbar-bg sidebar-boundary pb-6 transition-transform duration-300 ease-in-out lg:translate-x-[72px]"
+  class:list={[
+    'sidebar-scroll fixed inset-y-0 left-0 z-[70] flex w-[280px] -translate-x-full flex-col overflow-y-auto navbar-bg sidebar-boundary pb-6 transition-transform duration-300 ease-in-out',
+    abrirNoDesktop && 'lg:translate-x-[72px]',
+  ]}
   aria-label="Documentos"
 >
   <header class="mb-3 flex shrink-0 items-center justify-between px-4 py-3">
@@ -57,52 +78,80 @@ const mundo = mundoDaRota(rotaAtual, arvore);
     </button>
   </div>
 
-  <div class="shrink-0 px-4 pb-1">
-    <a href={mundo.base} class="text-sm font-bold text-mono-text no-underline">{mundo.rotulo}</a>
-    <span class="ml-1.5 text-xs text-mono-muted">{mundo.total} documentos</span>
-  </div>
+  {mundo ? (
+    <>
+      <div class="shrink-0 px-4 pb-1">
+        <a href={mundo.base} class="text-sm font-bold text-mono-text no-underline">{mundo.rotulo}</a>
+        <span class="ml-1.5 text-xs text-mono-muted">{mundo.total} documentos</span>
+      </div>
 
-  <nav class="flex flex-col px-3">
-    {mundo.grupos.map(g => (
-      <div class="flex flex-col">
-        {/* Grupo só vira link quando existe uma página que é o índice dele. O grupo
-            Sistemas reúne documentos de seis pastas, e nenhuma página os indexa. */}
-        {g.rotaDoIndice
-          ? <a href={g.rotaDoIndice} class="app-section-label no-underline hover:text-mono-text">{g.titulo}</a>
-          : <p class="app-section-label">{g.titulo}</p>}
+      <nav class="flex flex-col px-3">
+        {mundo.grupos.map(g => (
+          <div class="flex flex-col">
+            {g.rotaDoIndice
+              ? <a href={g.rotaDoIndice} class="app-section-label no-underline hover:text-mono-text">{g.titulo}</a>
+              : <p class="app-section-label">{g.titulo}</p>}
 
-        {g.subgrupos
-          ? g.subgrupos.map(sub => (
-              <>
-                <p class="app-section-label !pt-1 !text-[9px] !opacity-70 pl-2">{sub.titulo}</p>
-                {sub.itens.map(i => (
-                  <a
-                    href={i.rota}
-                    aria-current={i.rota === rotaAtual ? 'page' : undefined}
-                    class="app-nav-item no-underline"
-                  >
+            {g.subgrupos
+              ? g.subgrupos.map(sub => (
+                  <>
+                    <p class="app-section-label !pt-1 !text-[9px] !opacity-70 pl-2">{sub.titulo}</p>
+                    {sub.itens.map(i => (
+                      <a href={i.rota} aria-current={i.rota === rotaAtual ? 'page' : undefined} class="app-nav-item no-underline">
+                        <span class="flex-1 truncate">{i.titulo}</span>
+                        {i.emprestado && (
+                          <span class="shrink-0 text-[9px] uppercase tracking-widest text-mono-muted" title="Perícia sem cenário, jogável em qualquer mesa">
+                            comum
+                          </span>
+                        )}
+                      </a>
+                    ))}
+                  </>
+                ))
+              : g.itens.map(i => (
+                  <a href={i.rota} aria-current={i.rota === rotaAtual ? 'page' : undefined} class="app-nav-item no-underline">
                     <span class="flex-1 truncate">{i.titulo}</span>
-                    {i.emprestado && (
-                      <span class="shrink-0 text-[9px] uppercase tracking-widest text-mono-muted" title="Perícia sem cenário, jogável em qualquer mesa">
-                        comum
-                      </span>
-                    )}
                   </a>
                 ))}
-              </>
-            ))
-          : g.itens.map(i => (
-              <a
-                href={i.rota}
-                aria-current={i.rota === rotaAtual ? 'page' : undefined}
-                class="app-nav-item no-underline"
-              >
-                <span class="flex-1 truncate">{i.titulo}</span>
-              </a>
-            ))}
-      </div>
-    ))}
-  </nav>
+          </div>
+        ))}
+      </nav>
+    </>
+  ) : (
+    <>
+      {/*
+        Fora de um mundo: mesma lista que o dock oferece, porque no celular o dock
+        não existe. É o único jeito de alcançar Naruto ou Jujutsu a partir da home
+        num aparelho de tela estreita.
+      */}
+      <nav class="flex flex-col px-3">
+        <div class="flex flex-col">
+          <p class="app-section-label">Seções</p>
+          <a href="/" aria-current={rotaAtual === '/' ? 'page' : undefined} class="app-nav-item no-underline">
+            <span class="flex-1 truncate">Início</span>
+          </a>
+          <a href="/comecar" aria-current={rotaAtual === '/comecar' ? 'page' : undefined} class="app-nav-item no-underline">
+            <span class="flex-1 truncate">Começar</span>
+          </a>
+        </div>
+        <div class="flex flex-col">
+          <p class="app-section-label">Mundos</p>
+          {arvore.map(m => (
+            <a href={m.base} class="app-nav-item no-underline">
+              <span class="flex-1 truncate">{m.rotulo}</span>
+              <span class="shrink-0 text-xs text-mono-muted">{m.total}</span>
+            </a>
+          ))}
+        </div>
+        <div class="flex flex-col">
+          <p class="app-section-label">Fora daqui</p>
+          <a href={CRIADOR} class="app-nav-item no-underline">
+            <span class="flex-1 truncate">Criador de fichas</span>
+          </a>
+        </div>
+      </nav>
+    </>
+  )}
 </aside>
 
 <div id="nav-backdrop" class="fixed inset-0 z-[60] hidden bg-black/50 lg:hidden" aria-hidden="true"></div>

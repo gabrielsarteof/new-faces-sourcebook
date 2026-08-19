@@ -1,4 +1,7 @@
 import { documentosPublicos, type Publicado } from './documentos';
+import type { ItemNav, GrupoNav, MundoNav } from '../domain/navegacao';
+export type { ItemNav, GrupoNav, MundoNav } from '../domain/navegacao';
+export { mundoDaRota } from '../domain/navegacao';
 import { classificacaoPorId } from '../infrastructure/registroDePericias.mjs';
 import { ordemDaCategoria, nomeDaCategoria } from '../domain/classificacao';
 import { rotuloPluralDoEixo, ordemDoEixo, rotuloDoMundo } from '../data/rotulos';
@@ -27,30 +30,6 @@ export const MUNDOS_NAVEGAVEIS = ['core', 'naruto', 'jujutsu'] as const;
 
 /** Mundos jogáveis, que herdam as perícias sem cenário. */
 const MUNDOS_JOGAVEIS = new Set<string>(['naruto', 'jujutsu']);
-
-export interface ItemNav {
-  titulo: string;
-  rota: string;
-  /** Verdadeiro quando o item é uma perícia sem cenário exibida dentro de um mundo. */
-  emprestado: boolean;
-}
-
-export interface GrupoNav {
-  /** O `type` que define o grupo. */
-  tipo: string;
-  titulo: string;
-  /** Subgrupos por categoria, quando o eixo tem classificação publicada. */
-  subgrupos: { titulo: string; itens: ItemNav[] }[] | null;
-  itens: ItemNav[];
-  rotaDoIndice: string | null;
-}
-
-export interface MundoNav {
-  base: string;
-  rotulo: string;
-  grupos: GrupoNav[];
-  total: number;
-}
 
 function item(p: Publicado, emprestado = false): ItemNav {
   return { titulo: p.titulo, rota: p.rota, emprestado };
@@ -170,15 +149,3 @@ export async function arvoreDeNavegacao(): Promise<MundoNav[]> {
   return arvore;
 }
 
-
-/** O mundo que responde pela rota, com Núcleo como fallback. */
-export function mundoDaRota(rota: string, arvore: MundoNav[]): MundoNav {
-  const candidatos = arvore.filter(m => rota.startsWith(m.base));
-  const escolhido = candidatos.sort((a, b) => b.base.length - a.base.length)[0];
-  // Perícia sem cenário é lida dentro de um mundo jogável, e o painel deve seguir
-  // mostrando aquele mundo em vez de saltar para um índice que o dock não oferece.
-  if (!escolhido && rota.startsWith('/common')) {
-    return arvore.find(m => m.base === '/naruto') ?? arvore[0]!;
-  }
-  return escolhido ?? arvore[0]!;
-}
