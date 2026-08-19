@@ -134,7 +134,20 @@
    * `focus-within` cobre navegação por teclado: tabular até um item do dock
    * expande o rótulo dele do mesmo jeito que passar o mouse.
    */
+  /*
+   * A largura de repouso mora aqui, e não na utility `w-18` do Tailwind.
+   *
+   * `@layer theme, base, components, utilities;` declara utilities como a camada
+   * de MAIOR prioridade — acima de components, onde este arquivo vive. Isso vale
+   * mesmo contra pseudo-classe: `.w-18{width:4.5rem}` (utilities) sempre venceria
+   * `.dock-expandivel:hover{width:15.5rem}` (components), não importa se o hover
+   * bate de verdade. Confirmado ao vivo: `:focus-within` batia genuinamente
+   * (`.matches(':focus-within')` verdadeiro) e a largura computada não se movia um
+   * pixel. Tirar a largura de qualquer utility elimina o conflito de camada, e a
+   * única fonte da largura passa a ser esta classe, nos dois estados.
+   */
   .dock-expandivel {
+    width: 4.5rem;
     transition: width 200ms ease-out, box-shadow 200ms ease-out;
   }
   .dock-expandivel:hover,
