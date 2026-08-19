@@ -155,3 +155,56 @@
 
 /* Bloco de detalhes do documento, fora da medida de leitura. */
 .docs-prose .not-prose { max-width: none; }
+
+/* ── Etiqueta de fundamento ──────────────────────────────────────────────────
+   Toda afirmação de design do corpus carrega marca: o que a obra declara, o que
+   ela mostra sem nomear, e o que o sistema cria. São 322 ocorrências em 54
+   documentos, e é o único lugar do corpo onde cor carrega informação.
+
+   Croma baixo de propósito. O Supabase Docs, medido, não tem um elemento sequer
+   acima de 0,02 de croma fora do realce de sintaxe; a cor aqui existe para
+   separar três estados, não para decorar. */
+.docs-prose .etiqueta {
+  display: inline-block;
+  padding: 0.05em 0.5em;
+  border: 1px solid;
+  border-radius: 9999px;
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  vertical-align: 0.1em;
+  white-space: nowrap;
+  cursor: help;
+}
+
+/* A obra declara: verde, o estado mais firme. */
+.docs-prose .etiqueta-canon {
+  color: #236645;
+  border-color: color-mix(in srgb, #236645 40%, transparent);
+  background: color-mix(in srgb, #236645 8%, transparent);
+}
+/* A obra mostra sem nomear: âmbar, leitura com inferência. */
+.docs-prose .etiqueta-atribuido {
+  color: #75540b;
+  border-color: color-mix(in srgb, #75540b 40%, transparent);
+  background: color-mix(in srgb, #75540b 8%, transparent);
+}
+/* O sistema cria: violeta, o que não vem da obra. */
+.docs-prose .etiqueta-proposta {
+  color: #514391;
+  border-color: color-mix(in srgb, #514391 40%, transparent);
+  background: color-mix(in srgb, #514391 8%, transparent);
+}
+
+.dark .docs-prose .etiqueta-canon      { color: #6ddc9e; border-color: color-mix(in srgb, #6ddc9e 32%, transparent); background: color-mix(in srgb, #6ddc9e 10%, transparent); }
+.dark .docs-prose .etiqueta-atribuido  { color: #e8c477; border-color: color-mix(in srgb, #e8c477 32%, transparent); background: color-mix(in srgb, #e8c477 10%, transparent); }
+.dark .docs-prose .etiqueta-proposta   { color: #b3a4ff; border-color: color-mix(in srgb, #b3a4ff 32%, transparent); background: color-mix(in srgb, #b3a4ff 10%, transparent); }
+
+/* A justificativa que acompanha a marca é evidência, não enfeite: fica legível,
+   apenas um degrau abaixo da prosa. */
+.docs-prose .etiqueta-razao {
+  margin-left: 0.4ch;
+  color: var(--color-mono-muted);
+  font-size: 0.92em;
+}

@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import { remarkLinksInternos } from './src/infrastructure/remarkLinksInternos.mjs';
 import { rehypeTabelasRolaveis } from './src/infrastructure/rehypeTabelasRolaveis.mjs';
+import { rehypeEtiquetas } from './src/infrastructure/rehypeEtiquetas.mjs';
 
 // Site estático. Não há autenticação, mutação nem estado de servidor: o corpus vira
 // HTML na build e o JavaScript só existe nas ilhas declaradas.
@@ -13,7 +14,8 @@ export default defineConfig({
     // relativo .md entre documentos vira 404.
     remarkPlugins: [remarkLinksInternos],
     // Tabela continua tabela, e rola dentro do próprio contêiner.
-    rehypePlugins: [rehypeTabelasRolaveis],
+    // Etiqueta de fundamento vira chip: é o único lugar do corpo onde cor significa.
+    rehypePlugins: [rehypeTabelasRolaveis, rehypeEtiquetas],
   },
   vite: {
     plugins: [tailwindcss()],

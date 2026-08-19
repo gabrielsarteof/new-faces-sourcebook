@@ -1,17 +1,24 @@
 ---
-import { mundoDaRota } from '../data/navegacao';
+import { arvoreDeNavegacao, mundoDaRota } from '../application/navegacao';
 
 /**
  * Painel de navegação, 280px.
  *
- * Mostra só os documentos do mundo que o dock selecionou. Modelado em
- * QuickSwitchPanel.tsx: w-[280px] navbar-bg sidebar-boundary encostado no dock por
- * translateX(72px), cabeçalho com o wordmark, campo de busca, rótulo de grupo em
- * 10px uppercase e item em text-sm font-medium de caixa normal.
+ * Mostra os documentos do mundo que o dock selecionou, derivados da coleção. Nada
+ * aqui é escrito à mão: documento novo entra sozinho no eixo dele.
+ *
+ * O eixo de perícias subdivide por categoria de custo, lida do Registro de Regentes
+ * do Índice de Perícias. É a única classificação que o corpus publica como tabela, e
+ * sem ela o eixo vira uma lista plana de trinta itens.
+ *
+ * Modelado em QuickSwitchPanel.tsx: rótulo de grupo em 10px uppercase, item em
+ * text-sm font-medium de caixa normal.
  */
 interface Props { rotaAtual?: string }
 const { rotaAtual = '/' } = Astro.props;
-const mundo = mundoDaRota(rotaAtual);
+
+const arvore = await arvoreDeNavegacao();
+const mundo = mundoDaRota(rotaAtual, arvore);
 ---
 <aside
   id="docs-nav"
@@ -50,20 +57,49 @@ const mundo = mundoDaRota(rotaAtual);
     </button>
   </div>
 
-  <!-- Nomeia o mundo corrente, para o painel não parecer uma lista solta. -->
-  <p class="shrink-0 px-4 pb-1 text-sm font-bold text-mono-text">{mundo.rotulo}</p>
+  <div class="shrink-0 px-4 pb-1">
+    <a href={mundo.base} class="text-sm font-bold text-mono-text no-underline">{mundo.rotulo}</a>
+    <span class="ml-1.5 text-xs text-mono-muted">{mundo.total} documentos</span>
+  </div>
 
   <nav class="flex flex-col px-3">
     {mundo.grupos.map(g => (
       <div class="flex flex-col">
-        <p class="app-section-label">{g.titulo}</p>
-        {g.itens.map(i => (
-          <a
-            href={i.href}
-            aria-current={i.href === rotaAtual ? 'page' : undefined}
-            class="app-nav-item no-underline"
-          >{i.rotulo}</a>
-        ))}
+        {/* Grupo só vira link quando existe uma página que é o índice dele. O grupo
+            Sistemas reúne documentos de seis pastas, e nenhuma página os indexa. */}
+        {g.rotaDoIndice
+          ? <a href={g.rotaDoIndice} class="app-section-label no-underline hover:text-mono-text">{g.titulo}</a>
+          : <p class="app-section-label">{g.titulo}</p>}
+
+        {g.subgrupos
+          ? g.subgrupos.map(sub => (
+              <>
+                <p class="app-section-label !pt-1 !text-[9px] !opacity-70 pl-2">{sub.titulo}</p>
+                {sub.itens.map(i => (
+                  <a
+                    href={i.rota}
+                    aria-current={i.rota === rotaAtual ? 'page' : undefined}
+                    class="app-nav-item no-underline"
+                  >
+                    <span class="flex-1 truncate">{i.titulo}</span>
+                    {i.emprestado && (
+                      <span class="shrink-0 text-[9px] uppercase tracking-widest text-mono-muted" title="Perícia sem cenário, jogável em qualquer mesa">
+                        comum
+                      </span>
+                    )}
+                  </a>
+                ))}
+              </>
+            ))
+          : g.itens.map(i => (
+              <a
+                href={i.rota}
+                aria-current={i.rota === rotaAtual ? 'page' : undefined}
+                class="app-nav-item no-underline"
+              >
+                <span class="flex-1 truncate">{i.titulo}</span>
+              </a>
+            ))}
       </div>
     ))}
   </nav>
@@ -91,4 +127,7 @@ const mundo = mundoDaRota(rotaAtual);
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && !backdrop?.classList.contains('hidden')) setAberto(false);
   });
+
+  // Rola até o item corrente, que pode estar fora da vista numa árvore longa.
+  painel?.querySelector('[aria-current="page"]')?.scrollIntoView({ block: 'center' });
 </script>

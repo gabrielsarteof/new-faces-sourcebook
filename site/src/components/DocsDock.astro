@@ -1,20 +1,24 @@
 ---
 import ThemeToggle from './ThemeToggle.astro';
-import { MUNDOS, mundoDaRota } from '../data/navegacao';
+import { arvoreDeNavegacao, mundoDaRota } from '../application/navegacao';
+import { iconeDoMundo } from '../data/rotulos';
 
 /**
  * Dock de ícones, 72px.
  *
- * Seleciona o mundo; o painel ao lado lista os documentos dele. É a mesma divisão
- * de trabalho que SystemSidebar e QuickSwitchPanel têm no criador, e ela importa
- * aqui porque Naruto sozinho responde por cerca de 150 dos 183 documentos: uma
- * árvore única com tudo não se percorre.
+ * Seleciona o mundo; o painel ao lado lista os documentos dele. Os mundos saem da
+ * árvore derivada da coleção, não de uma lista escrita à mão.
  *
- * Sem texto, como o dock do criador. O rótulo vive no title e no aria-label.
+ * `common` não aparece aqui de propósito: as sete perícias sem cenário são jogáveis
+ * e o Índice de Perícias já as lista junto das de Naruto, então elas vivem dentro do
+ * eixo de perícias de cada mundo jogável em vez de fingir ser um mundo.
  */
 interface Props { rotaAtual?: string }
 const { rotaAtual = '/' } = Astro.props;
-const atual = mundoDaRota(rotaAtual);
+
+const arvore = await arvoreDeNavegacao();
+const atual = mundoDaRota(rotaAtual, arvore);
+const naHome = rotaAtual === '/';
 const CRIADOR = 'https://new-faces-character-creator.vercel.app';
 ---
 <nav
@@ -22,29 +26,27 @@ const CRIADOR = 'https://new-faces-character-creator.vercel.app';
   aria-label="Mundos"
 >
   <div class="absolute inset-x-0 top-0 flex h-14 items-center justify-center">
-    <a href="/" class="flex h-9 w-9 items-center justify-center" aria-label="Início">
+    <a href="/" class="flex h-9 w-9 items-center justify-center" aria-label="Início" title="Início">
       <img src="/logo-icon.png" alt="" width="24" height="24" class="h-6 w-6 select-none object-contain" draggable="false" />
     </a>
   </div>
 
   <div class="flex shrink-0 flex-col">
-    {MUNDOS.map(m => {
-      const ativo = m.base === atual.base;
+    <a href="/" class="app-dock-btn no-underline" aria-current={naHome ? 'page' : undefined} aria-label="Início" title="Início">
+      <span class="app-icon-card">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width={naHome ? 2.2 : 1.5} stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><path d="M9 22V12h6v10" />
+        </svg>
+      </span>
+    </a>
+
+    {arvore.map(m => {
+      const ativo = !naHome && m.base === atual.base;
       return (
-        <a
-          href={m.base}
-          class="app-dock-btn no-underline"
-          aria-current={ativo ? 'page' : undefined}
-          aria-label={m.rotulo}
-          title={m.rotulo}
-        >
+        <a href={m.base} class="app-dock-btn no-underline" aria-current={ativo ? 'page' : undefined} aria-label={m.rotulo} title={`${m.rotulo} · ${m.total} documentos`}>
           <span class="app-icon-card">
-            <svg
-              width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width={ativo ? 2.2 : 1.5} stroke-linecap="round" stroke-linejoin="round"
-              aria-hidden="true"
-            >
-              {m.icone.split(' M').map((d, i) => <path d={i === 0 ? d : `M${d}`} />)}
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width={ativo ? 2.2 : 1.5} stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              {iconeDoMundo(m.base.slice(1)).map(d => <path d={d} />)}
             </svg>
           </span>
         </a>
