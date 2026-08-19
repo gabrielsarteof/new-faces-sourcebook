@@ -50,17 +50,31 @@ export function extrairTokens(css) {
  * Quando o seletor aparece agrupado com outros, como nas regras de scrollbar, só
  * a linha desta classe é recortada, o que produz uma regra válida e isolada.
  */
-export const UTILITARIOS = ['navbar-bg', 'sidebar-boundary', 'sidebar-scroll', 'toc-card-active'];
+export const UTILITARIOS = [
+  'navbar-bg',
+  'sidebar-boundary',
+  'sidebar-scroll',
+  'toc-card-active',
+  'page-scroll',
+  'pb-page',
+];
 
-/** Recorta as regras cujo seletor começa por um dos nomes declarados. */
+/**
+ * Recorta toda regra cujo seletor cita um dos nomes declarados.
+ *
+ * O seletor não precisa começar pelo nome: `.aurora-bg` só ganha cor no escuro
+ * por `.dark .aurora-bg`, e o brilho vem de `.dark .aurora-bg::before`. Quando o
+ * nome aparece agrupado com outros seletores, só a linha dele é recortada, o que
+ * produz uma regra válida e isolada.
+ */
 export function extrairUtilitarios(css, nomes = UTILITARIOS) {
-  const achadas = [];
+  const achadas = new Set();
   for (const nome of nomes) {
-    const re = new RegExp(`^\.${nome}(?![\w-])[^{\n]*\{[^}]*\}`, 'gm');
-    for (const m of css.matchAll(re)) achadas.push(m[0].trim());
+    const re = new RegExp(String.raw`^[^\n{]*\.${nome}(?![\w-])[^\n{]*\{[^}]*\}`, 'gm');
+    for (const m of css.matchAll(re)) achadas.add(m[0].trim());
   }
-  if (achadas.length === 0) throw new Error('nenhuma classe utilitária encontrada');
-  return achadas.join('\n\n');
+  if (achadas.size === 0) throw new Error('nenhuma classe utilitária encontrada');
+  return [...achadas].join('\n\n');
 }
 
 /** Monta o conteúdo completo do arquivo gerado. */

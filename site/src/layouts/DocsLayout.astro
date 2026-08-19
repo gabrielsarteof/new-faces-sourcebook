@@ -1,9 +1,22 @@
 ---
 import '../styles/global.css';
-import DocsHeader from '../components/DocsHeader.astro';
-import DocsSidebar from '../components/DocsSidebar.astro';
+import DocsDock from '../components/DocsDock.astro';
+import DocsNavPanel from '../components/DocsNavPanel.astro';
 import ArticleToc from '../components/ArticleToc.astro';
 
+/**
+ * Estrutura de página, copiada de MasterLayout.tsx do criador.
+ *
+ * O criador põe o dock fixo à esquerda, empurra o conteúdo por padding, e desenha
+ * o conteúdo dentro de um recorte com overflow-hidden e sombra na borda esquerda.
+ * O scroll acontece num wrapper interno com page-scroll, não na janela.
+ *
+ * O recorte usa bg-mono-bg e não aurora-bg. O criador reserva a aurora para a home
+ * e usa fundo chapado nas rotas de editor; artigo é superfície de leitura longa e
+ * segue a segunda regra.
+ * Aqui o recorte começa depois do dock mais o painel de navegação, que é o mesmo
+ * lugar que o QuickSwitchPanel ocupa lá quando está aberto.
+ */
 interface Heading { depth: number; slug: string; text: string }
 interface Props {
   titulo: string;
@@ -14,6 +27,8 @@ interface Props {
 
 const { titulo, descricao, trilha = [], headings = [] } = Astro.props;
 const rotaAtual = Astro.url.pathname;
+const DOCK = 72;
+const PAINEL = 280;
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -23,11 +38,6 @@ const rotaAtual = Astro.url.pathname;
     <title>{titulo} · New Faces</title>
     {descricao && <meta name="description" content={descricao} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <!--
-      Aplica o tema antes da primeira pintura. Sem este bloco síncrono a página
-      abre clara e pisca para escura, que é o pior defeito visível de site
-      estático com tema por classe. Mesmo contrato do criador: nf_theme.
-    -->
     <script is:inline>
       (function () {
         try {
@@ -44,41 +54,75 @@ const rotaAtual = Astro.url.pathname;
     </script>
   </head>
 
-  <body class="min-h-screen bg-mono-bg text-mono-text">
+  <body class="navbar-bg">
     <a
       href="#conteudo"
-      class="app-btn-secondary app-nav-label sr-only rounded-md px-3 py-2 focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-50"
+      class="app-btn-secondary sr-only rounded-md px-3 py-2 text-sm focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-[100]"
     >Pular para o conteúdo</a>
 
-    <DocsHeader rotaAtual={rotaAtual} />
+    <DocsDock rotaAtual={rotaAtual} />
+    <DocsNavPanel rotaAtual={rotaAtual} />
 
-    <div class="mx-auto flex max-w-[1600px]">
-      <DocsSidebar rotaAtual={rotaAtual} />
+    <!-- Barra de topo apenas no celular, como o criador faz fora do desktop. -->
+    <div class="fixed inset-x-0 top-0 z-50 flex h-14 items-center gap-2 px-3 navbar-bg lg:hidden">
+      <button
+        id="nav-toggle"
+        type="button"
+        class="app-icon-card text-mono-sub hover:text-mono-text cursor-pointer"
+        aria-label="Abrir navegação"
+        aria-expanded="false"
+        aria-controls="docs-nav"
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <a href="/" class="flex h-6 items-center no-underline">
+        <img src="/logo-wordmark.png" alt="New Faces" class="h-full w-auto select-none object-contain" draggable="false" />
+      </a>
+    </div>
 
-      <div class="flex min-w-0 flex-1 gap-6 px-4 sm:px-6 lg:px-10">
-        <main id="conteudo" class="min-w-0 flex-1 py-8 lg:py-10">
-          {trilha.length > 0 && (
-            <nav aria-label="Trilha" class="mb-5">
-              <ol class="app-nav-label flex flex-wrap items-center gap-1.5 text-mono-muted">
-                {trilha.map((t, i) => (
-                  <li class="flex items-center gap-1.5">
-                    {i > 0 && <span aria-hidden="true" class="opacity-50">·</span>}
-                    {t.href
-                      ? <a href={t.href} class="no-underline hover:text-mono-text">{t.rotulo}</a>
-                      : <span class="text-mono-sub">{t.rotulo}</span>}
-                  </li>
-                ))}
-              </ol>
-            </nav>
-          )}
+    <!-- Wrapper empurrado pelo dock e pelo painel, como MasterLayout faz por paddingLeft. -->
+    <div class="flex h-screen flex-col" style={`padding-left:0`} data-conteudo-wrapper>
+      <div
+        class="relative z-50 flex-1 overflow-hidden bg-mono-bg"
+        style="box-shadow: -6px 0 8px -4px rgba(0,0,0,0.03), -12px 0 20px -8px rgba(0,0,0,0.02)"
+      >
+        <div class="page-scroll absolute inset-0 overflow-y-auto">
+          <div class="mx-auto flex w-full max-w-7xl gap-8 px-6 pt-20 pb-page sm:px-8 sm:pt-14 lg:px-12">
+            <main id="conteudo" class="min-w-0 flex-1">
+              {trilha.length > 0 && (
+                <nav aria-label="Trilha" class="mb-4">
+                  <ol class="flex flex-wrap items-center gap-1.5 text-xs text-mono-sub">
+                    {trilha.map((t, i) => (
+                      <li class="flex items-center gap-1.5">
+                        {i > 0 && <span aria-hidden="true" class="opacity-40">/</span>}
+                        {t.href
+                          ? <a href={t.href} class="no-underline hover:text-mono-text">{t.rotulo}</a>
+                          : <span>{t.rotulo}</span>}
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              )}
 
-          <article class="docs-prose">
-            <slot />
-          </article>
-        </main>
+              <article class="docs-prose">
+                <slot />
+              </article>
+            </main>
 
-        <ArticleToc headings={headings} />
+            <ArticleToc headings={headings} />
+          </div>
+        </div>
       </div>
     </div>
+
+    <style define:vars={{ dock: `${DOCK}px`, painel: `${PAINEL}px` }}>
+      @media (min-width: 1024px) {
+        [data-conteudo-wrapper] {
+          padding-left: calc(var(--dock) + var(--painel)) !important;
+        }
+      }
+    </style>
   </body>
 </html>

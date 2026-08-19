@@ -2,10 +2,9 @@
 /**
  * Trilho "Nesta página".
  *
- * O criador tem o análogo em SheetTableOfContents.tsx, com o mesmo rótulo em
- * uppercase e o mesmo destaque de item ativo por card. Aqui o item é textual,
- * porque heading de documento não tem ícone, mas o ativo usa toc-card-active,
- * que é a sombra que o criador aplica ao item corrente.
+ * Usa o mesmo par de idiomas do painel lateral do criador: rótulo de grupo em
+ * app-section-label e item em app-nav-item, com o corrente marcado por
+ * aria-current, que é o que o item lê para pintar o estado ativo.
  *
  * Lista só heading Markdown real. Documento sem heading não recebe trilho: os 28
  * do corpus que marcam seção em caixa alta caem nesse caso de propósito, porque o
@@ -18,21 +17,18 @@ const { headings = [] } = Astro.props;
 const itens = headings.filter(h => h.depth === 2 || h.depth === 3);
 ---
 {itens.length > 0 && (
-  <aside class="hidden w-60 shrink-0 xl:block" aria-label="Nesta página">
-    <div class="sidebar-scroll sticky top-14 max-h-[calc(100vh-3.5rem)] overflow-y-auto py-6 pr-3">
-      <h2 class="app-nav-label mb-2 px-3 text-mono-muted">Nesta página</h2>
-      <div class="flex flex-col gap-0.5">
+  <aside class="hidden w-56 shrink-0 xl:block" aria-label="Nesta página">
+    <div class="sidebar-scroll sticky top-6 max-h-[calc(100vh-6rem)] overflow-y-auto">
+      <p class="app-section-label">Nesta página</p>
+      <nav class="flex flex-col">
         {itens.map(h => (
           <a
             href={`#${h.slug}`}
             data-toc-link={h.slug}
-            class:list={[
-              'app-nav-row no-underline text-[12.5px] leading-snug !min-h-9',
-              h.depth === 3 ? '!pl-6' : '',
-            ]}
+            class:list={['app-nav-item no-underline !text-[13px]', h.depth === 3 ? '!pl-5' : '']}
           >{h.text}</a>
         ))}
-      </div>
+      </nav>
     </div>
   </aside>
 )}
@@ -46,16 +42,16 @@ const itens = headings.filter(h => h.depth === 2 || h.depth === 3);
 
     const ativo = (slug: string | null) => {
       for (const l of links) {
-        const on = l.dataset.tocLink === slug;
-        l.classList.toggle('toc-card-active', on);
-        // aria-current é o que o app-nav-row lê para pintar o estado ativo
-        if (on) l.setAttribute('aria-current', 'location');
+        if (l.dataset.tocLink === slug) l.setAttribute('aria-current', 'location');
         else l.removeAttribute('aria-current');
       }
     };
 
+    // O scroll acontece no wrapper interno, como no criador, não na janela.
+    const scroller = document.querySelector('.page-scroll') ?? window;
+
     const marcar = () => {
-      const linha = 96;
+      const linha = 120;
       let atual: string | null = null;
       for (const el of alvos) {
         if (el.getBoundingClientRect().top <= linha) atual = el.id;
@@ -66,7 +62,7 @@ const itens = headings.filter(h => h.depth === 2 || h.depth === 3);
 
     marcar();
     let agendado = false;
-    addEventListener('scroll', () => {
+    scroller.addEventListener('scroll', () => {
       if (agendado) return;
       agendado = true;
       requestAnimationFrame(() => { marcar(); agendado = false; });

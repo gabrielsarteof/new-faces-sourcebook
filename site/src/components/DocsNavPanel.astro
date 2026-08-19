@@ -1,11 +1,11 @@
 ---
 /**
- * Navegação lateral.
+ * Painel de navegação, 280px.
  *
- * Segue a variante mobile de SystemSidebar.tsx do criador, que é o idioma dele
- * para navegação em texto: w-72, navbar-bg, linhas com px-3 min-h-11 rounded-xl,
- * rótulo em uppercase tracking-widest, ativa em bg-mono-card. No desktop ela fica
- * fixa em coluna; no celular vira gaveta, como lá.
+ * Modelado em QuickSwitchPanel.tsx, que é o painel de texto que o criador já
+ * encosta no dock: w-[280px] navbar-bg sidebar-boundary, cabeçalho com o
+ * wordmark, campo de busca, rótulo de grupo em 10px uppercase e item em
+ * text-sm font-medium de caixa normal.
  *
  * Na fase 2 a árvore passa a sair do manifesto curado, que contém só `id`.
  */
@@ -53,33 +53,51 @@ const grupos: Grupo[] = [
 ];
 ---
 <aside
-  id="docs-sidebar"
-  class="sidebar-scroll fixed inset-y-0 left-0 z-50 w-72 -translate-x-full overflow-y-auto navbar-bg sidebar-boundary px-2 pt-6 pb-10 transition-transform duration-200 lg:sticky lg:top-14 lg:z-0 lg:h-[calc(100vh-3.5rem)] lg:translate-x-0 lg:shrink-0 lg:pt-6"
+  id="docs-nav"
+  class="sidebar-scroll fixed inset-y-0 left-0 z-[70] flex w-[280px] -translate-x-full flex-col overflow-y-auto navbar-bg sidebar-boundary pb-6 transition-transform duration-300 ease-in-out lg:translate-x-[72px]"
   aria-label="Navegação da documentação"
 >
-  <div class="mb-4 flex items-center justify-between px-3 lg:hidden">
-    <span class="app-nav-label text-mono-text">Navegação</span>
+  <header class="mb-3 flex shrink-0 items-center justify-between px-4 py-3">
+    <a href="/" class="flex h-7 items-center gap-2 no-underline sm:h-8">
+      <img src="/logo-wordmark.png" alt="New Faces" class="h-full w-auto select-none object-contain" draggable="false" />
+      <span class="app-section-label !p-0 !tracking-widest">docs</span>
+    </a>
     <button
       id="nav-close"
       type="button"
-      class="app-icon-card text-mono-sub hover:text-mono-text cursor-pointer"
+      class="app-icon-card text-mono-sub hover:text-mono-text cursor-pointer lg:hidden"
       aria-label="Fechar navegação"
     >
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
         <path d="M18 6 6 18M6 6l12 12" />
       </svg>
     </button>
+  </header>
+
+  <div class="shrink-0 px-3 pb-3">
+    <button
+      type="button"
+      class="relative flex w-full items-center gap-2 rounded-xl bg-mono-card px-3 py-2 text-sm text-mono-sub transition-colors hover:bg-mono-card-hover"
+      aria-label="Buscar na documentação"
+      disabled
+    >
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" class="shrink-0">
+        <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
+      </svg>
+      <span class="flex-1 text-left">Buscar</span>
+      <kbd class="rounded border border-mono-border px-1.5 py-0.5 text-[10px] font-sans">Ctrl K</kbd>
+    </button>
   </div>
 
-  <nav class="flex flex-col gap-5">
+  <nav class="flex flex-col px-3">
     {grupos.map(g => (
-      <div class="flex flex-col gap-0.5">
-        <h2 class="app-nav-label mb-1 px-3 text-mono-muted">{g.titulo}</h2>
+      <div class="flex flex-col">
+        <p class="app-section-label">{g.titulo}</p>
         {g.itens.map(i => (
           <a
             href={i.href}
             aria-current={i.href === rotaAtual ? 'page' : undefined}
-            class="app-nav-row app-nav-label no-underline"
+            class="app-nav-item no-underline"
           >{i.rotulo}</a>
         ))}
       </div>
@@ -87,24 +105,20 @@ const grupos: Grupo[] = [
   </nav>
 </aside>
 
-<div
-  id="nav-backdrop"
-  class="fixed inset-0 z-40 hidden bg-black/40 lg:hidden"
-  aria-hidden="true"
-></div>
+<div id="nav-backdrop" class="fixed inset-0 z-[60] hidden bg-black/50 lg:hidden" aria-hidden="true"></div>
 
 <script>
-  const sidebar = document.getElementById('docs-sidebar');
+  const painel = document.getElementById('docs-nav');
   const backdrop = document.getElementById('nav-backdrop');
   const abrir = document.getElementById('nav-toggle');
   const fechar = document.getElementById('nav-close');
 
   const setAberto = (aberto: boolean) => {
-    sidebar?.classList.toggle('-translate-x-full', !aberto);
+    painel?.classList.toggle('-translate-x-full', !aberto);
     backdrop?.classList.toggle('hidden', !aberto);
     abrir?.setAttribute('aria-expanded', String(aberto));
     document.body.style.overflow = aberto ? 'hidden' : '';
-    if (aberto) sidebar?.querySelector<HTMLAnchorElement>('nav a')?.focus();
+    if (aberto) painel?.querySelector<HTMLAnchorElement>('nav a')?.focus();
   };
 
   abrir?.addEventListener('click', () => setAberto(true));
