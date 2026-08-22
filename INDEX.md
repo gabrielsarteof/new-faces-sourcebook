@@ -177,7 +177,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.5 | compendium | final |
 | [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1.1 | compendium | final |
 | [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.4 | compendium | final |
-| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.7 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.8 | compendium | final |
 | [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.2 | compendium | final |
 | [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.5 | compendium | final |
 | [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.3 | compendium | final |

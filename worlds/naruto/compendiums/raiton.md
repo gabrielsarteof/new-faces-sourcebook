@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.7
+version: 3.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,8 +9,10 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.7
+# Compêndio de Raiton (雷遁) · v3.8
 **Liberação de Raio**
+
+**O que mudou na v3.8.** As entradas passam a declarar o vetor de entrega e a celeridade do meio, pelo contrato que o Lote de Vetores fechou e que o Template de Documento de Técnica v4 publica. Vinte e seis entradas receberam vetor por classificação mecânica sobre a descrição publicada, nove não o receberam por não entregarem dano, e seis subiram para a fila de decisão por ambiguidade real. A celeridade de 150 é a do Raiton na escada de meios da Seção 5.7 do Manual de Criação de Jutsus, e vale para toda entrada que atravesse distância. Nenhum preço em XP foi regenerado nesta passada, pela razão registrada na fila de errata.
 
 **O que mudou na v3.7.** A Exigência de Moldagem de todas as 41 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado, ancorado contra as Tabelas de Referência de Personagens e contra quem executa cada técnica no cânone. O Rasengan Evanescente declara a única exceção de piso aprovada até aqui, abaixo da vizinhança do Chidori por rodar os dois componentes em sequência e não em simultaneidade.
 
@@ -66,6 +68,7 @@ O usuário mantém um arco elétrico estável entre os dedos ou entre as duas pa
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV2 · Moldagem 44 · arma branca empunhada
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 600
 
 O usuário canaliza chakra de raio para uma ferramenta ninja segurada, fazendo a lâmina vibrar em alta frequência. A vibração amplia o poder de corte da arma e aplica o rider a quem entra em contato com o metal carregado. A aplicação é a forma mais difundida do elemento, sustentando o kenjutsu elétrico dos espadachins de Kumogakure e o uso de lâminas como condutor por shinobi de outras vilas. A corrente exige manutenção ativa de chakra enquanto a arma permanecer carregada.
@@ -77,6 +80,7 @@ O usuário canaliza chakra de raio para uma ferramenta ninja segurada, fazendo a
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV2 · Moldagem 32
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 480
 
 O usuário concentra corrente elétrica na palma da mão e a descarrega por contato direto no corpo do alvo. O dano físico é mínimo e toda a função da técnica reside no efeito neurológico, com o contato direto sobre o corpo elevando o rider em uma categoria. É a expressão mais direta da tese tática do elemento, ensinada cedo para que o shinobi de raio aprenda que a sua natureza vence pelo que impede o oponente de fazer no turno seguinte.
@@ -88,6 +92,7 @@ O usuário concentra corrente elétrica na palma da mão e a descarrega por cont
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV2 · Moldagem 44 · meio condutor em campo
+**Vetor:** Energia elétrica · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 600
@@ -105,6 +110,7 @@ O usuário libera corrente elétrica pelas palmas diretamente sobre um meio cond
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem 46
+**Vetor:** Energia elétrica · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 1.775
@@ -118,6 +124,7 @@ O usuário projeta pelas mãos uma onda de eletricidade que avança em leque à 
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem 58
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 1.430
 
 O usuário reúne chakra elétrico entre as palmas e o comprime até formar uma esfera instável de corrente, lançada em seguida contra o alvo. A esfera percorre distância média e detona em descarga concentrada no impacto. A velocidade de deslocamento é superior à dos projéteis equivalentes de outros elementos, característica que atravessa todo o arsenal de Raiton e reduz a janela de resposta do oponente.
@@ -129,6 +136,7 @@ O usuário reúne chakra elétrico entre as palmas e o comprime até formar uma 
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem 58
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 2.120
 
 O usuário dispara da palma um feixe de chakra de raio que se abre em malha ao alcançar o alvo, envolvendo o corpo e mantendo corrente contínua sobre ele por um curto período. A malha prende pela sobrecarga nervosa e não pela força física, e o contato sustentado eleva o rider em uma categoria. É a ferramenta de captura do elemento, empregada em interceptação, contenção de fugitivos e preparação de alvo para técnicas de linha reta.
@@ -140,6 +148,7 @@ O usuário dispara da palma um feixe de chakra de raio que se abre em malha ao a
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV3 · Moldagem 58
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 1.775
 
 O usuário emite descargas que percorrem o ar em trajetória sinuosa, contornando obstáculos e curvando o percurso antes de alcançar o alvo. A curvatura sacrifica a velocidade característica do elemento em troca de um ângulo de aproximação imprevisível, viabilizando ataques contra oponentes protegidos por cobertura frontal. O controle exigido para manter a corrente coesa fora da linha reta é o que posiciona a técnica acima das descargas comuns de rank equivalente.
@@ -166,6 +175,7 @@ O usuário detona uma descarga de intensidade luminosa máxima e duração míni
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV4 · Moldagem 58 · Kage Bunshin no Jutsu
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 5.300
 
 O usuário cria um clone composto de chakra elétrico, capaz de agir com autonomia e de executar técnicas em nome do original. Ao ser desfeito por golpe físico, o clone reverte ao estado de corrente pura e descarrega no atacante, aplicando o rider pelo contato direto. A propriedade transforma cada clone em armadilha para quem opta pelo combate próximo, e o valor da técnica reside tanto na presença adicional em campo quanto na punição automática da destruição.
@@ -177,6 +187,7 @@ O usuário cria um clone composto de chakra elétrico, capaz de agir com autonom
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem 58
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 4.625
 
 O usuário expele pela boca uma lança de eletricidade que atravessa o campo em linha reta com velocidade superior à de qualquer projétil elemental de rank equivalente. A concentração da corrente em ponta estreita concede poder de perfuração capaz de atravessar defesas de chakra que resistiriam a técnicas de área mais volumosas. O alcance é longo e a trajetória é fixa, o que faz da técnica uma escolha de precisão contra alvo já comprometido em posicionamento. É a forma base da entrega concentrada a distância, e as variações que a refinam aparecem no rank seguinte.
@@ -188,6 +199,7 @@ O usuário expele pela boca uma lança de eletricidade que atravessa o campo em 
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV4 · Moldagem 46 · segundo usuário de Raiton ou clone
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 5.300
@@ -201,6 +213,7 @@ Dois executantes estendem entre si uma corrente contínua de alta intensidade e 
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV4 · Moldagem 71
+**Vetor:** Penetração, Grau IV · Celeridade 150
 **XP:** 4.625
 
 O usuário molda chakra de raio na forma de um arco sustentado por uma das mãos e de uma flecha de corrente comprimida na outra, disparando o projétil em trajetória arqueada de longo alcance. A moldagem exige controle simultâneo de duas formas distintas, o que posiciona a técnica acima das descargas de mão livre do mesmo rank. A flecha admite disparo direto ou arremesso manual em curta distância, e alcança sua expressão máxima quando lançada sobre alvo previamente atingido por Suiton. Sustentar duas geometrias independentes com as duas mãos é composição que o estudo do elemento não entrega por si, e a entrada se abre a quem concluir o processo de criação de técnica em jogo.
@@ -212,6 +225,7 @@ O usuário molda chakra de raio na forma de um arco sustentado por uma das mãos
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV4 · Moldagem 72 · Caminho Emissão (Controle de Chakra)
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 5.300
 
 O usuário reúne corrente entre as palmas e a projeta no formato de uma fera quadrúpede que corre pelo solo em direção ao alvo, permanecendo ligada à mão do executante por um cordão de eletricidade. O cordão permite corrigir a trajetória durante a perseguição, o que torna a técnica o único projétil verdadeiramente teleguiado do arsenal de raio. A fera se dissolve no impacto e descarrega toda a corrente acumulada no ponto de contato. Sustentar um cordão de condução sobre uma descarga já projetada é verbo que o estudo do elemento não entrega, e a entrada se abre a quem concluir o processo de criação de técnica em jogo.
@@ -234,6 +248,7 @@ O usuário ergue um pilar de luz elétrica que domina o campo visual do alvo e u
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV4 · Moldagem 58
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 6.200
 
 O usuário dedica turnos consecutivos ao acúmulo de carga no próprio corpo, em vez de converter chakra em descarga imediata. Concluído o acúmulo, toda a corrente reunida é liberada de uma vez contra o solo ou contra o alvo, em detonação cuja escala corresponde ao número de turnos investidos. A técnica transforma tempo em potência e é a única do elemento que permite guardar a descarga para o momento escolhido, custo que se paga com a exposição do usuário durante a preparação.
@@ -245,6 +260,7 @@ O usuário dedica turnos consecutivos ao acúmulo de carga no próprio corpo, em
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem 60
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 5.300
 
 O usuário deposita por toque uma carga dormente em superfície, objeto ou ferramenta, onde ela permanece estável e praticamente invisível até ser detonada à distância por comando do executante. A carga não emite luz nem som enquanto adormecida, o que permite preparar o terreno antes do confronto e converter corrimões, portões, armas abandonadas e pontos de apoio em armadilhas. O contato direto com a fonte no instante da detonação eleva o rider em uma categoria.
@@ -267,6 +283,7 @@ O usuário abre um canal condutor entre o próprio corpo e o solo, oferecendo à
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem 58
+**Vetor:** Energia elétrica · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 4.625
@@ -284,6 +301,7 @@ O usuário libera uma corrente que, ao alcançar o primeiro alvo, salta dele par
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV5 · Moldagem 71 · Caminho Ponta
+**Vetor:** Penetração, Grau VI · Celeridade 150
 **XP:** 8.750
 
 O usuário reúne chakra de raio na palma da mão em concentração tão densa que a corrente produz um som semelhante ao canto de mil pássaros. Reunida a carga, o executante avança em linha reta e transpassa o alvo com a mão, causando perfuração tipicamente fatal. A velocidade do avanço impõe visão de túnel ao usuário, que perde a leitura periférica do campo durante a investida e fica exposto ao contra-ataque.
@@ -299,6 +317,7 @@ Sem Sharingan ativo, a execução concede ao oponente uma janela de contra-ataqu
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 74 · Caminho Ponta · Chidori · arma branca empunhada
+**Vetor:** Corte, Grau IV do Fio · Celeridade 150
 **XP:** 8.750
 
 O usuário transfere para a lâmina empunhada a corrente que o Chidori comprime na palma, e o aço passa a conduzir a carga ao longo de todo o fio. A vibração de alta frequência atravessa placa, guarda e arma interposta sem perder velocidade, o que retira do oponente a opção de aparar, e o golpe entrega o corte e a descarga no mesmo movimento. A lâmina mantida cravada no alvo continua alimentando a corrente e admite elevação para Paralisia Total. A dependência do objeto é o preço da entrada, e arma inimiga que carregue fluxo de raio detém o fio pelo confronto de mesma natureza.
@@ -310,6 +329,7 @@ O usuário transfere para a lâmina empunhada a corrente que o Chidori comprime 
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 71 · Caminho Arco · Chidori
+**Vetor:** Energia elétrica · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 11.000
@@ -323,6 +343,7 @@ O usuário irradia a corrente do Chidori pela superfície do corpo inteiro em ve
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 78 · Caminho Lança · Chidori
+**Vetor:** Penetração, Grau V · Celeridade 150
 **XP:** 11.000
 
 O usuário estende a corrente do Chidori em uma lança de eletricidade moldada, alongando o alcance efetivo da técnica sem perder a densidade de perfuração. A lança é flexível durante a extensão, permitindo curvas de trajetória e ataques a partir de ângulos que a investida direta não alcança. A distância obtida resolve a exposição da técnica original, uma vez que o executante perfura sem precisar cruzar o espaço que o separa do alvo.
@@ -334,6 +355,7 @@ O usuário estende a corrente do Chidori em uma lança de eletricidade moldada, 
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 80 · Chidori
+**Vetor:** Penetração, Grau V · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 11.000
@@ -347,6 +369,7 @@ O usuário fragmenta a corrente reunida em dezenas de agulhas de eletricidade di
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Registrada (Kakashi Hatake)
 **Requisitos:** Raiton LV5 · Moldagem 76 · Caminho Lança
+**Vetor:** Energia elétrica · Celeridade 150
 **Elevação:** Kyōka Shiden manifestada, que troca o multiplicador comum do elemento pelo 1,85 da natureza intensificada e abre a inclinação de extensão Agudo da Perícia de Raiton
 **XP:** 11.000
 
@@ -381,6 +404,7 @@ O usuário injeta por contato um sinal nervoso falso em um membro específico do
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV5 · Moldagem 70 (exceção aprovada de piso: os dois componentes correm em sequência, não em simultaneidade) · Caminho Composição (Controle de Chakra) · Rasengan
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 13.250
 
 O usuário infunde chakra de raio na esfera rotativa do Rasengan, alterando a forma como a luz e o próprio chakra se comportam na superfície da técnica. Durante o percurso, a esfera se torna invisível à observação comum e reaparece no instante do impacto, removendo do oponente a leitura de distância e de tempo que a técnica original oferece. A execução exige domínio pleno do Rasengan e controle simultâneo de infusão elemental, combinação que a mantém indisponível na criação de personagem e alcançável somente em jogo.
@@ -403,6 +427,7 @@ O usuário reveste o corpo com uma camada de chakra elétrico que estimula diret
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV5 · Moldagem 34 · Armadura de Raio ativa
+**Vetor:** Impacto · Celeridade 150
 **XP:** 9.200
 
 O usuário agarra o oponente em pleno movimento e o conduz ao solo com a força somada da armadura elétrica e da própria estrutura corporal, concentrando todo o impacto no ponto de contato entre o alvo e o terreno. A técnica pertence ao domínio do taijutsu e depende integralmente da aceleração fornecida pela armadura, sem a qual a força aplicada não alcança o patamar necessário. O terreno atingido costuma ceder junto com o alvo.
@@ -414,6 +439,7 @@ O usuário agarra o oponente em pleno movimento e o conduz ao solo com a força 
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV5 · Moldagem 74 · arma branca empunhada
+**Vetor:** Corte, Grau IV do Fio · Celeridade 150
 **XP:** 12.800
 
 O usuário integra corrente elétrica ao próprio kenjutsu, revestindo a lâmina e prolongando o corte em arcos de raio que percorrem o campo além do alcance físico da arma. Cada golpe carrega a perfuração do elemento somada à trajetória do fio, e a sequência de arcos cobre ângulos que o movimento da espada isoladamente não alcança. A forma é a origem registrada da canalização elemental em arma e permanece atrelada ao seu criador.
@@ -423,6 +449,7 @@ O usuário integra corrente elétrica ao próprio kenjutsu, revestindo a lâmina
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta
 **Requisitos:** Raiton LV5 · Moldagem 84 · Kyōka Kuroi Kaminari · Caminho Doma
+**Vetor:** Penetração, Grau III · Celeridade 150
 **XP:** 12.800
 
 O usuário molda relâmpago negro na forma de uma pantera que avança de forma autônoma pelo campo, mordendo e perfurando o alvo antes de se dissipar. A forma sustentada que a técnica exige pertence ao caminho Doma da inclinação Calamidade, e é dele que saem a manutenção por turno e o deslocamento da forma em campo. A coloração não é efeito estético, porque o relâmpago negro é uma alteração fundamental da natureza elétrica, transmitida diretamente de portador para portador e impossível de reproduzir por treinamento, observação ou cópia ocular. Sem a transmissão, a técnica não existe para o personagem em nenhuma circunstância.
@@ -440,6 +467,7 @@ O usuário molda relâmpago negro na forma de uma pantera que avança de forma a
 **[CANON · Rank S]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Raiton LV6 · Moldagem 89 · Caminho Ponta · Chidori
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 23.600
 
 O usuário eleva a concentração do Chidori até o ponto em que a corrente deixa de se comportar como descarga e passa a operar como lâmina, capaz de cortar o próprio relâmpago ao meio. A densidade alcançada atravessa defesas de chakra que suportariam a versão original da técnica, e a perfuração deixa de depender da massa investida para depender da precisão do corte. O nome da técnica registra o feito que a originou.
@@ -453,6 +481,7 @@ A janela de contra-ataque por visão de túnel permanece idêntica à do Chidori
 **[CANON — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem 92 · Caminho Ponta · Chidori · Amaterasu com o olho correspondente ativo · Kyōka Enton
+**Vetor:** Penetração, Grau VI · Celeridade 150
 **XP:** 21.800
 
 O usuário reveste a corrente já reunida do Chidori com a chama negra do Amaterasu, moldada sobre ela pela competência da natureza intensificada, e avança carregando as duas coisas na mesma mão. A chama nasce do olho e se acomoda sobre a corrente já pronta, sem sair da reserva do executante, de modo que o impacto conserva a perfuração e a paralisia da técnica de origem. O ponto de entrada permanece aceso depois que a corrente se dissipa, e a queima instalada não responde a meio comum de extinção, cedendo apenas à moldagem de quem a assentou. O preço da entrada se cobra no medidor do próprio olho.
@@ -464,6 +493,7 @@ O usuário reveste a corrente já reunida do Chidori com a chama negra do Amater
 **[CANON · Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV6 · Moldagem 100 · Caminho Tempestade · nuvens de tempestade sobre o campo
+**Vetor:** Energia elétrica · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 23.600
@@ -478,6 +508,7 @@ Conduzir um relâmpago natural em vez de gerar corrente é concepção que ningu
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV6 · Moldagem 94 · Caminho Ponta · Armadura de Raio ativa
+**Vetor:** Penetração, Grau IV · Celeridade 150
 **XP:** 23.000
 
 O usuário concentra a corrente da armadura elétrica nas pontas dos dedos estendidos e desfere uma estocada cuja força de penetração supera qualquer outra perfuração registrada do elemento. A técnica admite três formas, distinguidas pelo número de dedos empregados. Quatro dedos distribuem a força sobre área maior, três concentram a perfuração, e um único dedo reúne toda a corrente em ponto mínimo, alcançando penetração capaz de atravessar defesas consideradas absolutas. A progressão exige controle proporcional à concentração pretendida, e a forma de um dedo é o teto da tese do elemento.
@@ -495,6 +526,7 @@ Entradas sem teto de rank ficam fora da interpolação de preço, e o custo é d
 **[ATRIBUÍDO — Acima de Rank S]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV6 · Moldagem 60 · formação de quatro usuários e pilares posicionados
+**Vetor:** Energia elétrica · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
@@ -508,6 +540,7 @@ Quatro executantes se posicionam em pilares dispostos ao redor da área designad
 **[CANON — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem 120 · Susanoo em estágio máximo · fonte de chakra externa excepcional
+**Vetor:** Penetração, Grau IV · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
@@ -521,6 +554,7 @@ O usuário molda com o Susanoo um arco e uma flecha carregados com chakra de rai
 **[ATRIBUÍDO — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem 130 · Transcendência Arco Voltaico
+**Vetor:** Energia elétrica · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** definido pelo Narrador, piso 50.000
