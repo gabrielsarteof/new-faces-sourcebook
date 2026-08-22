@@ -363,7 +363,10 @@ A leitura roda apenas no executor de referência. Medir também na mão do mestr
 
 ```
 XP final = XP da posição × (coef_técnica ÷ coef padrão do rank)
+                            piso do modificador: 0,5
 ```
+
+O piso existe porque a obra de coeficiente 0,0 ainda custa chakra, ação e risco, e preço zero é impossível. O valor de 0,5 é o próprio padrão do rank E, o menor que o sistema publica, e o piso diz que nenhuma obra vale menos que a obra mais barata que o sistema reconhece. Ele incide sobre o modificador e nunca sobre o coeficiente declarado, que segue livre para 0,0 na ficha.
 
 | Rank | Coeficiente técnico padrão |
 |---|---|
@@ -583,13 +586,30 @@ A fonte atmosférica exige condição estrutural de cenário declarada no regist
 
 #### Tabela de referência: coef_técnica
 
-| Dependência de moldagem | coef_técnica | Exemplo |
+O coeficiente se lê por dois eixos que compõem. O primeiro é a dependência de moldagem da obra, que diz de que ordem de grandeza ela é.
+
+| Dependência de moldagem | Ordem do coef_técnica | Exemplo |
 |---|---|---|
-| Técnica que existe pela moldagem (pura) | 3,0 | Rasengan |
-| Alta, moldagem como mecanismo central | 2,0 | Chidori, Raikiri |
-| Média, moldagem intensifica o efeito | 1,0 | Katon genérico, Nagashi |
-| Baixa, moldagem auxiliar | 0,5 | Taijutsu infundido simples |
+| Técnica que existe pela moldagem (pura) | alto | Rasengan |
+| Alta, moldagem como mecanismo central | acima da média | Chidori, Raikiri |
+| Média, moldagem intensifica o efeito | médio | Katon genérico, Nagashi |
+| Baixa, moldagem auxiliar | baixo | Taijutsu infundido simples |
 | Nenhuma, força bruta elemental | 0,0 | Projétil básico sem forma |
+
+O segundo eixo é o rank, que fixa a banda de autoria. A obra típica de cada rank declara o padrão, que fica no meio da banda, e a obra que aproveita mais ou menos refinamento que a típica anda dentro dela.
+
+| Rank | Banda de autoria | Padrão do rank |
+|---|---|---|
+| E | 0,4 a 0,6 | 0,5 |
+| D | 0,8 a 1,2 | 1,0 |
+| C | 1,3 a 1,8 | 1,5 |
+| B | 1,8 a 2,4 | 2,0 |
+| A | 2,6 a 3,4 | 3,0 |
+| S | 3,6 a 4,4 | 4,0 |
+
+O teto anterior de 3,0 foi escrito quando o coeficiente multiplicava um termo somado ao lado da conversão. Alimentando o `w`, ele precisa alcançar o padrão de cada rank, e a banda é o que garante que o modificador de XP da Seção 4.1.3 seja neutro na obra típica e ande cerca de treze por cento para cada lado nas demais.
+
+**A obra publicada fora da banda do próprio rank é sinal de conferência, não erro.** As quatro âncoras deste manual declaram abaixo da banda, e cada uma pela mesma razão: são obras cujo poder vem de uma moldagem barata para quem já carrega a perícia, e não da reserva que queimam. O Chidori em 2,0 dentro do rank A é o caso que a Seção 4.1.1 já explicava ao colocá-lo junto ao piso da faixa. O Rasengan em 3,0 dentro do rank B é o oposto, uma obra acima da banda, e é ele que satura a posição. Nenhuma das quatro se reescreve para caber na banda: a banda orienta a autoria de obra nova, e a ficha publicada continua declarando o que a obra é.
 
 #### Validação com âncoras canônicas
 
@@ -975,7 +995,11 @@ A morte do Fator de Moldagem como termo somado alcança a Linhagem do Rasengan, 
 
 A linha do Rasenshuriken na tabela de âncoras da Seção 3.2 desce de dois turnos de janela para um, porque o cano de vinte e cinco por cento da vocação de Vento comporta em uma janela o que o cano universal exigia em duas. É a única linha daquela tabela que muda de resultado.
 
-O modificador de coeficiente técnico da Seção 4.1.3 zera o preço quando a ficha declara coeficiente 0,0, que é o caso da força bruta elemental sem forma. Nenhuma fonte publica piso para ele, e a lacuna fica registrada em vez de arbitrada. Registra-se também que o coeficiente padrão dos ranks A e S, em 3,0 e 4,0, fica acima do teto da tabela de coeficiente técnico publicada na Seção 5.3, de modo que toda obra desses dois ranks recebe modificador abaixo de um enquanto a tabela não crescer.
+O modificador de coeficiente técnico ganha piso de 0,5, que é o próprio padrão do rank E, porque a obra de coeficiente 0,0 ainda custa chakra, ação e risco. O piso incide sobre o modificador e nunca sobre o coeficiente declarado.
+
+A tabela de coeficiente técnico da Seção 5.3 cresce e ganha banda de autoria por rank, de 0,4 a 0,6 no E até 3,6 a 4,4 no S, com o padrão no meio de cada uma. O teto anterior de 3,0 foi escrito quando o coeficiente multiplicava um termo somado, e alimentando o `w` ele precisa alcançar o padrão de cada rank para que o modificador seja neutro na obra típica. Os padrões de rank permanecem como estavam, porque baixá-los desfaria a calibração dos pisos de entrega.
+
+As quatro obras nomeadas neste manual declaram coeficiente fora da banda do próprio rank, e nenhuma foi reescrita para caber. A banda orienta a autoria de obra nova, a ficha publicada continua declarando o que a obra é, e a divergência entra na lista de conferência do repasse do corpus pelo mesmo mecanismo que a saturação de posição.
 
 **v2.11.** A leva de Técnicas Base Universais fechou sua passada de erratas numerada v2.10, cega para a propagação do Cânone v2 que fechava a dela no mesmo número ao mesmo tempo. Nenhuma das duas substitui a outra; esta entra no primeiro número livre, no mesmo padrão já usado para a colisão da v2.6. Três erratas abertas pela leva fecham aqui, nenhuma delas mudando fórmula ou custo já publicado. A Seção 7.1 perde a linguagem de fragmentação por contagem de clones: o Kage Bunshin de 1 clone deixa de se ler como C-rank, porque a ficha inteira já declarava rank B por convergência canônica desde a publicação da técnica, e o texto normativo estava atrás da própria ficha que ele deveria governar. A escalada a A, S e Kinjutsu passa a pertencer exclusivamente ao Tajū Kage Bunshin no Jutsu, técnica distinta, e não a uma leitura aritmética do Kage Bunshin. A curva de custo de RC por clone não muda.
 
