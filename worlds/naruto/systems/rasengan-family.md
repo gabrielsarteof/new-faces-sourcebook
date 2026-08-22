@@ -1,7 +1,7 @@
 ---
 id: naruto.system.rasengan-family
 title: "Linhagem do Rasengan"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: system
@@ -164,7 +164,7 @@ Nenhum personagem inicial adquire qualquer ficha desta linhagem na criação.
 
 ## 8. Fronteira com outros documentos
 
-O dano, o rank, o custo de XP e a Janela de Canalização pertencem ao Manual de Criação de Jutsus. O degrau de moldagem e o requisito de caminho pertencem ao Manual de Requisitos de Técnica. As réguas de desperdício, interface, modulação e permanência pertencem à Perícia de Controle de Chakra. O multiplicador de natureza e o rider elemental pertencem ao Sistema Elemental. Os graus e as durações de status pertencem ao Sistema de Efeitos de Status. O pool externo pertence à Reserva de Chakra, com a taxa de saque do selo pertencendo à Perícia de Fūinjutsu.
+O dano, o rank, o custo de XP e a Janela de Canalização pertencem ao Manual de Criação de Jutsus. O degrau de moldagem e o requisito de caminho pertencem ao Manual de Requisitos de Técnica. As réguas de desperdício, interface, modulação e permanência pertencem à Perícia de Controle de Chakra. A Constante de Moldagem, a Assinatura e o rider elemental pertencem ao Sistema Elemental. Os graus e as durações de status pertencem ao Sistema de Efeitos de Status. O pool externo pertence à Reserva de Chakra, com a taxa de saque do selo pertencendo à Perícia de Fūinjutsu.
 
 A camada de acesso e o estado de autoria pertencem à Norma de Produção de Compêndios, e este documento apenas declara qual instância a linhagem ocupa.
 

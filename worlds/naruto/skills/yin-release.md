@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yin-release
 title: "Liberação de Yin"
-version: 4.2
+version: 4.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -20,7 +20,7 @@ Esta é a coluna de magnitude do portão duplo, e ela escalona por rank. A perí
 
 A fronteira interna do domínio corre pela separação da energia. Tudo que acontece antes dela, a repartição do chakra composto entre a metade espiritual e a física, a proporção da mistura e a estabilidade do que se sustenta no circuito, pertence ao Controle de Chakra. Tudo que acontece depois da energia espiritual deixar o corpo pertence a esta perícia.
 
-O território termina onde o ofício alheio começa. A perícia exige a afinidade de Yin, obtida de nascença pelo Passo 1.5 do Sistema Elemental ou aprendida fora da afinidade sob multiplicador de dispersão. As manifestações da natureza ficam fora do ciclo de superação elemental, sem multiplicador de elemento, sem rider de status e sem choque favorável ou desfavorável, com o dano operando pelo multiplicador de natureza de 1,50 declarado no Eixo do Onmyōton. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos pertence ao Controle de Chakra.
+O território termina onde o ofício alheio começa. A perícia exige a afinidade de Yin, obtida de nascença pelo Passo 1.5 do Sistema Elemental ou aprendida fora da afinidade sob multiplicador de dispersão. As manifestações da natureza ficam fora do ciclo de superação elemental e sem choque favorável ou desfavorável, e o dano opera pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, conforme o Eixo do Onmyōton. A natureza não contribui rider algum, e o rider estrutural do vetor declarado permanece por pertencer ao vetor. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos pertence ao Controle de Chakra.
 
 A mentira instalada no circuito do alvo, que existe para uma pessoa só e cai quando o Kai a alcança, pertence à perícia Genjutsu, e a classificação histórica do genjutsu dentro do eixo de Yin é registro que não gera requisito nem efeito naquele domínio. A leitura de chakra alheio e a identificação de fonte pertencem à perícia de Sensoriamento. O apagamento da própria emissão pertence ao Controle de Chakra. A absorção de chakra alheio com reemissão no mesmo ato pertence à Liberação Escura, em Naturezas Avançadas. A união de Yin e Yang, que dá forma pelo primeiro e vida pelo segundo, pertence ao Eixo do Onmyōton e fica acima do teto desta perícia, junto do poder de Yin dos Seis Caminhos. A sombra manipulada por hiden pertence ao documento do clã que a detém, e a transferência de mente ao clã que a detém. A metade espiritual do chakra de um bijū e o selamento dela pertencem aos documentos de bijū e de fūinjutsu. As técnicas nomeadas vivem no Compêndio de Inton, sem exceção.
 
@@ -131,7 +131,7 @@ CORTINA (grau 4, complexidade 2) · 42
 INCLINAÇÃO CONSTRUTO
 
 ARMEIRO (grau 3, complexidade 3) · 38
-└─ Forja de Punho [sustentado, ação menor, 45 RC no ato e 15 RC por turno]: ergue arma branca, escudo, corda ou ferramenta empunhada, com qualidade de equipamento superior e sem peso, e o praticante testa Construto no lugar da qualidade do objeto quando a manobra depender do equipamento. A obra não se quebra por uso e rompe apenas pelo limiar transversal, com o dano correndo pelas réguas de taijutsu e de armas sem atravessar o multiplicador de natureza. LV5: a forma se refaz como reação dentro do mesmo ato, lâmina virando escudo no meio do golpe, sem custo novo
+└─ Forja de Punho [sustentado, ação menor, 45 RC no ato e 15 RC por turno]: ergue arma branca, escudo, corda ou ferramenta empunhada, com qualidade de equipamento superior e sem peso, e o praticante testa Construto no lugar da qualidade do objeto quando a manobra depender do equipamento. A obra não se quebra por uso e rompe apenas pelo limiar transversal, com o dano correndo pelas réguas de taijutsu e de armas sem atravessar o termo de tipo. LV5: a forma se refaz como reação dentro do mesmo ato, lâmina virando escudo no meio do golpe, sem custo novo
 └─ Prolongamento [ativado, ação livre, 20 RC]: estende a obra empunhada em até 4 metros no instante do golpe, alterando alcance sem alterar dano. LV5: 8 metros, e o alcance estendido não abre guarda, porque a obra se recolhe no mesmo ato
 
 COURAÇA (grau 3, complexidade 3) · 38
@@ -147,7 +147,7 @@ LAÇO (grau 4, complexidade 3) · 42
 └─ Rede Erguida [ativado, ação padrão, 75 RC]: cobre área de 8 metros de raio com malha de substância, e quem entrar ou estiver dentro opõe esquiva ao teste, ficando preso pelo grau da margem. LV5: raio de 15 metros, e a malha persiste 2 turnos sem sustentação
 
 FORJADOR DE FENÔMENOS (grau 4, complexidade 3) · 42
-└─ Lança do Vazio [ativado, ação padrão, custo declarado pela técnica]: a energia espiritual veste a forma de um fenômeno e atravessa a distância como golpe, fora do ciclo de superação e com o dano operando pelo multiplicador de natureza de 1,50. O alvo desce um degrau no Perfil de Evasão contra o fenômeno, porque a trajetória não obedece à física do elemento que ela imita. O Sharingan copia a moldagem e não a natureza, e a cópia por quem não possui afinidade de Yin não produz o fenômeno. LV5: dois degraus, e o fenômeno atravessa cobertura leve antes de resolver
+└─ Lança do Vazio [ativado, ação padrão, custo declarado pela técnica]: a energia espiritual veste a forma de um fenômeno e atravessa a distância como golpe, fora do ciclo de superação e com o dano operando pela Constante de Moldagem multiplicada pela Assinatura do vetor que a obra declarar. O alvo desce um degrau no Perfil de Evasão contra o fenômeno, porque a trajetória não obedece à física do elemento que ela imita. O Sharingan copia a moldagem e não a natureza, e a cópia por quem não possui afinidade de Yin não produz o fenômeno. LV5: dois degraus, e o fenômeno atravessa cobertura leve antes de resolver
 └─ Sem Ciclo [passivo, sem custo]: técnica de Inton do praticante ignora a redução por barreira, guarda e absorção indexadas a natureza elemental, porque não há natureza elemental a indexar. LV5: ignora também a absorção declarada por dōjutsu e por caminho de perícia vizinha, restando a oposição por integridade bruta
 
 INCLINAÇÃO VULTO
@@ -265,6 +265,12 @@ DEPENDÊNCIAS E PENDÊNCIAS
 Perícia de Sensoriamento, hoje sem documento, dona da leitura de chakra alheio e da identificação de fonte que o caminho Atalaia recusa. Núcleo do Sistema, que ainda não publica a resolução de impacto cinético contra barreira, consumida pelo caminho Arquiteto e resolvida provisoriamente pela régua de limiar. Compêndio de Inton, escrito contra a partição anterior, com entradas a reendereçar e faixa a crescer para a lotação vigente. Sistema de Efeitos de Status, que responde pela graduação da Imobilização do caminho Laço e pela Exaustão de Chakra do resíduo espiritual. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas.
 
 REGISTRO DE ALTERAÇÕES
+
+v4.3
+
+• O multiplicador de natureza de 1,50 sai das duas citações, a da fronteira de abertura e a do caminho Lança do Vazio, revogado pelo Eixo do Onmyōton v1. O dano passa a operar pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, como em qualquer natureza
+• A cláusula sobre rider se precisa: a natureza não contribui rider algum, e o rider estrutural do vetor declarado permanece por pertencer ao vetor
+• Nenhum caminho, régua, transcendência ou preço alterado
 
 v4.2
 

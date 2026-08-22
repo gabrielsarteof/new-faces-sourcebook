@@ -1,7 +1,7 @@
 ---
 id: naruto.system.onmyoton
 title: "Eixo do Onmyōton"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: system
@@ -9,7 +9,7 @@ status: final
 source-file: Eixo_do_Onmyoton_v1.md
 ---
 
-# Eixo do Onmyōton (陰陽遁) · v1
+# Eixo do Onmyōton (陰陽遁) · v1.1
 As duas naturezas que nascem da proporção entre as metades do chakra, a posição delas fora do ciclo de superação, a entrada delas no motor de dano, a união que as soma e o teto dos Seis Caminhos.
 
 ---
@@ -125,14 +125,15 @@ Os feitos registrados sob o grau pertencem à história do mundo e ficam dispon�
 
 | Alvo | Pedido |
 |---|---|
-| Liberação de Yin v4.2 | Duas citações do multiplicador de natureza de 1,50, uma na fronteira de abertura e outra no caminho Lança do Vazio, perdem o número e passam a ler o motor de dano publicado aqui |
-| Liberação de Yang v4.3 | A citação do multiplicador de natureza de 1,00 perde o número pela mesma razão. A citação da escassez de instrução passa a apontar a Seção 6 do Manual de Treino do cenário, que publica as cinco categorias que apenas o Mestre lendário abre e que já é o dono da régua |
-| Liberação de Yin v4.2 e Liberação de Yang v4.3 | A cláusula "sem rider de status" se precisa para dizer que a natureza não contribui rider, com o rider estrutural do vetor permanecendo por pertencer ao vetor |
-| Sistema Elemental v9 | A justificativa da Constante de Moldagem afirma que a técnica converte chakra em matéria elemental, e a régua de Integridade da Liberação de Yin declara que a obra não é matéria. A justificativa passa a medir a moldagem, conforme a segunda metade da própria frase já diz |
-| Naturezas Avançadas v7 | A linha das Notas para o Mestre que declara a manifestação de Yin como pendente de decisão está revogada desde a Errata D2, que fechou a ausência de Etapa de manifestação no eixo inteiro |
-| Manual de Criação de Jutsus v3.1, Seção 5.7 | A linha de celeridade 95 declara que mede o meio empregado, para que a obra de natureza sem meio elemental a leia sem parecer exceção |
+| ~~Liberação de Yin, duas citações do multiplicador de natureza de 1,50, uma na fronteira de abertura e outra no caminho Lança do Vazio~~ | **Aplicada na v4.3.** As duas perderam o número e passaram a ler o motor de dano publicado aqui |
+| ~~Liberação de Yang, a citação do multiplicador de natureza de 1,00 e a citação da escassez de instrução~~ | **Aplicada na v4.4.** O número saiu pela mesma razão, e a escassez de instrução voltou para a Seção 6 do Manual de Treino do cenário, que já era o dono da régua |
+| ~~Liberação de Yin e Liberação de Yang, a cláusula "sem rider de status"~~ | **Aplicada na v4.3 e na v4.4.** As duas declaram que a natureza não contribui rider, com o rider estrutural do vetor permanecendo por pertencer ao vetor |
+| ~~Sistema Elemental, a justificativa da Constante de Moldagem~~ | **Aplicada na v9.1.** A justificativa afirmava que a técnica converte chakra em matéria elemental, e a régua de Integridade da Liberação de Yin declara que a obra não é matéria. Ela passou a medir a moldagem, conforme a segunda metade da própria frase já dizia |
+| ~~Naturezas Avançadas, a nota que declarava a manifestação de Yin pendente~~ | **Aplicada na v7.1.** A linha estava revogada desde a Errata D2, que fechou a ausência de Etapa de manifestação no eixo inteiro, e sobrevivera por viver fora das seções de mecânica |
+| ~~Manual de Criação de Jutsus, Seção 5.7, a linha de celeridade 95~~ | **Aplicada na v3.2.** A linha declara que mede o meio empregado, e a linha do Yōton ganhou o kanji 溶遁 para separar a Liberação de Lava da Liberação de Yang |
 | Compêndio de Inton v2.6 | A entrada Despacho de Raio diverge do capítulo 674 em três eixos: perde o prefixo Senpō e a exigência de senjutsu, afirma ausência de natureza elemental quando o registro de databook declara componente de Raio, e declara o criador ausente deste mundo quando o criador é Madara Uchiha. A função registrada é de captura |
-| Índice de Perícias v2.25 | O Registro de Regentes publica Liberação de Yin v4.1 e Liberação de Yang v4.2, e os arquivos estão em v4.2 e v4.3 |
+| ~~Índice de Perícias, Registro de Regentes e Registro de Conformidade~~ | **Aplicada na v2.26.** Os dois registros publicavam as duas perícias uma versão atrás cada |
+| ~~Linhagem do Rasengan, Linhagem do Chidori e Compêndio de Yōton, citações órfãs do termo revogado~~ | **Aplicada na v1.4, v1.5 e v2.6.** As três citavam o multiplicador de natureza, que deixou de existir como grandeza publicada, e passaram a citar a Constante de Moldagem com a Assinatura, ou o termo de tipo, conforme o que cada linha media |
 
 ---
 
@@ -150,18 +151,20 @@ Os feitos registrados sob o grau pertencem à história do mundo e ficam dispon�
 
 | Documento | Versão consumida | O que este documento lê |
 |---|---|---|
-| Sistema Elemental | 9 | O branch do Passo 1.5, o viés de clã, o Ciclo de Superação, a Força de Choque, o Sōsai, a Constante de Moldagem e a Assinatura |
-| Manual de Criação de Jutsus | 3.1 | O motor de dano, a Escada de Celeridade dos meios e a isenção da obra portada pelo corpo |
+| Sistema Elemental | 9.1 | O branch do Passo 1.5, o viés de clã, o Ciclo de Superação, a Força de Choque, o Sōsai, a Constante de Moldagem e a Assinatura |
+| Manual de Criação de Jutsus | 3.2 | O motor de dano, a Escada de Celeridade dos meios e a isenção da obra portada pelo corpo |
 | Núcleo de Combate | 3 | Os quatro vetores, os riders estruturais e a camada que consome a Assinatura |
-| Naturezas Avançadas | 7 | O registro das duas naturezas do eixo e a fronteira do Meiton |
+| Naturezas Avançadas | 7.1 | O registro das duas naturezas do eixo e a fronteira do Meiton |
 | Errata D2 | 1.2 | A ausência de Etapa de manifestação e de Centelha no eixo, e a composição da Liberação de Madeira |
-| Liberação de Yin | 4.2 | A régua de Integridade, a Escada de Projeção e a fronteira interna do domínio |
-| Liberação de Yang | 4.3 | A via de dano pelo corpo amplificado e a fronteira interna do domínio |
+| Liberação de Yin | 4.3 | A régua de Integridade, a Escada de Projeção e a fronteira interna do domínio |
+| Liberação de Yang | 4.4 | A via de dano pelo corpo amplificado e a fronteira interna do domínio |
 | Manual de Treino do cenário | 1 | As cinco categorias que apenas o Mestre lendário abre |
 | Controle de Chakra | 3.7 | A repartição do chakra composto e a estabilidade da mistura |
 
 ---
 
 ## Registro de Alterações
+
+**v1.1.** A propagação fecha oito das nove linhas da fila de errata, e cada linha aplicada passa a registrar a versão em que entrou. A caça de citações órfãs alcançou três documentos além dos previstos, a Linhagem do Rasengan, a Linhagem do Chidori e o Compêndio de Yōton, que citavam o multiplicador de natureza como grandeza viva depois de ele deixar de existir. A tabela de dependências acompanha as versões novas dos documentos tocados. A errata contra o Compêndio de Inton permanece aberta, porque ela é decidida por linha na fila de vetores.
 
 **v1.** Nascimento. O documento cumpre as citações que oito arquivos do corpus dirigiam a ele desde a passada da Errata D2. Publica a posição do eixo fora do Ciclo de Superação e o alcance exato dessa posição, revoga os multiplicadores de natureza de 1,50 e de 1,00 e declara que a obra do eixo resolve pela Constante de Moldagem e pela Assinatura do vetor como qualquer outra, fixa o comportamento do rider estrutural em obra do eixo, lê a celeridade do meio na linha de chakra moldado puro, e declara a união e o grau dos Seis Caminhos como teto não comprável. Duas promessas que o corpus dirigia a este documento foram devolvidas a donos que já existiam, a escassez de instrução ao Manual de Treino do cenário e a manifestação de Yin à Errata D2, que já a havia revogado.

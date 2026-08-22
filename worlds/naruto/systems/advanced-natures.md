@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 7
+version: 7.1
 layer: scenario
 scenario: naruto
 type: system
@@ -515,11 +515,13 @@ Sem esta régua, as naturezas avançadas de perícia própria ficariam sem largu
 - **Gate de linhagem é história, não bloqueio arbitrário:** um Senju ou Uzumaki que nunca soube da própria ascendência pode manifestar Mokuton como revelação de enredo, em vez de barreira mecânica seca.
 - **Clusters são geografia viva:** o viés de linhagem e região é a razão pela qual Iwagakure tem doutrina de Yōton e Kumogakure tem esgrimistas de Ranton. Use os clusters ao gerar PdMs para que a distribuição de naturezas avançadas no mundo pareça orgânica.
 - **Meiton pede adaptação:** por ter natureza dominante dinâmica, o Mestre precisa declarar contra qual chakra o Meiton está sendo usado a cada ativação, antes de resolver o Ciclo de Superação daquele turno.
-- **Onmyōton segue incompleto:** a manifestação de Yin ainda não existe. Não improvise uma em mesa sem antes fechar a decisão de design formalmente.
+- **Onmyōton não tem manifestação a alcançar:** o eixo dispensa Etapa de manifestação e Centelha, e a perícia da natureza é a natureza desenvolvida. Yin e Yang chegam completos pelo branch do Passo 1.5, e o que fica acima das duas perícias é a união, que o Eixo do Onmyōton declara como teto não comprável.
 
 ---
 
 ## Registro de Alterações
+
+**v7.1.** A nota para o Mestre que declarava a manifestação de Yin como decisão de design em aberto sai, atendendo pedido do Eixo do Onmyōton v1. A Errata D2, origem D3, já havia revogado a Etapa de manifestação e a Centelha no eixo inteiro, e a nota sobreviveu à varredura daquela errata por viver fora das seções de mecânica. A linha passa a declarar o estado vigente, com Yin e Yang chegando completos pelo branch do Passo 1.5 e a união ficando acima das duas perícias. As duas citações que este documento dirige ao Eixo do Onmyōton passam a resolver contra arquivo publicado. Nenhuma composição, portão, tier, Constante de Moldagem ou percentual de Centelha mudou.
 
 **v7.** A Errata E1 é absorvida. A seção de Progressão por Maestria ganha a Herança de posição, que declara qual posição da Escada de Afinidade cada natureza avançada ocupa e, com ela, a largura do cano de saída, o custo efetivo em RC, o modelo de falha e os limiares de treino da perícia. A natureza acesa por Centelha entra como Compatibilidade, a Kyōka herda a posição do portador no elemento hospedeiro, e a natureza que corre por inclinação de extensão manifestada lê integralmente a posição da hospedeira. A pendência de substituição de rider por Kyōka na seção do Shiden permanece aberta e passa a estar registrada também na fila de errata do Sistema Elemental. Nenhuma composição, portão, tier, Constante de Moldagem, percentual de Centelha ou régua de progressão mudou.
 

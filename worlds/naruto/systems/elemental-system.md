@@ -1,7 +1,7 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 9
+version: 9.1
 layer: scenario
 scenario: naruto
 type: system
@@ -9,7 +9,7 @@ status: final
 source-file: Sistema_Elemental_v8.md, mais a Errata E1 v2
 ---
 
-# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v9
+# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v9.1
 Conversão do chakra nas sete naturezas, a afinidade que o papel revela, as compatibilidades de nascença, a aquisição por treino e as relações de superação em confronto.
 
 ---
@@ -227,7 +227,7 @@ O Ciclo de Superação é público e estratégico. Formações militares e duelo
 
 ### Rendimento da natureza
 
-Toda técnica de transformação de natureza converte chakra em matéria elemental, e a matéria assim produzida rende acima do que músculo, aço e madeira entregam pela mesma quantidade de energia. A Constante de Moldagem mede esse rendimento e governa as sete naturezas por igual, porque a vantagem nasce da moldagem e vale para tudo o que a moldagem produz.
+Toda técnica de transformação de natureza molda o chakra até que ele assuma as propriedades da natureza, e o que a moldagem produz rende acima do que músculo, aço e madeira entregam pela mesma quantidade de energia. A Constante de Moldagem mede esse rendimento e governa as sete naturezas por igual, porque a vantagem nasce da moldagem e vale para tudo o que a moldagem produz. As cinco elementais produzem matéria elemental, e o eixo do Onmyōton produz forma que sustenta peso, detém projétil e detém golpe sem matéria por baixo, e as duas coisas rendem pela mesma constante porque o rendimento mede o ato e não o produto.
 
 ```
 Constante de Moldagem = 1,40
@@ -237,7 +237,7 @@ O que distingue uma natureza da outra aparece na forma da entrega que cada técn
 
 A Constante entra no motor de dano do Manual de Criação de Jutsus incidindo sobre a RC nominal da técnica, no lugar que o multiplicador do elemento ocupava.
 
-O rendimento mede a matéria da técnica, e a posição da natureza na escada mede a relação do executor com ela. As duas grandezas são independentes. Uma natureza aprendida rende o mesmo que a Afinidade rende, porque a potência vem do domínio treinado e do nível da perícia, e a distância cobra em preço, em teste e em confiabilidade.
+O rendimento mede a moldagem da técnica, e a posição da natureza na escada mede a relação do executor com ela. As duas grandezas são independentes. Uma natureza aprendida rende o mesmo que a Afinidade rende, porque a potência vem do domínio treinado e do nível da perícia, e a distância cobra em preço, em teste e em confiabilidade.
 
 ### Assinatura e a leitura do corpo
 
@@ -482,6 +482,8 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 ---
 
 ## Registro de Alterações
+
+**v9.1.** A justificativa da Constante de Moldagem passa a medir a moldagem em vez da matéria, atendendo pedido do Eixo do Onmyōton v1. A redação anterior afirmava que toda técnica de transformação de natureza converte chakra em matéria elemental, e a régua de Integridade da Liberação de Yin declara que a obra do eixo não é matéria, o que deixava as duas metades do sistema em contradição literal. O rendimento mede o ato de moldar, e a constante alcança as sete naturezas pela razão que a própria frase já publicava. Nenhum número mudou.
 
 **v9.** A Errata E1 é absorvida. O bônus fixo de teste é revogado nas três posições da Escada de Afinidade, e a coluna dá lugar ao Limite de Saída na natureza, em vinte e cinco por cento para a Afinidade, vinte para a Compatibilidade e quinze para a natureza aprendida. O teste da perícia passa a ler exclusivamente nível, inclinação, caminho e atributo regente, porque o Núcleo de Perícias autoriza efeitos a lerem o valor do teste e uma soma de berço ali vazaria para o Fator de Moldagem, para as tabelas de custo pago e para a graduação de riders ao mesmo tempo. O Limite de Saída deixa de ser universal e ganha seção própria, com a regra de turno misto lendo a menor das posições empregadas e a faixa de vinte por cento para gasto sem natureza declarada. A modulação dos limiares de treino pela posição entra no documento, com os fatores permanecendo no Manual de Treino. A Assinatura deixa de ser descrita como propriedade do defensor e passa a ser a letalidade intrínseca do tipo de energia contra carne, sem que número algum mude, e o lugar que ela ocupava do lado do defensor passa a pertencer ao Estado Elemental declarado, cujo chassi o Núcleo de Combate publica. Nenhum custo de perícia, tabela de dispersão, cadeia de d100, Constante de Moldagem ou valor de Assinatura mudou.
 

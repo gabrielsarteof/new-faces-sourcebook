@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chidori-family
 title: "Linhagem do Chidori"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: system
@@ -326,7 +326,7 @@ O termo Raikiri Shinden não corresponde a nenhuma entrada canônica. A pesquisa
 
 ## 9. Fronteira com outros documentos
 
-O dano, o rank, o custo de XP, o Perfil de Evasão, o aftermath e a Janela de Canalização pertencem ao Manual de Criação de Jutsus. O degrau de moldagem, a elevação de degrau e o requisito de caminho pertencem ao Manual de Requisitos de Técnica. A perfuração de Absorção, o alcance estendido, a condução por meio e o salto entre condutores pertencem à Perícia de Raiton. As réguas de desperdício, interface, manutenção e colapso pertencem à Perícia de Controle de Chakra. O multiplicador de natureza, o rider e o Sōsai pertencem ao Sistema Elemental. Os graus e as durações de status pertencem ao Sistema de Efeitos de Status. A camada Kyōka pertence a Naturezas Avançadas.
+O dano, o rank, o custo de XP, o Perfil de Evasão, o aftermath e a Janela de Canalização pertencem ao Manual de Criação de Jutsus. O degrau de moldagem, a elevação de degrau e o requisito de caminho pertencem ao Manual de Requisitos de Técnica. A perfuração de Absorção, o alcance estendido, a condução por meio e o salto entre condutores pertencem à Perícia de Raiton. As réguas de desperdício, interface, manutenção e colapso pertencem à Perícia de Controle de Chakra. A Constante de Moldagem, a Assinatura, o rider e o Sōsai pertencem ao Sistema Elemental. Os graus e as durações de status pertencem ao Sistema de Efeitos de Status. A camada Kyōka pertence a Naturezas Avançadas.
 
 A camada de acesso e o estado de autoria pertencem à Norma de Produção de Compêndios, e este documento apenas declara qual instância a linhagem ocupa.
 

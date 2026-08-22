@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.yoton
 title: "Compêndio de Yōton"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Yoton_v2.md
 ---
 
-# Compêndio de Yōton · v2.5
+# Compêndio de Yōton · v2.6
 
 **O que mudou na v2.2.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Golpe Além do Osso e Corpo Que Nunca Esfria já traziam justificativa própria na prosa, usada como âncora direta.
 
@@ -23,7 +23,9 @@ Catálogo das técnicas nomeadas do domínio de Yang. Cada entrada informa o que
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
-**O que mudou na v2.5.** Registro de achado do repasse de vetores: nenhuma das quarenta entradas deste compêndio recebe classificação de vetor. O domínio é de construção de vitalidade e suporte, não de conversão elemental ofensiva, e nenhuma entrada entrega dano por vetor próprio. As duas entradas que soam ofensivas, Golpe Além do Osso e Punho Que Rompe a Guarda, comprimem vigor num golpe físico alheio e amplificam a pancada dele, sem atravessar o multiplicador de natureza, conforme a própria entrada de Punho Que Rompe a Guarda já declara ao resolver "pelas réguas de taijutsu e pelos multiplicadores físicos". O vetor de qualquer golpe amplificado por esta natureza é o vetor do golpe que o carrega, nunca uma propriedade do Yōton. Este registro fecha a pergunta para qualquer passada futura de classificação.
+**O que mudou na v2.5.** Registro de achado do repasse de vetores: nenhuma das quarenta entradas deste compêndio recebe classificação de vetor. O domínio é de construção de vitalidade e suporte, não de conversão elemental ofensiva, e nenhuma entrada entrega dano por vetor próprio. As duas entradas que soam ofensivas, Golpe Além do Osso e Punho Que Rompe a Guarda, comprimem vigor num golpe físico alheio e amplificam a pancada dele, sem atravessar o termo de tipo, conforme a própria entrada de Punho Que Rompe a Guarda já declara ao resolver "pelas réguas de taijutsu e pelos multiplicadores físicos". O vetor de qualquer golpe amplificado por esta natureza é o vetor do golpe que o carrega, nunca uma propriedade do Yōton. Este registro fecha a pergunta para qualquer passada futura de classificação.
+
+**O que mudou na v2.6.** O Eixo do Onmyōton v1 revoga o multiplicador de natureza de 1,00 que a Liberação de Yang citava, e o termo de tipo passa a ser a Constante de Moldagem multiplicada pela Assinatura do vetor declarado, como em toda natureza. O achado da v2.5 permanece inteiro, porque nenhuma entrada deste compêndio entrega dano por vetor próprio e nenhuma delas atravessa o termo de tipo. A entrada que a via do corpo amplificado resolve segue correndo por taijutsu.
 
 Os nomes japoneses deste compêndio são romanização proposta e construída para este sistema. O cânone não fixa nome próprio de técnica alguma desta natureza, e a etiqueta de toda entrada é proposta.
 
@@ -287,7 +289,7 @@ Uma forma já infundida se desliga da sustentação e continua operando por cont
 **Requisitos:** Liberação de Yang LV5 · Moldagem 66 · Ímpeto · ter aprendido Golpe Além do Osso
 **XP:** 12.800
 
-A compressão deixa de valer para um golpe e passa a valer para a sequência inteira da rodada, com cada pancada contando como impacto de qualidade superior contra estrutura, guarda comum e obra sem matéria. Resolve pelas réguas de taijutsu e pelos multiplicadores físicos, sem atravessar o multiplicador de natureza.
+A compressão deixa de valer para um golpe e passa a valer para a sequência inteira da rodada, com cada pancada contando como impacto de qualidade superior contra estrutura, guarda comum e obra sem matéria. Resolve pelas réguas de taijutsu e pelos multiplicadores físicos, sem atravessar o termo de tipo.
 
 ### Fornalha Sem Fim
 **Mujinro — 無尽炉**

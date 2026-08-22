@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yang-release
 title: "Liberação de Yang"
-version: 4.3
+version: 4.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Liberacao_de_Yang_v4.md
 ---
 
-LIBERAÇÃO DE YANG (陽遁) · v4.3
+LIBERAÇÃO DE YANG (陽遁) · v4.4
 
 Atributo: RES
 Categoria: Ninjutsu (×1,5)
@@ -28,9 +28,9 @@ O território termina onde o ofício alheio começa. A ampliação de porte e de
 
 A fronteira final é absoluta e não admite exceção, teste ou circunstância. Quem já morreu está fora do alcance de todo caminho desta perícia.
 
-A perícia exige a afinidade de Yang, obtida de nascença pelo Passo 1.5 do Sistema Elemental ou aprendida fora da afinidade sob multiplicador de dispersão. As manifestações da natureza ficam fora do ciclo de superação elemental, sem multiplicador de elemento, sem rider de status e sem choque favorável ou desfavorável. O multiplicador de natureza de 1,00 declarado no Eixo do Onmyōton alcança apenas o que a perícia projeta para fora do corpo, e a via principal de dano percorre o corpo amplificado e resolve por taijutsu e pelos multiplicadores físicos, sem atravessar o multiplicador de natureza. O Limite de Saída universal de 20% da RC pertence à Reserva de Chakra, com o cano sendo único e compartilhado. A interface de selos pertence ao Controle de Chakra.
+A perícia exige a afinidade de Yang, obtida de nascença pelo Passo 1.5 do Sistema Elemental ou aprendida fora da afinidade sob multiplicador de dispersão. As manifestações da natureza ficam fora do ciclo de superação elemental e sem choque favorável ou desfavorável. A natureza não contribui rider algum, e o rider estrutural do vetor declarado permanece por pertencer ao vetor. O que a perícia projeta para fora do corpo resolve o dano pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, conforme o Eixo do Onmyōton, e a via principal de dano percorre o corpo amplificado e resolve por taijutsu e pelos multiplicadores físicos, sem atravessar o termo de tipo. O Limite de Saída universal de 20% da RC pertence à Reserva de Chakra, com o cano sendo único e compartilhado. A interface de selos pertence ao Controle de Chakra.
 
-As três transcendências integram o catálogo de portas que apenas o Mestre lendário abre, conforme a escassez de instrução declarada no Eixo do Onmyōton.
+As três transcendências integram o catálogo de portas que apenas o Mestre lendário abre, conforme a Seção 6 do Manual de Treino do cenário, que publica as cinco categorias de conteúdo destravadas por instrução.
 
 PORTÃO DE RANK
 
@@ -114,7 +114,7 @@ COURO (grau 3, complexidade 3) · 38
 └─ Peito Firme [ativado, reação, 30 RC]: no instante de um impacto que derrubaria, o praticante permanece de pé e conserva a posição, anulando deslocamento forçado e queda. LV5: conserva também a ação em curso, que resolve normalmente no mesmo turno
 
 ÍMPETO (grau 3, complexidade 3) · 38
-└─ Carga Comprimida [ativado, ação livre, 35 RC]: a vitalidade se comprime no músculo e se libera no instante do esforço, com o golpe, o salto ou o arremesso do turno contando como impacto de qualidade superior contra estrutura, guarda comum e obra sem matéria, e com a distância alcançada dobrada. Resolve pelas réguas de taijutsu e pelos multiplicadores físicos, sem atravessar o multiplicador de natureza, e não abre portão algum nem cobra dano estrutural. LV5: a compressão eleva de golpe único para a sequência inteira da rodada
+└─ Carga Comprimida [ativado, ação livre, 35 RC]: a vitalidade se comprime no músculo e se libera no instante do esforço, com o golpe, o salto ou o arremesso do turno contando como impacto de qualidade superior contra estrutura, guarda comum e obra sem matéria, e com a distância alcançada dobrada. Resolve pelas réguas de taijutsu e pelos multiplicadores físicos, sem atravessar o termo de tipo, e não abre portão algum nem cobra dano estrutural. LV5: a compressão eleva de golpe único para a sequência inteira da rodada
 └─ Passo Roubado [ativado, ação livre, 25 RC]: o praticante cobre em um deslocamento a distância que exigiria dois, uma vez por turno. LV5: duas vezes por turno, e o deslocamento atravessa terreno instável e vertical sem teste
 
 FORNALHA (grau 4, complexidade 3) · 42
@@ -257,6 +257,13 @@ DEPENDÊNCIAS E PENDÊNCIAS
 Perícia de Sensoriamento, hoje sem documento, dona da leitura de vida que a perícia recusa. Perícia Ninjutsu Médico, que consome esta como substrato a partir do rank C e cuja rederivação está na fila. Compêndio de Yōton, inexistente, que recebe todas as técnicas nomeadas desta natureza. Sistema de Efeitos de Status, que responde pelos graus de Exaustão do refluxo e pelas condições que a inclinação Pulso suspende. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas. Divergência entre o Manual de Criação de Perícias v7 seção 7 e o Núcleo de Perícias v2 seção 3.3 sobre teto de inclinações: resolvida na v7.1, que revogou o teto e passou a derivar a contagem da auditoria do domínio, conforme o Núcleo já mandava.
 
 REGISTRO DE ALTERAÇÕES
+
+v4.4
+
+• O multiplicador de natureza de 1,00 sai, revogado pelo Eixo do Onmyōton v1. O que a perícia projeta para fora do corpo resolve o dano pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, e a via do corpo amplificado segue resolvendo por taijutsu sem atravessar o termo de tipo
+• A cláusula sobre rider se precisa: a natureza não contribui rider algum, e o rider estrutural do vetor declarado permanece por pertencer ao vetor
+• A citação da escassez de instrução passa a apontar a Seção 6 do Manual de Treino do cenário, dono da régua das cinco categorias que apenas o Mestre lendário abre
+• Nenhum caminho, régua, transcendência ou preço alterado
 
 v4.3
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.25
+version: 2.26
 layer: scenario
 scenario: naruto
 type: skill
@@ -10,6 +10,8 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 ---
 
 # Índice de Perícias do Sistema
+
+**v2.26. O Eixo do Onmyōton nasce e as duas perícias do eixo sobem de versão. A Liberação de Yin vai a v4.3 e a Liberação de Yang a v4.4, as duas perdendo o multiplicador de natureza que citavam contra um documento inexistente e passando a resolver o dano pela Constante de Moldagem e pela Assinatura do vetor declarado, como toda natureza do sistema. A Liberação de Yang devolve a citação da escassez de instrução ao Manual de Treino do cenário, que já era o dono da régua. O Registro de Regentes e o Registro de Conformidade corrigem as duas linhas, que estavam uma versão atrás em cada perícia desde a passada anterior. Nenhum regente, multiplicador de categoria, caminho ou transcendência mudou.**
 
 **v2.25. A errata da composição por caminhos, aberta na v2.24 para as demais perícias v6, fecha nesta passada para vinte e três delas: Doton, Enton, Fūinjutsu, Futon, Genjutsu, Katon, Kunai, Kyūinjutsu, Leque, Ninjutsu Médico, Passagem, Raiton, Senjutsu, Shuriken, Suiton, Yang, Yin, Aikidō, Katana, Kenpo, Taekwondo, Taichi, Tantō e Wing Chun sobem de versão cada uma, todas com pré-requisito de caminhos nomeado em cada transcendência, lido do próprio texto já publicado de cada uma e nunca inventado. Barreira fica de fora porque a perícia nunca ganhou dado da aplicação, e composição de transcendência sem JSON para receber `prerequisitos` não tem onde pousar; a transcrição de Barreira vira errata própria. O Registro de Regentes, o Registro de Conformidade e os demais registros desta seção não mudam: nenhuma perícia nova nasceu, nenhum regente ou multiplicador mudou, só a camada de transcendência de perícias já publicadas ganhou uma exigência que já devia ter desde a v7 do Manual de Criação de Perícias.**
 
@@ -45,8 +47,8 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Fūton | v2.3 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.2 | INT | Ninjutsu ×1,5 |
 | Doton | v2.1 | INT | Ninjutsu ×1,5 |
-| Liberação de Yin | v4.1 | INT | Ninjutsu ×1,5 |
-| Liberação de Yang | v4.2 | RES | Ninjutsu ×1,5 |
+| Liberação de Yin | v4.3 | INT | Ninjutsu ×1,5 |
+| Liberação de Yang | v4.4 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
@@ -423,7 +425,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
 | Katon v4, Raiton v3, Doton v2.1, Fūton v2.3, Suiton v2.2 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
-| Liberação de Yin v4, Liberação de Yang v4.2 | conforme |
+| Liberação de Yin v4.3, Liberação de Yang v4.4 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
 | Sensoriamento v2.2 | conforme |
@@ -487,6 +489,8 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.26.** O Eixo do Onmyōton é publicado, e as duas perícias do eixo deixam de citar um documento que não existia. A Liberação de Yin sobe para v4.3 e a Liberação de Yang para v4.4, as duas perdendo o multiplicador de natureza de 1,50 e de 1,00 que atribuíam àquele documento, e passando a resolver o dano pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, que é a régua que o Sistema Elemental já publicava para as sete naturezas. As duas ganham também a precisão da cláusula de rider: a natureza não contribui rider algum, e o rider estrutural do vetor permanece por pertencer ao vetor. A citação da escassez de instrução da Liberação de Yang volta para a Seção 6 do Manual de Treino do cenário, dono da régua das cinco categorias que apenas o Mestre lendário abre. O Registro de Regentes e o Registro de Conformidade publicavam as duas perícias uma versão atrás cada, defasagem herdada da passada da v2.25, e ficam corrigidos.
 
 **v2.25 e v2.24.** A transcendência de LV6 ganha uma segunda porta. `core/skills-core.md` v2.4 §3.4/9 e o Manual de Criação de Perícias v7.4 §13 fecham uma contradição de três documentos que a seção 8 já registrava havia várias passadas: o piso geral (todos os caminhos possuídos precisam estar Aprofundados) continua abrindo o LV6, mas cada transcendência publicada passa a nomear, além dele, os caminhos específicos que a compõem, o padrão que o Sensoriamento já usava desde a v2 sem nunca ter sido promovido a regra do núcleo. Sem essa segunda porta, um praticante que aprofundasse um único caminho de uma perícia inteira destravava todas as transcendências dela de uma vez.
 

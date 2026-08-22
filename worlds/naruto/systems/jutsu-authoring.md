@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 3.1
+version: 3.2
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_7.md, mais o Consolidado do motor de jutsus, o Núcleo de Combate v3 e a Errata E1 v2
 ---
 
-# Manual de Criação de Jutsus · v3.1
+# Manual de Criação de Jutsus · v3.2
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.3.**
 
@@ -721,7 +721,7 @@ O `C` é PRE somada ao bônus geral da perícia governante, e o `C_ref` é o do 
 | Doton | 70 | sólido denso lançado |
 | Shōton | 74 | cristal projetado |
 | Suiton | 80 | líquido carregado |
-| Yōton | 82 | rocha fundida |
+| Yōton 溶遁 | 82 | rocha fundida |
 | Hyōton | 86 | sólido leve em agulha |
 | Futton | 92 | vapor em expansão |
 | Sem natureza | 95 | chakra moldado puro |
@@ -732,6 +732,8 @@ O `C` é PRE somada ao bônus geral da perícia governante, e o `C_ref` é o do 
 | Raiton e Kuroi Kaminari | 150 | corrente |
 
 O Katon em 100 é a âncora neutra da escada, e o Raiton em 150 é a razão que a Interrupção de Contato do Núcleo de Combate já consome. A Celeridade é tendência do meio, e a obra declara desvio com motivo escrito na própria ficha.
+
+A linha de 95 mede o meio empregado, e não a ausência de natureza declarada. A obra de natureza que atravessa a distância sem produzir meio elemental a lê, e é por ela que entra a obra do eixo do Onmyōton, conforme o Eixo do Onmyōton publica. O Yōton da escada é a Liberação de Lava, 溶遁, e a Liberação de Yang, 陽遁, que romaniza igual, não ocupa linha nenhuma porque a via principal dela percorre o corpo amplificado.
 
 #### O teste de conexão
 
@@ -980,6 +982,8 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 ---
 
 ## 11. Registro de Alterações
+
+**v3.2.** A Escada de Celeridade dos meios declara que a linha de 95 mede o meio empregado, atendendo pedido do Eixo do Onmyōton v1. A obra de natureza que atravessa a distância sem produzir meio elemental lê essa linha, e é por ela que a obra do eixo do Onmyōton entra na cadeia de Velocidade. A linha do Yōton ganha o kanji 溶遁 para separar a Liberação de Lava da Liberação de Yang, que romaniza igual e não ocupa linha na escada. Nenhum valor de celeridade, fator ou fórmula mudou.
 
 **v3.1.** RFC 5, opção C. A Seção 4.1.3 declarava medir "o consumo de reserva, que é a mesma grandeza que a RC nominal mede" e respondia três perguntas sobre volume em campo, duração e simultaneidade, herdadas da doutrina que a Fase D revogou. Nenhum mecanismo abaixo daquele parágrafo lia mais essas perguntas: a Posição por Entrega e a Régua de Resposta já liam entrega e resposta imposta ao par desde a v3, e o parágrafo de abertura tinha ficado órfão. Reescrito para declarar o que as duas vias efetivamente medem, com três perguntas novas sobre quanto do par a obra derruba, o que ela obriga o par a gastar para responder, e o que sobra dela em campo. Os cinco degraus, a matriz por rank, os modificadores de dependência e de campo, e a convivência com a apuração permanecem intactos. As duas réguas passam a se declarar explicitamente amarradas ao segundo eixo de validação da Seção 5.2. Nenhum preço mudou.
 
