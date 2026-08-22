@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.4
+version: 3.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: RAITON_Pericia_v2_final.md
 ---
 
-RAITON (雷遁) · v3.4
+RAITON (雷遁) · v3.5
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -192,7 +192,7 @@ Revoga: a Absorção reduz o dano da técnica.
 └─ Barreira ou anteparo elemental interposto deixa de deter a descarga, que atravessa e prossegue ao alvo original com a potência restante
 └─ Fio Concentrado LV6: a fração e o teto desaparecem, substituídos pela linha acima
 
-COLISÃO REGISTRADA, SEM RESOLUÇÃO: o motor de vetores descartou, com razão escrita, a proposta de o Raio ignorar fração da Absorção por ser Raio, porque aquilo tomava o território da Linhagem do Chidori, que já ocupa o lugar de furar a Absorção pelo Grau VI da Penetração. Esta transcendência revoga a Absorção por inteiro contra toda técnica de Relâmpago do praticante, e a Linhagem do Chidori a nomeia como a única compra do sistema que devolve perfuração a uma forma disparada de longe. As duas leituras convivem publicadas e não foram reconciliadas. O registro existe para que a próxima passada encontre a colisão em vez de descobri-la em mesa, e resolvê-la é decisão de desenho fora do alcance de uma passada de propagação.
+A PERFURAÇÃO AQUI É DA COMPRA, E NUNCA DA NATUREZA: o motor de vetores proíbe que o Raio ignore fração da Absorção por ser Raio, e a proibição segue valendo para o Raiton inteiro, porque propriedade automática de elemento tomaria o território que o Grau VI da Penetração ocupa na Linhagem do Chidori. O que esta transcendência entrega é outra coisa. Ela é compra nomeada, paga em XP, com pré-requisito de dois caminhos Aprofundados e dono declarado, e é por isso que a Linhagem do Chidori a registra como a única do sistema que devolve perfuração a uma forma disparada de longe. Elemento não ganha vantagem de graça, e executor compra vantagem com preço e dono, no mesmo padrão do canal de compressão da maestria na velocidade, onde a única porta do executor na física é um caminho nomeado e pago.
 └─ Ponta Defensiva LV6: passivo permanente, sem consumir reação e sem limite por turno
 └─ Fio Estendido LV6: 28 metros, e a forma dirigida atravessa alvos alinhados na mesma trajetória, com cada alvo seguinte recebendo 60% do dano do anterior
 

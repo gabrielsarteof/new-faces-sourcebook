@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.27
+version: 2.28
 layer: scenario
 scenario: naruto
 type: skill
@@ -45,7 +45,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2.5 | RES | Chakra ×1,4 |
 | Katon | v4.2 | INT | Ninjutsu ×1,5 |
-| Raiton | v3.4 | INT | Ninjutsu ×1,5 |
+| Raiton | v3.5 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.6 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.5 | INT | Ninjutsu ×1,5 |
 | Doton | v2.3 | INT | Ninjutsu ×1,5 |
@@ -426,7 +426,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4.2, Raiton v3.4, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Katon v4.2, Raiton v3.5, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
 | Liberação de Yin v4.4, Liberação de Yang v4.5 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
@@ -485,13 +485,15 @@ Vinte e sete, das quais cinco aplicadas. Vinte e duas seguem abertas.
 | Publicar a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje declarada só em nota de fronteira local por documento — o escopo já alcança a indiscriminação do Futton, o Rescaldo do Puraton, a transparência do Hariton, a Terra Morta do Kuroi Kaminari e a Absorção do Ciclone | Núcleo do Sistema, sem seção própria ainda |
 | Corrigir o efeito Sem Posição, da transcendência Névoa Eterna: publica 174, lido da especialização de Toque da Maré em largura mínima, quando o efeito de transcendência deveria ler largura de ápice pela seção 6.1 do Núcleo de Perícias — Bruma tem três caminhos, e o valor correto é 190, o mesmo que a linha de testes de referência da perícia já publica | Suiton v2.2 |
 | Decidir se o espadão de duas mãos, acima de 1,5m, vira documento próprio ou caminho de extensão da Katana, e nomear o dono da classe Arma pesada que ele consumiria | Katana v1 |
-| Resolver a colisão da transcendência Raio Seco, que revoga a Absorção por inteiro contra toda técnica de Relâmpago do praticante. O motor de vetores descartou, com razão escrita, a proposta de o Raio ignorar fração da Absorção por ser Raio, porque aquilo tomava o território da Linhagem do Chidori, dona de furar a Absorção pelo Grau VI da Penetração. A Linhagem do Chidori, por sua vez, nomeia o Raio Seco como a única compra do sistema que devolve perfuração a uma forma disparada de longe. As duas leituras convivem publicadas, e a colisão está registrada na própria transcendência | Raiton v3.4, Núcleo de Combate v3 e Linhagem do Chidori v1.5 |
+| ~~Resolver a colisão da transcendência Raio Seco contra a proibição de o Raio furar Absorção~~ — **resolvida sem alteração de número**: as duas leituras nunca foram incompatíveis. O que o motor de vetores proíbe é o Raio ignorar fração da Absorção **por ser Raio**, como propriedade automática da natureza, e a proibição segue valendo para o Raiton inteiro. O Raio Seco é compra nomeada, paga em XP, com pré-requisito de caminhos e dono declarado, e por isso a Linhagem do Chidori o registra como a única do sistema que devolve perfuração a uma forma disparada de longe. Elemento não ganha vantagem de graça; executor compra vantagem com preço e dono, no mesmo padrão do canal de compressão da maestria na velocidade | Raiton v3.5 |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.28.** A colisão do Raio Seco, aberta na v2.27, fecha sem que número algum mude. As duas leituras nunca foram incompatíveis: o motor de vetores proíbe o Raio ignorar Absorção por ser Raio, como propriedade automática da natureza, e a proibição segue inteira para o Raiton; o Raio Seco é compra nomeada, paga em XP, com pré-requisito de caminhos e dono declarado, e a Linhagem do Chidori já o registrava como a única do sistema que devolve perfuração a uma forma disparada de longe. Elemento não ganha vantagem de graça, e executor compra vantagem com preço e dono, no mesmo padrão do canal de compressão da maestria na velocidade. A nota da própria transcendência foi reescrita na mesma leitura, e o Raiton sobe para v3.5.
 
 **v2.27.** O Alvo 7 da Errata E1 fecha. As sete perícias de natureza publicavam, cada uma, a mesma frase declarando o Limite de Saída universal em vinte por cento da RC, e repetir o valor foi exatamente o que produziu a errata: quando a Errata E1 revogou a universalidade e fixou a largura por posição, em vinte e cinco por cento para a Afinidade, vinte para a Compatibilidade e quinze para a aprendida, as sete frases repetidas passaram a publicar número morto em sete lugares ao mesmo tempo. As sete agora apontam o dono sem republicar a grandeza, na forma que a Perícia de Enton estabeleceu. A varredura encontrou uma oitava ocorrência, em Naturezas Avançadas, que a errata não enumerava, e ela recebeu a mesma correção. A legenda do Ciclo de Superação em `worlds/naruto/natures/overview.md`, também listada no bloco, já estava corrigida e não precisou de edição. A colisão do Raio Seco entra na seção 8 registrada e sem resolução, porque reconciliar duas leituras publicadas é decisão de desenho e não passada de propagação.
 
