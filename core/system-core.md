@@ -1,7 +1,7 @@
 ---
 id: core.system-core
 title: "Núcleo do Sistema"
-version: 3.5
+version: 3.6
 layer: core
 type: core-layer
 status: final
@@ -116,11 +116,21 @@ Teste simples: limiar = (teste ÷ dificuldade fixada) × 50
 ```
 
 **Compressão por investimento.** Quando o efeito vem de uma técnica, o limiar de resistência
-do alvo é comprimido pela reserva investida:
+do alvo é comprimido pelo que a técnica investe:
 
 ```
-limiar = (atributos defensivos) × (1 − PM gasto ÷ PM máx do atacante)
+limiar = (atributos defensivos) × (1 − PM nominal da técnica ÷ PM máx do atacante)
 ```
+
+A grandeza lida é o **custo nominal da técnica**, e não o custo pago pelo executor. O
+desperdício de moldagem é ineficiência de quem executa, cobrada dele no custo pago e na
+régua de desperdício do cenário, e ela não alcança o alvo. Lê-la aqui seria a segunda
+cobrança sobre a mesma ineficiência, e invertida: quem moldasse pior comprimiria mais o
+limiar do adversário e produziria efeito mais forte por ter executado mal. A leitura por
+custo pago que este documento publicava é anterior à partição entre nominal e pago, e a
+regra da reserva limpa, que manda o motor ler a técnica antes de qualquer sobretaxa do
+executor, é a mesma família de leitura. O Sistema de Efeitos de Status publica esta
+compressão na mesma forma, e o cenário nomeia a grandeza conforme a reserva dele.
 
 Específicos:
 
