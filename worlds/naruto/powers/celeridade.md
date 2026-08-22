@@ -1,7 +1,7 @@
 ---
 id: naruto.power.celeridade
 title: "Celeridade (Jinton 迅遁)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: power
@@ -23,7 +23,7 @@ O Manual de Criação de Poderes vigente no corpus é a **v3.3**, e é essa a ve
 
 O manual tradutor do cenário é o Manual de Criação de Jutsus, publicado hoje em **v2.11**. Este documento consome dele apenas a ponte entre rank e escala da seção 1.1 e as faixas de XP por rank da seção 4.1, como modulação do preço de aquisição. A Celeridade não é jutsu: nenhum grau lê Rank de canalização, Perfil de Evasão ou selo de mão, e a citação ao tradutor existe só para precificar.
 
-O Núcleo de Combate v1 é consumido pela Cadência, régua de multiplicidade de ataques por rodada (seção 2 e seção 7), pela sequência de doze passos de resolução de ataque (seção 5) e pela família de multiplicadores do Limiar de Esquiva, que se acumulam entre si sem exceção (seção 10).
+O Núcleo de Combate v3 é consumido pela Cadência, régua de ações extras por rodada, pela sequência de resolução de ataque e pela família de multiplicadores do lado defensivo do teste de conexão, que se acumulam entre si sem exceção (seção 10).
 
 ---
 
@@ -53,14 +53,14 @@ Os graus se compram na ordem e permanecem uma vez adquiridos. Cada um traduz uma
 
 ### 4.1 Grau 1 · Borrão
 
-O corpo do portador se move rápido demais para o olho comum acompanhar, e o golpe corporal que deveria alcançá-lo com facilidade encontra um alvo que já não está mais lá. A elevação de esquiva vale apenas contra ataque corporal, golpe de contato resolvido pela Potência do Núcleo de Combate, armado ou desarmado. Ela não vale contra efeito à distância, área ou campo, porque a fonte fala em taijutsu e nada além disso.
+O corpo do portador se move rápido demais para o olho comum acompanhar, e o golpe corporal que deveria alcançá-lo com facilidade encontra um alvo que já não está mais lá. A elevação de esquiva vale apenas contra ataque corporal, golpe de contato resolvido pela Energia do Núcleo de Combate, armado ou desarmado. Ela não vale contra efeito à distância, área ou campo, porque a fonte fala em taijutsu e nada além disso.
 
 **Condição declarada.** A elevação lê se o atacante é rápido ou forte o bastante para acompanhar o portador, traduzindo a condição "se o oponente não for rápido o bastante" da fonte. Ela vale apenas quando o VEL do atacante é menor que o VEL do portador **e** o FOR do atacante é menor que o VEL do portador. Empate entre o VEL do atacante e o VEL do portador lê como atacante rápido o bastante, e a elevação não se aplica.
 
 #### 4.1.1 Efeitos Mecânicos: a elevação
 
-1. Com a condição satisfeita, o Limiar de Esquiva do portador contra ataque corporal multiplica por **1,30**, entrando na mesma família de multiplicadores do Limiar de Esquiva do Núcleo de Combate, seção 10, que se acumulam entre si sem exceção.
-2. Sem a condição satisfeita, o multiplicador não se aplica, e o Limiar de Esquiva do portador resolve pelo valor cheio de sempre.
+1. Com a condição satisfeita, o lado defensivo do teste de conexão do portador contra ataque corporal multiplica por **1,30**, entrando na mesma família de multiplicadores do Núcleo de Combate, seção 10, que se acumulam entre si sem exceção.
+2. Sem a condição satisfeita, o multiplicador não se aplica, e o lado defensivo do portador resolve pelo valor cheio de sempre.
 3. Escala **Moderado** do Manual de Criação de Poderes, correspondente ao **rank C** pela ponte da seção 1.1 do Manual de Criação de Jutsus.
 
 **Contrato de oito campos.**
@@ -71,10 +71,10 @@ O corpo do portador se move rápido demais para o olho comum acompanhar, e o gol
 | Ação | nenhuma |
 | Custo | nenhum |
 | Teste | resolução automática, porque a condição é discreta e lida do estado da ficha, e não oposição de teste |
-| Números | multiplicador de 1,30 no Limiar de Esquiva, condição VEL do atacante menor que VEL do portador e FOR do atacante menor que VEL do portador |
-| Interações | consome a família de multiplicadores do Limiar de Esquiva do Núcleo de Combate, lê a Potência de ataque corporal da mesma seção, e a condição é revogada pelo Grau 3 |
+| Números | multiplicador de 1,30 no lado defensivo do teste de conexão, condição VEL do atacante menor que VEL do portador e FOR do atacante menor que VEL do portador |
+| Interações | consome a família de multiplicadores do Núcleo de Combate, lê a Energia de ataque corporal da mesma seção, e a condição é revogada pelo Grau 3 |
 | Etiqueta | `[proposta]`, fundamentado em `[canon]`, artigo principal do Jinton 迅遁 |
-| Âncora de validação | um portador da faixa Especial, perfil Veloz, VEL 45, enfrenta dois atacantes distintos. O primeiro, perfil Tanque da mesma faixa, FOR 43 e VEL 22, ataca de perto: os dois valores ficam abaixo de 45, a condição vale, e o Limiar de Esquiva do portador contra aquele golpe multiplica por 1,30. O segundo, outro perfil Veloz da mesma faixa, FOR 26 e VEL 45, ataca em seguida: o VEL empata com o do portador, a condição falha, e o golpe resolve contra o Limiar cheio, sem o multiplicador |
+| Âncora de validação | um portador da faixa Especial, perfil Veloz, VEL 45, enfrenta dois atacantes distintos. O primeiro, perfil Tanque da mesma faixa, FOR 43 e VEL 22, ataca de perto: os dois valores ficam abaixo de 45, a condição vale, e o lado defensivo do portador contra aquele golpe multiplica por 1,30. O segundo, outro perfil Veloz da mesma faixa, FOR 26 e VEL 45, ataca em seguida: o VEL empata com o do portador, a condição falha, e o golpe resolve contra o lado defensivo cheio, sem o multiplicador |
 
 ### 4.2 Grau 2 · Mueishō
 
@@ -83,8 +83,8 @@ O portador entrega golpes de ângulos distintos na mesma rodada, na régua de mu
 #### 4.2.1 Efeitos Mecânicos: o reposicionamento
 
 1. A partir do segundo golpe de uma mesma Cadência na rodada, o portador se reposiciona em até **VEL × 2,5 metros** a partir da posição do golpe anterior, sem gastar a Ação de Movimento nem o Esforço de Deslocamento correspondente da seção 7 do Núcleo de Combate.
-2. O número de golpes disponíveis na rodada continua sendo o da Cadência do Núcleo do Sistema, VEL dividido por quinze com piso de um, comprada normalmente pelo Esforço crescente que a seção 7 do Núcleo de Combate já publica. O Mueishō não concede grau extra de Cadência.
-3. Cada golpe individual resolve pela sequência de doze passos de sempre, com a Potência, a Guarda, a Absorção e o Perfil de Evasão de cada um intocados. O Mueishō move o corpo entre os golpes; não altera o que cada golpe faz.
+2. O número de golpes disponíveis na rodada continua sendo o da Cadência do Núcleo do Sistema, lida da razão entre a VEL do portador e a do oponente mais rápido engajado, com teto de duas ações extras e paga pelo Esforço crescente que a seção 7 do Núcleo de Combate já publica. O Mueishō não concede grau extra de Cadência.
+3. Cada golpe individual resolve pela sequência de resolução de ataque de sempre, com a Energia, a Guarda, a Absorção e o Perfil de Evasão de cada um intocados. O Mueishō move o corpo entre os golpes; não altera o que cada golpe faz.
 4. Escala **Forte** do Manual de Criação de Poderes, correspondente ao **rank B** pela ponte da seção 1.1 do Manual de Criação de Jutsus.
 
 **Ausência de escalada.** O Mueishō devolve reposicionamento gratuito e nada além disso. Ele não eleva porte de entrega, não desconta mitigação, não some dano e não é dano. A elevação de porte pertence às técnicas nomeadas, quando algum dia existirem, e permanece fora deste grau.
@@ -98,7 +98,7 @@ O portador entrega golpes de ângulos distintos na mesma rodada, na régua de mu
 | Custo | nenhum |
 | Teste | resolução automática, porque o efeito isenta um custo já existente e não impõe condição a alvo algum |
 | Números | VEL × 2,5 metros de reposicionamento por golpe, a partir do segundo golpe da Cadência |
-| Interações | consome a Cadência do Núcleo do Sistema sem redefini-la, isenta o Esforço de Deslocamento e a Ação de Movimento da seção 7 e da seção 3 do Núcleo de Combate, e não altera Potência, coeficiente de entrega ou Perfil de Evasão de golpe algum |
+| Interações | consome a Cadência do Núcleo do Sistema sem redefini-la, isenta o Esforço de Deslocamento e a Ação de Movimento da seção 7 e da seção 3 do Núcleo de Combate, e não altera Energia, coeficiente de entrega ou Perfil de Evasão de golpe algum |
 | Etiqueta | `[proposta]`, fundamentado em `[filme]`, ficha do Mueishō |
 | Âncora de validação | o mesmo portador da faixa Especial, perfil Veloz, VEL 45, compra dois degraus de Cadência na rodada e ataca três alvos separados por até 112,5 metros entre um e outro. Sem o Mueishō, alcançar o segundo e o terceiro alvo exigiria gastar a Ação de Movimento inteira ou pagar o Esforço de Deslocamento proporcional, além do Esforço já devido pelos próprios golpes. Com o Mueishō, o portador paga apenas o Esforço crescente da Cadência, sem custo de deslocamento algum entre os três golpes |
 
@@ -110,7 +110,7 @@ O portador deixa de precisar que o oponente seja lento ou fraco. A elevação de
 
 #### 4.3.1 Efeitos Mecânicos: a revogação
 
-1. O multiplicador de **1,30** no Limiar de Esquiva do portador contra ataque corporal, publicado no Grau 1, passa a valer sempre, sem exceção de VEL ou de FOR do atacante.
+1. O multiplicador de **1,30** no lado defensivo do portador contra ataque corporal, publicado no Grau 1, passa a valer sempre, sem exceção de VEL ou de FOR do atacante.
 2. Escala **Supremo**, metade baixa, do Manual de Criação de Poderes, correspondente ao **rank A** pela ponte da seção 1.1 do Manual de Criação de Jutsus.
 
 **Contrato de oito campos.**
@@ -168,7 +168,7 @@ Os modificadores de custo de XP por afinidade, clã e camada de acesso pertencem
 
 O território termina onde o ofício alheio começa.
 
-A manifestação, a composição, a Centelha, o tier histórico e o percentual base pertencem a Naturezas Avançadas. A Cadência, a sequência de doze passos, a Potência, a Guarda, a Absorção, o Limiar de Esquiva e a família de multiplicadores dele pertencem ao Núcleo de Combate. O deslocamento comum, a Ação de Movimento e o Esforço de Deslocamento pertencem à mesma seção do Núcleo de Combate, e este documento apenas os isenta no Grau 2, sem redefini-los.
+A manifestação, a composição, a Centelha, o tier histórico e o percentual base pertencem a Naturezas Avançadas. A Cadência, a sequência de resolução de ataque, a Energia, a Guarda, a Absorção, o teste de conexão e a família de multiplicadores dele pertencem ao Núcleo de Combate. O deslocamento comum, a Ação de Movimento e o Esforço de Deslocamento pertencem à mesma seção do Núcleo de Combate, e este documento apenas os isenta no Grau 2, sem redefini-los.
 
 O Shunshin no Jutsu, quando publicado, é técnica separada e não hospedeira da Celeridade, pela fronteira declarada na seção 6.
 
@@ -184,7 +184,7 @@ Toda técnica nomeada de Celeridade que venha a ser publicada cita este document
 
 **Filme.** A ficha do Mueishō, o Voo Sem Sombra: mover-se em velocidade instantânea golpeando de vários ângulos, evitando qualquer oposição independente da velocidade ou da força do oponente. Os Graus 2 e 3 traduzem esta linha.
 
-**Proposta.** O comportamento inteiro como poder de linhagem em três graus, o multiplicador de 1,30 no Limiar de Esquiva, a condição de VEL e FOR do Grau 1, a régua de reposicionamento do Grau 2, a revogação do Grau 3, todos os números da seção 7, e a fronteira declarada contra o Shunshin na seção 6.
+**Proposta.** O comportamento inteiro como poder de linhagem em três graus, o multiplicador de 1,30 no lado defensivo do teste de conexãoquiva, a condição de VEL e FOR do Grau 1, a régua de reposicionamento do Grau 2, a revogação do Grau 3, todos os números da seção 7, e a fronteira declarada contra o Shunshin na seção 6.
 
 **Fora do poder por ausência de fundamento.** A composição de Vento e Raio, que a fonte não publica, permanece registrada em Naturezas Avançadas com etiqueta própria e não afeta os graus deste documento. Qualquer leitura de aceleração de membro isolado, de acúmulo de chakra liberado nas pernas ou de nomenclatura de técnica derivada, todas de wiki de fã, foi descartada na auditoria e não entra aqui.
 
@@ -192,7 +192,7 @@ Toda técnica nomeada de Celeridade que venha a ser publicada cita este document
 
 ## 10. Dependências e pendências
 
-**Alimentam este poder.** Manual de Criação de Poderes v3.3, pelo contrato de efeito, pela tabela de escala e pela escada de graus. Manual de Criação de Jutsus v2.11, pela ponte entre rank e escala e pelas faixas de XP, usadas só para modulação de preço. Núcleo de Combate v1, pela Cadência, pela sequência de doze passos e pela família de multiplicadores do Limiar de Esquiva. Naturezas Avançadas, pela entrada de catálogo e pelo portão de manifestação. Manual de Economia de XP, pela régua de progressão paga.
+**Alimentam este poder.** Manual de Criação de Poderes v3.3, pelo contrato de efeito, pela tabela de escala e pela escada de graus. Manual de Criação de Jutsus v3.2, pela ponte entre rank e escala e pelas faixas de XP, usadas só para modulação de preço. Núcleo de Combate v3, pela Cadência, pela sequência de resolução de ataque e pela família de multiplicadores do lado defensivo do teste de conexão. Naturezas Avançadas, pela entrada de catálogo e pelo portão de manifestação. Manual de Economia de XP, pela régua de progressão paga.
 
 **Consomem este poder.** Naturezas Avançadas, na entrada do Jinton 迅遁. Toda ficha de personagem que declare a manifestação. Toda técnica nomeada de Celeridade que venha a ser publicada.
 
@@ -218,12 +218,14 @@ Onde a instrução recebida e a auditoria não cobriam uma definição, a leitur
 
 **Escala, rank e o total de 25.000 XP foram ancorados no espelho do Puraton**, único outro poder de linhagem em três graus já publicado, na ausência de qualquer outra âncora comparável no corpus para precificar um poder sem RC.
 
-**"Ataque corporal" foi lido como golpe de contato resolvido pela Potência do Núcleo de Combate**, armado ou desarmado, excluindo efeito à distância, área e campo. A fonte fala especificamente em taijutsu, e a leitura mais literal não estende a elevação a categorias que a fonte não menciona.
+**"Ataque corporal" foi lido como golpe de contato resolvido pela Energia do Núcleo de Combate**, armado ou desarmado, excluindo efeito à distância, área e campo. A fonte fala especificamente em taijutsu, e a leitura mais literal não estende a elevação a categorias que a fonte não menciona.
 
 **O Grau 2 não concede grau extra de Cadência.** Conceder ataques adicionais empilharia magnitude ofensiva nova sobre um poder cuja fonte descreve apenas movimento entre golpes já existentes, nunca dano ou frequência adicional.
 
 ---
 
 ## 12. Registro de Alterações
+
+**v1.1.** O documento deixa de ler grandezas que o Núcleo de Combate v3 aposentou. O multiplicador de 1,30 do Grau 1 passa a incidir sobre o lado defensivo do teste de conexão em vez do Limiar de Esquiva, na mesma família de multiplicadores de sempre; a Potência de ataque corporal vira Energia; e o Grau 2 deixa de descrever a Cadência como `VEL` dividido por quinze, passando a lê-la da razão contra o oponente mais rápido engajado, com o teto de duas ações extras declarado. As citações de dependência sobem para Núcleo de Combate v3 e Manual de Criação de Jutsus v3.2. Nenhum número deste poder mudou.
 
 **v1.** Documento inicial, nascido da auditoria da Celeridade pelo método de três passos, com o destino de poder de linhagem aprovado depois de a admissão como perícia ter sido testada e reprovada por ausência de âncora de domínio na obra. Nasceram a declaração do poder em três graus sem escada, sem inclinação e sem caminho, o Grau 1 com a elevação condicional do Limiar de Esquiva contra ataque corporal, o Grau 2 com o reposicionamento gratuito entre golpes da mesma Cadência, o Grau 3 com a revogação da condição do Grau 1 por remoção de condição, a nota sobre os três lugares onde mora a progressão, a fronteira declarada contra o Shunshin como decisão de sistema, os contratos de oito campos de cada grau, a régua de preço por grau e a correção da citação do Meiton pelo molde real de naturezas hospedadas em perícia existente.

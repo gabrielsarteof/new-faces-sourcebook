@@ -30,7 +30,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.4 | core-layer | final |
 | [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.8 | system | final |
-| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.4 | core-layer | final |
+| [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.5 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
 | [Manual de Economia de XP e Criação de Ficha](core/xp-economy.md) | `core.xp-economy` | 2.12 | system | final |
@@ -168,7 +168,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.8 | compendium | final |
-| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.7 | compendium | final |
+| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.8 | compendium | final |
 | [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 2.5 | compendium | final |
 | [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.7 | compendium | final |
 | [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.11 | compendium | final |
@@ -222,7 +222,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Celeridade (Jinton 迅遁)](worlds/naruto/powers/celeridade.md) | `naruto.power.celeridade` | 1 | power | final |
+| [Celeridade (Jinton 迅遁)](worlds/naruto/powers/celeridade.md) | `naruto.power.celeridade` | 1.1 | power | final |
 | [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.power.overview` | 1.2 | system | final |
 | [Puraton (Plasma)](worlds/naruto/powers/puraton.md) | `naruto.power.puraton` | 1 | power | final |
 
@@ -276,7 +276,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.5 | system | final |
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.5 | system | final |
 | [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.8 | methodology | final |
-| [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.3 | system | final |
+| [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.4 | system | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 9.2 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.3 | pending-patch | applied |
 | [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.1 | pending-patch | pending-patch |
@@ -305,7 +305,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Gōkakyū no Jutsu (豪火球の術)](worlds/naruto/techniques/gokakyu.md) | `naruto.technique.gokakyu` | 1 | technique | final |
 | [Gōryūka no Jutsu (豪龍火の術)](worlds/naruto/techniques/goryuka.md) | `naruto.technique.goryuka` | 1 | technique | final |
 | [Obras dos Oito Portões](worlds/naruto/techniques/hachimon-obras.md) | `naruto.technique.hachimon-obras` | 1.1 | technique | final |
-| [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.2 | technique | final |
+| [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.3 | technique | final |
 | [Técnica do Harém](worlds/naruto/techniques/harem.md) | `naruto.technique.harem` | 1 | technique | final |
 | [Técnica da Transformação](worlds/naruto/techniques/henge.md) | `naruto.technique.henge` | 2 | technique | final |
 | [Execução do Deus do Trovão Voador (飛雷神斬り)](worlds/naruto/techniques/hiraishin-giri.md) | `naruto.technique.hiraishin-giri` | 1.1 | technique | final |

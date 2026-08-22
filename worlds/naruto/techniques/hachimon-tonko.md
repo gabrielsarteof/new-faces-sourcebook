@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hachimon-tonko
 title: "Hachimon Tonkō (八門遁甲)"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -210,17 +210,17 @@ O regulador do abdome governa a cadência com que o corpo encadeia esforços má
 - **Magnitude:** FOR, VEL e DES elevadas em 50%
 - **Limite de Saída:** 40% da RC
 - **Teto de Esforço:** 80% do PS
-- **Verbo acrescentado:** a contagem de múltiplos ataques lê VEL amplificada, e o praticante recebe uma reação adicional por rodada
+- **Verbo acrescentado:** a razão de Cadência lê a VEL amplificada, e o praticante recebe uma reação adicional por rodada
 - **RES + FOR exigido:** 34
 - **Maturação:** 8 Blocos
 - **Sequela na saída:** Fadiga nível 3 e Ferimento Grave Moderado
 - **Custo de XP:** 12.800
 
-**Interações.** A contagem de múltiplos ataques é a do Núcleo do Sistema, que divide VEL por quinze com piso de um, e o portão altera o insumo dela sem alterar a fórmula. Cada ataque adicional continua cobrando PS pela regra do Núcleo, e o Teto de Esforço do portão é o que limita quantos cabem no turno. A reação adicional não empilha com reação adicional concedida por outra fonte.
+**Interações.** A Cadência é a do Núcleo do Sistema, que lê a razão entre a VEL do combatente e a do oponente mais rápido com quem ele está engajado, e o portão altera o insumo dela sem alterar a régua. O teto de duas ações extras permanece, e a amplificação do portão acelera a chegada a ele em vez de ultrapassá-lo. Cada ação extra continua pagando o próprio Esforço, e o Teto de Esforço do portão é o que limita quantas cabem no turno. A reação adicional não empilha com reação adicional concedida por outra fonte.
 
 **Etiqueta.** Canon na existência do portão e na posição dele. Cânone fraco no que ele acrescenta. Proposta na economia de ação e no restante.
 
-**Âncora de validação.** Um corpo de perfil Veloz na faixa Especial passa de VEL 45 para 67, o que eleva a contagem de múltiplos ataques de três para quatro, e o Teto de Esforço de 80% sobre PS 816 comporta a sequência inteira dentro do turno.
+**Âncora de validação.** Um corpo de perfil Veloz na faixa Especial passa de VEL 45 para 67. Contra o oponente de VEL 22 do exemplo que o Núcleo de Combate publica, a razão de Cadência sobe de 2,05 para 3,05, o que leva o praticante de uma ação extra para duas, que é o teto. O Teto de Esforço de 80% sobre PS 816 comporta a sequência inteira dentro do turno.
 
 ---
 

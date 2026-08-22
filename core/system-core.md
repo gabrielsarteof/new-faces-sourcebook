@@ -1,7 +1,7 @@
 ---
 id: core.system-core
 title: "Núcleo do Sistema"
-version: 3.4
+version: 3.5
 layer: core
 type: core-layer
 status: final
@@ -115,8 +115,8 @@ Teste oposto:  limiar = (ativo ÷ oposto) × 50
 Teste simples: limiar = (teste ÷ dificuldade fixada) × 50
 ```
 
-**Potência de técnica.** Quando o efeito vem de uma técnica, o limiar de resistência
-do alvo é comprimido pela mana investida:
+**Compressão por investimento.** Quando o efeito vem de uma técnica, o limiar de resistência
+do alvo é comprimido pela reserva investida:
 
 ```
 limiar = (atributos defensivos) × (1 − PM gasto ÷ PM máx do atacante)
@@ -127,7 +127,7 @@ Específicos:
 | Item | Regra |
 |---|---|
 | Iniciativa | `VEL + SAB + 1d6` (comparativo direto; maior age antes) |
-| Múltiplos ataques | `VEL ÷ 15` (piso, mínimo 1); cada extra custa PS |
+| Cadência, ações extras | razão entre a VEL do combatente e a do oponente mais rápido com quem ele está engajado. Razão de 1,5 ou mais concede uma ação extra, 2,5 ou mais concede duas, com teto de duas. Cada ação extra paga o próprio Esforço pela escada do Núcleo de Combate |
 | Percepção passiva | `piso(teste simples ÷ 2)` |
 
 Escala de resultado (a margem define o grau):

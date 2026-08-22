@@ -1,7 +1,7 @@
 ---
 id: naruto.system.eight-gates
 title: "Oito Portões (八門)"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: system
@@ -96,7 +96,7 @@ Cada portão acrescenta um verbo que os inferiores não possuem, e o verbo perma
 | 2 | o PS retorna ao máximo uma vez por cena, no ato da abertura |
 | 3 | o teto de fluxo alcança o patamar do output elevado, e a esquiva do praticante lê VEL amplificada |
 | 4 | as penalidades de Fratura, Ferimento Grave e Exaustão Física deixam de incidir enquanto o portão permanecer aberto |
-| 5 | a contagem de múltiplos ataques lê VEL amplificada, e o praticante recebe uma reação adicional por rodada |
+| 5 | a razão de Cadência lê a VEL amplificada, e o praticante recebe uma reação adicional por rodada |
 | 6 | todo taijutsu puro do praticante sobe um degrau no Perfil de Evasão, e o atrito do ar passa a ignição no ponto de impacto |
 | 7 | o taijutsu puro do praticante eleva a categoria de entrega de contato para área, projetando a sobrepressão do corpo à distância |
 | 8 | o Limite de Saída deixa de existir, e o taijutsu puro sobe um segundo degrau no Perfil de Evasão |
@@ -171,7 +171,7 @@ Fator de Portão = P² × 10 × coef_obra
 
 `P` é o número do portão aberto no instante da entrega, de um a oito. `Esforço nominal` é o gasto declarado da obra, em PS. `coef_obra` mede quanto aquela obra específica aproveita a escada.
 
-**Independência das parcelas.** A parcela de conversão lê o PS gasto e a parcela de maestria lê o portão aberto. FOR, VEL e DES não entram em nenhuma das duas. A amplificação de atributo da seção 3.1 serve ao ataque básico, à iniciativa, à esquiva, à contagem de múltiplos ataques e a todo teste físico, e fica fora da fórmula das obras nomeadas. É essa separação que impede a escalada dupla, porque o portão entra no dano uma vez só, pela parcela de maestria.
+**Independência das parcelas.** A parcela de conversão lê o PS gasto e a parcela de maestria lê o portão aberto. FOR, VEL e DES não entram em nenhuma das duas. A amplificação de atributo da seção 3.1 serve ao ataque básico, à iniciativa, à esquiva, à razão de Cadência e a todo teste físico, e fica fora da fórmula das obras nomeadas. É essa separação que impede a escalada dupla, porque o portão entra no dano uma vez só, pela parcela de maestria.
 
 **Consequência declarada.** Dois praticantes no mesmo portão entregam o mesmo dano com a mesma obra, e a diferença entre eles mora no PS disponível para Esforço. A leitura é idêntica à do eixo do chakra, onde dois executores de mesma moldagem entregam o mesmo dano e se distinguem pela reserva disponível para carga.
 
@@ -314,6 +314,8 @@ Duas leituras deste documento estavam erradas contra o manual que ele consome, e
 ---
 
 ## 12. Registro de Alterações
+
+**v1.4.** O verbo do quinto portão deixa de citar a contagem de múltiplos ataques por `VEL ÷ 15`, revogada pelo Núcleo de Combate v3, e passa a declarar que a razão de Cadência lê a VEL amplificada. A reação adicional permanece, e nenhum custo, magnitude, sequela ou preço mudou.
 
 **v1.3.** O Núcleo de Combate publica a camada do ataque comum que faltava para o eixo físico, e este documento passa a consumi-la em vez de sustentar sozinho o que era provisório. A seção 3.2 mantém a tabela de Teto de Esforço por portão, a elevação do domínio, e passa a citar o teto fechado de 40% e a regra de Excesso deliberado como leitura do Núcleo de Combate em vez de definição própria. A seção 6 mantém a fórmula de dano das obras nomeadas, o coeficiente de entrega física e o Fator de Portão, todos exclusivos deste domínio, e passa a citar o nome e a moeda de Esforço como os que o Núcleo de Combate publica para qualquer ataque comum. Nenhuma magnitude, tabela, exigência de acesso ou preço em XP mudou. As citações de versão do Manual de Criação de Jutsus e do Sistema de Efeitos de Status, que estavam defasadas em duas revisões cada, foram corrigidas para as versões vigentes.
 

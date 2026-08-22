@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.eight-gates
 title: "Compêndio dos Oito Portões"
-version: 1.7
+version: 1.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_dos_Oito_Portoes_v1.md
 ---
 
-# Compêndio dos Oito Portões · v1.7
+# Compêndio dos Oito Portões · v1.8
 
 **八門 · Técnicas do arquétipo de taijutsu puro**
 
@@ -80,7 +80,7 @@ O aviso que faria o corpo parar deixa de chegar. As penalidades de Fratura, de F
 **Requisitos:** Portão da Dor · RES somada a FOR igual a 34 · isento de Exigência de Moldagem · 8 Blocos de maturação
 **XP:** 12.800
 
-A cadência de esforços máximos consecutivos deixa de ter intervalo de recomposição. A contagem de ataques por turno sobe junto com a velocidade amplificada e o praticante ganha uma reação adicional por rodada. É o degrau em que a escada deixa de ser potência e passa a ser economia de ação.
+A cadência de esforços máximos consecutivos deixa de ter intervalo de recomposição. A razão de Cadência sobe junto com a velocidade amplificada e o praticante ganha uma reação adicional por rodada. É o degrau em que a escada deixa de ser magnitude e passa a ser economia de ação.
 
 ### Portão da Vista
 **Keimon — 景門**
