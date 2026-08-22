@@ -295,7 +295,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Chidori Eisō — Lança Afiada de Mil Pássaros (千鳥鋭槍)](worlds/naruto/techniques/chidori-eiso.md) | `naruto.technique.chidori-eiso` | 2 | technique | final |
 | [Chidori Katana — Sabre de Mil Pássaros (草薙の剣・千鳥刀)](worlds/naruto/techniques/chidori-katana.md) | `naruto.technique.chidori-katana` | 2 | technique | final |
 | [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 3 | technique | final |
-| [Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)](worlds/naruto/techniques/chidori-senbon.md) | `naruto.technique.chidori-senbon` | 2 | technique | final |
+| [Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)](worlds/naruto/techniques/chidori-senbon.md) | `naruto.technique.chidori-senbon` | 3 | technique | final |
 | [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 5 | technique | final |
 | [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1 | technique | final |
 | [Endan (炎弾)](worlds/naruto/techniques/endan.md) | `naruto.technique.endan` | 1 | technique | final |

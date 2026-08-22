@@ -527,7 +527,9 @@ O `P` é a soma do atributo regente com a Base Total, a Inclinação Total e a E
 | A | 40% |
 | S | 65% |
 
-A técnica que não alcança o piso do próprio rank está subdimensionada para ele, e a correção pertence à entrada, não ao piso. A técnica de área valida pela cláusula de valor de campo abaixo, e a entrega fragmentada em vários alvos alcança o piso pela soma e não por alvo.
+A técnica que não alcança o piso do próprio rank está subdimensionada para ele, e a correção pertence à entrada, não ao piso. A técnica de área valida pela cláusula de valor de campo abaixo, somando o que a geometria apanha em vez de medir por alvo.
+
+**A exceção de área se abre pelo cânone e não pela conveniência.** A entrada que raspa o piso não vira técnica de área para caber nele. Antes de invocar o valor de campo, confira a fonte primária: só se abre a exceção quando a obra publicada de fato descreve alcance de múltiplos alvos, e nunca por leitura de fonte secundária isolada. A obra de precisão contra alvo único que fica abaixo do piso por margem estreita permanece abaixo dele, com a posição travada em zero e o preço no piso da faixa, e a margem estreita se registra na ficha em vez de ser corrigida por cláusula.
 
 **Teto anti-inflação.** A técnica não alcança o piso de dois ranks acima, onde ele existir. O rank S não tem teto e é policiado pelo número de usos e pela condição estrutural que a ficha declara. O teste do teto roda com o executor uma faixa acima da típica, porque é na mão do mestre que a inflação aparece.
 

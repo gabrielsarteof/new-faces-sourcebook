@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-senbon
 title: "Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)"
-version: 2
+version: 3
 layer: scenario
 scenario: naruto
 type: technique
@@ -47,6 +47,8 @@ A entrada permanece indisponível enquanto o Chidori não tiver autor. Concluíd
 **Custo de XP:** 4.000
 
 **Errata de preço.** O custo passa de 11.000 para 4.000 XP. A causa é mudança de régua e não de RC: a posição dentro da faixa do rank deixou de ser lida pelo volume de reserva e passou a ser lida pela entrega contra o par do rank, medida no executor de referência, com o modificador de coeficiente técnico pagando o peso da maestria fora da posição. A entrega desta obra fecha em 37,9% do par, o que a põe em 0% da faixa, e o modificador de 0,500 incide sobre o resultado. Quem já comprou a técnica não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
+
+**Validação contra o piso do rank.** Alvo único, Grau V de Penetração. Entrega 37,9% do PV do par, abaixo do piso de 40% do rank A por margem estreita. Posição de XP trava em zero pela régua padrão, preço 4.000, sem cláusula de exceção. A pesquisa canônica confirma técnica de precisão contra alvo único, mirando pontos vitais com auxílio do Sharingan, e não técnica de área.
 
 ---
 
