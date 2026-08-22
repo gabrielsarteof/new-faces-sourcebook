@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.kyuinjutsu
 title: "Compêndio de Kyūinjutsu"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Kyuinjutsu_v1.md
 ---
 
-# Compêndio de Kyūinjutsu · v1.2
+# Compêndio de Kyūinjutsu · v1.3
 **吸引術 · Técnicas nomeadas do ofício da tomada**
 
 **O que mudou na v1.1.** Primeira auditoria completa da Exigência de Moldagem: as 19 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas bloqueadas por insumo não implementado (Rinnegan ou Meiton) receberam o número normalmente — a Norma de Produção de Compêndios já manda publicar preço para entrada inerte, e a Exigência segue a mesma regra.
@@ -17,6 +17,8 @@ source-file: Compendio_Kyuinjutsu_v1.md
 Catálogo das técnicas nomeadas que exercem o dreno de chakra classificado em `jutsu-authoring.md` §2.8 e treinado pela Perícia de Kyūinjutsu. Cada entrada informa o nome em português, o nome em japonês com kanji, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha e o preço em pontos de experiência, seguidos da descrição da técnica.
 
 **O que mudou na v1.2.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+**O que mudou na v1.3.** Três das dezenove entradas receberam vetor Corte: Fio Sedento, Corte que Bebe e Lâmina de Reserva Cheia, a família que infunde a colheita numa lâmina empunhada e devolve chakra pelo próprio corte que a arma já causaria. As dezesseis entradas restantes drenam chakra sem ferir, e o dreno não é dano de PV. Juízo e Takamimusubinokami não receberam vetor porque devolvem a técnica absorvida na natureza dela, e o vetor de cada devolução é o da obra original, não uma propriedade fixa da entrada. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
@@ -78,6 +80,7 @@ O material metálico não precisa de preparo nem de inscrição, e qualquer aram
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 32 · Caminho Lâmina Sedenta
+**Vetor:** Corte, Grau II do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 480
 
 O usuário passa a própria energia pela lâmina de uma faca ou kunai comum antes de golpear, e o corte que seguiria como ferimento comum devolve uma fração de chakra ao empunhador no mesmo instante em que abre. A lâmina não muda de cor nem de peso, e o único sinal é o alvo sangrar mais escuro que o esperado para o corte recebido.
@@ -176,6 +179,7 @@ A entrada estende o princípio da Poça Compartilhada para matéria sólida, e a
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 62 · Caminho Lâmina Sedenta · Fio Sedento
+**Vetor:** Corte, Grau II do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 4.625
 
 O usuário refina a infusão do Fio Sedento até que ela sobreviva à troca de arma dentro da mesma cena, e o chakra transferido pelo corte deixa de depender da lâmina original continuar na mão. O gume infundido brilha por uma fração de segundo no instante do impacto, visível a quem observa de perto.
@@ -240,6 +244,7 @@ A imagem de um instrumento assim, empunhado por um viajante de fora do mundo shi
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 76 · Caminho Lâmina Sedenta · Corte que Bebe
+**Vetor:** Corte, Grau II do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 12.800
 
 O usuário estende a conversão de dano em reserva para além do golpe único, e um ataque de área executado com a arma infundida devolve chakra de cada corpo atingido dentro dele, dividido entre os alvos como a colheita normalmente exigiria de tentativas separadas. A lâmina pulsa uma vez para cada corpo tocado dentro do mesmo golpe.
