@@ -190,7 +190,13 @@ Obra que entrega o dano sobre extensão ampla do corpo agrava o grau do rider em
 
 O Impacto engaja a barra inteira, e é o único vetor que a encontra sem desconto. Ele é também o vetor que mais cansa o defensor, porque cada ponto que a Guarda detém sai do fôlego dele.
 
-Quando a Energia de um golpe supera a fração da Guarda que o vetor engajou, a barra vai a zero, o excedente segue para a Absorção, e o alvo entra no estado de Quebra de Guarda, que o Sistema de Efeitos de Status publica. Durante o estado o lado defensivo do teste de conexão do quebrado multiplica por 0,8, pela mesma família de multiplicadores da Seção 10. A Penetração nunca causa Quebra, porque ela contorna a barra em vez de superá-la.
+Uma quebra que apenas atordoa e devolve o combatente ao bloqueio no instante seguinte é ruído, porque ninguém muda de decisão por causa dela. Uma quebra que impede a estrutura de voltar produz o oposto, a trava que se realimenta até alguém cair. O desenho correto é uma janela curta com uma consequência real, e a consequência recai sobre a opção defensiva principal do combatente.
+
+Quando a Energia de um golpe supera a fração da Guarda que o vetor engajou, a barra vai a zero, o excedente segue para a Absorção, e o alvo entra no estado de Quebra de Guarda, que o Sistema de Efeitos de Status publica. A janela dura até o fim do turno seguinte de quem quebrou, e dentro dela o Bloqueio fica indisponível e o lado defensivo do teste de conexão do quebrado multiplica por 0,8, pela mesma família de multiplicadores da Seção 10. A Guarda recarrega pela tabela de Exaustão desde o primeiro turno depois da quebra, porque a estrutura desfeita se remonta, e a janela existe para cobrar o instante em que ela não estava lá.
+
+A quebra fica mais provável conforme a luta avança, porque a recarga cai com o cansaço e a barra restante que o golpe precisa superar encolhe junto. O combatente que chega cansado primeiro é o que perde a Guarda primeiro, e é essa degradação que faz o duelo de Impacto terminar por cascata de exaustão em vez de por PV.
+
+A Penetração nunca causa Quebra, porque ela contorna a barra em vez de superá-la.
 
 ### 6.7 Corte
 
@@ -498,7 +504,7 @@ A iniciativa opõe 72 mais 1d6 do Veloz contra 47 mais 1d6 do Tanque, e o Veloz 
 
 O Veloz abre com a lâmina curva, Golpe Firme entregue por Corte de Grau III. O Tanque guarda a Reação para o segundo golpe e não contesta a conexão, então o golpe alcança o corpo sem teste. O Veloz rola 62 contra o próprio Limiar de Crítico de 17 e desfere um golpe comum, de Energia 187. O Grau III do Fio deixa metade da barra do Tanque para engajar, 163 dos 326 pontos, e os 187 superam essa fração: a Guarda detém 163, drena 163 de PS do Tanque, vai a zero, e o Tanque entra em Quebra de Guarda. A Guarda Ferida entrega ao PV um quinto do que a barra deteve, 32,6, e os 24 pontos que sobraram atravessam a Absorção de 135 entregando 3,6. O PV do Tanque cai de 2640 para 2603,8.
 
-Na ação extra o Veloz repete o golpe, e agora o Tanque gasta a Reação esquivando. O lado defensivo dele, 160, multiplica por 0,8 pela Quebra de Guarda e fecha em 128, de modo que o limiar de conexão do Veloz sobe para 206 dividido por 128, multiplicado por cinquenta, resultando em 80. O Veloz rola 71 e conecta. Com a barra em zero e sem recarga durante o estado, nada engaja o golpe: os 187 inteiros atravessam a Absorção e entregam 108,6. O PV do Tanque cai de 2603,8 para 2495,2.
+Na ação extra o Veloz repete o golpe, e agora o Tanque gasta a Reação esquivando. O lado defensivo dele, 160, multiplica por 0,8 pela Quebra de Guarda e fecha em 128, de modo que o limiar de conexão do Veloz sobe para 206 dividido por 128, multiplicado por cinquenta, resultando em 80. O Veloz rola 71 e conecta. Com a barra em zero, e sem turno intervalar em que ela pudesse recarregar, nada engaja o golpe: os 187 inteiros atravessam a Absorção e entregam 108,6. O PV do Tanque cai de 2603,8 para 2495,2.
 
 O Tanque revida com a arma pesada, Golpe Firme entregue por Impacto, de Energia 181. O lado ofensivo dele fecha em 160 contra os 206 do Veloz, o limiar de conexão sai em 38, e ele rola 55: o golpe não alcança. O Veloz gastou a Reação da rodada esquivando e pagou por ela.
 
@@ -522,7 +528,9 @@ O veneno não tem vetor. Ele saiu do vetor Energia por não alterar o estado do 
 
 **Fila de errata para outros documentos.**
 
-O Sistema de Efeitos de Status publica a Quebra de Guarda com efeitos escritos contra a Guarda de valor fixo que este documento substituiu. A cláusula de que a Guarda não recarrega durante o estado, somada à barra que agora zera sempre que um golpe supera a fração engajada, mantém o estado ativo indefinidamente numa troca física comum, o que contradiz o regime de dano publicado para o vetor Impacto. A referência ao Limiar de Esquiva naquela condição também precisa passar a ler o lado defensivo da conexão.
+O inventário completo, com o que sai e o que entra em cada alvo e o bloco que o executa, vive em [Errata do Núcleo de Combate v3](errata-combat-core-v3.md). Dezoito documentos do corpus citam ao menos uma das grandezas que este documento aposentou. O resumo abaixo nomeia os quatro alvos maiores.
+
+O Sistema de Efeitos de Status publica a Quebra de Guarda com efeitos escritos contra a Guarda de valor fixo que este documento substituiu. A condição perde a frase de que a Guarda vai a zero e não recarrega, e passa a publicar que a Guarda vai a zero, que o Bloqueio fica indisponível e o Limiar de Esquiva multiplica por 0,8 durante a janela, e que a Guarda recarrega pela tabela de Exaustão desde o primeiro turno depois da quebra. A referência ao Limiar de Esquiva naquela condição passa a ler o lado defensivo da conexão. A Seção 6.6 deste documento já publica a redação nova.
 
 Os Cálculos Rápidos de Testes republicam a Potência como grandeza viva, a Absorção subtrativa, o Limiar de Esquiva como número de ficha e a escada de Cadência de três degraus. As quatro leituras morrem com este documento.
 
@@ -532,7 +540,7 @@ Toda perícia e todo poder que citem a Potência, o coeficiente de impacto de ar
 
 ## 16. Registro de Alterações
 
-**v3.** O motor de resolução se reconstrói inteiro sobre o motor físico e o oleoduto defensivo que o sistema fixou, e sobre os quatro vetores de entrega. A Potência morre como grandeza, e a Energia de um golpe do corpo passa a ler FOR somada a VEL e ao bônus geral da perícia ofensiva, multiplicada pelo compromisso do golpe declarado entre Rápido, Firme e Pesado. A Guarda passa a somar o bônus geral da perícia defensiva à capacidade e a recarregar por metade de DEF × 5, com cada ponto detido virando PS gasto no defensor, e esse gasto conta como Esforço contra o Limiar. A Absorção deixa de subtrair e passa a dividir, entregando ao corpo a fração da energia sobre a energia somada à Absorção, sem piso e sem teto. O coeficiente de impacto de arma sai, e a tipologia de três classes permanece com o Esforço.
+**v3.** O motor de resolução se reconstrói inteiro sobre o motor físico e o oleoduto defensivo que o sistema fixou, e sobre os quatro vetores de entrega. A Potência morre como grandeza, e a Energia de um golpe do corpo passa a ler FOR somada a VEL e ao bônus geral da perícia ofensiva, multiplicada pelo compromisso do golpe declarado entre Rápido, Firme e Pesado. A Guarda passa a somar o bônus geral da perícia defensiva à capacidade e a recarregar por metade de DEF × 5, com cada ponto detido virando PS gasto no defensor, e esse gasto conta como Esforço contra o Limiar. A Absorção deixa de subtrair e passa a dividir, entregando ao corpo a fração da energia sobre a energia somada à Absorção, sem piso e sem teto. O coeficiente de impacto de arma sai, e a tipologia de três classes permanece com o Esforço. A Quebra de Guarda mantém o gatilho contra a Guarda restante, que é o que a torna mais provável conforme o cansaço encolhe a recarga, e perde a cláusula de que a barra não recarrega durante a janela, que se realimentava sob a barra consumível; o Bloqueio indisponível e o multiplicador de 0,8 continuam sendo os dois dentes da condição.
 
 A rolagem de d100 da Esquiva sai da sequência, substituída pelo teste oposto de base cinquenta que opõe a Velocidade efetiva da obra à VEL somada à DES e ao bônus de esquiva do alvo, com as isenções de técnica portada pelo corpo, de área e de campo. O Limiar de Esquiva deixa de existir como número de ficha, e toda a família de multiplicadores que incidia sobre ele passa a incidir sobre o lado defensivo da conexão, preservando o piso de 5 e o teto de 95 sobre o limiar resultante. O d100 do crítico permanece intacto, e o documento declara que a proibição de rolagem governa o acerto e nunca a qualidade do golpe.
 

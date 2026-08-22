@@ -7,7 +7,7 @@ O `id` é a chave que amarra manual e dado — ele não muda quando o arquivo se
 `core/` é fechado para modificação por causa de um mundo específico; substituições
 vivem em `worlds/<mundo>/extensions/` e declaram explicitamente o que substituem.
 
-**Total:** 183 documentos · 16 de núcleo · 167 de cenário
+**Total:** 184 documentos · 17 de núcleo · 167 de cenário
 
 Gerado por `tools/check-links.mjs`. Não editar à mão.
 
@@ -22,6 +22,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Núcleo de Combate](core/combat-core.md) | `core.combat-core` | 3 | core-layer | final |
 | [Princípios de Design](core/design-principles.md) | `core.design-principles` | 1 | methodology | final |
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
+| [Errata do Núcleo de Combate v3](core/errata-combat-core-v3.md) | `core.errata-combat-core-v3` | 1 | pending-patch | pending |
 | [Manual de Criação de Poderes](core/power-creation.md) | `core.power-creation` | 3.3 | core-layer | final |
 | [Cálculos Rápidos de Testes](core/quick-calculations.md) | `core.quick-calculations` | 1 | reference-table | final |
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1.1 | reference-table | final |
