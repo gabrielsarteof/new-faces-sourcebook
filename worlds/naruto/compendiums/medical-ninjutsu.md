@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_Medico_v2-1.md
 ---
 
-# Compêndio de Ninjutsu Médico · v2.5
+# Compêndio de Ninjutsu Médico · v2.6
 
 **医療忍術 · Iryō Ninjutsu**
 
@@ -20,6 +20,8 @@ source-file: Compendio_Ninjutsu_Medico_v2-1.md
 Catálogo das técnicas nomeadas do domínio médico, da contenção de sangramento que qualquer shinobi aprende no primeiro ano de academia até a regeneração absoluta que nenhuma mão do mundo alcançou ainda. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa.
 
 **O que mudou na v2.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+**O que mudou na v2.6.** Três das cinquenta e quatro entradas receberam vetor: Bisturi de Chakra em Corte de Grau IV, a própria entrada declarando que o corte "ignora armadura, vestimenta e qualquer defesa material"; Cerejeira, Impacto Violento e Perna do Céu Doloroso em Impacto, os dois golpes de solo que Tsunade emprega. As demais quarenta e nove entradas do domínio são diagnóstico, cura, suporte e utilidade, sem entrega de dano. Névoa Venenosa e Névoa Venenosa Múltipla subiram para a fila de decisão: veneno não tem vetor no sistema, pendência já registrada desde o Lote de Vetores, que o retirou do vetor Energia e o deixou "provavelmente vetor físico próprio, não estudado". Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
@@ -197,6 +199,7 @@ O limite é o fluxo e a atenção. Nenhuma aplicação ultrapassa o Limite de Sa
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 58
+**Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 2.580
 
 Chakra afiado até formar uma lâmina curta sobre a mão, capaz de atravessar a pele sem rompê-la e cortar o que houver por baixo. Na sala de cirurgia abre acesso a um órgão sem produzir ferida externa. Em combate faz a mesma coisa contra um adversário, e o corte ignora armadura, vestimenta e qualquer defesa material, porque nada disso está entre a mão e o tecido.
@@ -210,6 +213,7 @@ O limite é o contato. O bisturi exige a mão sobre o alvo, não bloqueia ataque
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 44 · insumo tradicional
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 2.120
@@ -449,6 +453,7 @@ O limite é o instante. A liberação fora do momento correto devolve todo o cha
 **[ATRIBUÍDO · anime — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 62 · Toxicologia · ter aprendido Névoa Venenosa
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 5.300
@@ -547,6 +552,7 @@ O limite é a margem. O procedimento exige instalação, tempo, assistência tre
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 46 · Concentração · ter aprendido Força Aumentada por Chakra
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 12.800
@@ -560,6 +566,7 @@ A Exigência de Moldagem 46 em rank A é o par alto deste compêndio contra a in
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 66 · Concentração · ter aprendido Força Aumentada por Chakra
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 12.800
