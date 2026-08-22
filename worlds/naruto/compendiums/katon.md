@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.9
+version: 5.10
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Katon_v5.md
 ---
 
-# Compêndio de Katon (火遁) · v5.9
+# Compêndio de Katon (火遁) · v5.10
 
 **O que mudou na v5.5.** A Exigência de Moldagem de todas as 44 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. Amaterasu ganha isenção explícita, porque a chama nasce onde o olho pousa e não passa por moldagem. Passo de Chamas e Luz de Chama, rank E, não tinham correspondência na auditoria que fechou as outras 42 e foram resolvidos por paralelo estrutural com o mesmo par em Raiton e Suiton — Centelha de Chakra já batia exato com Centelha Estática (30), e o mesmo trio de exercícios de Academia se repete nos três elementos: Passo de Chamas 40, igual a Passo Relâmpago e Passo de Névoa; Luz de Chama 44, igual a Luz de Arco. **Pendência aberta, sem relação com os dois acima:** a auditoria que fechou as outras 42 nomeia duas entradas que não existem neste arquivo, Ryū no Kōdō (64) e Kagutsuchi (104). Decisão de Gabriel: são técnicas novas a acrescentar, ou nomes alternativos de entradas já publicadas sob nome diferente.
 **Liberação de Fogo**
@@ -31,6 +31,8 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 **O que mudou na v5.9.** A Grande Extinção pelo Fogo sai da fila de decisão e declara vetor nenhum, por ser condição de campo e não golpe. A zona instala Queimadura por permanência, com o teste de entrada resolvendo uma vez por turno em que o personagem termine dentro dela, sem dano direto, sem teste de conexão e sem alvo. A gramática é a mesma do Estado Elemental, que também dispensa vetor e ainda assim carrega efeito mecânico próprio, porque reescreve a condição de quem está ali em vez de golpear.
 
 A leitura de Energia térmica de área foi descartada porque entrega contínua tem alvo, teste de conexão e escala por Energia, o que converteria a condição num golpe repetido a cada turno sem ação gasta, a pior distorção possível numa entrada de rank S. A leitura de delegar tudo ao dano de fonte sem ficha também foi descartada, porque ela serve a uma fogueira que já existia e é insuficiente para uma técnica que alguém pagou e executou: sem declaração própria, duas execuções da mesma entrada viram coisas diferentes conforme o narrador dimensione a fonte.
+
+**O que mudou na v5.10.** A Técnica de Ocultação nas Cinzas sai da fila de decisão e declara vetor nenhum, na mesma forma da Grande Extinção pelo Fogo, em escala menor e com duração curta. A nuvem instala Queimadura por permanência, com o teste de entrada resolvendo uma vez por turno em que o personagem termine dentro dela, e quem atravessa e sai no mesmo turno não testa. Com ela, as cinco entradas que este compêndio mandou para a fase 2 estão fechadas.
 
 **Declaração local nas Penas do Inferno, com errata pendente.** O engano é a propriedade central daquela entrada, e ele separa a técnica de rank A da de rank B no motor. A Seção 6.5 do Manual de Criação de Jutsus publica quatro degraus de Perfil de Evasão e nenhum deles mede leitura falseada, e o único que baixaria a esquiva do alvo carrega comportamento de perseguição que a salva não executa. A entrada declara para si que o alvo desce um degrau contra ela, com a razão escrita, e a declaração não constitui instrumento geral. O precedente de forma é o da Linhagem do Chidori, onde a revogação da janela de visão de túnel pelo Sharingan viveu nas fichas enquanto o documento do olho não a publicava. Fica emitido o pedido de errata à Seção 6.5, dona da escada, para decidir se o instrumento sobe para régua geral ou se ganha degrau próprio.
 
@@ -214,12 +216,15 @@ O usuário reveste as mãos ou os braços com chakra de fogo comprimido, formand
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 54
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** nenhum, condição de campo sem golpe
+**Rider:** Queimadura por permanência na nuvem
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 2.120
 
 O usuário expele uma nuvem densa de cinzas impregnadas de chakra que obstrui a visão do oponente e cobre a área com partículas incandescentes. A nuvem serve simultaneamente como cortina de fumaça e como agente de queimadura leve sobre qualquer alvo que permaneça dentro dela por tempo prolongado, e permanece suspensa depois da execução. A técnica tem perfil de suporte e controle, raro entre as técnicas de Katon.
+
+A nuvem não golpeia, ela cobra pelo tempo que alguém passa dentro dela. A entrada não declara vetor, não entrega dano direto e não roda teste de conexão, e o que ela instala é Queimadura por permanência, com o teste de entrada resolvendo uma vez por turno em que o personagem termine dentro da nuvem. Quem atravessa e sai no mesmo turno não testa. É a mesma forma da Grande Extinção pelo Fogo, em escala menor e com duração curta.
 
 ---
 

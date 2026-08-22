@@ -1,7 +1,7 @@
 ---
 id: naruto.system.rasengan-family
 title: "Linhagem do Rasengan"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: system
@@ -12,6 +12,8 @@ source-file: Linhagem_do_Rasengan_v1.md
 # Linhagem do Rasengan
 
 Documento dono do motor compartilhado pelas fichas da família Rasengan. Ele publica o eixo que cada variação move, a regra de assistência de moldagem, a cadeia de derivação e o estado de autoria da linhagem inteira. As fichas individuais consomem este documento e não reescrevem nada dele.
+
+**O que mudou na v1.5.** A coluna `mult_Tipo` da Seção 3 é sincronizada com os vetores que o repasse do Bloco 8 classificou, e a tabela ganha coluna de vetor para que os dois valores fiquem lado a lado. Três linhas carregavam transcrição anterior à partição do termo de tipo em Constante de Moldagem e Assinatura: o Rasengan Evanescente publicava 1,75, que é o produto do Raiton entregue como Energia, e as duas fichas de Fūton publicavam 1,30, valor de multiplicador por elemento que nenhuma régua vigente produz. As três resolvem em 1,40, porque entregam por vetor físico e a Assinatura de Impacto, Corte e Penetração vale 1,00. As quatro fichas sem transformação de natureza permanecem em 1,00, e nenhuma RC nominal, coeficiente de entrega, proporção da escada ou preço mudou.
 
 **O que mudou na v1.3.** O Manual de Requisitos de Técnica v2.2 revogou o degrau nomeado de moldagem, e a Exigência deixou de ser herdada como valor único da linhagem (antes, Absoluta/84 para as sete fichas): cada ficha passa a declarar o próprio número, publicado no Compêndio de Ninjutsu de Forma e no de Raiton. A Assistência de Moldagem, seção 4, ganhou o efeito numérico que faltava — reduz a Exigência efetiva em 20 por moldagem assistente, regra nova aprovada que a Reforma da Exigência de Moldagem publica.
 
@@ -66,15 +68,17 @@ A consequência de mesa está declarada: o volume investido move pouco o dano de
 
 Cada entrada da linhagem move um eixo e apenas um. A tabela é o contrato da família, e ficha nova que não consiga nomear um eixo livre não entra.
 
-| Ficha | Eixo movido | Rank | RC nominal | coef_entrega | mult_Tipo |
-|---|---|---|---|---|---|
-| Rasengan | base, alvo único em contato | B | 600 | 0,20 | 1,00 |
-| Rasengan Evanescente | evitabilidade, a leitura que o alvo perde | A | 1.050 | 0,16 | 1,75 |
-| Ōdama Rasengan | escopo, de alvo para área | A | 1.200 | 0,12 | 1,00 |
-| Rasenrengan | multiplicidade, de uma obra para duas | A | 1.200 | 0,20 | 1,00 |
-| Fūton: Rasengan | natureza e alcance, de contato para projétil | A | 1.500 | 0,16 | 1,30 |
-| Fūton: Rasenshuriken | letalidade estrutural, de dano em PV para dano no circuito | S | 2.100 | 0,16 | 1,30 |
-| Chō Ōdama Rasengan | teto de recurso, da reserva própria para pool externo | S | 2.100 a 3.600 | 0,12 | 1,00 |
+| Ficha | Eixo movido | Rank | RC nominal | coef_entrega | Vetor | mult_Tipo |
+|---|---|---|---|---|---|---|
+| Rasengan | base, alvo único em contato | B | 600 | 0,20 | Impacto | 1,00 |
+| Rasengan Evanescente | evitabilidade, a leitura que o alvo perde | A | 1.050 | 0,16 | Impacto | 1,40 |
+| Ōdama Rasengan | escopo, de alvo para área | A | 1.200 | 0,12 | Impacto | 1,00 |
+| Rasenrengan | multiplicidade, de uma obra para duas | A | 1.200 | 0,20 | Impacto | 1,00 |
+| Fūton: Rasengan | natureza e alcance, de contato para projétil | A | 1.500 | 0,16 | Corte, Grau II do Fio | 1,40 |
+| Fūton: Rasenshuriken | letalidade estrutural, de dano em PV para dano no circuito | S | 2.100 | 0,16 | Corte, Grau IV do Fio | 1,40 |
+| Chō Ōdama Rasengan | teto de recurso, da reserva própria para pool externo | S | 2.100 a 3.600 | 0,12 | Impacto | 1,00 |
+
+O `mult_Tipo` de cada linha é a Constante de Moldagem multiplicada pela Assinatura do vetor declarado, e a Assinatura vale 1,00 nos três vetores físicos. As quatro fichas sem transformação de natureza resolvem em 1,00 porque a Constante alcança apenas o que a moldagem de natureza produz, e as três que declaram natureza resolvem em 1,40 porque entregam por vetor físico e não por Energia.
 
 O custo mínimo de cada ficha é a terça parte da RC nominal, resolvendo 200 na base, 350 no Rasengan Evanescente, 400 no Ōdama Rasengan e no Rasenrengan, 500 no Fūton: Rasengan e 700 nas duas entradas de rank S.
 

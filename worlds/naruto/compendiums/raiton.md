@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.10
+version: 3.11
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.10
+# Compêndio de Raiton (雷遁) · v3.11
 **Liberação de Raio**
 
 **O que mudou na v3.8.** As entradas passam a declarar o vetor de entrega e a celeridade do meio, pelo contrato que o Lote de Vetores fechou e que o Template de Documento de Técnica v4 publica. Vinte e seis entradas receberam vetor por classificação mecânica sobre a descrição publicada, nove não o receberam por não entregarem dano, e seis subiram para a fila de decisão por ambiguidade real. A celeridade de 150 é a do Raiton na escada de meios da Seção 5.7 do Manual de Criação de Jutsus, e vale para toda entrada que atravesse distância. Nenhum preço em XP foi regenerado nesta passada, pela razão registrada na fila de errata.
@@ -185,10 +185,12 @@ O usuário detona uma descarga de intensidade luminosa máxima e duração míni
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV4 · Moldagem 58 · Kage Bunshin no Jutsu
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 5.300
 
 O usuário cria um clone composto de chakra elétrico, capaz de agir com autonomia e de executar técnicas em nome do original. Ao ser desfeito por golpe físico, o clone reverte ao estado de corrente pura e descarrega no atacante, aplicando o rider pelo contato direto. A propriedade transforma cada clone em armadilha para quem opta pelo combate próximo, e o valor da técnica reside tanto na presença adicional em campo quanto na punição automática da destruição.
+
+O vetor pertence à descarga e não à presença. O clone em pé não entrega golpe algum, e o que fere é a corrente liberada no instante em que ele é desfeito.
 
 ---
 
@@ -197,10 +199,12 @@ O usuário cria um clone composto de chakra elétrico, capaz de agir com autonom
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem 58
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Penetração, Grau IV · Celeridade 150
 **XP:** 4.625
 
 O usuário expele pela boca uma lança de eletricidade que atravessa o campo em linha reta com velocidade superior à de qualquer projétil elemental de rank equivalente. A concentração da corrente em ponta estreita concede poder de perfuração capaz de atravessar defesas de chakra que resistiriam a técnicas de área mais volumosas. O alcance é longo e a trajetória é fixa, o que faz da técnica uma escolha de precisão contra alvo já comprometido em posicionamento. É a forma base da entrega concentrada a distância, e as variações que a refinam aparecem no rank seguinte.
+
+O Grau IV posiciona a entrada abaixo das refinadas de rank A, que resolvem em Grau V, e ao lado da Flecha do Estrondo, que é a outra entrega concentrada do mesmo rank. A Assinatura se lê da Penetração e vale 1,00, e a corrente aparece como rider.
 
 ---
 
@@ -209,12 +213,14 @@ O usuário expele pela boca uma lança de eletricidade que atravessa o campo em 
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV4 · Moldagem 46 · segundo usuário de Raiton ou clone
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Energia elétrica, elevado para linha · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 5.300
 
 Dois executantes estendem entre si uma corrente contínua de alta intensidade e avançam mantendo a linha esticada, varrendo tudo o que estiver no trecho entre eles. A técnica converte o ataque de alvo único em elevação categórica para linha, e a largura da varredura depende exclusivamente da distância que a dupla consegue manter sem romper a corrente. A coordenação exigida faz da técnica um recurso de equipe treinada, e o uso com clones permite a execução por um único shinobi.
+
+A elevação para linha é a geometria que dois executantes esticando corrente produzem, e a entrada a declara desde a redação original. A tabela de elevação com o degrau Linha está publicada dentro da seção do Corte no Núcleo de Combate, e a frase que a introduz reserva a escada ao Corte entre os vetores físicos, sem se pronunciar sobre a Energia.
 
 ---
 
@@ -414,10 +420,12 @@ O usuário injeta por contato um sinal nervoso falso em um membro específico do
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV5 · Moldagem 70 (exceção aprovada de piso: os dois componentes correm em sequência, não em simultaneidade) · Caminho Composição (Controle de Chakra) · Rasengan
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 13.250
 
 O usuário infunde chakra de raio na esfera rotativa do Rasengan, alterando a forma como a luz e o próprio chakra se comportam na superfície da técnica. Durante o percurso, a esfera se torna invisível à observação comum e reaparece no instante do impacto, removendo do oponente a leitura de distância e de tempo que a técnica original oferece. A execução exige domínio pleno do Rasengan e controle simultâneo de infusão elemental, combinação que a mantém indisponível na criação de personagem e alcançável somente em jogo.
+
+O raio move a evitabilidade e não a entrega, e quem esmaga continua sendo a esfera. O vetor é o da linhagem inteira, e a Assinatura do Impacto resolve em 1,00, com o termo de tipo fechando em 1,40. A Linhagem do Rasengan publicava 1,75 para esta ficha, transcrição anterior à partição do termo de tipo, e o valor foi corrigido na v1.5 daquele documento.
 
 ---
 
@@ -477,12 +485,14 @@ O usuário molda relâmpago negro na forma de uma pantera que avança de forma a
 **[CANON · Rank S]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Raiton LV6 · Moldagem 89 · Caminho Ponta · Chidori
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Penetração, Grau VI · Celeridade 150
 **XP:** 23.600
 
 O usuário eleva a concentração do Chidori até o ponto em que a corrente deixa de se comportar como descarga e passa a operar como lâmina, capaz de cortar o próprio relâmpago ao meio. A densidade alcançada atravessa defesas de chakra que suportariam a versão original da técnica, e a perfuração deixa de depender da massa investida para depender da precisão do corte. O nome da técnica registra o feito que a originou.
 
 A janela de contra-ataque por visão de túnel permanece idêntica à do Chidori na ausência do Sharingan, e o portador do olho executa sem ela. Com maestria plena, a corrente é reunida simultaneamente nas duas mãos, dobrando os pontos de aplicação sem exigir nova moldagem.
+
+A prosa acima descreve a densidade pela imagem da lâmina, e a ficha `raikiri.md` declara Penetração de Grau VI, que é o ponto de energia pura sem nada a engajar. A ficha prevalece sobre a estimativa do catálogo, e a imagem da lâmina permanece como descrição do que o executante alcança.
 
 ---
 

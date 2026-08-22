@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.5
+version: 1.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Fuinjutsu_v1.md
 ---
 
-# Compêndio de Fūinjutsu · v1.5
+# Compêndio de Fūinjutsu · v1.6
 
 **O que mudou na v1.3.** Primeira auditoria completa da Exigência de Moldagem: 39 das 42 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Duas ficam sem edição por não terem portão de moldagem próprio: Rotação Instantânea Mútua do Hiraishin não declara nível nem degrau de Fūinjutsu na entrada, herdando o portão de Deus do Trovão Voador sem republicá-lo; Juinjutsu de Orochimaru não tem portão nenhum, porque quem recebe a marca não a adquire nem a executa. Nenhuma das duas precisava de correção — ambas já estavam corretas por não se aplicarem.
 
@@ -22,6 +22,10 @@ Catálogo das técnicas nomeadas da arte do selamento, da etiqueta explosiva que
 **O que mudou na v1.5.** Quatro das quarenta e duas entradas receberam vetor: Etiqueta Explosiva e Selamento das Três Direções em Impacto, pela força concussiva que as duas descrevem; Desselamento: Shuriken em Penetração de Grau III, a logística de armazenamento que "vira ataque de área" quando o pergaminho se abre; Corte do Deus do Trovão Voador em Corte de Grau IV, entregue pela lâmina que já viaja em movimento no instante da travessia. Trinta e sete entradas não receberam vetor, o domínio inteiro de acesso, disfarce, registro, contenção e transferência que caracteriza o selamento. Selo do Consumo do Demônio Morto subiu para a fila de decisão: a extração de alma pelo Shinigami não passa por energia entregue de nenhuma das quatro formas que o Núcleo de Combate publica, e classificar um vetor ali seria inventar mecanismo que o sistema não declara. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**O que mudou na v1.6.** O Selo do Consumo do Demônio Morto sai da fila de decisão da fase 2 e declara vetor nenhum, com a razão publicada na própria entrada.
+
+**Não há tecido falhando, há um alvo saindo de cena.** É a formulação que separa a entrada sem vetor da entrada que apenas não fere muito, e ela vale como precedente para todo o repasse. Os quatro vetores medem como o corpo cede à energia entregue, e efeito que não passa por corpo algum não tem vetor a declarar. O selamento, o aprisionamento, a extração e a remoção resolvem pela Régua de Resposta, e classificar um vetor neles inventaria mecanismo que o Núcleo de Combate não publica.
 
 O selamento se organiza em dois tempos, e o catálogo inteiro se lê por eles. Existe o tempo em que a fórmula é escrita, pago em preparação e em horas de trabalho, e existe o tempo em que ela cobra, pago no disparo por quem estiver diante dela. Uma técnica deste domínio é comprada uma vez e usada por anos, porque o produto do selador continua no mundo depois que ele vai embora. É a única família de técnicas do sistema em que o inimigo pode encontrar a obra de um praticante que já morreu.
 
@@ -607,7 +611,7 @@ O limite é a reciprocidade. As duas marcas precisam existir, e a morte de um do
 **[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
 **Requisitos:** Fūinjutsu LV6 · Moldagem 100 · Caminho Cárcere · a vida do executor
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** nenhum, o efeito retira o alvo de cena em vez de fazer tecido falhar
 **XP:** 55.000
 
 O praticante forma o selo e o Shinigami se ergue atrás dele, invisível para todos os demais. A mão do deus atravessa o corpo do executor, alcança a alma do alvo e a arranca, e as duas almas são recolhidas para dentro do ventre da entidade, onde permanecem trancadas uma diante da outra por toda a eternidade. O corpo do executor cai no mesmo instante.
@@ -615,6 +619,8 @@ O praticante forma o selo e o Shinigami se ergue atrás dele, invisível para to
 A técnica sela alma e não chakra, e por isso ignora reserva, resistência, contenção e escala. Ela alcança um bijū, alcança um shinobi e alcança um deus com o mesmo gesto, e o preço é sempre idêntico. O selamento admite ser parcial: o executor pode arrancar apenas uma parte do que agarrou, sacrificando a própria vida do mesmo jeito para levar consigo os braços, a memória ou uma metade declarada do alvo.
 
 O limite é o preço. A vida do executor é cobrada sempre, no sucesso e no fracasso, e nenhum arranjo do sistema a devolve.
+
+A entrada não declara vetor porque não há tecido falhando, há um alvo saindo de cena. Os quatro vetores medem como o corpo cede à energia entregue, e o que esta técnica faz não passa por corpo algum. A posição em XP se lê pela Régua de Resposta.
 
 ### Liberação do Selo do Consumo do Demônio Morto
 **Shiki Fūjin: Kai — 屍鬼封尽・解**
