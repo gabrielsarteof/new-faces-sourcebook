@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.7
+version: 4.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Futon_v3.md
 ---
 
-# Compêndio de Fūton (風遁) · v4.7
+# Compêndio de Fūton (風遁) · v4.8
 **Liberação de Vento**
 
 **O que mudou na v4.4.** A Exigência de Moldagem de todas as 34 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. **Nota:** a auditoria da Frente de Exigência de Moldagem registra um valor extra sem entrada correspondente neste arquivo, "Shinkū Rensa" (70) — nenhuma das 34 entradas publicadas reivindica esse nome, e o valor fica sem uso até que se identifique a que técnica pertence ou se confirme que é resíduo de rascunho.
@@ -22,7 +22,9 @@ Catálogo das técnicas nomeadas do elemento vento. Cada entrada informa o nome 
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
-**O que mudou na v4.7.** As duas entradas de infusão sobre arma empunhada saem da fila de decisão da fase 2 e declaram Corte em Grau IV do Fio. O vetor de um golpe amplificado por uma natureza é o vetor do golpe que o carrega, precedente que o Compêndio de Yōton publica, e o Grau IV é definido como fio sem espessura de chakra moldado em lâmina, que é o gume invisível das duas. A tabela de Matéria Dura fecha o argumento, porque o Grau IV é o mínimo para morder pedra e o Fluxo de Chakra: Vento declara na prosa que a borda passa a mordê-la.
+**O que mudou na v4.7 e na v4.8.** As duas entradas de infusão sobre arma empunhada saem da fila de decisão da fase 2 e declaram Corte em Grau IV do Fio. O vetor de um golpe amplificado por uma natureza é o vetor do golpe que o carrega, precedente que o Compêndio de Yōton publica, e o Grau IV é definido como fio sem espessura de chakra moldado em lâmina, que é o gume invisível das duas. A tabela de Matéria Dura fecha o argumento, porque o Grau IV é o mínimo para morder pedra e o Fluxo de Chakra: Vento declara na prosa que a borda passa a mordê-la.
+
+O Vendaval da Montanha Verdejante sai da mesma fila pela mesma regra, e lê o vetor inteiro da arma arremessada em vez de só o grau, porque o vento dele guia a trajetória e não participa da entrega. A mesma execução resolve por Corte com uma faca e por Penetração com uma kunai.
 
 **O Grau IV é o teto do Fio, e a diferenciação acima dele vive fora do vetor.** A escada do Corte tem quatro degraus por desenho declarado no Núcleo de Combate, e o topo dela fica no meio da escada da Penetração porque a perfuração é a ameaça mais difícil de deter. Quatro entradas deste compêndio compartilham o Grau IV, e a distância entre elas é real e vive nos outros eixos que cada uma declara, a elevação de rider por borda e o Perfil de Evasão do alcance ilegível na Lâmina de Vácuo, a entrega e o rank nas demais. A escada do Fio nunca prometeu discriminar dentro do próprio topo.
 
@@ -300,10 +302,12 @@ O usuário reveste a arma empunhada com uma camada de vácuo em vez de vento, el
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 54 · Caminho Vento no Voo · armas de arremesso
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** lido da arma arremessada, vetor e grau da ficha dela · sem celeridade própria, a arma é o meio
 **XP:** 5.300
 
 O usuário arremessa as próprias lâminas e assume o controle delas em pleno voo por correntes finas de vento, redirecionando cada arma de forma independente após o lançamento. As lâminas curvam trajetórias, contornam guardas, retornam à mão do usuário e tornam a atacar, convertendo um par de facas num enxame imprevisível. A leitura defensiva do oponente falha no fundamento, porque a trajetória do arremesso deixa de prever o ponto de impacto. A técnica é a expressão máxima do arremesso guiado, e a exigência de controle vem de manter várias correntes finas separadas ao mesmo tempo sem que uma desmanche a outra.
+
+O vento guia e não fere. A entrega é a da arma, e o vetor e o grau se leem da ficha dela, o que faz a mesma execução resolver por Corte com uma faca e por Penetração com uma kunai. Sem arma arremessada a técnica não tem entrega própria e não se executa.
 
 ---
 

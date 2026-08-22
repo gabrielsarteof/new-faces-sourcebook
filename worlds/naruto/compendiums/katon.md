@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.7
+version: 5.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Katon_v5.md
 ---
 
-# Compêndio de Katon (火遁) · v5.7
+# Compêndio de Katon (火遁) · v5.8
 
 **O que mudou na v5.5.** A Exigência de Moldagem de todas as 44 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. Amaterasu ganha isenção explícita, porque a chama nasce onde o olho pousa e não passa por moldagem. Passo de Chamas e Luz de Chama, rank E, não tinham correspondência na auditoria que fechou as outras 42 e foram resolvidos por paralelo estrutural com o mesmo par em Raiton e Suiton — Centelha de Chakra já batia exato com Centelha Estática (30), e o mesmo trio de exercícios de Academia se repete nos três elementos: Passo de Chamas 40, igual a Passo Relâmpago e Passo de Névoa; Luz de Chama 44, igual a Luz de Arco. **Pendência aberta, sem relação com os dois acima:** a auditoria que fechou as outras 42 nomeia duas entradas que não existem neste arquivo, Ryū no Kōdō (64) e Kagutsuchi (104). Decisão de Gabriel: são técnicas novas a acrescentar, ou nomes alternativos de entradas já publicadas sob nome diferente.
 **Liberação de Fogo**
@@ -21,6 +21,14 @@ Catálogo das técnicas nomeadas do elemento fogo. Cada entrada informa o nome e
 **O que mudou na v5.6.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**O que mudou na v5.8.** As três entradas que combinam chama com projétil físico saem da fila de decisão da fase 2 e declaram Penetração em Grau I. O vetor de um golpe amplificado por uma natureza é o vetor do golpe que o carrega, precedente que o Compêndio de Yōton publica, e as três prosas já apontavam para ele: a Kunai Flamejante declara que a chama preserva a força de penetração original das kunais, e as Penas do Inferno declaram que o alvo lê fogo e o que chega é aço. O Grau I é a kunai e a shuriken arremessadas na escada da Penetração.
+
+**Elemento que não entrega como energia não multiplica como energia.** A Assinatura se lê do vetor declarado, e não da natureza que produziu a obra. Uma entrada de Katon que entrega por Penetração ou por Corte resolve a Assinatura em 1,00, com o termo de tipo fechando em 1,40, e o fogo aparece como Queimadura e nunca como coeficiente. O registro fica aqui para que passada futura de classificação não reabra a pergunta.
+
+**A salva não é área.** As duas entradas de salva declaram a cláusula na própria prosa: cada projétil é uma entrega de alvo único, declara o próprio alvo e resolve a própria abertura, e nenhum projétil se dirige a alvo que outro da mesma salva já tenha resolvido como cobertura de área. O teto categórico da Penetração diz alvo único sempre, e a cláusula existe para que contagem de projéteis não vire porta dos fundos para campo.
+
+**Declaração local nas Penas do Inferno, com errata pendente.** O engano é a propriedade central daquela entrada, e ele separa a técnica de rank A da de rank B no motor. A Seção 6.5 do Manual de Criação de Jutsus publica quatro degraus de Perfil de Evasão e nenhum deles mede leitura falseada, e o único que baixaria a esquiva do alvo carrega comportamento de perseguição que a salva não executa. A entrada declara para si que o alvo desce um degrau contra ela, com a razão escrita, e a declaração não constitui instrumento geral. O precedente de forma é o da Linhagem do Chidori, onde a revogação da janela de visão de túnel pelo Sharingan viveu nas fichas enquanto o documento do olho não a publicava. Fica emitido o pedido de errata à Seção 6.5, dona da escada, para decidir se o instrumento sobe para régua geral ou se ganha degrau próprio.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Katon v4. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Queimadura e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status, com a ressalva de que o caminho Fulgor da inclinação de extensão Brasa substitui a Queimadura por Cegueira nas entregas resolvidas por ele, pela regra de rider substituído por natureza intensificada. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
 
@@ -97,7 +105,7 @@ O usuário expele pela boca várias bolas de fogo de pequeno porte simultaneamen
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem 40 · kunai empunhadas
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Penetração, Grau I · Celeridade 100
 **XP:** 600
 
 O usuário canaliza chakra de fogo para uma ou mais kunais seguradas, envolvendo as lâminas em chamas sustentadas pelo chakra. As armas arremessadas mantêm o fogo durante o voo e queimam ao impactar, aplicando dano por queimadura mesmo em golpes que não atingem pontos vitais. A chama preserva a força de penetração original das kunais, obriga o alvo a recuar diante do calor próximo e torna a interceptação manual das armas inviável. A técnica é o primeiro exercício de canalização elemental em ferramenta para shinobi com afinidade para fogo.
@@ -290,10 +298,12 @@ O usuário comprime uma grande quantidade de chakra no interior do corpo e o con
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV4 · Moldagem 64 · Caminho Veia · Múltiplas Bolas de Fogo da Fênix
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Penetração, Grau I · Celeridade 100
 **XP:** 4.625
 
 O usuário arremessa shurikens com uma mão e expele simultaneamente chakra de fogo sobre elas, envolvendo cada projétil em chamas. As shurikens inflamadas continuam queimando após o impacto, porque o fogo é sustentado pelo chakra independentemente da inflamabilidade da superfície atingida. As chamas funcionam também como elemento de distração visual, e o usuário guia os projéteis pelas correntes de calor para criar trajetórias inesperadas.
+
+A salva resolve alvo por alvo. Cada projétil é uma entrega de alvo único, declara o próprio alvo e resolve a própria abertura, e nenhum projétil se dirige a alvo que outro projétil da mesma salva já tenha resolvido como cobertura de área. A entrada que quiser cobrir terreno em vez de corpos deixa de ser Penetração e passa a ser outra técnica.
 
 ---
 
@@ -525,10 +535,15 @@ Execução de três marcações latentes num único gesto, distribuídas entre a
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 72 · Caminho Agulha · shuriken em quantidade
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Penetração, Grau I · Celeridade 100
+**Perfil de Evasão:** Padrão, com o alvo descendo um degrau contra a salva
 **XP:** 11.000
 
 Salva de projéteis de fogo com shuriken embalados no interior de cada esfera. O alvo lê a salva como fogo e calibra a saída para fogo. Quando as esferas se abrem, o aço emerge em ângulos que não pertencem à trajetória original das chamas, e cada projétil resolve sua própria abertura de forma independente, de modo que nenhuma esquiva única cobre a salva inteira. A técnica é o segundo estágio do engano que o Hōsenka Tsumabeni estabelece.
+
+A salva resolve alvo por alvo. Cada projétil é uma entrega de alvo único, declara o próprio alvo e resolve a própria abertura, e nenhum projétil se dirige a alvo que outro projétil da mesma salva já tenha resolvido como cobertura de área. A entrada que quiser cobrir terreno em vez de corpos deixa de ser Penetração e passa a ser outra técnica.
+
+O engano é a propriedade central da técnica e não adorno da descrição, e por isso ele resolve no Perfil de Evasão. O alvo desce um degrau contra a salva, porque calibrou a defesa para a chama que vê e recebe o aço que emerge no ângulo que a chama não anunciava. A declaração vale para esta entrada e não constitui instrumento geral: a Seção 6.5 do Manual de Criação de Jutsus não publica degrau para leitura falseada, e enquanto a régua não subir para o documento dono ela permanece local, com cada ficha a declarando por conta própria.
 
 ---
 
