@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.sensory
 title: "Compêndio de Sensoriamento"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Sensoriamento_v1.md
 ---
 
-# Compêndio de Sensoriamento · v1.3
+# Compêndio de Sensoriamento · v1.4
 
 **O que mudou na v1.2.** Primeira auditoria completa da Exigência de Moldagem: as 36 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2.
 
@@ -18,6 +18,8 @@ source-file: Compendio_Sensoriamento_v1.md
 Catálogo das técnicas nomeadas do domínio de Sensoriamento. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa. O verbo do domínio é converter chakra alheio em informação, e toda entrada aqui é uma medida de quanto do mundo o praticante consegue ler sem tocá-lo.
 
 **O que mudou na v1.3.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+**O que mudou na v1.4.** Registro de achado do repasse de vetores: nenhuma das trinta e seis entradas deste compêndio recebe classificação de vetor. O verbo do domínio é converter chakra alheio em informação, e nenhuma entrada entrega dano físico ou elemental. Este registro fecha a pergunta para qualquer passada futura de classificação.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
