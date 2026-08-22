@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.6
+version: 5.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,12 +9,14 @@ status: final
 source-file: Compendio_Katon_v5.md
 ---
 
-# Compêndio de Katon (火遁) · v5.6
+# Compêndio de Katon (火遁) · v5.7
 
 **O que mudou na v5.5.** A Exigência de Moldagem de todas as 44 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. Amaterasu ganha isenção explícita, porque a chama nasce onde o olho pousa e não passa por moldagem. Passo de Chamas e Luz de Chama, rank E, não tinham correspondência na auditoria que fechou as outras 42 e foram resolvidos por paralelo estrutural com o mesmo par em Raiton e Suiton — Centelha de Chakra já batia exato com Centelha Estática (30), e o mesmo trio de exercícios de Academia se repete nos três elementos: Passo de Chamas 40, igual a Passo Relâmpago e Passo de Névoa; Luz de Chama 44, igual a Luz de Arco. **Pendência aberta, sem relação com os dois acima:** a auditoria que fechou as outras 42 nomeia duas entradas que não existem neste arquivo, Ryū no Kōdō (64) e Kagutsuchi (104). Decisão de Gabriel: são técnicas novas a acrescentar, ou nomes alternativos de entradas já publicadas sob nome diferente.
 **Liberação de Fogo**
 
 Catálogo das técnicas nomeadas do elemento fogo. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
+
+**O que mudou na v5.7.** As entradas passam a declarar o vetor de entrega, pelo contrato que o Lote de Vetores fechou e que o Template de Documento de Técnica v4 publica. Trinta e três entradas receberam vetor por classificação mecânica sobre a descrição publicada, todas em Energia térmica, exceto Palma da Fênix, entregue por contato sem celeridade. Seis não receberam vetor por não entregarem dano. Cinco subiram para a fila de decisão por ambiguidade real, quatro delas por combinarem chama com projétil físico (Kunai Flamejante, Incêndio de Fagulhas de Fênix, Penas do Inferno) ou por função predominantemente utilitária (Técnica de Ocultação nas Cinzas), e uma por escopo de campo sem dano direto descrito (Grande Extinção pelo Fogo). Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 **O que mudou na v5.6.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
@@ -83,6 +85,7 @@ O usuário canaliza chakra de fogo pelas palmas ou pelo solo e ergue uma barreir
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem 58
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 720
 
 O usuário expele pela boca várias bolas de fogo de pequeno porte simultaneamente, cada uma guiada pelo chakra de forma independente. As bolas percorrem trajetórias distintas em direção ao alvo, dificultando a esquiva por uma rota única. É possível ocultar shurikens no interior das chamas, criando um segundo vetor de dano que se revela quando as esferas se dissipam. Entre as famílias de Konohagakure com afinidade para fogo, a técnica é aprendida cedo e funciona como base para o controle direcional de múltiplos projéteis simultâneos.
@@ -94,6 +97,7 @@ O usuário expele pela boca várias bolas de fogo de pequeno porte simultaneamen
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem 40 · kunai empunhadas
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 600
 
 O usuário canaliza chakra de fogo para uma ou mais kunais seguradas, envolvendo as lâminas em chamas sustentadas pelo chakra. As armas arremessadas mantêm o fogo durante o voo e queimam ao impactar, aplicando dano por queimadura mesmo em golpes que não atingem pontos vitais. A chama preserva a força de penetração original das kunais, obriga o alvo a recuar diante do calor próximo e torna a interceptação manual das armas inviável. A técnica é o primeiro exercício de canalização elemental em ferramenta para shinobi com afinidade para fogo.
@@ -105,6 +109,7 @@ O usuário canaliza chakra de fogo para uma ou mais kunais seguradas, envolvendo
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem 32
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 480
 
 O usuário expele da boca um jato concentrado de chamas em linha reta, sem necessidade de selos. A coluna de fogo percorre distância média antes de se dissipar. O alcance e a temperatura são modestos diante das técnicas de ranks superiores, e a ausência de preparação torna o Endan uma das técnicas de Katon mais imediatas disponíveis em combate. A técnica também funciona como agente de ignição para superfícies cobertas por óleo ou gás inflamável, amplificando o efeito de outras técnicas já posicionadas no campo.
@@ -120,6 +125,7 @@ O usuário expele da boca um jato concentrado de chamas em linha reta, sem neces
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 44
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 1.775
 
 O usuário molda chakra nos pulmões e o expele pela boca na forma de uma enorme esfera de fogo rugidora. O volume e o alcance da bola variam com a quantidade de chakra investida. As chamas são densas o suficiente para superar técnicas de Suiton de usuários medianos quando executadas por um shinobi experiente. Entre os membros do clã Uchiha, o domínio desta técnica marca o rito de passagem para a vida adulta, sendo tratada como medida de capacidade e comprometimento com a tradição do clã.
@@ -131,6 +137,7 @@ O usuário molda chakra nos pulmões e o expele pela boca na forma de uma enorme
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 60 · material condutor em campo
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 1.430
 
 O usuário canaliza fogo ao longo de um fio condutor, arame ou cabo, que transporta as chamas em linha reta em direção ao alvo. As chamas percorrem o fio e atingem preferencialmente a parte superior do corpo, funcionando como um projétil guiado. Uma fileira de inimigos conectados fisicamente pode servir de condutor, propagando o fogo entre eles de forma encadeada. A técnica exige a presença de um material condutor no campo, o que a torna dependente do contexto do terreno.
@@ -142,6 +149,7 @@ O usuário canaliza fogo ao longo de um fio condutor, arame ou cabo, que transpo
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 60
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.580
@@ -168,6 +176,7 @@ O usuário faz um único selo e gera uma estrutura de fogo à sua frente, que as
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 50
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.120
@@ -181,6 +190,7 @@ O usuário expele chakra de fogo para cima, fragmentando-o em dezenas de partíc
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 62
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 1.775
 
 O usuário reveste as mãos ou os braços com chakra de fogo comprimido, formando extensões incandescentes que acompanham cada golpe de taijutsu. O calor concentrado nos pontos de impacto aplica queimadura localizada e torna o contato direto com as mãos do usuário inviável para oponentes sem proteção de chakra. A técnica exige manutenção ativa de chakra durante o engajamento corpo a corpo, o que reduz a reserva disponível para técnicas de longo alcance ao longo do combate.
@@ -192,6 +202,7 @@ O usuário reveste as mãos ou os braços com chakra de fogo comprimido, formand
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 54
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 2.120
@@ -209,6 +220,7 @@ O usuário expele uma nuvem densa de cinzas impregnadas de chakra que obstrui a 
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Clã Uchiha)
 **Requisitos:** Katon LV4 · Moldagem 48 · Caminho Muro Vivo
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 4.625
@@ -226,6 +238,7 @@ A resistência registrada da barreira está acima do que a escala de rank sugere
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 64 · Caminho Pavio
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 6.200
@@ -239,6 +252,7 @@ O usuário cospe pela boca uma corrente de pólvora impregnada de chakra, que pa
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 62 · Caminho Rédea
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 4.625
@@ -252,6 +266,7 @@ O usuário gera uma corrente de fogo que percorre o solo ou o ar em trajetórias
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 50
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 5.300
 
 O usuário comprime o chakra pulmonar e o expele pela boca como um jato de fogo intenso que assume a forma de um dragão. As chamas se dividem para atacar os flancos direito e esquerdo e a frente ao mesmo tempo, transformando o alvo em cinzas. Quando combinada com técnicas de Doton que lançam projéteis de lama em direção ao alvo, o jato de fogo inflama os projéteis, criando um ataque composto de alcance longo e temperatura elevada.
@@ -263,6 +278,7 @@ O usuário comprime o chakra pulmonar e o expele pela boca como um jato de fogo 
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 50
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 5.300
 
 O usuário comprime uma grande quantidade de chakra no interior do corpo e o converte em fogo, expelindo-o na forma de uma cabeça de dragão colossal. O calor das chamas é alto o suficiente para criar correntes de ar ascendentes que originam nuvens de tempestade e raio na atmosfera quando a técnica é disparada em direção ao céu. Um usuário avançado dispara várias sequências de dragões em rápida sucessão, reduzindo a cinzas qualquer alvo que permaneça no caminho.
@@ -274,6 +290,7 @@ O usuário comprime uma grande quantidade de chakra no interior do corpo e o con
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV4 · Moldagem 64 · Caminho Veia · Múltiplas Bolas de Fogo da Fênix
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 4.625
 
 O usuário arremessa shurikens com uma mão e expele simultaneamente chakra de fogo sobre elas, envolvendo cada projétil em chamas. As shurikens inflamadas continuam queimando após o impacto, porque o fogo é sustentado pelo chakra independentemente da inflamabilidade da superfície atingida. As chamas funcionam também como elemento de distração visual, e o usuário guia os projéteis pelas correntes de calor para criar trajetórias inesperadas.
@@ -285,6 +302,7 @@ O usuário arremessa shurikens com uma mão e expele simultaneamente chakra de f
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Katon LV4 · Moldagem 80 · Caminho Rédea
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 5.300
 
 O usuário libera várias esferas de fogo com aparência de chamas espirituais que atacam o oponente em enxame. Cada esfera é controlada ativamente de forma independente e persegue o alvo em trajetórias distintas, tornando a esquiva por rota única ineficaz. A velocidade individual de cada esfera é alta o suficiente para vencer a maioria das defesas físicas convencionais. Sustentar várias chamas com rotas próprias e correção contínua é composição que o estudo do elemento não entrega por si, e a entrada se abre a quem concluir o processo de criação de técnica em jogo.
@@ -296,6 +314,7 @@ O usuário libera várias esferas de fogo com aparência de chamas espirituais q
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 62 · Caminho Muro Vivo
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 5.300
@@ -309,6 +328,7 @@ O chakra de fogo do usuário surge ao redor do corpo em redemoinho giratório. A
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 46
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 4.625
@@ -322,6 +342,7 @@ O usuário expele da boca uma rajada contínua e larga de chamas que avança em 
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV4 · Moldagem 46 · Caminho Pavio · Fūinjutsu e selos explosivos
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 5.300
@@ -339,6 +360,7 @@ O usuário posiciona a mão no solo e libera um grande número de selos explosiv
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV5 · Moldagem 62 · Caminho Leito · Grande Chama
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 15.200
@@ -352,6 +374,7 @@ O usuário molda chakra em múltiplas esferas de fogo lançadas em arco ascenden
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 48 · Caminho Leito
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 12.800
@@ -365,6 +388,7 @@ O usuário lança chamas intensas que inundam uma área delimitada, maximizando 
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV5 · Moldagem 44 · invocação capaz de expelir óleo
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 12.800
 
 Técnica de colaboração executada com um sapo invocado. O sapo acumula óleo nas glândulas internas e o expele como jato pela boca, e o usuário, posicionado sobre a cabeça do sapo, ignita o óleo com chakra de fogo, convertendo o jato em uma bola de fogo colossal cuja temperatura e alcance superam qualquer chama produzida por um humano sem auxílio. A escala de destruição é proporcional ao volume de óleo expelido pelo sapo, e a técnica exige um contrato de invocação ativo com sapos.
@@ -376,6 +400,7 @@ Técnica de colaboração executada com um sapo invocado. O sapo acumula óleo n
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV5 · Moldagem 48 · Bala de Fogo
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 11.000
 
 Versão amplificada do Endan executada com chakra de senjutsu. O usuário preenche a boca com óleo gerado internamente pelo chakra dos sapos e o expele simultaneamente ao lançar o fogo, criando uma chama de alcance e potência muito superiores à versão base. A forma original exige domínio de senjutsu, e a estrutura mecânica de amplificação de jato por combustível interno é adaptável por usuários de alta reserva de chakra mesmo sem ele, com resultado inferior ao original.
@@ -387,6 +412,7 @@ Versão amplificada do Endan executada com chakra de senjutsu. O usuário preenc
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 36
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 18.200
@@ -400,6 +426,7 @@ O chakra moldado no interior do corpo é convertido em fogo e expelido pela boca
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 50 · Caminho Emissão (Controle de Chakra)
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 15.200
 
 O usuário enche o peito muito além do que a projeção comum exigiria e libera a chama numa coluna contínua que alarga ao longo do percurso. A técnica existe para quem expandiu o próprio Limite de Saída e precisa de uma forma capaz de gastar toda a vazão do turno num lance só. Contra alvo que não consiga abandonar a linha de disparo, a coluna resolve o confronto antes que a defesa termine de se organizar.
@@ -411,6 +438,7 @@ O usuário enche o peito muito além do que a projeção comum exigiria e libera
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 46
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 9.200
 
 O usuário comprime a chama até a densidade máxima que consegue sustentar, e o que sai da mão tem o tamanho de um punho fechado com a temperatura de uma forja em plena operação. O fogo fecha sobre si mesmo em vez de se espalhar, e o calor entregue por unidade de volume é o mais alto do arsenal de Katon comum. Alvo que já carrega marca de queimadura sente a ferida aprofundar no instante do contato.
@@ -433,6 +461,7 @@ Disparo preciso que grava no alvo uma marca ardente do tamanho de uma palma. A m
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 58 · Caminho Muro Vivo
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 12.800
@@ -446,6 +475,7 @@ O usuário cospe fogo contra o solo e o prende ali, formando uma câmara de cham
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 62 · Caminho Emissão (Controle de Chakra)
+**Vetor:** Energia térmica · sem celeridade, entrega portada pelo corpo
 **XP:** 9.200
 
 Descarga de fogo concentrado liberada no contato da palma com o alvo. Não existe projeção nem trajetória, porque a chama nasce no ponto de encosto e desce para dentro do corpo atingido. A técnica pertence ao repertório de quem luta em distância curta e resolve a situação do usuário de Katon que foi alcançado antes de conseguir cuspir.
@@ -457,6 +487,7 @@ Descarga de fogo concentrado liberada no contato da palma com o alvo. Não exist
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 76 · Caminho Veia
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 12.800
 
 O usuário estende três guias simultâneos e envia fogo por cada um. Os guias convergem sobre o mesmo alvo vindos de ângulos diferentes ou tomam rumos separados contra alvos distintos. Contra um único alvo cercado pelos três, a esquiva deixa de ter direção livre, porque toda rota de saída cruza pelo menos um dos fios.
@@ -468,6 +499,7 @@ O usuário estende três guias simultâneos e envia fogo por cada um. Os guias c
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 66 · Caminho Cinza
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 15.200
@@ -481,6 +513,7 @@ Detonação de larga área que deixa para trás uma coluna de cinza incandescent
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 74 · Caminho Pavio
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 12.800
 
 Execução de três marcações latentes num único gesto, distribuídas entre alvos ou pontos do terreno. Cada uma guarda gatilho próprio e prazo próprio, e o usuário escolhe qual detona e em que momento. A técnica converte o campo inteiro em armadilha montada antes do primeiro golpe, e a ameaça opera mesmo sem detonação, porque o inimigo que percebeu as marcas passa a escolher rota em vez de escolher ataque.
@@ -492,6 +525,7 @@ Execução de três marcações latentes num único gesto, distribuídas entre a
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 72 · Caminho Agulha · shuriken em quantidade
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 11.000
 
 Salva de projéteis de fogo com shuriken embalados no interior de cada esfera. O alvo lê a salva como fogo e calibra a saída para fogo. Quando as esferas se abrem, o aço emerge em ângulos que não pertencem à trajetória original das chamas, e cada projétil resolve sua própria abertura de forma independente, de modo que nenhuma esquiva única cobre a salva inteira. A técnica é o segundo estágio do engano que o Hōsenka Tsumabeni estabelece.
@@ -507,6 +541,7 @@ Salva de projéteis de fogo com shuriken embalados no interior de cada esfera. O
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV6 · Moldagem 52 · Grande Aniquilação de Fogo
+**Vetor:** Energia térmica · Celeridade 100
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 38.000
@@ -520,6 +555,7 @@ O usuário converte uma quantidade extrema de chakra em fogo e o expele pela boc
 **[PROPOSTA — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Katon LV6 · Moldagem 92
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 32.000
 
 O usuário comprime uma quantidade extrema de chakra de fogo no interior do corpo e o expele pela boca em rotação helicoidal contínua. A coluna de chamas avança em espiral apertada, assumindo a silhueta de um dragão enrolado em torno do próprio eixo, com o núcleo em temperatura branca visível a olho nu mesmo sob a luz do dia e as bordas externas queimando em laranja denso. A técnica percorre uma linha estreita com força de penetração extrema, atravessando defesas de chakra pela temperatura pura em vez da massa bruta. O terreno combustível no caminho é incinerado instantaneamente e o terreno não combustível é esculpido pelo calor concentrado. A rotação gera pressão de vento centrípeto que mantém a espiral coesa ao longo de todo o disparo, dificultando a dispersão por técnicas de Fūton. O dano se concentra num ponto único ou numa linha estreita de profundidade máxima, compondo com o Gōka Messhitsu um par complementar no topo do arsenal, um que incinera em campo aberto e outro que perfura o que estiver diretamente à frente.
@@ -531,6 +567,7 @@ O usuário comprime uma quantidade extrema de chakra de fogo no interior do corp
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Katon LV6 · Moldagem 76 · Caminho Rédea
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 38.000
 
 Projeção oral de escala suprema, entregue por um corpo que passou a produzir fogo como estado permanente. A coluna sai com pressão suficiente para tornar a esquiva irrelevante dentro do alcance, e a temperatura eleva a Queimadura em uma categoria. O Gōka Messhitsu permanece a técnica de maior escala e maior dano bruto do cânone, e o Rugido vence noutro eixo, que é a certeza do acerto, pagando por isso com uma execução por combate.
@@ -542,6 +579,7 @@ Projeção oral de escala suprema, entregue por um corpo que passou a produzir f
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Katon LV6 · Moldagem 96 · Transcendência Labareda da Fênix
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** 38.000
 
 Execução simultânea dos três vetores de entrega do fogo. O usuário cospe, envia fogo por até três guias de chakra puro e detona até duas marcas latentes previamente postas, tudo no mesmo instante. Cada vetor resolve sua própria abertura, e o alvo precisa responder a três geometrias distintas de ameaça ao mesmo tempo. Uma execução por combate.
@@ -553,6 +591,7 @@ Execução simultânea dos três vetores de entrega do fogo. O usuário cospe, e
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Katon LV6 · Moldagem 68 · Transcendência O Grande Incêndio
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 45.500
@@ -570,6 +609,7 @@ Conversão do campo de batalha inteiro em zona ardente. O solo pega, o ar carreg
 **[CANON — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Mangekyō Sharingan · olho correspondente ativado · isento de Exigência de Moldagem (a chama nasce onde o olho pousa)
+**Vetor:** Energia térmica · Celeridade 100
 **XP:** pertence ao documento do Mangekyō Sharingan
 
 As chamas negras do Amaterasu são declaradas nos databooks como a técnica de Katon de nível mais alto já registrada. O Amaterasu não é expelido pelos pulmões, e as chamas nascem diretamente no ponto em que o olho do Mangekyō pousa o olhar. Ardem por sete dias e sete noites sem se extinguir por meios convencionais, queimam a temperaturas superiores às do sol e não respondem a Suiton. A técnica pertence exclusivamente a portadores do Mangekyō Sharingan com o olho correspondente ativado, fora do arsenal de Katon acessível por treinamento.
