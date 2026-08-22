@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.6
+version: 4.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Futon_v3.md
 ---
 
-# Compêndio de Fūton (風遁) · v4.6
+# Compêndio de Fūton (風遁) · v4.7
 **Liberação de Vento**
 
 **O que mudou na v4.4.** A Exigência de Moldagem de todas as 34 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. **Nota:** a auditoria da Frente de Exigência de Moldagem registra um valor extra sem entrada correspondente neste arquivo, "Shinkū Rensa" (70) — nenhuma das 34 entradas publicadas reivindica esse nome, e o valor fica sem uso até que se identifique a que técnica pertence ou se confirme que é resíduo de rascunho.
@@ -21,6 +21,10 @@ Catálogo das técnicas nomeadas do elemento vento. Cada entrada informa o nome 
 **O que mudou na v4.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**O que mudou na v4.7.** As duas entradas de infusão sobre arma empunhada saem da fila de decisão da fase 2 e declaram Corte em Grau IV do Fio. O vetor de um golpe amplificado por uma natureza é o vetor do golpe que o carrega, precedente que o Compêndio de Yōton publica, e o Grau IV é definido como fio sem espessura de chakra moldado em lâmina, que é o gume invisível das duas. A tabela de Matéria Dura fecha o argumento, porque o Grau IV é o mínimo para morder pedra e o Fluxo de Chakra: Vento declara na prosa que a borda passa a mordê-la.
+
+**O Grau IV é o teto do Fio, e a diferenciação acima dele vive fora do vetor.** A escada do Corte tem quatro degraus por desenho declarado no Núcleo de Combate, e o topo dela fica no meio da escada da Penetração porque a perfuração é a ameaça mais difícil de deter. Quatro entradas deste compêndio compartilham o Grau IV, e a distância entre elas é real e vive nos outros eixos que cada uma declara, a elevação de rider por borda e o Perfil de Evasão do alcance ilegível na Lâmina de Vácuo, a entrega e o rank nas demais. A escada do Fio nunca prometeu discriminar dentro do próprio topo.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Fūton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Sangramento e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica. A competência de empunhar o leque de guerra é da Perícia de Leque v1, que a Foice de Doninha, a Grande Foice de Doninha e a Grande Tarefa do Dragão passam a exigir ao lado do Fūton.
 
@@ -187,7 +191,7 @@ O usuário tece fios de vento cortante numa malha ampla e a lança sobre o alvo,
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV3 · Moldagem 50 · arma branca empunhada
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 1.775
 
 O usuário canaliza chakra de vento por uma lâmina ou arma empunhada, estendendo o fio físico com um gume invisível de vento que multiplica o corte e o alcance da arma. Uma faca curta alcança como espada, a borda passa a morder pedra e metal, e o gume estendido atravessa defesas que a lâmina nua jamais venceria. O comprimento e a densidade da borda respondem ao volume canalizado, o que torna alcance e tempo do golpe difíceis de antecipar. A técnica é a ponte formal do elemento com o bukijutsu e fundamenta a Lâmina de Vácuo de rank superior. A entrada declara elevação de rider por borda.
@@ -284,7 +288,7 @@ O usuário inspira e cospe uma dispersão de pequenas esferas de vácuo comprimi
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV4 · Moldagem 78 · Caminho Vento na Lâmina · Fluxo de Chakra: Vento
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 4.625
 
 O usuário reveste a arma empunhada com uma camada de vácuo em vez de vento, elevando o Fluxo de Chakra ao seu refinamento máximo, e o gume deixa de ser vento afiado e passa a ser ausência cortante, um fio que o olho não encontra e a defesa não mede. O corte atravessa proteções que resistiriam ao fluxo comum e fere por dentro da guarda, com o alcance real da lâmina permanecendo ilegível para o oponente. A camada precisa ser sustentada com proporção constante ao longo de toda a arma, e qualquer excesso de volume desfaz a rarefação que a define. O registro traz a técnica aplicada a uma kunai curta, e ela é o teto do bukijutsu de vento. A entrada declara elevação de rider por borda.
