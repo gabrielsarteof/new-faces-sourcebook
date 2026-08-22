@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.6
+version: 2.7
 layer: core
 type: system
 status: final
@@ -30,6 +30,18 @@ com o sistema de combate. Para usar, basta este arquivo.
   de recurso perdido ou de acúmulo já operavam assim. A Petrificação passou a admitir o
   vetor de processo interno, em que a transformação nasce da operação que o próprio
   personagem executa sobre o próprio corpo e o grau se instala pela régua da fonte.
+- **Riders de vetor** entram na v2.7, pelo motor que o Núcleo de Combate publica. Cada
+  vetor carrega um rider estrutural, que nenhuma obra remove, e um rider padrão, que a
+  obra substitui declarando outro. A Secção é o estrutural do Corte e o Sangramento é o
+  padrão dele; a Perfuração é o estrutural da Penetração e a Hemorragia de Trajeto é o
+  padrão dela; no vetor Energia os dois dependem do tipo de energia entregue, e o cenário
+  os publica junto da tabela de Assinatura. O vetor Impacto não tem rider estrutural, por
+  decisão de desenho registrada na própria seção dele.
+- **Os pares de atributos punidos não competem entre si.** A Queimadura pune INT e SAB, a
+  Perfuração pune FOR e VEL, a Secção pune DES e DEF, e o Sangramento pune RES sozinha.
+  Fogo cozinha a cabeça, ponta estraga o motor, fio estraga a estrutura, e perda de sangue
+  tira sustentação. Nenhum par se repete, e é essa separação que impede o empilhamento de
+  condições sobre o mesmo atributo quando um alvo carrega mais de um rider ao mesmo tempo.
 - **Rider substituído por natureza intensificada** é regra geral desde a v2.5, publicada
   logo após as Regras Universais de Aplicação, com registro próprio dos casos vigentes.
   Antes dela a troca corria caso a caso dentro de cada documento de natureza, o que
@@ -144,20 +156,90 @@ Regra de valor base para efeitos derivados da fonte: atributo relevante do causa
 
 Um ferimento aberto drena sangue continuamente. O que sofre primeiro é a resistência e a capacidade de sustentar esforço. A força bruta só cede em perdas mais severas, quando a queda de oxigenação alcança diretamente o funcionamento muscular.
 
+É o rider padrão do vetor Corte, e a obra que sela o canal ao atravessá-lo o substitui pelo rider que a selagem produzir.
+
 Fonte: golpe físico cortante ou perfurante.
 Atributos testados: RES + FOR
 Alvo do teste: (RES + FOR) x (1 - dano / PV máximo da vítima)
-Valor base do DoT: dano causador dividido por 10 em PV perdido por turno. Fixo na aplicação.
+Valor base do DoT: dano causador dividido por 10 em PV perdido por turno.
 
-Grau Leve: apenas o DoT base. O corpo ainda compensa a perda mínima sem penalidade de atributo. Vítima testa RES + FOR por turno para encerrar.
+O Sangramento acumula num número único. Cada corte novo soma a própria taxa ao número que já corre, e o alvo perde por turno o total acumulado, sem que a mesa mantenha uma lista de sangramentos separados. Estancar custa Ação Completa e corta o número pela metade, e é a única saída: não existe teste de remoção por turno, porque a ferida aberta não fecha por vontade.
 
-Grau Moderado: DoT base mais redução de 15% em RES. A resistência cede antes da força porque é ela que sustenta a circulação sob esforço. Teste de remoção com modificador Leve no alvo.
+Grau Leve: apenas o DoT base. O corpo ainda compensa a perda mínima sem penalidade de atributo.
 
-Grau Grave: DoT base mais redução de 30% em RES e 15% em FOR. Movimento amplo custa PS adicional. Remoção exige ação completa dedicada mais o teste.
+Grau Moderado: DoT base mais redução de 15% em RES. A resistência cede porque é ela que sustenta a circulação sob esforço.
 
-Grau Crítico: DoT base mais redução de 50% em RES e 30% em FOR. O personagem está perdendo sangue em velocidade que compromete o funcionamento físico completo. Risco iminente de Exsanguinação. Sem teste automático de remoção. Exige tratamento ativo externo obrigatório.
+Grau Grave: DoT base mais redução de 30% em RES. Movimento amplo custa PS adicional.
 
-Notas: dois sangramentos simultâneos somam os DoTs separadamente. A fonte pode alterar o divisor de 10 para 7 em armas especialmente letais, declarado na descrição da fonte.
+Grau Crítico: DoT base mais redução de 50% em RES. O personagem está perdendo sangue em velocidade que compromete o funcionamento físico completo. Risco iminente de Exsanguinação. Exige tratamento ativo externo obrigatório.
+
+Notas: a redução alcança apenas RES. A perda de sangue é perda de sustentação, e a força bruta pertence aos pares dos riders estruturais, que este efeito não disputa. Alvo sem sangue não sangra, e a Secção continua valendo sobre ele. A fonte pode alterar o divisor de 10 para 7 em armas especialmente letais, declarado na descrição da fonte.
+
+
+### Secção
+
+O fio separa o tecido ao longo de uma linha, e o que se perde primeiro é a estrutura que sustentava o movimento. Articulação aberta, tendão seccionado e músculo dividido tiram do corpo a precisão e a capacidade de firmar a defesa, muito antes de tirarem a força.
+
+É o rider estrutural do vetor Corte. Nenhuma obra o remove, e ele acompanha toda entrega que empregue o vetor, venha ela de aço ou de chakra moldado em lâmina.
+
+Fonte: automática em golpe de vetor Corte que alcance o PV.
+Atributos testados: RES + DEF
+Alvo do teste: (RES + DEF) x (1 - dano / PV máximo da vítima)
+
+Grau Leve: redução de 15% em DES e DEF. Sem sequela após remoção.
+
+Grau Moderado: redução de 30% em DES e DEF. Após remoção, redução de 15% em DES e DEF persiste até tratamento.
+
+Grau Grave: redução de 50% em DES e DEF. A função do membro atingido fica comprometida até tratamento específico, e ações que dependam dele resolvem com o modificador da severidade.
+
+Grau Crítico: redução de 70% em DES e DEF, e decepamento do membro atingido. Gera Ferimento Grave permanente e exige tratamento especializado obrigatório.
+
+Notas: a localização do membro é narrativa do Mestre, sem grandeza nova, conforme a decisão publicada no motor de vetores. Alvo sem sangue sofre Secção normalmente, porque o que ela mede é estrutura e não circulação.
+
+
+### Perfuração
+
+A ponta entra por superfície mínima e abre trajeto em profundidade. O que falha é o motor do corpo, porque o canal atravessa fibra, feixe nervoso e inserção muscular sem separá-los ao longo de uma linha, e o membro perde a capacidade de puxar e de acelerar.
+
+É o rider estrutural do vetor Penetração. Nenhuma obra o remove, e ele sempre dispara em golpe que alcance o PV.
+
+Fonte: automática em golpe de vetor Penetração que alcance o PV.
+Atributos testados: RES + DEF
+Alvo do teste: (RES + DEF) x (1 - dano / PV máximo da vítima), empurrado pelo Grau do vetor conforme a fonte declarar
+
+Grau Leve: redução de 15% em FOR e VEL. Sem sequela após remoção.
+
+Grau Moderado: redução de 30% em FOR e VEL. Após remoção, redução de 15% em FOR e VEL persiste até tratamento.
+
+Grau Grave: redução de 50% em FOR e VEL. A função do membro atingido fica comprometida até tratamento específico.
+
+Grau Crítico: redução de 70% em FOR e VEL, e Ferimento Grave permanente. Trajeto no tronco alcança órgão, e o tratamento especializado passa a ser obrigatório e imediato.
+
+Notas: a localização do membro é narrativa do Mestre. O Grau do vetor que a fonte declara empurra o alvo do teste, porque a mesma ponta entrega pressão diferente conforme o corpo que a acompanha.
+
+
+### Hemorragia de Trajeto
+
+O canal aberto sangra por dentro, ao longo de toda a profundidade que a ponta alcançou. A perda é menor que a de um corte na superfície e não para sozinha, porque não existe superfície onde aplicar pressão.
+
+É o rider padrão do vetor Penetração, e a obra que cauteriza o canal ao atravessá-lo o substitui declarando outro.
+
+Fonte: golpe de vetor Penetração que alcance o PV.
+Atributos testados: RES + DEF
+Alvo do teste: (RES + DEF) x (1 - dano / PV máximo da vítima)
+Valor base do DoT: dano causador dividido por 20 em PV perdido por turno.
+
+**Exceção declarada ao ciclo de vida de riders.** A Hemorragia de Trajeto nunca sai por ação do próprio afetado, em grau nenhum, porque o sangramento é interno e nenhuma pressão o alcança. Ela exige ninjutsu médico em qualquer grau, e é a única exceção do sistema à regra de que o afetado sempre pode gastar a própria ação para se limpar.
+
+Grau Leve: DoT base.
+
+Grau Moderado: DoT base, e o esforço sustentado o agrava, com o número dobrando enquanto o afetado gastar Esforço acima do Limiar.
+
+Grau Grave: DoT base, e a perda alcança o desempenho, com modificador Moderado no alvo de todo teste físico do afetado.
+
+Grau Crítico: DoT base, risco iminente de Exsanguinação, e o quadro não estabiliza sem intervenção médica dedicada.
+
+Notas: a taxa mais baixa das três de dano contínuo por golpe é deliberada e espelha a forense. A incisão sangra mais por fora, a estocada sangra menos por fora e não para.
 
 
 ### Queimadura
