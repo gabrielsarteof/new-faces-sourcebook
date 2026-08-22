@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Inton_v2-1.md
 ---
 
-# Compêndio de Inton · v2.6
+# Compêndio de Inton · v2.7
 
 **O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Seis entradas já traziam justificativa própria na prosa (Lâmina de Vazio, Eco de Presença, Armadura de Segunda Pele, Carregador Sem Rosto, Despacho de Raio, Cidadela do Vazio), usada como âncora direta.
 
@@ -24,6 +24,14 @@ Catálogo das técnicas nomeadas do domínio de Yin. Cada entrada informa o que 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **O que mudou na v2.6.** As entradas passam a declarar o vetor de entrega quando aplicável. O domínio inteiro é construção e ilusão, "originar forma a partir do nada", e trinta e sete das quarenta entradas não entregam dano algum. Apenas Lâmina de Vazio recebeu vetor direto, Corte pela lâmina forjada do vazio e vinculada ao braço. Ramo Que Não Existe e Despacho de Raio subiram para a fila de decisão: as duas se descrevem "fora do ciclo de superação" e sem tipo elemental a apartar, o que levanta se o mecanismo de dano de uma obra de Yin passa pela Constante de Moldagem e pela Assinatura do vetor do mesmo jeito que uma obra elemental, ou se corre por régua própria que este repasse não tem autoridade para inventar. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
+
+**O que mudou na v2.7.** As duas entradas que a v2.6 deixou na fila de decisão fecham, e a pergunta que elas abriram foi respondida pelo Eixo do Onmyōton, publicado para isso. A obra do eixo resolve o dano pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, como qualquer natureza, e estar fora do ciclo de superação é fato da camada relacional que nunca tocou o motor. A natureza não contribui rider, e o rider estrutural do vetor permanece por pertencer ao vetor. A celeridade da obra sem componente elemental é 95, a linha de chakra moldado puro da Escada de Meios.
+
+Ramo Que Não Existe declara Impacto, porque a entrada publica duas formas alternativas para o mesmo fenômeno e nenhum gume ou ponta que sustente trajeto, e vetor que travasse a forma contradiria o caminho que a ergue.
+
+Despacho de Raio recebe errata de fato contra o capítulo 674, que o repasse encontrou ao auditar a fonte primária. A entrada divergia em quatro pontos. O nome perdia o prefixo Senpō, e a obra canônica é Arte Sábia. A prosa afirmava que não existe natureza elemental a apartar, e o registro classifica a técnica com Elemento Yin e Elemento Raio somados. O Estado de Autoria constava Aberta sob a justificativa de que o criador não existe neste mundo, e o criador é Madara Uchiha, o que a torna Registrada pela definição da Norma de Produção de Compêndios. A linha de Requisitos citava uma perícia, e a obra cobra três. Os níveis exigidos em Senjutsu e em Raiton saem da tabela de portão de rank de cada perícia contra o rank S publicado, sem valor escolhido. O vetor resolve em Energia elétrica com celeridade 150, lidas do componente que atravessa o espaço. O preço em XP permanece como estava, provisório pela Norma v2.8, e passa a carregar uma segunda razão para ser refeito.
+
+A entrada declara também o próprio destino. O prefixo Senpō a leva ao Compêndio de Senjutsu pela fronteira que a perícia de Senjutsu publica, e aquele compêndio ainda não existe.
 
 Os nomes japoneses deste compêndio são romanização proposta e construída para este sistema, porque quase todo o arsenal de Yin é criação do projeto e o cânone entrega um único nome de técnica.
 
@@ -273,10 +281,10 @@ Uma obra já erguida se desliga da sustentação de quem a criou e passa a exist
 **[PROPOSTA — Rank B]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Liberação de Yin LV4 · Moldagem 62 · Forjador de Fenômenos
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Impacto · Celeridade 95
 **XP:** 4.625
 
-A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo que cresce no ar sem raiz, uma réstia de luz que não vem de fonte alguma, e atravessa a distância como golpe. O fenômeno fica fora do ciclo de superação, e quem tenta apartá-lo pelo tipo não encontra tipo algum. A técnica existe no mundo em posse de pouquíssimos, e nenhum currículo institucional a transmite.
+A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo que cresce no ar sem raiz, uma réstia de luz que não vem de fonte alguma, e atravessa a distância como golpe. O fenômeno fica fora do ciclo de superação, e quem tenta apartá-lo pelo tipo não encontra tipo algum. A forma varia a cada execução, e a entrega permanece a mesma, uma massa que chega e empurra, sem gume e sem ponta que sustente trajeto. A técnica existe no mundo em posse de pouquíssimos, e nenhum currículo institucional a transmite.
 
 ---
 
@@ -388,15 +396,17 @@ A cópia espiritual passa a sofrer dano convincente quando atingida, com ferida 
 ## Rank S
 
 ### Despacho de Raio
-**Inton: Raiha — 陰遁・雷派**
+**Senpō: Inton Raiha — 仙法・陰遁雷派**
 **[CANON — Rank S]**
 **Acesso:** Assinatura Pessoal
-**Estado de Autoria:** Autoria Aberta
-**Requisitos:** Liberação de Yin LV6 · Moldagem 52 · Forjador de Fenômenos
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Estado de Autoria:** Registrada
+**Requisitos:** Liberação de Yin LV6 · Senjutsu LV6 · Raiton LV6 · Moldagem 52 · Forjador de Fenômenos
+**Vetor:** Energia elétrica · Celeridade 150
 **XP:** 27.500
 
-A energia espiritual veste a forma de um raio e é despachada contra o alvo em linha, fora do ciclo de superação e sem que exista natureza elemental a apartar. É a única técnica de Yin confirmada em fonte primária com nome próprio. O criador registrado no cânone não existe na história deste mundo, e a entrada permanece aberta ao primeiro que alcançar o requisito e concluir o processo de criação. A Exigência de Moldagem 52 em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
+A energia espiritual veste a forma de um raio e é despachada contra o alvo, com feixes saindo das duas palmas em quantidade e se fechando sobre ele para prendê-lo. A obra soma três componentes no mesmo ato, a energia espiritual que dá a forma, a energia natural colhida que sustenta o volume, e a natureza de Raio que fornece a corrente entregue. É a única técnica de Yin confirmada em fonte primária com nome próprio, e o criador dela é Madara Uchiha, que existe na história deste mundo, o que põe o acesso do jogador sob a regra de contexto aprovado. A Exigência de Moldagem 52 em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
+
+O prefixo Senpō leva a posse desta entrada ao Compêndio de Senjutsu, conforme a fronteira que a perícia de Senjutsu declara, e o compêndio ainda não existe. A entrada permanece aqui com o destino declarado, e migra quando o destino nascer.
 
 ### Campo de Nunca Esteve Aqui
 **Fuzaiya no Jutsu — 不在野の術**
@@ -451,7 +461,9 @@ O revestimento alcança construção plena e permanece sem sustentação por uma
 
 **Prender e deter.** Corda do Vazio, Grilhão do Vazio, Rede de Ninguém.
 
-**Golpear sem elemento.** Ramo Que Não Existe, Despacho de Raio.
+**Golpear sem elemento.** Ramo Que Não Existe.
+
+**Golpear com elemento somado.** Despacho de Raio, que soma energia natural e natureza de Raio à forma erguida pela energia espiritual.
 
 **Sumir da leitura.** Vulto de Costas, Recorte Simples, Manto de Ninguém, Véu do Esquadrão.
 
