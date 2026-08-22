@@ -1,7 +1,7 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 9.1
+version: 9.2
 layer: scenario
 scenario: naruto
 type: system
@@ -9,7 +9,7 @@ status: final
 source-file: Sistema_Elemental_v8.md, mais a Errata E1 v2
 ---
 
-# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v9.1
+# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v9.2
 Conversão do chakra nas sete naturezas, a afinidade que o papel revela, as compatibilidades de nascença, a aquisição por treino e as relações de superação em confronto.
 
 ---
@@ -477,11 +477,13 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 | Naturezas Avançadas, seção do Shiden | O caminho Gume da inclinação Agudo aplica Sangramento no lugar da Paralisia Parcial, e a regra vigente daquele documento declara que o rider continua o do elemento base. A substituição de rider por Kyōka segue pendente nos dois documentos, sem travar a publicação da inclinação |
 | Naturezas Avançadas v5 | A regra de tipo dominante deixa de reger dano e passa a reger apenas a posição no Ciclo de Superação. As naturezas avançadas resolvem pela Constante de Moldagem e pela Assinatura do vetor que cada obra declara, e os multiplicadores dos Kyōka são republicados sobre a base nova |
 | Compêndios de todas as naturezas e documentos de técnica | Cada entrada que entrega dano passa a declarar vetor, grau quando aplicável, riders e Velocidade, e a Assinatura deriva do vetor sem decisão adicional |
-| Sistema de Efeitos de Status v2.1 | A Vulnerabilidade Elemental reduz uma Resistência ao elemento em três dos quatro graus, e o corpus não publica essa grandeza |
+| ~~Sistema de Efeitos de Status, a Vulnerabilidade Elemental~~ | **Aplicada na v2.8.** A cláusula de redução de Resistência ao elemento caiu dos três graus que a publicavam, sem substituta. A condição opera pelo aumento de dano e pelas cláusulas de efeito secundário, e a resistência segue existindo apenas como Estado Elemental declarado, cujo pacote de vulnerabilidade acoplada tem dono próprio |
 
 ---
 
 ## Registro de Alterações
+
+**v9.2.** A errata contra a Vulnerabilidade Elemental fecha, aplicada no Sistema de Efeitos de Status v2.8. A condição publicava redução de uma Resistência ao elemento em três dos quatro graus, e essa grandeza nunca existiu no corpus. Nenhum número deste documento mudou.
 
 **v9.1.** A justificativa da Constante de Moldagem passa a medir a moldagem em vez da matéria, atendendo pedido do Eixo do Onmyōton v1. A redação anterior afirmava que toda técnica de transformação de natureza converte chakra em matéria elemental, e a régua de Integridade da Liberação de Yin declara que a obra do eixo não é matéria, o que deixava as duas metades do sistema em contradição literal. O rendimento mede o ato de moldar, e a constante alcança as sete naturezas pela razão que a própria frase já publicava. Nenhum número mudou.
 

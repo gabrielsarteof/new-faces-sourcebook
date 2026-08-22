@@ -29,7 +29,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.6 | methodology | final |
 | [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.4 | core-layer | final |
-| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.7 | system | final |
+| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.8 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.4 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
@@ -277,7 +277,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.5 | system | final |
 | [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.8 | methodology | final |
 | [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.3 | system | final |
-| [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 9.1 | system | final |
+| [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 9.2 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.3 | pending-patch | applied |
 | [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.1 | pending-patch | pending-patch |
 | [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 3.2 | methodology | final |

@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.7
+version: 2.8
 layer: core
 type: system
 status: final
@@ -174,6 +174,17 @@ Grau Grave: DoT base mais redução de 30% em RES. Movimento amplo custa PS adic
 Grau Crítico: DoT base mais redução de 50% em RES. O personagem está perdendo sangue em velocidade que compromete o funcionamento físico completo. Risco iminente de Exsanguinação. Exige tratamento ativo externo obrigatório.
 
 Notas: a redução alcança apenas RES. A perda de sangue é perda de sustentação, e a força bruta pertence aos pares dos riders estruturais, que este efeito não disputa. Alvo sem sangue não sangra, e a Secção continua valendo sobre ele. A fonte pode alterar o divisor de 10 para 7 em armas especialmente letais, declarado na descrição da fonte.
+
+
+### O vetor Impacto e a ausência de rider estrutural
+
+O Impacto não possui rider estrutural, e a ausência é decisão de desenho e não pendência em aberto.
+
+Os outros três vetores compram o rider estrutural pagando alguma coisa. A Penetração contorna a Guarda e por isso não drena o fôlego do defensor, o Corte engaja apenas a fração que o Grau do Fio deixa, e a Energia ignora a barra por irrelevância mas gasta reserva limitada pelo Limite de Saída. O Impacto não paga nenhuma dessas contas: ele engaja a barra inteira sem desconto, é o único vetor que dispara a Quebra de Guarda, e é o que mais converte dano em PS perdido pelo defensor. Somar a isso um rider estrutural daria uma quarta vantagem a quem já carrega três, e o desequilíbrio apareceria exatamente no vetor mais comum da mesa.
+
+A Fratura permanece no catálogo e continua disponível como rider declarado pela obra, junto de qualquer outra condição deste documento. O que a obra de Impacto não recebe é um rider que dispare sozinho por ser Impacto.
+
+Este registro existe para que auditoria futura não leia a ausência como esquecimento. A pergunta já foi feita e respondida, e reabri-la exige decisão de desenho nova e não leitura de lacuna.
 
 
 ### Secção
@@ -1471,13 +1482,15 @@ O elemento afetado é declarado no momento da aplicação.
 
 Grau Leve: dano do elemento declarado aumentado em 20%.
 
-Grau Moderado: dano do elemento aumentado em 40%. Resistência ao elemento reduzida em 15%.
+Grau Moderado: dano do elemento aumentado em 40%.
 
-Grau Grave: dano do elemento aumentado em 60%. Resistência ao elemento reduzida em 30%. Efeitos secundários do elemento têm CD aumentada em 10%.
+Grau Grave: dano do elemento aumentado em 60%. Efeitos secundários do elemento têm CD aumentada em 10%.
 
-Grau Crítico: dano do elemento aumentado em 80%. Resistência ao elemento reduzida em 50%. Efeitos secundários do elemento aplicados automaticamente sem teste de resistência.
+Grau Crítico: dano do elemento aumentado em 80%. Efeitos secundários do elemento aplicados automaticamente sem teste de resistência.
 
 Notas: remoção pela regra universal. Duração de 3 a 4 turnos conforme a fonte.
+
+Três dos quatro graus publicavam também uma redução de Resistência ao elemento, e a cláusula caiu sem substituta. O sistema não possui, e nunca possuiu, resistência elemental como grandeza reduzível por percentual: o que existe é o Estado Elemental declarado na ficha da obra que o produz, e a vulnerabilidade acoplada dele já é um pacote fechado com dono próprio. Repontar esta condição para lá criaria duas fontes para o mesmo efeito. O que a condição faz, ela faz pelo aumento de dano e pelas cláusulas de efeito secundário, que operam sobre grandezas que existem.
 
 
 ### Frostbite
