@@ -29,7 +29,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.6 | methodology | final |
 | [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.4 | core-layer | final |
-| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.5 | system | final |
+| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.6 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.4 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |

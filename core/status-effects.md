@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.5
+version: 2.6
 layer: core
 type: system
 status: final
@@ -323,9 +323,9 @@ A estrutura montada que sustentava o corpo cedeu de uma vez. O que a Guarda exis
 
 Fonte: automática. O Impacto de um golpe supera a Guarda restante do alvo, publicado pelo Núcleo de Combate.
 
-Grau Único: a Guarda vai a zero e não recarrega. O Bloqueio deixa de estar disponível. O Limiar de Esquiva do quebrado é multiplicado por 0,8. Dura até o fim do turno seguinte de quem quebrou a Guarda.
+Grau Único: a Guarda vai a zero. Durante a janela, o Bloqueio fica indisponível e o lado defensivo do teste de conexão é multiplicado por 0,8; a Guarda recarrega normalmente pela tabela de Exaustão desde o primeiro turno após a quebra. Dura até o fim do turno seguinte de quem quebrou a Guarda.
 
-Notas: sem escala de margem, porque o gatilho é binário, a Guarda quebra ou não quebra, na mesma leitura que a Paralisia Total restringe a própria faixa de grau por definição. Gastar a Ação Completa e o Esforço de um Bloqueio encerra o estado no ato e devolve a recarga normal.
+Notas: sem escala de margem, porque o gatilho é binário, a Guarda quebra ou não quebra, na mesma leitura que a Paralisia Total restringe a própria faixa de grau por definição. A cláusula de não recarga que esta entrada publicava foi escrita para uma Guarda de valor fixo, em que a quebra era evento raro. Sob a barra consumível do Núcleo de Combate v3 a Guarda zera sempre que um golpe supera a fração que o vetor engajou, o que numa troca física comum acontece toda rodada, e a cláusula se realimentava: a barra em zero garante que o golpe seguinte a supere de novo, e a janela nunca fechava.
 
 
 ### Fratura
