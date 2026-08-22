@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Fuinjutsu_v1.md
 ---
 
-# Compêndio de Fūinjutsu · v1.4
+# Compêndio de Fūinjutsu · v1.5
 
 **O que mudou na v1.3.** Primeira auditoria completa da Exigência de Moldagem: 39 das 42 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Duas ficam sem edição por não terem portão de moldagem próprio: Rotação Instantânea Mútua do Hiraishin não declara nível nem degrau de Fūinjutsu na entrada, herdando o portão de Deus do Trovão Voador sem republicá-lo; Juinjutsu de Orochimaru não tem portão nenhum, porque quem recebe a marca não a adquire nem a executa. Nenhuma das duas precisava de correção — ambas já estavam corretas por não se aplicarem.
 
@@ -18,6 +18,8 @@ source-file: Compendio_Fuinjutsu_v1.md
 Catálogo das técnicas nomeadas da arte do selamento, da etiqueta explosiva que qualquer genin carrega no coldre até o selo que consome a alma de quem o executa. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa.
 
 **O que mudou na v1.4.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+**O que mudou na v1.5.** Quatro das quarenta e duas entradas receberam vetor: Etiqueta Explosiva e Selamento das Três Direções em Impacto, pela força concussiva que as duas descrevem; Desselamento: Shuriken em Penetração de Grau III, a logística de armazenamento que "vira ataque de área" quando o pergaminho se abre; Corte do Deus do Trovão Voador em Corte de Grau IV, entregue pela lâmina que já viaja em movimento no instante da travessia. Trinta e sete entradas não receberam vetor, o domínio inteiro de acesso, disfarce, registro, contenção e transferência que caracteriza o selamento. Selo do Consumo do Demônio Morto subiu para a fila de decisão: a extração de alma pelo Shinigami não passa por energia entregue de nenhuma das quatro formas que o Núcleo de Combate publica, e classificar um vetor ali seria inventar mecanismo que o sistema não declara. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
@@ -42,6 +44,7 @@ O selamento se organiza em dois tempos, e o catálogo inteiro se lê por eles. E
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV1 · Moldagem 18
+**Vetor:** Impacto
 **XP:** 175
 
 O praticante inscreve sobre papel uma fórmula que guarda uma parcela de chakra em estado instável e a libera de uma vez quando a condição de disparo se cumpre. A etiqueta acesa queima por alguns segundos antes de detonar, e esse intervalo é a única janela que o alvo recebe. É o primeiro trabalho de selamento que qualquer academia ensina, e a maioria dos shinobi do mundo passa a vida inteira sem inscrever nenhum outro.
@@ -98,6 +101,7 @@ O limite é a nomeação. A lista de sacadores é fixada na inscrição, e acres
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV2 · Moldagem 32
+**Vetor:** Penetração, Grau III
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 600
@@ -285,6 +289,7 @@ O limite é a imobilidade. A muralha existe onde foi inscrita, e o que a contorn
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
 **Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Confinamento · Kage Bunshin no Jutsu
+**Vetor:** Impacto
 **XP:** 6.200
 
 Três executores fecham um triângulo em volta do alvo e formam o selo ao mesmo tempo. Uma figura de luz se ergue entre eles, prende o que estiver no centro e o lança aos céus, deixando no chão uma cratera do tamanho da formação. A técnica resolve em uma única ação o que o caminho Confinamento resolve em ritual, e paga essa velocidade com o número de corpos que precisa pôr em campo.
@@ -569,6 +574,7 @@ O limite é o arremesso. A lâmina precisa chegar, e um adversário que a desvie
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
 **Requisitos:** Deus do Trovão Voador · perícia de arma LV5 *(perícia pendente)* · Fūinjutsu LV4 · Moldagem 64
+**Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 11.000
 
 O praticante atravessa até a marca com a lâmina já em movimento e o corte se completa no mesmo instante da chegada. A travessia e o golpe ocupam um único ato, e por isso o alvo recebe o ferimento antes de registrar a presença de quem o feriu. Nem um dōjutsu capaz de antecipar movimento oferece tempo de reação, porque não existe movimento a antecipar.
@@ -601,6 +607,7 @@ O limite é a reciprocidade. As duas marcas precisam existir, e a morte de um do
 **[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
 **Requisitos:** Fūinjutsu LV6 · Moldagem 100 · Caminho Cárcere · a vida do executor
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 55.000
 
 O praticante forma o selo e o Shinigami se ergue atrás dele, invisível para todos os demais. A mão do deus atravessa o corpo do executor, alcança a alma do alvo e a arranca, e as duas almas são recolhidas para dentro do ventre da entidade, onde permanecem trancadas uma diante da outra por toda a eternidade. O corpo do executor cai no mesmo instante.
