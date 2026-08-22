@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.yoton
 title: "Compêndio de Yōton"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Yoton_v2.md
 ---
 
-# Compêndio de Yōton · v2.4
+# Compêndio de Yōton · v2.5
 
 **O que mudou na v2.2.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Golpe Além do Osso e Corpo Que Nunca Esfria já traziam justificativa própria na prosa, usada como âncora direta.
 
@@ -22,6 +22,8 @@ Catálogo das técnicas nomeadas do domínio de Yang. Cada entrada informa o que
 **O que mudou na v2.4.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**O que mudou na v2.5.** Registro de achado do repasse de vetores: nenhuma das quarenta entradas deste compêndio recebe classificação de vetor. O domínio é de construção de vitalidade e suporte, não de conversão elemental ofensiva, e nenhuma entrada entrega dano por vetor próprio. As duas entradas que soam ofensivas, Golpe Além do Osso e Punho Que Rompe a Guarda, comprimem vigor num golpe físico alheio e amplificam a pancada dele, sem atravessar o multiplicador de natureza, conforme a própria entrada de Punho Que Rompe a Guarda já declara ao resolver "pelas réguas de taijutsu e pelos multiplicadores físicos". O vetor de qualquer golpe amplificado por esta natureza é o vetor do golpe que o carrega, nunca uma propriedade do Yōton. Este registro fecha a pergunta para qualquer passada futura de classificação.
 
 Os nomes japoneses deste compêndio são romanização proposta e construída para este sistema. O cânone não fixa nome próprio de técnica alguma desta natureza, e a etiqueta de toda entrada é proposta.
 
