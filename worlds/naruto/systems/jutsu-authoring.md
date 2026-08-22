@@ -1,19 +1,19 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 2.11
+version: 3
 layer: scenario
 scenario: naruto
 type: methodology
 status: final
-source-file: Manual_de_Criacao_de_Jutsus_v2_7.md
+source-file: Manual_de_Criacao_de_Jutsus_v2_7.md, mais o Consolidado do motor de jutsus, o Núcleo de Combate v3 e a Errata E1 v2
 ---
 
-# Manual de Criação de Jutsus · v2.11
+# Manual de Criação de Jutsus · v3
 
-**Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.2.**
+**Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.3.**
 
-Este documento é o manual tradutor do cenário Naruto. Ele consome o Manual de Criação de Poderes v3.2, preenche os pontos de extensão daquele manual com os valores deste mundo e publica a interface que os documentos de técnica, perícia e clã efetivamente usam. Nenhum documento do cenário lê o Manual de Criação de Poderes diretamente. O preenchimento completo dos pontos de extensão está na Seção 10.
+Este documento é o manual tradutor do cenário Naruto. Ele consome o Manual de Criação de Poderes v3.3, preenche os pontos de extensão daquele manual com os valores deste mundo e publica a interface que os documentos de técnica, perícia e clã efetivamente usam. Nenhum documento do cenário lê o Manual de Criação de Poderes diretamente. O preenchimento completo dos pontos de extensão está na Seção 10.
 
 Jutsu é técnica: pode ser ensinada, copiada, aprimorada e, em muitos casos, proibida. A diferença entre um jutsu e um poder de clã é de origem. O Sharingan é um poder; o Amaterasu é um jutsu que o Sharingan permite executar. Um jutsu pode ser absurdamente poderoso e ao mesmo tempo tecnicamente ensinável a quem tem chakra e controle suficientes. Um poder de clã é concedido pelo sangue e permanece fora do alcance de qualquer estudo.
 
@@ -24,7 +24,7 @@ RANK                    o que o jutsu pode fazer e quem pode usá-lo
    ▲
 TIPO DE JUTSU           como ele funciona e como é resistido
    ▲
-CUSTO DE CHAKRA         RC, Limite de Saída e Janela de Canalização
+CUSTO DE CHAKRA         RC limpa, Limite de Saída por posição e Janela de Canalização
    ▲
 CUSTO DE XP             o preço de aprender
    ▲
@@ -38,8 +38,9 @@ PROCESSO                decisão, criação, validação
 ```
 
 > **Princípios:** todo jutsu tem um rank que delimita poder, custo e acessibilidade. O rank é o
-> envelope canônico da técnica. O custo de chakra é absoluto em RC; o Limite de Saída de 20% da RC
-> determina se a canalização é instantânea ou requer preparação. O custo de XP reflete o esforço
+> envelope canônico da técnica. O custo de chakra é absoluto em RC; o Limite de Saída, cuja largura
+> se lê da posição do executante na natureza empregada, determina se a canalização é instantânea ou
+> requer preparação. O custo de XP reflete o esforço
 > de aprendizagem, na régua das perícias. A metodologia é canon-first: nenhum número é inventado
 > sem âncora no cânone ou no sistema.
 
@@ -219,7 +220,18 @@ O cansaço é cobrado no ato, à razão de um ponto de PS por dez de chakra desp
 
 ### 3.2 Limite de Saída, Custo Efetivo e Janela de Canalização
 
-O Limite de Saída (LS) é **20% da RC por turno, universal**. Define o fluxo máximo de chakra que o sistema circulatório canaliza de forma sustentada, e é um cano único: jutsus, manutenção de dōjutsu e efeitos sustentados disputam o mesmo fluxo no mesmo turno.
+O Limite de Saída (LS) define o fluxo máximo de chakra que o sistema circulatório canaliza de forma sustentada, e é um cano único: jutsus, manutenção de dōjutsu e efeitos sustentados disputam o mesmo fluxo no mesmo turno. A Reserva de Chakra é a dona da grandeza, e a largura do cano se lê da posição do executante na natureza empregada.
+
+| Posição do executante na natureza empregada | Limite de Saída |
+|---|---|
+| Afinidade | 25% da RC por turno |
+| Compatibilidade | 20% da RC por turno |
+| Natureza aprendida | 15% da RC por turno |
+| Jutsu sem natureza elemental declarada | 20% da RC por turno |
+
+Quando o executante emprega mais de uma natureza no mesmo turno, a largura é a menor entre as posições empregadas, porque o cano permanece único e não se soma por natureza. Toda fonte que amplie o LS o faz por fator sobre a largura da posição, nunca substituindo o número por um valor absoluto. O LS se lê sempre da RC máxima do executante.
+
+A largura por posição é a segunda frente pela qual a vocação se expressa. A primeira é o custo, abaixo. O nativo escoa mais por turno e dispara direto o que o executante de natureza aprendida precisa acumular, e a diferença aparece na Janela de Canalização sem que nenhuma regra adicional a produza.
 
 A assimetria entre as naturezas de nascença e as aprendidas mora no custo. O chakra convertido para uma natureza que o shinobi não trouxe de berço consome parte de si na própria conversão:
 
@@ -247,16 +259,20 @@ A janela mede imperícia e não volume. O praticante de moldagem plena dispara n
 
 *Âncoras de validação:*
 
-| Jutsu | Rank | RC nominal | Mínimo | Executor | Pago | RC | LS | Janela | Canon |
-|---|---|---|---|---|---|---|---|---|---|
-| Goukakyuu | C | 180 | 60 | Sasuke genin, teste 60 | 157 | 1.325 | 265 | 0t | Usa livremente ✓ |
-| Rasengan | B | 600 | 200 | jounin de moldagem plena | 200 | 2.211 | 442 | 0t | Executa no ato ✓ |
-| Chidori | A | 750 | 250 | jounin de moldagem plena | 250 | 2.211 | 442 | 0t | Sem selos no ápice ✓ |
-| Chidori | A | 750 | 250 | Kakashi, teste 185 | 250 | 942 | 188 | 1t | Carga visível, 3 usos ✓ |
-| Chidori | A | 750 | 250 | Sasuke genin, teste 60 | 656 | 1.325 | 265 | 2t | Corrida telegrafada, 2 usos ✓ |
-| Rasenshuriken | S | 2.100 | 700 | piso do degrau Absoluto, teste 84 | 1.619 | 3.800 | 760 | 2t | Inicialmente estático ✓ |
+| Jutsu | Rank | RC nominal | Mínimo | Executor | Posição | Pago | RC | LS | Janela | Canon |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Goukakyuu | C | 180 | 60 | Sasuke genin, teste 60 | Afinidade | 157 | 1.325 | 331 | 0t | Usa livremente ✓ |
+| Rasengan | B | 600 | 200 | jounin de moldagem plena | sem natureza | 200 | 2.211 | 442 | 0t | Executa no ato ✓ |
+| Chidori | A | 750 | 250 | jounin de moldagem plena | Afinidade presumida | 250 | 2.211 | 553 | 0t | Sem selos no ápice ✓ |
+| Chidori | A | 750 | 250 | Kakashi, teste 185 | Afinidade | 250 | 942 | 236 | 1t | Carga visível, 3 usos ✓ |
+| Chidori | A | 750 | 250 | Sasuke genin, teste 60 | aprendida | 656 | 1.325 | 199 | 2t | Corrida telegrafada, 2 usos ✓ |
+| Rasenshuriken | S | 2.100 | 700 | piso do degrau Absoluto, teste 84 | Afinidade presumida | 1.619 | 3.800 | 950 | 1t | Carga visível na abertura ✓ |
 
-A régua reproduz a progressão canônica da mesma técnica ao longo da vida de um shinobi. O genin acumula por dois turnos e anuncia a investida, o executor de reserva média carrega um turno visível, e o mestre dispara no ato. O limite diário de quatro usos do Chidori atribuído a Kakashi resolve pela recuperação de reserva entre encontros, com três usos disponíveis dentro de um combate único.
+A posição de cada linha segue a régua de preenchimento do eixo de posição elemental: o personagem nomeado recebe a posição que o cânone lhe dá, e o perfil genérico recebe Afinidade com a presunção registrada na própria linha. `[canon]` O Raiton é a vocação de Kakashi e o Katon é a do Uchiha, e o Raiton chegou a Sasuke por treino sob instrução.
+
+A régua reproduz a progressão canônica da mesma técnica ao longo da vida de um shinobi. O genin que treinou o elemento acumula por dois turnos e anuncia a investida, o executor de reserva média que nasceu com ele carrega um turno visível, e o mestre dispara no ato. O limite diário de quatro usos do Chidori atribuído a Kakashi resolve pela recuperação de reserva entre encontros, com três usos disponíveis dentro de um combate único.
+
+A largura por posição aprofunda a distância entre as três linhas de Chidori sem alterar nenhuma delas de conclusão. A única linha que muda de resultado é a do Rasenshuriken, que desce de dois turnos para um: o cano de vinte e cinco por cento da vocação de Vento comporta em uma janela o que o cano universal exigia em duas, e a leitura canônica de uma abertura estática se preserva com a janela mais curta.
 
 Um Suiton hipotético de 750 de RC nominal, executado por Sasuke em natureza aprendida, sobe para 975 de nominal e 325 de mínimo, e a janela acompanha o custo pago resultante. A mesma técnica, dois tempos, conforme a relação do shinobi com o elemento.
 
@@ -331,17 +347,46 @@ Quanta matéria a técnica põe em campo, indo de nenhuma a um construto, a vár
 
 **A moldagem não entra na estimativa.** O degrau de Controle de Chakra já foi pago na compra daquela perícia, e cobrá-lo de novo na técnica é taxar a mesma dificuldade duas vezes. A leitura publicada na 4.1.1 sustenta isso ao explicar o Chidori, que fica junto ao piso do rank A porque o poder dele vem de uma moldagem barata para quem já carrega a perícia, e não da reserva que ele queima.
 
-#### Escala de Posição
+#### Posição por entrega, para técnicas ofensivas
 
-As respostas põem a técnica em um dos cinco degraus, e cada degrau é uma posição fixa dentro da faixa do rank.
+A técnica que entrega dano tem a posição lida da própria entrega, medida com o executor de referência do rank contra o par do rank, exatamente como os pisos da Seção 5.2.
 
-| Degrau | Posição | Perfil |
+```
+posição = (% entregue contra o par − piso do rank) ÷ (piso do rank seguinte − piso do rank)
+```
+
+A posição se limita a 100%. O rank S não tem rank seguinte, e lê o intervalo entre o piso de 65% e a entrega integral do par.
+
+A leitura roda apenas no executor de referência. Medir também na mão do mestre desfaria a calibração, porque os pisos foram fixados contra o par do rank da técnica com o executor de referência, e trocar qualquer um dos dois lados desfaz a régua inteira. A maestria paga fora da posição, pelo modificador abaixo.
+
+**Modificador de coeficiente técnico.** A obra que aproveita mais refinamento de moldagem que o padrão do próprio rank vale mais, e a que aproveita menos vale menos. O `w` da Seção 5.3 não aparece na posição, porque o executor de referência resolve `M = 1` por construção, e é aqui que ele é cobrado.
+
+```
+XP final = XP da posição × (coef_técnica ÷ coef padrão do rank)
+```
+
+| Rank | Coeficiente técnico padrão |
+|---|---|
+| E | 0,5 |
+| D | 1,0 |
+| C | 1,5 |
+| B | 2,0 |
+| A | 3,0 |
+| S | 4,0 |
+
+#### Régua de Resposta, para técnicas úteis
+
+A técnica que não entrega dano não tem entrega a medir, e a posição dela se lê pela resposta adequada mais barata que o par da faixa possui contra ela. Uma obra vale o que custa desfazê-la.
+
+| Degrau | Posição | Resposta adequada mais barata do par |
 |---|---|---|
-| 1 | 10% | escopo mínimo do rank, instantânea, um efeito |
-| 2 | 25% | o padrão do rank |
-| 3 | 40% | acima do padrão em escala ou em duração |
-| 4 | 60% | eleva categoria de escopo dentro do próprio rank |
-| 5 | 85% | o extremo do rank |
+| 1 | 10% | reação que ele já possui, sem gasto além do turno |
+| 2 | 25% | PS ou meia ação, ou perda de uma fonte de leitura do campo |
+| 3 | 40% | uma ação inteira, ou camada defensiva suprimida enquanto durar |
+| 4 | 60% | recurso que o par típico não carrega garantido, e sem ele o efeito persiste |
+| 5 | 85% | não existe resposta na faixa, e a cena se reorganiza ao redor do efeito |
+
+O Estado Elemental declarado se precifica por esta régua, no degrau 3 ou no 4 conforme suprima uma camada ou exija do par recurso que ele não carrega garantido.
 
 **Modificador de dependência.** Técnica que só executa a partir de matéria já presente no campo, ou a partir de insumo selado que o usuário precise carregar, desce um degrau, com piso no degrau 1. A dependência reduz o que a técnica precisa produzir do próprio chakra.
 
@@ -349,7 +394,7 @@ As respostas põem a técnica em um dos cinco degraus, e cada degrau é uma posi
 
 Os dois modificadores se aplicam na mesma leitura e podem se cancelar.
 
-#### Matriz de estimativa
+#### Matriz de estimativa da Régua de Resposta
 
 O cruzamento entre rank e degrau produz o valor diretamente, sem cálculo em mesa. Os valores saem de `piso_XP + posição × (teto_XP − piso_XP)` sobre as faixas da seção 4.1 e são exatos, sem arredondamento.
 
@@ -362,21 +407,27 @@ O cruzamento entre rank e degrau produz o valor diretamente, sem cálculo em mes
 | A | 9.200 | 11.000 | 12.800 | 15.200 | 18.200 |
 | S | 23.000 | 27.500 | 32.000 | 38.000 | 45.500 |
 
+**Nenhuma técnica passa pelas duas réguas inteiras.** A técnica mista precifica pela via ofensiva com o rider dentro, e o efeito que não deriva do dano soma pelo extra de comportamento da seção 4.1.2.
+
 Kinjutsu fica fora da estimativa pela mesma razão que fica fora da interpolação, que é a ausência de teto. O custo é definido pelo Narrador, com o piso de 50.000 inviolável.
+
+**Técnica de área.** A entrega que a posição lê é o valor de campo da Seção 5.2, entrega por alvo multiplicada pelos alvos que a geometria apanha na célula de quatro. A obra que atinge dois alvos vale o dobro do que valeria contra um, e é assim que a área se paga.
 
 #### Calibração
 
-A estimativa não pode contradizer os pontos que a 4.1.1 já fixou pela interpolação de RC nominal.
+A estimativa não pode contradizer os pontos que a 4.1.1 já fixou pela interpolação de RC nominal. As três âncoras de calibração do sistema, medidas pela posição por entrega com o modificador de coeficiente técnico aplicado.
 
-| Jutsu | Posição apurada por RC | Degrau atribuído pela escala | Posição da escala |
-|---|---|---|---|
-| Chidori, rank A | 6% | 1 | 10% |
-| Kirin, rank S | 12% | 1 | 10% |
-| Goukakyuu, rank C | 23% | 2 | 25% |
+| Âncora | Entrega | Posição | XP da posição | coef_t ÷ padrão | XP estimado | XP apurado | Desvio |
+|---|---|---|---|---|---|---|---|
+| Goukakyuu, rank C | 24,1% | 81,5% | 3.074 | 1,0 ÷ 1,5 | 2.050 | 1.722 | +19% |
+| Chidori, rank A | 54,7% | 58,8% | 15.050 | 2,0 ÷ 3,0 | 10.033 | 8.750 | +15% |
+| Kirin, rank S | 183,8% | 100% | 50.000 | 2,0 ÷ 4,0 | 25.000 | 23.600 | +6% |
 
-Os três caem dentro de quatro pontos percentuais do valor apurado e nenhum troca de degrau. Que nenhuma âncora de calibração ultrapasse trinta por cento é leitura correta e não desvio da escala: os degraus 4 e 5 pertencem ao que eleva categoria de escopo dentro do próprio rank, e a obra produz poucas técnicas assim por faixa.
+As três convergem, e o desvio encolhe conforme o rank sobe, que é a direção correta: a estimativa existe para o momento da compra, e é no rank alto que uma compra errada custa caro. O modificador é o que produz a convergência, porque sem ele a estimativa ficaria oitenta por cento acima da apuração nas três.
 
-O Rasengan ocupava a quarta linha desta tabela e saiu dela. A ficha individual da técnica apura a posição de 71,4% dentro da faixa B, enquanto a descrição dela produz o degrau 2, que a escala fixa em 25%. A diferença é de quarenta e seis pontos percentuais e troca o degrau, o que desqualifica a entrada como âncora de um método que ela deveria confirmar. O caso se resolve pela convivência declarada mais abaixo, onde a apuração da ficha substitui a estimativa e a correção pertence à entrada e não à escala. A calibração permanece sustentada pelo Goukakyuu no degrau 2 e pelo Chidori e pelo Kirin no degrau 1.
+O Rasengan continua fora desta tabela. A ficha dele apura 6.714 XP, e a posição por entrega o satura em 100% da faixa B por ele ultrapassar o piso do rank A sendo B, o que produz 12.000 antes do modificador e 9.000 depois dele. A saturação é informação e não erro: ela diz que a obra entrega acima do próprio rank, e o caso se resolve pela convivência declarada abaixo, com a apuração da ficha substituindo a estimativa. A calibração permanece sustentada pelas três âncoras.
+
+**Onde a posição satura.** Toda técnica que ultrapassa o piso do rank seguinte satura a posição em 100%, e isso é comum entre obras de moldagem pura de coeficiente alto. A saturação sinaliza que a entrada merece conferência de rank, e não que a régua falhou.
 
 #### Ordem de aplicação
 
@@ -434,31 +485,87 @@ O Manual de Criação de Poderes define os efeitos em quinze categorias, quatro 
 
 ### 5.1 O recurso do cenário
 
-Instância do ponto de extensão de curva de recurso. O recurso deste mundo é a Reserva de Chakra, e toda referência a PM se lê como RC. O Limite de Saída é de 20% da RC por turno, universal, e a curva de reserva por faixa está na Seção 9.
+Instância do ponto de extensão de curva de recurso. O recurso deste mundo é a Reserva de Chakra, e toda referência a PM se lê como RC. A largura do Limite de Saída se lê da posição do executante na natureza empregada, conforme a Seção 3.2, e a curva de reserva por faixa está na Seção 9.
 
-### 5.2 Régua de Magnitude e Par de Validação
+### 5.2 Pisos de Entrega, Executor de Referência e Par de Validação
 
-A âncora do sistema permanece: Forte = 25–38% do PV do par por descarga. O par de validação de qualquer jutsu é o **PV do perfil Equilibrado da faixa do usuário** na Tabela de Referência de Personagens, a régua central declarada daquele documento: Veterano 960, Elite 1.440, Especial 1.920, Ápice 3.000. Regenerada a tabela, o par regenera junto.
+O par de validação de qualquer jutsu é o **PV do perfil Equilibrado da faixa correspondente ao rank da técnica** na Tabela de Referência de Personagens, a régua central declarada daquele documento.
+
+| Rank | Faixa | Par |
+|---|---|---|
+| E e D | Treinado | 600 |
+| C | Veterano | 960 |
+| B | Elite | 1.440 |
+| A | Especial | 1.920 |
+| S | Ápice | 3.000 |
+
+Regenerada a tabela, o par regenera junto. O par acompanha o rank da técnica e nunca a faixa de quem a executa, porque é a técnica que está sendo dimensionada.
+
+**Executor de referência.** Toda leitura de entrega deste manual roda com um executor padrão por rank, para que duas técnicas do mesmo rank sejam medidas contra a mesma mão. Ele carrega a perícia governante no nível que o portão do rank exige, um caminho adquirido e especialização em grau Definida.
+
+| Rank | Nível da perícia governante | P e C de referência |
+|---|---|---|
+| E | LV2 | 42 |
+| D | LV2 | 42 |
+| C | LV3 | 64 |
+| B | LV4 | 122 |
+| A | LV5 | 148 |
+| S | LV6 | 180 |
+
+O `P` é a soma do atributo regente com a Base Total, a Inclinação Total e a Especialização da perícia governante, e o `C` lê PRE somada ao bônus geral da mesma perícia. A perícia governante é a que a ficha da técnica declara como origem, sempre uma só. O Controle de Chakra permanece portão universal, e portão não soma em motor.
+
+**Pisos de entrega.** A régua de magnitude única de 25 a 38 por cento por descarga deixa de valer como âncora universal. Cada vetor de entrega tem o próprio relógio de combate, e um número só não descreve os quatro. No lugar dela entra um piso por rank, medido com o executor de referência daquele rank contra o par correspondente.
+
+| Rank | Piso de entrega contra o par |
+|---|---|
+| D | 8% |
+| C | 16% |
+| B | 26% |
+| A | 40% |
+| S | 65% |
+
+A técnica que não alcança o piso do próprio rank está subdimensionada para ele, e a correção pertence à entrada, não ao piso. A técnica de área valida pela cláusula de valor de campo abaixo, e a entrega fragmentada em vários alvos alcança o piso pela soma e não por alvo.
+
+**Teto anti-inflação.** A técnica não alcança o piso de dois ranks acima, onde ele existir. O rank S não tem teto e é policiado pelo número de usos e pela condição estrutural que a ficha declara. O teste do teto roda com o executor uma faixa acima da típica, porque é na mão do mestre que a inflação aparece.
+
+**Segundo eixo.** Toda ofensiva de rank D ou superior precisa tornar irracional ser ignorada, custando ao par mais do que custa a ele a resposta defensiva mais barata que possui. A técnica que o par prefere absorver a responder não cumpre o próprio rank, ainda que passe no piso.
+
+**Cláusula de valor de campo.** A técnica de área valida e precifica pela geometria declarada contra um esquadrão de quatro em espaçamento de combate, contando quantos a geometria apanha.
+
+```
+valor de campo = entrega por alvo × alvos apanhados pela geometria
+```
+
+Na mesa contam-se os alvos reais. A célula de quatro existe para dimensionar e para precificar, e nunca para limitar quantos a obra alcança em jogo.
 
 ### 5.3 Família de Dano: Fórmula Universal
 
 A fórmula de dano para jutsus de Naruto é:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator_Moldagem
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
 
-Fator_Moldagem = LV_CC² × 2,5 × coef_técnica
+M = 1 + w × (P − P_ref) ÷ P_ref          piso de M: 0,5
+w = coef_técnica da ficha ÷ 2
 ```
 
-**RC nominal:** o volume que a técnica põe em campo, fixo ou variável (Seção 3.4), acrescido da carga adicional quando houver. O desperdício do executor fica fora deste termo, porque ele vira cansaço e janela e nunca potência. A penalidade de conversão de natureza entra, porque o volume convertido é maior.
+A maestria multiplica a base em vez de somar um termo ao lado dela. Uma contribuição somada entrega o mesmo número ao iniciante e ao mestre quando a técnica é grande, e domina o resultado quando a técnica é pequena, o que faz a mesma perícia significar coisas diferentes conforme o tamanho da obra. Multiplicando, a base grande da obra e a escala da mão crescem juntas em qualquer porte.
+
+**RC limpa:** o volume que a técnica põe em campo, fixo ou variável (Seção 3.4), acrescido da carga adicional quando houver, **antes de qualquer sobretaxa de Perfil de Evasão**. O motor de dano lê sempre a RC limpa, e a nominal publicada na ficha passa a ser sempre a limpa. A sobretaxa de evasão vive no custo de RC e no custo mínimo, e nunca no dano: camadas não vazam uma na outra. O desperdício do executor fica fora deste termo, porque ele vira cansaço e janela e nunca potência. A penalidade de conversão de natureza entra, porque o volume convertido é maior.
 
 **coef_entrega:** eficiência de conversão chakra→dano pela forma de entrega, declarada pela técnica. Concentrar numa estocada de ponto único converte mais dano que difundir em área; a mesma RC produz mais dano quando entregue de forma mais precisa. Para a categoria Dano em jutsus, o coef_entrega é o dono único da conversão: a regra de eficiência por alvo do Extra de área do MCP (70–80%) deixa de se aplicar a Dano, e o Extra de área governa apenas custo e cobertura. Em categorias sem coef_entrega (debuff em área, cura em área), a regra original do MCP segue intacta.
 
-**mult_Tipo:** multiplicador do elemento (Sistema Elemental). 1,00 para jutsus sem elemento.
+**mult_Tipo:** a Constante de Moldagem multiplicada pela Assinatura do vetor que a obra declara, as duas publicadas pelo Sistema Elemental.
 
-**Fator_Moldagem:** a contribuição da maestria. LV_CC é o nível da perícia de Controle de Chakra; cada caminho extra adquirido na perícia soma +1 nível efetivo exclusivamente para este cálculo. A curva quadrática é o motor: a maestria pesa pouco no início e domina no fim, e o bônus resultante flui de progressão não-linear já paga na economia.
+```
+mult_Tipo = Constante de Moldagem × Assinatura do vetor declarado
+```
 
-**coef_técnica:** quanto a técnica aproveita o refinamento de moldagem, declarado pela técnica. Técnicas que existem pela moldagem (Chidori, Rasengan) têm coef alto; técnicas de força bruta têm coef baixo ou zero.
+A Constante de Moldagem vale 1,40 para toda técnica de transformação de natureza e 1,00 para técnica sem natureza, e mede o rendimento da matéria elemental. A Assinatura mede a letalidade intrínseca daquele tipo de energia contra carne e se lê do vetor, valendo 1,00 para Impacto, Corte e Penetração, 1,15 para Energia térmica e 1,25 para Energia elétrica. **A Assinatura acompanha o vetor da obra e nunca o elemento que a produziu.** O Raiton só resolve em 1,75 quando a obra declara vetor de Energia; o Raiton entregue em Penetração resolve em 1,40, e o Chidori é exatamente esse caso. Jutsu de moldagem pura resolve em 1,00.
+
+**M:** a escala da maestria, lida da perícia governante. O `P` é o mesmo da Seção 5.2, e o `P_ref` é o do rank da técnica. O executor de referência resolve `M = 1` por construção, o iniciante desce até o piso de 0,5, e o mestre acima do rank sobe sem teto. O piso existe porque nenhuma obra publicada entrega menos que metade do que a régua dela promete: abaixo disso a técnica não está sendo executada, está falhando.
+
+**coef_técnica:** quanto a técnica aproveita o refinamento de moldagem, declarado pela ficha. Técnicas que existem pela moldagem têm coeficiente alto; técnicas de força bruta têm coeficiente baixo ou zero. Ele continua declarado em cada ficha exatamente como está, e passa a alimentar o `w` em vez de multiplicar um termo somado. É ele que decide o quanto a mão importa naquela obra: com coeficiente 3,0 o `w` vale 1,5 e a maestria domina; com coeficiente 0,0 o `w` zera e a obra entrega o mesmo na mão de qualquer um, que é a definição de força bruta elemental.
 
 #### Tabela de referência: coef_entrega
 
@@ -484,53 +591,55 @@ A fonte atmosférica exige condição estrutural de cenário declarada no regist
 | Baixa, moldagem auxiliar | 0,5 | Taijutsu infundido simples |
 | Nenhuma, força bruta elemental | 0,0 | Projétil básico sem forma |
 
-#### Fator de Moldagem por nível (coef_técnica 1,0)
-
-| LV_CC | 1 | 2 | 3 | 4 | 5 | 6 | 6 +1 caminho | 6 +2 caminhos |
-|---|---|---|---|---|---|---|---|---|
-| Fator | 2 | 10 | 22 | 40 | 62 | 90 | 122 | 160 |
-
 #### Validação com âncoras canônicas
 
-| Situação | RC nominal | coef_e | LV_CC | coef_t | Dano | Par | % PV | Tier |
-|---|---|---|---|---|---|---|---|---|
-| Chidori, entrada em LV5 | 750 | 0,20 | 5 | 2,0 | 388 | Elite 1.440 | 27% | Forte |
-| Chidori, moldagem plena | 750 | 0,20 | 6 | 2,0 | 443 | Elite 1.440 | 31% | Forte |
-| Chidori, +1t carga com LS 442 | 1.192 | 0,20 | 6 | 2,0 | 597 | Elite 1.440 | 41% | Supremo |
-| Chidori, +2t carga com LS 700 | 2.150 | 0,20 | 6 | 2,0 | 933 | Especial 1.920 | 49% | Supremo |
-| Rasengan, jounin LV6 | 600 | 0,20 | 6 | 3,0 | 390 | Elite 1.440 | 27% | Forte |
-| Kirin, Saki (S-rank) | 1.800 | 0,35 | 6 +2c | 2,0 | 1.423 | Especial 1.920 | 74% | Forbidden¹ |
+As três âncoras de calibração do sistema, recalculadas pela régua acima com o executor de referência de cada rank.
 
-¹ Perfil de Evasão Inevitável sob condição estrutural de tempestade (Seção 6.5).
+| Âncora | Rank | RC limpa | coef_e | Vetor | mult_Tipo | coef_t | Dano | Par | % do par | Piso do rank |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Goukakyuu | C | 180 | 0,16 | Energia térmica | 1,61 | 1,0 | 231,8 | Veterano 960 | 24,1% | 16% ✓ |
+| Chidori | A | 750 | 0,20 | Penetração | 1,40 | 2,0 | 1.050,0 | Especial 1.920 | 54,7% | 40% ✓ |
+| Kirin | S | 1.800 | 0,35 | Energia elétrica | 1,75 | 2,0 | 5.512,5 | Ápice 3.000 | 183,8% | 65% ✓ |
+| Rasengan | B | 600 | 0,20 | Impacto | 1,00 | 3,0 | 600,0 | Elite 1.440 | 41,7% | 26% ✓ |
 
-Dois executores que fecharam a mesma maestria de moldagem entregam o mesmo dano com a mesma técnica, e a diferença entre eles mora na reserva disponível para carga, fiel ao cânone do copiador que executa a técnica no nível do criador. A tabela de descarga de uma ficha é publicada por nível de Controle de Chakra, e não por nome de personagem, porque o nível é a variável que o motor lê. O Rasengan só alcança o tier Forte pleno na mão de quem fechou o LV6, a história canônica da técnica.
+O Goukakyuu passa o piso do próprio rank e fica abaixo do piso de B, que é onde uma técnica básica de projétil deve estar. O Chidori entrega metade do par por uma reserva modesta, e é a moldagem que compra essa entrega. O Kirin ultrapassa o par por larga margem, o que é a leitura canônica de uma obra que decide uma luta de uma vez, e o preço dela é a condição estrutural de tempestade somada ao número de usos, que é como o rank S se policia na ausência de teto.
+
+O Rasengan é o caso que mostra o teto anti-inflação trabalhando. Sendo B, ele ultrapassa o piso de A por ser moldagem pura de coeficiente máximo, e ainda assim fica abaixo do piso de S, que é o teto do rank dele. A obra que existe inteiramente pela moldagem entrega acima do próprio rank e paga por isso na régua de XP, e não no motor.
+
+**O Chidori em 1,40 e não em 1,75.** A ficha da linhagem declarava 1,75, o produto do Raiton entregue como Energia elétrica. O Chidori declara vetor de Penetração de Grau VI, cuja Assinatura é 1,00, e o produto correto é 1,40. A ficha foi escrita contra a régua anterior à Assinatura por vetor. A correção vale por obra e não por linhagem: dentro da mesma família, quem declara Penetração resolve em 1,40 e quem declara Energia permanece em 1,75, porque o vetor é propriedade da obra e não se herda.
+
+Dois executores que fecharam a mesma maestria na perícia governante entregam o mesmo dano com a mesma técnica, e a diferença entre eles mora na reserva disponível para carga, fiel ao cânone do copiador que executa a técnica no nível do criador. A tabela de descarga de uma ficha é publicada por valor de `P`, e não por nome de personagem, porque é o `P` que o motor lê.
 
 #### Jutsus sem elemento
 
-Para jutsus de moldagem pura (Rasengan, Kage Bunshin como dano), mult_Tipo = 1,00. O coef_técnica é geralmente alto porque a técnica existe inteiramente pela moldagem.
+Para jutsus de moldagem pura, a Constante de Moldagem não incide e o vetor da obra decide sozinho a Assinatura, de modo que `mult_Tipo` resolve em 1,00 para todo vetor físico. O coef_técnica é geralmente alto, porque a técnica existe inteiramente pela moldagem.
 
 ```
-Rasengan (B-rank, moldagem pura):
-dano = RC × 0,20 × 1,00 + LV_CC² × 2,5 × 3,0
+Rasengan (B-rank, moldagem pura, Impacto):
+dano = 5 × RC_limpa × 0,20 × 1,00 × [1 + 1,5 × (P − 122) ÷ 122]
 ```
 
 #### Custo variável e dano variável
 
-Quando o custo é variável, o dano escala proporcionalmente pelo componente RC. O Fator de Moldagem permanece fixo independente do RC investido: a maestria cresce com o treino, e apenas com ele. A assimetria resultante é intencional: shinobis de moldagem alta extraem mais dano por unidade de RC; shinobis de reserva alta extraem mais dano por turno de carga.
+Quando o custo é variável, o dano escala proporcionalmente pelo componente de RC limpa. O `M` permanece o mesmo qualquer que seja a RC investida, porque a maestria cresce com o treino e apenas com ele. A assimetria resultante é intencional: shinobis de moldagem alta extraem mais dano por unidade de RC, e shinobis de reserva alta extraem mais dano por turno de carga.
 
-### 5.4 Riders Elementais Canônicos
+### 5.4 Vetor e Rider de Tendência
 
-Todo jutsu elemental carrega por padrão o rider do seu Sistema Elemental:
+Cada natureza tende a uma forma de entrega e a um efeito persistente, e a tendência orienta a leitura de mesa sem obrigar a técnica.
 
-| Natureza | Rider padrão | Status |
-|---|---|---|
-| Katon | Queimadura | Queimadura |
-| Raiton | Paralisia | Paralisia Parcial |
-| Doton | Imobilização | Imobilização |
-| Fūton | Sangramento | Sangramento |
-| Suiton | Lentidão | Lentidão |
+| Natureza | Vetor de tendência | Rider de tendência | Status |
+|---|---|---|---|
+| Katon | Energia térmica | Queimadura | Queimadura |
+| Raiton | Energia elétrica | Paralisia | Paralisia Parcial |
+| Doton | Impacto | Imobilização | Imobilização |
+| Fūton | Corte | Sangramento | Sangramento |
+| Suiton | Impacto | Lentidão | Lentidão |
 
-Caminhos de Transformação de Natureza podem modificar o grau do rider (Leve → Moderado → Grave) ou criar variantes. O rider elemental é um rider acoplado à categoria Dano, dispensando categoria de efeito separada. O teste do rider escala pelo grau declarado, fora do alcance da compressão de limiar.
+**Nenhum rider é automático por natureza, e nenhum vetor se herda dela.** Cada técnica declara na própria ficha o vetor que emprega e os riders que aplica, com o grau mínimo garantido e o grau máximo possível. A técnica que declara vetor diverso da tendência resolve pelo vetor declarado, e é dele que sai a Assinatura da Seção 5.3. A técnica que não declara rider não o aplica.
+
+O Chidori é o caso conhecido da divergência, com Raiton entregue em Penetração, e a linhagem inteira mostra que a divergência é comum e não excepcional. Uma mesma natureza produz vetores diversos, com a Água entregando volume em Impacto, jato afiado em Corte e vapor em Energia térmica, e a ficha de cada técnica é quem responde.
+
+Cada vetor carrega um rider estrutural que nenhuma obra remove, e um rider padrão que a obra substitui declarando outro. Caminhos de Transformação de Natureza podem modificar o grau do rider ou criar variantes. O rider é acoplado à categoria Dano, dispensando categoria de efeito separada, e o teste dele escala pelo grau declarado, fora do alcance da compressão de limiar. O ciclo de vida, as taxas de dano por turno e os pares de atributos que cada rider pune pertencem ao Sistema de Efeitos de Status.
 
 ### 5.5 Categoria Genjutsu
 
@@ -561,7 +670,71 @@ Escopo declarado:
 
 A fórmula mede comprometimento relativo. O genin que despeja metade da reserva num genjutsu comprime o limiar do alvo pela metade naquele lance: a aposta de desespero canônica. A supremacia dos mestres de ilusão mora no teste oposto base, na INT alta e na Perícia Genjutsu, e o portador do Sharingan declara um motor único no ato da imposição, conforme o documento daquele dōjutsu.
 
-### 5.7 Restrição Anti-tanque em Ranks Baixos
+### 5.7 Velocidade da Obra e Conexão
+
+Toda obra ofensiva de alvo declara a própria Velocidade, e é ela que enfrenta a esquiva do alvo no teste de conexão que o Núcleo de Combate resolve no passo 5. A velocidade deixou de ser propriedade de quem lança e passou a ser propriedade do que foi lançado, porque é o projétil que percorre a distância e não a mão que o soltou.
+
+#### A cadeia de quatro fatores
+
+```
+Velocidade efetiva = Celeridade do meio × Fator de Seção × Ímpeto × M_vel
+
+Fator de Seção = √(coef_entrega ÷ 0,16)
+Ímpeto         = (RC_limpa ÷ 180)^0,25
+M_vel          = 1 + 0,25 × (C − C_ref) ÷ C_ref
+```
+
+Cada fator tem um dono e responde a uma pergunta distinta. A Celeridade lê a banda física do meio empregado, porque uma corrente elétrica e uma pedra lançada não atravessam o mesmo espaço no mesmo tempo. O Fator de Seção lê a compressão que o coeficiente de entrega já declara, tomando o projétil único de 0,16 como unidade: a mesma energia comprimida em ponto viaja mais rápido que a mesma energia espalhada em campo. O Ímpeto lê o volume de chakra que propela a obra, com retorno decrescente de quarta potência, de modo que dobrar a reserva investida compra cerca de dezenove por cento de velocidade e oito vezes a reserva compra o dobro. O `M_vel` lê a mão que dispara, com um quarto do peso que a mesma mão tem no dano, porque a maestria acelera a execução sem reescrever a física do meio.
+
+O `C` é PRE somada ao bônus geral da perícia governante, e o `C_ref` é o do rank da técnica, pela tabela da Seção 5.2. A PRE do atacante e a perícia governante vivem inteiramente dentro do `M_vel`, e nada do atacante soma fora da cadeia. O `M_vel` não tem teto, por simetria com a esquiva do alvo, que também não tem.
+
+#### Escada de Celeridade dos meios
+
+| Meio | Celeridade | Física |
+|---|---|---|
+| Doton | 70 | sólido denso lançado |
+| Shōton | 74 | cristal projetado |
+| Suiton | 80 | líquido carregado |
+| Yōton | 82 | rocha fundida |
+| Hyōton | 86 | sólido leve em agulha |
+| Futton | 92 | vapor em expansão |
+| Sem natureza | 95 | chakra moldado puro |
+| Katon e Enton | 100 | gás incandescente propelido |
+| Fūton | 112 | lâmina de ar |
+| Bakuton | 120 | frente de detonação |
+| Ranton | 140 | feixe guiado |
+| Raiton e Kuroi Kaminari | 150 | corrente |
+
+O Katon em 100 é a âncora neutra da escada, e o Raiton em 150 é a razão que a Interrupção de Contato do Núcleo de Combate já consome. A Celeridade é tendência do meio, e a obra declara desvio com motivo escrito na própria ficha.
+
+#### O teste de conexão
+
+```
+lado ofensivo  = Velocidade efetiva da obra
+lado defensivo = VEL + DES + bônus de esquiva do alvo
+```
+
+O teste é oposto de base cinquenta, como qualquer teste do sistema, e o Núcleo de Combate publica a resolução. Por cima do resultado incide a escada de Perfil de Evasão da Seção 6.5, como camada própria e com dono separado.
+
+#### Isenções legisladas
+
+A técnica portada pelo corpo, que o executor leva até o alvo em vez de projetar, não lê Celeridade nem Ímpeto. Ela resolve como golpe corporal, o corpo do executor contra a esquiva do alvo, com o Perfil de Evasão da ficha por cima. O Chidori em contato, o Raikiri e o Rasengan entregue na mão são os casos.
+
+A obra de área e a de campo resolvem pela forma publicada de área, sem teste individual contra cada alvo, e entregam efeito parcial em falha onde a ficha o declarar.
+
+O relâmpago natural fica fora da escada porque fica fora do teste. A obra que dirige um fenômeno atmosférico preexistente é Inevitável sob condição estrutural, e o Kirin é o caso publicado.
+
+#### Os três canais da maestria na conexão
+
+A mão do executor alcança a conexão por três portas, e nenhuma delas compra física acima da banda do meio.
+
+A **conexão contínua** é o `C` dentro do `M_vel`, que cresce com a ficha inteira, com a PRE, com os níveis e com os caminhos, sem que nada precise ser comprado para aquele fim.
+
+A **construção comprada** move a técnica um degrau na escada de Perfil de Evasão, por caminho ou transcendência, conforme a Seção 6.5 publica.
+
+A **compressão comprada** é a única porta do executor na física: um caminho nomeado de perícia eleva a técnica uma posição de compressão, fazendo o Fator de Seção ler o coeficiente do degrau acima na tabela da Seção 5.3. Ela tem dono, tem preço em XP como qualquer caminho, e não alcança o relâmpago natural.
+
+### 5.8 Restrição Anti-tanque em Ranks Baixos
 
 Leitura do contrato de disponibilidade das famílias no Manual de Criação de Poderes. As famílias de percentual de pool do alvo têm piso de escala Supremo, que na correspondência da Seção 1.1 começa em A-rank. Abaixo de A-rank, essas famílias ficam indisponíveis.
 
@@ -621,21 +794,24 @@ Todo jutsu declara seus requisitos mínimos:
 
 ### 6.5 Perfil de Evasão
 
-Dimensão obrigatória de todo jutsu ofensivo de alvo. Declara quão evitável a técnica é por construção, em cinco degraus fixos, cada um com comportamento próprio na mesa:
+Dimensão obrigatória de todo jutsu ofensivo de alvo. Declara quão evitável a técnica é **por construção**, em quatro degraus fixos, cada um com comportamento próprio na mesa.
 
 | Perfil | Esquiva do alvo | Comportamento próprio | Contrapartida |
 |---|---|---|---|
 | **Telegrafado** | +25% | o alvo que gasta a reação esquivando fica fora de posição e perde nova esquiva até o próximo turno dele | coef_entrega um degrau acima na tabela |
 | **Padrão** | plena | nenhum | nenhuma |
-| **Veloz** | −25% | primeiro uso no combate contra cada alvo: −40%; o fator surpresa se perde ao ser visto | +15% no custo de RC |
 | **Teleguiado** | −50% | persegue por 1 turno adicional se o alvo esquiva; a esquiva repetida contra a mesma perseguição preserva o malus | +30% no custo de RC e Extra pago em XP |
-| **Inevitável** | anulada | apenas Absorção e Resistência mitigam | condição estrutural obrigatória declarada no registro; rank A mínimo |
+| **Inevitável** | anulada | apenas a Absorção e o Estado Elemental declarado mitigam | condição estrutural obrigatória declarada no registro; rank A mínimo |
+
+**O degrau Veloz sai da escada.** Ele media velocidade crua, que agora é grandeza própria e vive na cadeia da Seção 5.7, com dono, escada de meios e leitura por obra. Uma escada que media a mesma coisa por degrau nomeado passaria a cobrar duas vezes pela mesma propriedade. As fichas que carregavam o degrau Veloz por serem de raio deixam de pagar a sobretaxa de quinze por cento no custo de RC, porque a velocidade delas agora sai da Celeridade do meio, e o abatimento é da entrada e não da escada.
+
+O que a escada mede é o que a construção da obra faz com a possibilidade de sair da frente dela: ser vista chegando, perseguir quem se moveu, ou não admitir saída alguma. Nada disso é velocidade, e por isso as duas camadas compõem sem se confundir.
 
 O Telegrafado é a única fonte de coef_entrega elevado fora da forma física da técnica: o arquétipo do golpe devastador que todo o campo vê chegando. O Inevitável exige condição externa ao usuário, na régua do Kirin: a tempestade precisa existir, e a técnica dispara enquanto ela existir. Sem condição estrutural, o teto é Teleguiado.
 
 As sobretaxas percentuais desta escada e dos módulos da Seção 6.6 incidem sobre a RC nominal durante a construção da técnica, e o custo mínimo acompanha como terça parte do resultado. A ficha publica as duas grandezas já fechadas, com a sobretaxa embutida.
 
-Caminhos de perícia e transcendências podem mover um jutsu um degrau na escada (o especialista que eleva seu Chidori de Veloz a Teleguiado), como elevação categórica comprada com progressão.
+Caminhos de perícia e transcendências podem mover um jutsu um degrau na escada (o especialista que eleva o próprio Chidori de Padrão a Teleguiado), como elevação categórica comprada com progressão.
 
 A previsão do Sharingan opera sobre a esquiva do portador contra técnicas alheias, em slot defensivo próprio; o Perfil de Evasão opera sobre a esquiva do alvo, no slot da técnica. As camadas compõem com donos separados, e a matemática do dōjutsu vive no documento de Sharingan.
 
@@ -661,7 +837,7 @@ O slot de Choque define quais técnicas participam do confronto elemental por es
 
 ### 7.1 Kage Bunshin
 
-Kage Bunshin divide a RC real entre os clones. Cada clone recebe `RC_total ÷ (número_de_clones + 1)` de RC de partida. **O clone é um executor pleno limitado apenas pela RC que carrega**: paga custos, custos efetivos de conversão, janelas de canalização e aftermaths pelas próprias regras, com a própria reserva e o próprio LS de 20%. Clones de pouco chakra canalizam devagar e estouram sob o aftermath de técnicas altas. Quando destruído, o clone devolve o chakra restante e as memórias acumuladas ao usuário.
+Kage Bunshin divide a RC real entre os clones. Cada clone recebe `RC_total ÷ (número_de_clones + 1)` de RC de partida. **O clone é um executor pleno limitado apenas pela RC que carrega**: paga custos, custos efetivos de conversão, janelas de canalização e aftermaths pelas próprias regras, com a própria reserva e o próprio Limite de Saída, lido da posição dele na natureza empregada. Clones de pouco chakra canalizam devagar e estouram sob o aftermath de técnicas altas. Quando destruído, o clone devolve o chakra restante e as memórias acumuladas ao usuário.
 
 O custo do jutsu usa a família **por alvo** do MCP: base de C-rank para o primeiro clone, com incremento fixo por clone adicional. Kage Bunshin no Jutsu é rank B em toda a banda de um a quatro clones, declarado por convergência canônica sobre a leitura literal de banda de RC — o databook classifica a técnica inteira como rank B, e a curva de custo de RC segue sem alteração por baixo dessa declaração. A escalada a A, S e Kinjutsu pertence ao Tajū Kage Bunshin no Jutsu, técnica distinta.
 
@@ -690,7 +866,7 @@ O custo de XP é individual para cada participante, com desconto de −25% por m
 
 ### 7.5 Jutsu com Dojutsu
 
-Técnicas que requerem dojutsu ativo têm o custo do dojutsu declarado separadamente do custo do jutsu. O registro do jutsu cobre apenas a técnica em si. O custo de ativação e manutenção do dojutsu está no documento do dojutsu correspondente (Sharingan, Mangekyō), e ambos disputam o mesmo LS de 20% no turno.
+Técnicas que requerem dojutsu ativo têm o custo do dojutsu declarado separadamente do custo do jutsu. O registro do jutsu cobre apenas a técnica em si. O custo de ativação e manutenção do dojutsu está no documento do dojutsu correspondente (Sharingan, Mangekyō), e os dois disputam o mesmo Limite de Saída no turno, cuja largura o dōjutsu lê na faixa de gasto sem natureza declarada.
 
 ### 7.6 Modo Viagem
 
@@ -708,7 +884,7 @@ O Shunshin no Jutsu é a primeira instância: 1 km resolve 1.000 m ÷ 5 = 200, e
 2. **Tipo:** Ninjutsu / Taijutsu / Genjutsu / Fuuinjutsu / Hiden? As regras de resistência mudam conforme o tipo.
 3. **Natureza elemental:** se aplicável, qual? Qual perícia elemental é requisito?
 4. **Categoria de efeito principal:** o que o jutsu faz? As quinze categorias do Manual de Criação de Poderes, com a régua e o motor da categoria correta.
-5. **Se efeito de Dano:** declarar coef_entrega e coef_técnica (tabelas da Seção 5.3). Validar o dano resultante contra a Régua de Magnitude, no par Equilibrado da faixa do usuário.
+5. **Se efeito de Dano:** declarar coef_entrega e coef_técnica (tabelas da Seção 5.3). Validar a entrega resultante contra o piso do rank, com o executor de referência e o par do rank, e contra o teto anti-inflação com o executor uma faixa acima.
 6. **Se efeito não-Dano:** família de magnitude e de custo pelo catálogo do manual de núcleo, com o piso de escala conferido; se resistido, aplicar a compressão de limiar (Seção 5.6).
 7. **Dimensões e módulos:** selos, alcance, duração, condição de quebra (genjutsu), Perfil de Evasão, módulos por slot, extras, flaws, riders.
 8. **Custo de chakra:** calcular RC declarada; verificar Janela de Canalização sobre o custo efetivo para o tier de usuário pretendido.
@@ -737,7 +913,7 @@ Definir cada efeito pela régua (Seção 5 deste manual + MCP Seção 2), aplica
 
 Para o RPG de Naruto com xpBase = 3.000 (conforme Núcleo do Sistema v3):
 
-| Tier | Equivalente | XP estimado | RC típica | LS (20%) |
+| Tier | Equivalente | XP estimado | RC típica | LS em Compatibilidade (20%) |
 |---|---|---|---|---|
 | Genin baixo | Acadêmico avançado | ~40k | 400–800 | 80–160 |
 | Genin alto / Chuunin | Combatente ativo | ~90k | 700–1.400 | 140–280 |
@@ -745,7 +921,7 @@ Para o RPG de Naruto com xpBase = 3.000 (conforme Núcleo do Sistema v3):
 | Elite / ANBU | Elite | ~270k | 2.000–4.000 | 400–800 |
 | Kage / Especial | Lenda | ~400k+ | 3.500–7.000+ | 700–1.400 |
 
-RC real depende do multiplicador de clã, atributos RES/FOR/PV e dado de potencial. Os valores acima são referência para validação. O LS de 20% é universal; a assimetria de afinidade opera pelo custo efetivo (Seção 3.2).
+RC real depende do multiplicador de clã, dos atributos RES, FOR e PV, e do dado de potencial. Os valores acima são referência para validação. A coluna de LS traz a faixa de Compatibilidade; a Afinidade lê um quarto da RC e a natureza aprendida quinze por cento, pela tabela da Seção 3.2, e a assimetria de posição opera nas duas frentes, na vazão e no custo efetivo.
 
 **Nota sobre xpBase:** o Núcleo do Sistema v3 define xpBase 3.000 para o RPG de Naruto. Réguas de outros cenários (xpBase 2.500 do ruleset JJK) escalam pela razão dos xpBase ao serem usadas como comparadores.
 
@@ -757,9 +933,9 @@ O Manual de Criação de Poderes publica doze pontos de extensão. Esta seção 
 
 | Ponto de extensão | Instância do cenário Naruto | Onde vive |
 |---|---|---|
-| Curva de recurso | Reserva de Chakra, com Limite de Saída de 20% por turno | Seções 3.1, 3.2 e 9 deste manual |
-| Tipagem de efeito | naturezas elementais, com mult_Tipo e rider padrão por natureza | Sistema Elemental, consumido pela Seção 5.4 |
-| Coeficientes da forma de dois termos | coef_entrega na conversão, Fator de Moldagem como termo de maestria, coef_técnica como coeficiente de obra | Seção 5.3 deste manual |
+| Curva de recurso | Reserva de Chakra, com Limite de Saída lido da posição na natureza empregada | Seções 3.1, 3.2 e 9 deste manual |
+| Tipagem de efeito | naturezas elementais, com mult_Tipo pela Constante de Moldagem vezes a Assinatura do vetor, e rider de tendência por natureza | Sistema Elemental, consumido pela Seção 5.4 |
+| Coeficientes da forma de dois termos | coef_entrega na conversão, `M` como escala de maestria, coef_técnica como coeficiente de obra alimentando o `w` | Seção 5.3 deste manual |
 | Coeficientes da forma de dois termos, eixo corporal | Esforço em PS no lugar da RC nominal, coef_entrega_física na conversão, Fator de Portão como termo de maestria, coef_obra como coeficiente de obra | Seção 6 do Sistema dos Oito Portões |
 | Camadas de defesa | absorção, resistência e esquiva efetiva | documentos de defesa do cenário, lidos pela Seção 6.5 |
 | Eixo de evitabilidade | Perfil de Evasão em cinco degraus | Seção 6.5 deste manual |
@@ -771,13 +947,35 @@ O Manual de Criação de Poderes publica doze pontos de extensão. Esta seção 
 | Âncora | via de fórmula é o jutsu-shiki inscrito, via de impregnação é o símbolo em ferramenta própria; as operações contra âncora de fórmula são as do ofício de selamento | Perícia de Fūinjutsu e Perícia de Passagem |
 | Estrutura de vazios | adotada. Cada técnica de travessia abre vazio próprio, e a fronteira erguida em um vazio não se estende sobre outro | Perícia de Passagem e Perícia de Barreira |
 
-Os doze pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental, que publica a tabela de multiplicadores por natureza na seção de Tipos Elementais daquele documento, de modo que o slot está apontado e cheio e jutsu elemental novo fecha validação.
+Os doze pontos estão preenchidos. O `mult_Tipo` aponta para o Sistema Elemental, que publica a Constante de Moldagem e a tabela de Assinatura por vetor, de modo que o slot está apontado e cheio e jutsu elemental novo fecha validação.
 
 Um ponto admite mais de uma instância, e a tabela tem uma linha por instância e não por ponto. A forma de dois termos é o primeiro caso: o eixo do chakra a instancia em RC nominal e o eixo corporal a instancia em Esforço, com réguas próprias e sem que uma leia a outra. Instância nova entra aqui declarando qual ponto preenche e onde as réguas dela vivem.
 
 ---
 
 ## 11. Registro de Alterações
+
+**v3.** Quatro origens convergem numa escrita só, e é a versão que a leva de propagação de agosto exigia que não saísse em partes.
+
+*Do Lote de Tipos.* O `mult_Tipo` da Seção 5.3 deixa de ser um multiplicador por natureza e passa a ser a Constante de Moldagem multiplicada pela Assinatura do vetor que a obra declara. A Assinatura acompanha o vetor e nunca o elemento, de modo que o Raiton resolve em 1,75 quando entrega Energia elétrica e em 1,40 quando entrega Penetração. A Seção 5.4 passa a publicar vetor e rider como tendência da natureza, com a ficha de cada técnica declarando os dois e a técnica sem rider declarado não aplicando nenhum.
+
+*Do Consolidado do motor de jutsus.* A Seção 5.3 troca a forma do motor de dano. A parcela de maestria deixa de ser um Fator de Moldagem somado ao lado da conversão e passa a ser o `M`, que escala a base inteira, com `w` igual a metade do coeficiente técnico e piso de 0,5. O coeficiente técnico continua declarado em cada ficha exatamente como está, e passa a alimentar o `w`. A Seção 5.2 aposenta a régua de magnitude única de 25 a 38 por cento, que não descrevia os quatro vetores, e publica pisos de entrega por rank medidos com o executor de referência contra o par do rank, com teto anti-inflação, segundo eixo de resposta defensiva e cláusula de valor de campo pela célula de quatro. A RC limpa entra como regra declarada: o motor lê a reserva antes de qualquer sobretaxa de Perfil de Evasão, e a nominal publicada passa a ser sempre a limpa. A Seção 5.7 nasce com a Velocidade da obra, cadeia de quatro fatores sobre a celeridade do meio, a compressão da seção, o ímpeto do volume e a mão que dispara, com escada de doze meios, as três isenções e os três canais da maestria. A Seção 6.5 perde o degrau Veloz, que media velocidade crua, agora grandeza própria com dono; as propriedades de construção permanecem e a sobretaxa por degrau continua onde estava. A Seção 4.1.3 troca a escala de cinco degraus por posição lida da entrega para as ofensivas e pela Régua de Resposta para as úteis, com o modificador de coeficiente técnico pagando o `w` fora da posição.
+
+*Da Errata E1.* A Janela de Canalização da Seção 3.2 passa a ler o Limite de Saída pela posição do executante na natureza empregada, em vinte e cinco, vinte e quinze por cento, com a regra de turno misto e a faixa de vinte por cento para gasto sem natureza declarada. Toda fonte que amplie o cano o faz por fator sobre a largura da posição.
+
+*Do Núcleo de Combate v3.* O teste de conexão que a Seção 5.7 alimenta é o teste oposto de base cinquenta que aquele documento publica, e o Perfil de Evasão incide sobre ele como camada própria.
+
+As três âncoras de calibração foram recalculadas e republicadas. Pelo motor novo, o Goukakyuu entrega 24,1% do par Veterano, o Chidori 54,7% do par Especial e o Kirin 183,8% do par Ápice, e as três passam no piso do próprio rank. A tabela de calibração da Seção 4.1.3 mede a estimativa contra a apuração nas três, com desvios de dezenove, quinze e seis por cento, encolhendo conforme o rank sobe. Os XP apurados pela Seção 4.1.1 não mudaram.
+
+*Fila de errata que o v3 abre.*
+
+O `mult_Tipo` do Chidori corrige de 1,75 para 1,40 pela Assinatura de Penetração, e a correção alcança as oito fichas da Linhagem do Chidori, cada uma pelo vetor que ela própria declara. Quem declara Penetração vai a 1,40 e quem declara Energia permanece em 1,75, porque o vetor é propriedade da obra e não se herda dentro da família.
+
+A morte do Fator de Moldagem como termo somado alcança a Linhagem do Rasengan, a Linhagem do Chidori e todas as fichas ricas que publicam Família de Dano. Nenhuma delas altera RC declarada, coeficiente de entrega ou coeficiente técnico: o que muda é a linha da fórmula.
+
+A linha do Rasenshuriken na tabela de âncoras da Seção 3.2 desce de dois turnos de janela para um, porque o cano de vinte e cinco por cento da vocação de Vento comporta em uma janela o que o cano universal exigia em duas. É a única linha daquela tabela que muda de resultado.
+
+O modificador de coeficiente técnico da Seção 4.1.3 zera o preço quando a ficha declara coeficiente 0,0, que é o caso da força bruta elemental sem forma. Nenhuma fonte publica piso para ele, e a lacuna fica registrada em vez de arbitrada. Registra-se também que o coeficiente padrão dos ranks A e S, em 3,0 e 4,0, fica acima do teto da tabela de coeficiente técnico publicada na Seção 5.3, de modo que toda obra desses dois ranks recebe modificador abaixo de um enquanto a tabela não crescer.
 
 **v2.11.** A leva de Técnicas Base Universais fechou sua passada de erratas numerada v2.10, cega para a propagação do Cânone v2 que fechava a dela no mesmo número ao mesmo tempo. Nenhuma das duas substitui a outra; esta entra no primeiro número livre, no mesmo padrão já usado para a colisão da v2.6. Três erratas abertas pela leva fecham aqui, nenhuma delas mudando fórmula ou custo já publicado. A Seção 7.1 perde a linguagem de fragmentação por contagem de clones: o Kage Bunshin de 1 clone deixa de se ler como C-rank, porque a ficha inteira já declarava rank B por convergência canônica desde a publicação da técnica, e o texto normativo estava atrás da própria ficha que ele deveria governar. A escalada a A, S e Kinjutsu passa a pertencer exclusivamente ao Tajū Kage Bunshin no Jutsu, técnica distinta, e não a uma leitura aritmética do Kage Bunshin. A curva de custo de RC por clone não muda.
 
@@ -826,7 +1024,7 @@ Nenhum valor publicado anteriormente foi alterado.
 1. Leia a fantasia central do jutsu antes de qualquer número. Qual é o efeito que o ninja quer alcançar? Com que frequência e em que contexto?
 2. Determine o rank pelo perfil de usuário: quem usa esta técnica no cânone ou equivalente? Que tier é esse ninja? O custo de RC resultante bate com a faixa do rank?
 3. Identifique o tipo de jutsu e declare as regras de resistência correspondentes. Genjutsu exige condição de quebra e compressão de limiar; Fuuinjutsu exige custo duplo; Hiden exige restrição de clã.
-4. Se elemental, confirme a natureza, aplique mult_Tipo e rider do Sistema Elemental, e registre que executores fora da afinidade pagam custo efetivo ×1,3.
+4. Se elemental, confirme a natureza, declare o vetor da obra, componha o mult_Tipo pela Constante de Moldagem vezes a Assinatura daquele vetor, e registre que executores em natureza aprendida pagam custo efetivo ×1,3 e escoam por um cano de quinze por cento.
 5. Defina categoria de efeito, família de magnitude, dimensões e módulos (um por slot). Declare o Perfil de Evasão de todo jutsu ofensivo de alvo. Calcule o custo de RC.
 6. Calcule a Janela de Canalização sobre o custo efetivo para o tier de usuário pretendido. Se o resultado destoa da narrativa, ajuste o custo ou aplique Extras de comportamento com impacto de XP.
 7. Calcule o custo de XP pela interpolação dentro da faixa (Seção 4.1.1), extras de comportamento e modificadores, nesta ordem, com floor no final.
@@ -836,12 +1034,17 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v2.11, manual tradutor do cenário Naruto para o Manual de Criação
-de Poderes v3.2. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
-absoluto em RC sob Limite de Saída universal de 20% e custo efetivo por afinidade, separado em
-RC nominal, custo mínimo e custo pago. O dano é a instância local da forma de dois termos, com a
-parcela de conversão em RC vezes coef_entrega vezes mult_Tipo e a parcela de maestria em LV_CC ao
-quadrado vezes 2,5 vezes coef_técnica. O custo de XP interpola a posição na faixa do rank, ou lê a
-matriz de estimativa quando a ficha ainda não existe. Os efeitos plugam nas quinze categorias do
-manual de núcleo, e as doze instâncias deste mundo estão declaradas na Seção 10. A identidade da
-técnica vem da forma, do Perfil de Evasão e dos Módulos de Comportamento em cinco slots com dono.*
+*Manual de Criação de Jutsus v3, manual tradutor do cenário Naruto para o Manual de Criação
+de Poderes v3.3. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
+absoluto em RC sob Limite de Saída lido da posição na natureza empregada, com custo efetivo por
+posição, separado em RC limpa, custo mínimo e custo pago. O dano é a instância local da forma de
+dois termos, com a base em cinco vezes a RC limpa vezes coef_entrega vezes mult_Tipo, e a maestria
+escalando essa base por M igual a um mais w vezes a distância relativa de P até P_ref, com w igual
+a metade do coeficiente técnico. O mult_Tipo é a Constante de Moldagem vezes a Assinatura do vetor
+que a obra declara, e o vetor nunca se herda da natureza. A Velocidade da obra é grandeza própria,
+lida da celeridade do meio, do Fator de Seção, do Ímpeto e do M_vel, e é ela que enfrenta a esquiva
+no teste de conexão. O custo de XP interpola a posição na faixa do rank pela RC nominal, ou lê a
+posição por entrega e a Régua de Resposta quando a ficha ainda não existe. Os efeitos plugam nas
+quinze categorias do manual de núcleo, e as doze instâncias deste mundo estão declaradas na Seção
+10. A identidade da técnica vem da forma, do vetor, do Perfil de Evasão e dos Módulos de
+Comportamento em cinco slots com dono.*
