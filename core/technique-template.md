@@ -1,14 +1,14 @@
 ---
 id: core.technique-template
 title: "Template — Documento de Técnica"
-version: 3.4
+version: 4
 layer: core
 type: template
 status: final
 source-file: Template_Documento_Tecnica_v3_3.md
 ---
 
-# Template — Documento de Técnica (v3.4)
+# Template — Documento de Técnica (v4)
 
 Guia de como escrever o documento de qualquer técnica ou fenômeno do sistema.
 Cada seção tem uma instrução entre colchetes explicando o que vai ali.
@@ -55,12 +55,18 @@ Antes de produzir o documento final, verifique cada item:
 - [ ] Nenhuma narrativa dentro de célula de tabela
 - [ ] Nenhum valor sem âncora canônica sem marcação [proposta]
 - [ ] Seções opcionais ausentes quando não aplicáveis (não deixar seção vazia)
-- [ ] coef_entrega e coef_técnica declarados com justificativa quando há dano
+- [ ] coef_entrega e coef_técnica declarados com justificativa quando há dano, e o coef_técnica conferido contra a banda de autoria do rank
 - [ ] RC nominal e custo mínimo declarados como par
 - [ ] Selos de referência e assinatura selada declarados
-- [ ] Perfil de Evasão declarado em toda técnica ofensiva de alvo
+- [ ] Perfil de Evasão declarado em toda técnica ofensiva de alvo, sem o degrau Veloz
+- [ ] Vetor declarado em toda técnica que entrega dano, com o grau quando for Corte ou Penetração
+- [ ] Riders declarados, com o estrutural do vetor separado do que a obra escolheu
+- [ ] Velocidade declarada em toda técnica que atravessa distância, com o desvio justificado quando houver
+- [ ] Posição elemental declarada em toda tabela por perfil de técnica elemental
+- [ ] RC nominal publicada como RC limpa, sem sobretaxa de evasão embutida
+- [ ] Os cinco campos de Estado Elemental declarados em toda técnica que reescreve o que o corpo é
 - [ ] Banda Mínima e Banda Máxima declaradas em toda técnica de área ou campo
-- [ ] Tabela de descarga indexada a LV_CC, nunca a nome de personagem
+- [ ] Tabela de descarga indexada ao P da perícia governante, nunca a nome de personagem
 - [ ] Rider declarando grau mínimo garantido e grau máximo possível, sem escala de margem própria
 - [ ] Custo de XP como valor único, sem colunas de afinidade
 - [ ] Genjutsu com classe de quebra, canal de entrega e requisito de caminho declarados
@@ -136,11 +142,16 @@ Use parágrafos curtos. Aplique as Regras de Escrita. Não coloque dano aqui.]
 
 ## Mecânica de Ativação
 
-- **RC nominal:** [volume que a técnica põe em campo, fixo ou faixa variável. Governa rank, XP e dano]
+- **RC nominal:** [volume que a técnica põe em campo, fixo ou faixa variável. Governa rank, XP e dano. **É sempre a RC limpa**, medida antes de qualquer sobretaxa de Perfil de Evasão. A sobretaxa vive no custo de RC e no custo mínimo, e nunca entra neste número nem no motor de dano]
 - **Custo mínimo:** [terça parte da RC nominal. O que sai da reserva de quem molda pleno]
+- **Vetor:** [OBRIGATÓRIO PARA TODA TÉCNICA QUE ENTREGA DANO. Um entre Impacto, Corte, Penetração e Energia, lido do Núcleo de Combate. É dele que sai a Assinatura do motor de dano, e ele é propriedade da obra: nunca se herda da natureza que a produziu, e duas obras da mesma linhagem declaram vetores diferentes sem que isso seja exceção]
+- **Grau do vetor:** [OBRIGATÓRIO PARA CORTE E PENETRAÇÃO. O degrau da escada do Núcleo de Combate, que decide que fração da Guarda existe para engajar a entrega. Remova para Impacto e Energia, que não têm escada de grau]
+- **Riders:** [OBRIGATÓRIO PARA TODA TÉCNICA QUE ENTREGA DANO. O rider estrutural do vetor, que nenhuma obra remove, e o rider que a obra declara no lugar do padrão, quando declarar. A técnica que não declara rider não aplica nenhum além do estrutural. Nenhum rider é automático por natureza elemental]
+- **Velocidade:** [OBRIGATÓRIO PARA TÉCNICA OFENSIVA DE ALVO QUE ATRAVESSA DISTÂNCIA. A celeridade do meio empregado pela escada da Seção 5.7 do Manual de Jutsus, com o desvio declarado e o motivo escrito quando a obra não seguir a tendência do meio. Remova para técnica portada pelo corpo, para área e para campo, que são isentas do teste de conexão pela mesma seção]
+- **Posição elemental:** [OBRIGATÓRIO PARA TÉCNICA DE NATUREZA ELEMENTAL, em toda tabela por perfil. A posição do executante na natureza empregada, entre Afinidade, Compatibilidade e aprendida, porque é ela que fixa a largura do Limite de Saída e o custo efetivo. O perfil genérico recebe Afinidade com a presunção registrada na própria linha]
 - **Selos de referência:** [contagem-teto. Os selos reais saem da régua Interface de Selos]
 - **Assinatura selada:** [admitida ou não. Quando admitida, exige Concisão ou teste de interface 169]
-- **Perfil de Evasão:** [OBRIGATÓRIO PARA TODA TÉCNICA OFENSIVA DE ALVO. Um entre Telegrafado, Padrão, Veloz, Teleguiado e Inevitável, lido da Seção 6.5 do Manual de Jutsus. A ficha não publica sem este campo]
+- **Perfil de Evasão:** [OBRIGATÓRIO PARA TODA TÉCNICA OFENSIVA DE ALVO. Um entre Telegrafado, Padrão, Teleguiado e Inevitável, lido da Seção 6.5 do Manual de Jutsus. A ficha não publica sem este campo. **O degrau Veloz saiu da escada**: velocidade crua é grandeza própria e vive no campo de Velocidade acima, e a ficha que carregava o degrau por ser de raio deixa de pagar a sobretaxa dele]
 - **Custo de PS:** [valor por turno de carga ou uso, se houver. Remova se não aplicável]
 - **Janela de Canalização:** [turnos de selos calculados pela fórmula da Seção 3.2 do Manual, com referência a um ou dois perfis canônicos para âncora]
 - **Ação:** [o que o usuário faz fisicamente para executar: selos, movimento, contato]
@@ -161,18 +172,27 @@ Remova esta seção se a técnica não causa dano direto.]
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-Fator de Moldagem = LV_CC² × 2,5 × coef_técnica
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+
+M = 1 + w × (P − P_ref) ÷ P_ref          piso de M: 0,5
+w = coef_técnica ÷ 2
+mult_Tipo = Constante de Moldagem × Assinatura do vetor declarado
 ```
 
 O coeficiente de entrega [valor] reflete [forma de entrega: ponto concentrado / projétil /
-área / etc.]. O coeficiente técnico [valor] reflete [grau de dependência de moldagem].
-O `LV_CC` é o nível da perícia de Controle de Chakra, de um a seis, acrescido de um nível
-efetivo por caminho adicional e restrito a este cálculo. O desperdício do executor não
-entra em nenhum termo desta fórmula.
+área / etc.]. O coeficiente técnico [valor] reflete [grau de dependência de moldagem], e
+alimenta o `w`. A Constante de Moldagem vale 1,40 para técnica de transformação de natureza
+e 1,00 para técnica sem natureza. A Assinatura sai do vetor declarado na Mecânica de
+Ativação, valendo 1,00 para Impacto, Corte e Penetração, 1,15 para Energia térmica e 1,25
+para Energia elétrica, o que resolve este `mult_Tipo` em [valor].
 
-[Se o custo for variável, explique aqui como o componente de RC nominal escala com a carga
-e o Fator de Moldagem permanece fixo.]
+O `P` é o atributo regente somado à Base Total, à Inclinação Total e à Especialização da
+perícia governante, que esta ficha declara como [perícia]. O `P_ref` é o do rank da técnica.
+O desperdício do executor não entra em nenhum termo desta fórmula, e a sobretaxa de Perfil
+de Evasão também não: camadas não vazam uma na outra.
+
+[Se o custo for variável, explique aqui como o componente de RC limpa escala com a carga
+e o `M` permanece o mesmo, porque a maestria cresce com o treino e apenas com ele.]
 
 ---
 
@@ -184,18 +204,18 @@ com dano único. Informe o par de referência adequado ao rank.]
 
 Par de referência lido das Tabelas de Referência, na faixa adequada ao rank da técnica.
 
-A tabela é publicada por nível de Controle de Chakra, porque o nível é a variável que o
-motor de dano lê. Perfis nomeados de personagem não entram aqui.
+A tabela é publicada por valor de `P` da perícia governante, porque é o `P` que o motor de
+dano lê. Perfis nomeados de personagem não entram aqui.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+| P da perícia governante | M | Dano | % PV do par |
 |---|---|---|---|
-| [nível de entrada] | [valor] | [dano] | [%] |
-| 6 | [valor] | [dano] | [%] |
-| 6 com 1 caminho | [valor] | [dano] | [%] |
-| 6 com 2 caminhos | [valor] | [dano] | [%] |
+| [abaixo da referência] | [valor] | [dano] | [%] |
+| [referência do rank] | 1,00 | [dano] | [%] |
+| [acima da referência] | [valor] | [dano] | [%] |
 
 [Quando houver carga, publique tabela separada indexada ao Limite de Saída do executor,
-porque a carga escala por reserva e não por maestria.]
+porque a carga escala por reserva e não por maestria. A coluna de Limite de Saída declara
+a posição elemental que a produziu, porque a largura do cano se lê dela.]
 
 ---
 
@@ -224,6 +244,39 @@ testado quando ele diferir do padrão da entrada de status.]
 | Grau mínimo garantido | [grau] |
 | Grau máximo possível | [grau] |
 | Alvo do teste | [fórmula da fonte, conforme o Sistema de Efeitos de Status] |
+
+---
+
+## Estado Elemental
+
+[SEÇÃO OPCIONAL E OBRIGATÓRIA JUNTAS. Use sempre que a técnica tornar o corpo do executante
+resistente ou imune a uma categoria de entrega, ainda que a ficha antiga descrevesse isso em
+prosa. Endurecimentos de pele, liquefações do corpo, armaduras elementais e transformações de
+linhagem entram aqui. Remova apenas quando a técnica não reescrever o que o corpo é diante de
+um vetor ou de um elemento.]
+
+Resistência elemental não é atributo passivo, não é multiplicador e não é camada nova no
+oleoduto. Ela existe apenas como Estado declarado, pelo chassi da Seção 13 do Núcleo de
+Combate, e cobra chakra enquanto durar. A ficha declara os cinco campos, sem omitir nenhum.
+
+| Campo | Valor |
+|---|---|
+| Modo | [Travessia, Couraça ou Isolamento. Um só, nunca dois] |
+| Vetor ou elemento afetado | [o que o Estado enfrenta] |
+| Elemento acoplado | [o que o Estado torna fatal contra o próprio portador] |
+| Reserva do Estado | [o volume investido, que serve à barra, ao confronto da ruptura e ao preço] |
+| Manutenção | [custo por rodada, em número fixo absoluto] |
+
+[No Modo Couraça, declare que a barra de matéria vale a reserva do Estado multiplicada por
+1,0 e que ela não regenera. Nos três Modos, declare que contra o elemento acoplado a Absorção
+não se aplica, o rider daquele elemento entra sem teste com o grau agravado em um degrau, e o
+Estado colapsa no impacto levando o chakra investido. Nenhum Estado é absoluto: ele cede por
+esgotamento, por ruptura de obra cuja reserva nominal supere a do Estado, ou pelo elemento
+acoplado, que é o caminho mais barato.]
+
+[O preço em XP do Estado se lê pela Régua de Resposta da Seção 4.1.3 do Manual de Jutsus, no
+degrau 3 ou no 4 conforme ele suprima uma camada ou exija do par recurso que ele não carrega
+garantido.]
 
 ---
 
