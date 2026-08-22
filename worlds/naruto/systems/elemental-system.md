@@ -1,15 +1,15 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 7.1
+version: 8
 layer: scenario
 scenario: naruto
 type: system
 status: final
-source-file: Sistema_Elemental_v7.md
+source-file: Sistema_Elemental_v8.md
 ---
 
-# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v7
+# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v8
 Conversão do chakra nas sete naturezas, a afinidade que o papel revela, as compatibilidades de nascença, a aquisição por treino e as relações de superação em confronto.
 
 ---
@@ -211,23 +211,62 @@ O Ciclo de Superação é público e estratégico. Formações militares e duelo
 
 ## Efeitos Mecânicos
 
-### Tipo Elemental e dano
+### Rendimento da natureza
 
-Cada natureza elemental corresponde a um Tipo Elemental, que define o multiplicador de dano, a camada de mitigação e o rider natural.
+Toda técnica de transformação de natureza converte chakra em matéria elemental, e a matéria assim produzida rende acima do que músculo, aço e madeira entregam pela mesma quantidade de energia. A Constante de Moldagem mede esse rendimento e governa as sete naturezas por igual, porque a vantagem nasce da moldagem e vale para tudo o que a moldagem produz.
 
-| Natureza | Tipo | Mult. dano | Rider natural | Status |
-|---|---|---|---|---|
-| Raio | Elétrico | ×1,75 | Paralisia | Paralisia Parcial |
-| Fogo | Fogo | ×1,60 | Queimadura | Queimadura |
-| Terra | Terra | ×1,50 | Imobilização | Imobilização |
-| Vento | Vento e Corte | ×1,30 | Sangramento | Sangramento |
-| Água | Água e Pressão | ×1,00 | Lentidão | Lentidão |
+```
+Constante de Moldagem = 1,40
+```
 
-O rider é propriedade passiva do Tipo. Cada técnica declara o grau mínimo garantido e o grau máximo possível do rider, e a resolução pertence ao Sistema de Efeitos de Status. Técnicas que não declaram o rider não o aplicam. A Água em contato sustentado ou em ambiente frio pode declarar Congelamento no lugar de Lentidão.
+O que distingue uma natureza da outra aparece na forma da entrega que cada técnica declara, no rider que ela carrega, na Velocidade que ela publica e na posição da natureza no Ciclo de Superação. A Constante permanece a mesma em todas, e técnicas sem transformação de natureza resolvem em 1,00.
 
-O multiplicador entra no motor de dano do Manual de Criação de Jutsus como mult_Tipo, incidindo sobre a RC nominal da técnica.
+A Constante entra no motor de dano do Manual de Criação de Jutsus incidindo sobre a RC nominal da técnica, no lugar que o multiplicador do elemento ocupava.
 
-O Tipo Elemental mede a matéria da técnica, e a posição da natureza na escada mede a relação do executor com ela. As duas grandezas são independentes: uma natureza aprendida entrega o mesmo multiplicador de dano que a Afinidade entrega, porque a potência vem do domínio treinado e do nível da perícia, e a distância cobra em preço, em teste e em confiabilidade.
+O rendimento mede a matéria da técnica, e a posição da natureza na escada mede a relação do executor com ela. As duas grandezas são independentes. Uma natureza aprendida rende o mesmo que a Afinidade rende, porque a potência vem do domínio treinado e do nível da perícia, e a distância cobra em preço, em teste e em confiabilidade.
+
+### Assinatura e a leitura do corpo
+
+Osso, músculo e tecido detêm trauma mecânico com a estrutura que possuem para isso, e enfrentam a transferência térmica e a corrente sem estrutura alguma dedicada a detê-las. A Assinatura mede essa diferença, pertence ao corpo que recebe o golpe, e se lê do vetor que a obra declara.
+
+| Vetor declarado | Assinatura |
+|---|---|
+| Impacto | ×1,00 |
+| Corte | ×1,00 |
+| Penetração | ×1,00 |
+| Energia, térmica | ×1,15 |
+| Energia, elétrica | ×1,25 |
+
+A Assinatura térmica cobre tanto a adição quanto a remoção de calor, porque o tecido falha pela transferência em si e não pela direção dela, e o congelamento entra por essa porta como a queimadura entra.
+
+A Assinatura acompanha a obra e não a natureza que a produziu. Um jato cortante de Água resolve em ×1,00 e o vapor escaldante de Água resolve em ×1,15, porque o corpo processa o primeiro como trauma e o segundo como transferência térmica.
+
+As duas camadas compõem o motor de dano na ordem em que a energia percorre o caminho, primeiro o que a técnica entrega e depois o que o corpo faz com ela.
+
+```
+dano = RC × coef_entrega × 1,40 × assinatura + bônus_CC × coef_técnica
+```
+
+O produto das duas camadas, para as naturezas cujas obras declaram vetor de Energia:
+
+| Natureza | Produto |
+|---|---|
+| Raio | ×1,75 |
+| Fogo | ×1,61 |
+
+### Vetor e rider por natureza
+
+Cada natureza tende a uma forma de entrega e a um efeito persistente, e a tendência orienta a leitura de mesa sem obrigar a técnica.
+
+| Natureza | Vetor de tendência | Rider de tendência | Status |
+|---|---|---|---|
+| Raio | Energia elétrica | Paralisia | Paralisia Parcial |
+| Fogo | Energia térmica | Queimadura | Queimadura |
+| Terra | Impacto | Imobilização | Imobilização |
+| Vento | Corte | Sangramento | Sangramento |
+| Água | Impacto | Lentidão | Lentidão |
+
+Cada técnica declara na própria ficha o vetor que emprega e os riders que aplica, com o grau mínimo garantido e o grau máximo possível, e a resolução dos riders pertence ao Sistema de Efeitos de Status. A técnica que declara vetor diverso da tendência resolve pelo vetor declarado, e o Chidori é o caso conhecido, com Raio entregue em Penetração. A técnica que não declara rider não o aplica. A Água em contato sustentado ou em ambiente frio pode declarar Congelamento no lugar de Lentidão.
 
 ### Custo da perícia da natureza
 
@@ -315,7 +354,7 @@ RC_A > RC_B:
 
 A prevalece.
 RC_excesso = RC_A − RC_B
-dano de rompimento = RC_excesso × mult_Tipo × potência
+dano de rompimento = RC_excesso × 1,40 × assinatura × potência
 ```
 
 RC nominal igual produz anulação completa, sem dano para nenhum dos lados.
@@ -327,7 +366,7 @@ O usuário da técnica perdedora em qualquer choque recebe mais dano do que o ex
 ```
 α = 0,25
 
-dano de rompimento = (RC_excesso + RC_perdedor × α) × mult_Tipo_vencedor × potência
+dano de rompimento = (RC_excesso + RC_perdedor × α) × 1,40 × assinatura_vencedor × potência
 ```
 
 No choque de ciclo, o excesso é convertido da diferença de Força de Choque:
@@ -336,7 +375,7 @@ No choque de ciclo, o excesso é convertido da diferença de Força de Choque:
 RC_excesso_equiv = (Força_vencedor − Força_perdedor) ÷ Mult_Ciclo_vencedor
 ```
 
-Uma Água de 300 de RC nominal contra um Fogo de 300 resolve assim: a Força da Água é 600 e a do Fogo é 300, e a Água vence. O excesso equivalente é 150, a realimentação é 75, e o dano de rompimento resulta em 225 multiplicado pela potência. O usuário de Fogo recebeu três quartos do que receberia de um acerto direto e ainda perdeu a própria técnica.
+Uma Água de 300 de RC nominal contra um Fogo de 300 resolve assim: a Força da Água é 600 e a do Fogo é 300, e a Água vence. O excesso equivalente é 150, a realimentação é 75, e a soma de 225 percorre a Constante de Moldagem e a Assinatura da obra vencedora, resultando em 315 multiplicado pela potência quando a Água entrega em Impacto. O usuário de Fogo recebeu três quartos do que receberia de um acerto direto e ainda perdeu a própria técnica.
 
 Lançar a natureza errada em choque direto tem custo triplo: a técnica perde, o chakra alimenta o adversário, e o dano recebido excede o excesso bruto. Esta realimentação é mecanismo de choque e não se confunde com a Absorção, que é camada de mitigação defensiva do alvo.
 
@@ -377,6 +416,8 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 - **Yin e Yang não são prêmio de manifestação:** quem tira o branch adquire a natureza e desenvolve a perícia dela como faria com qualquer elemento. A herança de Yin no Uchiha e de Yang no Uzumaki e no Senju é traço de linhagem, e a natureza presente na ficha sem uso desenvolvido é o estado esperado
 - **O caminho das cinco é um arco:** dominar todas as naturezas exige décadas de campanha e XP quase exclusivamente dedicado a isso. Trate o objetivo como narrativa de longo prazo
 - **Sementes de Kekkei Genkai:** quando um personagem reúne duas naturezas natas que formam par canônico, registre o par. Água com Vento aponta o Gelo, Terra com Água aponta a Madeira, e Fogo com Terra aponta a Lava, com o portão de linhagem permanecendo em vigor onde ele existir
+- **A identidade da natureza vive na forma, não no número:** duas técnicas de mesmo rank e mesma RC entregam a mesma ordem de grandeza, venham elas do Fogo ou da Água. O que separa uma da outra na mesa é o vetor que cada uma declara, o rider que carrega, a velocidade com que chega e a posição no ciclo. Descreva a diferença por esses quatro eixos, porque é neles que ela existe
+- **Uma natureza produz vetores diversos:** a mesma Água entrega volume em Impacto, jato afiado em Corte e vapor em Energia térmica, e a ficha de cada técnica é quem responde. Ao improvisar uma técnica em mesa, escolha o vetor antes de calcular, porque ele decide a Assinatura e a camada de defesa que o alvo opõe
 - **Choques elementais custam:** narre o choque desfavorável com peso, porque o chakra do perdedor literalmente alimentou o oponente, e o dano extra é consequência disso
 - **Exceções de linhagem:** o membro de clã que rola fora do elemento característico ainda aprende o rito de passagem, e recebe aquele elemento como Compatibilidade. A exceção é material de história e não erro de ficha
 
@@ -391,7 +432,10 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 - `[canon]` A Kekkei Genkai concede duas naturezas de nascença para combiná-las, e pertence a Naturezas Avançadas
 - `[atribuído]` A concentração regional de naturezas e a raridade do Vento
 - `[atribuído]` A natureza transmitida por rito de clã fora da vocação, no molde do Uchiha e do Fogo
+- `[canon]` O Raio perfura e difunde pelo sistema nervoso, o Fogo incendeia o que toca, o Vento corta, a Terra molda estrutura e a Água serve à ofensa, à defesa e ao suporte, que são as tendências de vetor e de rider publicadas aqui
+- `[canon fraco declarado]` A obra trata técnicas de mesmo rank e naturezas diversas como equivalentes em escala, sem afirmar em nenhum momento que uma natureza fere mais que outra por unidade de chakra. O rendimento único deriva dessa ausência, e não de declaração da fonte
 - `[proposta]` A cadeia de d100, as faixas de raridade, o Fator Protagonismo, a Escada de Afinidade, a tabela de dispersão, a Força de Choque e a realimentação. A obra dá direção e nunca magnitude, e toda grandeza numérica deste documento é do sistema
+- `[proposta]` A Constante de Moldagem e as duas Assinaturas. A hierarquia entre elas se apoia em medicina de trauma, com a lesão elétrica operando por aquecimento resistivo, eletroporação e desnaturação simultâneos, sem limiar protetor, e a lesão térmica operando por uma relação de tempo e temperatura com limiar declarado e com a circulação sanguínea removendo calor do ponto de contato
 
 ---
 
@@ -405,10 +449,17 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 | Perícia de Controle de Chakra v3.2 | Citação de Sistema Elemental v5 |
 | Compêndios de Katon, Fūton, Suiton e Doton | Citação de Sistema Elemental v5 |
 | `worlds/naruto/natures/overview.md` v1 | A legenda do ciclo inverte a relação publicada aqui, afirmando que cada natureza é fraca contra a seguinte quando a tabela declara superação |
+| Manual de Criação de Jutsus v2.5, seção 5.3 | O termo `mult_Tipo` da fórmula universal de dano passa a ser a Constante de Moldagem multiplicada pela Assinatura do vetor declarado. A seção 5.4 acrescenta a coluna de vetor de tendência com a mesma redação de tendência que já rege o rider |
+| Núcleo de Combate, passo 7 | A grandeza que o passo consome passa a se chamar Assinatura, e ela continua sendo propriedade do defensor, como o documento já declara |
+| Naturezas Avançadas v5 | A regra de tipo dominante deixa de reger dano e passa a reger apenas a posição no Ciclo de Superação. As naturezas avançadas resolvem pela Constante de Moldagem e pela Assinatura do vetor que cada obra declara, e os multiplicadores dos Kyōka são republicados sobre a base nova |
+| Compêndios de todas as naturezas e documentos de técnica | Cada entrada que entrega dano passa a declarar vetor, grau quando aplicável, riders e Velocidade, e a Assinatura deriva do vetor sem decisão adicional |
+| Sistema de Efeitos de Status v2.1 | A Vulnerabilidade Elemental reduz uma Resistência ao elemento em três dos quatro graus, e o corpus não publica essa grandeza |
 
 ---
 
 ## Registro de Alterações
+
+**v8.** O multiplicador por natureza dá lugar a duas camadas com donos distintos. A Assinatura térmica cobre adição e remoção de calor. A Constante de Moldagem, fixada em 1,40, mede o rendimento de toda técnica de transformação de natureza e vale para as sete por igual. A Assinatura mede o que o corpo do alvo faz com a energia recebida, pertence ao defensor, e se lê do vetor que a obra declara, em 1,25 para a Energia elétrica, 1,15 para a Energia térmica e 1,00 para Impacto, Corte e Penetração. O produto para o Raio permanece em 1,75 e o do Fogo resolve em 1,61. Terra, Vento e Água passam a resolver pelo vetor que cada técnica declara. A tabela de rider passa a publicar também o vetor de tendência, com a mesma redação de tendência que já regia o rider. As fórmulas do Sōsai e da realimentação passam a ler a cadeia nova.
 
 **v7.1.** O Manual de Economia de XP sobe para v2.9 e reajusta a tabela base de custo de perícia em 20%. A régua da seção "Custo da perícia da natureza" sobe de acordo, LV1 a LV6 e acumulado, e a tabela de dispersão inteira é recalculada sobre a nova base: Afinidade fecha em 45.225, Compatibilidade em 50.876, e a escada de aprendidas segue até 180.900 na sexta. Os dois cenários de custo total passam a 248.729 (cinco natas, uma Afinidade e quatro Compatibilidades) e 377.625 (uma nata e quatro aprendidas). As proporções entre posições não mudam, só a base sobre a qual elas incidem.
 
@@ -424,7 +475,8 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 |---|---|---|
 | Manual de Economia de XP | 2.9 | A régua de custo por nível e a convenção de arredondamento da categoria |
 | Núcleo de Perícias | 2.2 | A estrutura de níveis LV1 a LV6 |
-| Manual de Criação de Jutsus | 2.5 | A Janela de Canalização, o motor de dano e o mult_Tipo |
+| Manual de Criação de Jutsus | 2.5 | A Janela de Canalização e o motor de dano |
+| Núcleo de Combate | 1 | Os vetores de dano, as camadas de defesa e o passo que consome a Assinatura |
 | Reserva de Chakra | 3.1 | A RC nominal e o Limite de Saída de 20% |
 | Sistema de Efeitos de Status | 2.1 | A resolução dos riders |
 | Naturezas Avançadas | 5 | A Centelha, as Kekkei Genkai, as Kekkei Tōta e as Kyōka |
