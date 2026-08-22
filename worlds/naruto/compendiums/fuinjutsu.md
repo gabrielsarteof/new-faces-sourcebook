@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,13 +9,17 @@ status: final
 source-file: Compendio_Fuinjutsu_v1.md
 ---
 
-# Compêndio de Fūinjutsu · v1.3
+# Compêndio de Fūinjutsu · v1.4
 
 **O que mudou na v1.3.** Primeira auditoria completa da Exigência de Moldagem: 39 das 42 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Duas ficam sem edição por não terem portão de moldagem próprio: Rotação Instantânea Mútua do Hiraishin não declara nível nem degrau de Fūinjutsu na entrada, herdando o portão de Deus do Trovão Voador sem republicá-lo; Juinjutsu de Orochimaru não tem portão nenhum, porque quem recebe a marca não a adquire nem a executa. Nenhuma das duas precisava de correção — ambas já estavam corretas por não se aplicarem.
 
 **封印術 · Fūinjutsu**
 
 Catálogo das técnicas nomeadas da arte do selamento, da etiqueta explosiva que qualquer genin carrega no coldre até o selo que consome a alma de quem o executa. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa.
+
+**O que mudou na v1.4.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 O selamento se organiza em dois tempos, e o catálogo inteiro se lê por eles. Existe o tempo em que a fórmula é escrita, pago em preparação e em horas de trabalho, e existe o tempo em que ela cobra, pago no disparo por quem estiver diante dela. Uma técnica deste domínio é comprada uma vez e usada por anos, porque o produto do selador continua no mundo depois que ele vai embora. É a única família de técnicas do sistema em que o inimigo pode encontrar a obra de um praticante que já morreu.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.eight-gates
 title: "Compêndio dos Oito Portões"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,13 +9,17 @@ status: final
 source-file: Compendio_dos_Oito_Portoes_v1.md
 ---
 
-# Compêndio dos Oito Portões · v1.4
+# Compêndio dos Oito Portões · v1.5
 
 **八門 · Técnicas do arquétipo de taijutsu puro**
 
 **O que mudou na v1.4.** As 17 entradas ganham isenção explícita de Exigência de Moldagem, no lugar do placeholder "Trivial" que a régua de degraus antiga deixava. O domínio não tem perícia dona e o portão lê RES somada a FOR e Blocos de maturação, nunca Base Total de Controle de Chakra — nenhuma entrada aqui molda chakra, decisão registrada na Reforma da Exigência de Moldagem e proposta por ela para arbitragem de Gabriel.
 
 Catálogo das técnicas nomeadas do domínio dos portões. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa. O domínio reúne duas coisas: os oito portões em si, que são as técnicas que soltam os reguladores do corpo, e as obras que só existem com um portão aberto. Nenhuma entrada aqui é executável com a fisiologia no estado de repouso.
+
+**O que mudou na v1.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem editorial e a fronteira da cópia pelo Sharingan pertencem à Norma de Produção de Compêndios. A Régua do Portão Aberto, os tetos de fluxo, o portão de acesso, a moeda de Esforço, o Teto de Amplificação Corporal e a escada de sequelas pertencem ao documento Oito Portões. As oito fichas dos portões pertencem ao documento de técnica Hachimon Tonkō, e as nove fichas das obras pertencem ao documento Obras dos Oito Portões. As faixas de XP por rank pertencem ao Manual de Criação de Jutsus. Os graus, as durações e a remoção de condição pertencem ao Sistema de Efeitos de Status. A régua de Maturação pertence ao Manual Global de Treinamento.
 

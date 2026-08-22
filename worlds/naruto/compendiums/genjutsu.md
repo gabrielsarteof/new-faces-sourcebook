@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.genjutsu
 title: "Compêndio de Genjutsu (幻術)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -13,6 +13,10 @@ source-file: Compendio_de_Genjutsu_v1.md
 幻術 · Genjutsu
 
 Catálogo das técnicas de ilusão do sistema, organizadas por rank. Cada entrada declara etiqueta editorial, camada de acesso, requisitos de aprendizagem e custo de XP, seguidos da descrição de execução e função tática.
+
+**O que mudou na v1.2.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **Referências.** Perícia Genjutsu v1.1 governa o motor de imposição, as réguas transversais e os caminhos. Manual de Criação de Jutsus governa a faixa de RC, a faixa de XP e a interpolação. Sistema de Efeitos de Status governa grau, duração e remoção. Norma de Produção de Compêndios governa etiqueta, camada e formato. Nenhuma dessas regras é reproduzida aqui.
 

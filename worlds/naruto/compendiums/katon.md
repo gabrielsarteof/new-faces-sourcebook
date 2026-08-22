@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.5
+version: 5.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,12 +9,16 @@ status: final
 source-file: Compendio_Katon_v5.md
 ---
 
-# Compêndio de Katon (火遁) · v5.5
+# Compêndio de Katon (火遁) · v5.6
 
 **O que mudou na v5.5.** A Exigência de Moldagem de todas as 44 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. Amaterasu ganha isenção explícita, porque a chama nasce onde o olho pousa e não passa por moldagem. Passo de Chamas e Luz de Chama, rank E, não tinham correspondência na auditoria que fechou as outras 42 e foram resolvidos por paralelo estrutural com o mesmo par em Raiton e Suiton — Centelha de Chakra já batia exato com Centelha Estática (30), e o mesmo trio de exercícios de Academia se repete nos três elementos: Passo de Chamas 40, igual a Passo Relâmpago e Passo de Névoa; Luz de Chama 44, igual a Luz de Arco. **Pendência aberta, sem relação com os dois acima:** a auditoria que fechou as outras 42 nomeia duas entradas que não existem neste arquivo, Ryū no Kōdō (64) e Kagutsuchi (104). Decisão de Gabriel: são técnicas novas a acrescentar, ou nomes alternativos de entradas já publicadas sob nome diferente.
 **Liberação de Fogo**
 
 Catálogo das técnicas nomeadas do elemento fogo. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
+
+**O que mudou na v5.6.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Katon v4. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Queimadura e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status, com a ressalva de que o caminho Fulgor da inclinação de extensão Brasa substitui a Queimadura por Cegueira nas entregas resolvidas por ele, pela regra de rider substituído por natureza intensificada. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
 

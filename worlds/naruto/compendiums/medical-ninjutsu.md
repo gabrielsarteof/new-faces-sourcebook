@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_Medico_v2-1.md
 ---
 
-# Compêndio de Ninjutsu Médico · v2.4
+# Compêndio de Ninjutsu Médico · v2.5
 
 **医療忍術 · Iryō Ninjutsu**
 
@@ -18,6 +18,10 @@ source-file: Compendio_Ninjutsu_Medico_v2-1.md
 **Correção na v2.4.** Palma Mística e Cerejeira, Impacto Violento — as duas âncoras próprias que a v2.3 já usava — ainda citavam o degrau nomeado (moldagem refinada, moldagem plena) na própria justificativa. Reescritas para citar o número declarado (68 e 46).
 
 Catálogo das técnicas nomeadas do domínio médico, da contenção de sangramento que qualquer shinobi aprende no primeiro ano de academia até a regeneração absoluta que nenhuma mão do mundo alcançou ainda. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa.
+
+**O que mudou na v2.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 O domínio médico se organiza de forma diferente dos elementais. Uma moldagem de fogo se aprende observando fogo, e qualquer olho treinado a captura em campo. O conhecimento do corpo humano se guarda em instituição, se transmite por currículo e se verifica por corpo docente, e é por isso que a metade superior deste compêndio depende de acesso a hospital, mestre ou pergaminho muito mais do que os compêndios de natureza. A base é larga porque toda esquadra precisa de alguém capaz de estancar uma hemorragia, e o topo é estreito porque autoridade sobre o corpo alheio é a coisa mais perigosa que uma vila entrega a um indivíduo.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.doton
 title: "Compêndio de Doton (土遁)"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Doton_v2-1.md
 ---
 
-# Compêndio de Doton (土遁) · v2.5
+# Compêndio de Doton (土遁) · v2.6
 **Liberação de Terra**
 
 **O que mudou na v2.4.** Primeira auditoria completa da Exigência de Moldagem: as 34 entradas, que já carregavam degrau nomeado, passaram a número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas [PROPOSTA] mantêm veto pendente de Gabriel, já registrado na seção de Pendências de Aprovação, e a Exigência delas herda a mesma incerteza. Este compêndio segue fora de norma pela Norma de Produção de Compêndios §13 — carrega os seis blocos normativos que a v2.7 da Norma já centralizou noutro lugar — e essa reemissão não foi feita nesta passada, por ser trabalho de forma e não de conteúdo.
@@ -17,6 +17,10 @@ source-file: Compendio_Doton_v2-1.md
 **Correção na v2.5.** A prosa de Lança de Terra ainda citava "a exigência absoluta de moldagem" depois que a linha de Requisitos já declarava o número. Corrigida para citar a Exigência de Moldagem 84 diretamente, sem nomear o degrau da régua revogada.
 
 Catálogo das técnicas nomeadas do elemento terra. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
+
+**O que mudou na v2.6.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis, o portão de rank e a escada de porte são da Perícia de Doton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Imobilização e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
 

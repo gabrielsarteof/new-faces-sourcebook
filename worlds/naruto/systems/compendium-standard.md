@@ -1,7 +1,7 @@
 ---
 id: naruto.system.compendium-standard
 title: "Norma de Produção de Compêndios"
-version: 2.7
+version: 2.8
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,9 +9,11 @@ status: final
 source-file: Norma_de_Producao_de_Compendios_v2-2.md
 ---
 
-# Norma de Produção de Compêndios · v2.7
+# Norma de Produção de Compêndios · v2.8
 
 Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:1 de Naruto.
+
+**O que mudou na v2.8.** O compêndio deixa de ser lido como fonte de preço definitivo. A Seção 1 declara o status normativo por inteiro: o compêndio é catálogo de existência, o XP publicado em entrada sem ficha é provisório, o provisório morre quando a ficha nasce ou quando a regra do domínio é produzida, e não há retroatividade sobre quem já comprou. A Seção 10 ganha o marcador `[provisório]` obrigatório no campo de XP de toda entrada sem ficha, e a Seção 12 fecha a pendência de convivência do preço, que vivia registrada sem dono desde a v2.
 
 **O que mudou na v2.7.** O Compêndio de Kyūinjutsu registra o primeiro uso da camada Requisito Mecânico com insumo que ainda não existe como campo de ficha, a posse de um dojutsu ou de uma natureza avançada não implementados. A seção 6 já previa insumo declarado como requisito válido, e o caso apenas confirma a leitura: a entrada publica o requisito e permanece inerte até que o insumo exista, sem exigir mudança de forma.
 
@@ -23,11 +25,19 @@ Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:
 
 ## 1. Papel do compêndio
 
-O compêndio é o catálogo de técnicas nomeadas de um domínio. Ele responde três perguntas por técnica, e nada além disso.
+O compêndio é o catálogo de existência de um domínio. Ele responde quais técnicas existem, quem as acessa e sob que requisitos.
 
-O que essa técnica é. O que ela exige de quem a quer. Quanto ela custa.
+O que essa técnica é. O que ela exige de quem a quer.
 
 A perícia governa níveis, inclinações, caminhos e transcendências, e não embute técnica nomeada em nível algum. O compêndio governa as técnicas, e não redefine regra alguma.
+
+**O que um compêndio não é.** Documento de preço definitivo, e não é fonte de RC. O XP publicado em entrada sem ficha é provisório, atribuído por estimativa descritiva para que a entrada exista na economia antes de ser produzida.
+
+**Quando o provisório morre.** No momento em que a técnica recebe ficha própria, três coisas são refeitas a partir das regras vigentes daquele domínio e do motor do sistema: a RC nominal limpa, o custo de chakra com custo mínimo e Índice de Desperdício, e o XP pela apuração por entrega. A ficha substitui o compêndio nesses três campos, e a entrada de compêndio passa a apontar para ela. Divergência entre compêndio e ficha resolve sempre pela ficha, sem errata de conflito.
+
+**Consequência para o domínio inteiro.** Quando a regra de um domínio é produzida, perícia elemental, sistema próprio ou linhagem, toda entrada daquele compêndio passa a ter os valores refeitos sob a regra nova, porque a regra do domínio é que define o que aquelas técnicas custam para existir. Até lá, o compêndio permanece rascunho publicado, e isso é estado esperado, não pendência.
+
+**Não retroatividade.** Personagem que comprou pelo preço provisório não paga diferença nem recebe reembolso. O preço novo vale da publicação da ficha em diante.
 
 ---
 
@@ -171,7 +181,7 @@ Corpo em prosa.
 
 **Banda Mínima e Banda Máxima.** Presentes apenas em entrada de categoria Área ou Campo, na escada de bandas do Núcleo de Combate, Engajado, Curta, Média, Longa ou Extrema. Declaram até onde o executor projeta o centro da obra, medido do próprio corpo, e não o alcance da área ou do campo em si, que a escada da Seção 11 daquele documento já fixa a partir do centro escolhido. Ausentes em toda entrada de categoria Alvo, onde o alcance mora na prosa das Restrições como sempre morou.
 
-**XP.** Somente o número. A escala que o produz e as faixas por rank pertencem ao Manual de Criação de Jutsus, e a derivação não é reescrita aqui nem na entrada.
+**XP.** O número, seguido de `[provisório]` em toda entrada sem ficha própria, conforme a Seção 1. A escala que o produz e as faixas por rank pertencem ao Manual de Criação de Jutsus, e a derivação não é reescrita aqui nem na entrada. A entrada que aponta para ficha publicada não carrega o marcador, porque o número dali deixou de ser estimativa.
 
 **Corpo.** Descreve a execução, o comportamento visual, a função tática e a posição da técnica dentro da tradição do domínio. Efeitos próprios da técnica, como elevação de rider, persistência em campo ou penalidade de segurança, são declarados no corpo, porque pertencem àquela técnica e a nenhuma outra.
 
@@ -191,7 +201,7 @@ Uma entrada pode aparecer em mais de um bloco.
 
 ## 12. Pendências
 
-`[pendente]` **Regra de convivência do preço.** O número publicado no compêndio precisa valer no momento da compra, com a ficha individual da técnica corrigindo o valor dali em diante sem retroagir sobre quem já pagou. A regra não existe em documento algum e pertence ao Manual de Economia de XP.
+**Regra de convivência do preço, fechada na v2.8.** O número publicado no compêndio vale no momento da compra, com a ficha individual da técnica corrigindo o valor dali em diante sem retroagir sobre quem já pagou. A regra vive na Seção 1 deste documento.
 
 `[pendente]` **Faixa alvo de acesso Livre.** O compêndio de Ninjutsu Médico se declara dentro de uma faixa e próximo do piso, o que implica uma banda declarada em algum lugar. O piso e o teto não aparecem em nenhum documento disponível.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.4
+version: 4.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,12 +9,16 @@ status: final
 source-file: Compendio_Futon_v3.md
 ---
 
-# Compêndio de Fūton (風遁) · v4.4
+# Compêndio de Fūton (風遁) · v4.5
 **Liberação de Vento**
 
 **O que mudou na v4.4.** A Exigência de Moldagem de todas as 34 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. **Nota:** a auditoria da Frente de Exigência de Moldagem registra um valor extra sem entrada correspondente neste arquivo, "Shinkū Rensa" (70) — nenhuma das 34 entradas publicadas reivindica esse nome, e o valor fica sem uso até que se identifique a que técnica pertence ou se confirme que é resíduo de rascunho.
 
 Catálogo das técnicas nomeadas do elemento vento. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
+
+**O que mudou na v4.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis e o portão de rank são da Perícia de Fūton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Sangramento e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica. A competência de empunhar o leque de guerra é da Perícia de Leque v1, que a Foice de Doninha, a Grande Foice de Doninha e a Grande Tarefa do Dragão passam a exigir ao lado do Fūton.
 

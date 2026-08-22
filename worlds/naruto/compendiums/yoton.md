@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.yoton
 title: "Compêndio de Yōton"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Yoton_v2.md
 ---
 
-# Compêndio de Yōton · v2.3
+# Compêndio de Yōton · v2.4
 
 **O que mudou na v2.2.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Golpe Além do Osso e Corpo Que Nunca Esfria já traziam justificativa própria na prosa, usada como âncora direta.
 
@@ -18,6 +18,10 @@ source-file: Compendio_Yoton_v2.md
 **陽遁 · Técnicas da Liberação de Yang**
 
 Catálogo das técnicas nomeadas do domínio de Yang. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa. O verbo da natureza é conceder vida a formas que não a possuem e sustentar a que está cedendo, e toda entrada aqui é uma medida de quanta vitalidade o praticante move para fora de si sem que o próprio corpo pague por isso.
+
+**O que mudou na v2.4.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 Os nomes japoneses deste compêndio são romanização proposta e construída para este sistema. O cânone não fixa nome próprio de técnica alguma desta natureza, e a etiqueta de toda entrada é proposta.
 

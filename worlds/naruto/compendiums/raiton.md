@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.8
+version: 3.9
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.8
+# Compêndio de Raiton (雷遁) · v3.9
 **Liberação de Raio**
 
 **O que mudou na v3.8.** As entradas passam a declarar o vetor de entrega e a celeridade do meio, pelo contrato que o Lote de Vetores fechou e que o Template de Documento de Técnica v4 publica. Vinte e seis entradas receberam vetor por classificação mecânica sobre a descrição publicada, nove não o receberam por não entregarem dano, e seis subiram para a fila de decisão por ambiguidade real. A celeridade de 150 é a do Raiton na escada de meios da Seção 5.7 do Manual de Criação de Jutsus, e vale para toda entrada que atravesse distância. Nenhum preço em XP foi regenerado nesta passada, pela razão registrada na fila de errata.
@@ -17,6 +17,10 @@ source-file: Compendio_de_Raiton_v3_1.md
 **O que mudou na v3.7.** A Exigência de Moldagem de todas as 41 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado, ancorado contra as Tabelas de Referência de Personagens e contra quem executa cada técnica no cânone. O Rasengan Evanescente declara a única exceção de piso aprovada até aqui, abaixo da vizinhança do Chidori por rodar os dois componentes em sequência e não em simultaneidade.
 
 Catálogo das técnicas nomeadas do elemento raio. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência e a descrição da técnica.
+
+**O que mudou na v3.9.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis, o portão de rank e a propagação da corrente por meio condutor são da Perícia de Raiton v2. Os degraus de moldagem, a interface de selos e a régua de desperdício são da Perícia de Controle de Chakra v2. O multiplicador do Tipo Elétrico e o rider de Paralisia Parcial são do Sistema Elemental, e a graduação dos status é do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus, e o par de RC nominal e custo mínimo pertence à ficha individual de cada técnica, que substitui a estimativa deste catálogo quando publicada.
 

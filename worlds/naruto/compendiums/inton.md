@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Inton_v2-1.md
 ---
 
-# Compêndio de Inton · v2.4
+# Compêndio de Inton · v2.5
 
 **O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Seis entradas já traziam justificativa própria na prosa (Lâmina de Vazio, Eco de Presença, Armadura de Segunda Pele, Carregador Sem Rosto, Despacho de Raio, Cidadela do Vazio), usada como âncora direta.
 
@@ -18,6 +18,10 @@ source-file: Compendio_Inton_v2-1.md
 **陰遁 · Técnicas da Liberação de Yin**
 
 Catálogo das técnicas nomeadas do domínio de Yin. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa. O verbo da natureza é originar forma a partir do nada, e toda entrada aqui é uma medida de quanto daquilo que foi originado sobrevive ao exame, ao golpe e à ausência de quem o criou.
+
+**O que mudou na v2.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 Os nomes japoneses deste compêndio são romanização proposta e construída para este sistema, porque quase todo o arsenal de Yin é criação do projeto e o cânone entrega um único nome de técnica.
 

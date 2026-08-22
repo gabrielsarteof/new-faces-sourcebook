@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.suiton
 title: "Compêndio de Suiton (水遁)"
-version: 3.5
+version: 3.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Suiton_v3_1.md
 ---
 
-# Compêndio de Suiton (水遁) · v3.5
+# Compêndio de Suiton (水遁) · v3.6
 **Liberação de Água**
 
 **O que mudou na v3.4.** A Exigência de Moldagem de todas as 35 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. As últimas três — Espelho de Água, Torrente Dilaceradora e Prisão do Mar Profundo, que a auditoria original registrava como pendentes de nome no índice — não tinham correspondência publicada e foram resolvidas por leitura própria contra as âncoras de calibragem do domínio: Torrente Dilaceradora pareada com a Bala Presa de Água pela mesma descrição de vórtice em rotação violenta; Espelho de Água ancorada nos B-rank mais altos do domínio, porque a própria entrada já declarava a propriedade de tolerância zero a excesso de volume; Prisão do Mar Profundo, capstone proposto e fechado na criação, ancorada perto do Kirin do Raiton, abaixo do teto elemental do Daikōdan. As três têm ancoragem canônica mais fraca que o restante do compêndio, por serem ATRIBUÍDO ou PROPOSTA sem par espelho em outro elemento.
@@ -17,6 +17,10 @@ source-file: Compendio_Suiton_v3_1.md
 **Correção na v3.5.** A v3.4 declarava as 35 entradas convertidas e oito não estavam: Grande Braço de Água, Chuva do Tigre à Vontade, Técnica da Grande Cachoeira, Onda Cortante de Água, Chicotes do Dragão de Água, Grande Onda Explosiva de Colisão, Mil Tubarões Famintos e Grande Bala Tubarão continuavam com o degrau nomeado da régua já revogada. Resolvidas agora pela mesma banda rank+degrau-antigo cruzada contra os compêndios já fechados que fechou o Doton do zero, com o próprio domínio como âncora primária: Grande Braço de Água (Alta) 64 e Chuva do Tigre à Vontade (Refinada) 76 entre os B-rank já publicados do domínio (40–82); Técnica da Grande Cachoeira (Básica) 43 e Grande Onda Explosiva de Colisão (Básica) 42, cada uma escalada acima da respectiva irmã de Rank B na mesma família — Técnica da Bacia da Cachoeira 42 e Onda Explosiva de Colisão 40 — sem cruzar o teto de 44 que fecha o degrau Básica; Chicotes do Dragão de Água (Refinada) 78, no meio da banda que Raiton e Ninjutsu Médico calibram para A-rank de utilidade; Mil Tubarões Famintos (Refinada) 82, ecoando o par temático com Mil Agulhas Voadoras da Morte; e Grande Bala Tubarão — o Daikōdan que o próprio texto da v3.4 já citava como teto elemental acima de Prisão do Mar Profundo — em 104, acima dos 100 de Prisão e alinhado ao grupo de tetos de Rank S que Inton, Yōton e Ninjutsu Médico publicam na mesma faixa. Nenhuma das oito tem par espelho direto fora do domínio, e a ancoragem é mais fraca que a das 27 já fechadas na v3.4.
 
 Catálogo das técnicas nomeadas do elemento água. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência, o grupo de execução e a descrição da técnica.
+
+**O que mudou na v3.6.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis, o portão de rank e a escada de fonte são da Perícia de Suiton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Lentidão e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
 

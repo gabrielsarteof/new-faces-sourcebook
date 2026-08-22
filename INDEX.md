@@ -167,20 +167,20 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.5 | compendium | final |
-| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.4 | compendium | final |
-| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 2.2 | compendium | final |
-| [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.3 | compendium | final |
-| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.4 | compendium | final |
-| [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1.1 | compendium | final |
-| [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.4 | compendium | final |
-| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.5 | compendium | final |
-| [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1.1 | compendium | final |
-| [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.4 | compendium | final |
-| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.8 | compendium | final |
-| [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.2 | compendium | final |
-| [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.5 | compendium | final |
-| [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.3 | compendium | final |
+| [Compêndio de Doton (土遁)](worlds/naruto/compendiums/doton.md) | `naruto.compendium.doton` | 2.6 | compendium | final |
+| [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.5 | compendium | final |
+| [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 2.3 | compendium | final |
+| [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.4 | compendium | final |
+| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.5 | compendium | final |
+| [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1.2 | compendium | final |
+| [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.5 | compendium | final |
+| [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.6 | compendium | final |
+| [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1.2 | compendium | final |
+| [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.5 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.9 | compendium | final |
+| [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.3 | compendium | final |
+| [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.6 | compendium | final |
+| [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.4 | compendium | final |
 
 ## worlds/naruto/extensions
 
@@ -275,7 +275,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.5 | system | final |
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.4 | system | final |
-| [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.7 | methodology | final |
+| [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.8 | methodology | final |
 | [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.3 | system | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 9 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.2 | pending-patch | applied |

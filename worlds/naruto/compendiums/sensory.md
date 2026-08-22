@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.sensory
 title: "Compêndio de Sensoriamento"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,13 +9,17 @@ status: final
 source-file: Compendio_Sensoriamento_v1.md
 ---
 
-# Compêndio de Sensoriamento · v1.2
+# Compêndio de Sensoriamento · v1.3
 
 **O que mudou na v1.2.** Primeira auditoria completa da Exigência de Moldagem: as 36 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2.
 
 **感知忍術 · Técnicas de Sensoriamento**
 
 Catálogo das técnicas nomeadas do domínio de Sensoriamento. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa. O verbo do domínio é converter chakra alheio em informação, e toda entrada aqui é uma medida de quanto do mundo o praticante consegue ler sem tocá-lo.
+
+**O que mudou na v1.3.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 A categoria existe na fonte com nome próprio, e a maior parte das obras deste registro pertence ao subtipo por contato, 接触タイプ, em que a leitura acontece na matéria investida e não no corpo de quem a investiu. É o que torna metade deste catálogo acessível a quem não nasceu com sensibilidade alguma.
 

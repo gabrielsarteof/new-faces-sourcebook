@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.kyuinjutsu
 title: "Compêndio de Kyūinjutsu"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,12 +9,16 @@ status: final
 source-file: Compendio_Kyuinjutsu_v1.md
 ---
 
-# Compêndio de Kyūinjutsu · v1.1
+# Compêndio de Kyūinjutsu · v1.2
 **吸引術 · Técnicas nomeadas do ofício da tomada**
 
 **O que mudou na v1.1.** Primeira auditoria completa da Exigência de Moldagem: as 19 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas bloqueadas por insumo não implementado (Rinnegan ou Meiton) receberam o número normalmente — a Norma de Produção de Compêndios já manda publicar preço para entrada inerte, e a Exigência segue a mesma regra.
 
 Catálogo das técnicas nomeadas que exercem o dreno de chakra classificado em `jutsu-authoring.md` §2.8 e treinado pela Perícia de Kyūinjutsu. Cada entrada informa o nome em português, o nome em japonês com kanji, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha e o preço em pontos de experiência, seguidos da descrição da técnica.
+
+**O que mudou na v1.2.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
 **Referências.** As camadas de acesso, a etiquetagem e o formato de entrada são da Norma de Produção de Compêndios v2.6. Os níveis, o portão de rank e os caminhos são da Perícia de Kyūinjutsu v1. Os degraus de moldagem são da Perícia de Controle de Chakra v3.3. A régua de quantidade, o teto de recepção, a sobrecarga deliberada e a cláusula do senjutsu são de `jutsu-authoring.md` §2.8, e nenhuma entrada as reproduz. O preço em XP segue a estimativa sem RC da Seção 4.1.3 do Manual de Criação de Jutsus v2.9, porque nenhuma entrada tem ficha individual apurada.
 
