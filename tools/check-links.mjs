@@ -40,7 +40,10 @@ const GRUPO_ROTULO = {
 // Diretorios que nunca contem documento do corpus. `site` hospeda o
 // new-faces-docs, que traz node_modules com milhares de .md de pacote; sem
 // esta exclusao o indice e a contagem de documentos incorporariam todos.
-const IGNORADOS = new Set(['.git', 'tools', 'site', 'node_modules']);
+// `handoffs` guarda material de propagacao, que e fonte de decisao e nunca
+// e citado como regra pelo corpus; indexa-lo o transformaria em documento
+// publicado, contra a Secao 2.2 do Plano Mestre de Propagacao.
+const IGNORADOS = new Set(['.git', 'tools', 'site', 'node_modules', 'handoffs']);
 
 function documentos(dir, acc = []) {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
