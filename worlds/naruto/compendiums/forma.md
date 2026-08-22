@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_de_Forma_v1.md
 ---
 
-# Compêndio de Ninjutsu de Forma · v2.3
+# Compêndio de Ninjutsu de Forma · v2.4
 
 **O que mudou na v2.1.** A Exigência de Moldagem de cada entrada deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado, conforme a Régua de Exigência de Moldagem da Perícia de Controle de Chakra. Rasengan, Ōdama Rasengan e Rasenrengan declaram também o valor efetivo com Assistência de Moldagem, conforme a Linhagem do Rasengan v1.3.
 
@@ -19,6 +19,8 @@ source-file: Compendio_Ninjutsu_de_Forma_v1.md
 Catálogo das técnicas nomeadas que empregam a Transformação de Forma sozinha, sem converter chakra em natureza alguma. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço em pontos de experiência e a descrição da técnica.
 
 **O que mudou na v2.3.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+**O que mudou na v2.4.** As entradas passam a declarar o vetor de entrega quando aplicável. Cinco entradas da família Rasengan receberam Impacto, entregue por contato sem celeridade, incluindo a Técnica da Grande Explosão do Clone, cuja detonação de chakra puro sem natureza declarada resolve pela mesma leitura de força concussiva. Quatorze entradas não receberam vetor, o domínio inteiro de substituição, disfarce, escape e clone utilitário, que não converte natureza e não entrega dano fora da família da esfera. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
@@ -172,6 +174,7 @@ O usuário projeta fios de chakra quase invisíveis das próprias mãos, capazes
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Controle de Chakra LV4 · Moldagem 62 (42 com 1 Assistência de Moldagem) · Caminho Composição
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 6.714
 
 O usuário gira o chakra simultaneamente em várias direções e o comprime na palma da mão até que a esfera se sustente sozinha, sem casca e sem molde externo que a segure. A esfera fica visível como uma luz azul densa em rotação e emite um zumbido grave que alcança poucos metros. O contato transfere o giro ao corpo atingido, mói o ponto de entrada e arremessa o alvo na direção do avanço, e a rotação faz todo o trabalho sem que o executante precise de força própria. A técnica dispensa selos de mão por completo, o que a deixa disponível com as mãos ocupadas, feridas ou parcialmente presas, e impossível de antecipar por leitura de postura.
@@ -194,6 +197,7 @@ O usuário divide a própria reserva de chakra em até quatro corpos sólidos, c
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV4 · Moldagem 40 · Kage Bunshin no Jutsu
+**Vetor:** Impacto
 **XP:** 3.500
 
 O usuário detona um Kage Bunshin ativo, convertendo toda a reserva de chakra que o clone ainda carrega em uma explosão de área ao redor do próprio corpo do clone. A força do estouro varia com o quanto aquele clone específico já gastou em combate antes do gatilho, e a transferência de memória para o usuário original ocorre normalmente antes da detonação.
@@ -220,6 +224,7 @@ O usuário veste simultaneamente todos os clones das sombras ativos com a forma 
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV5 · Moldagem 66 (46 com 1 Assistência de Moldagem) · Caminho Composição · Rasengan
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 15.500
@@ -233,6 +238,7 @@ O usuário eleva o volume girado muito acima do porte padrão e produz uma esfer
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV5 · Moldagem 62 por esfera (42 com 1 Assistência de Moldagem cada) · Caminho Composição · Rasengan
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 15.500
 
 O usuário forma uma esfera em cada mão e entrega as duas na mesma ação. Cada esfera reproduz o Rasengan sem alteração de geometria, o que mantém o rendimento por esfera idêntico ao da base e faz a técnica comprar multiplicidade. As duas moldagens simultâneas exigem assistência pela mesma via que o porte elevado exige, por clone ou pelo caminho da segunda janela.
@@ -259,6 +265,7 @@ O usuário estende a partição de reserva do Kage Bunshin muito além da banda 
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Controle de Chakra LV6 · Moldagem 74 (34 com 2 Assistências de Moldagem) · Caminho Composição · Ōdama Rasengan · fonte externa de chakra declarada
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 45.200
