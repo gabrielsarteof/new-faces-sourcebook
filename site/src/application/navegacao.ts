@@ -87,10 +87,21 @@ export async function arvoreDeNavegacao(): Promise<MundoNav[]> {
 
     for (const [eixo, docs] of porEixo) {
       // Um grupo só tem índice próprio quando todos os membros dele compartilham o
-      // mesmo prefixo de rota. O grupo Sistemas de Naruto reúne documentos de seis
-      // pastas diferentes, e não existe uma página que seja o índice de todos.
+      // mesmo prefixo de rota, E esse prefixo é mais específico que a raiz do mundo.
+      // O grupo Sistemas de Naruto reúne documentos de seis pastas diferentes, e não
+      // existe uma página que seja o índice de todos: cai no `null` correto.
+      //
+      // A raiz do mundo (`/${base}`) nunca é o índice de UM grupo, mesmo quando todo
+      // documento do grupo carece de `eixo` (id de dois segmentos, como os do Núcleo).
+      // Sem essa exclusão, todo grupo assim degenerava para a mesma rota — a própria
+      // página do mundo — e três coisas quebravam juntas: os quatro grupos de Núcleo
+      // liam `contemRotaAtual` verdadeiro ao mesmo tempo em `/core` porque os quatro
+      // "índices" eram a mesma rota da página atual, os quatro abriam sozinhos, e
+      // "Visão geral" aparecia repetida quatro vezes apontando para a página em que
+      // o leitor já estava.
       const prefixos = new Set(docs.map(d => (d.eixo ? `/${base}/${d.eixo}` : `/${base}`)));
-      const rotaDoIndice = prefixos.size === 1 ? [...prefixos][0]! : null;
+      const [unicoPrefixo] = prefixos;
+      const rotaDoIndice = prefixos.size === 1 && unicoPrefixo !== `/${base}` ? unicoPrefixo! : null;
       const proprios_ = docs.map(d => item(d));
       const emprestados =
         eixo === 'skill' && MUNDOS_JOGAVEIS.has(base)
