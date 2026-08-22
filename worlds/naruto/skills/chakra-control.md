@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.chakra-control
 title: "Controle de Chakra"
-version: 3.6
+version: 3.7
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,9 @@ status: final
 source-file: Pericia_Controle_de_Chakra_v2_2.md
 ---
 
-CONTROLE DE CHAKRA (チャクラコントロール) — v3.6
+CONTROLE DE CHAKRA (チャクラコントロール) — v3.7
+
+**O que mudou na v3.7.** O caminho Vazão Ampliada deixou de ler uma base universal de vinte por cento e passou a ampliar por fator sobre a largura da posição do praticante na natureza empregada, com teto de 1,25 vez essa largura. A Errata E1 revogou a universalidade do Limite de Saída, e a Reserva de Chakra v3.5 publica que todo modificador do cano é relativo, de modo que a ampliação comprada preserva a vantagem de quem já escoa mais. Sobre a Compatibilidade o teste cheio continua entregando vinte e cinco por cento da RC, o mesmo valor que a régua publicava antes.
 
 **O que mudou na v3.6.** A Sobretaxa de Volume deixou de ser tabela de sete faixas nomeadas e passou a curva contínua sobre o Índice de Volume, que a Reserva de Chakra v3.4 publica pela primeira vez com definição e fórmula. A régua ganhou peso por nível, derivado da escada de Base do Núcleo de Perícias, e perdeu o teto de cem por cento.
 
@@ -109,7 +111,7 @@ INCLINAÇÃO CONDUÇÃO
 EMISSÃO (grau 2, complexidade 4) — 34
 Expelir chakra pelos tenketsu e conduzi-lo para fora do corpo através de um meio, de forma sustentada. Requisito consumível dos documentos de clã que exigem emissão, o Jūken à frente.
 └─ Ponto de Emissão [passivo]: declara qualquer ponto do próprio corpo como origem da técnica, no lugar das mãos. Agarre e imobilização de braços não impedem a emissão, ainda que impeçam selos. LV5: pontos múltiplos simultâneos, incluindo a superfície inteira do corpo
-└─ Vazão Ampliada [passivo]: Limite de Saída = RC × (20% + 5% × √(teste de Condução ÷ 205)), teto 25% da RC, que é o patamar do segundo portão alcançado sem abrir nenhum e sem o custo corporal que a escada cobra
+└─ Vazão Ampliada [passivo]: Limite de Saída = largura da posição × (1 + 0,25 × √(teste de Condução ÷ 205)), com teto de 1,25 vez a largura da posição empregada, que é o patamar do segundo portão alcançado sem abrir nenhum e sem o custo corporal que a escada cobra. O caminho amplia o cano por fator e nunca por valor absoluto, conforme a Reserva de Chakra publica, de modo que a ampliação preserva a vantagem de vocação de quem já escoa mais. Resolvido sobre a Compatibilidade, o teste cheio entrega 25% da RC, o mesmo valor que a régua publicava quando a largura era universal
 
 IMPREGNAÇÃO (grau 3, complexidade 4) — 38
 Converter objeto em extensão do próprio circuito, sustentando chakra dentro da matéria alheia. O Chakura Nagashi, requisito consumível dos compêndios de arma e do Chakra no Ito.
@@ -517,7 +519,7 @@ Reserva v3.4: Índice de Volume, que a Sobretaxa de Volume e o raio de assinatur
 
 Compêndios: linhas de requisito na régua de degraus, referências de selos e de janela.
 
-Sistema Elemental v7: aponta Refino, Composição e Modulação, e recebe a propriedade da penalidade de conversão da natureza aprendida.
+Sistema Elemental v9: aponta Refino, Composição e Modulação, e recebe a propriedade da penalidade de conversão da natureza aprendida.
 
 Mangekyō: Manutenção Espaçada. Sharingan: quarenta por cento sobre a Base de Nível. Chidori, Nagashi e Kirin: Concisão, LV_CC, selos de referência e janela de referência.
 

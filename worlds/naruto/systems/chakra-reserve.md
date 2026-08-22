@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chakra-reserve
 title: "Reserva de Chakra"
-version: 3.4
+version: 3.5
 layer: scenario
 scenario: naruto
 type: system
@@ -233,10 +233,34 @@ de Chakra, indexa a ele o preço em XP daquela perícia.
 ## Limite de Saída por Turno
 
 O corpo não consegue canalizar o volume total da RC de uma vez. Esse cap de output
-simultâneo é o Limite de Saída (LS).
+simultâneo é o Limite de Saída (LS). Ele é o cano único de saída de chakra por turno,
+compartilhado por jutsu, dōjutsu e efeito sustentado, e se lê sempre da RC máxima e
+nunca da RC restante. Os 361 tenketsu e os Oito Portões regulam esse fluxo, impedindo
+que o sistema circulatório de chakra colapse.
 
-Em condições normais o LS equivale a 20% da RC por turno. Os 361 tenketsu e os Oito
-Portões regulam esse fluxo, impedindo que o sistema circulatório de chakra colapse.
+A largura do cano se lê da posição do praticante na natureza empregada, conforme a
+Escada de Afinidade do Sistema Elemental.
+
+| Posição na natureza empregada | Limite de Saída |
+|---|---|
+| Afinidade | 25% da RC por turno |
+| Compatibilidade | 20% da RC por turno |
+| Natureza aprendida | 15% da RC por turno |
+| Gasto sem natureza elemental declarada | 20% da RC por turno |
+
+Moldagem pura, dōjutsu, Fūinjutsu e efeito sustentado sem natureza declarada correm na
+faixa de vinte por cento. Quando o praticante emprega mais de uma natureza no mesmo
+turno, a largura é a menor entre as posições empregadas: o cano permanece único e não
+se soma por natureza, e a diversidade elemental não amplia o orçamento de chakra da
+rodada.
+
+**Todo modificador do cano é relativo.** Fonte que amplie o Limite de Saída o faz por
+fator sobre a largura da posição empregada, e nunca substituindo o número por um valor
+absoluto. Uma fonte que antes elevava o cano de vinte para trinta por cento passa a
+multiplicá-lo por um e meio, entregando trinta por cento a quem opera em
+Compatibilidade, trinta e sete e meio a quem opera na Afinidade e vinte e dois e meio
+a quem opera em natureza aprendida. É essa forma que impede a ampliação comprada de
+apagar a vantagem de vocação de quem já escoa mais.
 
 Os Oito Portões elevam progressivamente o LS quando abertos, com custo físico
 correspondente, e o oitavo o revoga por inteiro enquanto durar. A tabela de teto por
