@@ -1,7 +1,7 @@
 ---
 id: naruto.system.onmyoton
 title: "Eixo do Onmyōton"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: system
@@ -9,7 +9,7 @@ status: final
 source-file: Eixo_do_Onmyoton_v1.md
 ---
 
-# Eixo do Onmyōton (陰陽遁) · v1.1
+# Eixo do Onmyōton (陰陽遁) · v1.2
 As duas naturezas que nascem da proporção entre as metades do chakra, a posição delas fora do ciclo de superação, a entrada delas no motor de dano, a união que as soma e o teto dos Seis Caminhos.
 
 ---
@@ -67,7 +67,7 @@ O multiplicador de natureza de 1,50 para a Liberação de Yin e de 1,00 para a L
 
 O eixo não contribui rider algum por natureza. As cinco elementais publicam tendência de rider, e o eixo não tem tendência a publicar, porque a energia dele não queima, não paralisa e não congela.
 
-O rider estrutural do vetor declarado permanece, porque ele pertence ao vetor. A Perfuração acompanha a Penetração e a Secção acompanha o Corte em qualquer obra que empregue esses vetores, do eixo ou de fora dele, uma vez que os dois descrevem como o tecido falha e não que energia o atravessou. A obra do eixo que quiser entregar sem rider entrega por Impacto.
+O rider estrutural do vetor declarado permanece, porque ele pertence ao vetor. A Perfuração acompanha a Penetração e a Secção acompanha o Corte em qualquer obra que empregue esses vetores, do eixo ou de fora dele, uma vez que os dois descrevem como o tecido falha e não que energia o atravessou. A obra do eixo que entregar por Impacto entrega hoje sem rider algum, porque o Núcleo de Combate declara que o Impacto não tem rider estrutural nomeado e aponta o Sistema de Efeitos de Status como dono dessa lacuna. Quando a lacuna fechar, a obra do eixo em Impacto passa a carregar o que for publicado ali, pela mesma razão que carrega os outros dois.
 
 ---
 
@@ -145,6 +145,8 @@ Os feitos registrados sob o grau pertencem à história do mundo e ficam dispon�
 
 **A união não publica mecânica.** O Onmyōton pleno tem teto, fronteira e razão declarados, e nenhuma régua de execução, porque nenhuma ficha do sistema o alcança. A régua nasce quando alguém chegar lá.
 
+**O rider do Impacto é lacuna de terceiro.** A obra do eixo que entrega por Impacto é hoje a única entrega do sistema sem rider estrutural, e a razão está fora deste documento: o Núcleo de Combate declara a lacuna e nomeia o Sistema de Efeitos de Status como dono dela. O eixo herda o que aquele documento publicar.
+
 ---
 
 ## Dependências
@@ -164,6 +166,8 @@ Os feitos registrados sob o grau pertencem à história do mundo e ficam dispon�
 ---
 
 ## Registro de Alterações
+
+**v1.2.** A cláusula do rider em Impacto passa a citar a lacuna que a sustenta. O Núcleo de Combate declara que o vetor Impacto não tem rider estrutural nomeado e aponta o Sistema de Efeitos de Status como dono dessa lacuna, e a redação anterior lia como propriedade permanente do vetor o que é estado provisório de outro documento. A seção de itens abertos registra a herança.
 
 **v1.1.** A propagação fecha oito das nove linhas da fila de errata, e cada linha aplicada passa a registrar a versão em que entrou. A caça de citações órfãs alcançou três documentos além dos previstos, a Linhagem do Rasengan, a Linhagem do Chidori e o Compêndio de Yōton, que citavam o multiplicador de natureza como grandeza viva depois de ele deixar de existir. A tabela de dependências acompanha as versões novas dos documentos tocados. A errata contra o Compêndio de Inton permanece aberta, porque ela é decidida por linha na fila de vetores.
 
