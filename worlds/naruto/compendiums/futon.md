@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.9
+version: 4.10
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Futon_v3.md
 ---
 
-# Compêndio de Fūton (風遁) · v4.9
+# Compêndio de Fūton (風遁) · v4.10
 **Liberação de Vento**
 
 **O que mudou na v4.4.** A Exigência de Moldagem de todas as 34 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. **Nota:** a auditoria da Frente de Exigência de Moldagem registra um valor extra sem entrada correspondente neste arquivo, "Shinkū Rensa" (70) — nenhuma das 34 entradas publicadas reivindica esse nome, e o valor fica sem uso até que se identifique a que técnica pertence ou se confirme que é resíduo de rascunho.
@@ -31,6 +31,8 @@ O Vendaval da Montanha Verdejante sai da mesma fila pela mesma regra, e lê o ve
 O vetor descreve como o tecido falha e nunca quanto, e é a Energia entregue que separa a esfera de rank A da ruptura de rank D sob a mesma regra de Guarda. A leitura oposta, de classificar as duas em Corte para ganhar a perfuração de Guarda do Grau IV, foi descartada porque custaria a elevação para área, e o Corte só alcança área por varrimento de linha, geometria errada para uma frente de pressão.
 
 A Grande Ruptura da Poeira Infinita declara o agravamento por envolvimento no teste de entrada do rider, porque o ar inteiro vira lixa e envolve o corpo por completo. A régua geral do agravamento vive no Núcleo de Combate e alcança toda obra que entregue sobre extensão ampla do corpo, e a enumeração de gatilhos daquele documento nomeia Corte, Energia e Penetração sem nomear o gatilho do Impacto, o que deixa a leitura por conta da cláusula geral.
+
+**O que mudou na v4.10.** O Vento Divino sai da fila de decisão e declara vetor nenhum, por ser condição de campo e não golpe. A própria entrada já afirmava que o vendaval deixa de ser golpe e passa a ser o mundo onde a luta acontece, e a posição em XP passa a ler a Régua de Resposta em vez da posição por entrega. Com ela, as seis entradas que este compêndio mandou para a fase 2 estão fechadas.
 
 **O Grau IV é o teto do Fio, e a diferenciação acima dele vive fora do vetor.** A escada do Corte tem quatro degraus por desenho declarado no Núcleo de Combate, e o topo dela fica no meio da escada da Penetração porque a perfuração é a ameaça mais difícil de deter. Quatro entradas deste compêndio compartilham o Grau IV, e a distância entre elas é real e vive nos outros eixos que cada uma declara, a elevação de rider por borda e o Perfil de Evasão do alcance ilegível na Lâmina de Vácuo, a entrega e o rank nas demais. A escada do Fio nunca prometeu discriminar dentro do próprio topo.
 
@@ -464,12 +466,14 @@ O usuário esvazia de ar uma zona ampla do campo, elevando a família de vácuo 
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV6 · Moldagem 78 · Caminho Lufada
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** nenhum, condição de campo sem golpe
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 38.000
 
 O usuário ergue sobre o campo inteiro um vendaval contínuo de escala de tempestade, soprando numa direção escolhida e mantida. Florestas dobram e arrancam, projéteis de qualquer porte abandonam a trajetória, voo adversário se torna impossível e todo combatente luta ancorado ao chão ou é levado pela frente de ar, enquanto o usuário e os aliados avisados operam a favor do vento. A técnica converte a atmosfera do combate numa condição imposta, o clima como arma, e encerra a família de pressão no seu limite lógico, o vendaval que deixa de ser golpe e passa a ser o mundo onde a luta acontece.
+
+A entrada não declara vetor porque não entrega golpe algum, e a própria prosa o afirma. A posição em XP se lê pela Régua de Resposta, contra a resposta adequada mais barata que o par da faixa possui.
 
 **Nota cruzada.** A direção escolhida e mantida é o que separa esta entrada do caminho Espiral, da inclinação Ciclone da Perícia de Fūton. O Vento Divino sopra por um rumo declarado, e a linha avisada se posiciona a favor dele e colhe vantagem disso. O sistema erguido pela Espiral gira em torno de um centro, alcança por igual todo corpo que esteja fora do centro e oferece escolha de alvo a ninguém. A ficha desta técnica permanece inalterada, e a distinção fica registrada para que nenhuma passagem futura funde as duas.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.8
+version: 5.9
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Katon_v5.md
 ---
 
-# Compêndio de Katon (火遁) · v5.8
+# Compêndio de Katon (火遁) · v5.9
 
 **O que mudou na v5.5.** A Exigência de Moldagem de todas as 44 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. Amaterasu ganha isenção explícita, porque a chama nasce onde o olho pousa e não passa por moldagem. Passo de Chamas e Luz de Chama, rank E, não tinham correspondência na auditoria que fechou as outras 42 e foram resolvidos por paralelo estrutural com o mesmo par em Raiton e Suiton — Centelha de Chakra já batia exato com Centelha Estática (30), e o mesmo trio de exercícios de Academia se repete nos três elementos: Passo de Chamas 40, igual a Passo Relâmpago e Passo de Névoa; Luz de Chama 44, igual a Luz de Arco. **Pendência aberta, sem relação com os dois acima:** a auditoria que fechou as outras 42 nomeia duas entradas que não existem neste arquivo, Ryū no Kōdō (64) e Kagutsuchi (104). Decisão de Gabriel: são técnicas novas a acrescentar, ou nomes alternativos de entradas já publicadas sob nome diferente.
 **Liberação de Fogo**
@@ -27,6 +27,10 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 **Elemento que não entrega como energia não multiplica como energia.** A Assinatura se lê do vetor declarado, e não da natureza que produziu a obra. Uma entrada de Katon que entrega por Penetração ou por Corte resolve a Assinatura em 1,00, com o termo de tipo fechando em 1,40, e o fogo aparece como Queimadura e nunca como coeficiente. O registro fica aqui para que passada futura de classificação não reabra a pergunta.
 
 **A salva não é área.** As duas entradas de salva declaram a cláusula na própria prosa: cada projétil é uma entrega de alvo único, declara o próprio alvo e resolve a própria abertura, e nenhum projétil se dirige a alvo que outro da mesma salva já tenha resolvido como cobertura de área. O teto categórico da Penetração diz alvo único sempre, e a cláusula existe para que contagem de projéteis não vire porta dos fundos para campo.
+
+**O que mudou na v5.9.** A Grande Extinção pelo Fogo sai da fila de decisão e declara vetor nenhum, por ser condição de campo e não golpe. A zona instala Queimadura por permanência, com o teste de entrada resolvendo uma vez por turno em que o personagem termine dentro dela, sem dano direto, sem teste de conexão e sem alvo. A gramática é a mesma do Estado Elemental, que também dispensa vetor e ainda assim carrega efeito mecânico próprio, porque reescreve a condição de quem está ali em vez de golpear.
+
+A leitura de Energia térmica de área foi descartada porque entrega contínua tem alvo, teste de conexão e escala por Energia, o que converteria a condição num golpe repetido a cada turno sem ação gasta, a pior distorção possível numa entrada de rank S. A leitura de delegar tudo ao dano de fonte sem ficha também foi descartada, porque ela serve a uma fogueira que já existia e é insuficiente para uma técnica que alguém pagou e executou: sem declaração própria, duas execuções da mesma entrada viram coisas diferentes conforme o narrador dimensione a fonte.
 
 **Declaração local nas Penas do Inferno, com errata pendente.** O engano é a propriedade central daquela entrada, e ele separa a técnica de rank A da de rank B no motor. A Seção 6.5 do Manual de Criação de Jutsus publica quatro degraus de Perfil de Evasão e nenhum deles mede leitura falseada, e o único que baixaria a esquiva do alvo carrega comportamento de perseguição que a salva não executa. A entrada declara para si que o alvo desce um degrau contra ela, com a razão escrita, e a declaração não constitui instrumento geral. O precedente de forma é o da Linhagem do Chidori, onde a revogação da janela de visão de túnel pelo Sharingan viveu nas fichas enquanto o documento do olho não a publicava. Fica emitido o pedido de errata à Seção 6.5, dona da escada, para decidir se o instrumento sobe para régua geral ou se ganha degrau próprio.
 
@@ -606,12 +610,15 @@ Execução simultânea dos três vetores de entrega do fogo. O usuário cospe, e
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Katon LV6 · Moldagem 68 · Transcendência O Grande Incêndio
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** nenhum, condição de campo sem golpe
+**Rider:** Queimadura por permanência na zona
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 45.500
 
 Conversão do campo de batalha inteiro em zona ardente. O solo pega, o ar carrega cinza e o calor deixa de ter fonte localizada, passando a emanar de toda a superfície ao redor. Qualquer Katon executado pelo usuário dentro do campo acende zona nova sem custo adicional de manutenção. O efeito dura até o fim do combate ou até intervenção externa de escala equivalente, e se executa uma vez por dia.
+
+A zona não golpeia, ela reescreve o que custa estar naquele lugar. A entrada não declara vetor, não entrega dano direto, não roda teste de conexão e não tem alvo. O que ela instala é Queimadura por permanência, com o teste de entrada resolvendo uma vez por turno em que o personagem termine dentro da zona, e o rider seguindo o ciclo de vida normal do Sistema de Efeitos de Status, sem teste novo enquanto durar. Quem entra e sai no mesmo turno não testa, e a decisão que a zona cobra é ficar ou pagar o preço de sair. O grau de entrada e a interação com a Absorção pertencem à apuração da ficha.
 
 ---
 
