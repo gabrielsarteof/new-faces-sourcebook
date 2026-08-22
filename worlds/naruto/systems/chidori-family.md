@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chidori-family
 title: "Linhagem do Chidori"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: system
@@ -84,7 +84,8 @@ Toda ficha da linhagem herda os valores abaixo e declara apenas o que diverge de
 
 | Campo herdado | Valor | Origem |
 |---|---|---|
-| Natureza | Raiton, com mult_Tipo 1,75 | Sistema Elemental, tabela de Tipo Elemental |
+| Natureza | Raiton | Sistema Elemental |
+| mult_Tipo | lido do vetor que cada ficha declara, e não da natureza | Sistema Elemental, Constante de Moldagem e tabela de Assinatura |
 | coef_técnica | 2,0 | Manual de Criação de Jutsus, Seção 5.3 |
 | Degrau de moldagem | Refinada, 71 | Manual de Requisitos de Técnica, Seção 3.2 |
 | Rider | Paralisia Parcial | Sistema Elemental, rider padrão do Tipo Elétrico |
@@ -95,17 +96,20 @@ Duas fichas divergem do coeficiente técnico herdado e declaram a divergência n
 
 O Raikiri conserva o coeficiente 2,0 e mesmo assim cobra o degrau Absoluto. A elevação vem da Seção 4 do Manual de Requisitos de Técnica, por tolerância zero a excesso de volume, e não de um coeficiente maior. A leitura reconcilia a tabela do Manual de Criação de Jutsus, que lista Chidori e Raikiri juntos em 2,0, com o Compêndio de Raiton, que exige Moldagem Absoluta da entrada.
 
-O Fator de Moldagem resultante do coeficiente herdado vale para a maioria das fichas e é publicado uma única vez aqui.
+O coeficiente herdado alimenta o peso da maestria no motor de dano, e o peso é publicado uma única vez aqui.
 
 ```
-Fator de Moldagem = LV_CC² × 2,5 × coef_técnica
+w = coef_técnica ÷ 2
+M = 1 + w × (P − P_ref) ÷ P_ref          piso de M: 0,5
 ```
 
-| coef_técnica | LV_CC 5 | LV_CC 6 | 6 com 1 caminho | 6 com 2 caminhos |
+| coef_técnica | w | M com P 26 abaixo da referência | M na referência | M com P 32 acima |
 |---|---|---|---|---|
-| 2,0 | 125 | 180 | 245 | 320 |
-| 1,5 | 94 | 135 | 184 | 240 |
-| 1,0 | 62 | 90 | 122 | 160 |
+| 2,0 | 1,00 | 0,82 | 1,00 | 1,22 |
+| 1,5 | 0,75 | 0,87 | 1,00 | 1,16 |
+| 1,0 | 0,50 | 0,91 | 1,00 | 1,11 |
+
+A tabela lê o P_ref de 148 do rank A, e as duas fichas de rank S leem o de 180. O Fator de Moldagem somado que esta seção publicava saiu com a troca de forma do motor: a maestria passou a escalar a base inteira em vez de contribuir com um termo ao lado dela.
 
 ---
 
@@ -113,21 +117,25 @@ Fator de Moldagem = LV_CC² × 2,5 × coef_técnica
 
 A escada de RC nominal guarda proporção declarada contra a raiz, e é ela que governa qualquer recalibragem futura.
 
-| Ficha | Rank | RC nominal | Custo mínimo | Proporção contra a raiz | Custo de XP |
+A RC nominal publicada é sempre a **RC limpa**, medida antes de qualquer sobretaxa de Perfil de Evasão. A coluna anterior carregava a sobretaxa do degrau Veloz embutida em cinco das sete entradas, e o degrau saiu da escada quando a velocidade virou grandeza própria com dono. A sobretaxa deixa de incidir, e os valores abaixo são os limpos.
+
+| Ficha | Rank | RC limpa | Custo mínimo | Proporção contra a raiz | Custo de XP |
 |---|---|---|---|---|---|
 | Chidori | A | 750 | 250 | 1,00 | 8.750 |
 | Chidori Katana | A | 750 | 250 | 1,00 | 8.750 |
-| Chidori Nagashi | A | 900 | 300 | 1,20 | 11.000 |
-| Chidori Senbon | A | 900 | 300 | 1,20 | 11.000 |
-| Chidori Eisō | A | 900 | 300 | 1,20 | 11.000 |
+| Chidori Nagashi | A | 783 | 261 | 1,04 | 11.000 |
+| Chidori Senbon | A | 783 | 261 | 1,04 | 11.000 |
+| Chidori Eisō | A | 783 | 261 | 1,04 | 11.000 |
 | Takemikazuchi | S | 1.650 | 250 | 2,20 | 21.800 |
-| Raikiri | S | 1.800 | 600 | 2,40 | 23.600 |
+| Raikiri | S | 1.500 | 500 | 2,00 | 23.600 |
 
-Alterar a raiz obriga a percorrer a coluna inteira, porque a proporção é o que mantém a distância entre os degraus.
+Alterar a raiz obriga a percorrer a coluna inteira, porque a proporção é o que mantém a distância entre os degraus. A raiz permanece intocada em 750, e é por isso que a limpeza da coluna não move a escada inteira.
 
-Três entradas ocupam a mesma RC nominal e o mesmo preço, e a coincidência é estrutural. Irradiar a reunião pelo corpo, fragmentá-la em agulhas e alongá-la em haste são remodelagens do mesmo volume, e a escolha entre elas é de eixo e não de orçamento. O Chidori Katana fica um degrau abaixo delas porque não remodela nada: o volume é o mesmo da raiz e a lâmina empresta a forma que a moldagem teria de produzir.
+Três entradas ocupam a mesma RC limpa e o mesmo preço, e a coincidência é estrutural. Irradiar a reunião pelo corpo, fragmentá-la em agulhas e alongá-la em haste são remodelagens do mesmo volume, e a escolha entre elas é de eixo e não de orçamento. O Chidori Katana fica um degrau abaixo delas porque não remodela nada: o volume é o mesmo da raiz e a lâmina empresta a forma que a moldagem teria de produzir.
 
-O Raikiri é o dobro da reunião fechado sobre a mesma superfície, e a proporção de 2,40 sai da sobretaxa do Perfil Veloz aplicada sobre esse dobro. Ele e o Kirin custam o mesmo em XP, e a escolha entre os dois é de eixo e não de orçamento.
+O Raikiri é o dobro exato da reunião fechado sobre a mesma superfície, e a proporção de 2,00 é o que sobra quando a sobretaxa sai. A proporção anterior de 2,40 media o dobro somado à sobretaxa, e ela media duas coisas ao mesmo tempo. Ele e o Kirin custam o mesmo em XP, e a escolha entre os dois é de eixo e não de orçamento.
+
+Os custos de XP não se movem, porque o preço de ficha publicada não retroage sobre quem já pagou e a apuração de cada entrada segue o que a Seção 4.1.1 do Manual de Jutsus fixou.
 
 O Takemikazuchi é a única entrada da linhagem cujo custo mínimo não é a terça parte da RC nominal. A parcela de 900 vem do olho e não da reserva, e a terça parte incide apenas sobre os 750 que o executante paga, na mesma via que o Kirin já usa com a tempestade. O freio dessa entrada nunca foi o chakra, e sim o medidor do Mangekyō.
 
@@ -137,15 +145,23 @@ O Takemikazuchi é a única entrada da linhagem cujo custo mínimo não é a ter
 
 Cada entrada da linhagem move um eixo e apenas um. A tabela é o contrato da família, e ficha nova que não consiga nomear um eixo livre não entra.
 
-| Ficha | Eixo movido | coef_entrega | Perfil de Evasão | Investida | Perfuração |
-|---|---|---|---|---|---|
-| Chidori | base, ponto único entregue por investida | 0,20 | Veloz | sim | integral |
-| Raikiri | custo e precisão, densidade dobrada sem carga | 0,20 | Veloz | sim | integral |
-| Chidori Katana | entrega, da mão para o condutor empunhado | 0,16 | Padrão | não | integral |
-| Chidori Nagashi | forma, de ponto para área irradiada do corpo | 0,12 | Inevitável | não | nenhuma |
-| Chidori Senbon | forma, de ponto para projéteis fragmentados | 0,13 | Veloz | não | nenhuma |
-| Chidori Eisō | alcance, de contato para haste dirigida | 0,16 | Padrão | não | por distância |
-| Takemikazuchi | persistência, do golpe instantâneo para a marca que continua queimando | 0,20 | Veloz | sim | integral |
+| Ficha | Eixo movido | coef_entrega | Vetor | mult_Tipo | Perfil de Evasão | Investida | Perfuração |
+|---|---|---|---|---|---|---|---|
+| Chidori | base, ponto único entregue por investida | 0,20 | Penetração VI | 1,40 | Padrão | sim | integral |
+| Raikiri | custo e precisão, densidade dobrada sem carga | 0,20 | Penetração VI | 1,40 | Padrão | sim | integral |
+| Chidori Katana | entrega, da mão para o condutor empunhado | 0,16 | Corte | 1,40 | Padrão | não | integral |
+| Chidori Nagashi | forma, de ponto para área irradiada do corpo | 0,12 | Energia elétrica | 1,75 | Inevitável | não | nenhuma |
+| Chidori Senbon | forma, de ponto para projéteis fragmentados | 0,13 | Penetração | 1,40 | Padrão | não | nenhuma |
+| Chidori Eisō | alcance, de contato para haste dirigida | 0,16 | Penetração | 1,40 | Padrão | não | por distância |
+| Takemikazuchi | persistência, do golpe instantâneo para a marca que continua queimando | 0,20 | Penetração VI | 1,40 | Padrão | sim | integral |
+
+**O vetor é propriedade da obra e não se herda dentro da família.** A Assinatura se lê dele, e é por isso que a linhagem resolve em dois multiplicadores diferentes. As entradas que concentram a corrente num ponto ou num fio entregam Penetração, cuja Assinatura vale 1,00, e resolvem em 1,40. O Chidori Nagashi irradia a corrente pelo corpo inteiro sem concentrá-la, entrega Energia elétrica, e é a única da família que conserva o 1,75. O Chidori Katana entrega Corte, cuja Assinatura também vale 1,00.
+
+O valor de 1,75 que a família publicava em bloco vinha de ler a Assinatura do elemento em vez do vetor, leitura que o Sistema Elemental já não sustentava desde a v8. A correção derruba o dano das entradas de Penetração em vinte por cento e não toca o Chidori Nagashi.
+
+O grau da escada de Penetração está declarado onde a ficha o fixou. O Chidori Senbon e o Chidori Eisō ainda não declaram grau próprio, e a conferência deles pertence ao repasse do corpus.
+
+O degrau Veloz saiu da escada de Perfil de Evasão, e as entradas que o carregavam passam a Padrão. A dificuldade de sair da frente delas vem da Velocidade da obra, celeridade 150 do Raiton, que é grandeza própria com dono e enfrenta a esquiva no teste de conexão.
 
 O Takemikazuchi acrescentou um quinto eixo à grade que a linhagem operava. Os quatro primeiros, forma, alcance, entrega e a troca entre dano bruto e controle, descrevem o que a técnica faz no instante do golpe. A persistência descreve o que ela deixa depois dele, e nenhuma outra entrada da família ocupava esse espaço. O eixo fica declarado aqui para que uma sexta ficha não o reivindique sem ver que ele já tem dono.
 

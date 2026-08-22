@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.rasengan
 title: "Rasengan (螺旋丸)"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
@@ -67,8 +67,10 @@ A superfície atingida guarda a assinatura da técnica. O ponto de contato fica 
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 600
+- **RC nominal:** 600, limpa
 - **Custo mínimo:** 200
+- **Vetor:** Impacto. A rotação transfere o giro ao corpo atingido e o mói por força distribuída sobre a superfície de contato, sem separar tecido ao longo de uma linha e sem alterar o estado dele
+- **Riders:** nenhum. O vetor Impacto não tem rider estrutural publicado, e a técnica não declara rider próprio
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 0
 - **Assinatura selada:** dispensada, porque a contagem de referência já é zero
@@ -86,29 +88,39 @@ A superfície atingida guarda a assinatura da técnica. O ponto de contato fica 
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 600 × 0,20 × 1,00 + LV_CC² × 2,5 × 3,0
-dano = 120 + LV_CC² × 7,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 600 × 0,20 × 1,00 × M
+dano bruto = 600 × M
+
+M = 1 + 1,5 × (P − 122) ÷ 122          piso de M: 0,5
 ```
 
-O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único. O coeficiente técnico 3,0 corresponde à técnica que existe pela moldagem, o valor máximo da tabela. O multiplicador de tipo 1,00 corresponde à ausência de natureza elemental.
+O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único. **O coeficiente técnico permanece em 3,0**, o da técnica que existe pela moldagem, e resolve o `w` em 1,5, o maior peso de maestria que o sistema publica. A errata antiga que propunha descê-lo para 2,4 fica revogada: ela nasceu para conter um termo de maestria somado que dominava o resultado em técnica pequena, e o motor multiplicativo tornou a contenção desnecessária, porque a maestria passou a escalar a base em vez de competir com ela.
 
-A assimetria resultante é a tese da técnica. O termo de conversão contribui com 120 de dano em qualquer executante, e o termo de maestria contribui de 188 a 480 conforme o refinamento, de modo que a técnica pertence a quem moldou e não a quem acumulou.
+O `mult_Tipo` de 1,00 corresponde à ausência de natureza elemental. A Constante de Moldagem não incide em técnica sem natureza, e a Assinatura do vetor Impacto vale 1,00.
+
+A perícia governante é o Controle de Chakra, e o `P_ref` de 122 é o do rank B.
+
+A assimetria resultante continua sendo a tese da técnica, agora expressa no peso do `w`. Com 1,5, o Rasengan é a obra do sistema em que a mão mais importa: cada ponto de distância do `P` até a referência move o dano uma vez e meia, e a técnica pertence a quem moldou e não a quem acumulou.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Elite, PV 1.440, na faixa correspondente ao rank B.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Controle de Chakra | M | Dano | % PV do par |
 |---|---|---|---|
-| 5, piso do degrau Absoluto | 188 | 308 | 21% |
-| 6 | 270 | 390 | 27% |
-| 6 com 1 caminho | 368 | 488 | 34% |
-| 6 com 2 caminhos | 480 | 600 | 42% |
+| 64 | 0,500, no piso | 300 | 21% |
+| 122, referência do rank | 1,000 | 600 | 42% |
+| 148 | 1,320 | 792 | 55% |
+| 180 | 1,713 | 1.028 | 71% |
 
-O Rasengan alcança o tier Forte pleno apenas na mão de quem fechou o LV6, o que reproduz a história canônica da técnica. O executante que cumpriu o degrau Absoluto por soma de caminhos no LV5 entrega uma técnica funcional e abaixo do tier do próprio rank, e a diferença fecha com o nível.
+O Rasengan alcança o piso do próprio rank apenas na mão de quem chegou à referência, o que reproduz a história canônica da técnica. Quem molda abaixo dela cai no piso do `M` e entrega uma técnica funcional e abaixo do rank, e a diferença fecha com o nível.
+
+Na referência do rank a técnica entrega 42% do par, acima do piso de 40% do rank A e abaixo do piso de 65% do rank S, que é o teto anti-inflação do rank B. Ela é a obra que mais entrega acima do próprio rank em todo o manual, e a razão é o coeficiente técnico de 3,0: a moldagem é a técnica inteira. O preço disso aparece na régua de XP, onde a posição por entrega satura, e não no motor.
 
 ---
 

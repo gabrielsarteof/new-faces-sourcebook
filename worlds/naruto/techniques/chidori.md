@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori
 title: "Chidori (千鳥)"
-version: 4
+version: 5
 layer: scenario
 scenario: naruto
 type: technique
@@ -62,12 +62,16 @@ A ativação da carne que precede a reunião do chakra é visível a quem observ
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 750, acrescida de 1 Limite de Saída por turno de carga adicional, até 3 turnos
+- **RC nominal:** 750, limpa, acrescida de 1 Limite de Saída por turno de carga adicional, até 3 turnos
+- **Vetor:** Penetração, Grau VI
+- **Riders:** Perfuração como rider estrutural do vetor; Paralisia Parcial declarada no lugar do rider padrão de Hemorragia de Trajeto, porque a descarga cauteriza o canal que abre
 - **Custo mínimo:** 250
 - **Custo de PS:** 30 por execução, referentes à ativação da carne, acrescidos de 60 por turno de carga adicional, e somados ao PS que o desperdício do executante já cobra pela régua do Controle de Chakra [proposta nos dois valores]
 - **Selos de referência:** 3
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Veloz, com a sobretaxa da escada já embutida na RC nominal publicada
+- **Velocidade:** Raiton, celeridade 150, sem desvio declarado
+- **Posição elemental:** declarada por linha nas tabelas de carga, porque é ela que fixa a largura do Limite de Saída
+- **Perfil de Evasão:** Padrão. A ficha carregava o degrau Veloz por ser de raio, e o degrau saiu da escada quando a velocidade virou grandeza própria; a sobretaxa de quinze por cento deixa de incidir e a RC nominal publicada passa a ser a limpa
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** janela de canalização, seguida de investida imediata em linha reta, com opção de 1 a 3 turnos de carga antes da entrega
 - **Restrições:** corpo a corpo, alvo único, linha de deslocamento livre até o alvo
@@ -79,36 +83,46 @@ A ativação da carne que precede a reunião do chakra é visível a quem observ
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = RC nominal × 0,20 × 1,75 + LV_CC² × 2,5 × 2,0
-dano = RC nominal × 0,35 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × RC_limpa × 0,20 × 1,40 × M
+dano bruto = 1,40 × RC_limpa × M
+
+M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
-O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único. O coeficiente técnico 2,0 corresponde à dependência alta, em que a moldagem é o mecanismo central da técnica.
+O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único. O coeficiente técnico 2,0 corresponde à dependência alta, em que a moldagem é o mecanismo central da técnica, e resolve o `w` em 1,0.
 
-A carga adicional escala apenas o componente de RC nominal. O Fator de Moldagem permanece fixo para cada executante, porque ele mede maestria e não volume investido.
+O `mult_Tipo` de 1,40 é a Constante de Moldagem multiplicada pela Assinatura do vetor declarado. Esta técnica entrega Penetração, cuja Assinatura vale 1,00, e não Energia elétrica. **O valor de 1,75 que a ficha publicava antes é o produto do Raiton entregue como Energia**, e ele foi transcrito quando a Assinatura ainda se lia do elemento. A Assinatura se lê do vetor que a obra declara, e por isso duas obras da mesma linhagem resolvem em multiplicadores diferentes sem que nenhuma seja exceção.
+
+A perícia governante é o Raiton, e o `P` é o atributo regente somado à Base Total, à Inclinação Total e à Especialização dela. O `P_ref` de 148 é o do rank A.
+
+A carga adicional escala apenas o componente de RC limpa. O `M` permanece o mesmo para cada executante, porque ele mede maestria e não volume investido.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, na faixa correspondente ao rank A.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano | % PV do par |
 |---|---|---|---|
-| 5, entrada | 125 | 388 | 27% |
-| 6 | 180 | 443 | 31% |
-| 6 com 1 caminho | 245 | 508 | 35% |
-| 6 com 2 caminhos | 320 | 583 | 40% |
+| 122 | 0,824 | 866 | 45% |
+| 148, referência do rank | 1,000 | 1.050 | 55% |
+| 180 | 1,216 | 1.277 | 67% |
 
-A carga escala por reserva e não por maestria, e por isso é publicada em tabela separada, indexada ao Limite de Saída do executante. Os valores abaixo assumem LV_CC 6.
+A carga escala por reserva e não por maestria, e por isso é publicada em tabela separada, indexada ao Limite de Saída do executante. A largura do cano se lê da posição dele no Raiton, e por isso a posição é coluna e não nota. Os valores abaixo assumem `P` 148 e uma reserva de 2.211.
 
-| LS do executante | Sem carga | +1 turno | +2 turnos | +3 turnos |
-|---|---|---|---|---|
-| 442 | 443 | 597 | 752 | 907 |
-| 700 | 443 | 688 | 933 | 1.178 |
+| Posição no Raiton | LS | Sem carga | +1 turno | +2 turnos | +3 turnos |
+|---|---|---|---|---|---|
+| Afinidade | 553 | 1.050 | 1.824 | 2.598 | 3.373 |
+| Compatibilidade | 442 | 1.050 | 1.669 | 2.288 | 2.906 |
+| Natureza aprendida | 332 | 1.050 | 1.515 | 1.980 | 2.444 |
 
-O executante de LS 442 alcança 41%, 52% e 63% do par Elite nos três turnos de carga. O de LS 700 alcança 36%, 49% e 61% do par Especial de PV 1.920.
+Contra o par Especial, o executante de Afinidade alcança 95%, 135% e 176% nos três turnos de carga, o de Compatibilidade alcança 87%, 119% e 151%, e o de natureza aprendida alcança 79%, 103% e 127%. A distância entre as três linhas é a vocação medida em vazão, e ela cresce a cada turno de carga porque o cano mais largo despeja mais por turno.
+
+A técnica sem carga entrega 55% do par contra um piso de rank A de 40%, e passa. A carga não tem teto anti-inflação que a policie, porque o rank A não tem rank duas casas acima, e o que a limita é o preço em turnos de exposição que a investida cobra.
 
 ---
 
@@ -116,7 +130,7 @@ O executante de LS 442 alcança 41%, 52% e 63% do par Elite nos três turnos de 
 
 A perfuração de Absorção do Chidori é lida do efeito Fio Concentrado do caminho Ponta, que a resolve em 30% no LV4, 36% no LV5 e 43% no LV6. A técnica não declara perfuração própria, porque a competência pertence ao caminho que a gateia. A transcendência Raio Seco revoga a leitura por completo, e contra técnicas de Relâmpago entregues por contato a Absorção do alvo não se aplica em grau algum.
 
-O Perfil de Evasão Veloz reduz em 25% a esquiva do alvo, e em 40% no primeiro uso do combate contra cada alvo. A vantagem do primeiro uso se perde depois que a investida é vista.
+O Perfil de Evasão Padrão não desconta a esquiva do alvo. A dificuldade de sair da frente desta técnica vem da Velocidade da obra, celeridade 150 do Raiton, que enfrenta a esquiva no teste de conexão do Núcleo de Combate, e não de um degrau da escada de evasão. A vantagem de surpresa do primeiro uso, que o degrau Veloz concedia, sai junto com ele: quem nunca viu a investida enfrenta o mesmo teste de quem já a viu.
 
 ---
 
@@ -167,7 +181,7 @@ O Chidori não possui aftermath. O limite diário que o cânone registra decorre
 | Caminho Lança adquirido | abre o Chidori Eisō |
 | Caminho Arco adquirido | abre o Chidori Nagashi |
 | Moldagem Absoluta, Raiton LV6 | abre o Raikiri |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
+| Raiton com P 148 ou mais | `M` em 1,00 ou acima, com o dano subindo junto |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 | Caminho Refino | custo pago no mínimo de 250, sem PS de desperdício |
 
