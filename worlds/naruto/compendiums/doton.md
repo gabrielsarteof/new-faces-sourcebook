@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.doton
 title: "Compêndio de Doton (土遁)"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Doton_v2-1.md
 ---
 
-# Compêndio de Doton (土遁) · v2.6
+# Compêndio de Doton (土遁) · v2.7
 **Liberação de Terra**
 
 **O que mudou na v2.4.** Primeira auditoria completa da Exigência de Moldagem: as 34 entradas, que já carregavam degrau nomeado, passaram a número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas [PROPOSTA] mantêm veto pendente de Gabriel, já registrado na seção de Pendências de Aprovação, e a Exigência delas herda a mesma incerteza. Este compêndio segue fora de norma pela Norma de Produção de Compêndios §13 — carrega os seis blocos normativos que a v2.7 da Norma já centralizou noutro lugar — e essa reemissão não foi feita nesta passada, por ser trabalho de forma e não de conteúdo.
@@ -21,6 +21,8 @@ Catálogo das técnicas nomeadas do elemento terra. Cada entrada informa o nome 
 **O que mudou na v2.6.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**O que mudou na v2.7.** As entradas passam a declarar o vetor de entrega e a celeridade do meio. Doze entradas receberam vetor: onze em Impacto, a família de esmagamento e arremesso de rocha, e uma em Penetração, as Lanças Ascendentes de Terra, cuja perfuração individual a própria entrada declara. Vinte e duas não receberam vetor por não entregarem dano direto, entre elas as três técnicas de aprisionamento (Decapitação do Suicídio Duplo, Cúpula de Terra da Natureza Magnífica, Cúpula de Pedra), que imobilizam sem descrever golpe, e o par de manipulação de peso, Kajūgan e Keijūgan, que altera massa sem ferir por si. Nenhuma entrada subiu para a fila de decisão. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis, o portão de rank e a escada de porte são da Perícia de Doton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Imobilização e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
 
@@ -139,6 +141,7 @@ O usuário golpeia o solo com as mãos e ergue diante de si uma laje compacta de
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Doton LV2 · Moldagem 32
+**Vetor:** Impacto · Celeridade 70
 **XP:** 600
 **Execução:** Moldagem de Solo
 
@@ -167,6 +170,7 @@ O usuário nada pelo interior do solo como um peixe pela água, deslocando-se em
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 46 · formação rochosa suspensa
+**Vetor:** Impacto · Celeridade 70
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.120
@@ -181,6 +185,7 @@ O usuário infunde chakra em formação rochosa suspensa, como teto de caverna, 
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 44
+**Vetor:** Impacto · Celeridade 70
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.120
@@ -195,6 +200,7 @@ O usuário pressiona a palma contra o chão e faz o solo ao redor do alvo se rom
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 50
+**Vetor:** Penetração, Grau III · Celeridade 70
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **XP:** 2.120
@@ -235,6 +241,7 @@ O usuário converte uma área ampla de solo em funil giratório de terra solta, 
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 54
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 1.775
 **Execução:** Moldagem de Solo
 
@@ -263,6 +270,7 @@ O usuário ergue diante de si uma muralha maciça de terra, por moldagem direta 
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 58
+**Vetor:** Impacto · Celeridade 70
 **XP:** 5.300
 **Execução:** Moldagem de Solo
 
@@ -289,6 +297,7 @@ O usuário liquefaz o solo sob o oponente e o converte em correnteza de lama que
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 40
+**Vetor:** Impacto · Celeridade 70
 **XP:** 5.300
 **Execução:** Moldagem de Solo
 
@@ -331,6 +340,7 @@ A técnica é a forma comum do fechamento de abóbada, ensinada onde quer que o 
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 54
+**Vetor:** Impacto · Celeridade 70
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 6.200
@@ -399,6 +409,7 @@ Dois ou mais executantes rompem e erguem camadas inteiras do subsolo em moviment
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 50 · leito rochoso contínuo
+**Vetor:** Impacto · Celeridade 70
 **XP:** 4.625
 **Execução:** Moldagem de Solo
 
@@ -443,6 +454,7 @@ O usuário converte uma extensão vasta de terreno em pântano de lama profunda 
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV5 · Moldagem 84 · Punho de Rocha · Caminho Carne de Pedra
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 12.800
 **Execução:** Expelida
 
@@ -489,6 +501,7 @@ O usuário assume controle contínuo do leito rochoso sob o campo e o move à vo
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV6 · Moldagem 54 · leito rochoso contínuo · Caixão de Rocha · Caminho Encosta transcendido
+**Vetor:** Impacto · Celeridade 70
 **XP:** 38.000
 **Execução:** Moldagem de Solo
 
@@ -501,6 +514,7 @@ O usuário ergue do leito da terra duas formações rochosas do porte de montanh
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
 **Requisitos:** Doton LV6 · Moldagem 92 · Rocha de Peso Adicionado
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 27.500
 **Execução:** Expelida
 
