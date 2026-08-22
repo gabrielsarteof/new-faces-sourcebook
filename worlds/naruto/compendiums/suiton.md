@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.suiton
 title: "Compêndio de Suiton (水遁)"
-version: 3.6
+version: 3.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Suiton_v3_1.md
 ---
 
-# Compêndio de Suiton (水遁) · v3.6
+# Compêndio de Suiton (水遁) · v3.7
 **Liberação de Água**
 
 **O que mudou na v3.4.** A Exigência de Moldagem de todas as 35 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. As últimas três — Espelho de Água, Torrente Dilaceradora e Prisão do Mar Profundo, que a auditoria original registrava como pendentes de nome no índice — não tinham correspondência publicada e foram resolvidas por leitura própria contra as âncoras de calibragem do domínio: Torrente Dilaceradora pareada com a Bala Presa de Água pela mesma descrição de vórtice em rotação violenta; Espelho de Água ancorada nos B-rank mais altos do domínio, porque a própria entrada já declarava a propriedade de tolerância zero a excesso de volume; Prisão do Mar Profundo, capstone proposto e fechado na criação, ancorada perto do Kirin do Raiton, abaixo do teto elemental do Daikōdan. As três têm ancoragem canônica mais fraca que o restante do compêndio, por serem ATRIBUÍDO ou PROPOSTA sem par espelho em outro elemento.
@@ -17,6 +17,8 @@ source-file: Compendio_Suiton_v3_1.md
 **Correção na v3.5.** A v3.4 declarava as 35 entradas convertidas e oito não estavam: Grande Braço de Água, Chuva do Tigre à Vontade, Técnica da Grande Cachoeira, Onda Cortante de Água, Chicotes do Dragão de Água, Grande Onda Explosiva de Colisão, Mil Tubarões Famintos e Grande Bala Tubarão continuavam com o degrau nomeado da régua já revogada. Resolvidas agora pela mesma banda rank+degrau-antigo cruzada contra os compêndios já fechados que fechou o Doton do zero, com o próprio domínio como âncora primária: Grande Braço de Água (Alta) 64 e Chuva do Tigre à Vontade (Refinada) 76 entre os B-rank já publicados do domínio (40–82); Técnica da Grande Cachoeira (Básica) 43 e Grande Onda Explosiva de Colisão (Básica) 42, cada uma escalada acima da respectiva irmã de Rank B na mesma família — Técnica da Bacia da Cachoeira 42 e Onda Explosiva de Colisão 40 — sem cruzar o teto de 44 que fecha o degrau Básica; Chicotes do Dragão de Água (Refinada) 78, no meio da banda que Raiton e Ninjutsu Médico calibram para A-rank de utilidade; Mil Tubarões Famintos (Refinada) 82, ecoando o par temático com Mil Agulhas Voadoras da Morte; e Grande Bala Tubarão — o Daikōdan que o próprio texto da v3.4 já citava como teto elemental acima de Prisão do Mar Profundo — em 104, acima dos 100 de Prisão e alinhado ao grupo de tetos de Rank S que Inton, Yōton e Ninjutsu Médico publicam na mesma faixa. Nenhuma das oito tem par espelho direto fora do domínio, e a ancoragem é mais fraca que a das 27 já fechadas na v3.4.
 
 Catálogo das técnicas nomeadas do elemento água. Cada entrada informa o nome em português, o nome em japonês com romanização, a etiqueta editorial com o rank, a camada de acesso, os requisitos de ficha, o preço estimado em pontos de experiência, o grupo de execução e a descrição da técnica.
+
+**O que mudou na v3.7.** As entradas passam a declarar o vetor de entrega e o grau do Fio quando aplicável. Vinte entradas receberam vetor: treze em Impacto, a família de volume bruto e pressão; dois em Corte, a família de lâmina de água (Lâmina Cortante e Onda Cortante, esta última no Grau IV por atravessar rocha maciça); cinco em Penetração, a família de agulha e presa. Quinze entradas não receberam vetor por não entregarem dano, entre elas as duas prisões, Suirō e Prisão do Mar Profundo, que imobilizam e privam de ar sem descrever golpe algum, e o Espelho de Água, que devolve o vetor do próprio atacante e não carrega um vetor fixo dele. Nenhuma entrada subiu para a fila de decisão: o domínio separa Impacto, Corte e Penetração pela própria prosa com mais nitidez que Katon e Fūton. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 **O que mudou na v3.6.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
@@ -95,6 +97,7 @@ O usuário cobre a área ao redor com névoa densa impregnada de chakra, erguida
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV2 · Moldagem 56
+**Vetor:** Penetração, Grau IV
 **Execução:** Expelida
 **XP:** 480
 
@@ -175,6 +178,7 @@ O usuário expele pela boca uma corrente de água de altíssima viscosidade, imp
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 34
+**Vetor:** Impacto
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
 **Execução:** Expelida
@@ -189,6 +193,7 @@ O usuário converte chakra em água no interior do corpo e a expele pela boca em
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 44
+**Vetor:** Impacto
 **Execução:** Expelida
 **XP:** 1.430
 
@@ -201,6 +206,7 @@ O usuário comprime água no interior do corpo e a dispara pela boca como esfera
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 58
+**Vetor:** Corte, Grau III do Fio
 **Execução:** Expelida
 **XP:** 1.430
 
@@ -243,6 +249,7 @@ O usuário reúne em torno do corpo uma camada de gotas suspensas e as alinha at
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 52
+**Vetor:** Impacto
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -267,6 +274,7 @@ O usuário expele água pela boca ou a ergue do terreno ao redor, formando mural
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Requisitos:** Suiton LV4 · Moldagem 60
+**Vetor:** Impacto
 **Execução:** Moldagem de Fonte
 **XP:** 4.625
 
@@ -279,6 +287,7 @@ O usuário molda a água de uma fonte na forma de um tubarão que avança contra
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV4 · Moldagem 74
+**Vetor:** Impacto
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -291,6 +300,7 @@ O usuário toca a superfície da água com a mão aberta e libera cinco tubarõe
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 58
+**Vetor:** Penetração, Grau III
 **Execução:** Moldagem de Fonte
 **XP:** 4.625
 
@@ -329,6 +339,7 @@ O usuário converte grande quantidade de chakra em água e a despeja no terreno,
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 82 · água existente ao redor do alvo
+**Vetor:** Penetração, Grau IV
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -341,6 +352,7 @@ O usuário ergue a água do ambiente ao redor do alvo e a molda em mil agulhas l
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Requisitos:** Suiton LV4 · Moldagem 40
+**Vetor:** Impacto
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **Execução:** Expelida
@@ -367,6 +379,7 @@ O usuário ergue diante de si superfície vertical de água perfeitamente lisa, 
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 58
+**Vetor:** Impacto
 **Execução:** Expelida
 **XP:** 3.950
 
@@ -379,6 +392,7 @@ O usuário concentra água em rotação violenta na palma da mão e a descarrega
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Suiton LV4 · Moldagem 64
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **Execução:** Expelida
 **XP:** 5.300
 
@@ -409,6 +423,7 @@ O usuário ergue nuvem de chuva com o próprio chakra e mantém a precipitação
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV5 · Moldagem 43
+**Vetor:** Impacto
 **Execução:** Moldagem de Fonte
 **XP:** 12.800
 
@@ -421,6 +436,7 @@ O usuário ergue de uma fonte de água coluna espiral colossal, que desaba sobre
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV5 · Moldagem 86 · Caminho Agulha das Profundezas
+**Vetor:** Corte, Grau IV do Fio
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **Execução:** Expelida
@@ -435,6 +451,7 @@ O usuário expele pela boca jato contínuo de água comprimida a pressão extrem
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Suiton LV5 · Moldagem 78 · água selada em pergaminho
+**Vetor:** Penetração, Grau III
 **Execução:** Moldagem de Fonte
 **XP:** 11.000
 
@@ -447,6 +464,7 @@ O usuário ergue de uma fonte próxima orbe central de água do qual partem múl
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Suiton LV5 · Moldagem 42
+**Vetor:** Impacto
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **Execução:** Expelida
@@ -465,6 +483,7 @@ O usuário expele volume de água de escala geográfica, que se expande em todas
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV6 · Moldagem 82 · Caminho Cachoeira
+**Vetor:** Impacto
 **Execução:** Expelida
 **XP:** 38.000
 
@@ -477,6 +496,7 @@ O usuário forma diante de si parede d'água da qual irrompem mil tubarões em m
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV6 · Moldagem 104 · Caminho Muralha Viva
+**Vetor:** Impacto
 **Execução:** Expelida
 **XP:** 32.000
 
@@ -489,6 +509,7 @@ O usuário molda um tubarão de água de porte colossal que avança contra a té
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Suiton LV6 · Moldagem 100 · Caminho Câmara de Água transcendido
+**Vetor:** Impacto
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **Execução:** Moldagem de Fonte
