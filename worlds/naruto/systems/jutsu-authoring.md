@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 3
+version: 3.1
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_7.md, mais o Consolidado do motor de jutsus, o Núcleo de Combate v3 e a Errata E1 v2
 ---
 
-# Manual de Criação de Jutsus · v3
+# Manual de Criação de Jutsus · v3.1
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.3.**
 
@@ -341,11 +341,13 @@ A seção 4.1.1 apura o XP a partir da RC nominal, e por isso só funciona depoi
 
 **Quando se usa.** Enquanto a técnica não possuir ficha individual com RC nominal apurada. Publicada a ficha, a apuração da 4.1.1 substitui a estimativa.
 
-**O que a estimativa mede.** O consumo de reserva, que é a mesma grandeza que a RC nominal mede. A leitura é feita sobre a descrição canônica da técnica, respondendo três perguntas.
+**O que a estimativa mede.** Não o volume de reserva que a obra consome, e sim a entrega que ela produz e a resposta que impõe ao par. A leitura é feita sobre a descrição canônica da técnica, respondendo três perguntas.
 
-Quanta matéria a técnica põe em campo, indo de nenhuma a um construto, a vários, a uma massa e a um campo inteiro. Por quanto tempo ela cobra, indo de instantânea a sustentada, a persistente depois da execução, a permanente até o fim da cena. Quantas coisas ela faz ao mesmo tempo, indo de um efeito a um efeito com rider elevado, a dois efeitos, a efeito somado a terreno que habilita o restante do arsenal.
+Quanto do par a obra derruba quando conecta, indo de arranhão a ferimento sério, a golpe que decide a troca, a golpe que decide a luta. O que ela obriga o par a gastar para não ser simplesmente absorvida, indo de nada além do turno a PS ou meia ação, a uma ação inteira ou camada suprimida, a recurso que o par típico não carrega garantido. O que sobra dela no campo depois de resolvida, indo de nada a marca que dura a cena, a terreno que muda a leitura do combate.
 
-**A moldagem não entra na estimativa.** O degrau de Controle de Chakra já foi pago na compra daquela perícia, e cobrá-lo de novo na técnica é taxar a mesma dificuldade duas vezes. A leitura publicada na 4.1.1 sustenta isso ao explicar o Chidori, que fica junto ao piso do rank A porque o poder dele vem de uma moldagem barata para quem já carrega a perícia, e não da reserva que ele queima.
+As três perguntas leem o mesmo eixo que a Régua de Resposta abaixo formaliza em cinco degraus, e é essa convergência que permite às duas vias, a ofensiva e a útil, produzirem posição pela mesma matriz.
+
+**O coeficiente técnico entra na estimativa, o nível do executor não.** O que a leitura nunca taxa é o investimento do jogador na perícia de Controle de Chakra, porque o executor de referência é fixo por rank e o mesmo para qualquer comprador. O que ela taxa, pelo modificador abaixo, é o quanto a obra em si depende de moldagem para existir, propriedade da ficha e não do personagem. As duas coisas não são a mesma taxa cobrada duas vezes: uma é do jogador, paga na perícia, e a outra é da técnica, paga no preço dela.
 
 #### Posição por entrega, para técnicas ofensivas
 
@@ -411,6 +413,8 @@ O cruzamento entre rank e degrau produz o valor diretamente, sem cálculo em mes
 | S | 23.000 | 27.500 | 32.000 | 38.000 | 45.500 |
 
 **Nenhuma técnica passa pelas duas réguas inteiras.** A técnica mista precifica pela via ofensiva com o rider dentro, e o efeito que não deriva do dano soma pelo extra de comportamento da seção 4.1.2.
+
+As duas réguas leem o mesmo eixo que o segundo critério de validação da Seção 5.2 já cobra, o de que toda ofensiva de rank D ou superior precisa custar ao par mais do que a resposta defensiva mais barata dele. A posição por entrega mede isso diretamente contra o par; a Régua de Resposta mede o mesmo por descrição, perguntando o que o par gasta para não ser simplesmente absorvido. Uma técnica que a Régua de Resposta posiciona no degrau 1 e que ainda assim é rank D ou superior é candidata a falhar aquele critério, e a divergência é da entrada, não da régua.
 
 Kinjutsu fica fora da estimativa pela mesma razão que fica fora da interpolação, que é a ausência de teto. O custo é definido pelo Narrador, com o piso de 50.000 inviolável.
 
@@ -977,6 +981,8 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 
 ## 11. Registro de Alterações
 
+**v3.1.** RFC 5, opção C. A Seção 4.1.3 declarava medir "o consumo de reserva, que é a mesma grandeza que a RC nominal mede" e respondia três perguntas sobre volume em campo, duração e simultaneidade, herdadas da doutrina que a Fase D revogou. Nenhum mecanismo abaixo daquele parágrafo lia mais essas perguntas: a Posição por Entrega e a Régua de Resposta já liam entrega e resposta imposta ao par desde a v3, e o parágrafo de abertura tinha ficado órfão. Reescrito para declarar o que as duas vias efetivamente medem, com três perguntas novas sobre quanto do par a obra derruba, o que ela obriga o par a gastar para responder, e o que sobra dela em campo. Os cinco degraus, a matriz por rank, os modificadores de dependência e de campo, e a convivência com a apuração permanecem intactos. As duas réguas passam a se declarar explicitamente amarradas ao segundo eixo de validação da Seção 5.2. Nenhum preço mudou.
+
 **v3.** Quatro origens convergem numa escrita só, e é a versão que a leva de propagação de agosto exigia que não saísse em partes.
 
 *Do Lote de Tipos.* O `mult_Tipo` da Seção 5.3 deixa de ser um multiplicador por natureza e passa a ser a Constante de Moldagem multiplicada pela Assinatura do vetor que a obra declara. A Assinatura acompanha o vetor e nunca o elemento, de modo que o Raiton resolve em 1,75 quando entrega Energia elétrica e em 1,40 quando entrega Penetração. A Seção 5.4 passa a publicar vetor e rider como tendência da natureza, com a ficha de cada técnica declarando os dois e a técnica sem rider declarado não aplicando nenhum.
@@ -1060,7 +1066,7 @@ Nenhum valor publicado anteriormente foi alterado.
 
 ---
 
-*Manual de Criação de Jutsus v3, manual tradutor do cenário Naruto para o Manual de Criação
+*Manual de Criação de Jutsus v3.1, manual tradutor do cenário Naruto para o Manual de Criação
 de Poderes v3.3. Rank é o envelope canônico com aftermath a partir de A. Custo de chakra é
 absoluto em RC sob Limite de Saída lido da posição na natureza empregada, com custo efetivo por
 posição, separado em RC limpa, custo mínimo e custo pago. O dano é a instância local da forma de
