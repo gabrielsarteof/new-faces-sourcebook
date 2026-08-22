@@ -44,7 +44,9 @@ A entrada permanece indisponível enquanto o Chidori não tiver autor. Concluíd
 
 ## Custo de XP
 
-**Custo de XP:** 11.000
+**Custo de XP:** 4.000
+
+**Errata de preço.** O custo passa de 11.000 para 4.000 XP. A causa é mudança de régua e não de RC: a posição dentro da faixa do rank deixou de ser lida pelo volume de reserva e passou a ser lida pela entrega contra o par do rank, medida no executor de referência, com o modificador de coeficiente técnico pagando o peso da maestria fora da posição. A entrega desta obra fecha em 37,9% do par, o que a põe em 0% da faixa, e o modificador de 0,500 incide sobre o resultado. Quem já comprou a técnica não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
 
 ---
 

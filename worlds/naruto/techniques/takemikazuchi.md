@@ -49,7 +49,9 @@ A camada de acesso é Fechada na Criação. Nenhum personagem inicial a adquire 
 
 ## Custo de XP
 
-**Custo de XP:** 21.800
+**Custo de XP:** 22.143
+
+**Errata de preço.** O custo passa de 21.800 para 22.143 XP. A causa é mudança de régua e não de RC: a posição dentro da faixa do rank deixou de ser lida pelo volume de reserva e passou a ser lida pela entrega contra o par do rank, medida no executor de referência, com o modificador de coeficiente técnico pagando o peso da maestria fora da posição. A entrega desta obra fecha em 93,3% do par, o que a põe em 81,0% da faixa, e o modificador de 0,500 incide sobre o resultado. Quem já comprou a técnica não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
 
 ---
 

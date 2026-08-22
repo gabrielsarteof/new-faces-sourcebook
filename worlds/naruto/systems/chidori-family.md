@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chidori-family
 title: "Linhagem do Chidori"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: system
@@ -124,22 +124,26 @@ A RC limpa é grandeza publicada em si e não resíduo de conta, e por isso ela 
 | Ficha | Rank | RC limpa | Custo mínimo | Proporção contra a raiz | Custo de XP |
 |---|---|---|---|---|---|
 | Chidori | A | 750 | 250 | 1,00 | 8.750 |
-| Chidori Katana | A | 750 | 250 | 1,00 | 8.750 |
-| Chidori Nagashi | A | 800 | 267 | 1,07 | 9.500 |
-| Chidori Senbon | A | 800 | 267 | 1,07 | 9.500 |
-| Chidori Eisō | A | 800 | 267 | 1,07 | 9.500 |
-| Raikiri | S | 1.500 | 500 | 2,00 | 20.000 |
-| Takemikazuchi | S | 1.550 | 217 | 2,07 | 20.600 |
+| Chidori Katana | A | 750 | 250 | 1,00 | 6.533 |
+| Chidori Nagashi | A | 800 | 267 | 1,07 | 4.900 |
+| Chidori Senbon | A | 800 | 267 | 1,07 | 4.000 |
+| Chidori Eisō | A | 800 | 267 | 1,07 | 7.467 |
+| Raikiri | S | 1.500 | 500 | 2,00 | 12.143 |
+| Takemikazuchi | S | 1.550 | 217 | 2,07 | 22.143 |
 
 As três remodelagens tinham RC exata de 782,6 e publicam 800. O Takemikazuchi tinha 652,2 na parcela de reserva e publica 650, somados aos 900 do olho. O Raikiri publica 1.500 direto, valor decidido por hierarquia do Manual de Criação de Jutsus sobre a escada da família, sem passar pelo arredondamento. O Chidori e o Chidori Katana ficam intocados: a raiz nunca é tocada por esta errata, e o Katana já operava em Perfil Padrão, sem sobretaxa embutida para retirar.
 
 Alterar a raiz obriga a percorrer a coluna inteira, porque a proporção é o que mantém a distância entre os degraus. A raiz permanece intocada em 750, e é por isso que a limpeza da coluna não move a escada inteira.
 
-O custo de XP acompanha a RC, porque a apuração da Seção 4.1.1 do Manual de Criação de Jutsus interpola a posição da RC dentro da faixa do rank. Valor pago não retroage: quem comprou pelo preço anterior não deve diferença, e a correção vale dali em diante.
+O custo de XP não acompanha a RC. A posição dentro da faixa do rank se lê da entrega contra o par do rank, medida no executor de referência, e o modificador de coeficiente técnico paga o peso da maestria fora da posição. A leitura por volume de reserva, que precificava a linhagem inteira antes, é a que punha a raiz junto ao piso do rank A entregando mais da metade do par, e ela deixa de valer.
 
-Três entradas ocupam a mesma RC limpa de 800 e o mesmo preço, e a coincidência é estrutural. Irradiar a reunião pelo corpo, fragmentá-la em agulhas e alongá-la em haste são remodelagens do mesmo volume, e a escolha entre elas é de eixo e não de orçamento. O Chidori Katana fica um degrau abaixo delas porque não remodela nada: o volume é o mesmo da raiz e a lâmina empresta a forma que a moldagem teria de produzir.
+O Chidori conserva 8.750 por ser uma das três âncoras de calibração do sistema, escolhidas para não se mover porque é contra elas que o modificador foi aferido. As demais entradas são corpus normal e se corrigem. Quem já comprou não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
 
-O Raikiri é o dobro exato da reunião fechado sobre a mesma superfície, e a proporção de 2,00 é o que sobra quando a sobretaxa sai. A proporção anterior de 2,40 media o dobro somado à sobretaxa, e ela media duas coisas ao mesmo tempo. Ele custa 20.000, o piso exato da faixa de rank S, e a escolha entre ele e o Kirin é de eixo e não de orçamento.
+As três remodelagens compartilham RC, custo mínimo e proporção, e divergem no preço porque divergem no coeficiente técnico. A fragmentação do Senbon e a difusão do Nagashi aproveitam menos refinamento que a haste do Eisō, e o modificador cobra essa diferença onde ela existe.
+
+Três entradas ocupam a mesma RC limpa de 800, e a coincidência é estrutural. Irradiar a reunião pelo corpo, fragmentá-la em agulhas e alongá-la em haste são remodelagens do mesmo volume. A escolha entre elas continua sendo de eixo, e o preço agora as separa pelo quanto cada uma aproveita a moldagem. O Chidori Katana fica um degrau abaixo delas porque não remodela nada: o volume é o mesmo da raiz e a lâmina empresta a forma que a moldagem teria de produzir.
+
+O Raikiri é o dobro exato da reunião fechado sobre a mesma superfície, e a proporção de 2,00 é o que sobra quando a sobretaxa sai. A proporção anterior de 2,40 media o dobro somado à sobretaxa, e ela media duas coisas ao mesmo tempo. Ele custa 12.143, bem abaixo do Kirin, porque entrega 70% do par contra os 65% do piso de rank S e o coeficiente técnico dele fica abaixo do padrão daquele rank. A escolha entre os dois deixou de ser de orçamento equivalente.
 
 Os custos de XP não se movem, porque o preço de ficha publicada não retroage sobre quem já pagou e a apuração de cada entrada segue o que a Seção 4.1.1 do Manual de Jutsus fixou.
 
@@ -185,7 +189,7 @@ Três razões, em ordem de peso.
 
 **A autoria exige a cadeia.** A raiz está em Autoria Aberta e ninguém no mundo a completou. A ficha do Chidori declara que toda a linhagem de variações passa a existir a partir do momento em que a raiz ganha autor. Sem cadeia dura, uma variação poderia ser comprada antes de existir a técnica de que ela é a remodelagem, e o portão de autoria deixaria de valer.
 
-**A cadeia é o que precifica a família corretamente.** Uma variação isolada custa entre 8.750 e 23.600 de XP, valores que um jounin sustenta como assinatura única. O que a árvore cobra é a soma, e é ela que faz do especialista em Chidori uma escolha de carreira e não um item de lista de compras.
+**A cadeia é o que precifica a família corretamente.** Uma variação isolada custa entre 4.000 e 22.143 de XP, valores que um jounin sustenta como assinatura única. O que a árvore cobra é a soma, e é ela que faz do especialista em Chidori uma escolha de carreira e não um item de lista de compras.
 
 ### Diagrama de dependências
 
@@ -211,14 +215,16 @@ O valor da coluna acumulada inclui a raiz.
 | Aquisição | XP da entrada | XP acumulado |
 |---|---|---|
 | Chidori | 8.750 | 8.750 |
-| Chidori mais Chidori Katana | 8.750 | 17.500 |
-| Chidori mais uma remodelagem de 800 | 9.500 | 18.250 |
-| Chidori mais Raikiri | 20.000 | 28.750 |
-| Chidori mais Takemikazuchi | 20.600 | 29.350 |
-| Chidori mais as três remodelagens de 800 | 28.500 | 37.250 |
-| A árvore inteira | 77.850 | 86.600 |
+| Chidori mais Chidori Senbon | 4.000 | 12.750 |
+| Chidori mais Chidori Nagashi | 4.900 | 13.650 |
+| Chidori mais Chidori Katana | 6.533 | 15.283 |
+| Chidori mais Chidori Eisō | 7.467 | 16.217 |
+| Chidori mais Raikiri | 12.143 | 20.893 |
+| Chidori mais Takemikazuchi | 22.143 | 30.893 |
+| Chidori mais as três remodelagens | 16.367 | 25.117 |
+| A árvore inteira | 57.186 | 65.936 |
 
-Nenhuma entrada isolada alcança o custo de uma disciplina elemental completa levada ao LV6 em posição de Afinidade, o que mantém a família dentro da hierarquia declarada pelo Manual de Criação de Jutsus, em que a técnica custa menos que a perícia que a gateia. A árvore inteira custa cerca de duas vezes e meia aquela disciplina e consome mais da metade do orçamento de um jounin típico, e é essa soma que faz do especialista em Chidori uma escolha de carreira em vez de um item de lista de compras. Na prática nenhum personagem a fecha, porque os dois ramos de rank S cobram portões incompatíveis entre si na mesma ficha.
+Nenhuma entrada isolada alcança o custo de uma disciplina elemental completa levada ao LV6 em posição de Afinidade, o que mantém a família dentro da hierarquia declarada pelo Manual de Criação de Jutsus, em que a técnica custa menos que a perícia que a gateia. A árvore inteira custa cerca de uma vez e meia aquela disciplina e consome perto de dois quintos do orçamento de um jounin típico, e é essa soma que faz do especialista em Chidori uma escolha de carreira em vez de um item de lista de compras. Na prática nenhum personagem a fecha, porque os dois ramos de rank S cobram portões incompatíveis entre si na mesma ficha.
 
 ### Posição do Kirin e do Shiden
 
