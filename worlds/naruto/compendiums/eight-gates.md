@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.eight-gates
 title: "Compêndio dos Oito Portões"
-version: 1.5
+version: 1.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_dos_Oito_Portoes_v1.md
 ---
 
-# Compêndio dos Oito Portões · v1.5
+# Compêndio dos Oito Portões · v1.6
 
 **八門 · Técnicas do arquétipo de taijutsu puro**
 
@@ -18,6 +18,8 @@ source-file: Compendio_dos_Oito_Portoes_v1.md
 Catálogo das técnicas nomeadas do domínio dos portões. Cada entrada informa o que a técnica é, o que ela exige de quem a quer e quanto ela custa. O domínio reúne duas coisas: os oito portões em si, que são as técnicas que soltam os reguladores do corpo, e as obras que só existem com um portão aberto. Nenhuma entrada aqui é executável com a fisiologia no estado de repouso.
 
 **O que mudou na v1.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
+
+**O que mudou na v1.6.** As nove obras que dependem de portão aberto passam a declarar vetor, todas em Impacto: cinco entregues por contato (Redemoinho de Força Bruta da Folha, Lótus Frontal, Lótus Reversa, Tríplice do Portão da Clausura, Pavão da Manhã) e três entregues à distância por compressão de ar (Elefante Vespertino, Tigre Diurno, Guy Noturno), estas últimas sem celeridade declarada porque nenhum meio elemental rege a física delas e a escada de meios do Manual de Criação de Jutsus não publica valor para ar comprimido por velocidade pura. Os oito portões em si e a Investida Cega não recebem vetor, porque nenhum deles entrega dano por conta própria: os portões alteram a fisiologia de quem os abre, e a Investida Cega atravessa um efeito hostil já existente sem ser ela própria a fonte do dano. O Pavão da Manhã produz chama por atrito e não por conversão de chakra, o que a própria entrada já declara como fora do ciclo elemental; a classificação em Impacto trata o fogo como efeito visual e não como vetor de entrega, e fica registrada como leitura sujeita a revisão se o domínio de Estados Elementais tratar o caso de outro jeito. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
@@ -114,6 +116,7 @@ O regulador do coração cai e o órgão assume a função dele, bombeando acima
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Abertura · isento de Exigência de Moldagem
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 1.430
 
 O praticante gira o corpo inteiro sobre o eixo e entrega o calcanhar na altura do tronco do adversário, convertendo a rotação completa em um único ponto de contato. Com a trava muscular caída, a inércia acumulada atravessa a guarda comum e desloca o alvo do lugar onde ele estava. É a primeira aplicação de combate que o praticante encontra depois de abrir o primeiro portão, e a que ensina a diferença entre força disponível e força entregue.¹
@@ -127,6 +130,7 @@ O praticante gira o corpo inteiro sobre o eixo e entrega o calcanhar na altura d
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Abertura · isento de Exigência de Moldagem · alvo em suspensão sem apoio
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 4.625
 
 O praticante lança o adversário ao ar, alcança a posição dele em pleno voo, o prende pelas costas e gira o conjunto em queda até que a cabeça do alvo atinja o solo primeiro. A rotação transfere para o ponto de contato toda a altura ganha e todo o peso dos dois corpos. O executor chega preso ao alvo e recebe parte do impacto, o que faz da obra um golpe que cobra do vencedor tanto quanto anuncia o resultado.
@@ -149,6 +153,7 @@ O praticante entra em uma área ativa de efeito hostil pelo caminho mais curto e
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Vida · isento de Exigência de Moldagem · alvo ao alcance de contato no início da sequência
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 9.200
 
 O praticante encadeia uma sequência de golpes ascendentes que mantém o adversário suspenso, alcança a altura máxima do voo dele e o conduz ao solo em rotação, entregando o conjunto acumulado da sequência em um único ponto de chegada. A circulação forçada do terceiro portão é o que sustenta a cadência do início ao fim, e é ela que cobra a conta: o executor sai da obra com fratura nos membros empregados e com ferimento que o descanso não resolve.
@@ -158,6 +163,7 @@ O praticante encadeia uma sequência de golpes ascendentes que mantém o advers�
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Clausura · isento de Exigência de Moldagem
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 11.000
 
 O praticante concentra em um único alvo as três sequências completas que a economia de ação do quinto portão permitiria distribuir pelo campo. Os impactos chegam sem intervalo de recomposição entre eles, e o alvo recebe as três antes de completar a própria reação. A obra é a conversão deliberada de amplitude em profundidade, e o turno inteiro se esgota nela.
@@ -167,6 +173,7 @@ O praticante concentra em um único alvo as três sequências completas que a ec
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Vista · isento de Exigência de Moldagem
+**Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 **XP:** 12.800
 
 O praticante desfere uma sequência contínua de socos em cadência tal que o atrito de cada punho com o ar aquece o ponto de impacto até a ignição. As chamas se desprendem a cada golpe e permanecem suspensas por instantes no trajeto percorrido, formando o leque luminoso que dá nome à obra. O calor é resultado do movimento e não conversão de chakra, o que o mantém fora do ciclo elemental e imune às defesas dirigidas contra a natureza de Fogo.
@@ -180,6 +187,7 @@ O praticante desfere uma sequência contínua de socos em cadência tal que o at
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão do Assombro · isento de Exigência de Moldagem
+**Vetor:** Impacto
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 27.500
@@ -191,6 +199,7 @@ O praticante desfere chutes descendentes cuja passagem comprime uma massa de ar 
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão do Assombro · isento de Exigência de Moldagem
+**Vetor:** Impacto
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
 **XP:** 32.000
@@ -206,6 +215,7 @@ O praticante comprime o ar entre os punhos até que a massa contida alcance dens
 **[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta e Fechada na Criação
 **Requisitos:** Portão da Morte · isento de Exigência de Moldagem · validação narrativa do acesso
+**Vetor:** Impacto
 **XP:** 50.000
 
 O praticante concentra no chute descendente a totalidade da saída que o coração sem regulador produz. O membro atravessa a distância antes que o ar tenha tempo de se deslocar, e o que chega ao alvo é a coluna inteira de ar comprimida no trajeto, que o olho registra como uma forma alongada de vapor luminoso. O ponto de chegada é atingido antes que qualquer leitura de posição do praticante se conclua, e a defesa disponível se resume ao que absorve e ao que resiste. A obra pertence ao mesmo instante que a morte do executor, e o nome que ela carrega é o de quem a criou.²
