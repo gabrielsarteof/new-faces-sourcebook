@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Inton_v2-1.md
 ---
 
-# Compêndio de Inton · v2.5
+# Compêndio de Inton · v2.6
 
 **O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Seis entradas já traziam justificativa própria na prosa (Lâmina de Vazio, Eco de Presença, Armadura de Segunda Pele, Carregador Sem Rosto, Despacho de Raio, Cidadela do Vazio), usada como âncora direta.
 
@@ -22,6 +22,8 @@ Catálogo das técnicas nomeadas do domínio de Yin. Cada entrada informa o que 
 **O que mudou na v2.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**O que mudou na v2.6.** As entradas passam a declarar o vetor de entrega quando aplicável. O domínio inteiro é construção e ilusão, "originar forma a partir do nada", e trinta e sete das quarenta entradas não entregam dano algum. Apenas Lâmina de Vazio recebeu vetor direto, Corte pela lâmina forjada do vazio e vinculada ao braço. Ramo Que Não Existe e Despacho de Raio subiram para a fila de decisão: as duas se descrevem "fora do ciclo de superação" e sem tipo elemental a apartar, o que levanta se o mecanismo de dano de uma obra de Yin passa pela Constante de Moldagem e pela Assinatura do vetor do mesmo jeito que uma obra elemental, ou se corre por régua própria que este repasse não tem autoridade para inventar. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 Os nomes japoneses deste compêndio são romanização proposta e construída para este sistema, porque quase todo o arsenal de Yin é criação do projeto e o cânone entrega um único nome de técnica.
 
@@ -198,6 +200,7 @@ Um painel erguido em ponto declarado, com até cinco metros de largura por três
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Armeiro
+**Vetor:** Corte, Grau III do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 4.625
 
 Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem peso e imune a quebra por uso. Ela apara aço e morde couro endurecido, e cede apenas quando o golpe recebido vence o limiar registrado no ato da forja. Empunhar uma arma real exige mais refinamento do que erguer uma forma parada, e a Exigência de Moldagem 60 registra isso.
@@ -270,6 +273,7 @@ Uma obra já erguida se desliga da sustentação de quem a criou e passa a exist
 **[PROPOSTA — Rank B]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Liberação de Yin LV4 · Moldagem 62 · Forjador de Fenômenos
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 4.625
 
 A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo que cresce no ar sem raiz, uma réstia de luz que não vem de fonte alguma, e atravessa a distância como golpe. O fenômeno fica fora do ciclo de superação, e quem tenta apartá-lo pelo tipo não encontra tipo algum. A técnica existe no mundo em posse de pouquíssimos, e nenhum currículo institucional a transmite.
@@ -389,6 +393,7 @@ A cópia espiritual passa a sofrer dano convincente quando atingida, com ferida 
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yin LV6 · Moldagem 52 · Forjador de Fenômenos
+**Vetor:** pendente de decisão, listado na fase 2 do repasse
 **XP:** 27.500
 
 A energia espiritual veste a forma de um raio e é despachada contra o alvo em linha, fora do ciclo de superação e sem que exista natureza elemental a apartar. É a única técnica de Yin confirmada em fonte primária com nome próprio. O criador registrado no cânone não existe na história deste mundo, e a entrada permanece aberta ao primeiro que alcançar o requisito e concluir o processo de criação. A Exigência de Moldagem 52 em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
