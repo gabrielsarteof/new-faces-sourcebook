@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_Medico_v2-1.md
 ---
 
-# Compêndio de Ninjutsu Médico · v2.6
+# Compêndio de Ninjutsu Médico · v2.7
 
 **医療忍術 · Iryō Ninjutsu**
 
@@ -24,6 +24,12 @@ Catálogo das técnicas nomeadas do domínio médico, da contenção de sangrame
 **O que mudou na v2.6.** Três das cinquenta e quatro entradas receberam vetor: Bisturi de Chakra em Corte de Grau IV, a própria entrada declarando que o corte "ignora armadura, vestimenta e qualquer defesa material"; Cerejeira, Impacto Violento e Perna do Céu Doloroso em Impacto, os dois golpes de solo que Tsunade emprega. As demais quarenta e nove entradas do domínio são diagnóstico, cura, suporte e utilidade, sem entrega de dano. Névoa Venenosa e Névoa Venenosa Múltipla subiram para a fila de decisão: veneno não tem vetor no sistema, pendência já registrada desde o Lote de Vetores, que o retirou do vetor Energia e o deixou "provavelmente vetor físico próprio, não estudado". Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**O que mudou na v2.7.** As duas entradas de veneno saem da fila de decisão da fase 2 declarando vetor nenhum, e a saída é registro de lacuna e não classificação.
+
+**Veneno é lacuna com dono nomeado, e não ambiguidade a resolver.** A pergunta que separa os quatro vetores é como o tecido falha, e nenhum deles mede química: o trauma, a separação, a pressão e a transferência de energia estão todos publicados, e o quarto mecanismo não. O Lote de Vetores retirou o veneno do vetor Energia com a razão escrita, registrou que ele é vetor físico próprio ainda não estudado, e o Plano Mestre de Propagação o mantém fora desta leva junto da terceira Assinatura, química ou corrosiva, que depende dele. Classificar as duas entradas em qualquer um dos quatro inventaria mecanismo que o Núcleo de Combate não publica.
+
+**A ausência de vetor suspende o motor de dano e nunca a técnica.** Sem vetor não há Assinatura a ler, e sem Assinatura não há termo de tipo, então a parcela de dano químico das duas entradas espera o lote. Tudo o mais permanece: a paralisia, a cegueira, o entorpecimento e a corrosão são riders e condições, o Sistema de Efeitos de Status os resolve sem depender de vetor, e as duas seguem jogáveis por inteiro como técnicas de controle e supressão. Este registro existe para que passada futura não leia a ausência como técnica inerte nem preencha a lacuna por conveniência.
 
 O domínio médico se organiza de forma diferente dos elementais. Uma moldagem de fogo se aprende observando fogo, e qualquer olho treinado a captura em campo. O conhecimento do corpo humano se guarda em instituição, se transmite por currículo e se verifica por corpo docente, e é por isso que a metade superior deste compêndio depende de acesso a hospital, mestre ou pergaminho muito mais do que os compêndios de natureza. A base é larga porque toda esquadra precisa de alguém capaz de estancar uma hemorragia, e o topo é estreito porque autoridade sobre o corpo alheio é a coisa mais perigosa que uma vila entrega a um indivíduo.
 
@@ -213,12 +219,16 @@ O limite é o contato. O bisturi exige a mão sobre o alvo, não bloqueia ataque
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 44 · insumo tradicional
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** nenhum, veneno aguarda vetor próprio
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 2.120
 
 O médico converte substância preparada em uma nuvem expelida pela boca, que se espalha em cone à frente dele. Quem respira dentro da névoa recebe o efeito da substância, que pode paralisar, cegar, entorpecer ou corroer conforme a formulação escolhida no preparo. A técnica é a razão pela qual um médico é perigoso mesmo quando fica quieto no fundo da formação.
+
+O veneno não declara vetor porque o sistema ainda não publica o dele. Os quatro vetores medem trauma, separação, pressão e transferência de energia, e o tecido cede ao veneno por química, que é o mecanismo que o Lote de Vetores retirou do vetor Energia e deixou para lote próprio.
+
+A ausência suspende o motor de dano e não a técnica. A paralisia, a cegueira, o entorpecimento e a corrosão são riders e condições, e o Sistema de Efeitos de Status os resolve sem depender de vetor algum. A entrada segue jogável por inteiro como técnica de controle e supressão, e o que espera o lote é a parcela de dano químico.
 
 O limite é o ar. A névoa obedece ao vento, dispersa em espaço aberto e não atinge alvo que prenda a respiração, use filtro ou opere fora do cone.
 
@@ -453,7 +463,7 @@ O limite é o instante. A liberação fora do momento correto devolve todo o cha
 **[ATRIBUÍDO · anime — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 62 · Toxicologia · ter aprendido Névoa Venenosa
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** nenhum, veneno aguarda vetor próprio
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
 **XP:** 5.300
@@ -461,6 +471,8 @@ O limite é o instante. A liberação fora do momento correto devolve todo o cha
 A névoa deixa de sair em cone único e passa a se dividir em várias correntes independentes, que o médico dirige a alvos separados ou combina para fechar um espaço inteiro. Cada corrente pode carregar uma formulação diferente, o que permite paralisar um adversário e cegar outro na mesma expiração.
 
 O limite continua sendo o ar. Espaço aberto, vento forte e alvos que não respirem esvaziam a técnica exatamente como esvaziam a forma simples.
+
+O veneno não declara vetor pela mesma razão da forma simples, e a ausência suspende o motor de dano e não a técnica. As condições que cada corrente carrega resolvem pelo Sistema de Efeitos de Status, e a entrada segue jogável por inteiro como técnica de controle e supressão em vários alvos.
 
 ### Mãos Somadas
 **Kasane Te — 重ね手**
