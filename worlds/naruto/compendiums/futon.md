@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.8
+version: 4.9
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Futon_v3.md
 ---
 
-# Compêndio de Fūton (風遁) · v4.8
+# Compêndio de Fūton (風遁) · v4.9
 **Liberação de Vento**
 
 **O que mudou na v4.4.** A Exigência de Moldagem de todas as 34 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. **Nota:** a auditoria da Frente de Exigência de Moldagem registra um valor extra sem entrada correspondente neste arquivo, "Shinkū Rensa" (70) — nenhuma das 34 entradas publicadas reivindica esse nome, e o valor fica sem uso até que se identifique a que técnica pertence ou se confirme que é resíduo de rascunho.
@@ -25,6 +25,12 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 **O que mudou na v4.7 e na v4.8.** As duas entradas de infusão sobre arma empunhada saem da fila de decisão da fase 2 e declaram Corte em Grau IV do Fio. O vetor de um golpe amplificado por uma natureza é o vetor do golpe que o carrega, precedente que o Compêndio de Yōton publica, e o Grau IV é definido como fio sem espessura de chakra moldado em lâmina, que é o gume invisível das duas. A tabela de Matéria Dura fecha o argumento, porque o Grau IV é o mínimo para morder pedra e o Fluxo de Chakra: Vento declara na prosa que a borda passa a mordê-la.
 
 O Vendaval da Montanha Verdejante sai da mesma fila pela mesma regra, e lê o vetor inteiro da arma arremessada em vez de só o grau, porque o vento dele guia a trajetória e não participa da entrega. A mesma execução resolve por Corte com uma faca e por Penetração com uma kunai.
+
+**O que mudou na v4.9.** As duas entradas que fundem dois mecanismos de dano saem da fila de decisão e declaram Impacto, porque todo golpe declara exatamente um vetor e nas duas a prosa nomeia qual dos dois resolve. A Grande Esfera de Vácuo ordena os mecanismos por escrito, com a superfície retalhando antes do esmagamento chegar, e o fio dela entra pela elevação de rider por borda que a entrada já declarava. A Grande Ruptura da Poeira Infinita se compara pelo nome à Grande Ruptura, entrada que a passada anterior classificou em Impacto, e a abrasão dela entra como Sangramento declarado pela obra.
+
+O vetor descreve como o tecido falha e nunca quanto, e é a Energia entregue que separa a esfera de rank A da ruptura de rank D sob a mesma regra de Guarda. A leitura oposta, de classificar as duas em Corte para ganhar a perfuração de Guarda do Grau IV, foi descartada porque custaria a elevação para área, e o Corte só alcança área por varrimento de linha, geometria errada para uma frente de pressão.
+
+A Grande Ruptura da Poeira Infinita declara o agravamento por envolvimento no teste de entrada do rider, porque o ar inteiro vira lixa e envolve o corpo por completo. A régua geral do agravamento vive no Núcleo de Combate e alcança toda obra que entregue sobre extensão ampla do corpo, e a enumeração de gatilhos daquele documento nomeia Corte, Energia e Penetração sem nomear o gatilho do Impacto, o que deixa a leitura por conta da cláusula geral.
 
 **O Grau IV é o teto do Fio, e a diferenciação acima dele vive fora do vetor.** A escada do Corte tem quatro degraus por desenho declarado no Núcleo de Combate, e o topo dela fica no meio da escada da Penetração porque a perfuração é a ameaça mais difícil de deter. Quatro entradas deste compêndio compartilham o Grau IV, e a distância entre elas é real e vive nos outros eixos que cada uma declara, a elevação de rider por borda e o Perfil de Evasão do alcance ilegível na Lâmina de Vácuo, a entrega e o rank nas demais. A escada do Fio nunca prometeu discriminar dentro do próprio topo.
 
@@ -410,10 +416,12 @@ O usuário emite chakra pelas pontas dos dedos e materializa uma espada de vento
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV5 · Moldagem 60 · Esferas de Vácuo
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Impacto
 **XP:** 12.800
 
 O usuário inspira ao limite e comprime o fôlego inteiro numa única esfera de vácuo de grande diâmetro, expelida como um projétil esmagador que une as duas naturezas do elemento, a massa que esmaga e o vácuo que corta. O impacto descarrega pressão de escala estrutural, e a superfície da esfera retalha o que toca antes do esmagamento chegar. A técnica encerra a progressão que começa na metralha de esferas pequenas, e a lógica se inverte no caminho, com uma única esfera, todo o fôlego e a decisão num disparo. A entrada declara elevação de rider por borda.
+
+A própria prosa ordena os dois mecanismos, com a superfície retalhando antes do esmagamento chegar, e é o esmagamento que resolve a entrega. O vetor é Impacto, que engaja a barra inteira da Guarda e dispara a Quebra ao superá-la, e o fio da superfície entra pela elevação de rider por borda que a entrada declara.
 
 ---
 
@@ -426,12 +434,15 @@ O usuário inspira ao limite e comprime o fôlego inteiro numa única esfera de 
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Fūton LV6 · Moldagem 44 · Caminho Vento de Areia
-**Vetor:** pendente de decisão, listado na fase 2 do repasse
+**Vetor:** Impacto
+**Rider:** Sangramento, com agravamento por envolvimento no teste de entrada
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **XP:** 38.000
 
 O usuário expele um vendaval de escala colossal saturado de areia e partículas abrasivas, uma frente de tempestade que avança lixando tudo por quilômetros de largura. A pressão arrasa como a Grande Ruptura arrasa, e a poeira infinita converte o próprio ar em lixa, desbastando carne exposta, madeira e pedra na passagem, enquanto olhos e gargantas falham dentro da nuvem. A execução registrada pertence à escala de bijū e une os dois princípios declarados do elemento, a compressão e o transporte de partículas, num único cataclismo. A moldagem é a mais simples do rank, porque nada aqui pede proporção fina, e o que a técnica exige é volume de reserva que quase nenhum corpo humano carrega, condição que fecha a entrada na criação de personagem.
+
+A pressão é o que arrasa, e a entrada a declara pelo nome ao se comparar com a Grande Ruptura, que entrega por Impacto. O vetor é Impacto, e a abrasão entra como Sangramento declarado pela obra. O ar inteiro vira lixa e o corpo do alvo é envolvido por completo, o que aciona o agravamento por envolvimento e sobe o grau do rider em um degrau no teste de entrada.
 
 ---
 
