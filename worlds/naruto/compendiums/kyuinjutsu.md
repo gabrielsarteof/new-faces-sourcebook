@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.kyuinjutsu
 title: "Compêndio de Kyūinjutsu"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Kyuinjutsu_v1.md
 ---
 
-# Compêndio de Kyūinjutsu · v1.3
+# Compêndio de Kyūinjutsu · v1.4
 **吸引術 · Técnicas nomeadas do ofício da tomada**
 
 **O que mudou na v1.1.** Primeira auditoria completa da Exigência de Moldagem: as 19 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas bloqueadas por insumo não implementado (Rinnegan ou Meiton) receberam o número normalmente — a Norma de Produção de Compêndios já manda publicar preço para entrada inerte, e a Exigência segue a mesma regra.
@@ -21,6 +21,8 @@ Catálogo das técnicas nomeadas que exercem o dreno de chakra classificado em `
 **O que mudou na v1.3.** Três das dezenove entradas receberam vetor Corte: Fio Sedento, Corte que Bebe e Lâmina de Reserva Cheia, a família que infunde a colheita numa lâmina empunhada e devolve chakra pelo próprio corte que a arma já causaria. As dezesseis entradas restantes drenam chakra sem ferir, e o dreno não é dano de PV. Juízo e Takamimusubinokami não receberam vetor porque devolvem a técnica absorvida na natureza dela, e o vetor de cada devolução é o da obra original, não uma propriedade fixa da entrada. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
 
 **Referências.** As camadas de acesso, a etiquetagem e o formato de entrada são da Norma de Produção de Compêndios v2.6. Os níveis, o portão de rank e os caminhos são da Perícia de Kyūinjutsu v1. Os degraus de moldagem são da Perícia de Controle de Chakra v3.3. A régua de quantidade, o teto de recepção, a sobrecarga deliberada e a cláusula do senjutsu são de `jutsu-authoring.md` §2.8, e nenhuma entrada as reproduz. O preço em XP segue a estimativa sem RC da Seção 4.1.3 do Manual de Criação de Jutsus v2.9, porque nenhuma entrada tem ficha individual apurada.
 

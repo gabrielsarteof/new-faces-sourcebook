@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_de_Forma_v1.md
 ---
 
-# Compêndio de Ninjutsu de Forma · v2.4
+# Compêndio de Ninjutsu de Forma · v2.5
 
 **O que mudou na v2.1.** A Exigência de Moldagem de cada entrada deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado, conforme a Régua de Exigência de Moldagem da Perícia de Controle de Chakra. Rasengan, Ōdama Rasengan e Rasenrengan declaram também o valor efetivo com Assistência de Moldagem, conforme a Linhagem do Rasengan v1.3.
 
@@ -23,6 +23,8 @@ Catálogo das técnicas nomeadas que empregam a Transformação de Forma sozinha
 **O que mudou na v2.4.** As entradas passam a declarar o vetor de entrega quando aplicável. Cinco entradas da família Rasengan receberam Impacto, entregue por contato sem celeridade, incluindo a Técnica da Grande Explosão do Clone, cuja detonação de chakra puro sem natureza declarada resolve pela mesma leitura de força concussiva. Quatorze entradas não receberam vetor, o domínio inteiro de substituição, disfarce, escape e clone utilitário, que não converte natureza e não entrega dano fora da família da esfera. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
 
 O domínio deste compêndio é a Perícia de Controle de Chakra, e não uma perícia elemental. Toda entrada aqui emprega um único componente, e é o nível dessa perícia que carrega o portão de rank delas, contra a mesma tabela universal que os domínios elementais usam. A ausência de natureza tem consequência de mesa declarada: nenhuma entrada deste compêndio recebe rider elemental, participa do ciclo de superação entre naturezas ou morde melhor contra um elemento que contra outro.
 

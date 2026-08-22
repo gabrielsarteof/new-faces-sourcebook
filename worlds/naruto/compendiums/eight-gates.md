@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.eight-gates
 title: "Compêndio dos Oito Portões"
-version: 1.6
+version: 1.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_dos_Oito_Portoes_v1.md
 ---
 
-# Compêndio dos Oito Portões · v1.6
+# Compêndio dos Oito Portões · v1.7
 
 **八門 · Técnicas do arquétipo de taijutsu puro**
 
@@ -22,6 +22,8 @@ Catálogo das técnicas nomeadas do domínio dos portões. Cada entrada informa 
 **O que mudou na v1.6.** As nove obras que dependem de portão aberto passam a declarar vetor, todas em Impacto: cinco entregues por contato (Redemoinho de Força Bruta da Folha, Lótus Frontal, Lótus Reversa, Tríplice do Portão da Clausura, Pavão da Manhã) e três entregues à distância por compressão de ar (Elefante Vespertino, Tigre Diurno, Guy Noturno), estas últimas sem celeridade declarada porque nenhum meio elemental rege a física delas e a escada de meios do Manual de Criação de Jutsus não publica valor para ar comprimido por velocidade pura. Os oito portões em si e a Investida Cega não recebem vetor, porque nenhum deles entrega dano por conta própria: os portões alteram a fisiologia de quem os abre, e a Investida Cega atravessa um efeito hostil já existente sem ser ela própria a fonte do dano. O Pavão da Manhã produz chama por atrito e não por conversão de chakra, o que a própria entrada já declara como fora do ciclo elemental; a classificação em Impacto trata o fogo como efeito visual e não como vetor de entrega, e fica registrada como leitura sujeita a revisão se o domínio de Estados Elementais tratar o caso de outro jeito. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem editorial e a fronteira da cópia pelo Sharingan pertencem à Norma de Produção de Compêndios. A Régua do Portão Aberto, os tetos de fluxo, o portão de acesso, a moeda de Esforço, o Teto de Amplificação Corporal e a escada de sequelas pertencem ao documento Oito Portões. As oito fichas dos portões pertencem ao documento de técnica Hachimon Tonkō, e as nove fichas das obras pertencem ao documento Obras dos Oito Portões. As faixas de XP por rank pertencem ao Manual de Criação de Jutsus. Os graus, as durações e a remoção de condição pertencem ao Sistema de Efeitos de Status. A régua de Maturação pertence ao Manual Global de Treinamento.
 

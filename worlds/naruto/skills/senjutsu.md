@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.senjutsu
 title: "Senjutsu"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -407,7 +407,7 @@ Proposta: todos os valores de custo, alcance, duração, teto e limiar; a taxa e
 
 DEPENDÊNCIAS E PENDÊNCIAS
 
-Compêndio de Senjutsu, inexistente, que recebe as obras nomeadas sob o prefixo Senpō, o Kawazu Kumite e a técnica de fusão com os parceiros invocados. Documento do clã Jūgo, inexistente, dono da absorção passiva involuntária e do corpo modificado que dispensa a quietude. Documento do clã Senju, dono do Modo Sábio nato, que nasce sem terra, sem chefe e sem treino. Documentos de reencarnação, donos do Senjutsu dos Seis Caminhos. Documento de Universo e Campanha, dono das terras sagradas e dos mestres que ensinam nelas. Régua de dificuldade do Narrador, camada externa, sem a qual nenhum efeito desta perícia resolve por dificuldade arbitrada.
+Compêndio de Senjutsu, inexistente, que recebe as obras nomeadas sob o prefixo Senpō, o Kawazu Kumite e a técnica de fusão com os parceiros invocados. Uma obra sob esse prefixo já está publicada fora dele e aguarda a migração: o Despacho de Raio, Senpō: Inton Raiha, vive no Compêndio de Inton com o destino declarado na própria entrada, e passa para cá quando este documento nascer. Documento do clã Jūgo, inexistente, dono da absorção passiva involuntária e do corpo modificado que dispensa a quietude. Documento do clã Senju, dono do Modo Sábio nato, que nasce sem terra, sem chefe e sem treino. Documentos de reencarnação, donos do Senjutsu dos Seis Caminhos. Documento de Universo e Campanha, dono das terras sagradas e dos mestres que ensinam nelas. Régua de dificuldade do Narrador, camada externa, sem a qual nenhum efeito desta perícia resolve por dificuldade arbitrada.
 
 FILA DE ERRATA
 
@@ -422,6 +422,11 @@ Compêndio de Senjutsu, quando nascer: as obras de cada ramo declaram a espécie
 ═══════════════════════════════════════════════════════════════════
 
 REGISTRO DE ALTERAÇÕES
+
+v2.5
+
+• A seção de dependências e pendências registra que o Despacho de Raio, Senpō: Inton Raiha, é obra sob prefixo Senpō já publicada fora do Compêndio de Senjutsu e aguardando migração para ele. A entrada vive no Compêndio de Inton com o destino declarado na própria prosa, e o repasse do Bloco 8 a manteve lá em vez de criar o compêndio ausente
+• Nenhum valor, régua, caminho ou transcendência muda
 
 v2.3
 

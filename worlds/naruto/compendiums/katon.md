@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.10
+version: 5.11
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Katon_v5.md
 ---
 
-# Compêndio de Katon (火遁) · v5.10
+# Compêndio de Katon (火遁) · v5.11
 
 **O que mudou na v5.5.** A Exigência de Moldagem de todas as 44 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. Amaterasu ganha isenção explícita, porque a chama nasce onde o olho pousa e não passa por moldagem. Passo de Chamas e Luz de Chama, rank E, não tinham correspondência na auditoria que fechou as outras 42 e foram resolvidos por paralelo estrutural com o mesmo par em Raiton e Suiton — Centelha de Chakra já batia exato com Centelha Estática (30), e o mesmo trio de exercícios de Academia se repete nos três elementos: Passo de Chamas 40, igual a Passo Relâmpago e Passo de Névoa; Luz de Chama 44, igual a Luz de Arco. **Pendência aberta, sem relação com os dois acima:** a auditoria que fechou as outras 42 nomeia duas entradas que não existem neste arquivo, Ryū no Kōdō (64) e Kagutsuchi (104). Decisão de Gabriel: são técnicas novas a acrescentar, ou nomes alternativos de entradas já publicadas sob nome diferente.
 **Liberação de Fogo**
@@ -21,6 +21,8 @@ Catálogo das técnicas nomeadas do elemento fogo. Cada entrada informa o nome e
 **O que mudou na v5.6.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
 
 **O que mudou na v5.8.** As três entradas que combinam chama com projétil físico saem da fila de decisão da fase 2 e declaram Penetração em Grau I. O vetor de um golpe amplificado por uma natureza é o vetor do golpe que o carrega, precedente que o Compêndio de Yōton publica, e as três prosas já apontavam para ele: a Kunai Flamejante declara que a chama preserva a força de penetração original das kunais, e as Penas do Inferno declaram que o alvo lê fogo e o que chega é aço. O Grau I é a kunai e a shuriken arremessadas na escada da Penetração.
 

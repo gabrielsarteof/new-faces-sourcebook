@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.6
+version: 1.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Fuinjutsu_v1.md
 ---
 
-# Compêndio de Fūinjutsu · v1.6
+# Compêndio de Fūinjutsu · v1.7
 
 **O que mudou na v1.3.** Primeira auditoria completa da Exigência de Moldagem: 39 das 42 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Duas ficam sem edição por não terem portão de moldagem próprio: Rotação Instantânea Mútua do Hiraishin não declara nível nem degrau de Fūinjutsu na entrada, herdando o portão de Deus do Trovão Voador sem republicá-lo; Juinjutsu de Orochimaru não tem portão nenhum, porque quem recebe a marca não a adquire nem a executa. Nenhuma das duas precisava de correção — ambas já estavam corretas por não se aplicarem.
 
@@ -22,6 +22,8 @@ Catálogo das técnicas nomeadas da arte do selamento, da etiqueta explosiva que
 **O que mudou na v1.5.** Quatro das quarenta e duas entradas receberam vetor: Etiqueta Explosiva e Selamento das Três Direções em Impacto, pela força concussiva que as duas descrevem; Desselamento: Shuriken em Penetração de Grau III, a logística de armazenamento que "vira ataque de área" quando o pergaminho se abre; Corte do Deus do Trovão Voador em Corte de Grau IV, entregue pela lâmina que já viaja em movimento no instante da travessia. Trinta e sete entradas não receberam vetor, o domínio inteiro de acesso, disfarce, registro, contenção e transferência que caracteriza o selamento. Selo do Consumo do Demônio Morto subiu para a fila de decisão: a extração de alma pelo Shinigami não passa por energia entregue de nenhuma das quatro formas que o Núcleo de Combate publica, e classificar um vetor ali seria inventar mecanismo que o sistema não declara. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
 
 **O que mudou na v1.6.** O Selo do Consumo do Demônio Morto sai da fila de decisão da fase 2 e declara vetor nenhum, com a razão publicada na própria entrada.
 

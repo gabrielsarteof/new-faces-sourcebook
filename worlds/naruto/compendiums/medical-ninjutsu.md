@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.7
+version: 2.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_Medico_v2-1.md
 ---
 
-# Compêndio de Ninjutsu Médico · v2.7
+# Compêndio de Ninjutsu Médico · v2.8
 
 **医療忍術 · Iryō Ninjutsu**
 
@@ -24,6 +24,8 @@ Catálogo das técnicas nomeadas do domínio médico, da contenção de sangrame
 **O que mudou na v2.6.** Três das cinquenta e quatro entradas receberam vetor: Bisturi de Chakra em Corte de Grau IV, a própria entrada declarando que o corte "ignora armadura, vestimenta e qualquer defesa material"; Cerejeira, Impacto Violento e Perna do Céu Doloroso em Impacto, os dois golpes de solo que Tsunade emprega. As demais quarenta e nove entradas do domínio são diagnóstico, cura, suporte e utilidade, sem entrega de dano. Névoa Venenosa e Névoa Venenosa Múltipla subiram para a fila de decisão: veneno não tem vetor no sistema, pendência já registrada desde o Lote de Vetores, que o retirou do vetor Energia e o deixou "provavelmente vetor físico próprio, não estudado". Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
 
 **O que mudou na v2.7.** As duas entradas de veneno saem da fila de decisão da fase 2 declarando vetor nenhum, e a saída é registro de lacuna e não classificação.
 

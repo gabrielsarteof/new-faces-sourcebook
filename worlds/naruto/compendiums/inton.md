@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.7
+version: 2.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Inton_v2-1.md
 ---
 
-# Compêndio de Inton · v2.7
+# Compêndio de Inton · v2.8
 
 **O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Seis entradas já traziam justificativa própria na prosa (Lâmina de Vazio, Eco de Presença, Armadura de Segunda Pele, Carregador Sem Rosto, Despacho de Raio, Cidadela do Vazio), usada como âncora direta.
 
@@ -22,6 +22,8 @@ Catálogo das técnicas nomeadas do domínio de Yin. Cada entrada informa o que 
 **O que mudou na v2.5.** Entra a marcação de status normativo do preço, conforme a Norma de Produção de Compêndios v2.8: o XP publicado em entrada sem ficha própria é provisório e será refeito quando a ficha nascer ou quando a regra do domínio for produzida.
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
+
+**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
 
 **O que mudou na v2.6.** As entradas passam a declarar o vetor de entrega quando aplicável. O domínio inteiro é construção e ilusão, "originar forma a partir do nada", e trinta e sete das quarenta entradas não entregam dano algum. Apenas Lâmina de Vazio recebeu vetor direto, Corte pela lâmina forjada do vazio e vinculada ao braço. Ramo Que Não Existe e Despacho de Raio subiram para a fila de decisão: as duas se descrevem "fora do ciclo de superação" e sem tipo elemental a apartar, o que levanta se o mecanismo de dano de uma obra de Yin passa pela Constante de Moldagem e pela Assinatura do vetor do mesmo jeito que uma obra elemental, ou se corre por régua própria que este repasse não tem autoridade para inventar. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 

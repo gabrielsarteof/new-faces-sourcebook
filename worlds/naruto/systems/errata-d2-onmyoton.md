@@ -1,7 +1,7 @@
 ---
 id: naruto.system.errata-d2
 title: "Errata D2 — Alinhamento upstream do eixo do Onmyōton"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: pending-patch
@@ -222,3 +222,7 @@ Ocorrências de Tipo Elemental que se refiram especificamente às cinco natureza
 ## Registro de dependências
 
 Nenhum item desta errata depende de upload pendente. Os quatro itens abertos do Eixo do Onmyōton permanecem abertos e não são afetados por nenhuma das alterações acima.
+
+**Perda declarada, registrada quando o Eixo do Onmyōton nasceu.** Esta errata aplica rio acima as decisões D1 a D11 de uma passada de design cujo documento nunca chegou a ser escrito, e o corpus guarda rastro de apenas seis delas, D1, D2, D3, D7, D9 e D11, todas dentro deste arquivo. **D4, D5, D6, D8 e D10 não existem em documento algum do repositório.** Os quatro itens abertos que o parágrafo acima cita também nunca foram enumerados em lugar nenhum, e o texto que os declarava era o do documento que faltava.
+
+As duas perdas são definitivas e ficam registradas em vez de reconstruídas. Reconstruir uma enumeração que nunca existiu produziria decisão nova com aparência de decisão herdada, que é o defeito mais caro que este corpus pode acumular. O Eixo do Onmyōton v1 nasceu decidindo por conta própria o que precisava decidir, com a razão escrita em cada seção, e não se apoia em nenhum dos itens perdidos.
