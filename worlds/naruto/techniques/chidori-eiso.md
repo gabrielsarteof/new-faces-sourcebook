@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-eiso
 title: "Chidori Eisō — Lança Afiada de Mil Pássaros (千鳥鋭槍)"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
@@ -59,12 +59,16 @@ A lança corta anteparo leve durante o avanço. Madeira, tela, papel e barreira 
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 900
+- **RC nominal:** 800, limpa
+- **Vetor:** Penetração, Grau V
+- **Riders:** Perfuração como rider estrutural do vetor; Paralisia Parcial declarada no lugar da Hemorragia de Trajeto, pela mesma cauterização da raiz
 - **Custo mínimo:** 300
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 3
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Padrão, elevado a Veloz pelo caminho Lança no estado aprofundado
+- **Velocidade:** Raiton, celeridade 150, sem desvio declarado
+- **Posição elemental:** declarada por linha nas tabelas por perfil
+- **Perfil de Evasão:** Padrão, elevado a Teleguiado pelo caminho Lança no estado aprofundado. O degrau Veloz que a ficha citava saiu da escada quando a velocidade virou grandeza própria, e a elevação de um degrau a partir de Padrão passa a alcançar Teleguiado
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** janela de canalização, seguida de extensão imediata, sem deslocamento
 - **Restrições:** alvo único, alcance lido do Fio Estendido, linha de projeção livre até o alvo ou anteparo leve interposto, sem carga adicional
@@ -90,9 +94,11 @@ A correção de trajetória durante o avanço é a do baseline da Perícia de Ra
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 900 × 0,16 × 1,75 + LV_CC² × 2,5 × 2,0
-dano = 252 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 800 × 0,16 × 1,40 × M
+dano bruto = 896 × M
+
+M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, porque a haste cruza o espaço em vez de descarregar no ponto de contato do corpo. O coeficiente técnico 2,0 corresponde à dependência alta, herdado da técnica de origem, e é a moldagem que sustenta a coesão da corrente ao longo do comprimento estendido.
@@ -101,14 +107,15 @@ O coeficiente de entrega 0,16 corresponde à categoria de projétil único direc
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, na faixa correspondente ao rank da técnica.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano | % PV do par |
 |---|---|---|---|
-| 5, entrada | 125 | 377 | 26% |
-| 6 | 180 | 432 | 30% |
-| 6 com 1 caminho | 245 | 497 | 35% |
-| 6 com 2 caminhos | 320 | 572 | 40% |
+| 122 | 0,824 | 739 | 38% |
+| 148, referência do rank | 1,000 | 896 | 47% |
+| 180 | 1,216 | 1.090 | 57% |
 
 ---
 
@@ -123,7 +130,7 @@ A perfuração de Absorção depende da distância da entrega. O efeito Fio Conc
 
 A leitura exige o caminho Ponta possuído, que a cadeia entrega porque o Chidori o cobra. A transcendência Raio Seco revoga a régua por completo, e contra técnicas de Relâmpago entregues por forma dirigida a Absorção do alvo deixa de se aplicar em qualquer distância.
 
-O Perfil Padrão preserva a esquiva plena do alvo. Com o caminho Lança aprofundado, o Perfil sobe a Veloz e a esquiva cai em 25%, e em 40% no primeiro uso do combate contra cada alvo.
+O Perfil Padrão preserva a esquiva plena do alvo. Com o caminho Lança aprofundado, o Perfil sobe a Teleguiado, a esquiva cai pela metade, e a haste persegue por um turno adicional o alvo que se esquivou.
 
 ---
 
@@ -154,10 +161,10 @@ O executante permanece parado e com a leitura periférica intacta durante toda a
 | Condição | Capacidade ou mudança |
 |---|---|
 | Raiton LV5, caminho Lança, Chidori | acesso à técnica, com alcance de 25 metros |
-| Caminho Lança aprofundado, LV5 | duas correções de trajetória por turno, e o Perfil de Evasão sobe a Veloz |
+| Caminho Lança aprofundado, LV5 | duas correções de trajetória por turno, e o Perfil de Evasão sobe a Teleguiado |
 | Caminho Ponta, entrega em curto alcance | perfuração de Absorção pela fração do Fio Concentrado |
 | Transcendência Raio Seco | a Absorção deixa de se aplicar em qualquer distância, e a haste atravessa alvos alinhados na mesma trajetória, com cada alvo seguinte recebendo 60% do dano do anterior |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
+| Raiton com `P` 148 ou mais | `M` em 1,00 ou acima, com o dano subindo junto |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 | Caminho Refino | custo pago no mínimo de 300, sem PS de desperdício |
 
@@ -165,12 +172,12 @@ O executante permanece parado e com a leitura periférica intacta durante toda a
 
 ## Referência de Usos por Perfil
 
-| Teste de Moldagem | Custo pago | PS de desperdício | RC | LS | Janela | Usos por combate |
-|---|---|---|---|---|---|---|
-| 185 | 300 | 0 | 2.211 | 442 | 0 turnos | 7 |
-| 185 | 300 | 0 | 942 | 188 | 1 turno | 3 |
-| 142 | 468 | 17 | 2.211 | 442 | 1 turno | 4 |
-| 116 | 570 | 27 | 1.325 | 265 | 2 turnos | 2 |
+| Teste de Moldagem | Custo pago | PS de desperdício | RC | Posição | LS | Janela | Usos por combate |
+|---|---|---|---|---|---|---|---|
+| 185 | 267 | 0 | 2.211 | Afinidade presumida | 553 | 0 turnos | 8 |
+| 185 | 267 | 0 | 942 | Afinidade | 236 | 1 turno | 3 |
+| 142 | 417 | 17 | 2.211 | Afinidade presumida | 553 | 0 turnos | 5 |
+| 116 | 507 | 27 | 1.325 | Natureza aprendida | 199 | 2 turnos | 2 |
 
 ---
 

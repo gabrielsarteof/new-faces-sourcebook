@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-senbon
 title: "Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
@@ -60,12 +60,16 @@ A técnica é empregada com frequência para incapacitar sem matar, e o resultad
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 900, com a sobretaxa da escada de evasão já embutida
+- **RC nominal:** 800, limpa
+- **Vetor:** Penetração, Grau V
+- **Riders:** Perfuração como rider estrutural do vetor; Paralisia Parcial declarada no lugar da Hemorragia de Trajeto, porque cada agulha cauteriza o canal que abre
 - **Custo mínimo:** 300
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 3
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Veloz, pela saturação de trajetórias que a salva impõe, com a sobretaxa da escada de evasão já embutida
+- **Velocidade:** Raiton, celeridade 150, sem desvio declarado
+- **Posição elemental:** declarada por linha nas tabelas por perfil
+- **Perfil de Evasão:** Padrão. A ficha carregava o degrau Veloz, e o degrau saiu da escada quando a velocidade virou grandeza própria; a sobretaxa de quinze por cento deixa de incidir e a RC nominal publicada passa a ser a limpa
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** janela de canalização, seguida de disparo imediato, sem deslocamento
 - **Restrições:** alcance médio, salva repartida em três feixes declarados antes da resolução, sem carga adicional
@@ -85,9 +89,11 @@ O executante que possua o caminho Lança lê o alcance do Fio Estendido no lugar
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 900 × 0,13 × 1,75 + LV_CC² × 2,5 × 1,5
-dano = 205 + LV_CC² × 3,75
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 800 × 0,13 × 1,40 × M
+dano bruto = 728 × M
+
+M = 1 + 0,75 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos. O coeficiente técnico 1,5 corresponde à dependência intermediária entre a moldagem que intensifica o efeito e a moldagem que o produz, porque a fragmentação distribui o refinamento por dezenas de formas pequenas em vez de exigi-lo inteiro em um ponto.
@@ -98,14 +104,15 @@ O valor publicado é o dano da salva completa. Quando os feixes se repartem, cad
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, na faixa correspondente ao rank da técnica.
 
-| LV_CC | Fator de Moldagem | Dano da salva | Dano por feixe | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano da salva | Dano por feixe | % PV do par |
 |---|---|---|---|---|
-| 5, entrada | 94 | 299 | 100 | 21% |
-| 6 | 135 | 340 | 113 | 24% |
-| 6 com 1 caminho | 184 | 389 | 130 | 27% |
-| 6 com 2 caminhos | 240 | 445 | 148 | 31% |
+| 122 | 0,868 | 632 | 211 | 33% |
+| 148, referência do rank | 1,000 | 728 | 243 | 38% |
+| 180 | 1,162 | 846 | 282 | 44% |
 
 O rendimento da técnica escala pelo número de corpos alcançados e pelo número de regiões degradadas, e não pelo investimento de chakra.
 
@@ -129,7 +136,7 @@ A repartição não admite correção depois do resultado. Alvo fora do alcance 
 
 A técnica não perfura Absorção. O efeito Fio Concentrado alcança apenas a entrega por contato direto ou curto alcance, e a salva cruza distância média por construção, de modo que a mitigação passiva do alvo se aplica integralmente ao dano de cada feixe.
 
-O Perfil de Evasão Veloz reduz em 25% a esquiva do alvo, e em 40% no primeiro uso do combate contra cada alvo. A vantagem do primeiro uso se perde depois que a salva é vista.
+O Perfil de Evasão Padrão não desconta a esquiva do alvo. A dificuldade de sair da frente desta técnica vem da Velocidade da obra, celeridade 150 do Raiton, que enfrenta a esquiva no teste de conexão do Núcleo de Combate.
 
 A perda de perfuração é o preço declarado da forma. A densidade que atravessa couraça pertence ao ponto único, e a entrada a cede em troca de cobertura e de aplicações múltiplas do rider.
 
@@ -169,7 +176,7 @@ O olho não desbloqueia a entrada e não altera dano algum. Ele substitui uma le
 | Caminho Lança adquirido | o alcance passa a ser lido do Fio Estendido |
 | Caminho Ponta adquirido | a perfuração do Fio Concentrado vale nos feixes entregues em curto alcance |
 | Transcendência Arco Voltaico | a salva dispensa linha de visão livre, alcançando alvo atrás de cobertura |
-| Controle de Chakra LV6 | Fator de Moldagem 135, e 184 ou 240 com caminhos adicionais |
+| Raiton com `P` 148 ou mais | `M` em 1,00 ou acima, com o dano subindo junto |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 | Sharingan ativo | a região atingida por cada feixe passa a ser declarada |
 
@@ -177,12 +184,12 @@ O olho não desbloqueia a entrada e não altera dano algum. Ele substitui uma le
 
 ## Referência de Usos por Perfil
 
-| Teste de Moldagem | Custo pago | PS de desperdício | RC | LS | Janela | Usos por combate |
-|---|---|---|---|---|---|---|
-| 185 | 300 | 0 | 2.211 | 442 | 0 turnos | 7 |
-| 185 | 300 | 0 | 942 | 188 | 1 turno | 3 |
-| 142 | 468 | 17 | 2.211 | 442 | 1 turno | 4 |
-| 116 | 570 | 27 | 1.325 | 265 | 2 turnos | 2 |
+| Teste de Moldagem | Custo pago | PS de desperdício | RC | Posição | LS | Janela | Usos por combate |
+|---|---|---|---|---|---|---|---|
+| 185 | 267 | 0 | 2.211 | Afinidade presumida | 553 | 0 turnos | 8 |
+| 185 | 267 | 0 | 942 | Afinidade | 236 | 1 turno | 3 |
+| 142 | 417 | 17 | 2.211 | Afinidade presumida | 553 | 0 turnos | 5 |
+| 116 | 507 | 27 | 1.325 | Natureza aprendida | 199 | 2 turnos | 2 |
 
 ---
 

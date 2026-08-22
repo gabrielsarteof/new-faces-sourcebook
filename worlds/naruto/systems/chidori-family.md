@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chidori-family
 title: "Linhagem do Chidori"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: system
@@ -23,23 +23,23 @@ Esta linhagem foi calibrada contra os documentos abaixo, nas versões vigentes n
 |---|---|---|
 | Manual de Criação de Poderes | 3.3 | as categorias, as famílias de cálculo e o contrato de efeito |
 | Manual de Criação de Perícias | 7.1 | a estrutura de inclinação, caminho e transcendência que os requisitos citam |
-| Manual de Criação de Jutsus | 2.8 | rank, faixas de XP, coeficientes, Perfil de Evasão, aftermath e Janela de Canalização |
+| Manual de Criação de Jutsus | 3 | rank, faixas de XP, coeficientes, motor de dano, Velocidade da obra, Perfil de Evasão, aftermath e Janela de Canalização |
 | Manual de Requisitos de Técnica | 2.1 | o portão de rank, a Régua de Exigência de Moldagem e a elevação de degrau |
 | Norma de Produção de Compêndios | 2.5 | as camadas de acesso, a etiquetagem e o estado de autoria |
 | Perícia de Raiton | 2 | as inclinações, os caminhos, o Fio Concentrado, o Fio Estendido e a condução por meio |
-| Perícia de Controle de Chakra | 3.3 | o Índice de Desperdício, a Régua de Interface, a manutenção e a régua de PS |
+| Perícia de Controle de Chakra | 3.7 | o Índice de Desperdício, a Régua de Interface, a manutenção e a régua de PS |
 | Compêndio de Raiton | 3.3 | as entradas publicadas, os requisitos e os preços estimados |
-| Sistema Elemental | 7 | o multiplicador do Tipo Elétrico, o rider padrão e o Sōsai |
-| Sistema de Efeitos de Status | 2.3 | a graduação da Paralisia Parcial e da Paralisia Total |
-| Reserva de Chakra | 3.2 | o Limite de Saída, a recuperação e os pools externos |
+| Sistema Elemental | 9 | a Constante de Moldagem, a tabela de Assinatura por vetor, o rider de tendência e o Sōsai |
+| Sistema de Efeitos de Status | 2.5 | a graduação da Paralisia Parcial e da Paralisia Total |
+| Reserva de Chakra | 3.5 | o Limite de Saída por posição, a recuperação e os pools externos |
 | Tabelas de Referência de Personagens | 1 | os pares de validação Elite e Especial |
-| Naturezas Avançadas | 5.1 | a camada Kyōka, o multiplicador do Shiden e o do Enton |
+| Naturezas Avançadas | 7 | a camada Kyōka, o multiplicador do Shiden e o do Enton |
 | Mangekyō Sharingan | 1 | o medidor de desgaste, os custos do olho e a regra de trunfo |
 | Compêndio de Katon | 5.1 | a entrada do Amaterasu e o comportamento da chama negra |
 | Compêndio de Fūinjutsu | 1.1 | a entrada do Juinjutsu de Orochimaru |
-| Template de Documento de Técnica | 3.3 | o contrato de campos das fichas |
+| Template de Documento de Técnica | 4 | o contrato de campos das fichas, com vetor, grau, riders, Velocidade e posição elemental |
 
-O Manual de Criação de Jutsus v2.8 declara consumir o Manual de Criação de Poderes v3.2, e o núcleo já se encontra em v3.3. A defasagem é de uma versão menor e não toca nenhuma régua que esta linhagem use. Fica registrada na fila de errata.
+O Manual de Criação de Jutsus v3 declara consumir o Manual de Criação de Poderes v3.3, e a defasagem que esta seção registrava fechou.
 
 O termo Grau de Ameaça não tem dono no corpus. A auditoria publicada no Sistema dos Oito Portões v1.1 registra que ele nunca existiu por extenso e que a régua que ocupa aquele lugar é a faixa das Tabelas de Referência de Personagens. Esta linhagem lê a faixa e não a sigla.
 
@@ -119,25 +119,31 @@ A escada de RC nominal guarda proporção declarada contra a raiz, e é ela que 
 
 A RC nominal publicada é sempre a **RC limpa**, medida antes de qualquer sobretaxa de Perfil de Evasão. A coluna anterior carregava a sobretaxa do degrau Veloz embutida em cinco das sete entradas, e o degrau saiu da escada quando a velocidade virou grandeza própria com dono. A sobretaxa deixa de incidir, e os valores abaixo são os limpos.
 
+A RC limpa é grandeza publicada em si e não resíduo de conta, e por isso ela é redonda como toda outra RC do corpus. A divisão pela sobretaxa raramente fecha em múltiplo de cinquenta, e o valor exato da divisão se arredonda para o múltiplo de cinquenta mais próximo, sempre para cima quando arredondar para baixo derrubaria a entrega abaixo do piso do rank.
+
 | Ficha | Rank | RC limpa | Custo mínimo | Proporção contra a raiz | Custo de XP |
 |---|---|---|---|---|---|
 | Chidori | A | 750 | 250 | 1,00 | 8.750 |
 | Chidori Katana | A | 750 | 250 | 1,00 | 8.750 |
-| Chidori Nagashi | A | 783 | 261 | 1,04 | 11.000 |
-| Chidori Senbon | A | 783 | 261 | 1,04 | 11.000 |
-| Chidori Eisō | A | 783 | 261 | 1,04 | 11.000 |
-| Takemikazuchi | S | 1.650 | 250 | 2,20 | 21.800 |
-| Raikiri | S | 1.500 | 500 | 2,00 | 23.600 |
+| Chidori Nagashi | A | 800 | 267 | 1,07 | 9.500 |
+| Chidori Senbon | A | 800 | 267 | 1,07 | 9.500 |
+| Chidori Eisō | A | 800 | 267 | 1,07 | 9.500 |
+| Raikiri | S | 1.500 | 500 | 2,00 | 20.000 |
+| Takemikazuchi | S | 1.550 | 217 | 2,07 | 20.600 |
+
+As três remodelagens tinham RC exata de 782,6 e publicam 800. O Takemikazuchi tinha 652,2 na parcela de reserva e publica 650, somados aos 900 do olho. O Raikiri publica 1.500 direto, valor decidido por hierarquia do Manual de Criação de Jutsus sobre a escada da família, sem passar pelo arredondamento. O Chidori e o Chidori Katana ficam intocados: a raiz nunca é tocada por esta errata, e o Katana já operava em Perfil Padrão, sem sobretaxa embutida para retirar.
 
 Alterar a raiz obriga a percorrer a coluna inteira, porque a proporção é o que mantém a distância entre os degraus. A raiz permanece intocada em 750, e é por isso que a limpeza da coluna não move a escada inteira.
 
-Três entradas ocupam a mesma RC limpa e o mesmo preço, e a coincidência é estrutural. Irradiar a reunião pelo corpo, fragmentá-la em agulhas e alongá-la em haste são remodelagens do mesmo volume, e a escolha entre elas é de eixo e não de orçamento. O Chidori Katana fica um degrau abaixo delas porque não remodela nada: o volume é o mesmo da raiz e a lâmina empresta a forma que a moldagem teria de produzir.
+O custo de XP acompanha a RC, porque a apuração da Seção 4.1.1 do Manual de Criação de Jutsus interpola a posição da RC dentro da faixa do rank. Valor pago não retroage: quem comprou pelo preço anterior não deve diferença, e a correção vale dali em diante.
 
-O Raikiri é o dobro exato da reunião fechado sobre a mesma superfície, e a proporção de 2,00 é o que sobra quando a sobretaxa sai. A proporção anterior de 2,40 media o dobro somado à sobretaxa, e ela media duas coisas ao mesmo tempo. Ele e o Kirin custam o mesmo em XP, e a escolha entre os dois é de eixo e não de orçamento.
+Três entradas ocupam a mesma RC limpa de 800 e o mesmo preço, e a coincidência é estrutural. Irradiar a reunião pelo corpo, fragmentá-la em agulhas e alongá-la em haste são remodelagens do mesmo volume, e a escolha entre elas é de eixo e não de orçamento. O Chidori Katana fica um degrau abaixo delas porque não remodela nada: o volume é o mesmo da raiz e a lâmina empresta a forma que a moldagem teria de produzir.
+
+O Raikiri é o dobro exato da reunião fechado sobre a mesma superfície, e a proporção de 2,00 é o que sobra quando a sobretaxa sai. A proporção anterior de 2,40 media o dobro somado à sobretaxa, e ela media duas coisas ao mesmo tempo. Ele custa 20.000, o piso exato da faixa de rank S, e a escolha entre ele e o Kirin é de eixo e não de orçamento.
 
 Os custos de XP não se movem, porque o preço de ficha publicada não retroage sobre quem já pagou e a apuração de cada entrada segue o que a Seção 4.1.1 do Manual de Jutsus fixou.
 
-O Takemikazuchi é a única entrada da linhagem cujo custo mínimo não é a terça parte da RC nominal. A parcela de 900 vem do olho e não da reserva, e a terça parte incide apenas sobre os 750 que o executante paga, na mesma via que o Kirin já usa com a tempestade. O freio dessa entrada nunca foi o chakra, e sim o medidor do Mangekyō.
+O Takemikazuchi é a única entrada da linhagem cujo custo mínimo não é a terça parte da RC nominal. A parcela de 900 vem do olho e não da reserva, e a terça parte incide apenas sobre os 650 que o executante paga, na mesma via que o Kirin já usa com a tempestade. O freio dessa entrada nunca foi o chakra, e sim o medidor do Mangekyō.
 
 ---
 
@@ -206,11 +212,11 @@ O valor da coluna acumulada inclui a raiz.
 |---|---|---|
 | Chidori | 8.750 | 8.750 |
 | Chidori mais Chidori Katana | 8.750 | 17.500 |
-| Chidori mais uma remodelagem de 900 | 11.000 | 19.750 |
-| Chidori mais Takemikazuchi | 21.800 | 30.550 |
-| Chidori mais Raikiri | 23.600 | 32.350 |
-| Chidori mais as três remodelagens de 900 | 33.000 | 41.750 |
-| A árvore inteira | 87.150 | 95.900 |
+| Chidori mais uma remodelagem de 800 | 9.500 | 18.250 |
+| Chidori mais Raikiri | 20.000 | 28.750 |
+| Chidori mais Takemikazuchi | 20.600 | 29.350 |
+| Chidori mais as três remodelagens de 800 | 28.500 | 37.250 |
+| A árvore inteira | 77.850 | 86.600 |
 
 Nenhuma entrada isolada alcança o custo de uma disciplina elemental completa levada ao LV6 em posição de Afinidade, o que mantém a família dentro da hierarquia declarada pelo Manual de Criação de Jutsus, em que a técnica custa menos que a perícia que a gateia. A árvore inteira custa cerca de duas vezes e meia aquela disciplina e consome mais da metade do orçamento de um jounin típico, e é essa soma que faz do especialista em Chidori uma escolha de carreira em vez de um item de lista de compras. Na prática nenhum personagem a fecha, porque os dois ramos de rank S cobram portões incompatíveis entre si na mesma ficha.
 

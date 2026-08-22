@@ -189,12 +189,12 @@ O Chidori não possui aftermath. O limite diário que o cânone registra decorre
 
 ## Referência de Usos por Perfil
 
-| Teste de Moldagem | Custo pago | PS por execução | RC | LS | Janela | Usos por combate |
-|---|---|---|---|---|---|---|
-| 185 | 250 | 30 | 942 | 188 | 1 turno | 3 |
-| 185 | 250 | 30 | 2.211 | 442 | 0 turnos | 8 |
-| 116 | 475 | 53 | 1.325 | 265 | 1 turno | 2 |
-| 60 | 656 | 71 | 1.325 | 265 | 2 turnos | 2 |
+| Teste de Moldagem | Custo pago | PS por execução | RC | Posição | LS | Janela | Usos por combate |
+|---|---|---|---|---|---|---|---|
+| 185 | 250 | 30 | 942 | Afinidade | 236 | 1 turno | 3 |
+| 185 | 250 | 30 | 2.211 | Afinidade presumida | 553 | 0 turnos | 8 |
+| 116 | 475 | 53 | 1.325 | Natureza aprendida | 199 | 2 turnos | 2 |
+| 60 | 656 | 71 | 1.325 | Natureza aprendida | 199 | 2 turnos | 2 |
 
 A linha de 942 de reserva reproduz o limite canônico de quatro usos diários, com três disponíveis dentro de um combate único e o quarto resolvido pela recuperação entre encontros. A linha de teste 60 reproduz o limite de dois usos do executante em formação.
 

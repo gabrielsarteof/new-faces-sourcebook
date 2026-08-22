@@ -274,7 +274,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 7 | system | final |
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.5 | system | final |
-| [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.2 | system | final |
+| [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.3 | system | final |
 | [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.7 | methodology | final |
 | [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.3 | system | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 9 | system | final |
@@ -292,10 +292,10 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Técnica da Grande Explosão do Clone](worlds/naruto/techniques/bunshin-daibakuha.md) | `naruto.technique.bunshin-daibakuha` | 1 | technique | final |
 | [Técnica do Clone](worlds/naruto/techniques/bunshin.md) | `naruto.technique.bunshin` | 2 | technique | final |
 | [Técnica dos Fios de Chakra](worlds/naruto/techniques/chakura-no-ito.md) | `naruto.technique.chakura-no-ito` | 1 | technique | final |
-| [Chidori Eisō — Lança Afiada de Mil Pássaros (千鳥鋭槍)](worlds/naruto/techniques/chidori-eiso.md) | `naruto.technique.chidori-eiso` | 1 | technique | final |
-| [Chidori Katana — Sabre de Mil Pássaros (草薙の剣・千鳥刀)](worlds/naruto/techniques/chidori-katana.md) | `naruto.technique.chidori-katana` | 1 | technique | final |
-| [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 2 | technique | final |
-| [Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)](worlds/naruto/techniques/chidori-senbon.md) | `naruto.technique.chidori-senbon` | 1 | technique | final |
+| [Chidori Eisō — Lança Afiada de Mil Pássaros (千鳥鋭槍)](worlds/naruto/techniques/chidori-eiso.md) | `naruto.technique.chidori-eiso` | 2 | technique | final |
+| [Chidori Katana — Sabre de Mil Pássaros (草薙の剣・千鳥刀)](worlds/naruto/techniques/chidori-katana.md) | `naruto.technique.chidori-katana` | 2 | technique | final |
+| [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 3 | technique | final |
+| [Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)](worlds/naruto/techniques/chidori-senbon.md) | `naruto.technique.chidori-senbon` | 2 | technique | final |
 | [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 5 | technique | final |
 | [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1 | technique | final |
 | [Endan (炎弾)](worlds/naruto/techniques/endan.md) | `naruto.technique.endan` | 1 | technique | final |
@@ -330,7 +330,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Técnica do Escape de Cordas](worlds/naruto/techniques/nawanuke.md) | `naruto.technique.nawanuke` | 2 | technique | final |
 | [Ōdama Rasengan (大玉螺旋丸)](worlds/naruto/techniques/odama-rasengan.md) | `naruto.technique.odama-rasengan` | 1 | technique | final |
 | [Técnica Sensual](worlds/naruto/techniques/oiroke.md) | `naruto.technique.oiroke` | 1 | technique | final |
-| [Raikiri — Cortador de Raio (雷切)](worlds/naruto/techniques/raikiri.md) | `naruto.technique.raikiri` | 1 | technique | final |
+| [Raikiri — Cortador de Raio (雷切)](worlds/naruto/techniques/raikiri.md) | `naruto.technique.raikiri` | 2 | technique | final |
 | [Rasengan (螺旋丸)](worlds/naruto/techniques/rasengan.md) | `naruto.technique.rasengan` | 2 | technique | final |
 | [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1 | technique | final |
 | [Rengoku Ryūsei (煉獄龍勢)](worlds/naruto/techniques/rengoku-ryusei.md) | `naruto.technique.rengoku-ryusei` | 1 | technique | final |
@@ -339,7 +339,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |
 | [Técnica dos Múltiplos Clones das Sombras](worlds/naruto/techniques/taju-kage-bunshin.md) | `naruto.technique.taju-kage-bunshin` | 1 | technique | final |
-| [Takemikazuchi (建御雷神)](worlds/naruto/techniques/takemikazuchi.md) | `naruto.technique.takemikazuchi` | 1 | technique | final |
+| [Takemikazuchi (建御雷神)](worlds/naruto/techniques/takemikazuchi.md) | `naruto.technique.takemikazuchi` | 2 | technique | final |
 | [Técnica de Escape Transparente](worlds/naruto/techniques/toton.md) | `naruto.technique.toton` | 1 | technique | final |
 
 ## Documentos previstos e ainda não escritos

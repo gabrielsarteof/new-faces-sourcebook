@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.raikiri
 title: "Raikiri — Cortador de Raio (雷切)"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
@@ -63,12 +63,16 @@ A luz emitida pela mão é branca e não azul, e a diferença de coloração é 
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 1.800, com a sobretaxa da escada de evasão já embutida
+- **RC nominal:** 1.500, limpa
+- **Vetor:** Penetração, Grau VI
+- **Riders:** Perfuração como rider estrutural do vetor; Paralisia Parcial declarada no lugar da Hemorragia de Trajeto, pela mesma cauterização da raiz
 - **Custo mínimo:** 600
 - **Custo de PS:** 30 por execução, referentes à ativação da carne, somados ao que o desperdício do executante cobra pela régua do Controle de Chakra `[proposta]`
 - **Selos de referência:** 3
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Veloz, com a sobretaxa da escada já embutida na RC nominal publicada
+- **Velocidade:** Raiton, celeridade 150, sem desvio declarado
+- **Posição elemental:** declarada por linha nas tabelas por perfil
+- **Perfil de Evasão:** Padrão. A ficha carregava o degrau Veloz, e o degrau saiu da escada quando a velocidade virou grandeza própria; a sobretaxa de quinze por cento deixa de incidir e a RC nominal publicada passa a ser a limpa
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Aftermath:** saída reduzida, com o Limite de Saída caindo à metade no turno seguinte à resolução
 - **Ação:** janela de canalização, seguida de investida imediata em linha reta
@@ -89,26 +93,30 @@ A proibição é o que sustenta o degrau Absoluto na Régua de Exigência de Mol
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 1.800 × 0,20 × 1,75 + LV_CC² × 2,5 × 2,0
-dano = 630 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 1.500 × 0,20 × 1,40 × M
+dano bruto = 2.100 × M
+
+M = 1 + 1,0 × (P − 180) ÷ 180          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único, herdado da técnica de origem. O coeficiente técnico 2,0 corresponde à dependência alta, em que a moldagem é o mecanismo central.
 
-A tabela começa no LV_CC 6 porque o degrau Absoluto exige 84 pela soma da Base Total com SAB, valor que nenhum nível inferior alcança.
+A linha de `P` 148 existe como referência de comparação e fica abaixo do executor de referência do rank S, que é `P` 180. O degrau Absoluto de moldagem continua sendo o portão de acesso, e ele exige 84 pela soma da Base Total com SAB.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Especial, PV 1.920.
+Par de referência Ápice, PV 3.000, na faixa correspondente ao rank da técnica.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano | % PV do par |
 |---|---|---|---|
-| 6, entrada | 180 | 810 | 42% |
-| 6 com 1 caminho | 245 | 875 | 46% |
-| 6 com 2 caminhos | 320 | 950 | 49% |
+| 148 | 0,822 | 1.727 | 58% |
+| 180, referência do rank | 1,000 | 2.100 | 70% |
+| 212 | 1,178 | 2.473 | 82% |
 
 O executante de dois caminhos entrega 66% do par Elite de PV 1.440, patamar que torna a entrada uma sentença contra qualquer alvo de faixa inferior à própria.
 
@@ -120,7 +128,7 @@ A perfuração de Absorção é lida do efeito Fio Concentrado do caminho Ponta,
 
 A transcendência Raio Seco revoga a leitura por completo. Contra técnicas de Relâmpago entregues por contato a Absorção do alvo deixa de se aplicar em grau algum, e barreira ou anteparo elemental interposto deixa de deter o avanço, que prossegue ao alvo original com a potência restante.
 
-O Perfil de Evasão Veloz reduz em 25% a esquiva do alvo, e em 40% no primeiro uso do combate contra cada alvo.
+O Perfil de Evasão Padrão não desconta a esquiva do alvo. A dificuldade de sair da frente desta técnica vem da Velocidade da obra, celeridade 150 do Raiton, que enfrenta a esquiva no teste de conexão do Núcleo de Combate.
 
 ---
 
@@ -169,7 +177,7 @@ A repartição não altera a RC nominal, o custo pago nem o aftermath. Ela troca
 |---|---|
 | Raiton LV6, caminho Ponta, Moldagem Absoluta, Chidori | acesso à técnica, com perfuração de 43% da Absorção |
 | Transcendência Raio Seco | a Absorção do alvo deixa de se aplicar, e abre o Modo de Duas Mãos |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
+| Raiton com `P` 180 ou mais | `M` em 1,00 ou acima, com o dano subindo junto |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 | Caminho Refino | custo pago no mínimo de 600, sem PS de desperdício |
 | Caminho Impulso | o Reflexo Acelerado cobre a linha reta obrigatória sem consumir a ação de ataque |
@@ -179,12 +187,12 @@ A repartição não altera a RC nominal, o custo pago nem o aftermath. Ela troca
 
 ## Referência de Usos por Perfil
 
-| Teste de Moldagem | Custo pago | PS por execução | RC | LS | Janela | Usos por combate |
-|---|---|---|---|---|---|---|
-| 185 | 600 | 30 | 3.500 | 700 | 0 turnos | 5 |
-| 185 | 600 | 30 | 2.211 | 442 | 1 turno | 3 |
-| 142 | 935 | 64 | 3.500 | 700 | 1 turno | 3 |
-| 142 | 935 | 64 | 2.211 | 442 | 2 turnos | 2 |
+| Teste de Moldagem | Custo pago | PS por execução | RC | Posição | LS | Janela | Usos por combate |
+|---|---|---|---|---|---|---|---|
+| 185 | 500 | 30 | 3.500 | Afinidade presumida | 875 | 0 turnos | 7 |
+| 185 | 500 | 30 | 2.211 | Afinidade presumida | 553 | 0 turnos | 4 |
+| 142 | 779 | 64 | 3.500 | Afinidade presumida | 875 | 0 turnos | 4 |
+| 142 | 779 | 64 | 2.211 | Afinidade presumida | 553 | 1 turno | 2 |
 
 O aftermath reduz o Limite de Saída à metade no turno seguinte a cada execução, e a coluna de usos descreve o teto de reserva e não a cadência viável. Duas execuções em turnos consecutivos ficam fora do alcance de qualquer perfil, porque a segunda encontra o cano pela metade.
 

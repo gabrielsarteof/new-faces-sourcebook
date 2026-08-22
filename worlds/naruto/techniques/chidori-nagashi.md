@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-nagashi
 title: "Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)"
-version: 2
+version: 3
 layer: scenario
 scenario: naruto
 type: technique
@@ -59,12 +59,16 @@ Objetos metálicos soltos dentro do raio saltam, água em contato ferve na super
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 900
+- **RC nominal:** 800, limpa
+- **Vetor:** Energia elétrica
+- **Riders:** o rider estrutural do vetor Energia depende do tipo entregue, e o cenário o publica junto com a tabela de Assinatura; Paralisia Parcial declarada como rider da obra
 - **Custo mínimo:** 300
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 1
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Inevitável, restrito ao raio corporal, com a proximidade do alvo como condição estrutural obrigatória
+- **Velocidade:** Raiton, celeridade 150, sem desvio declarado
+- **Posição elemental:** declarada por linha nas tabelas por perfil
+- **Perfil de Evasão:** Inevitável, restrito ao raio corporal, com a proximidade do alvo como condição estrutural obrigatória. O Inevitável nunca cobrou sobretaxa de RC, e a RC limpa desta ficha sai apenas do arredondamento da errata da família
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** janela de canalização, seguida de liberação imediata, sem deslocamento
 - **Restrições:** raio corporal, alvos múltiplos irrestritos dentro dele, condutor em contato estendendo o alcance até o comprimento do objeto
@@ -76,9 +80,11 @@ Objetos metálicos soltos dentro do raio saltam, água em contato ferve na super
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 900 × 0,12 × 1,75 + LV_CC² × 2,5 × 1,0
-dano = 189 + LV_CC² × 2,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 800 × 0,12 × 1,75 × M
+dano bruto = 840 × M
+
+M = 1 + 0,5 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,12 corresponde à categoria de área irradiada do corpo. O coeficiente técnico 1,0 corresponde à dependência média, em que a moldagem intensifica o efeito sem ser o mecanismo que o produz.
@@ -89,16 +95,17 @@ O dano é resolvido por alvo, com o valor integral aplicado a cada corpo alcanç
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, na faixa correspondente ao rank da técnica.
 
-| LV_CC | Fator de Moldagem | Dano por alvo | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano por alvo | % PV do par |
 |---|---|---|---|
-| 5, entrada | 62 | 252 | 18% |
-| 6 | 90 | 279 | 19% |
-| 6 com 1 caminho | 122 | 312 | 22% |
-| 6 com 2 caminhos | 160 | 349 | 24% |
+| 122 | 0,912 | 766 | 40% |
+| 148, referência do rank | 1,000 | 840 | 44% |
+| 180 | 1,108 | 931 | 48% |
 
-O rendimento da técnica escala pelo número de corpos alcançados, e não pelo investimento de chakra. Os valores abaixo assumem LV_CC 6.
+O rendimento da técnica escala pelo número de corpos alcançados, e não pelo investimento de chakra. Os valores abaixo assumem `P` 148, a referência do rank.
 
 | Alvos alcançados | Dano total | Comparação com o Chidori base |
 |---|---|---|
@@ -148,19 +155,19 @@ A elevação exige contato mantido e não se aplica a alvo que apenas esteja den
 | Caminho Rede | o Salto Condutor vence o vão entre trechos condutores separados |
 | Caminho Arco aprofundado | a Descarga de Contato passiva perde o limite por turno, somando ao campo irradiado |
 | Transcendência Trovão | a contagem de reações por rodada deixa de existir, e a técnica passa a caber em turno alheio |
-| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
+| Raiton com `P` 148 ou mais | `M` em 1,00 ou acima, com o dano subindo junto |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 
 ---
 
 ## Referência de Usos por Perfil
 
-| Teste de Moldagem | Custo pago | PS de desperdício | RC | LS | Janela | Usos por combate |
-|---|---|---|---|---|---|---|
-| 185 | 300 | 0 | 2.211 | 442 | 0 turnos | 7 |
-| 185 | 300 | 0 | 942 | 188 | 1 turno | 3 |
-| 142 | 468 | 17 | 2.211 | 442 | 1 turno | 4 |
-| 116 | 570 | 27 | 1.325 | 265 | 2 turnos | 2 |
+| Teste de Moldagem | Custo pago | PS de desperdício | RC | Posição | LS | Janela | Usos por combate |
+|---|---|---|---|---|---|---|---|
+| 185 | 267 | 0 | 2.211 | Afinidade presumida | 553 | 0 turnos | 8 |
+| 185 | 267 | 0 | 942 | Afinidade | 236 | 1 turno | 3 |
+| 142 | 417 | 17 | 2.211 | Afinidade presumida | 553 | 0 turnos | 5 |
+| 116 | 507 | 27 | 1.325 | Natureza aprendida | 199 | 2 turnos | 2 |
 
 ---
 

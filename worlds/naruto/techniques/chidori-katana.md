@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-katana
 title: "Chidori Katana — Sabre de Mil Pássaros (草薙の剣・千鳥刀)"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
@@ -60,13 +60,17 @@ Armas comuns interpostas ao golpe são cortadas em vez de deterem o fio, e o don
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 750
+- **RC nominal:** 750, limpa
+- **Vetor:** Corte, Grau IV do Fio
+- **Riders:** Secção como rider estrutural do vetor; Paralisia Parcial declarada, entregue pela corrente que a lâmina conduz até o ponto de contato
 - **Custo mínimo:** 250
 - **Manutenção:** 20% do custo mínimo por turno, ajustada pelo desperdício do executante conforme a régua do Controle de Chakra
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 1
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Padrão
+- **Velocidade:** Raiton, celeridade 150, sem desvio declarado
+- **Posição elemental:** declarada por linha nas tabelas por perfil
+- **Perfil de Evasão:** Padrão. A entrada nunca carregou o degrau Veloz, e por isso a RC nominal dela já era limpa e não muda
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** janela de canalização, seguida de carga da lâmina, com os golpes correndo pela ação de ataque do executante
 - **Restrições:** alcance do comprimento da arma, alvo único por golpe, sem carga adicional, técnica encerrada quando a arma deixa a mão
@@ -86,9 +90,11 @@ A moldagem sustentada colapsa pelas regras gerais do Controle de Chakra, com o l
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 750 × 0,16 × 1,75 + LV_CC² × 2,5 × 2,0
-dano = 210 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 750 × 0,16 × 1,40 × M
+dano bruto = 840 × M
+
+M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, lida aqui como fio de corte, porque a corrente se distribui pelo comprimento da lâmina em vez de convergir em um ponto da palma. O coeficiente técnico 2,0 corresponde à dependência alta, herdado da técnica de origem.
@@ -99,14 +105,15 @@ O dano publicado é o da técnica e substitui o dano da arma. O golpe não soma 
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, na faixa correspondente ao rank da técnica.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano | % PV do par |
 |---|---|---|---|
-| 5, entrada | 125 | 335 | 23% |
-| 6 | 180 | 390 | 27% |
-| 6 com 1 caminho | 245 | 455 | 32% |
-| 6 com 2 caminhos | 320 | 530 | 37% |
+| 122 | 0,824 | 692 | 36% |
+| 148, referência do rank | 1,000 | 840 | 44% |
+| 180 | 1,216 | 1.022 | 53% |
 
 ---
 
@@ -163,7 +170,7 @@ Este modo é o dono da forma que o cânone registra como lâmina de luz da famí
 | Transcendência Raio Seco | a Absorção do alvo deixa de se aplicar |
 | Caminho Rede | o Salto Condutor vence o vão entre a lâmina e um trecho condutor separado |
 | Caminho Firmeza | o limiar de colapso da sustentação passa a ser o publicado pelo caminho |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
+| Raiton com `P` 148 ou mais | `M` em 1,00 ou acima, com o dano subindo junto |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 | Caminho Refino | custo pago no mínimo de 250, sem PS de desperdício |
 
@@ -171,12 +178,12 @@ Este modo é o dono da forma que o cânone registra como lâmina de luz da famí
 
 ## Referência de Usos por Perfil
 
-| Teste de Moldagem | Custo pago | Manutenção por turno | RC | LS | Janela | Cargas por combate |
-|---|---|---|---|---|---|---|
-| 185 | 250 | 50 | 2.211 | 442 | 0 turnos | 8 |
-| 185 | 250 | 50 | 942 | 188 | 1 turno | 3 |
-| 116 | 475 | 95 | 1.325 | 265 | 1 turno | 2 |
-| 60 | 656 | 131 | 1.325 | 265 | 2 turnos | 2 |
+| Teste de Moldagem | Custo pago | Manutenção por turno | RC | Posição | LS | Janela | Cargas por combate |
+|---|---|---|---|---|---|---|---|
+| 185 | 250 | 50 | 2.211 | Afinidade presumida | 553 | 0 turnos | 8 |
+| 185 | 250 | 50 | 942 | Afinidade | 236 | 1 turno | 3 |
+| 116 | 475 | 95 | 1.325 | Natureza aprendida | 199 | 2 turnos | 2 |
+| 60 | 656 | 131 | 1.325 | Natureza aprendida | 199 | 2 turnos | 2 |
 
 A coluna de cargas conta quantas vezes o executante refaz a técnica no combate. A manutenção corre sobre a reserva restante e reduz o número real quando a sustentação se prolonga.
 

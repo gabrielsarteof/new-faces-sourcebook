@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.takemikazuchi
 title: "Takemikazuchi (建御雷神)"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: technique
@@ -65,12 +65,16 @@ O que a chama alcança não se apaga por meio comum. Água lançada sobre o pont
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 1.650, composta de 750 pagos da reserva do executante e 900 fornecidos pelo olho `[proposta]`
-- **Custo mínimo:** 250, referentes à terça parte da parcela de reserva
+- **RC nominal:** 1.550, limpa, composta de 650 pagos da reserva do executante e 900 fornecidos pelo olho `[proposta]`
+- **Custo mínimo:** 217, referentes à terça parte da parcela de reserva
+- **Vetor:** Penetração, Grau VI
+- **Riders:** Perfuração como rider estrutural do vetor; Paralisia Parcial e Queimadura declaradas, a primeira entrando pelo ponto de contato e a segunda pela chama negra que fica
 - **Custo de PS:** 30 por execução, referentes à ativação da carne, somados ao que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 3
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Veloz, com a sobretaxa da escada embutida na parcela de reserva
+- **Velocidade:** Raiton, celeridade 150, sem desvio declarado
+- **Posição elemental:** declarada por linha nas tabelas por perfil
+- **Perfil de Evasão:** Padrão. A ficha carregava o degrau Veloz com a sobretaxa embutida na parcela de reserva, e o degrau saiu da escada quando a velocidade virou grandeza própria; a parcela de reserva desce de 750 para 650 e a RC nominal publicada passa a ser a limpa
 - **Desgaste do Mangekyō:** técnica única pontual, somando 1% ao piso do olho que abriga o Amaterasu e a soma de carga da tabela de maestria
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Aftermath:** saída reduzida, com o Limite de Saída caindo à metade no turno seguinte à resolução
@@ -94,12 +98,14 @@ A proibição fixa a janela de contra-ataque em um único oponente, ainda que a 
 Conforme a Seção 5.3 do Manual de Jutsus, com cada parcela lendo o multiplicador da natureza que efetivamente a fornece:
 
 ```
-dano = (RC de reserva × coef_entrega × mult_Raiton)
-     + (RC do olho × coef_entrega × mult_Enton)
-     + Fator de Moldagem
+dano bruto = 5 × [ (RC de reserva × coef_entrega × mult_Raiton)
+                 + (RC do olho × coef_entrega × mult_Enton) ] × M
 
-dano = (750 × 0,20 × 1,75) + (900 × 0,20 × 2,10) + LV_CC² × 2,5 × 2,0
-dano = 641 + LV_CC² × 5
+dano bruto = 5 × [ (650 × 0,20 × 1,40) + (900 × 0,20 × 2,10) ] × M
+dano bruto = 5 × [ 182 + 378 ] × M
+dano bruto = 2.800 × M
+
+M = 1 + 1,0 × (P − 180) ÷ 180          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,20 vale para as duas parcelas, porque a forma de entrega é uma só e é o ponto concentrado em contato único que a linhagem herda. O coeficiente técnico 2,0 corresponde à dependência alta, herdado da técnica de origem.
@@ -110,14 +116,15 @@ Os dois multiplicadores incidem sobre volumes distintos e nunca sobre o mesmo ch
 
 ## Tabela de Descarga
 
-Par de referência Especial, PV 1.920.
+Par de referência Ápice, PV 3.000, na faixa correspondente ao rank S.
 
-| LV_CC | Fator de Moldagem | Dano de impacto | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano de impacto | % PV do par |
 |---|---|---|---|
-| 5, entrada | 125 | 766 | 40% |
-| 6 | 180 | 821 | 43% |
-| 6 com 1 caminho | 245 | 886 | 46% |
-| 6 com 2 caminhos | 320 | 961 | 50% |
+| 148 | 0,822 | 2.302 | 77% |
+| 180, referência do rank | 1,000 | 2.800 | 93% |
+| 212 | 1,178 | 3.298 | 110% |
 
 A tabela publica apenas o impacto. A queima que se instala depois corre pela Persistência e não entra nestes valores.
 
@@ -127,7 +134,7 @@ A tabela publica apenas o impacto. A queima que se instala depois corre pela Per
 
 A perfuração de Absorção é lida do efeito Fio Concentrado do caminho Ponta, que a resolve em 43% no LV6. A entrada não declara perfuração própria, porque a competência pertence ao caminho que a gateia. A transcendência Raio Seco revoga a leitura por completo.
 
-O Perfil de Evasão Veloz reduz em 25% a esquiva do alvo, e em 40% no primeiro uso do combate contra cada alvo.
+O Perfil de Evasão Padrão não desconta a esquiva do alvo. A dificuldade de sair da frente desta técnica vem da Velocidade da obra, celeridade 150 do Raiton, que enfrenta a esquiva no teste de conexão do Núcleo de Combate.
 
 A parcela de chama negra não responde à mitigação por Suiton nem a defesa que opere por resfriamento, conforme a entrada do Amaterasu. A Absorção comum do alvo continua valendo sobre o dano de impacto pelas regras gerais.
 
@@ -183,7 +190,7 @@ Na prática ela nunca se abre. Os requisitos de acesso exigem o Amaterasu, que e
 | Transcendência Raio Seco | a Absorção do alvo deixa de se aplicar ao dano de impacto |
 | Maestria do Mangekyō em Adepto ou Mestre | a soma à carga aguda por uso cai para 20% ou 15% |
 | Mangekyō Eterno | o piso acumulado recua, e a frequência viável da técnica sobe junto |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
+| Raiton com `P` 180 ou mais | `M` em 1,00 ou acima, com o dano subindo junto |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 | Caminho Refino | custo pago no mínimo de 250, sem PS de desperdício |
 
@@ -191,11 +198,11 @@ Na prática ela nunca se abre. Os requisitos de acesso exigem o Amaterasu, que e
 
 ## Referência de Usos por Perfil
 
-| Teste de Moldagem | Custo pago | PS por execução | RC | LS | Janela | Usos por reserva |
-|---|---|---|---|---|---|---|
-| 185 | 250 | 30 | 3.500 | 700 | 0 turnos | 14 |
-| 185 | 250 | 30 | 2.211 | 442 | 0 turnos | 8 |
-| 116 | 475 | 53 | 1.325 | 265 | 1 turno | 2 |
+| Teste de Moldagem | Custo pago | PS por execução | RC | Posição | LS | Janela | Usos por reserva |
+|---|---|---|---|---|---|---|---|
+| 185 | 217 | 30 | 3.500 | Afinidade presumida | 875 | 0 turnos | 16 |
+| 185 | 217 | 30 | 2.211 | Afinidade presumida | 553 | 0 turnos | 10 |
+| 116 | 412 | 53 | 1.325 | Natureza aprendida | 199 | 2 turnos | 3 |
 
 A coluna de usos por reserva descreve apenas o que o chakra permite, e não é o limite real da técnica. O limite real é o olho. Cada execução soma 1% ao piso do medidor e de 15% a 25% à carga aguda conforme a maestria, de modo que o executante alcança o grau Crítico de carga entre a quarta e a sexta execução da mesma cena e passa a arriscar cicatriz permanente muito antes de a reserva acabar.
 
