@@ -24,12 +24,12 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Desvantagens Comuns](core/disadvantages.md) | `core.disadvantages` | 1 | catalog | final |
 | [Errata do Núcleo de Combate v3](core/errata-combat-core-v3.md) | `core.errata-combat-core-v3` | 1 | pending-patch | pending |
 | [Manual de Criação de Poderes](core/power-creation.md) | `core.power-creation` | 3.3 | core-layer | final |
-| [Cálculos Rápidos de Testes](core/quick-calculations.md) | `core.quick-calculations` | 1 | reference-table | final |
+| [Cálculos Rápidos de Testes](core/quick-calculations.md) | `core.quick-calculations` | 2 | reference-table | final |
 | [Tabelas de Referência de Personagens](core/reference-tables.md) | `core.reference-tables` | 1.1 | reference-table | final |
 | [Manual de Criação de Perícias](core/skill-authoring.md) | `core.skill-authoring` | 7.6 | methodology | final |
 | [Pipeline de Perícia](core/skill-pipeline.md) | `core.skill-pipeline` | 1 | methodology | final |
 | [Núcleo de Perícias](core/skills-core.md) | `core.skills-core` | 2.4 | core-layer | final |
-| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.8 | system | final |
+| [Sistema de Efeitos de Status](core/status-effects.md) | `core.status-effects` | 2.9 | system | final |
 | [Núcleo do Sistema](core/system-core.md) | `core.system-core` | 3.6 | core-layer | final |
 | [Template — Documento de Técnica](core/technique-template.md) | `core.technique-template` | 4 | template | final |
 | [Manual Global de Treinamento](core/training.md) | `core.training` | 1 | system | final |
@@ -114,7 +114,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Naruto — Setting Overview](worlds/naruto/overview.md) | `naruto.overview` | 1 | doc | final |
-| [Cálculos Rápidos de Naruto](worlds/naruto/quick-calculations.md) | `naruto.quick-calculations` | 1 | reference-table | final |
+| [Cálculos Rápidos de Naruto](worlds/naruto/quick-calculations.md) | `naruto.quick-calculations` | 2 | reference-table | final |
 
 ## worlds/naruto/advantages-disadvantages
 

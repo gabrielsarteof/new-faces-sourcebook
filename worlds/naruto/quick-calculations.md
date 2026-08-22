@@ -1,7 +1,7 @@
 ---
 id: naruto.quick-calculations
 title: "Cálculos Rápidos de Naruto"
-version: 1
+version: 2
 layer: scenario
 scenario: naruto
 type: reference-table
@@ -61,15 +61,61 @@ Esta régua lê sempre o Controle de Chakra do executor, nunca a perícia do dom
 
 ## 3. Escada de Afinidade
 
-A posição de uma natureza na ficha do praticante ajusta o teste de execução e o custo em RC.
+A posição de uma natureza na ficha do praticante mede desempenho e não preço, e o que ela ajusta é a vazão, o custo em RC e a confiabilidade.
 
-| Posição | Bônus de teste | Custo em RC | Em falha |
+| Posição | Limite de Saída na natureza | Custo efetivo em RC | Em falha de teste |
 |---|---|---|---|
-| Afinidade | +15 | custo declarado × 1,0 | entrega versão reduzida |
-| Compatibilidade | +8 | custo declarado × 1,0 | entrega versão reduzida |
-| Natureza aprendida | −15 | custo declarado × 1,3 | falha total |
+| Afinidade | 25% da RC por turno | custo declarado × 1,0 | entrega versão reduzida |
+| Compatibilidade | 20% da RC por turno | custo declarado × 1,0 | entrega versão reduzida |
+| Natureza aprendida | 15% da RC por turno | custo declarado × 1,3 | falha total |
 
-O bônus soma no teste, na posição que a Seção 5 de `core/quick-calculations.md` reserva aos bônus externos.
+**Nenhum modificador de berço entra no teste da perícia.** A coluna de bônus fixo que esta escada publicava está revogada. O terminal da maestria lê nível, inclinação, caminho e atributo regente, e uma soma de berço ali vazaria ao mesmo tempo para o Fator de Moldagem, para as tabelas de custo pago e para a graduação de riders pela margem, cobrando a posição em três lugares que já a cobram por outras vias.
+
+A vocação se mede em vazão. Quem nasceu com o elemento escoa um quarto da reserva por turno naquela natureza e sustenta rank mais alto por rodada; quem a aprendeu escoa quinze por cento e paga trinta por cento a mais pela mesma técnica. O desempenho no teste é o mesmo para os três, porque o teste responde ao treino e o treino é o que a ficha pagou.
+
+O Limite de Saída é cano único, compartilhado por jutsu, dōjutsu e efeito sustentado, e o turno que mistura naturezas lê a menor das posições empregadas.
+
+## 3.1 Motor de dano de jutsu
+
+A obra do cenário não usa a Energia do golpe do corpo. Ela resolve pelo motor que o Manual de Criação de Jutsus publica, e o número que sai dele percorre as mesmas camadas de defesa do Núcleo de Combate.
+
+```
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+
+mult_Tipo = Constante de Moldagem × Assinatura do vetor declarado
+          = 1,40 × assinatura
+
+M = 1 + w × (P − P_ref) ÷ P_ref          piso de M: 0,5
+w = coeficiente técnico da ficha ÷ 2
+P = atributo regente + Base Total + Inclinação Total + Especialização da perícia governante
+```
+
+| P_ref por rank | E e D | C | B | A | S |
+|---|---|---|---|---|---|
+| valor | 42 | 64 | 122 | 148 | 180 |
+
+| Assinatura por vetor declarado | Valor | Produto com a Constante |
+|---|---|---|
+| Impacto, Corte, Penetração | 1,00 | 1,40 |
+| Energia térmica | 1,15 | 1,61 |
+| Energia elétrica | 1,25 | 1,75 |
+
+A RC lida é sempre a limpa, antes de qualquer sobretaxa de Perfil de Evasão. A perícia governante é uma só, a que a ficha da técnica declara, e o Controle de Chakra permanece portão universal sem somar no motor.
+
+## 3.2 Velocidade da obra
+
+O lado ofensivo do teste de conexão, para obra projetada, lê a Velocidade efetiva.
+
+```
+Velocidade efetiva = Celeridade do meio × Fator de Seção × Ímpeto × M_vel
+
+Fator de Seção = √(coef_entrega ÷ 0,16)
+Ímpeto         = (RC_limpa ÷ 180)^0,25
+M_vel          = 1 + 0,25 × (C − C_ref) ÷ C_ref
+C              = PRE + bônus geral da perícia governante
+```
+
+A celeridade do meio vive na Escada de Meios do Manual de Criação de Jutsus, com o Katon em 100 como âncora neutra e o Raiton em 150. Obra portada pelo corpo não lê celeridade nem Ímpeto e resolve como golpe corporal.
 
 ## 4. Registro de Regentes
 
@@ -118,12 +164,12 @@ O portão de rank conjuntivo desta seção corrige `worlds/naruto/systems/techni
 
 `core/xp-economy.md` §7 não publica linha de preço para o Ápice. O preço cheio do LV6 da categoria já é o que Katon e Fūton cobram, e falta inscrever a linha.
 
-`worlds/naruto/skills/overview.md`, Registro de Regentes, não lista Enton. A entrada entra na próxima passada de propagação.
+`worlds/naruto/skills/overview.md`, Registro de Regentes, segue sem listar Enton. A entrada continua devida.
 
 `core/system-core.md` §142 citava um documento de Cálculos Rápidos inexistente, sem link. A citação já foi corrigida para apontar `core.quick-calculations` nesta mesma passada.
 
-O ×25 da fórmula de Potência não tem derivação publicada, conforme a pendência registrada em `core/quick-calculations.md`.
+A pendência do coeficiente 25 da Potência morreu com a grandeza, que o Núcleo de Combate v3 aposentou.
 
 ## Dependências
 
-`worlds/naruto/systems/technique-requirements.md` v2.1, dono do portão de rank e da Régua de Exigência de Moldagem. `worlds/naruto/systems/elemental-system.md` v7, dono da Escada de Afinidade. `worlds/naruto/skills/overview.md` v2.22, dono do Registro de Regentes do cenário. `core/quick-calculations.md` v1, dono da leitura de teste, dos quatro movimentos do LV6 e da tabela de Especialização.
+`worlds/naruto/systems/technique-requirements.md` v2.2, dono do portão de rank e da Régua de Exigência de Moldagem. `worlds/naruto/systems/elemental-system.md` v9.3, dono da Escada de Afinidade, da Constante de Moldagem e da tabela de Assinatura. `worlds/naruto/systems/jutsu-authoring.md` v3.2, dono do motor de dano, da Escada de Meios e da cadeia de Velocidade. `worlds/naruto/skills/overview.md` v2.28, dono do Registro de Regentes do cenário. `core/quick-calculations.md` v2, dono da leitura de teste, dos quatro movimentos do LV6 e dos cálculos de combate do Núcleo.

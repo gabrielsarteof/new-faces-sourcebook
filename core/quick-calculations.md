@@ -1,7 +1,7 @@
 ---
 id: core.quick-calculations
 title: "Cálculos Rápidos de Testes"
-version: 1
+version: 2
 layer: core
 type: reference-table
 status: final
@@ -142,55 +142,98 @@ Nenhum documento de núcleo publica uma lista fechada de pares de atributo para 
 
 As grandezas abaixo pertencem ao Núcleo de Combate e valem para qualquer cenário que o consome sem redefinição.
 
-| Grandeza | Fórmula |
+| Número da ficha | Fórmula |
 |---|---|
-| Potência | (FOR + VEL) × 25 |
-| Guarda | DEF × 5 |
-| Absorção | RES × 3, piso de 10% da Energia original sempre passando |
+| Energia do golpe | (FOR + VEL + bônus geral da perícia ofensiva) × multiplicador do golpe |
+| Guarda máxima | (DEF × 5) + bônus geral da perícia defensiva |
+| Recarga da Guarda | metade de DEF × 5, degradada pela Exaustão |
+| Absorção | RES × 3, proporcional |
 | Golpe | (FOR + VEL) ÷ 3 |
 | Esquiva | VEL ÷ 6 |
 | Bloqueio | DEF ÷ 6 |
 | Fôlego | RES ÷ 2 |
 | Limiar | RES × 2 |
 | Limiar de Crítico | PRE ÷ 2 |
-| Limiar de Esquiva | base 50, ajustado pelo eixo de evitabilidade da obra |
+| Lado defensivo da conexão | VEL + DES + bônus de esquiva |
 
-Golpe não é dano. É o custo em Esforço de desferir o ataque, multiplicado pelo Esforço da arma empunhada. Potência é a energia bruta antes de qualquer desconto de entrega, e não o dano que chega ao corpo do alvo.
+O bônus geral é Base Total somada à Inclinação Total e à Especialização, sem o atributo regente, porque FOR e VEL já respondem pelo corpo dentro da mesma conta. O Golpe não é dano: é o custo em Esforço de desferir o ataque, multiplicado pelo Esforço da arma.
 
-**A sequência de resolução do ataque**, doze passos, sempre na mesma ordem: declaração, alcance, ajuste do Limiar de Esquiva pelo eixo de evitabilidade, escolha de resposta defensiva, teste de Esquiva, teste de Crítico, Energia, Impacto contra a Guarda, Absorção, saldo no PV, riders, custos e aftermath.
+| Golpe declarado | Multiplicador | Custo em ação | Contrapartida |
+|---|---|---|---|
+| Rápido | ×0,5 | meia ação | nenhuma |
+| Firme | ×1 | uma ação | nenhuma |
+| Pesado | ×1,5 | uma ação | guarda aberta até o próximo turno; exige perícia |
+
+| Classe de arma | Esforço |
+|---|---|
+| Arma de precisão | 0,8 |
+| Lâmina curva | 1,0 |
+| Arma pesada | 1,3 |
+
+**A sequência de resolução do ataque**, doze passos, sempre na mesma ordem: declaração com o vetor, alcance pelas bandas, eixo de evitabilidade, escolha da resposta defensiva, conexão, crítico, Energia, Estado Elemental, Guarda, Absorção, saldo no PV, riders e custos.
+
+**A conexão** é teste oposto de base cinquenta, e substituiu a rolagem de d100 de acerto.
 
 ```
-Energia  = Potência × coeficiente de entrega × multiplicador de Tipo + Fator de Técnica, ×1,5 se crítico
-Impacto  = Energia × coeficiente de impacto
+limiar de conexão = (lado ofensivo ÷ lado defensivo) × 50, piso 5 e teto 95
+
+lado ofensivo, golpe do corpo  = VEL + DES + bônus geral da perícia ofensiva
+lado ofensivo, obra projetada  = Velocidade efetiva, que o manual do cenário publica
+lado defensivo                 = VEL + DES + bônus de esquiva
 ```
 
-O Fator de Técnica só existe quando o caminho da perícia o declara explicitamente, lendo a Especialização daquele caminho. Um golpe comum não carrega Fator de Técnica nenhum.
+Obra portada pelo corpo resolve como golpe corporal e não lê celeridade alguma. Obra de área e de campo não resolvem este teste.
 
-**Coeficientes por classe de arma:**
+**O oleoduto defensivo**, na ordem em que a energia o percorre:
 
-| Classe | Esforço | Coeficiente de impacto |
-|---|---|---|
-| Arma de precisão | 0,8 | 0,8 |
-| Lâmina curva | 1,0 | 1,0 |
-| Arma pesada | 1,3 | 1,3 |
+```
+Guarda    a fração que o vetor engaja detém até onde os pontos alcançam;
+          cada ponto detido sai da barra e vira PS gasto no defensor
+Absorção  dano ao PV = E × [E ÷ (E + Absorção)]
+```
 
-O coeficiente de entrega do golpe comum é 0,20 em toda classe. Ele descreve a forma de entrega, e não a arma que carrega o golpe até o alvo.
+A Absorção é proporcional e não subtrai. Ela nunca detém a totalidade de um impacto que a supera e nunca deixa um impacto ignorar o corpo por completo. Nenhuma perícia a alimenta e nenhum grau de Exaustão a degrada.
 
-**Esforço por ação:** o Golpe da ficha multiplicado pelo Esforço da arma. Cadência sobe o custo em ×1,5, ×2 e ×3 por degrau, porque comprimir esforços máximos na mesma janela custa mais que espaçá-los. Esquiva paga pela Reação gasta. Bloqueio dobra quando resulta em Quebra de Guarda. Deslocamento paga por fração do percurso máximo: um quarto custa VEL ÷ 2, metade custa VEL, o percurso inteiro custa VEL × 2, a Carga custa VEL × 4.
+**O que cada vetor encontra na Guarda:**
 
-**Quebra de Guarda.** Impacto que supera a Guarda restante passa inteiro, zera a Guarda e impõe o estado até o fim do turno seguinte de quem quebrou. Durante ele a Guarda não recarrega, o Bloqueio fica indisponível, e o Limiar de Esquiva do quebrado cai por 0,8. Uma Ação Completa gastando o Esforço de um Bloqueio encerra o estado no ato.
+| Vetor | Contra a Guarda |
+|---|---|
+| Impacto | engaja a barra inteira, e a quebra quando a supera |
+| Corte | engaja a fração que o Grau do Fio deixa, e um quinto do que ela detém alcança o PV mesmo assim |
+| Penetração | engaja a fração que o Grau deixa, numa escada de seis, e nunca causa Quebra |
+| Energia | não engaja a barra |
 
-**Exaustão Física**, cinco graus por PS restante, com cinco penalidades nomeadas em vez de um corte único em atributo:
+**Quebra de Guarda.** Energia que supera a fração engajada zera a barra, e o excedente segue para a Absorção. Durante a janela, que dura até o fim do turno seguinte de quem quebrou, o Bloqueio fica indisponível e o lado defensivo da conexão do quebrado multiplica por 0,8. A Guarda recarrega normalmente desde o primeiro turno após a quebra.
 
-| Grau | PS restante | Recarga da Guarda | Potência | Limiar de Esquiva | Cadência | Deslocamento |
+**Esforço por ação:**
+
+| Ação | Esforço |
+|---|---|
+| Golpe | o Golpe da ficha, multiplicado pelo Esforço da arma |
+| Golpe de Penetração | o mesmo, multiplicado ainda pelo fator do Grau |
+| Cadência, primeira ação extra | Golpe × 1,5 |
+| Cadência, segunda ação extra | Golpe × 2 |
+| Esquiva | a Esquiva da ficha, por Reação gasta |
+| Interrupção de Contato | a Esquiva da ficha |
+| Bloqueio | o Bloqueio da ficha, dobrado quando resulta em Quebra |
+| Manobra | o Golpe |
+| Deslocamento | metros efetivos ÷ 5 |
+
+Cada ponto que a Guarda detém também conta como Esforço contra o Limiar do fim da rodada, e numa troca física longa a Guarda é a maior fonte isolada de drenagem de fôlego da luta.
+
+**Cadência.** A razão entre a VEL do combatente e a do oponente mais rápido engajado concede uma ação extra a partir de 1,5 e duas a partir de 2,5, com teto de duas.
+
+**Exaustão Física**, cinco graus por PS restante, com o Inteiro sendo a ausência da condição:
+
+| Grau | PS restante | Recarga da Guarda | Energia | Lado defensivo | Cadência | Deslocamento |
 |---|---|---|---|---|---|---|
 | Inteiro | 75% ou mais | 50% | cheia | cheio | cheia | cheio |
 | Leve | 50 a 74% | 40% | cheia | cheio | cheia | cheio |
 | Moderado | 25 a 49% | 30% | −10% | ×0,9 | cheia | −10% |
-| Grave | 1 a 24% | 20% | −20% | ×0,8 | um degrau a menos | −25% |
-| Crítico | 0% | 10% | −30% | ×0,7 | nenhum degrau | −50% |
+| Grave | 1 a 24% | 20% | −20% | ×0,8 | uma ação extra a menos | −25% |
+| Crítico | 0% | 10% | −30% | ×0,7 | nenhuma ação extra | −50% |
 
-Absorção nunca degrada com o cansaço. Fôlego e Limiar leem RES, que nenhum grau de Exaustão reduz.
+Os percentuais de recarga leem DEF × 5 e nunca a barra máxima, o que mantém o bônus da perícia defensiva fora da recuperação em todos os graus. Fôlego e Limiar leem RES, que nenhum grau reduz.
 
 **Motor de manobras**, quatro entradas, cada uma teste oposto por par nomeado:
 
@@ -201,27 +244,37 @@ Absorção nunca degrada com o cansaço. Fôlego e Limiar leem RES, que nenhum g
 | Empurrar | FOR + VEL | DEF + FOR | deslocamento forçado, metros pela margem |
 | Desarmar | DES + VEL | DES + FOR | arma no chão |
 
-**Cerco**, multiplicador do Limiar de Esquiva por atacantes engajados com o mesmo alvo:
+**Cerco**, multiplicador do lado defensivo da conexão por atacantes engajados com o mesmo alvo:
 
-| Atacantes | Limiar de Esquiva |
+| Atacantes | Lado defensivo |
 |---|---|
 | 1 | cheio |
 | 2 | ×0,85 |
 | 3 | ×0,70 |
 | 4 ou mais | ×0,60 |
 
-Todo multiplicador de Limiar de Esquiva do sistema, venha de Exaustão, de Guarda quebrada ou de cerco, se multiplica com os demais sem exceção, respeitando piso de 5 e teto de 95.
+Todo multiplicador do lado defensivo, venha de Exaustão, de Guarda quebrada ou de cerco, se multiplica com os demais sem exceção, e o limiar respeita o piso de 5 e o teto de 95 depois de fechada a conta.
 
-**Área e campo.** Área alcança tudo Engajado com o centro escolhido. Campo alcança tudo até a banda Curta do centro, ocupando o terreno enquanto durar. Nenhuma das duas distingue aliado de inimigo.
+**Área e campo.** Área alcança tudo Engajado com o centro escolhido. Campo alcança tudo até a banda Curta do centro, ocupando o terreno enquanto durar. Nenhuma das duas distingue aliado de inimigo, e nenhuma resolve o teste de conexão.
 
 **Dano de fonte sem ficha**, motor de queda:
 
 ```
 altura efetiva = altura em metros − VEL, teto de 150 metros
-Potência da queda = altura efetiva × 60
+Energia da queda = altura efetiva × 60
 ```
 
 Sem Guarda e sem crítico. Um teste de VEL somado a DES autoriza a subtração cheia da altura, e a falha concede metade.
+
+### 4.1 Uma rodada resolvida
+
+Dois combatentes da faixa Especial, perfil Equilibrado, com FOR, VEL, DES, DEF, RES e PRE em 32, PV 1920, PS 768 e bônus geral de 116 na perícia que governa o golpe. A ficha de cada um resolve em Energia de Golpe Firme 180, Guarda 276 com recarga de 80, Absorção 96, Golpe 21,33, Esquiva 5,33, Bloqueio 5,33, Fôlego 16, Limiar 64 e Limiar de Crítico 16. Os dois lados da conexão fecham em 180.
+
+O atacante declara Golpe Firme com arma pesada, entregue por Impacto. O limiar de conexão fecha em 180 dividido por 180, vezes cinquenta, resultando em 50, e ele rola 38 e conecta. No crítico rola 41 contra 16 e não obtém. A Energia fecha em 180. O Impacto engaja a barra inteira de 276, que detém os 180 por completo, e a Guarda cai para 96 drenando 180 de PS do defensor. Nada alcança a Absorção, e o PV permanece em 1920.
+
+O atacante paga 27,73 de Esforço, o Golpe de 21,33 multiplicado pelo 1,3 da arma pesada. O defensor paga 190,66, a soma do Bloqueio, da Esquiva e dos 180 pontos que a Guarda drenou. O atacante fica abaixo do próprio Limiar de 64 e recupera o Fôlego cheio, e o defensor o ultrapassa e recupera metade.
+
+A primeira troca não tirou um ponto de PV de ninguém e já custou ao defensor um quarto do fôlego. É a leitura que o motor pretende: o básico desgasta e abre janela em vez de matar, e o duelo de Impacto se decide por cascata de exaustão muito antes de se decidir por PV.
 
 ## 5. Bônus externos ao teste
 
@@ -230,10 +283,11 @@ A penalidade percentual de status incide sobre o atributo bruto, nunca sobre Bas
 | Fonte | Forma | Onde incide |
 |---|---|---|
 | Vantagem, bônus nomeado de teste | soma fixa | após as quatro parcelas do teste |
-| Escada de Afinidade | soma fixa, publicada por cenário | após as quatro parcelas do teste |
 | Penalidade de status | redução percentual sobre o atributo | antes do atributo entrar na soma |
 
 Fontes distintas se somam entre si. O corpus não publica caso de duas fontes competindo pelo mesmo alvo.
+
+A posição de uma natureza na ficha do praticante não entra aqui. Ela é grandeza de cenário e mede vazão, custo e confiabilidade, nunca desempenho no teste: o terminal da maestria lê nível, inclinação, caminho e atributo regente, e uma soma de berço ali vazaria ao mesmo tempo para os efeitos que leem o valor do teste, para as tabelas de custo e para a graduação de riders pela margem.
 
 ## 6. As quatro perícias comuns
 
@@ -248,10 +302,10 @@ As quatro leem a fórmula de teste padrão da Seção 1 e os terminais do Núcle
 
 ## Pendências
 
-O ×25 de Potência não tem derivação publicada. `core/system-core.md` §6 declara a meta de ritmo de combate, doze a dezessete turnos para um ataque básico derrubar um par, e afirma que o número foi derivado por simulação de fichas reais sem publicar essa simulação. A pendência é aberta contra `core/combat-core.md` v1.
+A pendência do coeficiente 25 da Potência morreu com a grandeza. O Núcleo de Combate v3 aposentou a Potência, e a Energia do golpe que a substituiu não carrega constante sem derivação: ela lê os dois atributos do corpo, o bônus da perícia e o multiplicador do golpe declarado, todos publicados.
 
 `core/system-core.md` não publica lista fechada de pares de atributo para ação fora de perícia adquirida, conforme a Seção 3 acima.
 
 ## Dependências
 
-`core/skills-core.md` v2.2, dono da Base de Nível, das frações de inclinação e especialização, e da leitura de teste e portão. `core/system-core.md` v3.3, dono da resolução de testes e do Ritmo de Combate. `core/combat-core.md` v1, dono de toda a Seção 4. `core/skill-authoring.md` v7.3 §13.1, dono da inclinação de extensão manifestada. `core/status-effects.md` v2.5, dono da penalidade percentual de status. `core/xp-economy.md` v2.6, dono do preço de caminho e transcendência.
+`core/skills-core.md` v2.4, dono da Base de Nível, das frações de inclinação e especialização, e da leitura de teste e portão. `core/system-core.md` v3.6, dono da resolução de testes e do Ritmo de Combate. `core/combat-core.md` v3, dono de toda a Seção 4. `core/skill-authoring.md` v7.4 §13.1, dono da inclinação de extensão manifestada. `core/status-effects.md` v2.8, dono da penalidade percentual de status e dos riders de vetor. `core/xp-economy.md` v2.11, dono do preço de caminho e transcendência.

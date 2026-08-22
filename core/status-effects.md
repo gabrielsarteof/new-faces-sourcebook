@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.8
+version: 2.9
 layer: core
 type: system
 status: final
@@ -449,15 +449,15 @@ O corpo chegou ao limite do esforço sustentável. A Exaustão corre fora dos mo
 
 Fonte: automática, derivada de PS perdido. Sem teste de aplicação. Cada grau substitui o anterior.
 
-PS entre 50% e 74%: Grau Leve. A Guarda recarrega 40% por rodada, sem redução na Potência, no Limiar de Esquiva, na Cadência ou no deslocamento.
+PS entre 50% e 74%: Grau Leve. A Guarda recarrega 40% por rodada, sem redução na Energia, no lado defensivo da conexão, na Cadência ou no deslocamento.
 
-PS entre 25% e 49%: Grau Moderado. A Guarda recarrega 30% por rodada. Redução de 10% na Potência. O Limiar de Esquiva é multiplicado por 0,9. O deslocamento é reduzido em 10%. A Cadência permanece cheia.
+PS entre 25% e 49%: Grau Moderado. A Guarda recarrega 30% por rodada. Redução de 10% na Energia. O lado defensivo da conexão é multiplicado por 0,9. O deslocamento é reduzido em 10%. A Cadência permanece cheia.
 
-PS entre 1% e 24%: Grau Grave. A Guarda recarrega 20% por rodada. Redução de 20% na Potência. O Limiar de Esquiva é multiplicado por 0,8. A Cadência perde um degrau. O deslocamento é reduzido em 25%.
+PS entre 1% e 24%: Grau Grave. A Guarda recarrega 20% por rodada. Redução de 20% na Energia. O lado defensivo da conexão é multiplicado por 0,8. A Cadência perde uma ação extra. O deslocamento é reduzido em 25%.
 
-PS a 0%: Grau Crítico. A Guarda recarrega 10% por rodada. Redução de 30% na Potência. O Limiar de Esquiva é multiplicado por 0,7. A Cadência não concede degrau algum. O deslocamento é reduzido em 50%. O Esforço devido sai do PV, e qualquer ação física complexa exige teste de RES vs 50 ou falha.
+PS a 0%: Grau Crítico. A Guarda recarrega 10% por rodada. Redução de 30% na Energia. O lado defensivo da conexão é multiplicado por 0,7. A Cadência não concede ação extra alguma. O deslocamento é reduzido em 50%. O Esforço devido sai do PV, e qualquer ação física complexa exige teste de RES vs 50 ou falha.
 
-Notas: a Absorção não degrada em grau nenhum, e o Fôlego e o Limiar do Núcleo de Combate leem RES, que nenhum grau desta condição reduz. Descanso curto restaura ao máximo Grau Leve. Descanso longo zera completamente.
+Notas: a Absorção não degrada em grau nenhum, e o Fôlego e o Limiar do Núcleo de Combate leem RES, que nenhum grau desta condição reduz. Os percentuais de recarga leem DEF × 5 e nunca a barra máxima, o que mantém o bônus da perícia defensiva fora da recuperação em todos os graus. Descanso curto restaura ao máximo Grau Leve. Descanso longo zera completamente.
 
 
 ## FAMÍLIA III · SENTIDOS
