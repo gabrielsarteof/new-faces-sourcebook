@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.katon
 title: "Katon (火遁)"
-version: 4.1
+version: 4.2
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: KATON_Pericia_v3.md
 ---
 
-KATON (火遁) · v4.1
+KATON (火遁) · v4.2
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -20,7 +20,7 @@ Esta é a coluna de magnitude do portão duplo, e ela escalona por rank. A perí
 
 A fronteira interna do domínio corre pela ignição. Tudo que acontece antes dela, a separação das energias, a proporção da mistura, a compressão do volume e a integridade da moldagem sob dano, pertence ao Controle de Chakra. Tudo que acontece depois dela pertence a esta perícia, e o cânone autoriza a segunda metade ao registrar que o fogo admite moldagem depois de produzido e que exercer esse controle exige habilidade cuidadosa.
 
-O território termina onde o ofício alheio começa. A relação de vantagem contra Fūton e de desvantagem contra Suiton pertence ao Sistema Elemental. A colaboração entre naturezas que amplia a chama pertence ao Manual de Criação de Jutsus. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo do Tigre à frente, pertence ao Controle de Chakra. A persistência da ferida de chama e a graduação da Queimadura pertencem ao Sistema de Efeitos de Status. A corrente ascendente que gera nuvem de trovão pertence à entrada de Kirin no compêndio. O Gōkakyū como rito de maioridade pertence ao Contexto do Clã Uchiha, e o Gōen no Jutsu como hiden Sarutobi pertence à camada de acesso do compêndio. O Amaterasu e a Liberação de Chama pertencem ao Mangekyō Sharingan e ao Compêndio de Enton, e o fogo como componente de Yōton, Futton, Shakuton e Jinton pertence a Naturezas Avançadas. As técnicas nomeadas vivem no Compêndio de Katon, sem exceção.
+O território termina onde o ofício alheio começa. A relação de vantagem contra Fūton e de desvantagem contra Suiton pertence ao Sistema Elemental. A colaboração entre naturezas que amplia a chama pertence ao Manual de Criação de Jutsus. O Limite de Saída do executor, cuja largura se lê da posição dele nesta natureza, e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo do Tigre à frente, pertence ao Controle de Chakra. A persistência da ferida de chama e a graduação da Queimadura pertencem ao Sistema de Efeitos de Status. A corrente ascendente que gera nuvem de trovão pertence à entrada de Kirin no compêndio. O Gōkakyū como rito de maioridade pertence ao Contexto do Clã Uchiha, e o Gōen no Jutsu como hiden Sarutobi pertence à camada de acesso do compêndio. O Amaterasu e a Liberação de Chama pertencem ao Mangekyō Sharingan e ao Compêndio de Enton, e o fogo como componente de Yōton, Futton, Shakuton e Jinton pertence a Naturezas Avançadas. As técnicas nomeadas vivem no Compêndio de Katon, sem exceção.
 
 A Kyōka de Incandescência hospeda-se nesta perícia. A intensificação do fogo em calor sem combustão abre, na lista de resposta do domínio, perguntas que nenhum praticante sem a manifestação formula, e por isso ela entra como inclinação de extensão manifestada pela seção 3 do Manual de Criação de Perícias, sob o nome de Brasa, com Ápice próprio pela seção 13.1 daquele manual. A Centelha, o tier histórico, a classificação de poder e o multiplicador de dano de 1,80 continuam pertencendo a Naturezas Avançadas, e o que vive aqui é a competência de mesa. A inclinação Shakuton de Dessecação, prevista para a mesma camada, segue pendente e não consta deste documento.
 

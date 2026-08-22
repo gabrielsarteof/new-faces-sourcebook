@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.26
+version: 2.27
 layer: scenario
 scenario: naruto
 type: skill
@@ -10,6 +10,8 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 ---
 
 # Índice de Perícias do Sistema
+
+**v2.27. O Alvo 7 da Errata E1 fecha nas sete perícias de natureza. Katon, Raiton, Doton, Fūton, Suiton, Liberação de Yin e Liberação de Yang deixam de republicar o Limite de Saída como universal em vinte por cento da RC e passam a apontar o dono, com a largura lida da posição do executor na natureza, na forma que a Perícia de Enton já usava. Naturezas Avançadas recebe a mesma correção numa oitava ocorrência que a errata não enumerava. O Registro de Regentes e o Registro de Conformidade acompanham as versões novas, e Senjutsu e Katon, que estavam defasados por passadas anteriores, também. Entra na seção 8 a colisão registrada da transcendência Raio Seco, sem resolução.**
 
 **v2.26. O Eixo do Onmyōton nasce e as duas perícias do eixo sobem de versão. A Liberação de Yin vai a v4.3 e a Liberação de Yang a v4.4, as duas perdendo o multiplicador de natureza que citavam contra um documento inexistente e passando a resolver o dano pela Constante de Moldagem e pela Assinatura do vetor declarado, como toda natureza do sistema. A Liberação de Yang devolve a citação da escassez de instrução ao Manual de Treino do cenário, que já era o dono da régua. O Registro de Regentes e o Registro de Conformidade corrigem as duas linhas, que estavam uma versão atrás em cada perícia desde a passada anterior. Nenhum regente, multiplicador de categoria, caminho ou transcendência mudou.**
 
@@ -41,14 +43,14 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 |---|---|---|---|
 | Controle de Chakra | v3.3 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
-| Senjutsu | v2.2 | RES | Chakra ×1,4 |
-| Katon | v4 | INT | Ninjutsu ×1,5 |
-| Raiton | v3 | INT | Ninjutsu ×1,5 |
-| Fūton | v2.3 | INT | Ninjutsu ×1,5 |
-| Suiton | v2.2 | INT | Ninjutsu ×1,5 |
-| Doton | v2.1 | INT | Ninjutsu ×1,5 |
-| Liberação de Yin | v4.3 | INT | Ninjutsu ×1,5 |
-| Liberação de Yang | v4.4 | RES | Ninjutsu ×1,5 |
+| Senjutsu | v2.5 | RES | Chakra ×1,4 |
+| Katon | v4.2 | INT | Ninjutsu ×1,5 |
+| Raiton | v3.4 | INT | Ninjutsu ×1,5 |
+| Fūton | v2.6 | INT | Ninjutsu ×1,5 |
+| Suiton | v2.5 | INT | Ninjutsu ×1,5 |
+| Doton | v2.3 | INT | Ninjutsu ×1,5 |
+| Liberação de Yin | v4.4 | INT | Ninjutsu ×1,5 |
+| Liberação de Yang | v4.5 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
@@ -424,8 +426,8 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4, Raiton v3, Doton v2.1, Fūton v2.3, Suiton v2.2 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
-| Liberação de Yin v4.3, Liberação de Yang v4.4 | conforme |
+| Katon v4.2, Raiton v3.4, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Liberação de Yin v4.4, Liberação de Yang v4.5 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.3 | conforme |
 | Sensoriamento v2.2 | conforme |
@@ -483,12 +485,15 @@ Vinte e sete, das quais cinco aplicadas. Vinte e duas seguem abertas.
 | Publicar a régua geral de efeitos que atingem a linha aliada sem escolha do executor, hoje declarada só em nota de fronteira local por documento — o escopo já alcança a indiscriminação do Futton, o Rescaldo do Puraton, a transparência do Hariton, a Terra Morta do Kuroi Kaminari e a Absorção do Ciclone | Núcleo do Sistema, sem seção própria ainda |
 | Corrigir o efeito Sem Posição, da transcendência Névoa Eterna: publica 174, lido da especialização de Toque da Maré em largura mínima, quando o efeito de transcendência deveria ler largura de ápice pela seção 6.1 do Núcleo de Perícias — Bruma tem três caminhos, e o valor correto é 190, o mesmo que a linha de testes de referência da perícia já publica | Suiton v2.2 |
 | Decidir se o espadão de duas mãos, acima de 1,5m, vira documento próprio ou caminho de extensão da Katana, e nomear o dono da classe Arma pesada que ele consumiria | Katana v1 |
+| Resolver a colisão da transcendência Raio Seco, que revoga a Absorção por inteiro contra toda técnica de Relâmpago do praticante. O motor de vetores descartou, com razão escrita, a proposta de o Raio ignorar fração da Absorção por ser Raio, porque aquilo tomava o território da Linhagem do Chidori, dona de furar a Absorção pelo Grau VI da Penetração. A Linhagem do Chidori, por sua vez, nomeia o Raio Seco como a única compra do sistema que devolve perfuração a uma forma disparada de longe. As duas leituras convivem publicadas, e a colisão está registrada na própria transcendência | Raiton v3.4, Núcleo de Combate v3 e Linhagem do Chidori v1.5 |
 
 Só a de Percepção depende de material que não está na sessão. As oito novas nasceram da auditoria das quatro perícias do eixo físico contra o Núcleo de Combate, e nenhuma delas é dívida das perícias que as encontraram: todas resolvem o próprio efeito por comparação de limiar ou por categoria exatamente para não inventar a régua que falta.
 
 ---
 
 ## 9. Registro de Alterações
+
+**v2.27.** O Alvo 7 da Errata E1 fecha. As sete perícias de natureza publicavam, cada uma, a mesma frase declarando o Limite de Saída universal em vinte por cento da RC, e repetir o valor foi exatamente o que produziu a errata: quando a Errata E1 revogou a universalidade e fixou a largura por posição, em vinte e cinco por cento para a Afinidade, vinte para a Compatibilidade e quinze para a aprendida, as sete frases repetidas passaram a publicar número morto em sete lugares ao mesmo tempo. As sete agora apontam o dono sem republicar a grandeza, na forma que a Perícia de Enton estabeleceu. A varredura encontrou uma oitava ocorrência, em Naturezas Avançadas, que a errata não enumerava, e ela recebeu a mesma correção. A legenda do Ciclo de Superação em `worlds/naruto/natures/overview.md`, também listada no bloco, já estava corrigida e não precisou de edição. A colisão do Raio Seco entra na seção 8 registrada e sem resolução, porque reconciliar duas leituras publicadas é decisão de desenho e não passada de propagação.
 
 **v2.26.** O Eixo do Onmyōton é publicado, e as duas perícias do eixo deixam de citar um documento que não existia. A Liberação de Yin sobe para v4.3 e a Liberação de Yang para v4.4, as duas perdendo o multiplicador de natureza de 1,50 e de 1,00 que atribuíam àquele documento, e passando a resolver o dano pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, que é a régua que o Sistema Elemental já publicava para as sete naturezas. As duas ganham também a precisão da cláusula de rider: a natureza não contribui rider algum, e o rider estrutural do vetor permanece por pertencer ao vetor. A citação da escassez de instrução da Liberação de Yang volta para a Seção 6 do Manual de Treino do cenário, dono da régua das cinco categorias que apenas o Mestre lendário abre. O Registro de Regentes e o Registro de Conformidade publicavam as duas perícias uma versão atrás cada, defasagem herdada da passada da v2.25, e ficam corrigidos.
 

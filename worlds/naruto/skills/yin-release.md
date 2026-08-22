@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yin-release
 title: "Liberação de Yin"
-version: 4.3
+version: 4.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Liberacao_de_Yin_v4-1.md
 ---
 
-LIBERAÇÃO DE YIN (陰遁) · v4
+LIBERAÇÃO DE YIN (陰遁) · v4.4
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -20,7 +20,7 @@ Esta é a coluna de magnitude do portão duplo, e ela escalona por rank. A perí
 
 A fronteira interna do domínio corre pela separação da energia. Tudo que acontece antes dela, a repartição do chakra composto entre a metade espiritual e a física, a proporção da mistura e a estabilidade do que se sustenta no circuito, pertence ao Controle de Chakra. Tudo que acontece depois da energia espiritual deixar o corpo pertence a esta perícia.
 
-O território termina onde o ofício alheio começa. A perícia exige a afinidade de Yin, obtida de nascença pelo Passo 1.5 do Sistema Elemental ou aprendida fora da afinidade sob multiplicador de dispersão. As manifestações da natureza ficam fora do ciclo de superação elemental e sem choque favorável ou desfavorável, e o dano opera pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, conforme o Eixo do Onmyōton. A natureza não contribui rider algum, e o rider estrutural do vetor declarado permanece por pertencer ao vetor. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos pertence ao Controle de Chakra.
+O território termina onde o ofício alheio começa. A perícia exige a afinidade de Yin, obtida de nascença pelo Passo 1.5 do Sistema Elemental ou aprendida fora da afinidade sob multiplicador de dispersão. As manifestações da natureza ficam fora do ciclo de superação elemental e sem choque favorável ou desfavorável, e o dano opera pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, conforme o Eixo do Onmyōton. A natureza não contribui rider algum, e o rider estrutural do vetor declarado permanece por pertencer ao vetor. O Limite de Saída do executor, cuja largura se lê da posição dele nesta natureza, e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos pertence ao Controle de Chakra.
 
 A mentira instalada no circuito do alvo, que existe para uma pessoa só e cai quando o Kai a alcança, pertence à perícia Genjutsu, e a classificação histórica do genjutsu dentro do eixo de Yin é registro que não gera requisito nem efeito naquele domínio. A leitura de chakra alheio e a identificação de fonte pertencem à perícia de Sensoriamento. O apagamento da própria emissão pertence ao Controle de Chakra. A absorção de chakra alheio com reemissão no mesmo ato pertence à Liberação Escura, em Naturezas Avançadas. A união de Yin e Yang, que dá forma pelo primeiro e vida pelo segundo, pertence ao Eixo do Onmyōton e fica acima do teto desta perícia, junto do poder de Yin dos Seis Caminhos. A sombra manipulada por hiden pertence ao documento do clã que a detém, e a transferência de mente ao clã que a detém. A metade espiritual do chakra de um bijū e o selamento dela pertencem aos documentos de bijū e de fūinjutsu. As técnicas nomeadas vivem no Compêndio de Inton, sem exceção.
 

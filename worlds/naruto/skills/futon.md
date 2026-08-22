@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.futon
 title: "Fūton (風遁)"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: FUTON_Pericia_v2_1.md
 ---
 
-FŪTON (風遁) · v2.4
+FŪTON (風遁) · v2.6
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -20,7 +20,7 @@ Esta é a coluna de magnitude do portão duplo, e ela escalona por rank. A perí
 
 A fronteira interna do domínio corre pela expulsão. Tudo que acontece antes dela, o afinamento do chakra até a borda que parte a folha, a compressão do volume, a proporção da mistura e a integridade da lâmina sob moldagem, pertence ao Controle de Chakra. Tudo que acontece depois dela pertence a esta perícia, e o cânone autoriza a segunda metade ao registrar que o vento se manipula a partir de uma fonte externa já existente, com chakra ou com uma ferramenta, sem que o praticante precise tê-lo gerado.
 
-O território termina onde o ofício alheio começa. A raridade da natureza, a relação de vantagem contra Raiton e de desvantagem contra Katon pertencem ao Sistema Elemental. A colaboração que faz o vento fortalecer a chama e agitar a água pertence ao Manual de Criação de Jutsus. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo do Pássaro à frente, pertence ao Controle de Chakra, que também responde pelo ajuste de comprimento e densidade da borda de vento aplicada a uma arma. A persistência da ferida e a graduação do Sangramento pertencem ao Sistema de Efeitos de Status. O vento como componente de Hyōton, Shakuton, Jiton e Jinton pertence a Naturezas Avançadas, e a camada de intensificação do elemento, o Taiton, pertence ao mesmo documento, que responde pelo portão, pela chance de manifestação e pelo multiplicador de dano; o que a manifestação abre dentro desta perícia vive na inclinação Ciclone. O leque de guerra pertence à Perícia de Leque para a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla contra dano físico e genjutsu sonoro, e permanece com o Fūton apenas para o corte e o deslocamento por vento que a Perícia de Leque conduz sem redefinir. O leque lendário e toda outra ferramenta que produz vento pertencem à camada de acesso do compêndio, e a prática do leque como traço recorrente das forças de Sunagakure pertence ao contexto daquela vila. O sopro do bijū de uma cauda pertence ao documento de Bijū. As técnicas nomeadas vivem no Compêndio de Fūton, sem exceção.
+O território termina onde o ofício alheio começa. A raridade da natureza, a relação de vantagem contra Raiton e de desvantagem contra Katon pertencem ao Sistema Elemental. A colaboração que faz o vento fortalecer a chama e agitar a água pertence ao Manual de Criação de Jutsus. O Limite de Saída do executor, cuja largura se lê da posição dele nesta natureza, e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo do Pássaro à frente, pertence ao Controle de Chakra, que também responde pelo ajuste de comprimento e densidade da borda de vento aplicada a uma arma. A persistência da ferida e a graduação do Sangramento pertencem ao Sistema de Efeitos de Status. O vento como componente de Hyōton, Shakuton, Jiton e Jinton pertence a Naturezas Avançadas, e a camada de intensificação do elemento, o Taiton, pertence ao mesmo documento, que responde pelo portão, pela chance de manifestação e pelo multiplicador de dano; o que a manifestação abre dentro desta perícia vive na inclinação Ciclone. O leque de guerra pertence à Perícia de Leque para a escalada física do objeto, o golpe e o bloqueio sem chakra, a barreira fincada e a defesa dupla contra dano físico e genjutsu sonoro, e permanece com o Fūton apenas para o corte e o deslocamento por vento que a Perícia de Leque conduz sem redefinir. O leque lendário e toda outra ferramenta que produz vento pertencem à camada de acesso do compêndio, e a prática do leque como traço recorrente das forças de Sunagakure pertence ao contexto daquela vila. O sopro do bijū de uma cauda pertence ao documento de Bijū. As técnicas nomeadas vivem no Compêndio de Fūton, sem exceção.
 
 PORTÃO DE RANK
 

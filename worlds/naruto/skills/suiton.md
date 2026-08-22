@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.suiton
 title: "Suiton (水遁)"
-version: 2.4
+version: 2.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: SUITON_Pericia_v2_1.md
 ---
 
-SUITON (水遁) · v2.3
+SUITON (水遁) · v2.5
 
 BLOCO DE VERSÕES
 
@@ -24,7 +24,7 @@ Esta é a coluna de magnitude do portão duplo, e ela escalona por rank. A perí
 
 A fronteira interna do domínio corre pela saída da água. Tudo que acontece antes dela, a conversão do chakra em massa líquida, a forma que essa massa veste, a proporção da mistura e a integridade da estrutura sob moldagem, pertence ao Controle de Chakra. Tudo que acontece depois dela pertence a esta perícia, e o cânone autoriza a segunda metade ao registrar que a técnica de água se executa com mais facilidade a partir de fonte existente no ambiente, sem que o praticante precise tê-la produzido.
 
-O território termina onde o ofício alheio começa. A relação de vantagem contra Katon e de desvantagem contra Doton pertence ao Sistema Elemental. A colaboração que faz o vento agitar a água e a que faz a água ampliar o alcance da corrente elétrica pertence ao Manual de Criação de Jutsus. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo do Cão à frente, pertence ao Controle de Chakra, que também responde pela sustentação do corpo sobre a superfície da água. A persistência e a graduação da Lentidão pertencem ao Sistema de Efeitos de Status. A água como componente de Hyōton, Mokuton, Ranton, Futton e Doroton pertence a Naturezas Avançadas, e a mudança de estado entre líquido, gelo e vapor pertence ao mesmo documento. A hidrificação do corpo pertence ao documento do clã Hōzuki, e o domínio instintivo sobre a água pertence ao contexto do clã Funato. O Chōton é a exceção declarada da fronteira com Naturezas Avançadas: por ser intensificação da própria água e não recomposição com outro elemento, ele não abre perícia separada e responde dentro desta, na forma da inclinação de extensão manifestada Maré, enquanto o multiplicador de dano, o tier e a Centelha continuam vivendo no catálogo de Naturezas Avançadas. O clone de água como marca de Kirigakure e o ninjutsu de bolhas pertencem à camada de acesso do compêndio. As técnicas nomeadas vivem no Compêndio de Suiton, sem exceção.
+O território termina onde o ofício alheio começa. A relação de vantagem contra Katon e de desvantagem contra Doton pertence ao Sistema Elemental. A colaboração que faz o vento agitar a água e a que faz a água ampliar o alcance da corrente elétrica pertence ao Manual de Criação de Jutsus. O Limite de Saída do executor, cuja largura se lê da posição dele nesta natureza, e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo do Cão à frente, pertence ao Controle de Chakra, que também responde pela sustentação do corpo sobre a superfície da água. A persistência e a graduação da Lentidão pertencem ao Sistema de Efeitos de Status. A água como componente de Hyōton, Mokuton, Ranton, Futton e Doroton pertence a Naturezas Avançadas, e a mudança de estado entre líquido, gelo e vapor pertence ao mesmo documento. A hidrificação do corpo pertence ao documento do clã Hōzuki, e o domínio instintivo sobre a água pertence ao contexto do clã Funato. O Chōton é a exceção declarada da fronteira com Naturezas Avançadas: por ser intensificação da própria água e não recomposição com outro elemento, ele não abre perícia separada e responde dentro desta, na forma da inclinação de extensão manifestada Maré, enquanto o multiplicador de dano, o tier e a Centelha continuam vivendo no catálogo de Naturezas Avançadas. O clone de água como marca de Kirigakure e o ninjutsu de bolhas pertencem à camada de acesso do compêndio. As técnicas nomeadas vivem no Compêndio de Suiton, sem exceção.
 
 PORTÃO DE RANK
 

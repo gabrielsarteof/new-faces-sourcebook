@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yang-release
 title: "Liberação de Yang"
-version: 4.4
+version: 4.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Liberacao_de_Yang_v4.md
 ---
 
-LIBERAÇÃO DE YANG (陽遁) · v4.4
+LIBERAÇÃO DE YANG (陽遁) · v4.5
 
 Atributo: RES
 Categoria: Ninjutsu (×1,5)
@@ -28,7 +28,7 @@ O território termina onde o ofício alheio começa. A ampliação de porte e de
 
 A fronteira final é absoluta e não admite exceção, teste ou circunstância. Quem já morreu está fora do alcance de todo caminho desta perícia.
 
-A perícia exige a afinidade de Yang, obtida de nascença pelo Passo 1.5 do Sistema Elemental ou aprendida fora da afinidade sob multiplicador de dispersão. As manifestações da natureza ficam fora do ciclo de superação elemental e sem choque favorável ou desfavorável. A natureza não contribui rider algum, e o rider estrutural do vetor declarado permanece por pertencer ao vetor. O que a perícia projeta para fora do corpo resolve o dano pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, conforme o Eixo do Onmyōton, e a via principal de dano percorre o corpo amplificado e resolve por taijutsu e pelos multiplicadores físicos, sem atravessar o termo de tipo. O Limite de Saída universal de 20% da RC pertence à Reserva de Chakra, com o cano sendo único e compartilhado. A interface de selos pertence ao Controle de Chakra.
+A perícia exige a afinidade de Yang, obtida de nascença pelo Passo 1.5 do Sistema Elemental ou aprendida fora da afinidade sob multiplicador de dispersão. As manifestações da natureza ficam fora do ciclo de superação elemental e sem choque favorável ou desfavorável. A natureza não contribui rider algum, e o rider estrutural do vetor declarado permanece por pertencer ao vetor. O que a perícia projeta para fora do corpo resolve o dano pela Constante de Moldagem multiplicada pela Assinatura do vetor declarado, conforme o Eixo do Onmyōton, e a via principal de dano percorre o corpo amplificado e resolve por taijutsu e pelos multiplicadores físicos, sem atravessar o termo de tipo. O Limite de Saída do executor, cuja largura se lê da posição dele nesta natureza, pertence à Reserva de Chakra, com o cano sendo único e compartilhado. A interface de selos pertence ao Controle de Chakra.
 
 As três transcendências integram o catálogo de portas que apenas o Mestre lendário abre, conforme a Seção 6 do Manual de Treino do cenário, que publica as cinco categorias de conteúdo destravadas por instrução.
 

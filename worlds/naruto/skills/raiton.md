@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.3
+version: 3.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: RAITON_Pericia_v2_final.md
 ---
 
-RAITON (雷遁) · v3.2
+RAITON (雷遁) · v3.4
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -23,7 +23,7 @@ Esta é a coluna de magnitude do portão duplo, e ela escalona por rank. A perí
 
 A fronteira interna do domínio corre pela conversão. A separação das energias, a proporção da mistura, a compressão do volume e a integridade da moldagem sob dano pertencem ao Controle de Chakra. Tudo que acontece depois da conversão pertence a esta perícia.
 
-O território termina onde o ofício alheio começa. A vantagem contra Doton e a desvantagem contra Fūton pertencem ao Sistema Elemental, junto da vulnerabilidade acentuada de quem opera sobre Suiton. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos pertence ao Controle de Chakra. A graduação da Paralisia Parcial e da Dormência pertence ao Sistema de Efeitos de Status, que declara o choque elétrico como fonte e deriva o grau da margem do teste do alvo. O raio como componente de Ranton e de Bakuton pertence a Naturezas Avançadas. O raio empregado como meio de indução de ilusão pertence a Genjutsu. O Raio Negro e o Raio Roxo hospedam nesta perícia as inclinações de extensão manifestada Calamidade e Agudo, e a camada de aquisição de cada um permanece em Naturezas Avançadas. As técnicas nomeadas dos dois vivem no Compêndio de Raiton citando a natureza como requisito. As técnicas nomeadas vivem no Compêndio de Raiton, sem exceção, com o Chidori, o Kirin e o Modo Chakra de Raiton à frente.
+O território termina onde o ofício alheio começa. A vantagem contra Doton e a desvantagem contra Fūton pertencem ao Sistema Elemental, junto da vulnerabilidade acentuada de quem opera sobre Suiton. O Limite de Saída do executor, cuja largura se lê da posição dele nesta natureza, e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos pertence ao Controle de Chakra. A graduação da Paralisia Parcial e da Dormência pertence ao Sistema de Efeitos de Status, que declara o choque elétrico como fonte e deriva o grau da margem do teste do alvo. O raio como componente de Ranton e de Bakuton pertence a Naturezas Avançadas. O raio empregado como meio de indução de ilusão pertence a Genjutsu. O Raio Negro e o Raio Roxo hospedam nesta perícia as inclinações de extensão manifestada Calamidade e Agudo, e a camada de aquisição de cada um permanece em Naturezas Avançadas. As técnicas nomeadas dos dois vivem no Compêndio de Raiton citando a natureza como requisito. As técnicas nomeadas vivem no Compêndio de Raiton, sem exceção, com o Chidori, o Kirin e o Modo Chakra de Raiton à frente.
 
 PORTÃO DE RANK
 
@@ -191,6 +191,8 @@ Revoga: a Absorção reduz o dano da técnica.
 └─ Contra técnicas de Relâmpago do praticante, entregues por contato ou por forma dirigida, a Absorção do alvo não se aplica em grau algum
 └─ Barreira ou anteparo elemental interposto deixa de deter a descarga, que atravessa e prossegue ao alvo original com a potência restante
 └─ Fio Concentrado LV6: a fração e o teto desaparecem, substituídos pela linha acima
+
+COLISÃO REGISTRADA, SEM RESOLUÇÃO: o motor de vetores descartou, com razão escrita, a proposta de o Raio ignorar fração da Absorção por ser Raio, porque aquilo tomava o território da Linhagem do Chidori, que já ocupa o lugar de furar a Absorção pelo Grau VI da Penetração. Esta transcendência revoga a Absorção por inteiro contra toda técnica de Relâmpago do praticante, e a Linhagem do Chidori a nomeia como a única compra do sistema que devolve perfuração a uma forma disparada de longe. As duas leituras convivem publicadas e não foram reconciliadas. O registro existe para que a próxima passada encontre a colisão em vez de descobri-la em mesa, e resolvê-la é decisão de desenho fora do alcance de uma passada de propagação.
 └─ Ponta Defensiva LV6: passivo permanente, sem consumir reação e sem limite por turno
 └─ Fio Estendido LV6: 28 metros, e a forma dirigida atravessa alvos alinhados na mesma trajetória, com cada alvo seguinte recebendo 60% do dano do anterior
 

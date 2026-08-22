@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 7.1
+version: 7.2
 layer: scenario
 scenario: naruto
 type: system
@@ -175,7 +175,7 @@ O Ciclo de Superação trata toda natureza avançada como natureza única, com n
 
 ## Mecânica de Ativação
 
-- **Custo:** definido por técnica, em RC, dentro do Limite de Saída universal publicado pela Reserva de Chakra.
+- **Custo:** definido por técnica, em RC, dentro do Limite de Saída do executor, cuja largura a Reserva de Chakra publica por posição.
 - **Ação:** definida por técnica.
 - **Restrições:** exige a natureza avançada desbloqueada e no nível mínimo do rank pretendido, além dos Tipos Elementais de todos os componentes já no nível exigido.
 - **Aftermath:** definido por técnica.

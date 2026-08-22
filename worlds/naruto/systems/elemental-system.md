@@ -1,7 +1,7 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 9.2
+version: 9.3
 layer: scenario
 scenario: naruto
 type: system
@@ -9,7 +9,7 @@ status: final
 source-file: Sistema_Elemental_v8.md, mais a Errata E1 v2
 ---
 
-# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v9.2
+# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v9.3
 Conversão do chakra nas sete naturezas, a afinidade que o papel revela, as compatibilidades de nascença, a aquisição por treino e as relações de superação em confronto.
 
 ---
@@ -467,7 +467,7 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 | `worlds/naruto/natures/overview.md` v1 | A legenda do ciclo inverte a relação publicada aqui, afirmando que cada natureza é fraca contra a seguinte quando a tabela declara superação |
 | Manual de Criação de Jutsus v2.5, seção 5.3 | O termo `mult_Tipo` da fórmula universal de dano passa a ser a Constante de Moldagem multiplicada pela Assinatura do vetor declarado. A seção 5.4 acrescenta a coluna de vetor de tendência com a mesma redação de tendência que já rege o rider |
 | Reserva de Chakra | **Aplicado na v3.5.** O documento publica a largura por posição, a regra de turno misto, a faixa de vinte por cento para gasto sem natureza declarada, a leitura sobre a RC máxima, e a regra de que todo modificador do cano é relativo à largura da posição |
-| Perícias de natureza, sete documentos | Katon, Raiton, Doton, Fūton, Suiton, Liberação de Yin e Liberação de Yang republicam o Limite de Saída como universal em vinte por cento. Cada uma passa a apontar para o dono e a não republicar o número, porque repetir o valor foi o que produziu esta linha. A Perícia de Enton já cita apenas "o Limite de Saída do executor", sem número, e é a forma que as sete adotam |
+| ~~Perícias de natureza, sete documentos~~ | **Aplicada.** As sete deixaram de republicar o Limite de Saída como universal em vinte por cento e passaram a apontar o dono, com a largura lida da posição do executor, na forma que a Perícia de Enton estabeleceu: Katon v4.2, Raiton v3.4, Doton v2.3, Fūton v2.6, Suiton v2.5, Liberação de Yin v4.4 e Liberação de Yang v4.5. Uma oitava ocorrência, em Naturezas Avançadas v7.2, foi encontrada na varredura e recebeu a mesma correção |
 | Controle de Chakra, caminho Vazão Ampliada | **Aplicado na v3.7.** O caminho amplia por fator sobre a largura da posição empregada, com teto de 1,25 vez essa largura. Sobre a Compatibilidade o teste cheio entrega os mesmos vinte e cinco por cento que a régua publicava antes |
 | Reencarnação de Indra e vantagem de vazão ampliada | Os dois elevam o Limite de Saída "de vinte para trinta por cento", ancorados na base universal revogada. Pela regra de modificador relativo da Reserva de Chakra, os dois passam a multiplicar a largura da posição por um e meio, o que preserva os trinta por cento para quem opera em Compatibilidade |
 | Vantagem de afinidade, seção de vantagens do cenário | O efeito concede "+8 em todos os testes da natureza, somado ao bônus de posição da escada de afinidade". O bônus de posição foi revogado, e a soma perdeu a segunda parcela |
@@ -482,6 +482,8 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 ---
 
 ## Registro de Alterações
+
+**v9.3.** O Alvo 7 da Errata E1 fecha na fila de errata emitida. As sete perícias de natureza, mais uma oitava ocorrência em Naturezas Avançadas, deixaram de republicar o Limite de Saída como universal em vinte por cento. Nenhum número deste documento mudou.
 
 **v9.2.** A errata contra a Vulnerabilidade Elemental fecha, aplicada no Sistema de Efeitos de Status v2.8. A condição publicava redução de uma Resistência ao elemento em três dos quatro graus, e essa grandeza nunca existiu no corpus. Nenhum número deste documento mudou.
 

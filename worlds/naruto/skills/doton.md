@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.doton
 title: "Doton (土遁)"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: DOTON_Pericia_v2.md
 ---
 
-DOTON (土遁) · v2.2
+DOTON (土遁) · v2.3
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -20,7 +20,7 @@ Esta é a coluna de magnitude do portão duplo, e ela escalona por rank. A perí
 
 A fronteira interna do domínio corre pelo desprendimento da matéria, que é o instante em que a terra deixa de ser leito e passa a ser massa sob comando. Tudo que acontece antes dele, a conversão do chakra em matéria terrosa, a proporção entre solo, lama e pedra, a forma que a massa veste e a integridade da estrutura enquanto está sendo moldada, pertence ao Controle de Chakra. Tudo que acontece depois dele pertence a esta perícia, e o cânone autoriza a segunda metade ao registrar que a maioria das técnicas do elemento se executa alterando a forma do solo existente, sem que o praticante precise tê-lo produzido.
 
-O território termina onde o ofício alheio começa. A relação de vantagem contra Suiton e de desvantagem contra Raiton pertence ao Sistema Elemental. A colaboração que inflama a lama arremessada pertence ao Manual de Criação de Jutsus. O Limite de Saída universal de 20% da RC e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo da Serpente à frente, pertence ao Controle de Chakra. A persistência e a graduação da Imobilização pertencem ao Sistema de Efeitos de Status. A terra como componente de Mokuton, Yōton, Jiton, Bakuton, Doroton, Shōton e do kekkei tōta Jinton pertence a Naturezas Avançadas. O Shinton, a Kyōka de Terra, é a exceção declarada dessa entrega: a manifestação, a Centelha, o portão e o multiplicador de dano de 1,70 permanecem em Naturezas Avançadas, e a competência que ele destrava mora aqui, como a inclinação de extensão manifestada Sismo, pela regra da seção 3 do Manual de Criação de Perícias. A multiplicação e a redução do peso de um corpo alheio por toque pertencem ao Compêndio de Doton, na camada de Patrimônio de Vila de Iwagakure, porque a propriedade é da técnica e não da competência do praticante. As técnicas nomeadas vivem no Compêndio de Doton, sem exceção.
+O território termina onde o ofício alheio começa. A relação de vantagem contra Suiton e de desvantagem contra Raiton pertence ao Sistema Elemental. A colaboração que inflama a lama arremessada pertence ao Manual de Criação de Jutsus. O Limite de Saída do executor, cuja largura se lê da posição dele nesta natureza, e a assimetria de custo por afinidade pertencem ao Sistema Elemental e à Reserva de Chakra, com o cano sendo único e compartilhado por jutsu, dōjutsu e efeito sustentado. A interface de selos, com o selo da Serpente à frente, pertence ao Controle de Chakra. A persistência e a graduação da Imobilização pertencem ao Sistema de Efeitos de Status. A terra como componente de Mokuton, Yōton, Jiton, Bakuton, Doroton, Shōton e do kekkei tōta Jinton pertence a Naturezas Avançadas. O Shinton, a Kyōka de Terra, é a exceção declarada dessa entrega: a manifestação, a Centelha, o portão e o multiplicador de dano de 1,70 permanecem em Naturezas Avançadas, e a competência que ele destrava mora aqui, como a inclinação de extensão manifestada Sismo, pela regra da seção 3 do Manual de Criação de Perícias. A multiplicação e a redução do peso de um corpo alheio por toque pertencem ao Compêndio de Doton, na camada de Patrimônio de Vila de Iwagakure, porque a propriedade é da técnica e não da competência do praticante. As técnicas nomeadas vivem no Compêndio de Doton, sem exceção.
 
 PORTÃO DE RANK
 
