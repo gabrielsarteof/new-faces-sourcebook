@@ -1,15 +1,15 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 8
+version: 9
 layer: scenario
 scenario: naruto
 type: system
 status: final
-source-file: Sistema_Elemental_v8.md
+source-file: Sistema_Elemental_v8.md, mais a Errata E1 v2
 ---
 
-# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v8
+# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v9
 Conversão do chakra nas sete naturezas, a afinidade que o papel revela, as compatibilidades de nascença, a aquisição por treino e as relações de superação em confronto.
 
 ---
@@ -33,7 +33,7 @@ As naturezas que não vieram de berço se adquirem por treino, e o shinobi que s
 - **Pré-requisito:** Controle de Chakra, porque a perícia da natureza é dependente e se ancora nele.
 - **Atributo regente:** INT.
 - **Categoria:** Ninjutsu (×1,5).
-- **Portão de Reserva:** o custo efetivo da técnica cabe no Limite de Saída do shinobi, universal em 20% da RC por turno.
+- **Portão de Reserva:** o custo efetivo da técnica cabe no Limite de Saída do shinobi, cuja largura se lê da posição do praticante na natureza empregada.
 - **Portão de Controle:** a perícia da natureza empregada atinge o nível mínimo do rank da técnica.
 
 | Rank da técnica | E | D | C | B | A | S |
@@ -138,15 +138,27 @@ O viés regional é moderado e aplica apenas à Afinidade. Quando clã e região
 
 A posição de cada natureza na escada determina desempenho, e não preço. O preço vive inteiramente na tabela de dispersão.
 
-| Posição | Bônus de teste | Custo efetivo em RC | Em falha de teste |
+| Posição | Limite de Saída na natureza | Custo efetivo em RC | Em falha de teste |
 |---|---|---|---|
-| Afinidade | +15 | custo declarado × 1,0 | entrega versão reduzida |
-| Compatibilidade | +8 | custo declarado × 1,0 | entrega versão reduzida |
-| Natureza aprendida | −15 | custo declarado × 1,3 | falha total |
+| Afinidade | 25% da RC por turno | custo declarado × 1,0 | entrega versão reduzida |
+| Compatibilidade | 20% da RC por turno | custo declarado × 1,0 | entrega versão reduzida |
+| Natureza aprendida | 15% da RC por turno | custo declarado × 1,3 | falha total |
 
-O Limite de Saída é universal em 20% da RC por turno, com o mesmo cano servindo jutsus, dōjutsu e efeitos sustentados. A assimetria entre as naturezas de nascença e as aprendidas mora no custo. O chakra convertido para uma natureza alheia consome parte de si na própria conversão, e o executor paga trinta por cento a mais pela mesma técnica. Os custos declarados nos registros de técnica são sempre o valor de nascença, e a penalidade pertence ao executor. A Janela de Canalização do Manual de Criação de Jutsus é calculada sobre o custo pago, de modo que a natureza aprendida também dispara mais devagar, e a mesma regra cobra na economia e no tempo.
+A vocação se mede em vazão. O shinobi que nasceu com o elemento escoa um quarto da reserva por turno naquela natureza, sustenta rank mais alto por rodada e recarrega a técnica grande em menos turnos. O que aprendeu a natureza escoa quinze por cento e paga trinta por cento a mais pela mesma técnica, de modo que a obra de porte alto exige acumulação onde o nativo dispara direto. O desempenho no teste é o mesmo para os três, porque o teste responde ao treino e o treino é o que a ficha pagou.
 
-O bônus de teste entra na resolução da técnica. A coluna de falha refere-se ao modelo de Efeito Parcial em Falha: a natureza de nascença entrega resultado reduzido mesmo quando o teste vai mal, e a aprendida não entrega nada.
+Nenhum modificador de berço entra no teste da perícia. O terminal da maestria lê nível, inclinação, caminho e atributo regente, e o Núcleo de Perícias autoriza efeitos a lerem o valor do teste. Uma soma fixa ali vazaria ao mesmo tempo para o Fator de Moldagem, para as tabelas de custo pago e para a graduação de riders pela margem, cobrando a posição em três lugares que já a cobram por outras vias.
+
+A assimetria de preço entre as naturezas de nascença e as aprendidas mora no custo em chakra. O chakra convertido para uma natureza alheia consome parte de si na própria conversão, e o executor paga trinta por cento a mais pela mesma técnica. Os custos declarados nos registros de técnica são sempre o valor de nascença, e a penalidade pertence ao executor. A Janela de Canalização do Manual de Criação de Jutsus é calculada sobre o custo pago, de modo que a natureza aprendida também dispara mais devagar, e a mesma regra cobra na economia e no tempo.
+
+A coluna de falha refere-se ao modelo de Efeito Parcial em Falha: a natureza de nascença entrega resultado reduzido mesmo quando o teste vai mal, e a aprendida não entrega nada.
+
+### O cano de saída de chakra
+
+O Limite de Saída é o cano único de saída de chakra por turno, compartilhado por jutsu, dōjutsu e efeito sustentado. A largura dele se lê da posição da natureza empregada, em vinte e cinco por cento da RC para a Afinidade, vinte para a Compatibilidade e quinze para a natureza aprendida. Gasto que não emprega natureza elemental, como moldagem pura, dōjutsu, Fūinjutsu e efeito sustentado sem natureza declarada, corre em vinte por cento.
+
+Quando o shinobi emprega mais de uma natureza no mesmo turno, a largura do cano é a menor entre as posições empregadas. O cano permanece único e não se soma por natureza, e a diversidade elemental deixa de ampliar o orçamento de chakra da rodada.
+
+A Reserva de Chakra é a dona do Limite de Saída, e o número se lê sempre da RC máxima. Os três degraus de vazão são leituras limpas sobre o motor percentual que o Limite de Saída já é, e a calibragem fina de vinte e cinco e de quinze pertence ao lote de rebalanceamento de combate que deriva a escala de energia por rank a partir dos alvos de turno.
 
 ### Aquisição de naturezas por treino
 
@@ -155,6 +167,8 @@ O shinobi adquire naturezas fora das que trouxe de berço por treino, em dois pa
 **Desbloqueio até o LV1.** Exige instrução ativa e tempo de campanha. É o exercício temático da natureza: para o Vento, cortar a folha e depois a cachoeira; para o Raio, gerar descarga no próprio corpo; para o Fogo, projetar chama controlada. Sem o desbloqueio, a natureza não existe na ficha, e a perícia daquela natureza não está disponível para compra.
 
 **Desenvolvimento do LV1 ao LV6.** Sobe pelo módulo de treino, respeitando os limiares de tempo por nível e o multiplicador de Método do instrutor. A qualidade do mestre acelera o treino. As vilas concentram mestres do próprio elemento, tornando o aprendizado local mais rápido sem alterar as naturezas de nascença.
+
+A posição da natureza modula os limiares de tempo. A Afinidade percorre os limiares reduzidos, a Compatibilidade os limiares padrão e a natureza aprendida os limiares estendidos, e o multiplicador de Método opera sobre o limiar já modulado. `[canon]` A instrução canônica declara que a natureza de afinidade é a mais rápida de aprender, e o cânone mede essa vantagem em tempo de treino. A régua de três colunas nasce no Manual de Treino, que é o dono dos limiares, e este documento declara a modulação sem publicar os fatores.
 
 A ordem de aquisição é registrada na ficha e permanece fixa, porque é ela que define a posição de cada natureza aprendida na tabela de dispersão. Uma natureza aprendida nunca se converte em Afinidade, porque o Papel de Indução já leu o que leu.
 
@@ -202,7 +216,7 @@ O Ciclo de Superação é público e estratégico. Formações militares e duelo
 
 ## Mecânica de Ativação
 
-- **Custo:** definido por técnica, em RC, no valor de nascença. Executores em natureza aprendida pagam o custo efetivo ×1,3. O Limite de Saída universal de 20% da RC governa a canalização por turno.
+- **Custo:** definido por técnica, em RC, no valor de nascença. Executores em natureza aprendida pagam o custo efetivo ×1,3. O Limite de Saída governa a canalização por turno, com a largura lida da posição do praticante na natureza empregada.
 - **Ação:** definida por técnica.
 - **Restrições:** exige a natureza desbloqueada e a perícia da natureza no nível mínimo do rank.
 - **Aftermath:** definido por técnica, conforme o rank no Manual de Criação de Jutsus.
@@ -227,7 +241,7 @@ O rendimento mede a matéria da técnica, e a posição da natureza na escada me
 
 ### Assinatura e a leitura do corpo
 
-Osso, músculo e tecido detêm trauma mecânico com a estrutura que possuem para isso, e enfrentam a transferência térmica e a corrente sem estrutura alguma dedicada a detê-las. A Assinatura mede essa diferença, pertence ao corpo que recebe o golpe, e se lê do vetor que a obra declara.
+Osso, músculo e tecido detêm trauma mecânico com a estrutura que possuem para isso, e enfrentam a transferência térmica e a corrente sem estrutura alguma dedicada a detê-las. A Assinatura mede essa diferença. Ela é a letalidade intrínseca daquele tipo de energia contra carne, quanto ele machuca um corpo no instante em que conecta, e se lê do vetor que a obra declara. O mesmo valor vale contra qualquer defensor.
 
 | Vetor declarado | Assinatura |
 |---|---|
@@ -240,6 +254,8 @@ Osso, músculo e tecido detêm trauma mecânico com a estrutura que possuem para
 A Assinatura térmica cobre tanto a adição quanto a remoção de calor, porque o tecido falha pela transferência em si e não pela direção dela, e o congelamento entra por essa porta como a queimadura entra.
 
 A Assinatura acompanha a obra e não a natureza que a produziu. Um jato cortante de Água resolve em ×1,00 e o vapor escaldante de Água resolve em ×1,15, porque o corpo processa o primeiro como trauma e o segundo como transferência térmica.
+
+Resistência a um tipo de energia não vive em constante de natureza, e não existe como grandeza reduzível por percentual. Ela existe apenas como Estado Elemental declarado na ficha da obra que o produz, com Modo, vetor ou elemento afetado, elemento acoplado, reserva investida e manutenção por rodada, e cobra chakra enquanto durar. O chassi dos três Modos pertence ao Núcleo de Combate. Nenhum corpo carrega resistência elemental por constituição passiva, e a vulnerabilidade relacional do Ciclo de Superação segue governando elemento contra elemento sem tocar essa camada.
 
 As duas camadas compõem o motor de dano na ordem em que a energia percorre o caminho, primeiro o que a técnica entrega e depois o que o corpo faz com ela.
 
@@ -400,9 +416,9 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 
 - **Controle de Chakra, caminho Refino:** zera o desperdício e derruba o custo pago ao mínimo declarado, o que sustenta técnicas de rank superior com a mesma reserva
 - **Controle de Chakra, inclinação Moldagem:** a transformação de forma combina com a transformação de natureza para produzir a técnica completa, com a forma definindo alcance e padrão de entrega e a natureza definindo o efeito
-- **Reserva de Chakra:** a RC determina o teto absoluto e, com o Limite de Saída universal de 20%, a escala de técnicas acessíveis por turno. Reservas maiores permitem superar o ciclo por potência bruta, e o custo efetivo ×1,3 torna as naturezas de nascença o caminho econômico para sustentar confrontos prolongados
+- **Reserva de Chakra:** a RC determina o teto absoluto e, com o Limite de Saída lido da posição da natureza empregada, a escala de técnicas acessíveis por turno. Reservas maiores permitem superar o ciclo por potência bruta, e o custo efetivo ×1,3 torna as naturezas de nascença o caminho econômico para sustentar confrontos prolongados
 - **Riders e status:** a Vulnerabilidade aplicada por técnicas e o efeito de ciclo atuam em camadas sequenciais, com a Vulnerabilidade aumentando o dano de rompimento e o ciclo decidindo quem vence o choque
-- **Módulo de treino:** o multiplicador de Método do instrutor e os limiares de tempo governam a velocidade de progressão em cada natureza, e o desbloqueio até o LV1 de uma natureza aprendida corre por ele
+- **Módulo de treino:** o multiplicador de Método do instrutor e os limiares de tempo governam a velocidade de progressão em cada natureza, com os limiares modulados pela posição, e o desbloqueio até o LV1 de uma natureza aprendida corre por ele
 
 ---
 
@@ -450,7 +466,9 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 | Compêndios de Katon, Fūton, Suiton e Doton | Citação de Sistema Elemental v5 |
 | `worlds/naruto/natures/overview.md` v1 | A legenda do ciclo inverte a relação publicada aqui, afirmando que cada natureza é fraca contra a seguinte quando a tabela declara superação |
 | Manual de Criação de Jutsus v2.5, seção 5.3 | O termo `mult_Tipo` da fórmula universal de dano passa a ser a Constante de Moldagem multiplicada pela Assinatura do vetor declarado. A seção 5.4 acrescenta a coluna de vetor de tendência com a mesma redação de tendência que já rege o rider |
-| Núcleo de Combate, passo 7 | A grandeza que o passo consome passa a se chamar Assinatura, e ela continua sendo propriedade do defensor, como o documento já declara |
+| Reserva de Chakra v3.4 | O documento publica o Limite de Saída em vinte por cento da RC por turno como condição normal única, e é o dono declarado da grandeza. Ele passa a ler a largura da posição da natureza empregada, com os três degraus desta Escada, a regra de turno misto e a faixa de vinte por cento para gasto sem natureza declarada, mantendo a leitura sobre a RC máxima |
+| Perícias de natureza, seis documentos | Cada uma republica o Limite de Saída como universal em vinte por cento. A perícia passa a apontar para o dono e a não republicar o número, porque repetir o valor em seis documentos foi o que produziu esta linha |
+| Naturezas Avançadas, seção do Shiden | O caminho Gume da inclinação Agudo aplica Sangramento no lugar da Paralisia Parcial, e a regra vigente daquele documento declara que o rider continua o do elemento base. A substituição de rider por Kyōka segue pendente nos dois documentos, sem travar a publicação da inclinação |
 | Naturezas Avançadas v5 | A regra de tipo dominante deixa de reger dano e passa a reger apenas a posição no Ciclo de Superação. As naturezas avançadas resolvem pela Constante de Moldagem e pela Assinatura do vetor que cada obra declara, e os multiplicadores dos Kyōka são republicados sobre a base nova |
 | Compêndios de todas as naturezas e documentos de técnica | Cada entrada que entrega dano passa a declarar vetor, grau quando aplicável, riders e Velocidade, e a Assinatura deriva do vetor sem decisão adicional |
 | Sistema de Efeitos de Status v2.1 | A Vulnerabilidade Elemental reduz uma Resistência ao elemento em três dos quatro graus, e o corpus não publica essa grandeza |
@@ -458,6 +476,8 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 ---
 
 ## Registro de Alterações
+
+**v9.** A Errata E1 é absorvida. O bônus fixo de teste é revogado nas três posições da Escada de Afinidade, e a coluna dá lugar ao Limite de Saída na natureza, em vinte e cinco por cento para a Afinidade, vinte para a Compatibilidade e quinze para a natureza aprendida. O teste da perícia passa a ler exclusivamente nível, inclinação, caminho e atributo regente, porque o Núcleo de Perícias autoriza efeitos a lerem o valor do teste e uma soma de berço ali vazaria para o Fator de Moldagem, para as tabelas de custo pago e para a graduação de riders ao mesmo tempo. O Limite de Saída deixa de ser universal e ganha seção própria, com a regra de turno misto lendo a menor das posições empregadas e a faixa de vinte por cento para gasto sem natureza declarada. A modulação dos limiares de treino pela posição entra no documento, com os fatores permanecendo no Manual de Treino. A Assinatura deixa de ser descrita como propriedade do defensor e passa a ser a letalidade intrínseca do tipo de energia contra carne, sem que número algum mude, e o lugar que ela ocupava do lado do defensor passa a pertencer ao Estado Elemental declarado, cujo chassi o Núcleo de Combate publica. Nenhum custo de perícia, tabela de dispersão, cadeia de d100, Constante de Moldagem ou valor de Assinatura mudou.
 
 **v8.** O multiplicador por natureza dá lugar a duas camadas com donos distintos. A Assinatura térmica cobre adição e remoção de calor. A Constante de Moldagem, fixada em 1,40, mede o rendimento de toda técnica de transformação de natureza e vale para as sete por igual. A Assinatura mede o que o corpo do alvo faz com a energia recebida, pertence ao defensor, e se lê do vetor que a obra declara, em 1,25 para a Energia elétrica, 1,15 para a Energia térmica e 1,00 para Impacto, Corte e Penetração. O produto para o Raio permanece em 1,75 e o do Fogo resolve em 1,61. Terra, Vento e Água passam a resolver pelo vetor que cada técnica declara. A tabela de rider passa a publicar também o vetor de tendência, com a mesma redação de tendência que já regia o rider. As fórmulas do Sōsai e da realimentação passam a ler a cadeia nova.
 
@@ -475,9 +495,10 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 |---|---|---|
 | Manual de Economia de XP | 2.9 | A régua de custo por nível e a convenção de arredondamento da categoria |
 | Núcleo de Perícias | 2.2 | A estrutura de níveis LV1 a LV6 |
-| Manual de Criação de Jutsus | 2.5 | A Janela de Canalização e o motor de dano |
-| Núcleo de Combate | 1 | Os vetores de dano, as camadas de defesa e o passo que consome a Assinatura |
-| Reserva de Chakra | 3.1 | A RC nominal e o Limite de Saída de 20% |
-| Sistema de Efeitos de Status | 2.1 | A resolução dos riders |
-| Naturezas Avançadas | 5 | A Centelha, as Kekkei Genkai, as Kekkei Tōta e as Kyōka |
+| Manual de Criação de Jutsus | 2.11 | A Janela de Canalização e o motor de dano |
+| Núcleo de Combate | 3 | Os vetores de dano, as camadas de defesa, o passo que consome a Assinatura e o chassi do Estado Elemental |
+| Reserva de Chakra | 3.4 | A RC nominal e o Limite de Saída, lido da RC máxima |
+| Manual de Treino | 1 | Os limiares de tempo e o multiplicador de Método |
+| Sistema de Efeitos de Status | 2.5 | A resolução dos riders |
+| Naturezas Avançadas | 7 | A Centelha, as Kekkei Genkai, as Kekkei Tōta e as Kyōka |
 | Manual de Treino | 1 | Os limiares de tempo por nível e o multiplicador de Método |

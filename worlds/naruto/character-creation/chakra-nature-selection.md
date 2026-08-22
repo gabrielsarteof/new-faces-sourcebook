@@ -1,7 +1,7 @@
 ---
 id: naruto.character-creation.chakra-nature
 title: "Naturezas de Chakra na Criação de Personagem"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: system
@@ -78,20 +78,20 @@ A ficha nasce com Raiton como Afinidade e Suiton como Compatibilidade. A aspiran
 
 ## O que cada posição entrega
 
-A posição da natureza governa quatro grandezas ao mesmo tempo, e o Sistema Elemental as publica em conjunto.
+A posição da natureza governa quatro grandezas ao mesmo tempo, e o Sistema Elemental as publica em conjunto. Uma quinta, o limiar de tempo de treino, corre no Manual de Treino e também se lê da posição.
 
-| Posição | Bônus de teste | Preço da perícia | Custo em RC | Em falha de teste |
+| Posição | Limite de Saída na natureza | Preço da perícia | Custo em RC | Em falha de teste |
 |---|---|---|---|---|
-| Afinidade | +15 | ×1,0 | ×1,0 | entrega versão reduzida |
-| Compatibilidade | +8 | ×1,125 | ×1,0 | entrega versão reduzida |
-| 1ª natureza aprendida | −15 | ×1,25 | ×1,3 | falha total |
-| 2ª natureza aprendida | −15 | ×1,6 | ×1,3 | falha total |
+| Afinidade | 25% da RC por turno | ×1,0 | ×1,0 | entrega versão reduzida |
+| Compatibilidade | 20% da RC por turno | ×1,125 | ×1,0 | entrega versão reduzida |
+| 1ª natureza aprendida | 15% da RC por turno | ×1,25 | ×1,3 | falha total |
+| 2ª natureza aprendida | 15% da RC por turno | ×1,6 | ×1,3 | falha total |
 
-A escada continua para além da segunda aprendida, em ×2,0, ×2,5, ×3,2 e ×4,0, e o Sistema Elemental publica a tabela inteira.
+A escada de preço continua para além da segunda aprendida, em ×2,0, ×2,5, ×3,2 e ×4,0, e o Sistema Elemental publica a tabela inteira.
 
-O que muda entre a Afinidade e a Compatibilidade é modesto de propósito. As duas vieram de berço, as duas entregam efeito reduzido quando o teste vai mal, e as duas pagam o custo cheio de chakra. A distância entre elas e a natureza aprendida é que é larga, porque o chakra convertido para uma natureza alheia consome parte de si na conversão.
+O que muda entre a Afinidade e a Compatibilidade é modesto de propósito. As duas vieram de berço, as duas entregam efeito reduzido quando o teste vai mal, e as duas pagam o custo cheio de chakra. A distância entre elas mora na largura do cano de saída e no relógio do treino, e a distância das duas para a natureza aprendida é que é larga, porque o chakra convertido para uma natureza alheia consome parte de si na conversão e escoa por um cano mais estreito.
 
-O multiplicador de dano do Tipo Elemental não entra nesta tabela. Ele mede a matéria da técnica e ignora quem a executa, de modo que um Raiton aprendido entrega os mesmos ×1,75 que um Raiton de Afinidade entrega. A vantagem da vocação vive no preço, no teste e na confiabilidade.
+O rendimento da matéria elemental não entra nesta tabela. A Constante de Moldagem e a Assinatura medem o que a técnica entrega e o que o corpo do alvo faz com ela, e as duas ignoram quem executa, de modo que um Raiton aprendido entrega os mesmos ×1,75 que um Raiton de Afinidade entrega. A vantagem da vocação vive no preço, na vazão, na velocidade de treino e na confiabilidade. O teste da perícia fica fora dessa lista, porque ele responde ao treino e nenhum modificador de berço entra nele.
 
 ---
 
@@ -146,7 +146,8 @@ Três coisas que a criação não resolve, e que aparecem aqui para que ninguém
 
 | Documento | Versão consumida | O que este documento lê |
 |---|---|---|
-| Transformação de Natureza, Sistema Elemental | 7 | A cadeia de nascença, a Escada de Afinidade, a tabela de dispersão e o Fator Protagonismo |
-| Naturezas Avançadas | 5 | A Centelha e os pares que formam Kekkei Genkai |
+| Transformação de Natureza, Sistema Elemental | 9 | A cadeia de nascença, a Escada de Afinidade, o Limite de Saída por posição, a tabela de dispersão e o Fator Protagonismo |
+| Naturezas Avançadas | 7 | A Centelha e os pares que formam Kekkei Genkai |
+| Manual de Treino | 1 | Os limiares de tempo que a posição modula |
 | Manual de Economia de XP | 2.1 | A régua de custo por nível e o orçamento de criação |
 | Criação de Personagem, Naruto | 1 | O lugar deste passo dentro da criação |

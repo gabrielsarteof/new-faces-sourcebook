@@ -1,12 +1,12 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 6
+version: 7
 layer: scenario
 scenario: naruto
 type: system
 status: final
-source-file: Naturezas_Avancadas_v6.md
+source-file: Naturezas_Avancadas_v6.md, mais a Errata E1 v2
 ---
 
 # Naturezas Avançadas — Kekkei Genkai, Kekkei Tōta, Kyōka e Onmyōton
@@ -484,6 +484,18 @@ A perícia da natureza avançada não reduz o custo dos Tipos Elementais compone
 
 **Exceção declarada.** A natureza avançada cuja competência cabe inteira dentro do domínio de uma perícia já publicada entra ali como inclinação de extensão manifestada, pela regra da seção 3 do Manual de Criação de Perícias, e não abre perícia própria. Nesse caso a progressão corre pela perícia hospedeira, o rank acessível corre pelo portão dela, e o capstone da extensão segue a seção 13.1 em vez da transcendência do LV6. O Sísmico é a primeira entrada nessa forma, hospedado pela Perícia de Doton.
 
+### Herança de posição
+
+Toda natureza avançada ocupa uma posição na Escada de Afinidade do Sistema Elemental, e a posição governa a vazão pelo Limite de Saída, o custo efetivo em RC, o modelo de falha e os limiares de treino da perícia dela. A posição não se rola e não se compra: ela decorre da forma pela qual a natureza chegou à ficha.
+
+A natureza avançada acesa por Centelha entra como Compatibilidade. O Papel de Indução lê a vocação elemental e não alcança a camada avançada, de modo que a natureza chega como fato de nascimento revelado pelo desenvolvimento, que é a definição da posição de Compatibilidade.
+
+A Kyōka herda a posição que o portador já possui no elemento hospedeiro. Ela intensifica um único elemento e a mecânica dela vive dentro da perícia daquele elemento, e por isso a largura do cano e o custo efetivo dela são os mesmos que o portador paga no elemento base.
+
+A natureza avançada que corre por inclinação de extensão manifestada dentro de uma perícia hospedeira não declara posição própria e lê integralmente a posição da hospedeira. Brasa, Sismo, Ciclone, Maré e Agudo seguem essa leitura.
+
+Sem esta régua, as naturezas avançadas de perícia própria ficariam sem largura de cano declarada, porque a Escada de Afinidade nomeia apenas as sete naturezas do Sistema Elemental.
+
 ---
 
 ## Sinergias
@@ -508,6 +520,8 @@ A perícia da natureza avançada não reduz o custo dos Tipos Elementais compone
 ---
 
 ## Registro de Alterações
+
+**v7.** A Errata E1 é absorvida. A seção de Progressão por Maestria ganha a Herança de posição, que declara qual posição da Escada de Afinidade cada natureza avançada ocupa e, com ela, a largura do cano de saída, o custo efetivo em RC, o modelo de falha e os limiares de treino da perícia. A natureza acesa por Centelha entra como Compatibilidade, a Kyōka herda a posição do portador no elemento hospedeiro, e a natureza que corre por inclinação de extensão manifestada lê integralmente a posição da hospedeira. A pendência de substituição de rider por Kyōka na seção do Shiden permanece aberta e passa a estar registrada também na fila de errata do Sistema Elemental. Nenhuma composição, portão, tier, Constante de Moldagem, percentual de Centelha ou régua de progressão mudou.
 
 **v6.** O documento passa a ler a estrutura de duas camadas publicada pelo Sistema Elemental v8. O Tipo Elemental dominante vira natureza dominante, deixa de reger dano e passa a reger apenas a posição no Ciclo de Superação, com a hierarquia dos cinco elementos publicada como ordem de precedência e sem número associado. A coluna do catálogo de Kekkei Genkai e Kekkei Tōta permanece com os mesmos dezenove valores, e Meiton segue dinâmico. O dano das naturezas avançadas resolve pela Constante de Moldagem e pela Assinatura do vetor que cada técnica declarar, o que abre a mesma natureza a entregas de Assinatura diversa, com a lança de Hyōton em vetor físico e o congelamento sustentado em Energia térmica. A Assinatura térmica fica declarada como cobrindo adição e remoção de calor. O bônus de poder do Kyōka passa a incidir sobre a Constante de Moldagem em vez do multiplicador do elemento, e o catálogo publica Constante e produto em colunas separadas, com Shiton em 1,84, Kuroi Kaminari em 2,00, Shiden em 1,88, Taiton em 1,75, Chōton em 1,75 e Shinton em 1,60. A definição da categoria passa a ser a elevação da Constante. A Amplificação Doutrinária do Kuroi Kaminari resolve em Constante de 1,50 e passa a coincidir exatamente com o Shiden. O Enton conserva 2,10, agora declarado produto final que substitui a cadeia inteira, e a lacuna deliberada na faixa Estratégico do Raio ganha justificativa nova, porque o valor hipotético sobe para 2,19 e passa a ultrapassar o Enton em vez de empatar com ele. Nenhuma composição, portão, tier, percentual de Centelha ou régua de progressão mudou.
 
