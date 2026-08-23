@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.takemikazuchi
 title: "Takemikazuchi (建御雷神)"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -33,15 +33,15 @@ A técnica pertence a quem já carrega o olho, e é a única entrada da família
 - **Caminho Ponta:** inclinação Relâmpago, dona da concentração em ponto único que a técnica conserva
 - **Chidori adquirido:** a técnica reveste a reunião de carga que o Chidori estabelece
 - **Amaterasu disponível, com o olho correspondente ativo:** a chama negra vem do trunfo do Mangekyō e não da reserva
-- **Kyōka Enton manifestada:** a moldagem da chama negra sobre uma forma já existente pertence à natureza intensificada
+- **Perícia de Enton no LV6:** a moldagem da chama negra sobre uma forma já existente pertence àquele domínio, e o degrau sai da regra de maior nível exigido entre componentes, com o rank S da obra fixando o LV6
 
-O portão de linhagem de Indra que a Kyōka Enton cobra vale integralmente aqui, e nenhum requisito desta entrada o substitui.
+O portão de linhagem de Indra e o portão de dōjutsu que a Perícia de Enton cobra valem integralmente aqui, por trás do requisito de nível, e nenhum requisito desta entrada os substitui.
 
 ---
 
 ## Despertar / Aquisição
 
-A entrada permanece indisponível enquanto o Chidori não tiver autor, na mesma condição de toda a linhagem. Ela permanece indisponível também enquanto o executante não reunir o Amaterasu e a Kyōka Enton, que correm por portões próprios e fora da criação de personagem.
+A entrada permanece indisponível enquanto o Chidori não tiver autor, na mesma condição de toda a linhagem. Ela permanece indisponível também enquanto o executante não reunir o Amaterasu e a Perícia de Enton no LV6, que correm por portões próprios e fora da criação de personagem.
 
 A camada de acesso é Fechada na Criação. Nenhum personagem inicial a adquire em circunstância alguma.
 
@@ -113,6 +113,8 @@ M = 1 + 1,0 × (P − 180) ÷ 180          piso de M: 0,5
 O coeficiente de entrega 0,20 vale para as duas parcelas, porque a forma de entrega é uma só e é o ponto concentrado em contato único que a linhagem herda. O coeficiente técnico 2,0 corresponde à dependência alta, herdado da técnica de origem.
 
 Os dois multiplicadores incidem sobre volumes distintos e nunca sobre o mesmo chakra. Nenhuma parcela é multiplicada duas vezes, e a entrada não cria régua de composição de naturezas.
+
+**Perícia governante única.** A obra emprega duas naturezas e declara uma só perícia governante, pela regra da Seção 5.3 do Manual de Jutsus. O vetor declarado é Penetração e quem o entrega é a corrente, de modo que o Raiton governa e a Perícia de Enton permanece no portão de acesso sem alimentar o motor. Um segundo `M` sobre a mesma base multiplicaria a maestria duas vezes.
 
 
 A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 180 é o do rank S, e nele o `M` resolve em 1,000 por construção.
@@ -191,7 +193,7 @@ Na prática ela nunca se abre. Os requisitos de acesso exigem o Amaterasu, que e
 
 | Condição | Capacidade ou mudança |
 |---|---|
-| Raiton LV6, caminho Ponta, Chidori, Amaterasu, Kyōka Enton | acesso à técnica, com perfuração de 43% da Absorção |
+| Raiton LV6, caminho Ponta, Chidori, Amaterasu, Enton LV6 | acesso à técnica, com perfuração de 43% da Absorção |
 | Transcendência Raio Seco | a Absorção do alvo deixa de se aplicar ao dano de impacto |
 | Maestria do Mangekyō em Adepto ou Mestre | a soma à carga aguda por uso cai para 20% ou 15% |
 | Mangekyō Eterno | o piso acumulado recua, e a frequência viável da técnica sobe junto |
@@ -216,7 +218,7 @@ A coluna de usos por reserva descreve apenas o que o chakra permite, e não é o
 ## Sinergias
 
 - **Mangekyō Sharingan:** o gate da técnica é também a correção da fraqueza dela, e é a única entrada da família que chega à mesa sem a janela de contra-ataque aberta
-- **Kyōka Enton:** entrega a moldagem que assenta a chama sobre a corrente e a competência que apaga a ignição depois, e sem ela a técnica não existe
+- **Perícia de Enton:** entrega a moldagem que assenta a chama sobre a corrente e a competência que apaga a ignição depois, e sem ela a técnica não existe
 - **Kirin:** o fogo negro contribui com peso quádruplo para a Intensidade da tempestade, e o executante que dispõe das duas converte cada ignição instalada em carga acumulada para o disparo seguinte
 - **Alvo com regeneração:** a queima que não se apaga é a resposta da família a quem sobrevive ao impacto, e é a única entrada que continua cobrando depois que o turno acabou
 - **Caminho Refino:** derruba o custo pago ao mínimo, o que importa pouco na reserva e importa muito na janela de canalização

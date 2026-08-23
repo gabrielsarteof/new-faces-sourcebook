@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 7.2
+version: 8
 layer: scenario
 scenario: naruto
 type: system
@@ -145,6 +145,23 @@ A primeira rolagem da Centelha é gratuita e ocorre quando o shinobi satisfaz a 
 
 A extinção da centelha é permanente. `[PROPOSTA]` A única exceção admitida é narrativa: um evento de campanha de peso equivalente à própria manifestação, declarado e conduzido pelo Narrador, pode reacender uma centelha extinta uma única vez. A regra nunca é acionável pelo jogador.
 
+### Manifestação por treino na camada Kyōka
+
+A Centelha é a porta de criação de personagem, e a camada Kyōka tem uma segunda porta, que corre em jogo. Intensificar um elemento é levar ao extremo uma natureza que o praticante já possui, de modo que o domínio alcançado pelo trabalho chega onde a mutação de linhagem chegaria. `[canon]` A fonte mostra Kakashi Hatake desenvolvendo o Shiden e o Terceiro Raikage instituindo o raio negro antes de existir quem os ensinasse.
+
+A porta de treino alcança a camada Kyōka inteira. Kekkei Genkai e Kekkei Tōta ficam fora dela, porque recomposição elemental é mutação de linhagem, e mutação se herda em vez de se alcançar por trabalho.
+
+| Forma | Degrau na perícia hospedeira | Condição |
+|---|---|---|
+| Transmissão | LV5 | arco de treino conduzido por portador vivo que aceite o aprendiz |
+| Descoberta | LV6 | arco de campanha declarado pelo Narrador, sem instrutor |
+
+Nenhuma das duas passa por rolagem. O preço corre pelo Manual de Treino, com os limiares da Transmissão modulados pela posição do praticante no elemento e pela Escada de Método do instrutor. A Descoberta roda no degrau base da escada, e o LV6 responde por inventar ser operação acima de dominar.
+
+Duas exceções permanecem, ambas por portão que o cânone declara. O Enton exige a linhagem de Indra, e nenhum treino a substitui. O Kuroi Kaminari corre pelo portão por doutrina, com vaga única por geração, e o treino nele já é o próprio portão.
+
+Manifestada por qualquer das duas portas, a Kyōka abre a inclinação de extensão na perícia hospedeira, comprada pela régua normal de XP. A posição na Escada de Afinidade continua herdada do elemento hospedeiro.
+
 ### Pares com múltiplos ocupantes
 
 Algumas combinações de naturezas básicas têm mais de uma natureza avançada associada. Nesses casos, a Centelha usa um portão único seguido de sub-rolagem, em vez de testes independentes para cada ocupante. O portão testa pelo tier do ocupante mais raro do par. Se o teste passa, uma sub-rolagem distribui o resultado entre os ocupantes, com peso proporcional ao % base individual de cada um. O decaimento da Centelha Decrescente incide sobre o portão único do par, nunca sobre cada ocupante separadamente.
@@ -284,35 +301,42 @@ A limitação de escolha de alvo não é compensada com redução de dano. O sis
 
 ### Catálogo de Kyōka
 
-| Kyōka | Elemento base | Gate | Tier | Poder | % base | Moldagem | Produto | Proveniência |
-|---|---|---|---|---|---|---|---|---|
-| Shiton 熾遁 (Incandescência) `[proposta]` | Fogo | nenhum | A | Decisivo | 2% | 1,60 | 1,84 | criação de Gabriel |
-| Taiton 颱遁 (Tufão) `[proposta]` | Vento | nenhum | A | Estratégico | 2% | 1,75 | 1,75 | criação de Gabriel |
-| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Decisivo | sem Centelha | 1,60 | 2,00 | cânone |
-| Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Tático-Decisivo | 2% | 1,50 | 1,88 | cânone |
-| Shinton (Sísmico) `[proposta]` | Terra | nenhum | A | Decisivo | 2% | 1,60 | 1,60 | criação de Gabriel |
-| Chōton 潮遁 (Maré) `[proposta]` | Água | nenhum | A | Estratégico | 2% | 1,75 | 1,75 | criação de Gabriel |
+| Kyōka | Elemento base | Gate | Tier | Eixo | Poder | % base | Moldagem | Produto | Celeridade | Proveniência |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Shiton 熾遁 (Incandescência) `[proposta]` | Fogo | nenhum | A | Potência | Decisivo | 2% | 1,60 | 1,84 | do elemento | criação de Gabriel |
+| Kuroi Kaminari (Raio Negro) | Raio | doutrina de Kumogakure | A | Potência | Tático-Decisivo | sem Centelha | 1,50 | 1,88 | do elemento | cânone |
+| Shiden 紫電 (Raio Roxo) | Raio | nenhum | A | Entrega | Tático-Decisivo | 2% | 1,40 | 1,75 | 165 | cânone |
+| Taiton 颱遁 (Tufão) `[proposta]` | Vento | nenhum | A | Potência | Estratégico | 2% | 1,75 | 1,75 | do elemento | criação de Gabriel |
+| Chōton 潮遁 (Maré) `[proposta]` | Água | nenhum | A | Potência | Estratégico | 2% | 1,75 | 1,75 | do elemento | criação de Gabriel |
+| Shinton (Sísmico) `[proposta]` | Terra | nenhum | A | Potência | Decisivo | 2% | 1,60 | 1,60 | do elemento | criação de Gabriel |
 
-A coluna de Moldagem publica a Constante que a Kyōka concede, e a de Produto mostra o resultado dela contra a Assinatura da entrega característica de cada natureza, que é a Energia térmica no Shiton, a Energia elétrica no Kuroi Kaminari e no Shiden, e o vetor físico nas demais. A técnica que declarar vetor diverso resolve pela Assinatura daquele vetor, e é a coluna de Moldagem que a acompanha em todos os casos.
+A coluna de Eixo declara em qual das duas propriedades o refinamento daquela entrada cai, e cada entrada declara uma só. A coluna de Moldagem publica a Constante que a Kyōka concede, e a de Produto mostra o resultado dela contra a Assinatura da entrega característica de cada natureza, que é a Energia térmica no Shiton, a Energia elétrica no Kuroi Kaminari e no Shiden, e o vetor físico nas demais. A técnica que declarar vetor diverso resolve pela Assinatura daquele vetor, e é a coluna de Moldagem que a acompanha em todos os casos. A coluna de Celeridade publica o valor que a natureza leva à Escada de Meios do Manual de Criação de Jutsus, herdado do elemento hospedeiro nas entradas de eixo de Potência e elevado nas de eixo de Entrega.
 
 A coluna de proveniência separa três origens. **Cânone** marca a natureza que a obra registra, ainda que a classificação como Kyōka seja proposta deste documento. **Criação do catálogo** marca a natureza que nasceu aqui para fechar lacuna de cobertura elemental. **Criação de Gabriel** marca a natureza concebida pelo designer, com documento de concepção próprio e mecânica de mesa publicada em perícia hospedeira, estado que as demais criações do catálogo ainda não alcançaram. O Sísmico entra nesse grupo com a publicação da inclinação Sismo no Doton, no mesmo padrão que já valia para o Shiton.
 
 **Cinco Kyōka hospedam inclinação de extensão manifestada.** O Kuroi Kaminari e o Shiden abrem, na Perícia de Raiton, perguntas que nenhum praticante sem a manifestação formula, e por isso respondem como inclinação em vez de autorizar como requisito, pela regra da seção 3 do Manual de Criação de Perícias. As inclinações Calamidade e Agudo, os caminhos delas e os dois Ápices vivem na Perícia de Raiton v3. Este documento permanece dono da aquisição, do multiplicador e do tier; a perícia hospedeira é dona da partição. A mesma regra hospeda Brasa, a inclinação de extensão da Kyōka Shiton, na Perícia de Katon, Sismo, a inclinação de extensão da Kyōka Shinton, na Perícia de Doton — o primeiro caso em que a natureza avançada não abre perícia própria alguma, cabendo por inteiro dentro do domínio que a hospeda —, Ciclone, a inclinação de extensão da Kyōka Taiton, na Perícia de Fūton, com os caminhos Espiral, Olho e Fome e o Ápice O Vento Que Não Passa, e Maré, a inclinação de extensão da Kyōka Chōton, na Perícia de Suiton, com os caminhos Preia-Mar, Vazante e Ciclo e o Ápice Macaréu. O Taiton é o primeiro Kyōka do catálogo a conservar o rider do elemento base em vez de trocá-lo: nenhuma substituição está declarada para ele.
 
-A Constante de Moldagem do Kyōka substitui a Constante comum de 1,40 em todas as técnicas daquela natureza. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado, salvo substituição declarada pela regra de rider substituído por natureza intensificada do Sistema de Efeitos de Status, que fixa escopo, graus e vetor de teste da troca e mantém o registro dos casos vigentes.
+A Constante de Moldagem do Kyōka de eixo de Potência substitui a Constante comum de 1,40 em todas as técnicas daquela natureza. No eixo de Entrega a Constante permanece comum em 1,40, e o bônus multiplica a celeridade que a natureza leva à Escada de Meios. O rider de status continua o mesmo do elemento base, aplicado sobre o dano já ampliado, salvo substituição declarada pela regra de rider substituído por natureza intensificada do Sistema de Efeitos de Status, que fixa escopo, graus e vetor de teste da troca e mantém o registro dos casos vigentes.
 
 ```
-CM_Kyōka = 1,40 + Bônus_de_poder
 Bônus_de_poder: Estratégico +0,35 · Decisivo +0,20 · Tático-Decisivo +0,10
 
-dano = RC × coef_entrega × CM_Kyōka × assinatura + bônus_CC × coef_técnica
+eixo de Potência    CM_Kyōka   = 1,40 + Bônus_de_poder
+                    celeridade = a do elemento hospedeiro
+
+eixo de Entrega     CM_Kyōka   = 1,40
+                    celeridade = celeridade do elemento × (1 + Bônus_de_poder)
 ```
 
-O incremento é o mesmo para todas as naturezas, e o resultado que ele produz cresce nas que entregam por Energia, porque ali a Assinatura o multiplica. Intensificar uma natureza que o corpo não sabe deter rende mais que intensificar uma que ele sabe.
+O produto da Constante contra a Assinatura do vetor declarado entra no `mult_Tipo` da Seção 5.3 do Manual de Criação de Jutsus, e a celeridade entra na cadeia de Velocidade da obra pela Escada de Meios do mesmo manual, onde enfrenta a esquiva no teste de conexão. O teste de conexão é motor não linear com dono declarado, de modo que a progressão linear do bônus de Entrega corre dentro da regra central.
 
-**O catálogo de Kyōka perde o único membro canônico que tinha.** Com a saída do Enton, as seis entradas restantes são criação de Gabriel ou natureza sem verbete próprio na obra, e a camada deixa de poder se justificar pela existência de um ocupante que a fonte nomeia. A definição da categoria passa a ser puramente mecânica: **Kyōka é a natureza que eleva a Constante de Moldagem do elemento base acima da comum sem recompor elemento algum.** É essa elevação, e apenas ela, que separa a camada das Kekkei Genkai e das Kekkei Tōta a partir desta versão. Toda entrada nova precisa cumprir a elevação para pertencer aqui, e a proveniência de cada uma continua declarada na coluna própria.
+No eixo de Potência o incremento é o mesmo para todas as naturezas, e o resultado que ele produz cresce nas que entregam por Energia, porque ali a Assinatura o multiplica. Intensificar uma natureza que o corpo não sabe deter rende mais que intensificar uma que ele sabe.
 
-A faixa Estratégico do Raio fica deliberadamente vazia, e a lacuna é decisão e não esquecimento. A Constante de 1,75 que o incremento Estratégico produziria, lida contra a Assinatura elétrica, resolve em 2,19 e ultrapassa o valor de dano do Enton publicado na perícia própria dele, o que inverteria a relação entre o topo do Raio e o topo do Fogo que a separação existe para manter. Nenhuma passagem futura deve preenchê-la por simetria com os outros elementos.
+**O catálogo de Kyōka perde o único membro canônico que tinha.** Com a saída do Enton, as seis entradas restantes são criação de Gabriel ou natureza sem verbete próprio na obra, e a camada deixa de poder se justificar pela existência de um ocupante que a fonte nomeia. A definição da categoria passa a ser puramente mecânica: **Kyōka é a natureza que refina o elemento base além do teto comum sem recompor elemento algum, e cada entrada declara o eixo em que o refinamento cai.** É esse refinamento sem recomposição que separa a camada das Kekkei Genkai e das Kekkei Tōta. Toda entrada nova precisa declarar o eixo dela para pertencer aqui, e a proveniência de cada uma continua declarada na coluna própria.
+
+Os dois eixos são o de Potência e o de Entrega. **No eixo de Potência o bônus de poder soma à Constante de Moldagem**, e o produto se lê contra a Assinatura do vetor que cada obra declara, de modo que o refinamento aparece em dano por unidade de chakra. **No eixo de Entrega a Constante permanece comum em 1,40 e o bônus multiplica a celeridade da natureza na Escada de Meios**, de modo que o refinamento aparece na chegada da obra ao alvo. O eixo é declarado por entrada e não se divide, e nenhuma Kyōka toma parte do bônus em Constante e parte em celeridade.
+
+As faixas Estratégico e Decisivo do Raio ficam vazias no eixo de Potência, e a lacuna é decisão registrada. A Constante de 1,75 do incremento Estratégico resolve em 2,19 contra a Assinatura elétrica, e a Constante de 1,60 do incremento Decisivo resolve em 2,00 contra a mesma Assinatura. Os dois produtos encostam no topo declarado do Fogo, que é o 2,10 publicado pela Perícia de Enton, e o Enton é o único valor do corpus que a fonte primária nomeia como o nível mais alto de um elemento. O topo do Raio fica em 1,88, na entrada do Kuroi Kaminari, com o Raiton comum onze por cento abaixo dele. Nenhuma passagem futura deve preencher as duas faixas por simetria com os outros elementos.
 
 ### Enton, natureza com perícia própria
 
@@ -330,7 +354,7 @@ Este documento permanece dono do que a manifestação decide.
 | Multiplicador de dano, produto final | 2,10 | Perícia de Enton |
 | Partição, réguas e verbos | três inclinações, dez caminhos | Perícia de Enton |
 
-A justificativa do 2,10 acompanha o valor para a perícia e passa a ser lida direto da fonte, que declara o Amaterasu o ninjutsu de Katon de nível mais alto da série. O valor é produto final e substitui a cadeia inteira de Constante e Assinatura nas técnicas da natureza, em vez de compor com ela. A fórmula de Kyōka deixa de alcançá-lo, porque ela precifica a elevação de Constante dentro desta camada e o Enton saiu dela.
+O 2,10 se decompõe em duas parcelas com origem própria, a Constante de Moldagem comum de 1,40 multiplicada pela Assinatura do fogo negro de 1,50, e a Assinatura entra na tabela do Sistema Elemental como a quarta. A Constante fica comum porque a moldagem da chama negra rende o mesmo por unidade de chakra, e o que o portador faz de diferente é dar forma, competência que a Perícia de Enton cobra em caminho e em régua. A Assinatura nasce da declaração da fonte sobre o que aquela energia faz com a matéria, que é consumir qualquer material, outras chamas incluídas, até restar apenas cinza. A declaração canônica do Amaterasu como ninjutsu de Katon de nível mais alto da série sustenta o rank da entrada e fica reservada a ele, porque nível e letalidade são grandezas distintas e o corpus proíbe pagar a mesma duas vezes. A Perícia de Enton permanece dona do produto e da régua do vetor que o lê.
 
 O portão de linhagem permanece exatamente onde estava, e o teto de uma Kyōka por elemento base continua valendo para o Fogo do portador: o Uchiha que manifesta o Enton não testa o Shiton, do mesmo modo que a ordem de teste já determinava.
 
@@ -372,11 +396,9 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Forma sustentada.** `[proposta]` O Raio Negro mantém forma própria em construto que persiste ao longo de turnos e age, em vez de se resolver no instante da descarga. É o que o separa de qualquer Raiton comum, cuja entrega é sempre instantânea. Referência canônica de comportamento: a Pantera Negra, no Compêndio de Raiton, que exige esta Kyōka.
 
-**Amplificação doutrinária.** `[proposta]` As demais técnicas de Raiton do portador operam com Constante de Moldagem 1,50, em vez da comum de 1,40, o que resolve em produto de 1,88 contra a Assinatura elétrica. O valor é metade do incremento Decisivo de 0,20 que a Kyōka aplica sobre a Constante, herdada pelo restante do arsenal. A progressão é linear e deriva do incremento não-linear da própria Kyōka, o que a mantém dentro da regra central. A amplificação não acumula com nenhuma outra Kyōka de Raio, conforme a seção de múltiplos ocupantes.
-
 **Marca de domínio.** `[proposta]` O portador reconhecido carrega a tatuagem de kanji de raio de Kumogakure. É efeito de reconhecimento social e político, sem valor mecânico de combate, no mesmo tratamento que este documento já dá ao peso político das naturezas de tier A.
 
-**Calibração.** A Amplificação Doutrinária coloca o Raiton comum do portador exatamente na mesma faixa numérica do Shiden, e a equivalência é intencional. O Shiden é uma Kyōka completa, com propriedades próprias; a amplificação entrega apenas o número. O portador de Kuroi Kaminari opera o Raiton comum na faixa do Shiden e dispõe das capacidades da inclinação Calamidade, que são de outra natureza.
+**Escala de impacto.** `[proposta]` A obra mostra do raio negro uma cor, uma tradição de transmissão, uma tatuagem, um construto sustentado e um adjetivo comparativo, e a própria fonte declara que pouco se sabe a respeito. O registro preenche utilidade de combate relevante, que é a faixa Tático-Decisivo, e a Constante de 1,50 sai dela. O portador opera o Raiton comum na Constante comum de 1,40 como qualquer praticante, e o que a Kyōka concede é a natureza refinada e a inclinação Calamidade.
 
 **Hospedagem na Perícia de Raiton.** `[proposta]` A manifestação abre a inclinação de extensão Calamidade na Perícia de Raiton v3, com os caminhos Doma, Assolação e Devastação, e o Ápice Nai-no-Kami. A inclinação responde por forma sustentada, permanência da descarga no ponto de impacto e desfazimento de estrutura e terreno. A partição, os números e o Ápice vivem naquele documento.
 
@@ -394,7 +416,9 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Execução sem exposição.** `[proposta]` O Shiden não abre a janela de contra-ataque que a família do Chidori abre. Está redigido como constatação e não como isenção: a penalidade vigente no Compêndio de Raiton está presa à investida linear, porque é a velocidade do avanço que impõe a visão de túnel e o Sharingan a corrige, e o Shiden não tem investida. A ausência da janela decorre da forma da técnica, não de uma dispensa concedida a ela.
 
-**Duas rotas para a mesma cor.** `[proposta]` A cor violeta é atribuída pela obra a fenômeno declarado desconhecido, e a leitura que este catálogo adota preenche a lacuna sem contradizer a fonte: o Raiton opera elevando a frequência de vibração do chakra, e o violeta é a banda acima da faixa que o elemento alcança em uso comum. A técnica nomeada é a rota do trabalho, alcançada por refinamento e transmissível por ensino. A Kyōka é a rota do sangue, que entrega a banda de nascença. Quem aprende apenas a técnica a executa na Constante comum do elemento. Quem manifesta a Kyōka executa todo o próprio Raiton na Constante de 1,50, que resolve em 1,88 contra a Assinatura elétrica, e dispõe da inclinação de extensão.
+**Duas rotas para a mesma cor.** `[proposta]` A cor violeta é atribuída pela obra a fenômeno declarado desconhecido, e a leitura que este catálogo adota preenche a lacuna sem contradizer a fonte: o Raiton opera elevando a frequência de vibração do chakra, e o violeta é a banda acima da faixa que o elemento alcança em uso comum. A técnica nomeada é a rota do trabalho, alcançada por refinamento e transmissível por ensino. A Kyōka é a rota do sangue, que entrega a banda de nascença. Quem aprende apenas a técnica a executa na celeridade comum do elemento. Quem manifesta a Kyōka executa todo o próprio Raiton na celeridade de 165, contra os 150 do elemento comum, e dispõe da inclinação de extensão.
+
+**Eixo de Entrega.** `[proposta]` O refinamento do Shiden cai na chegada da obra ao alvo. A Constante de Moldagem permanece comum em 1,40, e a celeridade da natureza sobe para 165 na Escada de Meios, contra os 150 do Raiton comum. A Constante mede rendimento por unidade de chakra, e a fonte registra do raio roxo o alcance, a dispensa de investida, a dispensa do Sharingan e a amplitude de regulagem, propriedades que o sistema paga em casa própria. O feito de escala que a fonte registra vem de gastar todo o chakra disponível, o que mede volume. A celeridade elevada é a leitura da descarga disparada da mão sem investida, e o nome da natureza vem do idioma de lampejo de espada.
 
 **Hospedagem na Perícia de Raiton.** `[proposta]` A manifestação abre a inclinação de extensão Agudo na Perícia de Raiton v3, com os caminhos Gume, Fidelidade e Instante, e o Ápice Ame-no-Ohabari. A inclinação responde por corte no lugar de perfuração, recusa de condutor alheio ao alvo e chegada sem trajeto observável. A modulação de intensidade e a condução por meio permanecem propriedades da técnica nomeada e não da natureza.
 
@@ -520,6 +544,8 @@ Sem esta régua, as naturezas avançadas de perícia própria ficariam sem largu
 ---
 
 ## Registro de Alterações
+
+**v8.** A camada Kyōka ganha o eixo declarado. A definição passa a ser o refinamento do elemento base além do teto comum sem recomposição, com cada entrada declarando se o refinamento cai no eixo de Potência, onde o bônus de poder soma à Constante de Moldagem, ou no eixo de Entrega, onde a Constante permanece comum em 1,40 e o bônus multiplica a celeridade da natureza na Escada de Meios. O catálogo ganha coluna de Eixo e coluna de Celeridade. O Kuroi Kaminari passa a Tático-Decisivo, com Constante de 1,50 e produto de 1,88, e perde o efeito Amplificação Doutrinária por inteiro, junto da nota de calibração que o acompanhava. O Shiden passa ao eixo de Entrega, com Constante comum de 1,40, produto de 1,75 e celeridade de 165. A nota da faixa vedada do Raio passa a cobrir Estratégico e Decisivo, com uma justificativa escrita uma vez para as duas. A seção de aquisição ganha a segunda porta, com Transmissão no LV5 da perícia hospedeira e Descoberta no LV6, nenhuma delas resolvida por rolagem, e declara que a porta de treino não alcança Kekkei Genkai nem Kekkei Tōta, nomeando o Enton e o Kuroi Kaminari como as duas exceções. A seção do Enton publica a decomposição do 2,10 em Constante comum de 1,40 e Assinatura do fogo negro de 1,50, com a Perícia de Enton conservando a posse do produto. O termo somado de maestria sai da fórmula da camada, que passa a citar a forma vigente da Seção 5.3 do Manual de Criação de Jutsus. Nenhuma composição, portão de linhagem, tier, percentual de Centelha, régua de progressão, catálogo de Kekkei Genkai e Kekkei Tōta ou herança de posição mudou.
 
 **v7.1.** A nota para o Mestre que declarava a manifestação de Yin como decisão de design em aberto sai, atendendo pedido do Eixo do Onmyōton v1. A Errata D2, origem D3, já havia revogado a Etapa de manifestação e a Centelha no eixo inteiro, e a nota sobreviveu à varredura daquela errata por viver fora das seções de mecânica. A linha passa a declarar o estado vigente, com Yin e Yang chegando completos pelo branch do Passo 1.5 e a união ficando acima das duas perícias. As duas citações que este documento dirige ao Eixo do Onmyōton passam a resolver contra arquivo publicado. Nenhuma composição, portão, tier, Constante de Moldagem ou percentual de Centelha mudou.
 

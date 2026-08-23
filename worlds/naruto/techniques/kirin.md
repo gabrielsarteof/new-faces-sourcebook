@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kirin
 title: "Kirin (麒麟)"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -92,6 +92,8 @@ volume acumulado = soma da RC nominal do Katon lançado ao alto durante o combat
 | 5 | 4.200 | 1.800 |
 
 O Amaterasu contribui com peso quádruplo em relação à própria RC nominal, porque o fogo negro gera calor muito acima do proporcional ao chakra investido nele.
+
+**Fronteira contra o Fio do Céu.** O verbo Fio do Céu, do caminho Tempestade da Perícia de Raiton, não alcança esta entrada. Ele soma parcela atmosférica à descarga do praticante, e o Kirin dirige raio natural sem chakra do executante na carga, de modo que não existe parcela a que somar. A Intensidade da Tempestade permanece a única grandeza que modula a RC nominal desta obra.
 
 ---
 

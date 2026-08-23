@@ -1,7 +1,7 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 9.3
+version: 9.4
 layer: scenario
 scenario: naruto
 type: system
@@ -146,7 +146,7 @@ A posição de cada natureza na escada determina desempenho, e não preço. O pr
 
 A vocação se mede em vazão. O shinobi que nasceu com o elemento escoa um quarto da reserva por turno naquela natureza, sustenta rank mais alto por rodada e recarrega a técnica grande em menos turnos. O que aprendeu a natureza escoa quinze por cento e paga trinta por cento a mais pela mesma técnica, de modo que a obra de porte alto exige acumulação onde o nativo dispara direto. O desempenho no teste é o mesmo para os três, porque o teste responde ao treino e o treino é o que a ficha pagou.
 
-Nenhum modificador de berço entra no teste da perícia. O terminal da maestria lê nível, inclinação, caminho e atributo regente, e o Núcleo de Perícias autoriza efeitos a lerem o valor do teste. Uma soma fixa ali vazaria ao mesmo tempo para o Fator de Moldagem, para as tabelas de custo pago e para a graduação de riders pela margem, cobrando a posição em três lugares que já a cobram por outras vias.
+Nenhum modificador de berço entra no teste da perícia. O terminal da maestria lê nível, inclinação, caminho e atributo regente, e o Núcleo de Perícias autoriza efeitos a lerem o valor do teste. Uma soma fixa ali vazaria ao mesmo tempo para o `M` do motor de dano, para as tabelas de custo pago e para a graduação de riders pela margem, cobrando a posição em três lugares que já a cobram por outras vias.
 
 A assimetria de preço entre as naturezas de nascença e as aprendidas mora no custo em chakra. O chakra convertido para uma natureza alheia consome parte de si na própria conversão, e o executor paga trinta por cento a mais pela mesma técnica. Os custos declarados nos registros de técnica são sempre o valor de nascença, e a penalidade pertence ao executor. A Janela de Canalização do Manual de Criação de Jutsus é calculada sobre o custo pago, de modo que a natureza aprendida também dispara mais devagar, e a mesma regra cobra na economia e no tempo.
 
@@ -250,18 +250,28 @@ Osso, músculo e tecido detêm trauma mecânico com a estrutura que possuem para
 | Penetração | ×1,00 |
 | Energia, térmica | ×1,15 |
 | Energia, elétrica | ×1,25 |
+| Energia, térmica de chama negra | ×1,50 |
+
+A quarta linha pertence à Perícia de Enton, que a publica e é dona do produto de 2,10 que ela forma contra a Constante comum. Ela se lê apenas na obra de chama negra que declara entrega de Energia térmica, e nasce da declaração da fonte de que aquela chama consome qualquer material, outras chamas incluídas, até restar apenas cinza. A obra de Enton que declara Corte ou Penetração lê Assinatura de vetor físico em ×1,00 como qualquer outra.
 
 A Assinatura térmica cobre tanto a adição quanto a remoção de calor, porque o tecido falha pela transferência em si e não pela direção dela, e o congelamento entra por essa porta como a queimadura entra.
 
 A Assinatura acompanha a obra e não a natureza que a produziu. Um jato cortante de Água resolve em ×1,00 e o vapor escaldante de Água resolve em ×1,15, porque o corpo processa o primeiro como trauma e o segundo como transferência térmica.
+
+**Contenção de Assinatura própria.** Assinatura própria só nasce de declaração da fonte sobre o que aquela energia faz com a matéria. Comparação de poder entre naturezas mede escala de impacto, que o eixo de poder das Naturezas Avançadas já cobra, e nenhuma linha desta tabela se abre por ela.
+
+**Contenção de faixa de Kyōka.** A faixa da régua de Kyōka fica vedada ao elemento quando o produto dela encosta no topo declarado de outro elemento. A vedação existe para conservar a ordem entre os topos elementais, que é o que a separação das camadas mantém legível na mesa. Naturezas Avançadas é dona da régua e registra cada faixa vedada na entrada do elemento.
 
 Resistência a um tipo de energia não vive em constante de natureza, e não existe como grandeza reduzível por percentual. Ela existe apenas como Estado Elemental declarado na ficha da obra que o produz, com Modo, vetor ou elemento afetado, elemento acoplado, reserva investida e manutenção por rodada, e cobra chakra enquanto durar. O chassi dos três Modos pertence ao Núcleo de Combate. Nenhum corpo carrega resistência elemental por constituição passiva, e a vulnerabilidade relacional do Ciclo de Superação segue governando elemento contra elemento sem tocar essa camada.
 
 As duas camadas compõem o motor de dano na ordem em que a energia percorre o caminho, primeiro o que a técnica entrega e depois o que o corpo faz com ela.
 
 ```
-dano = RC × coef_entrega × 1,40 × assinatura + bônus_CC × coef_técnica
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+mult_Tipo  = Constante de Moldagem × Assinatura do vetor declarado
 ```
+
+O `M` é a escala da maestria, lida da perícia governante da obra, e o Manual de Criação de Jutsus é dono dele na Seção 5.3.
 
 O produto das duas camadas, para as naturezas cujas obras declaram vetor de Energia:
 
@@ -475,13 +485,15 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 | `worlds/naruto/quick-calculations.md` | Republica a tabela inteira da Escada com a coluna de bônus de teste. É o segundo arquivo de cálculos rápidos do corpus, e a errata que trata do primeiro não o alcança |
 | Sharingan do Uchiha, Documento de Invocação, Hachimon Tonkō e Manual de Criação de Jutsus | Citam o Limite de Saída em vinte por cento como número fixo. A citação passa a ler a largura da posição empregada |
 | Naturezas Avançadas, seção do Shiden | O caminho Gume da inclinação Agudo aplica Sangramento no lugar da Paralisia Parcial, e a regra vigente daquele documento declara que o rider continua o do elemento base. A substituição de rider por Kyōka segue pendente nos dois documentos, sem travar a publicação da inclinação |
-| Naturezas Avançadas v5 | A regra de tipo dominante deixa de reger dano e passa a reger apenas a posição no Ciclo de Superação. As naturezas avançadas resolvem pela Constante de Moldagem e pela Assinatura do vetor que cada obra declara, e os multiplicadores dos Kyōka são republicados sobre a base nova |
+| ~~Naturezas Avançadas v5~~ | **Aplicada.** A regra de tipo dominante passou a reger apenas a posição no Ciclo de Superação, e as naturezas avançadas passaram a resolver pela Constante de Moldagem e pela Assinatura do vetor que cada obra declara. A v6 cumpriu a republicação dos multiplicadores Kyōka sobre a base nova, publicando Constante e produto em colunas separadas, e a v8 fechou o eixo, com cada entrada declarando se o refinamento cai em Potência ou em Entrega |
 | Compêndios de todas as naturezas e documentos de técnica | Cada entrada que entrega dano passa a declarar vetor, grau quando aplicável, riders e Velocidade, e a Assinatura deriva do vetor sem decisão adicional |
 | ~~Sistema de Efeitos de Status, a Vulnerabilidade Elemental~~ | **Aplicada na v2.8.** A cláusula de redução de Resistência ao elemento caiu dos três graus que a publicavam, sem substituta. A condição opera pelo aumento de dano e pelas cláusulas de efeito secundário, e a resistência segue existindo apenas como Estado Elemental declarado, cujo pacote de vulnerabilidade acoplada tem dono próprio |
 
 ---
 
 ## Registro de Alterações
+
+**v9.4.** A tabela de Assinaturas ganha a quarta linha, a Energia térmica de chama negra em ×1,50, que pertence à Perícia de Enton e se lê apenas na entrega térmica daquela natureza. Entram as duas contenções: Assinatura própria só nasce de declaração da fonte sobre o que a energia faz com a matéria, e faixa da régua de Kyōka fica vedada ao elemento quando o produto encosta no topo declarado de outro elemento. A linha de errata que pedia a republicação dos multiplicadores Kyōka a Naturezas Avançadas passa a aplicada, citando a v6 como a versão que republicou e a v8 como a que fechou o eixo. O bloco de fórmula da seção de Assinatura passa a citar a forma vigente da Seção 5.3 do Manual de Criação de Jutsus, com o `M` multiplicando a base inteira, e a nota sobre modificador de berço deixa de nomear o termo somado que aquela seção aposentou. A Constante de Moldagem de 1,40, as três Assinaturas existentes, a Escada de Afinidade, o Limite de Saída, a tabela de dispersão, a cadeia de d100, o Sōsai e a realimentação permanecem sem alteração.
 
 **v9.3.** O Alvo 7 da Errata E1 fecha na fila de errata emitida. As sete perícias de natureza, mais uma oitava ocorrência em Naturezas Avançadas, deixaram de republicar o Limite de Saída como universal em vinte por cento. Nenhum número deste documento mudou.
 

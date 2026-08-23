@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.rasenrengan
 title: "Rasenrengan (螺旋連丸)"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -109,6 +109,8 @@ A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor l
 | 122 | 0,736 | 442 | 23,0% |
 | 148, referência do rank | 1,000 | 600 | 31,3% |
 | 180 | 1,324 | 795 | 41,4% |
+
+**Valor de campo.** A cláusula de área e a de multiplicidade da Seção 5.2 do Manual de Jutsus leem o valor de campo, que é o total que a obra põe em campo. Medido no executor de referência do rank, o valor de campo desta entrada resolve em 62,5% do par do rank, somando as duas esferas, e o piso de 40% do rank A está cumprido. Os 31,3% por esfera permanecem leitura de mesa e nunca foram a grandeza que a banda mede.
 
 O rendimento total depende da distribuição das duas esferas. Os valores abaixo assumem LV_CC 6.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.system.rasengan-family
 title: "Linhagem do Rasengan"
-version: 1.5
+version: 1.6
 layer: scenario
 scenario: naruto
 type: system
@@ -12,6 +12,8 @@ source-file: Linhagem_do_Rasengan_v1.md
 # Linhagem do Rasengan
 
 Documento dono do motor compartilhado pelas fichas da família Rasengan. Ele publica o eixo que cada variação move, a regra de assistência de moldagem, a cadeia de derivação e o estado de autoria da linhagem inteira. As fichas individuais consomem este documento e não reescrevem nada dele.
+
+**O que mudou na v1.6.** A Seção 2 troca o termo somado pelo `w`. O coeficiente técnico de 3,0 resolve o `w` em 1,5, o maior do corpus, e a tese da família passa a ler o `P` da perícia governante no lugar do nível de Controle de Chakra. A mesma seção declara que a perícia governante das quatro fichas de moldagem pura é o Controle de Chakra, no lugar em que a linhagem já declarava o portão de rank delas. A Seção 3 inteira permanece intacta, com todas as RC nominais, coeficientes de entrega, vetores, `mult_Tipo` e proporções da escada, junto da Assistência de Moldagem, da cadeia de derivação, da Recomposição, do estado de autoria e de todos os preços.
 
 **O que mudou na v1.5.** A coluna `mult_Tipo` da Seção 3 é sincronizada com os vetores que o repasse do Bloco 8 classificou, e a tabela ganha coluna de vetor para que os dois valores fiquem lado a lado. Três linhas carregavam transcrição anterior à partição do termo de tipo em Constante de Moldagem e Assinatura: o Rasengan Evanescente publicava 1,75, que é o produto do Raiton entregue como Energia, e as duas fichas de Fūton publicavam 1,30, valor de multiplicador por elemento que nenhuma régua vigente produz. As três resolvem em 1,40, porque entregam por vetor físico e a Assinatura de Impacto, Corte e Penetração vale 1,00. As quatro fichas sem transformação de natureza permanecem em 1,00, e nenhuma RC nominal, coeficiente de entrega, proporção da escada ou preço mudou.
 
@@ -37,7 +39,7 @@ Toda ficha da linhagem herda os três valores abaixo e declara apenas o que dive
 | Caminho exigido | Composição, inclinação Moldagem | Perícia de Controle de Chakra, LV4 |
 | Selos de referência | 0 | Perícia de Controle de Chakra, Régua de Interface |
 
-O coeficiente técnico 3,0 é o valor mais alto da tabela e corresponde à técnica que existe pela moldagem. Ele governa o Fator de Moldagem que domina o dano de toda a família, e não deriva mais a Exigência de Moldagem: pelo Manual de Requisitos de Técnica v2.2, a Exigência é declarada por entrada e não herdada da linhagem, porque volume e escopo mudam o controle que cada variação cobra. As sete fichas publicam valores próprios, ancorados contra o Compêndio de Ninjutsu de Forma e o de Raiton: Rasengan 62, Ōdama Rasengan 66, Rasenrengan 62 por esfera, Chō Ōdama Rasengan 74, Rasengan Evanescente 70 por exceção de piso aprovada.
+O coeficiente técnico 3,0 é o valor mais alto da tabela e corresponde à técnica que existe pela moldagem. Ele alimenta o `w` da Seção 5.3 do Manual de Criação de Jutsus, que é o termo por onde a maestria domina o dano de toda a família, e não deriva mais a Exigência de Moldagem: pelo Manual de Requisitos de Técnica v2.2, a Exigência é declarada por entrada e não herdada da linhagem, porque volume e escopo mudam o controle que cada variação cobra. As sete fichas publicam valores próprios, ancorados contra o Compêndio de Ninjutsu de Forma e o de Raiton: Rasengan 62, Ōdama Rasengan 66, Rasenrengan 62 por esfera, Chō Ōdama Rasengan 74, Rasengan Evanescente 70 por exceção de piso aprovada.
 
 **O portão de rank da linha sem natureza.** O Manual de Requisitos de Técnica ancora o portão de rank na perícia do domínio da técnica, e as fichas de moldagem pura desta linhagem não possuem domínio elemental que o carregue. O portão delas corre pela Perícia de Controle de Chakra, que é a perícia do único componente que essas fichas empregam, lida contra a mesma tabela universal.
 
@@ -50,17 +52,18 @@ O coeficiente técnico 3,0 é o valor mais alto da tabela e corresponde à técn
 
 As fichas de natureza declarada leem o portão de rank na perícia elemental correspondente, pela regra geral, e o Controle de Chakra permanece nelas apenas como dono do degrau de moldagem. Os dois portões correm em paralelo e não se encadeiam.
 
-O Fator de Moldagem resultante vale para todas as fichas da linhagem e é publicado uma única vez aqui.
+**A perícia governante da linha sem natureza.** A mesma leitura que fixa o portão de rank fixa a perícia governante dessas quatro fichas. O Controle de Chakra é a perícia do único componente que elas empregam, e é o `P` dele que o `M` lê nelas, pela Seção 5.2 do Manual de Criação de Jutsus. Portão universal e perícia governante são papéis distintos: o Controle de Chakra é portão em toda técnica do sistema, porque nenhuma escapa da Régua de Exigência nem do Índice de Desperdício, e nesse papel não entra no motor. Nas quatro fichas de moldagem pura ele acumula o segundo papel e entra pelo `M` como qualquer perícia governante, sem termo somado e sem privilégio. As fichas de natureza declarada leem o `M` na perícia elemental correspondente, e nelas o Controle de Chakra permanece apenas portão.
+
+O termo por onde a maestria entra vale para todas as fichas da linhagem e é publicado uma única vez aqui.
 
 ```
-Fator de Moldagem = LV_CC² × 2,5 × 3,0
+w = coef_técnica ÷ 2 = 3,0 ÷ 2 = 1,5
+M = 1 + 1,5 × (P − P_ref) ÷ P_ref          piso de M: 0,5
 ```
 
-| LV_CC | 5 | 6 | 6 com 1 caminho | 6 com 2 caminhos |
-|---|---|---|---|---|
-| Fator | 188 | 270 | 368 | 480 |
+O coeficiente técnico de 3,0 é o mais alto da tabela do manual, e o `w` de 1,5 que ele produz é o maior do corpus. Nenhuma família escala tão forte com a maestria e nenhuma escala tão fraco com o volume.
 
-A consequência de mesa está declarada: o volume investido move pouco o dano desta família, e a maestria move muito. Duas execuções da mesma ficha por praticantes de mesmo LV_CC entregam o mesmo dano, e a reserva maior compra escopo, repetição e acesso às variações de rank alto, jamais potência por unidade de chakra.
+A consequência de mesa está declarada: dois executores da mesma ficha com o mesmo `P` na perícia governante entregam o mesmo dano, e a reserva maior compra escopo, repetição e acesso às variações de rank alto, jamais potência por unidade de chakra.
 
 ---
 

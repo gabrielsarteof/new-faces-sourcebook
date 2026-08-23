@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chidori-family
 title: "Linhagem do Chidori"
-version: 1.5
+version: 1.6
 layer: scenario
 scenario: naruto
 type: system
@@ -33,7 +33,7 @@ Esta linhagem foi calibrada contra os documentos abaixo, nas versões vigentes n
 | Sistema de Efeitos de Status | 2.5 | a graduação da Paralisia Parcial e da Paralisia Total |
 | Reserva de Chakra | 3.5 | o Limite de Saída por posição, a recuperação e os pools externos |
 | Tabelas de Referência de Personagens | 1 | os pares de validação Elite e Especial |
-| Naturezas Avançadas | 7 | a camada Kyōka, o multiplicador do Shiden e o do Enton |
+| Naturezas Avançadas | 8 | a camada Kyōka com os dois eixos, o multiplicador do Shiden e o do Enton |
 | Mangekyō Sharingan | 1 | o medidor de desgaste, os custos do olho e a regra de trunfo |
 | Compêndio de Katon | 5.1 | a entrada do Amaterasu e o comportamento da chama negra |
 | Compêndio de Fūinjutsu | 1.1 | a entrada do Juinjutsu de Orochimaru |
@@ -199,7 +199,7 @@ Chidori  (raiz, Autoria Aberta, 8.750)
 ├── Chidori Nagashi     exige caminho Arco
 ├── Chidori Senbon      não exige caminho
 ├── Chidori Eisō        exige caminho Lança
-├── Takemikazuchi       exige Raiton LV6, caminho Ponta, Amaterasu e Kyōka Enton
+├── Takemikazuchi       exige Raiton LV6, caminho Ponta, Amaterasu e Enton LV6
 └── Raikiri             exige Raiton LV6, Moldagem Absoluta e caminho Ponta
 
 Kirin   (fora da árvore, raiz própria, Autoria Aberta)
@@ -230,7 +230,7 @@ Nenhuma entrada isolada alcança o custo de uma disciplina elemental completa le
 
 O Kirin não deriva do Chidori e não o exige. Ele não concentra corrente em ponto único, não entrega por contato, não depende de deslocamento e não gera a própria carga. A ficha publicada o posiciona na inclinação Corrente pelo caminho Tempestade, enquanto a raiz da família vive na inclinação Relâmpago pelo caminho Ponta. Ele é parente de compêndio e não de linhagem, e a decisão de arquitetura o preserva exatamente onde ele já está.
 
-O Shiden também fica fora, por três razões independentes: corre por natureza intensificada e não por Raiton comum, dispensa investida e contato, e o portão dele é a Centelha da Kyōka e não a autoria da raiz. A ficha declara a posição na própria entrada.
+O Shiden também fica fora, por três razões independentes: corre por natureza intensificada e não por Raiton comum, dispensa investida e contato, e o portão dele são as duas portas de aquisição da Kyōka, a Centelha na criação de personagem e o treino em jogo por Transmissão ou por Descoberta, e nenhuma delas passa pela autoria da raiz. A ficha declara a posição na própria entrada.
 
 ---
 

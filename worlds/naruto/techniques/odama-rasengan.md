@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.odama-rasengan
 title: "Ōdama Rasengan (大玉螺旋丸)"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -113,6 +113,8 @@ A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor l
 | 122 | 0,736 | 530 | 27,6% |
 | 148, referência do rank | 1,000 | 720 | 37,5% |
 | 180 | 1,324 | 954 | 49,7% |
+
+**Valor de campo.** A cláusula de área e a de multiplicidade da Seção 5.2 do Manual de Jutsus leem o valor de campo, que é o total que a obra põe em campo contra a célula de quatro em espaçamento de combate. Medido no executor de referência do rank, o valor de campo desta entrada resolve em 150% do par do rank, e o piso de 40% do rank A está cumprido. Os 37,5% por corpo permanecem leitura de mesa e nunca foram a grandeza que a banda mede.
 
 O rendimento da técnica escala pelo número de corpos alcançados, e não pelo investimento de chakra. Os valores abaixo assumem LV_CC 6.
 

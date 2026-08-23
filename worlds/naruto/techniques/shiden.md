@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.shiden
 title: "Shiden — Relâmpago Púrpura (紫電)"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -52,7 +52,7 @@ A entrada corre por duas rotas que chegam à mesma cor. A rota do trabalho é o 
 
 Quem aprende a técnica sem a Kyōka a executa com o multiplicador comum do elemento, 1,75, e dispõe da modulação de intensidade e da condução por meio que a entrada possui.
 
-Quem manifesta a Kyōka executa a mesma técnica com o multiplicador 1,85 da natureza intensificada, e o Raiton inteiro dele corre na mesma banda. A inclinação de extensão Agudo da Perícia de Raiton fica disponível a esse portador e responde por corte, fidelidade de rumo e chegada sem trajeto, propriedades que a técnica sozinha não concede.
+Quem manifesta a Kyōka executa a mesma técnica no mesmo multiplicador de 1,75, porque o Shiden refina pelo eixo de Entrega e conserva a Constante de Moldagem comum do elemento. O que a natureza eleva é a celeridade, que sobe para 165 na Escada de Meios contra os 150 do Raiton comum, e o Raiton inteiro do portador corre nessa banda. A inclinação de extensão Agudo da Perícia de Raiton fica disponível a esse portador e responde por corte, fidelidade de rumo e chegada sem trajeto, propriedades que a técnica sozinha não concede.
 
 ---
 
@@ -85,7 +85,7 @@ No modo cirúrgico, o executante alcança um objeto preso ao corpo de outra pess
 ## Mecânica de Ativação
 
 - **RC nominal:** 900, com a sobretaxa da escada de evasão já embutida, acrescida de 1 Limite de Saída por turno de carga adicional, até 2 turnos
-- **Vetor:** Energia elétrica · Celeridade 150
+- **Vetor:** Energia elétrica · Celeridade 150, e 165 no portador da Kyōka Shiden, pelo eixo de Entrega que Naturezas Avançadas publica
 - **Custo mínimo:** 300
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 1
@@ -127,7 +127,7 @@ M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, porque o feixe cruza o espaço até o alvo. O coeficiente técnico 2,0 corresponde à dependência alta, porque a modulação de intensidade é a técnica inteira e ela vive na moldagem.
 
-O multiplicador 1,75 é o do Tipo Elétrico comum e responde pelo executante que aprendeu a técnica sem a natureza intensificada. O multiplicador 1,85 é o da Kyōka Shiden e substitui o comum no portador dela, conforme Naturezas Avançadas. A carga adicional eleva o escopo e permanece fora do termo de RC nominal do dano.
+O multiplicador 1,75 é o do Tipo Elétrico comum e vale para todo executante, com e sem a Kyōka Shiden, porque aquela natureza refina pelo eixo de Entrega e conserva a Constante de Moldagem comum. A carga adicional eleva o escopo e permanece fora do termo de RC nominal do dano.
 
 O `mult_Tipo` de 1,75 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia elétrica vale 1,25. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
 
@@ -147,7 +147,7 @@ A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum p
 | 148, referência do rank | 1,000 | 1.260 | 65,6% |
 | 180 | 1,216 | 1.532 | 79,8% |
 
-A coluna do portador da Kyōka sai desta tabela. Ela era lida do multiplicador de natureza de 1,85 da Kuroi Kaminari, grandeza do modelo anterior, e o Sistema Elemental v9 registra que "os multiplicadores dos Kyōka são republicados sobre a base nova" sem que a republicação tenha ocorrido. O dono é `advanced-natures.md`, e a coluna volta quando ele publicar como a intensificação entra num motor de Constante e Assinatura.
+A tabela vale para todo executante. O portador da Kyōka Shiden lê as mesmas três linhas, porque o refinamento dele corre pela celeridade e não pelo multiplicador, e a vantagem dele aparece na cadeia de Velocidade da Seção 5.7 do Manual de Jutsus.
 
 O dano por corpo é o mesmo em qualquer degrau de escopo. O rendimento da técnica escala pelo número de corpos alcançados.
 
@@ -214,8 +214,8 @@ O modo cirúrgico não aplica rider.
 
 ## Sinergias
 
-- **Kyōka Shiden:** o multiplicador 1,85 coloca a entrada na faixa de dano das grandes perfurações do elemento sem exigir contato nem investida, e o portador da natureza soma a isso a inclinação de extensão Agudo da Perícia de Raiton
-- **Ausência da Kyōka:** o executante que aprendeu a técnica opera em 1,75 e conserva a modulação de intensidade, a condução por meio e a ausência de exposição, que são propriedades da obra e não da natureza
+- **Kyōka Shiden:** a celeridade de 165 leva a entrada ao alvo antes que a esquiva comum do par se organize, sem exigir contato nem investida, e o portador da natureza soma a isso a inclinação de extensão Agudo da Perícia de Raiton
+- **Ausência da Kyōka:** o executante que aprendeu a técnica opera na mesma potência de 1,75 e na celeridade de 150, e conserva a modulação de intensidade, a condução por meio e a ausência de exposição, que são propriedades da obra e não da natureza
 - **Meio condutor em cena:** a elevação de escopo por condutor não consome carga, e uma poça no lugar certo entrega em um turno o que a carga entregaria em dois
 - **Modo cirúrgico:** a única ferramenta do elemento que resolve problema de precisão sem dano, e ela abre cenas de resgate, desarme e captura que nenhuma outra entrada cobre
 - **Caminho Rede:** o Salto Condutor encadeia trechos condutores separados e amplia a área efetiva sem elevar a categoria declarada

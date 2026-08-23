@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.chakra-control
 title: "Controle de Chakra"
-version: 3.8
+version: 3.9
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,9 @@ status: final
 source-file: Pericia_Controle_de_Chakra_v2_2.md
 ---
 
-CONTROLE DE CHAKRA (チャクラコントロール) — v3.8
+CONTROLE DE CHAKRA (チャクラコントロール) — v3.9
+
+**O que mudou na v3.9.** A cláusula sobre o `M` passa a declarar os dois papéis distintos que esta perícia exerce. O Controle de Chakra é portão universal em toda técnica do sistema, porque nenhuma escapa da Régua de Exigência nem do Índice de Desperdício, e nesse papel não entra no motor. Ele é perícia governante na obra cujo único componente é a moldagem, e nesse papel entra pelo `M` como qualquer outra perícia governante, sem termo somado e sem privilégio. A devolução da âncora de dano do Chidori fecha, e no lugar da tabela de recálculo entra a demonstração estrutural, que lê os quatro termos do dano bruto e mostra que nenhum deles pertence a este domínio, com confirmação numérica por par abstrato de `P` igual por construção. A linha de tolerância aos documentos que ainda liam LV_CC sai, porque a Linhagem do Rasengan fechou a forma somada, e o registro de consumo das fichas do Chidori, do Nagashi e do Kirin deixa de listar a grandeza revogada. O Índice de Desperdício, a Régua de Exigência, a Sobretaxa de Volume, a Escada de Permanência, a Régua de Acúmulo, a Assinatura de Chakra, a Recepção de Chakra Externo e as transcendências permanecem sem alteração.
 
 **O que mudou na v3.8.** O motor de dano perdeu o termo somado, e com ele o canal por onde esta perícia entrava no cálculo de potência. A Seção 5.3 do Manual de Criação de Jutsus publica a maestria como `M`, que escala a base inteira e lê o `P` da perícia governante de cada obra, e a Seção 5.2 declara que o Controle de Chakra permanece portão universal e que portão não soma em motor. A linha de dano do Índice de Desperdício passa a citar a forma vigente, a leitura de LV_CC no Fator de Moldagem sai do corpo do documento, e a âncora do Chidori volta para a fila com a tabela do recálculo como evidência, em vez de ser reescrita por conta própria.
 
@@ -29,8 +31,6 @@ A doutrina fundadora nomeia esta perícia. Toda técnica nasce de dois component
 Esta é a coluna de precisão do portão duplo e a superclasse de toda arte que corre sobre chakra. A perícia de elemento responde por magnitude de natureza e escalona pelo rank; esta responde por refinamento e escalona pela dependência de moldagem, em eixo independente. O Bunshin no Jutsu é rank E e derrotava o jovem Naruto, porque calibrar quase nada com reserva colossal exige precisão que o volume atrapalha. As perícias elementais regem por INT e esta rege por SAB, mantendo os dois portões independentes.
 
 O nível deixou de alimentar o motor de dano. Enquanto a parcela de maestria foi um Fator de Moldagem somado ao lado da conversão, ela lia o LV_CC, e esta perícia entrava no cálculo de potência de toda técnica do cenário. A Seção 5.3 do Manual de Criação de Jutsus trocou a forma quando absorveu o Consolidado, e a maestria passou a ser o `M`, que multiplica a base inteira e lê o `P` da perícia governante que a ficha da obra declara. A Seção 5.2 fecha a leitura sem deixar margem: o Controle de Chakra permanece portão universal, e portão não soma em motor. O que este domínio governa é o preço da execução e o refinamento que ela exige, pelo Índice de Desperdício e pela Régua de Exigência, e as duas leem teste.
-
-A leitura antiga sobrevive apenas dentro dos documentos que ainda publicam a forma somada, entre eles a Linhagem do Rasengan, cujo motor de família calcula o Fator de Moldagem sobre o LV_CC e o nível efetivo por caminho adicional. Aqueles documentos estão na fila de propagação do Consolidado, e enquanto não forem alcançados a régua de nível efetivo continua valendo para eles, e só para eles.
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -341,7 +341,7 @@ RC nominal = custo mínimo × 3 + carga × rendimento de Sobrecarga
 dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
 janela     = custo pago lido contra o Limite de Saída
 
-A linha de dano aparece aqui citada e não definida, porque o dono dela é a Seção 5.3 do Manual de Criação de Jutsus. Ela entra no bloco para mostrar o que o desperdício não alcança: a RC limpa é o volume que a técnica põe em campo, declarado pela ficha, e nada do que o executor desperdiça entra ali. O `M` lê o `P` da perícia governante da obra, que nunca é esta, e é por isso que a régua deste domínio governa preço e janela sem governar potência.
+A linha de dano aparece aqui citada e não definida, porque o dono dela é a Seção 5.3 do Manual de Criação de Jutsus. Ela entra no bloco para mostrar o que o desperdício não alcança: a RC limpa é o volume que a técnica põe em campo, declarado pela ficha, e nada do que o executor desperdiça entra ali. O `M` lê o `P` da perícia governante da obra. Esta perícia ocupa esse papel apenas na obra de moldagem pura, cujo único componente é a moldagem, e nunca na obra que possui domínio próprio. Em qualquer dos dois casos o desperdício fica fora do motor, e é por isso que a régua deste domínio governa preço e janela sem governar potência.
 
 O neutro em 185 é o LV6 transcendido com três caminhos em Moldagem. A carga entra um para um no custo pago, porque chakra despejado por força escapa à eficiência da moldagem, e rende no lado nominal conforme a Sobrecarga do executor.
 
@@ -355,7 +355,18 @@ LV1 teste 14, paga 3,22×  ·  LV3 aprofundado teste 60, paga 2,63×  ·  LV4 co
 
 Âncoras: Kakashi paga 250 pelo Chidori e alcança três usos por combate com 942 de RC, com o limite canônico de quatro sendo diário e resolvido pela recuperação entre encontros; Sasuke genin paga 656 e alcança dois com 1.325. O desperdício de um e a moldagem plena do outro separam o preço e a janela dos dois, e não separam a RC nominal, que é 750 para ambos porque o custo mínimo do Chidori é o mesmo em qualquer mão.
 
-Quanto cada um entrega de dano é pergunta que este documento deixou de poder responder, e a devolução está registrada na seção de pendências.
+A âncora de preço é a face econômica de uma demonstração maior, que os dois blocos seguintes fecham.
+
+**O que o desperdício não alcança.** Os quatro termos do dano bruto têm donos fora desta perícia. A RC limpa é declarada pela ficha da obra, o coeficiente de entrega pertence à forma, o `mult_Tipo` pertence ao Sistema Elemental, e o `M` lê o `P` da perícia governante. As duas grandezas que este domínio produz, o desperdício e o PS que ele cobra, não aparecem em termo algum daquela linha. A leitura da expressão mostra que não existe casa por onde o desperdício vaze para a potência.
+
+A confirmação numérica roda com um par abstrato, com o `P` declarado igual por construção nos dois executores. Chidori, RC nominal 750, entrega 0,20, vetor Penetração, `mult_Tipo` 1,40, coeficiente técnico 2,0, os dois na referência do rank A, onde o `M` resolve em 1,000.
+
+| Executor | teste de Moldagem | desperdício | custo pago | PS por execução | dano bruto |
+|---|---:|---:|---:|---:|---:|
+| Moldagem plena | 185 | 0% | 250 | 0 | 1.050 |
+| Moldagem de LV3 aprofundado | 60 | 162,5% | 656 | 41 | 1.050 |
+
+O segundo paga duas vezes e meia o preço do primeiro, canaliza numa janela mais longa, chega mais cedo à Exaustão Física e entrega o mesmo dano. Quem molda mal fere igual e se desgasta mais para ferir. A ilustração precisa da igualdade do `P` e dispensa o valor dele, de modo que nenhum número de outra perícia entra aqui e a regra do porteiro fica respeitada.
 
 RÉGUA DE MODULAÇÃO
 
@@ -479,7 +490,9 @@ MAPA DE INTERFACES
 
 Esta perícia publica réguas e as perícias à jusante declaram o que leem delas. Nenhuma linha deste mapa consome orçamento de caminho, e é por isso que o domínio permanece puro: ele rege a manipulação, e cada ofício declara o que toma emprestado.
 
-Toda técnica lê a Régua de Exigência e o Índice de Desperdício. A terceira linha deste mapa, o LV_CC dentro do Fator de Moldagem, saiu com a troca de forma do motor de dano: a maestria passou a ler o `P` da perícia governante de cada obra, e o portão não soma em motor. Os documentos que ainda publicam a forma somada seguem lendo o LV_CC até serem alcançados pela propagação do Consolidado.
+Toda técnica lê a Régua de Exigência e o Índice de Desperdício, e é essa universalidade que faz desta perícia portão em toda obra do cenário. Portão não soma em motor. A terceira linha que este mapa publicava, o nível desta perícia dentro do termo somado de maestria, saiu com a troca de forma do motor de dano, e a maestria passou a ler o `P` da perícia governante que a ficha de cada obra declara.
+
+Esta perícia é a governante na obra de moldagem pura, cujo único componente é a moldagem, e nesse papel entra pelo `M` como qualquer perícia governante. Na obra que possui domínio próprio, como o Chidori sob o Raiton, ela permanece portão e não entra em termo algum. Os dois papéis convivem no mesmo documento porque respondem a perguntas diferentes, e o Raiton já exerce o mesmo arranjo ao gatear o rank do Chidori e mover o `M` dele.
 
 Genjutsu exige esta perícia em nível não inferior ao próprio, porque iludir corre inteiro sobre moldagem. Consome a Régua de Interface e opõe a Defesa do Circuito pela leitura do maior valor.
 
@@ -513,23 +526,6 @@ Proposta: todos os valores numéricos de efeito, as réguas, os custos e as capa
 
 PENDÊNCIAS
 
-**Devolução: a âncora de dano do Chidori não se recalcula dentro deste documento.** A frase que dizia que Kakashi e Sasuke entregam ambos 443 de dano foi calculada sobre a forma somada do motor, e fechava porque a parcela de maestria lia o LV_CC dos dois. Conferida contra a forma antiga, `750 × 0,20 × 1,75` mais `6² × 2,5 × 2,0` resulta em 442,5, e é dali que o 443 saiu. Sob o motor vigente a base é `5 × 750 × 0,20 × 1,40`, que dá 1.050 para o executor de referência do rank A, e o resultado de cada praticante lê o `M` dele.
-
-```
-dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
-Chidori: RC limpa 750 · coef_entrega 0,20 · vetor Penetração · mult_Tipo 1,40 · coef_técnica 2,0 · w 1,0 · P_ref 148 (rank A)
-```
-
-| `P` da perícia governante | `M` | Dano |
-|---|---|---|
-| 64, executor de referência do rank C | 0,50, no piso | 525,0 |
-| 74 e abaixo | 0,50, no piso | 525,0 |
-| 122, executor de referência do rank B | 0,82 | 865,5 |
-| 148, executor de referência do rank A | 1,00 | 1.050,0 |
-| 180, executor de referência do rank S | 1,22 | 1.277,0 |
-
-A tabela é a evidência da devolução e não a substituta da âncora. **A conclusão de desenho não sobrevive ao recálculo, e a razão dela sobrevive inteira.** Os dois executores deixam de entregar o mesmo número, porque o `M` lê o `P` da perícia governante do Chidori, que é o Raiton, e os dois não têm o mesmo Raiton. O que continua verdadeiro, e por motivo mais forte que antes, é que o desperdício nunca vira potência: ele não entra na RC limpa, e o domínio que o mede não entra no motor. A ilustração que provava isso comparando dois executores precisa nascer de outro par, e o par novo é escolha de desenho. Nomear o `P` de Kakashi e o de Sasuke seria publicar número de Raiton dentro do documento de Controle de Chakra, o que a regra do porteiro proíbe. Dono pendente: Gabriel, com a âncora reescrita a partir do Raiton ou movida para lá.
-
 Verificação primária dos verbetes de databook que hoje sustentam as linhas atribuídas. Transcendências de Composição, Emissão, Impregnação, Ancoragem e Cadência, aguardando âncora canônica. Conversão de pool externo no Índice de Volume, aguardando Bestas Soberanas e jinchūriki. Régua de dificuldade do narrador, camada externa. Manual de Variações e Elevações Categóricas, recebendo desta perícia a coluna de requisitos de caminho e o teste de Moldagem. Passada de nomeação deity-first das transcendências, hoje em nome descritivo. Auditoria do teto de saída única, com Medida Livre somada a Sobrecarga transcendida e a Reserva Diferida, contra o documento de PV e nível de poder, a ser feita junto da auditoria do Susanoo.
 
 FILA DE ERRATA
@@ -546,7 +542,7 @@ Compêndios: linhas de requisito na régua de degraus, referências de selos e d
 
 Sistema Elemental v9: aponta Refino, Composição e Modulação, e recebe a propriedade da penalidade de conversão da natureza aprendida.
 
-Mangekyō: Manutenção Espaçada. Sharingan: quarenta por cento sobre a Base de Nível. Chidori, Nagashi e Kirin: Concisão, LV_CC, selos de referência e janela de referência.
+Mangekyō: Manutenção Espaçada. Sharingan: quarenta por cento sobre a Base de Nível. Chidori, Nagashi e Kirin: Concisão, selos de referência e janela de referência.
 
 Controle Excepcional: +15 ao teste de supressão no lugar da supressão total, bônus plano recalibrado.
 

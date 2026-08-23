@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 3.2
+version: 3.3
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_7.md, mais o Consolidado do motor de jutsus, o Núcleo de Combate v3 e a Errata E1 v2
 ---
 
-# Manual de Criação de Jutsus · v3.2
+# Manual de Criação de Jutsus · v3.3
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.3.**
 
@@ -562,6 +562,8 @@ A maestria multiplica a base em vez de somar um termo ao lado dela. Uma contribu
 
 **RC limpa:** o volume que a técnica põe em campo, fixo ou variável (Seção 3.4), acrescido da carga adicional quando houver, **antes de qualquer sobretaxa de Perfil de Evasão**. O motor de dano lê sempre a RC limpa, e a nominal publicada na ficha passa a ser sempre a limpa. A sobretaxa de evasão vive no custo de RC e no custo mínimo, e nunca no dano: camadas não vazam uma na outra. O desperdício do executor fica fora deste termo, porque ele vira cansaço e janela e nunca potência. A penalidade de conversão de natureza entra, porque o volume convertido é maior.
 
+**Parcela de RC de origem externa.** A obra pode declarar na ficha uma parcela de RC que vem de fora do praticante, e ela é espécie própria dentro da RC limpa. A parcela entra na RC limpa e alcança tudo o que a RC limpa alcança, de modo que o dano cresce porque a base cresceu, a Força de Choque cresce e o Sōsai lê o volume maior, sem que nenhuma dessas propagações precise de regra própria. A parcela sai de fonte declarada fora do corpo do executor, e por isso não deixa a reserva dele e não conta contra o Limite de Saída. O corpus publica dois casos, os novecentos que o olho entrega ao Takemikazuchi e a parcela atmosférica que o verbo Fio do Céu colhe do céu. A obra que a parcela empurrar além do teto do rank resolve no teto, pela régua anti-inflação da Seção 5.2.
+
 **coef_entrega:** eficiência de conversão chakra→dano pela forma de entrega, declarada pela técnica. Concentrar numa estocada de ponto único converte mais dano que difundir em área; a mesma RC produz mais dano quando entregue de forma mais precisa. Para a categoria Dano em jutsus, o coef_entrega é o dono único da conversão: a regra de eficiência por alvo do Extra de área do MCP (70–80%) deixa de se aplicar a Dano, e o Extra de área governa apenas custo e cobertura. Em categorias sem coef_entrega (debuff em área, cura em área), a regra original do MCP segue intacta.
 
 **mult_Tipo:** a Constante de Moldagem multiplicada pela Assinatura do vetor que a obra declara, as duas publicadas pelo Sistema Elemental.
@@ -575,6 +577,10 @@ A Constante de Moldagem vale 1,40 para toda técnica de transformação de natur
 **M:** a escala da maestria, lida da perícia governante. O `P` é o mesmo da Seção 5.2, e o `P_ref` é o do rank da técnica. O executor de referência resolve `M = 1` por construção, o iniciante desce até o piso de 0,5, e o mestre acima do rank sobe sem teto. O piso existe porque nenhuma obra publicada entrega menos que metade do que a régua dela promete: abaixo disso a técnica não está sendo executada, está falhando.
 
 **coef_técnica:** quanto a técnica aproveita o refinamento de moldagem, declarado pela ficha. Técnicas que existem pela moldagem têm coeficiente alto; técnicas de força bruta têm coeficiente baixo ou zero. Ele continua declarado em cada ficha exatamente como está, e passa a alimentar o `w` em vez de multiplicar um termo somado. É ele que decide o quanto a mão importa naquela obra: com coeficiente 3,0 o `w` vale 1,5 e a maestria domina; com coeficiente 0,0 o `w` zera e a obra entrega o mesmo na mão de qualquer um, que é a definição de força bruta elemental.
+
+**Perícia governante única na obra de duas naturezas.** A obra que emprega duas naturezas declara uma só perícia governante, e ela é a da natureza que entrega o vetor declarado pela ficha. A outra natureza entra como requisito de acesso e não alimenta o motor, porque dois `M` concorrentes sobre a mesma base multiplicariam a maestria duas vezes. O Takemikazuchi é o caso publicado: o vetor é Penetração e quem o entrega é a corrente, de modo que o Raiton governa e a Perícia de Enton fica no portão.
+
+**Piso e teto se conferem na referência do rank.** As bandas da Seção 5.2 se medem no executor de referência do rank da obra, onde o `M` resolve em 1,000 por construção, e nunca na mão de um executor concreto. A banda existe para impedir que a obra faça trabalho de rank alheio pelo que ela é, e o que um mestre faz com ela é trabalho do `M`, que existe para escalar a base inteira conforme o `P`. Teto que clipasse o `M` mataria a maestria no ponto em que ela começa a pagar. A cláusula de área e a de multiplicidade leem valor de campo, que é o total que a obra põe em campo, e a parcela que cada corpo recebe permanece leitura de mesa.
 
 #### Tabela de referência: coef_entrega
 
@@ -627,6 +633,7 @@ As três âncoras de calibração do sistema, recalculadas pela régua acima com
 | Chidori | A | 750 | 0,20 | Penetração | 1,40 | 2,0 | 1.050,0 | Especial 1.920 | 54,7% | 40% ✓ |
 | Kirin | S | 1.800 | 0,35 | Energia elétrica | 1,75 | 2,0 | 5.512,5 | Ápice 3.000 | 183,8% | 65% ✓ |
 | Rasengan | B | 600 | 0,20 | Impacto | 1,00 | 3,0 | 600,0 | Elite 1.440 | 41,7% | 26% ✓ |
+| Rengoku Ryūsei | S | 2.500 | 0,16 | Energia térmica | 1,61 | 2,0 | 3.220,0 | Ápice 3.000 | 107,3% | 65% ✓ |
 
 O Goukakyuu passa o piso do próprio rank e fica abaixo do piso de B, que é onde uma técnica básica de projétil deve estar. O Chidori entrega metade do par por uma reserva modesta, e é a moldagem que compra essa entrega. O Kirin ultrapassa o par por larga margem, o que é a leitura canônica de uma obra que decide uma luta de uma vez, e o preço dela é a condição estrutural de tempestade somada ao número de usos, que é como o rank S se policia na ausência de teto.
 
@@ -730,8 +737,11 @@ O `C` é PRE somada ao bônus geral da perícia governante, e o `C_ref` é o do 
 | Bakuton | 120 | frente de detonação |
 | Ranton | 140 | feixe guiado |
 | Raiton e Kuroi Kaminari | 150 | corrente |
+| Shiden | 165 | corrente de banda alta |
 
 O Katon em 100 é a âncora neutra da escada, e o Raiton em 150 é a razão que a Interrupção de Contato do Núcleo de Combate já consome. A Celeridade é tendência do meio, e a obra declara desvio com motivo escrito na própria ficha.
+
+A Kyōka de eixo de Entrega multiplica a celeridade do elemento hospedeiro pelo bônus de poder dela, e é assim que o Shiden chega aos 165 sobre os 150 do Raiton. A Kyōka de eixo de Potência herda a celeridade do elemento sem alteração, porque o refinamento dela cai na Constante de Moldagem. Naturezas Avançadas publica o eixo de cada entrada.
 
 A linha de 95 mede o meio empregado, e não a ausência de natureza declarada. A obra de natureza que atravessa a distância sem produzir meio elemental a lê, e é por ela que entra a obra do eixo do Onmyōton, conforme o Eixo do Onmyōton publica. O Yōton da escada é a Liberação de Lava, 溶遁, e a Liberação de Yang, 陽遁, que romaniza igual, não ocupa linha nenhuma porque a via principal dela percorre o corpo amplificado.
 
@@ -982,6 +992,8 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 ---
 
 ## 11. Registro de Alterações
+
+**v3.3.** A Seção 5.3 recebe três declarações. A parcela de RC de origem externa vira espécie própria dentro da RC limpa, com os dois casos publicados do corpus, e fica declarado que ela não sai da reserva do executor e não conta contra o Limite de Saída. A obra de duas naturezas passa a declarar perícia governante única, a da natureza que entrega o vetor, com a outra entrando como requisito de acesso sem alimentar o motor. Piso e teto de rank passam a se conferir no executor de referência do rank, com o `M` em 1,000, e a cláusula de área e a de multiplicidade passam a ler valor de campo. A Escada de Celeridade dos meios ganha a linha do Shiden em 165 e a regra de multiplicação da celeridade pela Kyōka de eixo de Entrega. A tabela de validação das âncoras ganha o registro do Rengoku Ryūsei em 107,3% do par Ápice, primeiro ocupante de corpus a exercer a ausência de teto no rank S. Os coeficientes de entrega, as bandas de autoria, os pisos por rank, a matriz de XP e os doze pontos do Registro de Instâncias permanecem sem alteração.
 
 **v3.2.** A Escada de Celeridade dos meios declara que a linha de 95 mede o meio empregado, atendendo pedido do Eixo do Onmyōton v1. A obra de natureza que atravessa a distância sem produzir meio elemental lê essa linha, e é por ela que a obra do eixo do Onmyōton entra na cadeia de Velocidade. A linha do Yōton ganha o kanji 溶遁 para separar a Liberação de Lava da Liberação de Yang, que romaniza igual e não ocupa linha na escada. Nenhum valor de celeridade, fator ou fórmula mudou.
 
