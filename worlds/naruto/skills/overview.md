@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.34
+version: 2.35
 layer: scenario
 scenario: naruto
 type: skill
@@ -60,7 +60,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Ninjutsu Médico | v3 | INT | Erudição ×1,7 |
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
 | Passagem | v1.1 | INT | Erudição ×1,7 |
-| Barreira | v1 | SAB | Erudição ×1,7 |
+| Barreira | v1.1 | SAB | Erudição ×1,7 |
 | Kyuinjutsu | v1.3 | INT | Chakra ×1,4 |
 | Kenpo | v1 | DES | Físico ×1,0 |
 | Taekwondo | v1.4 | VEL | Físico ×1,0 |
@@ -444,7 +444,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2.5 | conforme |
-| Barreira v1 | conforme |
+| Barreira v1.1 | conforme |
 | Kyuinjutsu v1.3 | conforme |
 | Kenpo v1 | conforme |
 | Taekwondo v1.4 | conforme |
@@ -463,12 +463,12 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Trinta e uma, das quais nove aplicadas. Vinte e duas seguem abertas.
+Trinta e uma, das quais dez aplicadas. Vinte e uma seguem abertas.
 
 | Errata | Documento |
 |---|---|
 | ~~Publicar a composição por caminhos de cada transcendência, pelo padrão que o Sensoriamento e o Controle de Chakra v3.4 já cumprem~~ **aplicada nesta mesma passada**: Doton v2.2, Enton v1.1, Fūinjutsu v1.5, Futon v2.4, Genjutsu v1.4, Katon v4.1, Kunai v1.1, Kyūinjutsu v1.1, Leque v1.1, Ninjutsu Médico v3.2, Passagem v1.2, Raiton v3.2, Senjutsu v2.3, Shuriken v1.1, Suiton v2.3, Yang v4.3, Yin v4.2, Aikidō v1.1, Katana v1.1, Kenpo v1.1, Taekwondo v1.1, Taichi v1.1, Tantō v1.1 e Wing Chun v1.1. Senjutsu não estava nomeada na linha original, mas é perícia v6 e recebeu o mesmo tratamento na auditoria | Barreira |
-| Transcrever Barreira para `rulesets/naruto/skills/barreira.json`, que ainda não existe. A perícia está publicada em v1, mas nunca ganhou dado da aplicação; a composição por caminhos de suas transcendências fica pendente disso, e não é dívida desta errata | `src/shared/data/rulesets/naruto/skills/` |
+| ~~Transcrever Barreira para `rulesets/naruto/skills/barreira.json`, que ainda não existe~~ — **aplicada**: o arquivo nasceu com as duas inclinações, os seis caminhos, as três transcendências e as cinco réguas transversais, e a composição por caminhos das transcendências entrou junto, com Chikaeshi sobre Muralha, Futodama sobre Cerco e Ishikoridome sobre Perímetro. Escarmento, Véu e Contravalação seguem sem transcendência dedicada por declaração do próprio documento | `src/shared/data/rulesets/naruto/skills/` |
 | ~~Integrar o Adendo da seção 4.1.3 ao corpo principal~~ — **aplicada na v2.3** | Manual de Criação de Jutsus v2 |
 | ~~Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações~~ — **aplicada na v7.1** | Manual de Criação de Perícias v7, seção 7 |
 | ~~Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um~~ — **aplicada na v2.2** | Núcleo de Perícias v2, seção 1 |
@@ -504,6 +504,12 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.35.** A errata da transcrição da Barreira fecha. A perícia estava publicada desde a v1 e nunca tinha ganhado dado da aplicação, e a ausência tinha uma consequência que o registro não previa: o Compêndio de Fūinjutsu exigia `Barreira LV4` com a anotação de perícia pendente, e a conversão, sem catálogo onde resolver o nome, lia a exigência como nome próprio de técnica e criava um registro de jutsu que nunca existiu. Publicado o dado, a exigência resolve contra a perícia e o registro inventado sai do catálogo.
+
+Os dois registros passam a citar Barreira em v1.1, alinhados ao cabeçalho do documento. A Norma de Produção de Compêndios v2.9 passa a declarar a grafia de requisito de perícia pendente, que o corpus já praticava em três entradas sem nunca ter escrito: a palavra `perícia` em minúscula à frente da descrição do ofício, com o nível quando houver. A anotação `*(perícia pendente)*` sai da forma, porque a minúscula já cumpre o papel dela e a anotação depois do nível impedia a leitura do próprio nível. O Compêndio de Fūinjutsu v1.8 alinha as duas entradas que a usavam.
+
+Nenhum regente, nenhuma categoria de custo, nenhum par do Registro de Portão Duplo e nenhuma entrada da Fila de Nascimento mudou.
 
 **v2.34.** Fecho da fila de RFCs que a leva da Sessão de Calibração abriu. O Registro de Conformidade passa a citar Senjutsu v2.5, alinhando a linha ao cabeçalho do documento e ao Registro de Regentes desta mesma seção, que já publicava a versão certa. O Registro de Regentes e o de Conformidade recebem Raiton v3.9 e Enton v1.5. Nenhum regente, nenhuma categoria de custo, nenhum par do Registro de Portão Duplo, nenhuma cedência do Registro de Fronteira, nenhuma entrada da Fila de Nascimento e nenhuma linha da tabela de Erratas Abertas mudou.
 
