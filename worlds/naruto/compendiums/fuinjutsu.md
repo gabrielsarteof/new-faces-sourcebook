@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.7
+version: 1.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Fuinjutsu_v1.md
 ---
 
-# Compêndio de Fūinjutsu · v1.7
+# Compêndio de Fūinjutsu · v1.8
 
 **O que mudou na v1.3.** Primeira auditoria completa da Exigência de Moldagem: 39 das 42 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Duas ficam sem edição por não terem portão de moldagem próprio: Rotação Instantânea Mútua do Hiraishin não declara nível nem degrau de Fūinjutsu na entrada, herdando o portão de Deus do Trovão Voador sem republicá-lo; Juinjutsu de Orochimaru não tem portão nenhum, porque quem recebe a marca não a adquire nem a executa. Nenhuma das duas precisava de correção — ambas já estavam corretas por não se aplicarem.
 
@@ -472,7 +472,7 @@ O limite é o escopo declarado. A vedação alcança o que a inscrição nomeou,
 **Kekkai Shihō Fūjin — 結界四方封陣**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
-**Requisitos:** Fūinjutsu LV5 · Moldagem 80 · Caminho Cárcere · Barreira LV4 *(perícia pendente)* · quatro executores · quatro pergaminhos · amostra de sangue do alvo
+**Requisitos:** Fūinjutsu LV5 · Moldagem 80 · Caminho Cárcere · Barreira LV4 · quatro executores · quatro pergaminhos · amostra de sangue do alvo
 **XP:** 18.200
 
 Quatro executores tomam posição nos cantos de um quadrado, cada um com o próprio pergaminho, e erguem uma barreira que primeiro localiza o alvo, depois se estende acima dele e por fim desce fechando. O que está dentro é selado onde a formação mandar, e o procedimento inteiro consome minutos em que as quatro pessoas ficam paradas e indefesas.
@@ -579,7 +579,7 @@ O limite é o arremesso. A lâmina precisa chegar, e um adversário que a desvie
 **Hiraishin Giri — 飛雷神斬り**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
-**Requisitos:** Deus do Trovão Voador · perícia de arma LV5 *(perícia pendente)* · Fūinjutsu LV4 · Moldagem 64
+**Requisitos:** Deus do Trovão Voador · perícia de arma LV5 · Fūinjutsu LV4 · Moldagem 64
 **Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
 **XP:** 11.000
 
