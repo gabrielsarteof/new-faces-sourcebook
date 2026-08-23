@@ -177,7 +177,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.11 | compendium | final |
 | [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1.4 | compendium | final |
 | [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.8 | compendium | final |
-| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.16 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.17 | compendium | final |
 | [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.4 | compendium | final |
 | [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.8 | compendium | final |
 | [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.6 | compendium | final |
@@ -297,7 +297,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Chidori Katana — Sabre de Mil Pássaros (草薙の剣・千鳥刀)](worlds/naruto/techniques/chidori-katana.md) | `naruto.technique.chidori-katana` | 2.1 | technique | final |
 | [Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)](worlds/naruto/techniques/chidori-nagashi.md) | `naruto.technique.chidori-nagashi` | 3.1 | technique | final |
 | [Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)](worlds/naruto/techniques/chidori-senbon.md) | `naruto.technique.chidori-senbon` | 3.1 | technique | final |
-| [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 5 | technique | final |
+| [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 5.1 | technique | final |
 | [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1.2 | technique | final |
 | [Endan (炎弾)](worlds/naruto/techniques/endan.md) | `naruto.technique.endan` | 1.2 | technique | final |
 | [Fūton: Rasengan (風遁・螺旋丸)](worlds/naruto/techniques/futon-rasengan.md) | `naruto.technique.futon-rasengan` | 1.2 | technique | final |
@@ -336,7 +336,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1.4 | technique | final |
 | [Rengoku Ryūsei (煉獄龍勢)](worlds/naruto/techniques/rengoku-ryusei.md) | `naruto.technique.rengoku-ryusei` | 1.2 | technique | final |
 | [Ryūka no Jutsu (龍火の術)](worlds/naruto/techniques/ryuka.md) | `naruto.technique.ryuka` | 1.2 | technique | final |
-| [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2.3 | technique | final |
+| [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2.4 | technique | final |
 | [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |
 | [Técnica dos Múltiplos Clones das Sombras](worlds/naruto/techniques/taju-kage-bunshin.md) | `naruto.technique.taju-kage-bunshin` | 1 | technique | final |

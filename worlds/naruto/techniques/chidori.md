@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori
 title: "Chidori (千鳥)"
-version: 5
+version: 5.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -47,6 +47,12 @@ Portador de Sharingan copia a técnica pelas regras da Norma de Produção de Co
 ## Custo de XP
 
 **Custo de XP:** 8.750
+
+**Conservado por ser âncora, e a divergência é decisão.** As seis irmãs da linhagem receberam a errata que trocou a leitura de posição na faixa, do volume de reserva para a entrega contra o par do rank. Esta ficha ficou de fora, e ficou de propósito. O Chidori é uma das quatro âncoras que a Seção 4.1.1 do Manual de Criação de Jutsus publica na própria tabela de interpolação, com RC nominal 750, posição de 6% e XP base de 8.750, e regenerar uma âncora pelo método que ela ancora é circular.
+
+Pela entrega, esta obra fecharia em 10.033: 1.050 de dano bruto na referência do rank A, 54,7% do par Especial, 58,8% da faixa sobre o piso de 40%, e o modificador de coeficiente técnico de 0,667. O número fica publicado ao lado do preço para que a diferença seja legível, e não para ser cobrado. O preço vigente é 8.750.
+
+O precedente é o do Rasengan, que saiu da tabela de calibração da Seção 4.1.3 quando trocou de degrau, pela mesma razão de não se medir a régua com o que ela mede.
 
 ---
 
