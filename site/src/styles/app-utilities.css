@@ -174,18 +174,6 @@
     opacity: 1;
   }
 
-  /*
-   * Ícone do logo: some no mesmo hover que revela os rótulos, deixando o slot de
-   * revelação (.app-dock-label, reaproveitado para o wordmark + "docs") tomar o
-   * lugar visual dele. Ícone e wordmark não ficam empilhados — moram em slots
-   * diferentes da mesma linha, exatamente como qualquer outro item do dock.
-   */
-  .app-dock-logo-icon { opacity: 1; transition: opacity 150ms ease; }
-  .dock-expandivel:hover .app-dock-logo-icon,
-  .dock-expandivel:focus-within .app-dock-logo-icon {
-    opacity: 0;
-  }
-
   /* Botão secundário. Origem: Button.tsx, variante secondary. */
   .app-btn-secondary {
     display: inline-flex;

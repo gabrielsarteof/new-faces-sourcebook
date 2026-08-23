@@ -41,14 +41,35 @@ const CRIADOR = 'https://new-faces-character-creator.vercel.app';
   aria-label="Navegação principal"
 >
   {/*
-    O dock não carrega logo.
+    A marca mora aqui, porque o dock é o único elemento de toda página.
 
-    O painel de documentos já publica "NEW FACES docs" no cabeçalho dele, e ter os
-    dois na mesma tela mostrava a identidade duas vezes lado a lado. Entre os dois,
-    o do painel é o que fica: o dock só revela texto no hover, e identidade de
-    produto não pode ser um elemento que pisca — some quando o mouse sai. O painel
-    está sempre presente enquanto se lê um mundo, então é o lugar estável para ela.
+    Tirar o logo daqui deixou o site sem marca nenhuma em Início e Começar: nessas
+    rotas o painel fica fora da tela, e com ele ia o único logo que restava. O dock
+    é o que sempre está presente, então é ele que precisa carregar a identidade.
+
+    O que não se repete é o wordmark. Aqui fica o ícone da marca, que cabe nos 72px
+    do estado recolhido e não pisca com o hover; o wordmark completo continua só no
+    cabeçalho do painel. São dois níveis da mesma identidade — a marca reduzida
+    sempre visível, a extensa onde há largura para ela — e não a mesma peça duas
+    vezes lado a lado, que era o problema real do print anterior.
+
+    Não é link para "/" de propósito: Início já é um item logo abaixo, e dois alvos
+    para o mesmo destino, colados, é armadilha de clique.
+
+    O contêiner repete a moldura exata de `.app-dock-btn` — mesmo padding, mesmo
+    `.app-icon-card` ao redor do ícone — porque uma imagem nua ao lado de botões com
+    cartão arredondado lê como peça solta, não como o primeiro item da mesma lista.
+    Só o cursor e o hover saem: não é botão, não navega para lugar nenhum sozinho.
   */}
+  <div class="mb-1 flex shrink-0 items-center gap-2.5 px-[0.6875rem] py-2">
+    <span class="app-icon-card">
+      <img
+        src="/logo-icon.png" alt="New Faces" width="22" height="22" draggable="false"
+        class="h-[22px] w-[22px] shrink-0 select-none object-contain"
+      />
+    </span>
+  </div>
+
   <div class="flex shrink-0 flex-col">
     <a href="/" class="app-dock-btn no-underline" aria-current={naInicio ? 'page' : undefined}>
       <span class="app-icon-card">
