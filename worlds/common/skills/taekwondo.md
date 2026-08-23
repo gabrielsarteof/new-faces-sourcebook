@@ -1,7 +1,7 @@
 ---
 id: common.skill.taekwondo
 title: "Taekwondo"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: common
 type: skill
@@ -107,7 +107,7 @@ Encadeamento e Chute Traseiro resolvem por elevação categórica e por uso da R
 NÍVEL 1: FUNDAMENTOS
 Base 12 · teste 14 com VEL 2
 
-O praticante golpeia com chutes retos e circulares comuns, o repertório que qualquer academia ensina antes de qualquer especialização, sem giro completo, sem saída do chão e sem descida sobre a guarda. O golpe desarmado converte pela classe declarada acima, Esforço 0,9 e Esforço 0,9, no Perfil de Evasão Padrão, na Banda Engajado. A perna do praticante alcança o que o punho comum não alcançaria na mesma distância: quando o alvo está abaixo da Banda mínima que uma técnica exige, o chute do praticante não sofre o ajuste de coeficiente de entrega que o passo 2 da sequência do Núcleo de Combate aplicaria a um golpe de contato mais curto. Ele reconhece, ao ver um golpe alheio se armar, se o que vem é um giro, um salto ou uma descida, leitura tática sem número que sustenta os caminhos das três inclinações quando forem adquiridos.
+O praticante golpeia com chutes retos e circulares comuns, o repertório que qualquer academia ensina antes de qualquer especialização, sem giro completo, sem saída do chão e sem descida sobre a guarda. O golpe desarmado converte pela classe declarada acima, Esforço 0,9, no Perfil de Evasão Padrão, na Banda Engajado. A perna do praticante alcança o que o punho comum não alcançaria na mesma distância: quando o alvo está abaixo da Banda mínima que uma técnica exige, o chute do praticante não sofre o ajuste de coeficiente de entrega que o passo 2 da sequência do Núcleo de Combate aplicaria a um golpe de contato mais curto. Ele reconhece, ao ver um golpe alheio se armar, se o que vem é um giro, um salto ou uma descida, leitura tática sem número que sustenta os caminhos das três inclinações quando forem adquiridos.
 
 NÍVEL 2: INCLINAÇÃO (escolha 1)
 Base 24 · Inclinação 8 · teste 30 fora e 38 dentro, com VEL 6
