@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.gokakyu
 title: "Gōkakyū no Jutsu (豪火球の術)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -58,6 +58,7 @@ O calor da esfera é perceptível a distância antes do impacto, e a luminosidad
 ## Mecânica de Ativação
 
 - **RC nominal:** 180, valor publicado pela própria Seção 4.1.1 do Manual de Criação de Jutsus como âncora de calibração, e não derivado por inversão como as demais técnicas desta leva
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 60
 - **Selos de referência:** 1, o Selo do Tigre
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

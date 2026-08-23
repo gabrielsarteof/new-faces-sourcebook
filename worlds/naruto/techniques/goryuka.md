@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.goryuka
 title: "Gōryūka no Jutsu (豪龍火の術)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -52,6 +52,7 @@ A densidade da formação acompanha o volume de calor lançado ao alto, conforme
 ## Mecânica de Ativação
 
 - **RC nominal:** 490
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 163
 - **Selos de referência:** 3
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

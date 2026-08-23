@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.endan
 title: "Endan (炎弾)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -50,6 +50,7 @@ A coluna de fogo ilumina o trajeto por menos de um segundo e não deixa marca du
 ## Mecânica de Ativação
 
 - **RC nominal:** 49
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 16
 - **Selos de referência:** 0
 - **Assinatura selada:** dispensada. A técnica já executa sem selo algum em qualquer nível de maestria, por definição da própria entrada, e não pela regra de assinatura selada da Régua de Interface, que pressupõe uma contagem de selos a dispensar

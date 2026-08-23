@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.futon-rasenshuriken
 title: "Fūton: Rasenshuriken (風遁・螺旋手裏剣)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -68,6 +68,7 @@ O ponto de detonação fica marcado por uma cratera rasa e circular, com o terre
 ## Mecânica de Ativação
 
 - **RC nominal:** 2.100
+- **Vetor:** Corte, Grau IV do Fio · Celeridade 112
 - **Custo mínimo:** 700
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 0

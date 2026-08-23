@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.shiden
 title: "Shiden — Relâmpago Púrpura (紫電)"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -85,6 +85,7 @@ No modo cirúrgico, o executante alcança um objeto preso ao corpo de outra pess
 ## Mecânica de Ativação
 
 - **RC nominal:** 900, com a sobretaxa da escada de evasão já embutida, acrescida de 1 Limite de Saída por turno de carga adicional, até 2 turnos
+- **Vetor:** Energia elétrica · Celeridade 150
 - **Custo mínimo:** 300
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 1

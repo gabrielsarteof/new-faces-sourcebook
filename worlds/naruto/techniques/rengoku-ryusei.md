@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.rengoku-ryusei
 title: "Rengoku Ryūsei (煉獄龍勢)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -64,6 +64,7 @@ Rank S publica saída reduzida, pela Seção 1.2 do Manual de Criação de Jutsu
 ## Mecânica de Ativação
 
 - **RC nominal:** 2.500
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 833
 - **Selos de referência:** 4
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

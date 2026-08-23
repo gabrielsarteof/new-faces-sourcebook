@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hoo-no-wana
 title: "Hōō no Wana (鳳凰の罠)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -45,6 +45,7 @@ As marcações são visíveis a quem examina o ponto ou o alvo de perto, como um
 ## Mecânica de Ativação
 
 - **RC nominal:** 1.020
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 340
 - **Selos de referência:** 2
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

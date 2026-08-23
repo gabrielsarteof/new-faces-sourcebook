@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.futon-rasengan
 title: "Fūton: Rasengan (風遁・螺旋丸)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -67,6 +67,7 @@ Quem observa a formação vê três fontes de chakra convergindo para o mesmo po
 ## Mecânica de Ativação
 
 - **RC nominal:** 1.500
+- **Vetor:** Corte, Grau II do Fio · Celeridade 112
 - **Custo mínimo:** 500
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 0

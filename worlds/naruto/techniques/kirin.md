@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kirin
 title: "Kirin (麒麟)"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -62,6 +62,7 @@ O ponto de queda é destruído junto com o alvo. A descarga abre cratera, vitrif
 ## Mecânica de Ativação
 
 - **RC nominal:** variável de 600 a 1.800, extraída da tempestade e não da reserva do executante, com o nível de Intensidade determinando o valor
+- **Vetor:** Energia elétrica · Celeridade 150
 - **Custo mínimo:** 100, referentes à condução, pagos da reserva do executante
 - **Selos de referência:** 1
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

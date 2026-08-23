@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.ryuka
 title: "Ryūka no Jutsu (龍火の術)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -47,6 +47,7 @@ O condutor incandesce visivelmente durante a passagem da chama, e qualquer obser
 ## Mecânica de Ativação
 
 - **RC nominal:** 152
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 50
 - **Selos de referência:** 1, o Selo do Tigre
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

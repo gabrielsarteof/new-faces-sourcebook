@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.odama-rasengan
 title: "Ōdama Rasengan (大玉螺旋丸)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -63,6 +63,7 @@ O terreno atingido guarda uma cratera em espiral do diâmetro da esfera, e a mar
 ## Mecânica de Ativação
 
 - **RC nominal:** 1.200
+- **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 - **Custo mínimo:** 400
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 0

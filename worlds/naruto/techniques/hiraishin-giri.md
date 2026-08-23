@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hiraishin-giri
 title: "Execução do Deus do Trovão Voador (飛雷神斬り)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -64,6 +64,7 @@ A entrada muda o valor político do toque. Um aperto de mão, um socorro prestad
 ## Mecânica de Ativação
 
 - **RC nominal:** 900
+- **Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
 - **Custo mínimo:** 300
 - **Custo de preparação:** pago no ato de inscrever a marca, pela régua do efeito Marca de Destino do caminho Âncora
 - **Selos de referência:** 0

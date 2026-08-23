@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.jigoku-no-hane
 title: "Jigoku no Hane (地獄の羽)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -48,6 +48,7 @@ A salva ilumina o campo como qualquer disparo de fogo comum até o instante da a
 ## Mecânica de Ativação
 
 - **RC nominal:** 900
+- **Vetor:** Penetração, Grau I · Celeridade 100
 - **Custo mínimo:** 300
 - **Selos de referência:** 2
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

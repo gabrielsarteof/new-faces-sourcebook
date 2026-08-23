@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kaen-senpu
 title: "Kaen Senpū (火炎旋風)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -45,6 +45,7 @@ O redemoinho produz uma coluna visível de chama em rotação constante e um des
 ## Mecânica de Ativação
 
 - **RC nominal:** 490
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 163
 - **Selos de referência:** 2
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

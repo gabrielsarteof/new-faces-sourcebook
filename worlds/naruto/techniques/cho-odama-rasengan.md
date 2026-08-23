@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.cho-odama-rasengan
 title: "Chō Ōdama Rasengan (超大玉螺旋丸)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -64,6 +64,7 @@ A trajetória atingida deixa um canal escavado no terreno do ponto de contato ao
 ## Mecânica de Ativação
 
 - **RC nominal:** variável, de 2.100 a 3.600, com o rank lido pelo teto da faixa
+- **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 - **Custo mínimo:** 700, fixo, pago da reserva própria em qualquer ponto da faixa
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 0

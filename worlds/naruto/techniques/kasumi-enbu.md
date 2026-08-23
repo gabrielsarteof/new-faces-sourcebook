@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kasumi-enbu
 title: "Kasumi Enbu no Jutsu (霞炎舞の術)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -48,6 +48,7 @@ A detonação ilumina toda a área coberta num único instante e consome o gás 
 ## Mecânica de Ativação
 
 - **RC nominal:** 262
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 87
 - **Selos de referência:** 2
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

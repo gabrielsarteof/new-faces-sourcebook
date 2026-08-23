@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.rasenrengan
 title: "Rasenrengan (螺旋連丸)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -59,6 +59,7 @@ O ar entre as mãos do executante é puxado para os dois giros ao mesmo tempo e 
 ## Mecânica de Ativação
 
 - **RC nominal:** 1.200, sendo 600 por esfera
+- **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 - **Custo mínimo:** 400
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 0

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hoo-sho
 title: "Hōō Shō (鳳凰掌)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -47,6 +47,7 @@ O calor concentrado da descarga é perceptível apenas a quem está ao alcance d
 ## Mecânica de Ativação
 
 - **RC nominal:** 780
+- **Vetor:** Energia térmica · sem celeridade, entrega portada pelo corpo
 - **Custo mínimo:** 260
 - **Selos de referência:** 0, execução pela via de Emissão, sem selo de mão
 - **Assinatura selada:** dispensada, pela mesma razão do Endan: selos de referência já em zero, sem contagem a dispensar

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hosenka
 title: "Hōsenka no Jutsu (鳳仙花の術)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -46,6 +46,7 @@ As esferas produzem luminosidade e calor perceptíveis a curta distância antes 
 ## Mecânica de Ativação
 
 - **RC nominal:** 76
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 25
 - **Selos de referência:** 1, o Selo do Tigre
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169

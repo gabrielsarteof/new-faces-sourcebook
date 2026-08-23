@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kieru-rasengan
 title: "Rasengan Evanescente (消える螺旋丸)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -67,6 +67,7 @@ No impacto, a técnica volta a existir por completo. A luz azul e o estalido rea
 ## Mecânica de Ativação
 
 - **RC nominal:** 1.050, com a sobretaxa do Perfil de Evasão já embutida
+- **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
 - **Custo mínimo:** 350
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 0

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hosenka-tsumabeni
 title: "Hōsenka Tsumabeni (鳳仙花爪紅)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -48,6 +48,7 @@ As lâminas continuam visivelmente acesas depois do impacto, mesmo cravadas em s
 ## Mecânica de Ativação
 
 - **RC nominal:** 438
+- **Vetor:** Penetração, Grau I · Celeridade 100
 - **Custo mínimo:** 146
 - **Selos de referência:** 0, execução por movimento de arremesso e expulsão simultânea de chakra, sem selo de mão
 - **Assinatura selada:** dispensada, pela mesma razão do Endan: selos de referência já em zero, sem contagem a dispensar

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.bunshin-daibakuha
 title: "Técnica da Grande Explosão do Clone"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -59,6 +59,7 @@ O estouro não carrega assinatura elemental. É calor e pressão de chakra bruto
 
 ## Mecânica de Ativação
 
+- **Vetor:** Impacto
 - **Custo de RC do gatilho:** 0. A técnica não cobra RC adicional do usuário além do que o clone já carrega. A explosão é a liberação de uma reserva que já foi paga na criação do clone.
 - **Selos de referência:** 0, estrutural. O gatilho é comando mental instantâneo sobre o próprio clone, sem sequência física de selos.
 - **Janela de Canalização:** instantânea.

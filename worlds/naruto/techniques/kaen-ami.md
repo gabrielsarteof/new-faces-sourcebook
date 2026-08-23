@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kaen-ami
 title: "Kaen Ami (火炎網)"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -45,6 +45,7 @@ Os três guias são visíveis como linhas de calor distorcendo o ar, convergente
 ## Mecânica de Ativação
 
 - **RC nominal:** 1.020
+- **Vetor:** Energia térmica · Celeridade 100
 - **Custo mínimo:** 340
 - **Selos de referência:** 3
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
