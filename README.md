@@ -20,12 +20,43 @@ worlds/<mundo>/        implementação de um cenário concreto
   clans/               clãs e linhagens
   campaign/            worldbuilding e material de mesa
   extensions/          substituições declaradas de regra do núcleo
+
+handoffs/              camada de processo — não é corpus
+tools/                 ferramentas de verificação
+site/                  new-faces-docs, o site público de leitura
 ```
 
 Em vocabulário DDD, `core/` é o *shared kernel* e cada pasta sob `worlds/` é um
 *bounded context*. A dependência é unidirecional: **cenário conhece núcleo, núcleo
 nunca conhece cenário.** Um documento de núcleo que cite um cenário nominalmente é
 um vazamento.
+
+### `handoffs/` é camada de processo
+
+Regra vive apenas em `core/` e em `worlds/`. A pasta `handoffs/` guarda o material
+de decisão das levas de propagação, os planos, os briefings e os consolidados que
+registram por que uma regra ficou como ficou, e **nada nela é fonte para regra
+alguma**.
+
+Disso decorrem quatro consequências, e as quatro são decisão declarada e não item
+de lista que uma passada futura possa reverter por engano:
+
+- **Não entra no Índice.** `tools/check-links.mjs` a exclui, e o total de documentos
+  do corpus nunca a conta.
+- **Não entra em teste de proveniência.** Nenhum `id` publicado ali é alvo válido de
+  `fonte` em `provenance.json`, do lado da aplicação.
+- **Não entra em backlog.** Um link quebrado dentro de um handoff não vira alvo
+  previsto do corpus.
+- **Perde todo conflito.** Divergência entre um handoff e um documento de regra
+  resolve sempre pelo documento de regra, mesmo quando o handoff é mais recente. O
+  handoff registra a decisão; o documento de regra é a decisão.
+
+Os varredores que precisam honrar esta camada mantêm a exclusão em fonte única
+dentro do próprio repositório: `tools/check-links.mjs` e `tools/lint-frontmatter.mjs`
+aqui, e `src/test/data/sourcebookIgnorados.ts` na aplicação. As duas cópias existem
+porque o submódulo pode vir vazio num clone sem `--recurse-submodules`, e importar
+de um repositório para o outro quebraria o lado que hoje apenas se pula. O que as
+mantém alinhadas é esta declaração, e não a importação.
 
 Profundidade máxima de 3 níveis de pasta, por decisão deliberada: o seletor de
 arquivos por pasta fica utilizável, e nomes compostos (`uchiha-sharingan.md`)
