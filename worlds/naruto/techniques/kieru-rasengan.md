@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kieru-rasengan
 title: "Rasengan Evanescente (消える螺旋丸)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -89,12 +89,18 @@ O alcance de 12 metros é [proposta], calibrado abaixo do alcance do Fūton: Ras
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 1.050 × 0,16 × 1,75 + LV_CC² × 2,5 × 3,0
-dano = 294 + LV_CC² × 7,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 1.050 × 0,16 × 1,40 × M
+dano bruto = 1.176 × M
+
+M = 1 + 1,5 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
-O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado. O coeficiente técnico 3,0 é herdado da linhagem. O multiplicador de tipo 1,75 é o do Raio, lido do Sistema Elemental.
+O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado. O coeficiente técnico 3,0 é herdado da linhagem.
+
+O `mult_Tipo` de 1,40 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Impacto vale 1,00. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 3,0 resolve o `w` em 1,5, que é a metade dele.
+
+A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
@@ -102,12 +108,13 @@ O coeficiente de entrega 0,16 corresponde à categoria de projétil único direc
 
 Par de referência Elite, PV 1.440.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano | % PV do par |
 |---|---|---|---|
-| 5 | 188 | 482 | 33% |
-| 6 | 270 | 564 | 39% |
-| 6 com 1 caminho | 368 | 662 | 46% |
-| 6 com 2 caminhos | 480 | 774 | 54% |
+| 122 | 0,736 | 866 | 45,1% |
+| 148, referência do rank | 1,000 | 1.176 | 61,3% |
+| 180 | 1,324 | 1.557 | 81,1% |
 
 A tabela é a do executante que já fechou o degrau de moldagem. O portador que executa a técnica no piso do próprio desenvolvimento, com a esfera reduzida pela Régua de Modulação, entrega a metade ou o quarto desses valores, e é essa a leitura correta do executante canônico da técnica.
 
@@ -161,7 +168,6 @@ O grau máximo fica abaixo do que o Chidori alcança porque a carga vive na casc
 | Condição | Capacidade ou mudança |
 |---|---|
 | Raiton LV5, Moldagem Absoluta, Rasengan | acesso à técnica |
-| Controle de Chakra LV6 | Fator de Moldagem 270, e 368 ou 480 com caminhos adicionais |
 | Caminho Composição, Recomposição | remodelagem entre o Rasengan e esta ficha sem nova execução e sem novo custo |
 | Caminho Modulação | a esfera desce degraus de escala, reproduzindo a execução canônica em porte reduzido |
 | Caminho Lança, Fio Estendido | o alcance do arremesso passa a ler a régua daquele caminho |

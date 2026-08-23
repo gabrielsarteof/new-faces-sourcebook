@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.goryuka
 title: "Gōryūka no Jutsu (豪龍火の術)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -68,27 +68,32 @@ A densidade da formação acompanha o volume de calor lançado ao alto, conforme
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 490 × 0,16 × 1,60 + LV_CC² × 2,5 × 1,0
-dano = 125,44 + LV_CC² × 2,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 490 × 0,16 × 1,61 × M
+dano bruto = 631,12 × M
+
+M = 1 + 0,5 × (P − 122) ÷ 122          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, mesma leitura do Gōkakyū: a cabeça de dragão é uma entrega única e concentrada contra um alvo, apenas em volume muito maior. O coeficiente técnico 1,0 corresponde à dependência média, e o catálogo confirma o piso Plena sem elevação, porque a escala da técnica está na RC nominal investida e não numa exigência extra de refinamento sobre a moldagem.
+
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 1,0 resolve o `w` em 0,5, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 122 é o do rank B, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Elite, PV 1.440, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 3, entrada | 22 | 147 | 10,2% |
-| 4 | 40 | 165 | 11,5% |
-| 5 | 62 | 187 | 13,0% |
-| 6 | 90 | 215 | 14,9% |
-| 6 com 1 caminho | 122 | 247 | 17,2% |
-| 6 com 2 caminhos | 160 | 285 | 19,8% |
+| 64 | 0,762 | 481 | 33,4% |
+| 122, referência do rank | 1,000 | 631 | 43,8% |
+| 148 | 1,107 | 698 | 48,5% |
 
 O Gōryūka não alcança o tier Forte em nenhum patamar de maestria. A RC nominal de 490 já é alta para o rank B, e o coeficiente técnico de 1,0 mantém a técnica na faixa de dependência média, consistente com a leitura de que a escala do Gōryūka vem do volume investido e não do refinamento de moldagem, ao contrário do que ocorreria numa técnica de coeficiente técnico mais alto na mesma faixa de RC.
 
@@ -114,7 +119,6 @@ O grau mínimo garantido sobe de Leve para Moderado em relação às entradas de
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV4, Moldagem Plena | acesso à técnica pela camada Livre |
-| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
 | Caminho Concisão, ou interface 169 | disparos sucessivos sem retomar a contagem completa de selos |
 | Disparo vertical sustentado | constrói a condição de campo que o Kirin exige, pela interface declarada acima |
 

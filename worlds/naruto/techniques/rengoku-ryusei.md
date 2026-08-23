@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.rengoku-ryusei
 title: "Rengoku Ryūsei (煉獄龍勢)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -81,24 +81,32 @@ Rank S publica saída reduzida, pela Seção 1.2 do Manual de Criação de Jutsu
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 2.500 × 0,16 × 1,60 + LV_CC² × 2,5 × 2,0
-dano = 640 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 2.500 × 0,16 × 1,61 × M
+dano bruto = 3.220 × M
+
+M = 1 + 1,0 × (P − 180) ÷ 180          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, a mesma leitura do Endan, do Gōkakyū, do Ryūka e do Gōryūka: a espiral viaja em linha reta até um ponto ou uma fileira de alvos, sem se dividir em vetores paralelos. O coeficiente técnico 2,0 corresponde à dependência alta, moldagem como mecanismo central, e o catálogo confirma o degrau elevado a Absoluta pela proporção interna fina que sustenta a coesão da espiral contra a própria pressão de dispersão que ela gera.
+
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 180 é o do rank S, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Ápice, PV 3.000, pela leitura de par por rank fechada na ficha do Endan. O degrau de entrada desta técnica já é LV6, porque a Moldagem Absoluta tem como par o próprio teto da régua.
+Par de referência Ápice, PV 3.000, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus. O degrau de entrada desta técnica já é LV6, porque a Moldagem Absoluta tem como par o próprio teto da régua.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 6, entrada | 180 | 820 | 27,3% |
-| 6 com 1 caminho | 245 | 885 | 29,5% |
-| 6 com 2 caminhos | 320 | 960 | 32,0% |
+| 122 | 0,678 | 2.182 | 72,7% |
+| 148 | 0,822 | 2.648 | 88,3% |
+| 180, referência do rank | 1,000 | 3.220 | 107,3% |
 
 O Rengoku Ryūsei alcança o tier Forte em todos os patamares de maestria acessíveis à técnica, o único resultado desta leva a fazê-lo sem depender de caminhos adicionais. A leitura confirma o papel de capstone da entrada: rank S, coeficiente técnico mais alto do arsenal junto ao Jigoku no Hane, ao Kaen Ami e ao Hōō no Wana, e RC nominal no topo da própria faixa.
 
@@ -130,8 +138,6 @@ O grau mínimo garantido sobe para Grave, o mais alto piso desta leva, pela conc
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV6, Moldagem Absoluta | acesso à técnica assim que a entrada estiver Registrada, para o criador ou para quem aprender depois dele |
-| Controle de Chakra LV6 com 1 caminho | Fator de Moldagem 245, dano 885 |
-| Controle de Chakra LV6 com 2 caminhos | Fator de Moldagem 320, dano 960, teto desta ficha |
 | Sharingan ativo | copia a moldagem observada, sem conceder autoria |
 
 ---

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kaen-ami
 title: "Kaen Ami (火炎網)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -62,27 +62,34 @@ Os três guias são visíveis como linhas de calor distorcendo o ar, convergente
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 1.020 × 0,13 × 1,60 + LV_CC² × 2,5 × 2,0
-dano = 212,16 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 1.020 × 0,13 × 1,61 × M
+dano bruto = 1.067,43 × M
+
+M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos: os três guias dividem a RC nominal entre si independentemente de convergirem ou se separarem, pela mesma leitura que a Seção 5.3 aplica a qualquer entrega dividida em vetores paralelos. O coeficiente técnico 2,0 corresponde à dependência alta, moldagem como mecanismo central, e o catálogo confirma o piso Refinada sem elevação: sustentar três guias autônomos e coerentes ao mesmo tempo já satisfaz a exigência do degrau sem propriedade adicional.
 
 Contra um alvo único cercado pelos três guias convergentes, o dano publicado nesta tabela representa a soma dos três, entregue no mesmo instante.
 
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
+
 ---
 
 ## Tabela de Descarga
 
-Par de referência Especial, PV 1.920, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Especial, PV 1.920, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 5, entrada | 125 | 337 | 17,6% |
-| 6 | 180 | 392 | 20,4% |
-| 6 com 1 caminho | 245 | 457 | 23,8% |
-| 6 com 2 caminhos | 320 | 532 | 27,7% |
+| 122 | 0,824 | 880 | 45,8% |
+| 148, referência do rank | 1,000 | 1.067 | 55,6% |
+| 180 | 1,216 | 1.298 | 67,6% |
 
 O Kaen Ami alcança o piso do tier Forte com dois caminhos adicionais em Controle de Chakra, e se aproxima dele já no LV6 pleno, na mesma faixa do Jigoku no Hane pelo compartilhamento do mesmo coeficiente técnico. Contra três alvos separados, cada um recebe uma fração proporcional deste total, e nenhum alvo isolado recebe o dano cheio da convergência.
 
@@ -106,7 +113,6 @@ O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, a ca
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV5, Moldagem Refinada, Caminho Veia | acesso à técnica pela camada Livre |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
 | Caminho Veia, efeito Estrada Viva LV5 | os guias saltam vãos de descontinuidade, ampliando a geometria de cerco em terreno fragmentado |
 
 ---

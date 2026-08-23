@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kaen-senpu
 title: "Kaen Senpū (火炎旋風)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -76,28 +76,34 @@ Para um praticante de moldagem plena, a manutenção resolve em 20% de 163, ou 3
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 490 × 0,12 × 1,60 + LV_CC² × 2,5 × 1,0
-dano = 94,08 + LV_CC² × 2,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 490 × 0,12 × 1,61 × M
+dano bruto = 473,34 × M
+
+M = 1 + 0,5 × (P − 122) ÷ 122          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,12 corresponde à categoria de área irradiada do corpo: mesmo lançado contra um alvo único, o redemoinho nasce ao redor do corpo do praticante e viaja como a mesma massa larga e giratória, sem afunilar numa linha reta como o jato do Endan, do Gōkakyū ou do Gōryūka. O coeficiente técnico 1,0 corresponde à dependência média, com o degrau de exigência elevado de Plena para Alta pela sustentação prolongada que a aplicação mantida ao redor do corpo exige.
 
 O uso mantido ao redor do corpo reaproveita o mesmo valor de dano contra quem atravessar a zona, sem recalcular coeficiente de entrega separado: a massa de chama muda de aplicação tática, entre projétil e zona, sem mudar de identidade mecânica, e uma segunda régua de conversão duplicaria o que a Seção 5.3 já resolve para esta entrada.
 
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 1,0 resolve o `w` em 0,5, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 122 é o do rank B, e nele o `M` resolve em 1,000 por construção.
+
 ---
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Elite, PV 1.440, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 4, entrada | 40 | 134 | 9,3% |
-| 5 | 62 | 156 | 10,8% |
-| 6 | 90 | 184 | 12,8% |
-| 6 com 1 caminho | 122 | 216 | 15,0% |
-| 6 com 2 caminhos | 160 | 254 | 17,6% |
+| 64 | 0,762 | 361 | 25,1% |
+| 122, referência do rank | 1,000 | 473 | 32,8% |
+| 148 | 1,107 | 524 | 36,4% |
 
 O Kaen Senpū não alcança o tier Forte. O golpe lançado entrega dano competitivo com o Gōryūka, do mesmo rank, e a aplicação mantida ao redor do corpo soma a isso uma zona de controle sem custo de dano adicional em cada turno de manutenção, o que faz da entrada uma opção completa de ataque e de controle de espaço no mesmo custo de XP.
 
@@ -121,7 +127,6 @@ O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, cont
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV4, Moldagem Alta, Caminho Muro Vivo | acesso à técnica pela camada Livre |
-| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
 | Caminho Refino | manutenção do turbilhão paga no mínimo, sem PS de desperdício adicional |
 | Caminho Firmeza | eleva o limiar de dano que encerra a manutenção, sustentando o turbilhão sob pressão maior |
 

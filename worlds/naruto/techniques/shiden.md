@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.shiden
 title: "Shiden — Relâmpago Púrpura (紫電)"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -118,28 +118,36 @@ A elevação por condutor externo corre em paralelo e não consome carga. Com a 
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 900 × 0,16 × 1,75 × M
+dano bruto = 1.260 × M
 
-sem a Kyōka:   dano = 900 × 0,16 × 1,75 + LV_CC² × 2,5 × 2,0 = 252 + LV_CC² × 5
-com a Kyōka:   dano = 900 × 0,16 × 1,85 + LV_CC² × 2,5 × 2,0 = 266 + LV_CC² × 5
+M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, porque o feixe cruza o espaço até o alvo. O coeficiente técnico 2,0 corresponde à dependência alta, porque a modulação de intensidade é a técnica inteira e ela vive na moldagem.
 
 O multiplicador 1,75 é o do Tipo Elétrico comum e responde pelo executante que aprendeu a técnica sem a natureza intensificada. O multiplicador 1,85 é o da Kyōka Shiden e substitui o comum no portador dela, conforme Naturezas Avançadas. A carga adicional eleva o escopo e permanece fora do termo de RC nominal do dano.
 
+O `mult_Tipo` de 1,75 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia elétrica vale 1,25. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
+
+A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
+
 ---
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano sem a Kyōka | % PV do par | Dano com a Kyōka | % PV do par |
-|---|---|---|---|---|---|
-| 5, entrada | 125 | 377 | 26% | 391 | 27% |
-| 6 | 180 | 432 | 30% | 446 | 31% |
-| 6 com 1 caminho | 245 | 497 | 35% | 511 | 36% |
-| 6 com 2 caminhos | 320 | 572 | 40% | 586 | 41% |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Raiton | M | Dano | % PV do par |
+|---|---|---|---|
+| 122 | 0,824 | 1.039 | 54,1% |
+| 148, referência do rank | 1,000 | 1.260 | 65,6% |
+| 180 | 1,216 | 1.532 | 79,8% |
+
+A coluna do portador da Kyōka sai desta tabela. Ela era lida do multiplicador de natureza de 1,85 da Kuroi Kaminari, grandeza do modelo anterior, e o Sistema Elemental v9 registra que "os multiplicadores dos Kyōka são republicados sobre a base nova" sem que a republicação tenha ocorrido. O dono é `advanced-natures.md`, e a coluna volta quando ele publicar como a intensificação entra num motor de Constante e Assinatura.
 
 O dano por corpo é o mesmo em qualquer degrau de escopo. O rendimento da técnica escala pelo número de corpos alcançados.
 
@@ -189,7 +197,6 @@ O modo cirúrgico não aplica rider.
 | Caminho Rede | o Salto Condutor vence o vão entre trechos condutores separados |
 | Caminho Lança aprofundado | duas correções de trajetória por turno sobre o feixe já disparado |
 | Transcendência Arco Voltaico | o feixe dispensa meio condutor para a elevação de escopo, e a área passa a se formar no ar |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 
 ---

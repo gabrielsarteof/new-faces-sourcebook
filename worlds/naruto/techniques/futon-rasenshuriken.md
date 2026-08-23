@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.futon-rasenshuriken
 title: "Fūton: Rasenshuriken (風遁・螺旋手裏剣)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -103,14 +103,20 @@ A rota canônica que entrega o modo arremessado é o Modo Sábio, e ela permanec
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 2.100 × 0,16 × 1,30 + LV_CC² × 2,5 × 3,0
-dano = 437 + LV_CC² × 7,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 2.100 × 0,16 × 1,40 × M
+dano bruto = 2.352 × M
+
+M = 1 + 1,5 × (P − 180) ÷ 180          piso de M: 0,5
 ```
 
-O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, herdado do Fūton: Rasengan porque a exigência de acerto direto permanece. O coeficiente técnico 3,0 é herdado da linhagem. O multiplicador de tipo 1,30 é o do Vento.
+O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, herdado do Fūton: Rasengan porque a exigência de acerto direto permanece. O coeficiente técnico 3,0 é herdado da linhagem.
 
 A detonação em área não eleva o coeficiente de entrega. Ela compra alcance do rider em múltiplos corpos, e o abate por alvo permanece pertencendo à forma concentrada, conforme a leitura de slots de área da Seção 5.3 do Manual de Jutsus.
+
+O `mult_Tipo` de 1,40 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Corte vale 1,00. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 3,0 resolve o `w` em 1,5, que é a metade dele.
+
+A perícia governante é o Fūton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 180 é o do rank S, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
@@ -118,12 +124,13 @@ A detonação em área não eleva o coeficiente de entrega. Ela compra alcance d
 
 Par de referência Especial, PV 1.920.
 
-| LV_CC | Fator de Moldagem | Dano no alvo direto | % PV do par |
+A tabela é indexada ao `P` do Fūton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Fūton | M | Dano no alvo direto | % PV do par |
 |---|---|---|---|
-| 5 | 188 | 624 | 33% |
-| 6 | 270 | 707 | 37% |
-| 6 com 1 caminho | 368 | 804 | 42% |
-| 6 com 2 caminhos | 480 | 917 | 48% |
+| 122 | 0,517 | 1.215 | 40,5% |
+| 148 | 0,733 | 1.725 | 57,5% |
+| 180, referência do rank | 1,000 | 2.352 | 78,4% |
 
 O dano em PV não é onde a técnica gasta o próprio rank. A leitura correta da ficha está na seção seguinte, e um alvo que resista ao dano e falhe no rider está fora do combate de forma mais definitiva do que estaria se tivesse caído.
 
@@ -193,7 +200,6 @@ A perfuração de anteparo é lida do caminho Vento Encanado, exigido no acesso,
 | Fūton LV6, Moldagem Absoluta, Fūton: Rasengan | acesso à técnica, no modo de contato |
 | Caminho Permanência | abre o modo arremessado e elimina o preço ao executante |
 | Caminho Permanência LV5 | dois degraus de elevação, e a obra arremessada persiste em campo até a resolução |
-| Controle de Chakra LV6 com caminhos | Fator de Moldagem 368 ou 480 |
 | Caminho Composição LV5 | uma assistência a menos, e a técnica passa a duas moldagens |
 | Caminho Composição transcendido | nenhuma assistência exigida |
 | Caminho Minuano | o grau do Corte de Chakra sobe uma categoria |

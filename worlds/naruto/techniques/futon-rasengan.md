@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.futon-rasengan
 title: "Fūton: Rasengan (風遁・螺旋丸)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -102,14 +102,20 @@ A esfera arremessada não corrige trajetória. O redirecionamento em voo pertenc
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 1.500 × 0,16 × 1,30 + LV_CC² × 2,5 × 3,0
-dano = 312 + LV_CC² × 7,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 1.500 × 0,16 × 1,40 × M
+dano bruto = 1.680 × M
+
+M = 1 + 1,5 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
-O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado e substitui o 0,20 de contato único da técnica de origem, porque a esfera deixa de depender da mão que a entrega. O coeficiente técnico 3,0 é herdado da linhagem. O multiplicador de tipo 1,30 é o do Vento, lido do Sistema Elemental.
+O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado e substitui o 0,20 de contato único da técnica de origem, porque a esfera deixa de depender da mão que a entrega. O coeficiente técnico 3,0 é herdado da linhagem.
 
 O valor entregue é idêntico nos dois modos. O arremesso compra alcance e não potência.
+
+O `mult_Tipo` de 1,40 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Corte vale 1,00. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 3,0 resolve o `w` em 1,5, que é a metade dele.
+
+A perícia governante é o Fūton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
@@ -117,12 +123,13 @@ O valor entregue é idêntico nos dois modos. O arremesso compra alcance e não 
 
 Par de referência Elite, PV 1.440.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Fūton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Fūton | M | Dano | % PV do par |
 |---|---|---|---|
-| 5 | 188 | 500 | 35% |
-| 6 | 270 | 582 | 40% |
-| 6 com 1 caminho | 368 | 680 | 47% |
-| 6 com 2 caminhos | 480 | 792 | 55% |
+| 122 | 0,736 | 1.237 | 64,4% |
+| 148, referência do rank | 1,000 | 1.680 | 87,5% |
+| 180 | 1,324 | 2.225 | 115,9% |
 
 A técnica atravessa a faixa Forte já no LV6 e alcança Supremo com caminhos adicionais. Ela ocupa o teto exato da faixa A em RC nominal e em preço, o que é a leitura correta para a entrada que fecha o portão duplo da linhagem e precede o rank S imediatamente.
 
@@ -157,7 +164,6 @@ A perfuração de anteparo, quando existir, é lida do caminho Vento Encanado da
 | Condição | Capacidade ou mudança |
 |---|---|
 | Fūton LV5, Moldagem Absoluta, Rasengan | acesso à técnica |
-| Controle de Chakra LV6 | Fator de Moldagem 270, e 368 ou 480 com caminhos adicionais |
 | Caminho Composição LV5 | uma assistência a menos, e a técnica passa a duas moldagens |
 | Caminho Composição transcendido | nenhuma assistência exigida, e a esfera se forma na mão única do executante |
 | Caminho Minuano | o grau de Sangramento sobe uma categoria |

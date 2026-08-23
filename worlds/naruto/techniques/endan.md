@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.endan
 title: "Endan (炎弾)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -66,9 +66,11 @@ A coluna de fogo ilumina o trajeto por menos de um segundo e não deixa marca du
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 49 × 0,16 × 1,60 + LV_CC² × 2,5 × 0,5
-dano = 12,544 + LV_CC² × 1,25
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 49 × 0,16 × 1,61 × M
+dano bruto = 63,11 × M
+
+M = 1 + 0,25 × (P − 42) ÷ 42          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado: a coluna de fogo viaja em linha reta até um único alvo, sem se dividir e sem irradiar do corpo, o mesmo perfil de entrega do Gōkakyū apesar da forma diferente, jato contínuo em vez de esfera. O coeficiente técnico 0,5 corresponde à dependência baixa, com a moldagem em papel auxiliar: o próprio catálogo publica Moldagem Básica como exigência, o piso da régua, e a leitura da técnica confirma esse piso, com a ausência de preparação e a imediatez descritas como a identidade central da entrada.
@@ -116,21 +118,23 @@ Decisão tomada por padrão nesta leva, repetida em todas as fichas seguintes: a
 
 A escolha reaproveita as quatro faixas que o próprio Manual já usa como pares de validação, nas âncoras do Chidori e do Kirin na Seção 5.3, sem introduzir faixa nova.
 
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 0,5 resolve o `w` em 0,25, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 42 é o do rank D, e nele o `M` resolve em 1,000 por construção.
+
 ---
 
 ## Tabela de Descarga
 
-Par de referência Veterano, PV 960, conforme a leitura de par por rank fechada acima para D e C.
+Par de referência Treinado, PV 600, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 2, entrada | 5 | 18 | 1,9% |
-| 3 | 11 | 24 | 2,5% |
-| 4 | 20 | 33 | 3,4% |
-| 5 | 31 | 44 | 4,6% |
-| 6 | 45 | 58 | 6,0% |
-| 6 com 1 caminho | 61 | 74 | 7,7% |
-| 6 com 2 caminhos | 80 | 93 | 9,7% |
+| 42, referência do rank | 1,000 | 63 | 10,5% |
+| 64 | 1,131 | 71 | 11,8% |
+| 122 | 1,476 | 93 | 15,5% |
 
 ### Validação de magnitude
 

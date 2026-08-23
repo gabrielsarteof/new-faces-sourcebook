@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.gokakyu
 title: "Gōkakyū no Jutsu (豪火球の術)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -74,27 +74,32 @@ O calor da esfera é perceptível a distância antes do impacto, e a luminosidad
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 180 × 0,16 × 1,60 + LV_CC² × 2,5 × 1,0
-dano = 46,08 + LV_CC² × 2,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 180 × 0,16 × 1,61 × M
+dano bruto = 231,84 × M
+
+M = 1 + 0,5 × (P − 64) ÷ 64          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 é a própria referência canônica da Seção 5.3 para a categoria de projétil único direcionado, com o Gōkakyū nomeado ali como o exemplo da linha. O coeficiente técnico 1,0 corresponde à dependência média, moldagem intensificando o efeito sem ser o mecanismo central, e o catálogo confirma o piso Plena sem elevação, porque a técnica não exibe nenhuma das quatro propriedades que elevariam o degrau.
+
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 1,0 resolve o `w` em 0,5, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 64 é o do rank C, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Veterano, PV 960, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Veterano, PV 960, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 3, entrada | 22 | 68 | 7,1% |
-| 4 | 40 | 86 | 9,0% |
-| 5 | 62 | 108 | 11,3% |
-| 6 | 90 | 136 | 14,2% |
-| 6 com 1 caminho | 122 | 168 | 17,5% |
-| 6 com 2 caminhos | 160 | 206 | 21,5% |
+| 42 | 0,828 | 192 | 20,0% |
+| 64, referência do rank | 1,000 | 232 | 24,2% |
+| 122 | 1,453 | 337 | 35,1% |
 
 O Gōkakyū não alcança o tier Forte em nenhum patamar de maestria, e a leitura é consistente com a correspondência de escala da Seção 1.1 do Manual de Criação de Jutsus, que lê o rank C como Moderado na escala do Manual de Criação de Poderes, um degrau abaixo de Forte, ali correspondente ao rank B. O coeficiente técnico de 1,0 é o próprio piso do que a Seção 5.3 chama de dependência média, a categoria nomeada como Katon genérico, e mede exatamente essa posição intermediária: acima da imediatez sem refinamento do Endan e abaixo das técnicas cuja moldagem é o mecanismo central. A vantagem canônica sobre o Suiton mediano é efeito de composição elemental e de rider, e não de dano bruto.
 
@@ -127,7 +132,6 @@ O grau Crítico fica fora do alcance desta entrada porque a esfera concentra o i
 |---|---|
 | Katon LV3, Moldagem Plena | acesso à técnica pela camada Livre |
 | Katon LV2, via Rito da Grande Bola de Fogo | acesso concedido sem XP a personagem Uchiha inicial, exceção de portão exclusiva desta entrada |
-| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
 | Caminho Refino | custo pago no mínimo de 60, sem PS de desperdício |
 | Caminho Concisão, ou interface 169 | execução com zero selos |
 

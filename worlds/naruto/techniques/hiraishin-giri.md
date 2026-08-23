@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hiraishin-giri
 title: "Execução do Deus do Trovão Voador (飛雷神斬り)"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -85,12 +85,18 @@ A entrada muda o valor político do toque. Um aperto de mão, um socorro prestad
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 900 × 0,20 × 1,00 + LV_CC² × 2,5 × 1,4
-dano = 180 + LV_CC² × 3,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 900 × 0,20 × 1,00 × M
+dano bruto = 900 × M
+
+M = 1 + 0,7 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
-O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único, que é a forma exata de um corte entregue com a arma em mão. O coeficiente técnico 1,4 corresponde à dependência intermediária: a moldagem sustenta a travessia e a chegada orientada, e não participa do ferimento em si. O multiplicador de tipo é 1,00 porque a entrada não converte natureza alguma.
+O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único, que é a forma exata de um corte entregue com a arma em mão. O coeficiente técnico 1,4 corresponde à dependência intermediária: a moldagem sustenta a travessia e a chegada orientada, e não participa do ferimento em si.
+
+O `mult_Tipo` é 1,00 porque a obra não transforma natureza alguma, e a Constante de Moldagem não tem rendimento de conversão a medir onde não há conversão. A Assinatura do vetor declarado permanece, e para Corte ela vale 1,00. O coeficiente técnico de 1,4 resolve o `w` em 0,7, que é a metade dele.
+
+A perícia governante é o Kunai, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
@@ -98,12 +104,13 @@ O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em c
 
 Par de referência Elite, PV 1.440.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Kunai, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Kunai | M | Dano | % PV do par |
 |---|---|---|---|
-| 5, entrada | 88 | 268 | 19% |
-| 6 | 126 | 306 | 21% |
-| 6 com 1 caminho | 172 | 352 | 24% |
-| 6 com 2 caminhos | 224 | 404 | 28% |
+| 122 | 0,877 | 789 | 41,1% |
+| 148, referência do rank | 1,000 | 900 | 46,9% |
+| 180 | 1,151 | 1.036 | 54,0% |
 
 A magnitude fica na metade baixa do rank por construção. O que a entrada compra não é volume de ferimento, é a supressão completa da defesa ativa do alvo, e a comparação correta é contra uma técnica de mesma faixa que o adversário ainda tem direito de esquivar.
 
@@ -138,7 +145,6 @@ O corte abre ferimento e a resolução pertence ao Sistema de Efeitos de Status.
 | Condição | Capacidade ou mudança |
 |---|---|
 | Deus do Trovão Voador, Kunai LV5 com Transição aberto | acesso à técnica, com Perfil Inevitável sob condição estrutural |
-| Controle de Chakra LV6 | Fator de Moldagem 126, e 172 ou 224 com caminhos adicionais |
 | Marca de Destino no estado aprofundado | aplica marca a 5 m por etiqueta arremessada, o que abre a condição estrutural sem toque |
 | Segundo Passo adquirido | a lâmina arremessada cria a condição estrutural dentro da própria cena |
 | Transcendência Trovão Guia, no estado que aplica marca sem contato | a condição estrutural passa a se abrir dentro do campo de visão |

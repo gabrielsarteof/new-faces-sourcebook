@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.ryuka
 title: "Ryūka no Jutsu (龍火の術)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -63,26 +63,32 @@ O condutor incandesce visivelmente durante a passagem da chama, e qualquer obser
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 152 × 0,16 × 1,60 + LV_CC² × 2,5 × 1,0
-dano = 38,912 + LV_CC² × 2,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 152 × 0,16 × 1,61 × M
+dano bruto = 195,78 × M
+
+M = 1 + 0,5 × (P − 64) ÷ 64          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado: a chama viaja até um único ponto de contato, e o condutor guia sem dividir a entrega em múltiplas trajetórias, o mesmo perfil do Gōkakyū apesar do meio de transporte diferente. O coeficiente técnico 1,0 corresponde à dependência média, com o degrau de exigência elevado de Plena para Alta pela sustentação prolongada que manter a chama coesa por todo o comprimento do condutor exige.
+
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 1,0 resolve o `w` em 0,5, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 64 é o do rank C, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Veterano, PV 960, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Veterano, PV 960, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 4, entrada | 40 | 79 | 8,2% |
-| 5 | 62 | 101 | 10,5% |
-| 6 | 90 | 129 | 13,4% |
-| 6 com 1 caminho | 122 | 161 | 16,8% |
-| 6 com 2 caminhos | 160 | 199 | 20,7% |
+| 42 | 0,828 | 162 | 16,9% |
+| 64, referência do rank | 1,000 | 196 | 20,4% |
+| 122 | 1,453 | 284 | 29,6% |
 
 O Ryūka não alcança o tier Forte, consistente com o rank C na escala Moderado do Manual de Criação de Poderes. A vantagem tática da técnica está na certeza de trajetória que o condutor garante e não no dano bruto, que se mantém na mesma faixa do Gōkakyū pelo compartilhamento do mesmo coeficiente de entrega.
 
@@ -112,7 +118,6 @@ O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV3, Moldagem Alta, material condutor em campo | acesso à técnica pela camada Livre |
-| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
 | Caminho Veia, efeito Borda Acesa | a arma empunhada pelo praticante vira condutor por conta própria, dispensando fio ou cabo já posicionado em campo |
 | Caminho Veia, efeito Estrada Viva LV5 | a chama salta vãos sem continuidade do condutor, ampliando o alcance efetivo em terreno fragmentado |
 

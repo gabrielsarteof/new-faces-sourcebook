@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.odama-rasengan
 title: "Ōdama Rasengan (大玉螺旋丸)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -83,16 +83,22 @@ O terreno atingido guarda uma cratera em espiral do diâmetro da esfera, e a mar
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 1.200 × 0,12 × 1,00 + LV_CC² × 2,5 × 3,0
-dano = 144 + LV_CC² × 7,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 1.200 × 0,12 × 1,00 × M
+dano bruto = 720 × M
+
+M = 1 + 1,5 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,12 corresponde à categoria de área irradiada e substitui o 0,20 de ponto concentrado da técnica de origem. A elevação de escopo se paga na conversão, conforme a doutrina de elevação categórica, e não por percentual aplicado ao dano de alvo único.
 
-O coeficiente técnico 3,0 e o multiplicador de tipo 1,00 são herdados da linhagem sem alteração.
+O coeficiente técnico 3,0 é herdado da linhagem sem alteração.
 
 O dano é resolvido por alvo, com o valor integral aplicado a cada corpo alcançado pela esfera no instante do contato.
+
+O `mult_Tipo` é 1,00 porque a obra não transforma natureza alguma, e a Constante de Moldagem não tem rendimento de conversão a medir onde não há conversão. A Assinatura do vetor declarado permanece, e para Impacto ela vale 1,00. O coeficiente técnico de 3,0 resolve o `w` em 1,5, que é a metade dele.
+
+A perícia governante é o Controle de Chakra, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
@@ -100,12 +106,13 @@ O dano é resolvido por alvo, com o valor integral aplicado a cada corpo alcanç
 
 Par de referência Elite, PV 1.440.
 
-| LV_CC | Fator de Moldagem | Dano por alvo | % PV do par |
+A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Controle de Chakra | M | Dano por alvo | % PV do par |
 |---|---|---|---|
-| 5 | 188 | 332 | 23% |
-| 6 | 270 | 414 | 29% |
-| 6 com 1 caminho | 368 | 512 | 36% |
-| 6 com 2 caminhos | 480 | 624 | 43% |
+| 122 | 0,736 | 530 | 27,6% |
+| 148, referência do rank | 1,000 | 720 | 37,5% |
+| 180 | 1,324 | 954 | 49,7% |
 
 O rendimento da técnica escala pelo número de corpos alcançados, e não pelo investimento de chakra. Os valores abaixo assumem LV_CC 6.
 
@@ -161,7 +168,6 @@ Os valores são [proposta], ancorados na régua de empuxo do caminho Lufada da p
 | Condição | Capacidade ou mudança |
 |---|---|
 | Controle de Chakra LV5, Moldagem Absoluta, Rasengan | acesso à técnica |
-| Controle de Chakra LV6 | Fator de Moldagem 270, e 368 ou 480 com caminhos adicionais |
 | Caminho Composição LV5 | uma assistência a menos, e a técnica passa a executar com um único assistente |
 | Caminho Composição transcendido | nenhuma assistência exigida, e a esfera se forma na mão única do executante |
 | Caminho Composição, Recomposição | remodelagem entre o Rasengan e esta ficha sem nova execução, com a diferença de custo mínimo aportada no ato |

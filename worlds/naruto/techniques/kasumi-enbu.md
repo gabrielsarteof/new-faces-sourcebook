@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kasumi-enbu
 title: "Kasumi Enbu no Jutsu (霞炎舞の術)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -66,26 +66,32 @@ A detonação ilumina toda a área coberta num único instante e consome o gás 
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 262 × 0,10 × 1,60 + LV_CC² × 2,5 × 1,0
-dano = 41,92 + LV_CC² × 2,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 262 × 0,10 × 1,61 × M
+dano bruto = 210,91 × M
+
+M = 1 + 0,5 × (P − 64) ÷ 64          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,10 corresponde à categoria de área de terreno ou campo, porque a técnica cobre uma extensão declarada em vez de mirar um ponto ou dividir-se em projéteis. O coeficiente técnico 1,0 corresponde à dependência média, com o degrau de exigência elevado de Plena para Alta pela sustentação prolongada que manter o gás estável e inerte por vários turnos exige.
+
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 1,0 resolve o `w` em 0,5, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 64 é o do rank C, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Veterano, PV 960, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Veterano, PV 960, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 4, entrada | 40 | 82 | 8,5% |
-| 5 | 62 | 104 | 10,8% |
-| 6 | 90 | 132 | 13,8% |
-| 6 com 1 caminho | 122 | 164 | 17,1% |
-| 6 com 2 caminhos | 160 | 202 | 21,0% |
+| 42 | 0,828 | 175 | 18,2% |
+| 64, referência do rank | 1,000 | 211 | 22,0% |
+| 122 | 1,453 | 306 | 31,9% |
 
 O Kasumi Enbu não alcança o tier Forte, consistente com o rank C na escala Moderado do Manual de Criação de Poderes. O valor publicado é o dano da própria detonação, aplicado a todos dentro da área coberta no instante da ignição.
 
@@ -127,7 +133,6 @@ As duas camadas não somam: um Katon que atinge a área e detona o gás resolve 
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV3, Moldagem Alta | acesso à técnica pela camada Livre |
-| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
 | Caminho Leito, efeito Campo Preparado | soma-se ao efeito de amplificação desta ficha sem redefini-lo, porque as duas fontes têm dono declarado e severidade própria |
 
 ---

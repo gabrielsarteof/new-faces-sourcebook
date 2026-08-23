@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-eiso
 title: "Chidori Eisō — Lança Afiada de Mil Pássaros (千鳥鋭槍)"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -104,6 +104,9 @@ M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,16 corresponde à categoria de projétil único direcionado, porque a haste cruza o espaço em vez de descarregar no ponto de contato do corpo. O coeficiente técnico 2,0 corresponde à dependência alta, herdado da técnica de origem, e é a moldagem que sustenta a coesão da corrente ao longo do comprimento estendido.
+
+
+A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
 
 ---
 

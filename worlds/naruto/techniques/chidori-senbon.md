@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-senbon
 title: "Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)"
-version: 3
+version: 3.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -103,6 +103,9 @@ M = 1 + 0,75 × (P − 148) ÷ 148          piso de M: 0,5
 O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos. O coeficiente técnico 1,5 corresponde à dependência intermediária entre a moldagem que intensifica o efeito e a moldagem que o produz, porque a fragmentação distribui o refinamento por dezenas de formas pequenas em vez de exigi-lo inteiro em um ponto.
 
 O valor publicado é o dano da salva completa. Quando os feixes se repartem, cada um carrega uma parte igual do total.
+
+
+A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
 
 ---
 

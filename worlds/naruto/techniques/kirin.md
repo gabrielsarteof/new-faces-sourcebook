@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kirin
 title: "Kirin (麒麟)"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -100,28 +100,36 @@ O Amaterasu contribui com peso quádruplo em relação à própria RC nominal, p
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = RC nominal × 0,35 × 1,75 + LV_CC² × 2,5 × 2,0
-dano = RC nominal × 0,6125 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × RC_limpa × 0,35 × 1,75 × M
+dano bruto = 3,06 × RC_limpa × M
+
+M = 1 + 1,0 × (P − 180) ÷ 180          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,35 corresponde à categoria de fonte atmosférica real, a mais alta da tabela, e a condição estrutural de tempestade é a contrapartida embutida nessa forma. O coeficiente técnico 2,0 corresponde à dependência alta: a energia pertence ao céu, e o que decide se ela chega inteira ao ponto declarado é a precisão com que o executante a molda no percurso.
+
+O `mult_Tipo` de 1,75 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia elétrica vale 1,25. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
+
+A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 180 é o do rank S, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Especial, PV 1.920.
+Par de referência Ápice, PV 3.000, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| Nível | RC nominal | Dano em LV_CC 6 | Dano com 2 caminhos | % PV do par |
+A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. A linha de nível é a RC nominal que o executante ergueu, e as duas colunas de dano são dois pontos do mesmo `M`.
+
+| Nível | RC nominal | Dano em P 148 | Dano em P 180, referência do rank | % PV do par |
 |---|---|---|---|---|
-| 1 | 600 | 548 | 688 | 36% |
-| 2 | 900 | 731 | 871 | 45% |
-| 3 | 1.200 | 915 | 1.055 | 55% |
-| 4 | 1.500 | 1.099 | 1.239 | 65% |
-| 5 | 1.800 | 1.283 | 1.423 | 74% |
+| 1 | 600 | 1.511 | 1.838 | 61,3% |
+| 2 | 900 | 2.266 | 2.756 | 91,9% |
+| 3 | 1.200 | 3.022 | 3.675 | 122,5% |
+| 4 | 1.500 | 3.777 | 4.594 | 153,1% |
+| 5 | 1.800 | 4.533 | 5.513 | 183,8% |
 
-A coluna percentual lê a linha de dois caminhos, que é a configuração do executante que fechou a técnica.
+A coluna percentual lê o executor de referência do rank S, que resolve o `M` em 1,000 por construção.
 
 ---
 
@@ -176,7 +184,6 @@ O executante que não transcendeu força a formação de uma nuvem localizada en
 | Raiton LV6, caminho Tempestade | acesso à técnica, dependente de tempestade em campo |
 | Caminho Tempestade aprofundado | a condição aceita carga atmosférica acumulada por dois turnos de preparação declarados |
 | Transcendência Arco Voltaico | a condição de tempestade deixa de existir |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 320 com dois caminhos adicionais |
 | Katon em alto volume | eleva a Intensidade disponível, e com ela a RC nominal da descarga |
 | Sharingan ativo | a descarga passa a perseguir alvo declarado no lugar de ponto de terreno |
 

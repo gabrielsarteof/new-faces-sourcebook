@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.jigoku-no-hane
 title: "Jigoku no Hane (地獄の羽)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -65,27 +65,34 @@ A salva ilumina o campo como qualquer disparo de fogo comum até o instante da a
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 900 × 0,13 × 1,60 + LV_CC² × 2,5 × 2,0
-dano = 187,2 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 900 × 0,13 × 1,40 × M
+dano bruto = 819 × M
+
+M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos, mesma família do Hōsenka e do Hōsenka Tsumabeni. O coeficiente técnico 2,0 corresponde à dependência alta, moldagem como mecanismo central, e o catálogo confirma o piso Refinada sem elevação: calibrar a abertura independente de cada projétil embutido dentro de uma esfera de fogo já exige o refinamento que a Régua de Exigência associa ao coeficiente 2,0, sem propriedade adicional que eleve o degrau mais uma vez.
 
 A quantidade de projéteis declarada nesta ficha é **6**, o número que o efeito Segunda Linha do caminho Agulha exige para governar a esquiva separada de cada abertura.
 
+O `mult_Tipo` de 1,40 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Penetração vale 1,00. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
+
 ---
 
 ## Tabela de Descarga
 
-Par de referência Especial, PV 1.920, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Especial, PV 1.920, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 5, entrada | 125 | 312 | 16,3% |
-| 6 | 180 | 367 | 19,1% |
-| 6 com 1 caminho | 245 | 432 | 22,5% |
-| 6 com 2 caminhos | 320 | 507 | 26,4% |
+| 122 | 0,824 | 675 | 35,2% |
+| 148, referência do rank | 1,000 | 819 | 42,7% |
+| 180 | 1,216 | 996 | 51,9% |
 
 O Jigoku no Hane alcança o piso do tier Forte com dois caminhos adicionais em Controle de Chakra, e se aproxima dele já no LV6 pleno. O coeficiente técnico 2,0, o mais alto entre as técnicas de rank A e B desta leva, reflete o refinamento que a abertura independente de seis projéteis simultâneos exige, e essa exigência se traduz em dano competitivo mesmo com um coeficiente de entrega que divide o efeito entre vários alvos.
 
@@ -117,7 +124,6 @@ Os projéteis embutidos aplicam dano físico direto pelo golpe que o efeito Segu
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV5, Moldagem Refinada, Caminho Agulha | acesso à técnica pela camada Livre |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
 | Caminho Agulha, LV5 | elevação de alvo para área, ameaçando também quem estiver adjacente ao alvo original |
 
 ---

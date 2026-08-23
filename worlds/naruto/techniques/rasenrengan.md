@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.rasenrengan
 title: "Rasenrengan (螺旋連丸)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -79,16 +79,22 @@ O ar entre as mãos do executante é puxado para os dois giros ao mesmo tempo e 
 Conforme a Seção 5.3 do Manual de Jutsus, com cada esfera resolvida como entrega independente:
 
 ```
-dano por esfera = RC da esfera × coef_entrega × mult_Tipo + Fator de Moldagem
-dano por esfera = 600 × 0,20 × 1,00 + LV_CC² × 2,5 × 3,0
-dano por esfera = 120 + LV_CC² × 7,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 600 × 0,20 × 1,00 × M
+dano bruto = 600 × M
+
+M = 1 + 1,5 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
-O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único, preservado da técnica de origem porque a geometria de cada esfera não muda. O coeficiente técnico 3,0 e o multiplicador de tipo 1,00 são herdados da linhagem.
+O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único, preservado da técnica de origem porque a geometria de cada esfera não muda. O coeficiente técnico 3,0 é herdado da linhagem.
 
 A RC nominal de 1.200 publicada na Mecânica de Ativação é a soma das duas moldagens e governa o rank, a interpolação de XP e a compressão de limiar. Cada entrega lê a própria metade, e a técnica compra multiplicidade e não potência por esfera.
 
-O Fator de Moldagem entra integralmente em cada esfera, porque a maestria que sustenta as duas obras é a mesma e não se divide entre elas.
+O `M` entra integralmente em cada esfera, porque a maestria que sustenta as duas obras é a mesma e não se divide entre elas.
+
+O `mult_Tipo` é 1,00 porque a obra não transforma natureza alguma, e a Constante de Moldagem não tem rendimento de conversão a medir onde não há conversão. A Assinatura do vetor declarado permanece, e para Impacto ela vale 1,00. O coeficiente técnico de 3,0 resolve o `w` em 1,5, que é a metade dele.
+
+A perícia governante é o Controle de Chakra, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
@@ -96,12 +102,13 @@ O Fator de Moldagem entra integralmente em cada esfera, porque a maestria que su
 
 Par de referência Elite, PV 1.440.
 
-| LV_CC | Fator de Moldagem | Dano por esfera | % PV do par |
+A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Controle de Chakra | M | Dano por esfera | % PV do par |
 |---|---|---|---|
-| 5 | 188 | 308 | 21% |
-| 6 | 270 | 390 | 27% |
-| 6 com 1 caminho | 368 | 488 | 34% |
-| 6 com 2 caminhos | 480 | 600 | 42% |
+| 122 | 0,736 | 442 | 23,0% |
+| 148, referência do rank | 1,000 | 600 | 31,3% |
+| 180 | 1,324 | 795 | 41,4% |
 
 O rendimento total depende da distribuição das duas esferas. Os valores abaixo assumem LV_CC 6.
 
@@ -135,7 +142,6 @@ A supressão do deslocamento é uma vantagem tática e não um prejuízo. O alvo
 | Condição | Capacidade ou mudança |
 |---|---|
 | Controle de Chakra LV5, Moldagem Absoluta, Rasengan | acesso à técnica |
-| Controle de Chakra LV6 | Fator de Moldagem 270, e 368 ou 480 com caminhos adicionais |
 | Caminho Simultaneidade, Janela Dupla | as duas moldagens correm nas mãos próprias, dispensando clone |
 | Caminho Simultaneidade LV5 | a segunda janela dispensa a mão livre e corre por ponto de emissão declarado |
 | Caminho Composição LV5 | uma assistência a menos, e a técnica passa a executar com um único assistente |

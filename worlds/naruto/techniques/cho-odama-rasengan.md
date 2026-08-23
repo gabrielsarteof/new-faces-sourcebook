@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.cho-odama-rasengan
 title: "Chō Ōdama Rasengan (超大玉螺旋丸)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -113,36 +113,43 @@ Chakra de assinatura estranha cobra o dano de incompatibilidade da regra de rece
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = RC nominal × 0,12 × 1,00 + LV_CC² × 2,5 × 3,0
-dano = RC nominal × 0,12 + LV_CC² × 7,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × RC_limpa × 0,12 × 1,00 × M
+dano bruto = 0,60 × RC_limpa × M
+
+M = 1 + 1,5 × (P − 180) ÷ 180          piso de M: 0,5
 ```
 
-O coeficiente de entrega 0,12 corresponde à categoria de área irradiada, herdado do Ōdama Rasengan porque a geometria não muda. O coeficiente técnico 3,0 e o multiplicador de tipo 1,00 são herdados da linhagem.
+O coeficiente de entrega 0,12 corresponde à categoria de área irradiada, herdado do Ōdama Rasengan porque a geometria não muda. O coeficiente técnico 3,0 é herdado da linhagem.
 
-A parcela externa escala apenas o componente de RC nominal. O Fator de Moldagem permanece fixo para cada executante, porque ele mede maestria e não volume sacado.
+A parcela externa escala apenas o componente de RC nominal. O `M` permanece o mesmo para cada executante, porque ele mede maestria e não volume sacado.
+
+O `mult_Tipo` é 1,00 porque a obra não transforma natureza alguma, e a Constante de Moldagem não tem rendimento de conversão a medir onde não há conversão. A Assinatura do vetor declarado permanece, e para Impacto ela vale 1,00. O coeficiente técnico de 3,0 resolve o `w` em 1,5, que é a metade dele.
+
+A perícia governante é o Controle de Chakra, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 180 é o do rank S, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
 ## Tabela de Descarga
 
-Par de referência Especial, PV 1.920. Os valores assumem a RC nominal no teto de 3.600.
+Par de referência Ápice, PV 3.000, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus. Os valores assumem a RC limpa no teto de 3.600.
 
-| LV_CC | Fator de Moldagem | Dano por alvo | % PV do par |
+A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Controle de Chakra | M | Dano por alvo | % PV do par |
 |---|---|---|---|
-| 5 | 188 | 620 | 32% |
-| 6 | 270 | 702 | 37% |
-| 6 com 1 caminho | 368 | 800 | 42% |
-| 6 com 2 caminhos | 480 | 912 | 48% |
+| 122 | 0,517 | 1.116 | 37,2% |
+| 148 | 0,733 | 1.584 | 52,8% |
+| 180, referência do rank | 1,000 | 2.160 | 72,0% |
 
-A parcela externa escala por fonte e não por maestria, e por isso é publicada em tabela separada, indexada à RC nominal declarada. Os valores abaixo assumem LV_CC 6.
+A parcela externa escala por fonte e não por maestria, e por isso é publicada em tabela separada, indexada à RC nominal declarada. Os valores abaixo assumem `P` 180.
 
 | RC nominal | Dano por alvo | % PV do par |
 |---|---|---|
-| 2.100 | 522 | 27% |
-| 2.400 | 558 | 29% |
-| 3.000 | 630 | 33% |
-| 3.600 | 702 | 37% |
+| 2.100 | 1.260 | 42,0% |
+| 2.400 | 1.440 | 48,0% |
+| 3.000 | 1.800 | 60,0% |
+| 3.600 | 2.160 | 72,0% |
 
 O dano é resolvido por alvo, com o valor integral aplicado a cada corpo alcançado pela esfera no instante do contato.
 
@@ -184,7 +191,6 @@ O aftermath pertence ao rank e não à fonte externa, de modo que ele vence mesm
 | Condição | Capacidade ou mudança |
 |---|---|
 | Controle de Chakra LV6, Ōdama Rasengan, fonte externa | acesso à técnica |
-| Controle de Chakra LV6 com caminhos adicionais | Fator de Moldagem 368 ou 480 |
 | Caminho Composição transcendido | nenhuma assistência exigida, e a esfera se forma na mão única do executante |
 | Caminho Transferência, Receptividade LV5 | o teto de recepção triplica, e o saque de 1.800 cabe em um único turno |
 | Transcendência Calibração | o chakra externo é moldado como próprio, sem dano de incompatibilidade |

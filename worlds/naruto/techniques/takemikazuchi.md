@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.takemikazuchi
 title: "Takemikazuchi (建御雷神)"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -113,6 +113,9 @@ M = 1 + 1,0 × (P − 180) ÷ 180          piso de M: 0,5
 O coeficiente de entrega 0,20 vale para as duas parcelas, porque a forma de entrega é uma só e é o ponto concentrado em contato único que a linhagem herda. O coeficiente técnico 2,0 corresponde à dependência alta, herdado da técnica de origem.
 
 Os dois multiplicadores incidem sobre volumes distintos e nunca sobre o mesmo chakra. Nenhuma parcela é multiplicada duas vezes, e a entrada não cria régua de composição de naturezas.
+
+
+A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 180 é o do rank S, e nele o `M` resolve em 1,000 por construção.
 
 ---
 

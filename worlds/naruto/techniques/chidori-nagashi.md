@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-nagashi
 title: "Chidori Nagashi — Corrente de Mil Pássaros (千鳥流し)"
-version: 3
+version: 3.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -92,6 +92,9 @@ M = 1 + 0,5 × (P − 148) ÷ 148          piso de M: 0,5
 O coeficiente de entrega 0,12 corresponde à categoria de área irradiada do corpo. O coeficiente técnico 1,0 corresponde à dependência média, em que a moldagem intensifica o efeito sem ser o mecanismo que o produz.
 
 O dano é resolvido por alvo, com o valor integral aplicado a cada corpo alcançado.
+
+
+A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.raikiri
 title: "Raikiri — Cortador de Raio (雷切)"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -105,6 +105,9 @@ M = 1 + 1,0 × (P − 180) ÷ 180          piso de M: 0,5
 O coeficiente de entrega 0,20 corresponde à categoria de ponto concentrado em contato único, herdado da técnica de origem. O coeficiente técnico 2,0 corresponde à dependência alta, em que a moldagem é o mecanismo central.
 
 A linha de `P` 148 existe como referência de comparação e fica abaixo do executor de referência do rank S, que é `P` 180. O degrau Absoluto de moldagem continua sendo o portão de acesso, e ele exige 84 pela soma da Base Total com SAB.
+
+
+A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 180 é o do rank S, e nele o `M` resolve em 1,000 por construção.
 
 ---
 

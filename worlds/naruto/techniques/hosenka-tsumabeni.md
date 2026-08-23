@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hosenka-tsumabeni
 title: "Hōsenka Tsumabeni (鳳仙花爪紅)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -64,28 +64,34 @@ As lâminas continuam visivelmente acesas depois do impacto, mesmo cravadas em s
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 438 × 0,13 × 1,60 + LV_CC² × 2,5 × 1,0
-dano = 91,104 + LV_CC² × 2,5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 438 × 0,13 × 1,40 × M
+dano bruto = 398,58 × M
+
+M = 1 + 0,5 × (P − 122) ÷ 122          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos, mesma categoria do Hōsenka do qual a técnica deriva. O coeficiente técnico 1,0 corresponde à dependência média, com o degrau de exigência elevado de Plena para Alta pela proporção interna fina de envolver vários projéteis lançados em chama ao mesmo tempo, a mesma leitura aplicada ao Hōsenka base.
 
 A quantidade de projéteis declarada nesta ficha é **5**, número consumível por qualquer caminho de perícia que leia contagem de projéteis embutidos, entre eles o efeito Segunda Linha do caminho Agulha, publicado pela Perícia de Katon, quando o praticante o possuir além do Caminho Veia exigido por esta entrada.
 
+O `mult_Tipo` de 1,40 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Penetração vale 1,00. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 1,0 resolve o `w` em 0,5, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 122 é o do rank B, e nele o `M` resolve em 1,000 por construção.
+
 ---
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Elite, PV 1.440, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano | % PV do par |
 |---|---|---|---|
-| 4, entrada | 40 | 131 | 9,1% |
-| 5 | 62 | 153 | 10,6% |
-| 6 | 90 | 181 | 12,6% |
-| 6 com 1 caminho | 122 | 213 | 14,8% |
-| 6 com 2 caminhos | 160 | 251 | 17,4% |
+| 64 | 0,762 | 304 | 21,1% |
+| 122, referência do rank | 1,000 | 399 | 27,7% |
+| 148 | 1,107 | 441 | 30,6% |
 
 O Hōsenka Tsumabeni se aproxima do piso do tier Forte sem alcançá-lo, mesmo no teto de maestria. A leitura é consistente com o perfil da entrada: o valor tático da técnica está no engano que ela monta para o Jigoku no Hane, e não em ser, isolada, a maior fonte de dano do rank B desta leva.
 
@@ -109,7 +115,6 @@ O rider natural do Katon aplica pelo Sistema Elemental, sem substituição.
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV4, Moldagem Alta, Caminho Veia, Hōsenka dominado | acesso à técnica pela camada Requisito Mecânico |
-| Controle de Chakra LV6 | Fator de Moldagem 90, e 122 ou 160 com caminhos adicionais |
 | Caminho Agulha adicional | os cinco projéteis exigem esquiva separada, pelo efeito Segunda Linha |
 | Hōsenka Tsumabeni dominado | abre o Jigoku no Hane, segundo estágio do mesmo engano |
 

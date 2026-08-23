@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hoo-no-wana
 title: "Hōō no Wana (鳳凰の罠)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -62,27 +62,34 @@ As marcações são visíveis a quem examina o ponto ou o alvo de perto, como um
 Conforme a Seção 5.3 do Manual de Jutsus, com os dois coeficientes lidos da Tabela de Coeficientes da Leva fechada na ficha do Endan:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = 1.020 × 0,13 × 1,60 + LV_CC² × 2,5 × 2,0
-dano = 212,16 + LV_CC² × 5
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × 1.020 × 0,13 × 1,61 × M
+dano bruto = 1.067,43 × M
+
+M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos, lendo as marcações distribuídas como a mesma família de entrega dividida que rege o Kaen Ami. O coeficiente técnico 2,0 corresponde à dependência alta, moldagem como mecanismo central, e o catálogo confirma o piso Refinada sem elevação, na mesma leitura do Kaen Ami e do Jigoku no Hane.
 
 O valor publicado na Tabela de Descarga é o total distribuído entre as marcações colocadas na mesma execução. Quando todas detonam sobre o mesmo ponto ou no mesmo instante, o alvo recebe o total. Quando detonadas em momentos ou pontos separados, cada uma entrega a fração proporcional ao número de marcas ainda ativas no instante da colocação, e a soma das frações nunca excede o total publicado.
 
+O `mult_Tipo` de 1,61 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Energia térmica vale 1,15. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
+
+A perícia governante é o Katon, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 148 é o do rank A, e nele o `M` resolve em 1,000 por construção.
+
 ---
 
 ## Tabela de Descarga
 
-Par de referência Especial, PV 1.920, pela leitura de par por rank fechada na ficha do Endan.
+Par de referência Especial, PV 1.920, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus.
 
-| LV_CC | Fator de Moldagem | Dano total | % PV do par |
+A tabela é indexada ao `P` do Katon, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
+
+| P do Katon | M | Dano total | % PV do par |
 |---|---|---|---|
-| 5, entrada | 125 | 337 | 17,6% |
-| 6 | 180 | 392 | 20,4% |
-| 6 com 1 caminho | 245 | 457 | 23,8% |
-| 6 com 2 caminhos | 320 | 532 | 27,7% |
+| 122 | 0,824 | 880 | 45,8% |
+| 148, referência do rank | 1,000 | 1.067 | 55,6% |
+| 180 | 1,216 | 1.298 | 67,6% |
 
 Com três marcas ativas, cada detonação isolada entrega um terço do total publicado. O Hōō no Wana alcança o piso do tier Forte com dois caminhos adicionais em Controle de Chakra na convergência total, na mesma faixa do Kaen Ami e do Jigoku no Hane pelo compartilhamento do coeficiente técnico 2,0.
 
@@ -108,7 +115,6 @@ O rider natural do Katon aplica pelo Sistema Elemental, sem substituição, a ca
 | Katon LV5, Moldagem Refinada, Caminho Pavio | acesso à técnica pela camada Livre, com 3 marcas simultâneas |
 | Katon LV4, Caminho Pavio | 2 marcas simultâneas, pela régua do próprio caminho |
 | Katon LV6, Caminho Pavio | 4 marcas simultâneas |
-| Controle de Chakra LV6 | Fator de Moldagem 180, e 245 ou 320 com caminhos adicionais |
 | Caminho Pavio, efeito Palavra de Fogo LV5 | gatilho redefinível como ação livre a qualquer momento, com detonação encadeada de todas as marcas ativas no mesmo instante |
 
 ---

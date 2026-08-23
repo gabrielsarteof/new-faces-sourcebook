@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.bunshin-daibakuha
 title: "Técnica da Grande Explosão do Clone"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -31,7 +31,7 @@ A explosão consome inteiramente a fração de RC que aquele clone específico c
 
 - **Controle de Chakra:** LV4, o mesmo portão de rank B do Kage Bunshin no Jutsu.
 - **Técnica prévia:** Kage Bunshin no Jutsu, com pelo menos um clone ativo em campo no momento da declaração.
-- **Grau de Exigência de Moldagem:** Alta. O gatilho em si é simples, mas o mesmo grau do clone detonado governa o quanto da reserva armazenada se converte em dano efetivo, pela mesma leitura de Fator de Moldagem que qualquer técnica de dano direto usa.
+- **Grau de Exigência de Moldagem:** Alta. O gatilho em si é simples, mas o mesmo grau do clone detonado governa o quanto da reserva armazenada se converte em dano efetivo, pela mesma leitura de maestria que o `M` aplica em qualquer técnica de dano direto.
 
 ---
 
@@ -73,21 +73,28 @@ O estouro não carrega assinatura elemental. É calor e pressão de chakra bruto
 Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
-dano = RC nominal × coef_entrega × mult_Tipo + Fator de Moldagem
-dano = RC nominal × 0,15 × 1,00 + LV_CC² × 2,5 × 2,0
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+dano bruto = 5 × RC_limpa × 0,15 × 1,00 × M
+dano bruto = 0,75 × RC_limpa × M
+
+M = 1 + 1,0 × (P − 122) ÷ 122          piso de M: 0,5
 ```
 
 **RC nominal** é a fração de RC que o clone detonado ainda carregava no instante do gatilho, lida diretamente da Divisão da Reserva do Kage Bunshin, e por isso permanece simbólica na segunda linha em vez de substituída por um número: não há um valor fixo a inscrever, o clone que detona é que decide. **LV_CC** é o nível de Controle de Chakra do usuário no momento da detonação, não do clone.
 
-O coeficiente de entrega 0,15 corresponde à entrega em área ao redor do ponto de detonação, entre a categoria "Área irradiada do corpo" (0,12) e a categoria "Projétil único direcionado" (0,16) da Seção 5.3, sem coincidir com nenhuma delas: nenhuma das sete formas de entrega publicadas descreve uma explosão que nasce de um ponto fixo e se expande, e este é o primeiro jutsu da leva a precisar de um valor nesse intervalo. `[proposta]`, precedente para qualquer técnica futura de detonação em área a partir de um corpo estacionário. O multiplicador de tipo 1,00 corresponde à ausência de natureza elemental. O coeficiente técnico 2,0 corresponde à moldagem como mecanismo central, mas não dominante, porque o combustível já chega pronto do clone em vez de ser convertido no instante do gatilho.
+O coeficiente de entrega 0,15 corresponde à entrega em área ao redor do ponto de detonação, entre a categoria "Área irradiada do corpo" (0,12) e a categoria "Projétil único direcionado" (0,16) da Seção 5.3, sem coincidir com nenhuma delas: nenhuma das sete formas de entrega publicadas descreve uma explosão que nasce de um ponto fixo e se expande, e este é o primeiro jutsu da leva a precisar de um valor nesse intervalo. `[proposta]`, precedente para qualquer técnica futura de detonação em área a partir de um corpo estacionário. O coeficiente técnico 2,0 corresponde à moldagem como mecanismo central, mas não dominante, porque o combustível já chega pronto do clone em vez de ser convertido no instante do gatilho.
 
 **Raio de Detonação:** banda Curta do Núcleo de Combate, até 15 metros, medida a partir do ponto onde o clone se encontrava. Todo alvo dentro do raio sofre o dano cheio, sem redução por distância dentro da própria banda.
+
+O `mult_Tipo` é 1,00 porque a obra não transforma natureza alguma, e a Constante de Moldagem não tem rendimento de conversão a medir onde não há conversão. A Assinatura do vetor declarado permanece, e para Impacto ela vale 1,00. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
+
+A perícia governante é o Controle de Chakra, e o `P` é o atributo regente dela somado à Base Total, à Inclinação Total e à Especialização. O `P_ref` de 122 é o do rank B, e nele o `M` resolve em 1,000 por construção.
 
 ---
 
 ## Progressão por Maestria
 
-A técnica não escala por nível próprio além do que o Fator de Moldagem já aplica pela fórmula acima. A maestria real do usuário se expressa em duas decisões táticas, e não em uma tabela de custo pago: qual clone detonar, e em que instante da cena a reserva armazenada nele vale mais como explosão do que como corpo em combate.
+A técnica não escala por nível próprio além do que o `M` já aplica pela fórmula acima. A maestria real do usuário se expressa em duas decisões táticas, e não em uma tabela de custo pago: qual clone detonar, e em que instante da cena a reserva armazenada nele vale mais como explosão do que como corpo em combate.
 
 ---
 
