@@ -1,7 +1,7 @@
 ---
 id: naruto.system.advanced-natures
 title: "Naturezas Avançadas"
-version: 8
+version: 8.1
 layer: scenario
 scenario: naruto
 type: system
@@ -398,6 +398,8 @@ O catálogo conhecia até aqui portão de linhagem e ausência de portão. O por
 
 **Marca de domínio.** `[proposta]` O portador reconhecido carrega a tatuagem de kanji de raio de Kumogakure. É efeito de reconhecimento social e político, sem valor mecânico de combate, no mesmo tratamento que este documento já dá ao peso político das naturezas de tier A.
 
+**O produto não se herda pelo vetor.** O 1,88 da coluna é a Constante de 1,50 lida contra a Assinatura elétrica, e vale na obra de Raio Negro que declara entrega de Energia. A obra que declara vetor físico lê Assinatura de 1,00 e resolve em 1,50, pela régua de vetor do Sistema Elemental, que não abre exceção para natureza intensificada nenhuma. A Pantera Negra, única entrada publicada que exige esta Kyōka, declara Penetração de Grau III e resolve em 1,50. A ficha própria dela ainda não existe, e o valor fica registrado aqui para que ela nasça com a leitura certa.
+
 **Escala de impacto.** `[proposta]` A obra mostra do raio negro uma cor, uma tradição de transmissão, uma tatuagem, um construto sustentado e um adjetivo comparativo, e a própria fonte declara que pouco se sabe a respeito. O registro preenche utilidade de combate relevante, que é a faixa Tático-Decisivo, e a Constante de 1,50 sai dela. O portador opera o Raiton comum na Constante comum de 1,40 como qualquer praticante, e o que a Kyōka concede é a natureza refinada e a inclinação Calamidade.
 
 **Hospedagem na Perícia de Raiton.** `[proposta]` A manifestação abre a inclinação de extensão Calamidade na Perícia de Raiton v3, com os caminhos Doma, Assolação e Devastação, e o Ápice Nai-no-Kami. A inclinação responde por forma sustentada, permanência da descarga no ponto de impacto e desfazimento de estrutura e terreno. A partição, os números e o Ápice vivem naquele documento.
@@ -544,6 +546,8 @@ Sem esta régua, as naturezas avançadas de perícia própria ficariam sem largu
 ---
 
 ## Registro de Alterações
+
+**v8.1.** A seção do Kuroi Kaminari passa a declarar que o produto de 1,88 não se herda pelo vetor. Ele é a Constante de 1,50 contra a Assinatura elétrica, e a obra de Raio Negro que declara vetor físico resolve em 1,50, com a Pantera Negra nomeada como o caso publicado. Nenhuma Constante, produto, composição, portão, tier, percentual de Centelha ou eixo do catálogo mudou.
 
 **v8.** A camada Kyōka ganha o eixo declarado. A definição passa a ser o refinamento do elemento base além do teto comum sem recomposição, com cada entrada declarando se o refinamento cai no eixo de Potência, onde o bônus de poder soma à Constante de Moldagem, ou no eixo de Entrega, onde a Constante permanece comum em 1,40 e o bônus multiplica a celeridade da natureza na Escada de Meios. O catálogo ganha coluna de Eixo e coluna de Celeridade. O Kuroi Kaminari passa a Tático-Decisivo, com Constante de 1,50 e produto de 1,88, e perde o efeito Amplificação Doutrinária por inteiro, junto da nota de calibração que o acompanhava. O Shiden passa ao eixo de Entrega, com Constante comum de 1,40, produto de 1,75 e celeridade de 165. A nota da faixa vedada do Raio passa a cobrir Estratégico e Decisivo, com uma justificativa escrita uma vez para as duas. A seção de aquisição ganha a segunda porta, com Transmissão no LV5 da perícia hospedeira e Descoberta no LV6, nenhuma delas resolvida por rolagem, e declara que a porta de treino não alcança Kekkei Genkai nem Kekkei Tōta, nomeando o Enton e o Kuroi Kaminari como as duas exceções. A seção do Enton publica a decomposição do 2,10 em Constante comum de 1,40 e Assinatura do fogo negro de 1,50, com a Perícia de Enton conservando a posse do produto. O termo somado de maestria sai da fórmula da camada, que passa a citar a forma vigente da Seção 5.3 do Manual de Criação de Jutsus. Nenhuma composição, portão de linhagem, tier, percentual de Centelha, régua de progressão, catálogo de Kekkei Genkai e Kekkei Tōta ou herança de posição mudou.
 
