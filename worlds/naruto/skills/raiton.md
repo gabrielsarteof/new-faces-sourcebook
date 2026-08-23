@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.8
+version: 3.9
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: RAITON_Pericia_v2_final.md
 ---
 
-RAITON (雷遁) · v3.8
+RAITON (雷遁) · v3.9
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -213,7 +213,7 @@ Revoga: a corrente exige meio condutor.
 └─ O ar passa a conduzir, e toda técnica de Corrente do praticante opera sem metal, água, arma ou tempestade presentes na cena. A condição da inclinação permanece em vigor para todos os outros praticantes do sistema
 └─ Salto Condutor LV6: o vão deixa de ter medida, e a descarga alcança qualquer ponto dentro do alcance declarado da técnica sem trecho condutor intermediário
 └─ Fio Nervoso LV6: penalidade 19, e a disrupção dispensa contato, aplicando-se a qualquer alvo alcançado pela descarga
-└─ Fio do Céu LV6: o bônus de 13 vale sem tempestade e sem preparação, porque o praticante produz a carga atmosférica no próprio ar em volta
+└─ Fio do Céu LV6: a parcela atmosférica de 195 vale sem tempestade e sem preparação, porque o praticante produz a carga atmosférica no próprio ar em volta
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -392,6 +392,17 @@ DECISÃO TOMADA POR PADRÃO
 
 ═══════════════════════════════════════════════════════════════════
 
+CHANGELOG DA v3.9
+
+ALTERADO NESTA PERÍCIA
+
+1. Versão de 3.8 para 3.9, no cabeçalho e no frontmatter.
+2. **A linha de Fio do Céu LV6 da transcendência Arco Voltaico passa a publicar a parcela atmosférica de 195**, leitura equivalente ao bônus de 13 que ela citava. Citação de grandeza revogada não é conteúdo protegido da transcendência, e a devolução que a v3.8 abriu sobre ela fecha aqui. A cláusula que dispensa tempestade e preparação permanece exatamente como estava.
+
+PRESERVADO SEM TOQUE: os efeitos, graus, complexidades e pré-requisitos das três transcendências, os dois Ápices de Extensão Manifestada, todas as inclinações e caminhos, o portão de rank, a régua de níveis, os arquétipos e todos os preços.
+
+═══════════════════════════════════════════════════════════════════
+
 CHANGELOG DA v3.8
 
 ALTERADO NESTA PERÍCIA
@@ -401,10 +412,6 @@ ALTERADO NESTA PERÍCIA
 3. **Entra a fronteira contra o Kirin.** O verbo soma força à descarga do praticante, e o Kirin dirige raio natural sem chakra do executante na carga, de modo que não existe parcela a que somar.
 4. **A inclinação Calamidade perde o efeito Amplificação Doutrinária**, revogado por Naturezas Avançadas v8. O efeito vivia no catálogo daquele documento e nunca no corpo desta inclinação, e o que sai daqui é a linha de registro que declarava a preservação dele.
 5. **A inclinação Agudo passa a citar as duas portas de aquisição da Kyōka**, a Centelha na criação e o treino em jogo por Transmissão no LV5 ou Descoberta no LV6, e ganha a linha de celeridade, com 165 no portador contra 150 no demais praticante.
-
-DEVOLUÇÃO
-
-6. **A linha de Fio do Céu LV6 dentro da transcendência Arco Voltaico segue publicando o bônus de 13.** A grandeza que a produzia deixou de existir com a troca do verbo, e a leitura equivalente é a parcela de 195 do LV6. A transcendência está fora do escopo de alteração desta passagem, e a troca volta para a fila em vez de ser feita aqui. Dono pendente: Gabriel.
 
 PRESERVADO SEM TOQUE: as três inclinações comuns e os caminhos delas, as três transcendências, Raio Seco, os dois Ápices de Extensão Manifestada, os caminhos Doma, Assolação e Devastação, o portão de rank, a régua de níveis, os arquétipos, e todos os graus, complexidades e preços do documento.
 

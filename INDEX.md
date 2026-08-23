@@ -114,7 +114,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Naruto — Setting Overview](worlds/naruto/overview.md) | `naruto.overview` | 1 | doc | final |
-| [Cálculos Rápidos de Naruto](worlds/naruto/quick-calculations.md) | `naruto.quick-calculations` | 2 | reference-table | final |
+| [Cálculos Rápidos de Naruto](worlds/naruto/quick-calculations.md) | `naruto.quick-calculations` | 2.1 | reference-table | final |
 
 ## worlds/naruto/advantages-disadvantages
 
@@ -171,13 +171,13 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Compêndio dos Oito Portões](worlds/naruto/compendiums/eight-gates.md) | `naruto.compendium.eight-gates` | 1.8 | compendium | final |
 | [Compêndio de Ninjutsu de Forma](worlds/naruto/compendiums/forma.md) | `naruto.compendium.forma` | 2.6 | compendium | final |
 | [Compêndio de Fūinjutsu](worlds/naruto/compendiums/fuinjutsu.md) | `naruto.compendium.fuinjutsu` | 1.7 | compendium | final |
-| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.11 | compendium | final |
+| [Compêndio de Fūton (風遁)](worlds/naruto/compendiums/futon.md) | `naruto.compendium.futon` | 4.12 | compendium | final |
 | [Compêndio de Genjutsu (幻術)](worlds/naruto/compendiums/genjutsu.md) | `naruto.compendium.genjutsu` | 1.3 | compendium | final |
 | [Compêndio de Inton](worlds/naruto/compendiums/inton.md) | `naruto.compendium.inton` | 2.8 | compendium | final |
 | [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.11 | compendium | final |
 | [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1.4 | compendium | final |
 | [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.8 | compendium | final |
-| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.13 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.14 | compendium | final |
 | [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.4 | compendium | final |
 | [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.8 | compendium | final |
 | [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.6 | compendium | final |
@@ -231,7 +231,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Progressão — Naruto](worlds/naruto/progression/overview.md) | `naruto.progression.overview` | 1 | system | final |
-| [Treinamento no Mundo Shinobi](worlds/naruto/progression/xp-training.md) | `naruto.progression.xp-training` | 1.1 | system | final |
+| [Treinamento no Mundo Shinobi](worlds/naruto/progression/xp-training.md) | `naruto.progression.xp-training` | 1.2 | system | final |
 
 ## Naruto · Reencarnações
 
@@ -248,7 +248,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Barreira](worlds/naruto/skills/barreira.md) | `naruto.skill.barreira` | 1.1 | skill | final |
 | [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 3.9 | skill | final |
 | [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2.3 | skill | final |
-| [Enton (炎遁)](worlds/naruto/skills/enton.md) | `naruto.skill.enton` | 1.4 | skill | final |
+| [Enton (炎遁)](worlds/naruto/skills/enton.md) | `naruto.skill.enton` | 1.5 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.5 | skill | final |
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.6 | skill | final |
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.4 | skill | final |
@@ -257,9 +257,9 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1.3 | skill | final |
 | [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1.4 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.2 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.33 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.34 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.3 | skill | final |
-| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.8 | skill | final |
+| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.9 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.5 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Shuriken](worlds/naruto/skills/shuriken.md) | `naruto.skill.shuriken` | 1.5 | skill | final |
@@ -274,17 +274,17 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Naturezas Avançadas](worlds/naruto/systems/advanced-natures.md) | `naruto.system.advanced-natures` | 8 | system | final |
 | [Manual de Ancoragem](worlds/naruto/systems/anchoring.md) | `naruto.system.anchoring` | 1.1 | system | final |
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.5 | system | final |
-| [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.6 | system | final |
+| [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.7 | system | final |
 | [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 2.8 | methodology | final |
 | [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.4 | system | final |
-| [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 9.4 | system | final |
+| [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 9.5 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.3 | pending-patch | applied |
-| [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.1 | pending-patch | pending-patch |
+| [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.2 | pending-patch | pending-patch |
 | [Manual de Criação de Jutsus](worlds/naruto/systems/jutsu-authoring.md) | `naruto.system.jutsu-authoring` | 3.3 | methodology | final |
 | [Eixo do Onmyōton](worlds/naruto/systems/onmyoton-axis.md) | `naruto.system.onmyoton` | 1.2 | system | final |
 | [Linhagem do Rasengan](worlds/naruto/systems/rasengan-family.md) | `naruto.system.rasengan-family` | 1.6 | system | final |
 | [Documento de Invocação](worlds/naruto/systems/summoning.md) | `naruto.system.summoning` | 2.4 | system | final |
-| [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2.3 | system | final |
+| [Manual de Requisitos de Técnica](worlds/naruto/systems/technique-requirements.md) | `naruto.system.technique-requirements` | 2.4 | system | final |
 
 ## Naruto · Técnicas
 
@@ -329,18 +329,18 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2.3 | technique | final |
 | [Técnica da Camuflagem Óptica](worlds/naruto/techniques/meisaigakure.md) | `naruto.technique.meisaigakure` | 1 | technique | final |
 | [Técnica do Escape de Cordas](worlds/naruto/techniques/nawanuke.md) | `naruto.technique.nawanuke` | 2 | technique | final |
-| [Ōdama Rasengan (大玉螺旋丸)](worlds/naruto/techniques/odama-rasengan.md) | `naruto.technique.odama-rasengan` | 1.3 | technique | final |
+| [Ōdama Rasengan (大玉螺旋丸)](worlds/naruto/techniques/odama-rasengan.md) | `naruto.technique.odama-rasengan` | 1.4 | technique | final |
 | [Técnica Sensual](worlds/naruto/techniques/oiroke.md) | `naruto.technique.oiroke` | 1 | technique | final |
 | [Raikiri — Cortador de Raio (雷切)](worlds/naruto/techniques/raikiri.md) | `naruto.technique.raikiri` | 2.1 | technique | final |
 | [Rasengan (螺旋丸)](worlds/naruto/techniques/rasengan.md) | `naruto.technique.rasengan` | 2.1 | technique | final |
-| [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1.3 | technique | final |
+| [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1.4 | technique | final |
 | [Rengoku Ryūsei (煉獄龍勢)](worlds/naruto/techniques/rengoku-ryusei.md) | `naruto.technique.rengoku-ryusei` | 1.2 | technique | final |
 | [Ryūka no Jutsu (龍火の術)](worlds/naruto/techniques/ryuka.md) | `naruto.technique.ryuka` | 1.2 | technique | final |
 | [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2.3 | technique | final |
 | [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |
 | [Técnica dos Múltiplos Clones das Sombras](worlds/naruto/techniques/taju-kage-bunshin.md) | `naruto.technique.taju-kage-bunshin` | 1 | technique | final |
-| [Takemikazuchi (建御雷神)](worlds/naruto/techniques/takemikazuchi.md) | `naruto.technique.takemikazuchi` | 2.2 | technique | final |
+| [Takemikazuchi (建御雷神)](worlds/naruto/techniques/takemikazuchi.md) | `naruto.technique.takemikazuchi` | 2.3 | technique | final |
 | [Técnica de Escape Transparente](worlds/naruto/techniques/toton.md) | `naruto.technique.toton` | 1 | technique | final |
 
 ## Documentos previstos e ainda não escritos

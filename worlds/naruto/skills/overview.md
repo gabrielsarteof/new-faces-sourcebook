@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.33
+version: 2.34
 layer: scenario
 scenario: naruto
 type: skill
@@ -49,11 +49,11 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2.5 | RES | Chakra ×1,4 |
 | Katon | v4.2 | INT | Ninjutsu ×1,5 |
-| Raiton | v3.8 | INT | Ninjutsu ×1,5 |
+| Raiton | v3.9 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.6 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.5 | INT | Ninjutsu ×1,5 |
 | Doton | v2.3 | INT | Ninjutsu ×1,5 |
-| Enton | v1.4 | INT | Ninjutsu ×1,5 |
+| Enton | v1.5 | INT | Ninjutsu ×1,5 |
 | Liberação de Yin | v4.4 | INT | Ninjutsu ×1,5 |
 | Liberação de Yang | v4.5 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
@@ -434,16 +434,16 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4.2, Raiton v3.8, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Katon v4.2, Raiton v3.9, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
 | Liberação de Yin v4.4, Liberação de Yang v4.5 | conforme |
 | Ninjutsu Médico v3 | conforme |
 | Controle de Chakra v3.9 | conforme |
 | Sensoriamento v2.2 | conforme |
-| Enton v1.4 | conforme |
+| Enton v1.5 | conforme |
 | Genjutsu v1.3 | conforme, com uma ressalva de vocabulário |
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
-| Senjutsu v2.2 | conforme |
+| Senjutsu v2.5 | conforme |
 | Barreira v1 | conforme |
 | Kyuinjutsu v1.3 | conforme |
 | Kenpo v1 | conforme |
@@ -504,6 +504,8 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.34.** Fecho da fila de RFCs que a leva da Sessão de Calibração abriu. O Registro de Conformidade passa a citar Senjutsu v2.5, alinhando a linha ao cabeçalho do documento e ao Registro de Regentes desta mesma seção, que já publicava a versão certa. O Registro de Regentes e o de Conformidade recebem Raiton v3.9 e Enton v1.5. Nenhum regente, nenhuma categoria de custo, nenhum par do Registro de Portão Duplo, nenhuma cedência do Registro de Fronteira, nenhuma entrada da Fila de Nascimento e nenhuma linha da tabela de Erratas Abertas mudou.
 
 **v2.33.** A leva de propagação da Sessão de Calibração fecha três erratas e registra a terceira espécie de portão duplo.
 

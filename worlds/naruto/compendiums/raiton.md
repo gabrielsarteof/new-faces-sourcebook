@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.13
+version: 3.14
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.13
+# Compêndio de Raiton (雷遁) · v3.14
 **Liberação de Raio**
 
 **O que mudou na v3.8.** As entradas passam a declarar o vetor de entrega e a celeridade do meio, pelo contrato que o Lote de Vetores fechou e que o Template de Documento de Técnica v4 publica. Vinte e seis entradas receberam vetor por classificação mecânica sobre a descrição publicada, nove não o receberam por não entregarem dano, e seis subiram para a fila de decisão por ambiguidade real. A celeridade de 150 é a do Raiton na escada de meios da Seção 5.7 do Manual de Criação de Jutsus, e vale para toda entrada que atravesse distância. Nenhum preço em XP foi regenerado nesta passada, pela razão registrada na fila de errata.
@@ -504,7 +504,7 @@ A prosa acima descreve a densidade pela imagem da lâmina, e a ficha `raikiri.md
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem 92 · Caminho Ponta · Chidori · Amaterasu com o olho correspondente ativo · Perícia de Enton LV6
 **Vetor:** Penetração, Grau VI · Celeridade 150
-**XP:** 21.800
+**XP:** 13.143
 
 O usuário reveste a corrente já reunida do Chidori com a chama negra do Amaterasu, moldada sobre ela pela competência da natureza intensificada, e avança carregando as duas coisas na mesma mão. A chama nasce do olho e se acomoda sobre a corrente já pronta, sem sair da reserva do executante, de modo que o impacto conserva a perfuração e a paralisia da técnica de origem. O ponto de entrada permanece aceso depois que a corrente se dissipa, e a queima instalada não responde a meio comum de extinção, cedendo apenas à moldagem de quem a assentou. O preço da entrada se cobra no medidor do próprio olho.
 

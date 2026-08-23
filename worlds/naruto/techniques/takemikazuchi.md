@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.takemikazuchi
 title: "Takemikazuchi (建御雷神)"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -49,9 +49,11 @@ A camada de acesso é Fechada na Criação. Nenhum personagem inicial a adquire 
 
 ## Custo de XP
 
-**Custo de XP:** 22.143
+**Custo de XP:** 13.143
 
-**Errata de preço.** O custo passa de 21.800 para 22.143 XP. A causa é mudança de régua e não de RC: a posição dentro da faixa do rank deixou de ser lida pelo volume de reserva e passou a ser lida pela entrega contra o par do rank, medida no executor de referência, com o modificador de coeficiente técnico pagando o peso da maestria fora da posição. A entrega desta obra fecha em 93,3% do par, o que a põe em 81,0% da faixa, e o modificador de 0,500 incide sobre o resultado. Quem já comprou a técnica não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
+**Errata de preço.** O custo passa de 22.143 para 13.143 XP. A causa é a régua do vetor que a Perícia de Enton publica, que fixa a Assinatura do fogo negro na entrega de Energia térmica e deixa as duas parcelas desta obra resolvendo em 1,40, porque ela declara Penetração. A entrega medida no executor de referência cai de 93,3% para 72,3% do par Ápice, o que põe a obra em 20,95% da faixa do rank S, e o modificador de coeficiente técnico de 0,500 incide sobre o resultado. O piso de 65% do rank S permanece cumprido na referência. Quem já comprou a técnica não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
+
+A errata anterior, que levou o custo de 21.800 para 22.143 quando a posição passou a ser lida pela entrega em lugar do volume de reserva, permanece vigente na régua e é sobre o resultado dela que este recálculo incide.
 
 ---
 
@@ -97,20 +99,22 @@ A proibição fixa a janela de contra-ataque em um único oponente, ainda que a 
 
 ## Família de Dano
 
-Conforme a Seção 5.3 do Manual de Jutsus, com cada parcela lendo o multiplicador da natureza que efetivamente a fornece:
+Conforme a Seção 5.3 do Manual de Jutsus, com cada parcela lendo o `mult_Tipo` da natureza que efetivamente a fornece:
 
 ```
 dano bruto = 5 × [ (RC de reserva × coef_entrega × mult_Raiton)
                  + (RC do olho × coef_entrega × mult_Enton) ] × M
 
-dano bruto = 5 × [ (650 × 0,20 × 1,40) + (900 × 0,20 × 2,10) ] × M
-dano bruto = 5 × [ 182 + 378 ] × M
-dano bruto = 2.800 × M
+dano bruto = 5 × [ (650 × 0,20 × 1,40) + (900 × 0,20 × 1,40) ] × M
+dano bruto = 5 × [ 182 + 252 ] × M
+dano bruto = 2.170 × M
 
 M = 1 + 1,0 × (P − 180) ÷ 180          piso de M: 0,5
 ```
 
 O coeficiente de entrega 0,20 vale para as duas parcelas, porque a forma de entrega é uma só e é o ponto concentrado em contato único que a linhagem herda. O coeficiente técnico 2,0 corresponde à dependência alta, herdado da técnica de origem.
+
+**As duas parcelas resolvem no mesmo 1,40.** A obra declara vetor de Penetração de Grau VI, e a Assinatura de vetor físico vale 1,00. O raio comum resolve em Constante de Moldagem de 1,40 contra essa Assinatura, e a chama negra resolve na mesma conta, porque a Assinatura do fogo negro de 1,50 entra apenas na obra que entrega Energia térmica. O que a chama deixa depois do golpe entra pelo rider de Queimadura e pela cláusula de não extinção, e não pelo multiplicador.
 
 Os dois multiplicadores incidem sobre volumes distintos e nunca sobre o mesmo chakra. Nenhuma parcela é multiplicada duas vezes, e a entrada não cria régua de composição de naturezas.
 
@@ -129,9 +133,9 @@ A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum p
 
 | P do Raiton | M | Dano de impacto | % PV do par |
 |---|---|---|---|
-| 148 | 0,822 | 2.302 | 77% |
-| 180, referência do rank | 1,000 | 2.800 | 93% |
-| 212 | 1,178 | 3.298 | 110% |
+| 148 | 0,822 | 1.784 | 59% |
+| 180, referência do rank | 1,000 | 2.170 | 72% |
+| 212 | 1,178 | 2.556 | 85% |
 
 A tabela publica apenas o impacto. A queima que se instala depois corre pela Persistência e não entra nestes valores.
 

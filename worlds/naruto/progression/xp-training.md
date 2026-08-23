@@ -1,14 +1,14 @@
 ---
 id: naruto.progression.xp-training
 title: "Treinamento no Mundo Shinobi"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: system
 status: final
 ---
 
-# Treinamento no Mundo Shinobi · v1.1
+# Treinamento no Mundo Shinobi · v1.2
 
 O Manual Global de Treinamento publica a regra universal do Bloco e exige de cada cenário um documento que a pluga no mundo. Este é o documento de Naruto. Ele enumera os alvos de treino que existem aqui, traduz a escada de Método nas instituições shinobi, cataloga o que só se aprende pela mão de quem já atravessou, e declara como o talento se compra no eixo do chakra.
 
@@ -115,9 +115,9 @@ A camada Kyōka tem duas portas de manifestação, e a segunda delas corre em jo
 | Forma | Degrau na perícia hospedeira | Instrução | Degrau de Método |
 |---|---|---|---|
 | Transmissão | LV5 | portador vivo que aceite o aprendiz | o que o instrutor entrega |
-| Descoberta | LV6 | nenhuma | degrau base da escada |
+| Descoberta | LV6 | nenhuma | Autodidata, ×1,0 |
 
-Nenhuma das duas passa por rolagem de manifestação, porque não existe teste a falhar. A Transmissão é arco de treino conduzido pelo portador, e os limiares de tempo dela leem a posição do praticante no elemento hospedeiro, pela escada do Sistema Elemental, junto do degrau de Método que o instrutor entrega. A Descoberta é arco de campanha declarado pelo Narrador, sem instrutor, e roda no degrau base da escada. O LV6 responde por inventar ser operação acima de dominar, e a via existe porque a fonte mostra Kakashi Hatake desenvolvendo o Shiden e o Terceiro Raikage instituindo o raio negro antes de existir quem os ensinasse.
+Nenhuma das duas passa por rolagem de manifestação, porque não existe teste a falhar. A Transmissão é arco de treino conduzido pelo portador, e os limiares de tempo dela leem a posição do praticante no elemento hospedeiro, pela escada do Sistema Elemental, junto do degrau de Método que o instrutor entrega. A Descoberta é arco de campanha declarado pelo Narrador, sem instrutor, e roda em Autodidata, o degrau de ×1,0 da escada de Método. O LV6 responde por inventar ser operação acima de dominar, e a via existe porque a fonte mostra Kakashi Hatake desenvolvendo o Shiden e o Terceiro Raikage instituindo o raio negro antes de existir quem os ensinasse.
 
 Duas exceções permanecem, e as duas correm por portão que o cânone declara. O Enton exige a linhagem de Indra, e nenhum treino a substitui. O Kuroi Kaminari corre pelo portão por doutrina de Kumogakure, com vaga única por geração, e o treino nele já é o próprio portão.
 
@@ -191,6 +191,8 @@ A Provação concede a Janela de Plasticidade, e o primeiro Bloco ligado ao even
 ---
 
 ## 12. Registro de alterações
+
+**v1.2.** A Descoberta passa a nomear o degrau de Método em que roda, Autodidata em ×1,0, no lugar da referência genérica ao degrau base da escada. Nenhum outro valor mudou.
 
 **v1.1.** Entra a seção 6.1, com a manifestação de Kyōka por treino nas duas formas que Naturezas Avançadas v8 publica. A Transmissão corre no LV5 da perícia hospedeira junto de portador vivo, lendo os limiares de tempo pela posição do praticante no elemento e pelo degrau de Método do instrutor. A Descoberta corre no LV6 sem instrutor, no degrau base da escada. Nenhuma das duas passa por rolagem, e as duas exceções de portão canônico ficam nomeadas. As citações de dependência do Sistema Elemental e do Índice de Perícias passam às versões vigentes. Nenhum valor do núcleo, nenhuma categoria, nenhum multiplicador, nenhum degrau da escada de Método e nenhum patamar de Pressão Real mudou.
 

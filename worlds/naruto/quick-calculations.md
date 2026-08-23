@@ -1,7 +1,7 @@
 ---
 id: naruto.quick-calculations
 title: "Cálculos Rápidos de Naruto"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: reference-table
@@ -69,7 +69,7 @@ A posição de uma natureza na ficha do praticante mede desempenho e não preço
 | Compatibilidade | 20% da RC por turno | custo declarado × 1,0 | entrega versão reduzida |
 | Natureza aprendida | 15% da RC por turno | custo declarado × 1,3 | falha total |
 
-**Nenhum modificador de berço entra no teste da perícia.** A coluna de bônus fixo que esta escada publicava está revogada. O terminal da maestria lê nível, inclinação, caminho e atributo regente, e uma soma de berço ali vazaria ao mesmo tempo para o Fator de Moldagem, para as tabelas de custo pago e para a graduação de riders pela margem, cobrando a posição em três lugares que já a cobram por outras vias.
+**Nenhum modificador de berço entra no teste da perícia.** A coluna de bônus fixo que esta escada publicava está revogada. O terminal da maestria lê nível, inclinação, caminho e atributo regente, e uma soma de berço ali vazaria ao mesmo tempo para o `M` do motor de dano, para as tabelas de custo pago e para a graduação de riders pela margem, cobrando a posição em três lugares que já a cobram por outras vias.
 
 A vocação se mede em vazão. Quem nasceu com o elemento escoa um quarto da reserva por turno naquela natureza e sustenta rank mais alto por rodada; quem a aprendeu escoa quinze por cento e paga trinta por cento a mais pela mesma técnica. O desempenho no teste é o mesmo para os três, porque o teste responde ao treino e o treino é o que a ficha pagou.
 

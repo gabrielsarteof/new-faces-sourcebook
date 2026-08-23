@@ -1,7 +1,7 @@
 ---
 id: naruto.system.elemental
 title: "Transformação de Natureza — Sistema Elemental"
-version: 9.4
+version: 9.5
 layer: scenario
 scenario: naruto
 type: system
@@ -482,7 +482,7 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 | Reencarnação de Indra e vantagem de vazão ampliada | Os dois elevam o Limite de Saída "de vinte para trinta por cento", ancorados na base universal revogada. Pela regra de modificador relativo da Reserva de Chakra, os dois passam a multiplicar a largura da posição por um e meio, o que preserva os trinta por cento para quem opera em Compatibilidade |
 | Vantagem de afinidade, seção de vantagens do cenário | O efeito concede "+8 em todos os testes da natureza, somado ao bônus de posição da escada de afinidade". O bônus de posição foi revogado, e a soma perdeu a segunda parcela |
 | Requisitos de Técnica | O documento republica a penalidade de teste da Escada citando o Sistema Elemental v7, com mais quinze, mais oito e menos quinze. As três leituras estão revogadas |
-| `worlds/naruto/quick-calculations.md` | Republica a tabela inteira da Escada com a coluna de bônus de teste. É o segundo arquivo de cálculos rápidos do corpus, e a errata que trata do primeiro não o alcança |
+| ~~`worlds/naruto/quick-calculations.md`~~ | **Aplicada na v2.1 daquele arquivo.** A coluna de bônus fixo saiu da Escada e a nota que a revoga está publicada, e a mesma passada trocou a citação ao termo somado de maestria pelo `M` do motor vigente |
 | Sharingan do Uchiha, Documento de Invocação, Hachimon Tonkō e Manual de Criação de Jutsus | Citam o Limite de Saída em vinte por cento como número fixo. A citação passa a ler a largura da posição empregada |
 | Naturezas Avançadas, seção do Shiden | O caminho Gume da inclinação Agudo aplica Sangramento no lugar da Paralisia Parcial, e a regra vigente daquele documento declara que o rider continua o do elemento base. A substituição de rider por Kyōka segue pendente nos dois documentos, sem travar a publicação da inclinação |
 | ~~Naturezas Avançadas v5~~ | **Aplicada.** A regra de tipo dominante passou a reger apenas a posição no Ciclo de Superação, e as naturezas avançadas passaram a resolver pela Constante de Moldagem e pela Assinatura do vetor que cada obra declara. A v6 cumpriu a republicação dos multiplicadores Kyōka sobre a base nova, publicando Constante e produto em colunas separadas, e a v8 fechou o eixo, com cada entrada declarando se o refinamento cai em Potência ou em Entrega |
@@ -492,6 +492,8 @@ A Afinidade percorre a régua com o preço de tabela e confiabilidade maior em c
 ---
 
 ## Registro de Alterações
+
+**v9.5.** A linha de errata contra `worlds/naruto/quick-calculations.md` passa a aplicada. Aquele arquivo já havia retirado a coluna de bônus fixo da Escada e publicado a nota que a revoga, e a mesma passada trocou a citação ao termo somado de maestria pelo `M` do motor vigente. Nenhum número deste documento mudou.
 
 **v9.4.** A tabela de Assinaturas ganha a quarta linha, a Energia térmica de chama negra em ×1,50, que pertence à Perícia de Enton e se lê apenas na entrega térmica daquela natureza. Entram as duas contenções: Assinatura própria só nasce de declaração da fonte sobre o que a energia faz com a matéria, e faixa da régua de Kyōka fica vedada ao elemento quando o produto encosta no topo declarado de outro elemento. A linha de errata que pedia a republicação dos multiplicadores Kyōka a Naturezas Avançadas passa a aplicada, citando a v6 como a versão que republicou e a v8 como a que fechou o eixo. O bloco de fórmula da seção de Assinatura passa a citar a forma vigente da Seção 5.3 do Manual de Criação de Jutsus, com o `M` multiplicando a base inteira, e a nota sobre modificador de berço deixa de nomear o termo somado que aquela seção aposentou. A Constante de Moldagem de 1,40, as três Assinaturas existentes, a Escada de Afinidade, o Limite de Saída, a tabela de dispersão, a cadeia de d100, o Sōsai e a realimentação permanecem sem alteração.
 

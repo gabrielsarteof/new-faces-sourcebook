@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.enton
 title: "Enton (炎遁)"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Enton_v1.md
 ---
 
-ENTON (炎遁) · A Chama Negra · v1.4
+ENTON (炎遁) · A Chama Negra · v1.5
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -98,7 +98,7 @@ IDENTIDADE
 
 Camada subclasse, sobre o portão do Katon. Regente INT, categoria Ninjutsu ×1,5. Eixo elemental, com Katon, Raiton, Fūton, Suiton e Doton.
 
-Multiplicador de dano 2,10 na entrega térmica, ocupando o lugar do 1,60 do Fogo em toda entrega de chama negra, com a decomposição em Constante de Moldagem comum de 1,40 e Assinatura do fogo negro de 1,50 publicada na seção de entrega. `[canon]` A fonte declara o Amaterasu o ninjutsu de Katon de nível mais alto da série, e o valor é a leitura direta dessa declaração dentro da faixa de multiplicadores do Sistema Elemental. Nenhuma outra intensificação de nenhum elemento ocupa posição equivalente na obra, e o número existe para preservar essa posição na mesa. As técnicas de Katon comum do mesmo portador continuam lendo 1,60.
+Multiplicador de dano 2,10 na entrega térmica, ocupando o lugar do 1,61 do Fogo em toda entrega de chama negra, com a decomposição em Constante de Moldagem comum de 1,40 e Assinatura do fogo negro de 1,50 publicada na seção de entrega. `[canon]` A fonte declara o Amaterasu o ninjutsu de Katon de nível mais alto da série, e o valor é a leitura direta dessa declaração dentro da faixa de multiplicadores do Sistema Elemental. Nenhuma outra intensificação de nenhum elemento ocupa posição equivalente na obra, e o número existe para preservar essa posição na mesa. As técnicas de Katon comum do mesmo portador continuam lendo 1,61.
 
 COMO A ENTREGA RESOLVE DANO
 
@@ -456,6 +456,8 @@ REGISTRO DE VERSÃO
 v1. Documento inicial, nascido da auditoria de fundamentos do Enton em segunda passada, com validação canônica contra o verbete de Katon, o verbete do Amaterasu, a ficha do Enton: Kagutsuchi e a ficha do Enton: Susanoo Kagutsuchi. Nascem a fronteira contra o Mangekyō, a leitura de um olho, as três inclinações com dez caminhos, as seis réguas transversais e a transcendência Ame-no-Ohabari. O multiplicador 2,10 migra de Naturezas Avançadas para este documento com a justificativa reescrita a partir da declaração de nível mais alto de Katon, e deixa de correr pela fórmula da camada Kyōka. Três erratas nascem desta passada e estão aplicadas: a saída do Enton do catálogo de Kyōka, a referência cruzada no documento do Mangekyō Sharingan e a referência cruzada no documento do Susanoo.
 
 v1.1. Aplica a seção 13 do Manual de Criação de Perícias v7.4: cada transcendência de LV6 passa a nomear, além do requisito geral de todos os caminhos possuídos Aprofundados, a composição própria de caminhos que a habilitam. Ame-no-Ohabari ganha o pré-requisito Extinção Aprofundada, o caminho cujos dois efeitos, Sopro e Recolhimento, ela eleva. Antes desta versão, aprofundar qualquer caminho isolado da perícia, mesmo um alheio à Extinção, destravava a transcendência inteira. Nenhum outro campo muda.
+
+v1.5. As duas passagens que citavam o produto do Fogo comum em 1,60 passam a citar 1,61, que é a Constante de Moldagem de 1,40 multiplicada pela Assinatura térmica de 1,15 e o valor que o Sistema Elemental e a tabela de validação do Manual de Criação de Jutsus publicam. O 1,60 era leitura anterior à partição do termo de tipo em Constante e Assinatura. Nenhum valor desta perícia mudou.
 
 v1.4. A dependência aberta da decomposição fecha. O 2,10 permanece exatamente onde estava, na casa do `mult_Tipo`, e passa a publicar as duas parcelas, com a Constante de Moldagem comum de 1,40 multiplicada pela Assinatura do fogo negro de 1,50, que o Sistema Elemental v9.4 acolhe como a quarta linha da tabela de Assinaturas. Entra a régua do vetor, com a Assinatura do fogo negro lida apenas na entrega de Energia térmica e a obra de Corte ou de Penetração resolvendo em 1,40, e a permanência da chama entrando pelo rider de Queimadura e pela cláusula de não extinção que esta perícia já publicava. A citação à republicação pendente dos multiplicadores Kyōka sai, porque Naturezas Avançadas v8 a cumpriu. As inclinações, os caminhos, a transcendência, os portões, as réguas e o requisito de olhos permanecem sem alteração.
 
