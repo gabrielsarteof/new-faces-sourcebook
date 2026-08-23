@@ -340,7 +340,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |
 | [Técnica dos Múltiplos Clones das Sombras](worlds/naruto/techniques/taju-kage-bunshin.md) | `naruto.technique.taju-kage-bunshin` | 1 | technique | final |
-| [Takemikazuchi (建御雷神)](worlds/naruto/techniques/takemikazuchi.md) | `naruto.technique.takemikazuchi` | 2.3 | technique | final |
+| [Takemikazuchi (建御雷神)](worlds/naruto/techniques/takemikazuchi.md) | `naruto.technique.takemikazuchi` | 2.4 | technique | final |
 | [Técnica de Escape Transparente](worlds/naruto/techniques/toton.md) | `naruto.technique.toton` | 1 | technique | final |
 
 ## Documentos previstos e ainda não escritos

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.takemikazuchi
 title: "Takemikazuchi (建御雷神)"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -54,6 +54,8 @@ A camada de acesso é Fechada na Criação. Nenhum personagem inicial a adquire 
 **Errata de preço.** O custo passa de 22.143 para 13.143 XP. A causa é a régua do vetor que a Perícia de Enton publica, que fixa a Assinatura do fogo negro na entrega de Energia térmica e deixa as duas parcelas desta obra resolvendo em 1,40, porque ela declara Penetração. A entrega medida no executor de referência cai de 93,3% para 72,3% do par Ápice, o que põe a obra em 20,95% da faixa do rank S, e o modificador de coeficiente técnico de 0,500 incide sobre o resultado. O piso de 65% do rank S permanece cumprido na referência. Quem já comprou a técnica não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
 
 A errata anterior, que levou o custo de 21.800 para 22.143 quando a posição passou a ser lida pela entrega em lugar do volume de reserva, permanece vigente na régua e é sobre o resultado dela que este recálculo incide.
+
+**Por que o número parece baixo para uma obra de rank S, e não é.** A posição na faixa lê a entrega da obra contra o par do rank, medida no executor de referência, e nada mais. Com as duas parcelas em 1,40 a entrega fica em 72,3% do par Ápice, logo acima do piso de 65% do rank, onde os 93,3% da leitura anterior a punham alta na faixa: o preço acompanhou a entrega porque é isso que a régua manda. A cadeia de portões desta entrada, o Chidori adquirido, o Amaterasu disponível, o Mangekyō desperto e a Perícia de Enton no LV6, se paga nas moedas próprias de cada um e nunca neste número, e é ela que faz da obra o capstone que ela é. Auditoria futura que estranhar o valor confere a entrega antes de mexer no preço.
 
 ---
 
