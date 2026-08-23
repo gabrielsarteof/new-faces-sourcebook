@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.odama-rasengan
 title: "Ōdama Rasengan (大玉螺旋丸)"
-version: 1.2
+version: 1.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -104,7 +104,7 @@ A perícia governante é o Controle de Chakra, e o `P` é o atributo regente del
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, na faixa correspondente ao rank A.
 
 A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
 
@@ -114,16 +114,9 @@ A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor l
 | 148, referência do rank | 1,000 | 720 | 37,5% |
 | 180 | 1,324 | 954 | 49,7% |
 
-O rendimento da técnica escala pelo número de corpos alcançados, e não pelo investimento de chakra. Os valores abaixo assumem LV_CC 6.
+**Valor de campo.** A cláusula de área e a de multiplicidade da Seção 5.2 do Manual de Jutsus leem o valor de campo, que é o total que a obra põe em campo contra a célula de quatro em espaçamento de combate. Medido no executor de referência do rank, o valor de campo desta entrada resolve em 150% do par do rank, e o piso de 40% do rank A está cumprido. Os 37,5% por corpo permanecem leitura de mesa e nunca foram a grandeza que a banda mede.
 
-| Alvos alcançados | Dano total | Comparação com o Rasengan base |
-|---|---|---|
-| 1 | 414 | 106% |
-| 2 | 828 | 212% |
-| 3 | 1.242 | 318% |
-| 4 | 1.656 | 425% |
-
-A leitura de mesa está declarada nessa tabela. Contra um corpo isolado, o Ōdama Rasengan entrega seis por cento a mais que a técnica de origem pelo dobro do custo, e a compra só se paga a partir do segundo corpo dentro do raio.
+O rendimento da técnica escala pelo número de corpos alcançados, e não pelo investimento de chakra. A tabela acima entrega o dano por alvo, e a mesa multiplica pelo número de corpos que a geometria apanhar.
 
 ---
 

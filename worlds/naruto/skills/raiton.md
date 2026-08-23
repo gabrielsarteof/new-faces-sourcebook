@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.7
+version: 3.9
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: RAITON_Pericia_v2_final.md
 ---
 
-RAITON (雷遁) · v3.7
+RAITON (雷遁) · v3.9
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -104,8 +104,8 @@ O corpo do alvo, uma vez tocado, vira o condutor, e a corrente segue por dentro 
 
 TEMPESTADE (grau 5, complexidade 3) · 46
 Eletricidade atmosférica já presente no céu soma força à descarga do praticante.
-└─ Fio do Céu [passivo, condicionado a tempestade elétrica ativa em cena, natural ou provocada]: soma ao Fator de Moldagem um bônus igual ao teste de Tempestade com esta especialização dividido por 15, resultando em 9 no LV4, 11 no LV5 e 13 no LV6. LV5: a condição aceita carga atmosférica acumulada por 2 turnos de preparação declarados, dispensando tempestade natural plena
-   *(grandeza aposentada, efeito devolvido: o Fator de Moldagem somado morreu com a troca de forma do motor de dano, e este verbo aguarda leitura equivalente. Ver a devolução do changelog da v3.7.)*
+└─ Fio do Céu [passivo, condicionado a tempestade elétrica ativa em cena, natural ou provocada]: a descarga do praticante recebe parcela atmosférica igual ao teste de Tempestade com esta especialização, resolvendo 135 no LV4, 165 no LV5 e 195 no LV6. A parcela soma à RC nominal da obra, vem do céu e não sai da reserva do praticante, e não conta contra o Limite de Saída, na espécie de parcela de RC de origem externa que a Seção 5.3 do Manual de Criação de Jutsus publica. O praticante declara antes de executar qual descarga o céu acompanha, uma por turno, de modo que o verbo premia a escolha do momento. A obra que a parcela empurrar além do teto do rank resolve no teto, pela régua anti-inflação. LV5: a condição aceita carga atmosférica acumulada por 2 turnos de preparação declarados, dispensando tempestade natural plena
+   *(fronteira: o Fio do Céu não alcança o Kirin. O verbo soma força à descarga do praticante, e aquela obra dirige raio natural sem chakra do executante na carga, de modo que não existe parcela a que somar. A Intensidade da Tempestade continua sendo a única grandeza que modula o Kirin.)*
 
 NOTA: o grau mede amplitude e determina o valor da especialização; a complexidade mede profundidade e governa os verbos, sem entrar em teste.
 
@@ -154,7 +154,9 @@ INCLINAÇÃO AGUDO · extensão manifestada
 Destravada pela Kyōka Shiden. O Raio Roxo opera numa banda de vibração acima da faixa que o elemento alcança em uso comum, e a cor violeta é a leitura visível dessa banda. A pergunta que ele acrescenta é o que a frequência resolve onde o volume nada resolve, e a inclinação inteira troca potência bruta por precisão de banda.
 └─ Entra no teste quando a cena apresenta matéria que cede ao corte e resiste à perfuração, condutor interposto entre o executor e o alvo declarado, ou oponente cuja defesa se apoia na janela de reação que o trajeto da descarga concede
 
-AQUISIÇÃO: o Shiden corre pela Centelha no procedimento padrão de Naturezas Avançadas, e a manifestação é herdada por linhagem. A técnica nomeada de mesmo nome corre por rota separada, por ensino, e responde por propriedades próprias que esta inclinação não toma. O portador da Kyōka executa aquela técnica em banda superior, conforme a ficha dela.
+AQUISIÇÃO: o Shiden corre pelas duas portas que Naturezas Avançadas publica. A Centelha é a porta de criação de personagem, com a manifestação herdada por linhagem. O treino em jogo é a segunda porta, por Transmissão no LV5 desta perícia junto de portador vivo que aceite o aprendiz, ou por Descoberta no LV6 sem instrutor, nenhuma das duas resolvida por rolagem. A técnica nomeada de mesmo nome corre por rota separada, por ensino, e responde por propriedades próprias que esta inclinação não toma. O portador da Kyōka executa aquela técnica em banda superior, conforme a ficha dela.
+
+CELERIDADE: o portador leva o Raiton à Escada de Meios do Manual de Criação de Jutsus em celeridade 165, contra os 150 do elemento comum, porque o Shiden refina pelo eixo de Entrega. A Constante de Moldagem dele permanece a comum de 1,40, e o refinamento aparece na chegada da obra ao alvo.
 
 GUME (grau 3, complexidade 3) · 38
 A vibração separa em linha aquilo que a concentração atravessa em ponto.
@@ -211,7 +213,7 @@ Revoga: a corrente exige meio condutor.
 └─ O ar passa a conduzir, e toda técnica de Corrente do praticante opera sem metal, água, arma ou tempestade presentes na cena. A condição da inclinação permanece em vigor para todos os outros praticantes do sistema
 └─ Salto Condutor LV6: o vão deixa de ter medida, e a descarga alcança qualquer ponto dentro do alcance declarado da técnica sem trecho condutor intermediário
 └─ Fio Nervoso LV6: penalidade 19, e a disrupção dispensa contato, aplicando-se a qualquer alvo alcançado pela descarga
-└─ Fio do Céu LV6: o bônus de 13 vale sem tempestade e sem preparação, porque o praticante produz a carga atmosférica no próprio ar em volta
+└─ Fio do Céu LV6: a parcela atmosférica de 195 vale sem tempestade e sem preparação, porque o praticante produz a carga atmosférica no próprio ar em volta
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -347,7 +349,7 @@ DECISÕES TOMADAS POR PADRÃO
 7. **A revogação do teto de Teleguiado ficou no Ápice de Agudo e saiu de Instante.** O caminho conserva a elevação de um degrau na escada, que a seção 6.5 do Manual de Jutsus já autoriza a caminho de perícia, e o Ápice é quem fixa o Inevitável sem condição estrutural externa.
 8. **A negação de cura em Ressonância foi retirada.** A transcendência Corte Fino do Fūton já é dona do verbo de ferida que não fecha por ninjutsu médico, e repetir aquilo num caminho de LV4 reprovaria pela regra de distinção de verbo. Ressonância ficou com a penalidade ao teste de remoção do Sangramento.
 9. **Rumo declara que matéria isolante continua detendo a descarga.** O verbo governa escolha de condutor e não penetração, e a linha existe para separá-lo da Passagem do Fūton, que é dona de atravessar anteparo sólido.
-10. **A Amplificação Doutrinária do Kuroi Kaminari foi preservada.** Ela já estava publicada em Naturezas Avançadas, coloca o Raiton comum do portador em 1,85 e o Raiton de Calamidade em 1,95, e nada na raiz travada pedia a remoção dela.
+10. **A Amplificação Doutrinária do Kuroi Kaminari foi preservada na v3, e está revogada desde a v3.8.** Naturezas Avançadas v8 retirou o efeito por inteiro, e o portador do Raio Negro opera o Raiton comum na Constante comum do elemento. A inclinação Calamidade nunca publicou o efeito no corpo dela, e o que sai é esta linha de registro.
 11. **A tatuagem entrou como consequência declarada e não como requisito**, com valor social e político e sem valor mecânico de combate, conforme a auditoria.
 12. **Nai-no-Kami e Ame-no-Ohabari** seguem a metodologia deity-first do projeto, com Nai-no-Kami respondendo pelo abalo que derruba o lugar e Ame-no-Ohabari pela lâmina celeste que separa. Ōmagatsuhi e Futsunushi ficaram fora por já ocuparem transcendências publicadas em Ninjutsu Médico e em Sensoriamento.
 
@@ -387,6 +389,31 @@ ALTERADO FORA DESTA PERÍCIA
 DECISÃO TOMADA POR PADRÃO
 
 14. **A composição de cada transcendência já estava publicada na própria etiqueta, e o pré-requisito só a nomeia como regra.** As três transcendências desta perícia declaram desde a v3, entre parênteses no próprio título, todos os caminhos da inclinação que tocam: Ponta e Lança em Raio Seco, Impulso e Arco em Trovão, Rede, Meridiano e Tempestade em Arco Voltaico. Os efeitos LV6 de cada uma, linha por linha, já liam exclusivamente esses caminhos e nenhum outro. Nenhuma das três atravessa inclinação alheia ou perícia alheia, porque nenhum efeito delas o faz. A nova linha formaliza como pré-requisito de aquisição o que a redação já praticava como composição, sem alterar caminho nenhum de nenhuma das três.
+
+═══════════════════════════════════════════════════════════════════
+
+CHANGELOG DA v3.9
+
+ALTERADO NESTA PERÍCIA
+
+1. Versão de 3.8 para 3.9, no cabeçalho e no frontmatter.
+2. **A linha de Fio do Céu LV6 da transcendência Arco Voltaico passa a publicar a parcela atmosférica de 195**, leitura equivalente ao bônus de 13 que ela citava. Citação de grandeza revogada não é conteúdo protegido da transcendência, e a devolução que a v3.8 abriu sobre ela fecha aqui. A cláusula que dispensa tempestade e preparação permanece exatamente como estava.
+
+PRESERVADO SEM TOQUE: os efeitos, graus, complexidades e pré-requisitos das três transcendências, os dois Ápices de Extensão Manifestada, todas as inclinações e caminhos, o portão de rank, a régua de níveis, os arquétipos e todos os preços.
+
+═══════════════════════════════════════════════════════════════════
+
+CHANGELOG DA v3.8
+
+ALTERADO NESTA PERÍCIA
+
+1. Versão de 3.7 para 3.8, no cabeçalho e no frontmatter.
+2. **O verbo Fio do Céu ganha a casa que a devolução da v3.7 pedia.** A parcela atmosférica passa a ser o teste de Tempestade com esta especialização lido sem divisor, resolvendo 135 no LV4, 165 no LV5 e 195 no LV6, os mesmos três valores da régua anterior em outra unidade. A parcela soma à RC nominal da obra como parcela de RC de origem externa, espécie que a Seção 5.3 do Manual de Criação de Jutsus passou a publicar, e por isso não sai da reserva e não conta contra o Limite de Saída. A declaração prévia de uma descarga por turno entra junto. A marca de grandeza aposentada sai.
+3. **Entra a fronteira contra o Kirin.** O verbo soma força à descarga do praticante, e o Kirin dirige raio natural sem chakra do executante na carga, de modo que não existe parcela a que somar.
+4. **A inclinação Calamidade perde o efeito Amplificação Doutrinária**, revogado por Naturezas Avançadas v8. O efeito vivia no catálogo daquele documento e nunca no corpo desta inclinação, e o que sai daqui é a linha de registro que declarava a preservação dele.
+5. **A inclinação Agudo passa a citar as duas portas de aquisição da Kyōka**, a Centelha na criação e o treino em jogo por Transmissão no LV5 ou Descoberta no LV6, e ganha a linha de celeridade, com 165 no portador contra 150 no demais praticante.
+
+PRESERVADO SEM TOQUE: as três inclinações comuns e os caminhos delas, as três transcendências, Raio Seco, os dois Ápices de Extensão Manifestada, os caminhos Doma, Assolação e Devastação, o portão de rank, a régua de níveis, os arquétipos, e todos os graus, complexidades e preços do documento.
 
 ═══════════════════════════════════════════════════════════════════
 

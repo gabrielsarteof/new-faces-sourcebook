@@ -1,7 +1,7 @@
 ---
 id: naruto.system.errata-hiraishin
 title: "Errata da Linhagem do Hiraishin"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: pending-patch
@@ -125,6 +125,8 @@ A Seção 4.1.2 declara floor no resultado final, o que sustenta o 1.722 e contr
 As cinco fichas da Linhagem do Hiraishin caem todas em valor inteiro, e por isso a escolha não altera nenhum preço publicado por elas.
 
 ### 3.2 Fator de Moldagem publicado truncado
+
+**Cumprida por revogação da grandeza.** A Seção 5.3 do Manual de Criação de Jutsus aposentou o Fator de Moldagem somado, e a tabela por nível que esta entrada mandava conferir deixou de existir junto com o termo, de modo que a convenção de arredondamento dela não tem mais onde incidir.
 
 **Localizar:** tabela Fator de Moldagem por nível da Seção 5.3.
 

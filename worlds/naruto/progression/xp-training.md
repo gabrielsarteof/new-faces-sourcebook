@@ -1,14 +1,14 @@
 ---
 id: naruto.progression.xp-training
 title: "Treinamento no Mundo Shinobi"
-version: 1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: system
 status: final
 ---
 
-# Treinamento no Mundo Shinobi · v1
+# Treinamento no Mundo Shinobi · v1.2
 
 O Manual Global de Treinamento publica a regra universal do Bloco e exige de cada cenário um documento que a pluga no mundo. Este é o documento de Naruto. Ele enumera os alvos de treino que existem aqui, traduz a escada de Método nas instituições shinobi, cataloga o que só se aprende pela mão de quem já atravessou, e declara como o talento se compra no eixo do chakra.
 
@@ -108,6 +108,23 @@ O degrau máximo não infla número, abre portas. Neste mundo, cinco categorias 
 
 ---
 
+## 6.1 Manifestação de Kyōka por treino
+
+A camada Kyōka tem duas portas de manifestação, e a segunda delas corre em jogo pelo Bloco. Intensificar um elemento é levar ao extremo uma natureza que o praticante já possui, e Naturezas Avançadas declara que a porta de treino alcança a camada inteira. Kekkei Genkai e Kekkei Tōta ficam fora dela, porque recomposição elemental é mutação de linhagem.
+
+| Forma | Degrau na perícia hospedeira | Instrução | Degrau de Método |
+|---|---|---|---|
+| Transmissão | LV5 | portador vivo que aceite o aprendiz | o que o instrutor entrega |
+| Descoberta | LV6 | nenhuma | Autodidata, ×1,0 |
+
+Nenhuma das duas passa por rolagem de manifestação, porque não existe teste a falhar. A Transmissão é arco de treino conduzido pelo portador, e os limiares de tempo dela leem a posição do praticante no elemento hospedeiro, pela escada do Sistema Elemental, junto do degrau de Método que o instrutor entrega. A Descoberta é arco de campanha declarado pelo Narrador, sem instrutor, e roda em Autodidata, o degrau de ×1,0 da escada de Método. O LV6 responde por inventar ser operação acima de dominar, e a via existe porque a fonte mostra Kakashi Hatake desenvolvendo o Shiden e o Terceiro Raikage instituindo o raio negro antes de existir quem os ensinasse.
+
+Duas exceções permanecem, e as duas correm por portão que o cânone declara. O Enton exige a linhagem de Indra, e nenhum treino a substitui. O Kuroi Kaminari corre pelo portão por doutrina de Kumogakure, com vaga única por geração, e o treino nele já é o próprio portão.
+
+Manifestada por qualquer das duas formas, a Kyōka abre a inclinação de extensão manifestada na perícia hospedeira, comprada pela régua normal de XP. Naturezas Avançadas permanece dona da camada de aquisição, do eixo de cada entrada e do multiplicador.
+
+---
+
 ## 7. Circunstâncias na cor do cenário
 
 Os degraus de 15 do núcleo, exemplificados no mundo. A lista continua exemplar, e o Narrador julga equivalentes pelo mesmo peso.
@@ -146,7 +163,8 @@ A Provação concede a Janela de Plasticidade, e o primeiro Bloco ligado ao even
 | Pressão Real, dois patamares e Janela de Plasticidade | lidos do núcleo, calibrados em evento |
 | Maturação, Blocos por nível | lida do núcleo, sem alteração |
 | Categorias de alvo | lidas do Manual de Economia de XP, seção 6 |
-| Preço de natureza por posição na afinidade | lido do Sistema Elemental v6 |
+| Preço de natureza por posição na afinidade | lido do Sistema Elemental v9.4 |
+| Manifestação de Kyōka por treino | duas formas, sem rolagem, com a camada de aquisição em Naturezas Avançadas v8 |
 
 ---
 
@@ -174,8 +192,12 @@ A Provação concede a Janela de Plasticidade, e o primeiro Bloco ligado ao even
 
 ## 12. Registro de alterações
 
+**v1.2.** A Descoberta passa a nomear o degrau de Método em que roda, Autodidata em ×1,0, no lugar da referência genérica ao degrau base da escada. Nenhum outro valor mudou.
+
+**v1.1.** Entra a seção 6.1, com a manifestação de Kyōka por treino nas duas formas que Naturezas Avançadas v8 publica. A Transmissão corre no LV5 da perícia hospedeira junto de portador vivo, lendo os limiares de tempo pela posição do praticante no elemento e pelo degrau de Método do instrutor. A Descoberta corre no LV6 sem instrutor, no degrau base da escada. Nenhuma das duas passa por rolagem, e as duas exceções de portão canônico ficam nomeadas. As citações de dependência do Sistema Elemental e do Índice de Perícias passam às versões vigentes. Nenhum valor do núcleo, nenhuma categoria, nenhum multiplicador, nenhum degrau da escada de Método e nenhum patamar de Pressão Real mudou.
+
 **v1.** Nascimento, cumprindo a delegação que o Manual Global de Treinamento emite na seção de fronteira com os documentos de adaptação. Enumera os alvos de Bloco e as sete categorias em jogo, declara a regra do eixo do chakra e o grão em que o talento se compra ali, traduz os cinco degraus de Método nas instituições do mundo, cataloga as cinco portas do Mestre lendário, exemplifica as circunstâncias e calibra os dois patamares de Pressão Real.
 
 ---
 
-Regra universal e todos os seus valores leem o Manual Global de Treinamento. Categorias e multiplicadores de custo leem o Manual de Economia de XP, seções 6 e 6.1. Afinidade, escada de posição e preço de natureza leem o Sistema Elemental v6. Regente e categoria de cada perícia leem o Índice de Perícias v2.8. As peças de talento nomeadas na seção 3 vivem em Vantagens Especiais do Mundo Shinobi e em Vantagens Comuns.
+Regra universal e todos os seus valores leem o Manual Global de Treinamento. Categorias e multiplicadores de custo leem o Manual de Economia de XP, seções 6 e 6.1. Afinidade, escada de posição e preço de natureza leem o Sistema Elemental v9.4. Regente e categoria de cada perícia leem o Índice de Perícias v2.33. A camada de aquisição das Kyōka lê Naturezas Avançadas v8. As peças de talento nomeadas na seção 3 vivem em Vantagens Especiais do Mundo Shinobi e em Vantagens Comuns.

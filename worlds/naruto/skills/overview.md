@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.32
+version: 2.34
 layer: scenario
 scenario: naruto
 type: skill
@@ -45,15 +45,15 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 
 | Perícia | Versão | Regente | Categoria de custo |
 |---|---|---|---|
-| Controle de Chakra | v3.8 | SAB | Chakra ×1,4 |
+| Controle de Chakra | v3.9 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2.5 | RES | Chakra ×1,4 |
 | Katon | v4.2 | INT | Ninjutsu ×1,5 |
-| Raiton | v3.7 | INT | Ninjutsu ×1,5 |
+| Raiton | v3.9 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.6 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.5 | INT | Ninjutsu ×1,5 |
 | Doton | v2.3 | INT | Ninjutsu ×1,5 |
-| Enton | v1.3 | INT | Ninjutsu ×1,5 |
+| Enton | v1.5 | INT | Ninjutsu ×1,5 |
 | Liberação de Yin | v4.4 | INT | Ninjutsu ×1,5 |
 | Liberação de Yang | v4.5 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
@@ -394,10 +394,13 @@ Pares em que duas perícias governam a mesma capacidade por eixos independentes,
 | Fūinjutsu | Barreira, no Fūin Kekkai | devido |
 | Fūinjutsu | Passagem, no deslocamento por marca | publicado |
 | Kunai | Fūinjutsu e Passagem, na Execução do Deus do Trovão Voador | publicado |
+| Enton | Katon, no LV3 congelado, por componente | publicado |
 
 O Controle de Chakra é a coluna de precisão de todo o eixo do chakra. Nenhum par publicado do portão duplo clássico corre entre duas perícias de magnitude.
 
 **Uma segunda espécie de par.** O portão duplo clássico governa uma capacidade por dois eixos independentes, um de magnitude e outro de precisão. Existe uma segunda espécie, o portão de obra, em que cada perícia possui metade de uma técnica nomeada em vez de um eixo próprio sobre a mesma capacidade: uma perícia lê o rank e publica o verbo definidor, e a companheira cobra apenas a parte que lhe cabe. O par do Hiraishin, entre Fūinjutsu e Passagem, pertence a essa espécie e está publicado dos dois lados. O par do Fūin Kekkai, entre Fūinjutsu e Barreira, pertence à mesma espécie e segue devido, porque a Barreira ainda não existe.
+
+**Uma terceira espécie de par.** O portão de componente governa a perícia que trabalha matéria produzida fora do domínio dela, e a exigência é piso congelado na perícia que produz aquela matéria. O piso mede o domínio da natureza componente e não sobe com o nível da perícia governante, porque o que ela governa tem origem fora do praticante. O par entre Enton e Katon, com o Katon congelado no LV3, é o primeiro ocupante da espécie e o primeiro piso congelado do corpus, ao lado do piso relativo que Genjutsu, Fūinjutsu, Senjutsu e Kyūinjutsu leem contra o Controle de Chakra. A linha do registro pareia apenas Enton e Katon, porque o registro cataloga pares de perícias, e o Mangekyō Sharingan desperto permanece nos Portões de Acesso daquele documento.
 
 ---
 
@@ -431,16 +434,16 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4.2, Raiton v3.7, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Katon v4.2, Raiton v3.9, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
 | Liberação de Yin v4.4, Liberação de Yang v4.5 | conforme |
 | Ninjutsu Médico v3 | conforme |
-| Controle de Chakra v3.8 | conforme |
+| Controle de Chakra v3.9 | conforme |
 | Sensoriamento v2.2 | conforme |
-| Enton v1.3 | conforme |
+| Enton v1.5 | conforme |
 | Genjutsu v1.3 | conforme, com uma ressalva de vocabulário |
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
-| Senjutsu v2.2 | conforme |
+| Senjutsu v2.5 | conforme |
 | Barreira v1 | conforme |
 | Kyuinjutsu v1.3 | conforme |
 | Kenpo v1 | conforme |
@@ -460,7 +463,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Trinta, das quais cinco aplicadas. Vinte e cinco seguem abertas.
+Trinta e uma, das quais nove aplicadas. Vinte e duas seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -469,9 +472,9 @@ Trinta, das quais cinco aplicadas. Vinte e cinco seguem abertas.
 | ~~Integrar o Adendo da seção 4.1.3 ao corpo principal~~ — **aplicada na v2.3** | Manual de Criação de Jutsus v2 |
 | ~~Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações~~ — **aplicada na v7.1** | Manual de Criação de Perícias v7, seção 7 |
 | ~~Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um~~ — **aplicada na v2.2** | Núcleo de Perícias v2, seção 1 |
-| Escrever a linha do Enton no Registro de Portão Duplo, ou declarar que o portão dele é de espécie diferente. O par Enton/Katon corre entre duas perícias de magnitude, e a nota de fechamento daquele registro afirma que nenhum par publicado do portão duplo clássico corre assim. O portão do Enton também é o primeiro congelado do corpus, piso constante que não sobe com o nível da perícia, ao lado do relativo que Genjutsu, Fūinjutsu, Senjutsu e Kyūinjutsu usam contra Controle de Chakra | Índice de Perícias, seção 5 |
-| Dar casa ao verbo Fio do Céu, do caminho Tempestade, que somava de 9 a 13 ao Fator de Moldagem e ficou sem grandeza para incidir quando o termo somado morreu. Somar ao `P` mudaria a proporção e nenhum documento publica caminho de perícia elevando o `P`; somar ao `w` faria condição de cena mexer em coeficiente da ficha; multiplicar a base pediria percentual que a régua nunca declarou. A escolha é de desenho | Manual de Criação de Jutsus, seção 5.3, com propagação em Raiton v3.7 |
-| Reescrever a âncora de dano do Chidori no Controle de Chakra, cuja conclusão não sobreviveu ao recálculo. Sob o motor multiplicativo os dois executores deixam de entregar o mesmo número, porque o `M` lê o `P` do Raiton, e nomear aquele `P` dentro do documento de Controle de Chakra contraria a regra do porteiro. A tabela do recálculo está publicada na seção de pendências daquele documento como evidência | Controle de Chakra v3.8 |
+| ~~Escrever a linha do Enton no Registro de Portão Duplo, ou declarar que o portão dele é de espécie diferente~~ — **aplicada na v2.33**: o registro ganha a terceira espécie, o portão de componente, em que a perícia que governa matéria produzida fora do domínio dela exige piso congelado na perícia que produz aquela matéria. O par Enton e Katon entra com o Katon congelado no LV3, primeiro ocupante da espécie e primeiro piso congelado do corpus. A nota de fechamento do registro permanece literal e permanece verdadeira, porque o par novo pertence a outra espécie | Índice de Perícias, seção 5 |
+| ~~Dar casa ao verbo Fio do Céu, do caminho Tempestade, que somava de 9 a 13 ao Fator de Moldagem e ficou sem grandeza para incidir quando o termo somado morreu~~ — **aplicada no Manual de Criação de Jutsus v3.3 e em Raiton v3.8**: a casa é a RC limpa. A Seção 5.3 passou a publicar a parcela de RC de origem externa como espécie própria, que entra na RC limpa, não sai da reserva do executor e não conta contra o Limite de Saída, e o verbo passou a entregar o teste de Tempestade lido sem divisor, em 135, 165 e 195, os mesmos três valores da régua anterior em outra unidade. A parcela vale para uma descarga declarada por turno | Manual de Criação de Jutsus, seção 5.3, com propagação em Raiton v3.8 |
+| ~~Reescrever a âncora de dano do Chidori no Controle de Chakra, cuja conclusão não sobreviveu ao recálculo~~ — **aplicada na v3.9**: a âncora deixou de ser exemplo numérico e passou a demonstração estrutural. Os quatro termos do dano bruto têm donos fora daquela perícia, e as duas grandezas que o domínio produz, o desperdício e o PS que ele cobra, não aparecem em termo algum daquela linha. A confirmação numérica roda com par abstrato de `P` igual por construção, sem nome de personagem, e a regra do porteiro fica respeitada | Controle de Chakra v3.9 |
 | Corrigir o apontamento de Eco de Presença, que exige o caminho Sinal | Genjutsu v1.1 |
 | Registrar o multiplicador de 65 do LV5 e a soma revogada pelo Apagamento no LV6 | Genjutsu v1.1 |
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
@@ -501,6 +504,20 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.34.** Fecho da fila de RFCs que a leva da Sessão de Calibração abriu. O Registro de Conformidade passa a citar Senjutsu v2.5, alinhando a linha ao cabeçalho do documento e ao Registro de Regentes desta mesma seção, que já publicava a versão certa. O Registro de Regentes e o de Conformidade recebem Raiton v3.9 e Enton v1.5. Nenhum regente, nenhuma categoria de custo, nenhum par do Registro de Portão Duplo, nenhuma cedência do Registro de Fronteira, nenhuma entrada da Fila de Nascimento e nenhuma linha da tabela de Erratas Abertas mudou.
+
+**v2.33.** A leva de propagação da Sessão de Calibração fecha três erratas e registra a terceira espécie de portão duplo.
+
+O Registro de Portão Duplo ganha o portão de componente, em que a perícia que governa matéria produzida fora do domínio dela exige piso congelado na perícia que produz aquela matéria. O piso mede o domínio da natureza componente e não sobe com o nível da perícia governante, porque o que ela governa tem origem fora do praticante. O par entre Enton e Katon entra com o Katon congelado no LV3, primeiro ocupante da espécie e primeiro piso congelado do corpus. A nota que fecha o registro permanece literalmente como estava, e permanece verdadeira, porque o par novo pertence a outra espécie. A ausência que a v2.32 registrou e não resolveu fecha aqui.
+
+Na seção 8 fecham três erratas. A linha do Enton no Registro de Portão Duplo, resolvida acima. A casa do verbo Fio do Céu, que passou a ser a RC limpa pela parcela de RC de origem externa que a Seção 5.3 do Manual de Criação de Jutsus criou. A âncora de dano do Chidori no Controle de Chakra, que deixou de ser exemplo numérico e passou a demonstração estrutural com confirmação por par abstrato.
+
+A contagem declarada acima da tabela é corrigida de trinta para trinta e uma. A linha da colisão da transcendência Raio Seco entrou numa passada anterior sem que a contagem acompanhasse, e o número de abertas que a frase publicava já estava certo.
+
+O Registro de Regentes e o de Conformidade recebem Controle de Chakra v3.9, Raiton v3.8 e Enton v1.4. Os demais documentos da leva ficam fora dos dois registros por não serem perícias: Naturezas Avançadas v8, Sistema Elemental v9.4, Manual de Criação de Jutsus v3.3, Linhagem do Rasengan v1.6, Linhagem do Chidori v1.6, Treinamento no Mundo Shinobi v1.1, Compêndio de Raiton v3.13, e as fichas do Shiden, do Takemikazuchi, do Kirin, do Ōdama Rasengan e do Rasenrengan.
+
+Nenhum regente, nenhuma categoria de custo, nenhuma cedência do Registro de Fronteira, nenhuma entrada da Fila de Nascimento e nenhum par preexistente do Registro de Portão Duplo mudou.
 
 **v2.32.** O Enton entra nos dois registros de versão. A perícia foi publicada em v1 sem ser propagada para este índice, e a ausência atravessou todas as passadas desde então sem ser notada, porque nenhuma catraca confere que documento publicado tenha linha aqui. Lê INT, categoria Ninjutsu ×1,5, e entra depois do Doton, fechando o bloco elemental em vez de abrir um sexto elemento base, no mesmo lugar que o agregador da aplicação já lhe dava.
 

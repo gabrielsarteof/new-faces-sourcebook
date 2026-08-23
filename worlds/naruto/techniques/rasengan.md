@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.rasengan
 title: "Rasengan (螺旋丸)"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -151,7 +151,7 @@ Os valores são [proposta], ancorados na régua de empuxo publicada no caminho L
 | Condição | Capacidade ou mudança |
 |---|---|
 | Moldagem Absoluta, caminho Composição | acesso à técnica |
-| Controle de Chakra LV6 | Fator de Moldagem 270, e 368 ou 480 com caminhos adicionais |
+| Controle de Chakra LV6 | o `P` da perícia governante sobe e o `M` acompanha, pela Tabela de Descarga desta ficha, com caminhos adicionais elevando a especialização e subindo o `P` de novo |
 | Caminho Composição, Movimento Pleno | execução durante deslocamento pleno, sem posição estável |
 | Caminho Composição LV5 | execução em queda, sobre superfície móvel ou sendo carregado |
 | Caminho Permanência | a esfera sobe um degrau na Escada de Permanência e existe além do instante da formação |

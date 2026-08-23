@@ -1,7 +1,7 @@
 ---
 id: naruto.system.chidori-family
 title: "Linhagem do Chidori"
-version: 1.5
+version: 1.7
 layer: scenario
 scenario: naruto
 type: system
@@ -33,7 +33,7 @@ Esta linhagem foi calibrada contra os documentos abaixo, nas versões vigentes n
 | Sistema de Efeitos de Status | 2.5 | a graduação da Paralisia Parcial e da Paralisia Total |
 | Reserva de Chakra | 3.5 | o Limite de Saída por posição, a recuperação e os pools externos |
 | Tabelas de Referência de Personagens | 1 | os pares de validação Elite e Especial |
-| Naturezas Avançadas | 7 | a camada Kyōka, o multiplicador do Shiden e o do Enton |
+| Naturezas Avançadas | 8 | a camada Kyōka com os dois eixos, o multiplicador do Shiden e o do Enton |
 | Mangekyō Sharingan | 1 | o medidor de desgaste, os custos do olho e a regra de trunfo |
 | Compêndio de Katon | 5.1 | a entrada do Amaterasu e o comportamento da chama negra |
 | Compêndio de Fūinjutsu | 1.1 | a entrada do Juinjutsu de Orochimaru |
@@ -129,7 +129,7 @@ A RC limpa é grandeza publicada em si e não resíduo de conta, e por isso ela 
 | Chidori Senbon | A | 800 | 267 | 1,07 | 4.000 |
 | Chidori Eisō | A | 800 | 267 | 1,07 | 7.467 |
 | Raikiri | S | 1.500 | 500 | 2,00 | 12.143 |
-| Takemikazuchi | S | 1.550 | 217 | 2,07 | 22.143 |
+| Takemikazuchi | S | 1.550 | 217 | 2,07 | 13.143 |
 
 As três remodelagens tinham RC exata de 782,6 e publicam 800. O Takemikazuchi tinha 652,2 na parcela de reserva e publica 650, somados aos 900 do olho. O Raikiri publica 1.500 direto, valor decidido por hierarquia do Manual de Criação de Jutsus sobre a escada da família, sem passar pelo arredondamento. O Chidori e o Chidori Katana ficam intocados: a raiz nunca é tocada por esta errata, e o Katana já operava em Perfil Padrão, sem sobretaxa embutida para retirar.
 
@@ -189,7 +189,7 @@ Três razões, em ordem de peso.
 
 **A autoria exige a cadeia.** A raiz está em Autoria Aberta e ninguém no mundo a completou. A ficha do Chidori declara que toda a linhagem de variações passa a existir a partir do momento em que a raiz ganha autor. Sem cadeia dura, uma variação poderia ser comprada antes de existir a técnica de que ela é a remodelagem, e o portão de autoria deixaria de valer.
 
-**A cadeia é o que precifica a família corretamente.** Uma variação isolada custa entre 4.000 e 22.143 de XP, valores que um jounin sustenta como assinatura única. O que a árvore cobra é a soma, e é ela que faz do especialista em Chidori uma escolha de carreira e não um item de lista de compras.
+**A cadeia é o que precifica a família corretamente.** Uma variação isolada custa entre 4.000 e 13.143 de XP, valores que um jounin sustenta como assinatura única. O que a árvore cobra é a soma, e é ela que faz do especialista em Chidori uma escolha de carreira e não um item de lista de compras.
 
 ### Diagrama de dependências
 
@@ -199,7 +199,7 @@ Chidori  (raiz, Autoria Aberta, 8.750)
 ├── Chidori Nagashi     exige caminho Arco
 ├── Chidori Senbon      não exige caminho
 ├── Chidori Eisō        exige caminho Lança
-├── Takemikazuchi       exige Raiton LV6, caminho Ponta, Amaterasu e Kyōka Enton
+├── Takemikazuchi       exige Raiton LV6, caminho Ponta, Amaterasu e Enton LV6
 └── Raikiri             exige Raiton LV6, Moldagem Absoluta e caminho Ponta
 
 Kirin   (fora da árvore, raiz própria, Autoria Aberta)
@@ -220,17 +220,17 @@ O valor da coluna acumulada inclui a raiz.
 | Chidori mais Chidori Katana | 6.533 | 15.283 |
 | Chidori mais Chidori Eisō | 7.467 | 16.217 |
 | Chidori mais Raikiri | 12.143 | 20.893 |
-| Chidori mais Takemikazuchi | 22.143 | 30.893 |
+| Chidori mais Takemikazuchi | 13.143 | 21.893 |
 | Chidori mais as três remodelagens | 16.367 | 25.117 |
-| A árvore inteira | 57.186 | 65.936 |
+| A árvore inteira | 48.186 | 56.936 |
 
-Nenhuma entrada isolada alcança o custo de uma disciplina elemental completa levada ao LV6 em posição de Afinidade, o que mantém a família dentro da hierarquia declarada pelo Manual de Criação de Jutsus, em que a técnica custa menos que a perícia que a gateia. A árvore inteira custa cerca de uma vez e meia aquela disciplina e consome perto de dois quintos do orçamento de um jounin típico, e é essa soma que faz do especialista em Chidori uma escolha de carreira em vez de um item de lista de compras. Na prática nenhum personagem a fecha, porque os dois ramos de rank S cobram portões incompatíveis entre si na mesma ficha.
+Nenhuma entrada isolada alcança o custo de uma disciplina elemental completa levada ao LV6 em posição de Afinidade, o que mantém a família dentro da hierarquia declarada pelo Manual de Criação de Jutsus, em que a técnica custa menos que a perícia que a gateia. A árvore inteira custa cerca de uma vez e meia aquela disciplina e consome pouco mais de um terço do orçamento de um jounin típico, e é essa soma que faz do especialista em Chidori uma escolha de carreira em vez de um item de lista de compras. Na prática nenhum personagem a fecha, porque os dois ramos de rank S cobram portões incompatíveis entre si na mesma ficha.
 
 ### Posição do Kirin e do Shiden
 
 O Kirin não deriva do Chidori e não o exige. Ele não concentra corrente em ponto único, não entrega por contato, não depende de deslocamento e não gera a própria carga. A ficha publicada o posiciona na inclinação Corrente pelo caminho Tempestade, enquanto a raiz da família vive na inclinação Relâmpago pelo caminho Ponta. Ele é parente de compêndio e não de linhagem, e a decisão de arquitetura o preserva exatamente onde ele já está.
 
-O Shiden também fica fora, por três razões independentes: corre por natureza intensificada e não por Raiton comum, dispensa investida e contato, e o portão dele é a Centelha da Kyōka e não a autoria da raiz. A ficha declara a posição na própria entrada.
+O Shiden também fica fora, por três razões independentes: corre por natureza intensificada e não por Raiton comum, dispensa investida e contato, e o portão dele são as duas portas de aquisição da Kyōka, a Centelha na criação de personagem e o treino em jogo por Transmissão ou por Descoberta, e nenhuma delas passa pela autoria da raiz. A ficha declara a posição na própria entrada.
 
 ---
 

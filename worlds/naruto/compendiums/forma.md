@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 2.5
+version: 2.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_de_Forma_v1.md
 ---
 
-# Compêndio de Ninjutsu de Forma · v2.5
+# Compêndio de Ninjutsu de Forma · v2.6
 
 **O que mudou na v2.1.** A Exigência de Moldagem de cada entrada deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado, conforme a Régua de Exigência de Moldagem da Perícia de Controle de Chakra. Rasengan, Ōdama Rasengan e Rasenrengan declaram também o valor efetivo com Assistência de Moldagem, conforme a Linhagem do Rasengan v1.3.
 
@@ -30,7 +30,7 @@ O domínio deste compêndio é a Perícia de Controle de Chakra, e não uma per�
 
 Esta versão incorpora a leva de técnicas base universais, quinze entradas que qualquer shinobi formado pode aprender independente de clã, dōjutsu ou natureza elemental, organizadas em seis famílias táticas: substituição e evasão, clonagem, transformação, escape, deslocamento e contra-genjutsu, mais um bloco de camuflagem e um de manipulação à distância que a pesquisa canônica revelou pertencerem ao mesmo domínio. A nota do documento de sistema da Linhagem do Rasengan, que registrava este compêndio como fechado em exatamente quatro entradas canônicas sem natureza, está superada por esta reissão e corrigida por errata no Briefing que a acompanha.
 
-**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios v2.6. Os níveis, o portão de rank, os degraus de moldagem e as réguas de desperdício, interface e permanência são da Perícia de Controle de Chakra v2. O motor compartilhado das quatro entradas de Rasengan, com o coeficiente técnico, o Fator de Moldagem por nível, a Assistência de Moldagem e a cadeia de derivação, é da Linhagem do Rasengan v1. A Régua de Leitura, motor de oposição entre percepção do observador e Moldagem do executor, é publicada na ficha do Kawarimi no Jutsu e consumida por referência pelas fichas de Bunshin, Shunshin, Kakuremino, Meisaigakure e Tōton. A derivação do preço é da Seção 4.1.1 do Manual de Criação de Jutsus v2.11, e o custo de RC pertence à ficha individual de cada técnica.
+**Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios v2.6. Os níveis, o portão de rank, os degraus de moldagem e as réguas de desperdício, interface e permanência são da Perícia de Controle de Chakra v2. O motor compartilhado das quatro entradas de Rasengan, com o coeficiente técnico, o `w` que ele resolve, a Assistência de Moldagem e a cadeia de derivação, é da Linhagem do Rasengan v1.6. A Régua de Leitura, motor de oposição entre percepção do observador e Moldagem do executor, é publicada na ficha do Kawarimi no Jutsu e consumida por referência pelas fichas de Bunshin, Shunshin, Kakuremino, Meisaigakure e Tōton. A derivação do preço é da Seção 4.1.1 do Manual de Criação de Jutsus v2.11, e o custo de RC pertence à ficha individual de cada técnica.
 
 ---
 

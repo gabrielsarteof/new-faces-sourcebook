@@ -1,7 +1,7 @@
 ---
 id: naruto.system.technique-requirements
 title: "Manual de Requisitos de Técnica"
-version: 2.2
+version: 2.4
 layer: scenario
 scenario: naruto
 type: system
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Requisitos_de_Tecnica_v2.md
 ---
 
-Manual de Requisitos de Técnica · v2.2
+Manual de Requisitos de Técnica · v2.4
 
 Governa os portões de acesso a técnicas do RPG Canônico 1:1 de Naruto. Define o que um shinobi precisa ter na ficha para executar uma técnica, e nada além disso.
 
@@ -48,7 +48,7 @@ O portão de rank de cada domínio é publicado pela perícia daquele domínio, 
 3. Portão de moldagem
 3.1 Dois eixos que não coincidem
 
-O coeficiente técnico mede quanto a técnica recompensa quem tem controle: é o termo de maestria do Fator de Moldagem, declarado por toda técnica do sistema e publicado na Seção 5.3 do Manual de Criação de Jutsus, sem alteração por esta versão.
+O coeficiente técnico mede quanto a técnica recompensa quem tem controle: é o termo que alimenta o `w` da maestria, declarado por toda técnica do sistema e publicado na Seção 5.3 do Manual de Criação de Jutsus, com o `w` lendo metade dele e o `M` escalando a base inteira do dano. Nenhum valor de coeficiente é alterado por esta versão.
 
 Dependência de moldagem	coef_técnica	Exemplo
 A técnica existe pela moldagem	3,0	Rasengan
@@ -57,7 +57,7 @@ Média, a moldagem intensifica o efeito	1,0	Katon genérico, Chidori Nagashi
 Baixa, a moldagem é auxiliar	0,5	Taijutsu infundido simples
 Nenhuma, força bruta	0,0	Projétil sem forma
 
-A Exigência de Moldagem, seção 3.2, mede outra coisa: quanto controle a técnica cobra para existir, e não quanto ela recompensa quem o tem. A correlação entre as duas é fraca. O Rasengan carrega coef_técnica 3,0, o valor máximo, porque o dano dele é inteiramente maestria, e foi aprendido por um genin de doze anos com o pior controle de chakra da geração, em três etapas, com um clone segurando a moldagem: recompensa alta, entrada baixa. O Raikiri é o inverso, coeficiente 2,0 e uma exigência de compressão que quase custou o braço de quem a criou. Os dois eixos correm independentes: o coeficiente técnico continua governando o Fator de Moldagem no dano, e a Exigência deixa de ler dele.
+A Exigência de Moldagem, seção 3.2, mede outra coisa: quanto controle a técnica cobra para existir, e não quanto ela recompensa quem o tem. A correlação entre as duas é fraca. O Rasengan carrega coef_técnica 3,0, o valor máximo, porque o dano dele é inteiramente maestria, e foi aprendido por um genin de doze anos com o pior controle de chakra da geração, em três etapas, com um clone segurando a moldagem: recompensa alta, entrada baixa. O Raikiri é o inverso, coeficiente 2,0 e uma exigência de compressão que quase custou o braço de quem a criou. Os dois eixos correm independentes: o coeficiente técnico continua governando o peso da maestria no dano, pelo `w`, e a Exigência deixa de ler dele.
 
 3.2 A Exigência é declarada, não derivada
 
@@ -131,7 +131,11 @@ Eles convivem com qualquer camada de acesso e não a substituem. Uma técnica de
 
 Resolvidas em v2.1: a ambiguidade do termo bônus_CC, substituído pelo Fator de Moldagem na seção 5.3 do Manual de Criação de Jutsus, que lê nível de perícia e não Base; e o recálculo das âncoras canônicas de validação, que passaram a ser publicadas por nível de Controle de Chakra.
 
-Resolvida em v2.2: a régua de seis degraus nomeados da Exigência de Moldagem, revogada pela seção 3.2, com a Exigência de cada técnica publicada passando a número contínuo declarado por entrada de compêndio. O termo bônus_CC segue sobrevivendo em `Template_Documento_Tecnica_v3.md`, que continua instruindo o autor a usá-lo e a publicar coluna de descarga com ele: a errata está aberta contra o template e não contra este documento.
+Resolvida em v2.3: as duas citações da seção 3.1 ao Fator de Moldagem somado, termo que a Seção 5.3 do Manual de Criação de Jutsus revogou. O coeficiente técnico permanece exatamente onde estava e com os mesmos valores, e passa a ser descrito como o termo que alimenta o `w`. Nenhum portão, nenhuma tabela de coeficiente e nenhuma Exigência publicada mudou.
+
+Resolvida em v2.2: a régua de seis degraus nomeados da Exigência de Moldagem, revogada pela seção 3.2, com a Exigência de cada técnica publicada passando a número contínuo declarado por entrada de compêndio.
+
+Extinta em v2.4: a errata que a v2.2 abriu contra `Template_Documento_Tecnica_v3.md` pela sobrevivência do termo bônus_CC. O arquivo não existe no corpus sob esse nome, e o sucessor dele, `core/technique-template.md`, não carrega o termo em passagem alguma. A errata não tem alvo.
 
 9. Documentos relacionados
 

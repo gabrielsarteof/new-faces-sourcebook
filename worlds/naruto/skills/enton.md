@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.enton
 title: "Enton (炎遁)"
-version: 1.3
+version: 1.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: Pericia_Enton_v1.md
 ---
 
-ENTON (炎遁) · A Chama Negra · v1.3
+ENTON (炎遁) · A Chama Negra · v1.5
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -98,20 +98,25 @@ IDENTIDADE
 
 Camada subclasse, sobre o portão do Katon. Regente INT, categoria Ninjutsu ×1,5. Eixo elemental, com Katon, Raiton, Fūton, Suiton e Doton.
 
-Multiplicador de dano 2,10, ocupando o lugar do 1,60 do Fogo em toda entrega de chama negra. `[canon]` A fonte declara o Amaterasu o ninjutsu de Katon de nível mais alto da série, e o valor é a leitura direta dessa declaração dentro da faixa de multiplicadores do Sistema Elemental. Nenhuma outra intensificação de nenhum elemento ocupa posição equivalente na obra, e o número existe para preservar essa posição na mesa. As técnicas de Katon comum do mesmo portador continuam lendo 1,60.
+Multiplicador de dano 2,10 na entrega térmica, ocupando o lugar do 1,61 do Fogo em toda entrega de chama negra, com a decomposição em Constante de Moldagem comum de 1,40 e Assinatura do fogo negro de 1,50 publicada na seção de entrega. `[canon]` A fonte declara o Amaterasu o ninjutsu de Katon de nível mais alto da série, e o valor é a leitura direta dessa declaração dentro da faixa de multiplicadores do Sistema Elemental. Nenhuma outra intensificação de nenhum elemento ocupa posição equivalente na obra, e o número existe para preservar essa posição na mesa. As técnicas de Katon comum do mesmo portador continuam lendo 1,61.
 
 COMO A ENTREGA RESOLVE DANO
 
 O motor é o da Família de Dano do Manual de Criação de Jutsus, sem redefinição.
 
 ```
-dano bruto = 5 × RC_limpa × coef_entrega × 2,10 × M
+dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
+
+mult_Tipo na entrega térmica = 1,40 × 1,50 = 2,10
+mult_Tipo nos vetores físicos = 1,40 × 1,00 = 1,40
 
 M = 1 + w × (P − P_ref) ÷ P_ref          piso de M: 0,5
 w = coef_técnica da ficha ÷ 2
 ```
 
-O 2,10 ocupa a casa do `mult_Tipo`, e ocupa-a inteira. Nas demais naturezas aquela casa se decompõe em Constante de Moldagem multiplicada pela Assinatura do vetor declarado, e o Enton ainda não tem essa leitura publicada: o Sistema Elemental registra que os multiplicadores da camada Kyōka serão republicados sobre a base nova, e a chama negra saiu daquele catálogo antes da republicação acontecer. Enquanto ela não chegar, o valor entra como número único, e a decomposição é dependência aberta com dono nomeado abaixo.
+O 2,10 ocupa a casa do `mult_Tipo` e se decompõe nas duas camadas que o Sistema Elemental publica. A Constante de Moldagem fica na comum de 1,40, porque a moldagem da chama negra rende o mesmo por unidade de chakra, e o que o portador faz de diferente é dar forma, competência que esta perícia cobra em caminho e em régua. A Assinatura do fogo negro vale 1,50 e entra na tabela do Sistema Elemental como a quarta, lida da declaração canônica de que a chama consome qualquer material, outras chamas incluídas, até restar apenas cinza. A declaração de nível mais alto de Katon sustenta o rank das obras da natureza e fica reservada a ele, porque nível e letalidade são grandezas distintas.
+
+**A régua do vetor vale aqui sem exceção.** A Assinatura do fogo negro se lê quando a obra entrega Energia térmica. A obra de Enton que declara Corte ou Penetração, como a lâmina e a flecha do Kagutsuchi, lê Assinatura de vetor físico em 1,00 e resolve o `mult_Tipo` em 1,40. O que a chama deixa depois do golpe entra pelo rider de Queimadura e pela cláusula de não extinção que esta perícia publica, e a leitura acompanha o cânone, que descreve uma chama de queima lenta cujo poder está na permanência.
 
 O `M` é a escala da maestria, lida da perícia governante contra o executor de referência do rank da obra. Ele multiplica a base inteira em lugar de somar um termo ao lado dela, e é por isso que a mesma chama entrega proporções diferentes na mão do praticante formado e na de quem apenas acendeu.
 
@@ -440,8 +445,6 @@ DEPENDÊNCIAS E SUBSISTEMAS DECLARADOS
 
 **RC nominal do Amaterasu.** A ficha do Amaterasu no Compêndio de Katon publica requisito e prosa sem publicar RC nominal, e o motor de entrega desta perícia lê aquela grandeza. Enquanto a lacuna existir, a mesa resolve pela RC declarada no ato conforme o caminho Fonte, e a ficha entra na fila de errata. Dono pendente: documento do Mangekyō Sharingan, com propagação no Compêndio de Katon.
 
-**Decomposição do 2,10 em Constante de Moldagem e Assinatura.** O motor de dano vigente lê o `mult_Tipo` como produto de duas camadas com donos distintos, e o multiplicador desta perícia atravessa a casa sem se partir nelas. A Assinatura publicada oferece 1,00 para Impacto, Corte e Penetração, 1,15 para a Energia térmica e 1,25 para a elétrica, e nenhuma delas fecha o 2,10 contra a Constante de 1,40. Escolher um par aqui seria publicar número que a fonte não publica, e o valor espera a republicação dos Kyōka sobre a base nova, que o Sistema Elemental já registra como devida. Dono pendente: Naturezas Avançadas, com propagação no Sistema Elemental.
-
 **Compêndio de Enton.** Não existe ainda. Enquanto ele não nascer, as obras nomeadas de chama negra correm pelas fichas do Compêndio de Katon com as cláusulas desta perícia aplicadas por cima, e o Amaterasu permanece na categoria especial daquele compêndio como técnica do dōjutsu.
 
 NOTA DE NOMEAÇÃO
@@ -453,6 +456,10 @@ REGISTRO DE VERSÃO
 v1. Documento inicial, nascido da auditoria de fundamentos do Enton em segunda passada, com validação canônica contra o verbete de Katon, o verbete do Amaterasu, a ficha do Enton: Kagutsuchi e a ficha do Enton: Susanoo Kagutsuchi. Nascem a fronteira contra o Mangekyō, a leitura de um olho, as três inclinações com dez caminhos, as seis réguas transversais e a transcendência Ame-no-Ohabari. O multiplicador 2,10 migra de Naturezas Avançadas para este documento com a justificativa reescrita a partir da declaração de nível mais alto de Katon, e deixa de correr pela fórmula da camada Kyōka. Três erratas nascem desta passada e estão aplicadas: a saída do Enton do catálogo de Kyōka, a referência cruzada no documento do Mangekyō Sharingan e a referência cruzada no documento do Susanoo.
 
 v1.1. Aplica a seção 13 do Manual de Criação de Perícias v7.4: cada transcendência de LV6 passa a nomear, além do requisito geral de todos os caminhos possuídos Aprofundados, a composição própria de caminhos que a habilitam. Ame-no-Ohabari ganha o pré-requisito Extinção Aprofundada, o caminho cujos dois efeitos, Sopro e Recolhimento, ela eleva. Antes desta versão, aprofundar qualquer caminho isolado da perícia, mesmo um alheio à Extinção, destravava a transcendência inteira. Nenhum outro campo muda.
+
+v1.5. As duas passagens que citavam o produto do Fogo comum em 1,60 passam a citar 1,61, que é a Constante de Moldagem de 1,40 multiplicada pela Assinatura térmica de 1,15 e o valor que o Sistema Elemental e a tabela de validação do Manual de Criação de Jutsus publicam. O 1,60 era leitura anterior à partição do termo de tipo em Constante e Assinatura. Nenhum valor desta perícia mudou.
+
+v1.4. A dependência aberta da decomposição fecha. O 2,10 permanece exatamente onde estava, na casa do `mult_Tipo`, e passa a publicar as duas parcelas, com a Constante de Moldagem comum de 1,40 multiplicada pela Assinatura do fogo negro de 1,50, que o Sistema Elemental v9.4 acolhe como a quarta linha da tabela de Assinaturas. Entra a régua do vetor, com a Assinatura do fogo negro lida apenas na entrega de Energia térmica e a obra de Corte ou de Penetração resolvendo em 1,40, e a permanência da chama entrando pelo rider de Queimadura e pela cláusula de não extinção que esta perícia já publicava. A citação à republicação pendente dos multiplicadores Kyōka sai, porque Naturezas Avançadas v8 a cumpriu. As inclinações, os caminhos, a transcendência, os portões, as réguas e o requisito de olhos permanecem sem alteração.
 
 v1.3. A seção de entrega troca a forma do motor de dano pela que a Seção 5.3 do Manual de Criação de Jutsus publica desde o Consolidado. O Fator de Moldagem somado morreu como termo, e a maestria passou a escalar a base inteira pelo `M`, com o `w` lendo metade do coeficiente técnico da ficha e o piso de 0,5 preservado. A base ganha o fator 5 e passa a ler a RC limpa, o volume que a técnica põe em campo antes de qualquer sobretaxa de Perfil de Evasão. O 2,10 permanece exatamente onde estava, na casa do `mult_Tipo`, e a decomposição dele em Constante de Moldagem e Assinatura entra na fila de dependências à espera da republicação dos Kyōka. Nenhum número desta perícia mudou.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.rasenrengan
 title: "Rasenrengan (螺旋連丸)"
-version: 1.2
+version: 1.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -100,7 +100,7 @@ A perícia governante é o Controle de Chakra, e o `P` é o atributo regente del
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, na faixa correspondente ao rank A.
 
 A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
 
@@ -110,12 +110,9 @@ A tabela é indexada ao `P` do Controle de Chakra, porque é o `P` que o motor l
 | 148, referência do rank | 1,000 | 600 | 31,3% |
 | 180 | 1,324 | 795 | 41,4% |
 
-O rendimento total depende da distribuição das duas esferas. Os valores abaixo assumem LV_CC 6.
+**Valor de campo.** A cláusula de área e a de multiplicidade da Seção 5.2 do Manual de Jutsus leem o valor de campo, que é o total que a obra põe em campo. Medido no executor de referência do rank, o valor de campo desta entrada resolve em 62,5% do par do rank, somando as duas esferas, e o piso de 40% do rank A está cumprido. Os 31,3% por esfera permanecem leitura de mesa e nunca foram a grandeza que a banda mede.
 
-| Distribuição | Dano entregue | Comparação com o Rasengan base |
-|---|---|---|
-| uma esfera em cada um de dois alvos | 390 por alvo | 100% por alvo |
-| duas esferas no mesmo alvo | 780 no alvo, com a segunda sem mitigação | acima de 200% |
+O rendimento total depende da distribuição das duas esferas. A tabela acima entrega o dano por esfera, e a mesa soma conforme a distribuição declarada, com uma esfera em cada um de dois alvos ou as duas no mesmo alvo, caso em que a segunda chega sem mitigação.
 
 ---
 
