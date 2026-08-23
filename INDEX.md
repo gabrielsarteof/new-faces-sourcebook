@@ -246,20 +246,20 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
 | [Barreira](worlds/naruto/skills/barreira.md) | `naruto.skill.barreira` | 1.1 | skill | final |
-| [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 3.7 | skill | final |
+| [Controle de Chakra](worlds/naruto/skills/chakra-control.md) | `naruto.skill.chakra-control` | 3.8 | skill | final |
 | [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2.3 | skill | final |
-| [Enton (炎遁)](worlds/naruto/skills/enton.md) | `naruto.skill.enton` | 1.2 | skill | final |
+| [Enton (炎遁)](worlds/naruto/skills/enton.md) | `naruto.skill.enton` | 1.3 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.5 | skill | final |
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.6 | skill | final |
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.4 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 4.2 | skill | final |
 | [Kunai](worlds/naruto/skills/kunai.md) | `naruto.skill.kunai` | 1.4 | skill | final |
-| [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1.2 | skill | final |
+| [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1.3 | skill | final |
 | [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1.4 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.2 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.30 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.31 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.3 | skill | final |
-| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.6 | skill | final |
+| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.7 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.5 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Shuriken](worlds/naruto/skills/shuriken.md) | `naruto.skill.shuriken` | 1.4 | skill | final |

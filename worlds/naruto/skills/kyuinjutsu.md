@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.kyuinjutsu
 title: "Kyūinjutsu"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -102,7 +102,7 @@ CAPTURA. Fração da RC nominal de um jutsu alheio que Interceptação retira em
 RC capturada = RC nominal da obra × √(teste ÷ 205)
 ```
 
-Limitada pela recepção segura declarada, a obra interceptada segue com a RC nominal restante, e o dano dela recalcula pela fórmula publicada do Índice de Desperdício sobre a RC nominal reduzida, sem tocar o Fator de Moldagem, que pertence à moldagem de quem executou a obra e não a quem a interceptou. Resolvido: o interceptador de LV4 arranca 77% de uma obra, 85% no LV5, 92% no LV6. Aparar uma obra é o padrão do caminho; comê-la inteira é o que a transcendência abre.
+Limitada pela recepção segura declarada, a obra interceptada segue com a RC nominal restante, e o dano dela recalcula pela fórmula publicada do Índice de Desperdício sobre a RC nominal reduzida, sem tocar o `M`, a escala de maestria que pertence à moldagem de quem executou a obra e não a quem a interceptou. Resolvido: o interceptador de LV4 arranca 77% de uma obra, 85% no LV5, 92% no LV6. Aparar uma obra é o padrão do caminho; comê-la inteira é o que a transcendência abre.
 
 SANGUESSUGA. Fração do dano entregue por arma infundida por Lâmina Sedenta que se converte em RC própria. Lê a especialização de Lâmina Sedenta.
 
@@ -265,6 +265,11 @@ Slot Voragem: permanece vazio até que o Meiton seja retrabalhado. Preenchê-lo 
 ═══════════════════════════════════════════════════════════════════
 
 REGISTRO DE ALTERAÇÕES
+
+v1.3
+
+• A régua de Captura deixa de nomear o Fator de Moldagem, termo somado que a Seção 5.3 do Manual de Criação de Jutsus aposentou quando o motor de dano passou a multiplicar a base pela maestria. A cláusula lê o `M`, que ocupa o lugar da mesma grandeza na forma nova, e o sentido atravessa intacto: a escala de maestria pertence a quem executou a obra, e o interceptador não a herda ao arrancar volume dela
+• Nenhum número desta perícia mudou. A fração capturada, o neutro de 205 e os três valores resolvidos seguem como estavam, porque a régua nunca leu a grandeza trocada, apenas declarava o que ela não alcança
 
 v1.1
 

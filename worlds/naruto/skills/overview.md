@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.30
+version: 2.31
 layer: scenario
 scenario: naruto
 type: skill
@@ -10,6 +10,8 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 ---
 
 # Índice de Perícias do Sistema
+
+**v2.31. O Fator de Moldagem somado morre nas perícias, e duas devoluções saem em vez de escolha. Controle de Chakra v3.8, Enton v1.3, Kyūinjutsu v1.3 e Raiton v3.7 deixam de ler o termo que a Seção 5.3 do Manual de Criação de Jutsus aposentou quando a maestria passou a multiplicar a base pelo `M`. O canal por onde o Controle de Chakra entrava no cálculo de potência fecha, porque portão não soma em motor.**
 
 **v2.27. O Alvo 7 da Errata E1 fecha nas sete perícias de natureza. Katon, Raiton, Doton, Fūton, Suiton, Liberação de Yin e Liberação de Yang deixam de republicar o Limite de Saída como universal em vinte por cento da RC e passam a apontar o dono, com a largura lida da posição do executor na natureza, na forma que a Perícia de Enton já usava. Naturezas Avançadas recebe a mesma correção numa oitava ocorrência que a errata não enumerava. O Registro de Regentes e o Registro de Conformidade acompanham as versões novas, e Senjutsu e Katon, que estavam defasados por passadas anteriores, também. Entra na seção 8 a colisão registrada da transcendência Raio Seco, sem resolução.**
 
@@ -41,11 +43,11 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 
 | Perícia | Versão | Regente | Categoria de custo |
 |---|---|---|---|
-| Controle de Chakra | v3.3 | SAB | Chakra ×1,4 |
+| Controle de Chakra | v3.8 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2.5 | RES | Chakra ×1,4 |
 | Katon | v4.2 | INT | Ninjutsu ×1,5 |
-| Raiton | v3.5 | INT | Ninjutsu ×1,5 |
+| Raiton | v3.7 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.6 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.5 | INT | Ninjutsu ×1,5 |
 | Doton | v2.3 | INT | Ninjutsu ×1,5 |
@@ -56,7 +58,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
 | Passagem | v1.1 | INT | Erudição ×1,7 |
 | Barreira | v1 | SAB | Erudição ×1,7 |
-| Kyuinjutsu | v1 | INT | Chakra ×1,4 |
+| Kyuinjutsu | v1.3 | INT | Chakra ×1,4 |
 | Kenpo | v1 | DES | Físico ×1,0 |
 | Taekwondo | v1 | VEL | Físico ×1,0 |
 | Taichi | v1 | DES | Físico ×1,0 |
@@ -426,17 +428,17 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4.2, Raiton v3.5, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Katon v4.2, Raiton v3.7, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
 | Liberação de Yin v4.4, Liberação de Yang v4.5 | conforme |
 | Ninjutsu Médico v3 | conforme |
-| Controle de Chakra v3.3 | conforme |
+| Controle de Chakra v3.8 | conforme |
 | Sensoriamento v2.2 | conforme |
 | Genjutsu v1.3 | conforme, com uma ressalva de vocabulário |
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2.2 | conforme |
 | Barreira v1 | conforme |
-| Kyuinjutsu v1 | conforme |
+| Kyuinjutsu v1.3 | conforme |
 | Kenpo v1 | conforme |
 | Taekwondo v1 | conforme |
 | Taichi v1 | conforme |
@@ -454,7 +456,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Vinte e sete, das quais cinco aplicadas. Vinte e duas seguem abertas.
+Vinte e nove, das quais cinco aplicadas. Vinte e quatro seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -463,6 +465,8 @@ Vinte e sete, das quais cinco aplicadas. Vinte e duas seguem abertas.
 | ~~Integrar o Adendo da seção 4.1.3 ao corpo principal~~ — **aplicada na v2.3** | Manual de Criação de Jutsus v2 |
 | ~~Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações~~ — **aplicada na v7.1** | Manual de Criação de Perícias v7, seção 7 |
 | ~~Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um~~ — **aplicada na v2.2** | Núcleo de Perícias v2, seção 1 |
+| Dar casa ao verbo Fio do Céu, do caminho Tempestade, que somava de 9 a 13 ao Fator de Moldagem e ficou sem grandeza para incidir quando o termo somado morreu. Somar ao `P` mudaria a proporção e nenhum documento publica caminho de perícia elevando o `P`; somar ao `w` faria condição de cena mexer em coeficiente da ficha; multiplicar a base pediria percentual que a régua nunca declarou. A escolha é de desenho | Manual de Criação de Jutsus, seção 5.3, com propagação em Raiton v3.7 |
+| Reescrever a âncora de dano do Chidori no Controle de Chakra, cuja conclusão não sobreviveu ao recálculo. Sob o motor multiplicativo os dois executores deixam de entregar o mesmo número, porque o `M` lê o `P` do Raiton, e nomear aquele `P` dentro do documento de Controle de Chakra contraria a regra do porteiro. A tabela do recálculo está publicada na seção de pendências daquele documento como evidência | Controle de Chakra v3.8 |
 | Corrigir o apontamento de Eco de Presença, que exige o caminho Sinal | Genjutsu v1.1 |
 | Registrar o multiplicador de 65 do LV5 e a soma revogada pelo Apagamento no LV6 | Genjutsu v1.1 |
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
@@ -492,6 +496,14 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.31.** O Fator de Moldagem somado sai das perícias que ainda o liam. A Seção 5.3 do Manual de Criação de Jutsus trocou a forma do motor de dano quando absorveu o Consolidado, e a parcela de maestria deixou de ser um termo somado ao lado da conversão para virar o `M`, que escala a base inteira e lê o `P` da perícia governante que a ficha da obra declara. Quatro documentos ainda publicavam a forma morta, e três deles não estavam na lista que a errata do Núcleo de Combate enumerava, o que confirma pela terceira passada seguida que varredura por conteúdo acha o que lista de donos não acha.
+
+Controle de Chakra sobe para v3.8 e é a mudança de fundo. A perícia declarava que o nível dela alimentava o motor de dano de toda técnica do cenário, pelo LV_CC dentro do Fator de Moldagem, e a Seção 5.2 daquele manual fecha a leitura dizendo que o Controle de Chakra permanece portão universal e que portão não soma em motor. O domínio conserva o Índice de Desperdício e a Régua de Exigência, as duas lidas por teste, e perde o canal de potência. A leitura antiga segue valendo apenas dentro dos documentos que ainda publicam a forma somada, entre eles a Linhagem do Rasengan, e a nota está escrita no lugar onde a régua morava.
+
+Enton sobe para v1.3 com a forma nova da fórmula de entrega, e o multiplicador 2,10 permanece na casa do `mult_Tipo` sem se decompor em Constante de Moldagem e Assinatura, porque a republicação dos multiplicadores da camada Kyōka sobre a base nova ainda não aconteceu. Kyūinjutsu sobe para v1.3 com a régua de Captura lendo o `M` no lugar do termo somado, sem que número algum mude. Raiton sobe para v3.7 com o verbo Fio do Céu marcado como devolução.
+
+As duas devoluções entram na seção 8 e não se resolvem aqui. O Fio do Céu somava de nove a treze pontos a um termo que não existe mais, e as três casas possíveis do motor novo, o `P`, o `w` e a base, exigiriam cada uma uma régua que nenhum documento publica. A âncora do Chidori no Controle de Chakra, que dizia que Kakashi e Sasuke entregam ambos 443 de dano, foi recalculada e a conclusão não sobreviveu: sob o `M` os dois deixam de entregar o mesmo número, porque a maestria lida é a de Raiton e não a de Controle de Chakra, e a tabela do recálculo ficou publicada como evidência no lugar da frase. O que sobrevive é a razão dela, que o desperdício vira cansaço e janela e nunca potência, agora verdadeira por motivo mais forte.
 
 **v2.28.** A colisão do Raio Seco, aberta na v2.27, fecha sem que número algum mude. As duas leituras nunca foram incompatíveis: o motor de vetores proíbe o Raio ignorar Absorção por ser Raio, como propriedade automática da natureza, e a proibição segue inteira para o Raiton; o Raio Seco é compra nomeada, paga em XP, com pré-requisito de caminhos e dono declarado, e a Linhagem do Chidori já o registrava como a única do sistema que devolve perfuração a uma forma disparada de longe. Elemento não ganha vantagem de graça, e executor compra vantagem com preço e dono, no mesmo padrão do canal de compressão da maestria na velocidade. A nota da própria transcendência foi reescrita na mesma leitura, e o Raiton sobe para v3.5.
 
