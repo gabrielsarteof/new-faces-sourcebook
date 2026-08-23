@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.30
+version: 2.32
 layer: scenario
 scenario: naruto
 type: skill
@@ -10,6 +10,10 @@ source-file: Indice_de_Pericias_do_Sistema_v1.md
 ---
 
 # Índice de Perícias do Sistema
+
+**v2.32. O Enton entra no Registro de Regentes e no de Conformidade, ausência de propagação herdada da publicação da perícia.**
+
+**v2.31. O Fator de Moldagem somado morre nas perícias, e duas devoluções saem em vez de escolha. Controle de Chakra v3.8, Enton v1.3, Kyūinjutsu v1.3 e Raiton v3.7 deixam de ler o termo que a Seção 5.3 do Manual de Criação de Jutsus aposentou quando a maestria passou a multiplicar a base pelo `M`. O canal por onde o Controle de Chakra entrava no cálculo de potência fecha, porque portão não soma em motor.**
 
 **v2.27. O Alvo 7 da Errata E1 fecha nas sete perícias de natureza. Katon, Raiton, Doton, Fūton, Suiton, Liberação de Yin e Liberação de Yang deixam de republicar o Limite de Saída como universal em vinte por cento da RC e passam a apontar o dono, com a largura lida da posição do executor na natureza, na forma que a Perícia de Enton já usava. Naturezas Avançadas recebe a mesma correção numa oitava ocorrência que a errata não enumerava. O Registro de Regentes e o Registro de Conformidade acompanham as versões novas, e Senjutsu e Katon, que estavam defasados por passadas anteriores, também. Entra na seção 8 a colisão registrada da transcendência Raio Seco, sem resolução.**
 
@@ -41,14 +45,15 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 
 | Perícia | Versão | Regente | Categoria de custo |
 |---|---|---|---|
-| Controle de Chakra | v3.3 | SAB | Chakra ×1,4 |
+| Controle de Chakra | v3.8 | SAB | Chakra ×1,4 |
 | Sensoriamento | v2.2 | PRE | Chakra ×1,4 |
 | Senjutsu | v2.5 | RES | Chakra ×1,4 |
 | Katon | v4.2 | INT | Ninjutsu ×1,5 |
-| Raiton | v3.5 | INT | Ninjutsu ×1,5 |
+| Raiton | v3.7 | INT | Ninjutsu ×1,5 |
 | Fūton | v2.6 | INT | Ninjutsu ×1,5 |
 | Suiton | v2.5 | INT | Ninjutsu ×1,5 |
 | Doton | v2.3 | INT | Ninjutsu ×1,5 |
+| Enton | v1.3 | INT | Ninjutsu ×1,5 |
 | Liberação de Yin | v4.4 | INT | Ninjutsu ×1,5 |
 | Liberação de Yang | v4.5 | RES | Ninjutsu ×1,5 |
 | Genjutsu | v1.2 | INT | Erudição ×1,7 |
@@ -56,19 +61,19 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Fūinjutsu | v1.4 | INT | Erudição ×1,7 |
 | Passagem | v1.1 | INT | Erudição ×1,7 |
 | Barreira | v1 | SAB | Erudição ×1,7 |
-| Kyuinjutsu | v1 | INT | Chakra ×1,4 |
+| Kyuinjutsu | v1.3 | INT | Chakra ×1,4 |
 | Kenpo | v1 | DES | Físico ×1,0 |
-| Taekwondo | v1 | VEL | Físico ×1,0 |
+| Taekwondo | v1.4 | VEL | Físico ×1,0 |
 | Taichi | v1 | DES | Físico ×1,0 |
 | Tantō | v1 | DES | Físico ×1,0 |
 | Leque | v1 | FOR | Prático ×1,1 |
 | Kunai | v1 | DES | Físico ×1,0 |
-| Shuriken | v1 | DES | Físico ×1,0 |
+| Shuriken | v1.5 | DES | Físico ×1,0 |
 | Katana | v1 | DES | Físico ×1,0 |
 | Wing Chun | v1 | DES | Físico ×1,0 |
 | Aikidō | v1 | VEL | Físico ×1,0 |
 
-Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão. Kyuinjutsu é a décima primeira perícia do eixo INT e opera energia bruta já em trânsito por outro corpo ou meio, o mesmo critério que a separa de Ninjutsu. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos. Taichi e Tantō chegam na mesma passada que Kenpo e Taekwondo, os quatro do eixo físico, e os quatro moram em `worlds/common/skills/`, fora da árvore do Naruto, porque nenhuma linha de nenhum dos quatro lê fato de cenário — a nota logo abaixo do Registro de Fronteira explica por que perícias sem cenário ainda entram neste índice. Leque é a primeira do degrau Prático ×1,1 do corpus: é subclasse do Fūton, e a categoria acompanha a obra que a origina, não o eixo físico que a hospedaria se fosse escola marcial genérica. Kunai é a quinta entrada do degrau Físico e a primeira armada cujo portão de rank é lido por ficha de técnica externa: a linhagem do Hiraishin cobrava requisito de perícia de arma pendente desde a publicação da Execução do Deus do Trovão Voador, e essa dívida fecha nesta passada. Shuriken é a sexta, e a segunda a preencher o rótulo canônico de shurikenjutsu junto do Kunai: densidade menor por inventário, três inclinações e seis caminhos, sem portão de rank, porque nenhuma ficha de técnica cita esta perícia como requisito. Katana é a sétima do degrau Físico e a terceira arma de lâmina do índice, ao lado de Tantō e Kunai: lê DES como as duas, preenche o rótulo canônico de kenjutsu do mesmo jeito que Kunai e Shuriken já preenchem shurikenjutsu, e a distinção contra o Tantō, a única outra lâmina curta do corpus, está publicada no próprio documento — perfuração de estrutura contra Guarda elevada de um lado, corte amplo a partir de posição já revelada do outro. Wing Chun é a oitava, e volta a ser escola desarmada de corpo depois de Kenpo, Taekwondo e Taichi: lê DES, e a fronteira contra as duas vizinhas mais próximas, Kenpo pela fusão ataque-defesa e Taichi pelo contato sustentado, está publicada dentro do próprio documento como nota de distinção e não como redesenho, pela leitura corrigida de que parentesco temático entre escolas reais não é duplicação de sistema. Aikidō é a nona, e a segunda do degrau Físico a compartilhar regente com um domínio fora do próprio eixo: lê VEL, o mesmo da Taekwondo, pela mesma leitura que já autoriza dois documentos substitutos a compartilhar atributo quando a distinção de verbo já está provada dentro de cada um. Aikidō também é a primeira perícia deste índice a nascer de material obsoleto auditado: a inclinação de percepção à distância que a versão anterior carregava não sobreviveu, por duplicar o Sensoriamento em identidade mecânica literal e não em parentesco de família.
+Barreira faltava nesta tabela desde a própria publicação, um esquecimento de propagação e não uma decisão, e o Enton faltava pelo mesmo motivo. O Enton é a primeira natureza avançada do corpus a sair do catálogo de Kyōka e virar perícia própria, em vez de inclinação de extensão manifestada hospedada, e a razão que o documento publica é de camada: as demais Kyōka intensificam um único elemento e respondem às perguntas do domínio hospedeiro, e a chama negra abre perguntas que o Katon não formula em nível nenhum. Lê INT como as cinco elementais e o mesmo Ninjutsu ×1,5, e carrega o multiplicador de dano 2,10 que migrou do catálogo de Kyōka junto com ela. Kyuinjutsu é a décima primeira perícia do eixo INT e opera energia bruta já em trânsito por outro corpo ou meio, o mesmo critério que a separa de Ninjutsu. Kenpo é a primeira entrada do eixo físico, sob a categoria Físico que a Economia de XP sempre publicou ao lado das do eixo do chakra, sem exigir categoria nova. Taekwondo é a segunda, e a primeira a compartilhar regente com um domínio já existente fora do eixo físico: ela lê VEL, o mesmo do Muay Thai que só existe como dado de aplicação. A leitura por eixo do Núcleo de Perícias §1 não se aplica ali, porque Muay Thai não é documento deste corpus, mas a distinção que o documento de Taekwondo já prova, caminho a caminho contra o Chutador daquela escola, é a mesma peça que a regra de regentes distintos pediria se houvesse dois documentos. Taichi e Tantō chegam na mesma passada que Kenpo e Taekwondo, os quatro do eixo físico, e os quatro moram em `worlds/common/skills/`, fora da árvore do Naruto, porque nenhuma linha de nenhum dos quatro lê fato de cenário — a nota logo abaixo do Registro de Fronteira explica por que perícias sem cenário ainda entram neste índice. Leque é a primeira do degrau Prático ×1,1 do corpus: é subclasse do Fūton, e a categoria acompanha a obra que a origina, não o eixo físico que a hospedaria se fosse escola marcial genérica. Kunai é a quinta entrada do degrau Físico e a primeira armada cujo portão de rank é lido por ficha de técnica externa: a linhagem do Hiraishin cobrava requisito de perícia de arma pendente desde a publicação da Execução do Deus do Trovão Voador, e essa dívida fecha nesta passada. Shuriken é a sexta, e a segunda a preencher o rótulo canônico de shurikenjutsu junto do Kunai: densidade menor por inventário, três inclinações e seis caminhos, sem portão de rank, porque nenhuma ficha de técnica cita esta perícia como requisito. Katana é a sétima do degrau Físico e a terceira arma de lâmina do índice, ao lado de Tantō e Kunai: lê DES como as duas, preenche o rótulo canônico de kenjutsu do mesmo jeito que Kunai e Shuriken já preenchem shurikenjutsu, e a distinção contra o Tantō, a única outra lâmina curta do corpus, está publicada no próprio documento — perfuração de estrutura contra Guarda elevada de um lado, corte amplo a partir de posição já revelada do outro. Wing Chun é a oitava, e volta a ser escola desarmada de corpo depois de Kenpo, Taekwondo e Taichi: lê DES, e a fronteira contra as duas vizinhas mais próximas, Kenpo pela fusão ataque-defesa e Taichi pelo contato sustentado, está publicada dentro do próprio documento como nota de distinção e não como redesenho, pela leitura corrigida de que parentesco temático entre escolas reais não é duplicação de sistema. Aikidō é a nona, e a segunda do degrau Físico a compartilhar regente com um domínio fora do próprio eixo: lê VEL, o mesmo da Taekwondo, pela mesma leitura que já autoriza dois documentos substitutos a compartilhar atributo quando a distinção de verbo já está provada dentro de cada um. Aikidō também é a primeira perícia deste índice a nascer de material obsoleto auditado: a inclinação de percepção à distância que a versão anterior carregava não sobreviveu, por duplicar o Sensoriamento em identidade mecânica literal e não em parentesco de família.
 
 ### Por que o eixo do chakra tem três categorias, e não uma
 
@@ -426,24 +431,25 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 | Perícia | Núcleo v2.2 e Manual v7.2 |
 |---|---|
-| Katon v4.2, Raiton v3.5, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
+| Katon v4.2, Raiton v3.7, Doton v2.3, Fūton v2.6, Suiton v2.5 | conforme, com a errata do Núcleo sobre o estado Transcendido pelo Ápice |
 | Liberação de Yin v4.4, Liberação de Yang v4.5 | conforme |
 | Ninjutsu Médico v3 | conforme |
-| Controle de Chakra v3.3 | conforme |
+| Controle de Chakra v3.8 | conforme |
 | Sensoriamento v2.2 | conforme |
+| Enton v1.3 | conforme |
 | Genjutsu v1.3 | conforme, com uma ressalva de vocabulário |
 | Fūinjutsu v1.4 | conforme, com a mesma ressalva |
 | Passagem v1.1 | conforme |
 | Senjutsu v2.2 | conforme |
 | Barreira v1 | conforme |
-| Kyuinjutsu v1 | conforme |
+| Kyuinjutsu v1.3 | conforme |
 | Kenpo v1 | conforme |
-| Taekwondo v1 | conforme |
+| Taekwondo v1.4 | conforme |
 | Taichi v1 | conforme |
 | Tantō v1 | conforme |
 | Leque v1 | conforme |
 | Kunai v1 | conforme |
-| Shuriken v1 | conforme |
+| Shuriken v1.5 | conforme |
 | Katana v1 | conforme |
 | Wing Chun v1 | conforme |
 | Aikidō v1 | conforme |
@@ -454,7 +460,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 
 ## 8. Erratas Abertas do Sistema de Perícias
 
-Vinte e sete, das quais cinco aplicadas. Vinte e duas seguem abertas.
+Trinta, das quais cinco aplicadas. Vinte e cinco seguem abertas.
 
 | Errata | Documento |
 |---|---|
@@ -463,6 +469,9 @@ Vinte e sete, das quais cinco aplicadas. Vinte e duas seguem abertas.
 | ~~Integrar o Adendo da seção 4.1.3 ao corpo principal~~ — **aplicada na v2.3** | Manual de Criação de Jutsus v2 |
 | ~~Resolver o teto de inclinações contra o Núcleo v2 seção 3.3, e registrar na mesma passada que transcendência é camada à parte, que a contagem delas não é indexada pela partição e que o pré-requisito atravessa inclinações~~ — **aplicada na v7.1** | Manual de Criação de Perícias v7, seção 7 |
 | ~~Declarar que a exigência de regentes distintos vale entre eixos e não dentro de um~~ — **aplicada na v2.2** | Núcleo de Perícias v2, seção 1 |
+| Escrever a linha do Enton no Registro de Portão Duplo, ou declarar que o portão dele é de espécie diferente. O par Enton/Katon corre entre duas perícias de magnitude, e a nota de fechamento daquele registro afirma que nenhum par publicado do portão duplo clássico corre assim. O portão do Enton também é o primeiro congelado do corpus, piso constante que não sobe com o nível da perícia, ao lado do relativo que Genjutsu, Fūinjutsu, Senjutsu e Kyūinjutsu usam contra Controle de Chakra | Índice de Perícias, seção 5 |
+| Dar casa ao verbo Fio do Céu, do caminho Tempestade, que somava de 9 a 13 ao Fator de Moldagem e ficou sem grandeza para incidir quando o termo somado morreu. Somar ao `P` mudaria a proporção e nenhum documento publica caminho de perícia elevando o `P`; somar ao `w` faria condição de cena mexer em coeficiente da ficha; multiplicar a base pediria percentual que a régua nunca declarou. A escolha é de desenho | Manual de Criação de Jutsus, seção 5.3, com propagação em Raiton v3.7 |
+| Reescrever a âncora de dano do Chidori no Controle de Chakra, cuja conclusão não sobreviveu ao recálculo. Sob o motor multiplicativo os dois executores deixam de entregar o mesmo número, porque o `M` lê o `P` do Raiton, e nomear aquele `P` dentro do documento de Controle de Chakra contraria a regra do porteiro. A tabela do recálculo está publicada na seção de pendências daquele documento como evidência | Controle de Chakra v3.8 |
 | Corrigir o apontamento de Eco de Presença, que exige o caminho Sinal | Genjutsu v1.1 |
 | Registrar o multiplicador de 65 do LV5 e a soma revogada pelo Apagamento no LV6 | Genjutsu v1.1 |
 | Migrar a Regra de Conversão do compêndio para a perícia | Ninjutsu Médico v3 |
@@ -492,6 +501,22 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.32.** O Enton entra nos dois registros de versão. A perícia foi publicada em v1 sem ser propagada para este índice, e a ausência atravessou todas as passadas desde então sem ser notada, porque nenhuma catraca confere que documento publicado tenha linha aqui. Lê INT, categoria Ninjutsu ×1,5, e entra depois do Doton, fechando o bloco elemental em vez de abrir um sexto elemento base, no mesmo lugar que o agregador da aplicação já lhe dava.
+
+Uma segunda ausência da mesma publicação fica registrada e não resolvida. O Enton tem portão duplo, Katon em nível três congelado somado ao Mangekyō Sharingan desperto em ao menos um olho, e não consta do Registro de Portão Duplo. Escrever a linha não é transcrição: o par correria entre duas perícias de magnitude, e a nota que fecha aquele registro declara que nenhum par publicado do portão duplo clássico corre assim. Ou o registro ganha espécie nova para o portão de composição, ou a nota se corrige, e a escolha é de desenho. Entra na seção 8.
+
+**v2.31.** O Fator de Moldagem somado sai das perícias que ainda o liam. A Seção 5.3 do Manual de Criação de Jutsus trocou a forma do motor de dano quando absorveu o Consolidado, e a parcela de maestria deixou de ser um termo somado ao lado da conversão para virar o `M`, que escala a base inteira e lê o `P` da perícia governante que a ficha da obra declara. Quatro documentos ainda publicavam a forma morta, e três deles não estavam na lista que a errata do Núcleo de Combate enumerava, o que confirma pela terceira passada seguida que varredura por conteúdo acha o que lista de donos não acha.
+
+Controle de Chakra sobe para v3.8 e é a mudança de fundo. A perícia declarava que o nível dela alimentava o motor de dano de toda técnica do cenário, pelo LV_CC dentro do Fator de Moldagem, e a Seção 5.2 daquele manual fecha a leitura dizendo que o Controle de Chakra permanece portão universal e que portão não soma em motor. O domínio conserva o Índice de Desperdício e a Régua de Exigência, as duas lidas por teste, e perde o canal de potência. A leitura antiga segue valendo apenas dentro dos documentos que ainda publicam a forma somada, entre eles a Linhagem do Rasengan, e a nota está escrita no lugar onde a régua morava.
+
+Enton sobe para v1.3 com a forma nova da fórmula de entrega, e o multiplicador 2,10 permanece na casa do `mult_Tipo` sem se decompor em Constante de Moldagem e Assinatura, porque a republicação dos multiplicadores da camada Kyōka sobre a base nova ainda não aconteceu. Kyūinjutsu sobe para v1.3 com a régua de Captura lendo o `M` no lugar do termo somado, sem que número algum mude. Raiton sobe para v3.7 com o verbo Fio do Céu marcado como devolução.
+
+Taekwondo sobe para v1.4 por defeito de edição da passada anterior: a frase de LV1 publicava "Esforço 0,9 e Esforço 0,9", duplicação nascida quando a purga do coeficiente de impacto substituiu o segundo termo pelo primeiro em vez de removê-lo. Uma varredura por termo repetido no eixo físico inteiro não achou nenhum outro caso.
+
+Shuriken sobe para v1.5 por achado da mesma varredura. A régua de Modos de Giro publicava a coluna de coeficiente de impacto com maiúscula inicial, e escapou da passada que purgou a grandeza das demais perícias de arma justamente por isso. Os três valores, 0,6, 0,8 e 1,0 contra o padrão de 0,8 da classe, viram razões sobre a Energia, de menos vinte e cinco por cento, padrão e mais vinte e cinco por cento, no mesmo tratamento que o verbo Porte já recebera. O achado que fica é de método: varredura de grandeza aposentada ignora caixa, porque cabeçalho de tabela e corpo de texto não escrevem o termo do mesmo jeito.
+
+As duas devoluções entram na seção 8 e não se resolvem aqui. O Fio do Céu somava de nove a treze pontos a um termo que não existe mais, e as três casas possíveis do motor novo, o `P`, o `w` e a base, exigiriam cada uma uma régua que nenhum documento publica. A âncora do Chidori no Controle de Chakra, que dizia que Kakashi e Sasuke entregam ambos 443 de dano, foi recalculada e a conclusão não sobreviveu: sob o `M` os dois deixam de entregar o mesmo número, porque a maestria lida é a de Raiton e não a de Controle de Chakra, e a tabela do recálculo ficou publicada como evidência no lugar da frase. O que sobrevive é a razão dela, que o desperdício vira cansaço e janela e nunca potência, agora verdadeira por motivo mais forte.
 
 **v2.28.** A colisão do Raio Seco, aberta na v2.27, fecha sem que número algum mude. As duas leituras nunca foram incompatíveis: o motor de vetores proíbe o Raio ignorar Absorção por ser Raio, como propriedade automática da natureza, e a proibição segue inteira para o Raiton; o Raio Seco é compra nomeada, paga em XP, com pré-requisito de caminhos e dono declarado, e a Linhagem do Chidori já o registrava como a única do sistema que devolve perfuração a uma forma disparada de longe. Elemento não ganha vantagem de graça, e executor compra vantagem com preço e dono, no mesmo padrão do canal de compressão da maestria na velocidade. A nota da própria transcendência foi reescrita na mesma leitura, e o Raiton sobe para v3.5.
 

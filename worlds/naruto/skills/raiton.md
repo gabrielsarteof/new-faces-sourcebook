@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.6
+version: 3.7
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: RAITON_Pericia_v2_final.md
 ---
 
-RAITON (雷遁) · v3.6
+RAITON (雷遁) · v3.7
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -105,6 +105,7 @@ O corpo do alvo, uma vez tocado, vira o condutor, e a corrente segue por dentro 
 TEMPESTADE (grau 5, complexidade 3) · 46
 Eletricidade atmosférica já presente no céu soma força à descarga do praticante.
 └─ Fio do Céu [passivo, condicionado a tempestade elétrica ativa em cena, natural ou provocada]: soma ao Fator de Moldagem um bônus igual ao teste de Tempestade com esta especialização dividido por 15, resultando em 9 no LV4, 11 no LV5 e 13 no LV6. LV5: a condição aceita carga atmosférica acumulada por 2 turnos de preparação declarados, dispensando tempestade natural plena
+   *(grandeza aposentada, efeito devolvido: o Fator de Moldagem somado morreu com a troca de forma do motor de dano, e este verbo aguarda leitura equivalente. Ver a devolução do changelog da v3.7.)*
 
 NOTA: o grau mede amplitude e determina o valor da especialização; a complexidade mede profundidade e governa os verbos, sem entrar em teste.
 
@@ -386,3 +387,19 @@ ALTERADO FORA DESTA PERÍCIA
 DECISÃO TOMADA POR PADRÃO
 
 14. **A composição de cada transcendência já estava publicada na própria etiqueta, e o pré-requisito só a nomeia como regra.** As três transcendências desta perícia declaram desde a v3, entre parênteses no próprio título, todos os caminhos da inclinação que tocam: Ponta e Lança em Raio Seco, Impulso e Arco em Trovão, Rede, Meridiano e Tempestade em Arco Voltaico. Os efeitos LV6 de cada uma, linha por linha, já liam exclusivamente esses caminhos e nenhum outro. Nenhuma das três atravessa inclinação alheia ou perícia alheia, porque nenhum efeito delas o faz. A nova linha formaliza como pré-requisito de aquisição o que a redação já praticava como composição, sem alterar caminho nenhum de nenhuma das três.
+
+═══════════════════════════════════════════════════════════════════
+
+CHANGELOG DA v3.7
+
+ALTERADO NESTA PERÍCIA
+
+1. Versão de 3.6 para 3.7, no cabeçalho e no frontmatter.
+2. O verbo Fio do Céu, do caminho Tempestade, recebe marca de grandeza aposentada. O número, a régua de divisão por 15 e os três valores resolvidos permanecem publicados exatamente como estavam, e o que entra é o aviso de que a grandeza sobre a qual eles incidem deixou de existir.
+
+DEVOLUÇÃO
+
+3. **Fio do Céu não tem leitura equivalente no motor vigente, e por isso volta para a fila em vez de ser reescrito.** A Seção 5.3 do Manual de Criação de Jutsus trocou a forma do motor de dano quando absorveu o Consolidado: a parcela de maestria deixou de ser um Fator de Moldagem somado ao lado da conversão e passou a ser o `M`, que escala a base inteira. O verbo somava de 9 a 13 pontos a um termo que não existe mais, e não há para onde mover o bônus sem inventar régua. Somá-lo ao `P` da perícia governante mudaria a proporção, porque o `P` entra dividido pelo `P_ref` do rank e multiplicado pelo `w`, e nenhum documento publica caminho de perícia elevando o `P`. Somá-lo ao `w` faria uma condição de cena mexer no coeficiente técnico da ficha, que é propriedade da obra e não do executor. Multiplicar a base pediria um percentual que a régua nunca declarou, porque ela sempre foi aditiva. As três saídas são escolha de desenho, e a escolha é de Gabriel.
+4. **O que o efeito quer dizer sobrevive à troca e vale registrar.** A tempestade presente na cena empresta força à descarga do praticante, e a leitura é de contribuição externa ao golpe, não de refinamento da mão de quem o executa. Sob o motor aditivo isso cabia no Fator de Moldagem por conveniência de forma, e sob o motor multiplicativo a casa natural passa a ser a RC limpa, o volume que a técnica põe em campo, ou uma camada de contribuição ambiental que o corpus ainda não tem. Nomear a casa é o trabalho que esta devolução pede. Dono pendente: Manual de Criação de Jutsus, seção 5.3, com propagação nesta perícia.
+
+PRESERVADO SEM TOQUE: todas as inclinações, todos os caminhos, todas as transcendências, os dois Ápices de Extensão Manifestada, o portão de rank, a régua de níveis, os arquétipos e cada valor resolvido do documento.

@@ -1,7 +1,7 @@
 ---
 id: naruto.power.celeridade
 title: "Celeridade (Jinton 迅遁)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: power
@@ -184,7 +184,7 @@ Toda técnica nomeada de Celeridade que venha a ser publicada cita este document
 
 **Filme.** A ficha do Mueishō, o Voo Sem Sombra: mover-se em velocidade instantânea golpeando de vários ângulos, evitando qualquer oposição independente da velocidade ou da força do oponente. Os Graus 2 e 3 traduzem esta linha.
 
-**Proposta.** O comportamento inteiro como poder de linhagem em três graus, o multiplicador de 1,30 no lado defensivo do teste de conexãoquiva, a condição de VEL e FOR do Grau 1, a régua de reposicionamento do Grau 2, a revogação do Grau 3, todos os números da seção 7, e a fronteira declarada contra o Shunshin na seção 6.
+**Proposta.** O comportamento inteiro como poder de linhagem em três graus, o multiplicador de 1,30 no lado defensivo do teste de conexão, a condição de VEL e FOR do Grau 1, a régua de reposicionamento do Grau 2, a revogação do Grau 3, todos os números da seção 7, e a fronteira declarada contra o Shunshin na seção 6.
 
 **Fora do poder por ausência de fundamento.** A composição de Vento e Raio, que a fonte não publica, permanece registrada em Naturezas Avançadas com etiqueta própria e não afeta os graus deste documento. Qualquer leitura de aceleração de membro isolado, de acúmulo de chakra liberado nas pernas ou de nomenclatura de técnica derivada, todas de wiki de fã, foi descartada na auditoria e não entra aqui.
 
@@ -225,6 +225,8 @@ Onde a instrução recebida e a auditoria não cobriam uma definição, a leitur
 ---
 
 ## 12. Registro de Alterações
+
+**v1.2.** A seção de etiquetagem publicava "lado defensivo do teste de conexãoquiva", resíduo da substituição que trocou o Limiar de Esquiva pela grandeza nova e deixou a cauda do termo antigo colada na frase. Nenhum número, nenhuma régua e nenhuma condição deste poder mudam.
 
 **v1.1.** O documento deixa de ler grandezas que o Núcleo de Combate v3 aposentou. O multiplicador de 1,30 do Grau 1 passa a incidir sobre o lado defensivo do teste de conexão em vez do Limiar de Esquiva, na mesma família de multiplicadores de sempre; a Potência de ataque corporal vira Energia; e o Grau 2 deixa de descrever a Cadência como `VEL` dividido por quinze, passando a lê-la da razão contra o oponente mais rápido engajado, com o teto de duas ações extras declarado. As citações de dependência sobem para Núcleo de Combate v3 e Manual de Criação de Jutsus v3.2. Nenhum número deste poder mudou.
 
