@@ -65,7 +65,7 @@ Extraído do texto publicado de cada documento. Onde a perícia não declara, a 
 | Tantō | v1 | DES | Físico ×1,0 |
 | Leque | v1 | FOR | Prático ×1,1 |
 | Kunai | v1 | DES | Físico ×1,0 |
-| Shuriken | v1 | DES | Físico ×1,0 |
+| Shuriken | v1.5 | DES | Físico ×1,0 |
 | Katana | v1 | DES | Físico ×1,0 |
 | Wing Chun | v1 | DES | Físico ×1,0 |
 | Aikidō | v1 | VEL | Físico ×1,0 |
@@ -445,7 +445,7 @@ Uma divergência fica registrada e não resolvida por esta passada: esta seção
 | Tantō v1 | conforme |
 | Leque v1 | conforme |
 | Kunai v1 | conforme |
-| Shuriken v1 | conforme |
+| Shuriken v1.5 | conforme |
 | Katana v1 | conforme |
 | Wing Chun v1 | conforme |
 | Aikidō v1 | conforme |
@@ -502,6 +502,8 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 Controle de Chakra sobe para v3.8 e é a mudança de fundo. A perícia declarava que o nível dela alimentava o motor de dano de toda técnica do cenário, pelo LV_CC dentro do Fator de Moldagem, e a Seção 5.2 daquele manual fecha a leitura dizendo que o Controle de Chakra permanece portão universal e que portão não soma em motor. O domínio conserva o Índice de Desperdício e a Régua de Exigência, as duas lidas por teste, e perde o canal de potência. A leitura antiga segue valendo apenas dentro dos documentos que ainda publicam a forma somada, entre eles a Linhagem do Rasengan, e a nota está escrita no lugar onde a régua morava.
 
 Enton sobe para v1.3 com a forma nova da fórmula de entrega, e o multiplicador 2,10 permanece na casa do `mult_Tipo` sem se decompor em Constante de Moldagem e Assinatura, porque a republicação dos multiplicadores da camada Kyōka sobre a base nova ainda não aconteceu. Kyūinjutsu sobe para v1.3 com a régua de Captura lendo o `M` no lugar do termo somado, sem que número algum mude. Raiton sobe para v3.7 com o verbo Fio do Céu marcado como devolução.
+
+Shuriken sobe para v1.5 por achado da mesma varredura. A régua de Modos de Giro publicava a coluna de coeficiente de impacto com maiúscula inicial, e escapou da passada que purgou a grandeza das demais perícias de arma justamente por isso. Os três valores, 0,6, 0,8 e 1,0 contra o padrão de 0,8 da classe, viram razões sobre a Energia, de menos vinte e cinco por cento, padrão e mais vinte e cinco por cento, no mesmo tratamento que o verbo Porte já recebera. O achado que fica é de método: varredura de grandeza aposentada ignora caixa, porque cabeçalho de tabela e corpo de texto não escrevem o termo do mesmo jeito.
 
 As duas devoluções entram na seção 8 e não se resolvem aqui. O Fio do Céu somava de nove a treze pontos a um termo que não existe mais, e as três casas possíveis do motor novo, o `P`, o `w` e a base, exigiriam cada uma uma régua que nenhum documento publica. A âncora do Chidori no Controle de Chakra, que dizia que Kakashi e Sasuke entregam ambos 443 de dano, foi recalculada e a conclusão não sobreviveu: sob o `M` os dois deixam de entregar o mesmo número, porque a maestria lida é a de Raiton e não a de Controle de Chakra, e a tabela do recálculo ficou publicada como evidência no lugar da frase. O que sobrevive é a razão dela, que o desperdício vira cansaço e janela e nunca potência, agora verdadeira por motivo mais forte.
 

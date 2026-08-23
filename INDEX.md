@@ -262,7 +262,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.7 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.5 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
-| [Shuriken](worlds/naruto/skills/shuriken.md) | `naruto.skill.shuriken` | 1.4 | skill | final |
+| [Shuriken](worlds/naruto/skills/shuriken.md) | `naruto.skill.shuriken` | 1.5 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.5 | skill | final |
 | [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.5 | skill | final |
 | [Liberação de Yin](worlds/naruto/skills/yin-release.md) | `naruto.skill.yin-release` | 4.4 | skill | final |

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.shuriken
 title: "Shuriken"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -65,11 +65,13 @@ Resolvido: 116 no LV4 com o caminho aberto, 142 no LV5 aprofundado, 169 no LV6 t
 
 MODOS DE GIRO. Categórica, fixa, sem leitura de teste, porque a grandeza que ela governa é a forma do arremesso e não a força de quem arremessa, e nenhum modo domina os outros: alcance e penetração puxam em direções opostas, e o eixo só decide qual cobertura o arremesso ignora, sem alterar nenhum dos dois. O praticante declara modo e eixo a cada arremesso do caminho Giro.
 
-| Modo | Alcance | Coeficiente de impacto |
+| Modo | Alcance | Energia do arremesso |
 |---|---|---|
-| Lançamento direto | Média, um degrau além do padrão | 0,6, abaixo do padrão de 0,8 |
-| Meio giro | Curta, o padrão da classe | 0,8, o padrão da classe |
-| Giro completo | Curta, sem elevação além do padrão | 1,0, acima do padrão de 0,8 |
+| Lançamento direto | Média, um degrau além do padrão | 25% abaixo do padrão da classe |
+| Meio giro | Curta, o padrão da classe | o padrão da classe |
+| Giro completo | Curta, sem elevação além do padrão | 25% acima do padrão da classe |
+
+A coluna publicava coeficiente de impacto, que o Núcleo de Combate v3 revogou, e os três valores eram 0,6, 0,8 e 1,0 contra o padrão de 0,8 da classe de precisão. As razões entre eles e o padrão se preservam inteiras sobre a Energia, no mesmo tratamento que a inclinação FŪMA aplica ao verbo Porte. O Esforço não acompanha, porque o modo de giro é forma do arremesso e não troca de classe de arma.
 
 | Eixo | Cobertura que contorna |
 |---|---|
@@ -207,6 +209,8 @@ Registrado como fora do domínio: a duplicação por clone das sombras, do Comp�
 ═══════════════════════════════════════════════════════════════════
 
 PENDÊNCIAS E FILA DE ERRATA
+
+A régua de Modos de Giro publicava a coluna de coeficiente de impacto com maiúscula inicial, e por isso escapou da varredura que purgou a grandeza revogada das demais perícias de arma. A correção entra nesta versão, e o achado fica registrado: varredura de grandeza aposentada precisa ignorar caixa, porque cabeçalho de tabela e corpo de texto não escrevem o mesmo termo do mesmo jeito.
 
 A Perícia de Ferramenta Ninja segue pendente, agora dona também de senbon, makibishi e bomba de fumaça em conjunto com o que o Kunai já lhe atribuiu, sem duplicar a atribuição.
 
