@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.29
+version: 2.30
 layer: scenario
 scenario: naruto
 type: skill
@@ -414,7 +414,7 @@ Barreira saiu desta fila porque já é documento publicado, v1, e a linha perman
 
 O mesmo teste vale do lado das armas, onde a nota original previa só especialidade sem documento. Tantō, Leque e Kunai publicaram documento próprio, cada um com identidade mecânica larga o suficiente: o primeiro porque a lâmina curta resolve por perfuração de estrutura e implantação a partir de controle, verbos que a doutrina genérica de faca não nomeia; o segundo porque o leque é subclasse do Fūton com verbos físicos que nenhum caminho elemental repete; e o terceiro porque a mesma lâmina resolve por punho, por voo e por âncora, com verbos que nenhuma das duas doutrinas vizinhas nomeia. Adaga, faca de combate e as demais armas legadas em `common/skills.json` seguem sem documento, e a decisão entre promover cada uma a documento próprio ou mantê-la como especialidade continua caso a caso, pela mesma densidade que separou Tantō, Leque e Kunai do resto.
 
-**Dependência do eixo físico, resolvida.** Nenhuma perícia de corpo ou de arma nascia antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão, e o eixo físico não tinha essa camada geral, só as réguas bespoke que o Sistema dos Oito Portões publicou para o próprio subsistema, Esforço, coeficiente de entrega física e Fator de Portão. O Núcleo de Combate v1 publicou a camada geral: Potência, Guarda, Absorção, Exaustão Física e o motor de manobras que qualquer perícia de corpo consome sem redefinir. Kenpo, Taekwondo, Taichi, Tantō e Kunai consomem essa camada, e nenhum dos cinco redefine uma linha dela.
+**Dependência do eixo físico, resolvida.** Nenhuma perícia de corpo ou de arma nascia antes de existir a camada que resolve alcance, dano e interação com o Perfil de Evasão, e o eixo físico não tinha essa camada geral, só as réguas bespoke que o Sistema dos Oito Portões publicou para o próprio subsistema, Esforço, coeficiente de entrega física e Fator de Portão. O Núcleo de Combate v1 publicou a camada geral: Energia, Guarda, Absorção, Exaustão Física e o motor de manobras que qualquer perícia de corpo consome sem redefinir. Kenpo, Taekwondo, Taichi, Tantō e Kunai consomem essa camada, e nenhum dos cinco redefine uma linha dela.
 
 Cada um dos cinco também acrescentou réguas próprias, pendentes de absorção pela camada geral no mesmo padrão que o Sistema dos Oito Portões já reserva para as dele: Kenpo, o Fator de Kenpo e a Eficiência de Retorno; Taekwondo, a Elevação de Reação, a Fração de Guarda, a Economia de Esforço e o Alcance de Salto, e é o primeiro documento do eixo físico a publicar uma redução parcial de Guarda, onde as reduções parciais anteriores do corpus só atacavam a Absorção; Taichi, o Limiar de Raiz, o Teto da Reserva de Força, o Piso de Alavanca, a Pressão Curta, o Piso de Escuta e a Fração de Descarga, e é o primeiro documento do corpus a publicar uma substituição dura de atributo por atributo dentro de um teste, RES no lugar de FOR no par defensivo de Empurrar e Derrubar; Tantō, a Leitura de Fresta, o Grau de Ocultação e a Posse da Lâmina; Kunai, a Posse do Kunai, o Limiar de Travessia e a Precisão de Cravação, e é o primeiro do eixo físico a resolver a perfuração de Absorção por fração, no verbo Chegada Cortante, em vez de por fração de Guarda.
 

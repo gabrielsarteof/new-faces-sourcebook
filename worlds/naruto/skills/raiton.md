@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.5
+version: 3.6
 layer: scenario
 scenario: naruto
 type: skill
@@ -9,7 +9,7 @@ status: final
 source-file: RAITON_Pericia_v2_final.md
 ---
 
-RAITON (雷遁) · v3.5
+RAITON (雷遁) · v3.6
 
 Atributo: INT
 Categoria: Ninjutsu (×1,5)
@@ -170,7 +170,7 @@ A descarga chega no instante em que sai, e o espaço entre a mão e o alvo deixa
 └─ Verdadeiro [passivo, porte elevado]: a técnica de Agudo entregue como forma dirigida cruza o alcance declarado dentro da própria ação de execução, sem tempo de trânsito, e sobe um degrau na escada do Perfil de Evasão do Manual de Criação de Jutsus, com o teto de Teleguiado permanecendo em vigor. O degrau vale até a distância igual ao teste de Agudo com esta especialização dividido por 6, resolvendo 22 m no LV4, 26 m no LV5 e 31 m no LV6, e além dela a técnica resolve no degrau que a ficha dela publica. LV5: o degrau alcança também a entrega elevada a área
 └─ Sem Aviso [passivo]: a descarga de Agudo apresenta chegada sem percurso observável, e a reação de Corte de Trajeto do Núcleo de Combate deixa de estar disponível contra ela, porque a interceptação precisa de trajeto para incidir. LV5: a indisponibilidade alcança também o Corte de Trajeto declarado por terceiro em defesa do alvo e a Disputa de Distância empregada depois da emissão
 
-ETIQUETA E ÂNCORA DE AGUDO: a existência do Shiden, a cor violeta atribuída a fenômeno declarado desconhecido pela fonte e a operação do Raiton por elevação da frequência de vibração do chakra são `[canon]`. A leitura da cor como banda de frequência acima da faixa comum é `[proposta]` de preenchimento de lacuna declarada. O corte tem registro único na obra e entra como `[canon fraco]`, com a etiqueta declarada. Os três caminhos e os verbos deles são `[proposta]`. A âncora de validação da inclinação corre contra o par de referência Elite, PV 1.440, Limiar de Esquiva 50: no LV6 a entrega dentro de 31 m sobe um degrau na escada de evasão e retira do par a reação de Corte de Trajeto, o que reduz a resposta dele a esquiva penalizada e Absorção.
+ETIQUETA E ÂNCORA DE AGUDO: a existência do Shiden, a cor violeta atribuída a fenômeno declarado desconhecido pela fonte e a operação do Raiton por elevação da frequência de vibração do chakra são `[canon]`. A leitura da cor como banda de frequência acima da faixa comum é `[proposta]` de preenchimento de lacuna declarada. O corte tem registro único na obra e entra como `[canon fraco]`, com a etiqueta declarada. Os três caminhos e os verbos deles são `[proposta]`. A âncora de validação da inclinação corre contra o par de referência Elite, PV 1.440, lado defensivo da conexão em 146: no LV6 a entrega dentro de 31 m sobe um degrau na escada de evasão e retira do par a reação de Corte de Trajeto, o que reduz a resposta dele a esquiva penalizada e Absorção.
 
 CONTRATO DE MECÂNICA DAS DUAS INCLINAÇÕES: cada efeito acima declara tipo, ação de mesa, custo e números na própria linha, na convenção já usada pelas inclinações comuns desta perícia. Nenhum deles resolve por dificuldade arbitrada: todos leem o teste da perícia com a especialização do caminho de origem ou resolvem por elevação de categoria. As interações estão nomeadas em cada linha, e a etiqueta e a âncora de validação fecham cada inclinação nos dois parágrafos acima.
 
@@ -260,7 +260,7 @@ Teste: nenhum próprio. Lê o teste de Agudo com a especialização de Instante 
 Números: a técnica de Agudo entregue como forma dirigida alcança o degrau Inevitável, e a condição estrutural exigida por aquele degrau passa a ser a banda de frequência do próprio portador, verificável em cena pela cor da descarga. A esquiva do alvo é anulada e a mitigação fica com a Absorção e a Resistência. O degrau vale até a distância igual ao teste dividido por 6, resolvendo 27 m no LV5 e 31 m no LV6, e além dela a técnica resolve no degrau que o caminho Instante concede
 Interações: substitui o teto de Teleguiado da seção 6.5 apenas para as técnicas de Agudo do portador; convive com o teto de dois degraus do Sistema dos Oito Portões, porque a fonte é outra e aqui o degrau é fixado em vez de somado; conserva intactos o coeficiente de entrega, o rank e o custo mínimo da ficha
 Etiqueta: `[proposta]`, derivada do fundamento `[canon]` de que o Raiton opera elevando a frequência de vibração do chakra
-Âncora de validação: contra o par de referência Elite, PV 1.440, Limiar de Esquiva 50, a entrega de Agudo dentro de 31 m no LV6 dispensa a rolagem de esquiva do defensor e resolve direto contra a Absorção, o que retira do par uma das duas defesas ativas dentro daquela faixa
+Âncora de validação: contra o par de referência Elite, PV 1.440, lado defensivo da conexão em 146, a entrega de Agudo dentro de 31 m no LV6 dispensa a rolagem de esquiva do defensor e resolve direto contra a Absorção, o que retira do par uma das duas defesas ativas dentro daquela faixa
 
 EFEITOS ELEVADOS DE INSTANTE
 └─ Verdadeiro no Ápice: a chegada sem tempo de trânsito passa a valer sobre a entrega conduzida por meio externo e sobre os degraus de área e de campo, e o degrau do Perfil de Evasão se fixa em Inevitável dentro da distância declarada acima

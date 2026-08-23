@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.kunai
 title: "Kunai"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -28,7 +28,7 @@ O domínio não precifica explosão, não declara dano de detonação e não def
 
 IDENTIDADE
 
-Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Arma de precisão, Esforço 0,8, lido do Núcleo de Combate. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
+Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Arma de precisão, Esforço 0,8, lido do Núcleo de Combate. Vetor Penetração, Grau I arremessado e Grau II empunhado, os dois degraus em que o kunai está nomeado literalmente na escada. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
 
 Sem portão de perícia: nenhuma outra perícia é pré-requisito para abrir este domínio.
 

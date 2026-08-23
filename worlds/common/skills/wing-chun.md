@@ -1,7 +1,7 @@
 ---
 id: common.skill.wing-chun
 title: "Wing Chun"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: common
 type: skill
@@ -18,7 +18,7 @@ Wing Chun é a escola que trata distância como a primeira arma. `[real]` A trad
 
 `[real]` O terceiro pilar nasce do que a tradição chama de mão de emergência: técnicas de recuperação para o instante em que a linha central já se perdeu, a estrutura já cedeu, ou a distância já fugiu do alcance ideal. Onde os dois primeiros pilares pressupõem o corpo formado e centrado, o terceiro existe porque nem sempre ele está.
 
-O território termina onde o ofício alheio começa. Aparar e golpear resolvem juntos apenas quando os dois ocupam a mesma linha reta, numa ação isolada, sem escada de golpes acumulados entre rodadas. O contato sustentado lê apenas o que o braço específico em ponte está fazendo no instante presente, sem guardar força para uso posterior. Potência, Guarda, Absorção e o motor de manobras pertencem ao Núcleo de Combate, consumido sem redefinição. A definição dos quatro graus de estado pertence ao Sistema de Efeitos de Status. Obras nomeadas de linhagem ou de mestre específico pertencem a compêndio próprio, ainda inexistente.
+O território termina onde o ofício alheio começa. Aparar e golpear resolvem juntos apenas quando os dois ocupam a mesma linha reta, numa ação isolada, sem escada de golpes acumulados entre rodadas. O contato sustentado lê apenas o que o braço específico em ponte está fazendo no instante presente, sem guardar força para uso posterior. Energia, Guarda, Absorção e o motor de manobras pertencem ao Núcleo de Combate, consumido sem redefinição. A definição dos quatro graus de estado pertence ao Sistema de Efeitos de Status. Obras nomeadas de linhagem ou de mestre específico pertencem a compêndio próprio, ainda inexistente.
 
 Esta perícia mora em worlds/common porque nenhuma linha dela pressupõe fato de cenário algum.
 
@@ -124,7 +124,7 @@ INCLINAÇÃO RUPTURA DE LINHA
 
 RECUPERAÇÃO DE ESTRUTURA (grau 3, complexidade 4)
 A mão de emergência existe para o instante em que a estrutura já cedeu. `[real]` derivada do fundamento de que a doutrina de recuperação treina o retorno ao centro e ao equilíbrio mesmo a partir de ângulos extremos ou posições comprometidas.
-└─ Retorno ao Centro [passivo]: com a Guarda em Quebra, o praticante recupera Guarda numa fração maior da taxa padrão que a tabela de Exaustão do Núcleo de Combate concede, porque a doutrina existe para esse instante exato. LV5: a recuperação também remove o multiplicador de Limiar de Esquiva reduzido que a Quebra de Guarda impõe, mesmo antes da Guarda recarregar por completo
+└─ Retorno ao Centro [passivo]: com a Guarda em Quebra, o praticante recupera Guarda numa fração maior da taxa padrão que a tabela de Exaustão do Núcleo de Combate concede, porque a doutrina existe para esse instante exato. LV5: a recuperação também remove o multiplicador reduzido do lado defensivo da conexão que a Quebra de Guarda impõe, mesmo antes da Guarda recarregar por completo
 └─ Golpe de Emergência [ativado, ação padrão, teste do golpe contra a Esquiva do alvo]: a partir de posição comprometida ou fora da Banda Engajado ideal, um golpe curto de dedos ou cotovelo ignora o ajuste de coeficiente de entrega que a distância reduzida normalmente cobraria. LV5: o golpe também ignora metade da Absorção do alvo, porque a doutrina mira ponto vital e não superfície
 
 LINHA BAIXA (grau 3, complexidade 3)

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.leque
 title: "Leque"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -27,7 +27,7 @@ Portão: Leque exige Fūton em nível não inferior ao próprio menos um. `[prop
 
 IDENTIDADE
 
-Regente FOR. Categoria Prático (×1,1). Camada subclasse, componente, sobre o portão de Fūton. Primeira perícia do eixo físico do sistema, hoje devido na Carga por Atributo do Índice de Perícias.
+Regente FOR. Categoria Prático (×1,1). Camada subclasse, componente, sobre o portão de Fūton. Vetor Impacto, que dispensa grau porque a escada de graus mede fio e ponta, e o leque fechado entrega massa. Primeira perícia do eixo físico do sistema, hoje devido na Carga por Atributo do Índice de Perícias.
 
 Portão: Leque exige Fūton em nível não inferior ao próprio menos um, no mesmo molde do portão de Fūinjutsu sobre Controle de Chakra e de Barreira sobre Controle de Chakra. `[proposta]`
 

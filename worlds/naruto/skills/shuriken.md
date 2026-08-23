@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.shuriken
 title: "Shuriken"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -28,7 +28,7 @@ A densidade desta perícia é menor que a do Kunai, e isso é honesto ao invent�
 
 IDENTIDADE
 
-Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma de precisão, Esforço 0,8, lido do Núcleo de Combate, para toda peça exceto o Fūma aberto, que a inclinação FŪMA eleva por conta própria. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
+Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma de precisão, Esforço 0,8, lido do Núcleo de Combate. Vetor Penetração, Grau I, degrau em que o shuriken está nomeado literalmente na escada, para toda peça exceto o Fūma aberto, que a inclinação FŪMA eleva por conta própria. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
 
 Sem portão de perícia: nenhuma outra perícia é pré-requisito para abrir este domínio.
 

@@ -39,13 +39,13 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Aikidō](worlds/common/skills/aikido.md) | `common.skill.aikido` | 1.3 | skill | final |
-| [Katana](worlds/common/skills/katana.md) | `common.skill.katana` | 1.3 | skill | final |
+| [Aikidō](worlds/common/skills/aikido.md) | `common.skill.aikido` | 1.4 | skill | final |
+| [Katana](worlds/common/skills/katana.md) | `common.skill.katana` | 1.4 | skill | final |
 | [Kenpo](worlds/common/skills/kenpo.md) | `common.skill.kenpo` | 1.3 | skill | final |
-| [Taekwondo](worlds/common/skills/taekwondo.md) | `common.skill.taekwondo` | 1.2 | skill | final |
+| [Taekwondo](worlds/common/skills/taekwondo.md) | `common.skill.taekwondo` | 1.3 | skill | final |
 | [Taichi](worlds/common/skills/taichi.md) | `common.skill.taichi` | 1.3 | skill | final |
-| [Tantō](worlds/common/skills/tanto.md) | `common.skill.tanto` | 1.3 | skill | final |
-| [Wing Chun](worlds/common/skills/wing-chun.md) | `common.skill.wing-chun` | 1.3 | skill | final |
+| [Tantō](worlds/common/skills/tanto.md) | `common.skill.tanto` | 1.4 | skill | final |
+| [Wing Chun](worlds/common/skills/wing-chun.md) | `common.skill.wing-chun` | 1.4 | skill | final |
 
 ## Jujutsu Kaisen
 
@@ -253,16 +253,16 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.6 | skill | final |
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.4 | skill | final |
 | [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 4.2 | skill | final |
-| [Kunai](worlds/naruto/skills/kunai.md) | `naruto.skill.kunai` | 1.3 | skill | final |
+| [Kunai](worlds/naruto/skills/kunai.md) | `naruto.skill.kunai` | 1.4 | skill | final |
 | [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1.2 | skill | final |
-| [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1.3 | skill | final |
+| [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1.4 | skill | final |
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.2 | skill | final |
-| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.29 | skill | final |
+| [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.30 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.3 | skill | final |
-| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.5 | skill | final |
+| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.6 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.5 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
-| [Shuriken](worlds/naruto/skills/shuriken.md) | `naruto.skill.shuriken` | 1.3 | skill | final |
+| [Shuriken](worlds/naruto/skills/shuriken.md) | `naruto.skill.shuriken` | 1.4 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.5 | skill | final |
 | [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.5 | skill | final |
 | [Liberação de Yin](worlds/naruto/skills/yin-release.md) | `naruto.skill.yin-release` | 4.4 | skill | final |

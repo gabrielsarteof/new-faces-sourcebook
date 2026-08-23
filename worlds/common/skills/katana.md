@@ -1,7 +1,7 @@
 ---
 id: common.skill.katana
 title: "Katana"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: common
 type: skill
@@ -28,7 +28,7 @@ NOTA SOBRE KENJUTSU
 
 IDENTIDADE
 
-Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Lâmina curva, Esforço 1,0, lido do Núcleo de Combate sem ajuste algum.
+Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Lâmina curva, Esforço 1,0, lido do Núcleo de Combate. Vetor Corte, Grau III do Fio no gume, e Penetração, Grau II na estocada, os dois degraus em que a katana está nomeada nas escadas do Núcleo de Combate sem ajuste algum.
 
 O domínio não controla portão de rank. Não existe compêndio de obras nomeadas de katana escalonando o acesso por rank, e a perícia entrega competência de golpe e não catálogo de técnicas.
 
@@ -103,7 +103,7 @@ INCLINAÇÃO IAIJUTSU
 
 SAQUE CORTANTE (grau 2, complexidade 3)
 O primeiro golpe desferido de dentro da bainha nega ao alvo a chance de se preparar para ele. `[proposta]` derivada do fundamento `[canon]` de que o Kenjutsu de Estilo Uchiha resolve por saques que cortam antes que o oponente reaja.
-└─ Corte de Saque [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo]: o primeiro golpe desferido com a lâmina embainhada contra cada alvo novo na cena multiplica o Limiar de Esquiva dele por 0,80. LV5: o multiplicador cai para 0,70, entrando na mesma família de multiplicadores acumuláveis que o Tantō já usa em Lâmina Não Lida
+└─ Corte de Saque [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo]: o primeiro golpe desferido com a lâmina embainhada contra cada alvo novo na cena multiplica o lado defensivo da conexão dele por 0,80. LV5: o multiplicador cai para 0,70, entrando na mesma família de multiplicadores acumuláveis que o Tantō já usa em Lâmina Não Lida
 └─ Fio Certeiro [passivo]: o primeiro golpe de saque na cena reduz o próprio Limiar de Crítico do praticante, aumentando a chance de Golpe Bem Colocado apenas nesse golpe. LV5: a redução também vale contra o segundo alvo, quando Arco de Alcance estiver aberto
 
 SAQUE REATIVO (grau 3, complexidade 4)
@@ -147,7 +147,7 @@ Trocar de alvo não apaga a guarda construída contra o anterior.
 
 POSTURA CIRCULAR (grau 3, complexidade 3)
 Estar cercado deixa de ser desvantagem automática.
-└─ Postura Circular [passivo]: estar engajado por mais de um atacante simultâneo não aplica a penalidade padrão de cerco à Guarda ou ao Limiar de Esquiva do praticante. LV5: a isenção se estende à Exaustão Física, e lutar cercado não acelera o consumo de Fôlego além do que um combate individual já consumiria
+└─ Postura Circular [passivo]: estar engajado por mais de um atacante simultâneo não aplica a penalidade padrão de cerco à Guarda ou ao lado defensivo da conexão do praticante. LV5: a isenção se estende à Exaustão Física, e lutar cercado não acelera o consumo de Fôlego além do que um combate individual já consumiria
 └─ Leitura de Flancos [passivo]: ataques desferidos contra as costas ou o flanco do praticante, enquanto Postura Circular estiver ativa, perdem qualquer vantagem de posição que dependesse de ângulo cego, resolvendo como ataque frontal comum. LV5: a mesma leitura vale mesmo quando o praticante já gastou a própria Reação na rodada
 
 ARCO DE ALCANCE (grau 4, complexidade 4)

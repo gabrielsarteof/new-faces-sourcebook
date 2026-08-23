@@ -1,7 +1,7 @@
 ---
 id: common.skill.tanto
 title: "Tantō"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: common
 type: skill
@@ -26,7 +26,7 @@ O domínio não produz dano à distância, não desloca e não sela nada. A capa
 
 IDENTIDADE
 
-Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Arma de precisão, Esforço 0,8, lido do Núcleo de Combate. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
+Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Arma de precisão, Esforço 0,8, lido do Núcleo de Combate. Vetor Penetração, Grau III, degrau em que o tantō está nomeado, e Corte, Grau III do Fio, porque o grau mede a natureza do gume e não o tamanho da lâmina. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
 
 O domínio não controla portão de rank. Não existe compêndio de obras nomeadas de tantō escalonando o acesso por rank, e a perícia entrega competência de golpe e não catálogo de técnicas.
 
@@ -140,7 +140,7 @@ SAQUE REVERSO (grau 4, complexidade 4) — 42
 
 OCULTAÇÃO (grau 3, complexidade 3) — 38
 `[real]` A montagem aikuchi, sem guarda de mão, favorece o porte discreto por desenho, e é a montagem histórica de agentes que precisavam carregar lâmina sem anunciá-la.
-└─ Lâmina Não Lida [passivo, declarado enquanto a arma permanece guardada]: enquanto não usada ofensivamente na cena, a lâmina não é reconhecida como arma por quem a vê, e o primeiro golpe desferido com ela multiplica o Limiar de Esquiva do alvo por 0,85 no estado Aberto, 0,80 no Aprofundado, entrando na mesma família de multiplicadores de Limiar de Esquiva do Núcleo de Combate que se acumulam entre si. A vantagem reseta no início da cena seguinte, no mesmo padrão de reconhecimento tardio que o Objeto Inocente já usa. LV5: o multiplicador cai para 0,75, e a Ocultação da lâmina sobrevive ao primeiro golpe sem resultar em Quebra de Guarda no alvo
+└─ Lâmina Não Lida [passivo, declarado enquanto a arma permanece guardada]: enquanto não usada ofensivamente na cena, a lâmina não é reconhecida como arma por quem a vê, e o primeiro golpe desferido com ela multiplica o lado defensivo da conexão do alvo por 0,85 no estado Aberto, 0,80 no Aprofundado, entrando na mesma família de multiplicadores do lado defensivo do Núcleo de Combate que se acumulam entre si. A vantagem reseta no início da cena seguinte, no mesmo padrão de reconhecimento tardio que o Objeto Inocente já usa. LV5: o multiplicador cai para 0,75, e a Ocultação da lâmina sobrevive ao primeiro golpe sem resultar em Quebra de Guarda no alvo
 └─ Porte Discreto [passivo]: revista superficial não identifica o tantō como arma, resolvendo por oposição ao Grau de Ocultação contra o teste de quem revista. LV5: a mesma oposição vale contra leitura sensorial ou de metal que não seja dedicada especificamente a armas brancas
 
 `[distinção contra Adagas e Facas de Combate]` doutrina geral de lâmina curta, ângulo de entrada e transição de empunhadura ali. Perfuração de estrutura rígida contra Guarda elevada e entrega a partir de controle físico já formado aqui.

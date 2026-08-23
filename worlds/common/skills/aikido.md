@@ -1,7 +1,7 @@
 ---
 id: common.skill.aikido
 title: "Aikidō"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: common
 type: skill
@@ -18,7 +18,7 @@ Aikidō é a escola que recusa o encontro de frente. `[real]` A doutrina descrev
 
 `[real]` Uma vez ligado ao centro do alvo pelo contato, o desequilíbrio, kuzushi, nasce de redirecionar a força que já chegou em vez de bloqueá-la: mover-se fora da linha e desviar o membro atacante numa tangente ao próprio percurso dele. A técnica se apoia no tempo certo do encaixe, não na força aplicada, e um encaixe tardio ou adiantado simplesmente não funciona. `[real]` Só depois do desequilíbrio a técnica se resolve, em arremesso que usa o próprio impulso e o próprio pivô do praticante, ou em imobilização articular sustentada até o controle no chão.
 
-O território termina onde o ofício alheio começa. A leitura que os caminhos de Desequilíbrio praticam exige contato físico já estabelecido, nunca alcance à distância; ela pertence à mecânica desta perícia, e leitura de posição, identidade ou intenção de um alvo distante pertence ao Sensoriamento. A força do alvo se lê e se usa no mesmo instante do contato, sem guardar nada para depois. O redirecionamento sempre se resolve em ação própria de Projeção, depois do Desequilíbrio, nunca na mesma reação que estabeleceu contato. O contato ao centro existe para ler a direção de menor resistência da estrutura inteira do alvo, conduzindo-a à queda, e não para negar um membro específico como arma. Potência, Guarda, Absorção e o motor de manobras pertencem ao Núcleo de Combate. Os graus de Queda e de Imobilização pertencem ao Sistema de Efeitos de Status. Obras nomeadas de linhagem ou de dojo específico pertencem a compêndio próprio, ainda inexistente.
+O território termina onde o ofício alheio começa. A leitura que os caminhos de Desequilíbrio praticam exige contato físico já estabelecido, nunca alcance à distância; ela pertence à mecânica desta perícia, e leitura de posição, identidade ou intenção de um alvo distante pertence ao Sensoriamento. A força do alvo se lê e se usa no mesmo instante do contato, sem guardar nada para depois. O redirecionamento sempre se resolve em ação própria de Projeção, depois do Desequilíbrio, nunca na mesma reação que estabeleceu contato. O contato ao centro existe para ler a direção de menor resistência da estrutura inteira do alvo, conduzindo-a à queda, e não para negar um membro específico como arma. Energia, Guarda, Absorção e o motor de manobras pertencem ao Núcleo de Combate. Os graus de Queda e de Imobilização pertencem ao Sistema de Efeitos de Status. Obras nomeadas de linhagem ou de dojo específico pertencem a compêndio próprio, ainda inexistente.
 
 Esta perícia mora em worlds/common porque nenhuma linha dela pressupõe fato de cenário algum.
 
