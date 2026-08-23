@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.28
+version: 2.29
 layer: scenario
 scenario: naruto
 type: skill
@@ -257,7 +257,7 @@ A contrapartida da primeira linha corre no sentido inverso: o Sensoriamento rece
 | Punho Gentil, estilo nomeado do clã Hyūga | documento do clã Hyūga |
 | Amplificação corporal por saturação de energia física | Liberação de Yang |
 | Fator de Portão, tetos de fluxo e fisiologia do circuito de chakra | Sistema dos Oito Portões, e a perícia de corpo que ele reserva |
-| Potência, Guarda, Absorção, Cadência e as quatro manobras | Núcleo de Combate |
+| Energia, Guarda, Absorção, Cadência e as quatro manobras | Núcleo de Combate |
 | Graus, durações e remoção de toda condição instalada | Sistema de Efeitos de Status |
 | Tratamento que encerra Marcação antes do fim de cena | Ninjutsu Médico |
 
@@ -277,7 +277,7 @@ A contrapartida da primeira linha corre no sentido inverso: o Sensoriamento rece
 | Leitura de posição, identidade e intenção à distância | Sensoriamento |
 | Repulsão carregada por chakra, rider de técnica, sopro elemental e correnteza | Controle de Chakra, caminho Impregnação, verbo Base Ancorada |
 | Definição dos quatro graus de estado e a régua que os posiciona | Sistema de Efeitos de Status |
-| Potência, Guarda, Absorção e o motor de manobras | Núcleo de Combate |
+| Energia, Guarda, Absorção e o motor de manobras | Núcleo de Combate |
 | Obras nomeadas de escola de combate específica | compêndio de escola de combate, devida |
 
 ### Cedido pelo Tantō v1

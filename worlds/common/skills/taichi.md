@@ -1,7 +1,7 @@
 ---
 id: common.skill.taichi
 title: "Taichi"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: common
 type: skill
@@ -14,7 +14,7 @@ PERÍCIA DE TAICHI
 
 O Taichi é a arte de não opor força a força. O praticante formado não bloqueia o golpe que chega, ele sente a direção, a intensidade e a intenção pelo contato, e devolve o que recebeu usando o próprio corpo do agressor como veículo. A postura enraizada absorve o que a estrutura montada não consegue deter, a torção de quadril redireciona o que a estrutura não precisa deter, e o excedente se guarda para sair de uma vez quando o praticante decidir. Nenhum dos três pilares é potência bruta, e é essa recusa que separa o domínio de qualquer arte que vença pelo músculo.
 
-O território termina onde o ofício alheio começa. A definição dos quatro graus de estado e a régua que os posiciona pertencem ao Sistema de Efeitos de Status. A Potência de um golpe, a Guarda que o detém, a Absorção que o corpo sustenta e as quatro manobras de desequilíbrio pertencem ao Núcleo de Combate, que esta perícia consome inteiro sem redefinir uma linha dele. Os dois são camada de núcleo, e valem para qualquer cenário que hospede esta perícia. Obras nomeadas de escola de combate específica pertencem a compêndio próprio, ainda inexistente.
+O território termina onde o ofício alheio começa. A definição dos quatro graus de estado e a régua que os posiciona pertencem ao Sistema de Efeitos de Status. A Energia de um golpe, a Guarda que o detém, a Absorção que o corpo sustenta e as quatro manobras de desequilíbrio pertencem ao Núcleo de Combate, que esta perícia consome inteiro sem redefinir uma linha dele. Os dois são camada de núcleo, e valem para qualquer cenário que hospede esta perícia. Obras nomeadas de escola de combate específica pertencem a compêndio próprio, ainda inexistente.
 
 Esta perícia mora em worlds/common porque nenhuma linha dela pressupõe fato de cenário algum, e qualquer mundo que publique o Núcleo de Combate e o Sistema de Efeitos de Status pode hospedá-la sem tradução. No cenário Naruto, dois territórios vizinhos já publicados por outras perícias cruzam o caminho do Taichi e são cedidos: toda leitura de posição, identidade e intenção à distância pertence ao Sensoriamento, e repulsão carregada por chakra, seja rider de técnica, sopro elemental ou correnteza, pertence ao Controle de Chakra, caminho Impregnação, verbo Base Ancorada, que já responde pelo lado defensivo daquele vetor. Cenário sem essas duas perícias simplesmente não produz a cena em que a cedência importaria, e o Taichi resolve sozinho.
 
@@ -114,7 +114,7 @@ Fora do caminho: 21 no LV1, 45 no LV2, 66 no LV3, 87 no LV4, 106 no LV5, 126 no 
 
 PISO DE ESCUTA
 
-Piso do Limiar de Esquiva do praticante contra o corpo que ele está lendo em contato sustentado. Lê a especialização de Escuta.
+Piso do lado defensivo do teste de conexão do praticante contra o corpo que ele está lendo em contato sustentado. Lê a especialização de Escuta.
 
 piso = ⌊teste ÷ 2,5⌋, teto 95
 
@@ -122,7 +122,7 @@ Fora do caminho: 5 no LV1, 12 no LV2, 17 no LV3, 23 no LV4, 28 no LV5, 33 no LV6
 
 FRAÇÃO DE DESCARGA
 
-Fração da Reserva de Força acumulada que Fa Jing converte em Potência num único disparo. Lê a especialização de Liberação.
+Fração da Reserva de Força acumulada que Fa Jing converte em Energia num único disparo. Lê a especialização de Liberação.
 
 fração = teste ÷ 200, teto 1,00
 
@@ -130,9 +130,9 @@ Fora do caminho: 0,07 no LV1, 0,15 no LV2, 0,22 no LV3, 0,29 no LV4, 0,355 no LV
 
 CARGA DA RESERVA
 
-Fração da Potência de um golpe recebido que a Reserva de Força acumula. Resolve por categoria, e não por número, porque a fonte de dano varia demais para uma única constante fechar contra golpe elemental, obra de rank alto e ataque comum ao mesmo tempo.
+Fração da Energia de um golpe recebido que a Reserva de Força acumula. Resolve por categoria, e não por número, porque a fonte de dano varia demais para uma única constante fechar contra golpe elemental, obra de rank alto e ataque comum ao mesmo tempo.
 
-Golpe aparado ativamente, dentro de um Bloqueio contra golpe físico, carrega um quinto da Potência do golpe. Golpe evitado por Esquiva não carrega, porque a Esquiva bem-sucedida anula o golpe por completo e nenhuma Potência atravessa o contato. Golpe recebido sob o verbo Ceder, sem gastar Bloqueio naquele golpe específico, carrega metade da Potência dele. A Potência lida é a publicada pelo Núcleo de Combate, FOR mais VEL do atacante vezes 25 para o golpe comum, ou o valor que a obra declarar quando a fonte for uma técnica.
+Golpe aparado ativamente, dentro de um Bloqueio contra golpe físico, carrega um quinto da Energia do golpe. Golpe evitado por Esquiva não carrega, porque a Esquiva bem-sucedida anula o golpe por completo e nenhuma Energia atravessa o contato. Golpe recebido sob o verbo Ceder, sem gastar Bloqueio naquele golpe específico, carrega metade da Energia dele. A Energia lida é a publicada pelo Núcleo de Combate, FOR somada a VEL e ao bônus geral da perícia ofensiva vezes o multiplicador do golpe declarado, ou o valor que a obra declarar quando a fonte for uma técnica.
 
 DECAIMENTO DA RESERVA
 
@@ -185,7 +185,7 @@ INCLINAÇÃO RAIZ
 ENRAIZAMENTO (grau 3, complexidade 3) — 38
 Manter o corpo onde ele está, conduzindo ao chão o que tentar tirá-lo de lá. A especialização deste caminho governa a régua de limiar de raiz.
 └─ Postura [passivo, sem custo]: contra Empurrar e Derrubar dirigidos ao praticante, o par defensivo lê RES no lugar do segundo termo publicado, pela exceção declarada acima. LV5: a leitura vale também quando o praticante está desequilibrado, e não apenas de pé
-└─ Ancoragem [reação, sem custo]: o praticante escolhe não se mover mesmo perdendo o teste de Empurrar contra ele, e a Potência do executor da manobra, FOR mais VEL dele vezes 25, carrega a Reserva de Força pela régua de Carga da Reserva na taxa de golpe aparado, em vez de produzir deslocamento. LV5: a mesma escolha se aplica a Derrubar, e o praticante permanece de pé carregando a Reserva pela mesma régua em vez de cair
+└─ Ancoragem [reação, sem custo]: o praticante escolhe não se mover mesmo perdendo o teste de Empurrar contra ele, e a Energia do executor da manobra, FOR mais VEL dele vezes 25, carrega a Reserva de Força pela régua de Carga da Reserva na taxa de golpe aparado, em vez de produzir deslocamento. LV5: a mesma escolha se aplica a Derrubar, e o praticante permanece de pé carregando a Reserva pela mesma régua em vez de cair
 
 ABSORÇÃO ATIVA (grau 4, complexidade 4) — 42
 Guardar o que o corpo recebeu em vez de apenas dissipá-lo. A especialização deste caminho governa a régua de teto da Reserva de Força.
@@ -212,13 +212,13 @@ INCLINAÇÃO CÍRCULO
 
 ESCUTA (grau 3, complexidade 4) — 38
 Ting Jing, a leitura do outro pelo contato sustentado. A especialização deste caminho governa a régua de piso de escuta.
-└─ Ting Jing [passivo, sem custo, contato sustentado]: o Limiar de Esquiva do praticante contra o corpo em contato lê o piso de escuta quando esse piso for maior que o Limiar normal, e o praticante ganha vantagem na Reação seguinte contra qualquer ação física daquele corpo. LV5: a vantagem se estende à primeira Reação contra uma obra executada pelo mesmo corpo, e não apenas contra ação física
+└─ Ting Jing [passivo, sem custo, contato sustentado]: o lado defensivo do teste de conexão do praticante contra o corpo em contato lê o piso de escuta quando esse piso for maior que o Limiar normal, e o praticante ganha vantagem na Reação seguinte contra qualquer ação física daquele corpo. LV5: a vantagem se estende à primeira Reação contra uma obra executada pelo mesmo corpo, e não apenas contra ação física
 └─ Adesão [passivo, sem custo]: uma vez estabelecido o contato, ele se mantém através do movimento do oponente sem gastar ação nova, mesmo que o oponente se desloque dentro da banda Engajado. LV5: a Adesão sobrevive a um deslocamento até a banda Curta, exigindo apenas que o praticante gaste a Ação de Movimento para acompanhar
 
 LIBERAÇÃO (grau 4, complexidade 5) — 42
 Fa Jing, a descarga da Reserva de Força num único golpe. A especialização deste caminho governa a régua de fração de descarga.
-└─ Fa Jing [ativado, ação padrão, o Esforço de um Golpe]: com a Reserva de Força acumulada, descarrega a fração declarada dela num único golpe, e a Potência do golpe lê Reserva multiplicada pela fração no lugar do par FOR mais VEL comum. A Reserva usada no disparo zera, e o que exceder o consumido permanece guardado até a próxima descarga ou o fim da cena. LV5: a fração sobe a 0,735, e o disparo ignora a Banda Mínima da distância de contato
-└─ Devolução [reação, o Esforço de um Bloqueio, resposta direta a golpe ou agarrão sofrido no mesmo turno]: em vez de ler a Reserva, a Potência do golpe lê a Potência do golpe recebido que originou a resposta, e a Guarda do agressor não responde a esse golpe porque a estrutura dele está montada para a frente do próprio ataque. O eixo de evitabilidade é ignora-esquiva, porque o agressor já comprometeu a própria Reação no golpe que originou a resposta. LV5: a leitura se estende ao golpe mais forte que o praticante sofreu na cena corrente, e não apenas ao último
+└─ Fa Jing [ativado, ação padrão, o Esforço de um Golpe]: com a Reserva de Força acumulada, descarrega a fração declarada dela num único golpe, e a Energia do golpe lê Reserva multiplicada pela fração no lugar do par FOR mais VEL comum. A Reserva usada no disparo zera, e o que exceder o consumido permanece guardado até a próxima descarga ou o fim da cena. LV5: a fração sobe a 0,735, e o disparo ignora a Banda Mínima da distância de contato
+└─ Devolução [reação, o Esforço de um Bloqueio, resposta direta a golpe ou agarrão sofrido no mesmo turno]: em vez de ler a Reserva, a Energia do golpe lê a Energia do golpe recebido que originou a resposta, e a Guarda do agressor não responde a esse golpe porque a estrutura dele está montada para a frente do próprio ataque. O eixo de evitabilidade é ignora-esquiva, porque o agressor já comprometeu a própria Reação no golpe que originou a resposta. LV5: a leitura se estende ao golpe mais forte que o praticante sofreu na cena corrente, e não apenas ao último
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -247,7 +247,7 @@ Pré-requisito: Escuta e Liberação, ambos Aprofundados.
 Revoga: o teto da Reserva de Força, e a perda dela ao fim da cena.
 └─ Vaso Sem Fundo [passivo, sem custo]: a Reserva de Força deixa de ter teto e atravessa o fim de cena sem se perder, permanecendo acumulada até que o praticante a descarregue por vontade própria
 └─ Fa Jing LV6: a fração de descarga sobe a 0,91, e a Reserva usada num disparo parcial não zera, apenas reduz pelo valor consumido
-└─ Devolução LV6: a leitura da Potência recebida se estende a qualquer golpe sofrido nas últimas três rodadas, e não apenas ao turno corrente
+└─ Devolução LV6: a leitura da Energia recebida se estende a qualquer golpe sofrido nas últimas três rodadas, e não apenas ao turno corrente
 └─ Ting Jing LV6: o piso de escuta se aplica contra qualquer corpo dentro da banda Curta, dispensando o contato sustentado
 └─ Adesão LV6: o vínculo sobrevive a qualquer deslocamento do oponente dentro da banda Média, sem custar a Ação de Movimento do praticante
 
@@ -271,7 +271,7 @@ Atribuído: nenhum.
 
 Cânone fraco declarado: não se aplica, pela ausência de fonte primária.
 
-Decisão de sistema declarada: a publicação em worlds/common, primeira perícia jogável do corpus fora de um mundo específico, porque nenhum efeito dela lê fato de cenário e a dependência inteira mora em documentos de núcleo; a tradução da arte marcial real Taichi Chuan pelo método de quatro passos, com o pilar de Enraizamento, o pilar de Ceder e Redirecionar e o pilar de Escuta pelo Contato como os três eixos originais, e as Oito Portas do repertório real como a quarta camada que vira a inclinação PORTAS; a fronteira contra Aikido, que projeta sem guardar, e contra Jiu-Jitsu, que arremessa o corpo alheio em vez de devolver a força dele; o regente DES em vez do VEL que artes marciais de velocidade usam, porque a identidade do domínio é sensibilidade e não deslocamento; a Reserva de Força como pool separado de PV e PS, que decai por cena inteira e não por turno; a substituição de RES pelo segundo termo do par defensivo de Empurrar e Derrubar, isolada em seção própria por ser a primeira do tipo no corpus; a leitura da Potência do golpe recebido pelo verbo Devolução, sem precedente publicado antes desta perícia.
+Decisão de sistema declarada: a publicação em worlds/common, primeira perícia jogável do corpus fora de um mundo específico, porque nenhum efeito dela lê fato de cenário e a dependência inteira mora em documentos de núcleo; a tradução da arte marcial real Taichi Chuan pelo método de quatro passos, com o pilar de Enraizamento, o pilar de Ceder e Redirecionar e o pilar de Escuta pelo Contato como os três eixos originais, e as Oito Portas do repertório real como a quarta camada que vira a inclinação PORTAS; a fronteira contra Aikido, que projeta sem guardar, e contra Jiu-Jitsu, que arremessa o corpo alheio em vez de devolver a força dele; o regente DES em vez do VEL que artes marciais de velocidade usam, porque a identidade do domínio é sensibilidade e não deslocamento; a Reserva de Força como pool separado de PV e PS, que decai por cena inteira e não por turno; a substituição de RES pelo segundo termo do par defensivo de Empurrar e Derrubar, isolada em seção própria por ser a primeira do tipo no corpus; a leitura da Energia do golpe recebido pelo verbo Devolução, sem precedente publicado antes desta perícia.
 
 Fontes descartadas com registro: nenhuma, pela ausência de fonte primária a descartar.
 
@@ -279,7 +279,7 @@ Proposta: todos os valores de custo, teste, régua e teto; a partição em três
 
 DEPENDÊNCIAS E PENDÊNCIAS
 
-Núcleo de Combate v1, dono do motor de manobras, da Potência, da Guarda, da Absorção e das cinco bandas, consumido sem redefinição em nenhum ponto desta perícia. Sistema de Efeitos de Status, dono da Imobilização, da Queda e da régua de graus, consumido pelos verbos Cai, Lie e Kao. Compêndio de escola de combate, inexistente, dono de qualquer obra nomeada que um praticante desta perícia venha a executar. No cenário Naruto, a perícia de Controle de Chakra é dona do caminho Impregnação e do verbo Base Ancorada, com fronteira declarada contra Enraizamento pela separação de vetor.
+Núcleo de Combate v3, dono do motor de manobras, da Energia, da Guarda, da Absorção e das cinco bandas, consumido sem redefinição em nenhum ponto desta perícia. Sistema de Efeitos de Status, dono da Imobilização, da Queda e da régua de graus, consumido pelos verbos Cai, Lie e Kao. Compêndio de escola de combate, inexistente, dono de qualquer obra nomeada que um praticante desta perícia venha a executar. No cenário Naruto, a perícia de Controle de Chakra é dona do caminho Impregnação e do verbo Base Ancorada, com fronteira declarada contra Enraizamento pela separação de vetor.
 
 FILA DE ERRATA
 
@@ -305,4 +305,4 @@ v1.1
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.2. Custos leem o Manual de Economia de XP v2, seção 6.1. O motor de manobras, a Potência, a Guarda e a Absorção leem o Núcleo de Combate v1. A régua de graus de estado e as condições Imobilização e Queda pertencem ao Sistema de Efeitos de Status v2.4. No cenário Naruto, a fronteira contra Impregnação lê a perícia de Controle de Chakra v3.3.
+Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.2. Custos leem o Manual de Economia de XP v2, seção 6.1. O motor de manobras, a Energia, a Guarda e a Absorção leem o Núcleo de Combate v3. A régua de graus de estado e as condições Imobilização e Queda pertencem ao Sistema de Efeitos de Status v2.4. No cenário Naruto, a fronteira contra Impregnação lê a perícia de Controle de Chakra v3.3.

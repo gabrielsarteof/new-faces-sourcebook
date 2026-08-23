@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.kunai
 title: "Kunai"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -139,7 +139,7 @@ Fio com mola na manga entrega a lâmina à mão sem gastar a ação de sacar. `[
 TRANSIÇÃO (grau 4, complexidade 5) — 42
 Alterna entre punho e arremesso dentro da mesma sequência de combate, e entrega o corte no instante exato da chegada quando a chegada é por travessia. `[proposta]` O Núcleo de Combate não publica penalidade de troca de arma ou de modo de arma em seção nenhuma; este caminho concede a alternância dentro da mesma Ação Completa registrando essa ausência de forma explícita, e não revogando regra que não existe.
 └─ Alternância [passivo]: o praticante alterna entre empunhar e arremessar o kunai dentro da mesma Ação Completa, sem custo de ação adicional. Nenhuma regra do Núcleo de Combate cobra penalidade por essa troca, e este verbo apenas a declara aberta, sem revogar nada. LV5: a alternância corre também dentro de uma única Reação, quando a Reação envolve o kunai
-└─ Chegada Cortante [ativado, ação padrão, custo nenhum além do que a travessia já pagou, teste do golpe contra a Esquiva do alvo pela sequência comum do Núcleo de Combate]: quando o praticante chega ao alvo por uma travessia que o deixa a alcance de contato no mesmo ato, o kunai empunhado entrega o golpe no instante da chegada, sem exigir ação separada de ataque depois de resolvida a travessia, e o corte lê a perfuração de Absorção deste caminho: a Absorção do alvo se reduz em um terço no passo 9 da sequência de dano, mantido o piso de 10% da Energia que sempre alcança. LV5: a redução de Absorção passa à metade
+└─ Chegada Cortante [ativado, ação padrão, custo nenhum além do que a travessia já pagou, teste do golpe contra a Esquiva do alvo pela sequência comum do Núcleo de Combate]: quando o praticante chega ao alvo por uma travessia que o deixa a alcance de contato no mesmo ato, o kunai empunhado entrega o golpe no instante da chegada, sem exigir ação separada de ataque depois de resolvida a travessia, e o corte lê a perfuração de Absorção deste caminho: a Absorção do alvo se reduz em um terço no passo 10 da sequência de resolução. LV5: a redução de Absorção passa à metade
 
 `[distinção contra Tantō]` o Tantō perfura estrutura contra Guarda elevada e entrega a partir de controle físico já formado; esta inclinação persegue o ponto anatômico contra alvo desprevenido e faz a lâmina trocar de papel entre punho e arremesso sem custo de ação. As duas armas coexistem na mesma ficha sem sobreposição de verbo.
 

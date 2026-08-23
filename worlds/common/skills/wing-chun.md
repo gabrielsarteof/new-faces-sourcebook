@@ -1,7 +1,7 @@
 ---
 id: common.skill.wing-chun
 title: "Wing Chun"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: common
 type: skill
@@ -208,4 +208,4 @@ A perícia de corpo genérica segue na Fila de Nascimento, e Wing Chun cobre o p
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2. Procedimento segue o Manual de Criação de Perícias v7.3. Custos leem o Manual de Economia de XP. Potência, Guarda, Absorção e o motor de manobras leem o Núcleo de Combate. Os graus e a remoção de toda condição instalada leem o Sistema de Efeitos de Status.
+Estrutura e valores de camada leem o Núcleo de Perícias v2. Procedimento segue o Manual de Criação de Perícias v7.3. Custos leem o Manual de Economia de XP. Energia, Guarda, Absorção e o motor de manobras leem o Núcleo de Combate. Os graus e a remoção de toda condição instalada leem o Sistema de Efeitos de Status.

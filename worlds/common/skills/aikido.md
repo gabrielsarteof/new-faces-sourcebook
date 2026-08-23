@@ -1,7 +1,7 @@
 ---
 id: common.skill.aikido
 title: "Aikidō"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: common
 type: skill
@@ -116,7 +116,7 @@ O contato pelo punho ou pela manga é onde a leitura da estrutura alheia começa
 ESPIRAL DE KUZUSHI (grau 3, complexidade 5)
 Conduzir o peso do alvo por uma trajetória que a estrutura dele não sustenta. `[real]` derivada do fundamento de que o desequilíbrio nasce de redirecionar a força que o atacante já trouxe numa tangente ao próprio percurso dela, e não de bloqueá-la de frente.
 └─ Quebra em Espiral [ativado, ação padrão, teste da técnica contra o Equilíbrio do alvo]: a partir de Contato ao Centro, o praticante conduz o peso do alvo numa trajetória circular que a estrutura dele não sustenta, aplicando Queda pela régua de status. LV5: a Queda resolvida também impõe Grau Leve de Imobilização, se o praticante mantiver o contato depois da queda
-└─ Momento Emprestado [passivo]: a Potência de Quebra em Espiral lê o próprio deslocamento do alvo no turno, em vez do par FOR mais VEL do praticante, quando o alvo estiver avançando contra o praticante no instante do contato. LV5: a leitura também se aplica quando dois alvos avançam contra o praticante ligados ao mesmo contato
+└─ Momento Emprestado [passivo]: a Energia de Quebra em Espiral lê o próprio deslocamento do alvo no turno, em vez do par FOR mais VEL do praticante, quando o alvo estiver avançando contra o praticante no instante do contato. LV5: a leitura também se aplica quando dois alvos avançam contra o praticante ligados ao mesmo contato
 
 ═══════════════════════════════════════════════════════════════════
 INCLINAÇÃO PROJEÇÃO
@@ -209,4 +209,4 @@ A perícia de corpo genérica segue na Fila de Nascimento, e Aikidō cobre o pr�
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2. Procedimento segue o Manual de Criação de Perícias v7.3. Custos leem o Manual de Economia de XP. Potência, Guarda, Absorção e o motor de manobras leem o Núcleo de Combate. Os graus de Queda e de Imobilização leem o Sistema de Efeitos de Status.
+Estrutura e valores de camada leem o Núcleo de Perícias v2. Procedimento segue o Manual de Criação de Perícias v7.3. Custos leem o Manual de Economia de XP. Energia, Guarda, Absorção e o motor de manobras leem o Núcleo de Combate. Os graus de Queda e de Imobilização leem o Sistema de Efeitos de Status.
