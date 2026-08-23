@@ -222,7 +222,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 
 | Documento | id | v | tipo | status |
 |---|---|---|---|---|
-| [Celeridade (Jinton 迅遁)](worlds/naruto/powers/celeridade.md) | `naruto.power.celeridade` | 1.1 | power | final |
+| [Celeridade (Jinton 迅遁)](worlds/naruto/powers/celeridade.md) | `naruto.power.celeridade` | 1.2 | power | final |
 | [Poderes — Naruto](worlds/naruto/powers/overview.md) | `naruto.power.overview` | 1.3 | system | final |
 | [Puraton (Plasma)](worlds/naruto/powers/puraton.md) | `naruto.power.puraton` | 1 | power | final |
 
