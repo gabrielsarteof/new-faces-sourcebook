@@ -1,7 +1,7 @@
 ---
 id: common.skill.katana
 title: "Katana"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: common
 type: skill
@@ -28,7 +28,7 @@ NOTA SOBRE KENJUTSU
 
 IDENTIDADE
 
-Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Lâmina curva, Esforço 1,0 e coeficiente de impacto 1,0, lidos do Núcleo de Combate sem ajuste algum.
+Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Lâmina curva, Esforço 1,0, lido do Núcleo de Combate sem ajuste algum.
 
 O domínio não controla portão de rank. Não existe compêndio de obras nomeadas de katana escalonando o acesso por rank, e a perícia entrega competência de golpe e não catálogo de técnicas.
 
@@ -76,12 +76,12 @@ O neutro 5 é o mesmo divisor que `Guarda = DEF × 5` fixa no Núcleo de Combate
 NÍVEL 1: FUNDAMENTOS
 Base 12 · teste 14 · DES 2
 
-O praticante empunha a katana como Lâmina curva, com Esforço 1,0 e coeficiente de impacto 1,0. A lâmina se traz embainhada por padrão, e sacar e golpear resolvem na mesma Ação de Combate sempre que a situação permitir. Posse da Lâmina 14.
+O praticante empunha a katana como Lâmina curva, com Esforço 1,0. A lâmina se traz embainhada por padrão, e sacar e golpear resolvem na mesma Ação de Combate sempre que a situação permitir. Posse da Lâmina 14.
 
 NÍVEL 2: INCLINAÇÃO (escolha 1)
 Base 24 · Inclinação 8 · teste 30 fora e 38 dentro · DES 6
 
-A empunhadura de duas mãos, quando declarada, eleva o coeficiente de impacto do golpe comum em 10% antes de qualquer caminho, refletindo a massa adicional posta atrás do corte. Posse da Lâmina 38.
+A empunhadura de duas mãos, quando declarada, eleva a Energia do golpe comum em 10% antes de qualquer caminho, refletindo a massa adicional posta atrás do corte. O alvo do bônus era o coeficiente de impacto, que o Núcleo de Combate v3 revogou, e a leitura recai sobre a única grandeza que o v3 tem para força aplicada, com o percentual preservado. Posse da Lâmina 38.
 
 IAIJUTSU: o praticante trata o instante do saque como o centro do próprio combate, resolvendo iniciativa e resposta a partir da lâmina embainhada.
 └─ Liga quando a lâmina está embainhada no início da ação declarada

@@ -1,7 +1,7 @@
 ---
 id: common.skill.tanto
 title: "Tantō"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: common
 type: skill
@@ -26,7 +26,7 @@ O domínio não produz dano à distância, não desloca e não sela nada. A capa
 
 IDENTIDADE
 
-Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Arma de precisão, Esforço 0,8 e coeficiente de impacto 0,8, lida do Núcleo de Combate. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
+Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Arma de precisão, Esforço 0,8, lido do Núcleo de Combate. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
 
 O domínio não controla portão de rank. Não existe compêndio de obras nomeadas de tantō escalonando o acesso por rank, e a perícia entrega competência de golpe e não catálogo de técnicas.
 
@@ -81,7 +81,7 @@ Resolvido: 14 no LV1, 38 no LV2, 60 no LV3, 78 no LV4, 93 no LV5, 109 no LV6.
 NÍVEL 1: FUNDAMENTOS
 Base 12 · teste 14 · DES 2
 
-O praticante empunha o tantō como Arma de precisão, com Esforço 0,8 e coeficiente de impacto 0,8. A montagem é aikuchi, sem guarda de mão, e a bainha se traz com o cabo voltado para trás e a ponta para frente, de modo que sacar e embainhar não custam ação além do golpe em si. Posse da Lâmina 14. Leitura de Fresta lê 95% da Guarda do alvo antes de qualquer caminho.
+O praticante empunha o tantō como Arma de precisão, com Esforço 0,8. A montagem é aikuchi, sem guarda de mão, e a bainha se traz com o cabo voltado para trás e a ponta para frente, de modo que sacar e embainhar não custam ação além do golpe em si. Posse da Lâmina 14. Leitura de Fresta lê 95% da Guarda do alvo antes de qualquer caminho.
 
 NÍVEL 2: INCLINAÇÃO (escolha 1)
 Base 24 · Inclinação 8 · teste 30 fora e 38 dentro · DES 6
@@ -126,7 +126,7 @@ O golpe mira a junção estrutural em vez da superfície inteira, e a Guarda do 
 
 ESPINHA REFORÇADA (grau 4, complexidade 4) — 42
 `[real]` A variante yoroi-dōshi troca velocidade por penetração, com espinha e base reforçadas para suportar o estresse de perfurar sem entortar. O golpe aqui é o mesmo desenho aplicado em mesa: mais lento, mais grosso, e construído para não ceder contra o que resiste mais.
-└─ Estocada Carregada [ativado, ação completa mais uma Ação de Movimento adicional de preparação, custo nenhum, teste do golpe contra a Esquiva do alvo]: o golpe eleva o coeficiente de impacto da própria classe de precisão, 0,8, ao da classe pesada, 1,3, apenas para este ataque, e o Esforço pago acompanha a mesma elevação. LV5: o tempo de preparação cai para a própria Ação de Movimento da rodada, sem a adicional
+└─ Estocada Carregada [ativado, ação completa mais uma Ação de Movimento adicional de preparação, custo nenhum, teste do golpe contra a Esquiva do alvo]: o golpe eleva o Esforço da própria classe de precisão, 0,8, ao da classe pesada, 1,3, apenas para este ataque, e a Energia dele sobe 62,5%, a mesma razão que a troca de classe produzia sobre o coeficiente de impacto revogado. LV5: o tempo de preparação cai para a própria Ação de Movimento da rodada, sem a adicional
 └─ Sem Dobra [passivo]: a Estocada Carregada não perde eficácia contra construto rígido de origem sobrenatural ou material de dureza excepcional, e a Leitura de Fresta se aplica a ela por inteiro mesmo quando a Guarda do alvo estiver elevada por obra ou item que declare resistência fora da régua comum. LV5: a mesma isenção se estende a Busca de Junta quando os dois caminhos golpeiam o mesmo alvo na mesma cena
 
 ═══════════════════════════════════════════════════════════════════

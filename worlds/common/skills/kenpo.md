@@ -1,7 +1,7 @@
 ---
 id: common.skill.kenpo
 title: "Kenpo"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: common
 type: skill
@@ -18,7 +18,7 @@ Nenhuma dessas quatro ideias tem verbete no cânone de Naruto. A escola inteira 
 
 Esta perícia mora em worlds/common porque nenhuma linha dela pressupõe fato de cenário algum, no mesmo padrão que o Taichi abriu.
 
-O território termina onde o ofício alheio começa. O Punho Gentil, estilo nomeado que já vive no documento do clã Hyūga, permanece lá, porque a nota de desenho do Índice de Perícias reserva estilo de clã ao documento do clã. A escola de Muay Thai é a vizinha mais próxima: os caminhos dela prendem bônus de combinação a uma posição fixa dentro de uma série curta, o segundo soco, o terceiro golpe, e nenhum caminho desta perícia lê posição de golpe. O Aikido neutraliza pela absorção, guardando o impulso do oponente para devolvê-lo numa projeção separada, e o contra-ataque de Kenpo devolve o mesmo impulso no instante em que o recebe. As duas escolas seguem sob schema de migração pendente, e a distinção vale para o formato futuro delas tanto quanto para o atual. A escalada de amplificação corporal por saturação de energia física pertence à Liberação de Yang. O Fator de Portão, os tetos de fluxo e a fisiologia do circuito de chakra pertencem ao Sistema dos Oito Portões e à perícia de corpo que ele reserva como consumidora futura. Potência, Guarda, Absorção, a escada de Cadência e as quatro manobras pertencem ao Núcleo de Combate, e esta perícia consome o motor sem redefinir uma linha dele. Os graus, as durações e a remoção de toda condição instalada pertencem ao Sistema de Efeitos de Status. O tratamento que encerra uma Marcação antes do fim de cena pertence ao Ninjutsu Médico.
+O território termina onde o ofício alheio começa. O Punho Gentil, estilo nomeado que já vive no documento do clã Hyūga, permanece lá, porque a nota de desenho do Índice de Perícias reserva estilo de clã ao documento do clã. A escola de Muay Thai é a vizinha mais próxima: os caminhos dela prendem bônus de combinação a uma posição fixa dentro de uma série curta, o segundo soco, o terceiro golpe, e nenhum caminho desta perícia lê posição de golpe. O Aikido neutraliza pela absorção, guardando o impulso do oponente para devolvê-lo numa projeção separada, e o contra-ataque de Kenpo devolve o mesmo impulso no instante em que o recebe. As duas escolas seguem sob schema de migração pendente, e a distinção vale para o formato futuro delas tanto quanto para o atual. A escalada de amplificação corporal por saturação de energia física pertence à Liberação de Yang. O Fator de Portão, os tetos de fluxo e a fisiologia do circuito de chakra pertencem ao Sistema dos Oito Portões e à perícia de corpo que ele reserva como consumidora futura. Energia, Guarda, Absorção, a escada de Cadência e as quatro manobras pertencem ao Núcleo de Combate, e esta perícia consome o motor sem redefinir uma linha dele. Os graus, as durações e a remoção de toda condição instalada pertencem ao Sistema de Efeitos de Status. O tratamento que encerra uma Marcação antes do fim de cena pertence ao Ninjutsu Médico.
 
 O domínio ainda não tem superclasse. A perícia de corpo que absorveria o baseline comum de todo estilo marcial está na Fila de Nascimento do Índice de Perícias, bloqueada até a camada física geral nascer. Kenpo hoje cobre o próprio baseline inteiro sem portão de acesso, e a errata dessa lacuna está registrada ao final deste documento, para o dia em que a superclasse existir e Kenpo passar a subclasse dela.
 
@@ -47,15 +47,15 @@ COMO O TESTE SE LÊ
 teste = Base Total + DES + [Inclinação Total, se a situação pertence a ela] + [Especialização, se o verbo resolve o problema]
 ```
 
-Uma inclinação e uma especialização por teste, no máximo. O teste desta perícia decide quando um verbo de Kenpo resolve a cena. A Potência, a Guarda, a Absorção e o Golpe do golpe físico em si continuam lendo FOR, VEL e DEF pela fórmula comum do Núcleo de Combate, porque essas grandezas pertencem ao corpo e não à escola.
+Uma inclinação e uma especialização por teste, no máximo. O teste desta perícia decide quando um verbo de Kenpo resolve a cena. A Energia, a Guarda, a Absorção e o Golpe do golpe físico em si continuam lendo FOR, VEL e DEF pela fórmula comum do Núcleo de Combate, porque essas grandezas pertencem ao corpo e não à escola.
 
 CLASSE DE GOLPE DESARMADO
 
 O Núcleo de Combate publica três classes de arma e nenhuma classe para o golpe sem arma. Esta perícia declara a que falta, `[proposta]`, por interpolação entre a arma de precisão e a lâmina curva, e a lacuna entra na fila de errata ao final deste documento.
 
-| Classe | Esforço | Coeficiente de impacto |
-|---|---|---|
-| Golpe desarmado | 0,9 | 0,9 |
+| Classe | Esforço |
+|---|---|
+| Golpe desarmado | 0,9 |
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -69,27 +69,31 @@ A parcela de maestria que o golpe de Corrente Sem Fim soma à Energia comum do N
 Fator de Kenpo = degrau² × (teste do caminho ÷ 4)
 ```
 
-O divisor foi substituído contra a faixa inteira de testes do domínio antes de publicar. Resolvido para o combatente de Potência 1.600 do exemplo canônico do Núcleo de Combate, contra o par Especial de 1.920 PV:
+O divisor foi substituído contra a faixa inteira de testes do domínio antes de publicar. Resolvido para o combatente do exemplo canônico do Núcleo de Combate, perfil Equilibrado da faixa Especial, cujo Golpe Firme entrega Energia 180, contra o par Especial de 1.920 PV:
 
-| Degrau | Teste LV4 (120) | Teste LV6 (174) | Energia total no LV6 | % do par |
+| Degrau | Fator no LV4 (teste 120) | Fator no LV6 (teste 174) | Energia total no LV6 | % do par |
 |---|---|---|---|---|
-| 0 | 0 | 0 | 320 | 17% |
-| 1 | 30 | 43,5 | 363,5 | 19% |
-| 2 | 120 | 174 | 494 | 26% |
-| 3 | 270 | 391,5 | 711,5 | 37% |
+| 0 | 0 | 0 | 180 | 9,4% |
+| 1 | 30 | 43,5 | 223,5 | 11,6% |
+| 2 | 120 | 174 | 354 | 18,4% |
+| 3 | 270 | 391,5 | 571,5 | 29,8% |
 
 O terceiro degrau fecha dentro da banda Forte, de 25 a 38% do par de validação, a mesma âncora que o Manual de Criação de Jutsus declara para descarga única. A leitura por analogia entre um domínio sem chakra e a banda de um domínio que o tem é `[proposta]`.
 
+A tabela foi refeita quando o Núcleo de Combate v3 aposentou a Potência. A base do exemplo caiu de 320 para 180, porque a Energia do golpe passou a ler os dois atributos somados ao bônus geral da perícia e multiplicados pelo golpe declarado, e o coeficiente de entrega de 0,20 do golpe comum morreu junto com a grandeza que ele multiplicava. A régua não mudou em ponto nenhum: o divisor 4 foi reconferido contra a base nova e o terceiro degrau permanece dentro da banda, o que confirma que ele estava calibrado sobre a relação entre Fator e par, e não sobre a grandeza que a passada anterior usava para chegar até ela.
+
 EFICIÊNCIA DE RETORNO
 
-A fração da Potência do praticante que Bloqueio Ofensivo devolve ao atacante. Lê a especialização de Bloqueio Ofensivo e mais nenhuma outra.
+A fração da Energia do praticante que Bloqueio Ofensivo devolve ao atacante. Lê a especialização de Bloqueio Ofensivo e mais nenhuma outra.
 
 ```
-Retorno de Bloqueio = Potência do praticante × 0,20 × Eficiência de Retorno
+Retorno de Bloqueio = Energia do praticante × Eficiência de Retorno
 Eficiência de Retorno = √(teste do caminho ÷ 174), teto 1,0
 ```
 
-O neutro 174 é o praticante de LV6 com Bloqueio Ofensivo transcendido, largura mínima. Resolvido: 83% no LV4, 92% no LV5, teto de 100% no LV6 transcendido. Para o combatente de Potência 1.600, o retorno fecha em 266, 294 e 320.
+O neutro 174 é o praticante de LV6 com Bloqueio Ofensivo transcendido, largura mínima, e não depende de grandeza de dano alguma. Resolvido: 83% no LV4, 92% no LV5, teto de 100% no LV6 transcendido. Para o combatente do exemplo canônico, de Energia 180, o retorno fecha em 149,4, 165,6 e 180.
+
+O `× 0,20` que esta fórmula trazia era o coeficiente de entrega do golpe comum aplicado sobre a Potência, e o produto dos dois é exatamente a Energia que o Núcleo de Combate v3 publica. A conta é a mesma com o nome certo, e nenhuma proporção mudou.
 
 GRAU DE EXPOSIÇÃO
 
@@ -121,7 +125,7 @@ Sem Aviso e Contra-Linha resolvem por elevação categórica e por oposição di
 NÍVEL 1: FUNDAMENTOS
 Base 12 · teste 14 com DES 2
 
-O praticante golpeia sem recuo perceptível, do ponto onde a mão já está. O golpe desarmado converte pela classe declarada acima, Esforço 0,9 e coeficiente de impacto 0,9. Ele reconhece, ao gastar a Reação contra um ataque físico, se a trajetória que vem é reta ou circular, leitura tática sem número que sustenta os caminhos da inclinação ADAPTAÇÃO quando ela for adquirida.
+O praticante golpeia sem recuo perceptível, do ponto onde a mão já está. O golpe desarmado converte pela classe declarada acima, Esforço 0,9. Ele reconhece, ao gastar a Reação contra um ataque físico, se a trajetória que vem é reta ou circular, leitura tática sem número que sustenta os caminhos da inclinação ADAPTAÇÃO quando ela for adquirida.
 
 NÍVEL 2: INCLINAÇÃO (escolha 1)
 Base 24 · Inclinação 8 · teste 30 fora e 38 dentro, com DES 6
@@ -177,7 +181,7 @@ INCLINAÇÃO CORRENTE
 
 BLOQUEIO OFENSIVO (grau 4, complexidade 4) — 42
 Bloquear é a continuação do ataque do praticante. O corpo que absorve o golpe alheio já está no meio do próprio golpe.
-└─ Retorno [passivo]: todo Bloqueio bem-sucedido devolve dano ao atacante pela régua de Eficiência de Retorno, lendo a Potência do próprio praticante e nunca a do golpe recebido, como parte do mesmo gesto que já paga o Esforço do Bloqueio na escada do Núcleo de Combate. Bloqueio Duro: contra golpe desarmado, o retorno também fere a arma natural do atacante, pela regra de dano de fonte sem ficha do Núcleo de Combate. LV5: o retorno alcança também golpe recebido de arma de precisão, e não apenas golpe desarmado
+└─ Retorno [passivo]: todo Bloqueio bem-sucedido devolve dano ao atacante pela régua de Eficiência de Retorno, lendo a Energia do próprio praticante e nunca a do golpe recebido, como parte do mesmo gesto que já paga o Esforço do Bloqueio na escada do Núcleo de Combate. Bloqueio Duro: contra golpe desarmado, o retorno também fere a arma natural do atacante, pela regra de dano de fonte sem ficha do Núcleo de Combate. LV5: o retorno alcança também golpe recebido de arma de precisão, e não apenas golpe desarmado
 [distinção contra a Devolução do Genjutsu: lá o retorno lê o investimento do autor da ilusão. Aqui o retorno lê sempre a força do próprio Kenpo, nunca a do golpe recebido]
 
 CORRENTE SEM FIM (grau 4, complexidade 5) — 42
@@ -195,7 +199,7 @@ Contra o círculo, a linha reta é a rota mais curta, e cortá-la antes que ela 
 
 CONTRA-CÍRCULO (grau 3, complexidade 4) — 38
 Contra a linha reta, o arco aproveita o próprio impulso do golpe alheio, e devolve esse impulso na mesma respiração em vez de guardá-lo.
-└─ Arco de Impulso [reação, usa a esquiva, sem custo adicional além do que a Reação já cobra]: contra ataque físico de trajetória reta, uma esquiva bem-sucedida também dispara um golpe imediato, usando o Golpe da ficha, no mesmo instante e sem ação adicional, ignorando da Guarda do atacante a fração que a Janela de Adaptação ler. O golpe não guarda energia para uso posterior e não soma degrau à escada de Corrente Sem Fim, por ser resposta e não abertura. LV5: o golpe imediato lê a Potência inteira do praticante em vez do Golpe da ficha, quando o ataque evitado partiu de um oponente em Quebra de Guarda
+└─ Arco de Impulso [reação, usa a esquiva, sem custo adicional além do que a Reação já cobra]: contra ataque físico de trajetória reta, uma esquiva bem-sucedida também dispara um golpe imediato, usando o Golpe da ficha, no mesmo instante e sem ação adicional, ignorando da Guarda do atacante a fração que a Janela de Adaptação ler. O golpe não guarda energia para uso posterior e não soma degrau à escada de Corrente Sem Fim, por ser resposta e não abertura. LV5: o golpe imediato lê a Energia inteira do praticante em vez do Golpe da ficha, quando o ataque evitado partiu de um oponente em Quebra de Guarda
 [distinção contra Aikido: lá o redirecionamento guarda o impulso do oponente para uma projeção separada, com ação própria. Aqui o impulso se devolve no mesmo instante da esquiva, como contra-ataque e não como manobra]
 
 ═══════════════════════════════════════════════════════════════════
@@ -215,7 +219,7 @@ Revoga: o teto de três degraus da escada de Corrente Sem Fim.
 SARUTAHIKO (猿田毘古), remoção de condição · Bloqueio Ofensivo
 Pré-requisito: Bloqueio Ofensivo Aprofundado.
 Revoga: o Bloqueio deixa de estar disponível durante o estado de Quebra de Guarda.
-└─ Retorno LV6 [passivo, sem custo, requer Bloqueio Ofensivo Aprofundado]: o Bloqueio permanece disponível mesmo com a Guarda em Quebra, e o Retorno de Bloqueio aplicado durante o estado lê a Eficiência de Retorno no teto de 1,0, independente do teste do caminho, porque o corpo que já perdeu a estrutura não tem mais nada a proteger além do próprio contra-ataque. Resolvido para Potência 1.600: retorno de 320 mesmo fora do LV6 transcendido
+└─ Retorno LV6 [passivo, sem custo, requer Bloqueio Ofensivo Aprofundado]: o Bloqueio permanece disponível mesmo com a Guarda em Quebra, e o Retorno de Bloqueio aplicado durante o estado lê a Eficiência de Retorno no teto de 1,0, independente do teste do caminho, porque o corpo que já perdeu a estrutura não tem mais nada a proteger além do próprio contra-ataque. Resolvido para o combatente do exemplo canônico, de Energia 180: retorno de 180 mesmo fora do LV6 transcendido
 
 Alvo Exposto, Contra-Linha e Contra-Círculo seguem sem transcendência dedicada. Os efeitos dos três leem teste e crescem sozinhos pela coluna transcendida da especialização.
 
@@ -243,7 +247,7 @@ O praticante que aprofunda os dois caminhos de uma mesma inclinação, o teto de
 
 PENDÊNCIAS E FILA DE ERRATA
 
-1. O Núcleo de Combate não publica a classe do golpe desarmado. Este documento declara Esforço 0,9 e coeficiente de impacto 0,9 por interpolação entre a arma de precisão e a lâmina curva, `[proposta]`, e a errata pede que o Núcleo de Combate absorva o valor quando revisado.
+1. O Núcleo de Combate não publica a classe do golpe desarmado. Este documento declara Esforço 0,9 por interpolação entre a arma de precisão e a lâmina curva, `[proposta]`, e a errata pede que o Núcleo de Combate absorva o valor quando revisado.
 2. O Índice de Perícias registra Kenpo no Registro de Regentes e no Registro de Conformidade, mas não abriu a subseção "Cedido pelo Kenpo v1" no Registro de Fronteira, apesar dos cinco vizinhos nomeados nesta abertura. Propagação pendente.
 3. O Perfil de Evasão vive no Manual de Criação de Jutsus e resolve técnica de chakra. Sem Aviso o consome por precedente já aberto pelo Compêndio dos Oito Portões, e a régua pede dono declarado na camada física geral quando ela nascer.
 4. O Fator de Kenpo e a Eficiência de Retorno são subsistemas próprios desta perícia, pendentes de absorção pela camada física geral, no mesmo padrão que o Sistema dos Oito Portões já reserva para o Fator de Portão.
@@ -252,4 +256,4 @@ PENDÊNCIAS E FILA DE ERRATA
 
 ═══════════════════════════════════════════════════════════════════
 
-Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.2. Custos leem o Manual de Economia de XP v2.2. Potência, Guarda, Absorção, Cadência, Bloqueio e as manobras leem o Núcleo de Combate v1. O Perfil de Evasão lê o Manual de Criação de Jutsus v2.8, por precedente do Sistema dos Oito Portões v1.3. Os graus de Marcação leem o Sistema de Efeitos de Status v2.4. O Fator de Kenpo e a Eficiência de Retorno são subsistemas próprios desta perícia.
+Estrutura e valores de camada leem o Núcleo de Perícias v2.2. Procedimento segue o Manual de Criação de Perícias v7.2. Custos leem o Manual de Economia de XP v2.2. Energia, Guarda, Absorção, Cadência, Bloqueio e as manobras leem o Núcleo de Combate v3. O Perfil de Evasão lê o Manual de Criação de Jutsus v2.8, por precedente do Sistema dos Oito Portões v1.3. Os graus de Marcação leem o Sistema de Efeitos de Status v2.4. O Fator de Kenpo e a Eficiência de Retorno são subsistemas próprios desta perícia.

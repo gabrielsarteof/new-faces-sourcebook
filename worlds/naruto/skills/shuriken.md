@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.shuriken
 title: "Shuriken"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -28,7 +28,7 @@ A densidade desta perícia é menor que a do Kunai, e isso é honesto ao invent�
 
 IDENTIDADE
 
-Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma de precisão, Esforço 0,8 e coeficiente de impacto 0,8, lida do Núcleo de Combate, para toda peça exceto o Fūma aberto, que a inclinação FŪMA eleva por conta própria. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
+Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma de precisão, Esforço 0,8, lido do Núcleo de Combate, para toda peça exceto o Fūma aberto, que a inclinação FŪMA eleva por conta própria. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
 
 Sem portão de perícia: nenhuma outra perícia é pré-requisito para abrir este domínio.
 
@@ -82,7 +82,7 @@ MODOS DE GIRO. Categórica, fixa, sem leitura de teste, porque a grandeza que el
 NÍVEL 1: FUNDAMENTOS
 Base 12 · teste 14 com DES 2 · rank E
 
-O praticante maneja o shuriken como Arma de precisão, Esforço 0,8 e coeficiente de impacto 0,8. Arremessa contra alvo parado ou lento, na banda Curta, sem verbo dedicado.
+O praticante maneja o shuriken como Arma de precisão, Esforço 0,8. Arremessa contra alvo parado ou lento, na banda Curta, sem verbo dedicado.
 
 NÍVEL 2: INCLINAÇÃO (escolha 1)
 Base 24 · Inclinação 8 · teste 30 fora e 38 dentro, com DES 6 · rank D
@@ -126,7 +126,7 @@ Arremessa múltiplos da mesma mão cobrindo ângulos distintos numa ação. `[pr
 
 FIXAÇÃO (grau 3, complexidade 4) — 38
 Prende roupa, membro ou equipamento a uma superfície, imobilizando sem ferir gravemente. `[canon]` A fonte declara a peça útil para imobilizar sem matar, e este caminho é essa leitura direta.
-└─ Fixação [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo pela sequência comum do Núcleo de Combate]: o golpe reduz o coeficiente de impacto ao piso mínimo da classe, deixando a Energia do arremesso quase inteira convertida em Impacto contra a superfície de fixação e não contra o corpo, e prende o alvo pela roupa, pelo membro ou pelo equipamento à superfície mais próxima, com a Firmeza da Fixação lida da régua. LV5: a fixação alcança também um segundo ponto do mesmo alvo com o mesmo arremesso, exigindo dois testes de fuga em vez de um para se soltar por completo
+└─ Fixação [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo pela sequência comum do Núcleo de Combate]: o golpe abre mão da Energia contra o corpo, deixando-a quase inteira convertida em fixação contra a superfície e não contra o corpo, e prende o alvo pela roupa, pelo membro ou pelo equipamento à superfície mais próxima, com a Firmeza da Fixação lida da régua. LV5: a fixação alcança também um segundo ponto do mesmo alvo com o mesmo arremesso, exigindo dois testes de fuga em vez de um para se soltar por completo
 └─ Distração [ativado, ação menor, custo nenhum, teste do golpe contra a Esquiva do alvo]: um arremesso deliberadamente impreciso, sem intenção de ferir, força o alvo a gastar a Reação do turno para não ser atingido por ele. Se o alvo gastar a Reação, o praticante ou um aliado engajado com o mesmo alvo ganha uma janela de ataque sem oposição de Reação até o fim do turno. LV5: a janela se estende também contra Bloqueio, e não apenas contra a Reação
 
 ═══════════════════════════════════════════════════════════════════
@@ -135,7 +135,7 @@ INCLINAÇÃO DISCO
 
 GIRO (grau 4, complexidade 4) — 42
 Declara o modo de lançamento e o eixo antes de cada arremesso, trocando alcance por penetração ou o inverso. `[real]` A variedade de lançamento vem da doutrina histórica de shurikenjutsu, direto, meio giro e giro completo, vertical, horizontal e diagonal, por cima ou por baixo, e não de uma cena específica do cânone.
-└─ Lançamento [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo]: declara o modo, direto, meio giro ou giro completo, e o eixo, vertical, horizontal ou diagonal, pela régua de Modos de Giro, alterando o alcance e o coeficiente de impacto do arremesso conforme a tabela. LV5: a declaração do modo passa a valer para toda a Cadência da rodada, sem precisar repeti-la a cada arremesso adicional
+└─ Lançamento [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo]: declara o modo, direto, meio giro ou giro completo, e o eixo, vertical, horizontal ou diagonal, pela régua de Modos de Giro, alterando o alcance e a Energia do arremesso conforme a tabela. LV5: a declaração do modo passa a valer para toda a Cadência da rodada, sem precisar repeti-la a cada arremesso adicional
 └─ Ricochete [ativado, custo nenhum além do que o arremesso já pagou, teste do golpe contra a Esquiva do alvo]: a peça bate numa superfície declarada antes de alcançar o alvo, resolvendo o eixo da régua de Modos de Giro contra a cobertura interposta como se o arremesso viesse do ponto de ricochete, e não da posição real do praticante. LV5: o ricochete alcança um segundo ponto de rebote na mesma trajetória, sem custo adicional
 
 SOMBRA (grau 4, complexidade 5) — 42
@@ -149,12 +149,12 @@ INCLINAÇÃO FŪMA
 
 PORTE (grau 4, complexidade 4) — 42
 Maneja a peça de grande porte, com dano e alcance muito acima do shuriken comum, ao custo de carregar poucas. `[canon]` A Grande Estrela, quase um metro, tem poder elevado em alcance e não combina com o kunai por incompatibilidade de escala.
-└─ Porte [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo]: arremessa o Fūma fechado como peça de grande porte, elevando o coeficiente de impacto da classe de precisão, 0,8, ao da classe de arma pesada, 1,3, e o alcance em uma banda além do que o shuriken comum alcança no mesmo nível. O praticante carrega no máximo duas peças de grande porte sem custo adicional; uma terceira soma o custo de carga acima do que o corpo sustenta, publicado na Seção 3 do Núcleo de Combate. LV5: o limite sobe para três peças sem custo adicional
+└─ Porte [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo]: arremessa o Fūma fechado como peça de grande porte, elevando o Esforço da classe de precisão, 0,8, ao da classe de arma pesada, 1,3, e a Energia do golpe em 62,5%, que é a mesma razão que a troca de classe produzia sobre o coeficiente de impacto revogado, e o alcance em uma banda além do que o shuriken comum alcança no mesmo nível. O praticante carrega no máximo duas peças de grande porte sem custo adicional; uma terceira soma o custo de carga acima do que o corpo sustenta, publicado na Seção 3 do Núcleo de Combate. LV5: o limite sobe para três peças sem custo adicional
 └─ Desdobramento [passivo]: a peça se abre da forma compacta para a forma de combate, e volta, como parte do mesmo gesto de arremesso ou de recolhimento, sem gastar ação própria. LV5: o desdobramento também abre a peça em Lâmina Giratória no mesmo gesto, quando o praticante possuir aquele caminho
 
 LÂMINA GIRATÓRIA (grau 3, complexidade 4) — 38
 Empunha o Fūma aberto como arma de corte próximo, o único uso corpo a corpo desta perícia, porque o Fūma é dual por desenho e não porque o shuriken comum aprendeu a cortar. `[canon]` O Fūma se dobra em lâmina única e se abre em arma de alcance, usável lançada e empunhada.
-└─ Empunhadura [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo pela sequência comum do Núcleo de Combate]: ataque corpo a corpo com o Fūma aberto, resolvendo como arma classe Lâmina curva, Esforço 1,0 e coeficiente de impacto 1,0. LV5: o golpe soma a especialização deste caminho como Fator de Técnica à Energia, na forma que a Seção 5 do Núcleo de Combate reserva para o que a obra declarar
+└─ Empunhadura [ativado, ação padrão, custo nenhum, teste do golpe contra a Esquiva do alvo pela sequência comum do Núcleo de Combate]: ataque corpo a corpo com o Fūma aberto, resolvendo como arma classe Lâmina curva, Esforço 1,0. LV5: o golpe soma a especialização deste caminho como Fator de Técnica à Energia, na forma que a Seção 5 do Núcleo de Combate reserva para o que a obra declarar
 └─ Retorno [passivo]: a peça lançada por Porte é recuperada por fio ou por trajetória calculada, voltando à mão sem gastar ação de saque, e o praticante alterna entre Porte e Empunhadura na mesma Ação Completa sem custo adicional. LV5: o retorno também recupera a peça depois de um Ricochete, quando o praticante possuir Giro
 
 NOTA: o grau mede amplitude e determina o valor da especialização. A complexidade mede profundidade e governa os verbos, sem entrar em teste.

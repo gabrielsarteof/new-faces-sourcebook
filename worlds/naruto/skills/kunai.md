@@ -28,7 +28,7 @@ O domínio não precifica explosão, não declara dano de detonação e não def
 
 IDENTIDADE
 
-Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Arma de precisão, Esforço 0,8 e coeficiente de impacto 0,8, lida do Núcleo de Combate. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
+Regente DES. Categoria Físico, multiplicador 1,0. Camada subclasse. Classe de arma Arma de precisão, Esforço 0,8, lido do Núcleo de Combate. O coeficiente de entrega do golpe comum é 0,20, o mesmo de qualquer arma antes de qualquer obra elevar o Fator de Técnica.
 
 Sem portão de perícia: nenhuma outra perícia é pré-requisito para abrir este domínio.
 
@@ -89,7 +89,7 @@ Resolvido: erro de um passo do LV1 ao LV3, um palmo no LV4 com o caminho aberto,
 NÍVEL 1: FUNDAMENTOS
 Base 12 · teste 14 com DES 2 · rank E
 
-O praticante maneja o kunai como Arma de precisão, Esforço 0,8 e coeficiente de impacto 0,8. Empunha para estocar e arremessa contra alvo parado ou lento, na banda Curta, sem verbo dedicado. Reconhece a montagem padrão do objeto e a distingue de uma variante nomeada, sem operar a variante por proficiência. Posse do Kunai 14.
+O praticante maneja o kunai como Arma de precisão, Esforço 0,8. Empunha para estocar e arremessa contra alvo parado ou lento, na banda Curta, sem verbo dedicado. Reconhece a montagem padrão do objeto e a distingue de uma variante nomeada, sem operar a variante por proficiência. Posse do Kunai 14.
 
 NÍVEL 2: INCLINAÇÃO (escolha 1)
 Base 24 · Inclinação 8 · teste 30 fora e 38 dentro, com DES 6 · rank D

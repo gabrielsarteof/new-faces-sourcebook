@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.leque
 title: "Leque"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -61,7 +61,7 @@ Quando o mesmo golpe depende do estágio do leque e do vento que ele solta, entr
 NÍVEL 1: FUNDAMENTOS
 Base 12 · teste típico 14 com FOR 2
 
-O praticante sustenta e maneja o grande leque de três luas com as duas mãos, sem sofrer a penalidade de carga do Núcleo de Combate por portar algo daquele porte. Abre e fecha o leque em uma lua, ação menor, e o leque se fecha sozinho assim que termina de soltar vento por ele. `[proposta]` O golpe com o leque fechado resolve como arma classe Lâmina curva, Esforço 1,0 e coeficiente de impacto 1,0, sem exigir Fūton algum. `[canon fraco]` O bloqueio com o leque fechado usa o Bloqueio comum do Núcleo de Combate, sem bônus adicional.
+O praticante sustenta e maneja o grande leque de três luas com as duas mãos, sem sofrer a penalidade de carga do Núcleo de Combate por portar algo daquele porte. Abre e fecha o leque em uma lua, ação menor, e o leque se fecha sozinho assim que termina de soltar vento por ele. `[proposta]` O golpe com o leque fechado resolve como arma classe Lâmina curva, Esforço 1,0, sem exigir Fūton algum. `[canon fraco]` O bloqueio com o leque fechado usa o Bloqueio comum do Núcleo de Combate, sem bônus adicional.
 
 Se o praticante possuir Fūton no nível que o portão exige, o leque aberto em uma lua solta um corte único em ponto declarado dentro da banda Curta, sem custo de RC além do que a técnica de Fūton empregada já cobra, sem elevação de categoria e sem grau de evasão a favor do praticante. É a versão mais simples do que a inclinação Vendaval em Rede especializa a partir do LV4.
 
@@ -132,7 +132,7 @@ MAÇA (grau 2, complexidade 3) · 34
 
 O leque fechado é a arma que sobra quando não há vento nenhum para soltar. `[canon fraco: fonte de wiki derivada, o leque usado como maça e para bloquear ataques]`
 
-└─ Golpe de Ferro [ativado, ação padrão, custo nenhum, sem exigir Fūton]: ataque corpo a corpo com o leque fechado, resolvendo pela Sequência de Resolução do Ataque do Núcleo de Combate como arma classe Arma pesada, Esforço 1,3 e coeficiente de impacto 1,3, elevando o leque do baseline em Lâmina curva do NÍVEL 1. `[proposta na classe de arma]` LV5: o golpe desferido a partir da posição em que o leque está Fincado soma o valor da régua Peso do Golpe também ao coeficiente de impacto, alavancando o objeto plantado como ponto de apoio
+└─ Golpe de Ferro [ativado, ação padrão, custo nenhum, sem exigir Fūton]: ataque corpo a corpo com o leque fechado, resolvendo pela Sequência de Resolução do Ataque do Núcleo de Combate como arma classe Arma pesada, Esforço 1,3, elevando o leque do baseline em Lâmina curva do NÍVEL 1. `[proposta na classe de arma]` LV5: o golpe desferido a partir da posição em que o leque está Fincado soma o valor da régua Peso do Golpe também à Energia, alavancando o objeto plantado como ponto de apoio
 └─ Guarda de Ferro [passivo]: bloqueio com o leque fechado soma o valor da régua Peso do Golpe à Guarda do praticante naquela rodada, além do Bloqueio comum que o Núcleo de Combate já concede de graça, sem empilhar com bônus de Guarda de outra fonte que leia a mesma especialização. `[proposta]` LV5: o primeiro golpe de cada cena que superaria a Guarda do praticante deixa de aplicar Quebra de Guarda enquanto o leque estiver empunhado fechado, consumindo em vez disso a integridade da régua Peso do Golpe como se fosse dano absorvido
 
 LUA REVELADA (grau 4, complexidade 4) · 42
