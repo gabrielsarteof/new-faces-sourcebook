@@ -178,7 +178,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1.5 | compendium | final |
 | [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.9 | compendium | final |
 | [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.18 | compendium | final |
-| [Registro de Nomes](worlds/naruto/compendiums/registro-de-nomes.md) | `naruto.compendium.registro-de-nomes` | 1 | reference-table | final |
+| [Registro de Nomes](worlds/naruto/compendiums/registro-de-nomes.md) | `naruto.compendium.registro-de-nomes` | 1.1 | reference-table | final |
 | [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.5 | compendium | final |
 | [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.9 | compendium | final |
 | [Compêndio de Yōton](worlds/naruto/compendiums/yoton.md) | `naruto.compendium.yoton` | 2.7 | compendium | final |

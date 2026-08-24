@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.registro-de-nomes
 title: "Registro de Nomes"
-version: 1
+version: 1.1
 layer: scenario
 scenario: naruto
 type: reference-table
@@ -17,6 +17,8 @@ Existe porque contagem ou nome citado em dois lugares é contagem ou nome que s�
 **Campo sem valor fica vazio.** Nenhuma célula é preenchida por inferência. As sete entradas sem romanização publicam apenas o kanji, e o cabeçalho delas não é tomado por romanização mesmo quando se lê como tal, pela cláusula do substantivo próprio sem tradução da Norma de Produção de Compêndios, Seção 10. Ficha vazia significa que a técnica ainda não tem documento próprio, e não que ele exista em outro lugar.
 
 **Alcance.** As 491 entradas que os catorze compêndios catalogam. Obra citada como requisito e não catalogada em compêndio algum não entra aqui: ela vive na fila de pendentes da conversão, que é fila e não catálogo.
+
+**Pendência aberta: a coluna Romaji nunca foi conferida contra o cânone.** As romanizações deste registro são as que os compêndios publicavam antes da leva de nomenclatura, reordenadas e não verificadas. A leva conferiu o que dá para conferir sem a fonte — nenhum kanji do catálogo aparece com duas romanizações, e nenhuma romanização aparece com dois kanji, zero e zero — e coerência interna não é correção. Um caso já está identificado e continua publicado como está: `黒豹` aparece como `Kuropansa`. A conferência contra a Narutopedia é passada própria e ainda não correu, de modo que quem cita este registro cita uma romanização provável e não uma romanização conferida.
 
 Gerado a partir dos compêndios e das fichas. Regerar depois de qualquer mudança de nome.
 
