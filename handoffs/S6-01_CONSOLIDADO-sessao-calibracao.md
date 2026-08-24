@@ -207,11 +207,13 @@ O valor de campo é o total que a obra põe em campo, e nunca a parcela que cada
 |---|---|---|---|---|
 | Ōdama Rasengan | A | 37,5% por corpo | 150% em célula de quatro | piso 40% cumprido |
 | Rasenrengan | A | 31,3% por esfera | 62,5% em valor de campo | piso 40% cumprido |
-| Espiral do Dragão do Purgatório | S | 107,3% do par | mesma, na referência | rank S sem teto |
+| Espiral do Dragão do Purgatório | S | 107,3% do par | mesma, na referência | rank S sem teto anti-inflação |
 | Hōsenka | D | 25,8% em `P` 122 | 13,3% na referência | teto do D em 26% cumprido |
 | Rasengan | B | 71% em `P` de patamar S | 41,7% na referência | faixa de 26% a 65% cumprida |
 
-O Rengoku Ryūsei é o primeiro ocupante de corpus a exercer a ausência de teto no rank S, e fica a cinquenta e oito por cento do que o Kirin já publica em 183,8% do par Ápice. A ausência de teto naquele rank permanece decisão, policiada por condição estrutural e número de usos.
+O Rengoku Ryūsei é o primeiro ocupante de corpus a exercer a ausência de teto anti-inflação no rank S, e fica a cinquenta e oito por cento do que o Kirin já publica em 183,8% do par Ápice. A ausência daquele teto permanece decisão, policiada por condição estrutural e número de usos.
+
+**A leitura precisa de duas palavras, e a v3.4 do Manual as separou.** O teto anti-inflação é o piso de dois ranks acima e limita entrega, e não existe no rank A nem no rank S porque não há rank dois degraus acima de nenhum dos dois. O topo da faixa de posição é o piso do rank seguinte, limita apenas onde a obra cai dentro da faixa de preço, e existe em toda faixa por construção do denominador, faltando só ao rank S. O Rengoku Ryūsei entrega acima do topo da faixa dele e paga o topo da faixa, sem que entrega alguma seja limitada, e é a distinção entre as duas palavras que torna as duas frases verdadeiras ao mesmo tempo.
 
 A decisão sobre a perícia governante das obras de moldagem pura muda a coluna que cada Tabela de Descarga indexa e não muda leitura de banda alguma, porque na referência do rank o `M` resolve em 1,000 qualquer que seja a perícia governante.
 

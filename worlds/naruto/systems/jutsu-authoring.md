@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 3.3
+version: 3.4
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_7.md, mais o Consolidado do motor de jutsus, o Núcleo de Combate v3 e a Errata E1 v2
 ---
 
-# Manual de Criação de Jutsus · v3.3
+# Manual de Criação de Jutsus · v3.4
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.3.**
 
@@ -357,7 +357,9 @@ A técnica que entrega dano tem a posição lida da própria entrega, medida com
 posição = (% entregue contra o par − piso do rank) ÷ (piso do rank seguinte − piso do rank)
 ```
 
-A posição se limita a 100%. O rank S não tem rank seguinte, e lê o intervalo entre o piso de 65% e a entrega integral do par.
+**Topo da faixa de posição.** O denominador é a diferença entre o piso do próprio rank e o do rank seguinte, de modo que toda faixa tem topo por construção, e ele é o piso do rank seguinte. Apenas o rank S carece de rank seguinte, e ali a faixa lê o intervalo entre o piso de 65% e a entrega integral do par.
+
+A posição se limita a 100% e tem piso em zero. As duas travas são regra e não arredondamento, e o corpus publica um exercício de cada: o Chidori Senbon entrega 37,9% do par no rank A, abaixo do piso de 40%, e trava a posição em zero; o Shiden entrega 65,6% no mesmo rank, acima do topo de 65%, e trava a posição em 100%. Uma obra de rank A que entregue acima do piso do rank S está entregando trabalho de rank S e paga o topo da própria faixa, o que é limite de preço e nunca de entrega: o teto anti-inflação, que limita entrega, não existe no rank A.
 
 A leitura roda apenas no executor de referência. Medir também na mão do mestre desfaria a calibração, porque os pisos foram fixados contra o par do rank da técnica com o executor de referência, e trocar qualquer um dos dois lados desfaz a régua inteira. A maestria paga fora da posição, pelo modificador abaixo.
 
@@ -535,7 +537,9 @@ A técnica que não alcança o piso do próprio rank está subdimensionada para 
 
 **A exceção de área se abre pelo cânone e não pela conveniência.** A entrada que raspa o piso não vira técnica de área para caber nele. Antes de invocar o valor de campo, confira a fonte primária: só se abre a exceção quando a obra publicada de fato descreve alcance de múltiplos alvos, e nunca por leitura de fonte secundária isolada. A obra de precisão contra alvo único que fica abaixo do piso por margem estreita permanece abaixo dele, com a posição travada em zero e o preço no piso da faixa, e a margem estreita se registra na ficha em vez de ser corrigida por cláusula.
 
-**Teto anti-inflação.** A técnica não alcança o piso de dois ranks acima, onde ele existir. O rank S não tem teto e é policiado pelo número de usos e pela condição estrutural que a ficha declara. O teste do teto roda com o executor uma faixa acima da típica, porque é na mão do mestre que a inflação aparece.
+**Teto anti-inflação.** A técnica não alcança o piso de dois ranks acima, onde ele existir. O rank A e o rank S não têm teto anti-inflação, porque não existe rank dois degraus acima de nenhum dos dois, e o rank S é policiado pelo número de usos e pela condição estrutural que a ficha declara. O teste do teto roda com o executor uma faixa acima da típica, porque é na mão do mestre que a inflação aparece.
+
+**O teto anti-inflação e o topo da faixa de posição são coisas distintas, e os dois leem piso de rank.** O teto anti-inflação é o piso de **dois** ranks acima e limita o que a obra pode entregar. O topo da faixa de posição é o piso do rank **seguinte** e limita apenas onde a obra cai dentro da própria faixa de preço, na Seção 4.1.3. Uma obra de rank A não tem teto anti-inflação e tem topo de faixa, que é o piso de 65% do rank S: ela pode entregar acima disso, e ao entregar paga o topo da própria faixa. Confundir as duas faz o mesmo número, 65%, parecer um limite de entrega quando é um limite de preço.
 
 **Segundo eixo.** Toda ofensiva de rank D ou superior precisa tornar irracional ser ignorada, custando ao par mais do que custa a ele a resposta defensiva mais barata que possui. A técnica que o par prefere absorver a responder não cumpre o próprio rank, ainda que passe no piso.
 
@@ -992,6 +996,8 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 ---
 
 ## 11. Registro de Alterações
+
+**v3.4.** As Seções 5.2 e 4.1.3 passam a separar por nome duas coisas que liam o mesmo piso de rank e vinham sendo lidas como uma só. O teto anti-inflação é o piso de dois ranks acima e limita entrega, e não existe no rank A nem no rank S. O topo da faixa de posição é o piso do rank seguinte, limita apenas onde a obra cai dentro da própria faixa de preço, e existe em toda faixa por construção do denominador, faltando só ao rank S, caso que a cláusula própria da Seção 4.1.3 resolve. A Seção 4.1.3 ganha também os dois exercícios publicados das travas de posição, o Chidori Senbon em zero e o Shiden em cem por cento. Nenhum piso, teto, faixa de XP, coeficiente, banda de autoria ou âncora de validação mudou de valor: a passagem nomeia o que já operava e não altera régua nenhuma.
 
 **v3.3.** A Seção 5.3 recebe três declarações. A parcela de RC de origem externa vira espécie própria dentro da RC limpa, com os dois casos publicados do corpus, e fica declarado que ela não sai da reserva do executor e não conta contra o Limite de Saída. A obra de duas naturezas passa a declarar perícia governante única, a da natureza que entrega o vetor, com a outra entrando como requisito de acesso sem alimentar o motor. Piso e teto de rank passam a se conferir no executor de referência do rank, com o `M` em 1,000, e a cláusula de área e a de multiplicidade passam a ler valor de campo. A Escada de Celeridade dos meios ganha a linha do Shiden em 165 e a regra de multiplicação da celeridade pela Kyōka de eixo de Entrega. A tabela de validação das âncoras ganha o registro do Rengoku Ryūsei em 107,3% do par Ápice, primeiro ocupante de corpus a exercer a ausência de teto no rank S. Os coeficientes de entrega, as bandas de autoria, os pisos por rank, a matriz de XP e os doze pontos do Registro de Instâncias permanecem sem alteração.
 
