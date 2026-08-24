@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.hoo-sho
+id: naruto.technique.katon-hoo-sho
 title: "Hōō Shō (鳳凰掌)"
 version: 1.2
 layer: scenario

@@ -85,8 +85,10 @@ reorganizar pastas não quebra a rastreabilidade.
 
 ## Índice
 
-[`INDEX.md`](INDEX.md) lista todos os 99 documentos com id, versão, camada e
-caminho, mais o backlog de material previsto e ainda não escrito.
+[`INDEX.md`](INDEX.md) lista todos os documentos com id, versão, camada e
+caminho, mais o backlog de material previsto e ainda não escrito. A contagem vive lá
+e no `INVENTARIO.md` da aplicação, sob catraca — este parágrafo dizia 99 e o Índice
+dizia outra coisa desde muito antes.
 
 A seção de backlog é gerada, não escrita à mão. Um documento que linka para outro
 ainda inexistente não está quebrado — está declarando o que falta. Depois de
@@ -96,6 +98,16 @@ escrever um documento novo ou mudar um link:
 node tools/check-links.mjs           # verifica; sai 1 se o INDEX estiver defasado
 node tools/check-links.mjs --write   # regrava a seção de backlog
 ```
+
+## Método
+
+[`METODO.md`](METODO.md) publica como uma leva corre aqui: medir antes de executar,
+provar toda guarda reintroduzindo o defeito real, reportar antes de corrigir, e não
+inventar dado que a fonte não publica.
+
+A seção 1 dele é a família dos espelhos — cinco formas de verificação que não
+verifica, cada uma com o caso que a produziu. É a leitura obrigatória antes de
+escrever qualquer catraca nova.
 
 ## Uso como submódulo
 

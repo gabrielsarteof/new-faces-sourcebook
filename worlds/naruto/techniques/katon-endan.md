@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.endan
+id: naruto.technique.katon-endan
 title: "Endan (炎弾)"
 version: 1.2
 layer: scenario

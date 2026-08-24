@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.doton
 title: "Compêndio de Doton (土遁)"
-version: 2.8
+version: 2.9
 layer: scenario
 scenario: naruto
 type: compendium
@@ -60,8 +60,8 @@ O Doton apresenta um obstáculo próprio à observação. Boa parte do arsenal s
 
 ---
 
-### Técnica do Tijolo
-**Doton: Renga no Jutsu — 土遁・煉瓦の術**
+### Doton: Renga no Jutsu
+**土遁・煉瓦の術 · Técnica do Tijolo**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Doton LV1 · Moldagem 30
@@ -72,8 +72,8 @@ O usuário compacta terra solta em blocos regulares e endurecidos, moldados com 
 
 ---
 
-### Passo de Pedra
-**Doton: Iwa Shunshin — 土遁・岩瞬身**
+### Doton: Iwa Shunshin
+**土遁・岩瞬身 · Passo de Pedra**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV1 · Moldagem 40 · Shunshin no Jutsu
@@ -84,8 +84,8 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 
 ---
 
-### Alisamento de Terra
-**Doton: Jinarashi — 土遁・地均しの術**
+### Doton: Jinarashi
+**土遁・地均しの術 · Alisamento de Terra**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Doton LV1 · Moldagem 58
@@ -102,8 +102,8 @@ O usuário pressiona a palma contra o solo e compacta uma pequena área ao redor
 
 ---
 
-### Técnica da Decapitação do Suicídio Duplo
-**Doton: Shinjū Zanshu no Jutsu — 土遁・心中斬首の術**
+### Doton: Shinjū Zanshu no Jutsu
+**土遁・心中斬首の術 · Técnica da Decapitação do Suicídio Duplo**
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Doton LV2 · Moldagem 44
@@ -114,8 +114,8 @@ O usuário se desloca sob a superfície, agarra o alvo pelos tornozelos e o arra
 
 ---
 
-### Técnica da Ocultação da Toupeira
-**Doton: Moguragakure no Jutsu — 土遁・土竜隠れの術**
+### Doton: Moguragakure no Jutsu
+**土遁・土竜隠れの術 · Técnica da Ocultação da Toupeira**
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Doton LV2 · Moldagem 44
@@ -126,8 +126,8 @@ O usuário converte a terra ao redor de si em areia fina por infusão de chakra 
 
 ---
 
-### Retorno do Escudo de Terra
-**Doton: Doroku Gaeshi — 土遁・土陸返し**
+### Doton: Doroku Gaeshi
+**土遁・土陸返し · Retorno do Escudo de Terra**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Doton LV2 · Moldagem 32
@@ -138,8 +138,8 @@ O usuário golpeia o solo com as mãos e ergue diante de si uma laje compacta de
 
 ---
 
-### Pedrisco de Rocha
-**Doton: Iwa Tsubute — 土遁・岩礫**
+### Doton: Iwa Tsubute
+**土遁・岩礫 · Pedrisco de Rocha**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Doton LV2 · Moldagem 32
@@ -155,8 +155,8 @@ O usuário arranca do solo pedras do tamanho de punhos, as compacta com chakra e
 
 ---
 
-### Técnica do Peixe de Projeção Subterrânea
-**Doton: Dochū Eigyo — 土遁・土中映魚**
+### Doton: Dochū Eigyo
+**土遁・土中映魚 · Técnica do Peixe de Projeção Subterrânea**
 **[CANON — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV3 · Moldagem 58 · Ocultação da Toupeira
@@ -167,8 +167,8 @@ O usuário nada pelo interior do solo como um peixe pela água, deslocando-se em
 
 ---
 
-### Desabamento do Abrigo de Rocha
-**Doton: Iwayado Kuzushi — 土遁・岩宿崩し**
+### Doton: Iwayado Kuzushi
+**土遁・岩宿崩し · Desabamento do Abrigo de Rocha**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 46 · formação rochosa suspensa
@@ -182,8 +182,8 @@ O usuário infunde chakra em formação rochosa suspensa, como teto de caverna, 
 
 ---
 
-### Palma que Rasga a Terra
-**Doton: Retsudo Tenshō — 土遁・裂土転掌**
+### Doton: Retsudo Tenshō
+**土遁・裂土転掌 · Palma que Rasga a Terra**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 44
@@ -197,8 +197,8 @@ O usuário pressiona a palma contra o chão e faz o solo ao redor do alvo se rom
 
 ---
 
-### Lanças Ascendentes de Terra
-**Doton: Doryūsō — 土遁・土流槍**
+### Doton: Doryūsō
+**土遁・土流槍 · Lanças Ascendentes de Terra**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 50
@@ -212,8 +212,8 @@ O usuário canaliza chakra pelo solo e ergue sob o alvo estacas de rocha afiadas
 
 ---
 
-### Técnica do Clone de Rocha
-**Iwa Bunshin no Jutsu — 岩分身の術**
+### Iwa Bunshin no Jutsu
+**岩分身の術 · Técnica do Clone de Rocha**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV3 · Moldagem 58 · Bunshin no Jutsu
@@ -224,8 +224,8 @@ O usuário molda terra e rocha na forma de uma cópia física de si mesmo. O clo
 
 ---
 
-### Formigaleão
-**Doton: Arijigoku — 土遁・蟻地獄の術**
+### Doton: Arijigoku
+**土遁・蟻地獄の術 · Formigaleão**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 50
@@ -238,8 +238,8 @@ O usuário converte uma área ampla de solo em funil giratório de terra solta, 
 
 ---
 
-### Técnica do Punho de Rocha
-**Doton: Kengan no Jutsu — 土遁・拳岩の術**
+### Doton: Kengan no Jutsu
+**土遁・拳岩の術 · Técnica do Punho de Rocha**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Doton LV3 · Moldagem 54
@@ -255,8 +255,8 @@ O usuário reveste o braço, do punho ao cotovelo, em camadas sobrepostas de roc
 
 ---
 
-### Muro de Terra
-**Doton: Doryūheki — 土遁・土流壁**
+### Doton: Doryūheki
+**土遁・土流壁 · Muro de Terra**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 48
@@ -267,8 +267,8 @@ O usuário ergue diante de si uma muralha maciça de terra, por moldagem direta 
 
 ---
 
-### Dragão de Terra
-**Doton: Doryūdan — 土遁・土竜弾**
+### Doton: Doryūdan
+**土遁・土竜弾 · Dragão de Terra**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 58
@@ -280,8 +280,8 @@ O usuário ergue do solo uma cabeça de dragão de lama solidificada, que dispar
 
 ---
 
-### Rio de Fluxo de Terra
-**Doton: Doryū Taiga — 土遁・土流大河**
+### Doton: Doryū Taiga
+**土遁・土流大河 · Rio de Fluxo de Terra**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 54
@@ -294,8 +294,8 @@ O usuário liquefaz o solo sob o oponente e o converte em correnteza de lama que
 
 ---
 
-### Bolinho de Terra do Mausoléu
-**Doton: Doryō Dango — 土遁・土陵団子**
+### Doton: Doryō Dango
+**土遁・土陵団子 · Bolinho de Terra do Mausoléu**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 40
@@ -307,8 +307,8 @@ O usuário crava as mãos no chão e arranca do terreno uma esfera colossal de t
 
 ---
 
-### Barreira de Terra: Cúpula de Terra da Natureza Magnífica
-**Doton Kekkai: Dorō Dōmu — 土遁結界・土牢堂無**
+### Doton Kekkai: Dorō Dōmu
+**土遁結界・土牢堂無 · Barreira de Terra: Cúpula de Terra da Natureza Magnífica**
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal — Autoria Aberta
 **Requisitos:** Doton LV4 · Moldagem 74
@@ -321,8 +321,8 @@ Erguer terra é estudo do elemento, e fazer a terra beber o chakra de quem ela p
 
 ---
 
-### Cúpula de Pedra
-**Doton: Ganseki Dōmu — 土遁・岩石堂無**
+### Doton: Ganseki Dōmu
+**土遁・岩石堂無 · Cúpula de Pedra**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 62
@@ -337,8 +337,8 @@ A técnica é a forma comum do fechamento de abóbada, ensinada onde quer que o 
 
 ---
 
-### Dragão de Terra e Pedra
-**Doton: Dosekiryū — 土遁・土石竜**
+### Doton: Dosekiryū
+**土遁・土石竜 · Dragão de Terra e Pedra**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 54
@@ -352,8 +352,8 @@ O usuário ergue do solo um dragão serpenteante de rocha e terra compactada, de
 
 ---
 
-### Técnica do Golem
-**Doton: Golem no Jutsu — 土遁・ゴーレムの術**
+### Doton: Golem no Jutsu
+**土遁・ゴーレムの術 · Técnica do Golem**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 64
@@ -364,8 +364,8 @@ O usuário molda um colosso humanoide de rocha, expelido pela boca ou erguido de
 
 ---
 
-### Técnica da Rocha de Peso Adicionado
-**Doton: Kajūgan no Jutsu — 土遁・加重岩の術**
+### Doton: Kajūgan no Jutsu
+**土遁・加重岩の術 · Técnica da Rocha de Peso Adicionado**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
 **Requisitos:** Doton LV4 · Moldagem 74
@@ -378,8 +378,8 @@ O par de manipulação de peso é patrimônio de Iwagakure e a razão pela qual 
 
 ---
 
-### Técnica da Rocha de Peso Reduzido
-**Doton: Keijūgan no Jutsu — 土遁・軽重岩の術**
+### Doton: Keijūgan no Jutsu
+**土遁・軽重岩の術 · Técnica da Rocha de Peso Reduzido**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
 **Requisitos:** Doton LV4 · Moldagem 74
@@ -392,8 +392,8 @@ A metade que alivia é guardada por Iwagakure com o mesmo rigor da metade que es
 
 ---
 
-### Escavação Ascendente do Caminho Aberto
-**Doton: Kaidō Shōkutsu — 土遁・開道昇掘**
+### Doton: Kaidō Shōkutsu
+**土遁・開道昇掘 · Escavação Ascendente do Caminho Aberto**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV4 · Moldagem 54 · segundo usuário de Doton ou clone
@@ -406,8 +406,8 @@ Dois ou mais executantes rompem e erguem camadas inteiras do subsolo em moviment
 
 ---
 
-### Caixão de Rocha
-**Doton: Ganban Kyū — 土遁・岩盤柩**
+### Doton: Ganban Kyū
+**土遁・岩盤柩 · Caixão de Rocha**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 50 · leito rochoso contínuo
@@ -419,8 +419,8 @@ O usuário ergue do leito rochoso duas lajes monumentais em lados opostos do alv
 
 ---
 
-### Escuta da Terra
-**Doton: Chi no Mimi — 土遁・地の耳**
+### Doton: Chi no Mimi
+**土遁・地の耳 · Escuta da Terra**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Doton LV4 · Moldagem 56
@@ -437,8 +437,8 @@ O usuário pressiona a palma contra o solo e estende o chakra pelo leito rochoso
 
 ---
 
-### Pântano do Submundo
-**Doton: Yomi Numa — 土遁・黄泉沼**
+### Doton: Yomi Numa
+**土遁・黄泉沼 · Pântano do Submundo**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV5 · Moldagem 50 · Caminho Atoleiro
@@ -451,8 +451,8 @@ O usuário converte uma extensão vasta de terreno em pântano de lama profunda 
 
 ---
 
-### Lança de Terra
-**Doton: Domu — 土遁・土矛**
+### Doton: Domu
+**土遁・土矛 · Lança de Terra**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV5 · Moldagem 84 · Punho de Rocha · Caminho Carne de Pedra
@@ -466,8 +466,8 @@ O endurecimento pleno do corpo exige que o executante já domine o revestimento 
 
 ---
 
-### Muralha de Fluxo de Terra
-**Doton: Doryū Jōheki — 土遁・土流城壁**
+### Doton: Doryū Jōheki
+**土遁・土流城壁 · Muralha de Fluxo de Terra**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV5 · Moldagem 48 · Muro de Terra · Caminho Paredão
@@ -480,8 +480,8 @@ O usuário ergue do terreno uma escarpa de escala geográfica, um paredão cont�
 
 ---
 
-### Núcleo Móvel da Terra
-**Doton: Chidōkaku — 土遁・地動核**
+### Doton: Chidōkaku
+**土遁・地動核 · Núcleo Móvel da Terra**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV5 · Moldagem 78 · Caminho Cinzel da Pedra
@@ -498,8 +498,8 @@ O usuário assume controle contínuo do leito rochoso sob o campo e o move à vo
 
 ---
 
-### Técnica do Sanduíche
-**Doton: Sando no Jutsu — 土遁・山土の術**
+### Doton: Sando no Jutsu
+**土遁・山土の術 · Técnica do Sanduíche**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Doton LV6 · Moldagem 54 · leito rochoso contínuo · Caixão de Rocha · Caminho Encosta transcendido
@@ -511,8 +511,8 @@ O usuário ergue do leito da terra duas formações rochosas do porte de montanh
 
 ---
 
-### Técnica da Super Rocha de Peso Adicionado
-**Doton: Chō Kajūgan no Jutsu — 土遁・超加重岩の術**
+### Doton: Chō Kajūgan no Jutsu
+**土遁・超加重岩の術 · Técnica da Super Rocha de Peso Adicionado**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
 **Requisitos:** Doton LV6 · Moldagem 92 · Rocha de Peso Adicionado
@@ -524,8 +524,8 @@ O usuário eleva o Kajūgan à ordem monumental, e o toque multiplica o peso do 
 
 ---
 
-### Técnica da Super Rocha de Peso Reduzido
-**Doton: Chō Keijūgan no Jutsu — 土遁・超軽重岩の術**
+### Doton: Chō Keijūgan no Jutsu
+**土遁・超軽重岩の術 · Técnica da Super Rocha de Peso Reduzido**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Patrimônio de Vila (Iwagakure)
 **Requisitos:** Doton LV6 · Moldagem 92 · Rocha de Peso Reduzido
@@ -538,35 +538,35 @@ O usuário eleva o Keijūgan à ordem monumental, e o toque alivia massas da esc
 
 ## Índice Rápido por Função Tática
 
-**Derrubar o que está de pé.** Pedrisco de Rocha, Bolinho de Terra do Mausoléu, Dragão de Terra e Pedra, Dragão de Terra.
+**Derrubar o que está de pé.** Doton: Iwa Tsubute, Doton: Doryō Dango, Doton: Dosekiryū, Doton: Doryūdan.
 
-**Soltar o que já está em cima deles.** Desabamento do Abrigo de Rocha, Técnica do Sanduíche.
+**Soltar o que já está em cima deles.** Doton: Iwayado Kuzushi, Doton: Sando no Jutsu.
 
-**Abrir couraça e defesa de superfície.** Lanças Ascendentes de Terra, Punho de Rocha.
+**Abrir couraça e defesa de superfície.** Doton: Doryūsō, Punho de Rocha.
 
-**Impedir que chegue.** Retorno do Escudo de Terra, Muro de Terra, Muralha de Fluxo de Terra, Cúpula de Pedra, Técnica do Golem.
+**Impedir que chegue.** Doton: Doroku Gaeshi, Doton: Doryūheki, Doton: Doryū Jōheki, Doton: Ganseki Dōmu, Doton: Golem no Jutsu.
 
-**Endurecer o próprio corpo.** Punho de Rocha, Lança de Terra.
+**Endurecer o próprio corpo.** Punho de Rocha, Doton: Domu.
 
-**Capturar e prender.** Decapitação do Suicídio Duplo, Palma que Rasga a Terra, Formigaleão, Caixão de Rocha, Cúpula de Pedra, Cúpula de Terra da Natureza Magnífica, Pântano do Submundo.
+**Capturar e prender.** Decapitação do Suicídio Duplo, Doton: Retsudo Tenshō, Doton: Arijigoku, Doton: Ganban Kyū, Doton: Ganseki Dōmu, Cúpula de Terra da Natureza Magnífica, Doton: Yomi Numa.
 
-**Tirar o apoio dos pés.** Rio de Fluxo de Terra, Formigaleão, Pântano do Submundo.
+**Tirar o apoio dos pés.** Doton: Doryū Taiga, Doton: Arijigoku, Doton: Yomi Numa.
 
-**Andar por baixo e chegar sem alarme.** Ocultação da Toupeira, Peixe de Projeção Subterrânea, Passo de Pedra.
+**Andar por baixo e chegar sem alarme.** Ocultação da Toupeira, Peixe de Projeção Subterrânea, Doton: Iwa Shunshin.
 
-**Trazer à superfície quem está embaixo.** Escavação Ascendente do Caminho Aberto.
+**Trazer à superfície quem está embaixo.** Doton: Kaidō Shōkutsu.
 
-**Saber quem está no campo.** Escuta da Terra.
+**Saber quem está no campo.** Doton: Chi no Mimi.
 
-**Redesenhar o campo.** Núcleo Móvel da Terra, Muralha de Fluxo de Terra, Bolinho de Terra do Mausoléu, Escavação Ascendente do Caminho Aberto.
+**Redesenhar o campo.** Doton: Chidōkaku, Doton: Doryū Jōheki, Doton: Doryō Dango, Doton: Kaidō Shōkutsu.
 
 **Alterar a massa de um corpo.** Rocha de Peso Adicionado, Rocha de Peso Reduzido, Super Rocha de Peso Adicionado, Super Rocha de Peso Reduzido.
 
-**Pôr um corpo a mais em campo.** Clone de Rocha, Técnica do Golem.
+**Pôr um corpo a mais em campo.** Clone de Rocha, Doton: Golem no Jutsu.
 
-**Preparar para o aliado de fogo.** Dragão de Terra.
+**Preparar para o aliado de fogo.** Doton: Doryūdan.
 
-**Trabalho fora de combate.** Técnica do Tijolo, Alisamento de Terra, Escavação Ascendente do Caminho Aberto.
+**Trabalho fora de combate.** Doton: Renga no Jutsu, Doton: Jinarashi, Doton: Kaidō Shōkutsu.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.kaen-ami
+id: naruto.technique.katon-kaen-ami
 title: "Kaen Ami (火炎網)"
 version: 1.2
 layer: scenario

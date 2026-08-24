@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.17
+version: 3.18
 layer: scenario
 scenario: naruto
 type: compendium
@@ -36,8 +36,8 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 ---
 
-### Centelha Estática
-**Raiton: Seidenki no Jutsu — 雷遁・静電気の術**
+### Raiton: Seidenki no Jutsu
+**雷遁・静電気の術 · Centelha Estática**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV1 · Moldagem 30
@@ -47,8 +47,8 @@ O usuário acumula uma carga elétrica mínima na ponta dos dedos e a libera em 
 
 ---
 
-### Passo Relâmpago
-**Raiton: Rai Shunshin — 雷遁・雷瞬身**
+### Raiton: Rai Shunshin
+**雷遁・雷瞬身 · Passo Relâmpago**
 **[PROPOSTA — Rank E]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV1 · Moldagem 40 · Shunshin no Jutsu
@@ -58,8 +58,8 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 
 ---
 
-### Luz de Arco
-**Raiton: Denkō no Jutsu — 雷遁・電光の術**
+### Raiton: Denkō no Jutsu
+**雷遁・電光の術 · Luz de Arco**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV1 · Moldagem 44
@@ -73,8 +73,8 @@ O usuário mantém um arco elétrico estável entre os dedos ou entre as duas pa
 
 ---
 
-### Fluxo de Chakra: Raio
-**Raiton: Chakura Nagashi — 雷遁・チャクラ流し**
+### Raiton: Chakura Nagashi
+**雷遁・チャクラ流し · Fluxo de Chakra: Raio**
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV2 · Moldagem 44 · arma branca empunhada
@@ -87,8 +87,8 @@ A entrega é a da arma, e o Grau do Fio se lê da ficha dela. Sem arma empunhada
 
 ---
 
-### Toque Paralisante
-**Raiton: Shibire no Jutsu — 雷遁・痺れの術**
+### Raiton: Shibire no Jutsu
+**雷遁・痺れの術 · Toque Paralisante**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV2 · Moldagem 32
@@ -99,8 +99,8 @@ O usuário concentra corrente elétrica na palma da mão e a descarrega por cont
 
 ---
 
-### Onda de Inspiração
-**Raiton: Kangekiha — 雷遁・感激波**
+### Raiton: Kangekiha
+**雷遁・感激波 · Onda de Inspiração**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV2 · Moldagem 44 · meio condutor em campo
@@ -117,8 +117,8 @@ O usuário libera corrente elétrica pelas palmas diretamente sobre um meio cond
 
 ---
 
-### Assassinato Eletromagnético
-**Raiton: Jibashi — 雷遁・磁場死**
+### Raiton: Jibashi
+**雷遁・磁場死 · Assassinato Eletromagnético**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem 46
@@ -131,8 +131,8 @@ O usuário projeta pelas mãos uma onda de eletricidade que avança em leque à 
 
 ---
 
-### Esfera de Raio
-**Raiton: Raikyū — 雷遁・雷球**
+### Raiton: Raikyū
+**雷遁・雷球 · Esfera de Raio**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem 58
@@ -143,8 +143,8 @@ O usuário reúne chakra elétrico entre as palmas e o comprime até formar uma 
 
 ---
 
-### Rede de Raios
-**Raiton: Raimō — 雷遁・雷網**
+### Raiton: Raimō
+**雷遁・雷網 · Rede de Raios**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem 58
@@ -155,8 +155,8 @@ O usuário dispara da palma um feixe de chakra de raio que se abre em malha ao a
 
 ---
 
-### Relâmpago Serpente
-**Raiton: Hebi Ikazuchi — 雷遁・蛇雷**
+### Raiton: Hebi Ikazuchi
+**雷遁・蛇雷 · Relâmpago Serpente**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV3 · Moldagem 58
@@ -167,8 +167,8 @@ O usuário emite descargas que percorrem o ar em trajetória sinuosa, contornand
 
 ---
 
-### Clarão Cegante
-**Raiton: Senkō no Jutsu — 雷遁・閃光の術**
+### Raiton: Senkō no Jutsu
+**雷遁・閃光の術 · Clarão Cegante**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV3 · Moldagem 36
@@ -182,8 +182,8 @@ O usuário detona uma descarga de intensidade luminosa máxima e duração míni
 
 ---
 
-### Clone de Raio
-**Raiton Kage Bunshin no Jutsu — 雷遁・影分身の術**
+### Raiton Kage Bunshin no Jutsu
+**雷遁・影分身の術 · Clone de Raio**
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV4 · Moldagem 58 · Kage Bunshin no Jutsu
@@ -196,8 +196,8 @@ O vetor pertence à descarga e não à presença. O clone em pé não entrega go
 
 ---
 
-### Falsa Escuridão
-**Raiton: Gian — 雷遁・偽暗**
+### Raiton: Gian
+**雷遁・偽暗 · Falsa Escuridão**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem 58
@@ -210,8 +210,8 @@ O Grau IV posiciona a entrada abaixo das refinadas de rank A, que resolvem em Gr
 
 ---
 
-### Transmissão de Raio
-**Raiton: Raiden — 雷遁・雷伝**
+### Raiton: Raiden
+**雷遁・雷伝 · Transmissão de Raio**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV4 · Moldagem 46 · segundo usuário de Raiton ou clone
@@ -226,8 +226,8 @@ A elevação para linha é a geometria que dois executantes esticando corrente p
 
 ---
 
-### Flecha do Estrondo
-**Raiton: Raigeki no Ya — 雷遁・雷撃の矢**
+### Raiton: Raigeki no Ya
+**雷遁・雷撃の矢 · Flecha do Estrondo**
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV4 · Moldagem 71
@@ -238,8 +238,8 @@ O usuário molda chakra de raio na forma de um arco sustentado por uma das mãos
 
 ---
 
-### Presa Rastreadora do Raio
-**Raiton: Raijū Tsuiga — 雷遁・雷獣追牙**
+### Raiton: Raijū Tsuiga
+**雷遁・雷獣追牙 · Presa Rastreadora do Raio**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV4 · Moldagem 72 · Caminho Emissão (Controle de Chakra)
@@ -250,8 +250,8 @@ O usuário reúne corrente entre as palmas e a projeta no formato de uma fera qu
 
 ---
 
-### Pilar Ilusório do Clarão
-**Raitongen: Raikōchū — 雷遁幻・雷光柱**
+### Raitongen: Raikōchū
+**雷遁幻・雷光柱 · Pilar Ilusório do Clarão**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV4 · Moldagem 58 · Genjutsu LV4
@@ -261,8 +261,8 @@ O usuário ergue um pilar de luz elétrica que domina o campo visual do alvo e u
 
 ---
 
-### Trovão Acumulado
-**Raiton: Chikuden — 雷遁・蓄電**
+### Raiton: Chikuden
+**雷遁・蓄電 · Trovão Acumulado**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Raiton LV4 · Moldagem 58
@@ -273,8 +273,8 @@ O usuário dedica turnos consecutivos ao acúmulo de carga no próprio corpo, em
 
 ---
 
-### Selo de Tempestade
-**Raiton: Raifū no In — 雷遁・雷封の印**
+### Raiton: Raifū no In
+**雷遁・雷封の印 · Selo de Tempestade**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem 60
@@ -285,8 +285,8 @@ O usuário deposita por toque uma carga dormente em superfície, objeto ou ferra
 
 ---
 
-### Aterramento
-**Raiton: Setchi no Jutsu — 雷遁・接地の術**
+### Raiton: Setchi no Jutsu
+**雷遁・接地の術 · Aterramento**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem 48 · Caminho Ancoragem (Controle de Chakra)
@@ -296,8 +296,8 @@ O usuário abre um canal condutor entre o próprio corpo e o solo, oferecendo à
 
 ---
 
-### Descarga em Cadeia
-**Raiton: Rensa Hōden — 雷遁・連鎖放電**
+### Raiton: Rensa Hōden
+**雷遁・連鎖放電 · Descarga em Cadeia**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Raiton LV4 · Moldagem 58
@@ -330,8 +330,8 @@ Sem Sharingan ativo, a execução concede ao oponente uma janela de contra-ataqu
 
 ---
 
-### Sabre de Mil Pássaros
-**Kusanagi no Tsurugi: Chidori-tō — 草薙の剣・千鳥刀**
+### Kusanagi no Tsurugi: Chidori-tō
+**草薙の剣・千鳥刀 · Sabre de Mil Pássaros**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 74 · Caminho Ponta · Chidori · arma branca empunhada
@@ -342,8 +342,8 @@ O usuário transfere para a lâmina empunhada a corrente que o Chidori comprime 
 
 ---
 
-### Corrente de Mil Pássaros
-**Chidori Nagashi — 千鳥流し**
+### Chidori Nagashi
+**千鳥流し · Corrente de Mil Pássaros**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 71 · Caminho Arco · Chidori
@@ -356,8 +356,8 @@ O usuário irradia a corrente do Chidori pela superfície do corpo inteiro em ve
 
 ---
 
-### Lança Afiada de Mil Pássaros
-**Chidori Eisō — 千鳥鋭槍**
+### Chidori Eisō
+**千鳥鋭槍 · Lança Afiada de Mil Pássaros**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 78 · Caminho Lança · Chidori
@@ -368,8 +368,8 @@ O usuário estende a corrente do Chidori em uma lança de eletricidade moldada, 
 
 ---
 
-### Agulhas de Mil Pássaros
-**Chidori Senbon — 千鳥千本**
+### Chidori Senbon
+**千鳥千本 · Agulhas de Mil Pássaros**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 80 · Chidori
@@ -382,8 +382,8 @@ O usuário fragmenta a corrente reunida em dezenas de agulhas de eletricidade di
 
 ---
 
-### Relâmpago Púrpura
-**Shiden — 紫電**
+### Shiden
+**紫電 · Relâmpago Púrpura**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Registrada (Kakashi Hatake)
 **Requisitos:** Raiton LV5 · Moldagem 76 · Caminho Lança
@@ -395,8 +395,8 @@ O usuário concentra chakra de raio de coloração violeta e o dispara de uma ú
 
 ---
 
-### Desordem do Caminho Corporal
-**Ranshinshō — 乱身衝**
+### Ranshinshō
+**乱身衝 · Desordem do Caminho Corporal**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 82 · Caminho Meridiano · Ninjutsu Médico
@@ -406,8 +406,8 @@ O usuário converte chakra em eletricidade de intensidade precisa e a injeta por
 
 ---
 
-### Marionete de Nervos
-**Raiton: Shinkei Kugutsu — 雷遁・神経傀儡**
+### Raiton: Shinkei Kugutsu
+**雷遁・神経傀儡 · Marionete de Nervos**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 88 · Caminho Meridiano · Ninjutsu Médico e Ranshinshō
@@ -417,8 +417,8 @@ O usuário injeta por contato um sinal nervoso falso em um membro específico do
 
 ---
 
-### Rasengan Evanescente
-**Kieru Rasengan — 消える螺旋丸**
+### Kieru Rasengan
+**消える螺旋丸 · Rasengan Evanescente**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV5 · Moldagem 70 (exceção aprovada de piso: os dois componentes correm em sequência, não em simultaneidade) · Caminho Composição (Controle de Chakra) · Rasengan
@@ -431,8 +431,8 @@ O raio move a evitabilidade e não a entrega, e quem esmaga continua sendo a esf
 
 ---
 
-### Armadura de Raio
-**Raiton no Yoroi — 雷遁の鎧**
+### Raiton no Yoroi
+**雷遁の鎧 · Armadura de Raio**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV5 · Moldagem 62 · Caminho Impulso
@@ -442,8 +442,8 @@ O usuário reveste o corpo com uma camada de chakra elétrico que estimula diret
 
 ---
 
-### Bomba Liger
-**Raigā Bomu — ライガーボム**
+### Raigā Bomu
+**ライガーボム · Bomba Liger**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV5 · Moldagem 34 · Armadura de Raio ativa
@@ -454,8 +454,8 @@ O usuário agarra o oponente em pleno movimento e o conduz ao solo com a força 
 
 ---
 
-### Descargas do Primeiro Ninshū
-**Raiton: Shodai Ninshū Hōden — 雷遁・初代忍宗放電**
+### Raiton: Shodai Ninshū Hōden
+**雷遁・初代忍宗放電 · Descargas do Primeiro Ninshū**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV5 · Moldagem 74 · arma branca empunhada
@@ -464,8 +464,8 @@ O usuário agarra o oponente em pleno movimento e o conduz ao solo com a força 
 
 O usuário integra corrente elétrica ao próprio kenjutsu, revestindo a lâmina e prolongando o corte em arcos de raio que percorrem o campo além do alcance físico da arma. Cada golpe carrega a perfuração do elemento somada à trajetória do fio, e a sequência de arcos cobre ângulos que o movimento da espada isoladamente não alcança. A forma é a origem registrada da canalização elemental em arma e permanece atrelada ao seu criador.
 
-### Pantera Negra
-**Kuropansa — 黒豹**
+### Kuropansa
+**黒豹 · Pantera Negra**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta
 **Requisitos:** Raiton LV5 · Moldagem 84 · Kyōka Kuroi Kaminari · Caminho Doma
@@ -482,8 +482,8 @@ O usuário molda relâmpago negro na forma de uma pantera que avança de forma a
 
 ---
 
-### Cortador de Raio
-**Raikiri — 雷切**
+### Raikiri
+**雷切 · Cortador de Raio**
 **[CANON · Rank S]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Raiton LV6 · Moldagem 89 · Caminho Ponta · Chidori
@@ -525,8 +525,8 @@ O usuário não gera a corrente, ele assume o controle de um relâmpago natural 
 Conduzir um relâmpago natural em vez de gerar corrente é concepção que ninguém neste mundo formulou, e a entrada se abre a quem concluir o processo de criação de técnica em jogo. Na ausência de nuvens genuínas, o executante pode fabricá-las aquecendo a atmosfera com Katon sustentado de grande escala até que a diferença térmica gere a formação, processo que consome tempo, chakra e a totalidade da vantagem de surpresa.
 
 ---
-### Perfuração do Inferno
-**Jigokuzuki — 地獄突き**
+### Jigokuzuki
+**地獄突き · Perfuração do Inferno**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Requisitos:** Raiton LV6 · Moldagem 94 · Caminho Ponta · Armadura de Raio ativa
@@ -557,8 +557,8 @@ Quatro executantes se posicionam em pilares dispostos ao redor da área designad
 
 ---
 
-### Flecha de Indra
-**Indra no Ya — 因陀羅の矢**
+### Indra no Ya
+**因陀羅の矢 · Flecha de Indra**
 **[CANON — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem 120 · Susanoo em estágio máximo · fonte de chakra externa excepcional
@@ -571,8 +571,8 @@ O usuário molda com o Susanoo um arco e uma flecha carregados com chakra de rai
 
 ---
 
-### Vajra
-**Kongōsho — 金剛杵**
+### Kongōsho
+**金剛杵 · Vajra**
 **[ATRIBUÍDO — Acima de Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Raiton LV6 · Moldagem 130 · Transcendência Arco Voltaico
@@ -587,28 +587,28 @@ O usuário ergue a mão e impõe ao céu a formação de um relâmpago colossal,
 
 ## Índice Rápido por Função Tática
 
-**Perfurar em ponto único.** Chidori, Cortador de Raio, Perfuração do Inferno, Falsa Escuridão, Lança Afiada de Mil Pássaros, Sabre de Mil Pássaros, Takemikazuchi.
+**Perfurar em ponto único.** Chidori, Raikiri, Jigokuzuki, Raiton: Gian, Chidori Eisō, Kusanagi no Tsurugi: Chidori-tō, Takemikazuchi.
 
-**Entregar a distância.** Falsa Escuridão, Esfera de Raio, Relâmpago Púrpura, Flecha do Estrondo, Relâmpago Serpente, Presa Rastreadora do Raio.
+**Entregar a distância.** Raiton: Gian, Raiton: Raikyū, Shiden, Raiton: Raigeki no Ya, Raiton: Hebi Ikazuchi, Raiton: Raijū Tsuiga.
 
-**Alcançar vários ao mesmo tempo.** Assassinato Eletromagnético, Agulhas de Mil Pássaros, Descarga em Cadeia, Transmissão de Raio, Onda de Inspiração, Limelight.
+**Alcançar vários ao mesmo tempo.** Raiton: Jibashi, Chidori Senbon, Raiton: Rensa Hōden, Raiton: Raiden, Raiton: Kangekiha, Limelight.
 
-**Defender o próprio corpo.** Corrente de Mil Pássaros, Armadura de Raio, Aterramento.
+**Defender o próprio corpo.** Chidori Nagashi, Raiton no Yoroi, Raiton: Setchi no Jutsu.
 
-**Tirar a ação do inimigo.** Toque Paralisante, Rede de Raios, Desordem do Caminho Corporal, Marionete de Nervos.
+**Tirar a ação do inimigo.** Raiton: Shibire no Jutsu, Raiton: Raimō, Ranshinshō, Raiton: Shinkei Kugutsu.
 
-**Cegar e desorientar.** Clarão Cegante, Pilar Ilusório do Clarão.
+**Cegar e desorientar.** Raiton: Senkō no Jutsu, Raitongen: Raikōchū.
 
-**Mover-se mais rápido.** Passo Relâmpago, Armadura de Raio.
+**Mover-se mais rápido.** Raiton: Rai Shunshin, Raiton no Yoroi.
 
-**Preparar o terreno.** Selo de Tempestade, Centelha Estática, Onda de Inspiração.
+**Preparar o terreno.** Raiton: Raifū no In, Raiton: Seidenki no Jutsu, Raiton: Kangekiha.
 
-**Golpear no corpo a corpo.** Fluxo de Chakra: Raio, Bomba Liger, Descargas do Primeiro Ninshū, Sabre de Mil Pássaros.
+**Golpear no corpo a corpo.** Raiton: Chakura Nagashi, Raigā Bomu, Raiton: Shodai Ninshū Hōden, Kusanagi no Tsurugi: Chidori-tō.
 
-**Guardar para o momento certo.** Trovão Acumulado, Selo de Tempestade.
+**Guardar para o momento certo.** Raiton: Chikuden, Raiton: Raifū no In.
 
 **Continuar cobrando depois do golpe.** Takemikazuchi.
 
-**Decidir por escala.** Kirin, Vajra, Flecha de Indra, Limelight.
+**Decidir por escala.** Kirin, Kongōsho, Indra no Ya, Limelight.
 
-**Enganar a leitura do oponente.** Relâmpago Serpente, Rasengan Evanescente, Clone de Raio, Pantera Negra.
+**Enganar a leitura do oponente.** Raiton: Hebi Ikazuchi, Kieru Rasengan, Raiton Kage Bunshin no Jutsu, Kuropansa.

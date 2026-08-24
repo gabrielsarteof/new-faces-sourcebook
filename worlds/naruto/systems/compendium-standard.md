@@ -1,7 +1,7 @@
 ---
 id: naruto.system.compendium-standard
 title: "Norma de Produção de Compêndios"
-version: 2.9
+version: 3.0
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,9 +9,11 @@ status: final
 source-file: Norma_de_Producao_de_Compendios_v2-2.md
 ---
 
-# Norma de Produção de Compêndios · v2.9
+# Norma de Produção de Compêndios · v3.0
 
 Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:1 de Naruto.
+
+**O que mudou na v3.0.** O heading da entrada passa a publicar a romanização, e a linha seguinte passa a publicar o kanji e o nome em português. A ordem anterior punha o português no heading, e ela já convivia com exceções nunca declaradas — Takemikazuchi e Kirin sempre entraram em japonês puro, porque não existe tradução que valha. A Seção 10 recebe o formato novo, a regra de não invenção, a cláusula do substantivo próprio sem tradução e a fronteira contra a nomenclatura de perícia. O `registro-de-nomes` nasce como a concordância única dos três nomes.
 
 **O que mudou na v2.8.** O compêndio deixa de ser lido como fonte de preço definitivo. A Seção 1 declara o status normativo por inteiro: o compêndio é catálogo de existência, o XP publicado em entrada sem ficha é provisório, o provisório morre quando a ficha nasce ou quando a regra do domínio é produzida, e não há retroatividade sobre quem já comprou. A Seção 10 ganha o marcador `[provisório]` obrigatório no campo de XP de toda entrada sem ficha, e a Seção 12 fecha a pendência de convivência do preço, que vivia registrada sem dono desde a v2.
 
@@ -163,8 +165,8 @@ Entrada cuja execução exige volume de reserva que nenhum corpo humano carrega 
 ## 10. Formato de entrada
 
 ```
-### Nome em Português
-**Nome Japonês — 漢字**
+### Romanização
+**漢字 · Nome em Português**
 **[ETIQUETA — Rank X]**
 **Acesso:** Camada
 **Requisitos:** Perícia LV · Moldagem · Caminho
@@ -174,6 +176,30 @@ Entrada cuja execução exige volume de reserva que nenhum corpo humano carrega 
 
 Corpo em prosa.
 ```
+
+**Os três nomes.** O heading publica a romanização, que é o nome primário. A linha imediatamente abaixo publica o kanji e o nome em português, separados pelo ponto médio que as demais linhas da entrada já usam. O projeto é canônico um para um, a fonte nomeia em japonês, e o nome em português é escolha de localização sobre a qual mangá, dublagem e legendas discordam entre si.
+
+```
+### Raikiri
+**雷切 · Cortador de Raio**
+```
+
+**O ponto médio é tipografia, e o leitor não depende dele.** Cento e noventa e uma das entradas do catálogo publicam ponto médio dentro do próprio lado japonês, cento e noventa como `・` e uma como `天の呪印 · 地の呪印`, com o mesmo sinal que separa os dois nomes. Quem lê a linha parte pela fronteira entre as duas escritas, que é intrínseca ao conteúdo: nenhum lado japonês do catálogo carrega caractere latino, e nenhum nome pode gastar essa fronteira do jeito que gasta um delimitador. Trocar o ponto médio por outro sinal não conserta nada e trocar o leitor por um `split` volta a quebrar as cento e noventa e uma.
+
+**Substantivo próprio sem tradução.** Quando não existe nome em português que acrescente sentido, a linha publica apenas o kanji e o heading fica com o nome. É o caso do Takemikazuchi, do Kirin e do Amaterasu.
+
+```
+### Takemikazuchi
+**建御雷神**
+```
+
+A entrada nesse formato **não publica romanização**, e o heading dela não é tomado por uma, mesmo quando se lê como tal. Tomar o heading por romanização é ler nome para dentro do documento em vez de para fora dele, e o campo ausente é honesto onde o campo preenchido seria uma afirmação que a entrada não faz.
+
+**Regra de não invenção.** A entrada publica os nomes que existem e nenhum a mais. Entrada com os três reordena os três. Entrada só com o japonês permanece só com o japonês. Entrada só com o português **não recebe nome japonês gerado a partir do português nem do sentido**: ela sobe para a fila de decisão e espera. Romanização que pareça divergir do kanji publicado é reportada e não corrigida, porque conferir contra a fonte é trabalho de outra passada e corrigir de memória é inventar com outro nome.
+
+**Fronteira contra a nomenclatura de perícia.** Esta seção governa o nome de obra nomeada, e nada além disso. As inclinações e os caminhos das perícias permanecem em português, porque a nomeação por imagem é invenção do sistema e não nome que a fonte batizou: Ponta, Lança, Rede, Meridiano, Tempestade e Canto dos Mil Pássaros não são traduções de coisa alguma. As transcendências conservam a nomeação deity-first já publicada. E o nome de perícia na linha de Requisitos segue a grafia da Seção 10 deste documento, que é matéria distinta: aquela governa a linha de requisitos, esta governa o heading.
+
+**A concordância.** `worlds/naruto/compendiums/registro-de-nomes.md` publica uma linha por obra nomeada do corpus, com as três formas do nome, o domínio e a ficha quando houver. Nome citado em dois lugares é nome que só se mantém em um, e o registro é o lugar único.
 
 **Acesso.** Nome da camada, com a vila entre parênteses quando for Patrimônio de Vila e o estado de autoria quando for Assinatura Pessoal. Sem definição ao lado.
 

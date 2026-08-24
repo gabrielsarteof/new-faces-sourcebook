@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.katon
 title: "Compêndio de Katon (火遁)"
-version: 5.11
+version: 5.12
 layer: scenario
 scenario: naruto
 type: compendium
@@ -46,8 +46,8 @@ A leitura de Energia térmica de área foi descartada porque entrega contínua t
 
 ---
 
-### Centelha de Chakra
-**Katon: Hibana no Jutsu — 火遁・火花の術**
+### Katon: Hibana no Jutsu
+**火遁・火花の術 · Centelha de Chakra**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Katon LV1 · Moldagem 30
@@ -57,8 +57,8 @@ O usuário emana uma faísca de chakra de fogo pela ponta dos dedos ou pela palm
 
 ---
 
-### Passo de Chamas
-**Katon: Hō Shunshin — 火遁・火瞬身**
+### Katon: Hō Shunshin
+**火遁・火瞬身 · Passo de Chamas**
 **[PROPOSTA — Rank E]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV1 · Moldagem 40 · Shunshin no Jutsu
@@ -68,8 +68,8 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 
 ---
 
-### Luz de Chama
-**Hinotama no Jutsu — 火の玉の術**
+### Hinotama no Jutsu
+**火の玉の術 · Luz de Chama**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Katon LV1 · Moldagem 44
@@ -83,8 +83,8 @@ O usuário concentra uma quantidade mínima de chakra na palma da mão e produz 
 
 ---
 
-### Parede de Chamas
-**Katon: Nenshō Kabe — 火遁・燃焼壁**
+### Katon: Nenshō Kabe
+**火遁・燃焼壁 · Parede de Chamas**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem 48
@@ -96,8 +96,8 @@ O usuário canaliza chakra de fogo pelas palmas ou pelo solo e ergue uma barreir
 
 ---
 
-### Múltiplas Bolas de Fogo da Fênix
-**Katon: Hōsenka no Jutsu — 火遁・鳳仙花の術**
+### Katon: Hōsenka no Jutsu
+**火遁・鳳仙花の術 · Múltiplas Bolas de Fogo da Fênix**
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem 58
@@ -108,8 +108,8 @@ O usuário expele pela boca várias bolas de fogo de pequeno porte simultaneamen
 
 ---
 
-### Kunai Flamejante
-**Katon: Kaen Kunai — 火遁・火炎クナイ**
+### Katon: Kaen Kunai
+**火遁・火炎クナイ · Kunai Flamejante**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem 40 · kunai empunhadas
@@ -120,8 +120,8 @@ O usuário canaliza chakra de fogo para uma ou mais kunais seguradas, envolvendo
 
 ---
 
-### Bala de Fogo
-**Katon: Endan — 火遁・炎弾**
+### Katon: Endan
+**火遁・炎弾 · Bala de Fogo**
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Katon LV2 · Moldagem 32
@@ -136,8 +136,8 @@ O usuário expele da boca um jato concentrado de chamas em linha reta, sem neces
 
 ---
 
-### Grande Bola de Fogo
-**Katon: Gōkakyū no Jutsu — 火遁・豪火球の術**
+### Katon: Gōkakyū no Jutsu
+**火遁・豪火球の術 · Grande Bola de Fogo**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 44
@@ -148,8 +148,8 @@ O usuário molda chakra nos pulmões e o expele pela boca na forma de uma enorme
 
 ---
 
-### Técnica da Chama do Dragão
-**Katon: Ryūka no Jutsu — 火遁・龍火の術**
+### Katon: Ryūka no Jutsu
+**火遁・龍火の術 · Técnica da Chama do Dragão**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 60 · material condutor em campo
@@ -160,8 +160,8 @@ O usuário canaliza fogo ao longo de um fio condutor, arame ou cabo, que transpo
 
 ---
 
-### Dança da Névoa Flamejante
-**Katon: Kasumi Enbu no Jutsu — 火遁・霞炎舞の術**
+### Katon: Kasumi Enbu no Jutsu
+**火遁・霞炎舞の術 · Dança da Névoa Flamejante**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 60
@@ -174,8 +174,8 @@ O usuário expele pela boca um gás altamente inflamável que paira na área ao 
 
 ---
 
-### Pedreira de Isqueiro
-**Katon: Hiuchi Yagura — 火遁・火打ち矢倉**
+### Katon: Hiuchi Yagura
+**火遁・火打ち矢倉 · Pedreira de Isqueiro**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 46
@@ -187,8 +187,8 @@ O usuário faz um único selo e gera uma estrutura de fogo à sua frente, que as
 
 ---
 
-### Chuva de Fagulhas
-**Katon: Ame Hibana — 火遁・雨火花**
+### Katon: Ame Hibana
+**火遁・雨火花 · Chuva de Fagulhas**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 50
@@ -201,8 +201,8 @@ O usuário expele chakra de fogo para cima, fragmentando-o em dezenas de partíc
 
 ---
 
-### Garra de Fogo
-**Katon: Hi no Tsume — 火遁・火の爪**
+### Katon: Hi no Tsume
+**火遁・火の爪 · Garra de Fogo**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 62
@@ -213,8 +213,8 @@ O usuário reveste as mãos ou os braços com chakra de fogo comprimido, formand
 
 ---
 
-### Técnica de Ocultação nas Cinzas
-**Katon: Haijingakure no Jutsu — 火遁・灰塵隠れの術**
+### Katon: Haijingakure no Jutsu
+**火遁・灰塵隠れの術 · Técnica de Ocultação nas Cinzas**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Katon LV3 · Moldagem 54
@@ -234,8 +234,8 @@ A nuvem não golpeia, ela cobra pelo tempo que alguém passa dentro dela. A entr
 
 ---
 
-### Formação de Chamas Uchiha
-**Uchiha Kaenjin — うちは火炎陣**
+### Uchiha Kaenjin
+**うちは火炎陣 · Formação de Chamas Uchiha**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Clã Uchiha)
 **Requisitos:** Katon LV4 · Moldagem 48 · Caminho Muro Vivo
@@ -252,8 +252,8 @@ A resistência registrada da barreira está acima do que a escala de rank sugere
 
 ---
 
-### Queimadura das Cinzas
-**Katon: Haisekishō — 火遁・灰積焼**
+### Katon: Haisekishō
+**火遁・灰積焼 · Queimadura das Cinzas**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 64 · Caminho Pavio
@@ -266,8 +266,8 @@ O usuário cospe pela boca uma corrente de pólvora impregnada de chakra, que pa
 
 ---
 
-### Fogo Rasante
-**Katon: Hibashiri — 火遁・火走り**
+### Katon: Hibashiri
+**火遁・火走り · Fogo Rasante**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 62 · Caminho Rédea
@@ -280,8 +280,8 @@ O usuário gera uma corrente de fogo que percorre o solo ou o ar em trajetórias
 
 ---
 
-### Técnica do Fogo do Dragão
-**Katon: Karyū Endan — 火遁・火龍炎弾**
+### Katon: Karyū Endan
+**火遁・火龍炎弾 · Técnica do Fogo do Dragão**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 50
@@ -292,8 +292,8 @@ O usuário comprime o chakra pulmonar e o expele pela boca como um jato de fogo 
 
 ---
 
-### Grande Dragão de Fogo
-**Katon: Gōryūka no Jutsu — 火遁・豪龍火の術**
+### Katon: Gōryūka no Jutsu
+**火遁・豪龍火の術 · Grande Dragão de Fogo**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 50
@@ -304,8 +304,8 @@ O usuário comprime uma grande quantidade de chakra no interior do corpo e o con
 
 ---
 
-### Incêndio de Fagulhas de Fênix
-**Katon: Hōsenka Tsumabeni — 火遁・鳳仙花爪紅**
+### Katon: Hōsenka Tsumabeni
+**火遁・鳳仙花爪紅 · Incêndio de Fagulhas de Fênix**
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV4 · Moldagem 64 · Caminho Veia · Múltiplas Bolas de Fogo da Fênix
@@ -318,8 +318,8 @@ A salva resolve alvo por alvo. Cada projétil é uma entrega de alvo único, dec
 
 ---
 
-### Lanterna Demônio
-**Katon: Onidōrō — 火遁・鬼灯籠**
+### Katon: Onidōrō
+**火遁・鬼灯籠 · Lanterna Demônio**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Katon LV4 · Moldagem 80 · Caminho Rédea
@@ -330,8 +330,8 @@ O usuário libera várias esferas de fogo com aparência de chamas espirituais q
 
 ---
 
-### Turbilhão de Chamas
-**Katon: Kaen Senpū — 火遁・火炎旋風**
+### Katon: Kaen Senpū
+**火遁・火炎旋風 · Turbilhão de Chamas**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 62 · Caminho Muro Vivo
@@ -344,8 +344,8 @@ O chakra de fogo do usuário surge ao redor do corpo em redemoinho giratório. A
 
 ---
 
-### Grande Chama
-**Katon: Gōen no Jutsu — 火遁・豪炎の術**
+### Katon: Gōen no Jutsu
+**火遁・豪炎の術 · Grande Chama**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Katon LV4 · Moldagem 46
@@ -358,8 +358,8 @@ O usuário expele da boca uma rajada contínua e larga de chamas que avança em 
 
 ---
 
-### Dança Explosiva da Onda de Choque
-**Katon: Bakufū Ranbu — 火遁・爆風乱舞**
+### Katon: Bakufū Ranbu
+**火遁・爆風乱舞 · Dança Explosiva da Onda de Choque**
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV4 · Moldagem 46 · Caminho Pavio · Fūinjutsu e selos explosivos
@@ -376,8 +376,8 @@ O usuário posiciona a mão no solo e libera um grande número de selos explosiv
 
 ---
 
-### Chuva de Bolas de Fogo
-**Katon: Gōen Ame — 火遁・豪炎雨**
+### Katon: Gōen Ame
+**火遁・豪炎雨 · Chuva de Bolas de Fogo**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV5 · Moldagem 62 · Caminho Leito · Grande Chama
@@ -390,8 +390,8 @@ O usuário molda chakra em múltiplas esferas de fogo lançadas em arco ascenden
 
 ---
 
-### Técnica da Cerâmica Derretida
-**Katon: Suyaki no Jutsu — 火遁・素焼きの術**
+### Katon: Suyaki no Jutsu
+**火遁・素焼きの術 · Técnica da Cerâmica Derretida**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 48 · Caminho Leito
@@ -404,8 +404,8 @@ O usuário lança chamas intensas que inundam uma área delimitada, maximizando 
 
 ---
 
-### Grande Bala de Chama com Óleo de Sapo
-**Katon: Gamayu Endan — 火遁・蝦蟇油炎弾**
+### Katon: Gamayu Endan
+**火遁・蝦蟇油炎弾 · Grande Bala de Chama com Óleo de Sapo**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV5 · Moldagem 44 · invocação capaz de expelir óleo
@@ -416,8 +416,8 @@ Técnica de colaboração executada com um sapo invocado. O sapo acumula óleo n
 
 ---
 
-### Grande Bala de Chama
-**Katon: Dai Endan — 火遁・大炎弾**
+### Katon: Dai Endan
+**火遁・大炎弾 · Grande Bala de Chama**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV5 · Moldagem 48 · Bala de Fogo
@@ -428,8 +428,8 @@ Versão amplificada do Endan executada com chakra de senjutsu. O usuário preenc
 
 ---
 
-### Grande Aniquilação de Fogo
-**Katon: Gōka Mekkyaku — 火遁・豪火滅却**
+### Katon: Gōka Mekkyaku
+**火遁・豪火滅却 · Grande Aniquilação de Fogo**
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 36
@@ -442,8 +442,8 @@ O chakra moldado no interior do corpo é convertido em fogo e expelido pela boca
 
 ---
 
-### Torrente do Dragão
-**Katon: Ryū no Gekiryū — 火遁・龍の激流**
+### Katon: Ryū no Gekiryū
+**火遁・龍の激流 · Torrente do Dragão**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 50 · Caminho Emissão (Controle de Chakra)
@@ -454,8 +454,8 @@ O usuário enche o peito muito além do que a projeção comum exigiria e libera
 
 ---
 
-### Chama da Forja
-**Katon: Tanren no Honō — 火遁・鍛錬の炎**
+### Katon: Tanren no Honō
+**火遁・鍛錬の炎 · Chama da Forja**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 46
@@ -466,8 +466,8 @@ O usuário comprime a chama até a densidade máxima que consegue sustentar, e o
 
 ---
 
-### Selo da Combustão
-**Katon: Nenshō In — 火遁・燃焼印**
+### Katon: Nenshō In
+**火遁・燃焼印 · Selo da Combustão**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 60 · Caminho Pavio
@@ -477,8 +477,8 @@ Disparo preciso que grava no alvo uma marca ardente do tamanho de uma palma. A m
 
 ---
 
-### Câmara do Dragão
-**Katon: Ryū no Ma — 火遁・龍の間**
+### Katon: Ryū no Ma
+**火遁・龍の間 · Câmara do Dragão**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 58 · Caminho Muro Vivo
@@ -491,8 +491,8 @@ O usuário cospe fogo contra o solo e o prende ali, formando uma câmara de cham
 
 ---
 
-### Palma da Fênix
-**Katon: Hōō Shō — 火遁・鳳凰掌**
+### Katon: Hōō Shō
+**火遁・鳳凰掌 · Palma da Fênix**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 62 · Caminho Emissão (Controle de Chakra)
@@ -503,8 +503,8 @@ Descarga de fogo concentrado liberada no contato da palma com o alvo. Não exist
 
 ---
 
-### Rede de Chamas
-**Katon: Kaen Ami — 火遁・火炎網**
+### Katon: Kaen Ami
+**火遁・火炎網 · Rede de Chamas**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 76 · Caminho Veia
@@ -515,8 +515,8 @@ O usuário estende três guias simultâneos e envia fogo por cada um. Os guias c
 
 ---
 
-### Pira Ardente
-**Katon: Funka Bashira — 火遁・焚火柱**
+### Katon: Funka Bashira
+**火遁・焚火柱 · Pira Ardente**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 66 · Caminho Cinza
@@ -529,8 +529,8 @@ Detonação de larga área que deixa para trás uma coluna de cinza incandescent
 
 ---
 
-### Laço da Fênix
-**Katon: Hōō no Wana — 火遁・鳳凰の罠**
+### Katon: Hōō no Wana
+**火遁・鳳凰の罠 · Laço da Fênix**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 74 · Caminho Pavio
@@ -541,8 +541,8 @@ Execução de três marcações latentes num único gesto, distribuídas entre a
 
 ---
 
-### Penas do Inferno
-**Katon: Jigoku no Hane — 火遁・地獄の羽**
+### Katon: Jigoku no Hane
+**火遁・地獄の羽 · Penas do Inferno**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Katon LV5 · Moldagem 72 · Caminho Agulha · shuriken em quantidade
@@ -562,8 +562,8 @@ O engano é a propriedade central da técnica e não adorno da descrição, e po
 
 ---
 
-### Grande Destruição de Fogo
-**Katon: Gōka Messhitsu — 火遁・豪火滅失**
+### Katon: Gōka Messhitsu
+**火遁・豪火滅失 · Grande Destruição de Fogo**
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Katon LV6 · Moldagem 52 · Grande Aniquilação de Fogo
@@ -576,8 +576,8 @@ O usuário converte uma quantidade extrema de chakra em fogo e o expele pela boc
 
 ---
 
-### Espiral do Dragão do Purgatório
-**Katon: Rengoku Ryūsei — 火遁・煉獄龍勢**
+### Katon: Rengoku Ryūsei
+**火遁・煉獄龍勢 · Espiral do Dragão do Purgatório**
 **[PROPOSTA — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Katon LV6 · Moldagem 92
@@ -588,8 +588,8 @@ O usuário comprime uma quantidade extrema de chakra de fogo no interior do corp
 
 ---
 
-### Rugido do Dragão Eterno
-**Katon: Eien Ryū no Hōkō — 火遁・永遠龍の咆哮**
+### Katon: Eien Ryū no Hōkō
+**火遁・永遠龍の咆哮 · Rugido do Dragão Eterno**
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Katon LV6 · Moldagem 76 · Caminho Rédea
@@ -600,8 +600,8 @@ Projeção oral de escala suprema, entregue por um corpo que passou a produzir f
 
 ---
 
-### Ascensão da Fênix
-**Katon: Hōō Shōten — 火遁・鳳凰昇天**
+### Katon: Hōō Shōten
+**火遁・鳳凰昇天 · Ascensão da Fênix**
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Katon LV6 · Moldagem 96 · Transcendência Labareda da Fênix
@@ -612,8 +612,8 @@ Execução simultânea dos três vetores de entrega do fogo. O usuário cospe, e
 
 ---
 
-### Grande Extinção pelo Fogo
-**Katon: Gōka Zetsumetsu — 火遁・豪火絶滅**
+### Katon: Gōka Zetsumetsu
+**火遁・豪火絶滅 · Grande Extinção pelo Fogo**
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Katon LV6 · Moldagem 68 · Transcendência O Grande Incêndio
@@ -647,26 +647,26 @@ As chamas negras do Amaterasu são declaradas nos databooks como a técnica de K
 
 ## Índice Rápido por Função Tática
 
-**Projétil único.** Bala de Fogo, Grande Bola de Fogo, Grande Bala de Chama, Grande Bala de Chama com Óleo de Sapo, Chama da Forja, Espiral do Dragão do Purgatório.
+**Projétil único.** Katon: Endan, Katon: Gōkakyū no Jutsu, Katon: Dai Endan, Katon: Gamayu Endan, Katon: Tanren no Honō, Katon: Rengoku Ryūsei.
 
-**Muitos projéteis de uma vez.** Múltiplas Bolas de Fogo da Fênix, Incêndio de Fagulhas de Fênix, Lanterna Demônio, Chuva de Bolas de Fogo, Penas do Inferno.
+**Muitos projéteis de uma vez.** Katon: Hōsenka no Jutsu, Katon: Hōsenka Tsumabeni, Katon: Onidōrō, Katon: Gōen Ame, Katon: Jigoku no Hane.
 
-**Jato contínuo.** Técnica do Fogo do Dragão, Grande Chama, Grande Destruição de Fogo, Torrente do Dragão, Rugido do Dragão Eterno.
+**Jato contínuo.** Katon: Karyū Endan, Katon: Gōen no Jutsu, Katon: Gōka Messhitsu, Katon: Ryū no Gekiryū, Katon: Eien Ryū no Hōkō.
 
-**Cobrir área e campo.** Grande Aniquilação de Fogo, Grande Destruição de Fogo, Chuva de Fagulhas, Dança da Névoa Flamejante, Dança Explosiva da Onda de Choque, Pira Ardente, Grande Extinção pelo Fogo.
+**Cobrir área e campo.** Katon: Gōka Mekkyaku, Katon: Gōka Messhitsu, Katon: Ame Hibana, Katon: Kasumi Enbu no Jutsu, Katon: Bakufū Ranbu, Katon: Funka Bashira, Katon: Gōka Zetsumetsu.
 
-**Prender o inimigo no terreno.** Fogo Rasante, Técnica da Cerâmica Derretida, Câmara do Dragão, Chuva de Bolas de Fogo, Grande Extinção pelo Fogo.
+**Prender o inimigo no terreno.** Katon: Hibashiri, Katon: Suyaki no Jutsu, Katon: Ryū no Ma, Katon: Gōen Ame, Katon: Gōka Zetsumetsu.
 
-**Impedir que cheguem perto.** Formação de Chamas Uchiha, Parede de Chamas, Pedreira de Isqueiro, Turbilhão de Chamas.
+**Impedir que cheguem perto.** Uchiha Kaenjin, Katon: Nenshō Kabe, Katon: Hiuchi Yagura, Katon: Kaen Senpū.
 
-**Golpear no corpo a corpo.** Kunai Flamejante, Garra de Fogo, Palma da Fênix, Incêndio de Fagulhas de Fênix.
+**Golpear no corpo a corpo.** Katon: Kaen Kunai, Katon: Hi no Tsume, Katon: Hōō Shō, Katon: Hōsenka Tsumabeni.
 
-**Entregar fogo por um guia.** Técnica da Chama do Dragão, Rede de Chamas.
+**Entregar fogo por um guia.** Katon: Ryūka no Jutsu, Katon: Kaen Ami.
 
-**Marcar agora e detonar depois.** Dança Explosiva da Onda de Choque, Queimadura das Cinzas, Selo da Combustão, Laço da Fênix.
+**Marcar agora e detonar depois.** Katon: Bakufū Ranbu, Katon: Haisekishō, Katon: Nenshō In, Katon: Hōō no Wana.
 
-**Tirar a visão.** Técnica de Ocultação nas Cinzas, Pira Ardente, Queimadura das Cinzas.
+**Tirar a visão.** Katon: Haijingakure no Jutsu, Katon: Funka Bashira, Katon: Haisekishō.
 
-**Preparar o campo para o próprio fogo.** Centelha de Chakra, Dança da Névoa Flamejante, Selo da Combustão.
+**Preparar o campo para o próprio fogo.** Katon: Hibana no Jutsu, Katon: Kasumi Enbu no Jutsu, Katon: Nenshō In.
 
-**Fechar o combate.** Grande Destruição de Fogo, Espiral do Dragão do Purgatório, Rugido do Dragão Eterno, Ascensão da Fênix, Grande Extinção pelo Fogo.
+**Fechar o combate.** Katon: Gōka Messhitsu, Katon: Rengoku Ryūsei, Katon: Eien Ryū no Hōkō, Katon: Hōō Shōten, Katon: Gōka Zetsumetsu.
