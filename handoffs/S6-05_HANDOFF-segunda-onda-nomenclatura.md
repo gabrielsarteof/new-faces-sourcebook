@@ -3,7 +3,7 @@ id: handoff.segunda-onda-nomenclatura
 title: "HANDOFF — Segunda onda da nomenclatura"
 sessao-de-origem: 6
 status: aguardando-abertura
-version: 2
+version: 3
 ---
 
 # HANDOFF — Segunda onda da nomenclatura
@@ -95,14 +95,18 @@ Catraca de nome de ficha construída, provada com o defeito injetado, e verde an
 | obras no Registro | 491 |
 | com ficha publicada | 47 |
 | citadas em `chidori-family.md` e `rasengan-family.md` | 15 |
-| **união — o subconjunto a conferir** | **51** |
-| restante, pendência aberta no Registro | 440 |
+| união das duas | 51 |
+| Pantera Negra, acrescentada por decisão | 1 |
+| **o subconjunto a conferir** | **52** |
+| restante, pendência aberta no Registro | 439 |
 
 Três das 51 não publicam romanização alguma: Chidori, Takemikazuchi e Amaterasu, as entradas de kanji puro cujo cabeçalho se lê como romanização sem que o documento afirme que é uma. Para essas três a conferência não é verificar e sim **descobrir se a fonte publica uma**, e o resultado entra no Registro vindo da fonte, nunca do cabeçalho. Se a fonte não publicar, o campo continua vazio.
 
-**Um caso conhecido cai fora do subconjunto.** `黒豹` publicado como `Kuropansa` é a única romanização sob suspeita identificada, e Pantera Negra não tem ficha nem é citada nos dois documentos de linhagem. Pelo recorte, ela ficaria aberta enquanto a onda corre. Custa uma linha incluí-la, e a recomendação é incluir — mas o recorte é de Gabriel e a onda abre com o que ele devolver.
+**A Pantera Negra entra por decisão, e não pelo recorte.** `黒豹` publicado como `Kuropansa` é a única romanização sob suspeita identificada, e ela não tem ficha nem é citada nos dois documentos de linhagem: pela regra que define as outras 51, ficaria de fora. Conferir tudo menos o caso conhecido, justamente porque o caso conhecido não cumpre o critério, é o tipo de recorte que passa por completo sem cobrir o que importa. Ela é a linha 52.
 
-**A onda abre com o subconjunto conferido**, e o Registro segue carregando a pendência aberta para as 440 restantes, que se conferem depois sem bloquear nada.
+O critério fica registrado com a exceção à vista, e não reescrito para acomodá-la: o subconjunto é o que a onda toca **mais** o que já se sabe suspeito. Se outra suspeita aparecer antes da onda abrir, entra pela mesma porta.
+
+**A onda abre com as 52 conferidas**, e o Registro segue carregando a pendência aberta para as 439 restantes, que se conferem depois sem bloquear nada.
 
 ### 5.2 A forma do cabeçalho da ficha
 
