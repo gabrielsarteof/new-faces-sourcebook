@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.jigoku-no-hane
+id: naruto.technique.katon-jigoku-no-hane
 title: "Jigoku no Hane (地獄の羽)"
 version: 1.3
 layer: scenario

@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.hosenka-tsumabeni
+id: naruto.technique.katon-hosenka-tsumabeni
 title: "Hōsenka Tsumabeni (鳳仙花爪紅)"
 version: 1.2
 layer: scenario

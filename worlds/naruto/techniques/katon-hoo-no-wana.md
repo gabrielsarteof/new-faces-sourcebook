@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.hoo-no-wana
+id: naruto.technique.katon-hoo-no-wana
 title: "Hōō no Wana (鳳凰の罠)"
 version: 1.2
 layer: scenario

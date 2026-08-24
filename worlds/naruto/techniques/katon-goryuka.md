@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.goryuka
+id: naruto.technique.katon-goryuka
 title: "Gōryūka no Jutsu (豪龍火の術)"
 version: 1.2
 layer: scenario

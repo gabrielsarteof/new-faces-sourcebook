@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.10
+version: 2.11
 layer: scenario
 scenario: naruto
 type: compendium
@@ -29,7 +29,7 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 **O que mudou na v2.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
 
-**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas o Chidori Senbon, as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
 
 **Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
 
@@ -55,8 +55,8 @@ Os nomes japoneses deste compêndio são romanização proposta e construída pa
 
 ## Rank E
 
-### Reflexo Falso
-**Giei no Jutsu — 偽影の術**
+### Giei no Jutsu
+**偽影の術 · Reflexo Falso**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -65,8 +65,8 @@ Os nomes japoneses deste compêndio são romanização proposta e construída pa
 
 O praticante projeta a própria imagem a curta distância, parada e sem comportamento. A forma ocupa lugar aos olhos de quem a examina e se desfaz ao primeiro contato. É o primeiro exercício de todo portador da afinidade, e a maior parte dos que nunca avançam além dele o emprega para comprar um instante de hesitação alheia.
 
-### Molde Cru
-**Namakatachi no Jutsu — 生形の術**
+### Namakatachi no Jutsu
+**生形の術 · Molde Cru**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -75,8 +75,8 @@ O praticante projeta a própria imagem a curta distância, parada e sem comporta
 
 O praticante origina uma forma sem função, um bloco, uma esfera, uma haste, sustentada enquanto a atenção permanecer nela. A forma não suporta peso e não detém golpe, e a execução em combate serve sobretudo para confirmar a um aliado ou a um inimigo que a energia é real.
 
-### Fio de Luz Fria
-**Reikō no Ito — 冷光の糸**
+### Reikō no Ito
+**冷光の糸 · Fio de Luz Fria**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Linha
@@ -85,8 +85,8 @@ O praticante origina uma forma sem função, um bloco, uma esfera, uma haste, su
 
 Uma linha de luz sem calor e sem fonte, erguida no ar e mantida enquanto o praticante quiser. Ela marca rota em galeria escura, sinaliza posição a distância curta e assinala perímetro para quem estiver de vigília. A luz não aquece, não queima e não revela o praticante a quem leia chakra, porque a emissão permanece dentro do corpo.
 
-### Vulto de Costas
-**Sehai no Jutsu — 背影の術**
+### Sehai no Jutsu
+**背影の術 · Vulto de Costas**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -99,8 +99,8 @@ O praticante apaga da leitura alheia o contorno de uma coisa parada, a própria 
 
 ## Rank D
 
-### Forma Sustentada
-**Teikei no Jutsu — 定形の術**
+### Teikei no Jutsu
+**定形の術 · Forma Sustentada**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -109,8 +109,8 @@ O praticante apaga da leitura alheia o contorno de uma coisa parada, a própria 
 
 A forma originada continua existindo depois que a atenção do praticante se volta para outro lugar, e permanece em campo pelo resíduo declarado na escada de projeção. É o primeiro momento em que uma obra de Yin sobrevive a uma distração do próprio autor, e a tradição do domínio trata o dia em que um aprendiz a alcança como o dia em que ele passou a ter a natureza de fato.
 
-### Andar do Vulto
-**Hokōei no Jutsu — 歩行影の術**
+### Hokōei no Jutsu
+**歩行影の術 · Andar do Vulto**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -119,8 +119,8 @@ A forma originada continua existindo depois que a atenção do praticante se vol
 
 A imagem projetada ganha um comportamento simples e repetitivo, caminhar em linha reta, levantar o braço, virar o rosto na direção do som. Ela ainda não responde ao ambiente, e passa a exigir um segundo de observação para ser lida como falsa, o que basta contra sentinela cansada e contra quem olha de longe.
 
-### Recorte Simples
-**Kirinuki no Jutsu — 切り抜きの術**
+### Kirinuki no Jutsu
+**切り抜きの術 · Recorte Simples**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -129,8 +129,8 @@ A imagem projetada ganha um comportamento simples e repetitivo, caminhar em linh
 
 O apagamento passa a cobrir objeto de porte maior e a resistir a exame apressado, alcançando alçapão fechado, arma largada e vão de parede. A obra permanece no lugar depois que o praticante sai, pelo resíduo do nível, e por isso serve a quem prepara terreno antes da chegada de terceiros.
 
-### Mão Sem Braço
-**Mude no Te — 無腕の手**
+### Mude no Te
+**無腕の手 · Mão Sem Braço**
 **[PROPOSTA — Rank D]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -139,8 +139,8 @@ O apagamento passa a cobrir objeto de porte maior e a resistir a exame apressado
 
 Uma mão de substância espiritual erguida à distância do corpo, presa a nada e movida pela vontade do praticante. Ela puxa alavanca, apara projétil leve, segura uma porta e carrega até vinte quilos. O refinamento exigido vem da articulação, porque a obra precisa dobrar em pontos declarados sem colapsar no meio do movimento.
 
-### Olho Posto
-**Okime — 置き目**
+### Okime
+**置き目 · Olho Posto**
 **[PROPOSTA — Rank D]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -153,8 +153,8 @@ Uma forma pequena deixada em ponto declarado, pela qual o praticante enxerga enq
 
 ## Rank C
 
-### Silhueta Rígida
-**Kōei no Jutsu — 硬影の術**
+### Kōei no Jutsu
+**硬影の術 · Silhueta Rígida**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -163,8 +163,8 @@ Uma forma pequena deixada em ponto declarado, pela qual o praticante enxerga enq
 
 A forma originada ganha resistência estrutural comparável à madeira comum, o bastante para deter um golpe leve, escorar uma laje trincada ou sustentar o peso do próprio praticante. É a primeira técnica de Yin com presença tática real em combate, e a primeira em que o limiar de integridade da perícia entra em jogo.
 
-### Peso do Vazio
-**Kyojū no Jutsu — 虚重の術**
+### Kyojū no Jutsu
+**虚重の術 · Peso do Vazio**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito de Segurança
 **Alcance categórico:** Alvo
@@ -173,8 +173,8 @@ A forma originada ganha resistência estrutural comparável à madeira comum, o 
 
 O praticante origina peso concentrado sem forma reconhecível, empregado para desequilibrar, lastrear ou prender. Ao término do efeito a energia precisa ser dispersada de modo gradual, e quem encerra a técnica de uma vez vê o vazio colapsar sobre o ponto de origem, recebendo o resíduo espiritual em dobro no mesmo turno.
 
-### Máscara de Empréstimo
-**Karimen no Jutsu — 借面の術**
+### Karimen no Jutsu
+**借面の術 · Máscara de Empréstimo**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -183,8 +183,8 @@ O praticante origina peso concentrado sem forma reconhecível, empregado para de
 
 O praticante reveste um objeto presente em cena com a aparência de outro de porte semelhante, sem contato e à distância. Um pergaminho vira pedra, uma arma vira galho, uma marca de vila vira remendo de pano. A matéria continua embaixo, de modo que o contato não desfaz o revestimento, e a checagem corre por exame atento.
 
-### Escuro de Bolso
-**Futokoro Yami no Jutsu — 懐闇の術**
+### Futokoro Yami no Jutsu
+**懐闇の術 · Escuro de Bolso**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Área
@@ -198,8 +198,8 @@ O praticante reveste um objeto presente em cena com a aparência de outro de por
 
 Um volume de escuro real com três metros de raio, erguido em ponto declarado. Ninguém dentro enxerga, incluindo quem o ergueu, e a audição, o olfato e a leitura de chakra continuam operando sem penalidade. É a versão curta do ofício da cortina, empregada para cobrir uma porta, um beco ou o instante de uma troca.
 
-### Corda do Vazio
-**Kyonawa — 虚縄**
+### Kyonawa
+**虚縄 · Corda do Vazio**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Linha
@@ -208,8 +208,8 @@ Um volume de escuro real com três metros de raio, erguido em ponto declarado. N
 
 Uma corda originada do nada, sem peso e sem ponta solta, que o praticante amarra em alvo imóvel, em estrutura ou em si mesmo. Ela sustenta até cem quilos e rompe pelo limiar de integridade da perícia. A tradição do domínio a ensina antes de qualquer arma, porque prender é o primeiro serviço que uma forma sem matéria presta bem.
 
-### Mensageiro Cego
-**Mōshisha — 盲使者**
+### Mōshisha
+**盲使者 · Mensageiro Cego**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -222,8 +222,8 @@ Uma forma que percorre trajeto instruído no ato e entrega o que carrega no pont
 
 ## Rank B
 
-### Parede de Nada
-**Mu no Kabe — 無の壁**
+### Mu no Kabe
+**無の壁 · Parede de Nada**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -237,8 +237,8 @@ Uma forma que percorre trajeto instruído no ato e entrega o que carrega no pont
 
 Um painel erguido em ponto declarado, com até cinco metros de largura por três de altura, que corta linha de visão e de movimento e resiste pelo limiar de integridade. A parede é o exercício base de toda construção do domínio, e permanece livre justamente por preceder a especialização que depois a refina em estrutura de porte.
 
-### Lâmina de Vazio
-**Kyoba — 虚刃**
+### Kyoba
+**虚刃 · Lâmina de Vazio**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Armeiro
@@ -249,8 +249,8 @@ Um painel erguido em ponto declarado, com até cinco metros de largura por três
 
 Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem peso e imune a quebra por uso. Ela apara aço e morde couro endurecido, e cede apenas quando o golpe recebido vence o limiar registrado no ato da forja. Empunhar uma arma real exige mais refinamento do que erguer uma forma parada, e a Exigência de Moldagem 60 registra isso.
 
-### Sombra Gêmea
-**Sōei no Jutsu — 双影の術**
+### Sōei no Jutsu
+**双影の術 · Sombra Gêmea**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -259,8 +259,8 @@ Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem pe
 
 Uma cópia espiritual completa do praticante, que se desloca junto dele e responde ao ambiente por um turno antes de se desfazer. A cópia não reparte reserva e não devolve memória, e a função dela é inteiramente de engano, cobrando do inimigo a reação que ele gastaria contra o corpo verdadeiro.
 
-### Eco de Presença
-**Kehai Kodama no Jutsu — 気配木霊の術**
+### Kehai Kodama no Jutsu
+**気配木霊の術 · Eco de Presença**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -269,8 +269,8 @@ Uma cópia espiritual completa do praticante, que se desloca junto dele e respon
 
 A forma falsa passa a emitir presença de chakra convincente, o bastante para que um sensor a registre como pessoa. A Exigência de Moldagem 74 em rank B é o par declarado deste compêndio contra a indexação de precisão por porte: convencer quem lê chakra pede proporção interna fina, e a técnica que faz isso é modesta em escala e cara em controle.
 
-### Manto de Ninguém
-**Mujin no Gaitō — 無人の外套**
+### Mujin no Gaitō
+**無人の外套 · Manto de Ninguém**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -279,8 +279,8 @@ A forma falsa passa a emitir presença de chakra convincente, o bastante para qu
 
 O véu passa a cobrir o praticante em movimento pleno, dobrando a leitura de quem o procura enquanto ele atravessa. A emissão de chakra permanece intacta, e quem lê o circuito continua lendo a posição dele, o que faz do manto uma peça de infiltração contra guarnição comum e nada contra sensor treinado.
 
-### Rosto Emprestado
-**Karigao no Jutsu — 借顔の術**
+### Karigao no Jutsu
+**借顔の術 · Rosto Emprestado**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -289,8 +289,8 @@ O véu passa a cobrir o praticante em movimento pleno, dobrando a leitura de que
 
 O revestimento alcança pessoa viva, dando a um terceiro o rosto, o porte e a roupa de outro sem tocá-lo e sem alterar capacidade alguma dele. A obra sobrevive ao contato, porque há corpo embaixo, e o refinamento exigido vem de acompanhar a respiração, o gesto e a fala de quem foi revestido sem descolar da carne.
 
-### Olhos Sem Corpo
-**Mutai no Me — 無体の眼**
+### Mutai no Me
+**無体の眼 · Olhos Sem Corpo**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -299,8 +299,8 @@ O revestimento alcança pessoa viva, dando a um terceiro o rosto, o porte e a ro
 
 O praticante ergue formas de observação em pontos separados e enxerga e ouve a partir de qualquer uma delas, trocando à vontade entre os postos. A leitura corre pela percepção comum e não alcança chakra alheio nem identifica fonte, o que pertence a outro ofício. O alcance cobre um vale, uma estrada ou um quarteirão inteiro.
 
-### Grilhão do Vazio
-**Kyokase — 虚枷**
+### Kyokase
+**虚枷 · Grilhão do Vazio**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -309,8 +309,8 @@ O praticante ergue formas de observação em pontos separados e enxerga e ouve a
 
 Uma forma que se fecha sobre alvo declarado e o acompanha enquanto ele se desloca, impondo Imobilização pelo grau lido da margem, conforme o Sistema de Efeitos de Status. O grilhão não prende ao chão e não ancora em nada, e por isso o alvo carrega consigo aquilo que o prende até romper o limiar ou até cair.
 
-### Marco Fincado
-**Uchikui — 打杭**
+### Uchikui
+**打杭 · Marco Fincado**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -319,8 +319,8 @@ Uma forma que se fecha sobre alvo declarado e o acompanha enquanto ele se desloc
 
 Uma obra já erguida se desliga da sustentação de quem a criou e passa a existir por conta própria por uma hora, conservando o limiar registrado no ato. O praticante pode sair de cena, dormir ou morrer, e a obra permanece de pé. É a técnica que converte o arsenal do domínio em trabalho de esquadrão, porque a partir dela quem ergue deixa de ser refém do que ergueu.
 
-### Ramo Que Não Existe
-**Genju no Eda — 幻樹の枝**
+### Genju no Eda
+**幻樹の枝 · Ramo Que Não Existe**
 **[PROPOSTA — Rank B]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Liberação de Yin LV4 · Moldagem 62 · Forjador de Fenômenos
@@ -335,8 +335,8 @@ A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo
 
 ## Rank A
 
-### Muralha de Silêncio
-**Seiheki — 静壁**
+### Seiheki
+**静壁 · Muralha de Silêncio**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Campo
@@ -350,8 +350,8 @@ A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo
 
 Estrutura erguida em escala de terreno, muro corrido, cúpula ou plataforma de dezenas de metros, com integridade própria e passagem que o praticante abre e fecha à vontade. Ela serve de chão para os dois lados, e o inimigo que a escala ganha o mesmo apoio que o esquadrão defendido. É o arsenal de defesa de posição do domínio.
 
-### Armadura de Segunda Pele
-**Daini no Hada — 第二の肌**
+### Daini no Hada
+**第二の肌 · Armadura de Segunda Pele**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -360,8 +360,8 @@ Estrutura erguida em escala de terreno, muro corrido, cúpula ou plataforma de d
 
 Uma casca completa erguida rente ao corpo, que recebe cada golpe antes da carne e absorve por inteiro tudo que não vencer o limiar registrado. Vencido o limiar, a casca rompe, o golpe segue já resolvido e o praticante recebe o resíduo. A Exigência de Moldagem 80 responde pela espessura constante sobre articulação em movimento, que é onde a obra falha em quem a executa mal.
 
-### Véu do Esquadrão
-**Tai no Tobari — 隊の帳**
+### Tai no Tobari
+**隊の帳 · Véu do Esquadrão**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Área
@@ -375,8 +375,8 @@ Uma casca completa erguida rente ao corpo, que recebe cada golpe antes da carne 
 
 O véu deixa de cobrir uma forma e passa a cobrir um grupo em deslocamento, com cada integrante conservando a própria posição real enquanto some da leitura de quem procura. A obra exige que o esquadrão permaneça dentro de distância declarada, e o integrante que se afasta reaparece sozinho, o que faz da técnica um instrumento de disciplina tanto quanto de furtividade.
 
-### Noite Erguida
-**Tateyoru — 立て夜**
+### Tateyoru
+**立て夜 · Noite Erguida**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Área
@@ -390,8 +390,8 @@ O véu deixa de cobrir uma forma e passa a cobrir um grupo em deslocamento, com 
 
 Um volume de escuro real que cobre uma rua, um pátio ou a boca de um desfiladeiro. Ninguém dentro enxerga, incluindo o portador de dōjutsu que dependa de luz, e ataque à distância que atravesse a borda resolve sem linha de visão. A audição e a leitura de chakra continuam operando, e é por elas que os combates dentro da noite erguida se decidem.
 
-### Rede de Ninguém
-**Mujin no Ami — 無人の網**
+### Mujin no Ami
+**無人の網 · Rede de Ninguém**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Área
@@ -405,8 +405,8 @@ Um volume de escuro real que cobre uma rua, um pátio ou a boca de um desfiladei
 
 Malha de substância espiritual estendida sobre área, que prende quem estiver dentro e quem entrar depois, pelo grau lido da margem. A rede persiste alguns turnos sem sustentação e por isso vale como armadilha posta antes do encontro, o que a distingue do grilhão, que exige alvo já escolhido.
 
-### Carregador Sem Rosto
-**Kaonashi no Ninai — 顔無しの荷**
+### Kaonashi no Ninai
+**顔無しの荷 · Carregador Sem Rosto**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -415,8 +415,8 @@ Malha de substância espiritual estendida sobre área, que prende quem estiver d
 
 A forma passa a carregar pessoa e a percorrer quilômetros por trajeto instruído, com um único ponto de decisão declarado na partida. Ela não combate, não desvia de emboscada e não responde a chamado, e o que ela oferece é a retirada de um ferido sem que o esquadrão perca velocidade. A Exigência de Moldagem 48 registra que o serviço é de porte e não de precisão.
 
-### Vigília Sem Fim
-**Fumetsu no Ban — 不滅の番**
+### Fumetsu no Ban
+**不滅の番 · Vigília Sem Fim**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -425,8 +425,8 @@ A forma passa a carregar pessoa e a percorrer quilômetros por trajeto instruíd
 
 Várias obras ancoradas ao mesmo tempo, com duração de metade de um dia e com condição declarada em cada uma, passagem cruzada, peso apoiado, contato de quem não for nomeado. A obra dispara sozinha e o praticante nunca precisa estar presente. Postos avançados inteiros se mantêm com esta técnica e um punhado de shinobi.
 
-### Sombra Que Age Só
-**Dokuei no Jutsu — 独影の術**
+### Dokuei no Jutsu
+**独影の術 · Sombra Que Age Só**
 **[PROPOSTA — Rank A]**
 **Acesso:** Assinatura Pessoal
 **Alcance categórico:** Alvo
@@ -436,8 +436,8 @@ Várias obras ancoradas ao mesmo tempo, com duração de metade de um dia e com 
 
 Uma projeção com presença física real, capaz de tocar, empurrar e ser tocada, que executa a ação dirigida pelo praticante à distância. Ninguém neste mundo criou esta técnica. O primeiro praticante a alcançar o requisito e concluir o processo de criação de técnica torna-se o criador registrado, e a entrada passa a Registrada em nome dele.
 
-### Mil Rostos no Vento
-**Kaze Senmen no Jutsu — 風千面の術**
+### Kaze Senmen no Jutsu
+**風千面の術 · Mil Rostos no Vento**
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
 **Alcance categórico:** Campo
@@ -451,8 +451,8 @@ Uma projeção com presença física real, capaz de tocar, empurrar e ser tocada
 
 O terreno em área passa a mentir para quem o percorre, com distância, direção e contagem reescritas para todos que estiverem dentro. Aliados nomeados no ato ficam de fora, e quem entra depois entra dentro da mentira. A técnica existe no mundo e nenhuma vila a ensina, de modo que ela só se aprende com um portador disposto a compartilhá-la.
 
-### Duplo Que Sangra
-**Ryūketsu no Kage — 流血の影**
+### Ryūketsu no Kage
+**流血の影 · Duplo Que Sangra**
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
 **Alcance categórico:** Alvo
@@ -465,8 +465,8 @@ A cópia espiritual passa a sofrer dano convincente quando atingida, com ferida 
 
 ## Rank S
 
-### Despacho de Raio
-**Senpō: Inton Raiha — 仙法・陰遁雷派**
+### Senpō: Inton Raiha
+**仙法・陰遁雷派 · Despacho de Raio**
 **[CANON — Rank S]**
 **Acesso:** Assinatura Pessoal
 **Estado de Autoria:** Registrada
@@ -481,8 +481,8 @@ A energia espiritual veste a forma de um raio e é despachada contra o alvo, com
 
 O prefixo Senpō leva a posse desta entrada ao Compêndio de Senjutsu, conforme a fronteira que a perícia de Senjutsu declara, e o compêndio ainda não existe. A entrada permanece aqui com o destino declarado, e migra quando o destino nascer.
 
-### Campo de Nunca Esteve Aqui
-**Fuzaiya no Jutsu — 不在野の術**
+### Fuzaiya no Jutsu
+**不在野の術 · Campo de Nunca Esteve Aqui**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Alcance categórico:** Campo
@@ -496,8 +496,8 @@ O prefixo Senpō leva a posse desta entrada ao Compêndio de Senjutsu, conforme 
 
 A mentira deixa de ocupar área e passa a reescrever o campo de batalha inteiro, com todos os pontos de referência, distâncias e posições relativas submetidos à obra. Exércitos perdem formação dentro dela sem que um único golpe tenha sido desferido. A técnica existe no mundo em posse de um portador desconhecido, e alcançá-la exige encontrar essa pessoa.
 
-### Cidadela do Vazio
-**Kyojō — 虚城**
+### Kyojō
+**虚城 · Cidadela do Vazio**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Alcance categórico:** Campo
@@ -511,8 +511,8 @@ A mentira deixa de ocupar área e passa a reescrever o campo de batalha inteiro,
 
 Fortificação erguida do nada em escala de centena de metros, com muralha, portão, plataformas e passagens que respondem ao comando de quem a ergueu. Ela se levanta sobre água e no vazio, porque não depende de solo algum, e permanece de pé enquanto a reserva sustentar. A Exigência de Moldagem 96 responde por manter proporção interna constante ao longo de toda a estrutura.
 
-### Os Que Chegam Sozinhos
-**Dokurai no Kage — 独来の影**
+### Dokurai no Kage
+**独来の影 · Os Que Chegam Sozinhos**
 **[PROPOSTA — Rank S]**
 **Acesso:** Assinatura Pessoal
 **Alcance categórico:** Alvo
@@ -522,8 +522,8 @@ Fortificação erguida do nada em escala de centena de metros, com muralha, port
 
 Projeções simultâneas com presença física real, cada uma agindo em ação plena a centenas de metros de quem as ergueu. O praticante deixa de ser um combatente e passa a ser uma frente. Ninguém neste mundo levou a projeção a este ponto, e o primeiro a alcançá-la e concluir o processo de criação torna-se o criador registrado.
 
-### Rosto do Mundo
-**Sekai no Omote — 世界の面**
+### Sekai no Omote
+**世界の面 · Rosto do Mundo**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Alcance categórico:** Alvo
@@ -536,30 +536,30 @@ O revestimento alcança construção plena e permanece sem sustentação por uma
 
 ## Índice Rápido por Função Tática
 
-**Criar forma do nada.** Molde Cru, Forma Sustentada, Silhueta Rígida, Peso do Vazio, Parede de Nada.
+**Criar forma do nada.** Namakatachi no Jutsu, Teikei no Jutsu, Kōei no Jutsu, Kyojū no Jutsu, Mu no Kabe.
 
-**Armar-se e blindar-se.** Lâmina de Vazio, Armadura de Segunda Pele, Mão Sem Braço.
+**Armar-se e blindar-se.** Kyoba, Daini no Hada, Mude no Te.
 
-**Erguer posição e cortar terreno.** Parede de Nada, Muralha de Silêncio, Cidadela do Vazio.
+**Erguer posição e cortar terreno.** Mu no Kabe, Seiheki, Kyojō.
 
-**Prender e deter.** Corda do Vazio, Grilhão do Vazio, Rede de Ninguém.
+**Prender e deter.** Kyonawa, Kyokase, Mujin no Ami.
 
-**Golpear sem elemento.** Ramo Que Não Existe.
+**Golpear sem elemento.** Genju no Eda.
 
-**Golpear com elemento somado.** Despacho de Raio, que soma energia natural e natureza de Raio à forma erguida pela energia espiritual.
+**Golpear com elemento somado.** Senpō: Inton Raiha, que soma energia natural e natureza de Raio à forma erguida pela energia espiritual.
 
-**Sumir da leitura.** Vulto de Costas, Recorte Simples, Manto de Ninguém, Véu do Esquadrão.
+**Sumir da leitura.** Sehai no Jutsu, Kirinuki no Jutsu, Mujin no Gaitō, Tai no Tobari.
 
-**Apagar o campo inteiro.** Escuro de Bolso, Noite Erguida.
+**Apagar o campo inteiro.** Futokoro Yami no Jutsu, Tateyoru.
 
-**Enganar com presença falsa.** Reflexo Falso, Andar do Vulto, Sombra Gêmea, Eco de Presença, Duplo Que Sangra.
+**Enganar com presença falsa.** Giei no Jutsu, Hokōei no Jutsu, Sōei no Jutsu, Kehai Kodama no Jutsu, Ryūketsu no Kage.
 
-**Passar por outra coisa.** Máscara de Empréstimo, Rosto Emprestado, Rosto do Mundo.
+**Passar por outra coisa.** Karimen no Jutsu, Karigao no Jutsu, Sekai no Omote.
 
-**Desmontar a geometria.** Mil Rostos no Vento, Campo de Nunca Esteve Aqui.
+**Desmontar a geometria.** Kaze Senmen no Jutsu, Fuzaiya no Jutsu.
 
-**Ver de longe.** Fio de Luz Fria, Olho Posto, Olhos Sem Corpo.
+**Ver de longe.** Reikō no Ito, Okime, Mutai no Me.
 
-**Mandar em vez de ir.** Mensageiro Cego, Carregador Sem Rosto, Sombra Que Age Só, Os Que Chegam Sozinhos.
+**Mandar em vez de ir.** Mōshisha, Kaonashi no Ninai, Dokuei no Jutsu, Dokurai no Kage.
 
-**Deixar montado e sair.** Marco Fincado, Vigília Sem Fim.
+**Deixar montado e sair.** Uchikui, Fumetsu no Ban.

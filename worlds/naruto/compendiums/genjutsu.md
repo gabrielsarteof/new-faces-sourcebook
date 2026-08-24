@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.genjutsu
 title: "Compêndio de Genjutsu (幻術)"
-version: 1.5
+version: 1.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -28,7 +28,7 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 **O que mudou na v1.5.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
 
-**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas o Chidori Senbon, as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
 
 **Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
 
@@ -38,8 +38,8 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 ---
 
-### Técnica da Luz Entre as Folhas
-**Komorebi no Jutsu — 木漏れ日の術**
+### Komorebi no Jutsu
+**木漏れ日の術 · Técnica da Luz Entre as Folhas**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -51,8 +51,8 @@ A obra espalha diante do alvo o brilho salpicado que a luz forma ao atravessar a
 
 ---
 
-### Técnica da Água que Foge
-**Nigemizu no Jutsu — 逃げ水の術**
+### Nigemizu no Jutsu
+**逃げ水の術 · Técnica da Água que Foge**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -64,8 +64,8 @@ A miragem que recua conforme o viajante avança dá nome à obra e descreve o ef
 
 ---
 
-### Técnica do Sentido Vedado
-**Kanfūji no Jutsu — 感封じの術**
+### Kanfūji no Jutsu
+**感封じの術 · Técnica do Sentido Vedado**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -77,8 +77,8 @@ A obra apaga do alvo um sentido declarado no ato da imposição, por um turno. O
 
 ---
 
-### Técnica do Yamabiko
-**Yamabiko no Jutsu — 山彦の術**
+### Yamabiko no Jutsu
+**山彦の術 · Técnica do Yamabiko**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -90,8 +90,8 @@ O yamabiko das montanhas responde de onde ninguém está, e a obra faz o mesmo c
 
 ---
 
-### Técnica do Engano do Olhar
-**Sorame no Jutsu — 空目の術**
+### Sorame no Jutsu
+**空目の術 · Técnica do Engano do Olhar**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -103,8 +103,8 @@ A obra altera um detalhe pequeno de um objeto ou de um escrito dentro do campo d
 
 ---
 
-### Técnica do Tato Falso
-**Tezawari no Jutsu — 手障りの術**
+### Tezawari no Jutsu
+**手障りの術 · Técnica do Tato Falso**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -120,8 +120,8 @@ Pelo contato da mão, a obra instala na pele do alvo uma sensação que não cor
 
 ---
 
-### Ilusão Demoníaca: Visão do Inferno
-**Magen: Narakumi no Jutsu — 魔幻・奈落見の術**
+### Magen: Narakumi no Jutsu
+**魔幻・奈落見の術 · Ilusão Demoníaca: Visão do Inferno**
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -133,8 +133,8 @@ Com os selos de Serpente e de Rato, a obra mostra ao alvo a imagem que ele menos
 
 ---
 
-### Técnica dos Servos da Névoa
-**Kasumi Jūsha no Jutsu — 霞従者の術**
+### Kasumi Jūsha no Jutsu
+**霞従者の術 · Técnica dos Servos da Névoa**
 **[CANON — Rank D]**
 **Acesso:** Patrimônio de Vila (Amegakure)
 **Alcance categórico:** Área
@@ -149,8 +149,8 @@ Figuras vestidas de névoa se multiplicam ao redor do alvo e avançam sobre ele 
 
 ---
 
-### Técnica da Paralisia Temporária
-**Kanashibari no Jutsu — 金縛りの術**
+### Kanashibari no Jutsu
+**金縛りの術 · Técnica da Paralisia Temporária**
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -162,8 +162,8 @@ O alvo perde o comando sobre o próprio corpo e permanece de pé, consciente e i
 
 ---
 
-### Ilusão do Sino
-**Genrei no Jutsu — 幻鈴の術**
+### Genrei no Jutsu
+**幻鈴の術 · Ilusão do Sino**
 **[ATRIBUÍDO · nome proposto — Rank D]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -175,8 +175,8 @@ Sinos presos a fios de senbon soam ao redor do alvo, e o som carrega a obra até
 
 ---
 
-### Técnica do Olvido
-**Bōkyaku no Jutsu — 忘却の術**
+### Bōkyaku no Jutsu
+**忘却の術 · Técnica do Olvido**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -188,8 +188,8 @@ A obra retira da atenção do alvo uma categoria de equipamento declarada no ato
 
 ---
 
-### Ilusão Demoníaca: Pessoa Trocada
-**Magen: Hitochigai no Jutsu — 魔幻・人違いの術**
+### Magen: Hitochigai no Jutsu
+**魔幻・人違いの術 · Ilusão Demoníaca: Pessoa Trocada**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -201,8 +201,8 @@ O rosto de uma pessoa dentro do campo de visão do alvo passa a ser o rosto de a
 
 ---
 
-### Técnica da Pedra de Peso
-**Omoshi no Jutsu — 重石の術**
+### Omoshi no Jutsu
+**重石の術 · Técnica da Pedra de Peso**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -214,8 +214,8 @@ O corpo do alvo relata um peso que não existe, e o deslocamento dele cai por um
 
 ---
 
-### Ilusão Demoníaca: Vultos
-**Magen: Hitokage no Jutsu — 魔幻・人影の術**
+### Magen: Hitokage no Jutsu
+**魔幻・人影の術 · Ilusão Demoníaca: Vultos**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -227,8 +227,8 @@ O alvo conta mais figuras hostis do que existem no campo. As figuras não atacam
 
 ---
 
-### Técnica do Sem Som
-**Muon no Jutsu — 無音の術**
+### Muon no Jutsu
+**無音の術 · Técnica do Sem Som**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -244,8 +244,8 @@ A audição do alvo se apaga por completo enquanto a obra estiver de pé. Ele pe
 
 ---
 
-### Ilusão Demoníaca: Falso Ambiente
-**Magen: Kokoni Arazu no Jutsu — 魔幻・此処非の術**
+### Magen: Kokoni Arazu no Jutsu
+**魔幻・此処非の術 · Ilusão Demoníaca: Falso Ambiente**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -262,8 +262,8 @@ A obra sobrepõe um lugar falso a uma área ampla, e alcança quem estiver dentr
 
 ---
 
-### Técnica do Coração Astuto
-**Kori Shinchū no Jutsu — 狐狸心中の術**
+### Kori Shinchū no Jutsu
+**狐狸心中の術 · Técnica do Coração Astuto**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Amegakure)
 **Alcance categórico:** Alvo
@@ -275,8 +275,8 @@ O alvo percorre o mesmo trecho de caminho em círculo, convencido a cada volta d
 
 ---
 
-### Ilusão Demoníaca: Descida ao Inferno
-**Magen: Jigoku Kōka no Jutsu — 魔幻・地獄降下の術**
+### Magen: Jigoku Kōka no Jutsu
+**魔幻・地獄降下の術 · Ilusão Demoníaca: Descida ao Inferno**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -291,8 +291,8 @@ Uma massa de fogo desce sobre a área e o alvo sente o calor crescer conforme el
 
 ---
 
-### Ilusão Demoníaca: Estacas de Amarra
-**Magen: Shibari Kui no Jutsu — 魔幻・縛杭の術**
+### Magen: Shibari Kui no Jutsu
+**魔幻・縛杭の術 · Ilusão Demoníaca: Estacas de Amarra**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -304,8 +304,8 @@ Estacas atravessam os membros do alvo e o prendem ao solo. Ele permanece conscie
 
 ---
 
-### Pílula do Sonho Ilusório
-**Genmugan — 幻夢丸**
+### Genmugan
+**幻夢丸 · Pílula do Sonho Ilusório**
 **[ATRIBUÍDO · nome proposto — Rank C]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -317,8 +317,8 @@ A obra é depositada num insumo que o alvo ingere, e permanece inerte dentro del
 
 ---
 
-### Ilusão Demoníaca: Terra Plana
-**Magen: Chihei no Jutsu — 魔幻・地平の術**
+### Magen: Chihei no Jutsu
+**魔幻・地平の術 · Ilusão Demoníaca: Terra Plana**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -330,8 +330,8 @@ O relevo se apaga da percepção do alvo e o terreno inteiro se estende diante d
 
 ---
 
-### Ilusão Demoníaca: Dor Fantasma
-**Magen: Gentsū no Jutsu — 魔幻・幻痛の術**
+### Magen: Gentsū no Jutsu
+**魔幻・幻痛の術 · Ilusão Demoníaca: Dor Fantasma**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito de Segurança
 **Alcance categórico:** Alvo
@@ -345,8 +345,8 @@ O executor que impõe a obra sem sustentar contato com o próprio fluxo durante 
 
 ---
 
-### Ilusão Demoníaca: Voz que Chama
-**Magen: Yobuko no Jutsu — 魔幻・呼子の術**
+### Magen: Yobuko no Jutsu
+**魔幻・呼子の術 · Ilusão Demoníaca: Voz que Chama**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -364,8 +364,8 @@ A obra governa a crença e não a vontade, e o alvo age por conta própria sobre
 
 ---
 
-### Ilusão Demoníaca: Prisão Mortal da Árvore
-**Magen: Jubaku Satsu — 魔幻・樹縛殺**
+### Magen: Jubaku Satsu
+**魔幻・樹縛殺 · Ilusão Demoníaca: Prisão Mortal da Árvore**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
 **Alcance categórico:** Alvo
@@ -379,8 +379,8 @@ A obra foi construída para dar ao alvo a impressão de estar diante da Liberaç
 
 ---
 
-### Flauta Demoníaca: Correntes de Som Fantasma
-**Mateki: Mugen Onsa — 魔笛・夢幻音鎖**
+### Mateki: Mugen Onsa
+**魔笛・夢幻音鎖 · Flauta Demoníaca: Correntes de Som Fantasma**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Otogakure)
 **Alcance categórico:** Área
@@ -399,8 +399,8 @@ A flauta é insumo e o executor precisa tê-la consigo com as mãos livres, o qu
 
 ---
 
-### Ilusão Demoníaca: Falso Ambiente Duplo
-**Magen: Nijū Kokoni Arazu no Jutsu — 魔幻・二重此処非の術**
+### Magen: Nijū Kokoni Arazu no Jutsu
+**魔幻・二重此処非の術 · Ilusão Demoníaca: Falso Ambiente Duplo**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -414,8 +414,8 @@ A camada de baixo herda o teste registrado no ato original e não pede imposiç�
 
 ---
 
-### Ilusão Demoníaca: Terra Natal
-**Magen: Kokyō no Jutsu — 魔幻・故郷の術**
+### Magen: Kokyō no Jutsu
+**魔幻・故郷の術 · Ilusão Demoníaca: Terra Natal**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -429,8 +429,8 @@ Nada dentro dela é estranho, porque tudo dentro dela pertence a quem está pres
 
 ---
 
-### Ilusão Demoníaca: Sino que Repete
-**Magen: Tsugigane no Jutsu — 魔幻・継鐘の術**
+### Magen: Tsugigane no Jutsu
+**魔幻・継鐘の術 · Ilusão Demoníaca: Sino que Repete**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Área
@@ -449,8 +449,8 @@ Na mesa a leitura é de contágio, e o jogador vai chamar de contágio. Na ficha
 
 ---
 
-### Ilusão Demoníaca: Fio de Aranha
-**Magen: Kumoito no Jutsu — 魔幻・蜘蛛糸の術**
+### Magen: Kumoito no Jutsu
+**魔幻・蜘蛛糸の術 · Ilusão Demoníaca: Fio de Aranha**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -468,8 +468,8 @@ O alvo que reconhece a armadilha e para de tentar permanece dentro dela indefini
 
 ---
 
-### Técnica do Portador da Escuridão
-**Genjutsu: Kokuangyō no Jutsu — 幻術・黒暗行の術**
+### Genjutsu: Kokuangyō no Jutsu
+**幻術・黒暗行の術 · Técnica do Portador da Escuridão**
 **[CANON — Rank A]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
 **Alcance categórico:** Alvo
@@ -483,8 +483,8 @@ A técnica pertence à fundação da vila e o registro do Tō no Sho a nomeia se
 
 ---
 
-### Técnica do Templo do Nirvana
-**Nehan Shōja no Jutsu — 涅槃精舎の術**
+### Nehan Shōja no Jutsu
+**涅槃精舎の術 · Técnica do Templo do Nirvana**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Área
@@ -503,8 +503,8 @@ A elevação do alvo único para o grupo pertence ao caminho Brecha, e a obra a 
 
 ---
 
-### Ilusão Demoníaca: Canto do Confronto dos Sapos
-**Magen: Gamarinshō — 魔幻・蝦蟇臨鐘**
+### Magen: Gamarinshō
+**魔幻・蝦蟇臨鐘 · Ilusão Demoníaca: Canto do Confronto dos Sapos**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta
 **Alcance categórico:** Alvo
@@ -520,8 +520,8 @@ A técnica pertence aos sapos do Monte Myōboku e chega a um humano apenas pelas
 
 ---
 
-### Ilusão Demoníaca: Face de Oni
-**Magen: Kimen no Jutsu — 魔幻・鬼面の術**
+### Magen: Kimen no Jutsu
+**魔幻・鬼面の術 · Ilusão Demoníaca: Face de Oni**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Área
@@ -538,8 +538,8 @@ A obra governa percepção e não comportamento, e é essa a linha que a separa 
 
 ---
 
-### Ilusão Demoníaca: Caminho de Sangue
-**Magen: Ketsuro no Jutsu — 魔幻・血路の術**
+### Magen: Ketsuro no Jutsu
+**魔幻・血路の術 · Ilusão Demoníaca: Caminho de Sangue**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -605,30 +605,30 @@ Ame-no-Sagume é a divindade que torce a palavra dita e faz o ouvinte agir sobre
 
 ## Índice Rápido por Função Tática
 
-**Escapar do golpe.** Técnica da Luz Entre as Folhas, Técnica da Água que Foge.
+**Escapar do golpe.** Komorebi no Jutsu, Nigemizu no Jutsu.
 
-**Apagar um sentido.** Técnica do Sentido Vedado, Técnica do Sem Som, Técnica do Portador da Escuridão.
+**Apagar um sentido.** Kanfūji no Jutsu, Muon no Jutsu, Genjutsu: Kokuangyō no Jutsu.
 
-**Enganar audição e voz.** Técnica do Yamabiko, Ilusão do Sino, Ilusão Demoníaca: Voz que Chama.
+**Enganar audição e voz.** Yamabiko no Jutsu, Genrei no Jutsu, Magen: Yobuko no Jutsu.
 
-**Falsificar um rosto ou um detalhe.** Técnica do Engano do Olhar, Ilusão Demoníaca: Pessoa Trocada, Ilusão Demoníaca: Face de Oni.
+**Falsificar um rosto ou um detalhe.** Sorame no Jutsu, Magen: Hitochigai no Jutsu, Magen: Kimen no Jutsu.
 
-**Interromper e fazer parar.** Ilusão Demoníaca: Visão do Inferno, Técnica do Coração Astuto.
+**Interromper e fazer parar.** Magen: Narakumi no Jutsu, Kori Shinchū no Jutsu.
 
-**Multiplicar ameaça e dividir atenção.** Técnica dos Servos da Névoa, Ilusão Demoníaca: Vultos, Ilusão do Sino.
+**Multiplicar ameaça e dividir atenção.** Kasumi Jūsha no Jutsu, Magen: Hitokage no Jutsu, Genrei no Jutsu.
 
-**Travar o corpo.** Técnica da Paralisia Temporária, Ilusão Demoníaca: Estacas de Amarra, Ilusão Demoníaca: Prisão Mortal da Árvore, Flauta Demoníaca: Correntes de Som Fantasma, Ilusão Demoníaca: Fio de Aranha, Ilusão Demoníaca: Canto do Confronto dos Sapos.
+**Travar o corpo.** Kanashibari no Jutsu, Magen: Shibari Kui no Jutsu, Magen: Jubaku Satsu, Mateki: Mugen Onsa, Magen: Kumoito no Jutsu, Magen: Gamarinshō.
 
-**Tirar a ferramenta ou o passo.** Técnica do Olvido, Técnica da Pedra de Peso.
+**Tirar a ferramenta ou o passo.** Bōkyaku no Jutsu, Omoshi no Jutsu.
 
-**Substituir o cenário inteiro.** Ilusão Demoníaca: Falso Ambiente, Ilusão Demoníaca: Falso Ambiente Duplo, Ilusão Demoníaca: Terra Natal, Ilusão Demoníaca: Terra Plana, Tokoyo no Kuni.
+**Substituir o cenário inteiro.** Magen: Kokoni Arazu no Jutsu, Magen: Nijū Kokoni Arazu no Jutsu, Magen: Kokyō no Jutsu, Magen: Chihei no Jutsu, Tokoyo no Kuni.
 
-**Ferir sem ferir.** Ilusão Demoníaca: Dor Fantasma, Ilusão Demoníaca: Caminho de Sangue.
+**Ferir sem ferir.** Magen: Gentsū no Jutsu, Magen: Ketsuro no Jutsu.
 
-**Apagar a consciência em grupo.** Técnica do Templo do Nirvana.
+**Apagar a consciência em grupo.** Nehan Shōja no Jutsu.
 
-**Instalar à distância sem presença.** Pílula do Sonho Ilusório, Ilusão Demoníaca: Sino que Repete.
+**Instalar à distância sem presença.** Genmugan, Magen: Tsugigane no Jutsu.
 
-**Deslocar pelo medo.** Ilusão Demoníaca: Descida ao Inferno.
+**Deslocar pelo medo.** Magen: Jigoku Kōka no Jutsu.
 
 **Alcançar em massa sem aparecer.** Ame-no-Sagume.

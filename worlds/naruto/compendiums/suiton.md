@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.suiton
 title: "Compêndio de Suiton (水遁)"
-version: 3.10
+version: 3.11
 layer: scenario
 scenario: naruto
 type: compendium
@@ -34,7 +34,7 @@ A celeridade declarada é a do meio e não a Velocidade efetiva da obra. A cadei
 
 **O que mudou na v3.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
 
-**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas o Chidori Senbon, as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
 
 **Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
 
@@ -54,8 +54,8 @@ Cada entrada declara o grupo a que pertence, que é dado da técnica. As técnic
 
 ---
 
-### Técnica da Gota
-**Suiton: Shizuku no Jutsu — 水遁・雫の術**
+### Suiton: Shizuku no Jutsu
+**水遁・雫の術 · Técnica da Gota**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -67,8 +67,8 @@ O usuário condensa a umidade do ar e o próprio chakra em um volume pequeno de 
 
 ---
 
-### Passo de Névoa
-**Suiton: Kiri Shunshin — 水遁・霧瞬身**
+### Suiton: Kiri Shunshin
+**水遁・霧瞬身 · Passo de Névoa**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -80,8 +80,8 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 
 ---
 
-### Véu d'Água
-**Suiton: Mizu no Maku — 水遁・水の膜**
+### Suiton: Mizu no Maku
+**水遁・水の膜 · Véu d'Água**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -97,8 +97,8 @@ O usuário canaliza chakra de água pelas mãos e forma uma película fina e ade
 
 ---
 
-### Técnica da Ocultação na Névoa
-**Kirigakure no Jutsu — 霧隠れの術**
+### Kirigakure no Jutsu
+**霧隠れの術 · Técnica da Ocultação na Névoa**
 **[CANON — Rank D]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Alcance categórico:** Campo
@@ -115,8 +115,8 @@ O usuário cobre a área ao redor com névoa densa impregnada de chakra, erguida
 
 ---
 
-### Agulhas de Água
-**Suiton: Mizuhari — 水遁・水針**
+### Suiton: Mizuhari
+**水遁・水針 · Agulhas de Água**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV2 · Moldagem 56
@@ -130,8 +130,8 @@ O usuário molda um conjunto pequeno de agulhas de água endurecidas por chakra 
 
 ---
 
-### Chicote de Água
-**Suiton: Suiben — 水遁・水鞭**
+### Suiton: Suiben
+**水遁・水鞭 · Chicote de Água**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -143,8 +143,8 @@ O usuário forma um chicote longo e contínuo de água sustentada por chakra, an
 
 ---
 
-### Lâmina de Poça
-**Suiton: Mizutamari — 水遁・水溜まり**
+### Suiton: Mizutamari
+**水遁・水溜まり · Lâmina de Poça**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -165,8 +165,8 @@ O usuário expele água rasa impregnada de chakra que se espalha pelo solo à fr
 
 ---
 
-### Técnica do Clone de Água
-**Mizu Bunshin no Jutsu — 水分身の術**
+### Mizu Bunshin no Jutsu
+**水分身の術 · Técnica do Clone de Água**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Alcance categórico:** Alvo
@@ -178,8 +178,8 @@ O usuário molda água ambiente na forma de uma ou mais cópias físicas de si m
 
 ---
 
-### Técnica da Prisão de Água
-**Suirō no Jutsu — 水牢の術**
+### Suirō no Jutsu
+**水牢の術 · Técnica da Prisão de Água**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Alcance categórico:** Alvo
@@ -191,8 +191,8 @@ O usuário envolve o alvo em esfera de água mais pesada e densa que a comum, fo
 
 ---
 
-### Campo de Captura de Xarope
-**Suiton: Mizuame Nabara — 水遁・水飴拿原**
+### Suiton: Mizuame Nabara
+**水遁・水飴拿原 · Campo de Captura de Xarope**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -209,8 +209,8 @@ O usuário expele pela boca uma corrente de água de altíssima viscosidade, imp
 
 ---
 
-### Onda Selvagem de Água
-**Suiton: Mizurappa — 水遁・水乱破**
+### Suiton: Mizurappa
+**水遁・水乱破 · Onda Selvagem de Água**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 34
@@ -229,8 +229,8 @@ O usuário converte chakra em água no interior do corpo e a expele pela boca em
 
 ---
 
-### Bala Líquida
-**Suiton: Teppōdama — 水遁・鉄砲玉**
+### Suiton: Teppōdama
+**水遁・鉄砲玉 · Bala Líquida**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 44
@@ -244,8 +244,8 @@ O usuário comprime água no interior do corpo e a dispara pela boca como esfera
 
 ---
 
-### Lâmina Cortante de Água
-**Suiton: Mizu Kamikiri — 水遁・水噛み切り**
+### Suiton: Mizu Kamikiri
+**水遁・水噛み切り · Lâmina Cortante de Água**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 58
@@ -259,8 +259,8 @@ O usuário comprime água em disco fino de rotação veloz e o dispara rente ao 
 
 ---
 
-### Técnica da Nuvem Negra
-**Suiton: Kokuun no Jutsu — 水遁・黒雲の術**
+### Suiton: Kokuun no Jutsu
+**水遁・黒雲の術 · Técnica da Nuvem Negra**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito de Segurança
 **Alcance categórico:** Área
@@ -277,8 +277,8 @@ O usuário forma acima do campo uma nuvem escura e baixa que despeja chuva de á
 
 ---
 
-### Ocultação na Chuva
-**Suiton: Kakure Ame no Jutsu — 水遁・隠れ雨の術**
+### Suiton: Kakure Ame no Jutsu
+**水遁・隠れ雨の術 · Ocultação na Chuva**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -294,8 +294,8 @@ O usuário reúne em torno do corpo uma camada de gotas suspensas e as alinha at
 
 ---
 
-### Técnica do Dragão de Água
-**Suiton: Suiryūdan no Jutsu — 水遁・水龍弾の術**
+### Suiton: Suiryūdan no Jutsu
+**水遁・水龍弾の術 · Técnica do Dragão de Água**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 52
@@ -309,8 +309,8 @@ O usuário ergue de uma fonte de água um dragão colossal de corpo serpenteante
 
 ---
 
-### Parede de Formação de Água
-**Suiton: Suijinheki — 水遁・水陣壁**
+### Suiton: Suijinheki
+**水遁・水陣壁 · Parede de Formação de Água**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -325,8 +325,8 @@ O usuário expele água pela boca ou a ergue do terreno ao redor, formando mural
 
 ---
 
-### Bala Tubarão de Água
-**Suiton: Suikōdan no Jutsu — 水遁・水鮫弾の術**
+### Suiton: Suikōdan no Jutsu
+**水遁・水鮫弾の術 · Bala Tubarão de Água**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Requisitos:** Suiton LV4 · Moldagem 60
@@ -340,8 +340,8 @@ O usuário molda a água de uma fonte na forma de um tubarão que avança contra
 
 ---
 
-### Cinco Tubarões Famintos
-**Suiton: Goshokuzame — 水遁・五食鮫**
+### Suiton: Goshokuzame
+**水遁・五食鮫 · Cinco Tubarões Famintos**
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV4 · Moldagem 74
@@ -356,8 +356,8 @@ O usuário toca a superfície da água com a mão aberta e libera cinco tubarõe
 
 ---
 
-### Bala Presa de Água
-**Suiton: Suigadan — 水遁・水牙弾**
+### Suiton: Suigadan
+**水遁・水牙弾 · Bala Presa de Água**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 58
@@ -372,8 +372,8 @@ O usuário ergue de uma fonte próxima múltiplos vórtices de água em rotaçã
 
 ---
 
-### Boca da Serpente
-**Suiton: Ja no Kuchi — 水遁・蛇の口**
+### Suiton: Ja no Kuchi
+**水遁・蛇の口 · Boca da Serpente**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -385,8 +385,8 @@ O usuário ergue de uma fonte de água uma serpente colossal de bocarra aberta, 
 
 ---
 
-### Técnica da Bacia da Cachoeira
-**Suiton: Takitsubo no Jutsu — 水遁・滝壺の術**
+### Suiton: Takitsubo no Jutsu
+**水遁・滝壺の術 · Técnica da Bacia da Cachoeira**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Campo
@@ -403,8 +403,8 @@ O usuário converte grande quantidade de chakra em água e a despeja no terreno,
 
 ---
 
-### Mil Agulhas Voadoras da Morte
-**Sensatsu Suishō — 千殺水翔**
+### Sensatsu Suishō
+**千殺水翔 · Mil Agulhas Voadoras da Morte**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 82 · água existente ao redor do alvo
@@ -422,8 +422,8 @@ O usuário ergue a água do ambiente ao redor do alvo e a molda em mil agulhas l
 
 ---
 
-### Onda Explosiva de Colisão
-**Suiton: Bakusui Shōha — 水遁・爆水衝波**
+### Suiton: Bakusui Shōha
+**水遁・爆水衝波 · Onda Explosiva de Colisão**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Requisitos:** Suiton LV4 · Moldagem 40
@@ -442,8 +442,8 @@ O usuário expele pela boca volume de água imensamente superior ao próprio cor
 
 ---
 
-### Espelho de Água
-**Suiton: Mizukagami no Jutsu — 水遁・水鏡の術**
+### Suiton: Mizukagami no Jutsu
+**水遁・水鏡の術 · Espelho de Água**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -455,8 +455,8 @@ O usuário ergue diante de si superfície vertical de água perfeitamente lisa, 
 
 ---
 
-### Torrente Dilaceradora
-**Suiton: Hahonryū — 水遁・破奔流**
+### Suiton: Hahonryū
+**水遁・破奔流 · Torrente Dilaceradora**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 58
@@ -470,8 +470,8 @@ O usuário concentra água em rotação violenta na palma da mão e a descarrega
 
 ---
 
-### Grande Braço de Água
-**Suiton: Gōsuiwan — 水遁・剛水腕**
+### Suiton: Gōsuiwan
+**水遁・剛水腕 · Grande Braço de Água**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Suiton LV4 · Moldagem 64
@@ -485,8 +485,8 @@ O usuário reveste um ou ambos os braços com camadas densas de água comprimida
 
 ---
 
-### Chuva do Tigre à Vontade
-**Ugo Jizai no Jutsu — 雨虎自在の術**
+### Ugo Jizai no Jutsu
+**雨虎自在の術 · Chuva do Tigre à Vontade**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Amegakure)
 **Alcance categórico:** Campo
@@ -507,8 +507,8 @@ O usuário ergue nuvem de chuva com o próprio chakra e mantém a precipitação
 
 ---
 
-### Técnica da Grande Cachoeira
-**Suiton: Daibakufu no Jutsu — 水遁・大瀑布の術**
+### Suiton: Daibakufu no Jutsu
+**水遁・大瀑布の術 · Técnica da Grande Cachoeira**
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV5 · Moldagem 43
@@ -525,8 +525,8 @@ O usuário ergue de uma fonte de água coluna espiral colossal, que desaba sobre
 
 ---
 
-### Onda Cortante de Água
-**Suiton: Suidanha — 水遁・水断波**
+### Suiton: Suidanha
+**水遁・水断波 · Onda Cortante de Água**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Suiton LV5 · Moldagem 86 · Caminho Agulha das Profundezas
@@ -542,8 +542,8 @@ O usuário expele pela boca jato contínuo de água comprimida a pressão extrem
 
 ---
 
-### Chicotes do Dragão de Água
-**Suiton: Suiryūben — 水遁・水龍鞭**
+### Suiton: Suiryūben
+**水遁・水龍鞭 · Chicotes do Dragão de Água**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Suiton LV5 · Moldagem 78 · água selada em pergaminho
@@ -557,8 +557,8 @@ O usuário ergue de uma fonte próxima orbe central de água do qual partem múl
 
 ---
 
-### Grande Onda Explosiva de Colisão
-**Suiton: Dai Bakusui Shōha — 水遁・大爆水衝波**
+### Suiton: Dai Bakusui Shōha
+**水遁・大爆水衝波 · Grande Onda Explosiva de Colisão**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Suiton LV5 · Moldagem 42
@@ -581,8 +581,8 @@ O usuário expele volume de água de escala geográfica, que se expande em todas
 
 ---
 
-### Mil Tubarões Famintos
-**Suiton: Senjikizame — 水遁・千食鮫**
+### Suiton: Senjikizame
+**水遁・千食鮫 · Mil Tubarões Famintos**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV6 · Moldagem 82 · Caminho Cachoeira
@@ -599,8 +599,8 @@ O usuário forma diante de si parede d'água da qual irrompem mil tubarões em m
 
 ---
 
-### Grande Bala Tubarão
-**Suiton: Daikōdan no Jutsu — 水遁・大鮫弾の術**
+### Suiton: Daikōdan no Jutsu
+**水遁・大鮫弾の術 · Grande Bala Tubarão**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV6 · Moldagem 104 · Caminho Muralha Viva
@@ -614,8 +614,8 @@ O usuário molda um tubarão de água de porte colossal que avança contra a té
 
 ---
 
-### Prisão do Mar Profundo
-**Suiton: Shinkai Rōgoku — 水遁・深海牢獄**
+### Suiton: Shinkai Rōgoku
+**水遁・深海牢獄 · Prisão do Mar Profundo**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Suiton LV6 · Moldagem 100 · Caminho Câmara de Água transcendido
@@ -636,28 +636,28 @@ O usuário ergue sobre área ampla do campo uma cúpula fechada de água escura 
 
 ## Índice Rápido por Função Tática
 
-**Derrubar o que está de pé.** Onda Selvagem de Água, Bala Líquida, Técnica do Dragão de Água, Torrente Dilaceradora, Técnica da Grande Cachoeira, Mil Tubarões Famintos.
+**Derrubar o que está de pé.** Suiton: Mizurappa, Suiton: Teppōdama, Suiton: Suiryūdan no Jutsu, Suiton: Hahonryū, Suiton: Daibakufu no Jutsu, Suiton: Senjikizame.
 
-**Abrir couraça e estrutura.** Agulhas de Água, Lâmina Cortante de Água, Bala Presa de Água, Mil Agulhas Voadoras da Morte, Onda Cortante de Água.
+**Abrir couraça e estrutura.** Suiton: Mizuhari, Suiton: Mizu Kamikiri, Suiton: Suigadan, Sensatsu Suishō, Suiton: Suidanha.
 
-**Levar do lugar.** Boca da Serpente, Onda Explosiva de Colisão, Técnica da Grande Cachoeira, Grande Onda Explosiva de Colisão.
+**Levar do lugar.** Suiton: Ja no Kuchi, Suiton: Bakusui Shōha, Suiton: Daibakufu no Jutsu, Suiton: Dai Bakusui Shōha.
 
-**Impedir que chegue.** Véu d'Água, Parede de Formação de Água, Espelho de Água, Grande Bala Tubarão.
+**Impedir que chegue.** Suiton: Mizu no Maku, Suiton: Suijinheki, Suiton: Mizukagami no Jutsu, Suiton: Daikōdan no Jutsu.
 
-**Capturar e prender.** Chicote de Água, Técnica da Prisão de Água, Campo de Captura de Xarope, Chicotes do Dragão de Água, Prisão do Mar Profundo.
+**Capturar e prender.** Suiton: Suiben, Suirō no Jutsu, Suiton: Mizuame Nabara, Suiton: Suiryūben, Suiton: Shinkai Rōgoku.
 
-**Tirar o passo.** Lâmina de Poça, Campo de Captura de Xarope, Onda Explosiva de Colisão.
+**Tirar o passo.** Suiton: Mizutamari, Suiton: Mizuame Nabara, Suiton: Bakusui Shōha.
 
-**Sumir e chegar sem alarme.** Passo de Névoa, Técnica da Ocultação na Névoa, Ocultação na Chuva.
+**Sumir e chegar sem alarme.** Suiton: Kiri Shunshin, Kirigakure no Jutsu, Suiton: Kakure Ame no Jutsu.
 
-**Saber quem está no campo.** Chuva do Tigre à Vontade, Técnica da Ocultação na Névoa.
+**Saber quem está no campo.** Ugo Jizai no Jutsu, Kirigakure no Jutsu.
 
-**Caçar dentro da água.** Bala Tubarão de Água, Cinco Tubarões Famintos, Bala Presa de Água.
+**Caçar dentro da água.** Suiton: Suikōdan no Jutsu, Suiton: Goshokuzame, Suiton: Suigadan.
 
-**Abrir fonte e condicionar terreno.** Técnica da Gota, Lâmina de Poça, Técnica da Bacia da Cachoeira, Onda Explosiva de Colisão, Grande Onda Explosiva de Colisão.
+**Abrir fonte e condicionar terreno.** Suiton: Shizuku no Jutsu, Suiton: Mizutamari, Suiton: Takitsubo no Jutsu, Suiton: Bakusui Shōha, Suiton: Dai Bakusui Shōha.
 
-**Lutar de perto.** Grande Braço de Água, Torrente Dilaceradora, Chicote de Água.
+**Lutar de perto.** Suiton: Gōsuiwan, Suiton: Hahonryū, Suiton: Suiben.
 
-**Preparar para o aliado de fogo.** Técnica da Nuvem Negra.
+**Preparar para o aliado de fogo.** Suiton: Kokuun no Jutsu.
 
-**Trabalho fora de combate.** Técnica da Gota, Véu d'Água, Técnica da Bacia da Cachoeira.
+**Trabalho fora de combate.** Suiton: Shizuku no Jutsu, Suiton: Mizu no Maku, Suiton: Takitsubo no Jutsu.

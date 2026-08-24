@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.eight-gates
 title: "Compêndio dos Oito Portões"
-version: 1.10
+version: 1.11
 layer: scenario
 scenario: naruto
 type: compendium
@@ -29,7 +29,7 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 **O que mudou na v1.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
 
-**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas o Chidori Senbon, as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
 
 **Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
 
@@ -47,8 +47,8 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 Categoria especial. As oito entradas abaixo são a progressão do domínio, e cada uma exige a imediatamente anterior. A ficha mecânica completa de cada uma vive no documento de técnica Hachimon Tonkō.
 
-### Portão da Abertura
-**Kaimon — 開門**
+### Kaimon
+**開門 · Portão da Abertura**
 **[CANON — Rank C]**
 **Acesso:** Transmissão Direta
 **Alcance categórico:** Alvo
@@ -57,8 +57,8 @@ Categoria especial. As oito entradas abaixo são a progressão do domínio, e ca
 
 O primeiro regulador cai e o corpo passa a acionar a musculatura inteira em vez da fração que o comando voluntário autoriza. A força bruta do praticante sobe de patamar e nada mais muda, o que faz deste o único degrau da escada que não toca a economia de chakra de quem o abre. É o portão que abre o acesso à Lótus Frontal. O preço mede a transmissão rara e a década de treino físico que qualquer praticante paga para chegar até aqui, e por isso é o único da escada fora da faixa de XP que o rank C normalmente prevê. Para o portador de Restrição Corporal o custo cai pela metade, para 12.500, porque a escada é o único caminho de moldagem que a fisiologia dele permite.
 
-### Portão do Descanso
-**Kyūmon — 休門**
+### Kyūmon
+**休門 · Portão do Descanso**
 **[CANON — Rank C]**
 **Acesso:** Transmissão Direta
 **Alcance categórico:** Alvo
@@ -67,8 +67,8 @@ O primeiro regulador cai e o corpo passa a acionar a musculatura inteira em vez 
 
 A reserva de vigor que o corpo guarda contra a exaustão se libera de uma vez, e o praticante recupera dentro do combate o fôlego que só voltaria com descanso. É a exceção declarada à regra de que recurso não retorna em combate, e é o degrau que financia a subida de toda a escada acima dele.
 
-### Portão da Vida
-**Seimon — 生門**
+### Seimon
+**生門 · Portão da Vida**
 **[CANON — Rank B]**
 **Acesso:** Transmissão Direta
 **Alcance categórico:** Alvo
@@ -77,8 +77,8 @@ A reserva de vigor que o corpo guarda contra a exaustão se libera de uma vez, e
 
 A circulação sobe ao limite mecânico do coração, a pele avermelha pela pressão nos capilares de superfície e o teto de fluxo de chakra alcança o patamar da fisiologia de output elevado. É o primeiro degrau que cobra preço além do descanso, e o que abre o acesso à Lótus Reversa.
 
-### Portão da Dor
-**Shōmon — 傷門**
+### Shōmon
+**傷門 · Portão da Dor**
 **[CANON — Rank B]**
 **Acesso:** Transmissão Direta
 **Alcance categórico:** Alvo
@@ -87,8 +87,8 @@ A circulação sobe ao limite mecânico do coração, a pele avermelha pela pres
 
 O aviso que faria o corpo parar deixa de chegar. As penalidades de Fratura, de Ferimento Grave e de Exaustão Física param de incidir enquanto o portão estiver aberto, e voltam inteiras no fechamento. O tecido continua rompendo o tempo todo, e o que muda é que o praticante deixa de saber disso.
 
-### Portão da Clausura
-**Tomon — 杜門**
+### Tomon
+**杜門 · Portão da Clausura**
 **[CANON — Rank A]**
 **Acesso:** Transmissão Direta
 **Alcance categórico:** Alvo
@@ -97,8 +97,8 @@ O aviso que faria o corpo parar deixa de chegar. As penalidades de Fratura, de F
 
 A cadência de esforços máximos consecutivos deixa de ter intervalo de recomposição. A razão de Cadência sobe junto com a velocidade amplificada e o praticante ganha uma reação adicional por rodada. É o degrau em que a escada deixa de ser magnitude e passa a ser economia de ação.
 
-### Portão da Vista
-**Keimon — 景門**
+### Keimon
+**景門 · Portão da Vista**
 **[CANON — Rank A]**
 **Acesso:** Transmissão Direta
 **Alcance categórico:** Alvo
@@ -107,8 +107,8 @@ A cadência de esforços máximos consecutivos deixa de ter intervalo de recompo
 
 A velocidade do membro em movimento atravessa o limiar em que o atrito com o ar aquece o ponto de impacto até a ignição. Todo taijutsu puro do praticante sobe um degrau na escada de evitabilidade, e o corpo começa a emitir o envoltório de vapor que identifica a escada alta. É o portão que abre o acesso ao Pavão da Manhã.
 
-### Portão do Assombro
-**Kyōmon — 驚門**
+### Kyōmon
+**驚門 · Portão do Assombro**
 **[CANON — Rank S]**
 **Acesso:** Transmissão Direta
 **Alcance categórico:** Alvo
@@ -117,8 +117,8 @@ A velocidade do membro em movimento atravessa o limiar em que o atrito com o ar 
 
 A pressão acumulada por operar acima do limite se libera, o suor evapora antes de deixar o poro e o deslocamento passa a comprimir o ar em massa própria que segue adiante depois do golpe. O taijutsu do praticante eleva a categoria de entrega de contato para área, e a manutenção cresce a cada turno até forçar o fechamento. É o portão que abre o acesso ao Tigre Diurno e ao Elefante Vespertino.
 
-### Portão da Morte
-**Shimon — 死門**
+### Shimon
+**死門 · Portão da Morte**
 **[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta e Fechada na Criação
 **Alcance categórico:** Alvo
@@ -131,8 +131,8 @@ O regulador do coração cai e o órgão assume a função dele, bombeando acima
 
 ## Rank C
 
-### Redemoinho de Força Bruta da Folha
-**Konoha Gōriki Senpū — 木ノ葉剛力旋風**
+### Konoha Gōriki Senpū
+**木ノ葉剛力旋風 · Redemoinho de Força Bruta da Folha**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Abertura · isento de Exigência de Moldagem
@@ -147,8 +147,8 @@ O praticante gira o corpo inteiro sobre o eixo e entrega o calcanhar na altura d
 
 ## Rank B
 
-### Lótus Frontal
-**Omote Renge — 表蓮華**
+### Omote Renge
+**表蓮華 · Lótus Frontal**
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Abertura · isento de Exigência de Moldagem · alvo em suspensão sem apoio
@@ -159,8 +159,8 @@ O praticante gira o corpo inteiro sobre o eixo e entrega o calcanhar na altura d
 
 O praticante lança o adversário ao ar, alcança a posição dele em pleno voo, o prende pelas costas e gira o conjunto em queda até que a cabeça do alvo atinja o solo primeiro. A rotação transfere para o ponto de contato toda a altura ganha e todo o peso dos dois corpos. O executor chega preso ao alvo e recebe parte do impacto, o que faz da obra um golpe que cobra do vencedor tanto quanto anuncia o resultado.
 
-### Investida Cega
-**Mōshin — 盲進**
+### Mōshin
+**盲進 · Investida Cega**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -173,8 +173,8 @@ O praticante entra em uma área ativa de efeito hostil pelo caminho mais curto e
 
 ## Rank A
 
-### Lótus Reversa
-**Ura Renge — 裏蓮華**
+### Ura Renge
+**裏蓮華 · Lótus Reversa**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Vida · isento de Exigência de Moldagem · alvo ao alcance de contato no início da sequência
@@ -185,8 +185,8 @@ O praticante entra em uma área ativa de efeito hostil pelo caminho mais curto e
 
 O praticante encadeia uma sequência de golpes ascendentes que mantém o adversário suspenso, alcança a altura máxima do voo dele e o conduz ao solo em rotação, entregando o conjunto acumulado da sequência em um único ponto de chegada. A circulação forçada do terceiro portão é o que sustenta a cadência do início ao fim, e é ela que cobra a conta: o executor sai da obra com fratura nos membros empregados e com ferimento que o descanso não resolve.
 
-### Tríplice do Portão da Clausura
-**Tomon Sanren — 杜門三連**
+### Tomon Sanren
+**杜門三連 · Tríplice do Portão da Clausura**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Clausura · isento de Exigência de Moldagem
@@ -198,8 +198,8 @@ O praticante encadeia uma sequência de golpes ascendentes que mantém o advers�
 
 O praticante concentra em um único alvo as três sequências completas que a economia de ação do quinto portão permitiria distribuir pelo campo. Os impactos chegam sem intervalo de recomposição entre eles, e o alvo recebe as três antes de completar a própria reação. A obra é a conversão deliberada de amplitude em profundidade, e o turno inteiro se esgota nela.
 
-### Pavão da Manhã
-**Asa Kujaku — 朝孔雀**
+### Asa Kujaku
+**朝孔雀 · Pavão da Manhã**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão da Vista · isento de Exigência de Moldagem
@@ -214,8 +214,8 @@ O praticante desfere uma sequência contínua de socos em cadência tal que o at
 
 ## Rank S
 
-### Elefante Vespertino
-**Sekizō — 夕象**
+### Sekizō
+**夕象 · Elefante Vespertino**
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão do Assombro · isento de Exigência de Moldagem
@@ -231,8 +231,8 @@ O praticante desfere uma sequência contínua de socos em cadência tal que o at
 
 O praticante desfere chutes descendentes cuja passagem comprime uma massa de ar do tamanho do próprio corpo, e a massa se desprende do pé e avança à frente conservando a forma que a compressão lhe deu. Cada chute produz uma massa, e o encadeamento cobre a área inteira à frente do praticante até que o terreno abaixo ceda. É a obra que transforma o combatente de contato em peça de negação de espaço.
 
-### Tigre Diurno
-**Hirudora — 昼虎**
+### Hirudora
+**昼虎 · Tigre Diurno**
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Portão do Assombro · isento de Exigência de Moldagem
@@ -252,8 +252,8 @@ O praticante comprime o ar entre os punhos até que a massa contida alcance dens
 
 ## Rank S · Kinjutsu
 
-### Guy Noturno
-**Yagai — 夜ガイ**
+### Yagai
+**夜ガイ · Guy Noturno**
 **[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta e Fechada na Criação
 **Requisitos:** Portão da Morte · isento de Exigência de Moldagem · validação narrativa do acesso
@@ -268,25 +268,25 @@ O praticante concentra no chute descendente a totalidade da saída que o coraç�
 
 ## Índice Rápido por Função Tática
 
-**Subir de patamar.** Portão da Abertura, Portão do Descanso, Portão da Vida, Portão da Clausura, Portão da Vista, Portão do Assombro.
+**Subir de patamar.** Kaimon, Kyūmon, Seimon, Tomon, Keimon, Kyōmon.
 
-**Recuperar dentro do combate.** Portão do Descanso.
+**Recuperar dentro do combate.** Kyūmon.
 
-**Continuar operando ferido.** Portão da Dor, Investida Cega.
+**Continuar operando ferido.** Shōmon, Mōshin.
 
-**Ganhar ações no turno.** Portão da Clausura, Tríplice do Portão da Clausura.
+**Ganhar ações no turno.** Tomon, Tomon Sanren.
 
-**Derrubar um alvo único.** Redemoinho de Força Bruta da Folha, Lótus Frontal, Lótus Reversa, Tríplice do Portão da Clausura, Pavão da Manhã, Guy Noturno.
+**Derrubar um alvo único.** Konoha Gōriki Senpū, Omote Renge, Ura Renge, Tomon Sanren, Asa Kujaku, Yagai.
 
-**Alcançar quem está longe.** Tigre Diurno, Guy Noturno.
+**Alcançar quem está longe.** Hirudora, Yagai.
 
-**Cobrir e negar área.** Elefante Vespertino, Tigre Diurno.
+**Cobrir e negar área.** Sekizō, Hirudora.
 
-**Atravessar o que bloqueia o caminho.** Investida Cega.
+**Atravessar o que bloqueia o caminho.** Mōshin.
 
-**Aplicar queimadura sem elemento.** Pavão da Manhã.
+**Aplicar queimadura sem elemento.** Asa Kujaku.
 
-**Encerrar o combate ao preço da própria vida.** Portão da Morte, Guy Noturno.
+**Encerrar o combate ao preço da própria vida.** Shimon, Yagai.
 
 ---
 

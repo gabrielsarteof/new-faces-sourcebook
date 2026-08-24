@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.10
+version: 2.11
 layer: scenario
 scenario: naruto
 type: compendium
@@ -31,7 +31,7 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 **O que mudou na v2.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
 
-**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas o Chidori Senbon, as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
 
 **Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
 
@@ -57,8 +57,8 @@ O domínio médico se organiza de forma diferente dos elementais. Uma moldagem d
 
 ## Rank E
 
-### Leitura de Pulso de Chakra
-**Myakushin — 脈診**
+### Myakushin
+**脈診 · Leitura de Pulso de Chakra**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -69,8 +69,8 @@ O médico apoia os dedos sobre o punho, o pescoço ou o esterno do paciente e se
 
 O limite é a superfície. A leitura diz que algo está errado e aponta a região, nunca a causa.
 
-### Estancamento
-**Shiketsu no Jutsu — 止血の術**
+### Shiketsu no Jutsu
+**止血の術 · Estancamento**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -81,8 +81,8 @@ Chakra aplicado sobre um ferimento aberto contrai o vaso rompido e coagula a sup
 
 O limite é que a técnica não fecha nem repara. A ferida continua aberta, vulnerável a infecção e a reabertura, e qualquer esforço físico do paciente rompe a coagulação de novo. Não acumula Marca de Reparo.
 
-### Anestesia de Contato
-**Masui no Jutsu — 麻酔の術**
+### Masui no Jutsu
+**麻酔の術 · Anestesia de Contato**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -93,8 +93,8 @@ O médico interrompe a condução da dor em uma região delimitada do corpo, dei
 
 O limite é que a ausência de dor não é ausência de lesão. O paciente anestesiado continua ferido e é capaz de agravar o próprio quadro por não sentir o que está fazendo.
 
-### Esterilização de Campo
-**Shōdoku no Jutsu — 消毒の術**
+### Shōdoku no Jutsu
+**消毒の術 · Esterilização de Campo**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -108,8 +108,8 @@ Um pulso curto de chakra sobre ferida, lâmina, agulha ou superfície de trabalh
 
 O limite é o alcance biológico. A técnica não neutraliza veneno, não remove substância química e não afeta chakra hostil alojado no ferimento.
 
-### Preparo de Ervas
-**Yakusō Chōgō — 薬草調合**
+### Yakusō Chōgō
+**薬草調合 · Preparo de Ervas**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -124,8 +124,8 @@ O limite é a potência. Preparações de ervas atuam sobre desconforto, febre e
 
 ## Rank D
 
-### Sutura de Chakra
-**Chakura Hōgō — チャクラ縫合**
+### Chakura Hōgō
+**チャクラ縫合 · Sutura de Chakra**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -136,8 +136,8 @@ O médico aproxima as bordas de um corte e conduz chakra ao longo da linha da fe
 
 O limite é a profundidade. A sutura fecha o que a mão alcança, e uma lesão que continua sangrando por dentro fecha na pele com o problema intacto embaixo dela.
 
-### Extração de Veneno de Campo
-**Doku Chūshutsu — 毒抽出**
+### Doku Chūshutsu
+**毒抽出 · Extração de Veneno de Campo**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -148,8 +148,8 @@ O médico envolve a região afetada em uma esfera de água controlada por chakra
 
 O limite é a janela. Uma vez que a substância entrou na circulação geral, a extração local não a alcança mais, e o caso passa a exigir purga sistêmica ou antídoto.
 
-### Diagnóstico Anatômico
-**Shindan — 診断**
+### Shindan
+**診断 · Diagnóstico Anatômico**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -160,8 +160,8 @@ O médico percorre o corpo com as mãos e com chakra e monta o quadro completo d
 
 O limite é declarado com firmeza. O diagnóstico entrega informação e nunca precisão ofensiva. Saber onde fica o ponto vital de um adversário não concede nenhuma vantagem de acerto contra ele.
 
-### Reanimação Cardíaca
-**Shinzō Sosei — 心臓蘇生**
+### Shinzō Sosei
+**心臓蘇生 · Reanimação Cardíaca**
 **[ATRIBUÍDO · anime — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -172,8 +172,8 @@ Pulsos rítmicos de chakra aplicados sobre o tórax reiniciam um coração parad
 
 O limite é a janela, e ela é curta. Passado o intervalo em que o corpo ainda responde, nenhuma quantidade de chakra reverte a parada, e a fronteira absoluta da perícia vale aqui sem exceção.
 
-### Redução de Fratura
-**Seikotsu no Jutsu — 整骨の術**
+### Seikotsu no Jutsu
+**整骨の術 · Redução de Fratura**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -184,8 +184,8 @@ O médico realinha osso quebrado e acelera a consolidação até o ponto em que 
 
 O limite é a integridade do osso. Fratura limpa se resolve por completo, e osso estilhaçado ou perdido passa a exigir reparo estrutural.
 
-### Exame Post-Mortem
-**Kenshi — 検屍**
+### Kenshi
+**検屍 · Exame Post-Mortem**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -196,8 +196,8 @@ O médico lê um corpo que parou e reconstrói o que aconteceu. Determina causa 
 
 O limite é a categoria. O exame diz que o dano interno veio de chakra aplicado por contato, e nunca diz de quem era esse chakra nem qual técnica exata o produziu.
 
-### Pílula Militar
-**Hyōrōgan — 兵糧丸**
+### Hyōrōgan
+**兵糧丸 · Pílula Militar**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -212,8 +212,8 @@ O limite é a cobrança. A pílula adianta o que o corpo não tem, e ao fim da c
 
 ## Rank C
 
-### Palma Mística
-**Shōsen Jutsu — 掌仙術**
+### Shōsen Jutsu
+**掌仙術 · Palma Mística**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -228,8 +228,8 @@ A Exigência de Moldagem 68 em rank C é o par declarado deste compêndio contra
 
 O limite é o fluxo e a atenção. Nenhuma aplicação ultrapassa o Limite de Saída, e o médico que cura não ataca, não se move e não reage.
 
-### Bisturi de Chakra
-**Chakura no Mesu — チャクラのメス**
+### Chakura no Mesu
+**チャクラのメス · Bisturi de Chakra**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 58
@@ -244,8 +244,8 @@ A precisão depende da condição da cena. Fora de Pressão Real o corte alcanç
 
 O limite é o contato. O bisturi exige a mão sobre o alvo, não bloqueia ataque, não apara arma e deixa o médico dentro do alcance de quem ele está cortando.
 
-### Névoa Venenosa
-**Dokugiri — 毒霧**
+### Dokugiri
+**毒霧 · Névoa Venenosa**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 44 · insumo tradicional
@@ -267,8 +267,8 @@ A ausência suspende o motor de dano e não a técnica. A paralisia, a cegueira,
 
 O limite é o ar. A névoa obedece ao vento, dispersa em espaço aberto e não atinge alvo que prenda a respiração, use filtro ou opere fora do cone.
 
-### Ativação de Anticorpos
-**Kōtai Kasseika — 抗体活性化**
+### Kōtai Kasseika
+**抗体活性化 · Ativação de Anticorpos**
 **[ATRIBUÍDO · anime — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -279,8 +279,8 @@ Em vez de retirar a substância hostil do corpo, o médico ensina o corpo a lida
 
 O limite é o tempo e a identificação. O procedimento exige que a substância tenha sido identificada antes e leva horas fora de combate.
 
-### Limpeza de Circuito
-**Kairo Sōji — 回路掃除**
+### Kairo Sōji
+**回路掃除 · Limpeza de Circuito**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -291,8 +291,8 @@ O médico insere chakra próprio no sistema circulatório de um aliado sob ilus�
 
 O limite é a origem. A limpeza remove interferência instalada por fluxo externo, e não alcança ilusão sustentada por contato contínuo do autor, nem a mentira erguida no terreno pela Liberação de Yin, que não está em circuito algum.
 
-### Agulha Anestésica
-**Masui Senbon — 麻酔千本**
+### Masui Senbon
+**麻酔千本 · Agulha Anestésica**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -303,8 +303,8 @@ Agulhas finas arremessadas ou cravadas em pontos precisos do corpo, que interrom
 
 O limite é o conhecimento e a mão. Errar o ponto transforma a agulha em ferimento comum, e a técnica exige alcance curto e ângulo limpo sobre um corpo que não esteja em movimento pleno.
 
-### Supressão de Chakra
-**Chakura Yokusei — チャクラ抑制**
+### Chakura Yokusei
+**チャクラ抑制 · Supressão de Chakra**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -315,8 +315,8 @@ O médico fecha o circuito alheio com as próprias mãos, comprimindo o fluxo at
 
 O limite é a manutenção. A supressão dura enquanto o contato durar, o alvo mantém percepção, fala e movimento do corpo, e recupera a moldagem no turno seguinte ao rompimento do contato.
 
-### Pílula de Sangue
-**Ketsueki Zōka Gan — 血液増加丸**
+### Ketsueki Zōka Gan
+**血液増加丸 · Pílula de Sangue**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -327,8 +327,8 @@ Composto que força o corpo a repor volume sanguíneo em minutos, revertendo a p
 
 O limite é a cobrança e o descontrole. Ao fim da cena o consumidor recebe dois graus de Exaustão. Uma segunda dose na mesma cena não produz efeito adicional e cobra a Exaustão mesmo assim.
 
-### Leitura de Ferimento
-**Sōkon Kaidoku — 創痕解読**
+### Sōkon Kaidoku
+**創痕解読 · Leitura de Ferimento**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -339,8 +339,8 @@ O médico examina uma lesão viva ou morta e reconstrói o gesto que a produziu.
 
 O limite é a assinatura pessoal. A leitura descreve o gesto e nunca identifica o autor, e dois executantes do mesmo estilo produzem ferimentos indistinguíveis entre si.
 
-### Tratamento de Exaustão
-**Hirō Chiryō — 疲労治療**
+### Hirō Chiryō
+**疲労治療 · Tratamento de Exaustão**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -351,8 +351,8 @@ O médico trabalha sobre o circuito de um shinobi esgotado, desfazendo o acúmul
 
 O limite é a saturação. Cada corpo aceita um único tratamento por cena, e o segundo não produz efeito antes de um período real de descanso.
 
-### Triagem de Campo
-**Senji Bunrui — 戦時分類**
+### Senji Bunrui
+**戦時分類 · Triagem de Campo**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -368,8 +368,8 @@ O médico deixa de tratar um corpo por vez e passa a repartir a aplicação entr
 
 O limite é a repartição. A eficácia se divide igualmente entre os alcançados, cada corpo acumula a própria Marca de Reparo, e nenhum deles recebe o bastante para voltar ao combate.
 
-### Anatomia Comparada
-**Hikaku Kaibō — 比較解剖**
+### Hikaku Kaibō
+**比較解剖 · Anatomia Comparada**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -380,8 +380,8 @@ O currículo de vila ensina o corpo humano e para ali. Esta entrada é o estudo 
 
 O limite é o porte e o estranhamento. A entrada cobre a espécie estudada, e diante de criatura nunca vista o médico precisa de um exame antes de tocar.
 
-### Prognóstico de Campo
-**Yogo Handan — 予後判断**
+### Yogo Handan
+**予後判断 · Prognóstico de Campo**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -396,8 +396,8 @@ O limite é o alcance da estimativa. A entrada mede prazo e não mede resistênc
 
 ## Rank B
 
-### Regeneração de Tecido
-**Soshiki Saisei — 組織再生**
+### Soshiki Saisei
+**組織再生 · Regeneração de Tecido**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -408,8 +408,8 @@ O médico induz o crescimento de tecido novo sobre região destruída, refazendo
 
 O limite é a estrutura. A regeneração produz tecido mole e nunca osso, nervo condutor ou órgão, e um membro perdido não volta por esta via.
 
-### Sustentação Vital
-**Seimei Iji — 生命維持**
+### Seimei Iji
+**生命維持 · Sustentação Vital**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -420,8 +420,8 @@ O médico assume as funções que o corpo do paciente não está mais executando
 
 O limite é a imobilidade absoluta. A sustentação consome a ação completa do médico a cada turno, exige toque contínuo e cessa no instante em que o contato se rompe. O paciente sustentado não age, não fala e não desperta.
 
-### Purga Sistêmica de Veneno
-**Zenshin Doku Haishutsu — 全身毒排出**
+### Zenshin Doku Haishutsu
+**全身毒排出 · Purga Sistêmica de Veneno**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -432,8 +432,8 @@ Quando a substância já entrou na circulação geral, o médico persegue o vene
 
 O limite é o dano já feito. A purga remove a substância e interrompe a deterioração, e não desfaz o estrago que o veneno produziu enquanto circulava.
 
-### Diagnóstico a Distância
-**Enkaku Shindan — 遠隔診断**
+### Enkaku Shindan
+**遠隔診断 · Diagnóstico a Distância**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -444,8 +444,8 @@ O médico projeta uma camada fina de chakra sobre um corpo a alcance curto sem e
 
 O limite é a natureza do que se detecta e a distância. A leitura confirma que existe chakra intruso e aponta onde ele está, sem dizer de que natureza é nem de quem veio, e ela é leitura de corpo e não sensoriamento de campo, exigindo o alvo à frente do médico.
 
-### Reabertura de Tenketsu
-**Tenketsu Kaihō — 経穴開放**
+### Tenketsu Kaihō
+**経穴開放 · Reabertura de Tenketsu**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -456,8 +456,8 @@ Um circuito fechado por intervenção externa não se abre sozinho, e o shinobi 
 
 A relação entre esta entrada e o estilo de combate que fecha pontos de chakra é **atribuída** e não consta de fonte primária. O limite é a causa: a reabertura resolve obstrução por chakra aplicado de fora, e não alcança dano estrutural à rede nem selo inscrito sobre ela.
 
-### Enxerto de Tecido
-**Soshiki Ishoku — 組織移植**
+### Soshiki Ishoku
+**組織移植 · Enxerto de Tecido**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -468,8 +468,8 @@ O médico move tecido vivo de um corpo para outro e o instala em um receptor. Pe
 
 Todo enxerto instalado nasce em estado de rejeição ativa. O receptor sofre deterioração contínua e paga custo de manutenção enquanto o corpo dele lutar contra o que lhe foi posto dentro, e a rejeição só se suspende por intervenção específica.
 
-### Estabilização de Enxerto
-**Teichaku — 定着**
+### Teichaku
+**定着 · Estabilização de Enxerto**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -480,8 +480,8 @@ O médico trabalha a fronteira entre o corpo do receptor e o tecido que não é 
 
 O limite é a permanência da diferença. A estabilização suspende a rejeição e não a elimina, e um enxerto estabilizado volta a degradar sob esforço extremo, sob ferimento na região ou sob interrupção prolongada do acompanhamento.
 
-### Suporte Estrutural
-**Kōzō Shiji — 構造支持**
+### Kōzō Shiji
+**構造支持 · Suporte Estrutural**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -492,8 +492,8 @@ Quando um osso se pulveriza ou um segmento de estrutura simplesmente deixa de ex
 
 A técnica não cura nada, e o que ela faz é ocupar o lugar do que se perdeu enquanto durar. O limite é a manutenção e a permanência: a estrutura drena reserva de forma contínua, desfaz-se no instante em que a manutenção cessa, e nenhuma quantidade de tempo a transforma em osso verdadeiro.
 
-### Desarranjo das Vias Corporais
-**Jintai Keiro Kakuran — 人体経路撹乱**
+### Jintai Keiro Kakuran
+**人体経路撹乱 · Desarranjo das Vias Corporais**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -504,8 +504,8 @@ Um toque preciso injeta chakra nas vias nervosas do alvo e embaralha o caminho e
 
 O limite é a camada atingida. O desarranjo age sobre execução e nunca sobre decisão ou percepção. O alvo continua enxergando com clareza, raciocinando com clareza e sabendo exatamente o que queria ter feito. O Kai não o alcança, porque nada foi escrito em circuito algum.
 
-### Força Aumentada por Chakra
-**Kairiki — 怪力**
+### Kairiki
+**怪力 · Força Aumentada por Chakra**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -516,8 +516,8 @@ O mesmo controle de precisão que permite reparar um corpo permite acumular chak
 
 O limite é o instante. A liberação fora do momento correto devolve todo o chakra acumulado como perda total, sem golpe e sem efeito.
 
-### Névoa Venenosa Múltipla
-**Tabun Dokugiri — 多分毒霧**
+### Tabun Dokugiri
+**多分毒霧 · Névoa Venenosa Múltipla**
 **[ATRIBUÍDO · anime — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 62 · Toxicologia · ter aprendido Névoa Venenosa
@@ -537,8 +537,8 @@ O limite continua sendo o ar. Espaço aberto, vento forte e alvos que não respi
 
 O veneno não declara vetor pela mesma razão da forma simples, e a ausência suspende o motor de dano e não a técnica. As condições que cada corrente carrega resolvem pelo Sistema de Efeitos de Status, e a entrada segue jogável por inteiro como técnica de controle e supressão em vários alvos.
 
-### Mãos Somadas
-**Kasane Te — 重ね手**
+### Kasane Te
+**重ね手 · Mãos Somadas**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -549,8 +549,8 @@ Dois médicos aplicam sobre o mesmo corpo ao mesmo tempo, dividindo o campo de t
 
 O limite é a sincronia. Os dois comprometem a ação no mesmo turno, precisam estar em contato com o paciente e um deles precisa dirigir, porque duas mãos que não concordam entregam menos do que uma sozinha.
 
-### Cirurgia de Invocação
-**Kuchiyose Shujutsu — 口寄せ手術**
+### Kuchiyose Shujutsu
+**口寄せ手術 · Cirurgia de Invocação**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -561,8 +561,8 @@ A criatura invocada ferida em campo é normalmente dispensada, e o aliado que a 
 
 O limite é o porte e o consentimento. Criatura muito acima do humano exige o quinto nível da perícia, e nenhuma invocação aceita ser tocada sem que o convocador esteja presente e a autorize.
 
-### Parecer de Viabilidade
-**Taika Shinsa — 耐荷審査**
+### Taika Shinsa
+**耐荷審査 · Parecer de Viabilidade**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -573,8 +573,8 @@ O médico declara o que aquele corpo suporta antes que alguém tente. Quantas Ma
 
 O limite é a presença. O parecer exige o corpo diante do médico, e uma descrição de terceiro só serve a partir do quinto nível da perícia.
 
-### Sedação Profunda
-**Shinsui — 深睡**
+### Shinsui
+**深睡 · Sedação Profunda**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -589,8 +589,8 @@ O limite é a manutenção e a memória. O alvo desperta no turno seguinte ao fi
 
 ## Rank A
 
-### Cura Ressuscitadora Regenerativa
-**Chiyu Sosei Saisei no Jutsu — 治癒蘇生再生の術**
+### Chiyu Sosei Saisei no Jutsu
+**治癒蘇生再生の術 · Cura Ressuscitadora Regenerativa**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -603,8 +603,8 @@ O procedimento reservado ao ferimento que nenhuma mão sozinha resolve. Vários 
 
 O limite é o quórum e a mesa. O procedimento exige médicos suficientes, todos comprometidos no mesmo intervalo, e o paciente imóvel. Um participante que perde a sincronia desfaz o trabalho dos outros e o dano volta de uma vez.
 
-### Leito de Campo
-**Jin'ei no Toko — 陣営の床**
+### Jin'ei no Toko
+**陣営の床 · Leito de Campo**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Campo
@@ -620,8 +620,8 @@ O médico declara uma área e a converte em posto de estabilização. Todo ferid
 
 O limite é declarado com firmeza. O leito estabiliza e impede deterioração, e não concede reserva temporária, não devolve pontos de vida e não confere resistência a ninguém, o que o separa do que a linhagem de Asura faz com um esquadrão.
 
-### Extração Delicada de Enfermidade
-**Manbyō Kaiyu no Jutsu — 万病快癒の術**
+### Manbyō Kaiyu no Jutsu
+**万病快癒の術 · Extração Delicada de Enfermidade**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -632,8 +632,8 @@ O procedimento mais delicado do domínio. O médico isola a doença dentro do co
 
 O limite é a margem. O procedimento exige instalação, tempo, assistência treinada e imobilidade completa do paciente, e um único deslize durante a extração espalha no corpo aquilo que estava sendo retirado, agravando o quadro além do ponto em que ele começou.
 
-### Cerejeira, Impacto Violento
-**Ōkashō — 桜花衝**
+### Ōkashō
+**桜花衝 · Cerejeira, Impacto Violento**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 46 · Concentração · ter aprendido Força Aumentada por Chakra
@@ -651,8 +651,8 @@ O acúmulo deixa de ser aplicado contra um corpo e passa a ser aplicado contra o
 
 A Exigência de Moldagem 46 em rank A é o par alto deste compêndio contra a indexação de precisão por porte: o efeito vem da força liberada e não do refinamento pedido. O limite é a superfície, e a técnica perde quase todo o efeito sobre água, areia solta, plataforma suspensa ou terreno já destruído.
 
-### Perna do Céu Doloroso
-**Tsūtenkyaku — 痛天脚**
+### Tsūtenkyaku
+**痛天脚 · Perna do Céu Doloroso**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 66 · Concentração · ter aprendido Força Aumentada por Chakra
@@ -670,8 +670,8 @@ A mesma liberação executada com o calcanhar a partir de um salto, somando à p
 
 O limite é o compromisso. O golpe exige o salto, anuncia a trajetória no ar e deixa quem o executa sem defesa e sem opção de correção até tocar o chão.
 
-### Cirurgia de Reconstrução
-**Saiken Shujutsu — 再建手術**
+### Saiken Shujutsu
+**再建手術 · Cirurgia de Reconstrução**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito de Segurança
 **Alcance categórico:** Alvo
@@ -682,8 +682,8 @@ O médico abre o paciente, trabalha diretamente sobre estrutura interna e refaz 
 
 A técnica é aprendível por qualquer um que alcance o nível, e a ausência de instalação, tempo ou assistência não impede o aprendizado. Executada sem elas, a cirurgia impõe ao paciente perda permanente de função na região tratada e um grau de Sequela que nenhuma cura posterior remove. A penalidade recai inteiramente sobre quem está na mesa e não sobre quem opera.
 
-### Transplante Ocular
-**Gan'ishoku — 眼移植**
+### Gan'ishoku
+**眼移植 · Transplante Ocular**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico e Requisito de Segurança
 **Alcance categórico:** Alvo
@@ -696,8 +696,8 @@ Executada sem as condições, o receptor perde a visão do olho instalado em def
 
 As regras específicas de um olho de linhagem instalado, incluindo o que ele concede, o que ele exige e como se comporta em corpo alheio, permanecem no documento da linhagem correspondente. Esta entrada governa a viabilidade cirúrgica, a janela do doador e a rejeição, e não o poder do que foi enxertado.
 
-### Prótese de Chakra
-**Chakura Gishi — チャクラ義肢**
+### Chakura Gishi
+**チャクラ義肢 · Prótese de Chakra**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -710,8 +710,8 @@ O procedimento exige a leitura completa do que existia antes, porque a construç
 
 O limite é o custo permanente e a fragilidade. A prótese drena reserva do portador de forma contínua enquanto existir, desfaz-se por completo se ele esgotar a reserva, não recebe cura de espécie alguma e precisa ser reconstruída do zero quando destruída.
 
-### Farmacologia de Guerra
-**Senji Yakugaku — 戦時薬学**
+### Senji Yakugaku
+**戦時薬学 · Farmacologia de Guerra**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila · Sunagakure
 **Alcance categórico:** Alvo
@@ -724,8 +724,8 @@ O acesso vem por origem em Sunagakure, por formação sob mestre saído de lá, 
 
 O limite é a bancada. Toda formulação exige preparo prévio com insumo declarado, e nenhuma delas se improvisa no meio de um combate.
 
-### Destruição da Ferida por Cura Yin
-**In'yu Shōmetsu — 陰癒傷滅**
+### In'yu Shōmetsu
+**陰癒傷滅 · Destruição da Ferida por Cura Yin**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal
 **Alcance categórico:** Alvo
@@ -745,8 +745,8 @@ O limite é a leitura. Errar o ponto antecipado desperdiça a reserva inteira se
 
 ## Rank S
 
-### Regeneração Criadora
-**Sōzō Saisei — 創造再生**
+### Sōzō Saisei
+**創造再生 · Regeneração Criadora**
 **[CANON · Kinjutsu — Rank S]**
 **Acesso:** Assinatura Pessoal · Fechada na Criação
 **Alcance categórico:** Alvo
@@ -764,8 +764,8 @@ O salto conceitual está em parar de tratar a cura como intervenção externa so
 
 O limite é a vida. A regeneração não devolve o que já foi gasto, não protege contra o que não é dano físico e cessa por completo quando o usuário esgota as divisões que o corpo tinha para dar.
 
-### Selo da Força de Cem
-**Byakugō no In — 百豪の印**
+### Byakugō no In
+**百豪の印 · Selo da Força de Cem**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação · Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -778,8 +778,8 @@ O mecanismo é de selo e não de medicina, e por isso a entrada cobra Fūinjutsu
 
 O limite é o depósito. O selo devolve exatamente o que foi guardado nele, e uma vez rompido volta a valer zero até que o acúmulo recomece do início.
 
-### Arte Ninja Regeneração Criadora Força de Cem
-**Ninpō Sōzō Saisei Byakugō no Jutsu — 忍法・創造再生・百豪の術**
+### Ninpō Sōzō Saisei Byakugō no Jutsu
+**忍法・創造再生・百豪の術 · Arte Ninja Regeneração Criadora Força de Cem**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação · Requisito Mecânico
 **Alcance categórico:** Área
@@ -795,8 +795,8 @@ O selo se rompe e as marcas se espalham pelo corpo inteiro, e a regeneração de
 
 O limite é a reserva depositada. A técnica gasta o que o selo acumulou e nada além disso, e quando o depósito termina o usuário fica exposto, esgotado e sem nenhuma das proteções que estava distribuindo.
 
-### Reincarnação da Própria Vida
-**Kishō Tensei — 起死回生**
+### Kishō Tensei
+**起死回生 · Reincarnação da Própria Vida**
 **[ATRIBUÍDO · Kinjutsu — Rank S]**
 **Acesso:** Fechada na Criação
 **Alcance categórico:** Alvo
@@ -815,28 +815,28 @@ O limite não admite negociação. A troca é integral e definitiva, não existe
 
 ## Índice Rápido por Função Tática
 
-**Estabilizar e manter vivo.** Estancamento, Sutura de Chakra, Reanimação Cardíaca, Palma Mística, Sustentação Vital, Pílula de Sangue, Triagem de Campo, Leito de Campo.
+**Estabilizar e manter vivo.** Shiketsu no Jutsu, Chakura Hōgō, Shinzō Sosei, Shōsen Jutsu, Seimei Iji, Ketsueki Zōka Gan, Senji Bunrui, Jin'ei no Toko.
 
-**Trabalhar em conjunto.** Mãos Somadas, Cura Ressuscitadora Regenerativa.
+**Trabalhar em conjunto.** Kasane Te, Chiyu Sosei Saisei no Jutsu.
 
-**Devolver ao combate.** Redução de Fratura, Tratamento de Exaustão, Pílula Militar, Regeneração de Tecido, Reabertura de Tenketsu.
+**Devolver ao combate.** Seikotsu no Jutsu, Hirō Chiryō, Hyōrōgan, Soshiki Saisei, Tenketsu Kaihō.
 
-**Diagnosticar e investigar.** Leitura de Pulso de Chakra, Diagnóstico Anatômico, Exame Post-Mortem, Leitura de Ferimento, Diagnóstico a Distância.
+**Diagnosticar e investigar.** Myakushin, Shindan, Kenshi, Sōkon Kaidoku, Enkaku Shindan.
 
-**Medir o que o corpo aguenta.** Prognóstico de Campo, Parecer de Viabilidade.
+**Medir o que o corpo aguenta.** Yogo Handan, Taika Shinsa.
 
-**Neutralizar substância.** Extração de Veneno de Campo, Ativação de Anticorpos, Purga Sistêmica de Veneno, Preparo de Ervas, Esterilização de Campo, Extração Delicada de Enfermidade.
+**Neutralizar substância.** Doku Chūshutsu, Kōtai Kasseika, Zenshin Doku Haishutsu, Yakusō Chōgō, Shōdoku no Jutsu, Manbyō Kaiyu no Jutsu.
 
-**Ferir e desabilitar.** Bisturi de Chakra, Desarranjo das Vias Corporais, Agulha Anestésica, Névoa Venenosa, Névoa Venenosa Múltipla, Farmacologia de Guerra.
+**Ferir e desabilitar.** Chakura no Mesu, Jintai Keiro Kakuran, Masui Senbon, Dokugiri, Tabun Dokugiri, Senji Yakugaku.
 
-**Conter e controlar.** Supressão de Chakra, Sedação Profunda, Anestesia de Contato, Limpeza de Circuito.
+**Conter e controlar.** Chakura Yokusei, Shinsui, Masui no Jutsu, Kairo Sōji.
 
-**Golpear com o próprio corpo.** Força Aumentada por Chakra, Cerejeira Impacto Violento, Perna do Céu Doloroso.
+**Golpear com o próprio corpo.** Kairiki, Cerejeira Impacto Violento, Tsūtenkyaku.
 
-**Reconstruir e substituir.** Cirurgia de Reconstrução, Enxerto de Tecido, Estabilização de Enxerto, Suporte Estrutural, Prótese de Chakra, Transplante Ocular.
+**Reconstruir e substituir.** Saiken Shujutsu, Soshiki Ishoku, Teichaku, Kōzō Shiji, Chakura Gishi, Gan'ishoku.
 
-**Tratar o que não é humano.** Anatomia Comparada, Cirurgia de Invocação.
+**Tratar o que não é humano.** Hikaku Kaibō, Kuchiyose Shujutsu.
 
-**Curar antes do golpe.** Destruição da Ferida por Cura Yin.
+**Curar antes do golpe.** In'yu Shōmetsu.
 
-**O ápice e o que ele cobra.** Regeneração Criadora, Selo da Força de Cem, Arte Ninja Regeneração Criadora Força de Cem, Reincarnação da Própria Vida.
+**O ápice e o que ele cobra.** Sōzō Saisei, Byakugō no In, Ninpō Sōzō Saisei Byakugō no Jutsu, Kishō Tensei.

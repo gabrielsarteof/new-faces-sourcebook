@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.hosenka
+id: naruto.technique.katon-hosenka
 title: "Hōsenka no Jutsu (鳳仙花の術)"
 version: 1.2
 layer: scenario

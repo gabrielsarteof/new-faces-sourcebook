@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.10
+version: 1.11
 layer: scenario
 scenario: naruto
 type: compendium
@@ -29,7 +29,7 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 **O que mudou na v1.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
 
-**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas o Chidori Senbon, as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
 
 **Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
 
@@ -55,8 +55,8 @@ O selamento se organiza em dois tempos, e o catálogo inteiro se lê por eles. E
 
 ## Rank E
 
-### Etiqueta Explosiva
-**Kibaku Fuda — 起爆札**
+### Kibaku Fuda
+**起爆札 · Etiqueta Explosiva**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV1 · Moldagem 18
@@ -71,8 +71,8 @@ A etiqueta é suprimento tradicional e circula pronta em qualquer posto de abast
 
 O limite é o papel. A etiqueta se molha, se rasga e queima antes da hora, e o adversário que a percebe a tempo tem sempre uma ação para se afastar dela.
 
-### Selo de Sangue
-**Ketsu Fūin — 血封印**
+### Ketsu Fūin
+**血封印 · Selo de Sangue**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -85,8 +85,8 @@ A fórmula é traçada com o sangue de quem a escreve, e o sangue vincula o selo
 
 O limite é a origem. O selo lê o sangue e ignora a intenção, e um parente hostil o abre com a mesma facilidade de um aliado.
 
-### Selo de Registro
-**Kiroku Fūin — 記録封印**
+### Kiroku Fūin
+**記録封印 · Selo de Registro**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -99,8 +99,8 @@ O selo carrega quantos documentos a capacidade do praticante comportar e devolve
 
 O limite é a revista. A marca na margem é visível a olho nu, e um selador competente que a encontre sabe imediatamente que existe algo ali dentro.
 
-### Selo de Suprimento de Esquadrão
-**Buntai Fūin — 分隊封印**
+### Buntai Fūin
+**分隊封印 · Selo de Suprimento de Esquadrão**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -117,8 +117,8 @@ O limite é a nomeação. A lista de sacadores é fixada na inscrição, e acres
 
 ## Rank D
 
-### Desselamento: Shuriken
-**Fūin Kaijo: Shuriken — 封印解除・手裏剣**
+### Fūin Kaijo: Shuriken
+**封印解除・手裏剣 · Desselamento: Shuriken**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV2 · Moldagem 32
@@ -138,8 +138,8 @@ A técnica é o degrau em que o armazenamento deixa de ser conveniência e passa
 
 O limite é o gasto. O pergaminho esvazia por completo, e recarregá-lo é trabalho de inscrição fora de combate.
 
-### Formação de Ligadura Selada
-**Fūbaku Hōjin — 封縛法陣**
+### Fūbaku Hōjin
+**封縛法陣 · Formação de Ligadura Selada**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -157,8 +157,8 @@ A técnica eleva a categoria do selo de alvo para área, e faz isso pelo único 
 
 O limite é o terreno. A formação existe onde foi montada, e um adversário que force o combate fora dela reduz o praticante ao repertório que ele carrega no corpo.
 
-### Desselamento: Nevasca de Papel
-**Fūin Kaijo: Kamifubuki — 封印解除・紙吹雪**
+### Fūin Kaijo: Kamifubuki
+**封印解除・紙吹雪 · Desselamento: Nevasca de Papel**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Área
@@ -176,8 +176,8 @@ O valor da técnica está na dúvida que ela impõe. Uma etiqueta explosiva esco
 
 O limite é o vento. Uma corrente de ar moderada dispersa a nevasca em um turno, e a técnica praticamente desaparece contra praticantes de Fūton.
 
-### Selo de Vedação de Recinto
-**Bōon Fūin — 防音封印**
+### Bōon Fūin
+**防音封印 · Selo de Vedação de Recinto**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Campo
@@ -195,8 +195,8 @@ Quatro fórmulas fixadas nos cantos de um cômodo fecham o que sai dele. O som m
 
 O limite é a fixação. As quatro fórmulas ficam expostas nos cantos, e retirar uma delas derruba a vedação inteira sem aviso para quem está dentro.
 
-### Selo de Isca
-**Otori Fūin — 囮封印**
+### Otori Fūin
+**囮封印 · Selo de Isca**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -213,8 +213,8 @@ O limite é a leitura única. Um selador que já tenha aberto uma isca do mesmo 
 
 ## Rank C
 
-### Selo de Cifra
-**Angō Fūin — 暗号封印**
+### Angō Fūin
+**暗号封印 · Selo de Cifra**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -227,8 +227,8 @@ A técnica muda o que a captura significa. Um pergaminho que se recusa a abrir a
 
 O limite é a coerência. O conteúdo falso é escrito uma vez e envelhece, e um adversário que cruze o material de duas cifras do mesmo autor encontra a contradição entre elas.
 
-### Selo de Vaso Compartilhado
-**Kyōyū Fūin — 共有封印**
+### Kyōyū Fūin
+**共有封印 · Selo de Vaso Compartilhado**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -241,8 +241,8 @@ O vaso compartilhado é infraestrutura de campanha antes de ser recurso de comba
 
 O limite é o par. Um terceiro pergaminho exige nova inscrição de ambos, e o que a fórmula transporta obedece à capacidade de selo do praticante que a escreveu.
 
-### Selo de Perícia Forense
-**Kanshiki Fūin — 鑑識封印**
+### Kanshiki Fūin
+**鑑識封印 · Selo de Perícia Forense**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -255,8 +255,8 @@ A técnica cria um ofício que o mundo shinobi nunca teve, que é o do selador q
 
 O limite é a janela. A fórmula precisa alcançar o resto do selo antes que ele se dissolva por completo, e o que já apagou não volta.
 
-### Selo de Carga Retardada
-**Chien Fūin — 遅延封印**
+### Chien Fūin
+**遅延封印 · Selo de Carga Retardada**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -271,8 +271,8 @@ A elevação é de categoria e não de potência, porque o total liberado perman
 
 O limite é a previsibilidade. O intervalo é fixado na inscrição, e um adversário que sobreviva ao primeiro disparo conta os seguintes.
 
-### Selo de Confisco
-**Bosshū Fūin — 没収封印**
+### Bosshū Fūin
+**没収封印 · Selo de Confisco**
 **[PROPOSTA — Rank C]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
 **Alcance categórico:** Alvo
@@ -289,8 +289,8 @@ O limite é a declaração. O objeto vedado é nomeado na inscrição, e a fórm
 
 ## Rank B
 
-### Método de Selamento de Fogo
-**Fūka Hōin — 封火法印**
+### Fūka Hōin
+**封火法印 · Método de Selamento de Fogo**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -303,8 +303,8 @@ O que esta entrada acrescenta ao ofício da captura é o destino do que foi capt
 
 O limite é a natureza. O pergaminho lê fogo e nada mais, e a reemissão exige a perícia elemental que transforma combustível em técnica.
 
-### Bala do Olhar Fixo do Tigre
-**Fūinjutsu: Koshi Tandan — 封印術・虎視眈弾**
+### Fūinjutsu: Koshi Tandan
+**封印術・虎視眈弾 · Bala do Olhar Fixo do Tigre**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
 **Alcance categórico:** Alvo
@@ -317,8 +317,8 @@ A técnica pertence à escola de tinta de Konoha e circula apenas dentro dela, p
 
 O limite é a atenção. O praticante que sofre interrupção perde o desenho e o alvo junto com ele.
 
-### Muralha de Ferro Selada
-**Fūin Teppeki — 封印鉄壁**
+### Fūin Teppeki
+**封印鉄壁 · Muralha de Ferro Selada**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (País do Fogo)
 **Alcance categórico:** Alvo
@@ -331,8 +331,8 @@ A fórmula é inscrita no batente de uma passagem e permanece ali por gerações
 
 O limite é a imobilidade. A muralha existe onde foi inscrita, e o que a contorna por fora nunca a encontra.
 
-### Selamento das Três Direções
-**Fūinjutsu: Sanpō Fūin — 封印術・三方封印**
+### Fūinjutsu: Sanpō Fūin
+**封印術・三方封印 · Selamento das Três Direções**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
 **Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Confinamento · Kage Bunshin no Jutsu
@@ -350,8 +350,8 @@ Os três executores são satisfeitos por clones das sombras, e é isso que torna
 
 O limite é a formação. Um dos três vértices que caia antes do fechamento desfaz a figura inteira, e o chakra investido se perde com ela.
 
-### Selo da Armadura de Ferro
-**Tekkō Fūin — 鉄甲封印**
+### Tekkō Fūin
+**鉄甲封印 · Selo da Armadura de Ferro**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
 **Alcance categórico:** Alvo
@@ -364,8 +364,8 @@ A entrada existe no catálogo justamente pela qualidade declarada dela. O Tekkō
 
 O limite é a escala. O selo sustenta o que carrega e não sustenta mais que isso, e massa acima do patamar dele exige o Repertório do Selamento.
 
-### Método de Liberação do Mal
-**Kaija Hōin — 封邪解印**
+### Kaija Hōin
+**封邪解印 · Método de Liberação do Mal**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -378,8 +378,8 @@ O que a liberação devolve é tudo, incluindo o que ninguém contava. Uma consc
 
 O limite é a fidelidade. A fórmula devolve o estado exato que o selo guardava, incluindo o dano, a idade e a hostilidade que ele congelou.
 
-### Selo do Autoamaldiçoamento
-**Jibaku no Juin — 自縛の呪印**
+### Jibaku no Juin
+**自縛の呪印 · Selo do Autoamaldiçoamento**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -392,8 +392,8 @@ A entrada é a coerção reduzida ao essencial e por isso cabe no rank B: uma co
 
 O limite é a liberação. Uma descarga suficientemente forte de chakra rompe as linhas, e um adversário de reserva larga se solta na ação seguinte.
 
-### Selo de Costura Falsa
-**Gisō Fūin — 偽装封印**
+### Gisō Fūin
+**偽装封印 · Selo de Costura Falsa**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -410,8 +410,8 @@ O limite é a passagem única. A costura falsa absorve um desequilíbrio e se de
 
 ## Rank A
 
-### Selo dos Cinco Elementos
-**Gogyō Fūin — 五行封印**
+### Gogyō Fūin
+**五行封印 · Selo dos Cinco Elementos**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Alcance categórico:** Alvo
@@ -424,8 +424,8 @@ A entrada excede o cerceamento comum em dois pontos. A vedação alcança simult
 
 O limite é a paridade. O selo alvo precisa ser par para que o desequilíbrio se forme, e uma fórmula que não exponha paridade legível o recusa por completo.
 
-### Desselamento dos Cinco Elementos
-**Gogyō Kaiin — 五行解印**
+### Gogyō Kaiin
+**五行解印 · Desselamento dos Cinco Elementos**
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -438,8 +438,8 @@ O procedimento é violento para quem o recebe. O portador sente a remoção como
 
 O limite é o patamar. A fórmula alcança selos de poder comparável ao do executor, e o que foi escrito por mão superior resiste ao golpe inteiro.
 
-### Método de Selamento do Mal
-**Fūja Hōin — 封邪法印**
+### Fūja Hōin
+**封邪法印 · Método de Selamento do Mal**
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -452,8 +452,8 @@ A entrada acrescenta à contenção comum o alcance e o preço. A fórmula alcan
 
 O limite é a vontade alheia. A supressão vale enquanto o portador quiser que valha, e o dia em que ele desejar acender a marca a fórmula cede sem oferecer resistência.
 
-### Rugido de Fechamento do Leão
-**Fūinjutsu: Shishi Heikō — 封印術・獅子閉哮**
+### Fūinjutsu: Shishi Heikō
+**封印術・獅子閉哮 · Rugido de Fechamento do Leão**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Alcance categórico:** Área
@@ -471,8 +471,8 @@ A elevação de alvo para área é o que põe esta entrada acima do cerceamento 
 
 O limite é a borda. O que estiver com um pé fora da linha permanece inteiro, e a fórmula não se estende para alcançá-lo.
 
-### Selamento dos Quatro Símbolos
-**Shishō Fūin — 四象封印**
+### Shishō Fūin
+**四象封印 · Selamento dos Quatro Símbolos**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
 **Alcance categórico:** Alvo
@@ -485,8 +485,8 @@ A fórmula é aplicada sobre objeto ou corpo humano e prende dentro dele uma ent
 
 O limite é a paridade exposta. Quatro é par, e a fórmula que se anuncia par convida o desequilíbrio de todo selador que saiba contar.
 
-### Selamento Reverso dos Quatro Símbolos
-**Ura Shishō Fūin — 裏四象封印**
+### Ura Shishō Fūin
+**裏四象封印 · Selamento Reverso dos Quatro Símbolos**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Alcance categórico:** Área
@@ -504,8 +504,8 @@ A cláusula póstuma comum executa um efeito declarado. Esta executa um selament
 
 O limite é a preparação. A fórmula é inscrita com antecedência, em ritual longo e sobre o corpo do executor, e a morte que chegar antes do fechamento do traço não dispara coisa alguma.
 
-### Técnica de Selamento Uzumaki
-**Uzumaki Fūin — うずまき封印**
+### Uzumaki Fūin
+**うずまき封印 · Técnica de Selamento Uzumaki**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
 **Alcance categórico:** Área
@@ -521,8 +521,8 @@ A entrada resolve em uma ação de combate o confinamento que o ofício comum re
 
 O limite é a assinatura. A fórmula anuncia o autor antes de fechar, e o clã pagou caro por ser reconhecível.
 
-### Erradicação da Língua Amaldiçoada
-**Juzetsu Kōjin — 呪舌抗印**
+### Juzetsu Kōjin
+**呪舌抗印 · Erradicação da Língua Amaldiçoada**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
 **Alcance categórico:** Alvo
@@ -535,8 +535,8 @@ A fórmula é inscrita na língua do portador e vigia a intenção dele. A cláu
 
 O limite é o escopo declarado. A vedação alcança o que a inscrição nomeou, e o portador fala livremente de tudo o mais, inclusive da existência do próprio selo.
 
-### Barreira de Selamento dos Quatro Cantos
-**Kekkai Shihō Fūjin — 結界四方封陣**
+### Kekkai Shihō Fūjin
+**結界四方封陣 · Barreira de Selamento dos Quatro Cantos**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Alcance categórico:** Campo
@@ -552,8 +552,8 @@ Esta é a interseção nomeada entre o selamento e a barreira, e por isso é a �
 
 O limite é a formação viva. Um dos quatro que caia derruba a barreira inteira, e o alvo sai com o chakra investido dissipado junto.
 
-### Chave Viva
-**Ikigi no Kagi — 生鍵**
+### Ikigi no Kagi
+**生鍵 · Chave Viva**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
 **Alcance categórico:** Alvo
@@ -570,8 +570,8 @@ O limite é a mortalidade. A criatura que morre leva a chave com ela, e o selo s
 
 ## Rank S
 
-### Estilo de Selamento dos Oito Trigramas
-**Hakke no Fūin Shiki — 八卦の封印式**
+### Hakke no Fūin Shiki
+**八卦の封印式 · Estilo de Selamento dos Oito Trigramas**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
 **Alcance categórico:** Alvo
@@ -584,8 +584,8 @@ A sobreposição admite ser imperfeita de propósito, e é aí que a técnica se
 
 O limite é a chave. A fórmula exige um registro externo que a afrouxe e a reaperte, e sem ele nem o inscritor volta a abrir o que fechou.
 
-### Nove Selos Consumidores dos Dragões Fantasma
-**Fūinjutsu: Genryū Kyū Fūjin — 封印術・幻龍九封尽**
+### Fūinjutsu: Genryū Kyū Fūjin
+**封印術・幻龍九封尽 · Nove Selos Consumidores dos Dragões Fantasma**
 **[CANON — Rank S]**
 **Acesso:** Fechada na Criação
 **Alcance categórico:** Área
@@ -601,8 +601,8 @@ O procedimento consome três dias completos com os nove presentes e se estende c
 
 O limite é o receptáculo. A técnica existe apenas onde a estátua estiver, e a organização que a possui é a única capaz de executá-la.
 
-### Portão do Grande Deus
-**Senpō: Myōjinmon — 仙法・明神門**
+### Senpō: Myōjinmon
+**仙法・明神門 · Portão do Grande Deus**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Hashirama Senju) · Registrada
 **Alcance categórico:** Área
@@ -628,8 +628,8 @@ Quatro entradas encadeadas, com a primeira habilitando as três seguintes. Todas
 
 A coluna de magnitude destas entradas é a Perícia de Passagem v1, publicada. O portão de rank é lido nela conforme a regra universal do Manual de Requisitos de Técnica, e a coluna de Fūinjutsu cobra apenas o que a marca exige. Três das quatro entradas resolvem por esse portão. O Corte do Deus do Trovão Voador segue inexecutável, porque o requisito de perícia de arma que ele cobra continua sem documento.
 
-### Deus do Trovão Voador
-**Hiraishin no Jutsu — 飛雷神の術**
+### Hiraishin no Jutsu
+**飛雷神の術 · Deus do Trovão Voador**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
 **Alcance categórico:** Alvo
@@ -644,8 +644,8 @@ O nome vem do para-raios, e a técnica funciona pela mesma lógica: o relâmpago
 
 O limite é a marca. O praticante alcança o que inscreveu e nada além disso, e um adversário que o force a combater em terreno virgem o reduz ao repertório de qualquer outro shinobi.
 
-### Hiraishin — Segundo Passo
-**Hiraishin: Ni no Dan — 飛雷神・弐の段**
+### Hiraishin: Ni no Dan
+**飛雷神・弐の段 · Hiraishin — Segundo Passo**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Alcance categórico:** Alvo
@@ -658,8 +658,8 @@ O que a entrada acrescenta ao salto é o destino móvel. O Deus do Trovão Voado
 
 O limite é o arremesso. A lâmina precisa chegar, e um adversário que a desvie ou a bloqueie fecha o ponto de chegada antes que ele exista.
 
-### Corte do Deus do Trovão Voador
-**Hiraishin Giri — 飛雷神斬り**
+### Hiraishin Giri
+**飛雷神斬り · Corte do Deus do Trovão Voador**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
 **Requisitos:** Deus do Trovão Voador · perícia de arma LV5 · Fūinjutsu LV4 · Moldagem 64
@@ -674,8 +674,8 @@ O databook registra esta entrada como taijutsu, e a classificação é exata: o 
 
 O limite é a marca no alvo. O corte alcança onde a fórmula estiver, e um adversário que jamais permita o toque permanece fora do alcance dela.
 
-### Rotação Instantânea Mútua do Hiraishin
-**Hiraishin: Sōgo Shunkan Kaiten — 飛雷神・相互瞬間回転**
+### Hiraishin: Sōgo Shunkan Kaiten
+**飛雷神・相互瞬間回転 · Rotação Instantânea Mútua do Hiraishin**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Alcance categórico:** Alvo
@@ -694,8 +694,8 @@ O limite é a reciprocidade. As duas marcas precisam existir, e a morte de um do
 
 ## Categoria Kinjutsu
 
-### Selo do Consumo do Demônio Morto
-**Shiki Fūjin — 屍鬼封尽**
+### Shiki Fūjin
+**屍鬼封尽 · Selo do Consumo do Demônio Morto**
 **[CANON — Rank S · Kinjutsu]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
 **Requisitos:** Fūinjutsu LV6 · Moldagem 100 · Caminho Cárcere · a vida do executor
@@ -712,8 +712,8 @@ O limite é o preço. A vida do executor é cobrada sempre, no sucesso e no frac
 
 A entrada não declara vetor porque não há tecido falhando, há um alvo saindo de cena. Os quatro vetores medem como o corpo cede à energia entregue, e o que esta técnica faz não passa por corpo algum. A posição em XP se lê pela Régua de Resposta.
 
-### Liberação do Selo do Consumo do Demônio Morto
-**Shiki Fūjin: Kai — 屍鬼封尽・解**
+### Shiki Fūjin: Kai
+**屍鬼封尽・解 · Liberação do Selo do Consumo do Demônio Morto**
 **[ATRIBUÍDO — Rank S · Kinjutsu]**
 **Acesso:** Fechada na Criação
 **Alcance categórico:** Alvo
@@ -730,8 +730,8 @@ O limite é a máscara. O objeto é único, está em um lugar só e não admite 
 
 ## Categoria Juinjutsu
 
-### Juinjutsu de Orochimaru
-**Ten no Juin e Chi no Juin — 天の呪印 · 地の呪印**
+### Ten no Juin e Chi no Juin
+**天の呪印 · 地の呪印 · Juinjutsu de Orochimaru**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Transmissão Direta (Orochimaru)
 **Alcance categórico:** Alvo
@@ -748,34 +748,34 @@ O limite é a autoria. A marca responde ao aplicador enquanto ele viver, e remov
 
 ## Índice Rápido por Função Tática
 
-**Guardar e transportar.** Selo de Registro, Selo de Suprimento de Esquadrão, Selo de Vaso Compartilhado, Selo de Cifra.
+**Guardar e transportar.** Kiroku Fūin, Buntai Fūin, Kyōyū Fūin, Angō Fūin.
 
-**Sacar e liberar em volume.** Desselamento: Shuriken, Desselamento: Nevasca de Papel, Selo de Carga Retardada.
+**Sacar e liberar em volume.** Fūin Kaijo: Shuriken, Fūin Kaijo: Kamifubuki, Chien Fūin.
 
-**Prender um corpo no lugar.** Formação de Ligadura Selada, Selamento das Três Direções, Selo do Autoamaldiçoamento, Técnica de Selamento Uzumaki, Rugido de Fechamento do Leão, Portão do Grande Deus.
+**Prender um corpo no lugar.** Fūbaku Hōjin, Fūinjutsu: Sanpō Fūin, Jibaku no Juin, Uzumaki Fūin, Fūinjutsu: Shishi Heikō, Senpō: Myōjinmon.
 
-**Fechar o chakra de alguém.** Selo dos Cinco Elementos, Rugido de Fechamento do Leão, Selo de Confisco.
+**Fechar o chakra de alguém.** Gogyō Fūin, Fūinjutsu: Shishi Heikō, Bosshū Fūin.
 
-**Desfazer o selo de outro.** Desselamento dos Cinco Elementos, Método de Liberação do Mal, Selo de Perícia Forense.
+**Desfazer o selo de outro.** Gogyō Kaiin, Kaija Hōin, Kanshiki Fūin.
 
-**Conter o que não é humano.** Selo da Armadura de Ferro, Selamento dos Quatro Símbolos, Estilo de Selamento dos Oito Trigramas, Barreira de Selamento dos Quatro Cantos, Nove Selos Consumidores dos Dragões Fantasma.
+**Conter o que não é humano.** Tekkō Fūin, Shishō Fūin, Hakke no Fūin Shiki, Kekkai Shihō Fūjin, Fūinjutsu: Genryū Kyū Fūjin.
 
-**Suprimir uma marca hospedada.** Método de Selamento do Mal, Método de Liberação do Mal.
+**Suprimir uma marca hospedada.** Fūja Hōin, Kaija Hōin.
 
-**Enganar outro selador.** Selo de Isca, Selo de Cifra, Selo de Costura Falsa.
+**Enganar outro selador.** Otori Fūin, Angō Fūin, Gisō Fūin.
 
-**Fechar um lugar.** Selo de Vedação de Recinto, Muralha de Ferro Selada, Formação de Ligadura Selada.
+**Fechar um lugar.** Bōon Fūin, Fūin Teppeki, Fūbaku Hōjin.
 
-**Capturar o que está em curso.** Método de Selamento de Fogo, Bala do Olhar Fixo do Tigre.
+**Capturar o que está em curso.** Fūka Hōin, Fūinjutsu: Koshi Tandan.
 
-**Atravessar o campo de batalha.** Deus do Trovão Voador, Hiraishin — Segundo Passo, Rotação Instantânea Mútua do Hiraishin.
+**Atravessar o campo de batalha.** Hiraishin no Jutsu, Hiraishin: Ni no Dan, Hiraishin: Sōgo Shunkan Kaiten.
 
-**Matar de onde ninguém espera.** Corte do Deus do Trovão Voador, Hiraishin — Segundo Passo, Selo do Autoamaldiçoamento.
+**Matar de onde ninguém espera.** Hiraishin Giri, Hiraishin: Ni no Dan, Jibaku no Juin.
 
-**Comprar silêncio e obediência.** Erradicação da Língua Amaldiçoada, Selo de Confisco, Juinjutsu de Orochimaru.
+**Comprar silêncio e obediência.** Juzetsu Kōjin, Bosshū Fūin, Ten no Juin e Chi no Juin.
 
-**Cobrar depois de morrer.** Selamento Reverso dos Quatro Símbolos.
+**Cobrar depois de morrer.** Ura Shishō Fūin.
 
-**Trabalhar em conjunto.** Selamento das Três Direções, Barreira de Selamento dos Quatro Cantos, Nove Selos Consumidores dos Dragões Fantasma, Rotação Instantânea Mútua do Hiraishin, Selo de Suprimento de Esquadrão.
+**Trabalhar em conjunto.** Fūinjutsu: Sanpō Fūin, Kekkai Shihō Fūjin, Fūinjutsu: Genryū Kyū Fūjin, Hiraishin: Sōgo Shunkan Kaiten, Buntai Fūin.
 
-**O ápice e o que ele cobra.** Estilo de Selamento dos Oito Trigramas, Selo do Consumo do Demônio Morto, Liberação do Selo do Consumo do Demônio Morto, Deus do Trovão Voador.
+**O ápice e o que ele cobra.** Hakke no Fūin Shiki, Shiki Fūjin, Shiki Fūjin: Kai, Hiraishin no Jutsu.

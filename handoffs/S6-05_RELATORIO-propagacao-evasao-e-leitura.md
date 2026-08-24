@@ -4,14 +4,24 @@ title: "RELATÓRIO — Propagação do Lote de Evasão e Leitura"
 sessao-de-origem: 6
 consome: briefing.propagacao-lote-evasao-e-leitura
 status: fechado
-version: 2
+version: 3
 ---
 
 # RELATÓRIO — Propagação do Lote de Evasão e Leitura
 
 Saída da execução dos quatro blocos do briefing `S6-04`, na ordem publicada, com a rodada de resoluções que Gabriel devolveu sobre a primeira versão deste relatório já aplicada.
 
-**O que mudou da v1 para a v2.** Sete itens estavam marcados e cinco foram resolvidos. Perfil Elevado e Segundo Passo ganharam conversão. Guy Noturno voltou para Inevitável, com a regra da precondição negável recebendo a emenda das quatro vias. As duas sobretaxas de RC foram recalculadas em vez de marcadas. O marcador de banda saiu de cena e entrou o Alcance categórico, campo novo em toda entrada. A camada de área sem geometria deixou de ser pendência, porque a degradação do Núcleo já cobre o caso. Restam quatro erratas abertas, e nenhuma delas é dívida desta passada.
+**O que mudou da v1 para a v3.** Sete itens estavam marcados e cinco foram resolvidos. Perfil Elevado e Segundo Passo ganharam conversão. Guy Noturno voltou para Inevitável, com a regra da precondição negável recebendo a emenda das quatro vias. As duas sobretaxas de RC foram recalculadas em vez de marcadas. O marcador de banda saiu de cena e entrou o Alcance categórico, campo novo em toda entrada. A camada de área sem geometria deixou de ser pendência, porque a degradação do Núcleo já cobre o caso. Restam quatro erratas abertas, e nenhuma delas é dívida desta passada.
+
+---
+
+## Colisão com a leva de nomenclatura, resolvida no merge
+
+Enquanto esta propagação corria, o `origin/main` do corpus avançou catorze commits com a leva de nomenclatura dos compêndios, que reescreveu o heading de toda entrada dos treze compêndios, renomeou as fichas de técnica com o prefixo do elemento, criou o `registro-de-nomes` e levou a Norma de Produção de Compêndios a v3.0. As duas levas tocaram os mesmos catorze arquivos.
+
+O merge foi feito sem force, e os corpos das entradas se juntaram sem conflito, porque uma leva mexeu nas linhas de heading e a outra nas linhas de campo. Os 491 campos de Alcance categórico e os 156 de Perfil de Evasão atravessaram inteiros, cada um sob o heading novo da entrada.
+
+O conflito real foi de numeração, em quinze arquivos. Catorze compêndios numeraram o mesmo degrau duas vezes para conteúdos diferentes, e cada um subiu **um degrau acima da mais alta das duas**, no procedimento que o Manual de Criação de Jutsus já aplicou três vezes. A Norma colidiu num degrau maior, v2.11 de um lado e v3.0 do outro, e fecha em **v3.1**, com os dois registros de alteração inteiros no corpo e a colisão nomeada. Nenhum lado perdeu linha.
 
 ---
 
@@ -23,9 +33,9 @@ Saída da execução dos quatro blocos do briefing `S6-04`, na ordem publicada, 
 | 2 | Manual de Criação de Jutsus de v3.4 a **v3.6**, com os sete trechos do briefing mais a emenda da precondição negável |
 | 3 | 12 caminhos e cláusulas convertidos, 4 tetos revogados, 14 declarações do degrau Veloz limpas, 2 RC recalculadas, 3 fichas de defesa reendereçadas, 4 entradas devolvidas fechadas, 2 leituras mortas corrigidas, 1 citação de seção reapontada |
 | 4 | **491** entradas com Alcance categórico, 156 com Perfil de Evasão, 147 com as três grandezas de área, 14 com Linhas simultâneas, 1 régua de Severidade |
-| — | Documentos versionados na passada: **44** |
+| — | Documentos versionados na passada: **44**, quinze deles renumerados no merge |
 
-`node tools/check-links.mjs` fecha em **192 documentos, 77 links resolvidos, 48 alvos previstos em 54 referências, sem quebra**. `node tools/lint-frontmatter.mjs` sai em 0.
+`node tools/check-links.mjs` fecha em **194 documentos, 125 links resolvidos, 48 alvos previstos em 54 referências, sem quebra**, já com a leva de nomenclatura mesclada. `node tools/lint-frontmatter.mjs` sai em 0.
 
 ---
 
@@ -241,12 +251,12 @@ Quatro, e nenhuma é dívida desta passada.
 
 **Núcleo.** `combat-core.md` v4, `status-effects.md` v2.10.
 
-**Sistemas do cenário.** `jutsu-authoring.md` v3.6, `reading-scale.md` v1 novo, `compendium-standard.md` v2.11, `eight-gates.md` v1.5, `rasengan-family.md` v1.8.
+**Sistemas do cenário.** `jutsu-authoring.md` v3.6, `reading-scale.md` v1 novo, `compendium-standard.md` v3.1, `eight-gates.md` v1.5, `rasengan-family.md` v1.8.
 
 **Perícias.** `skills/overview.md` v2.36, `katon.md` v4.3, `futon.md` v2.7, `raiton.md` v3.11, `yin-release.md` v4.5, `leque.md` v1.5, `common/skills/kenpo.md` v1.4.
 
 **Clã.** `uchiha-sharingan.md` v2.3.
 
-**Compêndios.** doton v2.10, eight-gates v1.10, forma v2.8, fuinjutsu v1.10, futon v4.14, genjutsu v1.5, inton v2.10, katon v5.13, kyuinjutsu v1.6, medical-ninjutsu v2.10, raiton v3.19, sensory v1.6, suiton v3.10, yoton v2.8.
+**Compêndios**, já com o degrau extra que o merge cobrou. doton v2.11, eight-gates v1.11, forma v2.9, fuinjutsu v1.11, futon v4.15, genjutsu v1.6, inton v2.11, katon v5.14, kyuinjutsu v1.7, medical-ninjutsu v2.11, raiton v3.20, sensory v1.7, suiton v3.11, yoton v2.9.
 
-**Fichas.** bunshin v2.1, chidori-eiso v2.2, hachimon-obras v1.3, hachimon-tonko v1.4, hiraishin-giri v1.4, hiraishin-ni-no-dan v1.2, jigoku-no-hane v1.3, kawarimi v2.1, kieru-rasengan v1.4, kirin v2.4, shiden v2.6, shunshin v2.1.
+**Fichas.** bunshin v2.1, chidori-eiso v2.2, hachimon-obras v1.3, hachimon-tonko v1.4, hiraishin-giri v1.4, hiraishin-ni-no-dan v1.2, katon-jigoku-no-hane v1.3, kawarimi v2.1, kieru-rasengan v1.4, kirin v2.4, shiden v2.6, shunshin v2.1.
