@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.15
+version: 3.17
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.15
+# Compêndio de Raiton (雷遁) · v3.17
 **Liberação de Raio**
 
 **O que mudou na v3.8.** As entradas passam a declarar o vetor de entrega e a celeridade do meio, pelo contrato que o Lote de Vetores fechou e que o Template de Documento de Técnica v4 publica. Vinte e seis entradas receberam vetor por classificação mecânica sobre a descrição publicada, nove não o receberam por não entregarem dano, e seis subiram para a fila de decisão por ambiguidade real. A celeridade de 150 é a do Raiton na escada de meios da Seção 5.7 do Manual de Criação de Jutsus, e vale para toda entrada que atravesse distância. Nenhum preço em XP foi regenerado nesta passada, pela razão registrada na fila de errata.
@@ -336,7 +336,7 @@ Sem Sharingan ativo, a execução concede ao oponente uma janela de contra-ataqu
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 74 · Caminho Ponta · Chidori · arma branca empunhada
 **Vetor:** Corte, Grau IV do Fio · Celeridade 150
-**XP:** 8.750
+**XP:** 6.533
 
 O usuário transfere para a lâmina empunhada a corrente que o Chidori comprime na palma, e o aço passa a conduzir a carga ao longo de todo o fio. A vibração de alta frequência atravessa placa, guarda e arma interposta sem perder velocidade, o que retira do oponente a opção de aparar, e o golpe entrega o corte e a descarga no mesmo movimento. A lâmina mantida cravada no alvo continua alimentando a corrente e admite elevação para Paralisia Total. A dependência do objeto é o preço da entrada, e arma inimiga que carregue fluxo de raio detém o fio pelo confronto de mesma natureza.
 
@@ -350,7 +350,7 @@ O usuário transfere para a lâmina empunhada a corrente que o Chidori comprime 
 **Vetor:** Energia elétrica · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
-**XP:** 11.000
+**XP:** 4.900
 
 O usuário irradia a corrente do Chidori pela superfície do corpo inteiro em vez de concentrá-la na mão, criando um campo elétrico de curto alcance ao seu redor. O campo atinge simultaneamente todos os oponentes em contato ou em proximidade imediata, e a corrente percorre lâminas, armas e superfícies condutoras que toquem o usuário. A ausência de avanço linear dispensa a janela de contra-ataque da técnica original, e a aplicação sustentada sobre alvo em contato prolongado admite elevação para Paralisia Total.
 
@@ -362,7 +362,7 @@ O usuário irradia a corrente do Chidori pela superfície do corpo inteiro em ve
 **Acesso:** Requisito Mecânico
 **Requisitos:** Raiton LV5 · Moldagem 78 · Caminho Lança · Chidori
 **Vetor:** Penetração, Grau V · Celeridade 150
-**XP:** 11.000
+**XP:** 7.467
 
 O usuário estende a corrente do Chidori em uma lança de eletricidade moldada, alongando o alcance efetivo da técnica sem perder a densidade de perfuração. A lança é flexível durante a extensão, permitindo curvas de trajetória e ataques a partir de ângulos que a investida direta não alcança. A distância obtida resolve a exposição da técnica original, uma vez que o executante perfura sem precisar cruzar o espaço que o separa do alvo.
 
@@ -376,7 +376,7 @@ O usuário estende a corrente do Chidori em uma lança de eletricidade moldada, 
 **Vetor:** Penetração, Grau V · Celeridade 150
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
-**XP:** 11.000
+**XP:** 4.000
 
 O usuário fragmenta a corrente reunida em dezenas de agulhas de eletricidade disparadas em sucessão rápida contra o alvo. A dispersão troca a perfuração concentrada por cobertura de área e por múltiplos pontos de aplicação do rider, saturando a capacidade de esquiva do oponente. As agulhas conservam velocidade suficiente para atravessar proteções leves e são empregadas com frequência para incapacitar sem matar.
 
@@ -389,7 +389,7 @@ O usuário fragmenta a corrente reunida em dezenas de agulhas de eletricidade di
 **Requisitos:** Raiton LV5 · Moldagem 76 · Caminho Lança
 **Vetor:** Energia elétrica · Celeridade 150
 **Elevação:** Kyōka Shiden manifestada, que conserva o multiplicador comum do elemento e eleva a celeridade de 150 para 165 pelo eixo de Entrega, e abre a inclinação de extensão Agudo da Perícia de Raiton
-**XP:** 11.000
+**XP:** 13.333
 
 O usuário concentra chakra de raio de coloração violeta e o dispara de uma única mão em descarga contínua, sem a necessidade de investida corporal. A técnica alcança poder comparável ao das grandes perfurações do elemento operando inteiramente à distância, o que a torna acessível a quem não dispõe da percepção ampliada exigida para a investida linear. A corrente também pode ser conduzida por uma lâmina segurada pelo executante, convertendo a arma em extensão do disparo.
 
@@ -488,7 +488,7 @@ O usuário molda relâmpago negro na forma de uma pantera que avança de forma a
 **Acesso:** Requisito de Segurança
 **Requisitos:** Raiton LV6 · Moldagem 89 · Caminho Ponta · Chidori
 **Vetor:** Penetração, Grau VI · Celeridade 150
-**XP:** 23.600
+**XP:** 12.143
 
 O usuário eleva a concentração do Chidori até o ponto em que a corrente deixa de se comportar como descarga e passa a operar como lâmina, capaz de cortar o próprio relâmpago ao meio. A densidade alcançada atravessa defesas de chakra que suportariam a versão original da técnica, e a perfuração deixa de depender da massa investida para depender da precisão do corte. O nome da técnica registra o feito que a originou.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.shiden
 title: "Shiden — Relâmpago Púrpura (紫電)"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -68,7 +68,11 @@ A técnica é transmissível por ensino a qualquer praticante que reúna os requ
 
 ## Custo de XP
 
-**Custo de XP:** 11.000
+**Custo de XP:** 13.333
+
+**Errata de preço.** O custo passa de 11.000 para 13.333 XP. A causa é mudança de régua e não de RC: a posição dentro da faixa do rank deixou de ser lida pelo volume de reserva e passou a ser lida pela entrega contra o par do rank, medida no executor de referência, com o modificador de coeficiente técnico pagando o peso da maestria fora da posição. Esta ficha é a última da família a receber a errata, que passou pelas demais sem alcançá-la. A entrega desta obra fecha em 65,6% do par Especial, acima do piso de 65% do rank seguinte, e a posição trava em 100% da faixa pela cláusula da Seção 4.1.3 do Manual de Criação de Jutsus, que limita a posição a esse valor. O modificador de 0,667 incide sobre o resultado. Quem já comprou a técnica não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
+
+A faixa do rank A tem topo por construção, e ele é o piso do rank S: o denominador da posição é a diferença entre o piso do próprio rank e o do seguinte, e apenas o rank S carece de rank seguinte, caso que aquela seção resolve à parte lendo o intervalo até a entrega integral do par. Uma obra de rank A que entregue acima de 65% do par está entregando trabalho de rank S e paga o topo da própria faixa, que é o que a trava exprime.
 
 ---
 
