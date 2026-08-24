@@ -164,8 +164,18 @@ Os 175 pontos manuais, por arquivo:
  1  docs/architecture/ROTEIRO_LINHAGEM_DE_TECNICAS.md
 ```
 
-**A ficha salva guarda identificador.** `characters.data` é JSONB e carrega
-`techniques: string[]` com esses ids, lidos em `ContextoFrom.ts:164`. Migração de `id` sem
+**Recorte desta varredura, e o que ele deixou de fora.** As contagens acima varreram
+`.ts`, `.tsx`, `.mjs` e `.md`, e não `.json` fora do gerado. A execução da fase 2 achou
+mais treze ocorrências em dois arquivos de dado escritos à mão que este recorte não
+alcançava, `eight-gates-ladder.json` e `provenance.json`. Varredura de referência
+cruzada cobre toda extensão que carrega dado, e a lista de extensões entra no relatório
+junto com o número.
+
+**A ficha salva guarda identificador.** `characters.data` é JSONB. A primeira leitura
+desta medição disse que o campo era `techniques`, e estava errada: `techniques` é vista
+derivada, montada para `CharacterContext`, e o que o dado gravado carrega é
+`data.expansions[].id`, com técnica, vantagem e expansão de jujutsu no mesmo array. A
+migração escrita sobre o campo errado teria casado zero linhas e saído verde. Migração de `id` sem
 migração de dado desliga em silêncio toda técnica de toda ficha já gravada. Existe
 precedente para o formato da migração em
 `20260719000000_rename_ninjas_chronicles_ruleset_to_naruto.sql`, que já reescreve
