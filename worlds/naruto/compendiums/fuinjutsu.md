@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.fuinjutsu
 title: "Compêndio de Fūinjutsu"
-version: 1.8
+version: 1.10
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Fuinjutsu_v1.md
 ---
 
-# Compêndio de Fūinjutsu · v1.8
+# Compêndio de Fūinjutsu · v1.10
 
 **O que mudou na v1.3.** Primeira auditoria completa da Exigência de Moldagem: 39 das 42 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Duas ficam sem edição por não terem portão de moldagem próprio: Rotação Instantânea Mútua do Hiraishin não declara nível nem degrau de Fūinjutsu na entrada, herdando o portão de Deus do Trovão Voador sem republicá-lo; Juinjutsu de Orochimaru não tem portão nenhum, porque quem recebe a marca não a adquire nem a executa. Nenhuma das duas precisava de correção — ambas já estavam corretas por não se aplicarem.
 
@@ -23,7 +23,17 @@ Catálogo das técnicas nomeadas da arte do selamento, da etiqueta explosiva que
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
-**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
+**O que mudou na v1.9.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**Perfil de Evasão, ausência encerrada.** A Seção 6.5 do Manual de Criação de Jutsus fechou em v3.5 e a escada parou de se mover: quatro degraus, propriedade de construção, sem elevação por caminho, por transcendência, por circunstância ou por estado do executor. A leitura falseada que quatro entradas do repasse reivindicavam saiu da escada e virou régua com dono, a Régua de Leitura do cenário. Com as duas coisas fechadas, as entradas classificadas por vetor passam a declarar o Perfil, lido da própria prosa e sem consultar ficha de executor. Padrão é o valor de omissão, e entrada cuja prosa não sustente Telegrafado, Teleguiado ou Inevitável o recebe sem marcação.
+
+**O que mudou na v1.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair.
 
 **O que mudou na v1.6.** O Selo do Consumo do Demônio Morto sai da fila de decisão da fase 2 e declara vetor nenhum, com a razão publicada na própria entrada.
 
@@ -51,6 +61,8 @@ O selamento se organiza em dois tempos, e o catálogo inteiro se lê por eles. E
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV1 · Moldagem 18
 **Vetor:** Impacto
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Telegrafado
 **XP:** 175
 
 O praticante inscreve sobre papel uma fórmula que guarda uma parcela de chakra em estado instável e a libera de uma vez quando a condição de disparo se cumpre. A etiqueta acesa queima por alguns segundos antes de detonar, e esse intervalo é a única janela que o alvo recebe. É o primeiro trabalho de selamento que qualquer academia ensina, e a maioria dos shinobi do mundo passa a vida inteira sem inscrever nenhum outro.
@@ -63,6 +75,7 @@ O limite é o papel. A etiqueta se molha, se rasga e queima antes da hora, e o a
 **Ketsu Fūin — 血封印**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV1 · Moldagem 18
 **XP:** 220
 
@@ -76,6 +89,7 @@ O limite é a origem. O selo lê o sangue e ignora a intenção, e um parente ho
 **Kiroku Fūin — 記録封印**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV1 · Moldagem 26 · Caminho Fórmula
 **XP:** 280
 
@@ -89,6 +103,7 @@ O limite é a revista. A marca na margem é visível a olho nu, e um selador com
 **Buntai Fūin — 分隊封印**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV1 · Moldagem 16
 **XP:** 130
 
@@ -108,8 +123,13 @@ O limite é a nomeação. A lista de sacadores é fixada na inscrição, e acres
 **Acesso:** Livre
 **Requisitos:** Fūinjutsu LV2 · Moldagem 32
 **Vetor:** Penetração, Grau III
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 600
 
 O praticante abre um pergaminho armado e libera de uma vez o conteúdo inteiro dele, convertendo armamento guardado em chuva de projéteis. O pergaminho se desenrola no ar em torno do corpo do executor, as armas saem em volume e trajetória declarados, e o que era logística vira ataque de área na mesma ação.
@@ -122,9 +142,13 @@ O limite é o gasto. O pergaminho esvazia por completo, e recarregá-lo é traba
 **Fūbaku Hōjin — 封縛法陣**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Fūinjutsu LV2 · Moldagem 34 · Caminho Armadilha
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 880
 
 O praticante distribui etiquetas de selamento por uma área preparada e as mantém inertes até que um selo de mão as desperte todas ao mesmo tempo. As fórmulas se erguem do chão, das paredes e dos troncos em que foram fixadas, convergem sobre quem estiver dentro do perímetro e o prendem no lugar, deixando os aliados livres para atacar um alvo que parou de se mover.
@@ -137,9 +161,13 @@ O limite é o terreno. A formação existe onde foi montada, e um adversário qu
 **Fūin Kaijo: Kamifubuki — 封印解除・紙吹雪**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Fūinjutsu LV2 · Moldagem 32 · Caminho Fórmula
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 720
 
 O praticante libera de uma vez um volume de folhas seladas e as espalha em suspensão pelo ar, produzindo uma cortina de papel que enche o espaço entre ele e o adversário. As folhas cortam pouco e obstruem muito, e cada uma delas pode ou não carregar uma fórmula, o que obriga quem estiver do outro lado a tratar todas como se carregassem.
@@ -152,9 +180,13 @@ O limite é o vento. Uma corrente de ar moderada dispersa a nevasca em um turno,
 **Bōon Fūin — 防音封印**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Campo
 **Requisitos:** Fūinjutsu LV2 · Moldagem 32
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 720
 
 Quatro fórmulas fixadas nos cantos de um cômodo fecham o que sai dele. O som morre na parede, o calor do chakra deixa de vazar para fora do batente e a leitura sensorial de quem estiver do lado de fora encontra um espaço vazio no lugar da sala. A conversa que acontece ali dentro existe apenas para quem está ali dentro.
@@ -167,6 +199,7 @@ O limite é a fixação. As quatro fórmulas ficam expostas nos cantos, e retira
 **Otori Fūin — 囮封印**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV2 · Moldagem 34 · Caminho Armadilha
 **XP:** 600
 
@@ -184,6 +217,7 @@ O limite é a leitura única. Um selador que já tenha aberto uma isca do mesmo 
 **Angō Fūin — 暗号封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV3 · Moldagem 46 · Caminho Exegese
 **XP:** 2.580
 
@@ -197,6 +231,7 @@ O limite é a coerência. O conteúdo falso é escrito uma vez e envelhece, e um
 **Kyōyū Fūin — 共有封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV3 · Moldagem 44 · Caminho Âncora
 **XP:** 2.120
 
@@ -210,6 +245,7 @@ O limite é o par. Um terceiro pergaminho exige nova inscrição de ambos, e o q
 **Kanshiki Fūin — 鑑識封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV3 · Moldagem 46 · Caminho Exegese
 **XP:** 1.775
 
@@ -223,6 +259,7 @@ O limite é a janela. A fórmula precisa alcançar o resto do selo antes que ele
 **Chien Fūin — 遅延封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV3 · Moldagem 44 · Caminho Armadilha
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
@@ -238,6 +275,7 @@ O limite é a previsibilidade. O intervalo é fixado na inscrição, e um advers
 **Bosshū Fūin — 没収封印**
 **[PROPOSTA — Rank C]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV3 · Moldagem 48 · Caminho Cerceamento
 **XP:** 3.155
 
@@ -255,6 +293,7 @@ O limite é a declaração. O objeto vedado é nomeado na inscrição, e a fórm
 **Fūka Hōin — 封火法印**
 **[CANON — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Apreensão · Katon LV3
 **XP:** 5.300
 
@@ -268,6 +307,7 @@ O limite é a natureza. O pergaminho lê fogo e nada mais, e a reemissão exige 
 **Fūinjutsu: Koshi Tandan — 封印術・虎視眈弾**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV4 · Moldagem 62 · Caminho Armadilha · técnica de tinta
 **XP:** 5.300
 
@@ -281,6 +321,7 @@ O limite é a atenção. O praticante que sofre interrupção perde o desenho e 
 **Fūin Teppeki — 封印鉄壁**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (País do Fogo)
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV4 · Moldagem 58 · Caminho Armadilha
 **XP:** 4.625
 
@@ -296,6 +337,11 @@ O limite é a imobilidade. A muralha existe onde foi inscrita, e o que a contorn
 **Acesso:** Patrimônio de Vila (Konohagakure)
 **Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Confinamento · Kage Bunshin no Jutsu
 **Vetor:** Impacto
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
+**Perfil de Evasão:** Padrão
 **XP:** 6.200
 
 Três executores fecham um triângulo em volta do alvo e formam o selo ao mesmo tempo. Uma figura de luz se ergue entre eles, prende o que estiver no centro e o lança aos céus, deixando no chão uma cratera do tamanho da formação. A técnica resolve em uma única ação o que o caminho Confinamento resolve em ritual, e paga essa velocidade com o número de corpos que precisa pôr em campo.
@@ -308,6 +354,7 @@ O limite é a formação. Um dos três vértices que caia antes do fechamento de
 **Tekkō Fūin — 鉄甲封印**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Kumogakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV4 · Moldagem 58 · Caminho Cárcere
 **XP:** 6.200
 
@@ -321,6 +368,7 @@ O limite é a escala. O selo sustenta o que carrega e não sustenta mais que iss
 **Kaija Hōin — 封邪解印**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Exegese
 **XP:** 5.300
 
@@ -334,6 +382,7 @@ O limite é a fidelidade. A fórmula devolve o estado exato que o selo guardava,
 **Jibaku no Juin — 自縛の呪印**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV4 · Moldagem 60 · Caminho Coerção
 **XP:** 4.625
 
@@ -347,6 +396,7 @@ O limite é a liberação. Uma descarga suficientemente forte de chakra rompe as
 **Gisō Fūin — 偽装封印**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV4 · Moldagem 62 · Caminho Fórmula
 **XP:** 6.200
 
@@ -364,6 +414,7 @@ O limite é a passagem única. A costura falsa absorve um desequilíbrio e se de
 **Gogyō Fūin — 五行封印**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV5 · Moldagem 78 · Caminho Cerceamento
 **XP:** 11.000
 
@@ -377,6 +428,7 @@ O limite é a paridade. O selo alvo precisa ser par para que o desequilíbrio se
 **Gogyō Kaiin — 五行解印**
 **[CANON — Rank A]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV5 · Moldagem 76 · Caminho Exegese
 **XP:** 9.200
 
@@ -390,6 +442,7 @@ O limite é o patamar. A fórmula alcança selos de poder comparável ao do exec
 **Fūja Hōin — 封邪法印**
 **[CANON — Rank A]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV5 · Moldagem 78 · Caminho Absolvição · sangue do inscritor
 **XP:** 11.000
 
@@ -403,9 +456,13 @@ O limite é a vontade alheia. A supressão vale enquanto o portador quiser que v
 **Fūinjutsu: Shishi Heikō — 封印術・獅子閉哮**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
+**Alcance categórico:** Área
 **Requisitos:** Fūinjutsu LV5 · Moldagem 76 · Caminho Cerceamento
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 12.800
 
 A fórmula é desenhada no solo ou na parede antes do combate e fecha todos os tenketsu de quem estiver dentro dos limites dela. O efeito atinge o espaço e não o corpo, e por isso alcança quantos alvos couberem na área traçada, cortando o fluxo de chakra de um esquadrão inteiro com uma única inscrição.
@@ -418,6 +475,7 @@ O limite é a borda. O que estiver com um pé fora da linha permanece inteiro, e
 **Shishō Fūin — 四象封印**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV5 · Moldagem 82 · Caminho Cárcere · Repertório do Selamento
 **XP:** 15.200
 
@@ -431,9 +489,13 @@ O limite é a paridade exposta. Quatro é par, e a fórmula que se anuncia par c
 **Ura Shishō Fūin — 裏四象封印**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
+**Alcance categórico:** Área
 **Requisitos:** Fūinjutsu LV5 · Moldagem 80 · Caminho Coerção
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.200
 
 O praticante grava a fórmula no próprio peito e a configura para disparar com a morte dele. No instante em que o coração para, quatro símbolos emergem do cadáver, fecham uma esfera negra sobre a área em volta e selam para dentro do corpo tudo o que estiver dentro dela, incluindo quem acabou de matá-lo.
@@ -446,6 +508,10 @@ O limite é a preparação. A fórmula é inscrita com antecedência, em ritual 
 **Uzumaki Fūin — うずまき封印**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Fūinjutsu LV5 · Moldagem 74 · Caminho Confinamento
 **XP:** 12.800
 
@@ -459,6 +525,7 @@ O limite é a assinatura. A fórmula anuncia o autor antes de fechar, e o clã p
 **Juzetsu Kōjin — 呪舌抗印**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV5 · Moldagem 76 · Caminho Coerção
 **XP:** 12.800
 
@@ -472,6 +539,10 @@ O limite é o escopo declarado. A vedação alcança o que a inscrição nomeou,
 **Kekkai Shihō Fūjin — 結界四方封陣**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
+**Alcance categórico:** Campo
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Fūinjutsu LV5 · Moldagem 80 · Caminho Cárcere · Barreira LV4 · quatro executores · quatro pergaminhos · amostra de sangue do alvo
 **XP:** 18.200
 
@@ -485,6 +556,7 @@ O limite é a formação viva. Um dos quatro que caia derruba a barreira inteira
 **Ikigi no Kagi — 生鍵**
 **[PROPOSTA — Rank A]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV5 · Moldagem 72 · Caminho Âncora · contrato de invocação ativo
 **XP:** 12.800
 
@@ -502,6 +574,7 @@ O limite é a mortalidade. A criatura que morre leva a chave com ela, e o selo s
 **Hakke no Fūin Shiki — 八卦の封印式**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Transmissão Direta (clã Uzumaki)
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV6 · Moldagem 104 · Caminho Cárcere aprofundado · Repertório do Selamento
 **XP:** 45.500
 
@@ -515,6 +588,10 @@ O limite é a chave. A fórmula exige um registro externo que a afrouxe e a reap
 **Fūinjutsu: Genryū Kyū Fūjin — 封印術・幻龍九封尽**
 **[CANON — Rank S]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Fūinjutsu LV6 · Moldagem 100 · Caminho Cárcere · nove executores · Kuchiyose: Gedō Mazō
 **XP:** 38.000
 
@@ -528,9 +605,13 @@ O limite é o receptáculo. A técnica existe apenas onde a estátua estiver, e 
 **Senpō: Myōjinmon — 仙法・明神門**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Hashirama Senju) · Registrada
+**Alcance categórico:** Área
 **Requisitos:** Fūinjutsu LV6 · Moldagem 96 · Caminho Cárcere · Senjutsu LV1
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 45.500
 
 O praticante em Modo Eremita faz descer do alto portais vermelhos de dimensão colossal, que caem sobre o alvo e o prendem entre a trave e o solo. A fórmula é o próprio portal, e o peso dela é suficiente para conter entidades que nenhuma corrente, nenhuma prisão e nenhum receptáculo deste catálogo seguraria.
@@ -551,6 +632,7 @@ A coluna de magnitude destas entradas é a Perícia de Passagem v1, publicada. O
 **Hiraishin no Jutsu — 飛雷神の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
+**Alcance categórico:** Alvo
 **Requisitos:** Passagem LV6 · Fūinjutsu LV4 · Moldagem 62 · Caminho Âncora
 **XP:** 32.000
 
@@ -566,6 +648,7 @@ O limite é a marca. O praticante alcança o que inscreveu e nada além disso, e
 **Hiraishin: Ni no Dan — 飛雷神・弐の段**
 **[CANON — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
+**Alcance categórico:** Alvo
 **Requisitos:** Deus do Trovão Voador · Passagem LV5 · Fūinjutsu LV4 · Moldagem 64
 **XP:** 9.200
 
@@ -581,6 +664,8 @@ O limite é o arremesso. A lâmina precisa chegar, e um adversário que a desvie
 **Acesso:** Assinatura Pessoal (Tobirama Senju) · Registrada
 **Requisitos:** Deus do Trovão Voador · perícia de arma LV5 · Fūinjutsu LV4 · Moldagem 64
 **Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Inevitável, com a marca inscrita no alvo como precondição negável
 **XP:** 11.000
 
 O praticante atravessa até a marca com a lâmina já em movimento e o corte se completa no mesmo instante da chegada. A travessia e o golpe ocupam um único ato, e por isso o alvo recebe o ferimento antes de registrar a presença de quem o feriu. Nem um dōjutsu capaz de antecipar movimento oferece tempo de reação, porque não existe movimento a antecipar.
@@ -593,6 +678,7 @@ O limite é a marca no alvo. O corte alcança onde a fórmula estiver, e um adve
 **Hiraishin: Sōgo Shunkan Kaiten — 飛雷神・相互瞬間回転**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Deus do Trovão Voador · marca recíproca inscrita · Passagem LV5
 **XP:** 15.200
 
@@ -614,6 +700,8 @@ O limite é a reciprocidade. As duas marcas precisam existir, e a morte de um do
 **Acesso:** Transmissão Direta (clã Uzumaki)
 **Requisitos:** Fūinjutsu LV6 · Moldagem 100 · Caminho Cárcere · a vida do executor
 **Vetor:** nenhum, o efeito retira o alvo de cena em vez de fazer tecido falhar
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** não aplicável, a entrada não resolve teste de conexão
 **XP:** 55.000
 
 O praticante forma o selo e o Shinigami se ergue atrás dele, invisível para todos os demais. A mão do deus atravessa o corpo do executor, alcança a alma do alvo e a arranca, e as duas almas são recolhidas para dentro do ventre da entidade, onde permanecem trancadas uma diante da outra por toda a eternidade. O corpo do executor cai no mesmo instante.
@@ -628,6 +716,7 @@ A entrada não declara vetor porque não há tecido falhando, há um alvo saindo
 **Shiki Fūjin: Kai — 屍鬼封尽・解**
 **[ATRIBUÍDO — Rank S · Kinjutsu]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Alvo
 **Requisitos:** Fūinjutsu LV6 · Moldagem 96 · máscara do Templo das Máscaras Uzumaki · sacrifício ritual
 **XP:** 50.000
 
@@ -645,6 +734,7 @@ O limite é a máscara. O objeto é único, está em um lugar só e não admite 
 **Ten no Juin e Chi no Juin — 天の呪印 · 地の呪印**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Transmissão Direta (Orochimaru)
+**Alcance categórico:** Alvo
 **Requisitos:** receptor compatível · aplicação por mordida do detentor
 **XP:** o preço pertence ao documento do aplicador, porque o receptor não adquire e não executa
 

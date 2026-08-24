@@ -1,7 +1,7 @@
 ---
 id: naruto.system.eight-gates
 title: "Oito Portões (八門)"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: system
@@ -101,7 +101,7 @@ Cada portão acrescenta um verbo que os inferiores não possuem, e o verbo perma
 | 7 | o taijutsu puro do praticante eleva a categoria de entrega de contato para área, projetando a sobrepressão do corpo à distância |
 | 8 | o Limite de Saída deixa de existir, e o taijutsu puro sobe um segundo degrau no Perfil de Evasão |
 
-**Teto de degraus no Perfil de Evasão.** A escada dos portões concede no máximo dois degraus, no sexto e no oitavo. Nenhuma outra fonte soma um terceiro sobre a mesma técnica, e o degrau Inevitável alcançado pelo oitavo portão tem como condição estrutural declarada o estado terminal do próprio portão, conforme a seção 8.
+**Teto de degraus no Perfil de Evasão, revogado.** A cláusula que limitava a escada dos portões a dois degraus perdeu efeito com a revogação da acumulação de posições, e não recebe substituto porque não existe mais acumulação a limitar: o Manual de Criação de Jutsus declara na seção 6.5 que o degrau é propriedade de construção e que nenhum estado do executor move uma técnica de degrau. O degrau Inevitável que o oitavo portão alcançava continua declarando o estado terminal do próprio portão como precondição, conforme a seção 8. A forma que os verbos do sexto e do oitavo portão passam a tomar diante de uma escada que não se move em jogo é errata aberta, registrada na seção 11.
 
 ---
 
@@ -297,6 +297,8 @@ A perícia de corpo, quando nascer, recebe deste documento a coluna de acesso e 
 
 **Pendências registradas.**
 
+Os verbos do sexto e do oitavo portão elevam o Perfil de Evasão do taijutsu puro do praticante, e o Manual de Criação de Jutsus v3.5 fechou a escada a toda elevação em jogo, nomeando o estado do executor entre as fontes que não a movem. A propriedade que os dois verbos mediam é velocidade crua de membro, que hoje é grandeza própria e vive na cadeia da seção 5.7 daquele manual, e o eixo corporal sem chakra não tem entrada naquela cadeia. Nem a leitura do adversário nem a multiplicidade descrevem o que os dois verbos fazem, de modo que a conversão não sai de regra e a decisão é de desenho. Os dois verbos permanecem escritos como estavam até que ela venha.
+
 O eixo físico não possui camada equivalente ao Sistema Elemental, e o Índice de Perícias registra essa ausência como o bloqueio da perícia de corpo. As três réguas da seção 6 nascem aqui porque este documento é o dono do subsistema que faltava, e a decisão segue a regra do Manual de Criação de Perícias de fazer o subsistema ausente nascer no documento dono. Quando a camada física geral for publicada, ela absorve as três réguas e este documento passa a citá-las em vez de sustentá-las.
 
 ~~A vantagem Output Elevado declara incompatibilidade com as Oito Portas e remete a legislação a este documento. A seção 4 legisla e o resultado é convivência com leitura pelo maior, nunca soma. A nota daquele documento entra em errata para apontar a resolução.~~ — **aplicada na v1.1**, no catálogo de vantagens do cenário v1.1.
@@ -314,6 +316,8 @@ Duas leituras deste documento estavam erradas contra o manual que ele consome, e
 ---
 
 ## 12. Registro de Alterações
+
+**v1.5.** O teto de dois degraus no Perfil de Evasão fica revogado, sem substituto, porque a acumulação que ele limitava foi revogada pela Seção 6.5 do Manual de Criação de Jutsus. Os verbos do sexto e do oitavo portão continuam escritos como estavam, e a errata que eles abrem entra na seção 11: a escada não admite mais elevação por estado do executor, e a propriedade que os dois verbos mediam é velocidade crua, grandeza que o eixo corporal sem chakra ainda não sabe ler. Nenhuma magnitude, tabela, exigência de acesso, sequela ou preço mudou.
 
 **v1.4.** O verbo do quinto portão deixa de citar a contagem de múltiplos ataques por `VEL ÷ 15`, revogada pelo Núcleo de Combate v3, e passa a declarar que a razão de Cadência lê a VEL amplificada. A reação adicional permanece, e nenhum custo, magnitude, sequela ou preço mudou.
 

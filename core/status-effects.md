@@ -1,7 +1,7 @@
 ---
 id: core.status-effects
 title: "Sistema de Efeitos de Status"
-version: 2.9
+version: 2.10
 layer: core
 type: system
 status: final
@@ -76,6 +76,8 @@ Para golpes físicos: atributos da vítima multiplicados por (1 menos dano divid
 Para técnicas ativas com custo de chakra: atributos da vítima multiplicados por (1 menos a RC nominal da técnica dividida pela RC máxima do atacante). A grandeza lida é a RC nominal, e não o custo pago, porque o desperdício do executor não alcança o alvo.
 
 Para presença passiva ou aura: teste oposto. Causador rola o atributo relevante, vítima rola o seu. A margem de vitória do causador determina o grau.
+
+Para fonte sem ficha, o chão que cede, a viga que desaba, o fogo que já ardia, a queda: a fonte declara na cena uma Severidade entre três valores, metade, igual ou o dobro do lado defensivo típico da faixa em que a cena corre, e é ela que ocupa o lado ofensivo do teste, pela Seção 14 do Núcleo de Combate. A leitura é relacional e não absoluta, de modo que a mesma tábua podre é trivial para um veterano e séria para um iniciante sem que a fonte precise de números diferentes para cada faixa. Nenhuma entrada deste catálogo publica Severidade própria, porque quase toda condição aqui admite fonte com ficha e fonte sem ficha, e a grandeza pertence à fonte e não à condição.
 
 Para imposição de genjutsu: o motor de imposição publicado na perícia Genjutsu, que opõe a soma de VON e SAB da vítima, comprimida pelo investimento de RC do praticante e pela eficiência derivada do teste daquela perícia. Sempre que a fonte for genjutsu, este motor governa o par de atributos testado e a leitura de grau, prevalecendo sobre o par declarado na entrada do efeito, que segue válido para as demais fontes. As entradas alcançadas por esta regra são Confusão, Alucinação, Medo, Terror, Pânico, Paranoia, Sono e Provocação Forçada. Intimidação Gravada e Trauma Psicológico não são impostas no ato por genjutsu, e chegam apenas pela persistência declarada no caminho Verossimilhança daquela perícia.
 
@@ -306,7 +308,7 @@ Fonte: físico ou mágico.
 Atributos testados: VEL + RES
 Alvo do teste físico: (VEL + RES) x (1 - dano / PV máximo da vítima)
 Alvo do teste para técnica: (VEL + RES) x (1 - RC nominal da técnica / RC máxima do atacante)
-Atributo afetado: VEL. Afeta Esquiva (VEL + DES) e Reação (VEL + SAB) automaticamente em cascata.
+Atributo afetado: VEL. Afeta em cascata o lado defensivo do teste de conexão (VEL + DES + bônus de esquiva) e a Iniciativa (VEL + SAB + 1d6). O sistema não publica teste de Reação, e a linha anterior citava um par que pertence à Iniciativa.
 
 Grau Leve: redução de 15% em VEL. O personagem nota a diferença mas ainda age razoavelmente. Duração de 3 turnos.
 

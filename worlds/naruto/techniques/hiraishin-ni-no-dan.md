@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hiraishin-ni-no-dan
 title: "Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)"
-version: 1.1
+version: 1.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -89,9 +89,11 @@ A âncora em voo não sustenta as faixas superiores da linhagem. O esquadrão e 
 
 ## Interação com Defesas
 
-O golpe entregue no turno da chegada sobe um degrau na escada de Perfil de Evasão da Seção 6.5 do Manual de Jutsus, uma vez por alvo por combate. A elevação é categórica, vale para a técnica ou o ataque que o praticante executar naquele turno e se perde contra o alvo que já a tenha visto, porque o ângulo deixa de ser descartado depois de conhecido.
+A chegada declara a Régua de Leitura, `naruto.system.reading-scale`, na classe **Engano**: o segundo passo mostra um ângulo de aproximação e entrega outro. O alvo opõe a própria percepção ao teste de Fūinjutsu do praticante, que é a perícia governante desta linhagem, e quem falha perde a leitura do campo até o início do próprio turno. O golpe entregue no turno da chegada alcança então um alvo que gastou a Reação contra o ângulo que leu, e resolve sem contestação da conexão.
 
-A elevação não se acumula com a que caminho ou transcendência de perícia conceda à mesma técnica. Quando as duas fontes incidirem, vale a maior e o degrau permanece único.
+A familiaridade corrói, na régua de dez por cento cumulativo por chegada testemunhada que aquele documento publica, e é ela que traduz o ângulo deixar de ser descartado depois de conhecido. A cláusula anterior de uma vez por alvo por combate sai, porque a familiaridade passa a fazer esse trabalho com granularidade em vez de com interruptor.
+
+O degrau que a técnica ou o ataque do praticante publica não se move em ponto nenhum, porque a escada de Perfil de Evasão é propriedade de construção e nenhuma fonte a move em jogo.
 
 A lâmina em trânsito é objeto em campo e recebe o tratamento de qualquer projétil. Interceptá-la, bloqueá-la ou desviá-la anula a travessia antes que ela exista, e a RC declarada não é gasta. O verbo que resolve a interceptação em jogo é Interceptação, da Perícia de Kunai, caminho Salva, que executa Corte de Trajeto contra a lâmina marcada como faria contra qualquer projétil.
 

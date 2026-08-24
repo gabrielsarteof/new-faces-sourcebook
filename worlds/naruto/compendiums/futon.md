@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.12
+version: 4.14
 layer: scenario
 scenario: naruto
 type: compendium
@@ -22,7 +22,17 @@ Catálogo das técnicas nomeadas do elemento vento. Cada entrada informa o nome 
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
-**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
+**O que mudou na v4.13.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**Perfil de Evasão, ausência encerrada.** A Seção 6.5 do Manual de Criação de Jutsus fechou em v3.5 e a escada parou de se mover: quatro degraus, propriedade de construção, sem elevação por caminho, por transcendência, por circunstância ou por estado do executor. A leitura falseada que quatro entradas do repasse reivindicavam saiu da escada e virou régua com dono, a Régua de Leitura do cenário. Com as duas coisas fechadas, as entradas classificadas por vetor passam a declarar o Perfil, lido da própria prosa e sem consultar ficha de executor. Padrão é o valor de omissão, e entrada cuja prosa não sustente Telegrafado, Teleguiado ou Inevitável o recebe sem marcação.
+
+**O que mudou na v4.14.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair.
 
 **O que mudou na v4.7 e na v4.8.** As duas entradas de infusão sobre arma empunhada saem da fila de decisão da fase 2 e declaram Corte em Grau IV do Fio. O vetor de um golpe amplificado por uma natureza é o vetor do golpe que o carrega, precedente que o Compêndio de Yōton publica, e o Grau IV é definido como fio sem espessura de chakra moldado em lâmina, que é o gume invisível das duas. A tabela de Matéria Dura fecha o argumento, porque o Grau IV é o mínimo para morder pedra e o Fluxo de Chakra: Vento declara na prosa que a borda passa a mordê-la.
 
@@ -56,6 +66,7 @@ A celeridade declarada aqui é a do meio e não a Velocidade efetiva da obra. A 
 **Fūton: Soyokaze no Jutsu — 風遁・そよ風の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūton LV1 · Moldagem 30
 **XP:** 130
 
@@ -67,6 +78,7 @@ O usuário canaliza chakra de vento pelos lábios ou pela palma aberta e produz 
 **Fūton: Kaze Shunshin — 風遁・風瞬身**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Fūton LV1 · Moldagem 40 · Shunshin no Jutsu
 **XP:** 175
 
@@ -78,6 +90,7 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 **Fūton: Kazabuton — 風遁・風布団**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Fūton LV1 · Moldagem 42
 **XP:** 130
 
@@ -95,6 +108,8 @@ O usuário comprime uma almofada de ar sob o próprio corpo no instante que prec
 **Acesso:** Livre
 **Requisitos:** Fūton LV2 · Moldagem 32
 **Vetor:** Impacto · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 480
 
 O usuário expele pela boca uma rajada frontal compacta, a versão menor da Grande Ruptura. O sopro derruba um oponente de porte médio, varre projéteis leves da trajetória e abre caminho por vegetação e fumaça, com a potência variando conforme o fôlego e o chakra investidos. A técnica cumpre no arsenal o papel de entrada da família de pressão, o primeiro golpe no qual o praticante converte ar comprimido em força bruta antes de aprender a escalar o vendaval. Alvos atingidos são empurrados e podem cair, e a entrada não aplica o rider por não carregar fio de ar.
@@ -107,6 +122,8 @@ O usuário expele pela boca uma rajada frontal compacta, a versão menor da Gran
 **Acesso:** Livre
 **Requisitos:** Fūton LV2 · Moldagem 48
 **Vetor:** Corte, Grau II do Fio · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 600
 
 O usuário gera com as mãos um vórtice compacto de vento cortante que desce em diagonal sobre o alvo, no desenho do vento de montanha que dá nome à técnica. A rotação concentra fios de corte na superfície do funil, retalhando o que atravessa, e a trajetória descendente pune guardas altas e alvos em salto. A execução pelas mãos dispensa fôlego e instrumento, mantendo o usuário livre para encadear selos imediatamente após o disparo. A entrada representa no compêndio a camada dos jogos da franquia, onde a técnica figura no arsenal de vento das forças do deserto.
@@ -119,6 +136,8 @@ O usuário gera com as mãos um vórtice compacto de vento cortante que desce em
 **Acesso:** Livre
 **Requisitos:** Fūton LV2 · Moldagem 58
 **Vetor:** Corte, Grau II do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 600
 
 O usuário reveste a lateral da mão aberta com um fio contínuo de chakra de vento, convertendo o golpe de cutelo do taijutsu em corte real. O fio atravessa couro, madeira e carne desprotegida, e a manutenção discreta do revestimento faz da técnica a arma oculta clássica de quem luta desarmado, a mão vazia que de repente corta como lâmina. O alcance permanece o do próprio braço e o fio se desfaz ao aparar armas pesadas. A Tegatana é a entrada da família cortante para quem não empunha arma e o fundamento do qual derivam os cortes projetados dos ranks superiores. A entrada declara elevação de rider por borda.
@@ -129,6 +148,10 @@ O usuário reveste a lateral da mão aberta com um fio contínuo de chakra de ve
 **Fūton: Kaze no Tate — 風遁・風の盾**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Fūton LV2 · Moldagem 44
 **XP:** 480
 
@@ -146,8 +169,13 @@ O usuário comprime diante de si uma parede momentânea de ar denso no instante 
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 34
 **Vetor:** Impacto · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 2.120
 
 O usuário expele pela boca um vendaval frontal de grande escala, que varre tudo diante de si numa única onda de pressão. A potência cresce dramaticamente com a habilidade do executor, e o registro de databook compara a execução de um mestre a um furacão, com árvores arrancadas pela raiz e um campo inteiro achatado num sopro. Combatentes são arremessados, projéteis voltam contra quem os lançou e formações se desmancham sob a frente de ar. A Daitoppa é o padrão canônico da família de pressão e a régua pela qual a força bruta do vento é medida entre os cinco elementos.
@@ -160,6 +188,8 @@ O usuário expele pela boca um vendaval frontal de grande escala, que varre tudo
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 34
 **Vetor:** Impacto · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 1.775
 
 O usuário bate as palmas e comprime o ar entre elas num golpe de vendaval que dispara à frente, com força suficiente para derrubar um combatente e arrastá-lo pelo chão. O gesto curto e a preparação mínima fazem da técnica a resposta de pressão mais rápida do arsenal, e seu uso registrado mais letal é o composto: arremessada em conjunto com shuriken e kunai, a rajada multiplica a velocidade dos projéteis e converte ferramentas comuns em tiros perfurantes. A Reppūshō é a ponte natural entre a família de pressão e o arsenal de arremesso do shinobi.
@@ -172,6 +202,8 @@ O usuário bate as palmas e comprime o ar entre elas num golpe de vendaval que d
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV3 · Moldagem 62 · Leque LV1 · leque de guerra empunhado
 **Vetor:** Corte, Grau III do Fio · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 2.120
 
 O usuário golpeia com o leque gigante e faz correntes de vento colidirem entre si, criando bolsões de vácuo que retalham o que envolvem. O alvo apanhado pela rajada é erguido do chão e talhado por incontáveis lâminas invisíveis, e o registro documenta o controle fino que a técnica exige: a intensidade do corte é calibrável ao ponto de abrir a armadura de um samurai sem ferir o homem dentro dela, e a forma do vento é moldável em tornados que arremessam ao alto. A técnica é a âncora da família cortante do elemento e pertence à tradição de leque que as forças do deserto guardam como patrimônio. A entrada declara elevação de rider por borda.
@@ -184,6 +216,8 @@ O usuário golpeia com o leque gigante e faz correntes de vento colidirem entre 
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 50
 **Vetor:** Corte, Grau II do Fio · Celeridade 112
+**Alcance categórico:** Linha
+**Perfil de Evasão:** Padrão
 **XP:** 1.430
 
 O usuário projeta com o braço uma lâmina arqueada de vento comprimido, que viaja em linha e corta o que atravessa na altura escolhida. O arco mantém o fio por toda a trajetória, seccionando vegetação, hastes de arma e defesas leves, e o disparo em sequência satura corredores inteiros de linhas de corte. O registro canônico traz a técnica executada em massa por destacamentos inteiros contra alvos de grande porte, tanto para cortar quanto para conter torrentes de vento adversárias. O Kazekiri é o corte de média distância padrão de quem luta de mãos livres. A entrada declara elevação de rider por borda.
@@ -196,6 +230,8 @@ O usuário projeta com o braço uma lâmina arqueada de vento comprimido, que vi
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV3 · Moldagem 62
 **Vetor:** Corte, Grau II do Fio · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 2.120
 
 O usuário tece fios de vento cortante numa malha ampla e a lança sobre o alvo, que é envolvido pela rede em fechamento. Cada fio da trama carrega fio de lâmina, e o alvo capturado é retalhado pela própria malha ao se debater, enquanto a rede prossegue se fechando até imobilizar o que restou. A técnica captura e pune no mesmo gesto, identidade dupla rara no rank, e o registro pertence às colaborações de campo do deserto na Quarta Guerra. A abertura da malha em pleno voo exige leitura de distância precisa, o refinamento que separa a captura limpa do arremesso perdido. A entrada declara elevação de rider por borda.
@@ -208,6 +244,8 @@ O usuário tece fios de vento cortante numa malha ampla e a lança sobre o alvo,
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV3 · Moldagem 50 · arma branca empunhada
 **Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 1.775
 
 O usuário canaliza chakra de vento por uma lâmina ou arma empunhada, estendendo o fio físico com um gume invisível de vento que multiplica o corte e o alcance da arma. Uma faca curta alcança como espada, a borda passa a morder pedra e metal, e o gume estendido atravessa defesas que a lâmina nua jamais venceria. O comprimento e a densidade da borda respondem ao volume canalizado, o que torna alcance e tempo do golpe difíceis de antecipar. A técnica é a ponte formal do elemento com o bukijutsu e fundamenta a Lâmina de Vácuo de rank superior. A entrada declara elevação de rider por borda.
@@ -220,8 +258,13 @@ O usuário canaliza chakra de vento por uma lâmina ou arma empunhada, estendend
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 46
 **Vetor:** Corte, Grau I do Fio · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 1.775
 
 O usuário expele pela boca um jato de vento saturado de partículas abrasivas, que avança como uma frente de tempestade de areia em miniatura. A nuvem lixa superfícies, morde a pele exposta e força os olhos do alvo a se fechar, cegando a linha frontal inteira pelo tempo da passagem. O ofuscamento é efeito próprio da entrada, com área e duração declaradas, e não se soma ao rider. A técnica expressa o princípio canônico de que o vento lança partículas ao ar, e é a versão portátil da tempestade perfurante que o elemento ergue em escala de campo nos ranks superiores.
@@ -232,9 +275,13 @@ O usuário expele pela boca um jato de vento saturado de partículas abrasivas, 
 **Fūton: Tōri Taifū — 風遁・通り台風**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Fūton LV3 · Moldagem 46
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 1.775
 
 O usuário produz uma frente de vento larga e curta que atravessa o campo limpando o ar por onde passa. Névoa, fumaça, cinza, pólen e gás suspenso são varridos por completo da área alcançada, incluindo os que foram instalados por técnica alheia, e o registro canônico documenta a dissipação de uma cortina de névoa erguida por um mestre daquele ofício. A técnica não fere e não empurra o bastante para derrubar, e existe pela função que nenhuma outra cumpre, devolver visibilidade a um campo que o inimigo tinha fechado. O nome é idiomático e evoca o céu limpo que sucede a passagem da tempestade.
@@ -251,8 +298,13 @@ O usuário produz uma frente de vento larga e curta que atravessa o campo limpan
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV4 · Moldagem 66 · Caminho Rajada · Leque LV4 · Caminho Rede Cortante (Leque) · leque de guerra empunhado
 **Vetor:** Corte, Grau III do Fio · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 6.200
 
 O usuário desfere o golpe pleno do leque gigante e ergue a Foice de Doninha à escala de área, com a frente de vácuos cortantes avançando e devastando tudo dentro do arco. O registro documenta uma floresta nivelada e uma posição fortificada desfeita num único golpe. A violência do vendaval dissipa até genjutsu sonoro, rasgando o meio pelo qual o som viaja, e essa dissipação lê o canal de entrega declarado na ficha da obra atingida, desfazendo obra instalada por canal sonoro conforme a classe de quebra registrada ali e não alcançando obra instalada por canal ocular ou tátil. A técnica figura entre os poucos ataques de arsenal comum que sustentaram embate direto contra uma armadura espiritual completa. A entrada declara elevação de rider por borda.
@@ -265,8 +317,13 @@ O usuário desfere o golpe pleno do leque gigante e ergue a Foice de Doninha à 
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 52
 **Vetor:** Corte, Grau III do Fio · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 4.625
 
 O usuário inspira fundo e, girando o tronco, expele uma lâmina de vácuo em meia-lua que varre o arco frontal inteiro na altura escolhida. O corte contínuo atravessa múltiplos alvos numa única passagem, e a natureza rarefeita da lâmina a torna quase invisível até o instante do contato. O registro traz a meia-lua abatendo um esquadrão completo num gesto e repelindo o avanço de uma armadura espiritual. A Shinkūha abre a família de vácuo do elemento, o refinamento no qual o vento corta pela ausência que carrega dentro de si, e é a base da qual a especialização parte. A entrada declara elevação de rider por borda.
@@ -279,6 +336,9 @@ O usuário inspira fundo e, girando o tronco, expele uma lâmina de vácuo em me
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV4 · Moldagem 62 · Caminho Rajada · Onda de Vácuo
 **Vetor:** Corte, Grau III do Fio · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
+**Linhas simultâneas:** a publicar, a prosa conta ondas em sequência sem número
 **XP:** 5.300
 
 O usuário expele lâminas de vácuo em sequência rápida e em ângulos sobrepostos, tecendo uma grade de cortes que satura as rotas de esquiva do alvo. Cada onda chega por um plano distinto, e a sobreposição converte a evasão num problema sem solução limpa, porque escapar de uma lâmina posiciona o corpo na trajetória da seguinte. O registro traz a grade abrindo brecha na guarda de uma armadura espiritual em formação. A Shinkū Renpa é a resposta da família de vácuo a alvos velozes, o corte que vence a esquiva pela aritmética. A entrada declara elevação de rider por borda.
@@ -291,8 +351,13 @@ O usuário expele lâminas de vácuo em sequência rápida e em ângulos sobrepo
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 74
 **Vetor:** Penetração, Grau III · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 5.300
 
 O usuário inspira e cospe uma dispersão de pequenas esferas de vácuo comprimido, que voam como balas em leque e perfuram o que atingem. A dispersão cobre uma zona ampla à frente, dificultando a esquiva completa mesmo para alvos rápidos, e cada esfera individual carrega perfuração suficiente para atravessar carne e ferir fundo. A moldagem exige repartir o mesmo fôlego em muitas cargas iguais sem que nenhuma perca coesão, o que põe a técnica acima do próprio rank em exigência de controle. A Shinkūgyoku é a metralha da família de vácuo, a saturação que troca o corte limpo pela cobertura. A entrada declara elevação de rider por borda.
@@ -305,9 +370,12 @@ O usuário inspira e cospe uma dispersão de pequenas esferas de vácuo comprimi
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV4 · Moldagem 78 · Caminho Vento na Lâmina · Fluxo de Chakra: Vento
 **Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
+**Régua de Leitura:** Ilegibilidade, pelo teste de Vento a Favor com a especialização de Vento na Lâmina
 **XP:** 4.625
 
-O usuário reveste a arma empunhada com uma camada de vácuo em vez de vento, elevando o Fluxo de Chakra ao seu refinamento máximo, e o gume deixa de ser vento afiado e passa a ser ausência cortante, um fio que o olho não encontra e a defesa não mede. O corte atravessa proteções que resistiriam ao fluxo comum e fere por dentro da guarda, com o alcance real da lâmina permanecendo ilegível para o oponente. A camada precisa ser sustentada com proporção constante ao longo de toda a arma, e qualquer excesso de volume desfaz a rarefação que a define. O registro traz a técnica aplicada a uma kunai curta, e ela é o teto do bukijutsu de vento. A entrada declara elevação de rider por borda.
+O usuário reveste a arma empunhada com uma camada de vácuo em vez de vento, elevando o Fluxo de Chakra ao seu refinamento máximo, e o gume deixa de ser vento afiado e passa a ser ausência cortante, um fio que o olho não encontra e a defesa não mede. A ausência de gume legível é o que a Régua de Leitura mede aqui, na classe Ilegibilidade, e por isso a familiaridade não corrói: ver o fio uma vez não faz o olho passar a encontrá-lo na vez seguinte. O corte atravessa proteções que resistiriam ao fluxo comum e fere por dentro da guarda, com o alcance real da lâmina permanecendo ilegível para o oponente. A camada precisa ser sustentada com proporção constante ao longo de toda a arma, e qualquer excesso de volume desfaz a rarefação que a define. O registro traz a técnica aplicada a uma kunai curta, e ela é o teto do bukijutsu de vento. A entrada declara elevação de rider por borda.
 
 ---
 
@@ -317,9 +385,12 @@ O usuário reveste a arma empunhada com uma camada de vácuo em vez de vento, el
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 54 · Caminho Vento no Voo · armas de arremesso
 **Vetor:** lido da arma arremessada, vetor e grau da ficha dela · sem celeridade própria, a arma é o meio
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
+**Régua de Leitura:** Engano, pelo teste de Vento a Favor com a especialização de Vento no Voo
 **XP:** 5.300
 
-O usuário arremessa as próprias lâminas e assume o controle delas em pleno voo por correntes finas de vento, redirecionando cada arma de forma independente após o lançamento. As lâminas curvam trajetórias, contornam guardas, retornam à mão do usuário e tornam a atacar, convertendo um par de facas num enxame imprevisível. A leitura defensiva do oponente falha no fundamento, porque a trajetória do arremesso deixa de prever o ponto de impacto. A técnica é a expressão máxima do arremesso guiado, e a exigência de controle vem de manter várias correntes finas separadas ao mesmo tempo sem que uma desmanche a outra.
+O usuário arremessa as próprias lâminas e assume o controle delas em pleno voo por correntes finas de vento, redirecionando cada arma de forma independente após o lançamento. As lâminas curvam trajetórias, contornam guardas, retornam à mão do usuário e tornam a atacar, convertendo um par de facas num enxame imprevisível. A leitura defensiva do oponente falha no fundamento, porque a trajetória do arremesso deixa de prever o ponto de impacto, e é isso que a Régua de Leitura mede na classe Engano: a arma mostra uma rota e entrega outra, e a familiaridade corrói o efeito ao longo da cena. A técnica é a expressão máxima do arremesso guiado, e a exigência de controle vem de manter várias correntes finas separadas ao mesmo tempo sem que uma desmanche a outra.
 
 O vento guia e não fere. A entrega é a da arma, e o vetor e o grau se leem da ficha dela, o que faz a mesma execução resolver por Corte com uma faca e por Penetração com uma kunai. Sem arma arremessada a técnica não tem entrega própria e não se executa.
 
@@ -329,9 +400,13 @@ O vento guia e não fere. A entrega é a da arma, e o vetor e o grau se leem da 
 **Fūton: Bōfūheki — 風遁・防風壁**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Fūton LV4 · Moldagem 56 · Caminho Barlavento
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 6.200
 
 O usuário ergue ao próprio redor uma cúpula de vendaval circular em rotação contínua, que repele projéteis, rajadas e investidas por todos os ângulos ao mesmo tempo. A parede de ar arranca armas de trajetória, arremessa de volta o que é leve e desvia o que é pesado, protegendo também os aliados abrigados dentro do círculo. A manutenção consome chakra de forma contínua e a cúpula cede a técnicas de volume esmagador, que atravessam a rotação por pura massa. A técnica é a defesa de área do elemento e a elevação categórica do Escudo de Rajada, com a sustentação prolongada respondendo pela exigência de controle.
@@ -344,8 +419,13 @@ O usuário ergue ao próprio redor uma cúpula de vendaval circular em rotação
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV4 · Moldagem 68 · Caminho Rajada
 **Vetor:** Corte, Grau II do Fio · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 7.325
 
 O usuário tece a Rede de Arremesso à escala de guerra, numa malha de fios de vento cortante ampla o bastante para envolver criaturas colossais e formações inteiras, lançada em colaboração ou por um único executor de reserva excepcional. A trama fecha sobre o que envolve, retalhando pela superfície completa do contato, e o peso do vendaval na malha prende ao chão o que capturou. O registro canônico pertence às forças do deserto diante do inimigo de maior porte já enfrentado em campo aberto, com a rede executada sob amplificação de chakra externo. A técnica é a elevação categórica da Kakeami de alvo para grupo. A entrada declara elevação de rider por borda.
@@ -356,6 +436,7 @@ O usuário tece a Rede de Arremesso à escala de guerra, numa malha de fios de v
 **Fūton: Kazebashi — 風遁・風橋**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Linha
 **Requisitos:** Fūton LV4 · Moldagem 54 · Caminho Ponte de Vento
 **XP:** 5.300
 
@@ -373,8 +454,13 @@ O usuário traça pelo ar uma corrente firme entre dois pontos escolhidos e a ma
 **Acesso:** Livre
 **Requisitos:** Fūton LV5 · Moldagem 52
 **Vetor:** Impacto · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 11.000
 
 O usuário comprime ar e chakra numa esfera densa e a dispara pela boca, com o projétil detonando no impacto numa explosão de pressão que arrasa o entorno. A escala registrada no cânone é a de bijū, com balas sucessivas nivelando uma floresta e medindo forças de igual para igual com artilharia de água de porte equivalente, e essa versão pertence ao documento de Bijū. A execução humana entrega esferas menores de mesma arquitetura, mantendo a detonação de pressão como assinatura. O Renkūdan é o único rank A de databook do elemento e o teto canônico da família de pressão em golpe único.
@@ -387,8 +473,13 @@ O usuário comprime ar e chakra numa esfera densa e a dispara pela boca, com o p
 **Acesso:** Livre
 **Requisitos:** Fūton LV5 · Moldagem 40
 **Vetor:** Impacto · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 12.800
 
 O usuário retém uma massa de vento comprimido e a libera de uma vez, e a frente de pressão se expande sobre uma área ampla esmagando estruturas, terreno e formações numa única onda. A técnica dispensa o corte e vence pelo peso puro do ar, a expressão máxima da família de pressão em área. O registro inclui a aplicação cooperativa que define o segundo papel da técnica, com a massa de vento liberada junto a uma técnica de Katon alimentando as chamas numa tempestade de fogo que exigiu dois comandantes de campo para conter.
@@ -401,6 +492,11 @@ O usuário retém uma massa de vento comprimido e a libera de uma vez, e a frent
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Fūton LV5 · Moldagem 80 · Caminho Ascendente · Leque LV4 · Caminho Rede Cortante (Leque) · leque de guerra empunhado
 **Vetor:** Corte, Grau III do Fio · Celeridade 112
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
+**Perfil de Evasão:** Padrão
 **XP:** 15.200
 
 O usuário lança o golpe do leque ao céu em vez de à frente, e o vendaval sobe, se organiza e desce sobre o alvo como um tornado completo instantes depois. O intervalo entre o gesto e a chegada converte a técnica em armadilha aérea, e o oponente que leu o golpe do leque e não viu ataque algum é apanhado pelo funil descendente quando a guarda já baixou. O tornado ergue o que captura, retalha na rotação e descarta a grande altura. Manter a coluna organizada durante a subida e devolvê-la ao ponto exato da descida é o que põe a exigência de controle acima do rank. A entrada declara elevação de rider por borda.
@@ -413,6 +509,8 @@ O usuário lança o golpe do leque ao céu em vez de à frente, e o vendaval sob
 **Acesso:** Livre
 **Requisitos:** Fūton LV5 · Moldagem 84 · Caminho Vento na Lâmina
 **Vetor:** Corte, Grau IV do Fio · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 11.000
 
 O usuário emite chakra pelas pontas dos dedos e materializa uma espada de vento invisível, empunhada como arma real e desferida com precisão total. O oponente enfrenta um corte que não vê, sem lâmina para ler, sem trajetória para medir e sem aviso além do som do ar rasgando, e a defesa se reduz a adivinhação. O databook consagra a medida da técnica ao declarar que a Lâmina de Vento está para a Foice de Doninha como uma espada longa está para uma kunai, e o registro traz a execução abatendo um espadachim de nível jōnin em confronto direto. A arma existe sem suporte físico e precisa ser sustentada inteira pela moldagem, o que a coloca no degrau Refinada. A entrada declara elevação de rider por borda.
@@ -425,6 +523,8 @@ O usuário emite chakra pelas pontas dos dedos e materializa uma espada de vento
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV5 · Moldagem 60 · Esferas de Vácuo
 **Vetor:** Impacto · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 12.800
 
 O usuário inspira ao limite e comprime o fôlego inteiro numa única esfera de vácuo de grande diâmetro, expelida como um projétil esmagador que une as duas naturezas do elemento, a massa que esmaga e o vácuo que corta. O impacto descarrega pressão de escala estrutural, e a superfície da esfera retalha o que toca antes do esmagamento chegar. A técnica encerra a progressão que começa na metralha de esferas pequenas, e a lógica se inverte no caminho, com uma única esfera, todo o fôlego e a decisão num disparo. A entrada declara elevação de rider por borda.
@@ -443,9 +543,14 @@ A própria prosa ordena os dois mecanismos, com a superfície retalhando antes d
 **Acesso:** Fechada na Criação
 **Requisitos:** Fūton LV6 · Moldagem 44 · Caminho Vento de Areia
 **Vetor:** Impacto · Celeridade 112
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Rider:** Sangramento, com agravamento por envolvimento no teste de entrada
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 38.000
 
 O usuário expele um vendaval de escala colossal saturado de areia e partículas abrasivas, uma frente de tempestade que avança lixando tudo por quilômetros de largura. A pressão arrasa como a Grande Ruptura arrasa, e a poeira infinita converte o próprio ar em lixa, desbastando carne exposta, madeira e pedra na passagem, enquanto olhos e gargantas falham dentro da nuvem. A execução registrada pertence à escala de bijū e une os dois princípios declarados do elemento, a compressão e o transporte de partículas, num único cataclismo. A moldagem é a mais simples do rank, porque nada aqui pede proporção fina, e o que a técnica exige é volume de reserva que quase nenhum corpo humano carrega, condição que fecha a entrada na criação de personagem.
@@ -458,9 +563,13 @@ A pressão é o que arrasa, e a entrada a declara pelo nome ao se comparar com a
 **Fūton: Zettai Shinkū — 風遁・絶対真空**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Campo
 **Requisitos:** Fūton LV6 · Moldagem 108 · Transcendência Calmaria
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 45.500
 
 O usuário esvazia de ar uma zona ampla do campo, elevando a família de vácuo de golpe para domínio. Dentro da zona, combatentes sufocam sem que golpe algum os toque, todo fogo se apaga por falta do que queimar, o som deixa de viajar e técnicas que dependem do próprio ar perdem o meio em que existem. O usuário dita a posição e a duração do vazio, respirando do ar que guardou, e o oponente escolhe entre abandonar a zona ou perder a consciência dentro dela. A asfixia é efeito próprio da entrada e não se soma ao rider. O Vácuo Absoluto é o domínio onde o vento vence pela ausência, o verbo cortante do elemento levado à conclusão de que a lâmina sempre foi o nada.
@@ -473,8 +582,13 @@ O usuário esvazia de ar uma zona ampla do campo, elevando a família de vácuo 
 **Acesso:** Livre
 **Requisitos:** Fūton LV6 · Moldagem 78 · Caminho Lufada
 **Vetor:** nenhum, condição de campo sem golpe
+**Alcance categórico:** Campo
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 38.000
 
 O usuário ergue sobre o campo inteiro um vendaval contínuo de escala de tempestade, soprando numa direção escolhida e mantida. Florestas dobram e arrancam, projéteis de qualquer porte abandonam a trajetória, voo adversário se torna impossível e todo combatente luta ancorado ao chão ou é levado pela frente de ar, enquanto o usuário e os aliados avisados operam a favor do vento. A técnica converte a atmosfera do combate numa condição imposta, o clima como arma, e encerra a família de pressão no seu limite lógico, o vendaval que deixa de ser golpe e passa a ser o mundo onde a luta acontece.
@@ -495,6 +609,8 @@ A entrada não declara vetor porque não entrega golpe algum, e a própria prosa
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV5 · Moldagem 96 · Caminho Composição (Controle de Chakra) · Rasengan
 **Vetor:** Corte, Grau II do Fio · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 20.000
 
 O usuário converte em vento o volume inteiro da esfera girada, e a natureza entrega à superfície a coesão que a forma pura não possui. A esfera passa a existir sem a mão que a segura, o que abre o modo arremessado e resolve o problema tático da técnica de origem, que é chegar ao contato. A borda convertida corta durante a rotação e aplica Sangramento, rider que a esfera sem natureza não tem como produzir. A execução exige três moldagens simultâneas, porque a forma e a natureza correm ao mesmo tempo e nenhuma das duas admite pausa, e é essa exigência que faz da entrada a mais dependente de assistência da linhagem.
@@ -509,6 +625,8 @@ A técnica é o portão da linha elemental da esfera. O verbete não cita databo
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Fūton LV6 · Moldagem 96 · Caminho Composição (Controle de Chakra) · Caminho Vento Encanado · Rasengan de Vento
 **Vetor:** Corte, Grau IV do Fio · Celeridade 112
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 27.200
 
 O único rank S de databook entre as técnicas dos cinco elementos puros. O usuário envolve uma esfera espiralada em quatro grandes pontas de vento, dando ao conjunto a forma de uma fūma shuriken, e a arremessa. Na detonação, a técnica libera incontáveis microlâminas de vento que cortam o corpo em escala celular, atingindo o sistema circulatório de chakra do alvo, e o databook registra que o dano ao sistema não é fechável por ninjutsu médico, com a vítima podendo perder para sempre a capacidade de moldar chakra. A execução exige maestria de transformação de forma somada à de natureza, o pináculo declarado do treinamento elemental, e a técnica figura aqui como registro do teto absoluto do Fūton.

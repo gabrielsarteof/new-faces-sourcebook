@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.9
+version: 3.11
 layer: scenario
 scenario: naruto
 type: skill
@@ -84,7 +84,7 @@ INCLINAÇÃO CHOQUE
 IMPULSO (grau 2, complexidade 3) · 34
 Corrente aplicada ao próprio sistema nervoso, acelerando reflexo e resposta motora.
 └─ Reflexo Acelerado [sustentado, 25 RC de ativação, 10 RC de manutenção por turno]: enquanto ativo, o praticante ganha uma ação de movimento adicional por turno, sem custo de PS. LV5: a ação adicional pode ser empregada como reação, sendo consumida quando usada assim
-└─ Perfil Elevado [passivo, condicionado à ativação de Reflexo Acelerado]: o Perfil de Evasão do praticante sobe um degrau enquanto a corrente está ativa. LV5: dois degraus
+└─ Perfil Elevado [passivo, condicionado à ativação de Reflexo Acelerado]: enquanto a corrente está ativa, o praticante soma um bônus ao teste da perícia governante de toda técnica que executar, e o bônus entra na conexão pelo `M_vel` da Seção 5.7 do Manual de Criação de Jutsus, que é o canal contínuo da maestria e o único por onde a mão do executor alcança a conexão. Nada nesta linha move a escada de Perfil de Evasão, que é propriedade de construção. **O valor do bônus é lacuna declarada e espera desenho**, e fica registrado em vez de preenchido por invenção. LV5: o bônus sobe, e o valor da subida espera o mesmo desenho
 
 ARCO (grau 3, complexidade 4) · 38
 Uma camada de corrente cobre a pele e devolve descarga a quem toca o praticante à força.
@@ -170,10 +170,10 @@ A descarga vai onde foi mandada e recusa o convite de todo condutor que não sej
 
 INSTANTE (grau 4, complexidade 5) · 42
 A descarga chega no instante em que sai, e o espaço entre a mão e o alvo deixa de ser tempo.
-└─ Verdadeiro [passivo, porte elevado]: a técnica de Agudo entregue como forma dirigida cruza o alcance declarado dentro da própria ação de execução, sem tempo de trânsito, e sobe um degrau na escada do Perfil de Evasão do Manual de Criação de Jutsus, com o teto de Teleguiado permanecendo em vigor. O degrau vale até a distância igual ao teste de Agudo com esta especialização dividido por 6, resolvendo 22 m no LV4, 26 m no LV5 e 31 m no LV6, e além dela a técnica resolve no degrau que a ficha dela publica. LV5: o degrau alcança também a entrega elevada a área
+└─ Verdadeiro [passivo, porte elevado]: a técnica de Agudo entregue como forma dirigida cruza o alcance declarado dentro da própria ação de execução, sem tempo de trânsito, e nasce declarando Teleguiado na escada do Perfil de Evasão do Manual de Criação de Jutsus, como propriedade de construção fixada na criação da técnica e não como elevação em jogo. A chegada sem tempo de trânsito vale até a distância igual ao teste de Agudo com esta especialização dividido por 6, resolvendo 22 m no LV4, 26 m no LV5 e 31 m no LV6, e além dela a técnica cruza o espaço no tempo comum do meio. LV5: a chegada sem tempo de trânsito alcança também a entrega elevada a área
 └─ Sem Aviso [passivo]: a descarga de Agudo apresenta chegada sem percurso observável, e a reação de Corte de Trajeto do Núcleo de Combate deixa de estar disponível contra ela, porque a interceptação precisa de trajeto para incidir. LV5: a indisponibilidade alcança também o Corte de Trajeto declarado por terceiro em defesa do alvo e a Disputa de Distância empregada depois da emissão
 
-ETIQUETA E ÂNCORA DE AGUDO: a existência do Shiden, a cor violeta atribuída a fenômeno declarado desconhecido pela fonte e a operação do Raiton por elevação da frequência de vibração do chakra são `[canon]`. A leitura da cor como banda de frequência acima da faixa comum é `[proposta]` de preenchimento de lacuna declarada. O corte tem registro único na obra e entra como `[canon fraco]`, com a etiqueta declarada. Os três caminhos e os verbos deles são `[proposta]`. A âncora de validação da inclinação corre contra o par de referência Elite, PV 1.440, lado defensivo da conexão em 146: no LV6 a entrega dentro de 31 m sobe um degrau na escada de evasão e retira do par a reação de Corte de Trajeto, o que reduz a resposta dele a esquiva penalizada e Absorção.
+ETIQUETA E ÂNCORA DE AGUDO: a existência do Shiden, a cor violeta atribuída a fenômeno declarado desconhecido pela fonte e a operação do Raiton por elevação da frequência de vibração do chakra são `[canon]`. A leitura da cor como banda de frequência acima da faixa comum é `[proposta]` de preenchimento de lacuna declarada. O corte tem registro único na obra e entra como `[canon fraco]`, com a etiqueta declarada. Os três caminhos e os verbos deles são `[proposta]`. A âncora de validação da inclinação corre contra o par de referência Elite, PV 1.440, lado defensivo da conexão em 146: no LV6 a entrega dentro de 31 m declara Teleguiado na escada de evasão e retira do par a reação de Corte de Trajeto, o que reduz a resposta dele a esquiva penalizada e Absorção.
 
 CONTRATO DE MECÂNICA DAS DUAS INCLINAÇÕES: cada efeito acima declara tipo, ação de mesa, custo e números na própria linha, na convenção já usada pelas inclinações comuns desta perícia. Nenhum deles resolve por dificuldade arbitrada: todos leem o teste da perícia com a especialização do caminho de origem ou resolvem por elevação de categoria. As interações estão nomeadas em cada linha, e a etiqueta e a âncora de validação fecham cada inclinação nos dois parágrafos acima.
 
@@ -252,7 +252,7 @@ EFEITOS ELEVADOS DE DEVASTAÇÃO
 AME-NO-OHABARI · Ápice de Agudo (elevação de escopo · Instante)
 ───────────────────────────────
 
-Revoga: o degrau Inevitável do Perfil de Evasão exige condição estrutural externa ao executor, e sem ela o teto é Teleguiado, conforme a seção 6.5 do Manual de Criação de Jutsus.
+Revoga: o degrau Inevitável do Perfil de Evasão exige precondição que o defensor possa negar antes de a técnica disparar, declarada no registro junto com o que a desfaz, e sem ela o teto é Teleguiado, conforme a seção 6.5 do Manual de Criação de Jutsus.
 
 HABILIDADE PRÓPRIA · Chegada Sem Trajeto
 
@@ -301,6 +301,14 @@ Estrutura e valores de camada leem o Núcleo de Perícias v2. Custos leem o Manu
 
 ═══════════════════════════════════════════════════════════════════
 
+**O que mudou na v3.10.** O caminho Perfil Elevado deixa de elevar o Perfil de Evasão do praticante, que era categoria aplicada a pessoa e não a obra, e passa a somar bônus ao teste da perícia governante, entrando na conexão pelo `M_vel` da Seção 5.7. O valor do bônus fica declarado como lacuna, nos dois degraus que o caminho concedia. O nome do caminho continua sendo Perfil Elevado e deixou de descrever o que ele faz, e renomeá-lo é decisão de desenho. O caminho Instante deixa de elevar um degrau na escada de Perfil de Evasão e passa a declarar Teleguiado diretamente na técnica de Agudo que ele produz, porque a Seção 6.5 do Manual de Criação de Jutsus fechou a escada a toda elevação em jogo. A distância publicada passa a medir o alcance da chegada sem tempo de trânsito, e não o alcance de um degrau. O Ápice de Agudo passa a citar a regra que revoga pelo nome corrente, a precondição negável, no lugar da condição estrutural externa que a escada exigia antes. Nenhum grau, complexidade, custo, valor resolvido ou preço de Ápice mudou.
+
+
+
+**O que mudou na v3.11.** O caminho Perfil Elevado deixa de elevar o Perfil de Evasão do praticante, categoria que se aplicava a pessoa e não a obra, e passa a somar bônus ao teste da perícia governante, entrando na conexão pelo `M_vel` da Seção 5.7 do Manual de Criação de Jutsus, que é o canal contínuo da maestria. O valor do bônus fica declarado como lacuna nos dois degraus que o caminho concedia, e espera desenho. O nome do caminho continua sendo Perfil Elevado e deixou de descrever o que ele faz, e renomeá-lo é decisão de desenho.
+
+
+
 CHANGELOG DA v3
 
 PRÉ-REQUISITO CONFERIDO: a seção 13.1, Ápice de Extensão Manifestada, existe em core/skill-authoring.md na v7.2, junto da regra da inclinação de extensão manifestada na seção 3. A tarefa prosseguiu sob essas duas regras.
@@ -346,7 +354,7 @@ DECISÕES TOMADAS POR PADRÃO
 4. **A largura presumida segue a convenção já publicada nesta perícia**, com todos os caminhos da inclinação possuídos, em vez da largura mínima da seção 6.1 do núcleo. Os valores de Ponta, Lança, Rede e Fio do Céu foram reconferidos e leem assim, e trocar de convenção no meio do documento produziria duas réguas no mesmo texto.
 5. **As condições de ligação das duas inclinações foram redigidas a partir de fato do contexto**, e não a partir da declaração do executor. A auditoria descreve Calamidade como a descarga que deixa de ser golpe e vira evento, o que é escolha do praticante e reprovaria por exogeneidade, e por isso a condição publicada lê o lugar presente na cena.
 6. **A revogação da esquiva ficou no Ápice de Calamidade e saiu de Devastação**, conforme a instrução, e Devastação conserva o desfazimento de estrutura, cobertura e terreno como efeito de porte elevado.
-7. **A revogação do teto de Teleguiado ficou no Ápice de Agudo e saiu de Instante.** O caminho conserva a elevação de um degrau na escada, que a seção 6.5 do Manual de Jutsus já autoriza a caminho de perícia, e o Ápice é quem fixa o Inevitável sem condição estrutural externa.
+7. **A revogação do teto de Teleguiado ficou no Ápice de Agudo e saiu de Instante.** O caminho passa a declarar Teleguiado diretamente na técnica que ele produz, porque a seção 6.5 do Manual de Jutsus deixou de autorizar caminho de perícia a mover degrau, e o Ápice é quem fixa o Inevitável sem a precondição negável que a escada passou a exigir.
 8. **A negação de cura em Ressonância foi retirada.** A transcendência Corte Fino do Fūton já é dona do verbo de ferida que não fecha por ninjutsu médico, e repetir aquilo num caminho de LV4 reprovaria pela regra de distinção de verbo. Ressonância ficou com a penalidade ao teste de remoção do Sangramento.
 9. **Rumo declara que matéria isolante continua detendo a descarga.** O verbo governa escolha de condutor e não penetração, e a linha existe para separá-lo da Passagem do Fūton, que é dona de atravessar anteparo sólido.
 10. **A Amplificação Doutrinária do Kuroi Kaminari foi preservada na v3, e está revogada desde a v3.8.** Naturezas Avançadas v8 retirou o efeito por inteiro, e o portador do Raio Negro opera o Raiton comum na Constante comum do elemento. A inclinação Calamidade nunca publicou o efeito no corpo dela, e o que sai é esta linha de registro.

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.jigoku-no-hane
 title: "Jigoku no Hane (地獄の羽)"
-version: 1.2
+version: 1.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -28,7 +28,7 @@ A técnica é o segundo estágio de um engano de dois tempos. O primeiro estági
 
 - **Katon LV5:** portão de rank A, que resolve em 71 pela soma da Base 45 com INT 26
 - **Moldagem Refinada:** 71 pela soma da Base Total com SAB, degrau lido do coeficiente técnico 2,0, sem elevação
-- **Caminho Agulha:** inclinação Labareda da Perícia de Katon, requisito consumível. O efeito Segunda Linha governa a abertura independente de cada projétil embutido
+- **Caminho Agulha:** inclinação Labareda da Perícia de Katon, requisito consumível. O efeito Segunda Linha governa a contagem de linhas de aproximação distintas que os projéteis embutidos abrem
 - **Shuriken em quantidade:** insumo declarado, consumido a cada execução
 
 ---
@@ -53,6 +53,7 @@ A salva ilumina o campo como qualquer disparo de fogo comum até o instante da a
 - **Selos de referência:** 2
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
 - **Perfil de Evasão:** Padrão
+- **Régua de Leitura:** declarada, classe Engano, com o teste do executor lido do teste de Labareda com a especialização de Agulha. O alvo lê a salva como chama e calibra a saída para chama, e o aço emerge no ângulo que a chama não anunciava. A familiaridade corrói, pela régua de dez por cento cumulativo daquele documento
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** dois selos, seguidos do disparo simultâneo da salva completa
 - **Restrições:** distância curta a média, alvo único ou grupo próximo dentro da dispersão da salva, exige provisão de shuriken suficiente para a quantidade declarada
@@ -74,7 +75,7 @@ M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 
 O coeficiente de entrega 0,13 corresponde à categoria de múltiplos projéteis simultâneos, mesma família do Hōsenka e do Hōsenka Tsumabeni. O coeficiente técnico 2,0 corresponde à dependência alta, moldagem como mecanismo central, e o catálogo confirma o piso Refinada sem elevação: calibrar a abertura independente de cada projétil embutido dentro de uma esfera de fogo já exige o refinamento que a Régua de Exigência associa ao coeficiente 2,0, sem propriedade adicional que eleve o degrau mais uma vez.
 
-A quantidade de projéteis declarada nesta ficha é **6**, o número que o efeito Segunda Linha do caminho Agulha exige para governar a esquiva separada de cada abertura.
+A quantidade de projéteis declarada nesta ficha é **6**, e as seis aberturas chegam por ângulos distintos, de modo que a ficha declara **6 linhas de aproximação simultâneas** contra o mesmo alvo, que é o número que o efeito Segunda Linha do caminho Agulha governa.
 
 O `mult_Tipo` de 1,40 é a Constante de Moldagem de 1,40 multiplicada pela Assinatura do vetor declarado, que para Penetração vale 1,00. A Assinatura se lê do vetor que a obra entrega e nunca do elemento que a produz. O coeficiente técnico de 2,0 resolve o `w` em 1,0, que é a metade dele.
 
@@ -100,7 +101,7 @@ O Jigoku no Hane alcança o piso do tier Forte com dois caminhos adicionais em C
 
 ## Interação com Defesas
 
-A esquiva contra os projéteis embutidos é regida pelo efeito Segunda Linha do caminho Agulha, que opõe a esquiva do alvo ao teste de Labareda com aquela especialização, valendo 120 no LV4, 147 no LV5 e 174 no LV6. A técnica não republica esse valor além de citá-lo, porque a competência pertence ao caminho que a gateia.
+A esquiva contra os projéteis embutidos é regida pelo efeito Segunda Linha do caminho Agulha, que converte as seis aberturas em seis linhas de aproximação distintas contra o mesmo alvo. A resolução lê a tabela de vantagem numérica da seção 11 do Núcleo de Combate, e com quatro linhas ou mais o lado defensivo da conexão do alvo multiplica por 0,60. A técnica não republica a tabela além de citá-la, porque a competência pertence ao caminho que a gateia.
 
 ---
 
@@ -124,14 +125,14 @@ Os projéteis embutidos aplicam dano físico direto pelo golpe que o efeito Segu
 | Nível | Capacidade ou mudança |
 |---|---|
 | Katon LV5, Moldagem Refinada, Caminho Agulha | acesso à técnica pela camada Livre |
-| Caminho Agulha, LV5 | elevação de alvo para área, ameaçando também quem estiver adjacente ao alvo original |
+| Caminho Agulha, LV5 | elevação de alvo para área, ameaçando também quem estiver adjacente ao alvo original, com a contagem de linhas correndo separada contra cada um |
 
 ---
 
 ## Sinergias
 
 - **Hōsenka Tsumabeni:** fundamento conceitual do próprio engano, sem gerar requisito mecânico
-- **Caminho Agulha:** governa a esquiva separada de cada um dos seis projéteis, requisito desta entrada
+- **Caminho Agulha:** governa a contagem de linhas de aproximação que os seis projéteis abrem, requisito desta entrada
 - **Alvo que já viu o Hōsenka Tsumabeni:** o valor tático máximo da técnica se realiza contra quem aprendeu a temer lâminas visíveis e relaxou contra chamas aparentemente comuns
 
 ---

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kieru-rasengan
 title: "Rasengan Evanescente (消える螺旋丸)"
-version: 1.2
+version: 1.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -66,13 +66,14 @@ No impacto, a técnica volta a existir por completo. A luz azul e o estalido rea
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 1.050, com a sobretaxa do Perfil de Evasão já embutida
-- **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
-- **Custo mínimo:** 350
+- **RC nominal:** 913, já limpa. A coluna publicava 1.050 com a sobretaxa de quinze por cento do degrau Veloz embutida, e o abatimento é o que a Seção 6.5 do Manual de Jutsus manda desde a v3.4: a nominal divide por 1,15 e o motor de dano passa a ler a limpa
+- **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo. A declaração de entrega portada contradiz a prosa desta mesma ficha, que descreve a esfera arremessada e lhe dá alcance de 12 metros, e a divergência fica marcada sem decisão
+- **Custo mínimo:** 304, a terça parte da nominal limpa
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 0
 - **Assinatura selada:** dispensada, porque a contagem de referência já é zero
-- **Perfil de Evasão:** Veloz, com a sobretaxa da escada já embutida na RC nominal publicada
+- **Perfil de Evasão:** Padrão
+- **Régua de Leitura:** declarada, classe Ilegibilidade, com o teste do executor lido do teste da Perícia de Raiton, governante desta ficha. A esfera não oferece ameaça alguma de ler durante o percurso, e por isso a familiaridade não corrói o efeito. A propriedade se compra como Extra de comportamento pela Seção 4.1.2 do Manual de Jutsus, e não como sobretaxa da escada
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** formação, aplicação da camada e arremesso na mesma ação padrão
 - **Degrau de duração:** sustentada durante o voo
@@ -90,8 +91,8 @@ Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
 dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
-dano bruto = 5 × 1.050 × 0,16 × 1,40 × M
-dano bruto = 1.176 × M
+dano bruto = 5 × 913 × 0,16 × 1,40 × M
+dano bruto = 1.022,56 × M
 
 M = 1 + 1,5 × (P − 148) ÷ 148          piso de M: 0,5
 ```
@@ -106,15 +107,15 @@ A perícia governante é o Raiton, e o `P` é o atributo regente dela somado à 
 
 ## Tabela de Descarga
 
-Par de referência Elite, PV 1.440.
+Par de referência Especial, PV 1.920, pela tabela de pares por rank da Seção 5.2 do Manual de Jutsus. A ficha citava o par Elite de 1.440, que é o do rank B, e as três linhas da tabela sempre resolveram contra 1.920, que é o par do rank A desta entrada.
 
 A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum perfil nomeado de personagem entra aqui.
 
 | P do Raiton | M | Dano | % PV do par |
 |---|---|---|---|
-| 122 | 0,736 | 866 | 45,1% |
-| 148, referência do rank | 1,000 | 1.176 | 61,3% |
-| 180 | 1,324 | 1.557 | 81,1% |
+| 122 | 0,736 | 753 | 39,2% |
+| 148, referência do rank | 1,000 | 1.023 | 53,3% |
+| 180 | 1,324 | 1.354 | 70,5% |
 
 A tabela é a do executante que já fechou o degrau de moldagem. O portador que executa a técnica no piso do próprio desenvolvimento, com a esfera reduzida pela Régua de Modulação, entrega a metade ou o quarto desses valores, e é essa a leitura correta do executante canônico da técnica.
 
@@ -133,13 +134,13 @@ A camada de Raio suprime a leitura da esfera durante o percurso. O efeito é cat
 
 A supressão de reação é a propriedade que separa esta ficha do restante da linhagem. O Anteparo Vivo, a Têmpera de Fluxo, o Corte de Fluxo e qualquer efeito de perfil de interceptação não encontram objeto e não podem ser gastos contra ela.
 
-O alvo continua opondo a própria esquiva, reduzida pelo Perfil Veloz, porque a evasão responde à posição e não à leitura.
+O alvo continua opondo a própria esquiva por inteiro, porque a evasão responde à posição e não à leitura, e o que a técnica compra é o gasto errado da Reação da rodada.
 
 ---
 
 ## Interação com Defesas
 
-O Perfil de Evasão Veloz reduz em 25% a esquiva do alvo, e em 40% no primeiro uso do combate contra cada alvo. A vantagem do primeiro uso se perde depois que a técnica é vista resolver.
+O Perfil de Evasão Padrão não desconta a esquiva do alvo em ponto nenhum. O que a entrada compra é a Régua de Leitura: o alvo que falha a leitura gasta a Reação da rodada contra a ameaça que leu, e a esfera alcança o corpo sem contestação da conexão. A classe é Ilegibilidade e a familiaridade não corrói o teste, mas a prosa desta ficha registra que o oponente que já viu a técnica resolver passa a contar o tempo em vez de olhar, e essa é leitura de mesa e não régua.
 
 A Absorção do alvo se aplica integralmente ao dano recebido. A técnica não declara perfuração própria, e o efeito Fio Concentrado do caminho Ponta não a alcança, porque ele governa a entrega por contato direto ou curto alcance da inclinação Relâmpago e esta entrada é projétil de superfície revestida.
 
@@ -186,7 +187,7 @@ O grau máximo fica abaixo do que o Chidori alcança porque a carga vive na casc
 | 142 | 546 | 20 | 2.211 | 442 | 1 turno | 4 |
 | 84 | 810 | 46 | 2.211 | 442 | 1 turno | 2 |
 
-Os valores assumem o Raio como afinidade do executante. Fora da afinidade, a RC nominal sobe para 1.365 e o custo mínimo para 455.
+Os valores assumem o Raio como afinidade do executante. Fora da afinidade, a RC nominal sobe para 1.187 e o custo mínimo para 396.
 
 ---
 

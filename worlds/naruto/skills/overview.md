@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.overview
 title: "Índice de Perícias do Sistema"
-version: 2.35
+version: 2.36
 layer: scenario
 scenario: naruto
 type: skill
@@ -504,6 +504,10 @@ Só a de Percepção depende de material que não está na sessão. As oito nova
 ---
 
 ## 9. Registro de Alterações
+
+**v2.36.** A Régua de Leitura nasce como documento de cenário, `worlds/naruto/systems/reading-scale.md` v1, e entra no índice do corpus como sistema. Ela não é perícia, e por isso fica fora do Registro de Regentes e do Registro de Conformidade, pelo mesmo critério que já mantém o Sistema Elemental e o Manual de Criação de Jutsus fora dos dois. O registro importa para este índice porque a régua consome o teste da perícia que a obra declarar, e é por ela que um caminho de perícia passa a comprar leitura no lugar de comprar evitabilidade, que deixou de ser comprável. O Núcleo de Combate sobe para v4 na mesma leva e o Manual de Criação de Jutsus para v3.5, os dois também fora dos dois registros pela mesma razão.
+
+Nenhum regente, nenhuma categoria de custo, nenhum par do Registro de Portão Duplo, nenhuma cedência do Registro de Fronteira e nenhuma entrada da Fila de Nascimento mudou.
 
 **v2.35.** A errata da transcrição da Barreira fecha. A perícia estava publicada desde a v1 e nunca tinha ganhado dado da aplicação, e a ausência tinha uma consequência que o registro não previa: o Compêndio de Fūinjutsu exigia `Barreira LV4` com a anotação de perícia pendente, e a conversão, sem catálogo onde resolver o nome, lia a exigência como nome próprio de técnica e criava um registro de jutsu que nunca existiu. Publicado o dado, a exigência resolve contra a perícia e o registro inventado sai do catálogo.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.leque
 title: "Leque"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -113,7 +113,7 @@ O teste é o de Vendaval em Rede com a especialização de Rede Cortante. A rég
 
 LV4 teste 120 raio 24 · LV5 teste 147 raio 29 · LV6 pleno teste 174 raio 34 · LV6 com largura de ápice teste 182 raio 36
 
-Cada corrente adicional que a rede reparte contra o mesmo alvo baixa um degrau no Perfil de Evasão dele contra aquela emissão, teto 2 degraus. LV5: teto 3 degraus.
+Cada corrente que a rede reparte contra o mesmo alvo por um ângulo distinto de aproximação conta como uma linha de aproximação, e a resolução lê a tabela de vantagem numérica da seção 11 do Núcleo de Combate. Correntes que chegam pelo mesmo ângulo contam como uma linha só. LV5: sem melhoria própria, porque o teto de três degraus que o nível concedia media a acumulação de Perfil de Evasão e a acumulação foi revogada junto com ela. A lacuna fica registrada em vez de preenchida por invenção.
 
 ESCALA DAS LUAS
 

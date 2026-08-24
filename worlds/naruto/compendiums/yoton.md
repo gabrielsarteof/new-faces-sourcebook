@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.yoton
 title: "Compêndio de Yōton"
-version: 2.6
+version: 2.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Yoton_v2.md
 ---
 
-# Compêndio de Yōton · v2.6
+# Compêndio de Yōton · v2.8
 
 **O que mudou na v2.2.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Golpe Além do Osso e Corpo Que Nunca Esfria já traziam justificativa própria na prosa, usada como âncora direta.
 
@@ -37,12 +37,23 @@ Nas explicações da natureza dentro da obra, o Yang aparece em branco no mangá
 
 ---
 
+**O que mudou na v2.7.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**O que mudou na v2.8.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair. O Perfil de Evasão não entra neste compêndio, porque nenhuma entrada dele recebe classificação de vetor e o achado que fecha essa pergunta está registrado acima.
+
 ## Rank E
 
 ### Calor Emprestado
 **Karinetsu no Jutsu — 借熱の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV1 · Moldagem 18
 **XP:** 175
 
@@ -52,6 +63,7 @@ O praticante satura brevemente o próprio corpo com energia física, elevando a 
 **Fumitodome — 踏み止め**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV1 · Moldagem 18
 **XP:** 130
 
@@ -61,6 +73,7 @@ A saturação se concentra nas pernas e no tronco no instante de um empurrão, e
 **Atatakai Te — 温かい手**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV1 · Moldagem 20
 **XP:** 175
 
@@ -70,6 +83,7 @@ Pelo toque, o praticante mantém desperto e funcional quem deveria estar desmaia
 **Yuragi no Jutsu — 揺らぎの術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV1 · Moldagem 26
 **XP:** 130
 
@@ -83,6 +97,7 @@ Vitalidade vertida em objeto pequeno, que passa a se mover sem obedecer a comand
 **Bōkin no Jutsu — 膨筋の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV2 · Moldagem 32 · ter aprendido Calor Emprestado
 **XP:** 600
 
@@ -92,6 +107,7 @@ A saturação passa a durar toda uma cena de esforço contínuo em vez de um ún
 **Essoku no Jutsu — 越息の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV2 · Moldagem 32
 **XP:** 600
 
@@ -101,6 +117,7 @@ O praticante sustenta o próprio fôlego e a própria consciência além do pont
 **Sasae no Te — 支えの手**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV2 · Moldagem 34 · ter aprendido Mão Quente
 **XP:** 720
 
@@ -110,6 +127,7 @@ Por contato mantido, o corpo alheio ferido continua operando apesar do dano, agi
 **Todome no Jutsu — 止めの術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV2 · Moldagem 42 · ter aprendido Mão Quente
 **XP:** 720
 
@@ -119,6 +137,7 @@ O avanço de um agravamento em curso trava enquanto o praticante mantiver o cont
 **Hitokoto Meirei — 一言命令**
 **[PROPOSTA — Rank D]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV2 · Moldagem 44 · Controle de Chakra LV2 · ter aprendido Agito na Coisa
 **XP:** 600
 
@@ -132,6 +151,7 @@ O objeto infundido passa a obedecer a comando de uma palavra. Segurar, soltar, a
 **Hifū no Jutsu — 疲封の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV3 · Moldagem 34 · ter aprendido Fôlego Além
 **XP:** 2.120
 
@@ -141,6 +161,7 @@ O praticante empurra a própria fadiga para trás, adiando por uma cena inteira 
 **Honekoshi no Ichigeki — 骨越しの一撃**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV3 · Moldagem 68 · perícia de combate corporal declarada na ficha
 **XP:** 1.775
 
@@ -150,6 +171,7 @@ A saturação se comprime num único golpe e se libera no instante do impacto, a
 **Niku Tomari — 肉止まり**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV3 · Moldagem 44
 **XP:** 2.120
 
@@ -159,6 +181,7 @@ O que foi aberto no próprio corpo para de piorar. O sangramento cessa, o agrava
 **Karishio no Jutsu — 借潮の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito de Segurança
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV3 · Moldagem 46 · ter aprendido Mão que Ampara
 **XP:** 1.775
 
@@ -168,6 +191,7 @@ A sustentação alcança corpo que já cruzou o limiar de queda, mantendo-o oper
 **Hitorishigoto — 独り仕事**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV3 · Moldagem 44 · ter aprendido Palavra na Forma
 **XP:** 2.120
 
@@ -177,6 +201,7 @@ A forma infundida executa uma tarefa simples do começo ao fim sem supervisão, 
 **Hayame no Me — 早芽**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV3 · Moldagem 32
 **XP:** 1.775
 
@@ -190,6 +215,7 @@ Coisa viva e parada acelera o próprio ciclo. Semente vira muda, muda vira arbus
 **Fumin no Yoru — 不眠の夜**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 48
 **XP:** 5.300
 
@@ -199,6 +225,7 @@ O praticante sustenta o próprio pulso além do ponto em que ele deveria falhar,
 **Namaishihada — 生石肌**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 60 · Couro · ter aprendido Músculo Inflado
 **XP:** 5.300
 
@@ -208,6 +235,7 @@ A saturação endurece pele, músculo e osso a ponto de a pancada comum não alc
 **Niri no Ashi — 二里の足**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 58 · Ímpeto
 **XP:** 4.625
 
@@ -217,6 +245,7 @@ A compressão vital se libera nas pernas, e o praticante cobre num deslocamento 
 **Chidome no Jutsu — 血止めの術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 60 · Cicatriz · ter aprendido Carne Que Segura
 **XP:** 5.300
 
@@ -226,6 +255,7 @@ O selo passa a alcançar ferimento grave e a segurar mais de um ao mesmo tempo, 
 **Nibanjio — 二番潮**
 **[PROPOSTA — Rank B]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 74 · Esteio · ter aprendido Maré Emprestada
 **XP:** 6.200
 
@@ -235,6 +265,7 @@ O canal de sustentação mantém funcional e capaz de agir um corpo que deveria 
 **Kaneno Kata — 鉄の肩**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 62 · Arrimo
 **XP:** 5.300
 
@@ -244,6 +275,7 @@ Por toque, corpo alheio que ainda opera passa a aguentar mais do que aguentaria,
 **Kareki Fukumei — 枯木吹命**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 60 · Animador · ter aprendido Tarefa Sem Vigia
 **XP:** 5.300
 
@@ -253,6 +285,7 @@ Objeto inerte de porte pequeno passa a se mover e a obedecer instrução declara
 **Tanin no Ne — 他人の根**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 64 · Enxerto
 **XP:** 4.625
 
@@ -262,9 +295,13 @@ Obra erguida por outra natureza recebe vitalidade e passa a operar por conta pr�
 **Yabu Okoshi — 藪起こし**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yang LV4 · Moldagem 48 · Rebento · ter aprendido Broto Adiantado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 4.625
 
 A aceleração alcança o terreno em vez de um alvo, e uma clareira aberta fecha em mata alta no tempo de uma ação. O que cresce continua vivo e não obedece ao praticante, e serve tanto à retirada dele quanto ao avanço de quem vier depois pelo mesmo caminho.
@@ -273,6 +310,7 @@ A aceleração alcança o terreno em vez de um alvo, e uma clareira aberta fecha
 **Nokoshigoto — 残し仕事**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV4 · Moldagem 76 · Legado
 **XP:** 6.200
 
@@ -286,6 +324,7 @@ Uma forma já infundida se desliga da sustentação e continua operando por cont
 **Hakōken — 破構拳**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV5 · Moldagem 66 · Ímpeto · ter aprendido Golpe Além do Osso
 **XP:** 12.800
 
@@ -295,6 +334,7 @@ A compressão deixa de valer para um golpe e passa a valer para a sequência int
 **Mujinro — 無尽炉**
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV5 · Moldagem 68 · Fornalha
 **XP:** 12.800
 
@@ -304,6 +344,7 @@ O metabolismo acelerado sustenta o corpo contra fadiga, veneno, frio, calor e pr
 **Mibanban — 三晩番**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV5 · Moldagem 66 · Vigília · ter aprendido Noite Sem Sono
 **XP:** 12.800
 
@@ -313,6 +354,7 @@ O praticante deixa de perder consciência por exaustão enquanto sustentar, e re
 **Hirakanu Niku — 開かぬ肉**
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV5 · Moldagem 80 · Cicatriz · ter aprendido Sangue Que Não Corre
 **XP:** 15.200
 
@@ -322,6 +364,7 @@ O selo deixa de exigir ação e passa a disparar sozinho no instante em que o pr
 **Chidokujio — 遅毒潮**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV5 · Moldagem 78 · Contracorrente · ter aprendido Freio do Mal
 **XP:** 15.200
 
@@ -331,10 +374,14 @@ A vitalidade sobe mais rápido do que aquilo que avança dentro do corpo, suspen
 **Enjio no Jutsu — 遠潮の術**
 **[PROPOSTA — Rank A]**
 **Acesso:** Assinatura Pessoal
+**Alcance categórico:** Área
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yang LV5 · Moldagem 82 · Esteio · ter aprendido Segunda Maré
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.200
 
 A sustentação deixa de exigir toque e alcança corpo a curta distância, mantendo dois operantes ao mesmo tempo sem que o praticante precise se expor ao contato. Ninguém neste mundo levou o canal a esse alcance. O primeiro praticante a cumprir o requisito e concluir o processo de criação de técnica torna-se o criador registrado.
@@ -343,9 +390,13 @@ A sustentação deixa de exigir toque e alcança corpo a curta distância, mante
 **Tachitsuranari — 立ち連なり**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yang LV5 · Moldagem 68 · Arrimo · ter aprendido Ombro de Ferro
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 12.800
 
 O empréstimo de vigor alcança três corpos a curta distância, e uma formação inteira passa a aguentar o mesmo que o praticante aguenta. É a técnica que decide defesa de portão em desvantagem numérica, e a que mais aparece nos relatos de posto que resistiu quando não deveria.
@@ -354,9 +405,13 @@ O empréstimo de vigor alcança três corpos a curta distância, e uma formaçã
 **Kotaeru Mori — 応える森**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yang LV5 · Moldagem 80 · Enxerto · ter aprendido Raiz na Obra Alheia
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.200
 
 Toda obra de outra natureza ao alcance do praticante recebe a infusão no mesmo turno, sobe uma categoria de escala e passa a se reerguer sozinha ao ser destruída. Combatendo ao lado de quem ergue terreno, o portador desta técnica transforma o trabalho do companheiro em guarnição.
@@ -365,9 +420,13 @@ Toda obra de outra natureza ao alcance do praticante recebe a infusão no mesmo 
 **Ichijikan no Mori — 一時間の森**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Campo
 **Requisitos:** Liberação de Yang LV5 · Moldagem 48 · Rebento · ter aprendido Mato Fechado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 11.000
 
 A aceleração cobre um campo inteiro, e uma encosta rala vira bosque fechado no tempo de uma conversa. O Mokuton origina madeira do chakra do usuário e aqui nada é originado, o que torna a técnica inútil onde não haja coisa viva no terreno e devastadora onde haja.
@@ -376,9 +435,13 @@ A aceleração cobre um campo inteiro, e uma encosta rala vira bosque fechado no
 **Mujin no Mamori — 無人の守り**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yang LV5 · Moldagem 80 · Legado · ter aprendido Serviço Deixado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.200
 
 Várias formas instaladas ao mesmo tempo, operando por dias e com condição de encerramento declarada em cada uma. O praticante monta o posto, dá as instruções e vai embora, e o posto continua respondendo. Guarnições inteiras se mantêm com esta técnica e um punhado de shinobi.
@@ -391,6 +454,7 @@ Várias formas instaladas ao mesmo tempo, operando por dias e com condição de 
 **Nibanyoake — 二番夜明け**
 **[PROPOSTA — Rank S]**
 **Acesso:** Assinatura Pessoal
+**Alcance categórico:** Alvo
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yang LV6 · Moldagem 104 · Brasa
 **XP:** 45.500
@@ -401,6 +465,7 @@ Pelo toque, função que cessou volta a operar em corpo que permanece inteiro. C
 **Hienu Karada — 冷えぬ体**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yang LV6 · Moldagem 52 · Fornalha · ter aprendido Fornalha Sem Fim
 **XP:** 32.000
 
@@ -410,10 +475,14 @@ O metabolismo acelerado passa a operar pela duração de uma missão inteira, co
 **Shūmei no Jutsu — 集命の術**
 **[PROPOSTA — Rank S]**
 **Acesso:** Assinatura Pessoal
+**Alcance categórico:** Área
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yang LV6 · Moldagem 96 · Animador
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 38.000
 
 Formas infundidas em número, de porte grande e agindo em ação plena própria, sob a mesma instrução declarada. Um pátio de ferramentas, uma parede de armas, uma carroça inteira de material morto passa a operar ao mesmo tempo. Ninguém neste mundo levou a infusão a essa escala, e o primeiro a alcançá-la e concluir o processo de criação torna-se o criador registrado.
@@ -422,9 +491,13 @@ Formas infundidas em número, de porte grande e agindo em ação plena própria,
 **Onore Tatsu No — 己立つ野**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Campo
 **Requisitos:** Liberação de Yang LV6 · Moldagem 100 · Enxerto · ter aprendido Floresta Que Responde
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 45.500
 
 Toda obra de outra natureza em campo sobe duas categorias de escala e volta a se erguer cada vez que for destruída, enquanto o praticante estiver ali. Uma linha de defesa erguida por outro deixa de ter fim, e o inimigo derruba a mesma parede quatro vezes antes de entender o que está acontecendo. A técnica existe no mundo em posse de um portador desconhecido.
@@ -433,10 +506,14 @@ Toda obra de outra natureza em campo sobe duas categorias de escala e volta a se
 **Kono Retsu Taorezu — この列倒れず**
 **[PROPOSTA — Rank S]**
 **Acesso:** Assinatura Pessoal
+**Alcance categórico:** Área
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yang LV6 · Moldagem 88 · Arrimo · ter aprendido Linha Inteira de Pé
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 38.000
 
 O empréstimo de vigor alcança seis corpos a distância média e sustenta um esquadrão inteiro no patamar do praticante, com cada um deles ignorando pela cena a penalidade de ferimento e de peso carregado. Nada de chakra passa de um para o outro em momento algum. Ninguém neste mundo estendeu o empréstimo a esse número, e o primeiro a alcançá-lo e concluir o processo de criação torna-se o criador registrado.

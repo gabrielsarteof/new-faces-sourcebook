@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yin-release
 title: "Liberação de Yin"
-version: 4.4
+version: 4.5
 layer: scenario
 scenario: naruto
 type: skill
@@ -123,7 +123,7 @@ MÁSCARA (grau 4, complexidade 3) · 42
 
 MIRAGISTA (grau 2, complexidade 4) · 34
 └─ Terreno Mentido [sustentado, ação padrão, 90 RC no ato e 30 RC por turno]: área de 20 metros de raio com o praticante dentro, em que distância, direção e contagem lidas deixam de corresponder ao campo. Cada criatura hostil dentro opõe percepção ao teste no turno em que agir, e em falha a ação resolve contra a geometria falsa, com margem de 30 ou mais consumindo o turno inteiro em deslocamento errado. Aliados nomeados no ato ficam de fora. LV5: raio de 50 metros, e o praticante deixa de precisar estar dentro
-└─ Distância Falsa [ativado, reação, 40 RC]: no instante em que ataque à distância ou investida resolve contra alvo dentro da área, o atacante lê a distância errada e o Perfil de Evasão do alvo sobe um degrau contra aquele ataque. LV5: dois degraus, e alcança o ataque que sai de dentro da área contra alvo fora dela
+└─ Distância Falsa [ativado, reação, 40 RC]: no instante em que ataque à distância ou investida resolve contra alvo dentro da área, o atacante opõe a própria percepção ao teste pela Régua de Leitura, na classe Engano, e quem falha lê a distância errada, perde a leitura do campo até o início do próprio turno e gasta a Reação contra a ameaça que leu em vez da que chega. O ataque permanece no degrau que a construção dele declara. LV5: alcança o ataque que sai de dentro da área contra alvo fora dela
 
 CORTINA (grau 4, complexidade 2) · 42
 └─ Escuro Erguido [sustentado, ação padrão, 70 RC no ato e 25 RC por turno]: volume de escuro real com 10 metros de raio, centrado em ponto declarado. Ninguém dentro enxerga, incluindo o praticante, os aliados e o portador de dōjutsu dependente de luz. Quem depende de visão dentro do volume desce um degrau no Perfil de Evasão, e ataque à distância que atravesse a borda resolve sem linha de visão. Audição, olfato e leitura de chakra operam dentro sem penalidade, e contato com a borda não desfaz, porque não há forma a romper. LV5: raio de 25 metros, e o praticante passa a enxergar dentro do próprio escuro
@@ -147,7 +147,7 @@ LAÇO (grau 4, complexidade 3) · 42
 └─ Rede Erguida [ativado, ação padrão, 75 RC]: cobre área de 8 metros de raio com malha de substância, e quem entrar ou estiver dentro opõe esquiva ao teste, ficando preso pelo grau da margem. LV5: raio de 15 metros, e a malha persiste 2 turnos sem sustentação
 
 FORJADOR DE FENÔMENOS (grau 4, complexidade 3) · 42
-└─ Lança do Vazio [ativado, ação padrão, custo declarado pela técnica]: a energia espiritual veste a forma de um fenômeno e atravessa a distância como golpe, fora do ciclo de superação e com o dano operando pela Constante de Moldagem multiplicada pela Assinatura do vetor que a obra declarar. O alvo desce um degrau no Perfil de Evasão contra o fenômeno, porque a trajetória não obedece à física do elemento que ela imita. O Sharingan copia a moldagem e não a natureza, e a cópia por quem não possui afinidade de Yin não produz o fenômeno. LV5: dois degraus, e o fenômeno atravessa cobertura leve antes de resolver
+└─ Lança do Vazio [ativado, ação padrão, custo declarado pela técnica]: a energia espiritual veste a forma de um fenômeno e atravessa a distância como golpe, fora do ciclo de superação e com o dano operando pela Constante de Moldagem multiplicada pela Assinatura do vetor que a obra declarar. O fenômeno declara a Régua de Leitura na classe Engano, porque a trajetória não obedece à física do elemento que ela imita, e o alvo que falha a leitura gasta a Reação contra o elemento que julgou ver. O Sharingan copia a moldagem e não a natureza, e a cópia por quem não possui afinidade de Yin não produz o fenômeno. LV5: o fenômeno atravessa cobertura leve antes de resolver
 └─ Sem Ciclo [passivo, sem custo]: técnica de Inton do praticante ignora a redução por barreira, guarda e absorção indexadas a natureza elemental, porque não há natureza elemental a indexar. LV5: ignora também a absorção declarada por dōjutsu e por caminho de perícia vizinha, restando a oposição por integridade bruta
 
 INCLINAÇÃO VULTO
@@ -192,7 +192,7 @@ Revoga: a régua de oposição da miragem, que resolve toda obra da inclinação
 └─ Segunda Face LV6: alcança porte de construção plena, e o revestimento persiste sem sustentação por uma cena
 └─ Falsa Assinatura LV6: o estado falso resiste ao corte deliberado, restando apenas a leitura de chakra como desmentido
 └─ Terreno Mentido LV6: eleva de área para campo, alcançando o campo de batalha declarado
-└─ Distância Falsa LV6: três degraus de Perfil de Evasão
+└─ Distância Falsa LV6: sem melhoria própria. Os três degraus de Perfil de Evasão que o nível concedia mediam acumulação na escada, e a acumulação foi revogada quando a escada passou a ser propriedade de construção. A lacuna fica registrada em vez de preenchida por invenção
 └─ Escuro Erguido LV6: raio de 60 metros, e o volume acompanha o deslocamento do praticante
 [a obra do genjutsu permanece fora do alcance da revogação, com a escada de quebra do documento daquela perícia intacta]
 
@@ -208,7 +208,7 @@ Revoga: o limiar de ruptura da régua de integridade, que rompe a obra por intei
 └─ Alçapão LV6: todas as faces respondem no mesmo turno, como ação livre
 └─ Grilhão LV6: três alvos na mesma ação, e o grau imposto sobe uma categoria
 └─ Rede Erguida LV6: raio de 30 metros, e a malha persiste 5 turnos sem sustentação
-└─ Lança do Vazio LV6: três degraus de Perfil de Evasão, e o fenômeno atravessa cobertura plena
+└─ Lança do Vazio LV6: o fenômeno atravessa cobertura plena. Os três degraus de Perfil de Evasão que o nível também concedia saíram com a revogação da acumulação na escada
 └─ Sem Ciclo LV6: resta apenas a oposição por integridade bruta, sem exceção declarada por documento algum
 [a obra permanece fora do ciclo elemental e continua cessando por decisão do praticante e por esgotamento da reserva, de modo que a revogação retira a ruptura por dano e conserva o custo]
 
@@ -265,6 +265,8 @@ DEPENDÊNCIAS E PENDÊNCIAS
 Perícia de Sensoriamento, hoje sem documento, dona da leitura de chakra alheio e da identificação de fonte que o caminho Atalaia recusa. Núcleo do Sistema, que ainda não publica a resolução de impacto cinético contra barreira, consumida pelo caminho Arquiteto e resolvida provisoriamente pela régua de limiar. Compêndio de Inton, escrito contra a partição anterior, com entradas a reendereçar e faixa a crescer para a lotação vigente. Sistema de Efeitos de Status, que responde pela graduação da Imobilização do caminho Laço e pela Exaustão de Chakra do resíduo espiritual. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas.
 
 REGISTRO DE ALTERAÇÕES
+
+**v4.5.** Distância Falsa e Lança do Vazio deixam de mover degraus no Perfil de Evasão e passam a declarar a Régua de Leitura na classe Engano, pela conversão que o Lote de Evasão e Leitura publicou. Os dois efeitos LV6 perdem os três degraus que concediam, e o de Lança do Vazio conserva a travessia de cobertura plena. Escuro Erguido continua escrito como estava e entra no relatório da propagação, porque a cláusula dele desce o Perfil de um combatente e não de uma obra. Nenhum grau, complexidade, custo ou valor resolvido mudou.
 
 v4.3
 

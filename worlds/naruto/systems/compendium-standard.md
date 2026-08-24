@@ -1,7 +1,7 @@
 ---
 id: naruto.system.compendium-standard
 title: "Norma de Produção de Compêndios"
-version: 2.9
+version: 2.11
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,9 +9,13 @@ status: final
 source-file: Norma_de_Producao_de_Compendios_v2-2.md
 ---
 
-# Norma de Produção de Compêndios · v2.9
+# Norma de Produção de Compêndios · v2.11
 
 Padrão estrutural e editorial para compêndios de técnicas do RPG Canônico 1:1 de Naruto.
+
+**O que mudou na v2.11.** A Seção 10 publica o Alcance categórico, campo obrigatório em toda entrada, e o declara a única autoridade sobre qual teste a entrada resolve. A Banda Mínima e a Banda Máxima perdem qualquer papel de classificação, e o texto diz por quê: a passada de propagação encontrou entradas de alvo único carregando as duas por herança. Os três campos de geometria passam a acompanhar o Alcance categórico e não a presença de banda. O Perfil de Evasão passa a declarar que a escada alcança Alvo e Linha, e a precondição do degrau Inevitável ganha as quatro vias de negação que o Manual de Criação de Jutsus v3.6 enumera.
+
+**O que mudou na v2.10.** A Seção 10 publica os campos que os compêndios já escreviam sem contrato, o Vetor, e os campos que o Lote de Evasão e Leitura criou, o Perfil de Evasão, a Régua de Leitura, as Linhas simultâneas e as três grandezas de área. A ordem dos campos passa a ser a do formato acima, com o Vetor e o Perfil antes das bandas e as três grandezas de área depois delas. Nenhuma camada de acesso, etiqueta, régua de preço ou teste de pertencimento mudou.
 
 **O que mudou na v2.8.** O compêndio deixa de ser lido como fonte de preço definitivo. A Seção 1 declara o status normativo por inteiro: o compêndio é catálogo de existência, o XP publicado em entrada sem ficha é provisório, o provisório morre quando a ficha nasce ou quando a regra do domínio é produzida, e não há retroatividade sobre quem já comprou. A Seção 10 ganha o marcador `[provisório]` obrigatório no campo de XP de toda entrada sem ficha, e a Seção 12 fecha a pendência de convivência do preço, que vivia registrada sem dono desde a v2.
 
@@ -168,8 +172,16 @@ Entrada cuja execução exige volume de reserva que nenhum corpo humano carrega 
 **[ETIQUETA — Rank X]**
 **Acesso:** Camada
 **Requisitos:** Perícia LV · Moldagem · Caminho
+**Vetor:** Vetor · Grau · Celeridade
+**Alcance categórico:** Alvo, Linha, Área ou Campo
+**Perfil de Evasão:** Degrau
+**Régua de Leitura:** Classe · teste do executor
+**Linhas simultâneas:** N
 **Banda Mínima:** Banda
 **Banda Máxima:** Banda
+**Profundidade máxima:** N m
+**Abrangência:** N m
+**Espécie:** expande ou aparece
 **XP:** N
 
 Corpo em prosa.
@@ -183,7 +195,21 @@ Corpo em prosa.
 
 Publicada a perícia, a entrada passa a escrevê-la nua e capitalizada, e a exigência deixa de ser pendente sem que nada mais na linha mude.
 
+**Vetor.** O vetor de entrega da obra, com o grau quando o vetor o tiver e a Celeridade do meio quando a obra atravessar distância. Entrada que não entrega dano por vetor próprio declara a ausência com a razão escrita, e entrada portada pelo corpo declara a ausência de celeridade pelo mesmo motivo.
+
+**Alcance categórico.** Obrigatório em toda entrada. Uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada, com Alvo como valor de omissão. **É este campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga.** A Banda Mínima e a Banda Máxima não entram nessa decisão em hipótese alguma: elas declaram até onde o executor projeta o centro de uma obra de área e não classificam a obra.
+
+**Perfil de Evasão.** Um entre Telegrafado, Padrão, Teleguiado e Inevitável, lido da Seção 6.5 do Manual de Criação de Jutsus. O degrau é propriedade de construção e se lê da prosa da própria entrada, sem consultar ficha de executor. Padrão é o valor de omissão. Telegrafado exige que a prosa diga que a obra se anuncia antes de sair, que exige acúmulo visível ou que o campo inteiro a vê chegando. Teleguiado exige que a prosa diga que a obra persegue o alvo depois que ele se move. Inevitável exige rank A ou acima e uma precondição que o defensor possa negar, nomeada na entrada junto com o que a desfaz. Entrada que não resolve teste de conexão declara a não aplicabilidade com a razão escrita. A escada alcança apenas as entradas de Alvo e de Linha, e nas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga.
+
+A precondição do degrau Inevitável se nega por quatro vias, e a entrada declara qual delas vale: desfazer a precondição, sair do alcance dela, quebrar o que a sustenta, ou sobreviver à janela em que ela existe.
+
+**Régua de Leitura.** Presente apenas na entrada cuja propriedade central é o alvo não saber do que se defender. Declara a classe, Engano ou Ilegibilidade, e o teste do executor que a régua opõe à percepção do observador. A régua vive em `naruto.system.reading-scale` e a entrada não a republica.
+
+**Linhas simultâneas.** Presente apenas na entrada que alcança o mesmo alvo por mais de uma linha de aproximação distinta. Declara o número inteiro de linhas, e projéteis que chegam pelo mesmo ângulo contam como uma. A resolução lê a tabela de vantagem numérica da Seção 11 do Núcleo de Combate.
+
 **Banda Mínima e Banda Máxima.** Presentes apenas em entrada de categoria Área ou Campo, na escada de bandas do Núcleo de Combate, Engajado, Curta, Média, Longa ou Extrema. Declaram até onde o executor projeta o centro da obra, medido do próprio corpo, e não o alcance da área ou do campo em si, que a escada da Seção 11 daquele documento já fixa a partir do centro escolhido. Ausentes em toda entrada de categoria Alvo, onde o alcance mora na prosa das Restrições como sempre morou.
+
+**Profundidade máxima, Abrangência e Espécie.** Presentes exatamente nas entradas cujo Alcance categórico for Área ou Campo. A profundidade máxima é a distância em metros que o corpo mais enterrado precisa cruzar para sair da forma, e a abrangência é quanto chão a obra ocupa. As duas alimentam o teste de fuga da Seção 13 do Núcleo de Combate, e onde a prosa não publicar geometria em metros a entrada escreve `a publicar` em vez de inventar número. A espécie é `expande` por omissão, e `aparece` só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair.
 
 **XP.** O número, seguido de `[provisório]` em toda entrada sem ficha própria, conforme a Seção 1. A escala que o produz e as faixas por rank pertencem ao Manual de Criação de Jutsus, e a derivação não é reescrita aqui nem na entrada. A entrada que aponta para ficha publicada não carrega o marcador, porque o número dali deixou de ser estimativa.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.inton
 title: "Compêndio de Inton"
-version: 2.8
+version: 2.10
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Inton_v2-1.md
 ---
 
-# Compêndio de Inton · v2.8
+# Compêndio de Inton · v2.10
 
 **O que mudou na v2.3.** Primeira auditoria completa da Exigência de Moldagem: as 40 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. Seis entradas já traziam justificativa própria na prosa (Lâmina de Vazio, Eco de Presença, Armadura de Segunda Pele, Carregador Sem Rosto, Despacho de Raio, Cidadela do Vazio), usada como âncora direta.
 
@@ -23,7 +23,17 @@ Catálogo das técnicas nomeadas do domínio de Yin. Cada entrada informa o que 
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
-**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
+**O que mudou na v2.9.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**Perfil de Evasão, ausência encerrada.** A Seção 6.5 do Manual de Criação de Jutsus fechou em v3.5 e a escada parou de se mover: quatro degraus, propriedade de construção, sem elevação por caminho, por transcendência, por circunstância ou por estado do executor. A leitura falseada que quatro entradas do repasse reivindicavam saiu da escada e virou régua com dono, a Régua de Leitura do cenário. Com as duas coisas fechadas, as entradas classificadas por vetor passam a declarar o Perfil, lido da própria prosa e sem consultar ficha de executor. Padrão é o valor de omissão, e entrada cuja prosa não sustente Telegrafado, Teleguiado ou Inevitável o recebe sem marcação.
+
+**O que mudou na v2.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair.
 
 **O que mudou na v2.6.** As entradas passam a declarar o vetor de entrega quando aplicável. O domínio inteiro é construção e ilusão, "originar forma a partir do nada", e trinta e sete das quarenta entradas não entregam dano algum. Apenas Lâmina de Vazio recebeu vetor direto, Corte pela lâmina forjada do vazio e vinculada ao braço. Ramo Que Não Existe e Despacho de Raio subiram para a fila de decisão: as duas se descrevem "fora do ciclo de superação" e sem tipo elemental a apartar, o que levanta se o mecanismo de dano de uma obra de Yin passa pela Constante de Moldagem e pela Assinatura do vetor do mesmo jeito que uma obra elemental, ou se corre por régua própria que este repasse não tem autoridade para inventar. Nenhum preço em XP foi tocado, pela errata de status normativo da Norma de Produção de Compêndios v2.8.
 
@@ -49,6 +59,7 @@ Os nomes japoneses deste compêndio são romanização proposta e construída pa
 **Giei no Jutsu — 偽影の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV1 · Moldagem 18
 **XP:** 175
 
@@ -58,6 +69,7 @@ O praticante projeta a própria imagem a curta distância, parada e sem comporta
 **Namakatachi no Jutsu — 生形の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV1 · Moldagem 18
 **XP:** 175
 
@@ -67,6 +79,7 @@ O praticante origina uma forma sem função, um bloco, uma esfera, uma haste, su
 **Reikō no Ito — 冷光の糸**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Linha
 **Requisitos:** Liberação de Yin LV1 · Moldagem 16
 **XP:** 130
 
@@ -76,6 +89,7 @@ Uma linha de luz sem calor e sem fonte, erguida no ar e mantida enquanto o prati
 **Sehai no Jutsu — 背影の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV1 · Moldagem 26
 **XP:** 130
 
@@ -89,6 +103,7 @@ O praticante apaga da leitura alheia o contorno de uma coisa parada, a própria 
 **Teikei no Jutsu — 定形の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV2 · Moldagem 32 · ter aprendido Molde Cru
 **XP:** 720
 
@@ -98,6 +113,7 @@ A forma originada continua existindo depois que a atenção do praticante se vol
 **Hokōei no Jutsu — 歩行影の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV2 · Moldagem 32 · ter aprendido Reflexo Falso
 **XP:** 600
 
@@ -107,6 +123,7 @@ A imagem projetada ganha um comportamento simples e repetitivo, caminhar em linh
 **Kirinuki no Jutsu — 切り抜きの術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV2 · Moldagem 34 · ter aprendido Vulto de Costas
 **XP:** 600
 
@@ -116,6 +133,7 @@ O apagamento passa a cobrir objeto de porte maior e a resistir a exame apressado
 **Mude no Te — 無腕の手**
 **[PROPOSTA — Rank D]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV2 · Moldagem 44 · Controle de Chakra LV2
 **XP:** 600
 
@@ -125,6 +143,7 @@ Uma mão de substância espiritual erguida à distância do corpo, presa a nada 
 **Okime — 置き目**
 **[PROPOSTA — Rank D]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV2 · Moldagem 42 · ter aprendido Forma Sustentada
 **XP:** 720
 
@@ -138,6 +157,7 @@ Uma forma pequena deixada em ponto declarado, pela qual o praticante enxerga enq
 **Kōei no Jutsu — 硬影の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV3 · Moldagem 34 · ter aprendido Forma Sustentada
 **XP:** 2.120
 
@@ -147,6 +167,7 @@ A forma originada ganha resistência estrutural comparável à madeira comum, o 
 **Kyojū no Jutsu — 虚重の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito de Segurança
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV3 · Moldagem 44 · ter aprendido Silhueta Rígida
 **XP:** 1.775
 
@@ -156,6 +177,7 @@ O praticante origina peso concentrado sem forma reconhecível, empregado para de
 **Karimen no Jutsu — 借面の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV3 · Moldagem 46
 **XP:** 1.775
 
@@ -165,9 +187,13 @@ O praticante reveste um objeto presente em cena com a aparência de outro de por
 **Futokoro Yami no Jutsu — 懐闇の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yin LV3 · Moldagem 48 · ter aprendido Vulto de Costas
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 2.120
 
 Um volume de escuro real com três metros de raio, erguido em ponto declarado. Ninguém dentro enxerga, incluindo quem o ergueu, e a audição, o olfato e a leitura de chakra continuam operando sem penalidade. É a versão curta do ofício da cortina, empregada para cobrir uma porta, um beco ou o instante de uma troca.
@@ -176,6 +202,7 @@ Um volume de escuro real com três metros de raio, erguido em ponto declarado. N
 **Kyonawa — 虚縄**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Linha
 **Requisitos:** Liberação de Yin LV3 · Moldagem 34
 **XP:** 1.775
 
@@ -185,6 +212,7 @@ Uma corda originada do nada, sem peso e sem ponta solta, que o praticante amarra
 **Mōshisha — 盲使者**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV3 · Moldagem 44 · ter aprendido Forma Sustentada
 **XP:** 2.120
 
@@ -198,9 +226,13 @@ Uma forma que percorre trajeto instruído no ato e entrega o que carrega no pont
 **Mu no Kabe — 無の壁**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yin LV4 · Moldagem 48
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 5.300
 
 Um painel erguido em ponto declarado, com até cinco metros de largura por três de altura, que corta linha de visão e de movimento e resiste pelo limiar de integridade. A parede é o exercício base de toda construção do domínio, e permanece livre justamente por preceder a especialização que depois a refina em estrutura de porte.
@@ -211,6 +243,8 @@ Um painel erguido em ponto declarado, com até cinco metros de largura por três
 **Acesso:** Requisito Mecânico
 **Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Armeiro
 **Vetor:** Corte, Grau III do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 4.625
 
 Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem peso e imune a quebra por uso. Ela apara aço e morde couro endurecido, e cede apenas quando o golpe recebido vence o limiar registrado no ato da forja. Empunhar uma arma real exige mais refinamento do que erguer uma forma parada, e a Exigência de Moldagem 60 registra isso.
@@ -219,6 +253,7 @@ Uma lâmina inteira forjada do vazio e vinculada ao braço do praticante, sem pe
 **Sōei no Jutsu — 双影の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV4 · Moldagem 58 · Duplicador · ter aprendido Andar do Vulto
 **XP:** 5.300
 
@@ -228,6 +263,7 @@ Uma cópia espiritual completa do praticante, que se desloca junto dele e respon
 **Kehai Kodama no Jutsu — 気配木霊の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV4 · Moldagem 74 · Duplicador · Sinal (Controle de Chakra)
 **XP:** 4.625
 
@@ -237,6 +273,7 @@ A forma falsa passa a emitir presença de chakra convincente, o bastante para qu
 **Mujin no Gaitō — 無人の外套**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV4 · Moldagem 58 · Velador · ter aprendido Recorte Simples
 **XP:** 5.300
 
@@ -246,6 +283,7 @@ O véu passa a cobrir o praticante em movimento pleno, dobrando a leitura de que
 **Karigao no Jutsu — 借顔の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV4 · Moldagem 72 · Máscara · ter aprendido Máscara de Empréstimo
 **XP:** 4.625
 
@@ -255,6 +293,7 @@ O revestimento alcança pessoa viva, dando a um terceiro o rosto, o porte e a ro
 **Mutai no Me — 無体の眼**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Atalaia · ter aprendido Olho Posto
 **XP:** 5.300
 
@@ -264,6 +303,7 @@ O praticante ergue formas de observação em pontos separados e enxerga e ouve a
 **Kyokase — 虚枷**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV4 · Moldagem 60 · Laço · ter aprendido Corda do Vazio
 **XP:** 5.300
 
@@ -273,6 +313,7 @@ Uma forma que se fecha sobre alvo declarado e o acompanha enquanto ele se desloc
 **Uchikui — 打杭**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV4 · Moldagem 76 · Ancorador
 **XP:** 6.200
 
@@ -284,6 +325,8 @@ Uma obra já erguida se desliga da sustentação de quem a criou e passa a exist
 **Acesso:** Fechada na Criação
 **Requisitos:** Liberação de Yin LV4 · Moldagem 62 · Forjador de Fenômenos
 **Vetor:** Impacto · Celeridade 95
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 4.625
 
 A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo que cresce no ar sem raiz, uma réstia de luz que não vem de fonte alguma, e atravessa a distância como golpe. O fenômeno fica fora do ciclo de superação, e quem tenta apartá-lo pelo tipo não encontra tipo algum. A forma varia a cada execução, e a entrega permanece a mesma, uma massa que chega e empurra, sem gume e sem ponta que sustente trajeto. A técnica existe no mundo em posse de pouquíssimos, e nenhum currículo institucional a transmite.
@@ -296,9 +339,13 @@ A energia espiritual veste a forma de um fenômeno natural em miniatura, um ramo
 **Seiheki — 静壁**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Campo
 **Requisitos:** Liberação de Yin LV5 · Moldagem 64 · Arquiteto · ter aprendido Parede de Nada
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.200
 
 Estrutura erguida em escala de terreno, muro corrido, cúpula ou plataforma de dezenas de metros, com integridade própria e passagem que o praticante abre e fecha à vontade. Ela serve de chão para os dois lados, e o inimigo que a escala ganha o mesmo apoio que o esquadrão defendido. É o arsenal de defesa de posição do domínio.
@@ -307,6 +354,7 @@ Estrutura erguida em escala de terreno, muro corrido, cúpula ou plataforma de d
 **Daini no Hada — 第二の肌**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV5 · Moldagem 80 · Couraça
 **XP:** 12.800
 
@@ -316,9 +364,13 @@ Uma casca completa erguida rente ao corpo, que recebe cada golpe antes da carne 
 **Tai no Tobari — 隊の帳**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yin LV5 · Moldagem 78 · Velador · ter aprendido Manto de Ninguém
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.200
 
 O véu deixa de cobrir uma forma e passa a cobrir um grupo em deslocamento, com cada integrante conservando a própria posição real enquanto some da leitura de quem procura. A obra exige que o esquadrão permaneça dentro de distância declarada, e o integrante que se afasta reaparece sozinho, o que faz da técnica um instrumento de disciplina tanto quanto de furtividade.
@@ -327,9 +379,13 @@ O véu deixa de cobrir uma forma e passa a cobrir um grupo em deslocamento, com 
 **Tateyoru — 立て夜**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yin LV5 · Moldagem 66 · Cortina · ter aprendido Escuro de Bolso
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.200
 
 Um volume de escuro real que cobre uma rua, um pátio ou a boca de um desfiladeiro. Ninguém dentro enxerga, incluindo o portador de dōjutsu que dependa de luz, e ataque à distância que atravesse a borda resolve sem linha de visão. A audição e a leitura de chakra continuam operando, e é por elas que os combates dentro da noite erguida se decidem.
@@ -338,9 +394,13 @@ Um volume de escuro real que cobre uma rua, um pátio ou a boca de um desfiladei
 **Mujin no Ami — 無人の網**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Liberação de Yin LV5 · Moldagem 66 · Laço · ter aprendido Grilhão do Vazio
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 12.800
 
 Malha de substância espiritual estendida sobre área, que prende quem estiver dentro e quem entrar depois, pelo grau lido da margem. A rede persiste alguns turnos sem sustentação e por isso vale como armadilha posta antes do encontro, o que a distingue do grilhão, que exige alvo já escolhido.
@@ -349,6 +409,7 @@ Malha de substância espiritual estendida sobre área, que prende quem estiver d
 **Kaonashi no Ninai — 顔無しの荷**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV5 · Moldagem 48 · Estafeta · ter aprendido Mensageiro Cego
 **XP:** 12.800
 
@@ -358,6 +419,7 @@ A forma passa a carregar pessoa e a percorrer quilômetros por trajeto instruíd
 **Fumetsu no Ban — 不滅の番**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV5 · Moldagem 80 · Ancorador · ter aprendido Marco Fincado
 **XP:** 15.200
 
@@ -367,6 +429,7 @@ Várias obras ancoradas ao mesmo tempo, com duração de metade de um dia e com 
 **Dokuei no Jutsu — 独影の術**
 **[PROPOSTA — Rank A]**
 **Acesso:** Assinatura Pessoal
+**Alcance categórico:** Alvo
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yin LV5 · Moldagem 82 · Projecionista
 **XP:** 15.200
@@ -377,9 +440,13 @@ Uma projeção com presença física real, capaz de tocar, empurrar e ser tocada
 **Kaze Senmen no Jutsu — 風千面の術**
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Campo
 **Requisitos:** Liberação de Yin LV5 · Moldagem 68 · Miragista
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.200
 
 O terreno em área passa a mentir para quem o percorre, com distância, direção e contagem reescritas para todos que estiverem dentro. Aliados nomeados no ato ficam de fora, e quem entra depois entra dentro da mentira. A técnica existe no mundo e nenhuma vila a ensina, de modo que ela só se aprende com um portador disposto a compartilhá-la.
@@ -388,6 +455,7 @@ O terreno em área passa a mentir para quem o percorre, com distância, direçã
 **Ryūketsu no Kage — 流血の影**
 **[PROPOSTA — Rank A]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV5 · Moldagem 78 · Duplicador · ter aprendido Sombra Gêmea
 **XP:** 12.800
 
@@ -404,6 +472,9 @@ A cópia espiritual passa a sofrer dano convincente quando atingida, com ferida 
 **Estado de Autoria:** Registrada
 **Requisitos:** Liberação de Yin LV6 · Senjutsu LV6 · Raiton LV6 · Moldagem 52 · Forjador de Fenômenos
 **Vetor:** Energia elétrica · Celeridade 150
+**Alcance categórico:** Linha
+**Perfil de Evasão:** Padrão
+**Linhas simultâneas:** a publicar, a prosa conta feixes em quantidade sem número
 **XP:** 27.500
 
 A energia espiritual veste a forma de um raio e é despachada contra o alvo, com feixes saindo das duas palmas em quantidade e se fechando sobre ele para prendê-lo. A obra soma três componentes no mesmo ato, a energia espiritual que dá a forma, a energia natural colhida que sustenta o volume, e a natureza de Raio que fornece a corrente entregue. É a única técnica de Yin confirmada em fonte primária com nome próprio, e o criador dela é Madara Uchiha, que existe na história deste mundo, o que põe o acesso do jogador sob a regra de contexto aprovado. A Exigência de Moldagem 52 em rank S é o par declarado deste compêndio contra a indexação de precisão por porte: o porte da técnica vem da reserva que ela queima e não do refinamento que ela pede.
@@ -414,9 +485,13 @@ O prefixo Senpō leva a posse desta entrada ao Compêndio de Senjutsu, conforme 
 **Fuzaiya no Jutsu — 不在野の術**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Campo
 **Requisitos:** Liberação de Yin LV6 · Moldagem 100 · Miragista
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 45.500
 
 A mentira deixa de ocupar área e passa a reescrever o campo de batalha inteiro, com todos os pontos de referência, distâncias e posições relativas submetidos à obra. Exércitos perdem formação dentro dela sem que um único golpe tenha sido desferido. A técnica existe no mundo em posse de um portador desconhecido, e alcançá-la exige encontrar essa pessoa.
@@ -425,9 +500,13 @@ A mentira deixa de ocupar área e passa a reescrever o campo de batalha inteiro,
 **Kyojō — 虚城**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Campo
 **Requisitos:** Liberação de Yin LV6 · Moldagem 96 · Arquiteto
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 45.500
 
 Fortificação erguida do nada em escala de centena de metros, com muralha, portão, plataformas e passagens que respondem ao comando de quem a ergueu. Ela se levanta sobre água e no vazio, porque não depende de solo algum, e permanece de pé enquanto a reserva sustentar. A Exigência de Moldagem 96 responde por manter proporção interna constante ao longo de toda a estrutura.
@@ -436,6 +515,7 @@ Fortificação erguida do nada em escala de centena de metros, com muralha, port
 **Dokurai no Kage — 独来の影**
 **[PROPOSTA — Rank S]**
 **Acesso:** Assinatura Pessoal
+**Alcance categórico:** Alvo
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Liberação de Yin LV6 · Moldagem 104 · Projecionista
 **XP:** 38.000
@@ -446,6 +526,7 @@ Projeções simultâneas com presença física real, cada uma agindo em ação p
 **Sekai no Omote — 世界の面**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Alvo
 **Requisitos:** Liberação de Yin LV6 · Moldagem 88 · Máscara · ter aprendido Rosto Emprestado
 **XP:** 38.000
 

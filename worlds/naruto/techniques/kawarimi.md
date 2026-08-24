@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kawarimi
 title: "Substituição de Corpo"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -91,21 +91,16 @@ A técnica resolve em duas camadas independentes, e a distinção governa todo o
 
 ### Régua de Leitura
 
-Esta régua nasce nesta ficha e é consumida por referência, sem republicação, pelo Bunshin no Jutsu e pelo Shunshin no Jutsu.
+O engano desta ficha resolve pela Régua de Leitura, `naruto.system.reading-scale`, instrumento de cenário que nasceu neste documento e passou a viver com dono próprio. A ficha declara o que a régua pede e não a republica, e o Bunshin no Jutsu e o Shunshin no Jutsu a consomem pelo mesmo endereço.
 
-O atacante testa a própria percepção em oposição ao teste de Controle de Chakra do usuário na inclinação Moldagem, pela forma de oposição padrão do Núcleo.
+- **Classe:** Engano, porque a técnica mostra um corpo no ponto do impacto e entrega outro, e a familiaridade corrói.
+- **Teste do executor:** o teste de Controle de Chakra na inclinação Moldagem, somando a especialização de Refino quando possuída.
+- **O que o adversário vê no lugar da ameaça real:** o corpo do usuário parado onde o golpe o alcançaria, quando o que está ali é o objeto substituto.
 
-```
-teste de percepção do observador = PRE + SAB
-teste de Moldagem do executor    = Base Total + SAB + Inclinação Total de Moldagem
-                                    + especialização de Refino, quando possuída
-limiar do observador             = (teste de percepção ÷ teste de Moldagem) × 50
-```
+- **Falha do atacante:** ele comprou a ilusão. Perde a leitura do campo até o início do próprio turno seguinte e gastou a Reação da rodada contra o corpo que leu. O primeiro ataque do usuário contra ele nesse intervalo resolve contra um alvo que não contesta a conexão, e o degrau que a técnica atacante publica não se move em ponto nenhum.
+- **Sucesso do atacante:** ele acompanhou a moldagem e a troca em tempo real. O golpe ainda atinge o substituto, porque o movimento comprometido não redireciona, mas o embalo converte em perseguição. Movimento gratuito de até a distância da substituição em direção ao corpo real, e o ponto de chegada não concede ocultação alguma ao usuário.
 
-- **Falha do atacante** (rolagem acima do limiar): ele comprou a ilusão. Perde a leitura do campo até o início do próprio turno seguinte. Nesse intervalo, o primeiro ataque do usuário contra ele tem o Perfil de Evasão elevado em um degrau categórico, até o máximo de Teleguiado.
-- **Sucesso do atacante** (rolagem dentro do limiar): ele acompanhou a moldagem e a troca em tempo real. O golpe ainda atinge o substituto, porque o movimento comprometido não redireciona, mas o embalo converte em perseguição. Movimento gratuito de até a distância da substituição em direção ao corpo real, e o ponto de chegada não concede ocultação alguma ao usuário.
-
-**Familiaridade.** Cada substituição do mesmo usuário já testemunhada na cena pelo mesmo observador soma 10% cumulativo ao teste de percepção daquele observador. O shinobi que repete o truque diante do mesmo adversário o educa a cada troca.
+**Familiaridade.** Corre pela régua daquele documento, dez por cento cumulativo à percepção do observador a cada substituição do mesmo usuário testemunhada na cena. O shinobi que repete o truque diante do mesmo adversário o educa a cada troca.
 
 A régua substitui, de forma integral, o termo de compressão por razão de RC gasta sobre RC máxima usado em versões anteriores deste documento. Aquele termo penalizava reservas grandes em vez de premiar controle refinado, e a leitura corrente ancora o engano na perícia que de fato o produz.
 
@@ -113,12 +108,14 @@ A régua substitui, de forma integral, o termo de compressão por razão de RC g
 
 ## Interação com Defesas
 
-- **Telegrafado, Padrão e Veloz:** negados normalmente pela camada de deslocamento.
+A tabela lê a camada de Reação do Núcleo de Combate, seção 6, de que esta técnica é uma resposta declarada.
+
+- **Telegrafado e Padrão:** negados normalmente pela camada de deslocamento. O degrau Veloz saiu da escada e não tem mais linha aqui.
 - **Teleguiado:** o impacto imediato é negado, e a perseguição de um turno adicional prevista no próprio perfil continua sobre o corpo real. A propriedade de perseguição pertence à técnica atacante, paga em custo e XP no registro dela, e não à leitura do atacante.
-- **Inevitável:** inaplicável. O perfil anula a esquiva, e o Kawarimi vive no slot da esquiva.
+- **Inevitável:** inaplicável. O degrau fecha por inteiro o lugar da esquiva, e nenhuma resposta da camada de Reação se aplica contra ele, o Kawarimi entre elas.
 - **Técnicas de área:** a substituição não nega área, ela reposiciona. O usuário escapa apenas se o objeto substituto estiver fora da zona de efeito, o que o alcance de 0 a 5 metros raramente permite contra explosões amplas.
 
-O Kawarimi não é técnica ofensiva de alvo e não declara Perfil de Evasão próprio. O que a Régua de Leitura eleva, em caso de falha do atacante, é o Perfil de Evasão do golpe seguinte que o próprio usuário desferir.
+O Kawarimi não é técnica ofensiva de alvo e não declara Perfil de Evasão próprio. O que a falha do atacante na Régua de Leitura entrega é um alvo que não contesta a conexão do golpe seguinte do usuário, e nenhum degrau de nenhuma técnica se move por isso.
 
 ---
 
@@ -155,9 +152,8 @@ custo pago   = 6 × (1 + desperdício)
 
 - **Bunshin no Jutsu:** o clone multiplica os corpos visíveis antes da troca, e a substituição executada atrás da cortina de cópias dificulta a leitura do ponto de chegada.
 - **Selo explosivo:** a fixação no substituto converte a reação defensiva em armadilha imediata, no padrão canônico do combate na ponte de Nami.
-- **Golpes de perfil Veloz:** a elevação categórica sobre um ataque já Veloz produz um Teleguiado momentâneo, o teto do dividendo.
 - **Shunshin no Jutsu:** a substituição nega o golpe e o deslocamento corporal no turno seguinte abre distância real. A dupla cobre a lacuna entre o alcance curto de uma técnica e a fuga efetiva da outra.
-- **Percepção sobrenatural do adversário:** contra Sharingan desperto e sensores, o teste de percepção do observador segue os documentos de Sharingan e de sensoriamento, que declaram a própria leitura do teste de Moldagem do executor pela Régua de Leitura acima. O efeito esperado é a leitura consistente da troca, reduzindo a técnica a transporte.
+- **Percepção sobrenatural do adversário:** contra Sharingan desperto e sensores, o teste de percepção do observador segue os documentos de Sharingan e de sensoriamento, que declaram a própria leitura do teste de Moldagem do executor pela Régua de Leitura do cenário. O efeito esperado é a leitura consistente da troca, reduzindo a técnica a transporte.
 
 ---
 

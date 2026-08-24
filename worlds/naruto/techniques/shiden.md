@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.shiden
 title: "Shiden — Relâmpago Púrpura (紫電)"
-version: 2.4
+version: 2.6
 layer: scenario
 scenario: naruto
 type: technique
@@ -88,13 +88,13 @@ No modo cirúrgico, o executante alcança um objeto preso ao corpo de outra pess
 
 ## Mecânica de Ativação
 
-- **RC nominal:** 900, com a sobretaxa da escada de evasão já embutida, acrescida de 1 Limite de Saída por turno de carga adicional, até 2 turnos
+- **RC nominal:** 783, já limpa, acrescida de 1 Limite de Saída por turno de carga adicional, até 2 turnos. A coluna publicava 900 com a sobretaxa de quinze por cento do degrau Veloz embutida, e o abatimento é o mesmo que a Linhagem do Chidori aplicou às sete fichas da tabela dela: esta entrada ficou de fora naquela passada por não pertencer à árvore, e entra agora
 - **Vetor:** Energia elétrica · Celeridade 150, e 165 no portador da Kyōka Shiden, pelo eixo de Entrega que Naturezas Avançadas publica
-- **Custo mínimo:** 300
+- **Custo mínimo:** 261, a terça parte da nominal limpa
 - **Custo de PS:** nenhum próprio, restando apenas o que o desperdício do executante cobra pela régua do Controle de Chakra
 - **Selos de referência:** 1
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Veloz, com a sobretaxa da escada já embutida na RC nominal publicada
+- **Perfil de Evasão:** Padrão. A ficha carregava o degrau Veloz por ser de raio, e o degrau saiu da escada quando a velocidade virou grandeza própria
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** janela de canalização, seguida de disparo imediato, sem deslocamento, com opção de 1 a 2 turnos de carga antes da liberação
 - **Restrições:** alcance lido do Fio Estendido, escopo declarado antes da resolução, linha de projeção livre ou meio condutor em contato
@@ -123,8 +123,8 @@ Conforme a Seção 5.3 do Manual de Jutsus:
 
 ```
 dano bruto = 5 × RC_limpa × coef_entrega × mult_Tipo × M
-dano bruto = 5 × 900 × 0,16 × 1,75 × M
-dano bruto = 1.260 × M
+dano bruto = 5 × 783 × 0,16 × 1,75 × M
+dano bruto = 1.096,2 × M
 
 M = 1 + 1,0 × (P − 148) ÷ 148          piso de M: 0,5
 ```
@@ -147,9 +147,9 @@ A tabela é indexada ao `P` do Raiton, porque é o `P` que o motor lê. Nenhum p
 
 | P do Raiton | M | Dano | % PV do par |
 |---|---|---|---|
-| 122 | 0,824 | 1.039 | 54,1% |
-| 148, referência do rank | 1,000 | 1.260 | 65,6% |
-| 180 | 1,216 | 1.532 | 79,8% |
+| 122 | 0,824 | 903 | 47,0% |
+| 148, referência do rank | 1,000 | 1.096 | 57,1% |
+| 180 | 1,216 | 1.333 | 69,4% |
 
 A tabela vale para todo executante. O portador da Kyōka Shiden lê as mesmas três linhas, porque o refinamento dele corre pela celeridade e não pelo multiplicador, e a vantagem dele aparece na cadeia de Velocidade da Seção 5.7 do Manual de Jutsus.
 
@@ -169,7 +169,7 @@ A perfuração de Absorção depende da distância da entrega, pela mesma régua
 
 O executante que não possua o caminho Ponta não perfura Absorção em distância alguma, e a combinação de Lança sem Ponta é comum nesta entrada porque o Chidori não é pré-requisito dela.
 
-O Perfil de Evasão Veloz reduz em 25% a esquiva do alvo, e em 40% no primeiro uso do combate contra cada alvo. Nos degraus de área e de campo, a esquiva do alvo permanece sujeita à mesma redução, e a técnica não sobe a Inevitável porque não declara condição estrutural obrigatória.
+O Perfil de Evasão Padrão não desconta a esquiva do alvo. A dificuldade de sair da frente desta entrada vem da Velocidade da obra, celeridade 165 no portador da Kyōka Shiden e 150 fora dele, que é grandeza própria com dono e enfrenta a esquiva no teste de conexão. Nos degraus de área e de campo a resolução deixa de ser o teste de conexão e passa a ser o teste de fuga do Núcleo de Combate, e a entrada não alcança o Inevitável porque não declara precondição que o defensor possa negar.
 
 ---
 

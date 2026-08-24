@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kirin
 title: "Kirin (麒麟)"
-version: 2.3
+version: 2.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -66,7 +66,7 @@ O ponto de queda é destruído junto com o alvo. A descarga abre cratera, vitrif
 - **Custo mínimo:** 100, referentes à condução, pagos da reserva do executante
 - **Selos de referência:** 1
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
-- **Perfil de Evasão:** Inevitável, com a existência da tempestade como condição estrutural obrigatória
+- **Perfil de Evasão:** Inevitável, com a existência da tempestade sobre o campo como precondição negável, desfeita pelo alvo que saia de baixo dela antes da queda
 - **Janela de Canalização:** lida sobre o custo pago, resolvendo em zero turnos para qualquer executante com reserva acima de 500
 - **Ação:** o executante forma o selo de condução e declara o ponto de queda
 - **Restrições:** consumo único por tempestade, com o disparo dispersando as nuvens

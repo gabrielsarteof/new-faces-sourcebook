@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hachimon-tonko
 title: "Hachimon Tonkō (八門遁甲)"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -242,7 +242,7 @@ O regulador do estômago é o último que protege o corpo do próprio deslocamen
 - **Sequela na saída:** Fadiga nível 3, Ferimento Grave Grave e Fratura Moderada nos membros empregados
 - **Custo de XP:** 18.200
 
-**Interações.** Abre o acesso ao Pavão da Manhã no Compêndio dos Oito Portões. A elevação de degrau no Perfil de Evasão é elevação categórica comprada com progressão, prevista no Manual de Criação de Jutsus, e alcança apenas as obras de taijutsu puro do praticante. A ignição aplica o rider Queimadura de grau mínimo Leve e grau máximo Moderado nas obras que a declararem, e a resolução pertence ao Sistema de Efeitos de Status. A ignição é fenômeno de atrito e não é natureza de Fogo, de modo que não participa do ciclo elemental e não lê mult_Tipo.
+**Interações.** Abre o acesso ao Pavão da Manhã no Compêndio dos Oito Portões. A elevação de degrau no Perfil de Evasão alcança apenas as obras de taijutsu puro do praticante. Ela era elevação categórica comprada com progressão, prevista no Manual de Criação de Jutsus, e a Seção 6.5 daquele manual fechou a escada a toda elevação em jogo, nomeando o estado do executor entre as fontes que não movem uma técnica de degrau. O verbo permanece escrito como estava e a forma que ele passa a tomar é errata aberta, registrada na seção 11 do documento dos Oito Portões. A ignição aplica o rider Queimadura de grau mínimo Leve e grau máximo Moderado nas obras que a declararem, e a resolução pertence ao Sistema de Efeitos de Status. A ignição é fenômeno de atrito e não é natureza de Fogo, de modo que não participa do ciclo elemental e não lê mult_Tipo.
 
 **Etiqueta.** Canon na ignição do ar por atrito e no acesso ao Pavão da Manhã. Proposta na magnitude, na elevação de degrau e no restante.
 
@@ -299,7 +299,7 @@ O último regulador está no coração e é o que impede o órgão de trabalhar 
 - **Sequela na saída:** morte ao fim da cena, sem teste de resistência e sem grau
 - **Custo de XP:** 50.000
 
-**Interações.** Abre o acesso ao Guy Noturno no Compêndio dos Oito Portões. O degrau Inevitável exigido pela escada do Perfil de Evasão tem como condição estrutural declarada o estado terminal deste portão, e nenhuma outra entrada do domínio alcança aquele degrau. A revogação pertence à família de remoção de condição do contrato do tier Transcendente. A morte é resultado mecânico e não é substituída por dano em PV, por Inconsciência nem por Coma, e a única porta registrada contra ela é intervenção de escala que o sistema posiciona acima do domínio médico inteiro.
+**Interações.** Abre o acesso ao Guy Noturno no Compêndio dos Oito Portões. O degrau Inevitável exigido pela escada do Perfil de Evasão tem como precondição declarada o estado terminal deste portão, e nenhuma outra entrada do domínio alcança aquele degrau. A revogação pertence à família de remoção de condição do contrato do tier Transcendente. A morte é resultado mecânico e não é substituída por dano em PV, por Inconsciência nem por Coma, e a única porta registrada contra ela é intervenção de escala que o sistema posiciona acima do domínio médico inteiro.
 
 **Etiqueta.** Canon no trabalho do coração acima do tolerável, na evaporação do sangue, no patamar de combate alcançado, na morte do executor e na classificação como Kinjutsu por autodestruição. Proposta na magnitude, na revogação declarada e no restante.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.lineage.sharingan
 title: "Sharingan"
-version: 2.2
+version: 2.3
 layer: scenario
 scenario: naruto
 type: lineage
@@ -10,6 +10,8 @@ source-file: Sharingan_Documento_Final-2.md
 ---
 
 # Sharingan
+
+**O que mudou na v2.3.** As duas leituras mortas do bônus de antecipação saem. A camada citava um teste de Esquiva e um teste de Reação, e o sistema não publica teste de Reação nem trata a esquiva como grandeza de ficha: o que existe é o lado defensivo do teste de conexão, e o par de VEL com SAB da linha de Reação é o da Iniciativa, que já estava listada. O bônus passa a incidir sobre quatro testes em vez de cinco, sem mudar valor nenhum.
 
 **O que mudou na v2.2.** Precisão de termo na seção Controle de chakra: a linha que já isentava o bônus do olho de alterar pré-requisito de jutsu passa a nomear os dois portões do Manual de Requisitos de Técnica v2.2, e cita a regra geral que este documento inspirou — efeito ligável nunca entra em portão. Nenhum número mudou.
 
@@ -109,7 +111,7 @@ O Olho da Percepção é a metade do Sharingan que lê o mundo. Ele opera em cam
 
 A camada sensorial é passiva e automática enquanto o olho está ativo. O portador vê o fluxo de chakra, identifica indivíduos pela assinatura, estima a reserva aproximada de um alvo visível e enxerga chakra atrás de cobertura leve. O portador detecta de imediato quem está sob genjutsu, inclusive a si mesmo, ao reconhecer o fluxo irregular. Com as mãos do oponente à vista, o portador lê os selos a qualquer velocidade e identifica a natureza da técnica antes que ela se forme. Esses usos não exigem teste. O teste só aparece no esforço, como enxergar através de obstrução densa ou resolver um detalhe muito fino, resolvido por teste simples de SAB contra a dificuldade definida pelo Narrador.
 
-A camada de antecipação concede o bônus de leitura da curva-mãe. Ele incide sobre cinco testes: Esquiva (VEL+DES), Reação (VEL+SAB), Iniciativa (VEL+SAB+1d6), Intuição (PRE+SAB) e Sentir Motivação (PRE+SAB). A leitura de combate e a leitura de pessoas vêm da mesma raiz, que é o olho lendo o corpo alheio, a tensão muscular, a micro-expressão, a intenção. O bônus melhora a leitura, não o corpo. Contra um alvo que não oferece pista corporal, como alguém de fluxo de chakra rompido, a leitura não se aplica.
+A camada de antecipação concede o bônus de leitura da curva-mãe. Ele incide sobre quatro testes: o lado defensivo do teste de conexão (VEL+DES+bônus de esquiva), Iniciativa (VEL+SAB+1d6), Intuição (PRE+SAB) e Sentir Motivação (PRE+SAB). As duas linhas anteriores, Esquiva e Reação, eram leituras mortas: o Núcleo de Combate não publica teste de Reação, e o par VEL e SAB que aquela linha citava é o da Iniciativa, já listada. A esquiva do portador não é grandeza de ficha, é o lado defensivo do teste de conexão, e é sobre ele que o bônus incide. A leitura de combate e a leitura de pessoas vêm da mesma raiz, que é o olho lendo o corpo alheio, a tensão muscular, a micro-expressão, a intenção. O bônus melhora a leitura, não o corpo. Contra um alvo que não oferece pista corporal, como alguém de fluxo de chakra rompido, a leitura não se aplica.
 
 Contra um alvo que o portador está lendo, o olho concede o ignora-esquiva. O portador antecipa para onde o alvo vai se mover, e uma fração da Esquiva do alvo é removida antes que ele role para escapar. Isso não é bônus de dano nem de acerto. Ele apenas reduz a vantagem defensiva de quem foi lido. O ignora-esquiva é condicional ao alvo lido, e por isso tem teto menor que o bônus de leitura geral.
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.genjutsu
 title: "Compêndio de Genjutsu (幻術)"
-version: 1.3
+version: 1.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Genjutsu_v1.md
 ---
 
-# Compêndio de Genjutsu (幻術) · v1.3
+# Compêndio de Genjutsu (幻術) · v1.5
 幻術 · Genjutsu
 
 Catálogo das técnicas de ilusão do sistema, organizadas por rank. Cada entrada declara etiqueta editorial, camada de acesso, requisitos de aprendizagem e custo de XP, seguidos da descrição de execução e função tática.
@@ -24,6 +24,16 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 ---
 
+**O que mudou na v1.4.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**O que mudou na v1.5.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair. O Perfil de Evasão não entra neste compêndio, porque nenhuma entrada dele recebe classificação de vetor e o achado que fecha essa pergunta está registrado acima.
+
 ## Rank E
 
 ---
@@ -32,6 +42,7 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 **Komorebi no Jutsu — 木漏れ日の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV1 · Moldagem dispensada · Caminho dispensado
 **XP:** 186
 **Obra:** ocular · aceita auto-liberação · 15 RC
@@ -44,6 +55,7 @@ A obra espalha diante do alvo o brilho salpicado que a luz forma ao atravessar a
 **Nigemizu no Jutsu — 逃げ水の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV1 · Moldagem dispensada · Caminho dispensado
 **XP:** 229
 **Obra:** ocular · aceita auto-liberação · 20 RC
@@ -56,6 +68,7 @@ A miragem que recua conforme o viajante avança dá nome à obra e descreve o ef
 **Kanfūji no Jutsu — 感封じの術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV1 · Moldagem dispensada · Caminho dispensado
 **XP:** 271
 **Obra:** ocular · aceita auto-liberação · 25 RC
@@ -68,6 +81,7 @@ A obra apaga do alvo um sentido declarado no ato da imposição, por um turno. O
 **Yamabiko no Jutsu — 山彦の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV1 · Moldagem dispensada · Caminho dispensado
 **XP:** 186
 **Obra:** sonoro · aceita auto-liberação · 15 RC
@@ -80,6 +94,7 @@ O yamabiko das montanhas responde de onde ninguém está, e a obra faz o mesmo c
 **Sorame no Jutsu — 空目の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV1 · Moldagem dispensada · Caminho dispensado
 **XP:** 186
 **Obra:** ocular · aceita auto-liberação · 15 RC
@@ -92,6 +107,7 @@ A obra altera um detalhe pequeno de um objeto ou de um escrito dentro do campo d
 **Tezawari no Jutsu — 手障りの術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV1 · Moldagem dispensada · Caminho dispensado
 **XP:** 229
 **Obra:** tátil · aceita auto-liberação · 20 RC
@@ -108,6 +124,7 @@ Pelo contato da mão, a obra instala na pele do alvo uma sensação que não cor
 **Magen: Narakumi no Jutsu — 魔幻・奈落見の術**
 **[CANON — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV2 · Moldagem dispensada · Caminho dispensado
 **XP:** 578
 **Obra:** ocular · aceita auto-liberação · 60 RC
@@ -120,6 +137,10 @@ Com os selos de Serpente e de Rato, a obra mostra ao alvo a imagem que ele menos
 **Kasumi Jūsha no Jutsu — 霞従者の術**
 **[CANON — Rank D]**
 **Acesso:** Patrimônio de Vila (Amegakure)
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Genjutsu LV2 · Moldagem dispensada · Caminho dispensado
 **XP:** 711
 **Obra:** ocular · aceita auto-liberação · 75 RC
@@ -132,6 +153,7 @@ Figuras vestidas de névoa se multiplicam ao redor do alvo e avançam sobre ele 
 **Kanashibari no Jutsu — 金縛りの術**
 **[CANON — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV2 · Moldagem dispensada · Caminho dispensado
 **XP:** 844
 **Obra:** ocular · exige rompimento externo · 90 RC
@@ -144,6 +166,7 @@ O alvo perde o comando sobre o próprio corpo e permanece de pé, consciente e i
 **Genrei no Jutsu — 幻鈴の術**
 **[ATRIBUÍDO · nome proposto — Rank D]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Brecha
 **XP:** 756
 **Obra:** sonoro · aceita auto-liberação · 80 RC
@@ -156,6 +179,7 @@ Sinos presos a fios de senbon soam ao redor do alvo, e o som carrega a obra até
 **Bōkyaku no Jutsu — 忘却の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV2 · Moldagem dispensada · Caminho dispensado
 **XP:** 667
 **Obra:** ocular · exige rompimento externo · 70 RC
@@ -168,6 +192,7 @@ A obra retira da atenção do alvo uma categoria de equipamento declarada no ato
 **Magen: Hitochigai no Jutsu — 魔幻・人違いの術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV2 · Moldagem dispensada · Caminho dispensado
 **XP:** 578
 **Obra:** ocular · aceita auto-liberação · 60 RC
@@ -180,6 +205,7 @@ O rosto de uma pessoa dentro do campo de visão do alvo passa a ser o rosto de a
 **Omoshi no Jutsu — 重石の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV2 · Moldagem dispensada · Caminho dispensado
 **XP:** 800
 **Obra:** ocular · aceita auto-liberação · 85 RC
@@ -192,6 +218,7 @@ O corpo do alvo relata um peso que não existe, e o deslocamento dele cai por um
 **Magen: Hitokage no Jutsu — 魔幻・人影の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV2 · Moldagem dispensada · Caminho dispensado
 **XP:** 889
 **Obra:** ocular · aceita auto-liberação · 95 RC
@@ -204,6 +231,7 @@ O alvo conta mais figuras hostis do que existem no campo. As figuras não atacam
 **Muon no Jutsu — 無音の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV2 · Moldagem dispensada · Caminho dispensado
 **XP:** 1.022
 **Obra:** ocular · exige rompimento externo · 110 RC
@@ -220,9 +248,13 @@ A audição do alvo se apaga por completo enquanto a obra estiver de pé. Ele pe
 **Magen: Kokoni Arazu no Jutsu — 魔幻・此処非の術**
 **[CANON — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Genjutsu LV3 · Moldagem dispensada · Caminho dispensado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 2.141
 **Obra:** ocular · aceita auto-liberação · 220 RC
 
@@ -234,6 +266,7 @@ A obra sobrepõe um lugar falso a uma área ampla, e alcança quem estiver dentr
 **Kori Shinchū no Jutsu — 狐狸心中の術**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Amegakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV3 · Moldagem dispensada · Caminho dispensado
 **XP:** 1.723
 **Obra:** ocular · aceita auto-liberação · 180 RC
@@ -246,6 +279,10 @@ O alvo percorre o mesmo trecho de caminho em círculo, convencido a cada volta d
 **Magen: Jigoku Kōka no Jutsu — 魔幻・地獄降下の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Genjutsu LV3 · Moldagem dispensada · Caminho dispensado
 **XP:** 2.350
 **Obra:** ocular · aceita auto-liberação · 240 RC
@@ -258,6 +295,7 @@ Uma massa de fogo desce sobre a área e o alvo sente o calor crescer conforme el
 **Magen: Shibari Kui no Jutsu — 魔幻・縛杭の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV3 · Moldagem dispensada · Caminho dispensado
 **XP:** 2.559
 **Obra:** ocular · exige rompimento externo · 260 RC
@@ -270,6 +308,7 @@ Estacas atravessam os membros do alvo e o prendem ao solo. Ele permanece conscie
 **Genmugan — 幻夢丸**
 **[ATRIBUÍDO · nome proposto — Rank C]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Brecha · Ninjutsu Médico LV1
 **XP:** 1.827
 **Obra:** tátil por ingestão · exige rompimento externo · 190 RC
@@ -282,6 +321,7 @@ A obra é depositada num insumo que o alvo ingere, e permanece inerte dentro del
 **Magen: Chihei no Jutsu — 魔幻・地平の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV3 · Moldagem dispensada · Caminho dispensado
 **XP:** 1.932
 **Obra:** ocular · aceita auto-liberação · 200 RC
@@ -294,6 +334,7 @@ O relevo se apaga da percepção do alvo e o terreno inteiro se estende diante d
 **Magen: Gentsū no Jutsu — 魔幻・幻痛の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito de Segurança
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV3 · Moldagem dispensada · Caminho dispensado
 **XP:** 2.768
 **Obra:** ocular · exige rompimento externo · 280 RC
@@ -308,6 +349,7 @@ O executor que impõe a obra sem sustentar contato com o próprio fluxo durante 
 **Magen: Yobuko no Jutsu — 魔幻・呼子の術**
 **[PROPOSTA — Rank C]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Brecha
 **XP:** 2.977
 **Obra:** sonoro · exige rompimento externo · 300 RC
@@ -326,6 +368,7 @@ A obra governa a crença e não a vontade, e o alvo age por conta própria sobre
 **Magen: Jubaku Satsu — 魔幻・樹縛殺**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Posse
 **XP:** 5.171
 **Obra:** ocular · exige rompimento externo · 480 RC
@@ -340,9 +383,13 @@ A obra foi construída para dar ao alvo a impressão de estar diante da Liberaç
 **Mateki: Mugen Onsa — 魔笛・夢幻音鎖**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Otogakure)
+**Alcance categórico:** Área
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Brecha
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 5.686
 **Obra:** sonoro · exige rompimento externo · 520 RC
 
@@ -356,6 +403,7 @@ A flauta é insumo e o executor precisa tê-la consigo com as mãos livres, o qu
 **Magen: Nijū Kokoni Arazu no Jutsu — 魔幻・二重此処非の術**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Cenário
 **XP:** 6.200
 **Obra:** ocular · exige rompimento externo · 560 RC
@@ -370,6 +418,7 @@ A camada de baixo herda o teste registrado no ato original e não pede imposiç�
 **Magen: Kokyō no Jutsu — 魔幻・故郷の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Verossimilhança
 **XP:** 6.714
 **Obra:** ocular · exige rompimento externo · 600 RC
@@ -384,9 +433,13 @@ Nada dentro dela é estranho, porque tudo dentro dela pertence a quem está pres
 **Magen: Tsugigane no Jutsu — 魔幻・継鐘の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Cenário · Caminho Brecha
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 6.971
 **Obra:** sonoro · exige rompimento externo · 620 RC
 
@@ -400,6 +453,7 @@ Na mesa a leitura é de contágio, e o jogador vai chamar de contágio. Na ficha
 **Magen: Kumoito no Jutsu — 魔幻・蜘蛛糸の術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV4 · Moldagem dispensada · Caminho Amarra
 **XP:** 7.486
 **Obra:** ocular · resiste aos dois · 660 RC
@@ -418,6 +472,7 @@ O alvo que reconhece a armadilha e para de tentar permanece dentro dela indefini
 **Genjutsu: Kokuangyō no Jutsu — 幻術・黒暗行の術**
 **[CANON — Rank A]**
 **Acesso:** Patrimônio de Vila (Konohagakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV5 · Moldagem dispensada · Caminho Posse
 **XP:** 11.300
 **Obra:** ocular · exige rompimento externo · 920 RC
@@ -432,9 +487,13 @@ A técnica pertence à fundação da vila e o registro do Tō no Sho a nomeia se
 **Nehan Shōja no Jutsu — 涅槃精舎の術**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Genjutsu LV5 · Moldagem dispensada · Caminho Brecha aprofundado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 13.250
 **Obra:** ocular · exige rompimento externo · 1.050 RC
 
@@ -448,6 +507,7 @@ A elevação do alvo único para o grupo pertence ao caminho Brecha, e a obra a 
 **Magen: Gamarinshō — 魔幻・蝦蟇臨鐘**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Transmissão Direta
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV5 · Moldagem dispensada · Caminho Brecha · contrato dos sapos do Monte Myōboku
 **XP:** 14.300
 **Obra:** sonoro · resiste aos dois · 560 RC de cada executor
@@ -464,6 +524,10 @@ A técnica pertence aos sapos do Monte Myōboku e chega a um humano apenas pelas
 **Magen: Kimen no Jutsu — 魔幻・鬼面の術**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Genjutsu LV5 · Moldagem dispensada · Caminho Verossimilhança
 **XP:** 15.500
 **Obra:** ocular · exige rompimento externo · 1.200 RC
@@ -478,6 +542,7 @@ A obra governa percepção e não comportamento, e é essa a linha que a separa 
 **Magen: Ketsuro no Jutsu — 魔幻・血路の術**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Genjutsu LV5 · Moldagem dispensada · Caminho Amarra
 **XP:** 18.500
 **Obra:** ocular · resiste aos dois · 1.400 RC
@@ -498,9 +563,13 @@ A distância para o Fio Conduzido continua sendo a mesma da entrada anterior. O 
 **常世国**
 **[ATRIBUÍDO · nome proposto — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
+**Alcance categórico:** Campo
 **Requisitos:** Genjutsu LV6 · Moldagem dispensada · Caminho Cenário aprofundado · Caminho Verossimilhança aprofundado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 30.800
 **Obra:** ocular · resiste aos dois · 2.400 RC
 
@@ -516,9 +585,13 @@ O nome vem da terra perene além do mar, para onde se vai e de onde não se cost
 **天探女**
 **[PROPOSTA — Rank S]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Campo
 **Requisitos:** Genjutsu LV6 · transcendência Falha de Percepção · Moldagem dispensada · Caminho Posse aprofundado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 40.400
 **Obra:** sonoro · resiste aos dois · 3.200 RC
 

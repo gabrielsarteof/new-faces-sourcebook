@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.bunshin
 title: "Técnica do Clone"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -83,12 +83,12 @@ A imagem não interage com o mundo. Em terrenos que registram passagem, como nev
 
 ## Resolução — O Imposto de Pontaria
 
-Enquanto o usuário e as cópias se misturam no campo, todo ataque de alvo único dirigido ao usuário resolve pela Régua de Leitura publicada na ficha do Kawarimi no Jutsu, com o atacante testando a própria percepção em oposição ao teste de Moldagem do usuário.
+Enquanto o usuário e as cópias se misturam no campo, todo ataque de alvo único dirigido ao usuário resolve pela Régua de Leitura do cenário, `naruto.system.reading-scale`, com o atacante testando a própria percepção em oposição ao teste de Moldagem do usuário. A classe é Engano, porque as cópias mostram corpos que não são o do usuário, e a familiaridade corrói.
 
 - **Sucesso do atacante:** ele distingue o corpo real entre as imagens, e o ataque resolve normalmente.
 - **Falha do atacante:** o golpe resolve contra uma cópia à escolha do defensor. A cópia estoura, e a ação do atacante foi gasta contra fumaça. A escolha pertence ao defensor porque a finta é dele.
 
-**Educação do oponente.** A mesma régua de familiaridade cumulativa que o Kawarimi publica se aplica aqui: cada cópia estourada contra o mesmo observador soma 10% ao teste de percepção dele. Recriar cópias no meio da cena reinicia o custo de conjuração, nunca o aprendizado do adversário.
+**Educação do oponente.** A mesma régua de familiaridade cumulativa daquele documento se aplica aqui: cada cópia estourada contra o mesmo observador soma 10% ao teste de percepção dele. Recriar cópias no meio da cena reinicia o custo de conjuração, nunca o aprendizado do adversário.
 
 **Encerramento do véu.** As cópias persistem pela cena. Encerram a técnica o contato de uma cópia com matéria sólida ou técnica, que estoura apenas a cópia tocada; o golpe sólido no usuário com dano igual ou superior a 15% do PV máximo, que quebra a concentração e estoura todas as cópias, no mesmo limiar da interrupção de canalização; a dispensa voluntária; e a inconsciência do usuário.
 
@@ -98,7 +98,7 @@ Enquanto o usuário e as cópias se misturam no campo, todo ataque de alvo únic
 
 - **Ataques de área:** varrem todas as cópias dentro da zona sem teste de percepção. A resposta canônica ao véu é a rajada, e a mecânica a preserva.
 - **Falhas de verossimilhança:** terrenos que denunciam a ausência de interação concedem ao observador vantagem no teste, declarada pelo Mestre antes da rolagem.
-- **Percepção sobrenatural:** contra Sharingan desperto e sensores, o teste de percepção do observador segue os documentos de Sharingan e de sensoriamento, que leem a Régua de Leitura publicada no Kawarimi. O efeito esperado é a leitura consistente das cópias, no mesmo padrão do cânone do teste dos sinos.
+- **Percepção sobrenatural:** contra Sharingan desperto e sensores, o teste de percepção do observador segue os documentos de Sharingan e de sensoriamento, que leem a Régua de Leitura do cenário. O efeito esperado é a leitura consistente das cópias, no mesmo padrão do cânone do teste dos sinos.
 
 O Bunshin não é técnica ofensiva de alvo e não declara Perfil de Evasão.
 

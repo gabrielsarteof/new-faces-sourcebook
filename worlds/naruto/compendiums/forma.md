@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 2.6
+version: 2.8
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_de_Forma_v1.md
 ---
 
-# Compêndio de Ninjutsu de Forma · v2.6
+# Compêndio de Ninjutsu de Forma · v2.8
 
 **O que mudou na v2.1.** A Exigência de Moldagem de cada entrada deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado, conforme a Régua de Exigência de Moldagem da Perícia de Controle de Chakra. Rasengan, Ōdama Rasengan e Rasenrengan declaram também o valor efetivo com Assistência de Moldagem, conforme a Linhagem do Rasengan v1.3.
 
@@ -24,7 +24,17 @@ Catálogo das técnicas nomeadas que empregam a Transformação de Forma sozinha
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
-**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
+**O que mudou na v2.7.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**Perfil de Evasão, ausência encerrada.** A Seção 6.5 do Manual de Criação de Jutsus fechou em v3.5 e a escada parou de se mover: quatro degraus, propriedade de construção, sem elevação por caminho, por transcendência, por circunstância ou por estado do executor. A leitura falseada que quatro entradas do repasse reivindicavam saiu da escada e virou régua com dono, a Régua de Leitura do cenário. Com as duas coisas fechadas, as entradas classificadas por vetor passam a declarar o Perfil, lido da própria prosa e sem consultar ficha de executor. Padrão é o valor de omissão, e entrada cuja prosa não sustente Telegrafado, Teleguiado ou Inevitável o recebe sem marcação.
+
+**O que mudou na v2.8.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair.
 
 O domínio deste compêndio é a Perícia de Controle de Chakra, e não uma perícia elemental. Toda entrada aqui emprega um único componente, e é o nível dessa perícia que carrega o portão de rank delas, contra a mesma tabela universal que os domínios elementais usam. A ausência de natureza tem consequência de mesa declarada: nenhuma entrada deste compêndio recebe rider elemental, participa do ciclo de superação entre naturezas ou morde melhor contra um elemento que contra outro.
 
@@ -42,6 +52,7 @@ Esta versão incorpora a leva de técnicas base universais, quinze entradas que 
 **Kawarimi no Jutsu — 変わり身の術**
 **[CANON — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV1 · Moldagem 22
 **XP:** 228
 
@@ -53,6 +64,7 @@ O usuário troca o próprio corpo de lugar com um objeto próximo no instante em
 **Bunshin no Jutsu — 分身の術**
 **[CANON — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV1 · Moldagem 38 (elevada +12 por tolerância zero a excesso de volume)
 **XP:** 228
 
@@ -64,6 +76,7 @@ O usuário projeta de uma a quatro cópias visuais de si mesmo, sem substância 
 **Henge no Jutsu — 変化の術**
 **[CANON — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV1 · Moldagem 26
 **XP:** 142
 
@@ -75,6 +88,7 @@ O usuário transforma fisicamente o próprio corpo em outra forma, com substânc
 **Nawanuke no Jutsu — 縄抜けの術**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV1 · Moldagem 18
 **XP:** 100
 
@@ -86,6 +100,7 @@ O usuário combina flexibilidade articular com uma película de chakra que reduz
 **Kai — 解**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV1 · Moldagem 34 · consciência prévia do genjutsu
 **XP:** 142
 
@@ -97,6 +112,7 @@ O usuário interrompe o próprio fluxo de chakra, ou aplica um pulso externo por
 **Oiroke no Jutsu — お色気の術**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV1 · Moldagem 28 · Henge no Jutsu
 **XP:** 185
 
@@ -108,6 +124,7 @@ O usuário veste uma forma humana adulta idealizada, aplicação especializada d
 **Kakuremino no Jutsu — 隠れ蓑の術**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV1 · Moldagem 22 · manto ou pano físico
 **XP:** 125
 
@@ -123,6 +140,7 @@ O usuário molda cor e textura sobre um manto físico para imitar a superfície 
 **Shunshin no Jutsu — 瞬身の術**
 **[CANON — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV2 · Moldagem 38
 **XP:** 1.022
 
@@ -134,6 +152,7 @@ O usuário vitaliza o corpo com chakra e cruza uma banda de distância em explos
 **Tōton no Jutsu — 透遁の術**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV2 · Moldagem 36 · Kakuremino no Jutsu
 **XP:** 488
 
@@ -149,6 +168,7 @@ O usuário se torna invisível a olho nu contra qualquer fundo, sem depender de 
 **Meisaigakure no Jutsu — 明再隠れの術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV3 · Moldagem 44 · Kakuremino no Jutsu
 **XP:** 1.409
 
@@ -160,6 +180,7 @@ O usuário dobra a luz diretamente sobre o próprio corpo, sem depender de manto
 **Chakura no Ito — チャクラの糸**
 **[CANON — Rank C]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV4 · Caminho Impregnação · Moldagem 50
 **XP:** 1.722
 
@@ -177,6 +198,8 @@ O usuário projeta fios de chakra quase invisíveis das próprias mãos, capazes
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Controle de Chakra LV4 · Moldagem 62 (42 com 1 Assistência de Moldagem) · Caminho Composição
 **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 6.714
 
 O usuário gira o chakra simultaneamente em várias direções e o comprime na palma da mão até que a esfera se sustente sozinha, sem casca e sem molde externo que a segure. A esfera fica visível como uma luz azul densa em rotação e emite um zumbido grave que alcança poucos metros. O contato transfere o giro ao corpo atingido, mói o ponto de entrada e arremessa o alvo na direção do avanço, e a rotação faz todo o trabalho sem que o executante precise de força própria. A técnica dispensa selos de mão por completo, o que a deixa disponível com as mãos ocupadas, feridas ou parcialmente presas, e impossível de antecipar por leitura de postura.
@@ -187,6 +210,7 @@ O usuário gira o chakra simultaneamente em várias direções e o comprime na p
 **Kage Bunshin no Jutsu — 影分身の術**
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV4 · Moldagem 32
 **XP:** 7.357
 
@@ -200,6 +224,11 @@ O usuário divide a própria reserva de chakra em até quatro corpos sólidos, c
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV4 · Moldagem 40 · Kage Bunshin no Jutsu
 **Vetor:** Impacto
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
+**Perfil de Evasão:** Padrão
 **XP:** 3.500
 
 O usuário detona um Kage Bunshin ativo, convertendo toda a reserva de chakra que o clone ainda carrega em uma explosão de área ao redor do próprio corpo do clone. A força do estouro varia com o quanto aquele clone específico já gastou em combate antes do gatilho, e a transferência de memória para o usuário original ocorre normalmente antes da detonação.
@@ -210,6 +239,7 @@ O usuário detona um Kage Bunshin ativo, convertendo toda a reserva de chakra qu
 **Harem no Jutsu — ハーレムの術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV4 · Moldagem 34 · Kage Bunshin no Jutsu · Oiroke no Jutsu
 **XP:** 3.500
 
@@ -227,8 +257,13 @@ O usuário veste simultaneamente todos os clones das sombras ativos com a forma 
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV5 · Moldagem 66 (46 com 1 Assistência de Moldagem) · Caminho Composição · Rasengan
 **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 15.500
 
 O usuário eleva o volume girado muito acima do porte padrão e produz uma esfera cujo diâmetro excede a envergadura dos próprios braços. A execução exige duas moldagens simultâneas, porque a contenção de um volume dessa ordem passa do que uma única mão sustenta, e o executante resolve a segunda por clone ou por caminho que abra outra janela de canalização. A entrega alcança todos os corpos dentro do raio de contato, com o dano resolvido integralmente por alvo, o que faz o rendimento da técnica escalar pelo número de corpos e não pelo chakra investido.
@@ -241,6 +276,9 @@ O usuário eleva o volume girado muito acima do porte padrão e produz uma esfer
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV5 · Moldagem 62 por esfera (42 com 1 Assistência de Moldagem cada) · Caminho Composição · Rasengan
 **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
+**Linhas simultâneas:** 2
 **XP:** 15.500
 
 O usuário forma uma esfera em cada mão e entrega as duas na mesma ação. Cada esfera reproduz o Rasengan sem alteração de geometria, o que mantém o rendimento por esfera idêntico ao da base e faz a técnica comprar multiplicidade. As duas moldagens simultâneas exigem assistência pela mesma via que o porte elevado exige, por clone ou pelo caminho da segunda janela.
@@ -251,6 +289,7 @@ O usuário forma uma esfera em cada mão e entrega as duas na mesma ação. Cada
 **Tajū Kage Bunshin no Jutsu — 多重影分身の術**
 **[CANON — Rank A]**
 **Acesso:** Requisito de Segurança
+**Alcance categórico:** Alvo
 **Requisitos:** Controle de Chakra LV5 · Moldagem 34 · Kage Bunshin no Jutsu
 **XP:** 18.500
 
@@ -268,8 +307,13 @@ O usuário estende a partição de reserva do Kage Bunshin muito além da banda 
 **Acesso:** Fechada na Criação
 **Requisitos:** Controle de Chakra LV6 · Moldagem 74 (34 com 2 Assistências de Moldagem) · Caminho Composição · Ōdama Rasengan · fonte externa de chakra declarada
 **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 45.200
 
 O usuário sustenta uma esfera de proporções que alcançam dezenas de metros, alimentada por chakra que não sai da própria reserva. A parcela acima do piso vem de uma fonte externa declarada na ficha, que pode ser o pool de uma entidade selada, uma reserva de energia natural sustentada ou a camada de reencarnação do portador, e o porte final resulta do volume efetivamente sacado. O contato abre uma onda de choque que arranca terreno em amplitude larga.

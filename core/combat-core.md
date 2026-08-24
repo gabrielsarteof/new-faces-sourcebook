@@ -1,11 +1,11 @@
 ---
 id: core.combat-core
 title: "Núcleo de Combate"
-version: 3
+version: 4
 layer: core
 type: core-layer
 status: final
-source-file: Nucleo_de_Combate_v2.md
+source-file: Nucleo_de_Combate_v2.md, mais o Consolidado do Lote de Evasão e Leitura
 ---
 
 # Núcleo de Combate
@@ -16,15 +16,15 @@ source-file: Nucleo_de_Combate_v2.md
 
 Um combate neste sistema é uma sequência de rodadas de seis segundos, e cada rodada resolve pela mesma ordem de decisões. Um soco, uma investida de arma e a obra mais elaborada do repertório de um personagem passam pelos mesmos doze passos, e é essa uniformidade que garante que duas mesas cheguem ao mesmo número a partir da mesma ficha. O corpo entra em combate com um pool de fôlego que se gasta a cada ação e recarrega entre uma rodada e outra, uma barra de guarda que detém energia enquanto tiver pontos e cobra fôlego por cada ponto que detém, e uma capacidade de absorção que nunca falha por completo enquanto houver corpo para resistir.
 
-Este documento publica a economia de ação e de tempo, o espaço do combate e o deslocamento dentro dele, o início e o fim de um confronto, a sequência que resolve todo ataque, o motor de dano com as camadas de defesa, os quatro vetores pelos quais a energia alcança o tecido, a economia inteira de fôlego, o que o cansaço faz ao corpo, o motor de manobras, a vantagem de cercar um alvo, a resolução de área e campo, o dano de uma queda ou de qualquer fonte sem ficha própria, e o Estado Elemental que reescreve o que o corpo é diante de um vetor declarado. Ele consome sem redefinir a régua de atributos, a resolução de testes e a iniciativa do Núcleo do Sistema, os pools de PV, PS e PM, o catálogo de condições do Sistema de Efeitos de Status, e os dois pontos de extensão do Manual de Criação de Poderes que todo golpe ofensivo lê, o eixo de evitabilidade que mede quão evitável uma obra é por construção e a forma de dois termos que separa o que se converteu do que a maestria entrega por si. Cada cenário publica a instância concreta desses dois pontos, e este documento lê o que a instância entregar sem conhecer o nome dela.
+Este documento publica a economia de ação e de tempo, o espaço do combate e o deslocamento dentro dele, o início e o fim de um confronto, a sequência que resolve todo ataque, a camada de Reação com as respostas defensivas e as condições que cada uma declara, o motor de dano com as camadas de defesa, os quatro vetores pelos quais a energia alcança o tecido, a economia inteira de fôlego, o que o cansaço faz ao corpo, o motor de manobras, a vantagem de cercar um alvo, a escada de elevação categórica, a resolução de área e campo com a fuga que ela admite, o dano de uma queda ou de qualquer fonte sem ficha própria, e o Estado Elemental que reescreve o que o corpo é diante de um vetor declarado. Ele consome sem redefinir a régua de atributos, a resolução de testes e a iniciativa do Núcleo do Sistema, os pools de PV, PS e PM, o catálogo de condições do Sistema de Efeitos de Status, e os dois pontos de extensão do Manual de Criação de Poderes que todo golpe ofensivo lê, o eixo de evitabilidade que mede quão evitável uma obra é por construção e a forma de dois termos que separa o que se converteu do que a maestria entrega por si. Cada cenário publica a instância concreta desses dois pontos, e este documento lê o que a instância entregar sem conhecer o nome dela.
 
 Um leitor procurando o dano de uma arma nomeada, o catálogo de manobras de uma escola de combate específica ou o custo em recurso de uma obra batizada está no documento errado. O primeiro caminho certo é o compêndio que publicou a obra; o segundo é o manual tradutor do cenário que instanciou o eixo de evitabilidade, a tabela de Assinatura e os coeficientes da forma de dois termos para aquele mundo.
 
 ## 2. Tempo e economia de ação
 
-A rodada dura seis segundos e é a menor fatia de tempo que o sistema resolve em separado. Dentro dela, cada combatente dispõe de uma Ação Completa, de uma Ação de Movimento e de uma Reação, e a Reação é a peça que muda o cálculo de qualquer cerco. Um corpo responde a uma ameaça de cada vez, e a segunda ameaça na mesma janela de seis segundos encontra alguém que já comprometeu o próprio equilíbrio respondendo à primeira. É essa limitação fisiológica que dá valor a atacar em conjunto, e a Seção 10 fecha a régua que ela produz.
+A rodada dura seis segundos e é a menor fatia de tempo que o sistema resolve em separado. Dentro dela, cada combatente dispõe de uma Ação Completa, de uma Ação de Movimento e de uma Reação, e a Reação é a peça que muda o cálculo de qualquer cerco. Um corpo responde a uma ameaça de cada vez, e a segunda ameaça na mesma janela de seis segundos encontra alguém que já comprometeu o próprio equilíbrio respondendo à primeira. É essa limitação fisiológica que dá valor a atacar em conjunto, e a Seção 11 fecha a régua que ela produz.
 
-A Reação se gasta numa lista fechada de quatro respostas. Esquivar de um golpe, disputar a distância contra quem tenta fechar ou abrir espaço, cortar o trajeto de um efeito que passa perto o bastante para ser interceptado, ou interromper o contato de uma entrega de energia pela régua da Seção 6.9. Nenhuma outra fonte concede Reação adicional na mesma rodada; uma obra que declare conceder uma soma-se a esta lista sem multiplicá-la.
+A Reação se gasta numa lista fechada de quatro respostas. Esquivar de um golpe, disputar a distância contra quem tenta fechar ou abrir espaço, cortar o trajeto de um efeito que passa perto o bastante para ser interceptado, ou interromper o contato de uma entrega de energia pela régua da Seção 7.9. Nenhuma outra fonte concede Reação adicional na mesma rodada; uma obra que declare conceder uma soma-se a esta lista sem multiplicá-la. A Seção 6 publica o que cada resposta compra, as condições que uma defesa declarada precisa satisfazer e a ordem em que Reações resolvem entre si.
 
 | Recurso da rodada | Quantidade |
 |---|---|
@@ -34,9 +34,9 @@ A Reação se gasta numa lista fechada de quatro respostas. Esquivar de um golpe
 
 A iniciativa segue a regra já publicada pelo Núcleo do Sistema, o par VEL somado a SAB mais 1d6, com o maior valor agindo primeiro.
 
-A Cadência é a capacidade de encaixar mais de uma ação na mesma rodada, e ela se lê da razão entre a VEL do combatente e a VEL do oponente mais rápido com quem ele está engajado. Razão de 1,5 ou mais concede uma ação extra, razão de 2,5 ou mais concede duas, e duas é o teto qualquer que seja a diferença de velocidade. Cada ação extra paga o próprio Esforço pela escada da Seção 7. A Cadência mede vantagem relativa dentro do par que está trocando golpes, e por isso o mesmo combatente pode ter uma ação extra contra um oponente e nenhuma contra outro na mesma cena.
+A Cadência é a capacidade de encaixar mais de uma ação na mesma rodada, e ela se lê da razão entre a VEL do combatente e a VEL do oponente mais rápido com quem ele está engajado. Razão de 1,5 ou mais concede uma ação extra, razão de 2,5 ou mais concede duas, e duas é o teto qualquer que seja a diferença de velocidade. Cada ação extra paga o próprio Esforço pela escada da Seção 8. A Cadência mede vantagem relativa dentro do par que está trocando golpes, e por isso o mesmo combatente pode ter uma ação extra contra um oponente e nenhuma contra outro na mesma cena.
 
-O Golpe Rápido da Seção 6.1 custa meia ação, de modo que uma única ação comporta dois deles. A Ação Completa e cada ação extra da Cadência se gastam inteiras ou em duas metades, e nenhuma fração menor que a metade existe.
+O Golpe Rápido da Seção 7.1 custa meia ação, de modo que uma única ação comporta dois deles. A Ação Completa e cada ação extra da Cadência se gastam inteiras ou em duas metades, e nenhuma fração menor que a metade existe.
 
 ## 3. Espaço e deslocamento
 
@@ -52,7 +52,7 @@ A distância neste sistema é a relação entre dois combatentes. Cada par mede 
 
 Cada combatente se move até VEL × 10 metros por rodada, gastando a Ação de Movimento. Terreno difícil conta cada metro percorrido como dois, e terreno impraticável conta como quatro, de modo que o mesmo deslocamento físico cobra o dobro ou o quádruplo do orçamento de metros. Carregar peso além do que o corpo sustenta sem esforço gasta a Ação Completa no lugar da Ação de Movimento e dobra os metros necessários para cobrir a mesma distância.
 
-Disputa de Distância e Corte de Trajeto são duas das quatro Reações que fecham a lista da Seção 2. A primeira decide se um combatente consegue fechar ou abrir espaço contra a vontade de outro; a segunda toma um efeito alheio em trânsito e o desvia de rota sem alterar o destino de quem o desviou. O custo em Esforço das duas está na escada da Seção 7, e a competência para vencer o teste oposto que cada uma exige mora na perícia ou na vantagem que a ficha do combatente declarar.
+Disputa de Distância e Corte de Trajeto são duas das quatro Reações que fecham a lista da Seção 2. A primeira decide se um combatente consegue fechar ou abrir espaço contra a vontade de outro; a segunda toma um efeito alheio em trânsito e o desvia de rota sem alterar o destino de quem o desviou. O custo em Esforço das duas está na escada da Seção 8, a competência para vencer o teste oposto que cada uma exige mora na perícia ou na vantagem que a ficha do combatente declarar, e a ordem em que elas resolvem contra outras Reações está na Seção 6.4.
 
 ## 4. Início e fim do combate
 
@@ -62,7 +62,7 @@ O direito à rodada de Surpresa se ganha em teste oposto, a furtividade do embos
 
 Na rodada de Surpresa apenas o lado emboscador age. Cada emboscador dispõe da Ação Completa e da Ação de Movimento, e de nada mais, sem Cadência e sem Reação, porque a rodada existe para alcançar o alvo despreparado e não para multiplicar ataques sobre ele.
 
-Quem foi surpreendido conta como alvo indefeso, pela régua da Seção 10, apenas durante essa rodada e apenas se não tinha nenhuma forma de perceber a ameaça chegando. Um guarda que sabia que havia perigo na floresta mas não viu de onde o golpe veio contesta o ataque com o lado defensivo inteiro, porque o corpo dele já estava alerta ainda que os olhos não tivessem encontrado a origem a tempo. É a diferença entre não ver o ataque chegar e não saber que havia ataque algum para esperar, e é a distinção que a mesa aplica toda semana.
+Quem foi surpreendido conta como alvo indefeso, pela régua da Seção 11, apenas durante essa rodada e apenas se não tinha nenhuma forma de perceber a ameaça chegando. Um guarda que sabia que havia perigo na floresta mas não viu de onde o golpe veio contesta o ataque com o lado defensivo inteiro, porque o corpo dele já estava alerta ainda que os olhos não tivessem encontrado a origem a tempo. É a diferença entre não ver o ataque chegar e não saber que havia ataque algum para esperar, e é a distinção que a mesa aplica toda semana.
 
 A Surpresa vale uma vez por combate. Um segundo grupo que se aproxime durante a mesma luta já encontra todos alertas, e a régua não se repete.
 
@@ -76,12 +76,12 @@ Todo golpe deste sistema, do soco mais simples à obra mais elaborada do repert�
 |---|---|
 | 1 | Declaração da ação, do alvo ou do centro, da arma ou obra empregada, e do vetor pelo qual ela entrega a energia |
 | 2 | Alcance pela Banda Mínima e Máxima da obra. Acima da máxima o golpe não alcança. Abaixo da mínima o coeficiente de entrega cai um degrau |
-| 3 | O eixo de evitabilidade que a obra declarar, na escala que o cenário publica, incide sobre o teste de conexão do passo 5 como camada própria |
-| 4 | O defensor gasta a Reação escolhendo a resposta. Quem não gasta Reação alguma não contesta a conexão, e o golpe alcança o corpo sem teste |
+| 3 | O eixo de evitabilidade que a obra declarar, na escala que o cenário publica, incide sobre o teste de conexão do passo 5 como camada própria. A posição é propriedade de construção e permanece a mesma durante toda a vida da obra |
+| 4 | O defensor gasta a Reação escolhendo a resposta e a intenção, pela Seção 6. Quem não gasta Reação alguma não contesta a conexão, e o golpe alcança o corpo sem teste |
 | 5 | Conexão: teste oposto de base cinquenta, a Velocidade efetiva da obra contra a VEL somada à DES e ao bônus de esquiva do alvo. Falha do atacante encerra a resolução |
 | 6 | Crítico: o atacante rola d100 contra o próprio Limiar de Crítico |
-| 7 | Energia: o corpo resolve pela forma da Seção 6.1, a obra resolve pelo motor que o manual tradutor do cenário publica, e os dois somam o Fator de Técnica que a obra declarar. O crítico multiplica o total por 1,5 |
-| 8 | Estado Elemental do alvo, quando declarado, pela Seção 13 |
+| 7 | Energia: o corpo resolve pela forma da Seção 7.1, a obra resolve pelo motor que o manual tradutor do cenário publica, e os dois somam o Fator de Técnica que a obra declarar. O crítico multiplica o total por 1,5 |
+| 8 | Estado Elemental do alvo, quando declarado, pela Seção 15 |
 | 9 | Guarda: a fração da barra que o vetor engaja detém energia até onde os pontos alcançam, consumindo barra e drenando PS do defensor na mesma proporção. Energia acima da fração engajada zera a barra e segue adiante |
 | 10 | Absorção: da energia que passou, alcança o corpo a fração E dividida por E somado à Absorção |
 | 11 | O saldo entra no PV do alvo, somado à Guarda Ferida quando o vetor é Corte |
@@ -89,7 +89,7 @@ Todo golpe deste sistema, do soco mais simples à obra mais elaborada do repert�
 
 O lado ofensivo do teste de conexão lê a Velocidade efetiva da obra, grandeza que o manual tradutor do cenário publica a partir da celeridade do meio empregado, da compressão que o coeficiente de entrega declara, do volume convertido que a propele e da maestria da mão que dispara. Tudo que o atacante traz para o teste já vive dentro dessa grandeza, e nada dele soma por fora dela.
 
-A obra portada pelo corpo, que o executor leva até o alvo em vez de projetar, não lê celeridade alguma. Ela resolve como golpe corporal, o corpo do executor contra a esquiva do alvo, e o lado ofensivo fecha em VEL somada à DES e ao bônus geral da perícia ofensiva. O golpe comum de punho ou de arma resolve pela mesma leitura, porque é o corpo que o entrega em ambos os casos, e é isso que faz o teste ficar simétrico quando os dois lados são corpos. Obra de área e obra de campo não resolvem este teste, pela régua da Seção 11.
+A obra portada pelo corpo, que o executor leva até o alvo em vez de projetar, não lê celeridade alguma. Ela resolve como golpe corporal, o corpo do executor contra a esquiva do alvo, e o lado ofensivo fecha em VEL somada à DES e ao bônus geral da perícia ofensiva. O golpe comum de punho ou de arma resolve pela mesma leitura, porque é o corpo que o entrega em ambos os casos, e é isso que faz o teste ficar simétrico quando os dois lados são corpos. Obra elevada para área ou para campo não resolve este teste, pela régua da Seção 13.
 
 O crítico multiplica a Energia antes das defesas, porque a energia extra do golpe bem colocado encontra a mesma guarda e o mesmo osso que a energia comum, e as camadas de defesa nunca sabem se o que chega até elas veio de um crítico ou não.
 
@@ -99,13 +99,67 @@ A Assinatura entra na Energia do passo 7 e pertence ao tipo de energia entregue.
 
 **Exemplo de resolução.** Dois combatentes da faixa Especial, perfil Equilibrado, se enfrentam com arma pesada. Cada um tem FOR 32, VEL 32, DES 32, DEF 32, RES 32 e PRE 32, PV 1920 e PS 768, com bônus geral de 116 na perícia que governa o golpe. A ficha de cada um resolve em Energia de Golpe Firme 180, Guarda 276 com recarga de 80, Absorção 96, Golpe 21,33, Esquiva 5,33, Bloqueio 5,33, Fôlego 16, Limiar 64 e Limiar de Crítico 16. Os dois lados do teste de conexão fecham em 180.
 
-No passo 1 o atacante declara o Golpe Firme com a arma pesada, entregue pelo vetor Impacto. No passo 2 o alcance está dentro das bandas da arma, sem ajuste. No passo 3 nenhum dos dois declarou eixo de evitabilidade fora do padrão. No passo 4 o defensor gasta a Reação esquivando. No passo 5 o limiar de conexão fecha em 180 dividido por 180, multiplicado por cinquenta, resultando em 50; o atacante rola 38 e conecta. No passo 6 ele rola 41 contra o próprio Limiar de Crítico de 16 e não obtém o golpe bem colocado. No passo 7 a Energia resolve em 32 somado a 32 e a 116, multiplicado pelo Golpe Firme de coeficiente 1, fechando em 180, sem Fator de Técnica porque é um golpe comum. No passo 8 nenhum Estado Elemental está declarado. No passo 9 o Impacto engaja a barra inteira de 276, que detém os 180 por completo: a Guarda cai para 96 e drena 180 de PS do defensor. No passo 10 nada alcança a Absorção. No passo 11 o PV do defensor permanece em 1920. No passo 12 o atacante paga 27,73 de Esforço, o Golpe de 21,33 multiplicado pelo 1,3 da arma pesada, e o defensor paga 190,66, a soma do Bloqueio de 5,33, da Esquiva de 5,33 e dos 180 pontos que a Guarda drenou. O atacante fica abaixo do próprio Limiar de 64 e recupera o Fôlego cheio; o defensor o ultrapassa e recupera metade, fechando a rodada com 585,34 de PS contra os 756,27 do atacante. A primeira troca não tirou um ponto de PV de ninguém e já custou ao defensor um quarto do fôlego dele.
+No passo 1 o atacante declara o Golpe Firme com a arma pesada, entregue pelo vetor Impacto. No passo 2 o alcance está dentro das bandas da arma, sem ajuste. No passo 3 nenhum dos dois declarou eixo de evitabilidade fora do padrão. No passo 4 o defensor gasta a Reação esquivando na intenção Deslize. No passo 5 o limiar de conexão fecha em 180 dividido por 180, multiplicado por cinquenta, resultando em 50; o atacante rola 38 e conecta. No passo 6 ele rola 41 contra o próprio Limiar de Crítico de 16 e não obtém o golpe bem colocado. No passo 7 a Energia resolve em 32 somado a 32 e a 116, multiplicado pelo Golpe Firme de coeficiente 1, fechando em 180, sem Fator de Técnica porque é um golpe comum. No passo 8 nenhum Estado Elemental está declarado. No passo 9 o Impacto engaja a barra inteira de 276, que detém os 180 por completo: a Guarda cai para 96 e drena 180 de PS do defensor. No passo 10 nada alcança a Absorção. No passo 11 o PV do defensor permanece em 1920. No passo 12 o atacante paga 27,73 de Esforço, o Golpe de 21,33 multiplicado pelo 1,3 da arma pesada, e o defensor paga 190,66, a soma do Bloqueio de 5,33, da Esquiva de 5,33 e dos 180 pontos que a Guarda drenou. O atacante fica abaixo do próprio Limiar de 64 e recupera o Fôlego cheio; o defensor o ultrapassa e recupera metade, fechando a rodada com 585,34 de PS contra os 756,27 do atacante. A primeira troca não tirou um ponto de PV de ninguém e já custou ao defensor um quarto do fôlego dele.
 
-## 6. Dano e as camadas de defesa
+## 6. A Reação e as respostas defensivas
+
+A Reação é o recurso mais escasso da rodada, e é ela que decide se um golpe encontra alguém respondendo ou um corpo comprometido em outro lugar. Esta seção publica o que a esquiva do corpo compra, o que uma obra defensiva precisa declarar para funcionar, como o eixo de evitabilidade da obra que ataca alcança a camada inteira, e a ordem em que Reações resolvem quando se cruzam.
+
+### 6.1 A esquiva do corpo
+
+Esquivar gasta a Reação da rodada e Esforço igual à Esquiva da ficha, e resolve pelo teste de conexão do passo 5. É a única resposta defensiva que não exige nada além do próprio corpo, e é por isso que ela é a única que disputa em teste em vez de entregar resultado.
+
+Quem esquiva declara uma intenção entre três, e a intenção decide o que acontece com o corpo depois que o dado cai.
+
+| Intenção | Lado defensivo | Escapando | Falhando |
+|---|---|---|---|
+| Recuo | cheio | sai da banda de engajamento com quem atacou | apanha e fica fora de posição até o próprio turno |
+| Deslize | cheio | permanece engajado, mantendo o próprio alcance sobre quem atacou | apanha e fica fora de posição até o próprio turno |
+| Leitura | ×0,70 | permanece engajado e soma ×1,20 à próxima esquiva contra o mesmo executor nesta cena | apanha, e entra em Quebra de Guarda |
+
+O Deslize é o ataque básico da defesa, e quem esquiva sem declarar nada está deslizando. O Recuo compra distância e paga com ela, porque a banda aberta atrasa o próprio revide e o inimigo pode fechá-la de volta na Ação de Movimento dele. A Leitura é a aposta do combatente que aceita ficar no caminho do golpe para aprender o ritmo de quem o desfere, e o bônus que ela concede vale contra aquele executor e não contra aquela obra, porque o que se aprende é o corpo alheio. O bônus não acumula consigo mesmo e se perde ao fim da cena.
+
+O multiplicador de 0,70 da Leitura pertence à mesma família de multiplicadores que a Seção 11 fecha, e o ×1,20 que ela concede se soma ao lado defensivo pela mesma leitura.
+
+**Fora de posição.** O combatente que falhou a esquiva não contesta a Disputa de Distância e conta como alvo adjacente na tabela de vantagem numérica que terceiros leiam contra ele, até o início do próprio turno. A condição vale para toda esquiva falhada, qualquer que tenha sido a intenção declarada.
+
+### 6.2 As três condições de uma defesa declarada
+
+Uma obra pode fazer o golpe deixar de alcançar o corpo sem que o corpo precise sair da frente dele. Toda obra desse tipo declara na ficha, além do custo e do alcance, uma ou mais das três condições abaixo. Satisfeitas as condições declaradas, a defesa funciona e o golpe é negado sem teste algum. Faltando qualquer uma delas, a defesa não se executa e a Reação continua disponível para outra resposta.
+
+| Condição | O que a ficha declara | Como o adversário a nega |
+|---|---|---|
+| Recurso | o que precisa existir no mundo e o alcance em que precisa estar | retirar, destruir ou afastar aquilo de que a defesa depende |
+| Janela | a duração em rodadas, a manutenção em número fixo absoluto e a recarga entre usos | esperar a janela fechar, ou alcançar o instante em que o corpo volta a existir para o mundo |
+| Leitura | a perícia que produz o engano e se a familiaridade o corrói | acompanhar o que aconteceu, pela régua de leitura que o cenário publica |
+
+A condição de janela carrega uma regra de comportamento que vale para todas as obras que a declarem. Enquanto a janela dura, o portador não age sobre o que não estava em contato com ele quando ela abriu, e a passagem de volta é o instante em que ele existe para o mundo sem a defesa montada.
+
+Uma obra defensiva resolve em duas camadas independentes. A camada de deslocamento sempre acontece, desde que as condições estejam satisfeitas, e nenhum teste do usuário e nenhuma condição do atacante a impedem. A camada de engano, quando a ficha a declara, resolve pela régua de leitura e decide se o adversário perdeu o rastro do corpo ou acompanhou tudo. Uma obra pode ter a primeira camada sem a segunda, e a defesa que apenas nega o golpe não depende de enganar ninguém para funcionar.
+
+O cenário nomeia as obras que preenchem cada condição, e este documento não conhece nenhuma delas.
+
+### 6.3 O eixo de evitabilidade diante da camada
+
+Todas as respostas desta seção vivem no lugar da esquiva, e é por isso que o eixo de evitabilidade da obra que ataca as alcança em bloco.
+
+Na posição superior do eixo, aquela em que a esquiva do alvo é anulada, nenhuma resposta desta seção se aplica e apenas a Absorção e o Estado Elemental respondem. Em qualquer outra posição a camada está aberta, e a resposta declarada funciona pelas próprias condições.
+
+A obra que declare a posição superior do eixo publica junto uma precondição que o defensor possa negar antes de ela disparar, e a régua concreta dessa exigência pertence ao manual tradutor do cenário. Uma obra que não consiga nomear o que a derrota não alcança a posição superior.
+
+### 6.4 Ordem entre Reações
+
+Reações resolvem na ordem inversa da declaração, de modo que a última declarada resolve primeiro. Quem age declara a ação, quem responde declara a Reação depois de saber o que veio, e a resposta acontece antes de a ação alcançar o corpo.
+
+Quando duas Reações se cruzam, cada uma resolve contra o que estava declarado no instante em que foi anunciada, e nenhuma delas se refaz depois de ver o resultado da outra. Quando a resposta de um combatente alcança o corpo de outro, o segundo responde com a própria Reação, e a cadeia se encerra ali, porque cada combatente dispõe de uma Reação por rodada e nenhuma sequência passa de dois elos.
+
+Reações de combatentes distintos, respondendo a coisas distintas, resolvem na ordem de iniciativa entre eles.
+
+## 7. Dano e as camadas de defesa
 
 O dano deste sistema é energia entregue. Um golpe carrega uma quantidade que o corpo do alvo processa em camadas sucessivas antes que o saldo alcance o PV, e a ordem das camadas importa. A energia atravessa primeiro a estrutura montada, depois a matéria do corpo, e o vetor declarado decide quanto de cada camada existe para engajá-la.
 
-### 6.1 A Energia do golpe
+### 7.1 A Energia do golpe
 
 A Energia de um golpe do corpo lê os dois atributos que produzem força e velocidade de membro, somados ao que a competência treinada acrescenta, e multiplica o total pelo compromisso do golpe declarado.
 
@@ -124,7 +178,7 @@ O bônus geral é o número resolvido pelo Núcleo de Perícias, Base Total soma
 
 O Golpe Firme é o ataque básico, e quem ataca sem declarar nada está desferindo um Firme. A guarda aberta do Golpe Pesado suspende a barra de quem o desferiu até o fim do turno seguinte dele: enquanto durar, a Guarda não engaja golpe algum e não recarrega.
 
-A arma declara um Esforço próprio, que multiplica o custo do golpe na escada da Seção 7. Nenhuma arma nomeada entra neste documento; o que ele publica é a tipologia de três classes em que qualquer arma do cenário se encaixa antes de ganhar nome próprio.
+A arma declara um Esforço próprio, que multiplica o custo do golpe na escada da Seção 8. Nenhuma arma nomeada entra neste documento; o que ele publica é a tipologia de três classes em que qualquer arma do cenário se encaixa antes de ganhar nome próprio.
 
 | Classe | Esforço |
 |---|---|
@@ -134,7 +188,7 @@ A arma declara um Esforço próprio, que multiplica o custo do golpe na escada d
 
 A Energia de uma obra resolve pelo motor que o manual tradutor do cenário publica, lendo a reserva convertida, o coeficiente de entrega, a Assinatura do vetor declarado e a maestria do executor. Este documento consome o número que aquele motor entregar e o faz correr pelas mesmas camadas de defesa, sem conhecer a forma dele.
 
-### 6.2 A Guarda
+### 7.2 A Guarda
 
 A Guarda mede a estrutura montada sobre o corpo. Ombro, cotovelo e quadril alinhados conduzem o momento do golpe até o chão em vez de deixá-lo alcançar o tronco, e é a capacidade de sustentar esse alinhamento sob impacto repetido que a Guarda representa. Ela é uma barra consumível que detém energia enquanto tiver pontos, e cada ponto detido sai da barra e vira PS gasto no defensor.
 
@@ -145,13 +199,13 @@ Recarga por turno = metade de DEF × 5
 
 A perícia defensiva compra capacidade e nunca recuperação. A recarga lê o atributo sozinho, de modo que o treino aumenta a barra com que o combatente entra na luta e não a velocidade com que ele a remonta. A vantagem de abertura que ele compra se dissolve ao longo de uma troca longa, e é isso que impede a perícia defensiva de virar imunidade.
 
-A taxa de recarga publicada acima é a linha Inteiro da tabela de Exaustão da Seção 8, que a degrada conforme o PS cai. Os percentuais daquela tabela leem DEF × 5 e nunca a barra máxima, e por isso o bônus da perícia defensiva permanece fora da recarga em todos os graus.
+A taxa de recarga publicada acima é a linha Inteiro da tabela de Exaustão da Seção 9, que a degrada conforme o PS cai. Os percentuais daquela tabela leem DEF × 5 e nunca a barra máxima, e por isso o bônus da perícia defensiva permanece fora da recarga em todos os graus.
 
-Receber o golpe na Guarda é o Bloqueio, e ele não custa Reação. A barra responde enquanto tiver pontos, sem que o combatente precise declará-la, porque competência treinada é permanente e uma defesa que dependesse de declaração por turno falharia justamente contra vários atacantes. O Esforço do Bloqueio está na escada da Seção 7, e se soma aos pontos que a barra drenou.
+Receber o golpe na Guarda é o Bloqueio, e ele não custa Reação. A barra responde enquanto tiver pontos, sem que o combatente precise declará-la, porque competência treinada é permanente e uma defesa que dependesse de declaração por turno falharia justamente contra vários atacantes. O Esforço do Bloqueio está na escada da Seção 8, e se soma aos pontos que a barra drenou.
 
-Nem toda a barra participa de todo golpe. O vetor declarado decide, pelo próprio Grau, que fração da Guarda restante existe para engajar aquela entrega, e a Seção 6.5 publica as escadas. A energia acima da fração engajada zera a barra inteira, porque a estrutura que não deteve o golpe também não está mais montada, e o excedente segue para a Absorção. Só os pontos efetivamente consumidos drenam PS.
+Nem toda a barra participa de todo golpe. O vetor declarado decide, pelo próprio Grau, que fração da Guarda restante existe para engajar aquela entrega, e a Seção 7.5 publica as escadas. A energia acima da fração engajada zera a barra inteira, porque a estrutura que não deteve o golpe também não está mais montada, e o excedente segue para a Absorção. Só os pontos efetivamente consumidos drenam PS.
 
-### 6.3 A Absorção
+### 7.3 A Absorção
 
 A Absorção é matéria. Osso, músculo e tecido detendo joules por existir, e essa capacidade não depende de postura, de consciência ou de disposição para lutar.
 
@@ -163,15 +217,15 @@ dano ao PV = E × fração
 
 Nenhuma perícia alimenta a Absorção, e nenhum grau de Exaustão a degrada. O valor de RES × 3 é o ponto de virada da proporção: contra um golpe de energia igual à Absorção, metade atravessa; abaixo dela o corpo detém a maior parte; acima dela o corpo começa a ceder. A proporção nunca chega a zero e nunca chega a um, de modo que nenhuma quantidade de matéria detém a totalidade de um impacto que a supera e nenhum impacto ignora o corpo por completo.
 
-### 6.4 A Assinatura
+### 7.4 A Assinatura
 
 A Assinatura é a letalidade intrínseca de um tipo de energia contra carne, quanto aquele tipo machuca um corpo no instante em que conecta. Todo golpe declara o vetor pelo qual entrega a energia, e o vetor é propriedade da obra, nunca herdado da natureza que a produziu. A Assinatura se lê desse vetor, na tabela que o cenário publica junto com os próprios vetores, e ela vale o mesmo contra qualquer defensor.
 
 Um corpo detém trauma mecânico com a estrutura que possui para isso, e enfrenta as formas de energia que alteram o estado do tecido sem estrutura alguma dedicada a detê-las. É essa diferença que a Assinatura mede, e é por isso que ela vale 1,00 para toda entrega que o corpo saiba ler como força.
 
-O que o corpo do alvo traz para a relação entre a forma do golpe e a carne é o Estado Elemental da Seção 13, que existe apenas quando a ficha o declara e cobra chakra para ser sustentado.
+O que o corpo do alvo traz para a relação entre a forma do golpe e a carne é o Estado Elemental da Seção 15, que existe apenas quando a ficha o declara e cobra chakra para ser sustentado.
 
-### 6.5 Os quatro vetores
+### 7.5 Os quatro vetores
 
 O vetor é propriedade da obra, declarado por técnica, e todo golpe declara exatamente um. Ele responde a uma pergunta só, como o tecido falha, e é dessa pergunta que sai o quanto da Guarda existe para engajar a entrega.
 
@@ -186,19 +240,21 @@ Cada vetor carrega um rider estrutural, que nenhuma obra remove, e um rider padr
 
 Obra que entrega o dano sobre extensão ampla do corpo agrava o grau do rider em um degrau no teste de entrada, porque o corpo inteiro virou meio de condução. Em Corte o gatilho é a elevação para linha ou área; em Energia é a obra que engolfa em vez do projétil pontual; a Penetração nunca agrava, porque a entrega em ponto é a definição do vetor.
 
-### 6.6 Impacto e a Quebra de Guarda
+### 7.6 Impacto e a Quebra de Guarda
 
 O Impacto engaja a barra inteira, e é o único vetor que a encontra sem desconto. Ele é também o vetor que mais cansa o defensor, porque cada ponto que a Guarda detém sai do fôlego dele.
 
 Uma quebra que apenas atordoa e devolve o combatente ao bloqueio no instante seguinte é ruído, porque ninguém muda de decisão por causa dela. Uma quebra que impede a estrutura de voltar produz o oposto, a trava que se realimenta até alguém cair. O desenho correto é uma janela curta com uma consequência real, e a consequência recai sobre a opção defensiva principal do combatente.
 
-Quando a Energia de um golpe supera a fração da Guarda que o vetor engajou, a barra vai a zero, o excedente segue para a Absorção, e o alvo entra no estado de Quebra de Guarda, que o Sistema de Efeitos de Status publica. A janela dura até o fim do turno seguinte de quem quebrou, e dentro dela o Bloqueio fica indisponível e o lado defensivo do teste de conexão do quebrado multiplica por 0,8, pela mesma família de multiplicadores da Seção 10. A Guarda recarrega pela tabela de Exaustão desde o primeiro turno depois da quebra, porque a estrutura desfeita se remonta, e a janela existe para cobrar o instante em que ela não estava lá.
+Quando a Energia de um golpe supera a fração da Guarda que o vetor engajou, a barra vai a zero, o excedente segue para a Absorção, e o alvo entra no estado de Quebra de Guarda, que o Sistema de Efeitos de Status publica. A janela dura até o fim do turno seguinte de quem quebrou, e dentro dela o Bloqueio fica indisponível e o lado defensivo do teste de conexão do quebrado multiplica por 0,8, pela mesma família de multiplicadores da Seção 11. A Guarda recarrega pela tabela de Exaustão desde o primeiro turno depois da quebra, porque a estrutura desfeita se remonta, e a janela existe para cobrar o instante em que ela não estava lá.
+
+A intenção Leitura da Seção 6.1 produz a mesma condição quando falha, pela mesma razão: o corpo que ficou no caminho do golpe para lê-lo recebe a entrega com a estrutura aberta.
 
 A quebra fica mais provável conforme a luta avança, porque a recarga cai com o cansaço e a barra restante que o golpe precisa superar encolhe junto. O combatente que chega cansado primeiro é o que perde a Guarda primeiro, e é essa degradação que faz o duelo de Impacto terminar por cascata de exaustão em vez de por PV.
 
 A Penetração nunca causa Quebra, porque ela contorna a barra em vez de superá-la.
 
-### 6.7 Corte
+### 7.7 Corte
 
 O Corte separa o tecido ao longo de uma linha, e a qualidade do fio decide quanto da estrutura montada ainda tem algo a oferecer contra ele.
 
@@ -213,15 +269,7 @@ O topo do Corte fica no meio da escada da Penetração, porque a perfuração é
 
 **Guarda Ferida.** Um quinto do que a Guarda detém de um golpe de Corte alcança o PV mesmo assim. A barra se consome e drena PS como sempre, e além disso sangra, o que é a tradução mecânica do ferimento de defesa em palma e antebraço. A consequência direta é que o Corte nunca entrega zero de PV, ainda que aparado por completo.
 
-**Elevação.** O Corte é o único vetor físico que sobe a escada categórica, porque a entrega é uma linha e uma linha atravessa mais de um alvo por natureza.
-
-| Elevação | Entrega |
-|---|---|
-| Alvo | golpe único |
-| Linha | tudo que o traço atravessar |
-| Área | corte varrido |
-
-O Corte elevado para linha ou área abre a própria guarda de quem o desferiu até o fim do turno seguinte dele, pela mesma leitura do Golpe Pesado. O golpe único não paga nada, e é por isso que o duelo de lâmina contra lâmina corre livre enquanto o varrimento cobra postura.
+**Elevação.** O Corte sobe a escada categórica da Seção 12 até a posição de área, e a entrega em linha é natural ao vetor porque uma linha atravessa mais de um alvo por definição. O Corte elevado para linha ou área abre a própria guarda de quem o desferiu até o fim do turno seguinte dele, pela mesma leitura do Golpe Pesado. O golpe único não paga nada, e é por isso que o duelo de lâmina contra lâmina corre livre enquanto o varrimento cobra postura.
 
 **Matéria dura.** Cortar pedra e aço é possível, e é privilégio de quem chegou lá.
 
@@ -236,7 +284,7 @@ Abaixo do grau mínimo o fio não morde. O Grau IV exige chakra moldado em lâmi
 
 O rider estrutural do Corte é a Secção, que pune DES e DEF e chega ao decepamento no grau Crítico. O rider padrão é o Sangramento, que acumula num número único a cada corte novo e se estanca com uma Ação Completa, cortando o número pela metade. Alvo sem sangue não sangra, e a Secção continua valendo sobre ele.
 
-### 6.8 Penetração
+### 7.8 Penetração
 
 A Penetração concentra a entrega num ponto e corre em profundidade. O Grau responde a uma pergunta só, o que a Guarda ainda tem para engajar, e ela decide sozinha.
 
@@ -262,11 +310,11 @@ O grau mora na ficha da arma ou da obra, e nenhuma decisão nova se toma por tur
 | V | Golpe × 1,45 |
 | VI | Golpe × 1,5 |
 
-A Penetração nunca eleva para área ou campo. O alvo é sempre único, porque pressão é força dividida por área, e espalhar a entrega destrói a propriedade que define o vetor.
+A Penetração permanece na posição de alvo da escada categórica da Seção 12, porque pressão é força dividida por área, e espalhar a entrega destrói a propriedade que define o vetor.
 
 O rider estrutural da Penetração é a Perfuração, que pune FOR e VEL e sempre dispara em golpe que alcance o PV. O rider padrão é a Hemorragia de Trajeto, sangramento interno pelo canal aberto, que não estanca por pressão e exige ninjutsu médico em qualquer grau. A obra que sela o canal ao atravessá-lo substitui a hemorragia pelo rider que a cauterização produzir.
 
-### 6.9 Energia e a Interrupção de Contato
+### 7.9 Energia e a Interrupção de Contato
 
 O vetor Energia altera o estado do tecido em vez de rompê-lo por força, e a postura não tem nada a oferecer contra ele. O braço levantado contra o fogo não distribui calor, ele é o primeiro a queimar, e por isso a Guarda não engaja o vetor Energia em grau nenhum. A Absorção continua respondendo inteira, porque a matéria do corpo detém joules qualquer que seja a forma deles.
 
@@ -295,7 +343,7 @@ O vetor Energia não paga contrapeso adicional. Os vetores físicos são gratuit
 
 O rider estrutural e o rider padrão do vetor Energia dependem do tipo de energia entregue, e o cenário os publica junto com a tabela de Assinatura.
 
-## 7. A economia de PS
+## 8. A economia de PS
 
 O corpo sustenta esforço intenso com dois sistemas de energia que não se confundem. O primeiro é o estoque que o músculo libera sem esperar oxigênio chegar, a explosão que resolve um golpe, uma esquiva, um salto. O segundo é o motor que repõe o estoque entre um esforço e o seguinte, sem sustentar a explosão, numa janela que corre na mesma escala de segundos que separa dois golpes em combate. É por isso que o tamanho da reserva depende da velocidade e da resistência juntas, enquanto a velocidade com que ela volta depende da resistência sozinha. Dois corpos com a mesma reserva e capacidade de recuperação diferente são a mesma criatura na primeira rodada e criaturas diferentes na décima quinta.
 
@@ -321,10 +369,11 @@ O Golpe lê o mesmo par que produz a Energia do ataque, porque quem entrega mais
 | Ação | Esforço |
 |---|---|
 | Golpe | o Golpe da ficha, multiplicado pelo Esforço da arma |
-| Golpe de Penetração | o Golpe da arma, multiplicado ainda pelo fator do Grau na Seção 6.8 |
+| Golpe de Penetração | o Golpe da arma, multiplicado ainda pelo fator do Grau na Seção 7.8 |
 | Cadência, primeira ação extra | Golpe × 1,5 |
 | Cadência, segunda ação extra | Golpe × 2 |
-| Esquiva | a Esquiva da ficha, por Reação gasta |
+| Esquiva | a Esquiva da ficha, por Reação gasta, em qualquer das três intenções |
+| Fuga de área | a Esquiva da ficha |
 | Interrupção de Contato | a Esquiva da ficha |
 | Bloqueio | o Bloqueio da ficha, dobrado quando resulta em Quebra |
 | Disputa de Distância | a Esquiva |
@@ -363,7 +412,7 @@ O combatente exausto que ainda assim bloqueia paga o Esforço daquele bloqueio e
 
 Um respiro curto sem ameaça devolve o PS até o Grau Leve de Exaustão, e um descanso longo zera a Exaustão por completo. Fadiga em nível 2 impede o retorno do PS entre cenas, e em nível 3 o PS deixa de retornar.
 
-## 8. Exaustão Física
+## 9. Exaustão Física
 
 O cansaço num corpo treinado é cinco penalidades pequenas em cinco lugares diferentes, e não um corte único. Um corte só em atributo chegaria ao mesmo tempo na energia do golpe, na esquiva, no deslocamento e na cadência, e o resultado pareceria uma punição quádrupla porque seria uma punição quádrupla. Nomear cada consequência no lugar dela permite que cada uma seja pequena e que o conjunto continue significando alguma coisa.
 
@@ -377,7 +426,7 @@ O cansaço num corpo treinado é cinco penalidades pequenas em cinco lugares dif
 
 O Grau Inteiro é a ausência da condição, e não um quinto grau dela: a Exaustão Física entra em campo a partir de 74% de PS, com os quatro graus de sempre, Leve, Moderado, Grave e Crítico.
 
-Os percentuais da coluna de recarga leem DEF × 5 e nunca a barra máxima. A linha Inteiro devolve metade de DEF × 5, que é a recarga plena publicada na Seção 6.2, e as linhas seguintes a degradam. O bônus da perícia defensiva permanece fora da recarga em todos os graus, o que mantém a promessa de que o treino compra capacidade e nunca recuperação.
+Os percentuais da coluna de recarga leem DEF × 5 e nunca a barra máxima. A linha Inteiro devolve metade de DEF × 5, que é a recarga plena publicada na Seção 7.2, e as linhas seguintes a degradam. O bônus da perícia defensiva permanece fora da recarga em todos os graus, o que mantém a promessa de que o treino compra capacidade e nunca recuperação.
 
 No Grau Crítico valem ainda as duas regras já publicadas pelo Sistema de Efeitos de Status. O Esforço devido sai do PV, e qualquer ação física complexa exige teste de RES contra 50 ou falha.
 
@@ -389,7 +438,7 @@ O Fôlego e o Limiar leem RES, que nenhum grau de Exaustão reduz. A capacidade 
 
 Como a Guarda recarrega menos e o lado defensivo da conexão encolhe ao mesmo tempo, o combatente cansado perde as duas defesas ativas juntas enquanto mantém a passiva intacta. A luta longa se resolve no corpo de quem sobrou, e essa é a razão de existir desta seção.
 
-## 9. O motor de manobras
+## 10. O motor de manobras
 
 Uma manobra é a Ação Completa investida em desequilibrar, prender, empurrar ou desarmar o oponente em vez de feri-lo. Ela não causa dano, custa o Esforço de um Golpe, e resolve em teste oposto: a margem de vitória posiciona o grau do estado produzido pela escala de resultado já publicada, e o crítico eleva um grau.
 
@@ -404,40 +453,86 @@ A DEF responde por Derrubar e por Empurrar porque a base de apoio que resiste ao
 
 Manobras compostas, submissões, arremessos e o repertório físico especializado de uma escola de combate pertencem a documento próprio que consome este motor sem redefini-lo.
 
-## 10. Vantagem numérica e alvo indefeso
+## 11. Vantagem numérica e alvo indefeso
 
 A Reação única da Seção 2 é a raiz desta seção. Um corpo responde a uma ameaça de cada vez, então cercar um alvo não muda a chance de cada golpe individual acertar, muda a chance de o alvo conseguir responder a todos eles.
 
-| Atacantes engajados com o mesmo alvo | Lado defensivo da conexão |
+| Ameaças simultâneas contra o mesmo alvo | Lado defensivo da conexão |
 |---|---|
 | 1 | cheio |
 | 2 | ×0,85 |
 | 3 | ×0,70 |
 | 4 ou mais | ×0,60 |
 
+A contagem lê ameaças e não pessoas. Uma obra que alcance o mesmo alvo por linhas de aproximação distintas na mesma resolução conta cada linha como uma ameaça, porque o corpo enfrenta o mesmo problema de Reação comprometida quer as origens sejam quatro combatentes ou quatro trajetos de uma obra só. Projéteis que chegam pelo mesmo ângulo contam como uma ameaça, por mais numerosos que sejam, e a obra declara na ficha quantas linhas distintas ela produz. Quando atacantes engajados e linhas de obra coexistem, todos entram na mesma contagem.
+
 Alvo indefeso é quem está inconsciente, imobilizado em Grau Grave ou acima, ou surpreendido sem nenhuma chance de perceber a ameaça. Ele não contesta a conexão e não opõe Guarda alguma, porque não existe postura nenhuma para sustentar, e o golpe alcança a Absorção direto. A Absorção continua valendo, porque a matéria do corpo não sabe se o dono está consciente. O crítico contra um alvo indefeso é automático.
 
-Todo multiplicador que reduz o lado defensivo da conexão vive na mesma faixa e na mesma forma, venha ele do cansaço da Seção 8, da Guarda quebrada da Seção 6.6 ou do cerco desta seção. Eles se multiplicam entre si sem exceção, e o limiar de conexão que sai do teste do passo 5 respeita o piso de 5 e o teto de 95 depois de toda a conta fechada. Nenhum golpe conecta com certeza absoluta, e nenhum é impossível de conectar.
+Todo multiplicador que reduz o lado defensivo da conexão vive na mesma faixa e na mesma forma, venha ele do cansaço da Seção 9, da Guarda quebrada da Seção 7.6, da intenção Leitura da Seção 6.1 ou do cerco desta seção. Eles se multiplicam entre si sem exceção, e o limiar de conexão que sai do teste do passo 5 respeita o piso de 5 e o teto de 95 depois de toda a conta fechada. Nenhum golpe conecta com certeza absoluta, e nenhum é impossível de conectar.
 
-## 11. Área e campo
+## 12. Elevação categórica
+
+Toda obra declara o que ela alcança, numa escada de quatro posições. A posição é propriedade de construção, escolhida e paga na criação, e permanece a mesma durante toda a vida da obra. Uma obra sobe uma posição por vez, e nenhum vetor é dono desta escada.
+
+| Posição | O que a obra alcança |
+|---|---|
+| Alvo | um corpo declarado |
+| Linha | tudo que estiver entre a origem e o fim do alcance |
+| Área | tudo dentro da geometria declarada |
+| Campo | tudo dentro da geometria, ocupando o terreno enquanto durar |
+
+As posições Alvo e Linha resolvem o teste de conexão do passo 5 contra cada corpo alcançado, com o lado defensivo lido por inteiro. As posições Área e Campo resolvem pela Seção 13.
+
+Cada posição acima de Alvo multiplica o custo em reserva e o custo mínimo da obra pela contagem de corpos que a geometria apanha, que o manual tradutor do cenário publica. A sobretaxa vive no custo e no custo mínimo, e a Energia do passo 7 lê sempre a reserva limpa.
+
+## 13. Área e campo
 
 Se a distância é relação entre dois combatentes, uma área não pode ocupar uma banda, porque uma banda só existe entre um par. A solução é que toda obra de área ou campo declara um centro próprio, escolhido dentro da Banda Máxima da obra exatamente como se escolheria um alvo único, e a partir desse centro a mesma escada de bandas se lê de novo.
 
-| Categoria | Alcança |
-|---|---|
-| Alvo | um combatente |
-| Área | tudo que está Engajado com o centro |
-| Campo | tudo até a banda Curta do centro, ocupando o terreno enquanto durar |
+Toda obra de área ou campo declara duas grandezas em metros. A **profundidade máxima** é a distância que o corpo mais enterrado precisa cruzar para sair da forma. A **abrangência** é quanto chão a obra ocupa, e é ela que a contagem de corpos da Seção 12 lê. Com as duas grandezas toda geometria existe sem catálogo de formas: a linha tem abrangência ampla e profundidade curta, o cone tem profundidade crescente do vértice para o fundo, a esfera tem as duas iguais ao raio, e a muralha tem profundidade da própria espessura.
 
-Área e campo não distinguem aliados de inimigos, e é essa falta de distinção que precifica a categoria por si só: quem escolhe atingir área aceita atingir os próprios. Como referência de leitura em mesa sem mapa, Engajado com o centro comporta até três combatentes e a banda Curta do centro comporta até oito; os dois números orientam a narração e não travam contagem alguma.
+Área e campo não distinguem aliados de inimigos, e é essa falta de distinção que precifica a categoria por si só: quem escolhe atingir área aceita atingir os próprios.
 
-Obra de área e obra de campo não resolvem o teste de conexão do passo 5 contra cada alvo. Elas resolvem pela forma publicada da área, alcançando tudo que o centro apanha, e entregam o efeito parcial em falha onde a ficha da obra o declarar. O teste individual mede se um corpo saiu do caminho de uma entrega dirigida a ele, e a área não é dirigida a corpo nenhum.
+**A fuga.** Obra de área e obra de campo não resolvem o teste de conexão do passo 5, porque o teste individual mede se um corpo saiu do caminho de uma entrega dirigida a ele e a área não é dirigida a corpo nenhum. Elas resolvem o teste de fuga, que pergunta se o corpo saiu do espaço a tempo.
 
-## 12. Dano de fonte sem ficha
+```
+lado ofensivo  = Velocidade efetiva da obra
+lado defensivo = (VEL + DES + bônus de esquiva) ÷ √(profundidade)
+
+limiar de captura = (ofensivo ÷ defensivo) × 50
+```
+
+A profundidade é a distância em metros da posição daquele corpo até fora da forma declarada, lida da cena. Terreno difícil conta cada metro como dois e terreno impraticável conta como quatro, pela régua da Seção 3. Com profundidade de um metro os dois termos de geometria se cancelam e a conta devolve o mesmo limiar do teste de conexão contra um golpe dirigido, o que ancora a régua: estar com um passo da borda é tão difícil quanto ter uma obra apontada para o corpo. O piso de 5 e o teto de 95 da Seção 11 continuam valendo sobre o limiar.
+
+Sair da área gasta a Reação da rodada e Esforço igual à Esquiva da ficha. Quem já gastou a Reação em outra resposta não sai, e é por essa via que a área permanece temível: ela obriga todos os corpos apanhados a gastar a mesma Reação no mesmo instante. O efeito parcial em falha vale onde a ficha da obra o declarar.
+
+**As duas espécies de área.** A obra que se expande admite a corrida e resolve pelo teste de fuga. A obra que aparece não admite corrida, porque não existe intervalo em que o corpo pudesse correr, e alcança tudo dentro da geometria sem teste algum. A ficha declara uma das duas na criação, e a segunda paga a diferença no preço que o cenário publica.
+
+Quando a mesa não tem como declarar onde cada corpo está, todos leem a profundidade máxima da obra, e a resolução devolve a captura quase certa que a geometria declara.
+
+## 14. Dano de fonte sem ficha
 
 Uma fonte sem ficha, uma queda, um desabamento, o impacto contra uma parede, precisa machucar sem ter atributos próprios. Dano ambiental de valor fixo quebra nos dois extremos da régua de faixas, virando letal para quem começa e irrelevante para quem já domina o corpo, e produz tanto o herói que morre de um tropeço quanto o que salta de um penhasco sem sentir nada. Ligar toda fonte sem ficha ao mesmo motor que já resolve um golpe comum resolve os dois problemas de uma vez. A Absorção continua respondendo, e a fonte escala junto com o corpo que a sofre.
 
-Toda fonte sem ficha declara apenas uma Energia, e a partir dali corre pelo motor comum da Seção 6. A Guarda não responde, porque não existe postura contra o chão que sobe ao encontro do corpo. Não há crítico, porque não há quem posicione o golpe.
+Toda fonte sem ficha declara uma Energia e uma Severidade, e a partir dali corre pelo motor comum da Seção 7. A Guarda não responde, porque não existe postura contra o chão que sobe ao encontro do corpo. Não há crítico, porque não há quem posicione o golpe.
+
+**A Severidade** ocupa o lado ofensivo do teste de conexão no lugar da Velocidade efetiva de uma obra, e se lê relacionalmente, contra o lado defensivo típico da faixa em que a cena corre.
+
+| A fonte | Severidade |
+|---|---|
+| não deveria alcançar quem está atento | metade do lado defensivo típico da faixa |
+| é páreo para quem está atento | igual ao lado defensivo típico da faixa |
+| alcança quase todo mundo | o dobro do lado defensivo típico da faixa |
+
+```
+limiar = (Severidade ÷ lado defensivo do alvo) × 50
+```
+
+A leitura relacional faz a mesma tábua podre ser trivial para um veterano e séria para um iniciante, sem que a fonte precise de números diferentes para cada faixa.
+
+Fonte que ocupa espaço resolve como área, pela Seção 13, com a Severidade no lugar da Velocidade efetiva da obra. Fonte que chega a um corpo resolve pelo teste acima. Fonte oculta resolve primeiro pela régua de leitura que o cenário publica, e o corpo que falha a leitura não contesta.
+
+Fonte sem ficha ocupa a posição padrão do eixo de evitabilidade. Ela alcança a posição superior apenas quando a cena declara a precondição que o alvo poderia ter negado, pela regra da Seção 6.3.
 
 ```
 altura efetiva = altura em metros − VEL, com teto de 150 metros
@@ -446,9 +541,9 @@ Energia da queda = altura efetiva × 60
 
 Um teste de VEL somado a DES autoriza a subtração cheia da altura, a falha concede metade, e quem cai inconsciente ou preso não subtrai altura alguma, porque não há reação de queda possível. Um corpo treinado dissipa parte do impacto pela flexão das pernas no instante do choque, e a capacidade de dissipar cresce com a mesma velocidade de membro que produz o salto: quem salta de mais alto também aterrissa de mais alto sem se machucar mais por isso. O teto de 150 metros marca a altura em que a queda alcança velocidade terminal e para de piorar.
 
-O catálogo de fogo, esmagamento, afogamento, frio e qualquer outra fonte nomeada pertence ao Sistema de Efeitos de Status e ao cenário que a publica, que só precisam declarar a Energia de cada uma para consumir este motor.
+O catálogo de fogo, esmagamento, afogamento, frio e qualquer outra fonte nomeada pertence ao Sistema de Efeitos de Status e ao cenário que a publica, que só precisam declarar a Energia e a Severidade de cada uma para consumir este motor.
 
-## 13. Estado Elemental
+## 15. Estado Elemental
 
 Um corpo pode ser reescrito para enfrentar uma categoria inteira de entrega, e a reescrita cobra chakra enquanto durar. O Estado Elemental é essa reescrita, declarado na ficha da obra que o produz, e ele existe apenas enquanto for sustentado. Nenhum corpo carrega resistência elemental por constituição, sem estado declarado, e a régua desta seção é a única porta pela qual uma categoria de entrega deixa de ameaçar um corpo.
 
@@ -462,7 +557,9 @@ Todo Estado declara cinco campos.
 | Reserva do Estado | o volume investido, que a mesma ficha declara |
 | Manutenção | o custo por rodada, em número fixo absoluto |
 
-### 13.1 Os três Modos
+O Modo Travessia declara também a condição de janela da Seção 6.2, com a duração em rodadas e a recarga entre usos, porque ele é a instância desta camada dentro do Estado Elemental.
+
+### 15.1 Os três Modos
 
 | Modo | O que faz |
 |---|---|
@@ -478,17 +575,17 @@ Barra de matéria = reserva do Estado × 1,0
 
 Ela não regenera. Cada ponto de chakra investido no Estado é um ponto de energia que não alcança o corpo, e a barra se esgota na proporção do que deteve. Nas faixas em que o sistema resolve uma luta, uma reserva média sustenta a Couraça por três a quatro rodadas do ataque físico do par, e uma reserva grande sustenta o dobro disso, que é a janela em que a luta se decide.
 
-### 13.2 A vulnerabilidade acoplada
+### 15.2 A vulnerabilidade acoplada
 
 Todo Estado declara um elemento acoplado, e contra ele os três efeitos incidem juntos, sem menu e sem exceção.
 
 1. A Absorção não se aplica, porque a matéria que o Estado montou conduz em vez de resistir.
-2. O rider daquele elemento entra sem teste de entrada, com o grau agravado em um degrau pelo gatilho de envolvimento da Seção 6.5, porque o corpo inteiro virou meio de condução.
+2. O rider daquele elemento entra sem teste de entrada, com o grau agravado em um degrau pelo gatilho de envolvimento da Seção 7.5, porque o corpo inteiro virou meio de condução.
 3. O Estado colapsa no impacto, e o chakra investido nele se perde.
 
 Os três são necessários juntos. Retirar apenas a Absorção move o resultado de um golpe do elemento acoplado em menos de dez por cento contra o par da faixa, o que nenhuma mesa percebe. A soma dos três é o que faz o golpe certo desfazer a defesa inteira num gesto.
 
-### 13.3 Cedência
+### 15.3 Cedência
 
 Nenhum Estado Elemental é absoluto, e três caminhos o encerram.
 
@@ -496,7 +593,7 @@ O esgotamento vem da barra que zera, no caso da Couraça, ou da manutenção que
 
 O preço em XP de um Estado se lê pela mesma régua de resposta com que o manual tradutor do cenário precifica toda obra útil, e a reserva declarada serve simultaneamente à barra, ao confronto da ruptura e ao preço.
 
-## 14. Exemplo de rodada completa
+## 16. Exemplo de rodada completa
 
 O Tanque tem FOR 43, VEL 22, DES 22, DEF 42, RES 45 e PRE 26, com PV 2640 e PS 804. O Veloz tem FOR 26, VEL 45, DES 45, DEF 24, RES 23 e PRE 35, com PV 1470 e PS 816. Os dois estão na faixa Especial e carregam bônus geral de 116 nas perícias que governam o golpe e a defesa. A ficha do Tanque resolve em Energia de Golpe Firme 181, Guarda 326 com recarga de 105, Absorção 135, Golpe 21,67, Esquiva 3,67, Bloqueio 7, Fôlego 22,5, Limiar 90 e Limiar de Crítico 13, com os dois lados do teste de conexão em 160. A do Veloz resolve em Energia 187, Guarda 236 com recarga de 60, Absorção 69, Golpe 23,67, Esquiva 7,5, Bloqueio 4, Fôlego 11,5, Limiar 46 e Limiar de Crítico 17,5, com os dois lados da conexão em 206.
 
@@ -504,7 +601,7 @@ A iniciativa opõe 72 mais 1d6 do Veloz contra 47 mais 1d6 do Tanque, e o Veloz 
 
 O Veloz abre com a lâmina curva, Golpe Firme entregue por Corte de Grau III. O Tanque guarda a Reação para o segundo golpe e não contesta a conexão, então o golpe alcança o corpo sem teste. O Veloz rola 62 contra o próprio Limiar de Crítico de 17 e desfere um golpe comum, de Energia 187. O Grau III do Fio deixa metade da barra do Tanque para engajar, 163 dos 326 pontos, e os 187 superam essa fração: a Guarda detém 163, drena 163 de PS do Tanque, vai a zero, e o Tanque entra em Quebra de Guarda. A Guarda Ferida entrega ao PV um quinto do que a barra deteve, 32,6, e os 24 pontos que sobraram atravessam a Absorção de 135 entregando 3,6. O PV do Tanque cai de 2640 para 2603,8.
 
-Na ação extra o Veloz repete o golpe, e agora o Tanque gasta a Reação esquivando. O lado defensivo dele, 160, multiplica por 0,8 pela Quebra de Guarda e fecha em 128, de modo que o limiar de conexão do Veloz sobe para 206 dividido por 128, multiplicado por cinquenta, resultando em 80. O Veloz rola 71 e conecta. Com a barra em zero, e sem turno intervalar em que ela pudesse recarregar, nada engaja o golpe: os 187 inteiros atravessam a Absorção e entregam 108,6. O PV do Tanque cai de 2603,8 para 2495,2.
+Na ação extra o Veloz repete o golpe, e agora o Tanque gasta a Reação esquivando na intenção Deslize, porque recuar entregaria a distância a quem já é mais rápido. O lado defensivo dele, 160, multiplica por 0,8 pela Quebra de Guarda e fecha em 128, de modo que o limiar de conexão do Veloz sobe para 206 dividido por 128, multiplicado por cinquenta, resultando em 80. O Veloz rola 71 e conecta. Com a barra em zero, e sem turno intervalar em que ela pudesse recarregar, nada engaja o golpe: os 187 inteiros atravessam a Absorção e entregam 108,6. O PV do Tanque cai de 2603,8 para 2495,2, e ele fica fora de posição até o próprio turno.
 
 O Tanque revida com a arma pesada, Golpe Firme entregue por Impacto, de Energia 181. O lado ofensivo dele fecha em 160 contra os 206 do Veloz, o limiar de conexão sai em 38, e ele rola 55: o golpe não alcança. O Veloz gastou a Reação da rodada esquivando e pagou por ela.
 
@@ -512,13 +609,15 @@ No fim da rodada, o Tanque gastou 208,84 de Esforço, a soma do próprio golpe c
 
 A troca custou ao Tanque 145 pontos de PV e um quarto do fôlego, e ao Veloz nada de PV e sete por cento do fôlego. A diferença inteira mora na Guarda: o Tanque pagou 163 dos 208 pontos de Esforço dele apenas por deter o primeiro golpe, e é essa drenagem, e não o dano ao PV, que decide quanto tempo um corpo aguenta sustentar a estrutura contra alguém mais rápido.
 
-## 15. Pendências e fila de errata
+## 17. Pendências e fila de errata
 
 **Pendências deste documento.**
 
 O termo oposto do teste de entrada dos riders não está publicado em documento nenhum. O Sistema de Efeitos de Status declara o par de atributos que cada rider testa, e a régua contra a qual esse par se compara continua sem dono.
 
 O bônus de esquiva que o lado defensivo da conexão soma não tem régua própria publicada. Ele se lê da perícia ou da vantagem que a ficha do combatente declarar, e a régua que o produz pertence ao Núcleo de Perícias.
+
+A régua de deslocamento de VEL × 10 metros por rodada nunca foi auditada contra o corpus de obras de reposicionamento que os cenários publicam. Enquanto ela permanecer como está, nenhuma superfície de contagem posicional comporta o movimento e a luta na mesma escala, e a profundidade da Seção 13 se lê da cena.
 
 O vetor Impacto não tem rider estrutural nomeado. Os outros três têm, e o Sistema de Efeitos de Status é o dono da lacuna.
 
@@ -528,9 +627,21 @@ O veneno não tem vetor. Ele saiu do vetor Energia por não alterar o estado do 
 
 **Fila de errata para outros documentos.**
 
-O inventário completo, com o que sai e o que entra em cada alvo e o bloco que o executa, vive em [Errata do Núcleo de Combate v3](errata-combat-core-v3.md). Dezoito documentos do corpus citam ao menos uma das grandezas que este documento aposentou. O resumo abaixo nomeia os quatro alvos maiores.
+O inventário completo, com o que sai e o que entra em cada alvo e o bloco que o executa, vive em [Errata do Núcleo de Combate v3](errata-combat-core-v3.md), e o Lote de Evasão e Leitura acrescenta os alvos abaixo.
 
-O Sistema de Efeitos de Status publica a Quebra de Guarda com efeitos escritos contra a Guarda de valor fixo que este documento substituiu. A condição perde a frase de que a Guarda vai a zero e não recarrega, e passa a publicar que a Guarda vai a zero, que o Bloqueio fica indisponível e o Limiar de Esquiva multiplica por 0,8 durante a janela, e que a Guarda recarrega pela tabela de Exaustão desde o primeiro turno depois da quebra. A referência ao Limiar de Esquiva naquela condição passa a ler o lado defensivo da conexão. A Seção 6.6 deste documento já publica a redação nova.
+Toda obra do cenário que eleve ou rebaixe a posição de outra obra no eixo de evitabilidade perde esse efeito, porque a posição passa a ser propriedade de construção. As obras que mediam multiplicidade por esse caminho passam a declarar quantas linhas distintas produzem, pela contagem da Seção 11.
+
+Todo teto de acumulação de posições publicado em documento de perícia ou de sistema fica revogado, porque não existe mais acumulação a limitar.
+
+Toda obra defensiva do cenário passa a declarar as condições da Seção 6.2, e o manual tradutor publica a régua de leitura que a condição de leitura consome.
+
+O manual tradutor do cenário republica a exigência da posição superior do eixo de evitabilidade na forma da precondição negável da Seção 6.3.
+
+Toda obra de área e de campo passa a declarar profundidade máxima, abrangência e a espécie entre expandir e aparecer.
+
+A cláusula de elevação categórica que vivia dentro do vetor Corte fica revogada, substituída pela Seção 12.
+
+O Sistema de Efeitos de Status publica a Quebra de Guarda com efeitos escritos contra a Guarda de valor fixo que este documento substituiu. A condição perde a frase de que a Guarda vai a zero e não recarrega, e passa a publicar que a Guarda vai a zero, que o Bloqueio fica indisponível e que o lado defensivo da conexão multiplica por 0,8 durante a janela, e que a Guarda recarrega pela tabela de Exaustão desde o primeiro turno depois da quebra. A Seção 7.6 deste documento já publica a redação nova, e a intenção Leitura da Seção 6.1 entra como segundo gatilho da condição.
 
 Os Cálculos Rápidos de Testes republicam a Potência como grandeza viva, a Absorção subtrativa, o Limiar de Esquiva como número de ficha e a escada de Cadência de três degraus. As quatro leituras morrem com este documento.
 
@@ -538,7 +649,13 @@ O Poder Celeridade multiplica o Limiar de Esquiva do portador por 1,30 e lê a P
 
 Toda perícia e todo poder que citem a Potência, o coeficiente de impacto de arma ou o Limiar de Esquiva como número de ficha leem grandezas que este documento aposentou.
 
-## 16. Registro de Alterações
+## 18. Registro de Alterações
+
+**v4.** A camada de Reação entra como seção nova e ocupa o lugar que a esquiva vinha preenchendo sozinha. A esquiva do corpo passa a declarar uma intenção entre Recuo, Deslize e Leitura, com o Deslize preservando o comportamento anterior e a Leitura pagando 0,70 no lado defensivo para comprar 1,20 na esquiva seguinte contra o mesmo executor. A condição de estar fora de posição ganha definição única e vale para toda esquiva falhada. Toda obra que faça o golpe deixar de alcançar o corpo passa a declarar uma ou mais das três condições de recurso, janela e leitura, funcionando sem rolagem quando elas estiverem satisfeitas e não se executando quando faltarem, e a camada inteira passa a se indexar contra o eixo de evitabilidade da obra que ataca, fechando na posição que anula a esquiva e abrindo em todas as demais. A posição superior do eixo passa a exigir uma precondição que o defensor possa negar. A ordem entre Reações entra publicada, com a última declarada resolvendo primeiro e a cadeia encerrando em dois elos.
+
+A posição no eixo de evitabilidade passa a ser propriedade de construção que não se move em jogo, e toda fonte que a elevava ou rebaixava perde esse efeito. A multiplicidade deixa de ter mecânica própria e passa a contar linhas de aproximação distintas na tabela de vantagem numérica, que muda de vocabulário de atacantes para ameaças sem alterar valor algum.
+
+A elevação categórica sai do vetor Corte e entra como seção própria, com as quatro posições de Alvo, Linha, Área e Campo disponíveis a qualquer vetor, e com a sobretaxa vivendo no custo e no custo mínimo em vez de na Energia. Área e campo deixam de alcançar tudo que o centro apanha e passam a resolver um teste de fuga, opondo a Velocidade efetiva da obra ao lado defensivo dividido pela raiz da profundidade, com o piso de 5 e o teto de 95 preservados e o custo em Reação e Esforço igual ao de uma esquiva. A obra de área passa a declarar profundidade máxima, abrangência e a espécie entre expandir e aparecer, e o catálogo de formas nomeadas deixa de ser necessário. O dano de fonte sem ficha ganha a Severidade e passa a testar se alcança o corpo, em leitura relacional contra o lado defensivo típico da faixa.
 
 **v3.** O motor de resolução se reconstrói inteiro sobre o motor físico e o oleoduto defensivo que o sistema fixou, e sobre os quatro vetores de entrega. A Potência morre como grandeza, e a Energia de um golpe do corpo passa a ler FOR somada a VEL e ao bônus geral da perícia ofensiva, multiplicada pelo compromisso do golpe declarado entre Rápido, Firme e Pesado. A Guarda passa a somar o bônus geral da perícia defensiva à capacidade e a recarregar por metade de DEF × 5, com cada ponto detido virando PS gasto no defensor, e esse gasto conta como Esforço contra o Limiar. A Absorção deixa de subtrair e passa a dividir, entregando ao corpo a fração da energia sobre a energia somada à Absorção, sem piso e sem teto. O coeficiente de impacto de arma sai, e a tipologia de três classes permanece com o Esforço. A Quebra de Guarda mantém o gatilho contra a Guarda restante, que é o que a torna mais provável conforme o cansaço encolhe a recarga, e perde a cláusula de que a barra não recarrega durante a janela, que se realimentava sob a barra consumível; o Bloqueio indisponível e o multiplicador de 0,8 continuam sendo os dois dentes da condição.
 

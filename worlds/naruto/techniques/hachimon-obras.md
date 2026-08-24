@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hachimon-obras
 title: "Obras dos Oito Portões"
-version: 1.1
+version: 1.3
 layer: scenario
 scenario: naruto
 type: technique
@@ -36,7 +36,7 @@ O documento publica ficha mecânica completa. O catálogo com etiquetagem editor
 - **mult_Tipo:** 1,00, porque o impacto físico não possui natureza elemental
 - **Janela de Canalização:** nenhuma, a execução é sempre instantânea
 - **Execução em movimento:** livre, por definição do tipo
-- **Elevação de Perfil de Evasão:** o Perfil publicado em cada ficha é o de base. O sexto portão sobe um degrau e o oitavo sobe um segundo, conforme o documento Oito Portões, e o teto de dois degraus é do domínio
+- **Elevação de Perfil de Evasão:** o Perfil publicado em cada ficha é o de base, e o degrau Veloz saiu da escada, de modo que as fichas que o declaravam passam a declarar Padrão. O sexto portão sobe um degrau e o oitavo sobe um segundo, conforme o documento Oito Portões, e o teto de dois degraus foi revogado junto com a acumulação que ele limitava. A própria elevação por portão é errata aberta contra a Seção 6.5 do Manual de Criação de Jutsus, que fechou a escada a toda elevação em jogo, e o documento dono registra a pendência na seção 11 dele
 - **Motor de dano:** a forma de dois termos do eixo corporal, seção 6 do documento Oito Portões
 - **Sequela do portão:** paga na saída pela escada de sequelas daquele documento, e a sequela própria que uma ficha declare é adicional e paga no ato
 - **Excesso de Esforço:** Esforço declarado acima do Teto de Esforço do portão aberto cobra a diferença em PV, sem mitigação, e é comportamento esperado nas obras de portão baixo
@@ -155,7 +155,7 @@ O praticante concentra em um único alvo as três sequências completas que a ec
 - **coef_obra:** 2,5, a obra existe pela economia de ação que o portão abre
 - **Dano no quinto portão:** 898
 - **Ação:** padrão, consumindo também os ataques adicionais do turno
-- **Perfil de Evasão:** Veloz
+- **Perfil de Evasão:** Padrão
 - **Alcance:** contato, alvo único
 - **Rider:** quebra guarda, com o alvo perdendo a reação até o próximo turno dele
 - **Condição de uso:** nenhuma além do portão
@@ -179,7 +179,7 @@ O praticante desfere uma sequência contínua de socos em cadência tal que o at
 - **coef_obra:** 2,0, a obra aproveita a escada como mecanismo central sem depender dela por inteiro
 - **Dano no sexto portão:** 970
 - **Ação:** padrão
-- **Perfil de Evasão:** Veloz de base, elevado a Teleguiado pelo sexto portão
+- **Perfil de Evasão:** Padrão de base, elevado a Teleguiado pelo sexto portão
 - **Alcance:** contato, alvo único, com as chamas cobrindo o trajeto entre praticante e alvo
 - **Rider:** Queimadura, grau mínimo Leve e grau máximo Moderado
 - **Condição de uso:** nenhuma além do portão
@@ -203,7 +203,7 @@ O praticante desfere chutes descendentes cuja passagem comprime uma massa de ar 
 - **coef_obra:** 2,5, a obra existe pela sobrepressão que o portão libera
 - **Dano no sétimo portão:** 1.513
 - **Ação:** padrão
-- **Perfil de Evasão:** Padrão de base, elevado a Veloz pelo sexto portão
+- **Perfil de Evasão:** Padrão de base, elevado a Teleguiado pelo sexto portão
 - **Alcance:** área à frente do praticante, alcançando todos os presentes nela
 - **Rider:** empurra, com deslocamento forçado de dois degraus de distância e Prostração
 - **Condição de uso:** nenhuma além do portão
@@ -227,7 +227,7 @@ O praticante comprime o ar entre os punhos até que a massa contida alcance dens
 - **coef_obra:** 3,0, a obra existe inteiramente pela escada e não tem forma abaixo do sétimo portão
 - **Dano no sétimo portão:** 1.950
 - **Ação:** padrão
-- **Perfil de Evasão:** Veloz de base, elevado a Teleguiado pelo sexto portão
+- **Perfil de Evasão:** Padrão de base, elevado a Teleguiado pelo sexto portão
 - **Alcance:** linha declarada até o campo visual, com detonação em área no ponto de chegada
 - **Rider:** empurra, com deslocamento forçado de dois degraus, e Surdez de grau mínimo Leve e máximo Moderado pela detonação
 - **Condição de uso:** nenhuma além do portão
@@ -251,7 +251,7 @@ O praticante concentra no chute descendente a totalidade da saída que o coraç�
 - **coef_obra:** 3,0, a obra existe inteiramente pelo oitavo portão
 - **Dano no oitavo portão:** 2.880
 - **Ação:** padrão
-- **Perfil de Evasão:** Veloz de base, elevado a Inevitável pelos dois degraus da escada, com a condição estrutural declarada no estado terminal do oitavo portão
+- **Perfil de Evasão:** Inevitável, declarado direto, com o oitavo portão aberto como precondição negável. A via de negação é sobreviver à janela, pela quarta das quatro que a Seção 6.5 do Manual de Criação de Jutsus enumera: o portão dura o que dura, e o alvo que passar dele o vence. A entrada não depende da elevação por portão para alcançar o degrau, e por isso não fica presa à errata aberta daquela elevação
 - **Alcance:** qualquer ponto no campo visual, com o praticante percorrendo a distância no ato
 - **Rider:** nenhum, o impacto não deixa condição porque não deixa alvo em condição de recebê-la
 - **Condição de uso:** o oitavo portão aberto

@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.futon
 title: "Fūton (風遁)"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: skill
@@ -78,7 +78,7 @@ O ar afiado atravessa o anteparo em vez de gastá-lo, e quem se abrigou recebe o
 RAJADA (grau 3, complexidade 4) · 38
 Uma borda só passa a chegar a muitos, abrindo em arco ou se repartindo em vetores sem perder mordida por ponto de contato. [canon: o giro do corpo comprime o ar expelido numa lâmina única que cobre área ampla e alcança vários alvos a distância; o sopro se reparte em rajadas espalhadas por direções distintas e escapar sem ferimento fica difícil]
 └─ Abertura [ação livre, 1×/turno, 20 RC]: eleva o alvo declarado de uma técnica de Fūton em uma categoria, de alvo para arco frontal e de arco para círculo completo em torno do praticante, mantendo o efeito integral em cada ponto atingido. Extensão do arco = ⌊teste de Vácuo ÷ 8⌋ metros, resultando em 14 no LV4, 17 no LV5 e 21 no LV6. LV5: sem limite por turno, e a elevação passa a ser declarável depois da expulsão, sobre corrente que já está no ar
-└─ Repartição [passivo]: quando a técnica se reparte em correntes simultâneas, cada corrente além da primeira que ameace o mesmo alvo baixa um degrau no Perfil de Evasão dele contra aquela técnica, com teto de 2 degraus. LV5: teto de 3 degraus, e o teto deixa de contar correntes, passando a contar ângulos distintos de aproximação
+└─ Repartição [passivo]: quando a técnica se reparte em correntes simultâneas, cada corrente que alcance o mesmo alvo por um ângulo distinto de aproximação conta como uma linha de aproximação, e a resolução lê a tabela de vantagem numérica da seção 11 do Núcleo de Combate. Correntes que chegam pelo mesmo ângulo contam como uma linha só, por mais numerosas que sejam. LV5: sem melhoria própria. As duas que o nível concedia, o teto de três degraus e a troca da contagem de correntes por ângulos, mediam a acumulação de Perfil de Evasão, que foi revogada quando a escada passou a ser propriedade de construção, e a contagem por ângulo virou regra geral do Núcleo. A lacuna fica registrada em vez de preenchida por invenção
 
 MINUANO (grau 4, complexidade 2) · 42
 A ferida aberta pelo vento não se fecha enquanto o ar continuar dentro dela. [canon: a lâmina de vácuo perfura a carne e potencialmente a atravessa, e o corte de vento deixa ferimentos graves por laceração]
@@ -253,6 +253,8 @@ NOTA DE NOMEAÇÃO
 Os caminhos e as transcendências do Fūton empregam nomeação por imagem, e a imagem é sempre um vento ou um fenômeno do ar que se entende na leitura, sem explicação ao lado. A inclinação de extensão nomeia pelas partes do sistema, e Espiral, Olho e Fome dizem a forma, o centro e o apetite do tufão.
 
 REGISTRO DE ALTERAÇÕES
+
+**v2.7.** O caminho Repartição deixa de baixar degraus no Perfil de Evasão do alvo e passa a declarar linhas de aproximação distintas, resolvidas pela tabela de vantagem numérica da seção 11 do Núcleo de Combate. O teto de dois degraus e o de três do LV5 saem com a acumulação que eles limitavam, e o LV5 fica sem melhoria própria, com a lacuna registrada na própria linha em vez de preenchida por invenção. Fôlego Contrário e Impulso de Arremesso continuam escritos como estavam, porque a conversão deles não sai de regra nenhuma do lote e a decisão é de desenho. Nenhum grau, complexidade, custo ou valor resolvido mudou.
 
 v2.4. O Manual de Criação de Perícias v7.4 §13 fecha a brecha que a auditoria ao vivo do Controle de Chakra descobriu: aprofundar um único caminho de uma perícia inteira não destrava mais todas as transcendências dela de uma vez. O requisito geral do LV6 continua abrindo o nível, e cada transcendência passa a nomear também a composição própria de caminhos que a habilita, ancorada no que ela já revela no próprio corpo. O Corte Que Não Fecha ganha o Pré-requisito de Vento Encanado e Minuano Aprofundados, os dois caminhos cujas habilidades ela já eleva para a coluna LV6. Calmaria ganha o Pré-requisito de Barlavento e Ascendente Aprofundados, pela mesma leitura. O Grande Vento ganha o Pré-requisito de Vento no Voo, Ponte de Vento e Vento de Areia Aprofundados, os três caminhos de Vento a Favor que ela eleva, Vento na Lâmina de fora porque a própria transcendência já registrava esse caminho como sem versão LV6. Nenhum valor numérico, efeito ou caminho muda de conteúdo.
 

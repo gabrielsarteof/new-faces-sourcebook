@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.chidori-eiso
 title: "Chidori Eisō — Lança Afiada de Mil Pássaros (千鳥鋭槍)"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: technique
@@ -70,7 +70,7 @@ A lança corta anteparo leve durante o avanço. Madeira, tela, papel e barreira 
 - **Assinatura selada:** admitida, exigindo o caminho Concisão adquirido ou teste de interface igual ou superior a 169
 - **Velocidade:** Raiton, celeridade 150, sem desvio declarado
 - **Posição elemental:** declarada por linha nas tabelas por perfil
-- **Perfil de Evasão:** Padrão, elevado a Teleguiado pelo caminho Lança no estado aprofundado. O degrau Veloz que a ficha citava saiu da escada quando a velocidade virou grandeza própria, e a elevação de um degrau a partir de Padrão passa a alcançar Teleguiado
+- **Perfil de Evasão:** Padrão, fixo. O degrau Veloz que a ficha citava saiu da escada quando a velocidade virou grandeza própria, e a elevação pelo caminho Lança saiu junto: a Seção 6.5 do Manual de Jutsus fechou a escada a toda elevação em jogo, e o caminho Lança nunca publicou elevação no próprio texto
 - **Janela de Canalização:** lida sobre o custo pago pela fórmula da Seção 3.2 do Manual de Jutsus
 - **Ação:** janela de canalização, seguida de extensão imediata, sem deslocamento
 - **Restrições:** alvo único, alcance lido do Fio Estendido, linha de projeção livre até o alvo ou anteparo leve interposto, sem carga adicional
@@ -188,7 +188,7 @@ O executante permanece parado e com a leitura periférica intacta durante toda a
 
 ## Sinergias
 
-- **Caminho Lança aprofundado:** entrega alcance, correção dupla de trajetória e a elevação do Perfil de Evasão em uma única compra, e é o investimento que transforma a entrada de alternativa segura em ameaça de campo aberto
+- **Caminho Lança aprofundado:** entrega alcance e correção dupla de trajetória, e é o investimento que transforma a entrada de alternativa segura em ameaça de campo aberto. A elevação de Perfil de Evasão que a ficha lhe atribuía saiu com a revogação da acumulação na escada
 - **Transcendência Raio Seco:** devolve à lança a perfuração que a distância retirava, e é a única via que faz a entrada superar o Chidori em vez de substituí-lo por conveniência
 - **Cobertura em cena:** a correção de trajetória contorna anteparo, e a entrada rende o máximo em terreno construído, corredor e floresta densa
 - **Caminho Impulso:** o Reflexo Acelerado libera a ação de movimento para reposicionar o executante enquanto a haste sustenta a ameaça de longe

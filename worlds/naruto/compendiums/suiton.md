@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.suiton
 title: "Compêndio de Suiton (水遁)"
-version: 3.8
+version: 3.10
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Suiton_v3_1.md
 ---
 
-# Compêndio de Suiton (水遁) · v3.8
+# Compêndio de Suiton (水遁) · v3.10
 **Liberação de Água**
 
 **O que mudou na v3.4.** A Exigência de Moldagem de todas as 35 entradas deixou de ler degrau nomeado da régua revogada pelo Manual de Requisitos de Técnica v2.2 e passou a número contínuo declarado. As últimas três — Espelho de Água, Torrente Dilaceradora e Prisão do Mar Profundo, que a auditoria original registrava como pendentes de nome no índice — não tinham correspondência publicada e foram resolvidas por leitura própria contra as âncoras de calibragem do domínio: Torrente Dilaceradora pareada com a Bala Presa de Água pela mesma descrição de vórtice em rotação violenta; Espelho de Água ancorada nos B-rank mais altos do domínio, porque a própria entrada já declarava a propriedade de tolerância zero a excesso de volume; Prisão do Mar Profundo, capstone proposto e fechado na criação, ancorada perto do Kirin do Raiton, abaixo do teto elemental do Daikōdan. As três têm ancoragem canônica mais fraca que o restante do compêndio, por serem ATRIBUÍDO ou PROPOSTA sem par espelho em outro elemento.
@@ -28,7 +28,17 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 
 A celeridade declarada é a do meio e não a Velocidade efetiva da obra. A cadeia que produz a Velocidade multiplica a celeridade pelo Fator de Seção, pelo Ímpeto e pelo `M_vel`, e o Fator de Seção se lê do coeficiente de entrega, grandeza que nenhuma entrada de compêndio publica em domínio algum do corpus. A modulação pertence à apuração da ficha, e o catálogo entrega a banda do meio.
 
-**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
+**O que mudou na v3.9.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**Perfil de Evasão, ausência encerrada.** A Seção 6.5 do Manual de Criação de Jutsus fechou em v3.5 e a escada parou de se mover: quatro degraus, propriedade de construção, sem elevação por caminho, por transcendência, por circunstância ou por estado do executor. A leitura falseada que quatro entradas do repasse reivindicavam saiu da escada e virou régua com dono, a Régua de Leitura do cenário. Com as duas coisas fechadas, as entradas classificadas por vetor passam a declarar o Perfil, lido da própria prosa e sem consultar ficha de executor. Padrão é o valor de omissão, e entrada cuja prosa não sustente Telegrafado, Teleguiado ou Inevitável o recebe sem marcação.
+
+**O que mudou na v3.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair.
 
 **Referências.** As camadas de acesso, o estado de autoria, a etiquetagem e a fronteira da cópia pelo Sharingan são da Norma de Produção de Compêndios. Os níveis, o portão de rank e a escada de fonte são da Perícia de Suiton v2. Os degraus de moldagem são da Perícia de Controle de Chakra v2. O rider de Lentidão e as regras de condição são do Sistema Elemental v7 e do Sistema de Efeitos de Status. A derivação do preço é da seção 4.1.3 do Manual de Criação de Jutsus v2, e o custo de RC pertence à ficha individual de cada técnica.
 
@@ -48,6 +58,7 @@ Cada entrada declara o grupo a que pertence, que é dado da técnica. As técnic
 **Suiton: Shizuku no Jutsu — 水遁・雫の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV1 · Moldagem 46
 **Execução:** Expelida
 **XP:** 130
@@ -60,6 +71,7 @@ O usuário condensa a umidade do ar e o próprio chakra em um volume pequeno de 
 **Suiton: Kiri Shunshin — 水遁・霧瞬身**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV1 · Moldagem 40 · Shunshin no Jutsu
 **Execução:** Expelida
 **XP:** 175
@@ -72,6 +84,7 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 **Suiton: Mizu no Maku — 水遁・水の膜**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV1 · Moldagem 58
 **Execução:** Expelida
 **XP:** 175
@@ -88,9 +101,13 @@ O usuário canaliza chakra de água pelas mãos e forma uma película fina e ade
 **Kirigakure no Jutsu — 霧隠れの術**
 **[CANON — Rank D]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
+**Alcance categórico:** Campo
 **Requisitos:** Suiton LV2 · Moldagem 48
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 880
 
@@ -104,6 +121,8 @@ O usuário cobre a área ao redor com névoa densa impregnada de chakra, erguida
 **Acesso:** Livre
 **Requisitos:** Suiton LV2 · Moldagem 56
 **Vetor:** Penetração, Grau IV · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **Execução:** Expelida
 **XP:** 480
 
@@ -115,6 +134,7 @@ O usuário molda um conjunto pequeno de agulhas de água endurecidas por chakra 
 **Suiton: Suiben — 水遁・水鞭**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV2 · Moldagem 52
 **Execução:** Expelida
 **XP:** 600
@@ -127,9 +147,13 @@ O usuário forma um chicote longo e contínuo de água sustentada por chakra, an
 **Suiton: Mizutamari — 水遁・水溜まり**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Suiton LV2 · Moldagem 42
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 600
 
@@ -145,6 +169,7 @@ O usuário expele água rasa impregnada de chakra que se espalha pelo solo à fr
 **Mizu Bunshin no Jutsu — 水分身の術**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV3 · Moldagem 60
 **Execução:** Moldagem de Fonte
 **XP:** 1.775
@@ -157,6 +182,7 @@ O usuário molda água ambiente na forma de uma ou mais cópias físicas de si m
 **Suirō no Jutsu — 水牢の術**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Kirigakure)
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV3 · Moldagem 60
 **Execução:** Moldagem de Fonte
 **XP:** 1.775
@@ -169,9 +195,13 @@ O usuário envolve o alvo em esfera de água mais pesada e densa que a comum, fo
 **Suiton: Mizuame Nabara — 水遁・水飴拿原**
 **[CANON — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Suiton LV3 · Moldagem 64
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 2.580
 
@@ -185,8 +215,13 @@ O usuário expele pela boca uma corrente de água de altíssima viscosidade, imp
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 34
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 1.775
 
@@ -200,6 +235,8 @@ O usuário converte chakra em água no interior do corpo e a expele pela boca em
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 44
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **Execução:** Expelida
 **XP:** 1.430
 
@@ -213,6 +250,8 @@ O usuário comprime água no interior do corpo e a dispara pela boca como esfera
 **Acesso:** Livre
 **Requisitos:** Suiton LV3 · Moldagem 58
 **Vetor:** Corte, Grau III do Fio · Celeridade 80
+**Alcance categórico:** Linha
+**Perfil de Evasão:** Padrão
 **Execução:** Expelida
 **XP:** 1.430
 
@@ -224,9 +263,13 @@ O usuário comprime água em disco fino de rotação veloz e o dispara rente ao 
 **Suiton: Kokuun no Jutsu — 水遁・黒雲の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito de Segurança
+**Alcance categórico:** Área
 **Requisitos:** Suiton LV3 · Moldagem 62
 **Banda Mínima:** Engajado
 **Banda Máxima:** Média
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 2.580
 
@@ -238,6 +281,7 @@ O usuário forma acima do campo uma nuvem escura e baixa que despeja chuva de á
 **Suiton: Kakure Ame no Jutsu — 水遁・隠れ雨の術**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV3 · Moldagem 72 · chuva, névoa ou umidade em campo
 **Execução:** Moldagem de Fonte
 **XP:** 1.430
@@ -256,6 +300,8 @@ O usuário reúne em torno do corpo uma camada de gotas suspensas e as alinha at
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 52
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Teleguiado
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -267,6 +313,10 @@ O usuário ergue de uma fonte de água um dragão colossal de corpo serpenteante
 **Suiton: Suijinheki — 水遁・水陣壁**
 **[CANON — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Suiton LV4 · Moldagem 54
 **Execução:** Expelida
 **XP:** 5.300
@@ -281,6 +331,8 @@ O usuário expele água pela boca ou a ergue do terreno ao redor, formando mural
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Requisitos:** Suiton LV4 · Moldagem 60
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Teleguiado
 **Execução:** Moldagem de Fonte
 **XP:** 4.625
 
@@ -294,6 +346,9 @@ O usuário molda a água de uma fonte na forma de um tubarão que avança contra
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV4 · Moldagem 74
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Teleguiado
+**Linhas simultâneas:** 5
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -307,6 +362,9 @@ O usuário toca a superfície da água com a mão aberta e libera cinco tubarõe
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 58
 **Vetor:** Penetração, Grau III · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
+**Linhas simultâneas:** a publicar, a prosa conta múltiplos sem número
 **Execução:** Moldagem de Fonte
 **XP:** 4.625
 
@@ -318,6 +376,7 @@ O usuário ergue de uma fonte próxima múltiplos vórtices de água em rotaçã
 **Suiton: Ja no Kuchi — 水遁・蛇の口**
 **[CANON — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV4 · Moldagem 60
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
@@ -330,9 +389,13 @@ O usuário ergue de uma fonte de água uma serpente colossal de bocarra aberta, 
 **Suiton: Takitsubo no Jutsu — 水遁・滝壺の術**
 **[CANON — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Campo
 **Requisitos:** Suiton LV4 · Moldagem 42
 **Banda Mínima:** Engajado
 **Banda Máxima:** Longa
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 6.200
 
@@ -346,6 +409,12 @@ O usuário converte grande quantidade de chakra em água e a despeja no terreno,
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 82 · água existente ao redor do alvo
 **Vetor:** Penetração, Grau IV · Celeridade 80
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
+**Perfil de Evasão:** Padrão
+**Linhas simultâneas:** a publicar, a prosa declara todos os ângulos laterais sem número
 **Execução:** Moldagem de Fonte
 **XP:** 5.300
 
@@ -359,8 +428,13 @@ O usuário ergue a água do ambiente ao redor do alvo e a molda em mil agulhas l
 **Acesso:** Patrimônio de Vila (Kirigakure)
 **Requisitos:** Suiton LV4 · Moldagem 40
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 7.325
 
@@ -372,6 +446,7 @@ O usuário expele pela boca volume de água imensamente superior ao próprio cor
 **Suiton: Mizukagami no Jutsu — 水遁・水鏡の術**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Suiton LV4 · Moldagem 74
 **Execução:** Expelida
 **XP:** 5.300
@@ -386,6 +461,8 @@ O usuário ergue diante de si superfície vertical de água perfeitamente lisa, 
 **Acesso:** Livre
 **Requisitos:** Suiton LV4 · Moldagem 58
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **Execução:** Expelida
 **XP:** 3.950
 
@@ -399,6 +476,8 @@ O usuário concentra água em rotação violenta na palma da mão e a descarrega
 **Acesso:** Requisito de Segurança
 **Requisitos:** Suiton LV4 · Moldagem 64
 **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **Execução:** Expelida
 **XP:** 5.300
 
@@ -410,9 +489,13 @@ O usuário reveste um ou ambos os braços com camadas densas de água comprimida
 **Ugo Jizai no Jutsu — 雨虎自在の術**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Amegakure)
+**Alcance categórico:** Campo
 **Requisitos:** Suiton LV4 · Moldagem 76 · Caminho Toque da Maré
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 7.325
 
@@ -430,6 +513,11 @@ O usuário ergue nuvem de chuva com o próprio chakra e mantém a precipitação
 **Acesso:** Livre
 **Requisitos:** Suiton LV5 · Moldagem 43
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
+**Perfil de Evasão:** Telegrafado
 **Execução:** Moldagem de Fonte
 **XP:** 12.800
 
@@ -443,6 +531,8 @@ O usuário ergue de uma fonte de água coluna espiral colossal, que desaba sobre
 **Acesso:** Livre
 **Requisitos:** Suiton LV5 · Moldagem 86 · Caminho Agulha das Profundezas
 **Vetor:** Corte, Grau IV do Fio · Celeridade 80
+**Alcance categórico:** Linha
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
 **Execução:** Expelida
@@ -458,6 +548,8 @@ O usuário expele pela boca jato contínuo de água comprimida a pressão extrem
 **Acesso:** Requisito Mecânico
 **Requisitos:** Suiton LV5 · Moldagem 78 · água selada em pergaminho
 **Vetor:** Penetração, Grau III · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **Execução:** Moldagem de Fonte
 **XP:** 11.000
 
@@ -471,8 +563,13 @@ O usuário ergue de uma fonte próxima orbe central de água do qual partem múl
 **Acesso:** Fechada na Criação
 **Requisitos:** Suiton LV5 · Moldagem 42
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Campo
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Expelida
 **XP:** 18.200
 
@@ -490,6 +587,11 @@ O usuário expele volume de água de escala geográfica, que se expande em todas
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV6 · Moldagem 82 · Caminho Cachoeira
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
+**Perfil de Evasão:** Telegrafado
 **Execução:** Expelida
 **XP:** 38.000
 
@@ -503,6 +605,8 @@ O usuário forma diante de si parede d'água da qual irrompem mil tubarões em m
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Suiton LV6 · Moldagem 104 · Caminho Muralha Viva
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **Execução:** Expelida
 **XP:** 32.000
 
@@ -516,8 +620,13 @@ O usuário molda um tubarão de água de porte colossal que avança contra a té
 **Acesso:** Fechada na Criação
 **Requisitos:** Suiton LV6 · Moldagem 100 · Caminho Câmara de Água transcendido
 **Vetor:** Impacto · Celeridade 80
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Execução:** Moldagem de Fonte
 **XP:** 45.500
 

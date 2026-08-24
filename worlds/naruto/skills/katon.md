@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.katon
 title: "Katon (火遁)"
-version: 4.2
+version: 4.3
 layer: scenario
 scenario: naruto
 type: skill
@@ -85,7 +85,7 @@ O fogo viaja por matéria em vez de por espaço aberto, e fio, arame, cabo e lâ
 
 AGULHA (grau 4, complexidade 2) · 42
 A chama carrega uma segunda ameaça física que chega por linha própria, e o alvo que calibra a defesa contra o fogo recebe o que vinha dentro dele. [canon: shuriken ocultos dentro das flores de fênix]
-└─ Segunda Linha [passivo]: os projéteis embutidos numa técnica de Katon deixam de chegar junto com a chama e emergem em trajetória própria, exigindo esquiva separada. A esquiva do alvo opõe-se ao teste de Labareda com esta especialização, valendo 120 no LV4, 147 no LV5 e 174 no LV6. A quantidade de projéteis é a declarada na ficha da técnica. LV5: elevação de alvo para área, e os projéteis ameaçam também quem estiver adjacente ao alvo original, com esquiva própria para cada um
+└─ Segunda Linha [passivo]: os projéteis embutidos numa técnica de Katon deixam de chegar junto com a chama e emergem em trajetória própria, e cada ângulo distinto de emergência conta como uma linha de aproximação contra o alvo, resolvida pela tabela de vantagem numérica da seção 11 do Núcleo de Combate. A quantidade de linhas é a declarada na ficha da técnica, e projéteis que emergem pelo mesmo ângulo contam como uma linha só. LV5: elevação de alvo para área, e os projéteis ameaçam também quem estiver adjacente ao alvo original, com a contagem de linhas correndo separada contra cada um
 
 NÚCLEO BRANCO (grau 4, complexidade 3) · 42
 A chama deixa de estar sujeita ao que apaga fogo. [atribuído: o Uchiha treinado gera chamas fortes o bastante para superar o Suiton]

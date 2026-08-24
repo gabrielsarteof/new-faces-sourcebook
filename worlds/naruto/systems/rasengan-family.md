@@ -1,7 +1,7 @@
 ---
 id: naruto.system.rasengan-family
 title: "Linhagem do Rasengan"
-version: 1.6
+version: 1.8
 layer: scenario
 scenario: naruto
 type: system
@@ -12,6 +12,10 @@ source-file: Linhagem_do_Rasengan_v1.md
 # Linhagem do Rasengan
 
 Documento dono do motor compartilhado pelas fichas da família Rasengan. Ele publica o eixo que cada variação move, a regra de assistência de moldagem, a cadeia de derivação e o estado de autoria da linhagem inteira. As fichas individuais consomem este documento e não reescrevem nada dele.
+
+**O que mudou na v1.8.** A RC nominal do Rasengan Evanescente é limpa. A coluna publicava 1.050 com a sobretaxa de quinze por cento do degrau Veloz embutida, e o abatimento que a Seção 6.5 do Manual de Jutsus manda desde a v3.4 devolve 913, com o custo mínimo em 304 e a proporção contra a base caindo de 1,75 para 1,52. A base de 600 do Rasengan permanece intocada, e é por isso que a limpeza de uma linha não move a escada inteira, no mesmo precedente que a Linhagem do Chidori abriu ao limpar cinco das sete fichas dela. Nenhum coeficiente de entrega, vetor, `mult_Tipo` ou preço em XP mudou.
+
+**O que mudou na v1.7.** A coluna de eixo do Rasengan Evanescente passa a dizer leitura no lugar de evitabilidade, porque a propriedade daquela ficha mudou de camada e passou a viver na Régua de Leitura do cenário. A RC nominal de 1.050 continua publicada com a sobretaxa do degrau revogado embutida, e a limpeza dela entra na fila de errata em vez de ser feita aqui: nem o briefing nem o consolidado do lote publicam o valor limpo, e a régua de arredondamento que a Linhagem do Chidori aplicou ao mesmo caso vive naquele documento e não neste. Nenhum coeficiente, preço, proporção da escada ou linha de tabela de descarga mudou.
 
 **O que mudou na v1.6.** A Seção 2 troca o termo somado pelo `w`. O coeficiente técnico de 3,0 resolve o `w` em 1,5, o maior do corpus, e a tese da família passa a ler o `P` da perícia governante no lugar do nível de Controle de Chakra. A mesma seção declara que a perícia governante das quatro fichas de moldagem pura é o Controle de Chakra, no lugar em que a linhagem já declarava o portão de rank delas. A Seção 3 inteira permanece intacta, com todas as RC nominais, coeficientes de entrega, vetores, `mult_Tipo` e proporções da escada, junto da Assistência de Moldagem, da cadeia de derivação, da Recomposição, do estado de autoria e de todos os preços.
 
@@ -74,7 +78,7 @@ Cada entrada da linhagem move um eixo e apenas um. A tabela é o contrato da fam
 | Ficha | Eixo movido | Rank | RC nominal | coef_entrega | Vetor | mult_Tipo |
 |---|---|---|---|---|---|---|
 | Rasengan | base, alvo único em contato | B | 600 | 0,20 | Impacto | 1,00 |
-| Rasengan Evanescente | evitabilidade, a leitura que o alvo perde | A | 1.050 | 0,16 | Impacto | 1,40 |
+| Rasengan Evanescente | leitura, a ameaça que o alvo não tem como ler | A | 913 | 0,16 | Impacto | 1,40 |
 | Ōdama Rasengan | escopo, de alvo para área | A | 1.200 | 0,12 | Impacto | 1,00 |
 | Rasenrengan | multiplicidade, de uma obra para duas | A | 1.200 | 0,20 | Impacto | 1,00 |
 | Fūton: Rasengan | natureza e alcance, de contato para projétil | A | 1.500 | 0,16 | Corte, Grau II do Fio | 1,40 |
@@ -83,9 +87,9 @@ Cada entrada da linhagem move um eixo e apenas um. A tabela é o contrato da fam
 
 O `mult_Tipo` de cada linha é a Constante de Moldagem multiplicada pela Assinatura do vetor declarado, e a Assinatura vale 1,00 nos três vetores físicos. As quatro fichas sem transformação de natureza resolvem em 1,00 porque a Constante alcança apenas o que a moldagem de natureza produz, e as três que declaram natureza resolvem em 1,40 porque entregam por vetor físico e não por Energia.
 
-O custo mínimo de cada ficha é a terça parte da RC nominal, resolvendo 200 na base, 350 no Rasengan Evanescente, 400 no Ōdama Rasengan e no Rasenrengan, 500 no Fūton: Rasengan e 700 nas duas entradas de rank S.
+O custo mínimo de cada ficha é a terça parte da RC nominal, resolvendo 200 na base, 304 no Rasengan Evanescente, 400 no Ōdama Rasengan e no Rasenrengan, 500 no Fūton: Rasengan e 700 nas duas entradas de rank S.
 
-A escada guarda proporção declarada contra a base, e é ela que governa qualquer recalibragem futura. Cada ficha vale 1,75, 2,00, 2,00, 2,50, 3,50 e 3,50 vezes a RC nominal do Rasengan, na ordem da tabela. Alterar a base obriga a percorrer a coluna inteira, porque a proporção é o que mantém a distância entre os degraus da linhagem.
+A escada guarda proporção declarada contra a base, e é ela que governa qualquer recalibragem futura. Cada ficha vale 1,52, 2,00, 2,00, 2,50, 3,50 e 3,50 vezes a RC nominal do Rasengan, na ordem da tabela. Alterar a base obriga a percorrer a coluna inteira, porque a proporção é o que mantém a distância entre os degraus da linhagem.
 
 O Ōdama Rasengan e o Rasenrengan ocupam a mesma RC nominal e o mesmo preço, e a coincidência é estrutural. Dobrar o volume dentro de uma esfera e repartir o mesmo volume em duas esferas custam igual, e a escolha entre os dois é de eixo e não de orçamento.
 

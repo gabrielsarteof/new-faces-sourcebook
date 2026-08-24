@@ -1,7 +1,7 @@
 ---
 id: naruto.system.jutsu-authoring
 title: "Manual de Criação de Jutsus"
-version: 3.4
+version: 3.6
 layer: scenario
 scenario: naruto
 type: methodology
@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Criacao_de_Jutsus_v2_7.md, mais o Consolidado do motor de jutsus, o Núcleo de Combate v3 e a Errata E1 v2
 ---
 
-# Manual de Criação de Jutsus · v3.4
+# Manual de Criação de Jutsus · v3.6
 
 **Guia técnico para a criação de técnicas shinobi estudáveis no RPG de Naruto. Manual tradutor do cenário Naruto para o Manual de Criação de Poderes v3.3.**
 
@@ -461,6 +461,9 @@ Compras de comportamento de execução, aplicadas como percentual sobre o XP_bas
 | Execução com uma mão | +10% |
 | Execução em movimento pleno (rank B+) | +20% |
 | Redução de selos além da concedida por perícia | +10% por degrau |
+| Declaração de Régua de Leitura | +20% |
+
+A âncora da Régua de Leitura é o Extra mais pesado já publicado nesta tabela, a execução em movimento pleno, porque as duas compram comportamento de execução que muda o que o adversário pode fazer contra a técnica. A propriedade não paga sobretaxa de RC, porque não é sobretaxa da escada de evasão.
 
 **Ordem de aplicação:** XP_base pela interpolação, extras de comportamento por cima, modificadores da Seção 4.2 por último sobre a soma, floor no resultado final, na convenção de arredondamento da economia.
 
@@ -762,9 +765,9 @@ O teste é oposto de base cinquenta, como qualquer teste do sistema, e o Núcleo
 
 A técnica portada pelo corpo, que o executor leva até o alvo em vez de projetar, não lê Celeridade nem Ímpeto. Ela resolve como golpe corporal, o corpo do executor contra a esquiva do alvo, com o Perfil de Evasão da ficha por cima. O Chidori em contato, o Raikiri e o Rasengan entregue na mão são os casos.
 
-A obra de área e a de campo resolvem pela forma publicada de área, sem teste individual contra cada alvo, e entregam efeito parcial em falha onde a ficha o declarar.
+A obra de área e a de campo não resolvem teste individual contra cada alvo. Elas resolvem o teste de fuga do Núcleo de Combate, opondo a Velocidade efetiva da obra ao lado defensivo do alvo dividido pela raiz da profundidade, e entregam efeito parcial em falha onde a ficha o declarar.
 
-O relâmpago natural fica fora da escada porque fica fora do teste. A obra que dirige um fenômeno atmosférico preexistente é Inevitável sob condição estrutural, e o Kirin é o caso publicado.
+O relâmpago natural fica fora da escada porque fica fora do teste. A obra que dirige um fenômeno atmosférico preexistente declara esse fenômeno como a precondição negável do degrau Inevitável, e o Kirin é o caso publicado.
 
 #### Os três canais da maestria na conexão
 
@@ -772,7 +775,7 @@ A mão do executor alcança a conexão por três portas, e nenhuma delas compra 
 
 A **conexão contínua** é o `C` dentro do `M_vel`, que cresce com a ficha inteira, com a PRE, com os níveis e com os caminhos, sem que nada precise ser comprado para aquele fim.
 
-A **construção comprada** move a técnica um degrau na escada de Perfil de Evasão, por caminho ou transcendência, conforme a Seção 6.5 publica.
+A **leitura comprada** é a porta do executor sobre o que o adversário consegue acompanhar. Um caminho nomeado de perícia concede à técnica a Régua de Leitura, ou eleva o teste do executor dentro dela, conforme o documento daquela régua publica. Ela não move a técnica na escada de Perfil de Evasão, que é fixada na criação.
 
 A **compressão comprada** é a única porta do executor na física: um caminho nomeado de perícia eleva a técnica uma posição de compressão, fazendo o Fator de Seção ler o coeficiente do degrau acima na tabela da Seção 5.3. Ela tem dono, tem preço em XP como qualquer caminho, e não alcança o relâmpago natural.
 
@@ -786,7 +789,7 @@ Leitura do contrato de disponibilidade das famílias no Manual de Criação de P
 
 ### Modelo de acerto do cenário
 
-Instância do ponto de extensão de modelo de acerto. Neste mundo não existe rolagem de acerto. Vantagem ofensiva se expressa como redução da esquiva efetiva do alvo, e o eixo declarado no registro de toda técnica ofensiva de alvo é quão evitável ela é por construção, na escada do Perfil de Evasão da Seção 6.5. As demais formas de resolução, automático, teste resistido, área sem teste e efeito parcial em falha, entram na forma publicada no manual de núcleo.
+Instância do ponto de extensão de modelo de acerto. Neste mundo não existe rolagem de acerto. Vantagem ofensiva se expressa como redução da esquiva efetiva do alvo, e o eixo declarado no registro de toda técnica ofensiva de alvo é quão evitável ela é por construção, na escada do Perfil de Evasão da Seção 6.5. As demais formas de resolução, automático, teste resistido, área sem teste e efeito parcial em falha, entram na forma publicada no manual de núcleo. A obra cuja propriedade é o alvo não saber do que se defender declara a Régua de Leitura, que resolve por teste de percepção com dono próprio e não move a técnica na escada.
 
 ### 6.1 Selos de Mão
 
@@ -843,17 +846,25 @@ Dimensão obrigatória de todo jutsu ofensivo de alvo. Declara quão evitável a
 | **Telegrafado** | +25% | o alvo que gasta a reação esquivando fica fora de posição e perde nova esquiva até o próximo turno dele | coef_entrega um degrau acima na tabela |
 | **Padrão** | plena | nenhum | nenhuma |
 | **Teleguiado** | −50% | persegue por 1 turno adicional se o alvo esquiva; a esquiva repetida contra a mesma perseguição preserva o malus | +30% no custo de RC e Extra pago em XP |
-| **Inevitável** | anulada | apenas a Absorção e o Estado Elemental declarado mitigam | condição estrutural obrigatória declarada no registro; rank A mínimo |
+| **Inevitável** | anulada | apenas a Absorção e o Estado Elemental declarado mitigam | precondição negável declarada no registro; rank A mínimo |
+
+O degrau é escolhido na criação da técnica, pago na criação, e permanece o mesmo durante toda a vida dela. Nenhum caminho de perícia, nenhuma transcendência, nenhuma circunstância de combate e nenhum estado do executor movem uma técnica de degrau. A escada é propriedade de construção, e é essa fixidez que permite precificar um degrau em XP e preencher o campo em qualquer entrada de compêndio sem consultar a ficha de quem executa.
 
 **O degrau Veloz sai da escada.** Ele media velocidade crua, que agora é grandeza própria e vive na cadeia da Seção 5.7, com dono, escada de meios e leitura por obra. Uma escada que media a mesma coisa por degrau nomeado passaria a cobrar duas vezes pela mesma propriedade. As fichas que carregavam o degrau Veloz por serem de raio deixam de pagar a sobretaxa de quinze por cento no custo de RC, porque a velocidade delas agora sai da Celeridade do meio, e o abatimento é da entrada e não da escada.
 
 O que a escada mede é o que a construção da obra faz com a possibilidade de sair da frente dela: ser vista chegando, perseguir quem se moveu, ou não admitir saída alguma. Nada disso é velocidade, e por isso as duas camadas compõem sem se confundir.
 
-O Telegrafado é a única fonte de coef_entrega elevado fora da forma física da técnica: o arquétipo do golpe devastador que todo o campo vê chegando. O Inevitável exige condição externa ao usuário, na régua do Kirin: a tempestade precisa existir, e a técnica dispara enquanto ela existir. Sem condição estrutural, o teto é Teleguiado.
+O Telegrafado é a única fonte de coef_entrega elevado fora da forma física da técnica: o arquétipo do golpe devastador que todo o campo vê chegando.
+
+O Inevitável exige uma precondição que o defensor possa negar antes de a técnica disparar, declarada no registro junto com o que a desfaz. A negação corre por quatro vias, e a ficha declara qual delas vale para aquela obra: **desfazer** a precondição, **sair** do alcance dela, **quebrar** o que a sustenta, ou **sobreviver** à janela em que ela existe. A marca do Hiraishin precisa estar no corpo do alvo e ele pode se livrar dela, que é desfazer. A tempestade do Kirin precisa existir e o alvo pode sair de baixo dela, que é sair. O ponto em que o olho pousa precisa alcançar o alvo e ele pode romper a linha de visão, que é quebrar. O oitavo portão do Guy Noturno precisa estar aberto e o alvo pode durar mais que ele, que é sobreviver à janela. A técnica que não nomeie o que a derrota tem teto em Teleguiado.
 
 As sobretaxas percentuais desta escada e dos módulos da Seção 6.6 incidem sobre a RC nominal durante a construção da técnica, e o custo mínimo acompanha como terça parte do resultado. A ficha publica as duas grandezas já fechadas, com a sobretaxa embutida.
 
-Caminhos de perícia e transcendências podem mover um jutsu um degrau na escada (o especialista que eleva o próprio Chidori de Padrão a Teleguiado), como elevação categórica comprada com progressão.
+A escada alcança apenas a obra que resolve o teste de conexão. A obra elevada para área ou para campo resolve o teste de fuga do Núcleo de Combate, e o relâmpago natural fica fora do teste e por isso fora da escada.
+
+O degrau Inevitável fecha por inteiro o lugar da esquiva, e nenhuma resposta defensiva da camada de Reação do Núcleo de Combate se aplica contra ele. Nos três degraus restantes o lugar está aberto, e a resposta declarada funciona pelas condições que a ficha dela publica.
+
+A obra cuja propriedade é o alvo não saber do que se defender permanece no degrau que a construção dela merece, e essa propriedade se declara na Régua de Leitura. O alvo de uma obra dessas sai da frente dela com a esquiva inteira sempre que souber do que sair.
 
 A previsão do Sharingan opera sobre a esquiva do portador contra técnicas alheias, em slot defensivo próprio; o Perfil de Evasão opera sobre a esquiva do alvo, no slot da técnica. As camadas compõem com donos separados, e a matemática do dōjutsu vive no documento de Sharingan.
 
@@ -980,7 +991,7 @@ O Manual de Criação de Poderes publica doze pontos de extensão. Esta seção 
 | Coeficientes da forma de dois termos | coef_entrega na conversão, `M` como escala de maestria, coef_técnica como coeficiente de obra alimentando o `w` | Seção 5.3 deste manual |
 | Coeficientes da forma de dois termos, eixo corporal | Esforço em PS no lugar da RC nominal, coef_entrega_física na conversão, Fator de Portão como termo de maestria, coef_obra como coeficiente de obra | Seção 6 do Sistema dos Oito Portões |
 | Camadas de defesa | absorção, resistência e esquiva efetiva | documentos de defesa do cenário, lidos pela Seção 6.5 |
-| Eixo de evitabilidade | Perfil de Evasão em cinco degraus | Seção 6.5 deste manual |
+| Eixo de evitabilidade | Perfil de Evasão em quatro degraus | Seção 6.5 deste manual |
 | Modelo de acerto | sem rolagem de acerto, vantagem ofensiva como redução de esquiva | abertura da Seção 6 deste manual |
 | Modulação de aquisição | faixas de XP por rank com interpolação, mais os modificadores de afinidade, clã e acesso | Seção 4 deste manual |
 | Réguas de Percepção | cobertura por custo de tempo, atenuação por meio e resolução por objeto de leitura | Perícia de Sensoriamento |
@@ -996,6 +1007,10 @@ Um ponto admite mais de uma instância, e a tabela tem uma linha por instância 
 ---
 
 ## 11. Registro de Alterações
+
+**v3.6.** A Seção 6.5 recebe a emenda da precondição negável. A regra não muda de exigência e ganha a enumeração que faltava: a negação corre por desfazer, sair, quebrar ou sobreviver à janela, e a ficha declara qual das quatro vale. A quarta via admite a precondição cuja janela é o próprio estado que a obra exige, o que devolve o degrau Inevitável às obras de janela terminal sem afrouxar a exigência para quem não nomeia nada. Nenhum coeficiente, faixa de XP, piso por rank, sobretaxa, banda de autoria, âncora de validação ou linha da Escada de Celeridade mudou de valor.
+
+**v3.5.** A Seção 6.5 declara o Perfil de Evasão como propriedade de construção que não se move em jogo, e a elevação por caminho de perícia ou por transcendência sai da escada. O degrau Inevitável troca a exigência de condição externa ao usuário pela exigência de uma precondição que o defensor possa negar antes de a técnica disparar, declarada no registro junto com o que a desfaz, o que admite a marca prévia e o ponto de visão ao lado do fenômeno atmosférico. A seção passa a declarar que a escada alcança apenas a obra que resolve o teste de conexão, e que o degrau Inevitável fecha por inteiro o lugar da esquiva diante da camada de Reação do Núcleo de Combate. A Seção 5.7 troca a construção comprada pela leitura comprada no terceiro canal da maestria, e republica as isenções de área e de relâmpago natural na forma do teste de fuga e da precondição negável. A abertura da Seção 6 e a Seção 4.1.2 registram a Régua de Leitura, que passa a viver em documento próprio do cenário. A Seção 10 corrige a contagem de degraus do eixo de evitabilidade. Nenhum coeficiente de entrega, faixa de XP, piso por rank, banda de autoria, âncora de validação ou linha da Escada de Celeridade mudou de valor.
 
 **v3.4.** As Seções 5.2 e 4.1.3 passam a separar por nome duas coisas que liam o mesmo piso de rank e vinham sendo lidas como uma só. O teto anti-inflação é o piso de dois ranks acima e limita entrega, e não existe no rank A nem no rank S. O topo da faixa de posição é o piso do rank seguinte, limita apenas onde a obra cai dentro da própria faixa de preço, e existe em toda faixa por construção do denominador, faltando só ao rank S, caso que a cláusula própria da Seção 4.1.3 resolve. A Seção 4.1.3 ganha também os dois exercícios publicados das travas de posição, o Chidori Senbon em zero e o Shiden em cem por cento. Nenhum piso, teto, faixa de XP, coeficiente, banda de autoria ou âncora de validação mudou de valor: a passagem nomeia o que já operava e não altera régua nenhuma.
 

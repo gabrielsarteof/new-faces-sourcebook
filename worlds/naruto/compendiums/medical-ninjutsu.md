@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.medical-ninjutsu
 title: "Compêndio de Ninjutsu Médico"
-version: 2.8
+version: 2.10
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_Medico_v2-1.md
 ---
 
-# Compêndio de Ninjutsu Médico · v2.8
+# Compêndio de Ninjutsu Médico · v2.10
 
 **医療忍術 · Iryō Ninjutsu**
 
@@ -25,7 +25,17 @@ Catálogo das técnicas nomeadas do domínio médico, da contenção de sangrame
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
-**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
+**O que mudou na v2.9.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**Perfil de Evasão, ausência encerrada.** A Seção 6.5 do Manual de Criação de Jutsus fechou em v3.5 e a escada parou de se mover: quatro degraus, propriedade de construção, sem elevação por caminho, por transcendência, por circunstância ou por estado do executor. A leitura falseada que quatro entradas do repasse reivindicavam saiu da escada e virou régua com dono, a Régua de Leitura do cenário. Com as duas coisas fechadas, as entradas classificadas por vetor passam a declarar o Perfil, lido da própria prosa e sem consultar ficha de executor. Padrão é o valor de omissão, e entrada cuja prosa não sustente Telegrafado, Teleguiado ou Inevitável o recebe sem marcação.
+
+**O que mudou na v2.10.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair.
 
 **O que mudou na v2.7.** As duas entradas de veneno saem da fila de decisão da fase 2 declarando vetor nenhum, e a saída é registro de lacuna e não classificação.
 
@@ -51,6 +61,7 @@ O domínio médico se organiza de forma diferente dos elementais. Uma moldagem d
 **Myakushin — 脈診**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV1 · Moldagem 16
 **XP:** 175
 
@@ -62,6 +73,7 @@ O limite é a superfície. A leitura diz que algo está errado e aponta a regiã
 **Shiketsu no Jutsu — 止血の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV1 · Moldagem 20
 **XP:** 220
 
@@ -73,6 +85,7 @@ O limite é que a técnica não fecha nem repara. A ferida continua aberta, vuln
 **Masui no Jutsu — 麻酔の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV1 · Moldagem 26
 **XP:** 175
 
@@ -84,6 +97,10 @@ O limite é que a ausência de dor não é ausência de lesão. O paciente anest
 **Shōdoku no Jutsu — 消毒の術**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Ninjutsu Médico LV1 · Moldagem 18
 **XP:** 130
 
@@ -95,6 +112,7 @@ O limite é o alcance biológico. A técnica não neutraliza veneno, não remove
 **Yakusō Chōgō — 薬草調合**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV1 · Moldagem 16 · insumo tradicional
 **XP:** 130
 
@@ -110,6 +128,7 @@ O limite é a potência. Preparações de ervas atuam sobre desconforto, febre e
 **Chakura Hōgō — チャクラ縫合**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV2 · Moldagem 32 · ter aprendido Estancamento
 **XP:** 720
 
@@ -121,6 +140,7 @@ O limite é a profundidade. A sutura fecha o que a mão alcança, e uma lesão q
 **Doku Chūshutsu — 毒抽出**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV2 · Moldagem 42 · água limpa
 **XP:** 720
 
@@ -132,6 +152,7 @@ O limite é a janela. Uma vez que a substância entrou na circulação geral, a 
 **Shindan — 診断**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV2 · Moldagem 42 · ter aprendido Leitura de Pulso de Chakra
 **XP:** 880
 
@@ -143,6 +164,7 @@ O limite é declarado com firmeza. O diagnóstico entrega informação e nunca p
 **Shinzō Sosei — 心臓蘇生**
 **[ATRIBUÍDO · anime — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV2 · Moldagem 44
 **XP:** 880
 
@@ -154,6 +176,7 @@ O limite é a janela, e ela é curta. Passado o intervalo em que o corpo ainda r
 **Seikotsu no Jutsu — 整骨の術**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV2 · Moldagem 32
 **XP:** 600
 
@@ -165,6 +188,7 @@ O limite é a integridade do osso. Fratura limpa se resolve por completo, e osso
 **Kenshi — 検屍**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV2 · Moldagem 30 · corpo presente
 **XP:** 600
 
@@ -176,6 +200,7 @@ O limite é a categoria. O exame diz que o dano interno veio de chakra aplicado 
 **Hyōrōgan — 兵糧丸**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV2 · Moldagem 20 · insumo tradicional
 **XP:** 480
 
@@ -191,6 +216,7 @@ O limite é a cobrança. A pílula adianta o que o corpo não tem, e ao fim da c
 **Shōsen Jutsu — 掌仙術**
 **[CANON — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 68 · Liberação de Yang
 **XP:** 3.155
 
@@ -208,6 +234,8 @@ O limite é o fluxo e a atenção. Nenhuma aplicação ultrapassa o Limite de Sa
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 58
 **Vetor:** Corte, Grau IV do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 2.580
 
 Chakra afiado até formar uma lâmina curta sobre a mão, capaz de atravessar a pele sem rompê-la e cortar o que houver por baixo. Na sala de cirurgia abre acesso a um órgão sem produzir ferida externa. Em combate faz a mesma coisa contra um adversário, e o corte ignora armadura, vestimenta e qualquer defesa material, porque nada disso está entre a mão e o tecido.
@@ -222,8 +250,13 @@ O limite é o contato. O bisturi exige a mão sobre o alvo, não bloqueia ataque
 **Acesso:** Livre
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 44 · insumo tradicional
 **Vetor:** nenhum, veneno aguarda vetor próprio
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 2.120
 
 O médico converte substância preparada em uma nuvem expelida pela boca, que se espalha em cone à frente dele. Quem respira dentro da névoa recebe o efeito da substância, que pode paralisar, cegar, entorpecer ou corroer conforme a formulação escolhida no preparo. A técnica é a razão pela qual um médico é perigoso mesmo quando fica quieto no fundo da formação.
@@ -238,6 +271,7 @@ O limite é o ar. A névoa obedece ao vento, dispersa em espaço aberto e não a
 **Kōtai Kasseika — 抗体活性化**
 **[ATRIBUÍDO · anime — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 44 · ter aprendido Diagnóstico Anatômico
 **XP:** 2.120
 
@@ -249,6 +283,7 @@ O limite é o tempo e a identificação. O procedimento exige que a substância 
 **Kairo Sōji — 回路掃除**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 58
 **XP:** 1.775
 
@@ -260,6 +295,7 @@ O limite é a origem. A limpeza remove interferência instalada por fluxo extern
 **Masui Senbon — 麻酔千本**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 58 · agulha
 **XP:** 2.120
 
@@ -271,6 +307,7 @@ O limite é o conhecimento e a mão. Errar o ponto transforma a agulha em ferime
 **Chakura Yokusei — チャクラ抑制**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 46
 **XP:** 2.120
 
@@ -282,6 +319,7 @@ O limite é a manutenção. A supressão dura enquanto o contato durar, o alvo m
 **Ketsueki Zōka Gan — 血液増加丸**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 32 · insumo tradicional
 **XP:** 1.775
 
@@ -293,6 +331,7 @@ O limite é a cobrança e o descontrole. Ao fim da cena o consumidor recebe dois
 **Sōkon Kaidoku — 創痕解読**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 42 · corpo ou ferimento presente
 **XP:** 1.775
 
@@ -304,6 +343,7 @@ O limite é a assinatura pessoal. A leitura descreve o gesto e nunca identifica 
 **Hirō Chiryō — 疲労治療**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 44
 **XP:** 2.120
 
@@ -315,9 +355,13 @@ O limite é a saturação. Cada corpo aceita um único tratamento por cena, e o 
 **Senji Bunrui — 戦時分類**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Área
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 46 · Liberação de Yang
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 2.120
 
 O médico deixa de tratar um corpo por vez e passa a repartir a aplicação entre vários feridos ao alcance, entregando a cada um o mínimo que impede a perda. É a doutrina de campo que troca profundidade por cobertura, e a razão pela qual um esquadrão inteiro chega à retaguarda em vez de um só.
@@ -328,6 +372,7 @@ O limite é a repartição. A eficácia se divide igualmente entre os alcançado
 **Hikaku Kaibō — 比較解剖**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 32
 **XP:** 1.430
 
@@ -339,6 +384,7 @@ O limite é o porte e o estranhamento. A entrada cobre a espécie estudada, e di
 **Yogo Handan — 予後判断**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV3 · Moldagem 30
 **XP:** 1.775
 
@@ -354,6 +400,7 @@ O limite é o alcance da estimativa. A entrada mede prazo e não mede resistênc
 **Soshiki Saisei — 組織再生**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 48 · Liberação de Yang
 **XP:** 5.300
 
@@ -365,6 +412,7 @@ O limite é a estrutura. A regeneração produz tecido mole e nunca osso, nervo 
 **Seimei Iji — 生命維持**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 48
 **XP:** 5.300
 
@@ -376,6 +424,7 @@ O limite é a imobilidade absoluta. A sustentação consome a ação completa do
 **Zenshin Doku Haishutsu — 全身毒排出**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 60 · Farmacopeia · ter aprendido Extração de Veneno de Campo
 **XP:** 5.300
 
@@ -387,6 +436,7 @@ O limite é o dano já feito. A purga remove a substância e interrompe a deteri
 **Enkaku Shindan — 遠隔診断**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 58 · Sondagem
 **XP:** 4.625
 
@@ -398,6 +448,7 @@ O limite é a natureza do que se detecta e a distância. A leitura confirma que 
 **Tenketsu Kaihō — 経穴開放**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 74 · Circuito · ter aprendido Diagnóstico Anatômico
 **XP:** 6.200
 
@@ -409,6 +460,7 @@ A relação entre esta entrada e o estilo de combate que fecha pontos de chakra 
 **Soshiki Ishoku — 組織移植**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 76 · Transplante · Liberação de Yang · instalação, tempo, assistência e doador viável
 **XP:** 6.200
 
@@ -420,6 +472,7 @@ Todo enxerto instalado nasce em estado de rejeição ativa. O receptor sofre det
 **Teichaku — 定着**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 60 · Adaptação
 **XP:** 4.625
 
@@ -431,6 +484,7 @@ O limite é a permanência da diferença. A estabilização suspende a rejeiçã
 **Kōzō Shiji — 構造支持**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 78 · Prótese de Chakra · Liberação de Yin · ter aprendido Diagnóstico Anatômico
 **XP:** 6.200
 
@@ -442,6 +496,7 @@ A técnica não cura nada, e o que ela faz é ocupar o lugar do que se perdeu en
 **Jintai Keiro Kakuran — 人体経路撹乱**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 62 · Desarranjo · ter aprendido Bisturi de Chakra
 **XP:** 5.300
 
@@ -453,6 +508,7 @@ O limite é a camada atingida. O desarranjo age sobre execução e nunca sobre d
 **Kairiki — 怪力**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 64 · Concentração · perícia de combate corporal declarada na ficha
 **XP:** 4.625
 
@@ -466,8 +522,13 @@ O limite é o instante. A liberação fora do momento correto devolve todo o cha
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 62 · Toxicologia · ter aprendido Névoa Venenosa
 **Vetor:** nenhum, veneno aguarda vetor próprio
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 5.300
 
 A névoa deixa de sair em cone único e passa a se dividir em várias correntes independentes, que o médico dirige a alvos separados ou combina para fechar um espaço inteiro. Cada corrente pode carregar uma formulação diferente, o que permite paralisar um adversário e cegar outro na mesma expiração.
@@ -480,6 +541,7 @@ O veneno não declara vetor pela mesma razão da forma simples, e a ausência su
 **Kasane Te — 重ね手**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 58 · Concílio · Liberação de Yang
 **XP:** 5.300
 
@@ -491,6 +553,7 @@ O limite é a sincronia. Os dois comprometem a ação no mesmo turno, precisam e
 **Kuchiyose Shujutsu — 口寄せ手術**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 60 · Veterinária · Liberação de Yang · ter aprendido Anatomia Comparada
 **XP:** 5.300
 
@@ -502,6 +565,7 @@ O limite é o porte e o consentimento. Criatura muito acima do humano exige o qu
 **Taika Shinsa — 耐荷審査**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 46 · Prognóstico · ter aprendido Prognóstico de Campo
 **XP:** 4.625
 
@@ -513,6 +577,7 @@ O limite é a presença. O parecer exige o corpo diante do médico, e uma descri
 **Shinsui — 深睡**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV4 · Moldagem 58 · Supressão · ter aprendido Supressão de Chakra
 **XP:** 4.625
 
@@ -528,6 +593,7 @@ O limite é a manutenção e a memória. O alvo desperta no turno seguinte ao fi
 **Chiyu Sosei Saisei no Jutsu — 治癒蘇生再生の術**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 78 · Concílio · Liberação de Yang · ter aprendido Mãos Somadas
 **XP:** 15.200
 
@@ -541,9 +607,13 @@ O limite é o quórum e a mesa. O procedimento exige médicos suficientes, todos
 **Jin'ei no Toko — 陣営の床**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Campo
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 64 · Triagem · Liberação de Yang · ter aprendido Triagem de Campo
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 12.800
 
 O médico declara uma área e a converte em posto de estabilização. Todo ferido posto ali para de deteriorar sem que ninguém precise manter contato, e o médico deixa de ser refém de cada corpo que estabilizou. É o que transforma uma retirada em evacuação organizada.
@@ -554,6 +624,7 @@ O limite é declarado com firmeza. O leito estabiliza e impede deterioração, e
 **Manbyō Kaiyu no Jutsu — 万病快癒の術**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 88 · Farmacopeia · Liberação de Yang · instalação e assistência · ter aprendido Bisturi de Chakra e Diagnóstico Anatômico
 **XP:** 18.200
 
@@ -567,8 +638,13 @@ O limite é a margem. O procedimento exige instalação, tempo, assistência tre
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 46 · Concentração · ter aprendido Força Aumentada por Chakra
 **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 12.800
 
 O acúmulo deixa de ser aplicado contra um corpo e passa a ser aplicado contra o chão. O punho desce, o chakra libera no instante do contato com o solo e a superfície se parte em cratera, projetando estilhaço de pedra em todas as direções e derrubando quem estiver de pé no raio. O golpe transforma o terreno em arma e resolve formações inteiras de uma vez.
@@ -581,8 +657,13 @@ A Exigência de Moldagem 46 em rank A é o par alto deste compêndio contra a in
 **Acesso:** Requisito Mecânico
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 66 · Concentração · ter aprendido Força Aumentada por Chakra
 **Vetor:** Impacto · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Área
+**Perfil de Evasão:** Padrão
 **Banda Mínima:** Engajado
 **Banda Máxima:** Curta
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 12.800
 
 A mesma liberação executada com o calcanhar a partir de um salto, somando à precisão do médico toda a queda do corpo. O impacto rasga o terreno em linha em vez de abrir cratera circular, e a fenda avança à frente de quem golpeou, alcançando quem já tinha recuado.
@@ -593,6 +674,7 @@ O limite é o compromisso. O golpe exige o salto, anuncia a trajetória no ar e 
 **Saiken Shujutsu — 再建手術**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito de Segurança
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 80 · Reconstrução · Liberação de Yang
 **XP:** 15.200
 
@@ -604,6 +686,7 @@ A técnica é aprendível por qualquer um que alcance o nível, e a ausência de
 **Gan'ishoku — 眼移植**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico e Requisito de Segurança
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 90 · Transplante · Liberação de Yang · instalação, tempo, assistência e doador dentro da janela · ter aprendido Enxerto de Tecido
 **XP:** 18.200
 
@@ -617,6 +700,7 @@ As regras específicas de um olho de linhagem instalado, incluindo o que ele con
 **Chakura Gishi — チャクラ義肢**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 88 · Prótese de Chakra · Liberação de Yin · instalação e tempo · ter aprendido Suporte Estrutural e Cirurgia de Reconstrução
 **XP:** 18.200
 
@@ -630,6 +714,7 @@ O limite é o custo permanente e a fragilidade. A prótese drena reserva do port
 **Senji Yakugaku — 戦時薬学**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Patrimônio de Vila · Sunagakure
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 76 · Toxicologia · insumo tradicional
 **XP:** 15.200
 
@@ -643,6 +728,7 @@ O limite é a bancada. Toda formulação exige preparo prévio com insumo declar
 **In'yu Shōmetsu — 陰癒傷滅**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal
+**Alcance categórico:** Alvo
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Ninjutsu Médico LV5 · Moldagem 92 · Prevenção · Liberação de Yin · ter aprendido Diagnóstico Anatômico
 **XP:** 18.200
@@ -663,6 +749,7 @@ O limite é a leitura. Errar o ponto antecipado desperdiça a reserva inteira se
 **Sōzō Saisei — 創造再生**
 **[CANON · Kinjutsu — Rank S]**
 **Acesso:** Assinatura Pessoal · Fechada na Criação
+**Alcance categórico:** Alvo
 **Estado de Autoria:** Autoria Aberta
 **Requisitos:** Ninjutsu Médico LV6 · Moldagem 104 · Liberação de Yang · reserva acumulada
 **XP:** 40.000, piso de kinjutsu aplicado sem redutor
@@ -681,6 +768,7 @@ O limite é a vida. A regeneração não devolve o que já foi gasto, não prote
 **Byakugō no In — 百豪の印**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação · Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV6 · Moldagem 96 · Fūinjutsu LV5 · Regeneração Criadora em estado Registrado · anos de acúmulo declarados
 **XP:** 32.000
 
@@ -694,9 +782,13 @@ O limite é o depósito. O selo devolve exatamente o que foi guardado nele, e um
 **Ninpō Sōzō Saisei Byakugō no Jutsu — 忍法・創造再生・百豪の術**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação · Requisito Mecânico
+**Alcance categórico:** Área
 **Requisitos:** Ninjutsu Médico LV6 · Moldagem 100 · Liberação de Yang · Regeneração Criadora e Selo da Força de Cem, ambos em estado Registrado
 **Banda Mínima:** Engajado
 **Banda Máxima:** Extrema
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **XP:** 45.500
 
 O selo se rompe e as marcas se espalham pelo corpo inteiro, e a regeneração deixa de ser um ato voltado para dentro. O usuário estende a ordem de divisão celular a todos os corpos dentro da área declarada, e feridos que estavam morrendo voltam a se levantar simultaneamente, sem que ninguém precise ser tocado. É a única técnica deste compêndio capaz de virar o resultado de uma batalha inteira.
@@ -707,6 +799,7 @@ O limite é a reserva depositada. A técnica gasta o que o selo acumulou e nada 
 **Kishō Tensei — 起死回生**
 **[ATRIBUÍDO · Kinjutsu — Rank S]**
 **Acesso:** Fechada na Criação
+**Alcance categórico:** Alvo
 **Requisitos:** Ninjutsu Médico LV6 · contato · isento de Exigência de Moldagem (não é medicina, o preço não é chakra)
 **XP:** 40.000, piso de kinjutsu aplicado sem redutor
 

@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.shunshin
 title: "Técnica do Deslocamento Corporal"
-version: 2
+version: 2.1
 layer: scenario
 scenario: naruto
 type: technique
@@ -84,9 +84,9 @@ O trajeto permanece legível para sensores e para dōjutsu de leitura de fluxo, 
 
 **Imunidade de trânsito a ataques de perfil inferior a Teleguiado.** Durante o deslocamento, a dimensão testada pertence à técnica atacante, não a este documento. Qualquer ataque cujo Perfil de Evasão fique abaixo de Teleguiado não tem alvo válido contra o usuário em trânsito, e o movimento não pode ser interceptado por reações. A proteção cobre apenas o trânsito. Parado no ponto de chegada, o usuário é alvo normal, e o Shunshin em si não declara Perfil de Evasão próprio por não ser técnica ofensiva de alvo.
 
-**Chegada não lida.** No instante do deslocamento, cada observador testa a própria percepção em oposição ao teste de Moldagem do usuário, pela Régua de Leitura publicada no Kawarimi no Jutsu, consumida aqui por referência.
+**Chegada não lida.** No instante do deslocamento, cada observador testa a própria percepção em oposição ao teste de Moldagem do usuário, pela Régua de Leitura do cenário, `naruto.system.reading-scale`, consumida aqui por referência. A classe é Ilegibilidade: o borrão não oferece ameaça alguma de ler, e a familiaridade não corrói o efeito.
 
-- **Falha do observador:** perde a posição do usuário até ele agir. Se o primeiro ataque do usuário na mesma vez atinge um observador que falhou no teste, o golpe tem o Perfil de Evasão elevado em um degrau categórico, até o teto de Teleguiado.
+- **Falha do observador:** perde a posição do usuário até ele agir. Se o primeiro ataque do usuário na mesma vez alcança um observador que falhou no teste, ele resolve contra um alvo que não contesta a conexão, e o degrau que a técnica atacante publica não se move.
 - **Sucesso do observador:** ele acompanha o borrão inteiro, e o combate segue sem lapso.
 
 A banda mais cara comprime mais o teste de Moldagem do lado do usuário, e é assim que a velocidade superior se expressa contra a percepção do observador.
@@ -148,7 +148,6 @@ Deslocamentos por reserva cheia, pareados com o patamar LV4 com Refino como mold
 
 - **Kawarimi no Jutsu:** a substituição nega o golpe na vez do inimigo, e o Shunshin abre distância real na vez seguinte. A dupla cobre a lacuna entre o alcance curto de uma técnica e a fuga efetiva da outra, e as duas leem a mesma Régua de Leitura em momentos distintos da rodada.
 - **Bunshin no Jutsu:** o véu de cópias conjurado antes do deslocamento multiplica os pontos de chegada possíveis na leitura do observador, empilhando as duas aplicações da mesma régua.
-- **Golpes de perfil Veloz:** a elevação categórica da chegada não lida sobre um ataque já Veloz produz um Teleguiado momentâneo, o teto do dividendo.
 - **Variantes elementais:** os compêndios elementais registram deslocamentos com assinatura funcional, como o Passo de Chamas do Katon, que usam este documento como âncora de referência.
 - **Iniciativa alta:** o usuário que age antes converte a chegada não lida em abertura de combate, fechando distância dentro do tempo de reação da cena inteira.
 

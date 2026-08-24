@@ -1,7 +1,7 @@
 ---
 id: common.skill.kenpo
 title: "Kenpo"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: common
 type: skill
@@ -118,7 +118,7 @@ Janela de Adaptação = teste do caminho ÷ 5, arredondado para baixo, piso 0%, 
 
 Resolvido: 23% no LV4, 28% no LV5, 33% no LV6 largura mínima.
 
-Sem Aviso e Contra-Linha resolvem por elevação categórica e por oposição direta, sem régua contínua própria, formas que a seção 2 do Manual de Criação de Perícias autoriza igualmente à leitura de teste.
+Sem Aviso resolve pela Régua de Leitura, opondo a percepção do alvo ao teste do caminho, e Contra-Linha resolve por oposição direta, formas que a seção 2 do Manual de Criação de Perícias autoriza igualmente à leitura de teste.
 
 ═══════════════════════════════════════════════════════════════════
 
@@ -167,9 +167,9 @@ INCLINAÇÃO ORIGEM
 ═══════════════════════════════════════════════════════════════════
 
 SEM AVISO (grau 3, complexidade 4) — 38
-O golpe que ninguém vê chegar rouba do alvo a metade da vantagem que sustentaria a esquiva plena, e devolve a mesma vantagem depois que o primeiro toque já aconteceu.
-└─ Ponto de Origem [ativado, sem ação adicional, sem custo]: o primeiro golpe desarmado do praticante na própria rodada sobe um degrau na escada de Perfil de Evasão do Manual de Criação de Jutsus, de Padrão para Veloz, lendo o mesmo comportamento próprio e a mesma contrapartida que a escada já publica para aquele degrau. Golpes seguintes do mesmo praticante na mesma rodada resolvem em Padrão. LV5: o degrau se renova no primeiro golpe seguinte a qualquer Reação bem-sucedida do praticante na mesma rodada, e não apenas no golpe de abertura
-[distinção contra Muay Thai: ali o bônus de combinação prende a posição do golpe dentro da série; aqui o degrau prende a ausência de aviso, e desliga sozinho no segundo golpe mesmo que a corrente continue]
+O golpe que ninguém vê chegar faz o alvo gastar a resposta contra o que ele leu, e devolve a leitura depois que o primeiro toque já aconteceu.
+└─ Ponto de Origem [ativado, sem ação adicional, sem custo]: o primeiro golpe desarmado do praticante na própria rodada declara a Régua de Leitura na classe Ilegibilidade, e o alvo opõe a própria percepção ao teste deste caminho. O alvo que falha perde a leitura do campo até o início do próprio turno e gasta a Reação contra o golpe que leu em vez do que chega, e a familiaridade não corrói o efeito, porque o golpe não oferece ameaça alguma de ler. Golpes seguintes do mesmo praticante na mesma rodada resolvem sem a régua. LV5: a régua se renova no primeiro golpe seguinte a qualquer Reação bem-sucedida do praticante na mesma rodada, e não apenas no golpe de abertura
+[distinção contra Muay Thai: ali o bônus de combinação prende a posição do golpe dentro da série; aqui a régua prende a ausência de aviso, e desliga sozinha no segundo golpe mesmo que a corrente continue]
 
 ALVO EXPOSTO (grau 3, complexidade 3) — 38
 Escolher o ponto certo antes de golpear transforma um acerto comum em uma vantagem que sobrevive ao próprio golpe que a criou.
@@ -208,8 +208,8 @@ NÍVEL 6: TRANSCENDÊNCIAS
 
 FUTSUNUSHI (経津主), remoção de condição · Sem Aviso
 Pré-requisito: Sem Aviso e Corrente Sem Fim, ambos Aprofundados.
-Revoga: apenas o primeiro golpe da rodada do praticante carrega o degrau de Sem Aviso.
-└─ Ponto de Origem LV6 [passivo, sem custo, requer Sem Aviso Aprofundado]: enquanto a escada de Corrente Sem Fim não quebrar pela Quebra Total, todo golpe desarmado conectado carrega o degrau de Sem Aviso, de Padrão para Veloz, e não apenas o golpe de abertura da rodada. A quebra da corrente devolve a exigência de Primeiro Toque até o próximo golpe de abertura
+Revoga: apenas o primeiro golpe da rodada do praticante carrega a régua de Sem Aviso.
+└─ Ponto de Origem LV6 [passivo, sem custo, requer Sem Aviso Aprofundado]: enquanto a escada de Corrente Sem Fim não quebrar pela Quebra Total, todo golpe desarmado conectado declara a Régua de Leitura de Sem Aviso, e não apenas o golpe de abertura da rodada. A quebra da corrente devolve a exigência de Primeiro Toque até o próximo golpe de abertura
 
 TAKAMIMUSUBI (高御産巣日), elevação de escopo · Corrente Sem Fim
 Pré-requisito: Corrente Sem Fim Aprofundado.
@@ -249,7 +249,7 @@ PENDÊNCIAS E FILA DE ERRATA
 
 1. O Núcleo de Combate não publica a classe do golpe desarmado. Este documento declara Esforço 0,9 por interpolação entre a arma de precisão e a lâmina curva, `[proposta]`, e a errata pede que o Núcleo de Combate absorva o valor quando revisado.
 2. O Índice de Perícias registra Kenpo no Registro de Regentes e no Registro de Conformidade, mas não abriu a subseção "Cedido pelo Kenpo v1" no Registro de Fronteira, apesar dos cinco vizinhos nomeados nesta abertura. Propagação pendente.
-3. O Perfil de Evasão vive no Manual de Criação de Jutsus e resolve técnica de chakra. Sem Aviso o consome por precedente já aberto pelo Compêndio dos Oito Portões, e a régua pede dono declarado na camada física geral quando ela nascer.
+3. Sem Aviso deixou de consumir o Perfil de Evasão e passou a consumir a Régua de Leitura, documento de cenário do mundo Naruto. Uma perícia sem cenário lendo régua de cenário é a mesma fronteira que a linha anterior registrava com o Manual de Criação de Jutsus, e ela segue pedindo dono declarado na camada física geral quando ela nascer.
 4. O Fator de Kenpo e a Eficiência de Retorno são subsistemas próprios desta perícia, pendentes de absorção pela camada física geral, no mesmo padrão que o Sistema dos Oito Portões já reserva para o Fator de Portão.
 5. Muay Thai e Aikido seguem sem documento de corpus, migrados sob schema anterior, lacuna já registrada em `provenance.json` do lado da aplicação.
 6. Correção de errata: o item 6 anterior desta lista afirmava que o Taichi não existia em documento nenhum do corpus. Essa afirmação valia apenas dentro da linha de trabalho isolada em que este documento nasceu. O Taichi existe, publicado em paralelo em `worlds/common/skills/taichi.md`, e é o precedente que esta perícia segue ao morar na mesma pasta.

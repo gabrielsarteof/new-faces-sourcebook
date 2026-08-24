@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hiraishin-giri
 title: "Execução do Deus do Trovão Voador (飛雷神斬り)"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -69,14 +69,14 @@ A entrada muda o valor político do toque. Um aperto de mão, um socorro prestad
 - **Custo de preparação:** pago no ato de inscrever a marca, pela régua do efeito Marca de Destino do caminho Âncora
 - **Selos de referência:** 0
 - **Assinatura selada:** dispensada, porque a execução não emprega selos de mão
-- **Perfil de Evasão:** Inevitável, sob a condição estrutural declarada abaixo
+- **Perfil de Evasão:** Inevitável, sob a precondição negável declarada abaixo
 - **Janela de Canalização:** nenhuma. A travessia lê a Régua de Alcance da entrada de origem
 - **Ação:** ação padrão, cobrindo a travessia e o corte no mesmo ato
 - **Custo de PS:** nenhum
 - **Aftermath:** nenhum. O rank A o declara e esta entrada o dispensa, porque o preço da linhagem já foi cobrado na inscrição da marca
 - **Restrições:** alvo único; exige marca inscrita no alvo, ou marca em ponto a menos de um passo dele; a arma precisa estar em mão no ato da declaração
 
-**Condição estrutural do Perfil Inevitável:** a marca precisa existir sobre o alvo ou a menos de um passo dele no instante da declaração. Sem ela a entrada não dispara, e a travessia resolve pela entrada de origem sem entregar golpe algum.
+**Precondição negável do Perfil Inevitável:** a marca precisa existir sobre o alvo ou a menos de um passo dele no instante da declaração, e o que a desfaz é o alvo se livrar da marca ou manter distância do ponto marcado. Sem ela a entrada não dispara, e a travessia resolve pela entrada de origem sem entregar golpe algum.
 
 ---
 

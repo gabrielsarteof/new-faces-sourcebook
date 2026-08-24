@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.kyuinjutsu
 title: "Compêndio de Kyūinjutsu"
-version: 1.4
+version: 1.6
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Kyuinjutsu_v1.md
 ---
 
-# Compêndio de Kyūinjutsu · v1.4
+# Compêndio de Kyūinjutsu · v1.6
 **吸引術 · Técnicas nomeadas do ofício da tomada**
 
 **O que mudou na v1.1.** Primeira auditoria completa da Exigência de Moldagem: as 19 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas bloqueadas por insumo não implementado (Rinnegan ou Meiton) receberam o número normalmente — a Norma de Produção de Compêndios já manda publicar preço para entrada inerte, e a Exigência segue a mesma regra.
@@ -22,7 +22,17 @@ Catálogo das técnicas nomeadas que exercem o dreno de chakra classificado em `
 
 O preço em XP publicado nas entradas sem ficha própria é provisório, conforme a Seção 1 da Norma de Produção de Compêndios.
 
-**Perfil de Evasão, ausência declarada.** As entradas classificadas por vetor não declaram Perfil de Evasão, e a ausência é deliberada. O Manual de Criação de Jutsus chama o Perfil de dimensão obrigatória de todo jutsu ofensivo de alvo, e a Seção 6.5 que o publica está sob errata aberta: quatro entradas do repasse reivindicam na prosa uma leitura falseada que nenhum dos quatro degraus mede. Preencher as fichas contra uma escada que vai mudar garantiria duas passadas em vez de uma, e por isso o preenchimento espera a correção da escada pelo Lote de Evasão e Leitura. Passada futura de classificação não deve ler esta ausência como esquecimento nem iniciar o preenchimento por conta.
+**O que mudou na v1.5.** O Lote de Evasão e Leitura fecha, e este compêndio recebe a passada de preenchimento de campos que ele previa. As duas notas abaixo declaram o que entrou.
+
+**Perfil de Evasão, ausência encerrada.** A Seção 6.5 do Manual de Criação de Jutsus fechou em v3.5 e a escada parou de se mover: quatro degraus, propriedade de construção, sem elevação por caminho, por transcendência, por circunstância ou por estado do executor. A leitura falseada que quatro entradas do repasse reivindicavam saiu da escada e virou régua com dono, a Régua de Leitura do cenário. Com as duas coisas fechadas, as entradas classificadas por vetor passam a declarar o Perfil, lido da própria prosa e sem consultar ficha de executor. Padrão é o valor de omissão, e entrada cuja prosa não sustente Telegrafado, Teleguiado ou Inevitável o recebe sem marcação.
+
+**O que mudou na v1.6.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
+
+**Consequência para o Perfil de Evasão.** A escada de evitabilidade alcança apenas a obra que resolve o teste de conexão, e por isso ela governa as entradas de Alvo e de Linha. Nas entradas de Área e de Campo o degrau declarado permanece escrito e fica inerte, porque a resolução delas é a fuga do Núcleo de Combate.
+
+**Área e campo, campos declarados e vazios.** Toda entrada de Área ou de Campo declara profundidade máxima, abrangência e espécie, porque a fuga lê as duas primeiras. Nenhuma entrada de compêndio nenhum publica geometria em metros, e as duas grandezas entram como a publicar em vez de entrarem inventadas. Isso não trava a mesa: o Núcleo publica a degradação para esse caso, e sem geometria declarada todos os corpos leem a profundidade máxima, o que reproduz o comportamento anterior. Publicar a geometria é lote de desenho e não passada de propagação. A espécie é expande por omissão, e aparece só onde a prosa disser que a obra surge sem intervalo em que o corpo pudesse sair.
 
 **Referências.** As camadas de acesso, a etiquetagem e o formato de entrada são da Norma de Produção de Compêndios v2.6. Os níveis, o portão de rank e os caminhos são da Perícia de Kyūinjutsu v1. Os degraus de moldagem são da Perícia de Controle de Chakra v3.3. A régua de quantidade, o teto de recepção, a sobrecarga deliberada e a cláusula do senjutsu são de `jutsu-authoring.md` §2.8, e nenhuma entrada as reproduz. O preço em XP segue a estimativa sem RC da Seção 4.1.3 do Manual de Criação de Jutsus v2.9, porque nenhuma entrada tem ficha individual apurada.
 
@@ -36,6 +46,7 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 **Kūfuku Kyūin — 空腹吸引**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 32 · Caminho Tomada
 **XP:** 480
 
@@ -51,6 +62,7 @@ A posição da entrada no catálogo é a de porta de entrada do caminho Tomada. 
 **Chinmoku no Fure — 沈黙の触れ**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 32 · Caminho Obstrução
 **XP:** 480
 
@@ -66,6 +78,7 @@ Nenhuma fonte canônica publica um chi-blocking análogo dentro do próprio sist
 **Michibiki no Ito — 導きの糸**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 30 · Caminho Sifão
 **XP:** 600
 
@@ -83,6 +96,8 @@ O material metálico não precisa de preparo nem de inscrição, e qualquer aram
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 32 · Caminho Lâmina Sedenta
 **Vetor:** Corte, Grau II do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 480
 
 O usuário passa a própria energia pela lâmina de uma faca ou kunai comum antes de golpear, e o corte que seguiria como ferimento comum devolve uma fração de chakra ao empunhador no mesmo instante em que abre. A lâmina não muda de cor nem de peso, e o único sinal é o alvo sangrar mais escuro que o esperado para o corte recebido.
@@ -101,6 +116,7 @@ Esta é a base sobre a qual qualquer arma nomeada de dreno, quando existir, se a
 **Tochū no Te — 途中の手**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV3 · Moldagem 44 · Caminho Interceptação
 **XP:** 1.775
 
@@ -116,6 +132,7 @@ A técnica exige que o usuário veja ou sinta a obra chegando com antecedência 
 **Kyōyū no Mizutamari — 共有の水たまり**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV3 · Moldagem 44 · Caminho Sifão
 **XP:** 2.120
 
@@ -135,6 +152,7 @@ A entrada demonstra a regra geral do caminho Sifão: qualquer meio contínuo ent
 **Chakura Kyūin no Jutsu — チャクラ吸引の術**
 **[CANON — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 58 · Caminho Tomada
 **XP:** 5.300
 
@@ -150,6 +168,7 @@ Esta é a entrada âncora do caminho Tomada, e toda variação de maior volume n
 **Nagare no Musubime — 流れの結び目**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 60 · Caminho Obstrução
 **XP:** 4.625
 
@@ -165,6 +184,7 @@ A entrada eleva o grau de travamento sobre o que o Toque que Cala produz, e a di
 **Kiku Kabe — 聞く壁**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 60 · Caminho Sifão
 **XP:** 5.300
 
@@ -182,6 +202,8 @@ A entrada estende o princípio da Poça Compartilhada para matéria sólida, e a
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 62 · Caminho Lâmina Sedenta · Fio Sedento
 **Vetor:** Corte, Grau II do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Alvo
+**Perfil de Evasão:** Padrão
 **XP:** 4.625
 
 O usuário refina a infusão do Fio Sedento até que ela sobreviva à troca de arma dentro da mesma cena, e o chakra transferido pelo corte deixa de depender da lâmina original continuar na mão. O gume infundido brilha por uma fração de segundo no instante do impacto, visível a quem observa de perto.
@@ -200,6 +222,10 @@ A entrada exige o domínio prévio da infusão básica, porque a transferência 
 **Hyakushi no Shibari — 百糸の縛り**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 76 · Caminho Obstrução · Nó no Fluxo
 **XP:** 12.800
 
@@ -215,6 +241,7 @@ A referência solta de fios que perfuram e prendem existe no cânone associada a
 **Tsūka Tachi — 通過断ち**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 78 · Caminho Interceptação · Mão no Meio do Caminho
 **XP:** 12.800
 
@@ -230,6 +257,7 @@ A entrada é o teto do que a Interceptação alcança sem depender de linhagem a
 **Kusarizao — 鎖竿**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 74 · Caminho Sifão
 **XP:** 15.200
 
@@ -247,6 +275,11 @@ A imagem de um instrumento assim, empunhado por um viajante de fora do mundo shi
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 76 · Caminho Lâmina Sedenta · Corte que Bebe
 **Vetor:** Corte, Grau II do Fio · sem celeridade, entrega portada pelo corpo
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
+**Perfil de Evasão:** Padrão
 **XP:** 12.800
 
 O usuário estende a conversão de dano em reserva para além do golpe único, e um ataque de área executado com a arma infundida devolve chakra de cada corpo atingido dentro dele, dividido entre os alvos como a colheita normalmente exigiria de tentativas separadas. A lâmina pulsa uma vez para cada corpo tocado dentro do mesmo golpe.
@@ -261,6 +294,10 @@ A entrada pressupõe o domínio da infusão trocável do Corte que Bebe, porque 
 **Gakumon — 顎門**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Área
+**Profundidade máxima:** a publicar
+**Abrangência:** a publicar
+**Espécie:** expande
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 80 · posse do caminho Voragem, da natureza Meiton
 **XP:** 15.200
 
@@ -280,6 +317,7 @@ A posição da entrada na tradição do domínio é a de extremo do que o Kyūin
 **Zettai Kyūin — 絶対吸引**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV6 · Moldagem 96 · Caminho Tomada · Absorção de Chakra
 **XP:** 27.500
 
@@ -295,6 +333,7 @@ A tradição atribui esse grau de domínio a poucos praticantes lendários, capa
 **Takamimusubinokami — 高御産巣日神**
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV6 · Moldagem 100 · Caminho Interceptação · posse do Rinnegan
 **XP:** 38.000
 
@@ -310,6 +349,7 @@ A entrada permanece bloqueada enquanto o Rinnegan não existir como linhagem jog
 **Sabaki — 裁き**
 **[PROPOSTA — Rank S]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Linha
 **Requisitos:** Kyūinjutsu LV6 · Moldagem 92 · Fauce · posse do caminho Voragem, da natureza Meiton
 **XP:** 38.000
 
@@ -329,6 +369,7 @@ A entrada permanece bloqueada pela mesma razão que a Fauce permanece, e as duas
 **Gakidō — 餓鬼道**
 **[CANON · Kinjutsu — Acima de Rank S]**
 **Acesso:** Requisito Mecânico
+**Alcance categórico:** Alvo
 **Requisitos:** Kyūinjutsu LV6 · Moldagem 108 · Caminho Interceptação · posse do Rinnegan · Takamimusubinokami
 **XP:** 55.000
 
