@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.forma
 title: "Compêndio de Ninjutsu de Forma"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: compendium
@@ -38,8 +38,8 @@ Esta versão incorpora a leva de técnicas base universais, quinze entradas que 
 
 ---
 
-### Substituição de Corpo
-**Kawarimi no Jutsu — 変わり身の術**
+### Kawarimi no Jutsu
+**変わり身の術 · Substituição de Corpo**
 **[CANON — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Controle de Chakra LV1 · Moldagem 22
@@ -49,8 +49,8 @@ O usuário troca o próprio corpo de lugar com um objeto próximo no instante em
 
 ---
 
-### Técnica do Clone
-**Bunshin no Jutsu — 分身の術**
+### Bunshin no Jutsu
+**分身の術 · Técnica do Clone**
 **[CANON — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Controle de Chakra LV1 · Moldagem 38 (elevada +12 por tolerância zero a excesso de volume)
@@ -60,8 +60,8 @@ O usuário projeta de uma a quatro cópias visuais de si mesmo, sem substância 
 
 ---
 
-### Técnica da Transformação
-**Henge no Jutsu — 変化の術**
+### Henge no Jutsu
+**変化の術 · Técnica da Transformação**
 **[CANON — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Controle de Chakra LV1 · Moldagem 26
@@ -71,8 +71,8 @@ O usuário transforma fisicamente o próprio corpo em outra forma, com substânc
 
 ---
 
-### Técnica do Escape de Cordas
-**Nawanuke no Jutsu — 縄抜けの術**
+### Nawanuke no Jutsu
+**縄抜けの術 · Técnica do Escape de Cordas**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Controle de Chakra LV1 · Moldagem 18
@@ -82,8 +82,8 @@ O usuário combina flexibilidade articular com uma película de chakra que reduz
 
 ---
 
-### Liberação
-**Kai — 解**
+### Kai
+**解 · Liberação**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Controle de Chakra LV1 · Moldagem 34 · consciência prévia do genjutsu
@@ -93,8 +93,8 @@ O usuário interrompe o próprio fluxo de chakra, ou aplica um pulso externo por
 
 ---
 
-### Técnica Sensual
-**Oiroke no Jutsu — お色気の術**
+### Oiroke no Jutsu
+**お色気の術 · Técnica Sensual**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV1 · Moldagem 28 · Henge no Jutsu
@@ -104,8 +104,8 @@ O usuário veste uma forma humana adulta idealizada, aplicação especializada d
 
 ---
 
-### Técnica do Manto Oculto
-**Kakuremino no Jutsu — 隠れ蓑の術**
+### Kakuremino no Jutsu
+**隠れ蓑の術 · Técnica do Manto Oculto**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Controle de Chakra LV1 · Moldagem 22 · manto ou pano físico
@@ -119,8 +119,8 @@ O usuário molda cor e textura sobre um manto físico para imitar a superfície 
 
 ---
 
-### Técnica do Deslocamento Corporal
-**Shunshin no Jutsu — 瞬身の術**
+### Shunshin no Jutsu
+**瞬身の術 · Técnica do Deslocamento Corporal**
 **[CANON — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Controle de Chakra LV2 · Moldagem 38
@@ -130,8 +130,8 @@ O usuário vitaliza o corpo com chakra e cruza uma banda de distância em explos
 
 ---
 
-### Técnica de Escape Transparente
-**Tōton no Jutsu — 透遁の術**
+### Tōton no Jutsu
+**透遁の術 · Técnica de Escape Transparente**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV2 · Moldagem 36 · Kakuremino no Jutsu
@@ -145,8 +145,8 @@ O usuário se torna invisível a olho nu contra qualquer fundo, sem depender de 
 
 ---
 
-### Técnica da Camuflagem Óptica
-**Meisaigakure no Jutsu — 明再隠れの術**
+### Meisaigakure no Jutsu
+**明再隠れの術 · Técnica da Camuflagem Óptica**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV3 · Moldagem 44 · Kakuremino no Jutsu
@@ -156,8 +156,8 @@ O usuário dobra a luz diretamente sobre o próprio corpo, sem depender de manto
 
 ---
 
-### Técnica dos Fios de Chakra
-**Chakura no Ito — チャクラの糸**
+### Chakura no Ito
+**チャクラの糸 · Técnica dos Fios de Chakra**
 **[CANON — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV4 · Caminho Impregnação · Moldagem 50
@@ -172,7 +172,7 @@ O usuário projeta fios de chakra quase invisíveis das próprias mãos, capazes
 ---
 
 ### Rasengan
-**Rasengan — 螺旋丸**
+**螺旋丸 · Rasengan**
 **[CANON — Rank B]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Controle de Chakra LV4 · Moldagem 62 (42 com 1 Assistência de Moldagem) · Caminho Composição
@@ -183,8 +183,8 @@ O usuário gira o chakra simultaneamente em várias direções e o comprime na p
 
 ---
 
-### Técnica do Clone das Sombras
-**Kage Bunshin no Jutsu — 影分身の術**
+### Kage Bunshin no Jutsu
+**影分身の術 · Técnica do Clone das Sombras**
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV4 · Moldagem 32
@@ -194,8 +194,8 @@ O usuário divide a própria reserva de chakra em até quatro corpos sólidos, c
 
 ---
 
-### Técnica da Grande Explosão do Clone
-**Bunshin Daibakuha no Jutsu — 分身大爆破の術**
+### Bunshin Daibakuha no Jutsu
+**分身大爆破の術 · Técnica da Grande Explosão do Clone**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV4 · Moldagem 40 · Kage Bunshin no Jutsu
@@ -206,8 +206,8 @@ O usuário detona um Kage Bunshin ativo, convertendo toda a reserva de chakra qu
 
 ---
 
-### Técnica do Harém
-**Harem no Jutsu — ハーレムの術**
+### Harem no Jutsu
+**ハーレムの術 · Técnica do Harém**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV4 · Moldagem 34 · Kage Bunshin no Jutsu · Oiroke no Jutsu
@@ -222,7 +222,7 @@ O usuário veste simultaneamente todos os clones das sombras ativos com a forma 
 ---
 
 ### Ōdama Rasengan
-**Ōdama Rasengan — 大玉螺旋丸**
+**大玉螺旋丸 · Ōdama Rasengan**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV5 · Moldagem 66 (46 com 1 Assistência de Moldagem) · Caminho Composição · Rasengan
@@ -236,7 +236,7 @@ O usuário eleva o volume girado muito acima do porte padrão e produz uma esfer
 ---
 
 ### Rasenrengan
-**Rasenrengan — 螺旋連丸**
+**螺旋連丸 · Rasenrengan**
 **[CANON — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Controle de Chakra LV5 · Moldagem 62 por esfera (42 com 1 Assistência de Moldagem cada) · Caminho Composição · Rasengan
@@ -247,8 +247,8 @@ O usuário forma uma esfera em cada mão e entrega as duas na mesma ação. Cada
 
 ---
 
-### Técnica dos Múltiplos Clones das Sombras
-**Tajū Kage Bunshin no Jutsu — 多重影分身の術**
+### Tajū Kage Bunshin no Jutsu
+**多重影分身の術 · Técnica dos Múltiplos Clones das Sombras**
 **[CANON — Rank A]**
 **Acesso:** Requisito de Segurança
 **Requisitos:** Controle de Chakra LV5 · Moldagem 34 · Kage Bunshin no Jutsu
@@ -263,7 +263,7 @@ O usuário estende a partição de reserva do Kage Bunshin muito além da banda 
 ---
 
 ### Chō Ōdama Rasengan
-**Chō Ōdama Rasengan — 超大玉螺旋丸**
+**超大玉螺旋丸 · Chō Ōdama Rasengan**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Controle de Chakra LV6 · Moldagem 74 (34 com 2 Assistências de Moldagem) · Caminho Composição · Ōdama Rasengan · fonte externa de chakra declarada

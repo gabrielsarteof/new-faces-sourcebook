@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.kyuinjutsu
 title: "Compêndio de Kyūinjutsu"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: compendium
@@ -33,7 +33,7 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 ---
 
 ### Kūfuku Kyūin
-**Kūfuku Kyūin — 空腹吸引**
+**空腹吸引 · Kūfuku Kyūin**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 32 · Caminho Tomada
@@ -47,8 +47,8 @@ A posição da entrada no catálogo é a de porta de entrada do caminho Tomada. 
 
 ---
 
-### Toque que Cala
-**Chinmoku no Fure — 沈黙の触れ**
+### Chinmoku no Fure
+**沈黙の触れ · Toque que Cala**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 32 · Caminho Obstrução
@@ -62,8 +62,8 @@ Nenhuma fonte canônica publica um chi-blocking análogo dentro do próprio sist
 
 ---
 
-### Fio Condutor
-**Michibiki no Ito — 導きの糸**
+### Michibiki no Ito
+**導きの糸 · Fio Condutor**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 30 · Caminho Sifão
@@ -77,8 +77,8 @@ O material metálico não precisa de preparo nem de inscrição, e qualquer aram
 
 ---
 
-### Fio Sedento
-**Kawaita Yaiba — 渇いた刃**
+### Kawaita Yaiba
+**渇いた刃 · Fio Sedento**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV2 · Moldagem 32 · Caminho Lâmina Sedenta
@@ -97,8 +97,8 @@ Esta é a base sobre a qual qualquer arma nomeada de dreno, quando existir, se a
 
 ---
 
-### Mão no Meio do Caminho
-**Tochū no Te — 途中の手**
+### Tochū no Te
+**途中の手 · Mão no Meio do Caminho**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV3 · Moldagem 44 · Caminho Interceptação
@@ -112,8 +112,8 @@ A técnica exige que o usuário veja ou sinta a obra chegando com antecedência 
 
 ---
 
-### Poça Compartilhada
-**Kyōyū no Mizutamari — 共有の水たまり**
+### Kyōyū no Mizutamari
+**共有の水たまり · Poça Compartilhada**
 **[PROPOSTA — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV3 · Moldagem 44 · Caminho Sifão
@@ -131,8 +131,8 @@ A entrada demonstra a regra geral do caminho Sifão: qualquer meio contínuo ent
 
 ---
 
-### Absorção de Chakra
-**Chakura Kyūin no Jutsu — チャクラ吸引の術**
+### Chakura Kyūin no Jutsu
+**チャクラ吸引の術 · Absorção de Chakra**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 58 · Caminho Tomada
@@ -146,8 +146,8 @@ Esta é a entrada âncora do caminho Tomada, e toda variação de maior volume n
 
 ---
 
-### Nó no Fluxo
-**Nagare no Musubime — 流れの結び目**
+### Nagare no Musubime
+**流れの結び目 · Nó no Fluxo**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 60 · Caminho Obstrução
@@ -161,8 +161,8 @@ A entrada eleva o grau de travamento sobre o que o Toque que Cala produz, e a di
 
 ---
 
-### Muro que Escuta
-**Kiku Kabe — 聞く壁**
+### Kiku Kabe
+**聞く壁 · Muro que Escuta**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 60 · Caminho Sifão
@@ -176,8 +176,8 @@ A entrada estende o princípio da Poça Compartilhada para matéria sólida, e a
 
 ---
 
-### Corte que Bebe
-**Nomu Zangeki — 飲む斬撃**
+### Nomu Zangeki
+**飲む斬撃 · Corte que Bebe**
 **[PROPOSTA — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV4 · Moldagem 62 · Caminho Lâmina Sedenta · Fio Sedento
@@ -196,8 +196,8 @@ A entrada exige o domínio prévio da infusão básica, porque a transferência 
 
 ---
 
-### Amarra dos Cem Fios
-**Hyakushi no Shibari — 百糸の縛り**
+### Hyakushi no Shibari
+**百糸の縛り · Amarra dos Cem Fios**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 76 · Caminho Obstrução · Nó no Fluxo
@@ -211,8 +211,8 @@ A referência solta de fios que perfuram e prendem existe no cânone associada a
 
 ---
 
-### Corte de Trânsito
-**Tsūka Tachi — 通過断ち**
+### Tsūka Tachi
+**通過断ち · Corte de Trânsito**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 78 · Caminho Interceptação · Mão no Meio do Caminho
@@ -226,8 +226,8 @@ A entrada é o teto do que a Interceptação alcança sem depender de linhagem a
 
 ---
 
-### Vara de Chakra
-**Kusarizao — 鎖竿**
+### Kusarizao
+**鎖竿 · Vara de Chakra**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 74 · Caminho Sifão
@@ -241,8 +241,8 @@ A imagem de um instrumento assim, empunhado por um viajante de fora do mundo shi
 
 ---
 
-### Lâmina de Reserva Cheia
-**Michita Yaiba — 満ちた刃**
+### Michita Yaiba
+**満ちた刃 · Lâmina de Reserva Cheia**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 76 · Caminho Lâmina Sedenta · Corte que Bebe
@@ -257,8 +257,8 @@ A entrada pressupõe o domínio da infusão trocável do Corte que Bebe, porque 
 
 ---
 
-### Fauce
-**Gakumon — 顎門**
+### Gakumon
+**顎門 · Fauce**
 **[PROPOSTA — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV5 · Moldagem 80 · posse do caminho Voragem, da natureza Meiton
@@ -276,8 +276,8 @@ A posição da entrada na tradição do domínio é a de extremo do que o Kyūin
 
 ---
 
-### Sorvo Absoluto
-**Zettai Kyūin — 絶対吸引**
+### Zettai Kyūin
+**絶対吸引 · Sorvo Absoluto**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV6 · Moldagem 96 · Caminho Tomada · Absorção de Chakra
@@ -292,7 +292,7 @@ A tradição atribui esse grau de domínio a poucos praticantes lendários, capa
 ---
 
 ### Takamimusubinokami
-**Takamimusubinokami — 高御産巣日神**
+**高御産巣日神 · Takamimusubinokami**
 **[CANON — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV6 · Moldagem 100 · Caminho Interceptação · posse do Rinnegan
@@ -306,8 +306,8 @@ A entrada permanece bloqueada enquanto o Rinnegan não existir como linhagem jog
 
 ---
 
-### Juízo
-**Sabaki — 裁き**
+### Sabaki
+**裁き · Juízo**
 **[PROPOSTA — Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV6 · Moldagem 92 · Fauce · posse do caminho Voragem, da natureza Meiton
@@ -325,8 +325,8 @@ A entrada permanece bloqueada pela mesma razão que a Fauce permanece, e as duas
 
 ---
 
-### Caminho Preta: Fome sem Fundo
-**Gakidō — 餓鬼道**
+### Gakidō
+**餓鬼道 · Caminho Preta: Fome sem Fundo**
 **[CANON · Kinjutsu — Acima de Rank S]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Kyūinjutsu LV6 · Moldagem 108 · Caminho Interceptação · posse do Rinnegan · Takamimusubinokami
@@ -342,21 +342,21 @@ A entrada existe no catálogo para registrar o teto do domínio, não para circu
 
 ## Índice Rápido por Função Tática
 
-**Roubar chakra por contato direto.** Kūfuku Kyūin, Absorção de Chakra, Sorvo Absoluto.
+**Roubar chakra por contato direto.** Kūfuku Kyūin, Chakura Kyūin no Jutsu, Zettai Kyūin.
 
-**Sabotar sem lucrar.** Toque que Cala, Nó no Fluxo, Amarra dos Cem Fios.
+**Sabotar sem lucrar.** Chinmoku no Fure, Nagare no Musubime, Hyakushi no Shibari.
 
-**Interceptar um jutsu em trânsito.** Mão no Meio do Caminho, Corte de Trânsito, Takamimusubinokami, Caminho Preta: Fome sem Fundo.
+**Interceptar um jutsu em trânsito.** Tochū no Te, Tsūka Tachi, Takamimusubinokami, Gakidō.
 
-**Drenar através de um meio compartilhado.** Fio Condutor, Poça Compartilhada, Muro que Escuta, Vara de Chakra.
+**Drenar através de um meio compartilhado.** Michibiki no Ito, Kyōyū no Mizutamari, Kiku Kabe, Kusarizao.
 
-**Converter dano de arma em reserva própria.** Fio Sedento, Corte que Bebe, Lâmina de Reserva Cheia.
+**Converter dano de arma em reserva própria.** Kawaita Yaiba, Nomu Zangeki, Michita Yaiba.
 
-**Engolir e redirecionar em campo.** Fauce, Juízo.
+**Engolir e redirecionar em campo.** Gakumon, Sabaki.
 
-**Bloqueadas ao Rinnegan.** Takamimusubinokami, Caminho Preta: Fome sem Fundo.
+**Bloqueadas ao Rinnegan.** Takamimusubinokami, Gakidō.
 
-**Bloqueadas ao Meiton.** Fauce, Juízo.
+**Bloqueadas ao Meiton.** Gakumon, Sabaki.
 
 ---
 

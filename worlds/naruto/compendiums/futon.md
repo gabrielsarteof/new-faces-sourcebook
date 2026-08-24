@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.futon
 title: "Compêndio de Fūton (風遁)"
-version: 4.12
+version: 4.13
 layer: scenario
 scenario: naruto
 type: compendium
@@ -52,8 +52,8 @@ A celeridade declarada aqui é a do meio e não a Velocidade efetiva da obra. A 
 
 ---
 
-### Sopro Suave
-**Fūton: Soyokaze no Jutsu — 風遁・そよ風の術**
+### Fūton: Soyokaze no Jutsu
+**風遁・そよ風の術 · Sopro Suave**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV1 · Moldagem 30
@@ -63,8 +63,8 @@ O usuário canaliza chakra de vento pelos lábios ou pela palma aberta e produz 
 
 ---
 
-### Passo de Vendaval
-**Fūton: Kaze Shunshin — 風遁・風瞬身**
+### Fūton: Kaze Shunshin
+**風遁・風瞬身 · Passo de Vendaval**
 **[ATRIBUÍDO — Rank E]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV1 · Moldagem 40 · Shunshin no Jutsu
@@ -74,8 +74,8 @@ O usuário executa um deslocamento de curta distância idêntico ao Shunshin no 
 
 ---
 
-### Colchão de Vento
-**Fūton: Kazabuton — 風遁・風布団**
+### Fūton: Kazabuton
+**風遁・風布団 · Colchão de Vento**
 **[PROPOSTA — Rank E]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV1 · Moldagem 42
@@ -89,8 +89,8 @@ O usuário comprime uma almofada de ar sob o próprio corpo no instante que prec
 
 ---
 
-### Ruptura
-**Fūton: Toppa — 風遁・突破**
+### Fūton: Toppa
+**風遁・突破 · Ruptura**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV2 · Moldagem 32
@@ -101,8 +101,8 @@ O usuário expele pela boca uma rajada frontal compacta, a versão menor da Gran
 
 ---
 
-### Vento Descendente Divino
-**Fūton: Kami Oroshi — 風遁・神颪**
+### Fūton: Kami Oroshi
+**風遁・神颪 · Vento Descendente Divino**
 **[ATRIBUÍDO — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV2 · Moldagem 48
@@ -113,8 +113,8 @@ O usuário gera com as mãos um vórtice compacto de vento cortante que desce em
 
 ---
 
-### Espada de Mão
-**Fūton: Tegatana — 風遁・手刀**
+### Fūton: Tegatana
+**風遁・手刀 · Espada de Mão**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV2 · Moldagem 58
@@ -125,8 +125,8 @@ O usuário reveste a lateral da mão aberta com um fio contínuo de chakra de ve
 
 ---
 
-### Escudo de Rajada
-**Fūton: Kaze no Tate — 風遁・風の盾**
+### Fūton: Kaze no Tate
+**風遁・風の盾 · Escudo de Rajada**
 **[PROPOSTA — Rank D]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV2 · Moldagem 44
@@ -140,8 +140,8 @@ O usuário comprime diante de si uma parede momentânea de ar denso no instante 
 
 ---
 
-### Grande Ruptura
-**Fūton: Daitoppa — 風遁・大突破**
+### Fūton: Daitoppa
+**風遁・大突破 · Grande Ruptura**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 34
@@ -154,8 +154,8 @@ O usuário expele pela boca um vendaval frontal de grande escala, que varre tudo
 
 ---
 
-### Palma do Vendaval
-**Fūton: Reppūshō — 風遁・烈風掌**
+### Fūton: Reppūshō
+**風遁・烈風掌 · Palma do Vendaval**
 **[CANON — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 34
@@ -166,8 +166,8 @@ O usuário bate as palmas e comprime o ar entre elas num golpe de vendaval que d
 
 ---
 
-### Foice de Doninha
-**Fūton: Kamaitachi no Jutsu — 鎌鼬の術**
+### Fūton: Kamaitachi no Jutsu
+**鎌鼬の術 · Foice de Doninha**
 **[CANON — Rank C]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV3 · Moldagem 62 · Leque LV1 · leque de guerra empunhado
@@ -178,8 +178,8 @@ O usuário golpeia com o leque gigante e faz correntes de vento colidirem entre 
 
 ---
 
-### Cortador de Vento
-**Fūton: Kazekiri — 風遁・風切り**
+### Fūton: Kazekiri
+**風遁・風切り · Cortador de Vento**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 50
@@ -190,8 +190,8 @@ O usuário projeta com o braço uma lâmina arqueada de vento comprimido, que vi
 
 ---
 
-### Rede de Arremesso
-**Fūton: Kakeami — 風遁・掛け網**
+### Fūton: Kakeami
+**風遁・掛け網 · Rede de Arremesso**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV3 · Moldagem 62
@@ -202,8 +202,8 @@ O usuário tece fios de vento cortante numa malha ampla e a lança sobre o alvo,
 
 ---
 
-### Fluxo de Chakra: Vento
-**Fūton: Chakura Nagashi — 風遁・チャクラ流し**
+### Fūton: Chakura Nagashi
+**風遁・チャクラ流し · Fluxo de Chakra: Vento**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV3 · Moldagem 50 · arma branca empunhada
@@ -214,8 +214,8 @@ O usuário canaliza chakra de vento por uma lâmina ou arma empunhada, estendend
 
 ---
 
-### Técnica da Poeira de Vento
-**Fūton: Fūjin no Jutsu — 風遁・風塵の術**
+### Fūton: Fūjin no Jutsu
+**風遁・風塵の術 · Técnica da Poeira de Vento**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 46
@@ -228,8 +228,8 @@ O usuário expele pela boca um jato de vento saturado de partículas abrasivas, 
 
 ---
 
-### Tufão Passageiro
-**Fūton: Tōri Taifū — 風遁・通り台風**
+### Fūton: Tōri Taifū
+**風遁・通り台風 · Tufão Passageiro**
 **[ATRIBUÍDO — Rank C]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV3 · Moldagem 46
@@ -245,8 +245,8 @@ O usuário produz uma frente de vento larga e curta que atravessa o campo limpan
 
 ---
 
-### Grande Foice de Doninha
-**Fūton: Dai Kamaitachi — 大鎌鼬の術**
+### Fūton: Dai Kamaitachi
+**大鎌鼬の術 · Grande Foice de Doninha**
 **[CANON — Rank B]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV4 · Moldagem 66 · Caminho Rajada · Leque LV4 · Caminho Rede Cortante (Leque) · leque de guerra empunhado
@@ -259,8 +259,8 @@ O usuário desfere o golpe pleno do leque gigante e ergue a Foice de Doninha à 
 
 ---
 
-### Onda de Vácuo
-**Fūton: Shinkūha — 風遁・真空波**
+### Fūton: Shinkūha
+**風遁・真空波 · Onda de Vácuo**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 52
@@ -273,8 +273,8 @@ O usuário inspira fundo e, girando o tronco, expele uma lâmina de vácuo em me
 
 ---
 
-### Ondas Seriais de Vácuo
-**Fūton: Shinkū Renpa — 風遁・真空連波**
+### Fūton: Shinkū Renpa
+**風遁・真空連波 · Ondas Seriais de Vácuo**
 **[CANON — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV4 · Moldagem 62 · Caminho Rajada · Onda de Vácuo
@@ -285,8 +285,8 @@ O usuário expele lâminas de vácuo em sequência rápida e em ângulos sobrepo
 
 ---
 
-### Esferas de Vácuo
-**Fūton: Shinkūgyoku — 風遁・真空玉**
+### Fūton: Shinkūgyoku
+**風遁・真空玉 · Esferas de Vácuo**
 **[CANON — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 74
@@ -299,8 +299,8 @@ O usuário inspira e cospe uma dispersão de pequenas esferas de vácuo comprimi
 
 ---
 
-### Lâmina de Vácuo
-**Fūton: Shinkūjin — 風遁・真空刃**
+### Fūton: Shinkūjin
+**風遁・真空刃 · Lâmina de Vácuo**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV4 · Moldagem 78 · Caminho Vento na Lâmina · Fluxo de Chakra: Vento
@@ -311,8 +311,8 @@ O usuário reveste a arma empunhada com uma camada de vácuo em vez de vento, el
 
 ---
 
-### Vendaval da Montanha Verdejante
-**Fūton: Suizan Reppū — 風遁・翠山烈風**
+### Fūton: Suizan Reppū
+**風遁・翠山烈風 · Vendaval da Montanha Verdejante**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 54 · Caminho Vento no Voo · armas de arremesso
@@ -325,8 +325,8 @@ O vento guia e não fere. A entrega é a da arma, e o vetor e o grau se leem da 
 
 ---
 
-### Muralha Protetora de Vento
-**Fūton: Bōfūheki — 風遁・防風壁**
+### Fūton: Bōfūheki
+**風遁・防風壁 · Muralha Protetora de Vento**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 56 · Caminho Barlavento
@@ -338,8 +338,8 @@ O usuário ergue ao próprio redor uma cúpula de vendaval circular em rotação
 
 ---
 
-### Grande Rede de Arremesso
-**Fūton: Ō-Kakeami — 風遁・大掛け網**
+### Fūton: Ō-Kakeami
+**風遁・大掛け網 · Grande Rede de Arremesso**
 **[ATRIBUÍDO — Rank B]**
 **Acesso:** Patrimônio de Vila (Sunagakure)
 **Requisitos:** Fūton LV4 · Moldagem 68 · Caminho Rajada
@@ -352,8 +352,8 @@ O usuário tece a Rede de Arremesso à escala de guerra, numa malha de fios de v
 
 ---
 
-### Ponte de Corrente
-**Fūton: Kazebashi — 風遁・風橋**
+### Fūton: Kazebashi
+**風遁・風橋 · Ponte de Corrente**
 **[PROPOSTA — Rank B]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV4 · Moldagem 54 · Caminho Ponte de Vento
@@ -367,8 +367,8 @@ O usuário traça pelo ar uma corrente firme entre dois pontos escolhidos e a ma
 
 ---
 
-### Bala de Ar Perfurante
-**Fūton: Renkūdan — 風遁・練空弾**
+### Fūton: Renkūdan
+**風遁・練空弾 · Bala de Ar Perfurante**
 **[CANON — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV5 · Moldagem 52
@@ -381,8 +381,8 @@ O usuário comprime ar e chakra numa esfera densa e a dispara pela boca, com o p
 
 ---
 
-### Dano de Pressão
-**Fūton: Atsugai — 風遁・圧害**
+### Fūton: Atsugai
+**風遁・圧害 · Dano de Pressão**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV5 · Moldagem 40
@@ -395,8 +395,8 @@ O usuário retém uma massa de vento comprimido e a libera de uma vez, e a frent
 
 ---
 
-### Grande Tarefa do Dragão
-**Fūton: Tatsu no Ōshigoto — 風遁・竜の大仕事**
+### Fūton: Tatsu no Ōshigoto
+**風遁・竜の大仕事 · Grande Tarefa do Dragão**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Fūton LV5 · Moldagem 80 · Caminho Ascendente · Leque LV4 · Caminho Rede Cortante (Leque) · leque de guerra empunhado
@@ -407,8 +407,8 @@ O usuário lança o golpe do leque ao céu em vez de à frente, e o vendaval sob
 
 ---
 
-### Lâmina de Vento
-**Fūton: Kaze no Yaiba — 風の刃**
+### Fūton: Kaze no Yaiba
+**風の刃 · Lâmina de Vento**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV5 · Moldagem 84 · Caminho Vento na Lâmina
@@ -419,8 +419,8 @@ O usuário emite chakra pelas pontas dos dedos e materializa uma espada de vento
 
 ---
 
-### Grande Esfera de Vácuo
-**Fūton: Shinkū Taigyoku — 風遁・真空大玉**
+### Fūton: Shinkū Taigyoku
+**風遁・真空大玉 · Grande Esfera de Vácuo**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV5 · Moldagem 60 · Esferas de Vácuo
@@ -437,8 +437,8 @@ A própria prosa ordena os dois mecanismos, com a superfície retalhando antes d
 
 ---
 
-### Grande Ruptura da Poeira Infinita
-**Fūton: Mugen Sajin Daitoppa — 風遁・無限沙塵・大突破**
+### Fūton: Mugen Sajin Daitoppa
+**風遁・無限沙塵・大突破 · Grande Ruptura da Poeira Infinita**
 **[ATRIBUÍDO — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Fūton LV6 · Moldagem 44 · Caminho Vento de Areia
@@ -454,8 +454,8 @@ A pressão é o que arrasa, e a entrada a declara pelo nome ao se comparar com a
 
 ---
 
-### Vácuo Absoluto
-**Fūton: Zettai Shinkū — 風遁・絶対真空**
+### Fūton: Zettai Shinkū
+**風遁・絶対真空 · Vácuo Absoluto**
 **[PROPOSTA — Rank S]**
 **Acesso:** Fechada na Criação
 **Requisitos:** Fūton LV6 · Moldagem 108 · Transcendência Calmaria
@@ -467,8 +467,8 @@ O usuário esvazia de ar uma zona ampla do campo, elevando a família de vácuo 
 
 ---
 
-### Vento Divino
-**Fūton: Kamikaze — 風遁・神風**
+### Fūton: Kamikaze
+**風遁・神風 · Vento Divino**
 **[PROPOSTA — Rank S]**
 **Acesso:** Livre
 **Requisitos:** Fūton LV6 · Moldagem 78 · Caminho Lufada
@@ -489,8 +489,8 @@ A entrada não declara vetor porque não entrega golpe algum, e a própria prosa
 
 ---
 
-### Rasengan de Vento
-**Fūton: Rasengan — 風遁・螺旋丸**
+### Fūton: Rasengan
+**風遁・螺旋丸 · Rasengan de Vento**
 **[ATRIBUÍDO — Rank A]**
 **Acesso:** Requisito Mecânico
 **Requisitos:** Fūton LV5 · Moldagem 96 · Caminho Composição (Controle de Chakra) · Rasengan
@@ -503,8 +503,8 @@ A técnica é o portão da linha elemental da esfera. O verbete não cita databo
 
 ---
 
-### Rasenshuriken de Vento
-**Fūton: Rasenshuriken — 風遁・螺旋手裏剣**
+### Fūton: Rasenshuriken
+**風遁・螺旋手裏剣 · Rasenshuriken de Vento**
 **[CANON — Rank S]**
 **Acesso:** Assinatura Pessoal · Autoria Aberta
 **Requisitos:** Fūton LV6 · Moldagem 96 · Caminho Composição (Controle de Chakra) · Caminho Vento Encanado · Rasengan de Vento
@@ -517,26 +517,26 @@ O único rank S de databook entre as técnicas dos cinco elementos puros. O usu�
 
 ## Índice Rápido por Função Tática
 
-**Derrubar e varrer.** Ruptura, Grande Ruptura, Palma do Vendaval, Dano de Pressão, Bala de Ar Perfurante, Grande Esfera de Vácuo, Grande Ruptura da Poeira Infinita.
+**Derrubar e varrer.** Fūton: Toppa, Fūton: Daitoppa, Fūton: Reppūshō, Fūton: Atsugai, Fūton: Renkūdan, Fūton: Shinkū Taigyoku, Fūton: Mugen Sajin Daitoppa.
 
-**Cortar de perto.** Espada de Mão, Fluxo de Chakra: Vento, Lâmina de Vácuo, Lâmina de Vento, Rasengan de Vento.
+**Cortar de perto.** Fūton: Tegatana, Fūton: Chakura Nagashi, Fūton: Shinkūjin, Fūton: Kaze no Yaiba, Fūton: Rasengan.
 
-**Cortar a distância.** Vento Descendente Divino, Cortador de Vento, Foice de Doninha, Onda de Vácuo, Grande Foice de Doninha, Rasengan de Vento, Rasenshuriken de Vento.
+**Cortar a distância.** Fūton: Kami Oroshi, Fūton: Kazekiri, Fūton: Kamaitachi no Jutsu, Fūton: Shinkūha, Fūton: Dai Kamaitachi, Fūton: Rasengan, Fūton: Rasenshuriken.
 
-**Vencer a esquiva.** Ondas Seriais de Vácuo, Esferas de Vácuo, Grande Tarefa do Dragão.
+**Vencer a esquiva.** Fūton: Shinkū Renpa, Fūton: Shinkūgyoku, Fūton: Tatsu no Ōshigoto.
 
-**Capturar e prender.** Rede de Arremesso, Grande Rede de Arremesso.
+**Capturar e prender.** Fūton: Kakeami, Fūton: Ō-Kakeami.
 
-**Impedir que chegue.** Escudo de Rajada, Muralha Protetora de Vento.
+**Impedir que chegue.** Fūton: Kaze no Tate, Fūton: Bōfūheki.
 
-**Guiar o que voa.** Palma do Vendaval, Vendaval da Montanha Verdejante.
+**Guiar o que voa.** Fūton: Reppūshō, Fūton: Suizan Reppū.
 
-**Limpar o campo.** Tufão Passageiro, Grande Foice de Doninha, Vácuo Absoluto.
+**Limpar o campo.** Fūton: Tōri Taifū, Fūton: Dai Kamaitachi, Fūton: Zettai Shinkū.
 
-**Cegar e sufocar.** Técnica da Poeira de Vento, Vácuo Absoluto.
+**Cegar e sufocar.** Fūton: Fūjin no Jutsu, Fūton: Zettai Shinkū.
 
-**Mover-se e mover os outros.** Passo de Vendaval, Colchão de Vento, Ponte de Corrente.
+**Mover-se e mover os outros.** Fūton: Kaze Shunshin, Fūton: Kazabuton, Fūton: Kazebashi.
 
-**Impor condição ao campo.** Vento Divino, Vácuo Absoluto.
+**Impor condição ao campo.** Fūton: Kamikaze, Fūton: Zettai Shinkū.
 
-**Trabalho fora de combate.** Sopro Suave, Colchão de Vento, Tufão Passageiro.
+**Trabalho fora de combate.** Fūton: Soyokaze no Jutsu, Fūton: Kazabuton, Fūton: Tōri Taifū.
