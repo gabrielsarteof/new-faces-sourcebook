@@ -3,7 +3,7 @@ id: handoff.segunda-onda-nomenclatura
 title: "HANDOFF — Segunda onda da nomenclatura"
 sessao-de-origem: 6
 status: aguardando-abertura
-version: 1
+version: 2
 ---
 
 # HANDOFF — Segunda onda da nomenclatura
@@ -30,7 +30,9 @@ Escrito com o terreno fresco, ao fim da primeira. Não começou.
 
 As 47 linhas com ficha preenchida são o par exato entre catálogo e documento. As 22 fichas cujo cabeçalho não publica romanização tiram a romanização dali, e é para isso que o Registro existe.
 
-**A coluna Romaji nunca foi conferida contra o cânone.** O Registro declara essa pendência no próprio cabeçalho. A onda propaga romanização não verificada para 52 fichas e para toda citação cruzada, o que multiplica o alcance de qualquer erro que exista ali. É a primeira decisão da seção 5.
+**A coluna Romaji nunca foi conferida contra o cânone.** O Registro declara essa pendência no próprio cabeçalho, e a onda propagaria romanização não verificada para 52 fichas e para toda citação cruzada, multiplicando o alcance de qualquer erro que exista ali.
+
+**Decidido: a conferência vem antes, e ela é do subconjunto que a onda toca.** Ver a seção 5.1.
 
 ---
 
@@ -80,15 +82,35 @@ Catraca de nome de ficha construída, provada com o defeito injetado, e verde an
 
 ---
 
-## 5. O que decidir antes de abrir
+## 5. Decisões
 
-**A conferência das romanizações vem antes ou depois.** Propagar romanização não conferida para 52 fichas e ~1.000 citações multiplica o alcance de qualquer erro; conferir 491 romanizações contra a fonte antes é uma passada própria e cara. As duas são defensáveis e a escolha é de Gabriel.
+### 5.1 A conferência das romanizações — decidido
+
+**Vem antes da onda, e é passada de Gabriel, não desta onda.** Conferência contra a Narutopedia é pesquisa canônica com etiquetagem: roda em chat de design e não em propagação.
+
+**E não é a passada de 491 que a v1 deste documento supunha.** Só precisam estar conferidas as obras que a onda toca.
+
+| | |
+|---|---:|
+| obras no Registro | 491 |
+| com ficha publicada | 47 |
+| citadas em `chidori-family.md` e `rasengan-family.md` | 15 |
+| **união — o subconjunto a conferir** | **51** |
+| restante, pendência aberta no Registro | 440 |
+
+Três das 51 não publicam romanização alguma: Chidori, Takemikazuchi e Amaterasu, as entradas de kanji puro cujo cabeçalho se lê como romanização sem que o documento afirme que é uma. Para essas três a conferência não é verificar e sim **descobrir se a fonte publica uma**, e o resultado entra no Registro vindo da fonte, nunca do cabeçalho. Se a fonte não publicar, o campo continua vazio.
+
+**Um caso conhecido cai fora do subconjunto.** `黒豹` publicado como `Kuropansa` é a única romanização sob suspeita identificada, e Pantera Negra não tem ficha nem é citada nos dois documentos de linhagem. Pelo recorte, ela ficaria aberta enquanto a onda corre. Custa uma linha incluí-la, e a recomendação é incluir — mas o recorte é de Gabriel e a onda abre com o que ele devolver.
+
+**A onda abre com o subconjunto conferido**, e o Registro segue carregando a pendência aberta para as 440 restantes, que se conferem depois sem bloquear nada.
+
+### 5.2 A forma do cabeçalho da ficha
 
 **A forma do cabeçalho da ficha.** As três atuais não convergem, e a Norma governa o formato de entrada de compêndio, não o de ficha. Se a ficha adota `# Romaji — 漢字 · Português` por simetria com o compêndio, o Template de Documento de Técnica muda primeiro, como a Norma mudou.
 
 **O `title` do front matter.** Uma forma para as 52, e a decisão de se ele repete o cabeçalho ou se carrega só o nome primário.
 
-**O que fazer com as citações em documento de sistema.** `chidori-family.md` e `rasengan-family.md` concentram 232 das ocorrências e são prosa de linhagem, não catálogo. Trocar nome em prosa corrida é diferente de trocar em lista, e pode ser passada própria.
+**O que fazer com as citações em documento de sistema.** `chidori-family.md` e `rasengan-family.md` concentram 232 das ocorrências e são prosa de linhagem, não catálogo. Trocar nome em prosa corrida é diferente de trocar em lista, e pode ser passada própria. São também os dois documentos que definem metade do subconjunto da 5.1, o que os torna o primeiro alvo natural da onda.
 
 ---
 
