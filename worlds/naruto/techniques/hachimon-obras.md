@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hachimon-obras
 title: "Obras dos Oito Portões"
-version: 1.3
+version: 1.4
 layer: scenario
 scenario: naruto
 type: technique
@@ -36,7 +36,7 @@ O documento publica ficha mecânica completa. O catálogo com etiquetagem editor
 - **mult_Tipo:** 1,00, porque o impacto físico não possui natureza elemental
 - **Janela de Canalização:** nenhuma, a execução é sempre instantânea
 - **Execução em movimento:** livre, por definição do tipo
-- **Elevação de Perfil de Evasão:** o Perfil publicado em cada ficha é o de base, e o degrau Veloz saiu da escada, de modo que as fichas que o declaravam passam a declarar Padrão. O sexto portão sobe um degrau e o oitavo sobe um segundo, conforme o documento Oito Portões, e o teto de dois degraus foi revogado junto com a acumulação que ele limitava. A própria elevação por portão é errata aberta contra a Seção 6.5 do Manual de Criação de Jutsus, que fechou a escada a toda elevação em jogo, e o documento dono registra a pendência na seção 11 dele
+- **Perfil de Evasão:** o degrau publicado em cada ficha é o dela, fixado na criação, e nenhum portão o move. O degrau Veloz saiu da escada e as fichas que o declaravam passam a declarar Padrão; a elevação por portão saiu junto, porque um portão aberto é estado do executor e a Seção 6.5 do Manual de Criação de Jutsus fechou a escada a toda elevação em jogo. O Guy Noturno declara Inevitável direto, com o oitavo portão aberto como precondição negável pela via de sobreviver à janela, e por isso não depende da elevação que saiu
 - **Motor de dano:** a forma de dois termos do eixo corporal, seção 6 do documento Oito Portões
 - **Sequela do portão:** paga na saída pela escada de sequelas daquele documento, e a sequela própria que uma ficha declare é adicional e paga no ato
 - **Excesso de Esforço:** Esforço declarado acima do Teto de Esforço do portão aberto cobra a diferença em PV, sem mitigação, e é comportamento esperado nas obras de portão baixo
@@ -179,7 +179,7 @@ O praticante desfere uma sequência contínua de socos em cadência tal que o at
 - **coef_obra:** 2,0, a obra aproveita a escada como mecanismo central sem depender dela por inteiro
 - **Dano no sexto portão:** 970
 - **Ação:** padrão
-- **Perfil de Evasão:** Padrão de base, elevado a Teleguiado pelo sexto portão
+- **Perfil de Evasão:** Padrão
 - **Alcance:** contato, alvo único, com as chamas cobrindo o trajeto entre praticante e alvo
 - **Rider:** Queimadura, grau mínimo Leve e grau máximo Moderado
 - **Condição de uso:** nenhuma além do portão
@@ -203,7 +203,7 @@ O praticante desfere chutes descendentes cuja passagem comprime uma massa de ar 
 - **coef_obra:** 2,5, a obra existe pela sobrepressão que o portão libera
 - **Dano no sétimo portão:** 1.513
 - **Ação:** padrão
-- **Perfil de Evasão:** Padrão de base, elevado a Teleguiado pelo sexto portão
+- **Perfil de Evasão:** Padrão
 - **Alcance:** área à frente do praticante, alcançando todos os presentes nela
 - **Rider:** empurra, com deslocamento forçado de dois degraus de distância e Prostração
 - **Condição de uso:** nenhuma além do portão
@@ -227,7 +227,7 @@ O praticante comprime o ar entre os punhos até que a massa contida alcance dens
 - **coef_obra:** 3,0, a obra existe inteiramente pela escada e não tem forma abaixo do sétimo portão
 - **Dano no sétimo portão:** 1.950
 - **Ação:** padrão
-- **Perfil de Evasão:** Padrão de base, elevado a Teleguiado pelo sexto portão
+- **Perfil de Evasão:** Padrão
 - **Alcance:** linha declarada até o campo visual, com detonação em área no ponto de chegada
 - **Rider:** empurra, com deslocamento forçado de dois degraus, e Surdez de grau mínimo Leve e máximo Moderado pela detonação
 - **Condição de uso:** nenhuma além do portão

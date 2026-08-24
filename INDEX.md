@@ -251,9 +251,9 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Doton (土遁)](worlds/naruto/skills/doton.md) | `naruto.skill.doton` | 2.3 | skill | final |
 | [Enton (炎遁)](worlds/naruto/skills/enton.md) | `naruto.skill.enton` | 1.5 | skill | final |
 | [Fūinjutsu](worlds/naruto/skills/fuinjutsu.md) | `naruto.skill.fuinjutsu` | 1.5 | skill | final |
-| [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.7 | skill | final |
+| [Fūton (風遁)](worlds/naruto/skills/futon.md) | `naruto.skill.futon` | 2.8 | skill | final |
 | [Genjutsu](worlds/naruto/skills/genjutsu.md) | `naruto.skill.genjutsu` | 1.4 | skill | final |
-| [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 4.3 | skill | final |
+| [Katon (火遁)](worlds/naruto/skills/katon.md) | `naruto.skill.katon` | 4.4 | skill | final |
 | [Kunai](worlds/naruto/skills/kunai.md) | `naruto.skill.kunai` | 1.4 | skill | final |
 | [Kyūinjutsu](worlds/naruto/skills/kyuinjutsu.md) | `naruto.skill.kyuinjutsu` | 1.3 | skill | final |
 | [Leque](worlds/naruto/skills/leque.md) | `naruto.skill.leque` | 1.5 | skill | final |
@@ -266,7 +266,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Shuriken](worlds/naruto/skills/shuriken.md) | `naruto.skill.shuriken` | 1.5 | skill | final |
 | [Suiton (水遁)](worlds/naruto/skills/suiton.md) | `naruto.skill.suiton` | 2.5 | skill | final |
 | [Liberação de Yang](worlds/naruto/skills/yang-release.md) | `naruto.skill.yang-release` | 4.5 | skill | final |
-| [Liberação de Yin](worlds/naruto/skills/yin-release.md) | `naruto.skill.yin-release` | 4.5 | skill | final |
+| [Liberação de Yin](worlds/naruto/skills/yin-release.md) | `naruto.skill.yin-release` | 4.6 | skill | final |
 
 ## Naruto · Sistemas
 
@@ -277,7 +277,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Reserva de Chakra](worlds/naruto/systems/chakra-reserve.md) | `naruto.system.chakra-reserve` | 3.5 | system | final |
 | [Linhagem do Chidori](worlds/naruto/systems/chidori-family.md) | `naruto.system.chidori-family` | 1.7 | system | final |
 | [Norma de Produção de Compêndios](worlds/naruto/systems/compendium-standard.md) | `naruto.system.compendium-standard` | 3.1 | methodology | final |
-| [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.5 | system | final |
+| [Oito Portões (八門)](worlds/naruto/systems/eight-gates.md) | `naruto.system.eight-gates` | 1.6 | system | final |
 | [Transformação de Natureza — Sistema Elemental](worlds/naruto/systems/elemental-system.md) | `naruto.system.elemental` | 9.5 | system | final |
 | [Errata D2 — Alinhamento upstream do eixo do Onmyōton](worlds/naruto/systems/errata-d2-onmyoton.md) | `naruto.system.errata-d2` | 1.3 | pending-patch | applied |
 | [Errata da Linhagem do Hiraishin](worlds/naruto/systems/errata-hiraishin.md) | `naruto.system.errata-hiraishin` | 1.2 | pending-patch | pending-patch |
@@ -303,8 +303,8 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1.2 | technique | final |
 | [Fūton: Rasengan (風遁・螺旋丸)](worlds/naruto/techniques/futon-rasengan.md) | `naruto.technique.futon-rasengan` | 1.2 | technique | final |
 | [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](worlds/naruto/techniques/futon-rasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1.2 | technique | final |
-| [Obras dos Oito Portões](worlds/naruto/techniques/hachimon-obras.md) | `naruto.technique.hachimon-obras` | 1.3 | technique | final |
-| [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.4 | technique | final |
+| [Obras dos Oito Portões](worlds/naruto/techniques/hachimon-obras.md) | `naruto.technique.hachimon-obras` | 1.4 | technique | final |
+| [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.5 | technique | final |
 | [Técnica do Harém](worlds/naruto/techniques/harem.md) | `naruto.technique.harem` | 1 | technique | final |
 | [Técnica da Transformação](worlds/naruto/techniques/henge.md) | `naruto.technique.henge` | 2 | technique | final |
 | [Execução do Deus do Trovão Voador (飛雷神斬り)](worlds/naruto/techniques/hiraishin-giri.md) | `naruto.technique.hiraishin-giri` | 1.4 | technique | final |

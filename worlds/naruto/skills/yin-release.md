@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.yin-release
 title: "Liberação de Yin"
-version: 4.5
+version: 4.6
 layer: scenario
 scenario: naruto
 type: skill
@@ -126,7 +126,7 @@ MIRAGISTA (grau 2, complexidade 4) · 34
 └─ Distância Falsa [ativado, reação, 40 RC]: no instante em que ataque à distância ou investida resolve contra alvo dentro da área, o atacante opõe a própria percepção ao teste pela Régua de Leitura, na classe Engano, e quem falha lê a distância errada, perde a leitura do campo até o início do próprio turno e gasta a Reação contra a ameaça que leu em vez da que chega. O ataque permanece no degrau que a construção dele declara. LV5: alcança o ataque que sai de dentro da área contra alvo fora dela
 
 CORTINA (grau 4, complexidade 2) · 42
-└─ Escuro Erguido [sustentado, ação padrão, 70 RC no ato e 25 RC por turno]: volume de escuro real com 10 metros de raio, centrado em ponto declarado. Ninguém dentro enxerga, incluindo o praticante, os aliados e o portador de dōjutsu dependente de luz. Quem depende de visão dentro do volume desce um degrau no Perfil de Evasão, e ataque à distância que atravesse a borda resolve sem linha de visão. Audição, olfato e leitura de chakra operam dentro sem penalidade, e contato com a borda não desfaz, porque não há forma a romper. LV5: raio de 25 metros, e o praticante passa a enxergar dentro do próprio escuro
+└─ Escuro Erguido [sustentado, ação padrão, 70 RC no ato e 25 RC por turno]: volume de escuro real com 10 metros de raio, centrado em ponto declarado. Ninguém dentro enxerga, incluindo o praticante, os aliados e o portador de dōjutsu dependente de luz. O volume declara a Régua de Leitura na classe Ilegibilidade, com o teste do executor lido do teste desta perícia que sustenta o volume, e alcança quem depende de visão dentro do raio. Quem falha a leitura gasta a Reação da rodada contra a ameaça errada, pela consequência que aquele documento publica, e a familiaridade não corrói o efeito porque o escuro não oferece ameaça alguma de ler. Ataque à distância que atravesse a borda resolve sem linha de visão. Audição, olfato e leitura de chakra operam dentro sem penalidade, e contato com a borda não desfaz, porque não há forma a romper. LV5: raio de 25 metros, e o praticante passa a enxergar dentro do próprio escuro
 
 INCLINAÇÃO CONSTRUTO
 
@@ -265,6 +265,8 @@ DEPENDÊNCIAS E PENDÊNCIAS
 Perícia de Sensoriamento, hoje sem documento, dona da leitura de chakra alheio e da identificação de fonte que o caminho Atalaia recusa. Núcleo do Sistema, que ainda não publica a resolução de impacto cinético contra barreira, consumida pelo caminho Arquiteto e resolvida provisoriamente pela régua de limiar. Compêndio de Inton, escrito contra a partição anterior, com entradas a reendereçar e faixa a crescer para a lotação vigente. Sistema de Efeitos de Status, que responde pela graduação da Imobilização do caminho Laço e pela Exaustão de Chakra do resíduo espiritual. Manual de Criação de Jutsus v2, que responde pelo custo em RC e pelo preço em XP das obras nomeadas.
 
 REGISTRO DE ALTERAÇÕES
+
+**v4.6.** O caminho Escuro Erguido deixa de descer o Perfil de Evasão de quem depende de visão dentro do volume, que era categoria aplicada a pessoa e não a obra, e passa a declarar a Régua de Leitura na classe Ilegibilidade, com o teste do executor lido do teste desta perícia e alcance sobre quem depende de visão dentro do raio. Quem falha a leitura gasta a Reação contra a ameaça errada, pela consequência que aquela régua publica. A cláusula de ataque à distância resolver sem linha de visão, a de audição e olfato operarem sem penalidade e a de contato com a borda não desfazer ficam intactas. Nenhum grau, complexidade, custo ou valor resolvido mudou.
 
 **v4.5.** Distância Falsa e Lança do Vazio deixam de mover degraus no Perfil de Evasão e passam a declarar a Régua de Leitura na classe Engano, pela conversão que o Lote de Evasão e Leitura publicou. Os dois efeitos LV6 perdem os três degraus que concediam, e o de Lança do Vazio conserva a travessia de cobertura plena. Escuro Erguido continua escrito como estava e entra no relatório da propagação, porque a cláusula dele desce o Perfil de um combatente e não de uma obra. Nenhum grau, complexidade, custo ou valor resolvido mudou.
 

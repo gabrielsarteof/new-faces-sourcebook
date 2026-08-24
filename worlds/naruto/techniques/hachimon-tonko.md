@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.hachimon-tonko
 title: "Hachimon Tonkō (八門遁甲)"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: technique
@@ -236,15 +236,15 @@ O regulador do estômago é o último que protege o corpo do próprio deslocamen
 - **Magnitude:** FOR elevada em 70%, VEL e DES elevadas em 50%
 - **Limite de Saída:** 50% da RC
 - **Teto de Esforço:** 90% do PS
-- **Verbo acrescentado:** todo taijutsu puro do praticante sobe um degrau no Perfil de Evasão, e o atrito do ar produz ignição no ponto de impacto
+- **Verbo acrescentado:** o atrito do ar produz ignição no ponto de impacto
 - **RES + FOR exigido:** 44
 - **Maturação:** 10 Blocos
 - **Sequela na saída:** Fadiga nível 3, Ferimento Grave Grave e Fratura Moderada nos membros empregados
 - **Custo de XP:** 18.200
 
-**Interações.** Abre o acesso ao Pavão da Manhã no Compêndio dos Oito Portões. A elevação de degrau no Perfil de Evasão alcança apenas as obras de taijutsu puro do praticante. Ela era elevação categórica comprada com progressão, prevista no Manual de Criação de Jutsus, e a Seção 6.5 daquele manual fechou a escada a toda elevação em jogo, nomeando o estado do executor entre as fontes que não movem uma técnica de degrau. O verbo permanece escrito como estava e a forma que ele passa a tomar é errata aberta, registrada na seção 11 do documento dos Oito Portões. A ignição aplica o rider Queimadura de grau mínimo Leve e grau máximo Moderado nas obras que a declararem, e a resolução pertence ao Sistema de Efeitos de Status. A ignição é fenômeno de atrito e não é natureza de Fogo, de modo que não participa do ciclo elemental e não lê mult_Tipo.
+**Interações.** Abre o acesso ao Pavão da Manhã no Compêndio dos Oito Portões. A elevação de degrau no Perfil de Evasão que este portão concedia saiu: a Seção 6.5 do Manual de Criação de Jutsus fechou a escada a toda elevação em jogo e nomeou o estado do executor entre as fontes que não movem uma técnica de degrau, e um portão aberto é estado do executor. A propriedade que a elevação media é velocidade crua de membro, e ela espera a instância da cadeia de Velocidade para o eixo corporal, pendência registrada na seção 11 do documento dos Oito Portões. A ignição aplica o rider Queimadura de grau mínimo Leve e grau máximo Moderado nas obras que a declararem, e a resolução pertence ao Sistema de Efeitos de Status. A ignição é fenômeno de atrito e não é natureza de Fogo, de modo que não participa do ciclo elemental e não lê mult_Tipo.
 
-**Etiqueta.** Canon na ignição do ar por atrito e no acesso ao Pavão da Manhã. Proposta na magnitude, na elevação de degrau e no restante.
+**Etiqueta.** Canon na ignição do ar por atrito e no acesso ao Pavão da Manhã. Proposta na magnitude e no restante.
 
 **Âncora de validação.** Um corpo de perfil Veloz na faixa Especial passa de FOR 26, VEL 45 e DES 45 para 44, 67 e 67, acima do mesmo perfil na faixa Ápice em força, que fecha em 39. As seis aberturas consomem 630 do pool de 816, e a manutenção de 90 por turno esgota o que resta em dois turnos, o que faz deste portão um recurso de explosão e não de permanência.
 
@@ -291,7 +291,7 @@ O último regulador está no coração e é o que impede o órgão de trabalhar 
 - **Magnitude:** FOR, VEL e DES elevadas em 100%
 - **Limite de Saída:** revogado, a reserva inteira é gastável em um turno
 - **Teto de Esforço:** revogado
-- **Verbo acrescentado:** o taijutsu puro do praticante sobe um segundo degrau no Perfil de Evasão, alcançando Inevitável
+- **Verbo acrescentado:** nenhum sobre a escada de evitabilidade. O portão sustenta o degrau Inevitável que o Guy Noturno declara direto na ficha, como precondição negável pela via de sobreviver à janela, e não o concede por elevação
 - **Duração:** até o fim do combate em que foi aberto
 - **Fechamento voluntário:** impossível
 - **RES + FOR exigido:** 70
@@ -315,9 +315,9 @@ O último regulador está no coração e é o que impede o órgão de trabalhar 
 | Seimon adquirido | acesso à Lótus Reversa, e teto de fluxo no patamar de output elevado |
 | Shōmon adquirido | operação plena sob condição física instalada |
 | Tomon adquirido | economia de ação ampliada e reação adicional |
-| Keimon adquirido | acesso ao Pavão da Manhã, e primeiro degrau de Perfil de Evasão |
+| Keimon adquirido | acesso ao Pavão da Manhã |
 | Kyōmon adquirido | acesso ao Tigre Diurno e ao Elefante Vespertino, e entrega em área |
-| Shimon adquirido | acesso ao Guy Noturno, segundo degrau de Perfil de Evasão e revogação do Limite de Saída |
+| Shimon adquirido | acesso ao Guy Noturno e revogação do Limite de Saída |
 | Vantagem Restrição Corporal | exigência de RES somada a FOR reduzida em um degrau da tabela, e custo de XP do Kaimon reduzido para 12.500 |
 
 ---

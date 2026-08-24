@@ -1,7 +1,7 @@
 ---
 id: naruto.system.eight-gates
 title: "Oito Portões (八門)"
-version: 1.5
+version: 1.6
 layer: scenario
 scenario: naruto
 type: system
@@ -97,11 +97,15 @@ Cada portão acrescenta um verbo que os inferiores não possuem, e o verbo perma
 | 3 | o teto de fluxo alcança o patamar do output elevado, e a esquiva do praticante lê VEL amplificada |
 | 4 | as penalidades de Fratura, Ferimento Grave e Exaustão Física deixam de incidir enquanto o portão permanecer aberto |
 | 5 | a razão de Cadência lê a VEL amplificada, e o praticante recebe uma reação adicional por rodada |
-| 6 | todo taijutsu puro do praticante sobe um degrau no Perfil de Evasão, e o atrito do ar passa a ignição no ponto de impacto |
+| 6 | o atrito do ar passa a ignição no ponto de impacto |
 | 7 | o taijutsu puro do praticante eleva a categoria de entrega de contato para área, projetando a sobrepressão do corpo à distância |
-| 8 | o Limite de Saída deixa de existir, e o taijutsu puro sobe um segundo degrau no Perfil de Evasão |
+| 8 | o Limite de Saída deixa de existir |
 
-**Teto de degraus no Perfil de Evasão, revogado.** A cláusula que limitava a escada dos portões a dois degraus perdeu efeito com a revogação da acumulação de posições, e não recebe substituto porque não existe mais acumulação a limitar: o Manual de Criação de Jutsus declara na seção 6.5 que o degrau é propriedade de construção e que nenhum estado do executor move uma técnica de degrau. O degrau Inevitável que o oitavo portão alcançava continua declarando o estado terminal do próprio portão como precondição, conforme a seção 8. A forma que os verbos do sexto e do oitavo portão passam a tomar diante de uma escada que não se move em jogo é errata aberta, registrada na seção 11.
+**A escada dos portões não move o Perfil de Evasão.** O sexto e o oitavo portão elevavam o degrau do taijutsu puro, com teto de dois, e as duas coisas saíram juntas: o Manual de Criação de Jutsus declara na seção 6.5 que o degrau é propriedade de construção e que nenhum estado do executor move uma técnica de degrau, e um portão aberto é estado do executor. Os dois verbos ficam sem elevação declarada, o que é o estado que a escada nova impõe e não quebra obra nenhuma do domínio.
+
+A propriedade que os dois verbos mediam não se perdeu, ela mudou de camada e ainda não tem onde morar. O que o sexto portão descreve é velocidade crua de membro, a mesma grandeza que a cadeia da Seção 5.7 daquele manual lê para a obra de chakra, e o eixo corporal não tem entrada naquela cadeia. A pendência está na seção 11.
+
+O degrau Inevitável que o oitavo portão alcançava continua existindo, e passou a ser declarado direto pela ficha que o exerce, com o portão aberto como precondição negável pela via de sobreviver à janela. Ele não depende mais da elevação.
 
 ---
 
@@ -297,7 +301,11 @@ A perícia de corpo, quando nascer, recebe deste documento a coluna de acesso e 
 
 **Pendências registradas.**
 
-Os verbos do sexto e do oitavo portão elevam o Perfil de Evasão do taijutsu puro do praticante, e o Manual de Criação de Jutsus v3.5 fechou a escada a toda elevação em jogo, nomeando o estado do executor entre as fontes que não a movem. A propriedade que os dois verbos mediam é velocidade crua de membro, que hoje é grandeza própria e vive na cadeia da seção 5.7 daquele manual, e o eixo corporal sem chakra não tem entrada naquela cadeia. Nem a leitura do adversário nem a multiplicidade descrevem o que os dois verbos fazem, de modo que a conversão não sai de regra e a decisão é de desenho. Os dois verbos permanecem escritos como estavam até que ela venha.
+**A cadeia de Velocidade precisa de uma segunda instância, para o eixo corporal.** Os verbos do sexto e do oitavo portão elevavam o Perfil de Evasão do taijutsu puro, e a elevação saiu: o Manual de Criação de Jutsus fechou a escada a toda elevação em jogo e nomeou o estado do executor entre as fontes que não a movem, e um portão aberto é estado do executor. Os dois verbos ficam sem elevação declarada, que é o estado que a escada nova impõe e que não quebra obra nenhuma do domínio.
+
+A propriedade não se perdeu, mudou de camada. O que o sexto portão descreve é velocidade crua de membro, e a velocidade tem dono desde que a cadeia da seção 5.7 daquele manual passou a lê-la. A cadeia lê Celeridade do meio, Fator de Seção, Ímpeto sobre a RC limpa e a maestria do executor, e nenhum desses quatro existe num golpe de corpo que não converte chakra. O eixo corporal precisa da própria instância da cadeia, lendo Esforço e Fator de Portão onde a primeira lê RC e maestria.
+
+A forma já tem precedente no corpus e é o que torna a pendência resolúvel sem inventar camada nova: o Registro de Instâncias do Manual de Criação de Jutsus declara duas instâncias da forma de dois termos, uma no eixo do chakra em RC nominal e outra no eixo corporal em Esforço, com réguas próprias e sem que uma leia a outra. A segunda instância da cadeia de Velocidade segue o mesmo desenho, e é trabalho de sessão própria.
 
 O eixo físico não possui camada equivalente ao Sistema Elemental, e o Índice de Perícias registra essa ausência como o bloqueio da perícia de corpo. As três réguas da seção 6 nascem aqui porque este documento é o dono do subsistema que faltava, e a decisão segue a regra do Manual de Criação de Perícias de fazer o subsistema ausente nascer no documento dono. Quando a camada física geral for publicada, ela absorve as três réguas e este documento passa a citá-las em vez de sustentá-las.
 
@@ -316,6 +324,8 @@ Duas leituras deste documento estavam erradas contra o manual que ele consome, e
 ---
 
 ## 12. Registro de Alterações
+
+**v1.6.** A elevação de Perfil de Evasão sai dos verbos do sexto e do oitavo portão, junto com o teto de dois degraus que a limitava. Um portão aberto é estado do executor, e a Seção 6.5 do Manual de Criação de Jutsus nomeia o estado do executor entre as fontes que não movem uma técnica de degrau. Os dois verbos ficam sem elevação declarada, e nenhuma obra do domínio quebra por isso: o Guy Noturno passou a declarar Inevitável direto na ficha, com o oitavo portão aberto como precondição negável pela via de sobreviver à janela. A propriedade que a elevação media, velocidade crua de membro, vira pendência nomeada na seção 11, e o que ela pede é a segunda instância da cadeia de Velocidade para o eixo corporal, lendo Esforço e Fator de Portão onde a primeira lê RC e maestria. Nenhuma magnitude, tabela, exigência de acesso, sequela ou preço mudou.
 
 **v1.5.** O teto de dois degraus no Perfil de Evasão fica revogado, sem substituto, porque a acumulação que ele limitava foi revogada pela Seção 6.5 do Manual de Criação de Jutsus. Os verbos do sexto e do oitavo portão continuam escritos como estavam, e a errata que eles abrem entra na seção 11: a escada não admite mais elevação por estado do executor, e a propriedade que os dois verbos mediam é velocidade crua, grandeza que o eixo corporal sem chakra ainda não sabe ler. Nenhuma magnitude, tabela, exigência de acesso, sequela ou preço mudou.
 

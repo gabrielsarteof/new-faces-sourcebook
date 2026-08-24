@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.katon
 title: "Katon (火遁)"
-version: 4.3
+version: 4.4
 layer: scenario
 scenario: naruto
 type: skill
@@ -75,7 +75,7 @@ INCLINAÇÃO LABAREDA
 
 RÉDEA (grau 2, complexidade 4) · 34
 A chama continua obedecendo depois de sair do corpo, mudando de rota, trocando de alvo e se repartindo no ar enquanto arde. [canon: o fogo admite moldagem depois de produzido, e o grande dragão de fogo é manipulado após a expulsão]
-└─ Rota Viva [passivo]: toda técnica de Katon do praticante sobe um degrau no Perfil de Evasão. LV5: troca de alvo depois da expulsão, dentro do alcance declarado da técnica, sem custo novo e sem nova execução
+└─ Rota Viva [passivo]: a técnica de Katon criada por quem possui este caminho pode ser construída no degrau Teleguiado da escada de Perfil de Evasão, que sem ele não estaria disponível ao domínio. O caminho compra a autorização e não o degrau: cada técnica paga o degrau na própria criação, nos trinta por cento de RC e no Extra em XP que a Seção 6.5 do Manual de Criação de Jutsus cobra, e a escada continua sem se mover em jogo. LV5: troca de alvo depois da expulsão, dentro do alcance declarado da técnica, sem custo novo e sem nova execução
 └─ Partilha [ação livre, 1×/turno, 20 RC]: divide uma chama já expelida em fragmentos independentes, cada um com rota própria, repartindo entre eles o efeito declarado da técnica. Fragmentos = ⌊teste de Labareda ÷ 18⌋, piso 3 e teto 10, resultando em 6 no LV4, 7 no LV5 e 9 no LV6. LV5: sem limite por turno, e os fragmentos podem reconvergir num ponto único de impacto, somando de volta o efeito repartido
 
 VEIA (grau 4, complexidade 3) · 42

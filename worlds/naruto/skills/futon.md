@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.futon
 title: "Fūton (風遁)"
-version: 2.7
+version: 2.8
 layer: scenario
 scenario: naruto
 type: skill
@@ -97,7 +97,7 @@ O vento decide onde os corpos estão, e quem se firmou na passagem sai dela. [ca
 BARLAVENTO (grau 3, complexidade 4) · 38
 O que vinha não chega. A corrente se põe na frente e disputa com aquilo antes que aquilo alcance alguém. [canon: uma fileira de usuários de leque conteve com lâminas de vento uma torrente adversária; a segunda fase do treinamento de natureza é deter a queda d'água com vento sustentado]
 └─ Anteparo Vivo [reação, 1×/turno, 30 RC]: opõe uma corrente a técnica, projétil ou massa dirigida ao praticante ou a aliado dentro de 10 metros, e aquilo resolve contra o teste de Vendaval em vez de contra a defesa do alvo. Rank detido = ⌈teste de Vendaval ÷ 40⌉, teto 5, resultando em rank C no LV4, rank B no LV5 e rank A no LV6. Acima do rank detido, a oposição reduz o efeito em uma categoria sem anulá-lo. LV5: o alcance de proteção passa a ser o alcance declarado da técnica empregada, e o que for detido é devolvido na direção declarada pelo praticante em vez de dissipar
-└─ Fôlego Contrário [passivo]: projétil físico que atravesse os 5 metros à frente do praticante perde velocidade, e o Perfil de Evasão dele sobe um degrau contra projéteis. LV5: dois degraus, e projétil que não vença cai no chão antes de alcançar a linha
+└─ Fôlego Contrário [passivo]: projétil físico que atravesse os 5 metros à frente do praticante perde velocidade, e o lado defensivo do teste de conexão dele contra aquele projétil multiplica por 1,15. O multiplicador pertence à família da seção 11 do Núcleo de Combate e compõe com os demais que tocam o mesmo lado, todos multiplicando entre si. LV5: multiplica por 1,30, que é o teto publicado daquela família, e projétil que não vença cai no chão antes de alcançar a linha
 
 ASCENDENTE (grau 4, complexidade 2) · 42
 A massa fica onde o praticante quer que ela fique, inteira, pelo tempo que ele sustentar. [canon: a queda d'água detida pelo vento sustentado; atribuído: o vórtice erguido para amparar um aliado em queda]
@@ -121,7 +121,7 @@ O vento acompanha o gesto da arma, e o golpe físico e a técnica passam a ser u
 VENTO NO VOO (grau 4, complexidade 3) · 42
 O que já está no ar continua obedecendo. [canon: o vendaval torna a ferramenta arremessada mais letal ao aumentar a velocidade dela; proposta: o redirecionamento em voo]
 └─ Corrente Guia [ação livre, 1×/turno, 20 RC]: redireciona projéteis físicos já em voo dentro do campo de visão, próprios ou de aliados, dando a cada um trajetória nova a partir do ponto onde estava. Quantidade = ⌊teste de Vento a Favor ÷ 25⌋, resultando em 4 no LV4, 5 no LV5 e 6 no LV6. LV5: alcança também projétil inimigo, que passa a resolver contra alvo declarado pelo praticante
-└─ Impulso de Arremesso [passivo]: projétil lançado pelo praticante ou por aliado dentro de 10 metros sobe uma categoria de velocidade, e o alvo baixa um degrau no Perfil de Evasão contra ele. LV5: dois degraus, e o projétil acelerado atravessa cobertura leve antes de resolver
+└─ Impulso de Arremesso [passivo]: projétil lançado pelo praticante ou por aliado dentro de 10 metros sobe uma categoria de velocidade. O degrau de Perfil de Evasão que esta linha somava saiu por cobrança dupla: as duas metades mediam a mesma propriedade, e a velocidade é grandeza própria desde que a cadeia da Seção 5.7 do Manual de Criação de Jutsus passou a lê-la. LV5: sobe uma segunda categoria de velocidade, e o projétil acelerado atravessa cobertura leve antes de resolver
 
 PONTE DE VENTO (grau 4, complexidade 3) · 42
 A corrente vira caminho, e quem entra nela chega onde o vento vai. [atribuído: a criatura invocada viaja sobre as correntes de vento até o inimigo para cortá-lo]
@@ -253,6 +253,8 @@ NOTA DE NOMEAÇÃO
 Os caminhos e as transcendências do Fūton empregam nomeação por imagem, e a imagem é sempre um vento ou um fenômeno do ar que se entende na leitura, sem explicação ao lado. A inclinação de extensão nomeia pelas partes do sistema, e Espiral, Olho e Fome dizem a forma, o centro e o apetite do tufão.
 
 REGISTRO DE ALTERAÇÕES
+
+**v2.8.** Os dois caminhos que a passada anterior deixou marcados fecham. Fôlego Contrário deixa de elevar o Perfil de Evasão de um projétil alheio, que era a escada lida pelo lado do atacante, e passa a multiplicar o lado defensivo do teste de conexão do praticante contra aquele projétil, por 1,15 no LV4 e por 1,30 no LV5, valores da família de multiplicadores da seção 11 do Núcleo de Combate, onde 1,30 é o teto publicado. Impulso de Arremesso perde o degrau por cobrança dupla, porque as duas metades da linha mediam a mesma propriedade e a velocidade virou grandeza própria na cadeia da Seção 5.7 do Manual de Criação de Jutsus; a categoria de velocidade e a travessia de cobertura leve ficam. Nenhum grau, complexidade, custo ou valor resolvido mudou.
 
 **v2.7.** O caminho Repartição deixa de baixar degraus no Perfil de Evasão do alvo e passa a declarar linhas de aproximação distintas, resolvidas pela tabela de vantagem numérica da seção 11 do Núcleo de Combate. O teto de dois degraus e o de três do LV5 saem com a acumulação que eles limitavam, e o LV5 fica sem melhoria própria, com a lacuna registrada na própria linha em vez de preenchida por invenção. Fôlego Contrário e Impulso de Arremesso continuam escritos como estavam, porque a conversão deles não sai de regra nenhuma do lote e a decisão é de desenho. Nenhum grau, complexidade, custo ou valor resolvido mudou.
 
