@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.shiden
 title: "Shiden — Relâmpago Púrpura (紫電)"
-version: 2.6
+version: 2.7
 layer: scenario
 scenario: naruto
 type: technique
@@ -68,11 +68,17 @@ A técnica é transmissível por ensino a qualquer praticante que reúna os requ
 
 ## Custo de XP
 
-**Custo de XP:** 13.333
+**Custo de XP:** 10.803
 
-**Errata de preço.** O custo passa de 11.000 para 13.333 XP. A causa é mudança de régua e não de RC: a posição dentro da faixa do rank deixou de ser lida pelo volume de reserva e passou a ser lida pela entrega contra o par do rank, medida no executor de referência, com o modificador de coeficiente técnico pagando o peso da maestria fora da posição. Esta ficha é a última da família a receber a errata, que passou pelas demais sem alcançá-la. A entrega desta obra fecha em 65,6% do par Especial, acima do piso de 65% do rank seguinte, e a posição trava em 100% da faixa pela cláusula da Seção 4.1.3 do Manual de Criação de Jutsus, que limita a posição a esse valor. O modificador de 0,667 incide sobre o resultado. Quem já comprou a técnica não paga diferença nem recebe reembolso, e o preço publicado daqui em diante é o novo.
+**Errata de preço, segunda passada.** O custo passa de 13.333 para 10.803 XP, e desta vez a causa é a RC. A apuração por entrega da Seção 4.1.3 do Manual de Criação de Jutsus lê a RC limpa, e a RC limpa desta ficha caiu de 900 para 783 quando o degrau Veloz saiu da escada e a sobretaxa de quinze por cento que ele embutia foi dividida fora. A entrega passa de 65,6% para 57,1% do par Especial, a posição deixa de travar no topo da faixa e resolve em 68,4% dela, e o modificador de 0,667 do coeficiente técnico segue incidindo sobre o resultado.
 
-A faixa do rank A tem topo por construção, e ele é o piso do rank S: o denominador da posição é a diferença entre o piso do próprio rank e o do seguinte, e apenas o rank S carece de rank seguinte, caso que aquela seção resolve à parte lendo o intervalo até a entrega integral do par. Uma obra de rank A que entregue acima de 65% do par está entregando trabalho de rank S e paga o topo da própria faixa, que é o que a trava exprime.
+Manter os 13.333 manteria o preço de uma propriedade que a técnica não tem mais. A obra pagava evitabilidade e deixou de pagá-la, porque o que a tornava difícil de evitar era velocidade crua, hoje grandeza própria que vive na cadeia da Seção 5.7 e que a Celeridade 150 do Raiton, ou 165 no portador da Kyōka, já entrega sem cobrar sobretaxa.
+
+**Errata de preço, primeira passada.** O custo tinha passado de 11.000 para 13.333 XP por mudança de régua e não de RC: a posição dentro da faixa do rank deixou de ser lida pelo volume de reserva e passou a ser lida pela entrega contra o par do rank, medida no executor de referência, com o modificador de coeficiente técnico pagando o peso da maestria fora da posição. Esta ficha foi a última da família a receber aquela errata, que passou pelas demais sem alcançá-la.
+
+A faixa do rank A tem topo por construção, e ele é o piso do rank S: o denominador da posição é a diferença entre o piso do próprio rank e o do seguinte, e apenas o rank S carece de rank seguinte, caso que aquela seção resolve à parte lendo o intervalo até a entrega integral do par. A trava em 100% da faixa que a primeira passada aplicou deixou de alcançar esta obra, porque com a RC limpa ela entrega abaixo do piso do rank seguinte.
+
+Em nenhuma das duas passadas quem já comprou a técnica paga diferença ou recebe reembolso, e o preço publicado daqui em diante é o novo.
 
 ---
 

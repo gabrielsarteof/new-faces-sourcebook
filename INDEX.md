@@ -177,7 +177,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Compêndio de Katon (火遁)](worlds/naruto/compendiums/katon.md) | `naruto.compendium.katon` | 5.14 | compendium | final |
 | [Compêndio de Kyūinjutsu](worlds/naruto/compendiums/kyuinjutsu.md) | `naruto.compendium.kyuinjutsu` | 1.7 | compendium | final |
 | [Compêndio de Ninjutsu Médico](worlds/naruto/compendiums/medical-ninjutsu.md) | `naruto.compendium.medical-ninjutsu` | 2.11 | compendium | final |
-| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.20 | compendium | final |
+| [Compêndio de Raiton (雷遁)](worlds/naruto/compendiums/raiton.md) | `naruto.compendium.raiton` | 3.21 | compendium | final |
 | [Registro de Nomes](worlds/naruto/compendiums/registro-de-nomes.md) | `naruto.compendium.registro-de-nomes` | 1.1 | reference-table | final |
 | [Compêndio de Sensoriamento](worlds/naruto/compendiums/sensory.md) | `naruto.compendium.sensory` | 1.7 | compendium | final |
 | [Compêndio de Suiton (水遁)](worlds/naruto/compendiums/suiton.md) | `naruto.compendium.suiton` | 3.11 | compendium | final |
@@ -260,7 +260,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Ninjutsu Médico](worlds/naruto/skills/medical-ninjutsu.md) | `naruto.skill.medical-ninjutsu` | 3.2 | skill | final |
 | [Índice de Perícias do Sistema](worlds/naruto/skills/overview.md) | `naruto.skill.overview` | 2.36 | skill | final |
 | [Passagem](worlds/naruto/skills/passagem.md) | `naruto.skill.passagem` | 1.3 | skill | final |
-| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.11 | skill | final |
+| [Raiton (雷遁)](worlds/naruto/skills/raiton.md) | `naruto.skill.raiton` | 3.12 | skill | final |
 | [Senjutsu](worlds/naruto/skills/senjutsu.md) | `naruto.skill.senjutsu` | 2.5 | skill | final |
 | [Sensoriamento](worlds/naruto/skills/sensory.md) | `naruto.skill.sensory` | 2.2 | skill | final |
 | [Shuriken](worlds/naruto/skills/shuriken.md) | `naruto.skill.shuriken` | 1.5 | skill | final |
@@ -329,7 +329,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Rengoku Ryūsei (煉獄龍勢)](worlds/naruto/techniques/katon-rengoku-ryusei.md) | `naruto.technique.katon-rengoku-ryusei` | 1.2 | technique | final |
 | [Ryūka no Jutsu (龍火の術)](worlds/naruto/techniques/katon-ryuka.md) | `naruto.technique.katon-ryuka` | 1.2 | technique | final |
 | [Substituição de Corpo](worlds/naruto/techniques/kawarimi.md) | `naruto.technique.kawarimi` | 2.1 | technique | final |
-| [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1.4 | technique | final |
+| [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1.5 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2.4 | technique | final |
 | [Técnica da Camuflagem Óptica](worlds/naruto/techniques/meisaigakure.md) | `naruto.technique.meisaigakure` | 1 | technique | final |
 | [Técnica do Escape de Cordas](worlds/naruto/techniques/nawanuke.md) | `naruto.technique.nawanuke` | 2 | technique | final |
@@ -338,7 +338,7 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Raikiri — Cortador de Raio (雷切)](worlds/naruto/techniques/raikiri.md) | `naruto.technique.raikiri` | 2.1 | technique | final |
 | [Rasengan (螺旋丸)](worlds/naruto/techniques/rasengan.md) | `naruto.technique.rasengan` | 2.1 | technique | final |
 | [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1.4 | technique | final |
-| [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2.6 | technique | final |
+| [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2.7 | technique | final |
 | [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2.1 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |
 | [Técnica dos Múltiplos Clones das Sombras](worlds/naruto/techniques/taju-kage-bunshin.md) | `naruto.technique.taju-kage-bunshin` | 1 | technique | final |

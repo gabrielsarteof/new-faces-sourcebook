@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.raiton
 title: "Compêndio de Raiton (雷遁)"
-version: 3.20
+version: 3.21
 layer: scenario
 scenario: naruto
 type: compendium
@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Raiton_v3_1.md
 ---
 
-# Compêndio de Raiton (雷遁) · v3.19
+# Compêndio de Raiton (雷遁) · v3.21
 **Liberação de Raio**
 
 **O que mudou na v3.8.** As entradas passam a declarar o vetor de entrega e a celeridade do meio, pelo contrato que o Lote de Vetores fechou e que o Template de Documento de Técnica v4 publica. Vinte e seis entradas receberam vetor por classificação mecânica sobre a descrição publicada, nove não o receberam por não entregarem dano, e seis subiram para a fila de decisão por ambiguidade real. A celeridade de 150 é a do Raiton na escada de meios da Seção 5.7 do Manual de Criação de Jutsus, e vale para toda entrada que atravesse distância. Nenhum preço em XP foi regenerado nesta passada, pela razão registrada na fila de errata.
@@ -27,6 +27,8 @@ O preço em XP publicado nas entradas sem ficha própria é provisório, conform
 **Perfil de Evasão, ausência encerrada.** A Seção 6.5 do Manual de Criação de Jutsus fechou em v3.5 e a escada parou de se mover: quatro degraus, propriedade de construção, sem elevação por caminho, por transcendência, por circunstância ou por estado do executor. A leitura falseada que quatro entradas do repasse reivindicavam saiu da escada e virou régua com dono, a Régua de Leitura do cenário. Com as duas coisas fechadas, as entradas classificadas por vetor passam a declarar o Perfil, lido da própria prosa e sem consultar ficha de executor. Padrão é o valor de omissão, e entrada cuja prosa não sustente Telegrafado, Teleguiado ou Inevitável o recebe sem marcação.
 
 **O que mudou na v3.19.** O Alcance categórico entra como campo obrigatório de toda entrada e passa a ser a única autoridade sobre qual teste a entrada resolve, no lugar do marcador de banda que a passada anterior tinha usado. Os três campos de geometria acompanham essa leitura. As três notas abaixo declaram o que entrou.
+
+**O que mudou na v3.21.** O preço do Shiden passa de 13.333 para 10.803 XP. A apuração por entrega da Seção 4.1.3 do Manual de Criação de Jutsus lê a RC limpa, e a RC limpa daquela ficha caiu de 900 para 783 quando o degrau Veloz saiu da escada: a entrega passa de 65,6% para 57,1% do par Especial e a posição deixa de travar no topo da faixa. Manter os 13.333 manteria o preço de uma propriedade que a técnica não tem mais. A ficha publica a derivação inteira.
 
 **Alcance categórico, o campo que decide a resolução.** Toda entrada declara agora uma posição na escada da Seção 12 do Núcleo de Combate, entre Alvo, Linha, Área e Campo, lida da prosa da própria entrada e com Alvo como valor de omissão. É esse campo, e nenhum outro, que decide se a entrada resolve o teste de conexão ou o teste de fuga. A Banda Mínima e a Banda Máxima não entram nessa decisão: elas declaram até onde o executor projeta o centro de uma obra de área, e a passada de propagação encontrou entradas de alvo único carregando as duas por herança, entre elas o Chidori Senbon, as Agulhas de Mil Pássaros, cuja ficha declara alvo único com todas as letras.
 
@@ -462,7 +464,7 @@ O usuário fragmenta a corrente reunida em dezenas de agulhas de eletricidade di
 **Alcance categórico:** Linha
 **Perfil de Evasão:** Padrão
 **Elevação:** Kyōka Shiden manifestada, que conserva o multiplicador comum do elemento e eleva a celeridade de 150 para 165 pelo eixo de Entrega, e abre a inclinação de extensão Agudo da Perícia de Raiton
-**XP:** 13.333
+**XP:** 10.803
 
 O usuário concentra chakra de raio de coloração violeta e o dispara de uma única mão em descarga contínua, sem a necessidade de investida corporal. A técnica alcança poder comparável ao das grandes perfurações do elemento operando inteiramente à distância, o que a torna acessível a quem não dispõe da percepção ampliada exigida para a investida linear. A corrente também pode ser conduzida por uma lâmina segurada pelo executante, convertendo a arma em extensão do disparo.
 

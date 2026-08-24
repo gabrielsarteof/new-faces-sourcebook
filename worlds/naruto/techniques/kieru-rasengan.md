@@ -1,7 +1,7 @@
 ---
 id: naruto.technique.kieru-rasengan
 title: "Rasengan Evanescente (消える螺旋丸)"
-version: 1.4
+version: 1.5
 layer: scenario
 scenario: naruto
 type: technique
@@ -51,6 +51,8 @@ O primeiro acesso canônico é involuntário. A camada de Raio se aplica sem int
 **Custo de XP:** 13.250
 
 O valor é o de afinidade. O executante cuja afinidade nata não inclua o Raio aplica o modificador de natureza não afim da Seção 4.2 do Manual de Jutsus sobre este preço, e a penalidade de conversão sobre a RC pertence ao Sistema Elemental.
+
+**O preço não deriva da entrega, e a próxima varredura não precisa levantá-lo.** Esta entrada é de camada Fechada na Criação sobre autoria de Assinatura Pessoal, e o número dela nunca saiu da apuração por entrega da Seção 4.1.3 do Manual de Jutsus. A limpeza da RC nominal, que caiu de 1.050 para 913 quando o degrau Veloz saiu da escada, moveu a apuração por entrega desta obra de 18.200 para 14.364 e não moveu o preço, porque os dois nunca coincidiram: a apuração já divergia dos 13.250 publicados antes da limpeza, pela mesma razão. Não há desencontro a corrigir aqui, e o par de números fica registrado para que a divergência não seja lida como defeito.
 
 ---
 

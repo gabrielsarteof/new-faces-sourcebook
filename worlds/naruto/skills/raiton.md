@@ -1,7 +1,7 @@
 ---
 id: naruto.skill.raiton
 title: "Raiton (雷遁)"
-version: 3.11
+version: 3.12
 layer: scenario
 scenario: naruto
 type: skill
@@ -84,7 +84,7 @@ INCLINAÇÃO CHOQUE
 IMPULSO (grau 2, complexidade 3) · 34
 Corrente aplicada ao próprio sistema nervoso, acelerando reflexo e resposta motora.
 └─ Reflexo Acelerado [sustentado, 25 RC de ativação, 10 RC de manutenção por turno]: enquanto ativo, o praticante ganha uma ação de movimento adicional por turno, sem custo de PS. LV5: a ação adicional pode ser empregada como reação, sendo consumida quando usada assim
-└─ Perfil Elevado [passivo, condicionado à ativação de Reflexo Acelerado]: enquanto a corrente está ativa, o praticante soma um bônus ao teste da perícia governante de toda técnica que executar, e o bônus entra na conexão pelo `M_vel` da Seção 5.7 do Manual de Criação de Jutsus, que é o canal contínuo da maestria e o único por onde a mão do executor alcança a conexão. Nada nesta linha move a escada de Perfil de Evasão, que é propriedade de construção. **O valor do bônus é lacuna declarada e espera desenho**, e fica registrado em vez de preenchido por invenção. LV5: o bônus sobe, e o valor da subida espera o mesmo desenho
+└─ Perfil Elevado [passivo, condicionado à ativação de Reflexo Acelerado]: enquanto a corrente está ativa, o caminho soma ao `C` da perícia governante, dentro do `M_vel` da Seção 5.7 do Manual de Criação de Jutsus, o bônus geral por caminho adicional que a seção 4 do Núcleo de Perícias publica: 4 no LV4, 4 no LV5 e 5 no LV6. O caminho não tem número próprio e não abre exceção à régua. O `M_vel` é o canal contínuo da maestria e o único por onde a mão do executor alcança a conexão, e nada nesta linha move a escada de Perfil de Evasão, que é propriedade de construção. LV5: sem degrau próprio, porque a régua do Núcleo publica o mesmo 4 no LV4 e no LV5, e o valor sobe para 5 apenas no LV6
 
 ARCO (grau 3, complexidade 4) · 38
 Uma camada de corrente cobre a pele e devolve descarga a quem toca o praticante à força.
@@ -306,6 +306,10 @@ Estrutura e valores de camada leem o Núcleo de Perícias v2. Custos leem o Manu
 
 
 **O que mudou na v3.11.** O caminho Perfil Elevado deixa de elevar o Perfil de Evasão do praticante, categoria que se aplicava a pessoa e não a obra, e passa a somar bônus ao teste da perícia governante, entrando na conexão pelo `M_vel` da Seção 5.7 do Manual de Criação de Jutsus, que é o canal contínuo da maestria. O valor do bônus fica declarado como lacuna nos dois degraus que o caminho concedia, e espera desenho. O nome do caminho continua sendo Perfil Elevado e deixou de descrever o que ele faz, e renomeá-lo é decisão de desenho.
+
+
+
+**O que mudou na v3.12.** A lacuna do caminho Perfil Elevado fecha. O bônus que ele soma ao `C` da perícia governante dentro do `M_vel` é o bônus geral por caminho adicional que a seção 4 do Núcleo de Perícias publica, 4 no LV4, 4 no LV5 e 5 no LV6. O caminho não recebe número próprio e não abre exceção à régua, e o LV5 fica sem degrau porque a régua publica o mesmo valor nos dois níveis. O nome do caminho segue sendo Perfil Elevado e segue não descrevendo o que ele faz, e renomeá-lo continua sendo decisão de desenho.
 
 
 
