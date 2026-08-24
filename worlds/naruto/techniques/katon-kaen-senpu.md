@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.kaen-senpu
+id: naruto.technique.katon-kaen-senpu
 title: "Kaen Senpū (火炎旋風)"
 version: 1.2
 layer: scenario

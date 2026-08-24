@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.ryuka
+id: naruto.technique.katon-ryuka
 title: "Ryūka no Jutsu (龍火の術)"
 version: 1.2
 layer: scenario

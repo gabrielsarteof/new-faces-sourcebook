@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.kasumi-enbu
+id: naruto.technique.katon-kasumi-enbu
 title: "Kasumi Enbu no Jutsu (霞炎舞の術)"
 version: 1.2
 layer: scenario

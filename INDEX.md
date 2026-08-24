@@ -299,11 +299,8 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Chidori Senbon — Agulhas de Mil Pássaros (千鳥千本)](worlds/naruto/techniques/chidori-senbon.md) | `naruto.technique.chidori-senbon` | 3.1 | technique | final |
 | [Chidori (千鳥)](worlds/naruto/techniques/chidori.md) | `naruto.technique.chidori` | 5.1 | technique | final |
 | [Chō Ōdama Rasengan (超大玉螺旋丸)](worlds/naruto/techniques/cho-odama-rasengan.md) | `naruto.technique.cho-odama-rasengan` | 1.2 | technique | final |
-| [Endan (炎弾)](worlds/naruto/techniques/endan.md) | `naruto.technique.endan` | 1.2 | technique | final |
 | [Fūton: Rasengan (風遁・螺旋丸)](worlds/naruto/techniques/futon-rasengan.md) | `naruto.technique.futon-rasengan` | 1.2 | technique | final |
 | [Fūton: Rasenshuriken (風遁・螺旋手裏剣)](worlds/naruto/techniques/futon-rasenshuriken.md) | `naruto.technique.futon-rasenshuriken` | 1.2 | technique | final |
-| [Gōkakyū no Jutsu (豪火球の術)](worlds/naruto/techniques/gokakyu.md) | `naruto.technique.gokakyu` | 1.2 | technique | final |
-| [Gōryūka no Jutsu (豪龍火の術)](worlds/naruto/techniques/goryuka.md) | `naruto.technique.goryuka` | 1.2 | technique | final |
 | [Obras dos Oito Portões](worlds/naruto/techniques/hachimon-obras.md) | `naruto.technique.hachimon-obras` | 1.1 | technique | final |
 | [Hachimon Tonkō (八門遁甲)](worlds/naruto/techniques/hachimon-tonko.md) | `naruto.technique.hachimon-tonko` | 1.3 | technique | final |
 | [Técnica do Harém](worlds/naruto/techniques/harem.md) | `naruto.technique.harem` | 1 | technique | final |
@@ -313,17 +310,22 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)](worlds/naruto/techniques/hiraishin-ni-no-dan.md) | `naruto.technique.hiraishin-ni-no-dan` | 1.1 | technique | final |
 | [Rotação Instantânea Mútua do Deus do Trovão Voador (飛雷神・相互瞬間回転)](worlds/naruto/techniques/hiraishin-sogo-shunkan-kaiten.md) | `naruto.technique.hiraishin-sogo-shunkan-kaiten` | 1 | technique | final |
 | [Deus do Trovão Voador (飛雷神の術)](worlds/naruto/techniques/hiraishin.md) | `naruto.technique.hiraishin` | 1 | technique | final |
-| [Hōō no Wana (鳳凰の罠)](worlds/naruto/techniques/hoo-no-wana.md) | `naruto.technique.hoo-no-wana` | 1.2 | technique | final |
-| [Hōō Shō (鳳凰掌)](worlds/naruto/techniques/hoo-sho.md) | `naruto.technique.hoo-sho` | 1.2 | technique | final |
-| [Hōsenka Tsumabeni (鳳仙花爪紅)](worlds/naruto/techniques/hosenka-tsumabeni.md) | `naruto.technique.hosenka-tsumabeni` | 1.2 | technique | final |
-| [Hōsenka no Jutsu (鳳仙花の術)](worlds/naruto/techniques/hosenka.md) | `naruto.technique.hosenka` | 1.2 | technique | final |
-| [Jigoku no Hane (地獄の羽)](worlds/naruto/techniques/jigoku-no-hane.md) | `naruto.technique.jigoku-no-hane` | 1.2 | technique | final |
-| [Kaen Ami (火炎網)](worlds/naruto/techniques/kaen-ami.md) | `naruto.technique.kaen-ami` | 1.2 | technique | final |
-| [Kaen Senpū (火炎旋風)](worlds/naruto/techniques/kaen-senpu.md) | `naruto.technique.kaen-senpu` | 1.2 | technique | final |
 | [Técnica do Clone das Sombras](worlds/naruto/techniques/kage-bunshin.md) | `naruto.technique.kage-bunshin` | 2 | technique | final |
 | [Liberação](worlds/naruto/techniques/kai.md) | `naruto.technique.kai` | 2 | technique | final |
 | [Técnica do Manto Oculto](worlds/naruto/techniques/kakuremino.md) | `naruto.technique.kakuremino` | 1 | technique | final |
-| [Kasumi Enbu no Jutsu (霞炎舞の術)](worlds/naruto/techniques/kasumi-enbu.md) | `naruto.technique.kasumi-enbu` | 1.2 | technique | final |
+| [Endan (炎弾)](worlds/naruto/techniques/katon-endan.md) | `naruto.technique.katon-endan` | 1.2 | technique | final |
+| [Gōkakyū no Jutsu (豪火球の術)](worlds/naruto/techniques/katon-gokakyu.md) | `naruto.technique.katon-gokakyu` | 1.2 | technique | final |
+| [Gōryūka no Jutsu (豪龍火の術)](worlds/naruto/techniques/katon-goryuka.md) | `naruto.technique.katon-goryuka` | 1.2 | technique | final |
+| [Hōō no Wana (鳳凰の罠)](worlds/naruto/techniques/katon-hoo-no-wana.md) | `naruto.technique.katon-hoo-no-wana` | 1.2 | technique | final |
+| [Hōō Shō (鳳凰掌)](worlds/naruto/techniques/katon-hoo-sho.md) | `naruto.technique.katon-hoo-sho` | 1.2 | technique | final |
+| [Hōsenka Tsumabeni (鳳仙花爪紅)](worlds/naruto/techniques/katon-hosenka-tsumabeni.md) | `naruto.technique.katon-hosenka-tsumabeni` | 1.2 | technique | final |
+| [Hōsenka no Jutsu (鳳仙花の術)](worlds/naruto/techniques/katon-hosenka.md) | `naruto.technique.katon-hosenka` | 1.2 | technique | final |
+| [Jigoku no Hane (地獄の羽)](worlds/naruto/techniques/katon-jigoku-no-hane.md) | `naruto.technique.katon-jigoku-no-hane` | 1.2 | technique | final |
+| [Kaen Ami (火炎網)](worlds/naruto/techniques/katon-kaen-ami.md) | `naruto.technique.katon-kaen-ami` | 1.2 | technique | final |
+| [Kaen Senpū (火炎旋風)](worlds/naruto/techniques/katon-kaen-senpu.md) | `naruto.technique.katon-kaen-senpu` | 1.2 | technique | final |
+| [Kasumi Enbu no Jutsu (霞炎舞の術)](worlds/naruto/techniques/katon-kasumi-enbu.md) | `naruto.technique.katon-kasumi-enbu` | 1.2 | technique | final |
+| [Rengoku Ryūsei (煉獄龍勢)](worlds/naruto/techniques/katon-rengoku-ryusei.md) | `naruto.technique.katon-rengoku-ryusei` | 1.2 | technique | final |
+| [Ryūka no Jutsu (龍火の術)](worlds/naruto/techniques/katon-ryuka.md) | `naruto.technique.katon-ryuka` | 1.2 | technique | final |
 | [Substituição de Corpo](worlds/naruto/techniques/kawarimi.md) | `naruto.technique.kawarimi` | 2 | technique | final |
 | [Rasengan Evanescente (消える螺旋丸)](worlds/naruto/techniques/kieru-rasengan.md) | `naruto.technique.kieru-rasengan` | 1.2 | technique | final |
 | [Kirin (麒麟)](worlds/naruto/techniques/kirin.md) | `naruto.technique.kirin` | 2.3 | technique | final |
@@ -334,8 +336,6 @@ Gerado por `tools/check-links.mjs`. Não editar à mão.
 | [Raikiri — Cortador de Raio (雷切)](worlds/naruto/techniques/raikiri.md) | `naruto.technique.raikiri` | 2.1 | technique | final |
 | [Rasengan (螺旋丸)](worlds/naruto/techniques/rasengan.md) | `naruto.technique.rasengan` | 2.1 | technique | final |
 | [Rasenrengan (螺旋連丸)](worlds/naruto/techniques/rasenrengan.md) | `naruto.technique.rasenrengan` | 1.4 | technique | final |
-| [Rengoku Ryūsei (煉獄龍勢)](worlds/naruto/techniques/rengoku-ryusei.md) | `naruto.technique.rengoku-ryusei` | 1.2 | technique | final |
-| [Ryūka no Jutsu (龍火の術)](worlds/naruto/techniques/ryuka.md) | `naruto.technique.ryuka` | 1.2 | technique | final |
 | [Shiden — Relâmpago Púrpura (紫電)](worlds/naruto/techniques/shiden.md) | `naruto.technique.shiden` | 2.4 | technique | final |
 | [Técnica do Deslocamento Corporal](worlds/naruto/techniques/shunshin.md) | `naruto.technique.shunshin` | 2 | technique | final |
 | [Susanoo (須佐能乎)](worlds/naruto/techniques/susanoo.md) | `naruto.technique.susanoo` | 1.3 | technique | final |

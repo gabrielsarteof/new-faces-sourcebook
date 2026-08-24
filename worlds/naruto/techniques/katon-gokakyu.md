@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.gokakyu
+id: naruto.technique.katon-gokakyu
 title: "Gōkakyū no Jutsu (豪火球の術)"
 version: 1.2
 layer: scenario

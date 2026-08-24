@@ -1,5 +1,5 @@
 ---
-id: naruto.technique.rengoku-ryusei
+id: naruto.technique.katon-rengoku-ryusei
 title: "Rengoku Ryūsei (煉獄龍勢)"
 version: 1.2
 layer: scenario
