@@ -1,7 +1,7 @@
 ---
 id: core.technique-template
 title: "Template — Documento de Técnica"
-version: 4
+version: 5
 layer: core
 type: template
 status: final
@@ -74,11 +74,17 @@ Antes de produzir o documento final, verifique cada item:
 
 ---
 
-# [Nome em Português] — [Nome em Japonês] (Romanji)
+# [Romaji]
+**[漢字] · [Nome em Português]**
 [Tipo] · [Natureza, se elemental] · [Rank]
 
 [Subtítulo opcional de uma linha descrevendo a essência da técnica.
 Remova se não acrescentar informação além do cabeçalho.]
+
+[O Romaji do cabeçalho é a coluna Romaji do Registro de Nomes, que é a
+concordância do corpus. A segunda linha publica o par kanji e português entre
+asteriscos duplos; a metade em português cai quando a obra é substantivo próprio
+sem tradução, e a linha publica só o kanji.]
 
 ---
 

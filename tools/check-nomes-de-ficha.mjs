@@ -36,6 +36,10 @@ import path from 'node:path';
 
 const RAIZ = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const DIR_FICHAS = path.join(RAIZ, 'worlds/naruto/techniques');
+const TEMPLATE = path.join(RAIZ, 'core/technique-template.md');
+
+/** O par kanji e português entre asteriscos duplos, ou só o kanji. */
+const PAR_EM_NEGRITO = /^\*\*.+\*\*$/;
 const REGISTRO = path.join(RAIZ, 'worlds/naruto/compendiums/registro-de-nomes.md');
 
 /** Alvos declarados. Divergência entre o declarado e o encontrado é falha. */
@@ -55,13 +59,31 @@ const SEM_PAR = {
   'hiraishin-impregnacao.md': 'variante que compartilha kanji com o Hiraishin no Jutsu, sem linha própria',
 };
 
-/** Fonte 1: o cabeçalho que a ficha publica. */
-function cabecalhoDaFicha(arquivo) {
-  const texto = readFileSync(path.join(DIR_FICHAS, arquivo), 'utf8');
+/**
+ * A leitura de cabeçalho, e a única deste arquivo.
+ *
+ * Devolve o título e a linha imediatamente abaixo dele, que é onde o par kanji e
+ * português mora. A extração do título é a mesma expressão de sempre; o que mudou
+ * é a função passar a devolver também a linha seguinte, porque o esqueleto que o
+ * Template prescreve se verifica por ela.
+ *
+ * Recebe texto e não caminho de propósito. É o que permite que o Template e as
+ * fichas passem pela mesma leitura, e é isso que impede o espelho: o esqueleto
+ * prescrito não é conferido por um leitor escrito para ele, e sim pelo leitor que
+ * lê as fichas que ele descreve.
+ */
+function cabecalhoPublicado(texto) {
   // Escopado ao corpo: o `# ` do front matter não existe, mas um `# ` dentro de
   // bloco de código existiria, e o primeiro do documento é o título.
   const m = texto.match(/^# (.+)$/m);
-  return m ? m[1].trim() : '';
+  if (!m) return { titulo: '', linhaDeNome: '' };
+  const depois = texto.slice(m.index + m[0].length).split(/\r?\n/);
+  return { titulo: m[1].trim(), linhaDeNome: (depois[1] ?? '').trim() };
+}
+
+/** Fonte 1: o cabeçalho que a ficha publica. */
+function cabecalhoDaFicha(arquivo) {
+  return cabecalhoPublicado(readFileSync(path.join(DIR_FICHAS, arquivo), 'utf8'));
 }
 
 /**
@@ -129,7 +151,7 @@ for (const r of registro.filter(x => x.ficha)) {
 // ── O nome, que é o que esta guarda existe para conferir ─────────────────────
 for (const f of comPar) {
   const r = porFicha.get(f);
-  const publicado = cabecalhoDaFicha(f);
+  const { titulo: publicado, linhaDeNome } = cabecalhoDaFicha(f);
 
   if (r.romaji === '') {
     nota('registro-sem-romaji', `${f} tem par na linha ${r.linha}, cuja coluna Romaji está vazia`);
@@ -139,6 +161,13 @@ for (const f of comPar) {
     nota('nome-divergente',
       `${f}\n      a ficha publica  ${JSON.stringify(publicado)}\n      o Registro publica ${JSON.stringify(r.romaji)}  (linha ${r.linha})`);
   }
+
+  // A linha de nome, que é o que o Template prescreve e o que separa a forma de
+  // hoje da anterior: o formato antigo não tinha linha em negrito abaixo do `# `.
+  if (!PAR_EM_NEGRITO.test(linhaDeNome)) {
+    nota('linha-de-nome-ausente',
+      `${f}\n      abaixo do cabeçalho vem ${JSON.stringify(linhaDeNome)}, e não o par entre asteriscos duplos`);
+  }
 }
 
 // ── Higiene: o travessão não entra em cabeçalho de ficha ─────────────────────
@@ -146,8 +175,36 @@ for (const f of comPar) {
 // nova: o travessão não se digita na mesa, entra em nome de arquivo derivado, e a
 // prosa do corpus não o admite. A forma da fonte vive na coluna Nome canônico.
 for (const f of fichas) {
-  const publicado = cabecalhoDaFicha(f);
-  if (publicado.includes('—')) nota('travessao-no-cabecalho', `${f} publica ${JSON.stringify(publicado)}`);
+  const { titulo } = cabecalhoDaFicha(f);
+  if (titulo.includes('—')) nota('travessao-no-cabecalho', `${f} publica ${JSON.stringify(titulo)}`);
+}
+
+// ── O esqueleto que o Template prescreve ─────────────────────────────────────
+// Um esqueleto, uma asserção, declarados antes da varredura.
+//
+// O Template descrevia o formato que a segunda onda da nomenclatura substituiu, e
+// nada acusava: um documento normativo que prescreve o que o corpus não pratica é
+// a mesma parede sem espelho das fichas, uma camada acima. A asserção que decide é
+// a linha em negrito — o formato antigo publicava `# Português — 漢字 (Romaji)` e
+// não tinha segunda linha, então qualquer reversão a ele falha aqui.
+{
+  const texto = readFileSync(TEMPLATE, 'utf8');
+  // O esqueleto é o segundo `# ` do documento: o primeiro é o título do próprio
+  // Template. Localizar pelo conteúdo do esqueleto o faria sumir junto com ele
+  // numa reversão, e guarda que não acha o que conferir sai verde por vacuidade.
+  const cabecalhos = [...texto.matchAll(/^# .+$/gm)];
+  if (cabecalhos.length < 2) {
+    nota('esqueleto-do-template-ausente',
+      `${path.relative(RAIZ, TEMPLATE)} não publica um segundo cabeçalho, e é nele que o esqueleto da ficha vive`);
+  } else {
+    const { titulo, linhaDeNome } = cabecalhoPublicado(texto.slice(cabecalhos[1].index));
+    if (!PAR_EM_NEGRITO.test(linhaDeNome)) {
+      nota('esqueleto-do-template-desatualizado',
+        `${path.relative(RAIZ, TEMPLATE)}\n      o esqueleto prescreve ${JSON.stringify(titulo)}\n` +
+        `      e abaixo dele vem ${JSON.stringify(linhaDeNome)}, e não o par entre asteriscos duplos\n` +
+        '      as fichas publicam a linha de nome desde a segunda onda, e o Template tem de prescrever o que elas praticam');
+    }
+  }
 }
 
 // ── Relatório ────────────────────────────────────────────────────────────────

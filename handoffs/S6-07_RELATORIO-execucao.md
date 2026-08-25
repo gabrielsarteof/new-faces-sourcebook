@@ -362,4 +362,4 @@ Os três são `naruto.tecnica.oiroke`, `naruto.tecnica.kage-bunshin` e `naruto.t
 | a conversão de citação em português | seção 6.4, com a medição e o obstáculo do `Liberação` |
 | a conferência das 438 linhas restantes | passada própria, pelo procedimento do Registro |
 | a migração de `characters.data` | escrita e não aplicada, esperando ambiente com banco |
-| o Template de Documento de Técnica | prescreve `# [Nome em Português] — [Nome em Japonês] (Romanji)`, que a fase 2 substituiu nas 49 fichas. Reportado e não corrigido |
+| ~~o Template de Documento de Técnica~~ | **fechado:** prescrevia `# [Nome em Português] — [Nome em Japonês] (Romanji)`, que a fase 2 substituiu nas 49 fichas. Passou a prescrever o cabeçalho em romaji com a linha de nome, e a catraca de nome de ficha passou a conferir o esqueleto pela mesma leitura que aplica às fichas |
