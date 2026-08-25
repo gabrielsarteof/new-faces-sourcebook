@@ -294,7 +294,7 @@ Gerado a partir dos compêndios e das fichas. Regerar depois de qualquer mudanç
 | Kikizuka | 聞き標 | Marca de Escuta |  | Sensoriamento |  |
 | Kiku Kabe | 聞く壁 | Muro que Escuta |  | Kyūinjutsu |  |
 | Kirigakure no Jutsu | 霧隠れの術 | Técnica da Ocultação na Névoa |  | Suiton |  |
-| Kirin | 麒麟 | Kirin | 麒麟 · Kirin | Raiton |  |
+| Kirin | 麒麟 | Kirin | 麒麟 · Kirin | Raiton | [kirin.md](../techniques/kirin.md) |
 | Kirinuki no Jutsu | 切り抜きの術 | Recorte Simples |  | Inton |  |
 | Kiroku Fūin | 記録封印 | Selo de Registro |  | Fūinjutsu |  |
 | Kishō Tensei | 起死回生 | Reincarnação da Própria Vida |  | Ninjutsu Médico |  |
