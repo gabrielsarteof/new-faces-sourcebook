@@ -42,7 +42,7 @@ Nenhuma perícia elemental é exigida. A técnica não converte natureza em mome
 
 A técnica está na camada Assinatura Pessoal em estado de Autoria Aberta. O criador canônico não existe nesta linha do tempo, e ninguém no mundo completou a contenção de uma esfera girada em todas as direções sem casca que a segure. Nenhum personagem inicial adquire o Rasengan na criação.
 
-A entrada se abre a quem cumprir os dois requisitos acima e concluir o processo de criação de técnica. O primeiro personagem que chegar lá torna-se o criador, a entrada passa a Registrada, e a linhagem inteira registrada na Seção 5 da Linhagem do Rasengan passa a existir a partir daquele momento. O Ōdama Rasengan, o Rasenrengan, o Fūton: Rasengan, o Chō Ōdama Rasengan, o Fūton: Rasenshuriken e o Rasengan Evanescente permanecem inacessíveis enquanto o Rasengan não tiver autor.
+A entrada se abre a quem cumprir os dois requisitos acima e concluir o processo de criação de técnica. O primeiro personagem que chegar lá torna-se o criador, a entrada passa a Registrada, e a linhagem inteira registrada na Seção 5 da Linhagem do Rasengan passa a existir a partir daquele momento. O Ōdama Rasengan, o Rasenrengan, o Fūton: Rasengan, o Chōōdama Rasengan, o Fūton: Rasenshuriken e o Rasengan Evanescente permanecem inacessíveis enquanto o Rasengan não tiver autor.
 
 Portador de Sharingan copia a técnica pelas regras da Norma de Produção de Compêndios. A cópia reproduz a moldagem e não concede direito reconhecido sobre a autoria, e o portador ainda precisa cumprir o degrau Absoluto por conta própria, porque o olho lê a forma e não entrega a precisão que a sustenta.
 
@@ -159,7 +159,7 @@ Os valores são [proposta], ancorados na régua de empuxo publicada no caminho L
 | Caminho Modulação | a esfera desce degraus de escala, na figura canônica da execução deliberadamente enfraquecida |
 | Caminho Refino | custo pago no mínimo de 200, sem PS de desperdício |
 | Caminho Simultaneidade | abre o Rasenrengan |
-| Ōdama Rasengan adquirido | abre o Chō Ōdama Rasengan pela linha de escopo |
+| Ōdama Rasengan adquirido | abre o Chōōdama Rasengan pela linha de escopo |
 | Perícia elemental LV5 adquirida | abre a linha de natureza da linhagem |
 
 ---

@@ -167,7 +167,7 @@ Os valores são [proposta], ancorados na régua de empuxo do caminho Lufada da p
 | Caminho Composição, Recomposição | remodelagem entre o Rasengan e esta ficha sem nova execução, com a diferença de custo mínimo aportada no ato |
 | Caminho Modulação | a esfera desce degraus de porte, entregando escopo intermediário entre as duas fichas |
 | Caminho Refino | custo pago no mínimo de 400, sem PS de desperdício |
-| Acesso a pool externo declarado | abre o Chō Ōdama Rasengan |
+| Acesso a pool externo declarado | abre o Chōōdama Rasengan |
 
 ---
 

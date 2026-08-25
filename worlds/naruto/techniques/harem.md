@@ -20,7 +20,7 @@ A combinação direta entre Kage Bunshin e Oiroke, elevando o choque individual 
 
 ## Sobre a Técnica
 
-O Harem no Jutsu não cria nada que o Kage Bunshin e o Oiroke já não criem separadamente. A técnica é a coordenação que veste, no mesmo instante, todos os clones das sombras já ativos do usuário com a forma do Oiroke, produzindo uma multidão idêntica em vez de uma única figura de distração. O efeito sobre quem observa deixa de ser um choque pontual e passa a ser saturação, o tipo de cena que a série usa como recurso cômico de força total contra qualquer alvo masculino em campo.
+O Hāremu no Jutsu não cria nada que o Kage Bunshin e o Oiroke já não criem separadamente. A técnica é a coordenação que veste, no mesmo instante, todos os clones das sombras já ativos do usuário com a forma do Oiroke, produzindo uma multidão idêntica em vez de uma única figura de distração. O efeito sobre quem observa deixa de ser um choque pontual e passa a ser saturação, o tipo de cena que a série usa como recurso cômico de força total contra qualquer alvo masculino em campo.
 
 A técnica depende inteiramente das duas que a precedem. Sem clones ativos para vestir, não existe multidão. Sem o Oiroke, os clones vestem qualquer forma, mas não a forma calibrada para o choque. O Harem é a ponte que aplica a segunda sobre os corpos que a primeira já forneceu, em uma única ação coordenada em vez de uma transformação separada por clone.
 
@@ -36,7 +36,7 @@ A técnica depende inteiramente das duas que a precedem. Sem clones ativos para 
 
 ## Custo de XP
 
-A técnica não possui RC nominal própria relevante. O custo de vestir cada clone já está pago pela criação dele no Kage Bunshin e pela aquisição do Oiroke; o Harem cobra apenas a coordenação de aplicar os dois ao mesmo tempo. O custo de XP corre no piso da faixa do rank B herdado, pela mesma lógica já fechada na Bunshin Daibakuha no Jutsu.
+A técnica não possui RC nominal própria relevante. O custo de vestir cada clone já está pago pela criação dele no Kage Bunshin e pela aquisição do Oiroke; o Harem cobra apenas a coordenação de aplicar os dois ao mesmo tempo. O custo de XP corre no piso da faixa do rank B herdado, pela mesma lógica já fechada na Bunshin Daibakuha.
 
 ```
 XP = piso da faixa de XP do rank B = 3.500

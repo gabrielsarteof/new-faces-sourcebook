@@ -154,7 +154,7 @@ Conjurações de quatro clones por reserva cheia, pareadas com o patamar de Mold
 ## Sinergias
 
 - **Bunshin no Jutsu:** a técnica derivada mais próxima na origem mecânica, e a diferença de substância entre as duas é o próprio ensino de mesa sobre quando pagar o custo maior do clone sólido.
-- **Bunshin Daibakuha no Jutsu:** consome o corpo sólido do Kage Bunshin como base para a variante que detona o clone em vez de apenas desfazê-lo, entrada própria mais adiante nesta leva.
+- **Bunshin Daibakuha:** consome o corpo sólido do Kage Bunshin como base para a variante que detona o clone em vez de apenas desfazê-lo, entrada própria mais adiante nesta leva.
 - **Tajū Kage Bunshin no Jutsu:** herda a mesma fórmula de partição e a estende para além de quatro corpos, carregando o risco de esgotamento que esta ficha não impõe.
 - **Treino paralelo:** a transferência de memória ao desfazer o clone é a base canônica de qualquer regra de progressão de treino que o Mestre queira aplicar fora de combate, um clone por atividade paralela viável na cena.
 - **Reconhecimento de terreno:** clones dispersos que retornam memória simultaneamente substituem exploração lenta por varredura paralela, recurso tático recorrente do cânone em missões de reconhecimento.

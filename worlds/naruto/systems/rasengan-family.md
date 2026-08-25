@@ -43,7 +43,7 @@ Toda ficha da linhagem herda os três valores abaixo e declara apenas o que dive
 | Caminho exigido | Composição, inclinação Moldagem | Perícia de Controle de Chakra, LV4 |
 | Selos de referência | 0 | Perícia de Controle de Chakra, Régua de Interface |
 
-O coeficiente técnico 3,0 é o valor mais alto da tabela e corresponde à técnica que existe pela moldagem. Ele alimenta o `w` da Seção 5.3 do Manual de Criação de Jutsus, que é o termo por onde a maestria domina o dano de toda a família, e não deriva mais a Exigência de Moldagem: pelo Manual de Requisitos de Técnica v2.2, a Exigência é declarada por entrada e não herdada da linhagem, porque volume e escopo mudam o controle que cada variação cobra. As sete fichas publicam valores próprios, ancorados contra o Compêndio de Ninjutsu de Forma e o de Raiton: Rasengan 62, Ōdama Rasengan 66, Rasenrengan 62 por esfera, Chō Ōdama Rasengan 74, Rasengan Evanescente 70 por exceção de piso aprovada.
+O coeficiente técnico 3,0 é o valor mais alto da tabela e corresponde à técnica que existe pela moldagem. Ele alimenta o `w` da Seção 5.3 do Manual de Criação de Jutsus, que é o termo por onde a maestria domina o dano de toda a família, e não deriva mais a Exigência de Moldagem: pelo Manual de Requisitos de Técnica v2.2, a Exigência é declarada por entrada e não herdada da linhagem, porque volume e escopo mudam o controle que cada variação cobra. As sete fichas publicam valores próprios, ancorados contra o Compêndio de Ninjutsu de Forma e o de Raiton: Rasengan 62, Ōdama Rasengan 66, Rasenrengan 62 por esfera, Chōōdama Rasengan 74, Rasengan Evanescente 70 por exceção de piso aprovada.
 
 **O portão de rank da linha sem natureza.** O Manual de Requisitos de Técnica ancora o portão de rank na perícia do domínio da técnica, e as fichas de moldagem pura desta linhagem não possuem domínio elemental que o carregue. O portão delas corre pela Perícia de Controle de Chakra, que é a perícia do único componente que essas fichas empregam, lida contra a mesma tabela universal.
 
@@ -52,7 +52,7 @@ O coeficiente técnico 3,0 é o valor mais alto da tabela e corresponde à técn
 | Rasengan | B | LV4 |
 | Ōdama Rasengan | A | LV5 |
 | Rasenrengan | A | LV5 |
-| Chō Ōdama Rasengan | S | LV6 |
+| Chōōdama Rasengan | S | LV6 |
 
 As fichas de natureza declarada leem o portão de rank na perícia elemental correspondente, pela regra geral, e o Controle de Chakra permanece nelas apenas como dono do degrau de moldagem. Os dois portões correm em paralelo e não se encadeiam.
 
@@ -83,7 +83,7 @@ Cada entrada da linhagem move um eixo e apenas um. A tabela é o contrato da fam
 | Rasenrengan | multiplicidade, de uma obra para duas | A | 1.200 | 0,20 | Impacto | 1,00 |
 | Fūton: Rasengan | natureza e alcance, de contato para projétil | A | 1.500 | 0,16 | Corte, Grau II do Fio | 1,40 |
 | Fūton: Rasenshuriken | letalidade estrutural, de dano em PV para dano no circuito | S | 2.100 | 0,16 | Corte, Grau IV do Fio | 1,40 |
-| Chō Ōdama Rasengan | teto de recurso, da reserva própria para pool externo | S | 2.100 a 3.600 | 0,12 | Impacto | 1,00 |
+| Chōōdama Rasengan | teto de recurso, da reserva própria para pool externo | S | 2.100 a 3.600 | 0,12 | Impacto | 1,00 |
 
 O `mult_Tipo` de cada linha é a Constante de Moldagem multiplicada pela Assinatura do vetor declarado, e a Assinatura vale 1,00 nos três vetores físicos. As quatro fichas sem transformação de natureza resolvem em 1,00 porque a Constante alcança apenas o que a moldagem de natureza produz, e as três que declaram natureza resolvem em 1,40 porque entregam por vetor físico e não por Energia.
 
@@ -93,7 +93,7 @@ A escada guarda proporção declarada contra a base, e é ela que governa qualqu
 
 O Ōdama Rasengan e o Rasenrengan ocupam a mesma RC nominal e o mesmo preço, e a coincidência é estrutural. Dobrar o volume dentro de uma esfera e repartir o mesmo volume em duas esferas custam igual, e a escolha entre os dois é de eixo e não de orçamento.
 
-A elevação de escopo do Ōdama Rasengan é categórica e não percentual, conforme a doutrina do Manual de Criação de Poderes. A elevação de recurso do Chō Ōdama Rasengan consome a regra de pools externos da Reserva de Chakra, na mesma via que o Kirin já usa.
+A elevação de escopo do Ōdama Rasengan é categórica e não percentual, conforme a doutrina do Manual de Criação de Poderes. A elevação de recurso do Chōōdama Rasengan consome a regra de pools externos da Reserva de Chakra, na mesma via que o Kirin já usa.
 
 ---
 
@@ -138,14 +138,14 @@ A cadeia é dura. Nenhuma ficha da linhagem é adquirível sem a ficha imediatam
 ```
 Rasengan
 ├── Ōdama Rasengan
-│   └── Chō Ōdama Rasengan
+│   └── Chōōdama Rasengan
 ├── Rasenrengan
 ├── Fūton: Rasengan
 │   └── Fūton: Rasenshuriken
 └── Rasengan Evanescente
 ```
 
-O Chō Ōdama Rasengan exige o Ōdama Rasengan porque a esfera colossal é a mesma geometria de área alimentada por fonte maior. O Fūton: Rasenshuriken exige o Fūton: Rasengan porque as quatro pontas se formam sobre a esfera já convertida em vento. As demais derivam da base diretamente.
+O Chōōdama Rasengan exige o Ōdama Rasengan porque a esfera colossal é a mesma geometria de área alimentada por fonte maior. O Fūton: Rasenshuriken exige o Fūton: Rasengan porque as quatro pontas se formam sobre a esfera já convertida em vento. As demais derivam da base diretamente.
 
 ---
 
@@ -189,7 +189,7 @@ A camada de acesso e o estado de autoria pertencem à Norma de Produção de Com
 
 O Rasengan permanece em rank B, com RC nominal elevada de 450 para 600 e custo mínimo elevado de 150 para 200, por decisão de calibragem de Gabriel. A leitura de RC nominal governa o rank neste sistema, e 600 mantém a técnica no alto da faixa B sem atravessar o piso da faixa A. A divergência com o rank A do 2º databook fica registrada na ficha da técnica como nota de cânone e não como pendência.
 
-A elevação da base reajustou a escada inteira da linhagem, conforme a tabela da Seção 3, e as sete fichas foram percorridas para preservar a proporção que cada uma guardava contra o Rasengan. O Rasenrengan acompanhou por construção, porque cada esfera dele é a base sem alteração. O Rasengan Evanescente e o Ōdama Rasengan subiram para manter a distância que tinham. O Fūton: Rasengan passou a ocupar o teto exato da faixa A, e o Fūton: Rasenshuriken e o piso do Chō Ōdama Rasengan subiram na mesma razão dentro da faixa S.
+A elevação da base reajustou a escada inteira da linhagem, conforme a tabela da Seção 3, e as sete fichas foram percorridas para preservar a proporção que cada uma guardava contra o Rasengan. O Rasenrengan acompanhou por construção, porque cada esfera dele é a base sem alteração. O Rasengan Evanescente e o Ōdama Rasengan subiram para manter a distância que tinham. O Fūton: Rasengan passou a ocupar o teto exato da faixa A, e o Fūton: Rasenshuriken e o piso do Chōōdama Rasengan subiram na mesma razão dentro da faixa S.
 
 O Fūton: Rasenshuriken custa 27.200 de XP, pela interpolação da Seção 4.1.1 sobre a RC nominal de 2.100. O valor de 38.000 publicado no Compêndio de Fūton veio da matriz de estimativa, que a própria Seção 4.1.3 declara provisória até a ficha existir. A correção vale dali em diante e não retroage sobre quem já pagou.
 

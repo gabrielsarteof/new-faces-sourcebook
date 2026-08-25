@@ -135,7 +135,7 @@ custo pago  = custo mínimo × (1 + desperdício)
 ## Sinergias
 
 - **Kage Bunshin no Jutsu:** base mecânica inteira desta ficha. Nenhuma regra de partição, dispersão ou memória é republicada aqui.
-- **Bunshin Daibakuha no Jutsu:** qualquer clone desta escala maior ainda pode ser detonado pela mesma técnica de explosão, e uma leva de vinte clones representa vinte cargas potenciais em campo.
+- **Bunshin Daibakuha:** qualquer clone desta escala maior ainda pode ser detonado pela mesma técnica de explosão, e uma leva de vinte clones representa vinte cargas potenciais em campo.
 - **Treino paralelo:** a aplicação mais citada do cânone. Uma centena de clones estudando ou treinando em paralelo comprime meses de prática solitária em uma única sessão, e o Mestre que aplicar essa leitura deve ancorar o ganho em Blocos de maturação do Manual Global de Treinamento, nunca em XP direto.
 - **Reconhecimento de terreno em escala de vila:** a busca simultânea por uma área inteira, cada clone cobrindo um setor, é o outro emprego canônico recorrente fora de combate.
 

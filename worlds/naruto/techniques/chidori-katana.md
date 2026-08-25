@@ -11,7 +11,7 @@ source-file: Chidori_Katana_v1.md
 
 # Kusanagi no Tsurugi: Chidorigatana
 **草薙の剣・千鳥刀 · Sabre de Mil Pássaros**
-Kusanagi no Tsurugi: Chidori-tō · Ninjutsu · Bukijutsu · Raiton · Rank A
+Kusanagi no Tsurugi: Chidorigatana · Ninjutsu · Bukijutsu · Raiton · Rank A
 
 ---
 

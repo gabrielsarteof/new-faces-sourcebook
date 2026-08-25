@@ -31,7 +31,7 @@ Quatro alvos resolvidos, três deles com correção a aplicar e um com fronteira
 
 O preço individual de 9.600 permanece intacto, e é ele que a troca conserta. O desconto de vinte e cinco por cento da Seção 7.4 sobre 12.800 devolve exatamente 9.600, que é o número que a cláusula da entrada já afirma. Sobre 15.200 o mesmo desconto devolveria 11.400, e a entrada publicava um total e uma parcela que não se ligavam por conta nenhuma.
 
-### 1.2 Nome da entrada Hiraishin Giri
+### 1.2 Nome da entrada Hiraishingiri
 
 **Localizar:** título e cabeçalho da terceira entrada da categoria.
 

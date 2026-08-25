@@ -20,7 +20,7 @@ A técnica que converte um clone das sombras já existente em uma carga de chakr
 
 ## Sobre a Técnica
 
-O Bunshin Daibakuha no Jutsu não cria nada por si só. A técnica é o gatilho que faz um Kage Bunshin já ativo liberar toda a reserva que carrega em uma única explosão de chakra bruto, no ponto onde o clone se encontra. O corpo que segundos antes lutava, falava ou simplesmente esperava se converte em detonação, e o inimigo que investiu contra o que julgava ser o usuário original recebe o estouro de uma reserva inteira em vez de um golpe físico.
+O Bunshin Daibakuha não cria nada por si só. A técnica é o gatilho que faz um Kage Bunshin já ativo liberar toda a reserva que carrega em uma única explosão de chakra bruto, no ponto onde o clone se encontra. O corpo que segundos antes lutava, falava ou simplesmente esperava se converte em detonação, e o inimigo que investiu contra o que julgava ser o usuário original recebe o estouro de uma reserva inteira em vez de um golpe físico.
 
 O valor tático da técnica nasce da mesma ambiguidade que sustenta o Kage Bunshin. Um clone das sombras é indistinguível do original até o momento em que se desfaz, e transformar essa indistinção em arma ofensiva é o próximo passo natural depois de dominar a clonagem sólida. A técnica não substitui o Kage Bunshin, depende dele. Sem um clone ativo carregando reserva, não existe carga para detonar.
 

@@ -19,7 +19,7 @@ A esfera alimentada por uma reserva que não é a do executante.
 
 ## Sobre a Técnica
 
-O Chō Ōdama Rasengan é o Ōdama Rasengan levado ao porte em que o volume girado deixa de caber em qualquer reserva humana. A rotação, a contenção e a geometria permanecem as da linhagem inteira, e o que muda é a origem do chakra: o executante fornece a moldagem e a fração mínima que a técnica exige para existir, e o volume que produz o porte vem de uma fonte externa declarada.
+O Chōōdama Rasengan é o Ōdama Rasengan levado ao porte em que o volume girado deixa de caber em qualquer reserva humana. A rotação, a contenção e a geometria permanecem as da linhagem inteira, e o que muda é a origem do chakra: o executante fornece a moldagem e a fração mínima que a técnica exige para existir, e o volume que produz o porte vem de uma fonte externa declarada.
 
 A dependência de fonte externa não é uma preferência de estilo. O porte que a técnica alcança excede o Limite de Saída de qualquer circuito humano, e a esfera só se forma porque uma segunda reserva alimenta a moldagem enquanto o executante a contém. O tempo de formação passa a ser governado pela taxa com que essa fonte entrega, e não pela reserva de quem molda.
 
@@ -42,7 +42,7 @@ O preço vem depois. O circuito do executante trabalhou acima do que sustenta du
 
 ## Despertar / Aquisição
 
-A entrada permanece indisponível enquanto o Rasengan não tiver autor e enquanto o Ōdama Rasengan não estiver pago. Cumpridas as duas condições, o Chō Ōdama Rasengan passa a acessível na camada Fechada na Criação, porque a fonte externa exigida não existe em ficha de personagem inicial em circunstância alguma.
+A entrada permanece indisponível enquanto o Rasengan não tiver autor e enquanto o Ōdama Rasengan não estiver pago. Cumpridas as duas condições, o Chōōdama Rasengan passa a acessível na camada Fechada na Criação, porque a fonte externa exigida não existe em ficha de personagem inicial em circunstância alguma.
 
 ---
 

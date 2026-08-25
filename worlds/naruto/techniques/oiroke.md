@@ -112,7 +112,7 @@ custo pago  = 5 × (1 + desperdício)
 
 - **Henge no Jutsu:** a técnica é uma aplicação especializada dele, e qualquer regra de quebra ou de assinatura de chakra que o Henge já publica se aplica aqui sem alteração.
 - **Kage Bunshin no Jutsu:** um clone vestindo o Oiroke multiplica os pontos de choque possíveis na mesma cena, recurso cômico e tático recorrente do cânone.
-- **Harem no Jutsu:** a entrada seguinte desta leva combina o Oiroke com o Kage Bunshin diretamente, elevando o mesmo princípio a escala de área.
+- **Hāremu no Jutsu:** a entrada seguinte desta leva combina o Oiroke com o Kage Bunshin diretamente, elevando o mesmo princípio a escala de área.
 - **Aberturas de combate:** o Atordoamento aplicado converte a distração em iniciativa real. Um aliado posicionado para agir no mesmo instante transforma o choque do observador em dano concreto.
 
 ---
