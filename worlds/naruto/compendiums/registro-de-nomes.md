@@ -1,7 +1,7 @@
 ---
 id: naruto.compendium.registro-de-nomes
 title: "Registro de Nomes"
-version: 2.1
+version: 2.2
 layer: scenario
 scenario: naruto
 type: reference-table
@@ -624,7 +624,7 @@ Cinquenta e três linhas, agrupadas pelo bloco em que fecharam. A fonte é a Nar
 
 ## Divergências registradas
 
-Catorze linhas do recorte divergiam da fonte. Oito alcançam a coluna Romaji e portanto o nome de exibição, o cabeçalho da ficha e o identificador derivado. Seis vivem apenas na coluna Kanji, que sai do escopo porque o campo canônico agora tem casa própria. Uma delas, o Ni no Dan, divergia nas duas colunas, e a parte que alcançava o nome de exibição foi resolvida por decisão de design registrada abaixo.
+Treze linhas do recorte divergiam da fonte, distribuídas em catorze linhas de tabela. Oito alcançam a coluna Romaji e portanto o nome de exibição, o cabeçalho da ficha e o identificador derivado. Seis vivem apenas na coluna Kanji, que sai do escopo porque o campo canônico agora tem casa própria. Duas obras divergiram nas duas colunas, o Raiden e o Ni no Dan. O Raiden é a que ocupa as duas tabelas e responde pela diferença entre treze e catorze. A divergência de coluna Romaji do Ni no Dan foi resolvida por decisão de design registrada abaixo, e por isso ele entra uma vez só nesta contagem.
 
 ### Alcançam a coluna Romaji
 
@@ -672,4 +672,4 @@ Nenhum destes é matéria de nomenclatura, e nenhum foi alterado nesta passada.
 
 **Duas linhas fechadas com reserva.** O Rasenrengan e o Chakura no Ito fecharam pelo corpo do verbete e pelos quadros das entradas derivadas no mesmo domínio, sem que o quadro da entrada base fosse recuperado. Uma consulta dedicada fecha as duas.
 
-**Alcance da propagação.** As nove correções que tocam a coluna Romaji alcançam o cabeçalho das fichas correspondentes, as citações cruzadas nos documentos de sistema e nos compêndios, e o identificador que a derivação produz. O separador de travessão do Hiraishin — Ni no Dan exige regra de normalização ao lado das que já existem para prefixo elemental e sufixo `no Jutsu`.
+**Alcance da propagação.** As oito correções que tocam a coluna Romaji alcançam o cabeçalho das fichas correspondentes, as citações cruzadas nos documentos de sistema e nos compêndios, e o identificador que a derivação produz. O travessão da forma da fonte do Ni no Dan não alcança nenhum dos três, porque a decisão registrada acima o mantém fora da coluna Romaji, e ele não exige regra de normalização nova.
