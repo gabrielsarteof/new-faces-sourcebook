@@ -34,13 +34,17 @@ Comparação que normaliza responde "casariam sob esta lente", que não é a per
 
 ### 1.4 Convenção no lugar de existência — afirmar forma de escrita em vez de resolução
 
-Duas aparições, e a segunda mostra que a forma se disfarça de qualquer coisa.
+Três aparições, e as duas últimas são o mesmo defeito em duas ferramentas, o que mostra que ele viaja com a leitura e não com o leitor.
 
 A catraca da escada dos Oito Portões afirmava que todo degrau começava em `naruto.tecnica.portao-`. Isso passa para qualquer id que siga a convenção e não corresponda a portão nenhum. Era anterior à migração; a migração só a revelou.
 
 A contagem de compêndios do inventário contava `.md` dentro de `compendiums/`. Bastou o Registro de Nomes nascer ali, `type: reference-table`, para a contagem ir de catorze a quinze sem que um compêndio nascesse — e a catraca que existe para acusar entrada perdida teria acusado o contrário.
 
-Pasta não é tipo, prefixo não é existência. Confira a propriedade, não o lugar onde ela costuma morar.
+O leitor de compêndios do pipeline fazia o mesmo, e o defeito voltou por onde ninguém tinha olhado: quando o Registro ganhou as seções de procedência da conferência de romanizações, os nove `### Bloco N` viraram entradas de compêndio, e a conversão passou a ler quinze compêndios e quinhentas entradas. Consertar a contagem do inventário não consertou o pipeline, porque a correção foi pontual e o defeito era de leitura. Virou regra na Seção 9 do `COMPENDIUM_GATES` da aplicação, e alcança toda leitura de conjunto daquele pipeline.
+
+**Pasta não é tipo, prefixo não é existência. Confira a propriedade, não o lugar onde ela costuma morar.** E quando o conserto for trocar um critério por outro, conserte a regra e não a ocorrência: a segunda aparição custou o dobro por ter sido tratada como caso isolado.
+
+**Filtrar por tipo troca um defeito por outro se ninguém olhar o que ficou de fora.** Ler por pasta inclui demais; ler por tipo exclui em silêncio, e um `type` com erro de digitação faz um compêndio de verdade sumir do catálogo sem que nada acuse. O descarte tem de ser nomeado, pela mesma razão da Seção 7: descarte é carga útil, descarte anônimo é o defeito.
 
 ### 1.5 Transformação sobre o vazio — não achar nada e sair verde
 

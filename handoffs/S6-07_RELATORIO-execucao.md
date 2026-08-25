@@ -124,9 +124,25 @@ O recorte publicado junto do número, para a próxima não repetir o erro: arqui
 
 ---
 
-## 5. Fase 4 — a catraca de versão, e nada corrigido
+## 5. Fase 4 — a catraca de versão
 
-Entrega: `tools/check-versao-no-cabecalho.mjs`. **Nenhum arquivo corrigido**, porque a escolha entre alinhar os divergentes e retirar o campo dos cabeçalhos é de Gabriel e está aberta. A guarda sai vermelha de propósito.
+Entrega em duas etapas. A primeira parou antes de corrigir, com a guarda comparando front matter e cabeçalho e saindo vermelha de propósito, porque a escolha era de Gabriel. **A decisão veio: a versão sai do cabeçalho.** A segunda etapa a executou e refez a guarda, que passou a afirmar ausência em vez de igualdade.
+
+Alinhar os catorze consertaria o estado e não a causa. O número escrito em dois lugares é a mesma grandeza mantida à mão nos dois, e ela se separa sozinha na primeira vez que alguém sobe a versão sem lembrar do segundo lugar — que é exatamente o que os catorze eram, todos com o front matter à frente. Ausência exige que um lugar não nasça, e isso não falha por esquecimento.
+
+| | |
+|---|---:|
+| cabeçalhos com versão antes | 22 |
+| retirados | 21 |
+| mantidos, por lista nomeada | 1 |
+
+O mantido é `core/errata-combat-core-v3.md`, cujo `v3` nomeia o Núcleo de Combate que a errata corrige. Retirá-lo apagaria informação real.
+
+Conferido antes de cortar que nada lê o número do H1 fora da própria guarda, e que nenhuma norma manda imprimi-lo: as duas ocorrências em documento normativo eram títulos próprios e não prescrições.
+
+Se o número precisar aparecer na prosa, aparece gerado do front matter na renderização, nunca digitado. É item de aplicação e não bloqueia.
+
+### O que a guarda afirmava antes, e o que afirma agora
 
 **As duas fontes:** o campo `version` do front matter, lido do bloco entre os dois `---`; e o número impresso no primeiro `# ` do corpo, lido por outra expressão e sobre outra fatia. As fatias são disjuntas de propósito — se a segunda pudesse reler o front matter, a independência seria só aparente.
 
@@ -175,9 +191,11 @@ O padrão é uniforme, com o front matter à frente, na maioria por um increment
 
 ### As provas, com o defeito injetado
 
-**Prova 1.** Subido o front matter de `systems/anchoring.md` de 1.1 para 1.2 sem tocar no cabeçalho, a guarda devolve `front matter version: 1.2` contra `cabeçalho v1.1` e nomeia o arquivo, onde antes silenciava. Restaurado.
+Na primeira etapa, com a guarda comparando: subido o front matter de `systems/anchoring.md` de 1.1 para 1.2 sem tocar no cabeçalho, ela devolve `front matter version: 1.2` contra `cabeçalho v1.1` e nomeia o arquivo, onde antes silenciava.
 
-**Prova 2, a guarda sobre a própria lista.** Retirado o `v3` do cabeçalho da errata, a guarda acusa `declarado como versão citada e não publica mais versão no H1: a exceção está obsoleta`. Restaurado.
+Na segunda, com a guarda afirmando ausência: devolvido o `· v1.1` ao Manual de Ancoragem, ela nomeia o arquivo, o cabeçalho e onde a versão vive. E retirado o `v3` do cabeçalho da errata, ela acusa a própria exceção como obsoleta. Os dois estados restaurados.
+
+**Uma nota de método que custou uma repetição.** Restaurar o estado com `git checkout --` desfez também o corte que ainda não estava commitado, e o `anchoring.md` precisou ser cortado duas vezes. Prova sobre trabalho não commitado restaura por edição inversa, nunca por `checkout`.
 
 ---
 
@@ -279,7 +297,13 @@ Segui a terceira, pelo princípio da saída menos destrutiva e mais fácil de de
 
 **Por que ficou fora.** A forma do `title` é decisão aberta desde o `S6-05` §5 e nunca foi tomada. O `title` alimenta o `INDEX`, que é gerado, então a correção é barata em qualquer momento.
 
-### 7.3 O Registro é lido como compêndio pelo conversor da aplicação
+### 7.3 O Registro é lido como compêndio pelo conversor da aplicação — **fechado**
+
+**Resolvido depois deste relatório**, pela saída que esta seção já indicava. O pipeline passou a identificar compêndio pelo `type: compendium` do front matter, e a regra entrou na Seção 9 do `COMPENDIUM_GATES` da aplicação em vez de ficar como conserto pontual, porque é a segunda ferramenta a cair no mesmo defeito. O `METODO.md` registra a terceira aparição em `1.4`.
+
+A troca abriu um risco novo e ele foi fechado junto: ler por tipo pode excluir em silêncio, e um `type` com erro de digitação faria um compêndio de verdade sumir do catálogo. O descarte passou a ser nomeado, com o CLI imprimindo o que ficou de fora e o teste fixando a lista. Provado trocando `compendium` por `compendio` em `yoton.md`: a conversão cai para 13 compêndios e 451 entradas, o descarte aparece pelo nome, e o teste falha.
+
+O registro do caso como ele estava fica abaixo.
 
 **O que é.** `registro-de-nomes.md` vive em `compendiums/`, e o conversor da aplicação lê todo `.md` daquela pasta. A versão 2.1 introduziu nove cabeçalhos `### Bloco N` e `### Alcançam a coluna Romaji` nas seções de procedência e de divergências, e o conversor os lê como entradas de compêndio.
 
@@ -331,10 +355,11 @@ Os três são `naruto.tecnica.oiroke`, `naruto.tecnica.kage-bunshin` e `naruto.t
 
 | | |
 |---|---|
-| a decisão da fase 4 | alinhar os catorze divergentes ou retirar o campo dos vinte e dois cabeçalhos |
+| ~~a decisão da fase 4~~ | **fechada:** a versão saiu do cabeçalho, 21 retirados e 1 mantido |
+| ~~o Registro lido como compêndio~~ | **fechado:** o pipeline identifica pelo tipo, e a regra está na §9 do `COMPENDIUM_GATES` |
 | os oito cabeçalhos de entrada dos compêndios | seção 7.1, com os sete ids que se moveriam |
 | a forma do `title` das fichas | seção 7.2, aberta desde o `S6-05` §5 |
-| o Registro lido como compêndio | seção 7.3, anterior a esta onda |
 | a conversão de citação em português | seção 6.4, com a medição e o obstáculo do `Liberação` |
 | a conferência das 438 linhas restantes | passada própria, pelo procedimento do Registro |
 | a migração de `characters.data` | escrita e não aplicada, esperando ambiente com banco |
+| o Template de Documento de Técnica | prescreve `# [Nome em Português] — [Nome em Japonês] (Romanji)`, que a fase 2 substituiu nas 49 fichas. Reportado e não corrigido |
