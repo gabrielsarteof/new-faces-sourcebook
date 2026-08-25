@@ -9,7 +9,7 @@ status: final
 source-file: Eixo_do_Onmyoton_v1.md
 ---
 
-# Eixo do Onmyōton (陰陽遁) · v1.2
+# Eixo do Onmyōton (陰陽遁)
 As duas naturezas que nascem da proporção entre as metades do chakra, a posição delas fora do ciclo de superação, a entrada delas no motor de dano, a união que as soma e o teto dos Seis Caminhos.
 
 ---

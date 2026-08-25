@@ -9,7 +9,7 @@ status: final
 source-file: Manual_de_Ancoragem_v1.md
 ---
 
-# Manual de Ancoragem · v1.1
+# Manual de Ancoragem
 
 Governa a âncora do RPG Canônico 1:1 de Naruto. Define o que é uma âncora, quais propriedades ela expõe, quem tem direito de inscrever uma e como cada consumidor a lê.
 

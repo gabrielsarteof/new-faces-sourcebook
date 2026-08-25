@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_dos_Oito_Portoes_v1.md
 ---
 
-# Compêndio dos Oito Portões · v1.10
+# Compêndio dos Oito Portões
 
 **八門 · Técnicas do arquétipo de taijutsu puro**
 

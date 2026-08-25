@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Kyuinjutsu_v1.md
 ---
 
-# Compêndio de Kyūinjutsu · v1.6
+# Compêndio de Kyūinjutsu
 **吸引術 · Técnicas nomeadas do ofício da tomada**
 
 **O que mudou na v1.1.** Primeira auditoria completa da Exigência de Moldagem: as 19 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2. As quatro entradas bloqueadas por insumo não implementado (Rinnegan ou Meiton) receberam o número normalmente — a Norma de Produção de Compêndios já manda publicar preço para entrada inerte, e a Exigência segue a mesma regra.

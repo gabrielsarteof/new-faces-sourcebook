@@ -8,7 +8,7 @@ status: final
 source-file: Template_Documento_Tecnica_v3_3.md
 ---
 
-# Template — Documento de Técnica (v4)
+# Template — Documento de Técnica
 
 Guia de como escrever o documento de qualquer técnica ou fenômeno do sistema.
 Cada seção tem uma instrução entre colchetes explicando o que vai ali.

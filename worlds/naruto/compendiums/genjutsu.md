@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_de_Genjutsu_v1.md
 ---
 
-# Compêndio de Genjutsu (幻術) · v1.5
+# Compêndio de Genjutsu (幻術)
 幻術 · Genjutsu
 
 Catálogo das técnicas de ilusão do sistema, organizadas por rank. Cada entrada declara etiqueta editorial, camada de acesso, requisitos de aprendizagem e custo de XP, seguidos da descrição de execução e função tática.

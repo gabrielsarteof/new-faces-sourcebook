@@ -9,7 +9,7 @@ status: final
 source-file: Sistema_Elemental_v8.md, mais a Errata E1 v2
 ---
 
-# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental v9.3
+# Transformação de Natureza (Seishitsu Henka) · Sistema Elemental
 Conversão do chakra nas sete naturezas, a afinidade que o papel revela, as compatibilidades de nascença, a aquisição por treino e as relações de superação em confronto.
 
 ---

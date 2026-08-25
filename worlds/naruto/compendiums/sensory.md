@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Sensoriamento_v1.md
 ---
 
-# Compêndio de Sensoriamento · v1.6
+# Compêndio de Sensoriamento
 
 **O que mudou na v1.2.** Primeira auditoria completa da Exigência de Moldagem: as 36 entradas passaram de degrau nomeado para número contínuo declarado, conforme o Manual de Requisitos de Técnica v2.2.
 

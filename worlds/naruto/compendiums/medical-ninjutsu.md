@@ -9,7 +9,7 @@ status: final
 source-file: Compendio_Ninjutsu_Medico_v2-1.md
 ---
 
-# Compêndio de Ninjutsu Médico · v2.10
+# Compêndio de Ninjutsu Médico
 
 **医療忍術 · Iryō Ninjutsu**
 

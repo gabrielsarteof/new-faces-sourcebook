@@ -8,7 +8,7 @@ type: system
 status: final
 ---
 
-# Treinamento no Mundo Shinobi · v1.2
+# Treinamento no Mundo Shinobi
 
 O Manual Global de Treinamento publica a regra universal do Bloco e exige de cada cenário um documento que a pluga no mundo. Este é o documento de Naruto. Ele enumera os alvos de treino que existem aqui, traduz a escada de Método nas instituições shinobi, cataloga o que só se aprende pela mão de quem já atravessou, e declara como o talento se compra no eixo do chakra.
 
