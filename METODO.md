@@ -10,7 +10,7 @@ Este documento existe porque o método vivia na memória de sessão. Quatro skil
 
 **Verificação que compartilha origem, lente ou fonte com o que verifica não verifica.**
 
-É a única lição desta sessão que apareceu cinco vezes, em cinco camadas diferentes, e cada aparição vestia roupa nova. Elas estão listadas juntas porque separadas ninguém as reconhece como a mesma coisa.
+É a única lição desta sessão que apareceu sete vezes, em sete camadas diferentes, e cada aparição vestia roupa nova. Elas estão listadas juntas porque separadas ninguém as reconhece como a mesma coisa.
 
 ### 1.1 Catraca-espelho — a guarda lê o campo que ela mesma preencheu
 
@@ -49,6 +49,16 @@ A migração do id de técnica quase foi escrita sobre `data.techniques`, porque
 **Transformação que não encontra nada para transformar é indistinguível de transformação bem-sucedida.** Migração, codemod, varredura: nenhuma pode reportar sucesso sobre uma contagem que não declarou antes. Zero linhas alteradas é uma resposta que precisa de motivo.
 
 O que salvou foi ler o `PurchaseTechnique` em vez de confiar no relatório. O que mantém salvo é a migração declarar o alvo: ela conta as ocorrências de `naruto.tecnica.` no texto do documento e compara com o que o caminho reescrito alcança, e diferença aborta.
+
+### 1.6 Número agregado sem a enumeração ao lado
+
+A conferência de romanizações publicou, no fechamento de um bloco, que dezessete linhas estavam fechadas e quarenta abertas. O número correto era dezessete e trinta e seis. O erro foi uma soma que esqueceu duas parcelas, e sobreviveu a duas passadas e a uma aprovação de Gabriel.
+
+Ele morreu no instante em que a contagem virou lista. Escrever as dezessete linhas nominalmente, para que ninguém as reconferisse, obrigou a somá-las de novo, e a soma não bateu.
+
+Contagem sem a enumeração ao lado não é verificável, porque não tem contra o quê ser conferida. Quem lê aceita ou recusa o número inteiro, e recusar número plausível é caro demais para acontecer. É a família da seção 1 pelo avesso: não uma guarda que mente, e sim um dado que nenhuma guarda pode olhar.
+
+**Contagem publicada acompanha a lista que a sustenta**, e as duas ficam no mesmo documento, de modo que uma confira a outra por construção. Vale para todo handoff, todo relatório de varredura e toda medição.
 
 ### A pergunta que fecha a família
 
