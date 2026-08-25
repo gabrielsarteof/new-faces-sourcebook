@@ -9,7 +9,8 @@ status: final
 source-file: Chidori_v4.md
 ---
 
-# Chidori (千鳥)
+# Chidori
+**千鳥**
 Ninjutsu · Raiton · Rank A
 
 ---

@@ -9,7 +9,8 @@ status: final
 source-file: Hiraishin_Giri_v1.md
 ---
 
-# Execução do Deus do Trovão Voador (飛雷神斬り)
+# Hiraishingiri
+**飛雷神斬り · Corte do Deus do Trovão Voador**
 Taijutsu · Ninjutsu Espaço-Tempo · Fūinjutsu · Rank A
 
 A chegada e o golpe ocupando um único ato.

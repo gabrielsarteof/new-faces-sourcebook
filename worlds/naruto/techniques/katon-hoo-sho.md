@@ -9,7 +9,8 @@ status: final
 source-file: HooSho_v1.md
 ---
 
-# Palma da Fênix — Katon: Hōō Shō (火遁・鳳凰掌)
+# Katon: Hōō Shō
+**火遁・鳳凰掌 · Palma da Fênix**
 Ninjutsu · Katon · Rank A
 
 ---

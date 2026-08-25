@@ -10,7 +10,8 @@ source-file: Kai_Liberacao_de_Genjutsu.md
 supersedes: legacy.kai-liberacao-de-genjutsu
 ---
 
-# Liberação — 解 (Kai)
+# Kai
+**解 · Liberação**
 Ninjutsu · Sem natureza elemental · Rank E [Atribuído]
 
 A técnica universal de rompimento de genjutsu, ensinada como fundamento a qualquer shinobi formado.

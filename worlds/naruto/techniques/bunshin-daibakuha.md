@@ -10,7 +10,8 @@ source-file: null
 supersedes: null
 ---
 
-# Técnica da Grande Explosão do Clone — 分身大爆破の術 (Bunshin Daibakuha no Jutsu)
+# Bunshin Daibakuha
+**分身大爆破の術 · Técnica da Grande Explosão do Clone**
 Ninjutsu · Sem natureza elemental · Rank B
 
 A técnica que converte um clone das sombras já existente em uma carga de chakra detonada por comando, transformando o próprio corpo de reposição em armadilha.

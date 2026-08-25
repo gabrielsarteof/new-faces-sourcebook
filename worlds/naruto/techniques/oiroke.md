@@ -10,7 +10,8 @@ source-file: null
 supersedes: null
 ---
 
-# Técnica Sensual — お色気の術 (Oiroke no Jutsu)
+# Oiroke no Jutsu
+**お色気の術 · Técnica Sensual**
 Ninjutsu · Sem natureza elemental · Rank E [Atribuído]
 
 A aplicação mais famosa da camada de atuação do Henge, transformada por Naruto Uzumaki em arma tática de distração.

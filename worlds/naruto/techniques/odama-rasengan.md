@@ -9,7 +9,8 @@ status: final
 source-file: Odama_Rasengan_v1.md
 ---
 
-# Ōdama Rasengan (大玉螺旋丸)
+# Ōdama Rasengan
+**大玉螺旋丸**
 Ninjutsu · sem natureza · Rank A
 
 A esfera levada ao porte em que ela deixa de escolher um alvo.

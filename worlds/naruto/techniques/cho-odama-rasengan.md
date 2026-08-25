@@ -9,7 +9,8 @@ status: final
 source-file: Cho_Odama_Rasengan_v1.md
 ---
 
-# Chō Ōdama Rasengan (超大玉螺旋丸)
+# Chōōdama Rasengan
+**超大玉螺旋丸**
 Ninjutsu · sem natureza · Rank S
 
 A esfera alimentada por uma reserva que não é a do executante.

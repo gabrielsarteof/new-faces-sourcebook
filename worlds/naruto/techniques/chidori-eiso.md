@@ -9,7 +9,8 @@ status: final
 source-file: Chidori_Eiso_v1.md
 ---
 
-# Lança Afiada de Mil Pássaros (千鳥鋭槍)
+# Chidori Eisō
+**千鳥鋭槍 · Lança Afiada de Mil Pássaros**
 Chidori Eisō · Ninjutsu · Raiton · Rank A
 
 ---

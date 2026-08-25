@@ -9,7 +9,8 @@ status: final
 source-file: Gokakyu_v1.md
 ---
 
-# Grande Bola de Fogo — Katon: Gōkakyū no Jutsu (火遁・豪火球の術)
+# Katon: Gōkakyū no Jutsu
+**火遁・豪火球の術 · Grande Bola de Fogo**
 Ninjutsu · Katon · Rank C
 
 ---

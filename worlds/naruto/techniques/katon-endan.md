@@ -9,7 +9,8 @@ status: final
 source-file: Endan_v1.md
 ---
 
-# Bala de Fogo — Endan (火遁・炎弾)
+# Katon: Endan
+**火遁・炎弾 · Bala de Fogo**
 Ninjutsu · Katon · Rank D
 
 ---

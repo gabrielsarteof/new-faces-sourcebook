@@ -9,7 +9,8 @@ status: final
 source-file: Rasenrengan_v1.md
 ---
 
-# Rasenrengan (螺旋連丸)
+# Rasenrengan
+**螺旋連丸**
 Ninjutsu · sem natureza · Rank A
 
 Duas esferas na mesma ação, e a decisão de onde cada uma entra.

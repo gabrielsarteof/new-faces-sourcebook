@@ -9,7 +9,8 @@ status: final
 source-file: Hiraishin_Ni_no_Dan_v1.md
 ---
 
-# Segundo Passo do Deus do Trovão Voador (飛雷神・弐の段)
+# Hiraishin: Ni no Dan
+**飛雷神・弐の段 · Hiraishin — Segundo Passo**
 Ninjutsu Espaço-Tempo · Fūinjutsu · Rank A
 
 O destino que ainda está no ar.

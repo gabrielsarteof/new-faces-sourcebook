@@ -10,7 +10,8 @@ source-file: Henge_no_Jutsu.md
 supersedes: legacy.henge-no-jutsu
 ---
 
-# Técnica da Transformação — 変化の術 (Henge no Jutsu)
+# Henge no Jutsu
+**変化の術 · Técnica da Transformação**
 Ninjutsu · Sem natureza elemental · Rank E
 
 A técnica de disfarce fundamental do repertório shinobi, exigida no exame de graduação da Academia.

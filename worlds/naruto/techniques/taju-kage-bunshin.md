@@ -10,7 +10,8 @@ source-file: null
 supersedes: null
 ---
 
-# Técnica dos Múltiplos Clones das Sombras — 多重影分身の術 (Tajū Kage Bunshin no Jutsu)
+# Tajū Kage Bunshin no Jutsu
+**多重影分身の術 · Técnica dos Múltiplos Clones das Sombras**
 Ninjutsu · Sem natureza elemental · Rank A a Kinjutsu, conforme a quantidade de clones
 
 A escalada do Kage Bunshin no Jutsu além da banda tática, até o ponto em que multiplicar o próprio corpo deixa de ser truque de combate e passa a ser evento capaz de decidir uma guerra sozinho.

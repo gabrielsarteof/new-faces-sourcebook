@@ -9,7 +9,8 @@ status: final
 source-file: Shiden_v1.md
 ---
 
-# Relâmpago Púrpura (紫電)
+# Shiden
+**紫電 · Relâmpago Púrpura**
 Raiton: Shiden · Ninjutsu · Raiton · Rank A · [CANON]
 
 ---

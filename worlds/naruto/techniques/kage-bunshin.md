@@ -10,7 +10,8 @@ source-file: Kage_Bunshin_no_Jutsu.md
 supersedes: legacy.kage-bunshin-no-jutsu
 ---
 
-# Técnica do Clone das Sombras — 影分身の術 (Kage Bunshin no Jutsu)
+# Kage Bunshin no Jutsu
+**影分身の術 · Técnica do Clone das Sombras**
 Ninjutsu · Sem natureza elemental · Rank B
 
 A técnica de clonagem física que separa uma fração real da própria reserva de chakra em corpos autônomos, e que a origem no Pergaminho Selado transformou em símbolo de poder proibido antes de se espalhar pelo repertório shinobi comum.

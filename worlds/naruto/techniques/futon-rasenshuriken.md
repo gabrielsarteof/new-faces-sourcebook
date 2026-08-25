@@ -9,7 +9,8 @@ status: final
 source-file: Futon_Rasenshuriken_v1.md
 ---
 
-# Fūton: Rasenshuriken (風遁・螺旋手裏剣)
+# Fūton: Rasenshuriken
+**風遁・螺旋手裏剣 · Rasenshuriken de Vento**
 Ninjutsu · Fūton · Rank S
 
 O corte que alcança o circuito e não a carne.

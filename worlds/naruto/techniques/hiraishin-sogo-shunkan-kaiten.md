@@ -9,7 +9,8 @@ status: final
 source-file: Hiraishin_Sogo_Shunkan_Kaiten_v1.md
 ---
 
-# Rotação Instantânea Mútua do Deus do Trovão Voador (飛雷神・相互瞬間回転)
+# Hiraishin Goshun Mawashi no Jutsu
+**飛雷神・相互瞬間回転 · Rotação Instantânea Mútua do Hiraishin**
 Ninjutsu Espaço-Tempo · Fūinjutsu · Rank A
 
 A dupla que troca de lugar sem combinar.

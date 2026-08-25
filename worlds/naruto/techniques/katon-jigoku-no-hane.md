@@ -9,7 +9,8 @@ status: final
 source-file: JigokuNoHane_v1.md
 ---
 
-# Penas do Inferno — Katon: Jigoku no Hane (火遁・地獄の羽)
+# Katon: Jigoku no Hane
+**火遁・地獄の羽 · Penas do Inferno**
 Ninjutsu · Katon · Rank A
 
 ---

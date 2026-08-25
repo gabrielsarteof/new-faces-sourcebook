@@ -10,7 +10,8 @@ source-file: Kawarimi_no_Jutsu.md
 supersedes: legacy.kawarimi-no-jutsu
 ---
 
-# Substituição de Corpo — 変わり身の術 (Kawarimi no Jutsu)
+# Kawarimi no Jutsu
+**変わり身の術 · Substituição de Corpo**
 Ninjutsu · Sem natureza elemental · Rank E
 
 A técnica defensiva fundamental do repertório shinobi, ensinada na Academia e presente no exame de graduação.

@@ -9,7 +9,8 @@ status: final
 source-file: HooNoWana_v1.md
 ---
 
-# Laço da Fênix — Katon: Hōō no Wana (火遁・鳳凰の罠)
+# Katon: Hōō no Wana
+**火遁・鳳凰の罠 · Laço da Fênix**
 Ninjutsu · Katon · Rank A
 
 ---

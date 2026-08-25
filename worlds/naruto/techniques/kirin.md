@@ -9,7 +9,8 @@ status: final
 source-file: Kirin_v2.md
 ---
 
-# Kirin (麒麟)
+# Kirin
+**麒麟**
 Ninjutsu · Raiton · Rank S
 
 ---

@@ -10,7 +10,8 @@ source-file: Nawanuke_no_Jutsu.md
 supersedes: legacy.nawanuke-no-jutsu
 ---
 
-# Técnica do Escape de Cordas — 縄抜けの術 (Nawanuke no Jutsu)
+# Nawanuke no Jutsu
+**縄抜けの術 · Técnica do Escape de Cordas**
 Ninjutsu · Sem natureza elemental · Rank E
 
 A técnica de escape fundamental do currículo da Academia.

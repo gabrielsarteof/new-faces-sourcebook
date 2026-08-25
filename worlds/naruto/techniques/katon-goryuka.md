@@ -9,7 +9,8 @@ status: final
 source-file: Goryuka_v1.md
 ---
 
-# Grande Dragão de Fogo — Katon: Gōryūka no Jutsu (火遁・豪龍火の術)
+# Katon: Gōryūka no Jutsu
+**火遁・豪龍火の術 · Grande Dragão de Fogo**
 Ninjutsu · Katon · Rank B
 
 ---

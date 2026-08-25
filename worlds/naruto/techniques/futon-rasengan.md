@@ -9,7 +9,8 @@ status: final
 source-file: Futon_Rasengan_v1.md
 ---
 
-# Fūton: Rasengan (風遁・螺旋丸)
+# Fūton: Rasengan
+**風遁・螺旋丸 · Rasengan de Vento**
 Ninjutsu · Fūton · Rank A
 
 A metade que faltava, resolvida por três moldagens em vez de uma.

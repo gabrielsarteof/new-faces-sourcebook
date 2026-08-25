@@ -9,7 +9,8 @@ status: final
 source-file: RengokuRyusei_v1.md
 ---
 
-# Espiral do Dragão do Purgatório — Katon: Rengoku Ryūsei (火遁・煉獄龍勢)
+# Katon: Rengoku Ryūsei
+**火遁・煉獄龍勢 · Espiral do Dragão do Purgatório**
 Ninjutsu · Katon · Rank S
 
 ---

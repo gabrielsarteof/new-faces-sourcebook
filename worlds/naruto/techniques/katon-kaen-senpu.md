@@ -9,7 +9,8 @@ status: final
 source-file: KaenSenpu_v1.md
 ---
 
-# Turbilhão de Chamas — Katon: Kaen Senpū (火遁・火炎旋風)
+# Katon: Kaen Senpū
+**火遁・火炎旋風 · Turbilhão de Chamas**
 Ninjutsu · Katon · Rank B
 
 ---

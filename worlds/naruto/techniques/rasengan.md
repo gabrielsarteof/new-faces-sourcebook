@@ -9,7 +9,8 @@ status: final
 source-file: Rasengan_v1.md
 ---
 
-# Rasengan (螺旋丸)
+# Rasengan
+**螺旋丸**
 Ninjutsu · sem natureza · Rank B
 
 ---

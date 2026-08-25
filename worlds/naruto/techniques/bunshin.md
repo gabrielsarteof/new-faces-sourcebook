@@ -10,7 +10,8 @@ source-file: Bunshin_no_Jutsu.md
 supersedes: legacy.bunshin-no-jutsu
 ---
 
-# Técnica do Clone — 分身の術 (Bunshin no Jutsu)
+# Bunshin no Jutsu
+**分身の術 · Técnica do Clone**
 Ninjutsu · Sem natureza elemental · Rank E
 
 A técnica de finta fundamental do repertório shinobi, exigida no exame de graduação da Academia.

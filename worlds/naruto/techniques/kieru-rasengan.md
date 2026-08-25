@@ -9,7 +9,8 @@ status: final
 source-file: Kieru_Rasengan_v1.md
 ---
 
-# Rasengan Evanescente (消える螺旋丸)
+# Kieru Rasengan
+**消える螺旋丸 · Rasengan Evanescente**
 Kieru Rasengan · Ninjutsu · Raiton · Rank A
 
 A esfera que o alvo deixa de ver no meio do voo.

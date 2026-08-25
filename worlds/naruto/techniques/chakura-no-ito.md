@@ -10,7 +10,8 @@ source-file: null
 supersedes: null
 ---
 
-# Técnica dos Fios de Chakra — チャクラの糸 (Chakura no Ito)
+# Chakura no Ito
+**チャクラの糸 · Técnica dos Fios de Chakra**
 Ninjutsu · Sem natureza elemental · Rank C
 
 A técnica que estende fios finos de chakra das próprias mãos, base de qualquer manipulação de objeto ou de corpo alheio à distância no repertório shinobi.

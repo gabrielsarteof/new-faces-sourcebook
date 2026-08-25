@@ -9,7 +9,8 @@ status: final
 source-file: Ryuka_v1.md
 ---
 
-# Técnica da Chama do Dragão — Katon: Ryūka no Jutsu (火遁・龍火の術)
+# Katon: Ryūka no Jutsu
+**火遁・龍火の術 · Técnica da Chama do Dragão**
 Ninjutsu · Katon · Rank C
 
 ---

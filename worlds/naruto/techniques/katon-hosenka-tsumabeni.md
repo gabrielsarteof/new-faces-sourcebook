@@ -9,7 +9,8 @@ status: final
 source-file: HosenkaTsumabeni_v1.md
 ---
 
-# Incêndio de Fagulhas de Fênix — Katon: Hōsenka Tsumabeni (火遁・鳳仙花爪紅)
+# Katon: Hōsenka Tsumabeni
+**火遁・鳳仙花爪紅 · Incêndio de Fagulhas de Fênix**
 Ninjutsu · Katon · Rank B
 
 ---

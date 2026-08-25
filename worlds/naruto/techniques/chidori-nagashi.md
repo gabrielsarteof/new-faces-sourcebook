@@ -9,7 +9,8 @@ status: final
 source-file: Chidori_Nagashi_v2.md
 ---
 
-# Corrente de Mil Pássaros (千鳥流し)
+# Chidori Nagashi
+**千鳥流し · Corrente de Mil Pássaros**
 Chidori Nagashi · Ninjutsu · Raiton · Rank A
 
 ---

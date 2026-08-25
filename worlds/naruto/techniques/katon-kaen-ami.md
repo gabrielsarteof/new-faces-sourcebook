@@ -9,7 +9,8 @@ status: final
 source-file: KaenAmi_v1.md
 ---
 
-# Rede de Chamas — Katon: Kaen Ami (火遁・火炎網)
+# Katon: Kaen Ami
+**火遁・火炎網 · Rede de Chamas**
 Ninjutsu · Katon · Rank A
 
 ---

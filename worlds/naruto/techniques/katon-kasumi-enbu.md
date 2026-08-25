@@ -9,7 +9,8 @@ status: final
 source-file: KasumiEnbu_v1.md
 ---
 
-# Dança da Névoa Flamejante — Katon: Kasumi Enbu no Jutsu (火遁・霞炎舞の術)
+# Katon: Kasumi Enbu no Jutsu
+**火遁・霞炎舞の術 · Dança da Névoa Flamejante**
 Ninjutsu · Katon · Rank C
 
 ---

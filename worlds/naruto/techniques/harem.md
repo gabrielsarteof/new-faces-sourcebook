@@ -10,7 +10,8 @@ source-file: null
 supersedes: null
 ---
 
-# Técnica do Harém — ハーレムの術 (Harem no Jutsu)
+# Hāremu no Jutsu
+**ハーレムの術 · Técnica do Harém**
 Ninjutsu · Sem natureza elemental · Rank B
 
 A combinação direta entre Kage Bunshin e Oiroke, elevando o choque individual de uma transformação a evento de área.

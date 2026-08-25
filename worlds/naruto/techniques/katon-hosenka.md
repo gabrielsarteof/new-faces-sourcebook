@@ -9,7 +9,8 @@ status: final
 source-file: Hosenka_v1.md
 ---
 
-# Múltiplas Bolas de Fogo da Fênix — Katon: Hōsenka no Jutsu (火遁・鳳仙花の術)
+# Katon: Hōsenka no Jutsu
+**火遁・鳳仙花の術 · Múltiplas Bolas de Fogo da Fênix**
 Ninjutsu · Katon · Rank D
 
 ---

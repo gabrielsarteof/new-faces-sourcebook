@@ -10,7 +10,8 @@ source-file: Shunshin_no_Jutsu.md
 supersedes: legacy.shunshin-no-jutsu
 ---
 
-# Técnica do Deslocamento Corporal — 瞬身の術 (Shunshin no Jutsu)
+# Shunshin no Jutsu
+**瞬身の術 · Técnica do Deslocamento Corporal**
 Ninjutsu · Sem natureza elemental · Rank D
 
 A técnica de movimento em alta velocidade do repertório shinobi, do reposicionamento tático à chegada que parece teletransporte.

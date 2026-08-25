@@ -9,7 +9,8 @@ status: final
 source-file: Chidori_Katana_v1.md
 ---
 
-# Sabre de Mil Pássaros (草薙の剣・千鳥刀)
+# Kusanagi no Tsurugi: Chidorigatana
+**草薙の剣・千鳥刀 · Sabre de Mil Pássaros**
 Kusanagi no Tsurugi: Chidori-tō · Ninjutsu · Bukijutsu · Raiton · Rank A
 
 ---

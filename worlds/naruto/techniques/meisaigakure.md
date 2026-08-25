@@ -10,7 +10,8 @@ source-file: null
 supersedes: null
 ---
 
-# Técnica da Camuflagem Óptica — 明再隠れの術 (Meisaigakure no Jutsu)
+# Meisaigakure no Jutsu
+**明再隠れの術 · Técnica da Camuflagem Óptica**
 Ninjutsu · Sem natureza elemental · Rank C [Atribuído]
 
 A evolução do princípio do Kakuremino além do manto físico, dobrando a luz diretamente sobre o corpo do usuário em movimento.

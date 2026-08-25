@@ -9,7 +9,8 @@ status: final
 source-file: Takemikazuchi_v1.md
 ---
 
-# Takemikazuchi (建御雷神)
+# Takemikazuchi
+**建御雷神**
 Ninjutsu · Raiton com módulo de Enton · Rank S
 
 ---

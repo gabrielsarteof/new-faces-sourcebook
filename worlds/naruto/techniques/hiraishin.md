@@ -9,7 +9,8 @@ status: final
 source-file: Hiraishin_v1.md
 ---
 
-# Deus do Trovão Voador (飛雷神の術)
+# Hiraishin no Jutsu
+**飛雷神の術 · Deus do Trovão Voador**
 Ninjutsu Espaço-Tempo · Fūinjutsu · Rank S
 
 A travessia que dispensa o espaço entre a partida e a chegada, e que cobra o preço na marca escrita antes.

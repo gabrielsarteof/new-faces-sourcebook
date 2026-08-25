@@ -10,7 +10,8 @@ source-file: null
 supersedes: null
 ---
 
-# Técnica do Manto Oculto — 隠れ蓑の術 (Kakuremino no Jutsu)
+# Kakuremino no Jutsu
+**隠れ蓑の術 · Técnica do Manto Oculto**
 Ninjutsu · Sem natureza elemental · Rank E [Atribuído]
 
 A técnica de camuflagem básica que funde o usuário coberto por um pano ao ambiente ao redor, recurso corriqueiro de vigilância e travessura no repertório shinobi de nível inicial.

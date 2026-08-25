@@ -9,7 +9,8 @@ status: final
 source-file: Chidori_Senbon_v1.md
 ---
 
-# Agulhas de Mil Pássaros (千鳥千本)
+# Chidori Senbon
+**千鳥千本 · Agulhas de Mil Pássaros**
 Chidori Senbon · Ninjutsu · Raiton · Rank A
 
 ---

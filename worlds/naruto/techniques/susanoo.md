@@ -9,7 +9,8 @@ status: final
 source-file: Susanoo__1_.md
 ---
 
-# Susanoo — (須佐能乎)
+# Susanoo
+**須佐能乎**
 Técnica de Dōjutsu · Mangekyō Sharingan · Capstone Uchiha
 
 Construção de chakra que envolve o usuário como defesa e plataforma de ataque, manifestada em estágios do esqueleto reflexo à entidade colossal.

@@ -10,7 +10,8 @@ source-file: null
 supersedes: null
 ---
 
-# Técnica de Escape Transparente — 透遁の術 (Tōton no Jutsu)
+# Tōton Jutsu
+**透遁の術 · Técnica de Escape Transparente**
 Ninjutsu · Sem natureza elemental · Rank D [Atribuído]
 
 A técnica de invisibilidade verdadeira criada por Jiraiya na juventude, herdada por Hayate Gekkō como recurso de reconhecimento silencioso.

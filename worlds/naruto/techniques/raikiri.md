@@ -9,7 +9,8 @@ status: final
 source-file: Raikiri_v1.md
 ---
 
-# Cortador de Raio (雷切)
+# Raikiri
+**雷切 · Cortador de Raio**
 Raikiri · Ninjutsu · Raiton · Rank S
 
 ---
